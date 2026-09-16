@@ -1,0 +1,96 @@
+{
+  "id": "unity-khai-niem-co-ban",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích GameObject và Component", "situation": "Ứng viên giải thích mối quan hệ giữa GameObject và Component.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain the relationship between GameObject and Component?", "vi": "Bạn giải thích mối quan hệ giữa GameObject và Component được không?" },
+        { "speaker": "b", "en": "A GameObject is a container, and Components add behavior.", "vi": "GameObject là một vật chứa, còn Component thêm hành vi vào đó." },
+        { "speaker": "a", "en": "Can a GameObject have multiple components?", "vi": "Một GameObject có thể có nhiều Component không?" },
+        { "speaker": "b", "en": "Yes, that is the standard composition pattern.", "vi": "Có, đó là mẫu thiết kế thành phần tiêu chuẩn." },
+        { "speaker": "a", "en": "That is a clear explanation.", "vi": "Giải thích rõ ràng đấy." },
+        { "speaker": "b", "en": "It is core to how Unity is structured.", "vi": "Đó là cốt lõi trong cách Unity được cấu trúc." }
+      ]},
+    { "title": "Giải thích Prefab", "situation": "Ứng viên giải thích khái niệm Prefab và lợi ích của nó.",
+      "turns": [
+        { "speaker": "a", "en": "What is a Prefab used for?", "vi": "Prefab được dùng để làm gì?" },
+        { "speaker": "b", "en": "It is a reusable template for GameObjects.", "vi": "Đó là một mẫu tái sử dụng cho GameObject." },
+        { "speaker": "a", "en": "Why is that useful?", "vi": "Vì sao điều đó hữu ích?" },
+        { "speaker": "b", "en": "You can create many instances consistently.", "vi": "Bạn có thể tạo nhiều thực thể một cách nhất quán." },
+        { "speaker": "a", "en": "What happens if you edit the Prefab?", "vi": "Nếu bạn sửa Prefab thì sao?" },
+        { "speaker": "b", "en": "All instances update automatically.", "vi": "Tất cả các thực thể sẽ cập nhật tự động." }
+      ]},
+    { "title": "Giải thích Scene và Hierarchy", "situation": "Ứng viên giải thích khái niệm Scene và Hierarchy.",
+      "turns": [
+        { "speaker": "a", "en": "What is the role of a Scene in Unity?", "vi": "Vai trò của Scene trong Unity là gì?" },
+        { "speaker": "b", "en": "It holds a set of GameObjects for a level or menu.", "vi": "Nó chứa một tập hợp GameObject cho một màn chơi hoặc menu." },
+        { "speaker": "a", "en": "How is the Hierarchy related to that?", "vi": "Hierarchy liên quan thế nào đến điều đó?" },
+        { "speaker": "b", "en": "It shows the parent-child structure of objects in the Scene.", "vi": "Nó hiển thị cấu trúc cha-con của các đối tượng trong Scene." },
+        { "speaker": "a", "en": "Why does that structure matter?", "vi": "Vì sao cấu trúc đó lại quan trọng?" },
+        { "speaker": "b", "en": "It affects transforms and organization.", "vi": "Nó ảnh hưởng đến biến đổi vị trí và tổ chức." }
+      ]},
+    { "title": "Giải thích Rigidbody và Collider", "situation": "Ứng viên giải thích sự khác biệt giữa Rigidbody và Collider.",
+      "turns": [
+        { "speaker": "a", "en": "What is the difference between Rigidbody and Collider?", "vi": "Sự khác biệt giữa Rigidbody và Collider là gì?" },
+        { "speaker": "b", "en": "Rigidbody controls physics simulation, Collider defines shape.", "vi": "Rigidbody kiểm soát mô phỏng vật lý, Collider định nghĩa hình dạng." },
+        { "speaker": "a", "en": "Do you always need both together?", "vi": "Bạn có luôn cần cả hai cùng lúc không?" },
+        { "speaker": "b", "en": "Not always, but for physics interaction, usually yes.", "vi": "Không phải lúc nào, nhưng cho tương tác vật lý thì thường là có." },
+        { "speaker": "a", "en": "That distinction is important.", "vi": "Sự phân biệt đó quan trọng đấy." },
+        { "speaker": "b", "en": "It affects how objects behave in the scene.", "vi": "Nó ảnh hưởng đến cách các đối tượng hành xử trong scene." }
+      ]},
+    { "title": "Giải thích tính kế thừa của script", "situation": "Ứng viên giải thích cách script kế thừa từ MonoBehaviour.",
+      "turns": [
+        { "speaker": "a", "en": "Why do Unity scripts inherit from MonoBehaviour?", "vi": "Vì sao script Unity kế thừa từ MonoBehaviour?" },
+        { "speaker": "b", "en": "It gives access to Unity's lifecycle methods.", "vi": "Nó cho phép truy cập các phương thức vòng đời của Unity." },
+        { "speaker": "a", "en": "Can you give an example of such a method?", "vi": "Bạn cho ví dụ về phương thức như vậy được không?" },
+        { "speaker": "b", "en": "Update, which runs every frame.", "vi": "Update, chạy mỗi khung hình." },
+        { "speaker": "a", "en": "That makes sense for game logic.", "vi": "Vậy hợp lý cho logic game." },
+        { "speaker": "b", "en": "Exactly, it drives most gameplay code.", "vi": "Chính xác, nó chi phối phần lớn code gameplay." }
+      ]},
+    { "title": "Phân biệt asset và instance", "situation": "Ứng viên phân biệt giữa asset gốc và instance trong runtime.",
+      "turns": [
+        { "speaker": "a", "en": "What is the difference between an asset and an instance?", "vi": "Sự khác biệt giữa asset và instance là gì?" },
+        { "speaker": "b", "en": "An asset is the source file, an instance is a runtime copy.", "vi": "Asset là tệp gốc, instance là bản sao trong runtime." },
+        { "speaker": "a", "en": "Does modifying an instance affect the asset?", "vi": "Sửa instance có ảnh hưởng đến asset không?" },
+        { "speaker": "b", "en": "No, unless you explicitly apply changes back.", "vi": "Không, trừ khi bạn chủ động áp dụng thay đổi trở lại." },
+        { "speaker": "a", "en": "That distinction avoids confusion.", "vi": "Sự phân biệt đó tránh nhầm lẫn đấy." },
+        { "speaker": "b", "en": "It is a common source of bugs for beginners.", "vi": "Đó là nguồn lỗi phổ biến cho người mới bắt đầu." }
+      ]},
+    { "title": "Thảo luận về script component tùy chỉnh", "situation": "Ứng viên thảo luận về việc viết script component tùy chỉnh.",
+      "turns": [
+        { "speaker": "a", "en": "How would you create a custom component?", "vi": "Bạn tạo một component tùy chỉnh thế nào?" },
+        { "speaker": "b", "en": "By writing a script that inherits from MonoBehaviour.", "vi": "Bằng cách viết một script kế thừa từ MonoBehaviour." },
+        { "speaker": "a", "en": "Then how do you attach it?", "vi": "Sau đó bạn gắn nó vào thế nào?" },
+        { "speaker": "b", "en": "Drag the script onto a GameObject.", "vi": "Kéo script vào một GameObject." },
+        { "speaker": "a", "en": "That is a straightforward workflow.", "vi": "Đó là quy trình đơn giản đấy." },
+        { "speaker": "b", "en": "It becomes intuitive with practice.", "vi": "Nó trở nên trực quan hơn khi luyện tập." }
+      ]},
+    { "title": "Hỏi về việc truy cập component từ script khác", "situation": "Người phỏng vấn hỏi về cách truy cập component từ script khác.",
+      "turns": [
+        { "speaker": "a", "en": "How would you access another component from a script?", "vi": "Bạn truy cập một component khác từ script thế nào?" },
+        { "speaker": "b", "en": "Using GetComponent to reference it.", "vi": "Dùng GetComponent để tham chiếu tới nó." },
+        { "speaker": "a", "en": "Is there a performance concern with that?", "vi": "Có mối lo ngại về hiệu năng với điều đó không?" },
+        { "speaker": "b", "en": "Yes, so I cache the reference rather than calling it repeatedly.", "vi": "Có, nên tôi lưu tham chiếu thay vì gọi lặp lại." },
+        { "speaker": "a", "en": "That is a good optimization habit.", "vi": "Đó là thói quen tối ưu tốt đấy." },
+        { "speaker": "b", "en": "It avoids unnecessary overhead each frame.", "vi": "Nó tránh chi phí không cần thiết mỗi khung hình." }
+      ]},
+    { "title": "Giải thích cấu trúc phân cấp cha-con", "situation": "Ứng viên giải thích cách cấu trúc phân cấp cha-con ảnh hưởng đến transform.",
+      "turns": [
+        { "speaker": "a", "en": "How does parenting affect a GameObject's position?", "vi": "Việc làm cha-con ảnh hưởng thế nào đến vị trí của GameObject?" },
+        { "speaker": "b", "en": "Child positions become relative to the parent.", "vi": "Vị trí của đối tượng con trở nên tương đối so với đối tượng cha." },
+        { "speaker": "a", "en": "What happens if the parent moves?", "vi": "Nếu đối tượng cha di chuyển thì sao?" },
+        { "speaker": "b", "en": "All children move along with it.", "vi": "Tất cả đối tượng con sẽ di chuyển theo." },
+        { "speaker": "a", "en": "That is useful for grouping objects.", "vi": "Điều đó hữu ích để nhóm các đối tượng lại." },
+        { "speaker": "b", "en": "Exactly, I use it for organizing scenes.", "vi": "Chính xác, tôi dùng nó để tổ chức scene." }
+      ]},
+    { "title": "Giải thích tổng hợp các khái niệm cơ bản trong một tình huống thiết kế phức tạp", "situation": "Ứng viên phải giải thích tổng hợp nhiều khái niệm cơ bản cùng lúc trong một tình huống thiết kế hệ thống phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Design a simple enemy spawner using GameObject, Prefab, and Component concepts together.", "vi": "Thiết kế một hệ thống sinh quái đơn giản kết hợp GameObject, Prefab, và Component." },
+        { "speaker": "b", "en": "I would instantiate enemy Prefabs as children of a spawner GameObject.", "vi": "Tôi sẽ tạo thực thể Prefab kẻ địch làm con của một GameObject sinh quái." },
+        { "speaker": "a", "en": "How would each enemy get its behavior?", "vi": "Mỗi kẻ địch sẽ có hành vi thế nào?" },
+        { "speaker": "b", "en": "Through a Component script inheriting from MonoBehaviour, attached to the Prefab.", "vi": "Thông qua một script Component kế thừa từ MonoBehaviour, gắn vào Prefab." },
+        { "speaker": "a", "en": "And how would they detect the player using Rigidbody and Collider?", "vi": "Và chúng sẽ phát hiện người chơi thế nào bằng Rigidbody và Collider?" },
+        { "speaker": "b", "en": "A trigger Collider on each instance would detect proximity via the physics system.", "vi": "Một Collider dạng trigger trên mỗi thực thể sẽ phát hiện khoảng cách thông qua hệ thống vật lý." }
+      ]}
+  ]
+}

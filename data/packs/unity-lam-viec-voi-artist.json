@@ -1,0 +1,96 @@
+{
+  "id": "unity-lam-viec-voi-artist",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Hỏi về quy trình asset pipeline", "situation": "Lập trình viên hỏi Producer về quy trình asset pipeline.",
+      "turns": [
+        { "speaker": "a", "en": "How does the asset pipeline work here?", "vi": "Asset pipeline ở đây hoạt động thế nào?" },
+        { "speaker": "b", "en": "Artists export files, then we import them into Unity.", "vi": "Nghệ sĩ xuất file, rồi chúng ta nhập chúng vào Unity." },
+        { "speaker": "a", "en": "Is there a naming convention to follow?", "vi": "Có quy ước đặt tên file cần tuân theo không?" },
+        { "speaker": "b", "en": "Yes, it is documented in our shared guide.", "vi": "Có, nó được ghi trong tài liệu hướng dẫn chung của chúng ta." },
+        { "speaker": "a", "en": "That should keep things organized.", "vi": "Điều đó sẽ giữ mọi thứ có tổ chức." },
+        { "speaker": "b", "en": "It has saved us a lot of confusion.", "vi": "Nó đã giúp chúng ta tránh được nhiều nhầm lẫn." }
+      ]},
+    { "title": "Nhắc nhở về file naming convention", "situation": "Producer nhắc nhở lập trình viên về quy ước đặt tên file.",
+      "turns": [
+        { "speaker": "a", "en": "This file does not follow our naming convention.", "vi": "File này không tuân theo quy ước đặt tên của chúng ta." },
+        { "speaker": "b", "en": "Sorry, I will rename it right away.", "vi": "Xin lỗi, tôi sẽ đổi tên ngay." },
+        { "speaker": "a", "en": "What should the correct format be?", "vi": "Định dạng đúng nên là gì?" },
+        { "speaker": "b", "en": "Category, then name, then version number.", "vi": "Danh mục, rồi tên, rồi số phiên bản." },
+        { "speaker": "a", "en": "Thank you for the quick fix.", "vi": "Cảm ơn bạn đã sửa nhanh." },
+        { "speaker": "b", "en": "I will double-check future uploads too.", "vi": "Tôi cũng sẽ kiểm tra kỹ các lần tải lên sau." }
+      ]},
+    { "title": "Yêu cầu commit file lên source control", "situation": "Lập trình viên nhắc artist commit file lên source control.",
+      "turns": [
+        { "speaker": "a", "en": "Could you check in that file to source control?", "vi": "Bạn commit file đó lên source control được không?" },
+        { "speaker": "b", "en": "Sure, I will do that now.", "vi": "Được, giờ tôi sẽ làm." },
+        { "speaker": "a", "en": "Please add a clear commit message too.", "vi": "Vui lòng thêm cả ghi chú commit rõ ràng nữa." },
+        { "speaker": "b", "en": "Got it, I will describe the changes.", "vi": "Rõ rồi, tôi sẽ mô tả các thay đổi." },
+        { "speaker": "a", "en": "That helps everyone track history.", "vi": "Điều đó giúp mọi người theo dõi lịch sử." },
+        { "speaker": "b", "en": "I will make it a habit going forward.", "vi": "Từ giờ tôi sẽ biến nó thành thói quen." }
+      ]},
+    { "title": "Xác nhận phiên bản đã duyệt", "situation": "Lập trình viên xác nhận với Producer về phiên bản asset đã duyệt.",
+      "turns": [
+        { "speaker": "a", "en": "Is this the approved version of the model?", "vi": "Đây có phải phiên bản mô hình đã được duyệt không?" },
+        { "speaker": "b", "en": "Yes, it passed review yesterday.", "vi": "Vâng, nó đã qua duyệt hôm qua." },
+        { "speaker": "a", "en": "Should I import it into the build now?", "vi": "Tôi có nên nhập nó vào bản build ngay bây giờ không?" },
+        { "speaker": "b", "en": "Yes, go ahead and integrate it.", "vi": "Được, bạn cứ tích hợp nó đi." },
+        { "speaker": "a", "en": "I will confirm once it is in.", "vi": "Xong tôi sẽ xác nhận lại." },
+        { "speaker": "b", "en": "Thank you for double-checking first.", "vi": "Cảm ơn bạn đã kiểm tra lại trước." }
+      ]},
+    { "title": "Cảnh báo về việc ghi đè file", "situation": "Lập trình viên cảnh báo về nguy cơ ghi đè file quan trọng.",
+      "turns": [
+        { "speaker": "a", "en": "Be careful, this could overwrite the current version.", "vi": "Cẩn thận, cái này có thể ghi đè phiên bản hiện tại." },
+        { "speaker": "b", "en": "Thanks for the warning, let me check first.", "vi": "Cảm ơn cảnh báo, để tôi kiểm tra trước đã." },
+        { "speaker": "a", "en": "It is best to back it up before replacing.", "vi": "Tốt nhất nên sao lưu trước khi thay thế." },
+        { "speaker": "b", "en": "Good idea, I will do that now.", "vi": "Ý hay, giờ tôi sẽ làm việc đó." },
+        { "speaker": "a", "en": "That avoids losing important work.", "vi": "Điều đó tránh mất công việc quan trọng." },
+        { "speaker": "b", "en": "I appreciate you catching that.", "vi": "Tôi cảm kích vì bạn đã phát hiện điều đó." }
+      ]},
+    { "title": "Bàn về sự phụ thuộc giữa asset", "situation": "Hai người bàn về sự phụ thuộc giữa các asset khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "This texture has a dependency on the shader file.", "vi": "Texture này có sự phụ thuộc vào file shader." },
+        { "speaker": "b", "en": "Should we update both together then?", "vi": "Vậy mình nên cập nhật cả hai cùng lúc không?" },
+        { "speaker": "a", "en": "Yes, to avoid mismatched versions.", "vi": "Vâng, để tránh phiên bản không khớp." },
+        { "speaker": "b", "en": "I will coordinate with the artist on timing.", "vi": "Tôi sẽ phối hợp với nghệ sĩ về thời gian." },
+        { "speaker": "a", "en": "That should prevent broken visuals.", "vi": "Điều đó sẽ ngăn hình ảnh bị lỗi." },
+        { "speaker": "b", "en": "Good coordination avoids a lot of rework.", "vi": "Phối hợp tốt tránh được nhiều việc làm lại." }
+      ]},
+    { "title": "Xử lý phạm vi công việc mở rộng", "situation": "Producer cảnh báo về việc phạm vi công việc bị mở rộng ngoài kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "The artist added extra details beyond the brief.", "vi": "Nghệ sĩ đã thêm chi tiết ngoài yêu cầu ban đầu." },
+        { "speaker": "b", "en": "That could be a sign of scope creep.", "vi": "Điều đó có thể là dấu hiệu phạm vi công việc bị mở rộng." },
+        { "speaker": "a", "en": "How should we handle it?", "vi": "Chúng ta nên xử lý điều đó thế nào?" },
+        { "speaker": "b", "en": "Clarify the original scope before proceeding.", "vi": "Làm rõ phạm vi ban đầu trước khi tiếp tục." },
+        { "speaker": "a", "en": "That should prevent further scope creep.", "vi": "Điều đó sẽ ngăn phạm vi tiếp tục mở rộng." },
+        { "speaker": "b", "en": "I will discuss it with the artist directly.", "vi": "Tôi sẽ trao đổi trực tiếp với nghệ sĩ." }
+      ]},
+    { "title": "Xác định nguồn dữ liệu duy nhất", "situation": "Hai người thảo luận về việc xác định nguồn dữ liệu duy nhất đáng tin cậy.",
+      "turns": [
+        { "speaker": "a", "en": "There are multiple versions of this asset floating around.", "vi": "Có nhiều phiên bản khác nhau của asset này đang tồn tại." },
+        { "speaker": "b", "en": "We need a single source of truth for this.", "vi": "Chúng ta cần một nguồn dữ liệu duy nhất đáng tin cậy cho việc này." },
+        { "speaker": "a", "en": "Should that be the source control repository?", "vi": "Nguồn đó nên là kho lưu trữ source control không?" },
+        { "speaker": "b", "en": "Yes, everyone should pull from there only.", "vi": "Vâng, mọi người chỉ nên lấy từ đó thôi." },
+        { "speaker": "a", "en": "That will eliminate version confusion.", "vi": "Điều đó sẽ loại bỏ nhầm lẫn về phiên bản." },
+        { "speaker": "b", "en": "I will communicate that policy to the team.", "vi": "Tôi sẽ thông báo chính sách đó cho cả nhóm." }
+      ]},
+    { "title": "Hoàn tất bàn giao asset thành công", "situation": "Hai người xác nhận việc bàn giao asset đã hoàn tất thành công.",
+      "turns": [
+        { "speaker": "a", "en": "Has the handoff for this level been completed?", "vi": "Việc bàn giao cho màn chơi này đã hoàn tất chưa?" },
+        { "speaker": "b", "en": "Yes, all assets are checked in and approved.", "vi": "Rồi, tất cả asset đã được commit và duyệt." },
+        { "speaker": "a", "en": "Great, I will integrate them into the build.", "vi": "Tuyệt, tôi sẽ tích hợp chúng vào bản build." },
+        { "speaker": "b", "en": "Let me know if anything looks off.", "vi": "Có gì không ổn cứ báo tôi nhé." },
+        { "speaker": "a", "en": "Will do, thanks for the smooth process.", "vi": "Tôi sẽ báo, cảm ơn vì quy trình suôn sẻ." },
+        { "speaker": "b", "en": "Glad the pipeline worked well this time.", "vi": "Vui vì pipeline hoạt động tốt lần này." }
+      ]},
+    { "title": "Giải quyết xung đột phức tạp về phiên bản asset và phạm vi công việc giữa nhiều bên", "situation": "Producer và lập trình viên phải giải quyết xung đột phức tạp về phiên bản asset không nhất quán và phạm vi công việc bị mở rộng giữa nhiều nghệ sĩ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Two artists uploaded conflicting versions of the same asset, and one added scope beyond the brief.", "vi": "Hai nghệ sĩ đã tải lên các phiên bản xung đột nhau của cùng một asset, và một người thêm phạm vi ngoài yêu cầu ban đầu." },
+        { "speaker": "b", "en": "Let us establish a single source of truth first, before resolving the scope issue.", "vi": "Mình xác định nguồn dữ liệu duy nhất đáng tin cậy trước, rồi mới giải quyết vấn đề phạm vi." },
+        { "speaker": "a", "en": "Which version should we treat as the approved one?", "vi": "Chúng ta nên coi phiên bản nào là đã được duyệt?" },
+        { "speaker": "b", "en": "Whichever was checked in with the correct naming convention and review sign-off.", "vi": "Bất kỳ phiên bản nào được commit đúng quy ước đặt tên và đã được duyệt." },
+        { "speaker": "a", "en": "And the scope creep from the other artist?", "vi": "Còn phạm vi bị mở rộng từ nghệ sĩ kia thì sao?" },
+        { "speaker": "b", "en": "I will clarify the original brief with them directly, and update our dependency documentation to avoid this happening again.", "vi": "Tôi sẽ làm rõ yêu cầu ban đầu trực tiếp với họ, và cập nhật tài liệu phụ thuộc để tránh việc này xảy ra lần nữa." }
+      ]}
+  ]
+}

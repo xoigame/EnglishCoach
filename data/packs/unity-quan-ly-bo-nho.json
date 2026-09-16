@@ -1,0 +1,96 @@
+{
+  "id": "unity-quan-ly-bo-nho",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Phát hiện tăng đột biến bộ nhớ", "situation": "Lập trình viên báo cáo hiện tượng tăng đột biến bộ nhớ.",
+      "turns": [
+        { "speaker": "a", "en": "I noticed a memory spike during gameplay.", "vi": "Tôi nhận thấy tăng đột biến bộ nhớ khi chơi game." },
+        { "speaker": "b", "en": "When exactly does it happen?", "vi": "Chính xác nó xảy ra khi nào?" },
+        { "speaker": "a", "en": "Right when enemies are instantiated.", "vi": "Ngay khi kẻ địch được tạo thực thể." },
+        { "speaker": "b", "en": "That suggests frequent memory allocation.", "vi": "Điều đó gợi ý việc cấp phát bộ nhớ thường xuyên." },
+        { "speaker": "a", "en": "Could object pooling help here?", "vi": "Object pooling có giúp ích ở đây không?" },
+        { "speaker": "b", "en": "Yes, that would be my first recommendation.", "vi": "Có, đó sẽ là khuyến nghị đầu tiên của tôi." }
+      ]},
+    { "title": "Giải thích rác thu gom", "situation": "Lập trình viên giải thích ảnh hưởng của garbage collection.",
+      "turns": [
+        { "speaker": "a", "en": "Why does the frame drop periodically?", "vi": "Vì sao khung hình bị giảm định kỳ vậy?" },
+        { "speaker": "b", "en": "Garbage collection is likely running.", "vi": "Có thể là quá trình thu gom rác đang chạy." },
+        { "speaker": "a", "en": "What triggers that process?", "vi": "Điều gì kích hoạt quá trình đó?" },
+        { "speaker": "b", "en": "Accumulated allocations reaching a threshold.", "vi": "Các cấp phát tích lũy đạt đến ngưỡng." },
+        { "speaker": "a", "en": "How do we reduce those allocations?", "vi": "Chúng ta giảm những cấp phát đó thế nào?" },
+        { "speaker": "b", "en": "By avoiding unnecessary object creation each frame.", "vi": "Bằng cách tránh tạo đối tượng không cần thiết mỗi khung hình." }
+      ]},
+    { "title": "Đề xuất object pooling", "situation": "Lập trình viên đề xuất áp dụng object pooling cho đạn bắn.",
+      "turns": [
+        { "speaker": "a", "en": "Should we pool the bullet objects?", "vi": "Mình có nên tạo pool cho các đối tượng đạn không?" },
+        { "speaker": "b", "en": "Definitely, they are instantiated very frequently.", "vi": "Chắc chắn rồi, chúng được tạo thực thể rất thường xuyên." },
+        { "speaker": "a", "en": "How would pooling change our approach?", "vi": "Pooling sẽ thay đổi cách tiếp cận của chúng ta thế nào?" },
+        { "speaker": "b", "en": "We reuse inactive bullets instead of creating new ones.", "vi": "Chúng ta tái sử dụng đạn không hoạt động thay vì tạo mới." },
+        { "speaker": "a", "en": "That should reduce garbage collection pressure.", "vi": "Điều đó sẽ giảm áp lực thu gom rác." },
+        { "speaker": "b", "en": "Exactly, it is a common pattern for this.", "vi": "Chính xác, đó là mẫu thiết kế phổ biến cho việc này." }
+      ]},
+    { "title": "Thảo luận về việc giải phóng tài nguyên", "situation": "Hai người thảo luận về việc giải phóng tài nguyên đúng cách.",
+      "turns": [
+        { "speaker": "a", "en": "Are we disposing of textures properly?", "vi": "Mình có giải phóng texture đúng cách không?" },
+        { "speaker": "b", "en": "Not always, some references linger too long.", "vi": "Không phải lúc nào, một số tham chiếu tồn tại quá lâu." },
+        { "speaker": "a", "en": "What is the risk of that?", "vi": "Rủi ro của điều đó là gì?" },
+        { "speaker": "b", "en": "Memory usage grows over time.", "vi": "Mức sử dụng bộ nhớ tăng dần theo thời gian." },
+        { "speaker": "a", "en": "We should audit our resource cleanup.", "vi": "Chúng ta nên kiểm tra lại việc dọn dẹp tài nguyên." },
+        { "speaker": "b", "en": "I will start with the level loading code.", "vi": "Tôi sẽ bắt đầu với mã tải màn chơi." }
+      ]},
+    { "title": "Xác định điểm nghẽn bộ nhớ", "situation": "Technical lead yêu cầu xác định điểm nghẽn bộ nhớ.",
+      "turns": [
+        { "speaker": "a", "en": "Where is the memory bottleneck?", "vi": "Điểm nghẽn bộ nhớ ở đâu vậy?" },
+        { "speaker": "b", "en": "The Profiler points to texture loading.", "vi": "Profiler chỉ ra là do tải texture." },
+        { "speaker": "a", "en": "Are textures being loaded multiple times?", "vi": "Texture có bị tải nhiều lần không?" },
+        { "speaker": "b", "en": "Yes, we lack a caching mechanism.", "vi": "Có, chúng ta thiếu cơ chế lưu đệm." },
+        { "speaker": "a", "en": "Adding a cache should help significantly.", "vi": "Thêm bộ đệm sẽ giúp ích đáng kể." },
+        { "speaker": "b", "en": "I will implement that this week.", "vi": "Tuần này tôi sẽ triển khai việc đó." }
+      ]},
+    { "title": "Đánh đổi giữa bộ nhớ và tốc độ", "situation": "Hai người bàn về sự đánh đổi giữa bộ nhớ và tốc độ.",
+      "turns": [
+        { "speaker": "a", "en": "Caching more assets uses more memory though.", "vi": "Tuy nhiên lưu đệm nhiều tài nguyên hơn sẽ tốn nhiều bộ nhớ." },
+        { "speaker": "b", "en": "That is the trade-off we need to weigh.", "vi": "Đó là sự đánh đổi chúng ta cần cân nhắc." },
+        { "speaker": "a", "en": "What is our memory budget for this platform?", "vi": "Ngân sách bộ nhớ của chúng ta cho nền tảng này là bao nhiêu?" },
+        { "speaker": "b", "en": "Around two hundred megabytes for assets.", "vi": "Khoảng hai trăm megabyte cho tài nguyên." },
+        { "speaker": "a", "en": "Let us cache within that limit.", "vi": "Mình lưu đệm trong giới hạn đó nhé." },
+        { "speaker": "b", "en": "I will set a cap accordingly.", "vi": "Tôi sẽ đặt giới hạn theo đó." }
+      ]},
+    { "title": "Kiểm tra bộ nhớ trước khi phát hành", "situation": "Lập trình viên kiểm tra bộ nhớ trước khi phát hành bản build.",
+      "turns": [
+        { "speaker": "a", "en": "Did you profile memory usage before this build?", "vi": "Bạn đã kiểm tra bộ nhớ trước bản build này chưa?" },
+        { "speaker": "b", "en": "Yes, it stayed within our target range.", "vi": "Rồi, nó nằm trong phạm vi mục tiêu của chúng ta." },
+        { "speaker": "a", "en": "Any spikes during level transitions?", "vi": "Có tăng đột biến nào khi chuyển màn chơi không?" },
+        { "speaker": "b", "en": "A small one, but it recovered quickly.", "vi": "Có một chút nhỏ, nhưng phục hồi nhanh." },
+        { "speaker": "a", "en": "That sounds acceptable for release.", "vi": "Vậy có vẻ chấp nhận được để phát hành." },
+        { "speaker": "b", "en": "I will keep monitoring after launch too.", "vi": "Tôi sẽ tiếp tục theo dõi sau khi ra mắt nữa." }
+      ]},
+    { "title": "Xử lý rò rỉ bộ nhớ nghi ngờ", "situation": "Lập trình viên điều tra một rò rỉ bộ nhớ nghi ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "Memory keeps climbing even after gameplay ends.", "vi": "Bộ nhớ vẫn tiếp tục tăng ngay cả sau khi kết thúc chơi." },
+        { "speaker": "b", "en": "That sounds like a potential memory leak.", "vi": "Nghe có vẻ là rò rỉ bộ nhớ tiềm ẩn." },
+        { "speaker": "a", "en": "Where should I start investigating?", "vi": "Tôi nên bắt đầu điều tra từ đâu?" },
+        { "speaker": "b", "en": "Check event subscriptions that are never unsubscribed.", "vi": "Kiểm tra các đăng ký sự kiện không bao giờ được hủy đăng ký." },
+        { "speaker": "a", "en": "That is a common cause, good point.", "vi": "Đó là nguyên nhân phổ biến, ý hay đấy." },
+        { "speaker": "b", "en": "Let me know what the Profiler shows.", "vi": "Cho tôi biết Profiler hiển thị gì nhé." }
+      ]},
+    { "title": "Cải thiện sau khi áp dụng object pooling", "situation": "Hai người đánh giá kết quả sau khi áp dụng object pooling.",
+      "turns": [
+        { "speaker": "a", "en": "How did pooling affect our memory spikes?", "vi": "Pooling ảnh hưởng thế nào đến tăng đột biến bộ nhớ của chúng ta?" },
+        { "speaker": "b", "en": "They dropped dramatically during combat.", "vi": "Chúng giảm mạnh khi chiến đấu." },
+        { "speaker": "a", "en": "Any downside to the pooling approach?", "vi": "Cách tiếp cận pooling có nhược điểm nào không?" },
+        { "speaker": "b", "en": "Slightly more upfront memory usage at start.", "vi": "Sử dụng bộ nhớ ban đầu nhiều hơn một chút lúc khởi động." },
+        { "speaker": "a", "en": "That trade-off seems worthwhile.", "vi": "Sự đánh đổi đó có vẻ đáng giá đấy." },
+        { "speaker": "b", "en": "Overall performance improved noticeably.", "vi": "Hiệu năng tổng thể đã cải thiện rõ rệt." }
+      ]},
+    { "title": "Giải quyết vấn đề bộ nhớ phức tạp với nhiều nguồn cấp phát và giới hạn ngân sách chặt chẽ", "situation": "Lập trình viên phải giải quyết vấn đề bộ nhớ phức tạp với nhiều nguồn cấp phát khác nhau trong khi bị giới hạn ngân sách bộ nhớ chặt chẽ trên di động. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "We are over budget on memory, and three systems contribute allocations.", "vi": "Chúng ta vượt ngân sách bộ nhớ, và ba hệ thống đều góp phần cấp phát." },
+        { "speaker": "b", "en": "Let us profile each separately to find the biggest contributor.", "vi": "Mình kiểm tra riêng từng cái để tìm nguồn đóng góp lớn nhất." },
+        { "speaker": "a", "en": "Particle effects seem to spike memory the most.", "vi": "Hiệu ứng hạt có vẻ gây tăng đột biến bộ nhớ nhiều nhất." },
+        { "speaker": "b", "en": "We could pool those too, alongside enemies and bullets.", "vi": "Mình có thể tạo pool cho cái đó nữa, cùng với kẻ địch và đạn." },
+        { "speaker": "a", "en": "What if pooling everything still exceeds our budget?", "vi": "Nếu pooling tất cả vẫn vượt ngân sách thì sao?" },
+        { "speaker": "b", "en": "Then we reduce the pool sizes as a trade-off and accept a small quality cut on lower-end devices.", "vi": "Thì mình giảm kích thước pool như một sự đánh đổi và chấp nhận giảm nhẹ chất lượng trên thiết bị cấu hình thấp." }
+      ]}
+  ]
+}

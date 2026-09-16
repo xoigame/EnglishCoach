@@ -1,0 +1,96 @@
+{
+  "id": "unity-ui-va-canvas",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích Canvas Scaler", "situation": "Ứng viên giải thích chức năng của Canvas Scaler.",
+      "turns": [
+        { "speaker": "a", "en": "What does the Canvas Scaler do?", "vi": "Canvas Scaler làm gì vậy?" },
+        { "speaker": "b", "en": "It scales UI elements across different screen sizes.", "vi": "Nó co giãn các phần tử UI trên các kích thước màn hình khác nhau." },
+        { "speaker": "a", "en": "Why is that necessary?", "vi": "Vì sao điều đó cần thiết?" },
+        { "speaker": "b", "en": "Devices vary widely in resolution and aspect ratio.", "vi": "Thiết bị có độ phân giải và tỷ lệ khung hình rất khác nhau." },
+        { "speaker": "a", "en": "That makes sense for mobile games.", "vi": "Vậy hợp lý cho game di động." },
+        { "speaker": "b", "en": "It is essential for consistent layout.", "vi": "Nó thiết yếu cho bố cục nhất quán." }
+      ]},
+    { "title": "Giải thích độ phân giải tham chiếu", "situation": "Ứng viên giải thích khái niệm reference resolution.",
+      "turns": [
+        { "speaker": "a", "en": "What is reference resolution used for?", "vi": "Reference resolution được dùng để làm gì?" },
+        { "speaker": "b", "en": "It sets the baseline for how UI scales.", "vi": "Nó thiết lập mốc chuẩn cho cách UI co giãn." },
+        { "speaker": "a", "en": "How do you choose a good value?", "vi": "Bạn chọn giá trị tốt thế nào?" },
+        { "speaker": "b", "en": "Based on the most common target device resolution.", "vi": "Dựa trên độ phân giải thiết bị mục tiêu phổ biến nhất." },
+        { "speaker": "a", "en": "That is a data-driven decision.", "vi": "Đó là quyết định dựa trên dữ liệu đấy." },
+        { "speaker": "b", "en": "It reduces distortion on most devices.", "vi": "Nó giảm biến dạng trên hầu hết thiết bị." }
+      ]},
+    { "title": "Giải thích anchor và pivot", "situation": "Ứng viên giải thích sự khác biệt giữa anchor và pivot.",
+      "turns": [
+        { "speaker": "a", "en": "What is the difference between anchor and pivot?", "vi": "Sự khác biệt giữa anchor và pivot là gì?" },
+        { "speaker": "b", "en": "Anchor defines the reference point in the parent.", "vi": "Anchor định nghĩa điểm tham chiếu trong đối tượng cha." },
+        { "speaker": "a", "en": "And pivot?", "vi": "Còn pivot?" },
+        { "speaker": "b", "en": "Pivot is the rotation and scale origin of the element itself.", "vi": "Pivot là điểm gốc xoay và co giãn của chính phần tử đó." },
+        { "speaker": "a", "en": "That distinction is easy to confuse.", "vi": "Sự phân biệt đó dễ nhầm lẫn đấy." },
+        { "speaker": "b", "en": "It took me time to fully grasp it too.", "vi": "Tôi cũng mất thời gian mới nắm rõ được nó." }
+      ]},
+    { "title": "Thiết kế layout đáp ứng", "situation": "Ứng viên giải thích cách thiết kế layout đáp ứng cho nhiều màn hình.",
+      "turns": [
+        { "speaker": "a", "en": "How do you make a layout responsive?", "vi": "Bạn làm bố cục đáp ứng thế nào?" },
+        { "speaker": "b", "en": "Using anchors relative to screen edges.", "vi": "Dùng anchor tương đối so với cạnh màn hình." },
+        { "speaker": "a", "en": "What if the aspect ratio changes drastically?", "vi": "Nếu tỷ lệ khung hình thay đổi mạnh thì sao?" },
+        { "speaker": "b", "en": "Layout groups help adjust automatically.", "vi": "Layout group giúp điều chỉnh tự động." },
+        { "speaker": "a", "en": "That is a scalable solution.", "vi": "Đó là giải pháp có khả năng mở rộng đấy." },
+        { "speaker": "b", "en": "It saves manual adjustment per device.", "vi": "Nó tiết kiệm điều chỉnh thủ công cho từng thiết bị." }
+      ]},
+    { "title": "Xử lý vùng an toàn trên điện thoại", "situation": "Lập trình viên xử lý vùng an toàn trên điện thoại có notch.",
+      "turns": [
+        { "speaker": "a", "en": "How do you handle the safe area on notched phones?", "vi": "Bạn xử lý vùng an toàn trên điện thoại có notch thế nào?" },
+        { "speaker": "b", "en": "I use Screen.safeArea to adjust the canvas.", "vi": "Tôi dùng Screen.safeArea để điều chỉnh canvas." },
+        { "speaker": "a", "en": "Why is that important?", "vi": "Vì sao điều đó quan trọng?" },
+        { "speaker": "b", "en": "Important UI elements should not be hidden behind the notch.", "vi": "Các phần tử UI quan trọng không nên bị ẩn sau notch." },
+        { "speaker": "a", "en": "That improves usability significantly.", "vi": "Điều đó cải thiện đáng kể khả năng sử dụng." },
+        { "speaker": "b", "en": "It is now standard practice for mobile UI.", "vi": "Giờ đó là thực hành tiêu chuẩn cho UI di động." }
+      ]},
+    { "title": "Đảm bảo tỷ lệ đồng đều", "situation": "Ứng viên giải thích cách đảm bảo tỷ lệ phần tử UI đồng đều.",
+      "turns": [
+        { "speaker": "a", "en": "How do you keep UI elements proportionate?", "vi": "Bạn giữ các phần tử UI cân xứng thế nào?" },
+        { "speaker": "b", "en": "By locking aspect ratio on key components.", "vi": "Bằng cách khóa tỷ lệ khung hình trên các thành phần chính." },
+        { "speaker": "a", "en": "What happens if you do not lock it?", "vi": "Nếu không khóa thì sao?" },
+        { "speaker": "b", "en": "Icons could stretch and look distorted.", "vi": "Biểu tượng có thể bị kéo giãn và trông méo mó." },
+        { "speaker": "a", "en": "That would hurt visual polish.", "vi": "Điều đó sẽ ảnh hưởng đến độ tinh chỉnh hình ảnh." },
+        { "speaker": "b", "en": "Exactly why I always check that setting.", "vi": "Đó chính xác là lý do tôi luôn kiểm tra cài đặt đó." }
+      ]},
+    { "title": "Cải thiện khả năng đọc của UI", "situation": "Ứng viên thảo luận về cách cải thiện khả năng đọc của văn bản UI.",
+      "turns": [
+        { "speaker": "a", "en": "How do you ensure text readability across devices?", "vi": "Bạn đảm bảo văn bản dễ đọc trên các thiết bị thế nào?" },
+        { "speaker": "b", "en": "Testing on the smallest supported screen first.", "vi": "Kiểm tra trên màn hình nhỏ nhất được hỗ trợ trước." },
+        { "speaker": "a", "en": "What if text becomes too small there?", "vi": "Nếu văn bản trở nên quá nhỏ ở đó thì sao?" },
+        { "speaker": "b", "en": "I set a minimum font size constraint.", "vi": "Tôi đặt ràng buộc kích thước phông chữ tối thiểu." },
+        { "speaker": "a", "en": "That protects usability on all devices.", "vi": "Điều đó bảo vệ khả năng sử dụng trên mọi thiết bị." },
+        { "speaker": "b", "en": "Readability should never be compromised.", "vi": "Khả năng đọc không bao giờ nên bị thỏa hiệp." }
+      ]},
+    { "title": "So sánh hai chế độ scale mode", "situation": "Hai người so sánh hai chế độ scale mode khác nhau của Canvas Scaler.",
+      "turns": [
+        { "speaker": "a", "en": "Should we use Scale With Screen Size or Constant Pixel Size?", "vi": "Mình nên dùng Scale With Screen Size hay Constant Pixel Size?" },
+        { "speaker": "b", "en": "Scale With Screen Size for most mobile UI.", "vi": "Scale With Screen Size cho hầu hết UI di động." },
+        { "speaker": "a", "en": "When would Constant Pixel Size make sense?", "vi": "Khi nào Constant Pixel Size hợp lý?" },
+        { "speaker": "b", "en": "For fixed-resolution platforms like some consoles.", "vi": "Cho các nền tảng độ phân giải cố định như một số máy console." },
+        { "speaker": "a", "en": "That clarifies the use case well.", "vi": "Điều đó làm rõ trường hợp sử dụng tốt đấy." },
+        { "speaker": "b", "en": "Context always determines the right choice.", "vi": "Ngữ cảnh luôn quyết định lựa chọn đúng." }
+      ]},
+    { "title": "Gỡ lỗi vấn đề layout bị lệch", "situation": "Lập trình viên gỡ lỗi vấn đề layout bị lệch trên một số thiết bị.",
+      "turns": [
+        { "speaker": "a", "en": "The layout looks broken on some devices.", "vi": "Bố cục trông bị lỗi trên một số thiết bị." },
+        { "speaker": "b", "en": "Are the anchors set correctly on that element?", "vi": "Anchor có được thiết lập đúng trên phần tử đó không?" },
+        { "speaker": "a", "en": "Let me check, actually they are not.", "vi": "Để tôi kiểm tra, thực ra là chưa đúng." },
+        { "speaker": "b", "en": "That explains the inconsistent positioning.", "vi": "Điều đó giải thích vị trí không nhất quán." },
+        { "speaker": "a", "en": "I will fix the anchor presets now.", "vi": "Giờ tôi sẽ sửa lại preset anchor." },
+        { "speaker": "b", "en": "Test it across a few resolutions after.", "vi": "Sau đó kiểm tra trên vài độ phân giải nhé." }
+      ]},
+    { "title": "Thiết kế hệ thống UI đáp ứng phức tạp cho nhiều loại thiết bị và tỷ lệ khung hình khác nhau", "situation": "Ứng viên phải thiết kế một hệ thống UI đáp ứng phức tạp hoạt động tốt trên nhiều loại thiết bị và tỷ lệ khung hình rất khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Design a UI system that works from narrow phones to wide tablets without distortion.", "vi": "Thiết kế một hệ thống UI hoạt động từ điện thoại hẹp đến máy tính bảng rộng mà không bị méo mó." },
+        { "speaker": "b", "en": "I would use Scale With Screen Size with a balanced match value between width and height.", "vi": "Tôi sẽ dùng Scale With Screen Size với giá trị cân bằng giữa chiều rộng và chiều cao." },
+        { "speaker": "a", "en": "How do you keep critical buttons within the safe area on notched devices?", "vi": "Bạn giữ các nút quan trọng trong vùng an toàn trên thiết bị có notch thế nào?" },
+        { "speaker": "b", "en": "Anchoring them relative to Screen.safeArea rather than raw screen edges.", "vi": "Đặt anchor tương đối so với Screen.safeArea thay vì cạnh màn hình thô." },
+        { "speaker": "a", "en": "And how do you keep icons proportionate across all these different ratios?", "vi": "Bạn giữ biểu tượng cân xứng trên tất cả các tỷ lệ khác nhau này thế nào?" },
+        { "speaker": "b", "en": "Locking their aspect ratio with a content size fitter, tested against our smallest and largest reference devices.", "vi": "Khóa tỷ lệ khung hình của chúng bằng content size fitter, kiểm thử với thiết bị tham chiếu nhỏ nhất và lớn nhất." }
+      ]}
+  ]
+}

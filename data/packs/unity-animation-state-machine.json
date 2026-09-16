@@ -1,0 +1,96 @@
+{
+  "id": "unity-animation-state-machine",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích Animator và state machine", "situation": "Ứng viên giải thích mối quan hệ giữa Animator và state machine.",
+      "turns": [
+        { "speaker": "a", "en": "How does the Animator relate to a state machine?", "vi": "Animator liên quan thế nào đến state machine?" },
+        { "speaker": "b", "en": "The Animator component runs the state machine logic.", "vi": "Component Animator thực thi logic của state machine." },
+        { "speaker": "a", "en": "What does a state represent?", "vi": "Một state đại diện cho điều gì?" },
+        { "speaker": "b", "en": "A specific animation, like idle or run.", "vi": "Một hoạt ảnh cụ thể, như đứng yên hoặc chạy." },
+        { "speaker": "a", "en": "That is a clear foundation.", "vi": "Đó là nền tảng rõ ràng đấy." },
+        { "speaker": "b", "en": "It scales well for complex characters too.", "vi": "Nó cũng mở rộng tốt cho nhân vật phức tạp." }
+      ]},
+    { "title": "Giải thích transition giữa các state", "situation": "Ứng viên giải thích cách transition hoạt động giữa các state.",
+      "turns": [
+        { "speaker": "a", "en": "How does a transition work between states?", "vi": "Transition hoạt động thế nào giữa các state?" },
+        { "speaker": "b", "en": "It changes state when a condition is met.", "vi": "Nó thay đổi state khi một điều kiện được đáp ứng." },
+        { "speaker": "a", "en": "What kind of condition, for example?", "vi": "Ví dụ điều kiện kiểu gì?" },
+        { "speaker": "b", "en": "A parameter value crossing a threshold.", "vi": "Giá trị tham số vượt qua một ngưỡng." },
+        { "speaker": "a", "en": "Can transitions have a duration?", "vi": "Transition có thể có thời lượng không?" },
+        { "speaker": "b", "en": "Yes, to blend smoothly between animations.", "vi": "Có, để hòa trộn mượt mà giữa các hoạt ảnh." }
+      ]},
+    { "title": "Giải thích parameter điều khiển state", "situation": "Ứng viên giải thích cách dùng parameter để điều khiển state.",
+      "turns": [
+        { "speaker": "a", "en": "How would you control jumping with a parameter?", "vi": "Bạn điều khiển nhảy bằng parameter thế nào?" },
+        { "speaker": "b", "en": "A trigger parameter fires the jump transition.", "vi": "Một trigger parameter kích hoạt transition nhảy." },
+        { "speaker": "a", "en": "Why use a trigger instead of a boolean?", "vi": "Vì sao dùng trigger thay vì boolean?" },
+        { "speaker": "b", "en": "Triggers reset automatically after firing once.", "vi": "Trigger tự động đặt lại sau khi kích hoạt một lần." },
+        { "speaker": "a", "en": "That avoids manual reset logic.", "vi": "Điều đó tránh logic đặt lại thủ công." },
+        { "speaker": "b", "en": "Exactly, it simplifies the script.", "vi": "Chính xác, nó đơn giản hóa script." }
+      ]},
+    { "title": "Giải thích blend tree", "situation": "Ứng viên giải thích khái niệm blend tree cho chuyển động di chuyển.",
+      "turns": [
+        { "speaker": "a", "en": "What is a blend tree used for?", "vi": "Blend tree được dùng để làm gì?" },
+        { "speaker": "b", "en": "Blending between animations based on a value, like speed.", "vi": "Hòa trộn giữa các hoạt ảnh dựa trên một giá trị, như tốc độ." },
+        { "speaker": "a", "en": "Why is that useful for locomotion?", "vi": "Vì sao điều đó hữu ích cho chuyển động di chuyển?" },
+        { "speaker": "b", "en": "It smoothly transitions from walk to run.", "vi": "Nó chuyển đổi mượt mà từ đi bộ sang chạy." },
+        { "speaker": "a", "en": "That improves visual quality significantly.", "vi": "Điều đó cải thiện đáng kể chất lượng hình ảnh." },
+        { "speaker": "b", "en": "Players notice that responsiveness immediately.", "vi": "Người chơi nhận ra sự phản hồi đó ngay lập tức." }
+      ]},
+    { "title": "Bàn về ngưỡng trong blend tree", "situation": "Ứng viên bàn về việc thiết lập ngưỡng trong blend tree.",
+      "turns": [
+        { "speaker": "a", "en": "How do you set thresholds in a blend tree?", "vi": "Bạn thiết lập ngưỡng trong blend tree thế nào?" },
+        { "speaker": "b", "en": "Based on expected speed values for each animation.", "vi": "Dựa trên giá trị tốc độ dự kiến cho mỗi hoạt ảnh." },
+        { "speaker": "a", "en": "What if thresholds are set incorrectly?", "vi": "Nếu ngưỡng được đặt sai thì sao?" },
+        { "speaker": "b", "en": "Animations blend awkwardly or too abruptly.", "vi": "Hoạt ảnh hòa trộn kỳ cục hoặc quá đột ngột." },
+        { "speaker": "a", "en": "That would hurt the feel of movement.", "vi": "Điều đó sẽ ảnh hưởng đến cảm giác chuyển động." },
+        { "speaker": "b", "en": "Fine-tuning thresholds takes iteration.", "vi": "Tinh chỉnh ngưỡng cần lặp lại nhiều lần." }
+      ]},
+    { "title": "Xử lý độ trễ phản hồi hoạt ảnh", "situation": "Lập trình viên xử lý vấn đề độ trễ trong phản hồi hoạt ảnh.",
+      "turns": [
+        { "speaker": "a", "en": "The jump animation feels delayed.", "vi": "Hoạt ảnh nhảy có cảm giác bị trễ." },
+        { "speaker": "b", "en": "That could be due to a long transition duration.", "vi": "Có thể do thời lượng transition quá dài." },
+        { "speaker": "a", "en": "How would you make it more responsive?", "vi": "Bạn sẽ làm nó phản hồi nhanh hơn thế nào?" },
+        { "speaker": "b", "en": "Shorten the transition time significantly.", "vi": "Rút ngắn đáng kể thời gian transition." },
+        { "speaker": "a", "en": "Would that affect smoothness?", "vi": "Điều đó có ảnh hưởng độ mượt mà không?" },
+        { "speaker": "b", "en": "Slightly, it is a trade-off worth testing.", "vi": "Một chút, đó là sự đánh đổi đáng để kiểm tra." }
+      ]},
+    { "title": "Thiết kế state machine cho chiến đấu", "situation": "Ứng viên thiết kế state machine cho hệ thống chiến đấu.",
+      "turns": [
+        { "speaker": "a", "en": "How would you structure a combat state machine?", "vi": "Bạn sẽ cấu trúc state machine chiến đấu thế nào?" },
+        { "speaker": "b", "en": "Separate states for attack, block, and stagger.", "vi": "Các state riêng biệt cho tấn công, đỡ đòn, và choáng váng." },
+        { "speaker": "a", "en": "How do you prevent invalid transitions?", "vi": "Bạn ngăn transition không hợp lệ thế nào?" },
+        { "speaker": "b", "en": "Using guard conditions on each transition.", "vi": "Dùng điều kiện bảo vệ trên mỗi transition." },
+        { "speaker": "a", "en": "That keeps the system predictable.", "vi": "Điều đó giữ hệ thống có thể dự đoán được." },
+        { "speaker": "b", "en": "Predictability matters a lot in combat games.", "vi": "Khả năng dự đoán rất quan trọng trong game chiến đấu." }
+      ]},
+    { "title": "Bàn về sự đánh đổi giữa độ phức tạp và bảo trì", "situation": "Hai người bàn về sự đánh đổi khi state machine trở nên phức tạp.",
+      "turns": [
+        { "speaker": "a", "en": "This state machine is getting quite complex.", "vi": "State machine này đang trở nên khá phức tạp." },
+        { "speaker": "b", "en": "That is the trade-off of supporting many combat moves.", "vi": "Đó là sự đánh đổi khi hỗ trợ nhiều chiêu chiến đấu." },
+        { "speaker": "a", "en": "How do we keep it maintainable?", "vi": "Chúng ta giữ nó dễ bảo trì thế nào?" },
+        { "speaker": "b", "en": "Grouping related states into sub-state machines.", "vi": "Nhóm các state liên quan vào sub-state machine." },
+        { "speaker": "a", "en": "That should improve organization.", "vi": "Điều đó sẽ cải thiện tổ chức đấy." },
+        { "speaker": "b", "en": "It also makes debugging much easier.", "vi": "Nó cũng làm gỡ lỗi dễ dàng hơn nhiều." }
+      ]},
+    { "title": "Đánh giá hiệu quả sau tinh chỉnh", "situation": "Hai người đánh giá hiệu quả sau khi tinh chỉnh animation.",
+      "turns": [
+        { "speaker": "a", "en": "How does the locomotion feel now?", "vi": "Chuyển động di chuyển bây giờ cảm giác thế nào?" },
+        { "speaker": "b", "en": "Much more responsive after the blend tree fix.", "vi": "Phản hồi tốt hơn nhiều sau khi sửa blend tree." },
+        { "speaker": "a", "en": "Any remaining issues?", "vi": "Còn vấn đề gì tồn đọng không?" },
+        { "speaker": "b", "en": "Minor blending at very low speeds.", "vi": "Hòa trộn nhỏ ở tốc độ rất thấp." },
+        { "speaker": "a", "en": "That is a minor issue to polish later.", "vi": "Đó là vấn đề nhỏ để hoàn thiện sau." },
+        { "speaker": "b", "en": "Overall, it feels much better now.", "vi": "Nhìn chung, giờ nó cảm giác tốt hơn nhiều." }
+      ]},
+    { "title": "Thiết kế hệ thống animation phức tạp cho nhân vật với nhiều trạng thái chiến đấu và di chuyển kết hợp", "situation": "Ứng viên phải thiết kế một hệ thống animation phức tạp kết hợp cả trạng thái chiến đấu và di chuyển với nhiều điều kiện transition. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Design a state machine that handles locomotion blending while also supporting combat interruptions.", "vi": "Thiết kế một state machine xử lý hòa trộn di chuyển trong khi vẫn hỗ trợ ngắt quãng chiến đấu." },
+        { "speaker": "b", "en": "I would use a blend tree for locomotion, nested inside a sub-state machine.", "vi": "Tôi sẽ dùng blend tree cho di chuyển, lồng bên trong một sub-state machine." },
+        { "speaker": "a", "en": "How does an attack trigger interrupt that locomotion blend cleanly?", "vi": "Trigger tấn công ngắt quãng việc hòa trộn di chuyển đó một cách gọn gàng thế nào?" },
+        { "speaker": "b", "en": "A trigger parameter with a guard condition transitions out, regardless of current blend value.", "vi": "Một trigger parameter với điều kiện bảo vệ sẽ chuyển ra ngoài, bất kể giá trị hòa trộn hiện tại." },
+        { "speaker": "a", "en": "What about the trade-off between responsiveness and smooth blending back afterward?", "vi": "Còn sự đánh đổi giữa độ phản hồi và hòa trộn mượt mà trở lại sau đó thì sao?" },
+        { "speaker": "b", "en": "A short transition duration back to locomotion, tuned through iteration to feel snappy but not jarring.", "vi": "Một thời lượng transition ngắn trở lại di chuyển, được tinh chỉnh qua nhiều lần lặp để cảm giác nhanh nhẹn nhưng không đột ngột." }
+      ]}
+  ]
+}

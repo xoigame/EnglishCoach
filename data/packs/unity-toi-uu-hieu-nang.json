@@ -1,0 +1,96 @@
+{
+  "id": "unity-toi-uu-hieu-nang",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Xác định số lượng draw call cao", "situation": "Lập trình viên báo cáo số lượng draw call cao.",
+      "turns": [
+        { "speaker": "a", "en": "Our draw call count is quite high.", "vi": "Số lượng draw call của chúng ta khá cao." },
+        { "speaker": "b", "en": "I noticed that in the Profiler too.", "vi": "Tôi cũng để ý thấy điều đó trong Profiler." },
+        { "speaker": "a", "en": "What is causing so many calls?", "vi": "Điều gì gây ra nhiều lệnh vẽ như vậy?" },
+        { "speaker": "b", "en": "Too many unique material variants.", "vi": "Quá nhiều biến thể vật liệu độc nhất." },
+        { "speaker": "a", "en": "Could batching help here?", "vi": "Gộp lô có giúp ích ở đây không?" },
+        { "speaker": "b", "en": "Yes, static batching should reduce it significantly.", "vi": "Có, gộp lô tĩnh sẽ giảm đáng kể." }
+      ]},
+    { "title": "Xác định điểm nghẽn hiệu năng", "situation": "Technical lead yêu cầu xác định điểm nghẽn hiệu năng.",
+      "turns": [
+        { "speaker": "a", "en": "Where is the bottleneck in this scene?", "vi": "Điểm nghẽn trong scene này ở đâu vậy?" },
+        { "speaker": "b", "en": "The Profiler shows rendering overhead is highest.", "vi": "Profiler cho thấy chi phí render là cao nhất." },
+        { "speaker": "a", "en": "Which frame did you analyze?", "vi": "Bạn đã phân tích khung hình nào?" },
+        { "speaker": "b", "en": "A representative frame during heavy combat.", "vi": "Một khung hình đại diện trong lúc chiến đấu nặng." },
+        { "speaker": "a", "en": "That is the right approach.", "vi": "Đó là cách tiếp cận đúng đấy." },
+        { "speaker": "b", "en": "It gives us the worst-case scenario data.", "vi": "Nó cho chúng ta dữ liệu tình huống xấu nhất." }
+      ]},
+    { "title": "Dùng Frame Debugger để phân tích", "situation": "Lập trình viên dùng Frame Debugger để phân tích draw call.",
+      "turns": [
+        { "speaker": "a", "en": "Have you used Frame Debugger on this?", "vi": "Bạn đã dùng Frame Debugger cho cái này chưa?" },
+        { "speaker": "b", "en": "Yes, it shows each draw call step by step.", "vi": "Rồi, nó hiển thị từng lệnh vẽ theo từng bước." },
+        { "speaker": "a", "en": "What did you find?", "vi": "Bạn tìm thấy gì?" },
+        { "speaker": "b", "en": "Several UI elements are not being batched.", "vi": "Vài phần tử UI không được gộp lô." },
+        { "speaker": "a", "en": "That explains the overhead.", "vi": "Điều đó giải thích chi phí phát sinh đấy." },
+        { "speaker": "b", "en": "I will fix the canvas structure to allow batching.", "vi": "Tôi sẽ sửa cấu trúc canvas để cho phép gộp lô." }
+      ]},
+    { "title": "Thảo luận về đánh đổi khi tối ưu", "situation": "Hai người thảo luận về sự đánh đổi khi tối ưu hiệu năng.",
+      "turns": [
+        { "speaker": "a", "en": "Reducing draw calls might lower visual quality.", "vi": "Giảm draw call có thể làm giảm chất lượng hình ảnh." },
+        { "speaker": "b", "en": "That is the trade-off we need to accept.", "vi": "Đó là sự đánh đổi chúng ta cần chấp nhận." },
+        { "speaker": "a", "en": "How much quality would we lose?", "vi": "Chúng ta sẽ mất bao nhiêu chất lượng?" },
+        { "speaker": "b", "en": "Minimal, if we merge similar materials carefully.", "vi": "Rất ít, nếu chúng ta gộp các vật liệu tương tự cẩn thận." },
+        { "speaker": "a", "en": "That sounds like an acceptable compromise.", "vi": "Nghe có vẻ là thỏa hiệp chấp nhận được đấy." },
+        { "speaker": "b", "en": "Performance should come first for mobile.", "vi": "Hiệu năng nên được ưu tiên hàng đầu cho di động." }
+      ]},
+    { "title": "Kiểm tra hiệu năng bằng Profiler", "situation": "Technical lead yêu cầu kiểm tra hiệu năng bằng Profiler trước khi phát hành.",
+      "turns": [
+        { "speaker": "a", "en": "Did you profile this build before submitting?", "vi": "Bạn đã dùng Profiler kiểm tra bản build này trước khi nộp chưa?" },
+        { "speaker": "b", "en": "Yes, frame rate stayed above sixty consistently.", "vi": "Rồi, tốc độ khung hình luôn giữ trên sáu mươi." },
+        { "speaker": "a", "en": "What about the loading screen?", "vi": "Còn màn hình tải thì sao?" },
+        { "speaker": "b", "en": "That spiked briefly, but recovered quickly.", "vi": "Có tăng đột biến ngắn, nhưng phục hồi nhanh." },
+        { "speaker": "a", "en": "That is acceptable for now.", "vi": "Vậy tạm chấp nhận được." },
+        { "speaker": "b", "en": "I will keep monitoring it closely.", "vi": "Tôi sẽ tiếp tục theo dõi sát sao." }
+      ]},
+    { "title": "Đề xuất gộp lô tĩnh", "situation": "Lập trình viên đề xuất áp dụng gộp lô tĩnh cho các đối tượng không di chuyển.",
+      "turns": [
+        { "speaker": "a", "en": "Could static batching help with these background objects?", "vi": "Gộp lô tĩnh có giúp ích với các đối tượng nền này không?" },
+        { "speaker": "b", "en": "Yes, since they never move.", "vi": "Có, vì chúng không bao giờ di chuyển." },
+        { "speaker": "a", "en": "How much would that reduce draw calls?", "vi": "Điều đó sẽ giảm draw call bao nhiêu?" },
+        { "speaker": "b", "en": "Roughly forty percent, based on similar scenes.", "vi": "Khoảng bốn mươi phần trăm, dựa trên các scene tương tự." },
+        { "speaker": "a", "en": "That is a meaningful improvement.", "vi": "Đó là sự cải thiện có ý nghĩa đấy." },
+        { "speaker": "b", "en": "I will implement it this sprint.", "vi": "Tôi sẽ triển khai trong sprint này." }
+      ]},
+    { "title": "Xử lý vấn đề biến thể vật liệu", "situation": "Lập trình viên xử lý vấn đề quá nhiều biến thể vật liệu.",
+      "turns": [
+        { "speaker": "a", "en": "Why do we have so many material variants?", "vi": "Vì sao chúng ta có nhiều biến thể vật liệu như vậy?" },
+        { "speaker": "b", "en": "Each character has a slightly different color tint.", "vi": "Mỗi nhân vật có màu sắc hơi khác nhau." },
+        { "speaker": "a", "en": "Could we use a shared material with a property block instead?", "vi": "Mình có thể dùng vật liệu chung với property block thay vào đó không?" },
+        { "speaker": "b", "en": "Yes, that would avoid creating new materials.", "vi": "Được, điều đó sẽ tránh việc tạo vật liệu mới." },
+        { "speaker": "a", "en": "That should reduce our overhead significantly.", "vi": "Điều đó sẽ giảm đáng kể chi phí của chúng ta." },
+        { "speaker": "b", "en": "I will refactor the character shader setup.", "vi": "Tôi sẽ tái cấu trúc thiết lập shader nhân vật." }
+      ]},
+    { "title": "Bàn về việc chọn khung hình đại diện", "situation": "Hai người bàn về cách chọn khung hình đại diện để phân tích.",
+      "turns": [
+        { "speaker": "a", "en": "Which frame should we profile?", "vi": "Chúng ta nên phân tích khung hình nào?" },
+        { "speaker": "b", "en": "The busiest one, during the boss fight.", "vi": "Khung hình bận rộn nhất, trong lúc đánh boss." },
+        { "speaker": "a", "en": "Why is that the right choice?", "vi": "Vì sao đó là lựa chọn đúng?" },
+        { "speaker": "b", "en": "It represents our worst-case rendering load.", "vi": "Nó đại diện cho tải render trong tình huống xấu nhất." },
+        { "speaker": "a", "en": "That gives us a reliable benchmark.", "vi": "Điều đó cho chúng ta một mốc chuẩn đáng tin cậy." },
+        { "speaker": "b", "en": "Optimizing for that covers most other scenarios too.", "vi": "Tối ưu cho tình huống đó cũng bao phủ hầu hết các trường hợp khác." }
+      ]},
+    { "title": "Đánh giá kết quả sau tối ưu", "situation": "Hai người đánh giá kết quả sau khi hoàn thành tối ưu.",
+      "turns": [
+        { "speaker": "a", "en": "How much did we improve draw calls?", "vi": "Chúng ta đã cải thiện draw call bao nhiêu?" },
+        { "speaker": "b", "en": "From two hundred down to eighty.", "vi": "Từ hai trăm giảm xuống còn tám mươi." },
+        { "speaker": "a", "en": "That is a significant reduction.", "vi": "Đó là sự giảm đáng kể đấy." },
+        { "speaker": "b", "en": "Frame rate improved by fifteen frames per second.", "vi": "Tốc độ khung hình cải thiện thêm mười lăm khung hình mỗi giây." },
+        { "speaker": "a", "en": "Great work on this optimization pass.", "vi": "Làm tốt lắm với đợt tối ưu này." },
+        { "speaker": "b", "en": "The batching changes made the biggest difference.", "vi": "Thay đổi gộp lô tạo ra sự khác biệt lớn nhất." }
+      ]},
+    { "title": "Chẩn đoán và giải quyết vấn đề hiệu năng phức tạp với nhiều nguyên nhân chồng chéo", "situation": "Lập trình viên phải chẩn đoán và giải quyết vấn đề hiệu năng phức tạp với nhiều nguyên nhân chồng chéo cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Frame rate drops during combat, but the Profiler shows multiple spikes across different systems.", "vi": "Tốc độ khung hình giảm khi chiến đấu, nhưng Profiler cho thấy nhiều tăng đột biến ở các hệ thống khác nhau." },
+        { "speaker": "b", "en": "Let us isolate them, the biggest spike is in rendering overhead.", "vi": "Mình tách riêng ra, tăng đột biến lớn nhất là ở chi phí render." },
+        { "speaker": "a", "en": "Is that from draw calls or material variants?", "vi": "Cái đó là từ draw call hay biến thể vật liệu?" },
+        { "speaker": "b", "en": "Both, actually, the Frame Debugger shows unbatched UI and duplicate materials.", "vi": "Thực ra là cả hai, Frame Debugger cho thấy UI không gộp lô và vật liệu trùng lặp." },
+        { "speaker": "a", "en": "What is the trade-off if we fix both at once?", "vi": "Đánh đổi là gì nếu mình sửa cả hai cùng lúc?" },
+        { "speaker": "b", "en": "More development time now, but it addresses the true bottleneck instead of a symptom.", "vi": "Tốn thêm thời gian phát triển bây giờ, nhưng giải quyết được điểm nghẽn thực sự thay vì chỉ triệu chứng." }
+      ]}
+  ]
+}

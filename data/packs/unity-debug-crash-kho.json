@@ -1,0 +1,96 @@
+{
+  "id": "unity-debug-crash-kho",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mô tả một lỗi crash không liên tục", "situation": "Ứng viên mô tả cách xử lý một lỗi crash không liên tục.",
+      "turns": [
+        { "speaker": "a", "en": "How would you handle an intermittent crash?", "vi": "Bạn xử lý một lỗi crash không liên tục thế nào?" },
+        { "speaker": "b", "en": "First, I try to reproduce it consistently.", "vi": "Đầu tiên, tôi cố tái hiện nó một cách nhất quán." },
+        { "speaker": "a", "en": "What if you cannot reproduce it easily?", "vi": "Nếu bạn không thể tái hiện dễ dàng thì sao?" },
+        { "speaker": "b", "en": "I add logging around the suspected area.", "vi": "Tôi thêm ghi log xung quanh khu vực nghi ngờ." },
+        { "speaker": "a", "en": "That is a methodical approach.", "vi": "Đó là cách tiếp cận có phương pháp đấy." },
+        { "speaker": "b", "en": "Patience is key with these bugs.", "vi": "Kiên nhẫn là chìa khóa với những lỗi này." }
+      ]},
+    { "title": "Phân tích stack trace", "situation": "Ứng viên giải thích cách phân tích stack trace từ báo cáo crash.",
+      "turns": [
+        { "speaker": "a", "en": "What does a stack trace tell you?", "vi": "Stack trace cho bạn biết điều gì?" },
+        { "speaker": "b", "en": "The sequence of calls leading to the crash.", "vi": "Chuỗi các lệnh gọi dẫn đến crash." },
+        { "speaker": "a", "en": "How do you use that information?", "vi": "Bạn dùng thông tin đó thế nào?" },
+        { "speaker": "b", "en": "I trace backward to find the root cause.", "vi": "Tôi lần ngược lại để tìm nguyên nhân gốc rễ." },
+        { "speaker": "a", "en": "That is the standard debugging process.", "vi": "Đó là quy trình gỡ lỗi tiêu chuẩn đấy." },
+        { "speaker": "b", "en": "It saves a lot of guesswork.", "vi": "Nó tiết kiệm rất nhiều việc đoán mò." }
+      ]},
+    { "title": "Điều tra rò rỉ bộ nhớ nghi ngờ", "situation": "Ứng viên giải thích cách điều tra một rò rỉ bộ nhớ nghi ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "How would you investigate a suspected memory leak?", "vi": "Bạn điều tra một rò rỉ bộ nhớ nghi ngờ thế nào?" },
+        { "speaker": "b", "en": "I check the memory profiler over time.", "vi": "Tôi kiểm tra memory profiler theo thời gian." },
+        { "speaker": "a", "en": "What pattern indicates a leak?", "vi": "Xu hướng nào chỉ ra một rò rỉ?" },
+        { "speaker": "b", "en": "Memory that never decreases after cleanup.", "vi": "Bộ nhớ không bao giờ giảm sau khi dọn dẹp." },
+        { "speaker": "a", "en": "That is a clear diagnostic sign.", "vi": "Đó là dấu hiệu chẩn đoán rõ ràng đấy." },
+        { "speaker": "b", "en": "It usually points to lingering references.", "vi": "Nó thường chỉ ra các tham chiếu còn tồn đọng." }
+      ]},
+    { "title": "Xử lý lỗi đặc thù thiết bị", "situation": "Ứng viên giải thích cách xử lý lỗi chỉ xảy ra trên một số thiết bị.",
+      "turns": [
+        { "speaker": "a", "en": "This bug only happens on specific devices.", "vi": "Lỗi này chỉ xảy ra trên một số thiết bị cụ thể." },
+        { "speaker": "b", "en": "Device-specific issues are often driver related.", "vi": "Vấn đề đặc thù thiết bị thường liên quan đến driver." },
+        { "speaker": "a", "en": "How would you narrow it down?", "vi": "Bạn thu hẹp phạm vi điều đó thế nào?" },
+        { "speaker": "b", "en": "Testing on the same hardware model directly.", "vi": "Kiểm tra trực tiếp trên cùng mẫu phần cứng đó." },
+        { "speaker": "a", "en": "That gives more reliable results.", "vi": "Điều đó cho kết quả đáng tin cậy hơn." },
+        { "speaker": "b", "en": "Remote debugging tools help when hardware is unavailable.", "vi": "Công cụ gỡ lỗi từ xa giúp ích khi không có phần cứng." }
+      ]},
+    { "title": "Nghi ngờ điều kiện tranh chấp", "situation": "Ứng viên giải thích cách phát hiện điều kiện tranh chấp.",
+      "turns": [
+        { "speaker": "a", "en": "What suggests a race condition here?", "vi": "Điều gì gợi ý có điều kiện tranh chấp ở đây?" },
+        { "speaker": "b", "en": "The crash only happens under specific timing.", "vi": "Crash chỉ xảy ra trong thời điểm cụ thể." },
+        { "speaker": "a", "en": "How do you confirm that theory?", "vi": "Bạn xác nhận giả thuyết đó thế nào?" },
+        { "speaker": "b", "en": "Adding artificial delays to force the timing.", "vi": "Thêm độ trễ giả để buộc thời điểm đó xảy ra." },
+        { "speaker": "a", "en": "That is a clever diagnostic technique.", "vi": "Đó là kỹ thuật chẩn đoán khéo léo đấy." },
+        { "speaker": "b", "en": "It confirms the issue before fixing it.", "vi": "Nó xác nhận vấn đề trước khi khắc phục." }
+      ]},
+    { "title": "Sử dụng callback để theo dõi lỗi", "situation": "Ứng viên giải thích cách dùng callback để theo dõi hành vi bất thường.",
+      "turns": [
+        { "speaker": "a", "en": "How would you track down an unexpected callback firing?", "vi": "Bạn truy tìm một callback kích hoạt bất thường thế nào?" },
+        { "speaker": "b", "en": "I instrument the callback with logging.", "vi": "Tôi gắn công cụ đo lường vào callback bằng cách ghi log." },
+        { "speaker": "a", "en": "What information do you log?", "vi": "Bạn ghi log thông tin gì?" },
+        { "speaker": "b", "en": "The caller and the current state at that moment.", "vi": "Người gọi và trạng thái hiện tại tại thời điểm đó." },
+        { "speaker": "a", "en": "That gives good context for debugging.", "vi": "Điều đó cho ngữ cảnh tốt để gỡ lỗi." },
+        { "speaker": "b", "en": "It usually reveals the unexpected trigger quickly.", "vi": "Nó thường tiết lộ nhanh chóng nguyên nhân kích hoạt bất thường." }
+      ]},
+    { "title": "Áp dụng giải pháp tạm thời", "situation": "Ứng viên giải thích khi nào nên áp dụng giải pháp tạm thời.",
+      "turns": [
+        { "speaker": "a", "en": "When would you apply a workaround instead of a full fix?", "vi": "Khi nào bạn áp dụng giải pháp tạm thời thay vì khắc phục hoàn toàn?" },
+        { "speaker": "b", "en": "When the root cause needs more time to resolve.", "vi": "Khi nguyên nhân gốc rễ cần nhiều thời gian hơn để giải quyết." },
+        { "speaker": "a", "en": "Is that risky long term?", "vi": "Điều đó có rủi ro về lâu dài không?" },
+        { "speaker": "b", "en": "Yes, so I document it clearly for follow-up.", "vi": "Có, nên tôi ghi chú rõ ràng để theo dõi tiếp." },
+        { "speaker": "a", "en": "That prevents it from being forgotten.", "vi": "Điều đó tránh việc nó bị quên lãng." },
+        { "speaker": "b", "en": "Technical debt should always be tracked.", "vi": "Nợ kỹ thuật luôn nên được theo dõi." }
+      ]},
+    { "title": "Xử lý lỗi tái xuất hiện sau bản vá", "situation": "Ứng viên giải thích cách xử lý một lỗi tái xuất hiện sau bản vá.",
+      "turns": [
+        { "speaker": "a", "en": "The bug came back after a previous fix.", "vi": "Lỗi đã quay lại sau một bản vá trước đó." },
+        { "speaker": "b", "en": "That sounds like a regression from a recent change.", "vi": "Nghe có vẻ là lỗi tái diễn từ một thay đổi gần đây." },
+        { "speaker": "a", "en": "How would you find what caused it?", "vi": "Bạn sẽ tìm nguyên nhân gây ra nó thế nào?" },
+        { "speaker": "b", "en": "Checking recent commits around that area.", "vi": "Kiểm tra các commit gần đây xung quanh khu vực đó." },
+        { "speaker": "a", "en": "That narrows down the search quickly.", "vi": "Điều đó thu hẹp phạm vi tìm kiếm nhanh chóng." },
+        { "speaker": "b", "en": "Version control history is invaluable here.", "vi": "Lịch sử quản lý phiên bản vô giá ở đây." }
+      ]},
+    { "title": "Kết luận sau khi khắc phục thành công", "situation": "Ứng viên tổng kết bài học sau khi khắc phục thành công một crash khó.",
+      "turns": [
+        { "speaker": "a", "en": "What did you learn from that difficult crash?", "vi": "Bạn học được gì từ crash khó khăn đó?" },
+        { "speaker": "b", "en": "The value of thorough logging from the start.", "vi": "Giá trị của việc ghi log kỹ lưỡng ngay từ đầu." },
+        { "speaker": "a", "en": "Has that changed your workflow?", "vi": "Điều đó có thay đổi quy trình làm việc của bạn không?" },
+        { "speaker": "b", "en": "Yes, I now log key state changes by default.", "vi": "Có, giờ tôi mặc định ghi log các thay đổi trạng thái quan trọng." },
+        { "speaker": "a", "en": "That should speed up future debugging.", "vi": "Điều đó sẽ tăng tốc việc gỡ lỗi trong tương lai." },
+        { "speaker": "b", "en": "It already has, on a few smaller bugs.", "vi": "Nó đã có tác dụng rồi, trên vài lỗi nhỏ hơn." }
+      ]},
+    { "title": "Chẩn đoán crash phức tạp với nhiều nguyên nhân nghi ngờ chồng chéo và khó tái hiện", "situation": "Ứng viên phải chẩn đoán một crash phức tạp với nhiều nguyên nhân nghi ngờ chồng chéo, khó tái hiện, và chỉ xảy ra trên một số thiết bị. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This crash is intermittent, device-specific, and the stack trace looks different each time.", "vi": "Crash này không liên tục, đặc thù thiết bị, và stack trace mỗi lần trông khác nhau." },
+        { "speaker": "b", "en": "That variability suggests a race condition rather than a simple bug.", "vi": "Sự thay đổi đó gợi ý điều kiện tranh chấp hơn là lỗi đơn giản." },
+        { "speaker": "a", "en": "How would you confirm that without reliable reproduction steps?", "vi": "Bạn xác nhận điều đó thế nào mà không có bước tái hiện đáng tin cậy?" },
+        { "speaker": "b", "en": "Instrument suspected callbacks with logging, then stress test on the specific device model.", "vi": "Gắn công cụ đo lường vào các callback nghi ngờ bằng ghi log, sau đó kiểm thử áp lực trên chính mẫu thiết bị đó." },
+        { "speaker": "a", "en": "And if it turns out to be a memory leak compounding the race condition?", "vi": "Nếu hóa ra đó là rò rỉ bộ nhớ làm trầm trọng thêm điều kiện tranh chấp thì sao?" },
+        { "speaker": "b", "en": "I would apply a temporary workaround for stability now, then schedule a proper fix for both root causes.", "vi": "Tôi sẽ áp dụng giải pháp tạm thời để ổn định ngay bây giờ, rồi lên lịch khắc phục đúng đắn cho cả hai nguyên nhân gốc rễ." }
+      ]}
+  ]
+}

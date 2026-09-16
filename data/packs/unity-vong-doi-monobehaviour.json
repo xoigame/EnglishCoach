@@ -1,0 +1,96 @@
+{
+  "id": "unity-vong-doi-monobehaviour",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích thứ tự khởi tạo", "situation": "Ứng viên giải thích thứ tự khởi tạo trong vòng đời MonoBehaviour.",
+      "turns": [
+        { "speaker": "a", "en": "What happens during initialization?", "vi": "Điều gì xảy ra trong quá trình khởi tạo?" },
+        { "speaker": "b", "en": "Awake runs first, then Start before the first frame.", "vi": "Awake chạy trước, sau đó Start trước khung hình đầu tiên." },
+        { "speaker": "a", "en": "Why does that order matter?", "vi": "Vì sao thứ tự đó lại quan trọng?" },
+        { "speaker": "b", "en": "It affects dependencies between components.", "vi": "Nó ảnh hưởng đến sự phụ thuộc giữa các component." },
+        { "speaker": "a", "en": "Can you give an example of that dependency?", "vi": "Bạn cho ví dụ về sự phụ thuộc đó được không?" },
+        { "speaker": "b", "en": "One script referencing another must wait until Awake completes.", "vi": "Một script tham chiếu tới script khác phải chờ Awake hoàn tất." }
+      ]},
+    { "title": "Bàn về thứ tự thực thi", "situation": "Ứng viên bàn về việc kiểm soát thứ tự thực thi giữa các script.",
+      "turns": [
+        { "speaker": "a", "en": "How do you control execution order?", "vi": "Bạn kiểm soát thứ tự thực thi thế nào?" },
+        { "speaker": "b", "en": "Through the Script Execution Order settings.", "vi": "Thông qua cài đặt Script Execution Order." },
+        { "speaker": "a", "en": "When would you need that?", "vi": "Khi nào bạn cần điều đó?" },
+        { "speaker": "b", "en": "When one system must initialize before another.", "vi": "Khi một hệ thống phải khởi tạo trước hệ thống khác." },
+        { "speaker": "a", "en": "That is a common architectural concern.", "vi": "Đó là mối quan tâm kiến trúc phổ biến đấy." },
+        { "speaker": "b", "en": "It helps avoid null reference errors.", "vi": "Nó giúp tránh lỗi tham chiếu null." }
+      ]},
+    { "title": "Giải thích tốc độ khung hình", "situation": "Ứng viên giải thích ảnh hưởng của tốc độ khung hình đến Update.",
+      "turns": [
+        { "speaker": "a", "en": "How does frame rate affect Update?", "vi": "Tốc độ khung hình ảnh hưởng thế nào đến Update?" },
+        { "speaker": "b", "en": "Update runs once per rendered frame, so speed varies.", "vi": "Update chạy một lần mỗi khung hình được vẽ, nên tốc độ thay đổi." },
+        { "speaker": "a", "en": "How do you handle movement consistently then?", "vi": "Vậy bạn xử lý chuyển động nhất quán thế nào?" },
+        { "speaker": "b", "en": "By multiplying by Time.deltaTime.", "vi": "Bằng cách nhân với Time.deltaTime." },
+        { "speaker": "a", "en": "That keeps movement frame-rate independent.", "vi": "Điều đó giữ chuyển động độc lập với tốc độ khung hình." },
+        { "speaker": "b", "en": "Exactly, it is essential for consistency.", "vi": "Chính xác, nó thiết yếu cho sự nhất quán." }
+      ]},
+    { "title": "Bàn về bước thời gian cố định", "situation": "Ứng viên bàn về bước thời gian cố định trong FixedUpdate.",
+      "turns": [
+        { "speaker": "a", "en": "Why use FixedUpdate instead of Update?", "vi": "Vì sao dùng FixedUpdate thay vì Update?" },
+        { "speaker": "b", "en": "It runs on a fixed time step for physics.", "vi": "Nó chạy theo bước thời gian cố định cho vật lý." },
+        { "speaker": "a", "en": "What happens if you use Update for physics instead?", "vi": "Nếu dùng Update cho vật lý thì sao?" },
+        { "speaker": "b", "en": "It can cause inconsistent physics simulation.", "vi": "Nó có thể gây mô phỏng vật lý không nhất quán." },
+        { "speaker": "a", "en": "That is a critical distinction.", "vi": "Đó là sự phân biệt quan trọng đấy." },
+        { "speaker": "b", "en": "I always keep Rigidbody logic in FixedUpdate.", "vi": "Tôi luôn giữ logic Rigidbody trong FixedUpdate." }
+      ]},
+    { "title": "Xử lý hiện tượng giật hình", "situation": "Ứng viên giải thích cách khắc phục hiện tượng giật hình.",
+      "turns": [
+        { "speaker": "a", "en": "Why might movement appear jittery?", "vi": "Vì sao chuyển động có thể trông bị giật?" },
+        { "speaker": "b", "en": "Mixing Update and FixedUpdate incorrectly.", "vi": "Kết hợp Update và FixedUpdate không đúng cách." },
+        { "speaker": "a", "en": "How would you fix that?", "vi": "Bạn sẽ khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "Move the camera follow logic to LateUpdate.", "vi": "Chuyển logic camera theo dõi sang LateUpdate." },
+        { "speaker": "a", "en": "Why does that solve the issue?", "vi": "Vì sao điều đó giải quyết được vấn đề?" },
+        { "speaker": "b", "en": "It runs after all Update calls finish.", "vi": "Nó chạy sau khi tất cả các lệnh gọi Update kết thúc." }
+      ]},
+    { "title": "Giải thích sự phụ thuộc giữa các component", "situation": "Ứng viên giải thích cách xử lý sự phụ thuộc giữa các component.",
+      "turns": [
+        { "speaker": "a", "en": "How do you manage dependencies between components?", "vi": "Bạn quản lý sự phụ thuộc giữa các component thế nào?" },
+        { "speaker": "b", "en": "By initializing shared references in Awake.", "vi": "Bằng cách khởi tạo tham chiếu chung trong Awake." },
+        { "speaker": "a", "en": "What if the dependency is not ready yet?", "vi": "Nếu sự phụ thuộc chưa sẵn sàng thì sao?" },
+        { "speaker": "b", "en": "I use a follow-up check in Start instead.", "vi": "Tôi dùng kiểm tra tiếp theo trong Start thay vào đó." },
+        { "speaker": "a", "en": "That is a safe workaround.", "vi": "Đó là giải pháp an toàn đấy." },
+        { "speaker": "b", "en": "It has prevented several bugs for me.", "vi": "Nó đã ngăn được vài lỗi cho tôi." }
+      ]},
+    { "title": "Đề xuất tách rời logic vật lý", "situation": "Ứng viên đề xuất tách rời logic vật lý khỏi logic render.",
+      "turns": [
+        { "speaker": "a", "en": "How would you decouple physics from rendering logic?", "vi": "Bạn sẽ tách rời logic vật lý khỏi logic render thế nào?" },
+        { "speaker": "b", "en": "Keep physics calculations strictly in FixedUpdate.", "vi": "Giữ các tính toán vật lý chặt chẽ trong FixedUpdate." },
+        { "speaker": "a", "en": "And visual updates?", "vi": "Còn cập nhật hình ảnh thì sao?" },
+        { "speaker": "b", "en": "Those belong in Update or LateUpdate.", "vi": "Cái đó thuộc về Update hoặc LateUpdate." },
+        { "speaker": "a", "en": "That separation improves consistency.", "vi": "Sự tách biệt đó cải thiện tính nhất quán đấy." },
+        { "speaker": "b", "en": "It also makes debugging easier.", "vi": "Nó cũng làm cho việc gỡ lỗi dễ hơn." }
+      ]},
+    { "title": "Bàn về mô phỏng vật lý ổn định", "situation": "Ứng viên bàn về cách giữ mô phỏng vật lý ổn định.",
+      "turns": [
+        { "speaker": "a", "en": "How do you keep physics simulation stable?", "vi": "Bạn giữ mô phỏng vật lý ổn định thế nào?" },
+        { "speaker": "b", "en": "By avoiding direct transform changes on rigidbodies.", "vi": "Bằng cách tránh thay đổi transform trực tiếp trên rigidbody." },
+        { "speaker": "a", "en": "What should be used instead?", "vi": "Vậy nên dùng gì thay vào đó?" },
+        { "speaker": "b", "en": "Rigidbody.MovePosition or AddForce.", "vi": "Rigidbody.MovePosition hoặc AddForce." },
+        { "speaker": "a", "en": "That respects the physics engine properly.", "vi": "Điều đó tôn trọng công cụ vật lý đúng cách đấy." },
+        { "speaker": "b", "en": "It avoids conflicts with the simulation.", "vi": "Nó tránh xung đột với mô phỏng." }
+      ]},
+    { "title": "Giải thích lý do tránh logic nặng trong Update", "situation": "Ứng viên giải thích vì sao nên tránh logic nặng trong Update.",
+      "turns": [
+        { "speaker": "a", "en": "Why avoid heavy logic in Update?", "vi": "Vì sao nên tránh logic nặng trong Update?" },
+        { "speaker": "b", "en": "It runs every frame, so it directly impacts frame rate.", "vi": "Nó chạy mỗi khung hình, nên ảnh hưởng trực tiếp đến tốc độ khung hình." },
+        { "speaker": "a", "en": "What would you do instead?", "vi": "Vậy bạn sẽ làm gì thay vào đó?" },
+        { "speaker": "b", "en": "Spread expensive checks across multiple frames.", "vi": "Trải các kiểm tra tốn tài nguyên qua nhiều khung hình." },
+        { "speaker": "a", "en": "That is a thoughtful optimization.", "vi": "Đó là sự tối ưu chu đáo đấy." },
+        { "speaker": "b", "en": "It keeps performance consistent.", "vi": "Nó giữ hiệu năng ổn định." }
+      ]},
+    { "title": "Chẩn đoán vấn đề vòng đời phức tạp với nhiều component tương tác lẫn nhau", "situation": "Ứng viên phải chẩn đoán một vấn đề phức tạp liên quan đến vòng đời của nhiều component tương tác lẫn nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Player movement is jittery only when the camera and physics interact. Diagnose this.", "vi": "Chuyển động người chơi bị giật chỉ khi camera và vật lý tương tác. Chẩn đoán việc này." },
+        { "speaker": "b", "en": "Likely the camera follow logic runs in Update while movement is in FixedUpdate.", "vi": "Có thể logic camera theo dõi chạy trong Update trong khi chuyển động ở FixedUpdate." },
+        { "speaker": "a", "en": "How does that mismatch cause jitter specifically?", "vi": "Cụ thể sự không khớp đó gây giật hình thế nào?" },
+        { "speaker": "b", "en": "The camera reads position before the physics step fully updates it.", "vi": "Camera đọc vị trí trước khi bước vật lý cập nhật đầy đủ." },
+        { "speaker": "a", "en": "What is your fix, and how do you decouple this properly?", "vi": "Cách khắc phục của bạn là gì, và bạn tách rời việc này đúng cách thế nào?" },
+        { "speaker": "b", "en": "Move the camera logic to LateUpdate, so it always reads the final position for that frame.", "vi": "Chuyển logic camera sang LateUpdate, để nó luôn đọc vị trí cuối cùng của khung hình đó." }
+      ]}
+  ]
+}

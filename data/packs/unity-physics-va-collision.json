@@ -1,0 +1,96 @@
+{
+  "id": "unity-physics-va-collision",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích khác biệt collider và trigger", "situation": "Ứng viên giải thích sự khác biệt giữa collider thường và trigger collider.",
+      "turns": [
+        { "speaker": "a", "en": "What is the difference between a collider and a trigger collider?", "vi": "Sự khác biệt giữa collider thường và trigger collider là gì?" },
+        { "speaker": "b", "en": "A trigger detects overlap without physical collision response.", "vi": "Trigger phát hiện chồng lấn mà không có phản ứng va chạm vật lý." },
+        { "speaker": "a", "en": "When would you use a trigger?", "vi": "Khi nào bạn dùng trigger?" },
+        { "speaker": "b", "en": "For interactable zones, like a pickup area.", "vi": "Cho các vùng tương tác, như khu vực nhặt đồ." },
+        { "speaker": "a", "en": "That is a clear use case.", "vi": "Đó là trường hợp sử dụng rõ ràng đấy." },
+        { "speaker": "b", "en": "It is one of the most common patterns.", "vi": "Đó là một trong những mẫu phổ biến nhất." }
+      ]},
+    { "title": "Giải thích raycast", "situation": "Ứng viên giải thích cách sử dụng raycast trong game.",
+      "turns": [
+        { "speaker": "a", "en": "How would you use a raycast for shooting mechanics?", "vi": "Bạn dùng raycast thế nào cho cơ chế bắn súng?" },
+        { "speaker": "b", "en": "Cast a ray from the gun toward the target direction.", "vi": "Bắn một tia từ súng theo hướng mục tiêu." },
+        { "speaker": "a", "en": "What does it return if it hits something?", "vi": "Nó trả về gì nếu trúng mục tiêu?" },
+        { "speaker": "b", "en": "Information about the hit object and point.", "vi": "Thông tin về đối tượng và điểm trúng." },
+        { "speaker": "a", "en": "Do you filter what it can hit?", "vi": "Bạn có lọc những gì nó có thể trúng không?" },
+        { "speaker": "b", "en": "Yes, using a layer mask.", "vi": "Có, dùng layer mask." }
+      ]},
+    { "title": "Giải thích layer mask", "situation": "Ứng viên giải thích khái niệm layer mask.",
+      "turns": [
+        { "speaker": "a", "en": "What is a layer mask used for?", "vi": "Layer mask được dùng để làm gì?" },
+        { "speaker": "b", "en": "It filters which objects a raycast can interact with.", "vi": "Nó lọc những đối tượng mà raycast có thể tương tác." },
+        { "speaker": "a", "en": "Can you give a practical example?", "vi": "Bạn cho ví dụ thực tế được không?" },
+        { "speaker": "b", "en": "Ignoring the player's own collider when shooting.", "vi": "Bỏ qua collider của chính người chơi khi bắn." },
+        { "speaker": "a", "en": "That prevents self-collision issues.", "vi": "Điều đó ngăn vấn đề tự va chạm." },
+        { "speaker": "b", "en": "Exactly, it is essential for that mechanic.", "vi": "Chính xác, nó thiết yếu cho cơ chế đó." }
+      ]},
+    { "title": "Bàn về ma trận va chạm", "situation": "Ứng viên bàn về cách cấu hình ma trận va chạm.",
+      "turns": [
+        { "speaker": "a", "en": "How do you configure which layers collide with each other?", "vi": "Bạn cấu hình các layer nào va chạm với nhau thế nào?" },
+        { "speaker": "b", "en": "Through the collision matrix in project settings.", "vi": "Thông qua ma trận va chạm trong cài đặt dự án." },
+        { "speaker": "a", "en": "Why would you disable a collision pair?", "vi": "Vì sao bạn lại tắt một cặp va chạm?" },
+        { "speaker": "b", "en": "To prevent unwanted interactions, like allies passing through each other.", "vi": "Để tránh tương tác không mong muốn, như đồng minh đi xuyên qua nhau." },
+        { "speaker": "a", "en": "That is a practical design choice.", "vi": "Đó là lựa chọn thiết kế thực tế đấy." },
+        { "speaker": "b", "en": "It keeps gameplay feeling smooth.", "vi": "Nó giữ gameplay mượt mà." }
+      ]},
+    { "title": "Xử lý vấn đề xuyên qua vật thể", "situation": "Lập trình viên xử lý vấn đề vật thể xuyên qua nhau ở tốc độ cao.",
+      "turns": [
+        { "speaker": "a", "en": "Fast objects sometimes tunnel through walls.", "vi": "Đôi khi các đối tượng nhanh xuyên qua tường." },
+        { "speaker": "b", "en": "That happens when physics steps skip collision detection.", "vi": "Điều đó xảy ra khi các bước vật lý bỏ qua phát hiện va chạm." },
+        { "speaker": "a", "en": "How can we fix that?", "vi": "Chúng ta khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "Enable continuous collision detection on that rigidbody.", "vi": "Bật phát hiện va chạm liên tục trên rigidbody đó." },
+        { "speaker": "a", "en": "Does that affect performance?", "vi": "Điều đó có ảnh hưởng hiệu năng không?" },
+        { "speaker": "b", "en": "Slightly, but it is worth it for fast projectiles.", "vi": "Một chút, nhưng đáng giá cho đạn tốc độ cao." }
+      ]},
+    { "title": "Gỡ lỗi va chạm bằng công cụ trực quan", "situation": "Lập trình viên dùng công cụ debug view để gỡ lỗi va chạm.",
+      "turns": [
+        { "speaker": "a", "en": "How would you debug a missing collision?", "vi": "Bạn gỡ lỗi va chạm bị thiếu thế nào?" },
+        { "speaker": "b", "en": "I would enable the physics debug view.", "vi": "Tôi sẽ bật chế độ xem gỡ lỗi vật lý." },
+        { "speaker": "a", "en": "What does that show you?", "vi": "Cái đó hiển thị gì cho bạn?" },
+        { "speaker": "b", "en": "The actual collider shapes in the scene view.", "vi": "Hình dạng collider thực tế trong khung nhìn scene." },
+        { "speaker": "a", "en": "That helps spot misaligned colliders.", "vi": "Điều đó giúp phát hiện collider bị lệch." },
+        { "speaker": "b", "en": "Yes, it is my first debugging step.", "vi": "Vâng, đó là bước gỡ lỗi đầu tiên của tôi." }
+      ]},
+    { "title": "Thiết kế khu vực tương tác", "situation": "Ứng viên thiết kế một khu vực tương tác dùng trigger collider.",
+      "turns": [
+        { "speaker": "a", "en": "How would you design an interactable door zone?", "vi": "Bạn sẽ thiết kế khu vực tương tác với cửa thế nào?" },
+        { "speaker": "b", "en": "A trigger collider around the door detects the player.", "vi": "Một trigger collider quanh cửa phát hiện người chơi." },
+        { "speaker": "a", "en": "What happens when the player enters?", "vi": "Chuyện gì xảy ra khi người chơi bước vào?" },
+        { "speaker": "b", "en": "A prompt appears to open the door.", "vi": "Một lời nhắc xuất hiện để mở cửa." },
+        { "speaker": "a", "en": "That is intuitive design.", "vi": "Đó là thiết kế trực quan đấy." },
+        { "speaker": "b", "en": "It keeps interaction clear for players.", "vi": "Nó giữ cho tương tác rõ ràng với người chơi." }
+      ]},
+    { "title": "Thảo luận về đánh đổi hiệu năng vật lý", "situation": "Hai người thảo luận về sự đánh đổi giữa độ chính xác và hiệu năng vật lý.",
+      "turns": [
+        { "speaker": "a", "en": "Continuous collision detection on everything would be safest.", "vi": "Phát hiện va chạm liên tục cho tất cả sẽ an toàn nhất." },
+        { "speaker": "b", "en": "But that is a costly trade-off for performance.", "vi": "Nhưng đó là sự đánh đổi tốn kém về hiệu năng." },
+        { "speaker": "a", "en": "So how do we decide where to apply it?", "vi": "Vậy chúng ta quyết định áp dụng nó ở đâu thế nào?" },
+        { "speaker": "b", "en": "Only on fast-moving objects like projectiles.", "vi": "Chỉ trên các đối tượng chuyển động nhanh như đạn." },
+        { "speaker": "a", "en": "That balances safety and performance.", "vi": "Điều đó cân bằng giữa an toàn và hiệu năng." },
+        { "speaker": "b", "en": "Exactly the approach I would recommend.", "vi": "Chính xác là cách tiếp cận tôi sẽ khuyến nghị." }
+      ]},
+    { "title": "Xử lý sự cố va chạm ngẫu nhiên", "situation": "Lập trình viên điều tra một sự cố va chạm xảy ra ngẫu nhiên.",
+      "turns": [
+        { "speaker": "a", "en": "Collision detection seems to fail randomly.", "vi": "Phát hiện va chạm có vẻ thất bại ngẫu nhiên." },
+        { "speaker": "b", "en": "Is it happening at high speeds specifically?", "vi": "Cụ thể nó có xảy ra ở tốc độ cao không?" },
+        { "speaker": "a", "en": "Yes, mostly during fast dashes.", "vi": "Có, chủ yếu khi lao nhanh." },
+        { "speaker": "b", "en": "That points to a tunneling issue.", "vi": "Điều đó chỉ ra vấn đề xuyên qua vật thể." },
+        { "speaker": "a", "en": "I will enable continuous detection there.", "vi": "Tôi sẽ bật phát hiện liên tục ở đó." },
+        { "speaker": "b", "en": "Let me know if that resolves it.", "vi": "Cho tôi biết nếu điều đó khắc phục được nhé." }
+      ]},
+    { "title": "Thiết kế hệ thống va chạm phức tạp với nhiều loại đối tượng tương tác khác nhau", "situation": "Ứng viên phải thiết kế một hệ thống va chạm phức tạp xử lý nhiều loại đối tượng tương tác khác nhau cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Design a collision system handling players, fast projectiles, and interactable triggers together.", "vi": "Thiết kế một hệ thống va chạm xử lý người chơi, đạn tốc độ cao, và trigger tương tác cùng lúc." },
+        { "speaker": "b", "en": "I would separate them using distinct layers and a carefully configured collision matrix.", "vi": "Tôi sẽ tách chúng bằng các layer riêng biệt và ma trận va chạm được cấu hình cẩn thận." },
+        { "speaker": "a", "en": "How do you prevent projectiles from tunneling through fast-moving enemies?", "vi": "Bạn ngăn đạn xuyên qua kẻ địch di chuyển nhanh thế nào?" },
+        { "speaker": "b", "en": "Continuous collision detection specifically on the projectile layer, not everything.", "vi": "Phát hiện va chạm liên tục cụ thể trên layer đạn, không phải tất cả." },
+        { "speaker": "a", "en": "And how do interactable triggers avoid conflicting with combat raycasts?", "vi": "Còn trigger tương tác tránh xung đột với raycast chiến đấu thế nào?" },
+        { "speaker": "b", "en": "A separate layer mask for raycasts, excluding trigger-only colliders entirely.", "vi": "Một layer mask riêng cho raycast, loại trừ hoàn toàn các collider chỉ dùng trigger." }
+      ]}
+  ]
+}

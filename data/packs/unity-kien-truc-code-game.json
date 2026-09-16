@@ -1,0 +1,96 @@
+{
+  "id": "unity-kien-truc-code-game",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Trình bày phương án dùng configuration asset", "situation": "Lập trình viên trình bày phương án dùng configuration asset.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through your design approach.", "vi": "Trình bày cho tôi cách tiếp cận thiết kế của bạn." },
+        { "speaker": "b", "en": "I use a configuration asset to store enemy stats.", "vi": "Tôi dùng configuration asset để lưu chỉ số kẻ địch." },
+        { "speaker": "a", "en": "Why not hardcode those values?", "vi": "Vì sao không viết cứng các giá trị đó?" },
+        { "speaker": "b", "en": "Designers can tweak values without touching code.", "vi": "Nhà thiết kế có thể chỉnh giá trị mà không cần đụng vào code." },
+        { "speaker": "a", "en": "That is a practical separation of concerns.", "vi": "Đó là sự tách biệt trách nhiệm thực tế đấy." },
+        { "speaker": "b", "en": "It speeds up iteration significantly.", "vi": "Nó tăng tốc đáng kể quá trình lặp lại." }
+      ]},
+    { "title": "Phân biệt configuration và runtime state", "situation": "Technical lead hỏi về sự khác biệt giữa configuration và runtime state.",
+      "turns": [
+        { "speaker": "a", "en": "How do you separate configuration from runtime state?", "vi": "Bạn tách configuration khỏi runtime state thế nào?" },
+        { "speaker": "b", "en": "Configuration is read-only data, state changes during play.", "vi": "Configuration là dữ liệu chỉ đọc, state thay đổi khi chơi." },
+        { "speaker": "a", "en": "Where does current health live then?", "vi": "Vậy máu hiện tại nằm ở đâu?" },
+        { "speaker": "b", "en": "In a runtime object, not the asset itself.", "vi": "Trong một đối tượng runtime, không phải chính asset." },
+        { "speaker": "a", "en": "That prevents accidental data corruption.", "vi": "Điều đó ngăn hỏng dữ liệu không mong muốn." },
+        { "speaker": "b", "en": "Exactly why I keep them separate.", "vi": "Chính xác là lý do tôi giữ chúng tách biệt." }
+      ]},
+    { "title": "Đề xuất tách rời qua sự kiện", "situation": "Lập trình viên đề xuất tách rời hệ thống qua event contract.",
+      "turns": [
+        { "speaker": "a", "en": "How do these systems communicate?", "vi": "Các hệ thống này giao tiếp với nhau thế nào?" },
+        { "speaker": "b", "en": "Through an event contract, not direct references.", "vi": "Thông qua event contract, không phải tham chiếu trực tiếp." },
+        { "speaker": "a", "en": "Why avoid direct references?", "vi": "Vì sao tránh tham chiếu trực tiếp?" },
+        { "speaker": "b", "en": "It decouples systems and reduces tight coupling.", "vi": "Nó tách rời các hệ thống và giảm sự phụ thuộc chặt chẽ." },
+        { "speaker": "a", "en": "That should improve maintainability.", "vi": "Điều đó sẽ cải thiện khả năng bảo trì đấy." },
+        { "speaker": "b", "en": "It has made testing much easier too.", "vi": "Nó cũng làm việc kiểm thử dễ hơn nhiều." }
+      ]},
+    { "title": "Phản đối về sự phụ thuộc chặt chẽ", "situation": "Technical lead phản đối vì thấy có sự phụ thuộc chặt chẽ.",
+      "turns": [
+        { "speaker": "a", "en": "This class has too much tight coupling.", "vi": "Class này có quá nhiều sự phụ thuộc chặt chẽ." },
+        { "speaker": "b", "en": "You are right, it references three other systems directly.", "vi": "Bạn nói đúng, nó tham chiếu trực tiếp tới ba hệ thống khác." },
+        { "speaker": "a", "en": "How would you fix that?", "vi": "Bạn sẽ khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "Introduce an interface as a layer of indirection.", "vi": "Đưa vào một interface làm lớp trung gian gián tiếp." },
+        { "speaker": "a", "en": "That is a solid refactoring plan.", "vi": "Đó là kế hoạch tái cấu trúc vững đấy." },
+        { "speaker": "b", "en": "I will start with the most critical dependency.", "vi": "Tôi sẽ bắt đầu với sự phụ thuộc quan trọng nhất." }
+      ]},
+    { "title": "Giải thích ranh giới sở hữu", "situation": "Lập trình viên giải thích ranh giới sở hữu giữa các hệ thống.",
+      "turns": [
+        { "speaker": "a", "en": "Who owns the player's health value?", "vi": "Ai sở hữu giá trị máu của người chơi?" },
+        { "speaker": "b", "en": "The health system owns it exclusively.", "vi": "Hệ thống máu sở hữu nó độc quyền." },
+        { "speaker": "a", "en": "Why does that ownership boundary matter?", "vi": "Vì sao ranh giới sở hữu đó lại quan trọng?" },
+        { "speaker": "b", "en": "It prevents multiple systems from modifying it unsafely.", "vi": "Nó ngăn nhiều hệ thống chỉnh sửa nó không an toàn." },
+        { "speaker": "a", "en": "That is a clean architectural principle.", "vi": "Đó là nguyên tắc kiến trúc gọn gàng đấy." },
+        { "speaker": "b", "en": "It avoids a lot of subtle bugs.", "vi": "Nó tránh được rất nhiều lỗi tinh vi." }
+      ]},
+    { "title": "Bàn về subscriber trong hệ thống sự kiện", "situation": "Hai người bàn về vai trò của subscriber trong hệ thống sự kiện.",
+      "turns": [
+        { "speaker": "a", "en": "How many subscribers does this event have?", "vi": "Sự kiện này có bao nhiêu subscriber?" },
+        { "speaker": "b", "en": "Currently three: UI, audio, and analytics.", "vi": "Hiện tại là ba: UI, âm thanh, và phân tích." },
+        { "speaker": "a", "en": "Do they need to know about each other?", "vi": "Chúng có cần biết về nhau không?" },
+        { "speaker": "b", "en": "No, that is the benefit of this pattern.", "vi": "Không, đó là lợi ích của mẫu thiết kế này." },
+        { "speaker": "a", "en": "That keeps each system independent.", "vi": "Điều đó giữ mỗi hệ thống độc lập." },
+        { "speaker": "b", "en": "Adding a new subscriber is trivial too.", "vi": "Thêm subscriber mới cũng đơn giản." }
+      ]},
+    { "title": "Thảo luận về khả năng truy vết", "situation": "Technical lead lo ngại về khả năng truy vết khi dùng nhiều event.",
+      "turns": [
+        { "speaker": "a", "en": "With so many events, traceability becomes harder.", "vi": "Với quá nhiều event, khả năng truy vết trở nên khó khăn hơn." },
+        { "speaker": "b", "en": "That is a fair concern with this pattern.", "vi": "Đó là mối lo ngại hợp lý với mẫu thiết kế này." },
+        { "speaker": "a", "en": "How would you address it?", "vi": "Bạn sẽ giải quyết điều đó thế nào?" },
+        { "speaker": "b", "en": "Adding logging at each event dispatch.", "vi": "Thêm ghi log tại mỗi lần phát event." },
+        { "speaker": "a", "en": "That should help during debugging.", "vi": "Điều đó sẽ giúp ích khi gỡ lỗi." },
+        { "speaker": "b", "en": "It is a small trade-off for the decoupling benefit.", "vi": "Đó là sự đánh đổi nhỏ cho lợi ích tách rời." }
+      ]},
+    { "title": "Bảo vệ quyết định kiến trúc trước sự hoài nghi", "situation": "Lập trình viên bảo vệ quyết định kiến trúc trước sự hoài nghi của technical lead.",
+      "turns": [
+        { "speaker": "a", "en": "This seems overengineered for our scope.", "vi": "Cái này có vẻ thiết kế quá phức tạp so với phạm vi của chúng ta." },
+        { "speaker": "b", "en": "I understand the concern about complexity.", "vi": "Tôi hiểu mối lo ngại về độ phức tạp." },
+        { "speaker": "a", "en": "Why not keep it simpler for now?", "vi": "Vì sao không giữ nó đơn giản hơn cho lúc này?" },
+        { "speaker": "b", "en": "This structure will save time once we add multiplayer.", "vi": "Cấu trúc này sẽ tiết kiệm thời gian khi chúng ta thêm chơi mạng." },
+        { "speaker": "a", "en": "That is a reasonable justification.", "vi": "Đó là lý do hợp lý đấy." },
+        { "speaker": "b", "en": "I am happy to simplify parts if needed though.", "vi": "Tuy nhiên tôi vui lòng đơn giản hóa nếu cần." }
+      ]},
+    { "title": "Đồng thuận về cấu trúc cuối cùng", "situation": "Hai người đạt được đồng thuận về cấu trúc kiến trúc cuối cùng.",
+      "turns": [
+        { "speaker": "a", "en": "I think this architecture is solid now.", "vi": "Tôi nghĩ kiến trúc này bây giờ đã vững chắc." },
+        { "speaker": "b", "en": "Agreed, the ownership boundaries are much clearer.", "vi": "Đồng ý, ranh giới sở hữu rõ ràng hơn nhiều." },
+        { "speaker": "a", "en": "I appreciate you addressing the coupling issue.", "vi": "Tôi cảm kích vì bạn đã giải quyết vấn đề phụ thuộc." },
+        { "speaker": "b", "en": "It made the whole system more testable.", "vi": "Nó làm cho toàn bộ hệ thống dễ kiểm thử hơn." },
+        { "speaker": "a", "en": "Let us document this pattern for the team.", "vi": "Mình ghi lại mẫu thiết kế này cho cả nhóm nhé." },
+        { "speaker": "b", "en": "I will write it up this week.", "vi": "Tuần này tôi sẽ viết tài liệu." }
+      ]},
+    { "title": "Review kiến trúc phức tạp với nhiều vấn đề chồng chéo về sự phụ thuộc và khả năng mở rộng", "situation": "Technical lead khó tính review một kiến trúc phức tạp với nhiều vấn đề chồng chéo về sự phụ thuộc chặt chẽ và khả năng mở rộng trong tương lai. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This design has tight coupling between three systems, and no clear ownership boundary.", "vi": "Thiết kế này có sự phụ thuộc chặt chẽ giữa ba hệ thống, và không có ranh giới sở hữu rõ ràng." },
+        { "speaker": "b", "en": "You are right, I prioritized speed over architecture initially.", "vi": "Bạn nói đúng, ban đầu tôi ưu tiên tốc độ hơn kiến trúc." },
+        { "speaker": "a", "en": "How would you decouple this without a full rewrite?", "vi": "Bạn sẽ tách rời việc này thế nào mà không cần viết lại toàn bộ?" },
+        { "speaker": "b", "en": "Introduce an event contract between the two most coupled systems first.", "vi": "Đầu tiên đưa vào một event contract giữa hai hệ thống phụ thuộc chặt chẽ nhất." },
+        { "speaker": "a", "en": "And how do you maintain traceability once everything communicates through events?", "vi": "Và làm sao bạn duy trì khả năng truy vết khi mọi thứ giao tiếp qua event?" },
+        { "speaker": "b", "en": "A centralized logging layer at each dispatch point, so we can trace the full event chain during debugging.", "vi": "Một lớp ghi log tập trung tại mỗi điểm phát event, để chúng ta có thể truy vết toàn bộ chuỗi sự kiện khi gỡ lỗi." }
+      ]}
+  ]
+}

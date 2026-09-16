@@ -1,0 +1,96 @@
+{
+  "id": "unity-toi-uu-mobile",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Báo cáo hao pin nhanh", "situation": "Producer báo cáo phản hồi từ người dùng về việc hao pin nhanh.",
+      "turns": [
+        { "speaker": "a", "en": "Users are complaining about battery drain.", "vi": "Người dùng đang phàn nàn về việc hao pin." },
+        { "speaker": "b", "en": "That is likely from constant high frame rate rendering.", "vi": "Có thể là do render với tốc độ khung hình cao liên tục." },
+        { "speaker": "a", "en": "Can we cap it to save power?", "vi": "Chúng ta có thể giới hạn nó để tiết kiệm pin không?" },
+        { "speaker": "b", "en": "Yes, capping at thirty should help significantly.", "vi": "Được, giới hạn ở ba mươi sẽ giúp ích đáng kể." },
+        { "speaker": "a", "en": "Would that hurt the gameplay feel?", "vi": "Điều đó có ảnh hưởng cảm giác gameplay không?" },
+        { "speaker": "b", "en": "Minimal impact for this type of game.", "vi": "Ảnh hưởng tối thiểu cho loại game này." }
+      ]},
+    { "title": "Xử lý hiện tượng nóng máy", "situation": "Lập trình viên giải thích hiện tượng thermal throttling.",
+      "turns": [
+        { "speaker": "a", "en": "The game slows down after ten minutes.", "vi": "Game bị chậm lại sau mười phút." },
+        { "speaker": "b", "en": "That sounds like thermal throttling.", "vi": "Nghe có vẻ là do hiện tượng nóng máy giảm hiệu năng." },
+        { "speaker": "a", "en": "How does that happen?", "vi": "Điều đó xảy ra thế nào?" },
+        { "speaker": "b", "en": "The device reduces performance to manage heat.", "vi": "Thiết bị giảm hiệu năng để quản lý nhiệt độ." },
+        { "speaker": "a", "en": "Can we prevent that from being noticeable?", "vi": "Chúng ta có thể ngăn điều đó khỏi dễ nhận thấy không?" },
+        { "speaker": "b", "en": "Reducing sustained GPU load would help.", "vi": "Giảm tải GPU liên tục sẽ giúp ích." }
+      ]},
+    { "title": "Bàn về kích thước bản build", "situation": "Producer lo ngại về kích thước bản build quá lớn.",
+      "turns": [
+        { "speaker": "a", "en": "Our build size has grown significantly.", "vi": "Kích thước bản build của chúng ta đã tăng đáng kể." },
+        { "speaker": "b", "en": "Uncompressed textures are the main cause.", "vi": "Texture chưa nén là nguyên nhân chính." },
+        { "speaker": "a", "en": "How much could compression save?", "vi": "Nén có thể tiết kiệm được bao nhiêu?" },
+        { "speaker": "b", "en": "Roughly forty percent of total size.", "vi": "Khoảng bốn mươi phần trăm tổng kích thước." },
+        { "speaker": "a", "en": "That is a meaningful reduction.", "vi": "Đó là sự giảm đáng kể đấy." },
+        { "speaker": "b", "en": "I will apply texture compression settings today.", "vi": "Hôm nay tôi sẽ áp dụng cài đặt nén texture." }
+      ]},
+    { "title": "Giải thích dấu chân bộ nhớ", "situation": "Lập trình viên giải thích khái niệm dấu chân bộ nhớ trên di động.",
+      "turns": [
+        { "speaker": "a", "en": "What is our current memory footprint?", "vi": "Dấu chân bộ nhớ hiện tại của chúng ta là bao nhiêu?" },
+        { "speaker": "b", "en": "About three hundred megabytes at peak.", "vi": "Khoảng ba trăm megabyte ở mức cao nhất." },
+        { "speaker": "a", "en": "Is that within our target range?", "vi": "Điều đó có nằm trong phạm vi mục tiêu không?" },
+        { "speaker": "b", "en": "Slightly over for low-end devices.", "vi": "Hơi vượt một chút cho thiết bị cấu hình thấp." },
+        { "speaker": "a", "en": "What would help reduce it?", "vi": "Điều gì sẽ giúp giảm nó?" },
+        { "speaker": "b", "en": "Unloading unused assets more aggressively.", "vi": "Giải phóng tài nguyên không dùng tích cực hơn." }
+      ]},
+    { "title": "Xác định điểm nghẽn trên thiết bị cấu hình thấp", "situation": "Hai người xác định điểm nghẽn chính trên thiết bị cấu hình thấp.",
+      "turns": [
+        { "speaker": "a", "en": "What is the bottleneck on low-end devices?", "vi": "Điểm nghẽn trên thiết bị cấu hình thấp là gì?" },
+        { "speaker": "b", "en": "GPU rendering, based on the Profiler.", "vi": "Render GPU, dựa trên Profiler." },
+        { "speaker": "a", "en": "Have you tried reducing shadow quality?", "vi": "Bạn đã thử giảm chất lượng bóng đổ chưa?" },
+        { "speaker": "b", "en": "Yes, that improved frame rate noticeably.", "vi": "Rồi, điều đó cải thiện tốc độ khung hình rõ rệt." },
+        { "speaker": "a", "en": "That is a good targeted fix.", "vi": "Đó là cách khắc phục nhắm mục tiêu tốt đấy." },
+        { "speaker": "b", "en": "I will apply similar settings across other effects.", "vi": "Tôi sẽ áp dụng cài đặt tương tự cho các hiệu ứng khác." }
+      ]},
+    { "title": "Đề xuất giải pháp dự phòng cho thiết bị yếu", "situation": "Lập trình viên đề xuất giải pháp dự phòng cho thiết bị cấu hình yếu.",
+      "turns": [
+        { "speaker": "a", "en": "Should we have a fallback for weaker devices?", "vi": "Chúng ta có nên có giải pháp dự phòng cho thiết bị yếu không?" },
+        { "speaker": "b", "en": "Yes, a low-quality preset would help.", "vi": "Có, một preset chất lượng thấp sẽ giúp ích." },
+        { "speaker": "a", "en": "What would that preset disable?", "vi": "Preset đó sẽ tắt những gì?" },
+        { "speaker": "b", "en": "Shadows, reflections, and particle density.", "vi": "Bóng đổ, phản chiếu, và mật độ hạt." },
+        { "speaker": "a", "en": "That should ensure playability everywhere.", "vi": "Điều đó sẽ đảm bảo chơi được ở mọi nơi." },
+        { "speaker": "b", "en": "I will implement automatic device detection for it.", "vi": "Tôi sẽ triển khai phát hiện thiết bị tự động cho việc đó." }
+      ]},
+    { "title": "Bàn về sự đánh đổi khi tối ưu", "situation": "Producer và lập trình viên bàn về sự đánh đổi khi tối ưu cho di động.",
+      "turns": [
+        { "speaker": "a", "en": "Optimizing further might hurt visual quality.", "vi": "Tối ưu thêm có thể ảnh hưởng chất lượng hình ảnh." },
+        { "speaker": "b", "en": "That is the trade-off for broader device support.", "vi": "Đó là sự đánh đổi để hỗ trợ nhiều thiết bị hơn." },
+        { "speaker": "a", "en": "How do we decide where to draw the line?", "vi": "Chúng ta quyết định giới hạn ở đâu thế nào?" },
+        { "speaker": "b", "en": "Based on our target audience's device data.", "vi": "Dựa trên dữ liệu thiết bị của đối tượng người dùng mục tiêu." },
+        { "speaker": "a", "en": "That is a data-driven approach.", "vi": "Đó là cách tiếp cận dựa trên dữ liệu đấy." },
+        { "speaker": "b", "en": "It should guide our quality settings well.", "vi": "Nó sẽ định hướng tốt cho cài đặt chất lượng của chúng ta." }
+      ]},
+    { "title": "Kiểm tra hiệu năng sau tối ưu", "situation": "Hai người kiểm tra hiệu năng sau khi hoàn thành tối ưu cho di động.",
+      "turns": [
+        { "speaker": "a", "en": "How did the optimization pass go?", "vi": "Đợt tối ưu diễn ra thế nào?" },
+        { "speaker": "b", "en": "Frame rate stabilized across most devices.", "vi": "Tốc độ khung hình ổn định trên hầu hết thiết bị." },
+        { "speaker": "a", "en": "What about battery drain?", "vi": "Còn hao pin thì sao?" },
+        { "speaker": "b", "en": "Reduced by roughly twenty percent.", "vi": "Giảm khoảng hai mươi phần trăm." },
+        { "speaker": "a", "en": "That is a strong result overall.", "vi": "Đó là kết quả tốt nhìn chung đấy." },
+        { "speaker": "b", "en": "The frame rate cap made the biggest difference.", "vi": "Giới hạn tốc độ khung hình tạo ra sự khác biệt lớn nhất." }
+      ]},
+    { "title": "Chuẩn bị cho việc phát hành trên thiết bị đa dạng", "situation": "Producer và lập trình viên chuẩn bị cho việc phát hành trên nhiều loại thiết bị.",
+      "turns": [
+        { "speaker": "a", "en": "Are we ready for release across all target devices?", "vi": "Chúng ta đã sẵn sàng phát hành trên tất cả thiết bị mục tiêu chưa?" },
+        { "speaker": "b", "en": "Yes, we tested on our full device matrix.", "vi": "Rồi, chúng tôi đã kiểm tra trên toàn bộ ma trận thiết bị." },
+        { "speaker": "a", "en": "Any devices still causing concern?", "vi": "Có thiết bị nào vẫn gây lo ngại không?" },
+        { "speaker": "b", "en": "Only the oldest model, but the fallback handles it.", "vi": "Chỉ mẫu cũ nhất, nhưng giải pháp dự phòng xử lý được." },
+        { "speaker": "a", "en": "That gives me confidence to proceed.", "vi": "Điều đó cho tôi sự tự tin để tiến hành." },
+        { "speaker": "b", "en": "We are ready to submit the build.", "vi": "Chúng tôi sẵn sàng nộp bản build." }
+      ]},
+    { "title": "Giải quyết vấn đề tối ưu di động phức tạp với nhiều yếu tố chồng chéo cần cân bằng cùng lúc", "situation": "Lập trình viên phải giải quyết vấn đề tối ưu di động phức tạp cân bằng đồng thời hao pin, nóng máy, và kích thước build trên nhiều thiết bị. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "We have complaints about battery drain, thermal throttling after ten minutes, and a build size over the store limit.", "vi": "Chúng tôi nhận khiếu nại về hao pin, nóng máy sau mười phút, và kích thước build vượt giới hạn cửa hàng." },
+        { "speaker": "b", "en": "Let us tackle build size first since it blocks the release entirely.", "vi": "Mình giải quyết kích thước build trước vì nó chặn hoàn toàn việc phát hành." },
+        { "speaker": "a", "en": "Texture compression should bring it under the limit.", "vi": "Nén texture sẽ đưa nó xuống dưới giới hạn." },
+        { "speaker": "b", "en": "Good, and for thermal throttling, capping frame rate reduces sustained GPU load.", "vi": "Tốt, còn về nóng máy, giới hạn tốc độ khung hình sẽ giảm tải GPU liên tục." },
+        { "speaker": "a", "en": "That should also help battery drain as a side effect.", "vi": "Điều đó cũng sẽ giúp hao pin như một tác dụng phụ." },
+        { "speaker": "b", "en": "Exactly, and a low-quality fallback preset covers whatever bottleneck remains on the oldest devices.", "vi": "Chính xác, và một preset chất lượng thấp dự phòng sẽ xử lý bất kỳ điểm nghẽn nào còn lại trên thiết bị cũ nhất." }
+      ]}
+  ]
+}

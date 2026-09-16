@@ -1,0 +1,96 @@
+{
+  "id": "unity-shader-va-do-hoa",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích khái niệm shader cơ bản", "situation": "Technical artist giải thích khái niệm shader cơ bản.",
+      "turns": [
+        { "speaker": "a", "en": "What does a shader actually do?", "vi": "Shader thực sự làm gì vậy?" },
+        { "speaker": "b", "en": "It determines how a surface renders with light.", "vi": "Nó quyết định cách bề mặt hiển thị với ánh sáng." },
+        { "speaker": "a", "en": "Can you give a simple example?", "vi": "Bạn cho ví dụ đơn giản được không?" },
+        { "speaker": "b", "en": "A basic shader controls color and shininess.", "vi": "Một shader cơ bản kiểm soát màu sắc và độ bóng." },
+        { "speaker": "a", "en": "That is easier to grasp now.", "vi": "Giờ dễ nắm bắt hơn rồi." },
+        { "speaker": "b", "en": "It gets more complex from there.", "vi": "Từ đó nó trở nên phức tạp hơn." }
+      ]},
+    { "title": "Bàn về ánh sáng bị nhạt màu", "situation": "Technical artist giải thích lý do cảnh bị nhạt màu.",
+      "turns": [
+        { "speaker": "a", "en": "Why does this scene look washed out?", "vi": "Vì sao cảnh này trông bị nhạt màu vậy?" },
+        { "speaker": "b", "en": "The ambient light intensity is too high.", "vi": "Cường độ ánh sáng môi trường quá cao." },
+        { "speaker": "a", "en": "How would you fix that?", "vi": "Bạn sẽ khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "Lower it and strengthen the key light instead.", "vi": "Giảm nó xuống và tăng cường ánh sáng chính thay vào đó." },
+        { "speaker": "a", "en": "That should add more contrast.", "vi": "Điều đó sẽ thêm tương phản hơn." },
+        { "speaker": "b", "en": "Exactly, it brings back visual depth.", "vi": "Chính xác, nó mang lại chiều sâu hình ảnh." }
+      ]},
+    { "title": "Giải thích normal map", "situation": "Technical artist giải thích chức năng của normal map.",
+      "turns": [
+        { "speaker": "a", "en": "What does a normal map add to a surface?", "vi": "Normal map thêm gì vào bề mặt?" },
+        { "speaker": "b", "en": "The illusion of extra surface detail.", "vi": "Ảo giác về chi tiết bề mặt bổ sung." },
+        { "speaker": "a", "en": "Without adding real geometry?", "vi": "Mà không cần thêm hình học thực sự?" },
+        { "speaker": "b", "en": "Correct, it is a performance-friendly trick.", "vi": "Đúng vậy, đó là mẹo thân thiện với hiệu năng." },
+        { "speaker": "a", "en": "That is clever for mobile constraints.", "vi": "Đó là mẹo khéo léo cho giới hạn di động đấy." },
+        { "speaker": "b", "en": "It is widely used for that reason.", "vi": "Nó được dùng rộng rãi vì lý do đó." }
+      ]},
+    { "title": "Bàn về vấn đề tiling texture", "situation": "Technical artist giải thích vấn đề lặp texture bị lộ rõ.",
+      "turns": [
+        { "speaker": "a", "en": "The ground texture looks repetitive.", "vi": "Texture mặt đất trông lặp lại quá." },
+        { "speaker": "b", "en": "That is a common tiling issue.", "vi": "Đó là vấn đề tiling phổ biến." },
+        { "speaker": "a", "en": "How would you fix it?", "vi": "Bạn sẽ khắc phục nó thế nào?" },
+        { "speaker": "b", "en": "Adding a mask texture to break up the pattern.", "vi": "Thêm một mask texture để phá vỡ họa tiết lặp lại." },
+        { "speaker": "a", "en": "That should improve visual variety.", "vi": "Điều đó sẽ cải thiện sự đa dạng hình ảnh." },
+        { "speaker": "b", "en": "It is a simple but effective fix.", "vi": "Đó là cách khắc phục đơn giản nhưng hiệu quả." }
+      ]},
+    { "title": "Giải thích độ bóng bề mặt", "situation": "Technical artist giải thích khái niệm smoothness của vật liệu.",
+      "turns": [
+        { "speaker": "a", "en": "What does smoothness control on a material?", "vi": "Smoothness kiểm soát điều gì trên vật liệu?" },
+        { "speaker": "b", "en": "How sharply light reflects off the surface.", "vi": "Ánh sáng phản chiếu sắc nét thế nào trên bề mặt." },
+        { "speaker": "a", "en": "What happens if it is set too high?", "vi": "Nếu đặt quá cao thì sao?" },
+        { "speaker": "b", "en": "The surface looks unrealistically shiny.", "vi": "Bề mặt trông bóng loáng thiếu tự nhiên." },
+        { "speaker": "a", "en": "That could hurt visual believability.", "vi": "Điều đó có thể ảnh hưởng tính chân thực hình ảnh." },
+        { "speaker": "b", "en": "Balancing it takes careful iteration.", "vi": "Cân bằng nó cần lặp lại cẩn thận." }
+      ]},
+    { "title": "Bàn về khả năng đọc trong môi trường tối", "situation": "Technical artist bàn về việc giữ khả năng đọc trong môi trường tối.",
+      "turns": [
+        { "speaker": "a", "en": "Players cannot see enemies in dark areas.", "vi": "Người chơi không thấy được kẻ địch trong khu vực tối." },
+        { "speaker": "b", "en": "We need to keep readability a priority.", "vi": "Chúng ta cần giữ khả năng đọc là ưu tiên hàng đầu." },
+        { "speaker": "a", "en": "How would you fix that without breaking mood?", "vi": "Bạn sẽ khắc phục điều đó mà không phá vỡ không khí thế nào?" },
+        { "speaker": "b", "en": "Add subtle rim lighting on characters.", "vi": "Thêm ánh sáng viền tinh tế trên nhân vật." },
+        { "speaker": "a", "en": "That should improve visibility subtly.", "vi": "Điều đó sẽ cải thiện độ hiển thị một cách tinh tế." },
+        { "speaker": "b", "en": "It keeps the atmosphere while helping gameplay.", "vi": "Nó giữ được bầu không khí trong khi vẫn hỗ trợ gameplay." }
+      ]},
+    { "title": "Đánh đổi giữa chất lượng và hiệu năng shader", "situation": "Hai người bàn về sự đánh đổi giữa chất lượng shader và hiệu năng.",
+      "turns": [
+        { "speaker": "a", "en": "This shader looks great, but costs performance.", "vi": "Shader này trông tuyệt, nhưng tốn hiệu năng." },
+        { "speaker": "b", "en": "How much does it affect frame rate?", "vi": "Nó ảnh hưởng bao nhiêu đến tốc độ khung hình?" },
+        { "speaker": "a", "en": "About ten frames per second on mobile.", "vi": "Khoảng mười khung hình mỗi giây trên di động." },
+        { "speaker": "b", "en": "That is a significant trade-off to consider.", "vi": "Đó là sự đánh đổi đáng kể cần cân nhắc." },
+        { "speaker": "a", "en": "We could simplify it for lower-end devices.", "vi": "Chúng ta có thể đơn giản hóa nó cho thiết bị cấu hình thấp." },
+        { "speaker": "b", "en": "A fallback shader sounds like the right solution.", "vi": "Shader dự phòng nghe có vẻ là giải pháp đúng đấy." }
+      ]},
+    { "title": "Kiểm tra shader trên nhiều thiết bị", "situation": "Hai người bàn về việc kiểm tra shader trên nhiều thiết bị khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "Have you tested this shader on older devices?", "vi": "Bạn đã kiểm tra shader này trên thiết bị cũ chưa?" },
+        { "speaker": "b", "en": "Not yet, only on our reference device.", "vi": "Chưa, chỉ trên thiết bị tham chiếu của chúng ta." },
+        { "speaker": "a", "en": "That could hide performance issues.", "vi": "Điều đó có thể che giấu vấn đề hiệu năng." },
+        { "speaker": "b", "en": "Good point, I will test more broadly.", "vi": "Ý hay, tôi sẽ kiểm tra rộng hơn." },
+        { "speaker": "a", "en": "Frame rate consistency matters most.", "vi": "Tính nhất quán về tốc độ khung hình quan trọng nhất." },
+        { "speaker": "b", "en": "I will report back with results.", "vi": "Tôi sẽ báo cáo lại kết quả." }
+      ]},
+    { "title": "Cải thiện sau khi điều chỉnh ánh sáng", "situation": "Hai người đánh giá kết quả sau khi điều chỉnh ánh sáng.",
+      "turns": [
+        { "speaker": "a", "en": "How does the scene look now?", "vi": "Giờ cảnh trông thế nào?" },
+        { "speaker": "b", "en": "Much better, the contrast really helped.", "vi": "Tốt hơn nhiều, độ tương phản thực sự giúp ích." },
+        { "speaker": "a", "en": "Does it still perform well?", "vi": "Nó vẫn hoạt động tốt chứ?" },
+        { "speaker": "b", "en": "Yes, frame rate stayed stable.", "vi": "Vâng, tốc độ khung hình vẫn ổn định." },
+        { "speaker": "a", "en": "That is a great balance achieved.", "vi": "Đó là sự cân bằng tuyệt vời đạt được đấy." },
+        { "speaker": "b", "en": "Lighting adjustments made a big visual impact.", "vi": "Điều chỉnh ánh sáng tạo tác động hình ảnh lớn." }
+      ]},
+    { "title": "Giải quyết vấn đề đồ họa phức tạp cân bằng giữa chất lượng, khả năng đọc, và hiệu năng trên nhiều thiết bị", "situation": "Technical artist phải giải quyết vấn đề phức tạp cân bằng giữa chất lượng hình ảnh, khả năng đọc, và hiệu năng trên nhiều loại thiết bị khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The scene looks washed out on some devices, but the lighting fix hurts frame rate on others.", "vi": "Cảnh trông nhạt màu trên một số thiết bị, nhưng cách sửa ánh sáng làm giảm tốc độ khung hình trên thiết bị khác." },
+        { "speaker": "b", "en": "Let us profile which devices are most affected first.", "vi": "Mình kiểm tra xem thiết bị nào bị ảnh hưởng nhiều nhất trước đã." },
+        { "speaker": "a", "en": "Lower-end devices drop below thirty frames with the stronger key light.", "vi": "Thiết bị cấu hình thấp giảm xuống dưới ba mươi khung hình với ánh sáng chính mạnh hơn." },
+        { "speaker": "b", "en": "We could use a simplified shader variant for those, trading some contrast for frame rate.", "vi": "Mình có thể dùng biến thể shader đơn giản hóa cho những thiết bị đó, đánh đổi một phần tương phản để lấy tốc độ khung hình." },
+        { "speaker": "a", "en": "But readability in dark areas still needs to hold up on that fallback.", "vi": "Nhưng khả năng đọc trong khu vực tối vẫn cần đảm bảo trên phiên bản dự phòng đó." },
+        { "speaker": "b", "en": "A lightweight rim light effect there keeps readability without the full performance cost.", "vi": "Một hiệu ứng ánh sáng viền nhẹ ở đó giữ được khả năng đọc mà không tốn toàn bộ chi phí hiệu năng." }
+      ]}
+  ]
+}

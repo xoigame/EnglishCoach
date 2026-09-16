@@ -1,0 +1,96 @@
+{
+  "id": "unity-multiplayer-dong-bo",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích đồng bộ trạng thái", "situation": "Kỹ sư backend giải thích khái niệm đồng bộ trạng thái.",
+      "turns": [
+        { "speaker": "a", "en": "How does state synchronization work here?", "vi": "Đồng bộ trạng thái hoạt động thế nào ở đây?" },
+        { "speaker": "b", "en": "The server sends position updates to all clients.", "vi": "Máy chủ gửi cập nhật vị trí tới tất cả máy khách." },
+        { "speaker": "a", "en": "How often does that happen?", "vi": "Việc đó xảy ra bao lâu một lần?" },
+        { "speaker": "b", "en": "Every fixed interval, based on tick rate.", "vi": "Mỗi khoảng thời gian cố định, dựa trên tick rate." },
+        { "speaker": "a", "en": "That is a standard networking approach.", "vi": "Đó là cách tiếp cận mạng tiêu chuẩn đấy." },
+        { "speaker": "b", "en": "It balances accuracy and bandwidth.", "vi": "Nó cân bằng giữa độ chính xác và băng thông." }
+      ]},
+    { "title": "Bàn về độ trễ mạng", "situation": "Hai người bàn về ảnh hưởng của độ trễ mạng.",
+      "turns": [
+        { "speaker": "a", "en": "High latency is affecting player movement.", "vi": "Độ trễ cao đang ảnh hưởng đến chuyển động người chơi." },
+        { "speaker": "b", "en": "What is our current round-trip time?", "vi": "Thời gian khứ hồi hiện tại của chúng ta là bao nhiêu?" },
+        { "speaker": "a", "en": "Around one hundred fifty milliseconds.", "vi": "Khoảng một trăm năm mươi mili giây." },
+        { "speaker": "b", "en": "That is noticeable for fast-paced gameplay.", "vi": "Điều đó dễ nhận thấy cho gameplay nhịp độ nhanh." },
+        { "speaker": "a", "en": "How do we compensate for that?", "vi": "Chúng ta bù đắp điều đó thế nào?" },
+        { "speaker": "b", "en": "Client-side prediction should help significantly.", "vi": "Dự đoán phía máy khách sẽ giúp ích đáng kể." }
+      ]},
+    { "title": "Giải thích dự đoán phía máy khách", "situation": "Kỹ sư backend giải thích khái niệm dự đoán phía máy khách.",
+      "turns": [
+        { "speaker": "a", "en": "What is client-side prediction exactly?", "vi": "Chính xác dự đoán phía máy khách là gì?" },
+        { "speaker": "b", "en": "The client simulates movement locally before server confirmation.", "vi": "Máy khách mô phỏng chuyển động cục bộ trước khi máy chủ xác nhận." },
+        { "speaker": "a", "en": "Why is that necessary?", "vi": "Vì sao điều đó cần thiết?" },
+        { "speaker": "b", "en": "To make input feel instant despite latency.", "vi": "Để giúp thao tác cảm giác tức thì dù có độ trễ." },
+        { "speaker": "a", "en": "What happens if the prediction is wrong?", "vi": "Nếu dự đoán sai thì sao?" },
+        { "speaker": "b", "en": "The client corrects itself through reconciliation.", "vi": "Máy khách tự sửa lại thông qua reconciliation." }
+      ]},
+    { "title": "Giải thích quyền hạn của máy chủ", "situation": "Kỹ sư backend giải thích tầm quan trọng của server authority.",
+      "turns": [
+        { "speaker": "a", "en": "Why does the server have final authority?", "vi": "Vì sao máy chủ có quyền quyết định cuối cùng?" },
+        { "speaker": "b", "en": "To prevent cheating through client manipulation.", "vi": "Để ngăn gian lận thông qua thao túng máy khách." },
+        { "speaker": "a", "en": "What if the client disagrees with the server?", "vi": "Nếu máy khách không đồng ý với máy chủ thì sao?" },
+        { "speaker": "b", "en": "The client must accept the server's correction.", "vi": "Máy khách phải chấp nhận sự sửa đổi của máy chủ." },
+        { "speaker": "a", "en": "That ensures fairness across all players.", "vi": "Điều đó đảm bảo công bằng cho mọi người chơi." },
+        { "speaker": "b", "en": "It is a fundamental principle in multiplayer design.", "vi": "Đó là nguyên tắc cơ bản trong thiết kế chơi mạng." }
+      ]},
+    { "title": "Xử lý hiện tượng rubber-banding", "situation": "Lập trình viên xử lý vấn đề rubber-banding do reconciliation.",
+      "turns": [
+        { "speaker": "a", "en": "Players are reporting rubber-banding.", "vi": "Người chơi đang báo cáo hiện tượng giật lùi kỳ lạ." },
+        { "speaker": "b", "en": "That happens when reconciliation snaps too abruptly.", "vi": "Điều đó xảy ra khi reconciliation điều chỉnh quá đột ngột." },
+        { "speaker": "a", "en": "How do we smooth that out?", "vi": "Chúng ta làm mượt điều đó thế nào?" },
+        { "speaker": "b", "en": "Interpolating the correction over several frames.", "vi": "Nội suy sự điều chỉnh qua nhiều khung hình." },
+        { "speaker": "a", "en": "That should feel much less jarring.", "vi": "Điều đó sẽ cảm giác ít đột ngột hơn nhiều." },
+        { "speaker": "b", "en": "I will implement that smoothing this week.", "vi": "Tuần này tôi sẽ triển khai việc làm mượt đó." }
+      ]},
+    { "title": "Giải thích nội suy giữa các máy khách", "situation": "Kỹ sư giải thích cách nội suy giúp chuyển động mượt hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Why do other players move smoothly on my screen?", "vi": "Vì sao người chơi khác di chuyển mượt mà trên màn hình của tôi?" },
+        { "speaker": "b", "en": "Interpolation fills gaps between server updates.", "vi": "Nội suy lấp đầy khoảng trống giữa các cập nhật của máy chủ." },
+        { "speaker": "a", "en": "What if updates arrive irregularly?", "vi": "Nếu cập nhật đến không đều thì sao?" },
+        { "speaker": "b", "en": "Interpolation still smooths out the visible motion.", "vi": "Nội suy vẫn làm mượt chuyển động hiển thị." },
+        { "speaker": "a", "en": "That is a clever trade-off for perceived smoothness.", "vi": "Đó là sự đánh đổi khéo léo cho cảm giác mượt mà." },
+        { "speaker": "b", "en": "It adds a small delay, but looks much better.", "vi": "Nó thêm một chút độ trễ nhỏ, nhưng trông đẹp hơn nhiều." }
+      ]},
+    { "title": "Xử lý mất gói tin", "situation": "Hai người bàn về cách xử lý khi mất gói tin mạng.",
+      "turns": [
+        { "speaker": "a", "en": "What happens if packet loss occurs?", "vi": "Điều gì xảy ra nếu mất gói tin?" },
+        { "speaker": "b", "en": "The client extrapolates position until the next update.", "vi": "Máy khách ngoại suy vị trí cho đến khi có cập nhật tiếp theo." },
+        { "speaker": "a", "en": "Is that always accurate?", "vi": "Điều đó luôn chính xác không?" },
+        { "speaker": "b", "en": "Not always, but it prevents objects from freezing.", "vi": "Không phải lúc nào, nhưng nó ngăn đối tượng bị đứng hình." },
+        { "speaker": "a", "en": "That is a reasonable fallback.", "vi": "Đó là giải pháp dự phòng hợp lý đấy." },
+        { "speaker": "b", "en": "It handles unstable connections gracefully.", "vi": "Nó xử lý kết nối không ổn định một cách khéo léo." }
+      ]},
+    { "title": "Đánh đổi giữa độ chính xác và độ trễ", "situation": "Hai người bàn về sự đánh đổi giữa độ chính xác và độ trễ cảm nhận.",
+      "turns": [
+        { "speaker": "a", "en": "More frequent updates would improve accuracy.", "vi": "Cập nhật thường xuyên hơn sẽ cải thiện độ chính xác." },
+        { "speaker": "b", "en": "But that increases bandwidth usage significantly.", "vi": "Nhưng điều đó tăng đáng kể mức sử dụng băng thông." },
+        { "speaker": "a", "en": "So what is the right balance?", "vi": "Vậy sự cân bằng đúng là gì?" },
+        { "speaker": "b", "en": "Tuning tick rate based on gameplay pace.", "vi": "Điều chỉnh tick rate dựa trên nhịp độ gameplay." },
+        { "speaker": "a", "en": "That trade-off makes sense for our game type.", "vi": "Sự đánh đổi đó hợp lý cho loại game của chúng ta." },
+        { "speaker": "b", "en": "We will test different rates and measure feel.", "vi": "Chúng tôi sẽ kiểm tra các mức khác nhau và đo cảm giác." }
+      ]},
+    { "title": "Cải thiện sau khi tối ưu đồng bộ", "situation": "Hai người đánh giá kết quả sau khi tối ưu hệ thống đồng bộ.",
+      "turns": [
+        { "speaker": "a", "en": "How does movement feel after the changes?", "vi": "Chuyển động cảm giác thế nào sau các thay đổi?" },
+        { "speaker": "b", "en": "Much smoother, rubber-banding is nearly gone.", "vi": "Mượt hơn nhiều, hiện tượng giật lùi gần như biến mất." },
+        { "speaker": "a", "en": "Any remaining latency concerns?", "vi": "Còn mối lo ngại về độ trễ nào không?" },
+        { "speaker": "b", "en": "Only under very poor connections now.", "vi": "Giờ chỉ còn dưới điều kiện kết nối rất kém." },
+        { "speaker": "a", "en": "That is a solid improvement overall.", "vi": "Đó là sự cải thiện vững chắc nhìn chung đấy." },
+        { "speaker": "b", "en": "Client prediction made the biggest difference.", "vi": "Dự đoán phía máy khách tạo ra sự khác biệt lớn nhất." }
+      ]},
+    { "title": "Thiết kế hệ thống đồng bộ phức tạp xử lý đồng thời độ trễ cao, mất gói tin, và nhiều người chơi", "situation": "Kỹ sư phải thiết kế một hệ thống đồng bộ phức tạp xử lý đồng thời độ trễ cao, mất gói tin, và nhiều người chơi tương tác. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Design a sync system for a fast game with high latency, packet loss, and eight players.", "vi": "Thiết kế hệ thống đồng bộ cho game nhịp độ nhanh với độ trễ cao, mất gói tin, và tám người chơi." },
+        { "speaker": "b", "en": "Client-side prediction locally, with server authority reconciling every tick.", "vi": "Dự đoán phía máy khách cục bộ, với máy chủ có quyền quyết định đối chiếu mỗi tick." },
+        { "speaker": "a", "en": "How do you prevent rubber-banding when reconciliation corrects a wrong prediction?", "vi": "Bạn ngăn hiện tượng giật lùi thế nào khi reconciliation sửa một dự đoán sai?" },
+        { "speaker": "b", "en": "Interpolate the correction smoothly over a few frames instead of snapping instantly.", "vi": "Nội suy sự điều chỉnh mượt mà qua vài khung hình thay vì điều chỉnh tức thì." },
+        { "speaker": "a", "en": "And how do other players stay smooth on screen despite packet loss?", "vi": "Còn người chơi khác giữ mượt mà trên màn hình dù mất gói tin thì sao?" },
+        { "speaker": "b", "en": "Extrapolation bridges short gaps, falling back to interpolation once updates resume.", "vi": "Ngoại suy lấp đầy khoảng trống ngắn, chuyển về nội suy khi cập nhật tiếp tục." }
+      ]}
+  ]
+}

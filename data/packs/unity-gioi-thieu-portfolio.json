@@ -1,0 +1,96 @@
+{
+  "id": "unity-gioi-thieu-portfolio",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giới thiệu dự án nổi bật", "situation": "Ứng viên giới thiệu dự án nổi bật trong portfolio.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through your portfolio.", "vi": "Trình bày cho tôi nghe về portfolio của bạn." },
+        { "speaker": "b", "en": "This cooperative puzzle game is my proudest project.", "vi": "Trò chơi giải đố hợp tác này là dự án tôi tự hào nhất." },
+        { "speaker": "a", "en": "What was your role on it?", "vi": "Vai trò của bạn trong đó là gì?" },
+        { "speaker": "b", "en": "I was responsible for core gameplay systems.", "vi": "Tôi chịu trách nhiệm về hệ thống gameplay cốt lõi." },
+        { "speaker": "a", "en": "That sounds like solid experience.", "vi": "Nghe có vẻ là kinh nghiệm vững đấy." },
+        { "speaker": "b", "en": "It taught me a lot about teamwork too.", "vi": "Nó cũng dạy tôi nhiều về làm việc nhóm." }
+      ]},
+    { "title": "Hỏi về kết quả sau khi ra mắt", "situation": "Nhà tuyển dụng hỏi về kết quả sau khi game ra mắt.",
+      "turns": [
+        { "speaker": "a", "en": "What happened after launch?", "vi": "Sau khi ra mắt thì thế nào?" },
+        { "speaker": "b", "en": "We reached fifty thousand downloads in the first month.", "vi": "Chúng tôi đạt năm mươi nghìn lượt tải trong tháng đầu." },
+        { "speaker": "a", "en": "That is a strong result.", "vi": "Đó là kết quả tốt đấy." },
+        { "speaker": "b", "en": "Revenue grew steadily after that too.", "vi": "Doanh thu cũng tăng đều sau đó." },
+        { "speaker": "a", "en": "What contributed to that growth?", "vi": "Điều gì đóng góp cho sự tăng trưởng đó?" },
+        { "speaker": "b", "en": "Positive reviews and word of mouth.", "vi": "Đánh giá tích cực và truyền miệng." }
+      ]},
+    { "title": "Giải thích vai trò trong nhóm", "situation": "Ứng viên giải thích rõ vai trò và trách nhiệm cụ thể trong nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "What was your specific responsibility on the team?", "vi": "Trách nhiệm cụ thể của bạn trong nhóm là gì?" },
+        { "speaker": "b", "en": "I owned the gameplay loop and enemy AI.", "vi": "Tôi phụ trách vòng lặp gameplay và AI kẻ địch." },
+        { "speaker": "a", "en": "Did you work independently or with others?", "vi": "Bạn làm việc độc lập hay cùng người khác?" },
+        { "speaker": "b", "en": "Closely with our designer and one other programmer.", "vi": "Làm việc chặt chẽ với nhà thiết kế và một lập trình viên khác." },
+        { "speaker": "a", "en": "That is a manageable team structure.", "vi": "Đó là cấu trúc nhóm quản lý được đấy." },
+        { "speaker": "b", "en": "It worked well for our scope.", "vi": "Nó hoạt động tốt với phạm vi của chúng tôi." }
+      ]},
+    { "title": "Thảo luận về sự cố crash sau ra mắt", "situation": "Ứng viên kể về việc xử lý sự cố crash sau khi ra mắt.",
+      "turns": [
+        { "speaker": "a", "en": "Did you face any issues after launch?", "vi": "Bạn có gặp vấn đề gì sau khi ra mắt không?" },
+        { "speaker": "b", "en": "Yes, we had a crash on certain devices.", "vi": "Có, chúng tôi bị crash trên một số thiết bị." },
+        { "speaker": "a", "en": "How did you resolve it?", "vi": "Bạn đã giải quyết thế nào?" },
+        { "speaker": "b", "en": "We patched it within two days.", "vi": "Chúng tôi vá lỗi trong hai ngày." },
+        { "speaker": "a", "en": "That is a quick turnaround.", "vi": "Đó là tốc độ xử lý nhanh đấy." },
+        { "speaker": "b", "en": "User trust mattered, so speed was critical.", "vi": "Lòng tin người dùng quan trọng, nên tốc độ là then chốt." }
+      ]},
+    { "title": "Hỏi về vấn đề hiệu năng", "situation": "Nhà tuyển dụng hỏi về vấn đề hiệu năng trong dự án.",
+      "turns": [
+        { "speaker": "a", "en": "Did performance become a concern?", "vi": "Hiệu năng có trở thành mối lo ngại không?" },
+        { "speaker": "b", "en": "Yes, especially on lower-end devices.", "vi": "Có, đặc biệt trên thiết bị cấu hình thấp." },
+        { "speaker": "a", "en": "How did you address that?", "vi": "Bạn đã giải quyết điều đó thế nào?" },
+        { "speaker": "b", "en": "We optimized rendering and reduced draw calls.", "vi": "Chúng tôi tối ưu render và giảm số lệnh vẽ." },
+        { "speaker": "a", "en": "Did that improve the experience?", "vi": "Điều đó có cải thiện trải nghiệm không?" },
+        { "speaker": "b", "en": "Significantly, frame rate became stable.", "vi": "Đáng kể, tốc độ khung hình đã ổn định." }
+      ]},
+    { "title": "Kể về một dự án chưa thành công", "situation": "Ứng viên kể về một dự án chưa đạt kỳ vọng.",
+      "turns": [
+        { "speaker": "a", "en": "Was every project in your portfolio successful?", "vi": "Mọi dự án trong portfolio của bạn có thành công không?" },
+        { "speaker": "b", "en": "Honestly, not this one here.", "vi": "Thật lòng, cái này thì không." },
+        { "speaker": "a", "en": "What happened with it?", "vi": "Chuyện gì đã xảy ra với nó?" },
+        { "speaker": "b", "en": "Downloads were low despite our effort.", "vi": "Lượt tải thấp dù chúng tôi đã nỗ lực." },
+        { "speaker": "a", "en": "What did you learn from that?", "vi": "Bạn học được gì từ đó?" },
+        { "speaker": "b", "en": "The importance of market research before development.", "vi": "Tầm quan trọng của nghiên cứu thị trường trước khi phát triển." }
+      ]},
+    { "title": "Hỏi về công cụ và quy trình", "situation": "Nhà tuyển dụng hỏi về công cụ và quy trình làm việc.",
+      "turns": [
+        { "speaker": "a", "en": "What tools did your team use for this project?", "vi": "Nhóm bạn dùng công cụ gì cho dự án này?" },
+        { "speaker": "b", "en": "Unity, along with a shared task board.", "vi": "Unity, cùng với bảng công việc chung." },
+        { "speaker": "a", "en": "How did you track progress?", "vi": "Bạn theo dõi tiến độ thế nào?" },
+        { "speaker": "b", "en": "Weekly sprints with clear milestones.", "vi": "Các sprint hàng tuần với các mốc rõ ràng." },
+        { "speaker": "a", "en": "That is a solid workflow.", "vi": "Đó là quy trình làm việc vững đấy." },
+        { "speaker": "b", "en": "It kept the team aligned throughout.", "vi": "Nó giữ cả nhóm thống nhất xuyên suốt." }
+      ]},
+    { "title": "So sánh hai dự án khác nhau", "situation": "Ứng viên so sánh hai dự án khác nhau trong portfolio.",
+      "turns": [
+        { "speaker": "a", "en": "How does this project differ from the other one?", "vi": "Dự án này khác gì với dự án kia?" },
+        { "speaker": "b", "en": "This one focused on multiplayer gameplay.", "vi": "Cái này tập trung vào gameplay nhiều người chơi." },
+        { "speaker": "a", "en": "What challenges came with that?", "vi": "Thử thách nào đi kèm với điều đó?" },
+        { "speaker": "b", "en": "Synchronizing state across players.", "vi": "Đồng bộ trạng thái giữa các người chơi." },
+        { "speaker": "a", "en": "That is a complex problem to solve.", "vi": "Đó là bài toán phức tạp cần giải quyết đấy." },
+        { "speaker": "b", "en": "It pushed my technical skills forward.", "vi": "Nó thúc đẩy kỹ năng kỹ thuật của tôi tiến lên." }
+      ]},
+    { "title": "Hỏi về đóng góp cá nhân trong nhóm lớn", "situation": "Nhà tuyển dụng hỏi về đóng góp cá nhân trong một nhóm lớn.",
+      "turns": [
+        { "speaker": "a", "en": "This was a large team project, correct?", "vi": "Đây là dự án nhóm lớn phải không?" },
+        { "speaker": "b", "en": "Yes, twelve people total.", "vi": "Vâng, tổng cộng mười hai người." },
+        { "speaker": "a", "en": "How do we know your individual contribution?", "vi": "Làm sao chúng tôi biết đóng góp cá nhân của bạn?" },
+        { "speaker": "b", "en": "I can show the specific systems I built.", "vi": "Tôi có thể cho xem các hệ thống cụ thể tôi đã xây dựng." },
+        { "speaker": "a", "en": "That would help clarify your role.", "vi": "Điều đó sẽ giúp làm rõ vai trò của bạn." },
+        { "speaker": "b", "en": "I have documentation ready to share.", "vi": "Tôi có sẵn tài liệu để chia sẻ." }
+      ]},
+    { "title": "Trình bày portfolio phức tạp với nhiều dự án và số liệu cần giải thích chi tiết", "situation": "Ứng viên trình bày portfolio phức tạp với nhiều dự án khác nhau và số liệu kinh doanh cần giải thích chi tiết. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You have three very different projects here, walk me through the trade-offs in each.", "vi": "Bạn có ba dự án rất khác nhau ở đây, trình bày cho tôi về sự đánh đổi trong từng cái." },
+        { "speaker": "b", "en": "The first prioritized launch speed over polish, and downloads reflected that.", "vi": "Cái đầu tiên ưu tiên tốc độ ra mắt hơn sự hoàn thiện, và lượt tải phản ánh điều đó." },
+        { "speaker": "a", "en": "And the crash issues on the second project?", "vi": "Còn sự cố crash trên dự án thứ hai thì sao?" },
+        { "speaker": "b", "en": "A memory leak we did not catch before launch, patched within a week.", "vi": "Một lỗi rò rỉ bộ nhớ chúng tôi không phát hiện trước khi ra mắt, đã vá trong một tuần." },
+        { "speaker": "a", "en": "How did that affect revenue and player trust?", "vi": "Điều đó ảnh hưởng thế nào đến doanh thu và lòng tin người chơi?" },
+        { "speaker": "b", "en": "Revenue dipped temporarily, but recovered once we improved performance and communicated transparently.", "vi": "Doanh thu giảm tạm thời, nhưng phục hồi khi chúng tôi cải thiện hiệu năng và giao tiếp minh bạch." }
+      ]}
+  ]
+}
