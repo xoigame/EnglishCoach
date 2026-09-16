@@ -119,6 +119,9 @@ export function normalizeLesson(raw) {
     pronunciation: arr(raw.pronunciation).map(p => ({
       focus: p.focus || '', tip: p.tip || '', words: arr(p.words),
     })).filter(p => p.focus || p.tip),
+    commonMistakes: arr(raw.commonMistakes).map(m => ({
+      wrong: m.wrong || '', right: m.right || '', vi: m.vi || '',
+    })).filter(m => m.wrong && m.right),
     dialogue: { roles: { a: roles.a || 'Partner', b: roles.b || 'You' }, userRole, turns },
     roleplay: {
       persona: raw.roleplay?.persona || `You are ${roles[userRole === 'a' ? 'b' : 'a'] || 'a friendly English partner'}.`,

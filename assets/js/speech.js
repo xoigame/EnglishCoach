@@ -6,6 +6,9 @@ export const settings = {
   voiceURI: '',
   rate: 0.92,
   asrLang: 'en-US',
+  passScore: 80,      // % tối thiểu để tính là nói đạt
+  coachAloud: true,   // đọc phần sửa lỗi bằng giọng nói
+  maxTries: 2,        // số lần thử lại trước khi đi tiếp
   ...safeParse(localStorage.getItem(SETTINGS_KEY)),
 };
 

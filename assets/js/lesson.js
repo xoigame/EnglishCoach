@@ -38,6 +38,18 @@ export function renderPrep(el, lesson) {
       </div>`).join('')}</div>`);
   }
 
+  if (lesson.commonMistakes.length) {
+    parts.push(`<h3>⚠️ Lỗi người Việt hay mắc ở chủ đề này</h3><div class="pattern-list">${
+      lesson.commonMistakes.map(m => `
+      <div class="pattern-item">
+        <button class="speak" data-say="${esc(m.right)}">🔊</button>
+        <div>
+          <div class="en"><span class="w-bad">${esc(m.wrong)}</span> → <span class="w-ok">${esc(m.right)}</span></div>
+          <div class="vi">${esc(m.vi)}</div>
+        </div>
+      </div>`).join('')}</div>`);
+  }
+
   if (lesson.pronunciation.length) {
     parts.push(`<h3>🗣️ Lưu ý phát âm</h3>${lesson.pronunciation.map(p => `
       <div class="tip">
@@ -113,6 +125,83 @@ export function renderDrill(el, lesson, onScore) {
       } catch (err) {
         heard.textContent = micError(err);
         btn.textContent = '🎤 Nhắc lại';
+        btn.disabled = false;
+      }
+    });
+  });
+}
+
+/** Dictation: hear the sentence with the text hidden, then write or say it back. */
+export function renderListen(el, lesson) {
+  const items = [
+    ...lesson.dialogue.turns.map(t => ({ en: t.en, vi: t.vi })),
+    ...lesson.drills.map(d => ({ en: d.en, vi: d.vi })),
+  ].slice(0, 16);
+
+  el.innerHTML = `
+    <p class="muted">Bấm 🔊 để nghe (chữ bị che), rồi gõ hoặc nói lại đúng câu bạn nghe được.
+    Đây là phần rèn tai nghe — đừng bấm 👁 xem đáp án quá sớm.</p>
+    ${items.map((it, i) => `
+      <div class="drill-row listen-row" data-i="${i}">
+        <div class="masked">Câu ${i + 1} · ${'▁ '.repeat(Math.min(12, it.en.split(/\s+/).length)).trim()}</div>
+        <div class="actions">
+          <button class="ghost act-listen">🔊 Nghe</button>
+          <button class="ghost act-slow">🐢 Chậm</button>
+          <button class="ghost act-rec" ${asrSupported ? '' : 'disabled'}>🎤 Nói lại</button>
+          <button class="ghost act-show">👁 Đáp án</button>
+          <span class="score-pill hidden"></span>
+        </div>
+        <input class="dictation" type="text" placeholder="Gõ câu bạn nghe được rồi Enter…">
+        <div class="reveal hidden"></div>
+        <div class="heard"></div>
+      </div>`).join('')}`;
+
+  el.querySelectorAll('.listen-row').forEach(row => {
+    const i = Number(row.dataset.i);
+    const target = items[i].en;
+    const pill = row.querySelector('.score-pill');
+    const reveal = row.querySelector('.reveal');
+    const heard = row.querySelector('.heard');
+    const input = row.querySelector('.dictation');
+
+    const check = answer => {
+      if (!answer) return;
+      const { score, words } = scoreSpeech(target, answer);
+      pill.className = `score-pill ${scoreClass(score)}`;
+      pill.textContent = `${score}%`;
+      reveal.classList.remove('hidden');
+      reveal.innerHTML = words.map(w =>
+        `<span class="${w.ok ? 'w-ok' : 'w-bad'}">${esc(w.w)}</span>`).join(' ') +
+        (items[i].vi ? `<div class="vi">${esc(items[i].vi)}</div>` : '');
+      row.classList.toggle('done', score >= 80);
+      if (score < 80) speak(target, { rate: 0.65 });
+    };
+
+    row.querySelector('.act-listen').addEventListener('click', () => speak(target));
+    row.querySelector('.act-slow').addEventListener('click', () => speak(target, { rate: 0.6 }));
+    row.querySelector('.act-show').addEventListener('click', () => {
+      reveal.classList.remove('hidden');
+      reveal.innerHTML = `${esc(target)}${items[i].vi ? `<div class="vi">${esc(items[i].vi)}</div>` : ''}`;
+    });
+
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') check(input.value.trim());
+    });
+
+    row.querySelector('.act-rec').addEventListener('click', async ev => {
+      const btn = ev.currentTarget;
+      try {
+        const text = await captureOnce({
+          onStart: () => { btn.textContent = '⏺ Đang nghe…'; btn.disabled = true; },
+          onStop: () => { btn.textContent = '🎤 Nói lại'; btn.disabled = false; },
+          onInterim: t => { heard.textContent = `… ${t}`; },
+        });
+        if (!text) { heard.textContent = 'Không nghe thấy gì.'; return; }
+        heard.textContent = `Bạn nói: “${text}”`;
+        check(text);
+      } catch (err) {
+        heard.textContent = micError(err);
+        btn.textContent = '🎤 Nói lại';
         btn.disabled = false;
       }
     });

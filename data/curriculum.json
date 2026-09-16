@@ -1,0 +1,81 @@
+{
+  "title": "Lộ trình nghe nói tiếng Anh A1 → C1",
+  "note": "Mỗi mục là một đề bài cho tools/gen-series.mjs. Thêm/sửa chủ đề ở đây rồi chạy lại, bài đã có sẽ được bỏ qua.",
+  "units": [
+    {
+      "level": "A1",
+      "name": "Nền tảng giao tiếp hằng ngày",
+      "turns": 10,
+      "topics": [
+        { "id": "lam-quen-va-gioi-thieu", "topic": "Chào hỏi và giới thiệu bản thân", "partner": "Đồng nghiệp mới" },
+        { "id": "hoi-duong-va-chi-duong", "topic": "Hỏi đường và chỉ đường", "partner": "Người đi đường" },
+        { "id": "gia-dinh-va-ban-be", "topic": "Nói về gia đình và bạn bè", "partner": "Bạn học cùng lớp tiếng Anh" },
+        { "id": "so-dem-gio-giac-lich-hen", "topic": "Số đếm, giờ giấc và hẹn gặp", "partner": "Người bạn đang rủ đi chơi", "notes": "Tập nói giờ, ngày trong tuần, giá tiền" },
+        { "id": "mua-sam-o-sieu-thi", "topic": "Mua sắm ở siêu thị và cửa hàng tiện lợi", "partner": "Nhân viên thu ngân" },
+        { "id": "goi-mon-o-nha-hang", "topic": "Gọi món ở nhà hàng", "partner": "Nhân viên phục vụ" },
+        { "id": "noi-ve-thoi-tiet", "topic": "Nói về thời tiết và kế hoạch trong ngày", "partner": "Người hàng xóm" },
+        { "id": "mot-ngay-cua-toi", "topic": "Kể về một ngày bình thường của bạn", "partner": "Giáo viên tiếng Anh", "notes": "Nhấn mạnh thì hiện tại đơn và trạng từ tần suất" }
+      ]
+    },
+    {
+      "level": "A2",
+      "name": "Xoay xở trong đời sống và du lịch",
+      "turns": 12,
+      "topics": [
+        { "id": "goi-do-o-quan-ca-phe", "topic": "Gọi đồ ở quán cà phê", "partner": "Nhân viên pha chế" },
+        { "id": "dat-phong-khach-san", "topic": "Đặt phòng và nhận phòng khách sạn", "partner": "Lễ tân khách sạn" },
+        { "id": "lam-thu-tuc-o-san-bay", "topic": "Làm thủ tục ở sân bay và qua cửa an ninh", "partner": "Nhân viên hàng không" },
+        { "id": "di-taxi-va-grab", "topic": "Đi taxi và gọi xe công nghệ", "partner": "Tài xế" },
+        { "id": "dat-lich-kham-benh", "topic": "Đặt lịch khám và mô tả triệu chứng đơn giản", "partner": "Lễ tân phòng khám" },
+        { "id": "goi-dien-thoai-co-ban", "topic": "Gọi điện thoại: để lại lời nhắn và hẹn gọi lại", "partner": "Nhân viên tổng đài", "notes": "Nhấn mạnh cách đánh vần tên và đọc số điện thoại" },
+        { "id": "mua-quan-ao-va-doi-tra", "topic": "Mua quần áo, thử đồ và đổi trả hàng", "partner": "Nhân viên cửa hàng thời trang" },
+        { "id": "ke-ve-cuoi-tuan", "topic": "Kể về cuối tuần vừa rồi", "partner": "Đồng nghiệp thân", "notes": "Nhấn mạnh thì quá khứ đơn và các động từ bất quy tắc" },
+        { "id": "hoi-duong-tau-xe-buyt", "topic": "Đi tàu điện và xe buýt ở nước ngoài", "partner": "Nhân viên nhà ga" }
+      ]
+    },
+    {
+      "level": "B1",
+      "name": "Tiếng Anh công sở và tình huống khó",
+      "turns": 14,
+      "topics": [
+        { "id": "phong-van-xin-viec", "topic": "Phỏng vấn xin việc vòng đầu", "partner": "Nhà tuyển dụng" },
+        { "id": "hop-nhom-hang-tuan", "topic": "Họp nhóm hằng tuần: báo cáo tiến độ và vướng mắc", "partner": "Quản lý trực tiếp" },
+        { "id": "small-talk-van-phong", "topic": "Small talk ở văn phòng và trong thang máy", "partner": "Đồng nghiệp phòng khác" },
+        { "id": "phan-nan-va-khieu-nai", "topic": "Phàn nàn về dịch vụ và yêu cầu bồi thường", "partner": "Quản lý cửa hàng", "notes": "Dạy cách phàn nàn lịch sự nhưng dứt khoát" },
+        { "id": "lam-viec-voi-ngan-hang", "topic": "Mở tài khoản và xử lý vấn đề ở ngân hàng", "partner": "Nhân viên ngân hàng" },
+        { "id": "thue-nha-va-ky-hop-dong", "topic": "Xem nhà, hỏi điều khoản và ký hợp đồng thuê", "partner": "Chủ nhà" },
+        { "id": "su-co-chuyen-bay", "topic": "Xử lý sự cố: hoãn chuyến, thất lạc hành lý", "partner": "Nhân viên quầy hỗ trợ sân bay" },
+        { "id": "mo-ta-trieu-chung-voi-bac-si", "topic": "Mô tả triệu chứng chi tiết với bác sĩ", "partner": "Bác sĩ" },
+        { "id": "trinh-bay-y-tuong-ngan", "topic": "Trình bày một ý tưởng trong 3 phút và trả lời câu hỏi", "partner": "Trưởng phòng sản phẩm" }
+      ]
+    },
+    {
+      "level": "B2",
+      "name": "Thuyết phục, thương lượng, phản biện",
+      "turns": 16,
+      "topics": [
+        { "id": "thuong-luong-luong", "topic": "Thương lượng lương và phúc lợi", "partner": "Nhà tuyển dụng cấp cao" },
+        { "id": "phong-van-ky-thuat", "topic": "Phỏng vấn kỹ thuật: giải thích giải pháp và đánh đổi", "partner": "Kỹ sư phỏng vấn" },
+        { "id": "quan-ly-deadline-tre", "topic": "Báo tin dự án trễ hạn và đề xuất phương án", "partner": "Khách hàng khó tính" },
+        { "id": "phan-hoi-dong-nghiep", "topic": "Đưa và nhận phản hồi trong đánh giá hiệu suất", "partner": "Quản lý trực tiếp" },
+        { "id": "thuyet-phuc-khach-hang", "topic": "Thuyết phục khách hàng chọn giải pháp của bạn", "partner": "Khách hàng đang phân vân" },
+        { "id": "xu-ly-xung-dot-nhom", "topic": "Xử lý bất đồng trong nhóm một cách xây dựng", "partner": "Đồng nghiệp đang bực bội" },
+        { "id": "tranh-luan-van-de-xa-hoi", "topic": "Tranh luận về làm việc từ xa và cân bằng cuộc sống", "partner": "Người bạn có quan điểm trái ngược" },
+        { "id": "networking-su-kien", "topic": "Networking ở hội thảo: bắt chuyện và giữ liên lạc", "partner": "Chuyên gia bạn vừa gặp" }
+      ]
+    },
+    {
+      "level": "C1",
+      "name": "Làm chủ sắc thái và tình huống cấp cao",
+      "turns": 18,
+      "topics": [
+        { "id": "thuyet-trinh-truoc-ban-lanh-dao", "topic": "Thuyết trình trước ban lãnh đạo và bảo vệ đề xuất", "partner": "Giám đốc điều hành" },
+        { "id": "dam-phan-hop-dong", "topic": "Đàm phán điều khoản hợp đồng", "partner": "Đối tác đàm phán cứng rắn" },
+        { "id": "phong-van-cap-quan-ly", "topic": "Phỏng vấn vị trí quản lý: câu hỏi tình huống", "partner": "Giám đốc nhân sự" },
+        { "id": "phong-van-podcast", "topic": "Trả lời phỏng vấn podcast về chuyên môn của bạn", "partner": "Người dẫn podcast" },
+        { "id": "mentoring-phan-hoi-kho", "topic": "Mentoring: đưa phản hồi khó nghe mà vẫn giữ động lực", "partner": "Nhân viên mới bạn đang kèm" },
+        { "id": "tranh-bien-hoc-thuat", "topic": "Tranh biện học thuật về tác động của AI tới việc làm", "partner": "Người phản biện" }
+      ]
+    }
+  ]
+}

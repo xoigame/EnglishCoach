@@ -171,6 +171,11 @@ input[type=range] { padding: 0; }
 .bubble.ai { background: var(--card); border: 1px solid var(--line); border-bottom-left-radius: 4px; align-self: flex-start; }
 .bubble.me { background: linear-gradient(135deg, #1f6feb, #6b46e5); border-bottom-right-radius: 4px; align-self: flex-end; }
 .bubble.sys { align-self: center; background: none; color: var(--muted); font-size: 12px; text-align: center; max-width: 100%; }
+.bubble.coach {
+  align-self: flex-start; background: #d2992216; border: 1px solid #d2992255;
+  border-left: 3px solid var(--warn); border-radius: 4px 14px 14px 4px; max-width: 88%; font-size: 14px;
+}
+.bubble.coach .fb { border-top-color: #d2992244; }
 .bubble .vi { display: block; font-size: 12px; opacity: .72; margin-top: 4px; }
 .bubble .fb { display: block; font-size: 12px; margin-top: 6px; padding-top: 6px; border-top: 1px solid #ffffff22; }
 
@@ -189,6 +194,12 @@ input[type=range] { padding: 0; }
 .mic-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .mic-actions .ghost { padding: 6px 10px; font-size: 13px; }
 
+/* ---------- dictation ---------- */
+.listen-row .masked { font-family: "Cascadia Code", Consolas, monospace; color: var(--muted); letter-spacing: 2px; }
+.listen-row.done .masked { color: var(--ok); }
+.dictation { margin-top: 8px; }
+.listen-row .reveal { margin-top: 8px; font-size: 16px; }
+
 /* ---------- quiz ---------- */
 .quiz-item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
 .quiz-item .q { margin-bottom: 8px; }
@@ -201,6 +212,12 @@ input[type=range] { padding: 0; }
   padding: 12px; overflow-x: auto; font-size: 12.5px; white-space: pre-wrap; word-break: break-word;
 }
 .code.scroll { max-height: 260px; overflow-y: auto; }
+.roadmap { margin-top: 12px; max-height: 420px; overflow-y: auto; }
+.roadmap h4 { margin: 14px 0 4px; font-size: 13px; color: var(--accent); }
+.roadmap-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 13.5px; }
+.roadmap-list a { color: var(--fg); }
+.roadmap-list .todo { color: var(--muted); }
+.roadmap-list code { font-size: 11.5px; color: var(--warn); }
 code { font-family: "Cascadia Code", Consolas, monospace; }
 
 @media (max-width: 640px) {

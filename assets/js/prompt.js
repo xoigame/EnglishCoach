@@ -35,6 +35,9 @@ const SCHEMA = `{
   "pronunciation": [
     { "focus": "âm /θ/", "tip": "Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi ra.", "words": ["three", "think", "thank"] }
   ],
+  "commonMistakes": [
+    { "wrong": "I want book a room.", "right": "I'd like to book a room.", "vi": "Sau want phải có to, và I'd like nghe lịch sự hơn." }
+  ],
   "dialogue": {
     "roles": { "a": "Vai của AI (tiếng Việt)", "b": "Vai của người học (tiếng Việt)" },
     "userRole": "b",
@@ -46,7 +49,7 @@ const SCHEMA = `{
   "roleplay": {
     "persona": "You are a friendly hotel receptionist in Da Nang.",
     "opener": "Good morning! Welcome to Sea Breeze Hotel. How can I help you?",
-    "goal": "The learner checks in and asks about breakfast."
+    "goal": "Người học nhận phòng và hỏi về bữa sáng."
   },
   "drills": [
     { "vi": "Tôi muốn đặt một phòng đôi.", "en": "I'd like to book a double room.", "alts": ["I want to book a double room."] }
@@ -75,11 +78,14 @@ ${notes ? `- Yêu cầu thêm: ${notes}` : ''}
 Nguyên tắc nội dung:
 1. Tiếng Anh phải tự nhiên như người bản xứ nói ngoài đời, KHÔNG phải tiếng Anh sách giáo khoa cứng nhắc.
 2. Độ khó tăng dần: những lượt đầu ngắn và dễ, những lượt sau dài hơn và có thêm cấu trúc mới.
-3. Mọi phần giải thích, nghĩa, gợi ý đều viết bằng tiếng Việt; chỉ câu thoại và ví dụ là tiếng Anh.
+3. Mọi phần giải thích, nghĩa, gợi ý, "goal" đều viết bằng tiếng Việt; chỉ câu thoại, ví dụ, "persona" và "opener" là tiếng Anh.
 4. 8-12 từ vựng, 4-6 mẫu câu, 2-3 lưu ý phát âm đúng lỗi người Việt hay mắc ở chủ đề này.
 5. Trường "hint" của những lượt người học nói: mẹo ngắn bằng tiếng Việt (có thể để chuỗi rỗng nếu câu quá dễ).
 6. 5-8 câu drill dịch Việt → Anh, bám sát từ vựng và mẫu câu ở trên.
 7. Câu thoại sẽ được đọc bằng text-to-speech, nên tránh ký hiệu lạ, emoji, hay chữ viết tắt khó đọc.
+8. "commonMistakes": 3-5 lỗi người Việt hay mắc ở CHÍNH chủ đề này — "wrong" là câu sai thường gặp, "right" là câu đúng tương ứng, "vi" giải thích ngắn. Ứng dụng dùng phần này để sửa lỗi cho người học ngay khi họ nói.
+9. Lượt đầu tiên trong "turns" PHẢI là "speaker": "a" (AI mở lời trước), hai vai nói xen kẽ, và "userRole" là "b".
+10. "persona" viết bằng tiếng Anh ở ngôi thứ hai ("You are a ..."), mô tả rõ vai, nơi chốn, thái độ — nó được dùng làm system prompt khi AI đóng vai nói chuyện trực tiếp với người học.
 
 ĐỊNH DẠNG ĐẦU RA — quan trọng:
 Chỉ in ra DUY NHẤT một object JSON hợp lệ, không có lời dẫn, không có giải thích, không bọc trong dấu \`\`\`.

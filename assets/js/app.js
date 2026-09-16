@@ -3,7 +3,7 @@
 import { settings, saveSettings, loadVoices, getVoices, speak, stopSpeaking } from './speech.js';
 import { asrSupported } from './mic.js';
 import * as store from './store.js';
-import { renderPrep, renderDrill, renderQuiz, esc } from './lesson.js';
+import { renderPrep, renderDrill, renderListen, renderQuiz, esc } from './lesson.js';
 import { createRoleplay } from './roleplay.js';
 import { buildPrompt, buildCommand, slugify } from './prompt.js';
 
@@ -74,9 +74,7 @@ async function refreshLibrary() {
 async function openLesson(id) {
   showView('lesson');
   $('#lsTitle').textContent = 'Đang tải…';
-  $('#pane-prep').innerHTML = '';
-  $('#pane-drill').innerHTML = '';
-  $('#pane-quiz').innerHTML = '';
+  ['prep', 'drill', 'listen', 'quiz'].forEach(p => { $(`#pane-${p}`).innerHTML = ''; });
   $('#chatLog').innerHTML = '';
 
   let lesson;
@@ -95,6 +93,7 @@ async function openLesson(id) {
 
   renderPrep($('#pane-prep'), lesson);
   renderDrill($('#pane-drill'), lesson, setScore);
+  renderListen($('#pane-listen'), lesson);
   renderQuiz($('#pane-quiz'), lesson);
 
   const roleplay = createRoleplay({
@@ -149,6 +148,26 @@ function wireGenerator() {
       alert('Trình duyệt chặn clipboard — hãy bôi đen và copy thủ công.');
     }
   }));
+
+  $('#roadmapBtn').addEventListener('click', async () => {
+    const box = $('#roadmap');
+    if (!box.classList.contains('hidden')) { box.classList.add('hidden'); return; }
+    box.classList.remove('hidden');
+    box.innerHTML = '<p class="muted">Đang tải lộ trình…</p>';
+    try {
+      const res = await fetch('data/curriculum.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const plan = await res.json();
+      const have = new Set(library.map(l => l.id));
+      box.innerHTML = plan.units.map(unit => `
+        <h4>${esc(unit.level)} · ${esc(unit.name)}</h4>
+        <ul class="roadmap-list">${unit.topics.map(t => have.has(t.id)
+          ? `<li>✅ <a href="#/lesson/${encodeURIComponent(t.id)}">${esc(t.topic)}</a></li>`
+          : `<li class="todo">⬜ ${esc(t.topic)} <code>--only ${esc(t.id)}</code></li>`).join('')}</ul>`).join('');
+    } catch (err) {
+      box.innerHTML = `<p class="msg bad">Không đọc được data/curriculum.json: ${esc(err.message)}</p>`;
+    }
+  });
 
   $('#importBtn').addEventListener('click', async () => {
     const msg = $('#importMsg');
@@ -214,6 +233,23 @@ async function wireSettings() {
 
   $('#testVoice').addEventListener('click', () =>
     speak('Hello! Let us practise English together. How was your day?'));
+
+  const pass = $('#passRange');
+  pass.value = settings.passScore;
+  $('#passVal').textContent = `${settings.passScore}%`;
+  pass.addEventListener('input', () => {
+    settings.passScore = Number(pass.value);
+    $('#passVal').textContent = `${settings.passScore}%`;
+    saveSettings();
+  });
+
+  const tries = $('#maxTries');
+  tries.value = String(settings.maxTries);
+  tries.addEventListener('change', () => { settings.maxTries = Number(tries.value); saveSettings(); });
+
+  const aloud = $('#coachAloud');
+  aloud.checked = settings.coachAloud;
+  aloud.addEventListener('change', () => { settings.coachAloud = aloud.checked; saveSettings(); });
 
   const lang = $('#asrLang');
   lang.value = settings.asrLang;
