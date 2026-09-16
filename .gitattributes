@@ -1,0 +1,17 @@
+# Xuống dòng: LF ở mọi nơi, kể cả trên Windows.
+#
+# VÌ SAO BẮT BUỘC: data/index.json được sinh lại bởi tools/build-index.mjs —
+# ở máy bạn (Windows) và cả trong CI (Ubuntu). Nếu file nằm trong repo dưới
+# dạng CRLF thì mỗi lần CI build lại sẽ ghi ra LF, và git coi như TOÀN BỘ file
+# đã đổi. Diff giả đó che mất thay đổi thật, và làm mọi lần soạn giáo án mới
+# trông như một cuộc đại tu.
+#
+# Chuẩn hoá về LF để máy bạn, CI và mọi agent (Codex / Claude Code) sinh ra
+# cùng một byte, không phụ thuộc hệ điều hành.
+* text=auto eol=lf
+
+# Nhị phân: đừng đụng vào.
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.wav binary
