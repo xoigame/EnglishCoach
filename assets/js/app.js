@@ -9,6 +9,7 @@ import { renderMindmap } from './mindmap.js';
 import { renderPacks } from './packs.js';
 import { renderExercises } from './exercises.js';
 import { renderPhrasebook, renderLessonPhrases } from './phrasebook.js';
+import { renderWordRelations, renderLessonWordRelations } from './word-relations.js';
 import { buildPrompt, buildCommand, slugify } from './prompt.js';
 
 const $ = sel => document.querySelector(sel);
@@ -34,10 +35,13 @@ function route() {
   const hash = location.hash.replace(/^#\/?/, '');
   const [what, arg] = hash.split('/');
   if (what === 'lesson' && arg) return openLesson(decodeURIComponent(arg));
-  const view = ['library', 'generator', 'settings', 'phrasebook'].includes(what) ? what : 'library';
+  const view = ['library', 'generator', 'settings', 'phrasebook', 'words'].includes(what) ? what : 'library';
   showView(view);
   if (view === 'phrasebook' && !$('#view-phrasebook').children.length) {
     renderPhrasebook($('#view-phrasebook'));
+  }
+  if (view === 'words' && !$('#view-words').children.length) {
+    renderWordRelations($('#view-words'));
   }
 }
 
@@ -100,6 +104,7 @@ async function openLesson(id) {
   setScore(Math.max(store.getProgress(id)?.drillAvg || 0, store.getProgress(id)?.talkAvg || 0));
 
   renderPrep($('#pane-prep'), lesson);
+  renderLessonWordRelations($('#pane-prep'), lesson);
   renderLessonPhrases($('#pane-prep'), lesson);
   renderDrill($('#pane-drill'), lesson, setScore);
   renderListen($('#pane-listen'), lesson);
