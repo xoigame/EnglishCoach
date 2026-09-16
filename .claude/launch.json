@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "english-coach",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "4173"],
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/serve.mjs", "--port", "4173"],
       "port": 4173
     }
   ]
