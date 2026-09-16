@@ -1,7 +1,7 @@
 // The 1-1 conversation pane: scripted role-play (offline) and free chat (bring-your-own-key).
 // Both modes correct the learner out loud, not just on screen.
 
-import { speak, stopSpeaking, scoreSpeech, scoreClass, scoreLabel, settings } from './speech.js';
+import { speak, stopSpeaking, scoreSpeech, scoreClass, scoreLabel, settings, onHardStop } from './speech.js';
 import { captureOnce, stopCapture, isRecording, asrSupported } from './mic.js';
 import { esc, micError } from './lesson.js';
 import { buildCorrection, praise, weakWords } from './coach.js';
@@ -43,6 +43,8 @@ export function createRoleplay({ lesson, els, onScore }) {
   let autoTimer = null;
   let lastSpoken = '';
   let threadId = '';   // phiên Codex của buổi hội thoại này
+  let audioGen = 0;     // tăng lên khi nút Dừng ở thanh phát cuối trang được bấm
+  const offHardStop = onHardStop(() => { audioGen++; });
 
   /* ------------------------------------------------------------- UI bits */
 
@@ -60,9 +62,14 @@ export function createRoleplay({ lesson, els, onScore }) {
   /** Speak a queue of lines in order; skipped entirely when coaching aloud is off. */
   async function sayAll(lines, { force = false } = {}) {
     if (!force && !settings.coachAloud) return;
+    const myGen = audioGen;   // nút Dừng hẳn sẽ đổi audioGen, thoát vòng lặp giữa chừng
     speaking = true;
     els.micBtn.disabled = true;
-    for (const line of lines) await speak(line.text, { rate: line.rate });
+    for (const line of lines) {
+      if (audioGen !== myGen) break;
+      await speak(line.text, { rate: line.rate });
+      if (audioGen !== myGen) break;
+    }
     speaking = false;
     els.micBtn.disabled = !asrSupported;
   }
@@ -387,7 +394,7 @@ export function createRoleplay({ lesson, els, onScore }) {
     }
   }
 
-  function destroy() { alive = false; clearTimeout(autoTimer); stopSpeaking(); stopCapture(); }
+  function destroy() { alive = false; clearTimeout(autoTimer); stopSpeaking(); stopCapture(); offHardStop(); }
 
   return { start, listen, hint, replay, skip, submitUserText, destroy, get mode() { return mode; } };
 }

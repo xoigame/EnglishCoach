@@ -11,6 +11,7 @@ import { renderExercises } from './exercises.js';
 import { renderPhrasebook, renderLessonPhrases } from './phrasebook.js';
 import { renderWordRelations, renderLessonWordRelations } from './word-relations.js';
 import { buildPrompt, buildCommand, slugify } from './prompt.js';
+import { initPlayerBar } from './player-bar.js';
 
 const $ = sel => document.querySelector(sel);
 const $$ = sel => Array.from(document.querySelectorAll(sel));
@@ -352,6 +353,7 @@ function wireShell() {
 (async function init() {
   wireShell();
   wireGenerator();
+  initPlayerBar();
   await wireSettings();
   await refreshLibrary();
   route();

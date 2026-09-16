@@ -1,7 +1,7 @@
 // Phát cả hội thoại liền mạch như một đoạn audio: hai vai hai giọng, tạm dừng,
 // tốc độ, loop, và chế độ "ẩn vai tôi" để bạn tự đọc lượt của mình.
 
-import { speak, stopSpeaking, settings, voicePair } from './speech.js';
+import { speak, stopSpeaking, settings, voicePair, onHardStop } from './speech.js';
 
 // Tự khai báo thay vì import từ lesson.js: lesson.js sẽ import file này,
 // nên nhập ngược lại là tạo vòng import.
@@ -119,6 +119,9 @@ export function createPlayer({ lesson, mount }) {
     stopSpeaking();
     finish();
   }
+
+  // Nút Dừng ở thanh phát cuối trang: dừng hẳn cả bài, không chỉ câu đang đọc.
+  onHardStop(() => { if (playing) stop(); });
 
   /* -------------------------------------------------------------- điều khiển */
 

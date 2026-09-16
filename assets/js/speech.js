@@ -83,6 +83,26 @@ export function voicePair() {
 
 let activeSettle = null;   // kết thúc lượt đọc đang chạy, dù vì lý do gì
 
+/* --------------------------------------------------- Now-playing state */
+/* Để thanh phát ở cuối trang biết đang đọc câu nào và có nút Dừng dùng chung. */
+
+let nowPlaying = null;               // text đang đọc, null nếu im lặng
+const playbackListeners = new Set();
+
+function setNowPlaying(text) {
+  nowPlaying = text;
+  playbackListeners.forEach(fn => fn(nowPlaying));
+}
+
+/** Gọi lại `fn(text)` mỗi khi bắt đầu/kết thúc đọc; trả về hàm để hủy đăng ký. */
+export function onPlaybackChange(fn) {
+  playbackListeners.add(fn);
+  fn(nowPlaying);
+  return () => playbackListeners.delete(fn);
+}
+
+export function getNowPlaying() { return nowPlaying; }
+
 /** Tách thành từng câu đủ ngắn để Chrome không cắt giữa chừng. */
 function chunk(text) {
   const parts = String(text)
@@ -131,10 +151,11 @@ export function speak(text, { rate, voiceURI, pitch } = {}) {
     const finish = () => {
       if (done) return;
       done = true;
-      if (activeSettle === finish) activeSettle = null;
+      if (activeSettle === finish) { activeSettle = null; setNowPlaying(null); }
       resolve();
     };
     activeSettle = finish;
+    setNowPlaying(text);
 
     (async () => {
       speechSynthesis.cancel();
@@ -170,6 +191,27 @@ export function stopSpeaking() {
   // Kết thúc lời hứa TRƯỚC khi cancel, để chỗ đang await không bị treo.
   activeSettle?.();
   speechSynthesis.cancel();
+}
+
+/*
+ * stopSpeaking() chỉ ngắt CÂU đang đọc. Nhưng player.js và roleplay.js đọc
+ * một CHUỖI câu nối tiếp (for-loop await speak(...)) — ngắt một câu thì
+ * vòng lặp vẫn tự động đọc câu kế tiếp ngay sau đó. Nút "Dừng" trên thanh
+ * phát ở cuối trang cần dừng HẲN cả chuỗi, nên phát thêm một tín hiệu để
+ * các vòng lặp đó tự thoát ra.
+ */
+const HARD_STOP_EVENT = 'ec:audio-hard-stop';
+
+/** Dừng hẳn mọi audio đang phát, kể cả các chuỗi câu đang đọc nối tiếp. */
+export function stopAllAudio() {
+  stopSpeaking();
+  window.dispatchEvent(new Event(HARD_STOP_EVENT));
+}
+
+/** Gọi lại `fn()` mỗi khi có yêu cầu dừng hẳn; trả về hàm để hủy đăng ký. */
+export function onHardStop(fn) {
+  window.addEventListener(HARD_STOP_EVENT, fn);
+  return () => window.removeEventListener(HARD_STOP_EVENT, fn);
 }
 
 /* ------------------------------------------------------ Speech recognition */

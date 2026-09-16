@@ -190,6 +190,31 @@ input[type=range] { padding: 0; }
 .mic.listening { animation: pulse 1.1s infinite; background: linear-gradient(135deg, #f85149, #d29922); }
 @keyframes pulse { 50% { box-shadow: 0 0 0 14px #f8514922; } }
 .mic-side { flex: 1 1 260px; display: grid; gap: 8px; }
+
+/* ---------- thanh phát âm thanh dính đáy trang ---------- */
+.audio-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 35;
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: rgba(14, 17, 22, .96);
+  border-top: 1px solid var(--line);
+  backdrop-filter: blur(10px);
+  animation: audioBarIn .18s ease-out;
+}
+.audio-bar-icon { flex: 0 0 auto; font-size: 17px; animation: pulse2 1.2s ease-in-out infinite; }
+.audio-bar-text {
+  flex: 1 1 auto; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  font-size: 14px; color: var(--fg);
+}
+.audio-bar-stop {
+  flex: 0 0 auto; cursor: pointer;
+  background: var(--card); color: var(--fg); border: 1px solid var(--line);
+  border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 600;
+}
+.audio-bar-stop:hover { border-color: var(--bad); color: var(--bad); }
+@keyframes pulse2 { 50% { opacity: .35; } }
+@keyframes audioBarIn { from { transform: translateY(100%); } to { transform: translateY(0); } }
 .interim { min-height: 42px; color: var(--muted); font-style: italic; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; }
 .mic-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .mic-actions .ghost { padding: 6px 10px; font-size: 13px; }
@@ -474,6 +499,8 @@ code { font-family: "Cascadia Code", Consolas, monospace; }
   .mic { width: 64px; height: 64px; font-size: 22px; }
   .mic span { display: none; }
   .interim { min-height: 0; padding: 6px 10px; font-size: 13px; }
+  /* Mic-bar cũng dính đáy ở tab Hội thoại 1-1 — đẩy thanh phát âm lên trên nó. */
+  body:has(#pane-talk.active) .audio-bar:not(.hidden) { bottom: 84px; }
   .mic-actions .ghost { padding: 7px 10px; }
   #typeFallback { display: none; }           /* trên điện thoại thì dùng micro */
   .chat { max-height: 52vh; }
