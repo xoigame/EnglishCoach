@@ -282,6 +282,28 @@ input[type=range] { padding: 0; }
 .word:disabled { opacity: .3; cursor: default; }
 .homework { color: var(--muted); font-size: 14px; }
 
+/* ---------- sổ tay: thành ngữ & cách nói bản xứ ---------- */
+.pb-list { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.pb-list.compact { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 10px; }
+.pb-card {
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent-2); border-radius: 0 12px 12px 0;
+  padding: 12px 14px; display: flex; flex-direction: column; gap: 5px;
+}
+.pb-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pb-en { font-size: 16px; font-weight: 600; flex: 1 1 auto; }
+.pb-vi { color: var(--accent); font-size: 14px; }
+.pb-note { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.pb-example {
+  font-style: italic; font-size: 13.5px; color: var(--fg);
+  background: #0d1117; border-radius: 8px; padding: 7px 10px; cursor: pointer;
+}
+.pb-example:hover { outline: 1px solid var(--accent); }
+.pb-card .actions { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+.pb-card .actions .ghost { padding: 5px 9px; font-size: 12.5px; }
+.chips.scroll-x { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+.chips.scroll-x::-webkit-scrollbar { display: none; }
+
 /* ---------- nghĩa từng từ (word by word) ---------- */
 .gloss {
   display: flex; flex-wrap: wrap; gap: 6px;
@@ -451,6 +473,8 @@ code { font-family: "Cascadia Code", Consolas, monospace; }
   .gw i { font-size: 10.5px; }
   .quiz-card .q { font-size: 16px; }
   .pack > summary { padding: 13px 12px; }
+  .pb-list, .pb-list.compact { grid-template-columns: 1fr; }
+  .pb-en { font-size: 15px; }
   .pack-body { padding: 0 12px 12px; }
   .variation .vrow { flex-wrap: wrap; }
   .code { font-size: 11.5px; }

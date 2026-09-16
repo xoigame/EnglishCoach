@@ -12,6 +12,7 @@ import { speak, scoreSpeech, scoreClass, scoreLabel } from './speech.js';
 import { captureOnce, asrSupported } from './mic.js';
 import { esc, micError } from './lesson.js';
 import { setProgress, getProgress } from './store.js';
+import { loadPhrasebook, relevantTo } from './phrasebook.js';
 
 const TARGET = 100;
 
@@ -168,7 +169,31 @@ const BUILDERS = [
     }));
   },
 
-  // 10. Dịch rồi NÓI ra — dạng duy nhất dùng micro
+  // 10. Thành ngữ / cách nói bản xứ này nghĩa là gì
+  function phraseMeaning(src) {
+    return src.phrases.map(p => choiceItem({
+      kind: p.kind === 'idiom' ? 'Thành ngữ' : 'Cách nói bản xứ',
+      prompt: p.en,
+      say: p.example || p.en,
+      correct: p.vi,
+      wrong: distractors(src.phrases.map(x => x.vi), p.vi),
+      why: p.note || p.example,
+    }));
+  },
+
+  // 11. Tình huống này nói thế nào cho tự nhiên
+  function phraseUse(src) {
+    return src.phrases.filter(p => p.note).map(p => choiceItem({
+      kind: 'Dùng khi nào?',
+      prompt: p.vi,
+      correct: p.en,
+      wrong: distractors(src.phrases.map(x => x.en), p.en),
+      say: p.en,
+      why: p.note,
+    }));
+  },
+
+  // 12. Dịch rồi NÓI ra — dạng duy nhất dùng micro
   function speakIt(src) {
     return [...src.drills, ...src.lines.filter(l => l.vi)].map(d => ({
       kind: 'Nói câu này',
@@ -205,6 +230,7 @@ function collect(lesson, pack) {
     mistakes: lesson.commonMistakes,
     variations: lesson.variations,
     drills: lesson.drills,
+    phrases: lesson._phrases || [],
     lines,
   };
 }
@@ -258,6 +284,14 @@ export async function renderExercises(el, lesson, onScore) {
     if (res.ok) pack = await res.json();
   } catch { /* chưa có bộ hội thoại mẫu thì thôi */ }
 
+  // Thành ngữ và cách nói bản xứ hợp với bài cũng thành nguồn ra đề.
+  try {
+    const book = await loadPhrasebook();
+    lesson._phrases = relevantTo(book, lesson, 14).map(p => ({
+      ...p, kind: (book.idioms || []).some(i => i.en === p.en) ? 'idiom' : 'expression',
+    }));
+  } catch { lesson._phrases = []; }
+
   let items = buildExercises(lesson, pack);
   if (!items.length) {
     el.innerHTML = '<p class="muted">Bài này chưa có nội dung để sinh bài tập.</p>';
@@ -271,7 +305,7 @@ export async function renderExercises(el, lesson, onScore) {
       <div>
         <b>${items.length} bài tập</b>
         <span class="muted"> · trộn từ ${countSources(lesson, pack)} mảnh nội dung của bài${
-          pack ? ' và 10 hội thoại mẫu' : ''}</span>
+          pack ? ', 10 hội thoại mẫu' : ''} và sổ tay bản xứ</span>
         ${best ? `<span class="badge done">Tốt nhất ${best}%</span>` : ''}
       </div>
       <div class="row">
@@ -331,7 +365,7 @@ export async function renderExercises(el, lesson, onScore) {
 function countSources(lesson, pack) {
   const src = collect(lesson, pack);
   return src.vocab.length + src.patterns.length + src.mistakes.length +
-    src.variations.length + src.drills.length + src.lines.length;
+    src.variations.length + src.drills.length + src.lines.length + src.phrases.length;
 }
 
 /** Một bài tập; gọi `done(đúng?)` rồi `next()` khi người học bấm Tiếp. */
