@@ -1,0 +1,96 @@
+{
+  "id": "noi-chuyen-voi-hang-xom",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Chào hàng xóm mới", "situation": "Hàng xóm mới chuyển đến và bạn chào hỏi.",
+      "turns": [
+        { "speaker": "a", "en": "Hi, I just moved in next door.", "vi": "Chào, tôi vừa chuyển tới nhà kế bên." },
+        { "speaker": "b", "en": "Welcome to the neighborhood.", "vi": "Chào mừng bạn tới khu này." },
+        { "speaker": "a", "en": "Thank you, everyone seems friendly here.", "vi": "Cảm ơn bạn, ở đây mọi người có vẻ thân thiện." },
+        { "speaker": "b", "en": "Yes, it is a nice area.", "vi": "Vâng, đây là khu vực tốt lắm." },
+        { "speaker": "a", "en": "I am Anna, by the way.", "vi": "Tiện thể, tôi là Anna." },
+        { "speaker": "b", "en": "Nice to meet you, Anna. I am Minh.", "vi": "Rất vui được gặp Anna. Tôi là Minh." }
+      ]},
+    { "title": "Hỏi cửa hàng tạp hoá gần nhất", "situation": "Hàng xóm mới hỏi nơi mua sắm gần đó.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a grocery store nearby?", "vi": "Gần đây có cửa hàng tạp hoá không?" },
+        { "speaker": "b", "en": "Yes, the nearest one is close.", "vi": "Có, cửa hàng gần nhất ở gần đây." },
+        { "speaker": "a", "en": "How far is it?", "vi": "Cách bao xa vậy?" },
+        { "speaker": "b", "en": "About two blocks away.", "vi": "Khoảng hai dãy nhà." },
+        { "speaker": "a", "en": "Thank you, that is very helpful.", "vi": "Cảm ơn bạn, vậy giúp ích lắm." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Xin lỗi vì tiếng ồn", "situation": "Hàng xóm mới xin lỗi vì gây ồn khi chuyển đồ.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry for the noise yesterday.", "vi": "Tôi xin lỗi vì tiếng ồn hôm qua." },
+        { "speaker": "b", "en": "Oh, it was not too bad.", "vi": "Ồ, cũng không tệ lắm đâu." },
+        { "speaker": "a", "en": "I was moving furniture.", "vi": "Tôi đang chuyển đồ nội thất." },
+        { "speaker": "b", "en": "I understand, moving is always noisy.", "vi": "Tôi hiểu mà, chuyển nhà lúc nào cũng ồn." },
+        { "speaker": "a", "en": "Thank you for being so understanding.", "vi": "Cảm ơn bạn đã thông cảm vậy." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Chó của hàng xóm sủa nhiều", "situation": "Bạn hỏi nhẹ nhàng về việc chó nhà hàng xóm sủa nhiều.",
+      "turns": [
+        { "speaker": "a", "en": "I noticed a dog barking sometimes.", "vi": "Tôi để ý thấy có tiếng chó sủa đôi lúc." },
+        { "speaker": "b", "en": "Oh, that is my dog. I am sorry.", "vi": "Ồ, đó là chó nhà tôi. Tôi xin lỗi." },
+        { "speaker": "a", "en": "It is okay, just curious.", "vi": "Không sao, tôi chỉ tò mò thôi." },
+        { "speaker": "b", "en": "He barks when he hears strangers.", "vi": "Nó sủa khi nghe thấy người lạ." },
+        { "speaker": "a", "en": "That makes sense.", "vi": "Vậy cũng hợp lý." },
+        { "speaker": "b", "en": "He will get used to you soon.", "vi": "Rồi nó sẽ quen với bạn sớm thôi." }
+      ]},
+    { "title": "Mượn đồ của hàng xóm", "situation": "Bạn hỏi mượn một dụng cụ từ hàng xóm.",
+      "turns": [
+        { "speaker": "a", "en": "Could I borrow a ladder?", "vi": "Tôi mượn một cái thang được không?" },
+        { "speaker": "b", "en": "Sure, I have one in the garage.", "vi": "Được, tôi có một cái trong nhà để xe." },
+        { "speaker": "a", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "b", "en": "No problem, just bring it back later.", "vi": "Không sao, lát trả lại là được." },
+        { "speaker": "a", "en": "I will return it tomorrow.", "vi": "Mai tôi sẽ trả lại." },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." }
+      ]},
+    { "title": "Giới thiệu khu phố", "situation": "Bạn giới thiệu những nơi tiện ích trong khu phố cho hàng xóm mới.",
+      "turns": [
+        { "speaker": "a", "en": "Is there anything I should know about this area?", "vi": "Có gì tôi nên biết về khu vực này không?" },
+        { "speaker": "b", "en": "There is a great bakery nearby.", "vi": "Gần đây có một tiệm bánh rất ngon." },
+        { "speaker": "a", "en": "Oh nice, where is it?", "vi": "Hay đấy, ở đâu vậy?" },
+        { "speaker": "b", "en": "Just past the grocery store.", "vi": "Ngay sau cửa hàng tạp hoá." },
+        { "speaker": "a", "en": "Thank you, I will check it out.", "vi": "Cảm ơn bạn, tôi sẽ ghé qua thử." },
+        { "speaker": "b", "en": "Let me know what you think.", "vi": "Nhớ báo tôi bạn thấy sao nhé." }
+      ]},
+    { "title": "Hỏi về việc thu gom rác", "situation": "Hàng xóm mới hỏi lịch thu gom rác.",
+      "turns": [
+        { "speaker": "a", "en": "When is trash collected here?", "vi": "Ở đây khi nào thu gom rác vậy?" },
+        { "speaker": "b", "en": "Every Monday and Thursday.", "vi": "Mỗi thứ Hai và thứ Năm." },
+        { "speaker": "a", "en": "What time should I put it out?", "vi": "Tôi nên để rác ra lúc mấy giờ?" },
+        { "speaker": "b", "en": "The night before is best.", "vi": "Tối hôm trước là tốt nhất." },
+        { "speaker": "a", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã cho biết." },
+        { "speaker": "b", "en": "No problem, let me know if you have questions.", "vi": "Không sao, có gì cứ hỏi tôi nhé." }
+      ]},
+    { "title": "Đề nghị giúp đỡ khi chuyển đồ", "situation": "Bạn đề nghị giúp hàng xóm mới chuyển đồ.",
+      "turns": [
+        { "speaker": "a", "en": "Do you need help moving in?", "vi": "Bạn có cần giúp chuyển đồ không?" },
+        { "speaker": "b", "en": "That would be very kind of you.", "vi": "Vậy thì bạn tốt quá." },
+        { "speaker": "a", "en": "I can help carry some boxes.", "vi": "Tôi có thể giúp khiêng vài thùng đồ." },
+        { "speaker": "b", "en": "Thank you so much for offering.", "vi": "Cảm ơn bạn đã đề nghị giúp." },
+        { "speaker": "a", "en": "No problem, that is what neighbors do.", "vi": "Không sao đâu, hàng xóm là phải vậy mà." },
+        { "speaker": "b", "en": "I really appreciate it.", "vi": "Tôi thật sự cảm kích." }
+      ]},
+    { "title": "Nhờ để ý nhà giúp khi đi vắng", "situation": "Bạn nhờ hàng xóm để ý nhà khi đi công tác.",
+      "turns": [
+        { "speaker": "a", "en": "I will be away next week.", "vi": "Tuần sau tôi sẽ đi vắng." },
+        { "speaker": "b", "en": "Would you like me to check your house?", "vi": "Bạn có muốn tôi để ý nhà giúp không?" },
+        { "speaker": "a", "en": "That would be great, thank you.", "vi": "Vậy tốt quá, cảm ơn bạn." },
+        { "speaker": "b", "en": "No problem, just let me know when.", "vi": "Không sao, cứ báo tôi khi nào nhé." },
+        { "speaker": "a", "en": "I leave on Monday.", "vi": "Tôi đi vào thứ Hai." },
+        { "speaker": "b", "en": "Got it, I will keep an eye on it.", "vi": "Rõ rồi, tôi sẽ để ý giúp." }
+      ]},
+    { "title": "Làm quen dần với nhiều chủ đề khác nhau", "situation": "Bạn trò chuyện dài với hàng xóm mới, chuyển qua nhiều chủ đề khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How are you settling in?", "vi": "Bạn ổn định chỗ ở thế nào rồi?" },
+        { "speaker": "b", "en": "Pretty well. I still need to find a good grocery store.", "vi": "Khá ổn. Tôi vẫn cần tìm cửa hàng tạp hoá tốt." },
+        { "speaker": "a", "en": "I can show you around if you like.", "vi": "Tôi có thể dẫn bạn đi vòng quanh nếu bạn thích." },
+        { "speaker": "b", "en": "That would be wonderful, thank you.", "vi": "Vậy thì tuyệt quá, cảm ơn bạn." },
+        { "speaker": "a", "en": "Also, feel free to ask me anything about the area.", "vi": "Ngoài ra, cứ hỏi tôi bất cứ điều gì về khu vực này nhé." },
+        { "speaker": "b", "en": "I really appreciate having a friendly neighbor.", "vi": "Tôi thật sự cảm kích khi có hàng xóm thân thiện." }
+      ]}
+  ]
+}

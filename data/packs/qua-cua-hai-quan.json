@@ -1,0 +1,96 @@
+{
+  "id": "qua-cua-hai-quan",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Nhập cảnh cơ bản", "situation": "Bạn qua cửa nhập cảnh với mục đích du lịch.",
+      "turns": [
+        { "speaker": "a", "en": "Passport, please.", "vi": "Cho tôi xem hộ chiếu ạ." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của tôi đây." },
+        { "speaker": "a", "en": "What is the purpose of your visit?", "vi": "Mục đích chuyến đi của bạn là gì ạ?" },
+        { "speaker": "b", "en": "Holiday.", "vi": "Du lịch ạ." },
+        { "speaker": "a", "en": "How long will you stay?", "vi": "Bạn ở lại bao lâu ạ?" },
+        { "speaker": "b", "en": "One week.", "vi": "Một tuần ạ." }
+      ]},
+    { "title": "Hỏi vé khứ hồi", "situation": "Nhân viên hỏi bạn có vé khứ hồi không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a return ticket?", "vi": "Bạn có vé khứ hồi không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "Thank you. Where will you stay?", "vi": "Cảm ơn bạn. Bạn sẽ ở đâu ạ?" },
+        { "speaker": "b", "en": "At a hotel downtown.", "vi": "Ở một khách sạn trung tâm." },
+        { "speaker": "a", "en": "Do you have the address?", "vi": "Bạn có địa chỉ không ạ?" },
+        { "speaker": "b", "en": "Yes, it is on my phone.", "vi": "Có, tôi lưu trong điện thoại." }
+      ]},
+    { "title": "Điền tờ khai nhập cảnh", "situation": "Bạn cần giúp điền tờ khai nhập cảnh.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have your arrival card?", "vi": "Bạn có tờ khai nhập cảnh không ạ?" },
+        { "speaker": "b", "en": "Sorry, I have not filled it in yet.", "vi": "Xin lỗi, tôi chưa điền vào." },
+        { "speaker": "a", "en": "There is a pen over there.", "vi": "Có bút ở đằng kia ạ." },
+        { "speaker": "b", "en": "Thank you. One moment, please.", "vi": "Cảm ơn bạn. Chờ tôi một chút." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "Okay, here it is now.", "vi": "Được rồi, đây ạ." }
+      ]},
+    { "title": "Khai báo đồ mang theo", "situation": "Bạn được hỏi có gì cần khai báo không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have anything to declare?", "vi": "Bạn có gì cần khai báo không ạ?" },
+        { "speaker": "b", "en": "No, just personal items.", "vi": "Không, chỉ đồ dùng cá nhân thôi ạ." },
+        { "speaker": "a", "en": "Any food or plants?", "vi": "Có thực phẩm hay cây cối gì không ạ?" },
+        { "speaker": "b", "en": "No, none of that.", "vi": "Không, không có gì cả." },
+        { "speaker": "a", "en": "Thank you, you may go through.", "vi": "Cảm ơn bạn, mời bạn đi qua." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Hỏi vì sao bị chậm hàng", "situation": "Nhân viên hỏi rõ hơn về chuyến đi của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Is this your first time here?", "vi": "Đây có phải lần đầu bạn tới đây không ạ?" },
+        { "speaker": "b", "en": "No, my second time.", "vi": "Không, lần thứ hai ạ." },
+        { "speaker": "a", "en": "Great. Enjoy your stay.", "vi": "Tuyệt. Chúc bạn có kỳ nghỉ vui vẻ." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "Next, please.", "vi": "Người tiếp theo ạ." },
+        { "speaker": "b", "en": "Thank you, goodbye.", "vi": "Cảm ơn bạn, tạm biệt." }
+      ]},
+    { "title": "Hộ chiếu sắp hết hạn", "situation": "Nhân viên nhận xét hộ chiếu của bạn sắp hết hạn.",
+      "turns": [
+        { "speaker": "a", "en": "Your passport expires in two months.", "vi": "Hộ chiếu của bạn hết hạn trong hai tháng nữa." },
+        { "speaker": "b", "en": "Oh, is that a problem?", "vi": "Ồ, vậy có vấn đề gì không ạ?" },
+        { "speaker": "a", "en": "It is fine for this short stay.", "vi": "Không sao với chuyến đi ngắn này." },
+        { "speaker": "b", "en": "That is a relief. Thank you.", "vi": "Vậy tôi yên tâm rồi. Cảm ơn bạn." },
+        { "speaker": "a", "en": "You should renew it soon, though.", "vi": "Nhưng bạn nên gia hạn sớm nhé." },
+        { "speaker": "b", "en": "I will, thank you for telling me.", "vi": "Tôi sẽ làm, cảm ơn bạn đã nhắc." }
+      ]},
+    { "title": "Bị hỏi thêm vì đi công tác", "situation": "Bạn nhập cảnh với mục đích công việc, bị hỏi kỹ hơn.",
+      "turns": [
+        { "speaker": "a", "en": "What is the purpose of your visit?", "vi": "Mục đích chuyến đi của bạn là gì ạ?" },
+        { "speaker": "b", "en": "Business. I have a meeting here.", "vi": "Công tác. Tôi có một cuộc họp ở đây." },
+        { "speaker": "a", "en": "Do you have an invitation letter?", "vi": "Bạn có thư mời không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "Thank you. How long is your stay?", "vi": "Cảm ơn bạn. Bạn ở lại bao lâu ạ?" },
+        { "speaker": "b", "en": "Three days.", "vi": "Ba ngày ạ." }
+      ]},
+    { "title": "Thiếu một giấy tờ", "situation": "Bạn quên mang theo một loại giấy tờ cần thiết.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have your return ticket?", "vi": "Bạn có vé khứ hồi không ạ?" },
+        { "speaker": "b", "en": "I am sorry, I do not have it printed.", "vi": "Tôi xin lỗi, tôi không in ra." },
+        { "speaker": "a", "en": "Can you show it on your phone?", "vi": "Bạn có thể cho xem trên điện thoại không ạ?" },
+        { "speaker": "b", "en": "Yes, one moment.", "vi": "Có, chờ tôi một chút." },
+        { "speaker": "a", "en": "That is fine, thank you.", "vi": "Vậy được rồi, cảm ơn bạn." },
+        { "speaker": "b", "en": "Thank you for your patience.", "vi": "Cảm ơn bạn đã kiên nhẫn." }
+      ]},
+    { "title": "Hỏi về nơi ở khi chưa đặt trước", "situation": "Bạn chưa đặt khách sạn và giải thích kế hoạch của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Where will you stay?", "vi": "Bạn sẽ ở đâu ạ?" },
+        { "speaker": "b", "en": "I have not booked yet. I will find a hotel today.", "vi": "Tôi chưa đặt. Hôm nay tôi sẽ tìm khách sạn." },
+        { "speaker": "a", "en": "I see. Do you have enough money for your stay?", "vi": "Tôi hiểu rồi. Bạn có đủ tiền cho chuyến đi không ạ?" },
+        { "speaker": "b", "en": "Yes, I have enough.", "vi": "Có, tôi có đủ ạ." },
+        { "speaker": "a", "en": "Okay, that is fine.", "vi": "Được, vậy ổn rồi ạ." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Bị hỏi dồn dập nhiều câu vì nghi ngờ", "situation": "Nhân viên hỏi nhiều câu liên tiếp vì hồ sơ có điểm khác thường. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You visited twice this year already.", "vi": "Năm nay bạn đã tới hai lần rồi." },
+        { "speaker": "b", "en": "Yes, my sister lives here now.", "vi": "Vâng, chị tôi hiện sống ở đây." },
+        { "speaker": "a", "en": "What is the purpose of this visit?", "vi": "Mục đích chuyến này là gì ạ?" },
+        { "speaker": "b", "en": "Family visit and a short holiday.", "vi": "Thăm gia đình và nghỉ ngơi ngắn ngày." },
+        { "speaker": "a", "en": "Do you have proof of your sister's address?", "vi": "Bạn có giấy tờ chứng minh địa chỉ của chị bạn không ạ?" },
+        { "speaker": "b", "en": "Yes, here is her utility bill.", "vi": "Có, đây là hoá đơn tiện ích của chị tôi." }
+      ]}
+  ]
+}

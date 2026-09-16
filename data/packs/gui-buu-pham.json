@@ -1,0 +1,96 @@
+{
+  "id": "gui-buu-pham",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Gửi bưu phẩm trong nước", "situation": "Bạn gửi một gói hàng trong nước.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I need to send this package.", "vi": "Tôi cần gửi gói hàng này." },
+        { "speaker": "a", "en": "Where is it going?", "vi": "Gửi đi đâu ạ?" },
+        { "speaker": "b", "en": "To another city, domestic.", "vi": "Tới một thành phố khác, trong nước." },
+        { "speaker": "a", "en": "That will be five dollars.", "vi": "Vậy là năm đô ạ." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Chọn dịch vụ giao nhanh", "situation": "Bạn hỏi về giao hàng nhanh.",
+      "turns": [
+        { "speaker": "a", "en": "Standard or express delivery?", "vi": "Giao thường hay giao nhanh ạ?" },
+        { "speaker": "b", "en": "How much faster is express?", "vi": "Giao nhanh nhanh hơn bao nhiêu ạ?" },
+        { "speaker": "a", "en": "Two days instead of five.", "vi": "Hai ngày thay vì năm ngày." },
+        { "speaker": "b", "en": "I will take express, please.", "vi": "Vậy cho tôi giao nhanh nhé." },
+        { "speaker": "a", "en": "That is fifteen dollars.", "vi": "Vậy là mười lăm đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Điền địa chỉ người nhận", "situation": "Bạn điền thông tin người nhận vào biên nhận.",
+      "turns": [
+        { "speaker": "a", "en": "Can I have the recipient's name?", "vi": "Cho tôi xin tên người nhận?" },
+        { "speaker": "b", "en": "Yes, it is Tran Van A.", "vi": "Vâng, là Trần Văn A." },
+        { "speaker": "a", "en": "And the address?", "vi": "Còn địa chỉ ạ?" },
+        { "speaker": "b", "en": "It is written here.", "vi": "Có ghi ở đây." },
+        { "speaker": "a", "en": "Thank you, all set.", "vi": "Cảm ơn bạn, xong rồi ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Gửi hàng ra nước ngoài", "situation": "Bạn gửi bưu phẩm đi nước ngoài và cần điền tờ khai hải quan.",
+      "turns": [
+        { "speaker": "a", "en": "Is this going overseas?", "vi": "Cái này gửi ra nước ngoài à ạ?" },
+        { "speaker": "b", "en": "Yes, to my sister abroad.", "vi": "Vâng, cho chị tôi ở nước ngoài." },
+        { "speaker": "a", "en": "You will need a customs form.", "vi": "Bạn sẽ cần điền tờ khai hải quan." },
+        { "speaker": "b", "en": "Okay, where do I get it?", "vi": "Được, tôi lấy tờ đó ở đâu ạ?" },
+        { "speaker": "a", "en": "Here, please fill this in.", "vi": "Đây, vui lòng điền vào ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi mã theo dõi đơn hàng", "situation": "Bạn hỏi cách theo dõi bưu phẩm sau khi gửi.",
+      "turns": [
+        { "speaker": "a", "en": "Your package is ready to send.", "vi": "Bưu phẩm của bạn sẵn sàng để gửi ạ." },
+        { "speaker": "b", "en": "Can I get a tracking number?", "vi": "Cho tôi xin mã theo dõi được không ạ?" },
+        { "speaker": "a", "en": "Yes, it is on your receipt.", "vi": "Có, nó ghi trên biên nhận của bạn ạ." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "You can check it online.", "vi": "Bạn có thể kiểm tra online ạ." },
+        { "speaker": "b", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã cho biết." }
+      ]},
+    { "title": "Cân nặng vượt quy định", "situation": "Gói hàng của bạn vượt quá cân nặng cho phép.",
+      "turns": [
+        { "speaker": "a", "en": "This package is quite heavy.", "vi": "Gói hàng này khá nặng đấy." },
+        { "speaker": "b", "en": "Is that a problem?", "vi": "Vậy có vấn đề gì không ạ?" },
+        { "speaker": "a", "en": "It costs a bit more for heavier packages.", "vi": "Gói hàng nặng hơn sẽ tốn thêm chút tiền ạ." },
+        { "speaker": "b", "en": "That is fine, how much more?", "vi": "Không sao, vậy thêm bao nhiêu ạ?" },
+        { "speaker": "a", "en": "Three dollars more.", "vi": "Thêm ba đô ạ." },
+        { "speaker": "b", "en": "Okay, that works.", "vi": "Được, vậy ổn rồi." }
+      ]},
+    { "title": "Đóng gói lại tại quầy", "situation": "Nhân viên yêu cầu đóng gói lại vì hộp bị hỏng.",
+      "turns": [
+        { "speaker": "a", "en": "This box is a bit damaged.", "vi": "Cái hộp này hơi bị hỏng ạ." },
+        { "speaker": "b", "en": "Oh no, is it still usable?", "vi": "Ôi không, còn dùng được không ạ?" },
+        { "speaker": "a", "en": "We can repackage it for you.", "vi": "Chúng tôi có thể đóng gói lại giúp bạn." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "That is an extra two dollars.", "vi": "Vậy thêm hai đô ạ." },
+        { "speaker": "b", "en": "Okay, that is fine.", "vi": "Được, không sao." }
+      ]},
+    { "title": "Bưu phẩm chưa đến sau nhiều ngày", "situation": "Bạn hỏi về một bưu phẩm gửi lâu chưa tới.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Hôm nay tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "My package has not arrived yet.", "vi": "Bưu phẩm của tôi vẫn chưa tới." },
+        { "speaker": "a", "en": "Do you have the tracking number?", "vi": "Bạn có mã theo dõi không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "Let me check the status for you.", "vi": "Để tôi kiểm tra tình trạng giúp bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Nhận bưu phẩm tại quầy", "situation": "Bạn tới nhận một bưu phẩm được gửi tới bưu điện.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a collection notice?", "vi": "Bạn có giấy báo nhận hàng không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "May I see your ID?", "vi": "Cho tôi xem giấy tờ tuỳ thân được không ạ?" },
+        { "speaker": "b", "en": "Sure, here you are.", "vi": "Được, của bạn đây." },
+        { "speaker": "a", "en": "Here is your package.", "vi": "Đây là bưu phẩm của bạn ạ." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Gửi nhiều gói với yêu cầu khác nhau", "situation": "Bạn gửi ba gói hàng, mỗi gói cần dịch vụ khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You have three packages today.", "vi": "Hôm nay bạn có ba gói hàng." },
+        { "speaker": "b", "en": "Yes, one express and two standard.", "vi": "Vâng, một giao nhanh và hai giao thường." },
+        { "speaker": "a", "en": "Which one is express?", "vi": "Gói nào là giao nhanh vậy ạ?" },
+        { "speaker": "b", "en": "This one, going overseas.", "vi": "Gói này, gửi ra nước ngoài." },
+        { "speaker": "a", "en": "That will need a customs form too.", "vi": "Gói đó cũng cần tờ khai hải quan ạ." },
+        { "speaker": "b", "en": "Okay, I will fill that in now.", "vi": "Được, tôi điền ngay bây giờ." }
+      ]}
+  ]
+}

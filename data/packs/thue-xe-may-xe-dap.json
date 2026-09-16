@@ -1,0 +1,96 @@
+{
+  "id": "thue-xe-may-xe-dap",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Thuê xe máy cơ bản", "situation": "Bạn thuê một chiếc xe máy trong một ngày.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I would like to rent a scooter.", "vi": "Tôi muốn thuê một chiếc xe máy." },
+        { "speaker": "a", "en": "For how many days?", "vi": "Thuê mấy ngày ạ?" },
+        { "speaker": "b", "en": "Just one day.", "vi": "Chỉ một ngày thôi." },
+        { "speaker": "a", "en": "That is ten dollars.", "vi": "Vậy là mười đô." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Ổn đấy." }
+      ]},
+    { "title": "Hỏi về mũ bảo hiểm", "situation": "Bạn hỏi có mũ bảo hiểm đi kèm không.",
+      "turns": [
+        { "speaker": "a", "en": "Here is the scooter.", "vi": "Đây là xe máy của bạn." },
+        { "speaker": "b", "en": "Does it come with a helmet?", "vi": "Có kèm mũ bảo hiểm không ạ?" },
+        { "speaker": "a", "en": "Yes, two helmets included.", "vi": "Có, kèm hai mũ bảo hiểm ạ." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Please wear it always.", "vi": "Xin bạn đội mũ suốt nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ đội, cảm ơn bạn." }
+      ]},
+    { "title": "Xe số sàn hay tự động", "situation": "Bạn muốn thuê xe tự động vì chưa biết đi xe số.",
+      "turns": [
+        { "speaker": "a", "en": "We have manual and automatic scooters.", "vi": "Chúng tôi có xe số sàn và xe tự động." },
+        { "speaker": "b", "en": "I need an automatic one, please.", "vi": "Cho tôi xe tự động nhé." },
+        { "speaker": "a", "en": "Sure, this one is automatic.", "vi": "Được ạ, cái này là xe tự động." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." },
+        { "speaker": "a", "en": "Have you ridden one before?", "vi": "Bạn đã lái loại này bao giờ chưa ạ?" },
+        { "speaker": "b", "en": "No, this is my first time.", "vi": "Chưa, đây là lần đầu tiên." }
+      ]},
+    { "title": "Hỏi về bảo hiểm", "situation": "Bạn hỏi xem xe có bảo hiểm không.",
+      "turns": [
+        { "speaker": "a", "en": "The price includes basic insurance.", "vi": "Giá đã bao gồm bảo hiểm cơ bản." },
+        { "speaker": "b", "en": "What does the insurance cover?", "vi": "Bảo hiểm bao gồm những gì ạ?" },
+        { "speaker": "a", "en": "It covers small accidents.", "vi": "Bao gồm các tai nạn nhỏ." },
+        { "speaker": "b", "en": "What about theft?", "vi": "Còn trộm cắp thì sao ạ?" },
+        { "speaker": "a", "en": "That is an extra two dollars.", "vi": "Cái đó thêm hai đô nữa ạ." },
+        { "speaker": "b", "en": "Okay, I will add that too.", "vi": "Được, tôi thêm cả cái đó." }
+      ]},
+    { "title": "Cần đổ xăng trước khi đi", "situation": "Bạn hỏi xe có đủ xăng không.",
+      "turns": [
+        { "speaker": "a", "en": "The tank is half full.", "vi": "Bình xăng còn nửa bình." },
+        { "speaker": "b", "en": "Is there a gas station nearby?", "vi": "Gần đây có cây xăng không ạ?" },
+        { "speaker": "a", "en": "Yes, just around the corner.", "vi": "Có, ngay góc phố kia." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Please return it with the same fuel level.", "vi": "Vui lòng trả xe với mức xăng như vậy nhé." },
+        { "speaker": "b", "en": "Okay, I will do that.", "vi": "Được, tôi sẽ làm vậy." }
+      ]},
+    { "title": "Xin thuê thêm ngày", "situation": "Bạn muốn kéo dài thời gian thuê xe.",
+      "turns": [
+        { "speaker": "a", "en": "You need to return the bike today.", "vi": "Hôm nay bạn cần trả xe đạp ạ." },
+        { "speaker": "b", "en": "Can I extend one more day?", "vi": "Tôi thuê thêm một ngày nữa được không?" },
+        { "speaker": "a", "en": "Sure, that is five more dollars.", "vi": "Được ạ, thêm năm đô nữa." },
+        { "speaker": "b", "en": "Okay, here you are.", "vi": "Được, của bạn đây." },
+        { "speaker": "a", "en": "Thank you. Return by six tomorrow.", "vi": "Cảm ơn bạn. Trả trước sáu giờ mai nhé." },
+        { "speaker": "b", "en": "Got it, thank you.", "vi": "Rõ rồi, cảm ơn bạn." }
+      ]},
+    { "title": "Xe bị hỏng giữa chừng", "situation": "Xe máy bị hỏng khi bạn đang dùng.",
+      "turns": [
+        { "speaker": "a", "en": "Rental shop, how can I help?", "vi": "Tiệm cho thuê xe đây, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "The scooter stopped working.", "vi": "Xe máy tôi thuê tự dưng hỏng." },
+        { "speaker": "a", "en": "I am sorry. Where are you now?", "vi": "Tôi xin lỗi. Bạn đang ở đâu ạ?" },
+        { "speaker": "b", "en": "Near the market on Main Street.", "vi": "Gần chợ trên đường Main." },
+        { "speaker": "a", "en": "I will send someone to help.", "vi": "Tôi sẽ cử người tới giúp." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Không có bằng lái phù hợp", "situation": "Bạn không có bằng lái xe máy quốc tế.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a driving license?", "vi": "Bạn có bằng lái xe không ạ?" },
+        { "speaker": "b", "en": "I only have my home country license.", "vi": "Tôi chỉ có bằng lái ở nước mình thôi." },
+        { "speaker": "a", "en": "That should be fine for a bicycle.", "vi": "Vậy dùng cho xe đạp thì được ạ." },
+        { "speaker": "b", "en": "So I cannot rent a scooter?", "vi": "Vậy tôi không thuê được xe máy à?" },
+        { "speaker": "a", "en": "Not without an international license.", "vi": "Không có bằng quốc tế thì không được ạ." },
+        { "speaker": "b", "en": "I see. I will rent a bicycle then.", "vi": "Tôi hiểu rồi. Vậy tôi thuê xe đạp." }
+      ]},
+    { "title": "So sánh giá xe đạp và xe máy", "situation": "Bạn phân vân giữa thuê xe đạp và xe máy.",
+      "turns": [
+        { "speaker": "a", "en": "The bicycle is three dollars a day.", "vi": "Xe đạp ba đô một ngày." },
+        { "speaker": "b", "en": "And the scooter?", "vi": "Còn xe máy thì sao ạ?" },
+        { "speaker": "a", "en": "Ten dollars a day.", "vi": "Mười đô một ngày ạ." },
+        { "speaker": "b", "en": "I will take the bicycle then.", "vi": "Vậy tôi thuê xe đạp." },
+        { "speaker": "a", "en": "Good choice for a short trip.", "vi": "Lựa chọn tốt cho chuyến đi ngắn đấy." },
+        { "speaker": "b", "en": "Thank you for the advice.", "vi": "Cảm ơn bạn đã tư vấn." }
+      ]},
+    { "title": "Thuê xe cho cả nhóm với yêu cầu khác nhau", "situation": "Bạn thuê nhiều xe cùng lúc, mỗi người một yêu cầu riêng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How many scooters do you need?", "vi": "Bạn cần mấy chiếc xe máy vậy?" },
+        { "speaker": "b", "en": "Three, but one needs to be automatic.", "vi": "Ba chiếc, nhưng một chiếc cần là xe tự động." },
+        { "speaker": "a", "en": "Sure, and the other two?", "vi": "Được ạ, còn hai chiếc kia?" },
+        { "speaker": "b", "en": "Manual is fine, and all with insurance.", "vi": "Số sàn cũng được, và tất cả cần bảo hiểm." },
+        { "speaker": "a", "en": "Got it. That will be thirty five dollars total.", "vi": "Rõ rồi. Tổng cộng là ba mươi lăm đô." },
+        { "speaker": "b", "en": "That works for us.", "vi": "Vậy ổn với chúng tôi rồi." }
+      ]}
+  ]
+}

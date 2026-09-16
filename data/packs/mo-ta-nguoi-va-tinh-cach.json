@@ -1,0 +1,96 @@
+{
+  "id": "mo-ta-nguoi-va-tinh-cach",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Tìm bạn trong đám đông", "situation": "Bạn giúp một người lạ tìm bạn của họ trong đám đông.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, have you seen my friend Minh?", "vi": "Xin lỗi, bạn có thấy bạn Minh của tôi không?" },
+        { "speaker": "b", "en": "What does he look like?", "vi": "Anh ấy trông thế nào vậy?" },
+        { "speaker": "a", "en": "He is tall with short hair.", "vi": "Anh ấy cao, tóc ngắn." },
+        { "speaker": "b", "en": "Is he wearing glasses?", "vi": "Anh ấy có đeo kính không?" },
+        { "speaker": "a", "en": "Yes, he is.", "vi": "Có, anh ấy có đeo." },
+        { "speaker": "b", "en": "I think I saw him over there.", "vi": "Tôi nghĩ tôi thấy anh ấy ở đằng kia." }
+      ]},
+    { "title": "Mô tả quần áo", "situation": "Bạn mô tả trang phục để dễ nhận ra người cần tìm.",
+      "turns": [
+        { "speaker": "a", "en": "What is he wearing?", "vi": "Anh ấy mặc gì vậy?" },
+        { "speaker": "b", "en": "A blue jacket and jeans.", "vi": "Áo khoác xanh và quần jean." },
+        { "speaker": "a", "en": "Does he have a backpack?", "vi": "Anh ấy có ba lô không?" },
+        { "speaker": "b", "en": "Yes, a black one.", "vi": "Có, ba lô màu đen." },
+        { "speaker": "a", "en": "I think I see him now.", "vi": "Tôi nghĩ giờ tôi thấy anh ấy rồi." },
+        { "speaker": "b", "en": "Great, thank you for your help.", "vi": "Tuyệt, cảm ơn bạn đã giúp." }
+      ]},
+    { "title": "Mô tả tính cách", "situation": "Bạn mô tả tính cách của người đang tìm.",
+      "turns": [
+        { "speaker": "a", "en": "What is he like?", "vi": "Anh ấy là người thế nào?" },
+        { "speaker": "b", "en": "He is very friendly.", "vi": "Anh ấy rất thân thiện." },
+        { "speaker": "a", "en": "Is he talkative?", "vi": "Anh ấy có hay nói chuyện không?" },
+        { "speaker": "b", "en": "No, he is quite quiet.", "vi": "Không, anh ấy khá trầm tính." },
+        { "speaker": "a", "en": "That helps me picture him.", "vi": "Vậy giúp tôi hình dung được rồi." },
+        { "speaker": "b", "en": "He does not stand out much.", "vi": "Anh ấy không nổi bật lắm." }
+      ]},
+    { "title": "Nhầm người trong đám đông", "situation": "Bạn nhầm tưởng một người khác là người cần tìm.",
+      "turns": [
+        { "speaker": "a", "en": "Is that him, in the red shirt?", "vi": "Có phải anh ấy đó không, người mặc áo đỏ?" },
+        { "speaker": "b", "en": "No, Minh is wearing a blue jacket.", "vi": "Không, Minh mặc áo khoác xanh." },
+        { "speaker": "a", "en": "Sorry, my mistake.", "vi": "Xin lỗi, tôi nhầm rồi." },
+        { "speaker": "b", "en": "No problem, it happens.", "vi": "Không sao, chuyện thường mà." },
+        { "speaker": "a", "en": "Let me look again.", "vi": "Để tôi nhìn lại lần nữa." },
+        { "speaker": "b", "en": "Take your time.", "vi": "Bạn cứ từ từ." }
+      ]},
+    { "title": "So sánh hai người", "situation": "Bạn so sánh đặc điểm của hai người để tìm đúng người.",
+      "turns": [
+        { "speaker": "a", "en": "There are two tall men over there.", "vi": "Có hai người đàn ông cao ở đằng kia." },
+        { "speaker": "b", "en": "Which one has short hair?", "vi": "Người nào tóc ngắn vậy?" },
+        { "speaker": "a", "en": "The one on the left.", "vi": "Người bên trái." },
+        { "speaker": "b", "en": "That must be him then.", "vi": "Vậy chắc là anh ấy rồi." },
+        { "speaker": "a", "en": "Let us go check.", "vi": "Mình đi kiểm tra thử nhé." },
+        { "speaker": "b", "en": "Yes, that is my friend.", "vi": "Đúng rồi, đó là bạn tôi." }
+      ]},
+    { "title": "Mô tả người qua điện thoại", "situation": "Bạn mô tả đặc điểm người bạn qua điện thoại vì không đứng gần.",
+      "turns": [
+        { "speaker": "a", "en": "I cannot find you in the crowd.", "vi": "Tôi không tìm thấy bạn trong đám đông." },
+        { "speaker": "b", "en": "I am wearing a yellow jacket.", "vi": "Tôi đang mặc áo khoác vàng." },
+        { "speaker": "a", "en": "Are you near the entrance?", "vi": "Bạn đang ở gần cổng vào không?" },
+        { "speaker": "b", "en": "Yes, right by the entrance.", "vi": "Vâng, ngay gần cổng vào." },
+        { "speaker": "a", "en": "I see you now.", "vi": "Giờ tôi thấy bạn rồi." },
+        { "speaker": "b", "en": "Great, come this way.", "vi": "Tuyệt, đi hướng này nhé." }
+      ]},
+    { "title": "Hỏi chi tiết hơn vì mô tả chưa rõ", "situation": "Mô tả ban đầu chưa đủ rõ nên bạn hỏi thêm chi tiết.",
+      "turns": [
+        { "speaker": "a", "en": "He is tall, that is all I know.", "vi": "Anh ấy cao, tôi chỉ biết vậy thôi." },
+        { "speaker": "b", "en": "That does not help much. Anything else?", "vi": "Vậy chưa giúp ích được nhiều. Còn gì khác không?" },
+        { "speaker": "a", "en": "He has short hair and glasses.", "vi": "Anh ấy tóc ngắn và đeo kính." },
+        { "speaker": "b", "en": "Okay, that narrows it down.", "vi": "Được, vậy thu hẹp lại rồi." },
+        { "speaker": "a", "en": "Is he wearing a backpack too?", "vi": "Anh ấy có đeo ba lô không?" },
+        { "speaker": "b", "en": "Yes, actually he is.", "vi": "Có, thật ra anh ấy có đeo." }
+      ]},
+    { "title": "Người cần tìm đã rời đi", "situation": "Bạn đến chỗ được chỉ nhưng người cần tìm đã đi mất.",
+      "turns": [
+        { "speaker": "a", "en": "I do not see him here anymore.", "vi": "Tôi không thấy anh ấy ở đây nữa." },
+        { "speaker": "b", "en": "He might have moved somewhere else.", "vi": "Có thể anh ấy đã đi chỗ khác rồi." },
+        { "speaker": "a", "en": "Let me call him.", "vi": "Để tôi gọi anh ấy." },
+        { "speaker": "b", "en": "Good idea.", "vi": "Ý hay đấy." },
+        { "speaker": "a", "en": "He says he is near the food court.", "vi": "Anh ấy nói đang ở gần khu ẩm thực." },
+        { "speaker": "b", "en": "Let us go there.", "vi": "Mình đi tới đó nhé." }
+      ]},
+    { "title": "Nhận ra người quen từ xa", "situation": "Bạn nhận ra một người quen từ xa nhờ đặc điểm nổi bật.",
+      "turns": [
+        { "speaker": "a", "en": "Is that Minh over there?", "vi": "Có phải Minh ở đằng kia không?" },
+        { "speaker": "b", "en": "How can you tell from so far?", "vi": "Sao bạn nhận ra được từ xa vậy?" },
+        { "speaker": "a", "en": "His yellow bag stands out.", "vi": "Cái túi màu vàng của anh ấy nổi bật lắm." },
+        { "speaker": "b", "en": "You are right, that is him.", "vi": "Bạn nói đúng, là anh ấy đấy." },
+        { "speaker": "a", "en": "Let us wave to get his attention.", "vi": "Mình vẫy tay để gây chú ý nhé." },
+        { "speaker": "b", "en": "Good idea, he saw us.", "vi": "Ý hay đấy, anh ấy thấy chúng ta rồi." }
+      ]},
+    { "title": "Mô tả người trong đám đông rất lớn với nhiều đặc điểm", "situation": "Bạn giúp tìm một người trong đám đông rất đông và cần nhiều thông tin. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This crowd is huge. What does he look like exactly?", "vi": "Đám đông này lớn quá. Anh ấy trông chính xác thế nào?" },
+        { "speaker": "b", "en": "Tall, short hair, wearing a blue jacket and glasses.", "vi": "Cao, tóc ngắn, mặc áo khoác xanh và đeo kính." },
+        { "speaker": "a", "en": "Does he have anything else with him?", "vi": "Anh ấy có mang theo gì khác không?" },
+        { "speaker": "b", "en": "Yes, a black backpack with a red logo.", "vi": "Có, một ba lô đen với logo màu đỏ." },
+        { "speaker": "a", "en": "I think I see someone matching that.", "vi": "Tôi nghĩ tôi thấy người khớp với mô tả đó." },
+        { "speaker": "b", "en": "Let us go check together.", "vi": "Mình cùng đi kiểm tra nhé." }
+      ]}
+  ]
+}

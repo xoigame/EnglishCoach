@@ -1,0 +1,96 @@
+{
+  "id": "len-ke-hoach-di-choi",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Rủ đi xem phim tối nay", "situation": "Bạn rủ bạn thân đi xem phim tối nay.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free tonight?", "vi": "Tối nay bạn rảnh không?" },
+        { "speaker": "b", "en": "Yes, I am free. What is the plan?", "vi": "Có, tôi rảnh. Kế hoạch là gì vậy?" },
+        { "speaker": "a", "en": "Let us watch a movie.", "vi": "Mình đi xem phim nhé." },
+        { "speaker": "b", "en": "Sounds great. What time?", "vi": "Hay đấy. Mấy giờ vậy?" },
+        { "speaker": "a", "en": "The showtime is seven thirty.", "vi": "Giờ chiếu là bảy giờ ba mươi." },
+        { "speaker": "b", "en": "Perfect, see you there.", "vi": "Tuyệt, hẹn gặp ở đó nhé." }
+      ]},
+    { "title": "Hẹn gặp ở trung tâm thương mại", "situation": "Hai người bàn chỗ gặp cụ thể.",
+      "turns": [
+        { "speaker": "a", "en": "Where should we meet?", "vi": "Mình gặp ở đâu vậy?" },
+        { "speaker": "b", "en": "How about the mall entrance?", "vi": "Cổng vào trung tâm thương mại thì sao?" },
+        { "speaker": "a", "en": "Sounds good to me.", "vi": "Nghe ổn với tôi." },
+        { "speaker": "b", "en": "What time works for you?", "vi": "Giờ nào hợp với bạn?" },
+        { "speaker": "a", "en": "Let us meet at six.", "vi": "Mình gặp lúc sáu giờ nhé." },
+        { "speaker": "b", "en": "Okay, see you at six.", "vi": "Được, hẹn sáu giờ gặp." }
+      ]},
+    { "title": "Ăn trước khi xem phim", "situation": "Bạn đề xuất ăn ở khu ẩm thực trước khi xem phim.",
+      "turns": [
+        { "speaker": "a", "en": "Should we eat before the movie?", "vi": "Mình ăn trước khi xem phim chứ?" },
+        { "speaker": "b", "en": "Yes, let us go to the food court.", "vi": "Ừ, mình đi khu ẩm thực nhé." },
+        { "speaker": "a", "en": "Good idea, I am hungry.", "vi": "Ý hay đấy, tôi đói rồi." },
+        { "speaker": "b", "en": "Same here. Let us go now.", "vi": "Tôi cũng vậy. Đi thôi." },
+        { "speaker": "a", "en": "We have enough time before the movie.", "vi": "Còn đủ thời gian trước khi phim bắt đầu." },
+        { "speaker": "b", "en": "Great, let us hang out first.", "vi": "Tuyệt, mình đi chơi trước đã." }
+      ]},
+    { "title": "Không đủ tiền mặt", "situation": "Bạn nhắc bạn mình mang đủ tiền mặt.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have enough cash?", "vi": "Bạn có đủ tiền mặt không?" },
+        { "speaker": "b", "en": "Not much. Do they take cards?", "vi": "Không nhiều lắm. Chỗ đó nhận thẻ chứ?" },
+        { "speaker": "a", "en": "Yes, most places take cards.", "vi": "Có, hầu hết các chỗ đều nhận thẻ." },
+        { "speaker": "b", "en": "Good, that is a relief.", "vi": "Tốt, vậy tôi yên tâm rồi." },
+        { "speaker": "a", "en": "Just bring a little cash too.", "vi": "Mang theo chút tiền mặt nữa nhé." },
+        { "speaker": "b", "en": "Sure, I will do that.", "vi": "Được, tôi sẽ mang theo." }
+      ]},
+    { "title": "Đổi kế hoạch vì thời tiết", "situation": "Trời mưa nên bạn đổi kế hoạch đi chơi.",
+      "turns": [
+        { "speaker": "a", "en": "It looks like it will rain.", "vi": "Trông có vẻ trời sắp mưa." },
+        { "speaker": "b", "en": "Maybe we should stay indoors then.", "vi": "Vậy có lẽ mình nên ở trong nhà." },
+        { "speaker": "a", "en": "Good idea. Let us go to the mall.", "vi": "Ý hay đấy. Mình đi trung tâm thương mại." },
+        { "speaker": "b", "en": "That works. We can still watch the movie.", "vi": "Được đấy. Mình vẫn xem phim được." },
+        { "speaker": "a", "en": "Great, same time then?", "vi": "Tuyệt, vẫn giờ đó nhé?" },
+        { "speaker": "b", "en": "Yes, same time.", "vi": "Vâng, vẫn giờ đó." }
+      ]},
+    { "title": "Bạn đến muộn", "situation": "Bạn của bạn nhắn tin báo sẽ đến muộn.",
+      "turns": [
+        { "speaker": "a", "en": "I might be a bit late.", "vi": "Tôi có thể tới hơi muộn." },
+        { "speaker": "b", "en": "That is okay, how late?", "vi": "Không sao, muộn cỡ nào vậy?" },
+        { "speaker": "a", "en": "About fifteen minutes.", "vi": "Khoảng mười lăm phút." },
+        { "speaker": "b", "en": "No problem, I will wait.", "vi": "Không sao, tôi sẽ đợi." },
+        { "speaker": "a", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "See you soon.", "vi": "Hẹn gặp sớm nhé." }
+      ]},
+    { "title": "Rủ thêm bạn khác cùng đi", "situation": "Bạn muốn mời thêm một người bạn nữa tham gia.",
+      "turns": [
+        { "speaker": "a", "en": "Can Nam join us tonight?", "vi": "Tối nay Nam đi cùng được không?" },
+        { "speaker": "b", "en": "Sure, the more the merrier.", "vi": "Được thôi, càng đông càng vui." },
+        { "speaker": "a", "en": "Great, I will text him now.", "vi": "Tuyệt, tôi nhắn tin cho anh ấy ngay." },
+        { "speaker": "b", "en": "Tell him the plan.", "vi": "Báo anh ấy kế hoạch nhé." },
+        { "speaker": "a", "en": "Movie at seven thirty, mall entrance.", "vi": "Phim lúc bảy giờ ba mươi, cổng trung tâm thương mại." },
+        { "speaker": "b", "en": "Perfect, see you both there.", "vi": "Tuyệt vời, hẹn gặp cả hai ở đó." }
+      ]},
+    { "title": "Vé xem phim đã hết suất", "situation": "Suất chiếu bạn muốn xem đã hết vé.",
+      "turns": [
+        { "speaker": "a", "en": "The seven thirty show is sold out.", "vi": "Suất bảy giờ ba mươi hết vé rồi." },
+        { "speaker": "b", "en": "Oh no, what other times are there?", "vi": "Ôi không, còn suất nào khác không?" },
+        { "speaker": "a", "en": "There is a nine o'clock show.", "vi": "Có suất chín giờ." },
+        { "speaker": "b", "en": "That is a bit late, but okay.", "vi": "Hơi muộn, nhưng được." },
+        { "speaker": "a", "en": "We can eat dinner first then.", "vi": "Vậy mình ăn tối trước nhé." },
+        { "speaker": "b", "en": "Good idea, let us do that.", "vi": "Ý hay đấy, làm vậy đi." }
+      ]},
+    { "title": "Đổi ý về chỗ đi chơi", "situation": "Bạn đổi ý muốn đi công viên thay vì trung tâm thương mại.",
+      "turns": [
+        { "speaker": "a", "en": "Actually, could we go to the park instead?", "vi": "Thật ra, mình đi công viên thay thế được không?" },
+        { "speaker": "b", "en": "Sure, why the change?", "vi": "Được, sao lại đổi vậy?" },
+        { "speaker": "a", "en": "The weather is really nice today.", "vi": "Hôm nay thời tiết đẹp quá." },
+        { "speaker": "b", "en": "Good point, let us do that.", "vi": "Nói đúng đấy, làm vậy đi." },
+        { "speaker": "a", "en": "Great, same time as before?", "vi": "Tuyệt, vẫn giờ như trước chứ?" },
+        { "speaker": "b", "en": "Yes, six o'clock is fine.", "vi": "Vâng, sáu giờ vẫn ổn." }
+      ]},
+    { "title": "Lên kế hoạch chi tiết cho cả buổi tối", "situation": "Bạn và bạn thân bàn kỹ lịch trình cho cả buổi tối với nhiều hoạt động. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Let us plan the whole evening.", "vi": "Mình lên kế hoạch cho cả buổi tối nhé." },
+        { "speaker": "b", "en": "Sure. Dinner first, then the movie?", "vi": "Được. Ăn tối trước rồi xem phim nhé?" },
+        { "speaker": "a", "en": "Yes, and maybe coffee after.", "vi": "Ừ, và có thể uống cà phê sau đó." },
+        { "speaker": "b", "en": "That sounds like a full night.", "vi": "Vậy là kín cả buổi tối rồi." },
+        { "speaker": "a", "en": "Let us start at five, then.", "vi": "Vậy mình bắt đầu lúc năm giờ nhé." },
+        { "speaker": "b", "en": "Perfect, five it is.", "vi": "Tuyệt vời, năm giờ nhé." }
+      ]}
+  ]
+}

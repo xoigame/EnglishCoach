@@ -1,0 +1,96 @@
+{
+  "id": "dat-ban-nha-hang",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Đặt bàn cho hai người", "situation": "Bạn gọi điện đặt bàn cơ bản.",
+      "turns": [
+        { "speaker": "a", "en": "Good evening, how can I help?", "vi": "Chào buổi tối, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I would like to book a table for two.", "vi": "Tôi muốn đặt bàn cho hai người." },
+        { "speaker": "a", "en": "What time would you like?", "vi": "Bạn muốn giờ nào ạ?" },
+        { "speaker": "b", "en": "At seven, please.", "vi": "Bảy giờ nhé." },
+        { "speaker": "a", "en": "Great, that is confirmed.", "vi": "Tuyệt, đã xác nhận rồi ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin bàn gần cửa sổ", "situation": "Bạn yêu cầu ngồi gần cửa sổ.",
+      "turns": [
+        { "speaker": "a", "en": "A table for how many?", "vi": "Bàn cho mấy người ạ?" },
+        { "speaker": "b", "en": "Four people, near the window if possible.", "vi": "Bốn người, nếu được thì gần cửa sổ." },
+        { "speaker": "a", "en": "Let me check availability.", "vi": "Để tôi kiểm tra chỗ trống." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Yes, we have one by the window.", "vi": "Có, chúng tôi có một bàn gần cửa sổ." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Đổi giờ đặt bàn", "situation": "Bạn cần đổi giờ đặt bàn đã có.",
+      "turns": [
+        { "speaker": "a", "en": "You have a reservation for seven.", "vi": "Bạn có đặt bàn lúc bảy giờ." },
+        { "speaker": "b", "en": "Could I change the time to eight?", "vi": "Đổi sang tám giờ được không ạ?" },
+        { "speaker": "a", "en": "Sure, let me update that.", "vi": "Được ạ, để tôi cập nhật." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "You are all set for eight.", "vi": "Vậy là đã đổi sang tám giờ rồi ạ." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." }
+      ]},
+    { "title": "Nhà hàng không còn bàn giờ đó", "situation": "Giờ bạn muốn đặt đã hết bàn trống.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, seven is fully booked.", "vi": "Xin lỗi, bảy giờ đã hết bàn rồi ạ." },
+        { "speaker": "b", "en": "Oh, what times are available?", "vi": "Ồ, vậy còn giờ nào trống ạ?" },
+        { "speaker": "a", "en": "We have six or eight thirty.", "vi": "Còn sáu giờ hoặc tám giờ ba mươi ạ." },
+        { "speaker": "b", "en": "Eight thirty works for me.", "vi": "Tám giờ ba mươi được với tôi." },
+        { "speaker": "a", "en": "Great, I will book that.", "vi": "Tuyệt, tôi sẽ đặt giờ đó." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Thêm người vào đặt bàn", "situation": "Bạn cần thêm một người vào bàn đã đặt.",
+      "turns": [
+        { "speaker": "a", "en": "Your table for two is confirmed.", "vi": "Bàn hai người của bạn đã được xác nhận." },
+        { "speaker": "b", "en": "Actually, could you add one more person?", "vi": "Thật ra, thêm một người nữa được không ạ?" },
+        { "speaker": "a", "en": "Sure, so three people total?", "vi": "Được ạ, vậy tổng cộng ba người phải không ạ?" },
+        { "speaker": "b", "en": "Yes, that is right.", "vi": "Vâng, đúng vậy." },
+        { "speaker": "a", "en": "I have updated your booking.", "vi": "Tôi đã cập nhật đặt bàn của bạn rồi." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Đặt bàn cho dịp đặc biệt", "situation": "Bạn đặt bàn cho một dịp sinh nhật.",
+      "turns": [
+        { "speaker": "a", "en": "Is this for a special occasion?", "vi": "Đây có phải dịp đặc biệt không ạ?" },
+        { "speaker": "b", "en": "Yes, it is my friend's birthday.", "vi": "Vâng, là sinh nhật bạn tôi." },
+        { "speaker": "a", "en": "We can prepare a small cake.", "vi": "Chúng tôi có thể chuẩn bị một chiếc bánh nhỏ." },
+        { "speaker": "b", "en": "That would be wonderful, thank you.", "vi": "Vậy thì tuyệt vời quá, cảm ơn bạn." },
+        { "speaker": "a", "en": "No problem, we will surprise them.", "vi": "Không sao đâu, chúng tôi sẽ tạo bất ngờ cho họ." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Huỷ đặt bàn", "situation": "Bạn cần huỷ đặt bàn đã có.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Hôm nay tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I need to cancel my reservation.", "vi": "Tôi cần huỷ đặt bàn của mình." },
+        { "speaker": "a", "en": "Sure, may I have your name?", "vi": "Được ạ, cho tôi xin tên của bạn?" },
+        { "speaker": "b", "en": "It is under Nguyen, for Saturday.", "vi": "Đặt dưới tên Nguyễn, cho thứ Bảy." },
+        { "speaker": "a", "en": "I have canceled that for you.", "vi": "Tôi đã huỷ giúp bạn rồi ạ." },
+        { "speaker": "b", "en": "Thank you for your help.", "vi": "Cảm ơn bạn đã giúp." }
+      ]},
+    { "title": "Đặt bàn nhưng đến muộn", "situation": "Bạn báo trước sẽ đến muộn hơn giờ đặt.",
+      "turns": [
+        { "speaker": "a", "en": "Your table is ready at seven.", "vi": "Bàn của bạn sẵn sàng lúc bảy giờ." },
+        { "speaker": "b", "en": "We might be fifteen minutes late.", "vi": "Chúng tôi có thể trễ mười lăm phút." },
+        { "speaker": "a", "en": "That is fine, we will hold the table.", "vi": "Không sao, chúng tôi sẽ giữ bàn." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "See you soon.", "vi": "Hẹn gặp bạn sớm." }
+      ]},
+    { "title": "Yêu cầu ghế cho trẻ nhỏ", "situation": "Bạn cần ghế cao cho trẻ nhỏ đi cùng.",
+      "turns": [
+        { "speaker": "a", "en": "A table for four, right?", "vi": "Bàn bốn người phải không ạ?" },
+        { "speaker": "b", "en": "Yes, and we need a high chair.", "vi": "Vâng, và chúng tôi cần một ghế cao." },
+        { "speaker": "a", "en": "Sure, we have those available.", "vi": "Được ạ, chúng tôi có sẵn ạ." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "I will note that on your booking.", "vi": "Tôi sẽ ghi chú vào đặt bàn của bạn." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Đổi cả giờ, số người và yêu cầu chỗ ngồi cùng lúc", "situation": "Bạn cần thay đổi nhiều chi tiết trong một đặt bàn đã có. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your reservation is for four at seven.", "vi": "Đặt bàn của bạn là bốn người lúc bảy giờ." },
+        { "speaker": "b", "en": "Could we change to six people at eight?", "vi": "Đổi sang sáu người lúc tám giờ được không ạ?" },
+        { "speaker": "a", "en": "Let me check that time slot.", "vi": "Để tôi kiểm tra khung giờ đó." },
+        { "speaker": "b", "en": "Also, could we get a table near the window?", "vi": "Ngoài ra, cho tôi bàn gần cửa sổ được không ạ?" },
+        { "speaker": "a", "en": "Yes, that works for six people too.", "vi": "Được ạ, cũng phù hợp cho sáu người." },
+        { "speaker": "b", "en": "Perfect, thank you for arranging everything.", "vi": "Tuyệt vời, cảm ơn bạn đã sắp xếp mọi thứ." }
+      ]}
+  ]
+}

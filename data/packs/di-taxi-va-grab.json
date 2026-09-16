@@ -1,0 +1,96 @@
+{
+  "id": "di-taxi-va-grab",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Đón khách qua ứng dụng", "situation": "Tài xế xác nhận điểm đón qua ứng dụng.",
+      "turns": [
+        { "speaker": "a", "en": "Hi, are you Lan?", "vi": "Chào, bạn là Lan phải không?" },
+        { "speaker": "b", "en": "Yes, that is me.", "vi": "Vâng, đúng tôi đây." },
+        { "speaker": "a", "en": "I am here to pick you up.", "vi": "Tôi tới đón bạn đây." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Is the destination the airport?", "vi": "Điểm đến là sân bay phải không ạ?" },
+        { "speaker": "b", "en": "Yes, that is right.", "vi": "Vâng, đúng vậy." }
+      ]},
+    { "title": "Hỏi giá cước trước khi đi", "situation": "Bạn hỏi giá trước khi lên xe.",
+      "turns": [
+        { "speaker": "a", "en": "The app shows the fare already.", "vi": "Ứng dụng đã hiện sẵn giá cước rồi ạ." },
+        { "speaker": "b", "en": "Is that the final price?", "vi": "Đó là giá cuối cùng phải không ạ?" },
+        { "speaker": "a", "en": "Yes, unless there is heavy traffic.", "vi": "Vâng, trừ khi đường đông quá." },
+        { "speaker": "b", "en": "I see. Thank you.", "vi": "Tôi hiểu rồi. Cảm ơn bạn." },
+        { "speaker": "a", "en": "Let us go then.", "vi": "Vậy mình đi thôi." },
+        { "speaker": "b", "en": "Sure.", "vi": "Được." }
+      ]},
+    { "title": "Đổi lộ trình để tránh kẹt xe", "situation": "Tài xế đề nghị đi đường khác để tránh kẹt xe.",
+      "turns": [
+        { "speaker": "a", "en": "There is heavy traffic ahead.", "vi": "Phía trước đang kẹt xe nặng." },
+        { "speaker": "b", "en": "Is there another route?", "vi": "Có đường nào khác không ạ?" },
+        { "speaker": "a", "en": "Yes, I can take a different road.", "vi": "Có, tôi có thể đi đường khác." },
+        { "speaker": "b", "en": "Please do that.", "vi": "Vậy đi đường đó nhé." },
+        { "speaker": "a", "en": "Okay, this way is faster.", "vi": "Được, đường này nhanh hơn." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." }
+      ]},
+    { "title": "Nhờ dừng ở một điểm giữa đường", "situation": "Bạn nhờ tài xế dừng ở một cửa hàng trước khi tới đích.",
+      "turns": [
+        { "speaker": "a", "en": "We are close to your destination.", "vi": "Sắp tới điểm đến của bạn rồi." },
+        { "speaker": "b", "en": "Could you stop at the pharmacy first?", "vi": "Dừng ở nhà thuốc trước được không ạ?" },
+        { "speaker": "a", "en": "Sure, no problem.", "vi": "Được, không sao ạ." },
+        { "speaker": "b", "en": "I will be quick, five minutes.", "vi": "Tôi sẽ nhanh thôi, năm phút." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "Thank you for waiting.", "vi": "Cảm ơn bạn đã chờ." }
+      ]},
+    { "title": "Trả tiền bằng thẻ trong ứng dụng", "situation": "Bạn xác nhận thanh toán qua ứng dụng.",
+      "turns": [
+        { "speaker": "a", "en": "We have arrived.", "vi": "Chúng ta tới nơi rồi." },
+        { "speaker": "b", "en": "Great, I will pay by card in the app.", "vi": "Tuyệt, tôi trả bằng thẻ trong ứng dụng nhé." },
+        { "speaker": "a", "en": "Sure, it is already set up.", "vi": "Được ạ, đã cài sẵn rồi." },
+        { "speaker": "b", "en": "Perfect, thank you for the ride.", "vi": "Tuyệt vời, cảm ơn chuyến đi." },
+        { "speaker": "a", "en": "You are welcome. Have a good day.", "vi": "Không có gì. Chúc bạn ngày tốt lành." },
+        { "speaker": "b", "en": "You too, thank you.", "vi": "Bạn cũng vậy, cảm ơn bạn." }
+      ]},
+    { "title": "Tài xế không tìm thấy điểm đón", "situation": "Tài xế không tìm được đúng chỗ bạn đứng.",
+      "turns": [
+        { "speaker": "a", "en": "I cannot find you. Where are you?", "vi": "Tôi không tìm thấy bạn. Bạn đang ở đâu ạ?" },
+        { "speaker": "b", "en": "I am next to the blue building.", "vi": "Tôi đang ở cạnh toà nhà màu xanh." },
+        { "speaker": "a", "en": "Oh, I see you now.", "vi": "À, giờ tôi thấy bạn rồi." },
+        { "speaker": "b", "en": "Great, I am waving at you.", "vi": "Tuyệt, tôi đang vẫy tay đây." },
+        { "speaker": "a", "en": "I see you. Coming now.", "vi": "Tôi thấy rồi. Tôi tới ngay đây." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin đi vào đúng cổng sân bay", "situation": "Bạn cần vào đúng nhà ga tại sân bay.",
+      "turns": [
+        { "speaker": "a", "en": "Which terminal do you need?", "vi": "Bạn cần nhà ga nào ạ?" },
+        { "speaker": "b", "en": "Terminal two, please.", "vi": "Nhà ga hai nhé." },
+        { "speaker": "a", "en": "Are you sure? Some flights use terminal one.", "vi": "Bạn chắc chứ? Một số chuyến bay dùng nhà ga một." },
+        { "speaker": "b", "en": "Let me check my ticket.", "vi": "Để tôi kiểm tra vé." },
+        { "speaker": "a", "en": "Sure, take your time.", "vi": "Được, bạn cứ từ từ." },
+        { "speaker": "b", "en": "You are right, it is terminal one.", "vi": "Bạn nói đúng, là nhà ga một." }
+      ]},
+    { "title": "Huỷ chuyến sau khi đặt", "situation": "Bạn phải huỷ chuyến sau khi tài xế đã nhận đơn.",
+      "turns": [
+        { "speaker": "a", "en": "I am on my way to pick you up.", "vi": "Tôi đang trên đường tới đón bạn." },
+        { "speaker": "b", "en": "I am so sorry, I need to cancel.", "vi": "Tôi rất xin lỗi, tôi cần huỷ chuyến." },
+        { "speaker": "a", "en": "That is okay. Is everything all right?", "vi": "Không sao đâu. Mọi thứ ổn chứ ạ?" },
+        { "speaker": "b", "en": "Yes, my plan just changed.", "vi": "Vâng, kế hoạch của tôi thay đổi rồi." },
+        { "speaker": "a", "en": "No problem. Have a good day.", "vi": "Không sao đâu. Chúc bạn ngày tốt lành." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Đi cùng nhiều người và nhiều hành lý", "situation": "Bạn đi cùng bạn bè và có nhiều hành lý.",
+      "turns": [
+        { "speaker": "a", "en": "How many people are traveling?", "vi": "Có bao nhiêu người đi vậy ạ?" },
+        { "speaker": "b", "en": "Three of us, with four bags.", "vi": "Ba người chúng tôi, với bốn túi." },
+        { "speaker": "a", "en": "I have a bigger car for that.", "vi": "Tôi có xe lớn hơn cho việc đó." },
+        { "speaker": "b", "en": "Great, thank you for arranging that.", "vi": "Tuyệt, cảm ơn bạn đã sắp xếp." },
+        { "speaker": "a", "en": "No problem. Let me help with the bags.", "vi": "Không sao đâu. Để tôi giúp mang hành lý." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Đi đón nhiều điểm rồi mới ra sân bay", "situation": "Bạn nhờ tài xế dừng ở hai chỗ trước khi tới sân bay, có thay đổi giữa chừng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The app shows one stop before the airport.", "vi": "Ứng dụng cho thấy một điểm dừng trước khi ra sân bay." },
+        { "speaker": "b", "en": "Actually, could we make two stops?", "vi": "Thật ra, mình dừng hai điểm được không ạ?" },
+        { "speaker": "a", "en": "Sure, where is the second stop?", "vi": "Được ạ, điểm thứ hai ở đâu ạ?" },
+        { "speaker": "b", "en": "A pharmacy, then my friend's house.", "vi": "Một nhà thuốc, rồi tới nhà bạn tôi." },
+        { "speaker": "a", "en": "Okay, that will take a bit longer.", "vi": "Được, vậy sẽ lâu hơn một chút ạ." },
+        { "speaker": "b", "en": "That is fine, we have enough time.", "vi": "Không sao, chúng tôi còn đủ thời gian." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "mua-ve-tham-quan",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Mua vé người lớn", "situation": "Bạn mua một vé tham quan bảo tàng.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome. How many tickets?", "vi": "Chào mừng bạn. Mấy vé ạ?" },
+        { "speaker": "b", "en": "One adult ticket, please.", "vi": "Cho tôi một vé người lớn." },
+        { "speaker": "a", "en": "That is twelve dollars.", "vi": "Vé đó mười hai đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." },
+        { "speaker": "a", "en": "Enjoy your visit.", "vi": "Chúc bạn tham quan vui vẻ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giờ mở cửa", "situation": "Bạn hỏi giờ mở và đóng cửa của bảo tàng.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "What are your opening hours?", "vi": "Giờ mở cửa của bên bạn là gì ạ?" },
+        { "speaker": "a", "en": "We open at nine and close at five.", "vi": "Mở cửa lúc chín giờ và đóng lúc năm giờ." },
+        { "speaker": "b", "en": "Is that every day?", "vi": "Vậy có phải mỗi ngày không ạ?" },
+        { "speaker": "a", "en": "Yes, except Mondays.", "vi": "Vâng, trừ thứ Hai ạ." },
+        { "speaker": "b", "en": "Thank you for the information.", "vi": "Cảm ơn thông tin bạn cung cấp." }
+      ]},
+    { "title": "Hỏi giờ vào cuối cùng", "situation": "Bạn hỏi giờ vào cửa cuối cùng trong ngày.",
+      "turns": [
+        { "speaker": "a", "en": "The museum closes at five.", "vi": "Bảo tàng đóng cửa lúc năm giờ." },
+        { "speaker": "b", "en": "What time is the last entry?", "vi": "Giờ vào cửa cuối cùng là mấy giờ vậy ạ?" },
+        { "speaker": "a", "en": "Last entry is at four thirty.", "vi": "Giờ vào cuối là bốn giờ ba mươi." },
+        { "speaker": "b", "en": "It is four now. Can I still go in?", "vi": "Bây giờ là bốn giờ. Tôi vào được không ạ?" },
+        { "speaker": "a", "en": "Yes, you have time.", "vi": "Được, bạn còn kịp giờ." },
+        { "speaker": "b", "en": "Great, one ticket, please.", "vi": "Tuyệt, cho tôi một vé nhé." }
+      ]},
+    { "title": "Đặt tour có hướng dẫn viên", "situation": "Bạn muốn tham gia tour có hướng dẫn viên.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like a guided tour?", "vi": "Bạn có muốn tham gia tour có hướng dẫn viên không?" },
+        { "speaker": "b", "en": "Yes, how much extra is that?", "vi": "Có, vậy thêm bao nhiêu tiền ạ?" },
+        { "speaker": "a", "en": "Five dollars more.", "vi": "Thêm năm đô ạ." },
+        { "speaker": "b", "en": "Okay, I will add that.", "vi": "Được, tôi thêm cái đó." },
+        { "speaker": "a", "en": "The tour starts in ten minutes.", "vi": "Tour bắt đầu trong mười phút." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi vé cho học sinh sinh viên", "situation": "Bạn hỏi giá vé giảm cho sinh viên.",
+      "turns": [
+        { "speaker": "a", "en": "One adult ticket is twelve dollars.", "vi": "Vé người lớn là mười hai đô." },
+        { "speaker": "b", "en": "Do you have a student discount?", "vi": "Có giảm giá cho sinh viên không ạ?" },
+        { "speaker": "a", "en": "Yes, with a student card.", "vi": "Có, nếu có thẻ sinh viên ạ." },
+        { "speaker": "b", "en": "Here is my student card.", "vi": "Đây là thẻ sinh viên của tôi." },
+        { "speaker": "a", "en": "Great, that is eight dollars.", "vi": "Tuyệt, vậy là tám đô." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Tìm cổng vào chính", "situation": "Bạn hỏi lối vào chính của bảo tàng.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, where is the main entrance?", "vi": "Xin lỗi, lối vào chính ở đâu ạ?" },
+        { "speaker": "b", "en": "It is around the corner.", "vi": "Ở ngay góc kia ạ." },
+        { "speaker": "a", "en": "Thank you. Is it far?", "vi": "Cảm ơn bạn. Có xa không ạ?" },
+        { "speaker": "b", "en": "No, about two minutes.", "vi": "Không, khoảng hai phút thôi." },
+        { "speaker": "a", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Vé đã hết trong ngày", "situation": "Vé tham quan trong ngày đã bán hết.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, tickets are sold out for today.", "vi": "Xin lỗi, vé hôm nay bán hết rồi ạ." },
+        { "speaker": "b", "en": "Oh no. What about tomorrow?", "vi": "Ôi không. Vậy còn ngày mai thì sao ạ?" },
+        { "speaker": "a", "en": "Tomorrow still has tickets.", "vi": "Ngày mai vẫn còn vé ạ." },
+        { "speaker": "b", "en": "Can I book online?", "vi": "Tôi đặt vé online được không ạ?" },
+        { "speaker": "a", "en": "Yes, on our website.", "vi": "Được ạ, trên trang web của chúng tôi." },
+        { "speaker": "b", "en": "Thank you, I will do that.", "vi": "Cảm ơn bạn, tôi sẽ đặt vé đó." }
+      ]},
+    { "title": "Hỏi có được chụp ảnh không", "situation": "Bạn hỏi quy định về chụp ảnh bên trong.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your ticket.", "vi": "Đây là vé của bạn." },
+        { "speaker": "b", "en": "Can I take photos inside?", "vi": "Bên trong tôi chụp ảnh được không ạ?" },
+        { "speaker": "a", "en": "Yes, but no flash please.", "vi": "Được ạ, nhưng vui lòng không dùng đèn flash." },
+        { "speaker": "b", "en": "Okay, I will remember that.", "vi": "Được, tôi sẽ nhớ." },
+        { "speaker": "a", "en": "Enjoy your visit.", "vi": "Chúc bạn tham quan vui vẻ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Vé bị lỗi khi quét", "situation": "Vé điện tử của bạn không quét được.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, your ticket will not scan.", "vi": "Xin lỗi, vé của bạn quét không được ạ." },
+        { "speaker": "b", "en": "That is strange. Let me check my phone.", "vi": "Lạ nhỉ. Để tôi kiểm tra điện thoại." },
+        { "speaker": "a", "en": "Sure, take your time.", "vi": "Được ạ, bạn cứ từ từ." },
+        { "speaker": "b", "en": "Here, try this screenshot.", "vi": "Đây, thử ảnh chụp màn hình này xem." },
+        { "speaker": "a", "en": "That worked. You are all set.", "vi": "Được rồi ạ. Bạn có thể vào được rồi." },
+        { "speaker": "b", "en": "Thank you for your patience.", "vi": "Cảm ơn bạn đã kiên nhẫn." }
+      ]},
+    { "title": "Mua vé cho nhóm với nhiều loại giá khác nhau", "situation": "Bạn mua vé cho một nhóm gồm người lớn, sinh viên và trẻ em. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How many tickets today?", "vi": "Hôm nay mấy vé ạ?" },
+        { "speaker": "b", "en": "Two adults, one student, and one child.", "vi": "Hai người lớn, một sinh viên, và một trẻ em." },
+        { "speaker": "a", "en": "Do you have the student card?", "vi": "Bạn có thẻ sinh viên không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "The total comes to forty dollars.", "vi": "Tổng cộng là bốn mươi đô." },
+        { "speaker": "b", "en": "Here is my card.", "vi": "Đây là thẻ của tôi." }
+      ]}
+  ]
+}

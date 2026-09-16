@@ -1,0 +1,96 @@
+{
+  "id": "dat-lich-kham-benh",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Đặt lịch khám cơ bản", "situation": "Bạn gọi điện đặt lịch khám vì đau họng.",
+      "turns": [
+        { "speaker": "a", "en": "Good morning, clinic reception.", "vi": "Chào buổi sáng, lễ tân phòng khám đây." },
+        { "speaker": "b", "en": "I would like to make an appointment.", "vi": "Tôi muốn đặt lịch khám." },
+        { "speaker": "a", "en": "What is the reason for your visit?", "vi": "Lý do khám của bạn là gì ạ?" },
+        { "speaker": "b", "en": "I have a sore throat.", "vi": "Tôi bị đau họng." },
+        { "speaker": "a", "en": "We have an opening at two today.", "vi": "Chúng tôi có lịch trống lúc hai giờ hôm nay ạ." },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." }
+      ]},
+    { "title": "Mô tả nhiều triệu chứng", "situation": "Bạn mô tả các triệu chứng để đặt lịch phù hợp.",
+      "turns": [
+        { "speaker": "a", "en": "What symptoms do you have?", "vi": "Bạn có những triệu chứng gì ạ?" },
+        { "speaker": "b", "en": "A cough and a headache.", "vi": "Ho và đau đầu." },
+        { "speaker": "a", "en": "Do you have a fever?", "vi": "Bạn có sốt không ạ?" },
+        { "speaker": "b", "en": "Yes, a mild one.", "vi": "Có, sốt nhẹ." },
+        { "speaker": "a", "en": "I will book you for today.", "vi": "Tôi sẽ đặt lịch cho bạn hôm nay ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Không còn lịch trong ngày", "situation": "Phòng khám hết lịch trống trong ngày hôm nay.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, today is fully booked.", "vi": "Xin lỗi, hôm nay hết lịch trống rồi ạ." },
+        { "speaker": "b", "en": "What about tomorrow morning?", "vi": "Vậy sáng mai thì sao ạ?" },
+        { "speaker": "a", "en": "Yes, we have nine or ten thirty.", "vi": "Có, chúng tôi có chín giờ hoặc mười giờ ba mươi ạ." },
+        { "speaker": "b", "en": "Nine works better for me.", "vi": "Chín giờ hợp với tôi hơn." },
+        { "speaker": "a", "en": "Great, you are booked for nine.", "vi": "Tuyệt, đã đặt lịch cho bạn lúc chín giờ ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Mang theo thẻ bảo hiểm", "situation": "Nhân viên hỏi bạn có thẻ bảo hiểm y tế không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a health insurance card?", "vi": "Bạn có thẻ bảo hiểm y tế không ạ?" },
+        { "speaker": "b", "en": "Yes, I will bring it.", "vi": "Có, tôi sẽ mang theo." },
+        { "speaker": "a", "en": "Great, please arrive fifteen minutes early.", "vi": "Tuyệt, vui lòng tới sớm mười lăm phút ạ." },
+        { "speaker": "b", "en": "Okay, I will do that.", "vi": "Được, tôi sẽ tới sớm." },
+        { "speaker": "a", "en": "See you then.", "vi": "Hẹn gặp bạn lúc đó." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Đổi lịch hẹn khám", "situation": "Bạn cần đổi lịch hẹn khám đã đặt trước.",
+      "turns": [
+        { "speaker": "a", "en": "Your appointment is at two tomorrow.", "vi": "Lịch hẹn của bạn là hai giờ mai ạ." },
+        { "speaker": "b", "en": "Could I move it to Friday?", "vi": "Đổi sang thứ Sáu được không ạ?" },
+        { "speaker": "a", "en": "Sure, what time works for you?", "vi": "Được ạ, giờ nào hợp với bạn?" },
+        { "speaker": "b", "en": "Morning would be best.", "vi": "Buổi sáng thì tốt nhất." },
+        { "speaker": "a", "en": "Nine on Friday, then.", "vi": "Vậy chín giờ thứ Sáu nhé." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi bác sĩ nào đang khám", "situation": "Bạn hỏi xem bác sĩ quen của mình có làm việc hôm đó không.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like to see any doctor?", "vi": "Bạn muốn khám với bác sĩ nào không ạ?" },
+        { "speaker": "b", "en": "Is Dr. Tran available on Friday?", "vi": "Bác sĩ Trần có làm việc thứ Sáu không ạ?" },
+        { "speaker": "a", "en": "Let me check for you.", "vi": "Để tôi kiểm tra giúp bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Yes, she is available at nine.", "vi": "Có, bác sĩ ấy có lịch lúc chín giờ ạ." },
+        { "speaker": "b", "en": "Great, please book that.", "vi": "Tuyệt, đặt giúp tôi lịch đó nhé." }
+      ]},
+    { "title": "Trẻ nhỏ cần khám gấp", "situation": "Bạn cần đặt lịch khám gấp cho con nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "My son has a high fever right now.", "vi": "Con trai tôi đang sốt cao." },
+        { "speaker": "a", "en": "I understand, let me find you a slot now.", "vi": "Tôi hiểu rồi, để tôi tìm lịch ngay bây giờ ạ." },
+        { "speaker": "b", "en": "Thank you, this is urgent.", "vi": "Cảm ơn bạn, việc này gấp lắm." },
+        { "speaker": "a", "en": "You can come in right away.", "vi": "Bạn có thể tới ngay ạ." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Huỷ lịch hẹn", "situation": "Bạn cần huỷ lịch hẹn đã đặt vì khỏe hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Clinic reception, how can I help?", "vi": "Lễ tân phòng khám đây, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I need to cancel my appointment.", "vi": "Tôi cần huỷ lịch hẹn của mình." },
+        { "speaker": "a", "en": "Sure, may I ask why?", "vi": "Được ạ, cho tôi hỏi lý do được không?" },
+        { "speaker": "b", "en": "I am feeling much better now.", "vi": "Giờ tôi thấy khỏe hơn nhiều rồi." },
+        { "speaker": "a", "en": "That is good to hear. I have canceled it.", "vi": "Nghe vậy tôi mừng. Tôi đã huỷ rồi ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Đến sớm nhưng bác sĩ bận", "situation": "Bạn tới sớm nhưng phải chờ vì bác sĩ đang bận.",
+      "turns": [
+        { "speaker": "a", "en": "The doctor is running a bit late.", "vi": "Bác sĩ đang trễ giờ một chút ạ." },
+        { "speaker": "b", "en": "How long is the wait?", "vi": "Phải chờ khoảng bao lâu ạ?" },
+        { "speaker": "a", "en": "About twenty minutes.", "vi": "Khoảng hai mươi phút." },
+        { "speaker": "b", "en": "That is fine, I can wait.", "vi": "Không sao, tôi đợi được." },
+        { "speaker": "a", "en": "Thank you for your patience.", "vi": "Cảm ơn bạn đã kiên nhẫn." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Đặt lịch cho cả gia đình với triệu chứng khác nhau", "situation": "Bạn đặt lịch khám cho ba người trong gia đình cùng lúc, mỗi người bị bệnh khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How many appointments do you need?", "vi": "Bạn cần đặt mấy lịch khám vậy ạ?" },
+        { "speaker": "b", "en": "Three, for my family. Different symptoms each.", "vi": "Ba lịch, cho gia đình tôi. Mỗi người triệu chứng khác nhau." },
+        { "speaker": "a", "en": "Let us start with the first person.", "vi": "Mình bắt đầu với người đầu tiên nhé." },
+        { "speaker": "b", "en": "My daughter has a fever and cough.", "vi": "Con gái tôi bị sốt và ho." },
+        { "speaker": "a", "en": "And the other two?", "vi": "Còn hai người kia thì sao ạ?" },
+        { "speaker": "b", "en": "My husband has a headache, and I have a sore throat.", "vi": "Chồng tôi đau đầu, còn tôi đau họng." }
+      ]}
+  ]
+}

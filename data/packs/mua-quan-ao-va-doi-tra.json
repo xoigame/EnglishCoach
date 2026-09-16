@@ -1,0 +1,96 @@
+{
+  "id": "mua-quan-ao-va-doi-tra",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Thử một chiếc áo len", "situation": "Bạn thử một chiếc áo len trước khi mua.",
+      "turns": [
+        { "speaker": "a", "en": "Can I help you find something?", "vi": "Tôi giúp bạn tìm gì được không ạ?" },
+        { "speaker": "b", "en": "I would like to try on this sweater.", "vi": "Tôi muốn thử chiếc áo len này." },
+        { "speaker": "a", "en": "The fitting room is over there.", "vi": "Phòng thử đồ ở đằng kia ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "How does it fit?", "vi": "Vừa không ạ?" },
+        { "speaker": "b", "en": "It fits well. I will take it.", "vi": "Vừa lắm. Tôi lấy nó." }
+      ]},
+    { "title": "Cần cỡ khác", "situation": "Áo bạn thử không vừa cỡ.",
+      "turns": [
+        { "speaker": "a", "en": "How is the fit?", "vi": "Áo có vừa không ạ?" },
+        { "speaker": "b", "en": "It is too small. Do you have a larger size?", "vi": "Hơi chật. Có cỡ lớn hơn không ạ?" },
+        { "speaker": "a", "en": "Let me check for you.", "vi": "Để tôi kiểm tra giúp bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Here is a large.", "vi": "Đây là cỡ lớn." },
+        { "speaker": "b", "en": "This fits much better.", "vi": "Cái này vừa hơn nhiều rồi." }
+      ]},
+    { "title": "Đổi trả với hoá đơn", "situation": "Bạn muốn đổi một món hàng đã mua tuần trước.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I would like to exchange this shirt.", "vi": "Tôi muốn đổi chiếc áo này." },
+        { "speaker": "a", "en": "Do you have the receipt?", "vi": "Bạn có hoá đơn không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "What size would you like instead?", "vi": "Bạn muốn đổi sang cỡ nào ạ?" },
+        { "speaker": "b", "en": "A medium, please.", "vi": "Cỡ vừa nhé." }
+      ]},
+    { "title": "Yêu cầu hoàn tiền", "situation": "Bạn muốn hoàn tiền thay vì đổi hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like an exchange?", "vi": "Bạn muốn đổi hàng không ạ?" },
+        { "speaker": "b", "en": "Actually, I would like a refund.", "vi": "Thật ra, tôi muốn hoàn tiền." },
+        { "speaker": "a", "en": "Sure, do you have the receipt?", "vi": "Được ạ, bạn có hoá đơn không?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "I will process the refund now.", "vi": "Tôi sẽ xử lý hoàn tiền ngay bây giờ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Mất hoá đơn", "situation": "Bạn muốn đổi trả nhưng không còn hoá đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have the receipt?", "vi": "Bạn có hoá đơn không ạ?" },
+        { "speaker": "b", "en": "I am sorry, I lost it.", "vi": "Tôi xin lỗi, tôi làm mất rồi." },
+        { "speaker": "a", "en": "Do you have the card you paid with?", "vi": "Bạn có thẻ đã dùng để trả tiền không ạ?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "I can look up the purchase.", "vi": "Tôi có thể tra lại giao dịch mua hàng." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Sản phẩm bị lỗi", "situation": "Chiếc áo bạn mua có một vết rách nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "This shirt has a small tear.", "vi": "Chiếc áo này có một vết rách nhỏ." },
+        { "speaker": "a", "en": "I am sorry about that. Let me see.", "vi": "Tôi xin lỗi về việc đó. Cho tôi xem." },
+        { "speaker": "b", "en": "It is right here on the sleeve.", "vi": "Ở ngay đây, trên tay áo." },
+        { "speaker": "a", "en": "I will give you a new one or a refund.", "vi": "Tôi sẽ đưa cái mới hoặc hoàn tiền cho bạn." },
+        { "speaker": "b", "en": "A new one would be great.", "vi": "Đổi cái mới thì tốt quá." }
+      ]},
+    { "title": "Quá hạn đổi trả", "situation": "Sản phẩm bạn mua đã quá thời hạn đổi trả cho phép.",
+      "turns": [
+        { "speaker": "a", "en": "This was bought two months ago.", "vi": "Món này mua từ hai tháng trước." },
+        { "speaker": "b", "en": "Is that a problem?", "vi": "Vậy có vấn đề gì không ạ?" },
+        { "speaker": "a", "en": "Our return policy is thirty days.", "vi": "Chính sách đổi trả của chúng tôi là ba mươi ngày." },
+        { "speaker": "b", "en": "I understand, thank you for explaining.", "vi": "Tôi hiểu rồi, cảm ơn bạn đã giải thích." },
+        { "speaker": "a", "en": "I am sorry I cannot help this time.", "vi": "Tôi xin lỗi lần này không giúp được." },
+        { "speaker": "b", "en": "That is okay, thank you anyway.", "vi": "Không sao, dù sao cũng cảm ơn bạn." }
+      ]},
+    { "title": "Mua hai cỡ để thử tại nhà", "situation": "Bạn mua hai cỡ khác nhau và định trả lại một cái sau.",
+      "turns": [
+        { "speaker": "a", "en": "You are buying two sizes?", "vi": "Bạn mua hai cỡ à?" },
+        { "speaker": "b", "en": "Yes, I will return the one that does not fit.", "vi": "Vâng, cái nào không vừa tôi sẽ trả lại." },
+        { "speaker": "a", "en": "That is fine, keep the receipt.", "vi": "Vậy được, giữ hoá đơn lại nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ giữ, cảm ơn bạn." },
+        { "speaker": "a", "en": "You have thirty days to return it.", "vi": "Bạn có ba mươi ngày để trả lại ạ." },
+        { "speaker": "b", "en": "Good to know, thank you.", "vi": "Tốt, cảm ơn bạn đã cho biết." }
+      ]},
+    { "title": "Trả tiền bằng thẻ quà tặng", "situation": "Bạn muốn dùng thẻ quà tặng để mua đồ.",
+      "turns": [
+        { "speaker": "a", "en": "That will be twenty five dollars.", "vi": "Vậy là hai mươi lăm đô." },
+        { "speaker": "b", "en": "Can I use a gift card?", "vi": "Tôi dùng thẻ quà tặng được không ạ?" },
+        { "speaker": "a", "en": "Yes, of course.", "vi": "Được ạ, tất nhiên rồi." },
+        { "speaker": "b", "en": "Here it is.", "vi": "Đây ạ." },
+        { "speaker": "a", "en": "There is five dollars left on the card.", "vi": "Thẻ còn dư năm đô ạ." },
+        { "speaker": "b", "en": "Okay, thank you for letting me know.", "vi": "Được, cảm ơn bạn đã cho biết." }
+      ]},
+    { "title": "Đổi trả nhiều món cùng lúc với lý do khác nhau", "situation": "Bạn mang tới ba món cần xử lý theo cách khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What can I help you with today?", "vi": "Hôm nay tôi giúp gì được cho bạn ạ?" },
+        { "speaker": "b", "en": "I need to return one item and exchange two others.", "vi": "Tôi cần trả một món và đổi hai món khác." },
+        { "speaker": "a", "en": "Sure, let us start with the return.", "vi": "Được ạ, bắt đầu với món trả trước nhé." },
+        { "speaker": "b", "en": "This shirt did not fit at all.", "vi": "Chiếc áo này hoàn toàn không vừa." },
+        { "speaker": "a", "en": "Okay, and the two exchanges?", "vi": "Được, còn hai món đổi thì sao ạ?" },
+        { "speaker": "b", "en": "Both need a larger size, please.", "vi": "Cả hai cần đổi sang cỡ lớn hơn." }
+      ]}
+  ]
+}

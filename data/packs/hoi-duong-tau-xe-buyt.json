@@ -1,0 +1,96 @@
+{
+  "id": "hoi-duong-tau-xe-buyt",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Mua vé một ngày", "situation": "Bạn hỏi mua vé dùng cả ngày.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được cho bạn ạ?" },
+        { "speaker": "b", "en": "I need a day pass, please.", "vi": "Cho tôi một vé ngày ạ." },
+        { "speaker": "a", "en": "That is eight dollars.", "vi": "Vé đó tám đô." },
+        { "speaker": "b", "en": "Can I pay by card?", "vi": "Tôi trả bằng thẻ được không?" },
+        { "speaker": "a", "en": "Yes, of course.", "vi": "Được ạ, tất nhiên rồi." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi sân ga nào", "situation": "Bạn không biết đi tuyến nào tới sân ga nào.",
+      "turns": [
+        { "speaker": "a", "en": "Which platform do I need?", "vi": "Tôi cần sân ga nào vậy?" },
+        { "speaker": "b", "en": "Where are you going?", "vi": "Bạn đi đâu vậy ạ?" },
+        { "speaker": "a", "en": "To the city center.", "vi": "Tới trung tâm thành phố." },
+        { "speaker": "b", "en": "That is platform three.", "vi": "Đó là sân ga ba." },
+        { "speaker": "a", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Máy bán vé không hoạt động", "situation": "Máy bán vé tự động bị lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "The ticket machine is not working.", "vi": "Máy bán vé không hoạt động." },
+        { "speaker": "b", "en": "Sorry about that. I can sell you one.", "vi": "Xin lỗi về việc đó. Tôi có thể bán vé cho bạn." },
+        { "speaker": "a", "en": "Great, one ticket please.", "vi": "Tuyệt, cho tôi một vé nhé." },
+        { "speaker": "b", "en": "That is five dollars.", "vi": "Năm đô ạ." },
+        { "speaker": "a", "en": "Here you are.", "vi": "Của bạn đây." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin tiền thối lại", "situation": "Bạn cần tiền lẻ để mua vé.",
+      "turns": [
+        { "speaker": "a", "en": "I only have a fifty dollar bill.", "vi": "Tôi chỉ có tờ năm mươi đô." },
+        { "speaker": "b", "en": "The ticket is only two dollars.", "vi": "Vé chỉ hai đô thôi ạ." },
+        { "speaker": "a", "en": "Can you give change?", "vi": "Bạn có thể thối tiền không ạ?" },
+        { "speaker": "b", "en": "Yes, I have change.", "vi": "Có, tôi có tiền thối ạ." },
+        { "speaker": "a", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "Here is your change.", "vi": "Đây là tiền thối của bạn." }
+      ]},
+    { "title": "Hỏi trạm xuống nào", "situation": "Bạn hỏi nên xuống ở trạm nào.",
+      "turns": [
+        { "speaker": "a", "en": "Which stop should I get off at?", "vi": "Tôi nên xuống ở trạm nào vậy?" },
+        { "speaker": "b", "en": "Where are you heading?", "vi": "Bạn đi đâu vậy ạ?" },
+        { "speaker": "a", "en": "To the museum.", "vi": "Tới bảo tàng." },
+        { "speaker": "b", "en": "Get off at the third stop.", "vi": "Xuống ở trạm thứ ba nhé." },
+        { "speaker": "a", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Vé hết hạn", "situation": "Vé của bạn không còn hợp lệ.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, this ticket is not valid anymore.", "vi": "Xin lỗi, vé này không còn hợp lệ nữa." },
+        { "speaker": "b", "en": "Oh, why is that?", "vi": "Ồ, sao vậy ạ?" },
+        { "speaker": "a", "en": "It expired yesterday.", "vi": "Nó hết hạn từ hôm qua rồi." },
+        { "speaker": "b", "en": "I am sorry, I need a new one then.", "vi": "Tôi xin lỗi, vậy tôi cần mua vé mới." },
+        { "speaker": "a", "en": "Sure, that is five dollars.", "vi": "Được ạ, năm đô nhé." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Đi sai hướng", "situation": "Bạn lên nhầm tàu đi ngược hướng.",
+      "turns": [
+        { "speaker": "a", "en": "This train is going toward downtown.", "vi": "Tàu này đi về hướng trung tâm." },
+        { "speaker": "b", "en": "Oh no, I need to go the other way.", "vi": "Ôi không, tôi cần đi hướng ngược lại." },
+        { "speaker": "a", "en": "Get off at the next stop and cross over.", "vi": "Xuống ở trạm tiếp theo rồi qua bên kia nhé." },
+        { "speaker": "b", "en": "Thank you for the help.", "vi": "Cảm ơn bạn đã giúp." },
+        { "speaker": "a", "en": "No problem. Good luck.", "vi": "Không sao đâu. Chúc may mắn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xe buýt bị trễ giờ", "situation": "Xe buýt bạn cần đi bị chậm giờ.",
+      "turns": [
+        { "speaker": "a", "en": "Is the bus usually on time?", "vi": "Xe buýt thường đúng giờ không ạ?" },
+        { "speaker": "b", "en": "Usually, but today it is late.", "vi": "Thường thì đúng, nhưng hôm nay trễ." },
+        { "speaker": "a", "en": "How much longer will it take?", "vi": "Còn phải chờ bao lâu nữa ạ?" },
+        { "speaker": "b", "en": "About ten more minutes.", "vi": "Khoảng mười phút nữa." },
+        { "speaker": "a", "en": "Okay, thank you for telling me.", "vi": "Được, cảm ơn bạn đã cho biết." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không có gì đâu." }
+      ]},
+    { "title": "Hỏi đường tới trạm xe buýt gần nhất", "situation": "Bạn hỏi trạm xe buýt gần nhất ở đâu.",
+      "turns": [
+        { "speaker": "a", "en": "Where is the nearest bus stop?", "vi": "Trạm xe buýt gần nhất ở đâu ạ?" },
+        { "speaker": "b", "en": "It is two blocks that way.", "vi": "Cách đây hai dãy nhà theo hướng đó." },
+        { "speaker": "a", "en": "Thank you. Which bus should I take?", "vi": "Cảm ơn bạn. Tôi nên đi xe buýt nào ạ?" },
+        { "speaker": "b", "en": "Bus number eight goes downtown.", "vi": "Xe buýt số tám đi vào trung tâm." },
+        { "speaker": "a", "en": "Great, thank you for your help.", "vi": "Tuyệt, cảm ơn bạn đã giúp." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Đổi tuyến giữa đường vì lý do bất ngờ", "situation": "Bạn phải đổi tuyến tàu giữa chừng vì sự cố. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This line is closed for the next hour.", "vi": "Tuyến này đóng cửa trong một tiếng tới." },
+        { "speaker": "b", "en": "Oh no, how do I get downtown then?", "vi": "Ôi không, vậy tôi đi vào trung tâm bằng cách nào?" },
+        { "speaker": "a", "en": "Take the bus outside instead.", "vi": "Bạn bắt xe buýt bên ngoài thay thế nhé." },
+        { "speaker": "b", "en": "Is my train ticket valid for the bus?", "vi": "Vé tàu của tôi có dùng được cho xe buýt không ạ?" },
+        { "speaker": "a", "en": "Yes, it is valid for both.", "vi": "Có, dùng được cho cả hai ạ." },
+        { "speaker": "b", "en": "Thank you, that is very helpful.", "vi": "Cảm ơn bạn, vậy giúp ích lắm." }
+      ]}
+  ]
+}

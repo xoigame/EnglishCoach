@@ -1,0 +1,96 @@
+{
+  "id": "goi-dien-thoai-co-ban",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Để lại lời nhắn", "situation": "Bạn gọi điện nhưng người cần gặp không có mặt.",
+      "turns": [
+        { "speaker": "a", "en": "Green Leaf office, how can I help?", "vi": "Văn phòng Green Leaf, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "Could I speak to Ms. Linh, please?", "vi": "Cho tôi gặp chị Linh được không ạ?" },
+        { "speaker": "a", "en": "She is away from her desk right now.", "vi": "Chị ấy hiện không có ở bàn làm việc ạ." },
+        { "speaker": "b", "en": "Can I leave a message?", "vi": "Tôi để lại lời nhắn được không ạ?" },
+        { "speaker": "a", "en": "Of course, go ahead.", "vi": "Được ạ, mời bạn." },
+        { "speaker": "b", "en": "Please ask her to call me back.", "vi": "Nhờ chị ấy gọi lại giúp tôi." }
+      ]},
+    { "title": "Đánh vần tên qua điện thoại", "situation": "Bạn cần đánh vần tên vì nhân viên nghe không rõ.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, could you spell your name?", "vi": "Xin lỗi, bạn đánh vần tên được không ạ?" },
+        { "speaker": "b", "en": "Sure, it is M-I-N-H.", "vi": "Được, M-I-N-H." },
+        { "speaker": "a", "en": "Thank you. And your phone number?", "vi": "Cảm ơn bạn. Còn số điện thoại của bạn?" },
+        { "speaker": "b", "en": "It is oh nine one, two three four, five six seven.", "vi": "Là không chín một, hai ba bốn, năm sáu bảy." },
+        { "speaker": "a", "en": "Let me confirm that.", "vi": "Để tôi xác nhận lại." },
+        { "speaker": "b", "en": "Yes, that is correct.", "vi": "Vâng, đúng rồi." }
+      ]},
+    { "title": "Nhờ chuyển lời", "situation": "Bạn nhờ nhân viên chuyển lời tới đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "She is in a meeting right now.", "vi": "Chị ấy đang họp ạ." },
+        { "speaker": "b", "en": "Could you pass on a message?", "vi": "Bạn chuyển lời giúp tôi được không?" },
+        { "speaker": "a", "en": "Sure, what is the message?", "vi": "Được ạ, lời nhắn là gì ạ?" },
+        { "speaker": "b", "en": "Tell her the report is ready.", "vi": "Nói với chị ấy là báo cáo đã xong rồi." },
+        { "speaker": "a", "en": "I will pass that on.", "vi": "Tôi sẽ chuyển lời giúp bạn." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Hỏi giờ có thể gọi lại", "situation": "Bạn hỏi khi nào nên gọi lại.",
+      "turns": [
+        { "speaker": "a", "en": "She will be back in an hour.", "vi": "Chị ấy sẽ quay lại trong một tiếng nữa ạ." },
+        { "speaker": "b", "en": "Should I call back then?", "vi": "Vậy tôi gọi lại lúc đó nhé?" },
+        { "speaker": "a", "en": "Yes, that would be best.", "vi": "Vâng, vậy là tốt nhất ạ." },
+        { "speaker": "b", "en": "Okay, thank you.", "vi": "Được, cảm ơn bạn." },
+        { "speaker": "a", "en": "You are welcome. Have a good day.", "vi": "Không có gì. Chúc bạn ngày tốt lành." },
+        { "speaker": "b", "en": "You too, goodbye.", "vi": "Bạn cũng vậy, tạm biệt." }
+      ]},
+    { "title": "Xác nhận lại thông tin", "situation": "Nhân viên xác nhận lại lời nhắn của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Let me confirm your message.", "vi": "Để tôi xác nhận lại lời nhắn của bạn." },
+        { "speaker": "b", "en": "Sure, go ahead.", "vi": "Được, bạn cứ nói." },
+        { "speaker": "a", "en": "You want her to call you back today?", "vi": "Bạn muốn chị ấy gọi lại cho bạn hôm nay phải không?" },
+        { "speaker": "b", "en": "Yes, that is correct.", "vi": "Vâng, đúng vậy." },
+        { "speaker": "a", "en": "Great, I will pass that on.", "vi": "Tuyệt, tôi sẽ chuyển lời." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Nghe không rõ vì tín hiệu yếu", "situation": "Cuộc gọi bị nhiễu và bạn phải nói lại.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, could you repeat that?", "vi": "Xin lỗi, bạn nói lại được không ạ?" },
+        { "speaker": "b", "en": "Sure, I said I need to speak to Linh.", "vi": "Được, tôi nói là tôi cần gặp chị Linh." },
+        { "speaker": "a", "en": "The line is not very clear.", "vi": "Đường truyền không rõ lắm." },
+        { "speaker": "b", "en": "Let me call again.", "vi": "Để tôi gọi lại." },
+        { "speaker": "a", "en": "Okay, I can hear you now.", "vi": "Được, giờ tôi nghe rõ rồi." },
+        { "speaker": "b", "en": "Great, as I said, I need Linh.", "vi": "Tuyệt, như tôi vừa nói, tôi cần gặp chị Linh." }
+      ]},
+    { "title": "Gọi nhầm số", "situation": "Bạn phát hiện mình gọi nhầm số.",
+      "turns": [
+        { "speaker": "a", "en": "Hello, ABC company.", "vi": "Xin chào, công ty ABC đây." },
+        { "speaker": "b", "en": "Sorry, I think I have the wrong number.", "vi": "Xin lỗi, hình như tôi gọi nhầm số." },
+        { "speaker": "a", "en": "No problem, who are you trying to reach?", "vi": "Không sao, bạn đang muốn gọi cho ai vậy?" },
+        { "speaker": "b", "en": "Green Leaf office.", "vi": "Văn phòng Green Leaf." },
+        { "speaker": "a", "en": "This is a different company, I am afraid.", "vi": "Đây là công ty khác rồi ạ." },
+        { "speaker": "b", "en": "I am sorry to bother you.", "vi": "Tôi xin lỗi đã làm phiền bạn." }
+      ]},
+    { "title": "Người nhận cuộc gọi bận nhiều lần", "situation": "Bạn gọi nhiều lần nhưng người cần gặp vẫn chưa rảnh.",
+      "turns": [
+        { "speaker": "a", "en": "She is still in a meeting.", "vi": "Chị ấy vẫn đang họp ạ." },
+        { "speaker": "b", "en": "This is my second call today.", "vi": "Đây là lần thứ hai tôi gọi hôm nay." },
+        { "speaker": "a", "en": "I am sorry for the trouble.", "vi": "Tôi xin lỗi vì sự bất tiện này." },
+        { "speaker": "b", "en": "It is okay, just let her know it is urgent.", "vi": "Không sao, chỉ cần báo chị ấy là việc gấp." },
+        { "speaker": "a", "en": "I will tell her right away.", "vi": "Tôi sẽ báo ngay ạ." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Xin số điện thoại khác để liên hệ", "situation": "Bạn xin một số khác để liên hệ nhanh hơn.",
+      "turns": [
+        { "speaker": "a", "en": "She usually calls back within a day.", "vi": "Chị ấy thường gọi lại trong vòng một ngày ạ." },
+        { "speaker": "b", "en": "Is there another number I can try?", "vi": "Có số nào khác tôi thử được không ạ?" },
+        { "speaker": "a", "en": "You can try her mobile.", "vi": "Bạn thử số di động của chị ấy nhé." },
+        { "speaker": "b", "en": "Could you give me that number?", "vi": "Cho tôi xin số đó được không ạ?" },
+        { "speaker": "a", "en": "I am sorry, I cannot share that.", "vi": "Tôi xin lỗi, tôi không chia sẻ được số đó ạ." },
+        { "speaker": "b", "en": "I understand, thank you anyway.", "vi": "Tôi hiểu rồi, dù sao cũng cảm ơn bạn." }
+      ]},
+    { "title": "Để lại lời nhắn dài và chi tiết", "situation": "Bạn cần để lại một lời nhắn dài với nhiều chi tiết cụ thể. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I can take a detailed message.", "vi": "Tôi ghi lại lời nhắn chi tiết được ạ." },
+        { "speaker": "b", "en": "Please tell her the meeting moved to Friday at three.", "vi": "Nhờ báo chị ấy là cuộc họp dời sang thứ Sáu lúc ba giờ." },
+        { "speaker": "a", "en": "Friday at three, got it. Anything else?", "vi": "Thứ Sáu lúc ba giờ, rõ rồi. Còn gì nữa không ạ?" },
+        { "speaker": "b", "en": "Yes, also ask her to bring the report.", "vi": "Có, nhờ chị ấy mang theo báo cáo nữa." },
+        { "speaker": "a", "en": "Let me repeat everything back to you.", "vi": "Để tôi nhắc lại toàn bộ cho bạn nghe nhé." },
+        { "speaker": "b", "en": "Yes, please do that.", "vi": "Vâng, làm ơn nhắc lại giúp tôi." }
+      ]}
+  ]
+}

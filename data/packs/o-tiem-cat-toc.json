@@ -1,0 +1,96 @@
+{
+  "id": "o-tiem-cat-toc",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Cắt tóc cơ bản", "situation": "Bạn yêu cầu cắt ngắn phần hai bên.",
+      "turns": [
+        { "speaker": "a", "en": "How would you like your haircut?", "vi": "Bạn muốn cắt kiểu nào ạ?" },
+        { "speaker": "b", "en": "Shorter on the sides, please.", "vi": "Cắt ngắn hai bên nhé." },
+        { "speaker": "a", "en": "And the top?", "vi": "Còn phần trên thì sao ạ?" },
+        { "speaker": "b", "en": "Keep it about the same length.", "vi": "Giữ nguyên độ dài như vậy." },
+        { "speaker": "a", "en": "Sure, no problem.", "vi": "Được ạ, không sao." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Tỉa gọn phần sau", "situation": "Bạn muốn tỉa gọn phần tóc phía sau.",
+      "turns": [
+        { "speaker": "a", "en": "What would you like today?", "vi": "Hôm nay bạn muốn làm gì ạ?" },
+        { "speaker": "b", "en": "Just a trim at the back, please.", "vi": "Tỉa gọn phần sau thôi nhé." },
+        { "speaker": "a", "en": "How much shorter?", "vi": "Ngắn hơn bao nhiêu ạ?" },
+        { "speaker": "b", "en": "Just a little bit.", "vi": "Một chút thôi." },
+        { "speaker": "a", "en": "Got it, I will keep it neat.", "vi": "Rõ rồi, tôi sẽ làm gọn gàng." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Để tóc mái dài hơn", "situation": "Bạn muốn giữ phần tóc mái dài hơn bình thường.",
+      "turns": [
+        { "speaker": "a", "en": "Do you want your fringe trimmed?", "vi": "Bạn có muốn tỉa phần tóc mái không ạ?" },
+        { "speaker": "b", "en": "Actually, could you leave it longer?", "vi": "Thật ra, để dài hơn được không ạ?" },
+        { "speaker": "a", "en": "Sure, just a small trim then.", "vi": "Được ạ, vậy tỉa một chút thôi." },
+        { "speaker": "b", "en": "Yes, that sounds good.", "vi": "Vâng, vậy được đấy." },
+        { "speaker": "a", "en": "How is this length?", "vi": "Độ dài này ổn chứ ạ?" },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Hoàn hảo, cảm ơn bạn." }
+      ]},
+    { "title": "Không thích kiểu tóc", "situation": "Bạn không hài lòng với kết quả và yêu cầu chỉnh sửa.",
+      "turns": [
+        { "speaker": "a", "en": "What do you think?", "vi": "Bạn thấy sao ạ?" },
+        { "speaker": "b", "en": "It is a bit shorter than I wanted.", "vi": "Hơi ngắn hơn tôi muốn một chút." },
+        { "speaker": "a", "en": "I am sorry. Let me see what I can do.", "vi": "Tôi xin lỗi. Để tôi xem có sửa được không." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "I can add some layers to balance it.", "vi": "Tôi có thể tỉa thêm lớp cho cân đối." },
+        { "speaker": "b", "en": "That sounds good, thank you.", "vi": "Nghe được đấy, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giá cắt và gội", "situation": "Bạn hỏi giá cắt tóc kèm gội đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like a wash too?", "vi": "Bạn có muốn gội đầu luôn không ạ?" },
+        { "speaker": "b", "en": "How much extra is that?", "vi": "Vậy thêm bao nhiêu tiền ạ?" },
+        { "speaker": "a", "en": "Five dollars more.", "vi": "Thêm năm đô ạ." },
+        { "speaker": "b", "en": "Okay, I will add that.", "vi": "Được, tôi thêm cái đó." },
+        { "speaker": "a", "en": "Great, please have a seat here.", "vi": "Tuyệt, mời bạn ngồi đây ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Dùng sản phẩm tạo kiểu tóc", "situation": "Thợ cắt tóc hỏi bạn có muốn dùng gel tạo kiểu không.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like some hair product?", "vi": "Bạn có muốn dùng sản phẩm tạo kiểu tóc không ạ?" },
+        { "speaker": "b", "en": "Sure, just a little.", "vi": "Được, một chút thôi nhé." },
+        { "speaker": "a", "en": "This gives a natural look.", "vi": "Cái này cho vẻ ngoài tự nhiên." },
+        { "speaker": "b", "en": "I like that, thank you.", "vi": "Tôi thích vậy, cảm ơn bạn." },
+        { "speaker": "a", "en": "All done. What do you think?", "vi": "Xong rồi ạ. Bạn thấy sao?" },
+        { "speaker": "b", "en": "I love it, thank you.", "vi": "Tôi rất thích, cảm ơn bạn." }
+      ]},
+    { "title": "Chỉ tay bằng ảnh mẫu", "situation": "Bạn cho thợ cắt tóc xem ảnh kiểu tóc muốn cắt.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a style in mind?", "vi": "Bạn có kiểu nào muốn thử không ạ?" },
+        { "speaker": "b", "en": "Yes, I have a photo here.", "vi": "Có, tôi có ảnh đây." },
+        { "speaker": "a", "en": "Let me see. This should work well.", "vi": "Để tôi xem. Kiểu này chắc hợp đấy." },
+        { "speaker": "b", "en": "Great, can you do this?", "vi": "Tuyệt, bạn làm được không ạ?" },
+        { "speaker": "a", "en": "Yes, I can do this style.", "vi": "Được, tôi làm được kiểu này." },
+        { "speaker": "b", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn, tôi cảm kích lắm." }
+      ]},
+    { "title": "Cắt tóc gấp trước sự kiện", "situation": "Bạn cần cắt tóc gấp vì có sự kiện quan trọng.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Hôm nay tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "I have an event in one hour.", "vi": "Tôi có sự kiện trong một tiếng nữa." },
+        { "speaker": "a", "en": "No problem, I can do it quickly.", "vi": "Không sao, tôi làm nhanh được." },
+        { "speaker": "b", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn, tôi cảm kích lắm." },
+        { "speaker": "a", "en": "Just a trim then, to save time?", "vi": "Vậy chỉ tỉa gọn thôi để tiết kiệm thời gian nhé?" },
+        { "speaker": "b", "en": "Yes, that is perfect.", "vi": "Vâng, vậy hoàn hảo." }
+      ]},
+    { "title": "Hỏi ý kiến trước khi cắt ngắn nhiều", "situation": "Thợ cắt tóc xin ý kiến trước khi cắt một đoạn lớn.",
+      "turns": [
+        { "speaker": "a", "en": "Are you sure about this length?", "vi": "Bạn có chắc về độ dài này không ạ?" },
+        { "speaker": "b", "en": "Yes, I want a big change.", "vi": "Vâng, tôi muốn thay đổi lớn." },
+        { "speaker": "a", "en": "Okay, let us start slowly.", "vi": "Được, mình bắt đầu từ từ nhé." },
+        { "speaker": "b", "en": "That sounds like a good plan.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "a", "en": "How does this look so far?", "vi": "Tới giờ trông thế nào ạ?" },
+        { "speaker": "b", "en": "I love it, keep going.", "vi": "Tôi thích lắm, tiếp tục đi." }
+      ]},
+    { "title": "Yêu cầu nhiều thay đổi trong một lần cắt", "situation": "Bạn muốn kết hợp nhiều yêu cầu khác nhau trong một lần cắt tóc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What are we doing today?", "vi": "Hôm nay mình làm gì ạ?" },
+        { "speaker": "b", "en": "Shorter sides, a trim on top, and a wash.", "vi": "Hai bên ngắn hơn, tỉa phần trên, và gội đầu." },
+        { "speaker": "a", "en": "Got it. How short on the sides?", "vi": "Rõ rồi. Hai bên ngắn cỡ nào ạ?" },
+        { "speaker": "b", "en": "Quite short, but keep the fringe.", "vi": "Ngắn kha khá, nhưng giữ tóc mái nhé." },
+        { "speaker": "a", "en": "Understood, let me start with the wash.", "vi": "Hiểu rồi, để tôi bắt đầu gội đầu trước." },
+        { "speaker": "b", "en": "Sounds good, thank you.", "vi": "Nghe hay đấy, cảm ơn bạn." }
+      ]}
+  ]
+}

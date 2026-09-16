@@ -1,0 +1,96 @@
+{
+  "id": "dat-do-an-online",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Món ăn giao sai", "situation": "Bạn nhận nhầm món khác với đơn đã đặt.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for calling. How can I help?", "vi": "Cảm ơn đã gọi. Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "My food order is wrong.", "vi": "Đơn hàng của tôi bị giao nhầm." },
+        { "speaker": "a", "en": "I am sorry. What did you receive?", "vi": "Tôi xin lỗi. Bạn nhận được món gì ạ?" },
+        { "speaker": "b", "en": "I got a burger instead of a salad.", "vi": "Tôi nhận được bánh burger thay vì salad." },
+        { "speaker": "a", "en": "I will send the correct meal now.", "vi": "Tôi sẽ gửi đúng món ngay bây giờ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Thiếu một món trong đơn", "situation": "Đơn hàng của bạn thiếu một món.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "One item is missing from my order.", "vi": "Đơn hàng của tôi thiếu một món." },
+        { "speaker": "a", "en": "I am sorry to hear that. Which item?", "vi": "Tôi rất tiếc khi nghe vậy. Món nào vậy ạ?" },
+        { "speaker": "b", "en": "The drink was not included.", "vi": "Đồ uống không có trong đơn." },
+        { "speaker": "a", "en": "I will refund that item.", "vi": "Tôi sẽ hoàn tiền cho món đó." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Đồ ăn nguội khi tới nơi", "situation": "Đồ ăn bạn nhận đã nguội hẳn.",
+      "turns": [
+        { "speaker": "a", "en": "How was your delivery?", "vi": "Đơn giao hàng của bạn thế nào ạ?" },
+        { "speaker": "b", "en": "The food arrived cold.", "vi": "Đồ ăn tới nơi bị nguội rồi." },
+        { "speaker": "a", "en": "I am very sorry about that.", "vi": "Tôi rất xin lỗi về việc đó." },
+        { "speaker": "b", "en": "It took over an hour to arrive.", "vi": "Nó mất hơn một tiếng mới tới." },
+        { "speaker": "a", "en": "I will give you a credit for next time.", "vi": "Tôi sẽ tặng bạn một khoản tín dụng cho lần sau." },
+        { "speaker": "b", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn bạn, tôi cảm kích lắm." }
+      ]},
+    { "title": "Trả lại món chưa mở", "situation": "Bạn muốn trả lại một món chưa mở vì gọi nhầm.",
+      "turns": [
+        { "speaker": "a", "en": "What seems to be the problem?", "vi": "Có vấn đề gì vậy ạ?" },
+        { "speaker": "b", "en": "I ordered the wrong item by mistake.", "vi": "Tôi lỡ đặt nhầm món." },
+        { "speaker": "a", "en": "Is it still unopened?", "vi": "Món đó còn chưa mở phải không ạ?" },
+        { "speaker": "b", "en": "Yes, completely unopened.", "vi": "Vâng, hoàn toàn chưa mở." },
+        { "speaker": "a", "en": "I can return it for a credit.", "vi": "Tôi có thể hoàn lại bằng tín dụng." },
+        { "speaker": "b", "en": "Thank you, that works for me.", "vi": "Cảm ơn bạn, vậy được với tôi." }
+      ]},
+    { "title": "Tài xế không tìm thấy địa chỉ", "situation": "Tài xế giao hàng không tìm được nhà bạn.",
+      "turns": [
+        { "speaker": "a", "en": "The driver cannot find your address.", "vi": "Tài xế không tìm được địa chỉ của bạn." },
+        { "speaker": "b", "en": "I am near the blue gate on Elm Street.", "vi": "Tôi ở gần cổng màu xanh trên đường Elm." },
+        { "speaker": "a", "en": "Let me pass that on to the driver.", "vi": "Để tôi chuyển thông tin đó cho tài xế." },
+        { "speaker": "b", "en": "Thank you for helping.", "vi": "Cảm ơn bạn đã giúp." },
+        { "speaker": "a", "en": "The driver should arrive soon.", "vi": "Tài xế sẽ tới sớm thôi." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." }
+      ]},
+    { "title": "Món ăn bị đổ khi giao", "situation": "Đồ uống bị đổ ra trong quá trình giao hàng.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Hôm nay tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "My drink spilled during delivery.", "vi": "Đồ uống của tôi bị đổ trong lúc giao hàng." },
+        { "speaker": "a", "en": "I am very sorry about that.", "vi": "Tôi rất xin lỗi về việc đó." },
+        { "speaker": "b", "en": "The bag was also wet.", "vi": "Túi cũng bị ướt luôn." },
+        { "speaker": "a", "en": "I will refund the full order.", "vi": "Tôi sẽ hoàn tiền toàn bộ đơn hàng." },
+        { "speaker": "b", "en": "Thank you for resolving this quickly.", "vi": "Cảm ơn bạn đã giải quyết nhanh chóng." }
+      ]},
+    { "title": "Thời gian giao hàng quá lâu", "situation": "Bạn hỏi vì sao đơn hàng chưa tới sau thời gian dài.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for calling.", "vi": "Cảm ơn bạn đã gọi." },
+        { "speaker": "b", "en": "My order has not arrived after an hour.", "vi": "Đơn hàng của tôi vẫn chưa tới sau một tiếng." },
+        { "speaker": "a", "en": "Let me check the status.", "vi": "Để tôi kiểm tra tình trạng đơn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "The driver is five minutes away.", "vi": "Tài xế còn cách năm phút nữa ạ." },
+        { "speaker": "b", "en": "Okay, thank you for checking.", "vi": "Được, cảm ơn bạn đã kiểm tra." }
+      ]},
+    { "title": "Muốn thay đổi đơn sau khi đã đặt", "situation": "Bạn muốn thay đổi đơn hàng ngay sau khi đặt xong.",
+      "turns": [
+        { "speaker": "a", "en": "Your order was just placed.", "vi": "Đơn hàng của bạn vừa được đặt." },
+        { "speaker": "b", "en": "Can I still change one item?", "vi": "Tôi vẫn đổi được một món chứ ạ?" },
+        { "speaker": "a", "en": "Let me check if the restaurant has started.", "vi": "Để tôi kiểm tra xem nhà hàng đã bắt đầu chưa." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." },
+        { "speaker": "a", "en": "Good news, they have not started yet.", "vi": "Tin vui, họ chưa bắt đầu làm ạ." },
+        { "speaker": "b", "en": "Great, I want to remove the fries.", "vi": "Tuyệt, tôi muốn bỏ món khoai tây chiên." }
+      ]},
+    { "title": "Người nhận không phải là bạn", "situation": "Người nhận đồ ăn ở nhà không phải bạn và bạn phải hướng dẫn qua điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "The driver says someone else answered.", "vi": "Tài xế nói người khác ra nhận hàng." },
+        { "speaker": "b", "en": "That is my roommate, it is fine.", "vi": "Đó là bạn cùng phòng tôi, không sao đâu." },
+        { "speaker": "a", "en": "Great, I will confirm with the driver.", "vi": "Tuyệt, tôi sẽ xác nhận với tài xế." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." },
+        { "speaker": "a", "en": "The order has been delivered.", "vi": "Đơn hàng đã được giao rồi ạ." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Nhiều vấn đề trong một đơn hàng lớn", "situation": "Đơn hàng lớn của bạn vừa thiếu món vừa bị giao nhầm. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help with your order?", "vi": "Tôi giúp gì được cho đơn hàng của bạn ạ?" },
+        { "speaker": "b", "en": "Two items are missing, and one is wrong.", "vi": "Hai món bị thiếu, và một món bị nhầm." },
+        { "speaker": "a", "en": "I am very sorry. Let me check each item.", "vi": "Tôi rất xin lỗi. Để tôi kiểm tra từng món." },
+        { "speaker": "b", "en": "Thank you, that would help a lot.", "vi": "Cảm ơn bạn, vậy giúp ích lắm." },
+        { "speaker": "a", "en": "I will refund the missing items and resend the wrong one.", "vi": "Tôi sẽ hoàn tiền món thiếu và gửi lại món bị nhầm." },
+        { "speaker": "b", "en": "Thank you for handling this so carefully.", "vi": "Cảm ơn bạn đã xử lý cẩn thận vậy." }
+      ]}
+  ]
+}

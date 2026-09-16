@@ -1,0 +1,96 @@
+{
+  "id": "ke-ve-cuoi-tuan",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Đi biển cuối tuần", "situation": "Bạn kể về chuyến đi biển cuối tuần vừa rồi.",
+      "turns": [
+        { "speaker": "a", "en": "How was your weekend?", "vi": "Cuối tuần của bạn thế nào?" },
+        { "speaker": "b", "en": "It was great. I went to the beach.", "vi": "Tuyệt lắm. Tôi đi biển." },
+        { "speaker": "a", "en": "Who did you go with?", "vi": "Bạn đi với ai vậy?" },
+        { "speaker": "b", "en": "I went with my family.", "vi": "Tôi đi cùng gia đình." },
+        { "speaker": "a", "en": "Sounds relaxing.", "vi": "Nghe thư giãn đấy." },
+        { "speaker": "b", "en": "Yes, it really was.", "vi": "Vâng, đúng vậy thật." }
+      ]},
+    { "title": "Ở nhà nghỉ ngơi", "situation": "Bạn kể về cuối tuần dành để nghỉ ngơi tại nhà.",
+      "turns": [
+        { "speaker": "a", "en": "Did you go anywhere this weekend?", "vi": "Cuối tuần này bạn có đi đâu không?" },
+        { "speaker": "b", "en": "No, I stayed home and relaxed.", "vi": "Không, tôi ở nhà và nghỉ ngơi." },
+        { "speaker": "a", "en": "What did you do?", "vi": "Bạn đã làm gì vậy?" },
+        { "speaker": "b", "en": "I watched movies and slept a lot.", "vi": "Tôi xem phim và ngủ nhiều." },
+        { "speaker": "a", "en": "That sounds nice too.", "vi": "Nghe cũng hay đấy." },
+        { "speaker": "b", "en": "Yes, I needed the rest.", "vi": "Vâng, tôi cần nghỉ ngơi mà." }
+      ]},
+    { "title": "Đi tiệc sinh nhật", "situation": "Bạn kể về việc tham dự tiệc sinh nhật của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Anything special happen this weekend?", "vi": "Cuối tuần này có gì đặc biệt không?" },
+        { "speaker": "b", "en": "Yes, I went to a birthday party.", "vi": "Có, tôi đi dự tiệc sinh nhật." },
+        { "speaker": "a", "en": "Whose birthday was it?", "vi": "Sinh nhật của ai vậy?" },
+        { "speaker": "b", "en": "My friend Hoa's birthday.", "vi": "Sinh nhật bạn Hoa của tôi." },
+        { "speaker": "a", "en": "Did you have fun?", "vi": "Bạn có vui không?" },
+        { "speaker": "b", "en": "Yes, it was a lot of fun.", "vi": "Có, rất vui." }
+      ]},
+    { "title": "Mua sắm cuối tuần", "situation": "Bạn kể về việc đi mua sắm cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "What did you do on Saturday?", "vi": "Thứ Bảy bạn làm gì vậy?" },
+        { "speaker": "b", "en": "I went shopping and bought new shoes.", "vi": "Tôi đi mua sắm và mua giày mới." },
+        { "speaker": "a", "en": "Nice, where did you go?", "vi": "Hay đấy, bạn đi đâu vậy?" },
+        { "speaker": "b", "en": "To the mall downtown.", "vi": "Tới trung tâm thương mại ở trung tâm thành phố." },
+        { "speaker": "a", "en": "Did you buy anything else?", "vi": "Bạn có mua gì khác nữa không?" },
+        { "speaker": "b", "en": "Yes, I also bought a shirt.", "vi": "Có, tôi cũng mua thêm một cái áo." }
+      ]},
+    { "title": "Ăn ở nhà hàng mới", "situation": "Bạn kể về việc thử một nhà hàng mới cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Did you eat anywhere nice?", "vi": "Cuối tuần bạn có ăn ở đâu ngon không?" },
+        { "speaker": "b", "en": "Yes, I ate at a new restaurant.", "vi": "Có, tôi ăn ở một nhà hàng mới." },
+        { "speaker": "a", "en": "What did you have?", "vi": "Bạn ăn món gì vậy?" },
+        { "speaker": "b", "en": "I had grilled chicken.", "vi": "Tôi ăn gà nướng." },
+        { "speaker": "a", "en": "Was it good?", "vi": "Có ngon không?" },
+        { "speaker": "b", "en": "Yes, it was really good.", "vi": "Có, ngon thật sự." }
+      ]},
+    { "title": "Cuối tuần bận rộn với việc nhà", "situation": "Bạn kể về việc dành cuối tuần để dọn dẹp nhà cửa.",
+      "turns": [
+        { "speaker": "a", "en": "Did you rest this weekend?", "vi": "Cuối tuần bạn có nghỉ ngơi không?" },
+        { "speaker": "b", "en": "Not really. I cleaned my whole house.", "vi": "Không hẳn. Tôi dọn dẹp cả nhà." },
+        { "speaker": "a", "en": "That sounds tiring.", "vi": "Nghe mệt đấy." },
+        { "speaker": "b", "en": "Yes, but the house looks great now.", "vi": "Vâng, nhưng giờ nhà trông đẹp lắm." },
+        { "speaker": "a", "en": "Good job. You earned some rest.", "vi": "Giỏi đấy. Bạn xứng đáng được nghỉ ngơi." },
+        { "speaker": "b", "en": "Thank you, I will rest tonight.", "vi": "Cảm ơn bạn, tối nay tôi sẽ nghỉ ngơi." }
+      ]},
+    { "title": "Cuối tuần không như mong đợi", "situation": "Kế hoạch cuối tuần của bạn bị thay đổi vì trời mưa.",
+      "turns": [
+        { "speaker": "a", "en": "Did you go hiking as planned?", "vi": "Bạn có đi leo núi như dự định không?" },
+        { "speaker": "b", "en": "No, it rained all weekend.", "vi": "Không, cuối tuần trời mưa suốt." },
+        { "speaker": "a", "en": "Oh no, what did you do instead?", "vi": "Ôi không, vậy bạn làm gì thay thế?" },
+        { "speaker": "b", "en": "I stayed home and read books.", "vi": "Tôi ở nhà và đọc sách." },
+        { "speaker": "a", "en": "That is a good backup plan.", "vi": "Vậy cũng là kế hoạch dự phòng tốt đấy." },
+        { "speaker": "b", "en": "Yes, I actually enjoyed it.", "vi": "Vâng, tôi thực sự thích thế." }
+      ]},
+    { "title": "Kể về việc gặp bạn cũ", "situation": "Bạn kể về việc tình cờ gặp lại bạn cũ cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Anything interesting happen?", "vi": "Có chuyện gì thú vị xảy ra không?" },
+        { "speaker": "b", "en": "Yes, I saw an old friend.", "vi": "Có, tôi gặp lại một người bạn cũ." },
+        { "speaker": "a", "en": "Where did you see them?", "vi": "Bạn gặp ở đâu vậy?" },
+        { "speaker": "b", "en": "At the coffee shop near my house.", "vi": "Ở quán cà phê gần nhà tôi." },
+        { "speaker": "a", "en": "That must have been a nice surprise.", "vi": "Chắc là bất ngờ thú vị lắm nhỉ." },
+        { "speaker": "b", "en": "Yes, we talked for hours.", "vi": "Vâng, chúng tôi nói chuyện mấy tiếng liền." }
+      ]},
+    { "title": "Cuối tuần đi du lịch xa", "situation": "Bạn kể về một chuyến du lịch xa hơn bình thường.",
+      "turns": [
+        { "speaker": "a", "en": "Your weekend sounds different.", "vi": "Cuối tuần của bạn có vẻ khác thường nhỉ." },
+        { "speaker": "b", "en": "Yes, I took a trip to the mountains.", "vi": "Vâng, tôi đi du lịch lên núi." },
+        { "speaker": "a", "en": "That is far. How long did it take?", "vi": "Xa nhỉ. Mất bao lâu vậy?" },
+        { "speaker": "b", "en": "About three hours by car.", "vi": "Khoảng ba tiếng đi xe hơi." },
+        { "speaker": "a", "en": "Was it worth the drive?", "vi": "Có đáng để lái xe không?" },
+        { "speaker": "b", "en": "Definitely, the view was amazing.", "vi": "Chắc chắn rồi, cảnh đẹp lắm." }
+      ]},
+    { "title": "Kể lại cả cuối tuần với nhiều hoạt động", "situation": "Bạn kể chi tiết về một cuối tuần bận rộn với nhiều hoạt động khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your weekend sounds busy. Tell me everything.", "vi": "Cuối tuần của bạn nghe bận rộn nhỉ. Kể tôi nghe hết đi." },
+        { "speaker": "b", "en": "On Saturday, I went shopping and saw a movie.", "vi": "Thứ Bảy, tôi đi mua sắm và xem phim." },
+        { "speaker": "a", "en": "That sounds fun. And Sunday?", "vi": "Nghe vui đấy. Còn Chủ nhật?" },
+        { "speaker": "b", "en": "I had lunch with my family, then cleaned the house.", "vi": "Tôi ăn trưa cùng gia đình, rồi dọn dẹp nhà cửa." },
+        { "speaker": "a", "en": "Wow, you did a lot.", "vi": "Ồ, bạn làm nhiều việc thật." },
+        { "speaker": "b", "en": "Yes, but I am ready for work now.", "vi": "Vâng, nhưng giờ tôi sẵn sàng đi làm rồi." }
+      ]}
+  ]
+}

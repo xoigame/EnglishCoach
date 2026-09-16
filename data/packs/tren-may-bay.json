@@ -1,0 +1,96 @@
+{
+  "id": "tren-may-bay",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Xin đổi chỗ ngồi", "situation": "Bạn muốn đổi từ ghế giữa sang ghế cạnh lối đi.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome aboard. Is this your seat?", "vi": "Chào mừng lên máy bay. Đây là ghế của bạn ạ?" },
+        { "speaker": "b", "en": "Yes, but could I have an aisle seat instead?", "vi": "Vâng, nhưng đổi sang ghế lối đi được không ạ?" },
+        { "speaker": "a", "en": "Let me check for you.", "vi": "Để tôi kiểm tra giúp bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Seat fourteen C is free.", "vi": "Ghế mười bốn C còn trống ạ." },
+        { "speaker": "b", "en": "Perfect, thank you very much.", "vi": "Tuyệt vời, cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Cất hành lý xách tay", "situation": "Bạn cần giúp cất túi lên khoang trên đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Do you need help with your bag?", "vi": "Bạn cần giúp với hành lý không ạ?" },
+        { "speaker": "b", "en": "Yes, please. It is a bit heavy.", "vi": "Có, giúp tôi với. Hơi nặng một chút." },
+        { "speaker": "a", "en": "I will put it in the overhead bin.", "vi": "Tôi sẽ cất vào khoang trên đầu." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "You are welcome. Please sit down.", "vi": "Không có gì. Mời bạn ngồi." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin nước uống", "situation": "Bạn hỏi loại nước có sẵn trên máy bay.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like something to drink?", "vi": "Bạn muốn uống gì không ạ?" },
+        { "speaker": "b", "en": "Yes, do you have still water?", "vi": "Có, bên bạn có nước lọc không ạ?" },
+        { "speaker": "a", "en": "Still or sparkling water?", "vi": "Nước lọc thường hay nước có ga ạ?" },
+        { "speaker": "b", "en": "Still water, please.", "vi": "Nước lọc thường nhé." },
+        { "speaker": "a", "en": "Here you are.", "vi": "Của bạn đây ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin thêm chăn", "situation": "Bạn cảm thấy lạnh trên máy bay và xin chăn.",
+      "turns": [
+        { "speaker": "a", "en": "Is everything okay?", "vi": "Mọi thứ ổn chứ ạ?" },
+        { "speaker": "b", "en": "Could I have a blanket, please?", "vi": "Cho tôi xin một cái chăn được không ạ?" },
+        { "speaker": "a", "en": "Of course, one moment.", "vi": "Được ạ, chờ một chút." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Here is your blanket.", "vi": "Đây là chăn của bạn." },
+        { "speaker": "b", "en": "Perfect, thank you very much.", "vi": "Tuyệt vời, cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Thắt dây an toàn khi cất cánh", "situation": "Tiếp viên nhắc bạn thắt dây an toàn.",
+      "turns": [
+        { "speaker": "a", "en": "Please fasten your seat belt for takeoff.", "vi": "Vui lòng thắt dây an toàn để chuẩn bị cất cánh." },
+        { "speaker": "b", "en": "Sorry, how does this work?", "vi": "Xin lỗi, cái này thắt thế nào ạ?" },
+        { "speaker": "a", "en": "Let me show you.", "vi": "Để tôi chỉ cho bạn." },
+        { "speaker": "b", "en": "Oh, I see now. Thank you.", "vi": "À, giờ tôi hiểu rồi. Cảm ơn bạn." },
+        { "speaker": "a", "en": "No problem. Enjoy your flight.", "vi": "Không có gì. Chúc bạn chuyến bay vui vẻ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Gọi tiếp viên bằng nút gọi", "situation": "Bạn dùng nút gọi để nhờ tiếp viên giúp.",
+      "turns": [
+        { "speaker": "a", "en": "Yes, how can I help?", "vi": "Vâng, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "Sorry to bother you. Can I get some water?", "vi": "Xin lỗi làm phiền. Cho tôi xin ít nước được không?" },
+        { "speaker": "a", "en": "Not a bother at all.", "vi": "Không phiền gì đâu ạ." },
+        { "speaker": "b", "en": "Thank you for coming so quickly.", "vi": "Cảm ơn bạn đã tới nhanh vậy." },
+        { "speaker": "a", "en": "That is my job. Here you are.", "vi": "Đó là công việc của tôi mà. Của bạn đây." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Hỏi về bữa ăn trên máy bay", "situation": "Bạn hỏi khi nào sẽ có bữa ăn.",
+      "turns": [
+        { "speaker": "a", "en": "We will serve the meal soon.", "vi": "Chúng tôi sẽ phục vụ bữa ăn sớm ạ." },
+        { "speaker": "b", "en": "Do you have a vegetarian option?", "vi": "Có món chay không ạ?" },
+        { "speaker": "a", "en": "Yes, we do have one.", "vi": "Có ạ, chúng tôi có món chay." },
+        { "speaker": "b", "en": "Great, I will have that.", "vi": "Tuyệt, cho tôi món đó." },
+        { "speaker": "a", "en": "I will bring it to you shortly.", "vi": "Tôi sẽ mang tới ngay cho bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Người bên cạnh làm ồn", "situation": "Hành khách ngồi cạnh bạn nói chuyện điện thoại to.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, is everything all right?", "vi": "Xin lỗi, mọi thứ ổn chứ ạ?" },
+        { "speaker": "b", "en": "The passenger next to me is quite loud.", "vi": "Hành khách ngồi cạnh tôi khá ồn." },
+        { "speaker": "a", "en": "I will speak with them.", "vi": "Tôi sẽ nói chuyện với họ." },
+        { "speaker": "b", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn, tôi cảm kích lắm." },
+        { "speaker": "a", "en": "It should be quieter now.", "vi": "Giờ chắc sẽ yên tĩnh hơn rồi ạ." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Cảm thấy không khoẻ trên máy bay", "situation": "Bạn thấy chóng mặt và cần giúp đỡ.",
+      "turns": [
+        { "speaker": "a", "en": "Are you feeling okay?", "vi": "Bạn thấy ổn không ạ?" },
+        { "speaker": "b", "en": "Not really, I feel a bit dizzy.", "vi": "Không hẳn, tôi thấy hơi chóng mặt." },
+        { "speaker": "a", "en": "Let me get you some water.", "vi": "Để tôi lấy nước cho bạn." },
+        { "speaker": "b", "en": "Thank you, that would help.", "vi": "Cảm ơn bạn, vậy sẽ giúp ích lắm." },
+        { "speaker": "a", "en": "Please press the call button if you need more help.", "vi": "Nếu cần thêm gì thì bấm nút gọi nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ bấm, cảm ơn bạn." }
+      ]},
+    { "title": "Nhiều yêu cầu liên tiếp giữa chuyến bay dài", "situation": "Bạn cần nhiều thứ khác nhau trong chuyến bay dài. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "How is your flight so far?", "vi": "Chuyến bay của bạn tới giờ thế nào ạ?" },
+        { "speaker": "b", "en": "Good, but could I get a blanket and some water?", "vi": "Ổn, nhưng cho tôi xin chăn và ít nước được không ạ?" },
+        { "speaker": "a", "en": "Of course, I will bring both.", "vi": "Được ạ, tôi sẽ mang cả hai tới." },
+        { "speaker": "b", "en": "Also, is the overhead bin above me full?", "vi": "Ngoài ra, khoang trên đầu tôi có đầy không ạ?" },
+        { "speaker": "a", "en": "Let me check that too.", "vi": "Để tôi kiểm tra luôn." },
+        { "speaker": "b", "en": "Thank you for taking care of everything.", "vi": "Cảm ơn bạn đã lo hết mọi thứ." }
+      ]}
+  ]
+}
