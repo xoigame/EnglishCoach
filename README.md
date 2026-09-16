@@ -127,7 +127,7 @@ git add data && git commit -m "lesson: ..." && git push
 - Nếu lệch nhiều, AI đọc câu mẫu thật chậm và **tách đôi câu** cho dễ nhắc lại.
 - Sau `maxTries` lần (mặc định 2) thì tự đi tiếp để không bị kẹt.
 
-Chỉnh ngưỡng đạt, số lần nói lại và bật/tắt đọc phần sửa lỗi ở tab ⚙️ Cài đặt.
+Bật **Rảnh tay** ở tab ⚙️ Cài đặt thì micro tự mở ngay khi AI nói xong — cả buổi hội thoại chạy liên tục không cần chạm chuột. Cũng ở đó bạn chỉnh ngưỡng đạt, số lần được nói lại và tắt phần đọc sửa lỗi nếu chỉ muốn xem chữ.
 
 ### Hai chế độ hội thoại
 

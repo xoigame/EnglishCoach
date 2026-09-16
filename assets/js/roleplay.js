@@ -21,6 +21,8 @@ export function createRoleplay({ lesson, els, onScore }) {
   let awaiting = false;
   let speaking = false;
   let pending = '';
+  let alive = true;
+  let autoTimer = null;
   let lastSpoken = '';
 
   /* ------------------------------------------------------------- UI bits */
@@ -65,6 +67,7 @@ export function createRoleplay({ lesson, els, onScore }) {
     awaiting = true;
     status(`Tới lượt bạn (${roles[userRole]}). Bấm 🎤 rồi nói. Cần gợi ý thì bấm 💡.`);
     flushPending();
+    armMic();
   }
 
   function finishScript() {
@@ -119,6 +122,7 @@ export function createRoleplay({ lesson, els, onScore }) {
     }
     awaiting = true;
     status(`Thử lại lần ${attempt + 1}/${settings.maxTries} — bấm 🎤.`);
+    armMic();
   }
 
   /* ----------------------------------------------------------- live mode */
@@ -203,6 +207,7 @@ export function createRoleplay({ lesson, els, onScore }) {
       await sayAll([{ text: en }], { force: true });
       if (fix) await sayAll([{ text: fix, rate: 0.82 }]);
       status('Tới lượt bạn — bấm 🎤 và trả lời tự nhiên.');
+      armMic();
     } catch (err) {
       thinking.remove();
       history.pop();
@@ -222,6 +227,15 @@ export function createRoleplay({ lesson, els, onScore }) {
   }
 
   /* ------------------------------------------------------------ actions */
+
+  /** Rảnh tay: tới lượt người học thì tự bật micro sau một nhịp ngắn. */
+  function armMic() {
+    if (!settings.autoListen || !asrSupported || !alive) return;
+    clearTimeout(autoTimer);
+    autoTimer = setTimeout(() => {
+      if (alive && awaiting && !speaking && !isRecording()) listen();
+    }, 500);
+  }
 
   /** Câu người học gửi khi AI còn đang nói — xử lý ngay khi tới lượt họ. */
   function flushPending() {
@@ -285,6 +299,8 @@ export function createRoleplay({ lesson, els, onScore }) {
   function start(nextMode) {
     stopSpeaking();
     stopCapture();
+    clearTimeout(autoTimer);
+    alive = true;
     speaking = false;
     mode = nextMode || mode;
     idx = 0;
@@ -304,12 +320,12 @@ export function createRoleplay({ lesson, els, onScore }) {
       advanceScript();
     } else {
       bubble('sys', 'Chế độ tự do — AI đóng vai, trả lời theo ý bạn nói và sửa lỗi bằng giọng nói sau mỗi câu.');
-      partnerSays(lesson.roleplay.opener, '');
+      partnerSays(lesson.roleplay.opener, '').then(armMic);
       status('Tới lượt bạn — bấm 🎤 và trả lời tự nhiên.');
     }
   }
 
-  function destroy() { stopSpeaking(); stopCapture(); }
+  function destroy() { alive = false; clearTimeout(autoTimer); stopSpeaking(); stopCapture(); }
 
   return { start, listen, hint, replay, skip, submitUserText, destroy, get mode() { return mode; } };
 }

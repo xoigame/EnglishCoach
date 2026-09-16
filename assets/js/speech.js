@@ -9,6 +9,7 @@ export const settings = {
   passScore: 80,      // % tối thiểu để tính là nói đạt
   coachAloud: true,   // đọc phần sửa lỗi bằng giọng nói
   maxTries: 2,        // số lần thử lại trước khi đi tiếp
+  autoListen: true,   // tự bật micro khi tới lượt bạn
   ...safeParse(localStorage.getItem(SETTINGS_KEY)),
 };
 

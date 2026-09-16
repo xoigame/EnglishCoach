@@ -251,6 +251,10 @@ async function wireSettings() {
   aloud.checked = settings.coachAloud;
   aloud.addEventListener('change', () => { settings.coachAloud = aloud.checked; saveSettings(); });
 
+  const auto = $('#autoListen');
+  auto.checked = settings.autoListen;
+  auto.addEventListener('change', () => { settings.autoListen = auto.checked; saveSettings(); });
+
   const lang = $('#asrLang');
   lang.value = settings.asrLang;
   lang.addEventListener('change', () => { settings.asrLang = lang.value; saveSettings(); });
