@@ -1,0 +1,142 @@
+{
+  "id": "dat-phong-khach-san",
+  "level": "A2",
+  "dialogues": [
+    {
+      "title": "Nhận phòng đã đặt trước",
+      "situation": "Bạn tới khách sạn đúng giờ, mọi thứ suôn sẻ. Đây là tình huống cơ bản nhất.",
+      "turns": [
+        { "speaker": "a", "en": "Good afternoon. Welcome to Sunrise Hotel. Do you have a reservation?", "vi": "Chào buổi chiều. Chào mừng đến khách sạn Sunrise. Bạn có đặt phòng trước không?" },
+        { "speaker": "b", "en": "Yes, I have a reservation under the name Tran.", "vi": "Có, tôi đặt phòng dưới tên Trần." },
+        { "speaker": "a", "en": "Thank you. A double room for two nights, is that right?", "vi": "Cảm ơn bạn. Một phòng đôi cho hai đêm, đúng không?" },
+        { "speaker": "b", "en": "That's right. Is breakfast included?", "vi": "Đúng rồi. Có bao gồm bữa sáng không?" },
+        { "speaker": "a", "en": "Yes, breakfast is included. It is served in the lobby from six thirty.", "vi": "Có, bữa sáng được bao gồm. Phục vụ ở sảnh từ sáu giờ ba mươi." },
+        { "speaker": "b", "en": "Great. Could I have my key card, please?", "vi": "Tuyệt. Cho tôi xin thẻ phòng nhé?" },
+        { "speaker": "a", "en": "Here you are. Your room is on the fourth floor. Enjoy your stay.", "vi": "Của bạn đây. Phòng bạn ở tầng bốn. Chúc bạn nghỉ ngơi vui vẻ." }
+      ]
+    },
+    {
+      "title": "Đặt phòng trực tiếp tại quầy",
+      "situation": "Bạn chưa đặt trước, tới hỏi phòng trống ngay tại quầy.",
+      "turns": [
+        { "speaker": "a", "en": "Good evening. How can I help you?", "vi": "Chào buổi tối. Tôi có thể giúp gì cho bạn?" },
+        { "speaker": "b", "en": "Hi. Do you have any rooms available tonight?", "vi": "Chào. Tối nay còn phòng trống không ạ?" },
+        { "speaker": "a", "en": "Let me check. Yes, we have one double room left.", "vi": "Để tôi kiểm tra. Có, chúng tôi còn một phòng đôi." },
+        { "speaker": "b", "en": "How much is it per night?", "vi": "Giá mỗi đêm bao nhiêu ạ?" },
+        { "speaker": "a", "en": "It is eighty dollars per night, breakfast included.", "vi": "Tám mươi đô một đêm, bao gồm bữa sáng." },
+        { "speaker": "b", "en": "I'll take it. I would like to stay for one night.", "vi": "Tôi lấy phòng đó. Tôi muốn ở một đêm." },
+        { "speaker": "a", "en": "Could I see your passport, please?", "vi": "Cho tôi xem hộ chiếu của bạn nhé?" },
+        { "speaker": "b", "en": "Of course. Here it is.", "vi": "Tất nhiên rồi. Đây ạ." }
+      ]
+    },
+    {
+      "title": "Hỏi mật khẩu wifi và giờ ăn sáng",
+      "situation": "Sau khi nhận phòng, bạn hỏi thêm vài thông tin cần thiết.",
+      "turns": [
+        { "speaker": "a", "en": "Is there anything else you need?", "vi": "Bạn còn cần gì nữa không?" },
+        { "speaker": "b", "en": "Yes. What is the wifi password?", "vi": "Có. Mật khẩu wifi là gì ạ?" },
+        { "speaker": "a", "en": "The password is sunrise, all in small letters.", "vi": "Mật khẩu là sunrise, viết chữ thường hết." },
+        { "speaker": "b", "en": "Thank you. And what time does breakfast finish?", "vi": "Cảm ơn. Bữa sáng kết thúc lúc mấy giờ ạ?" },
+        { "speaker": "a", "en": "Breakfast finishes at ten in the morning.", "vi": "Bữa sáng kết thúc lúc mười giờ sáng." },
+        { "speaker": "b", "en": "Perfect. Is the gym open in the evening?", "vi": "Tuyệt. Phòng gym có mở buổi tối không?" },
+        { "speaker": "a", "en": "Yes, it is open until nine.", "vi": "Có, mở tới chín giờ." }
+      ]
+    },
+    {
+      "title": "Xin nhận phòng sớm",
+      "situation": "Bạn tới lúc mười giờ sáng, trước giờ nhận phòng.",
+      "turns": [
+        { "speaker": "a", "en": "Good morning. Check in starts at two in the afternoon.", "vi": "Chào buổi sáng. Giờ nhận phòng bắt đầu từ hai giờ chiều." },
+        { "speaker": "b", "en": "I see. Is early check in possible?", "vi": "Tôi hiểu rồi. Có thể nhận phòng sớm không ạ?" },
+        { "speaker": "a", "en": "Let me check. One room is ready, but there is a small fee.", "vi": "Để tôi kiểm tra. Có một phòng đã sẵn sàng, nhưng có phụ phí nhỏ." },
+        { "speaker": "b", "en": "How much is the fee?", "vi": "Phụ phí bao nhiêu ạ?" },
+        { "speaker": "a", "en": "It is fifteen dollars.", "vi": "Mười lăm đô ạ." },
+        { "speaker": "b", "en": "That's fine. I'll pay it. I'm very tired after the flight.", "vi": "Không sao. Tôi trả phí đó. Tôi mệt lắm sau chuyến bay." },
+        { "speaker": "a", "en": "I understand. Let me get your key card right away.", "vi": "Tôi hiểu mà. Để tôi lấy thẻ phòng cho bạn ngay." }
+      ]
+    },
+    {
+      "title": "Gửi hành lý khi phòng chưa sẵn sàng",
+      "situation": "Không nhận phòng sớm được, bạn nhờ gửi vali rồi đi chơi.",
+      "turns": [
+        { "speaker": "a", "en": "I'm sorry, your room is not ready yet.", "vi": "Tôi xin lỗi, phòng của bạn chưa sẵn sàng." },
+        { "speaker": "b", "en": "No problem. Could I leave my luggage here?", "vi": "Không sao. Tôi gửi hành lý ở đây được không?" },
+        { "speaker": "a", "en": "Of course. We can keep it in the storage room.", "vi": "Tất nhiên rồi. Chúng tôi giữ trong phòng kho được." },
+        { "speaker": "b", "en": "Thank you. What time should I come back?", "vi": "Cảm ơn. Tôi nên quay lại lúc mấy giờ?" },
+        { "speaker": "a", "en": "Please come back after two. Here is your luggage tag.", "vi": "Bạn quay lại sau hai giờ nhé. Đây là phiếu gửi hành lý của bạn." },
+        { "speaker": "b", "en": "Got it. Can you recommend somewhere for lunch nearby?", "vi": "Tôi hiểu rồi. Bạn giới thiệu chỗ ăn trưa gần đây được không?" },
+        { "speaker": "a", "en": "There is a good noodle place two minutes from the lobby.", "vi": "Có một quán mì ngon cách sảnh hai phút đi bộ." }
+      ]
+    },
+    {
+      "title": "Hết phòng, phải chọn phương án khác",
+      "situation": "Khách sạn kín phòng. Bạn phải thương lượng xem còn lựa chọn nào.",
+      "turns": [
+        { "speaker": "a", "en": "I'm afraid we are fully booked tonight.", "vi": "Tôi e là tối nay chúng tôi hết phòng." },
+        { "speaker": "b", "en": "Oh no. Do you have anything for tomorrow instead?", "vi": "Ôi không. Vậy mai còn phòng không ạ?" },
+        { "speaker": "a", "en": "Yes, tomorrow we have a single room and a double room.", "vi": "Có, mai chúng tôi còn một phòng đơn và một phòng đôi." },
+        { "speaker": "b", "en": "Could you help me find a room for tonight somewhere else?", "vi": "Bạn giúp tôi tìm phòng cho tối nay ở chỗ khác được không?" },
+        { "speaker": "a", "en": "Certainly. Our sister hotel is five minutes away and has rooms.", "vi": "Chắc chắn rồi. Khách sạn cùng hệ thống cách đây năm phút và còn phòng." },
+        { "speaker": "b", "en": "That would be great. Could you call them for me?", "vi": "Vậy thì tốt quá. Bạn gọi cho họ giúp tôi được không?" },
+        { "speaker": "a", "en": "I'll call them now. May I have your name and phone number?", "vi": "Tôi gọi ngay đây. Cho tôi xin tên và số điện thoại của bạn?" },
+        { "speaker": "b", "en": "It's Tran, and my number is oh nine one, two three four, five six seven.", "vi": "Tên Trần, số của tôi là không chín một, hai ba bốn, năm sáu bảy." }
+      ]
+    },
+    {
+      "title": "Phòng ồn, xin đổi phòng",
+      "situation": "Nửa đêm bạn xuống quầy vì phòng quá ồn.",
+      "turns": [
+        { "speaker": "a", "en": "Good evening. Is everything all right?", "vi": "Chào buổi tối. Mọi thứ ổn không ạ?" },
+        { "speaker": "b", "en": "Not really. My room is very noisy. It faces the main road.", "vi": "Không hẳn. Phòng tôi rất ồn. Nó hướng ra đường lớn." },
+        { "speaker": "a", "en": "I'm very sorry about that. Would you like to change rooms?", "vi": "Tôi rất xin lỗi về việc đó. Bạn có muốn đổi phòng không?" },
+        { "speaker": "b", "en": "Yes, please. Do you have a quieter room at the back?", "vi": "Vâng, xin đổi giúp. Bạn còn phòng yên tĩnh hơn phía sau không?" },
+        { "speaker": "a", "en": "We do. Room five eleven is at the back and it is quiet.", "vi": "Có ạ. Phòng năm mười một ở phía sau và rất yên tĩnh." },
+        { "speaker": "b", "en": "That sounds better. Do I need to move my things now?", "vi": "Nghe khá hơn rồi. Tôi cần chuyển đồ ngay bây giờ không?" },
+        { "speaker": "a", "en": "Take your time. I'll send someone to help you with the luggage.", "vi": "Bạn không cần gấp. Tôi sẽ cử người giúp bạn mang hành lý." },
+        { "speaker": "b", "en": "Thank you for sorting it out so quickly.", "vi": "Cảm ơn bạn đã xử lý nhanh như vậy." }
+      ]
+    },
+    {
+      "title": "Mất thẻ phòng",
+      "situation": "Bạn làm mất thẻ phòng và cần xin thẻ mới.",
+      "turns": [
+        { "speaker": "a", "en": "Hello. How can I help you?", "vi": "Xin chào. Tôi có thể giúp gì cho bạn?" },
+        { "speaker": "b", "en": "I think I lost my key card. I can't find it anywhere.", "vi": "Tôi nghĩ tôi đã mất thẻ phòng. Tôi tìm khắp mà không thấy." },
+        { "speaker": "a", "en": "Don't worry. What is your room number?", "vi": "Bạn đừng lo. Số phòng của bạn là gì?" },
+        { "speaker": "b", "en": "Room three oh two, under the name Tran.", "vi": "Phòng ba không hai, dưới tên Trần." },
+        { "speaker": "a", "en": "Could I see your passport so I can check?", "vi": "Cho tôi xem hộ chiếu để kiểm tra nhé?" },
+        { "speaker": "b", "en": "Here it is. Is there a charge for a new card?", "vi": "Đây ạ. Làm thẻ mới có mất phí không?" },
+        { "speaker": "a", "en": "The first replacement is free. Here is your new card.", "vi": "Lần đổi đầu tiên miễn phí. Đây là thẻ mới của bạn." },
+        { "speaker": "b", "en": "Thank you so much. I'll be more careful this time.", "vi": "Cảm ơn bạn nhiều. Lần này tôi sẽ cẩn thận hơn." }
+      ]
+    },
+    {
+      "title": "Xin trả phòng muộn",
+      "situation": "Chuyến bay tối, bạn muốn ở lại phòng thêm vài tiếng.",
+      "turns": [
+        { "speaker": "a", "en": "Good morning. Check out is at eleven o'clock.", "vi": "Chào buổi sáng. Giờ trả phòng là mười một giờ." },
+        { "speaker": "b", "en": "My flight is at nine in the evening. Could I have a late check out?", "vi": "Chuyến bay của tôi lúc chín giờ tối. Tôi trả phòng muộn được không?" },
+        { "speaker": "a", "en": "We can offer late check out until two, for twenty dollars.", "vi": "Chúng tôi có thể cho trả phòng muộn tới hai giờ, phí hai mươi đô." },
+        { "speaker": "b", "en": "Is there any way to keep the room until five?", "vi": "Có cách nào giữ phòng tới năm giờ không ạ?" },
+        { "speaker": "a", "en": "Until five would count as half a day, so it is forty dollars.", "vi": "Tới năm giờ sẽ tính là nửa ngày, nên là bốn mươi đô." },
+        { "speaker": "b", "en": "I see. Then I'll check out at two and leave my luggage here.", "vi": "Tôi hiểu rồi. Vậy tôi trả phòng lúc hai giờ và gửi hành lý ở đây." },
+        { "speaker": "a", "en": "That works well. You can also use the shower in the gym.", "vi": "Cách đó hợp lý. Bạn cũng có thể dùng phòng tắm ở khu gym." },
+        { "speaker": "b", "en": "That's very helpful. Thank you.", "vi": "Thông tin đó hữu ích lắm. Cảm ơn bạn." }
+      ]
+    },
+    {
+      "title": "Hoá đơn tính sai tiền",
+      "situation": "Khi trả phòng, hoá đơn có một khoản bạn không dùng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your bill. The total is two hundred and thirty dollars.", "vi": "Đây là hoá đơn của bạn. Tổng cộng hai trăm ba mươi đô." },
+        { "speaker": "b", "en": "Excuse me, could you explain this charge? I don't recognise it.", "vi": "Xin lỗi, bạn giải thích khoản này được không? Tôi không nhớ khoản này." },
+        { "speaker": "a", "en": "That is thirty dollars from the minibar.", "vi": "Đó là ba mươi đô từ minibar." },
+        { "speaker": "b", "en": "I never used the minibar. There must be a mistake.", "vi": "Tôi chưa dùng minibar bao giờ. Chắc là có nhầm lẫn." },
+        { "speaker": "a", "en": "Let me check with housekeeping. One moment, please.", "vi": "Để tôi kiểm tra với bộ phận buồng phòng. Chờ tôi một chút nhé." },
+        { "speaker": "b", "en": "Of course. I'd rather sort it out now than after I leave.", "vi": "Tất nhiên rồi. Tôi muốn giải quyết ngay chứ không để sau khi đi." },
+        { "speaker": "a", "en": "You are right, it was charged to the wrong room. I've removed it.", "vi": "Bạn nói đúng, khoản đó bị tính sang phòng khác. Tôi đã bỏ nó ra." },
+        { "speaker": "b", "en": "Thank you for checking. Could I have a printed receipt?", "vi": "Cảm ơn bạn đã kiểm tra. Cho tôi xin hoá đơn in nhé?" }
+      ]
+    }
+  ]
+}

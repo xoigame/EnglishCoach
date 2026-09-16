@@ -3,9 +3,11 @@
 import { settings, saveSettings, loadVoices, getVoices, speak, stopSpeaking } from './speech.js';
 import { asrSupported } from './mic.js';
 import * as store from './store.js';
-import { renderPrep, renderDrill, renderListen, renderQuiz, esc } from './lesson.js';
+import { renderPrep, renderDrill, renderListen, esc } from './lesson.js';
 import { createRoleplay } from './roleplay.js';
 import { renderMindmap } from './mindmap.js';
+import { renderPacks } from './packs.js';
+import { renderExercises } from './exercises.js';
 import { buildPrompt, buildCommand, slugify } from './prompt.js';
 
 const $ = sel => document.querySelector(sel);
@@ -75,7 +77,7 @@ async function refreshLibrary() {
 async function openLesson(id) {
   showView('lesson');
   $('#lsTitle').textContent = 'Đang tải…';
-  ['prep', 'drill', 'listen', 'quiz', 'map'].forEach(p => { $(`#pane-${p}`).innerHTML = ''; });
+  ['prep', 'drill', 'listen', 'packs', 'quiz', 'map'].forEach(p => { $(`#pane-${p}`).innerHTML = ''; });
   $('#chatLog').innerHTML = '';
 
   let lesson;
@@ -95,8 +97,9 @@ async function openLesson(id) {
   renderPrep($('#pane-prep'), lesson);
   renderDrill($('#pane-drill'), lesson, setScore);
   renderListen($('#pane-listen'), lesson);
-  renderQuiz($('#pane-quiz'), lesson);
   renderMindmap($('#pane-map'), lesson);
+  // 10 hội thoại và 100 bài tập chỉ dựng khi mở tab: cả hai đều nặng, và trên
+  // điện thoại thì dựng sẵn cả sáu pane là thừa.
 
   const roleplay = createRoleplay({
     lesson,
@@ -121,8 +124,16 @@ function switchPane(name) {
   $$('#lessonTabs .subtab').forEach(t => t.classList.toggle('active', t.dataset.pane === name));
   $$('#view-lesson .pane').forEach(p => p.classList.toggle('active', p.id === `pane-${name}`));
   stopSpeaking();
-  if (name === 'talk' && current && !$('#chatLog').children.length) {
+  if (!current) return;
+
+  if (name === 'talk' && !$('#chatLog').children.length) {
     current.roleplay.start($('input[name=talkMode]:checked').value);
+  }
+  if (name === 'packs' && !$('#pane-packs').children.length) {
+    renderPacks($('#pane-packs'), current.lesson);
+  }
+  if (name === 'quiz' && !$('#pane-quiz').children.length) {
+    renderExercises($('#pane-quiz'), current.lesson, setScore);
   }
 }
 

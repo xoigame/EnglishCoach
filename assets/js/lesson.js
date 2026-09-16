@@ -306,64 +306,6 @@ export function renderListen(el, lesson) {
   });
 }
 
-export function renderQuiz(el, lesson) {
-  if (!lesson.drills.length && !lesson.homework.length) {
-    el.innerHTML = '<p class="muted">Giáo án này chưa có bài tập.</p>';
-    return;
-  }
-
-  el.innerHTML = `
-    ${lesson.drills.length ? `<h3>✍️ Dịch sang tiếng Anh rồi nói ra</h3>${lesson.drills.map((d, i) => `
-      <div class="quiz-item" data-i="${i}">
-        <div class="q">${esc(d.vi)}</div>
-        <div class="actions row">
-          <button class="ghost act-rec" ${asrSupported ? '' : 'disabled'}>🎤 Trả lời</button>
-          <button class="ghost act-show">👁 Xem đáp án</button>
-          <span class="score-pill hidden"></span>
-        </div>
-        <div class="reveal hidden">${esc(d.en)}${d.alts.length ? `<div class="vi">Cách khác: ${d.alts.map(esc).join(' · ')}</div>` : ''}</div>
-        <div class="heard"></div>
-      </div>`).join('')}` : ''}
-    ${lesson.homework.length ? `<h3>🏠 Bài về nhà</h3><ul>${
-      lesson.homework.map(h => `<li>${esc(h)}</li>`).join('')}</ul>` : ''}`;
-
-  el.querySelectorAll('.quiz-item').forEach(item => {
-    const i = Number(item.dataset.i);
-    const d = lesson.drills[i];
-    const reveal = item.querySelector('.reveal');
-    const pill = item.querySelector('.score-pill');
-    const heard = item.querySelector('.heard');
-
-    item.querySelector('.act-show').addEventListener('click', () => {
-      reveal.classList.remove('hidden');
-      speak(d.en);
-    });
-
-    item.querySelector('.act-rec').addEventListener('click', async ev => {
-      const btn = ev.currentTarget;
-      try {
-        const text = await captureOnce({
-          onStart: () => { btn.textContent = '⏺ Đang nghe…'; btn.disabled = true; },
-          onStop: () => { btn.textContent = '🎤 Trả lời'; btn.disabled = false; },
-          onInterim: t => { heard.textContent = `… ${t}`; },
-        });
-        if (!text) { heard.textContent = 'Không nghe thấy gì.'; return; }
-        const best = [d.en, ...d.alts]
-          .map(ans => scoreSpeech(ans, text))
-          .reduce((a, b) => (b.score > a.score ? b : a));
-        pill.className = `score-pill ${scoreClass(best.score)}`;
-        pill.textContent = `${best.score}%`;
-        heard.textContent = `Bạn đã nói: “${text}”`;
-        if (best.score < 80) reveal.classList.remove('hidden');
-      } catch (err) {
-        heard.textContent = micError(err);
-        btn.textContent = '🎤 Trả lời';
-        btn.disabled = false;
-      }
-    });
-  });
-}
-
 export function micError(err) {
   const code = err?.message || '';
   if (code === 'not-allowed' || code === 'service-not-allowed') return '🚫 Trình duyệt chặn micro. Cho phép quyền micro rồi thử lại.';

@@ -223,6 +223,65 @@ input[type=range] { padding: 0; }
 .mindmap .leaf:focus { outline: none; }
 .mindmap .leaf:focus rect { stroke: var(--accent); stroke-width: 2; }
 
+/* ---------- 10 hội thoại mẫu ---------- */
+.pack-list { display: grid; gap: 8px; }
+.pack { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.pack[open] { border-color: var(--accent); }
+.pack > summary {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px; cursor: pointer; list-style: none;
+}
+.pack > summary::-webkit-details-marker { display: none; }
+.pack-n {
+  flex: 0 0 auto; width: 24px; height: 24px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 12px; font-weight: 700;
+  background: #1f6feb33; color: #79c0ff; border: 1px solid #1f6feb55;
+}
+.pack-title { flex: 1 1 auto; font-weight: 600; }
+.pack-score { font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line); }
+.pack-score.good { color: var(--ok); border-color: #3fb95055; background: #3fb95022; }
+.pack-score.mid { color: var(--warn); border-color: #d2992255; background: #d2992222; }
+.pack-score.low { color: var(--bad); border-color: #f8514955; background: #f8514922; }
+.pack-body { padding: 0 14px 14px; }
+.pack-situation { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+.pack-body h4 { margin: 16px 0 8px; font-size: 14px; }
+.pack-row { background: var(--bg-soft); }
+
+/* ---------- 100 bài tập ---------- */
+.quiz-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.quiz-head .row { margin: 0; }
+.quiz-progress { height: 5px; background: var(--line); border-radius: 999px; margin: 12px 0 16px; overflow: hidden; }
+.quiz-progress .bar {
+  height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  transition: width .25s ease;
+}
+.quiz-card { margin: 0; }
+.quiz-kind {
+  font-size: 11px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 8px;
+}
+.quiz-card .q { font-size: 17px; line-height: 1.45; margin-bottom: 4px; }
+.quiz-card .vi { color: var(--muted); font-size: 13px; }
+.quiz-card .choices { margin-top: 14px; }
+.quiz-after { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.verdict { font-weight: 700; margin-bottom: 8px; }
+.quiz-after .why { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+
+.order-slot {
+  min-height: 46px; margin: 14px 0 10px; padding: 11px 13px;
+  background: #0d1117; border: 1px dashed var(--line); border-radius: 10px;
+  font-size: 16px; line-height: 1.5;
+}
+.order-bank { display: flex; flex-wrap: wrap; gap: 7px; }
+.word {
+  background: var(--bg-soft); color: var(--fg); border: 1px solid var(--line);
+  padding: 9px 13px; font-size: 15px;
+}
+.word:hover:not(:disabled) { border-color: var(--accent); }
+.word:disabled { opacity: .3; cursor: default; }
+.homework { color: var(--muted); font-size: 14px; }
+
 /* ---------- variations & culture ---------- */
 .variation {
   background: var(--card); border: 1px solid var(--line);
@@ -353,7 +412,11 @@ code { font-family: "Cascadia Code", Consolas, monospace; }
 
   .vocab-item, .pattern-item { padding: 10px 12px; }
   .speak { padding: 7px 11px; }
-  .choice { padding: 11px 13px; }            /* vùng bấm trắc nghiệm to hơn */
+  .choice { padding: 12px 14px; }            /* vùng bấm trắc nghiệm to hơn */
+  .word { padding: 11px 14px; font-size: 16px; }
+  .quiz-card .q { font-size: 16px; }
+  .pack > summary { padding: 13px 12px; }
+  .pack-body { padding: 0 12px 12px; }
   .variation .vrow { flex-wrap: wrap; }
   .code { font-size: 11.5px; }
   .mindmap-wrap { margin: 0 -12px; border-radius: 0; border-left: 0; border-right: 0; }
