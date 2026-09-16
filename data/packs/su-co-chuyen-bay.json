@@ -1,0 +1,96 @@
+{
+  "id": "su-co-chuyen-bay",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Chuyến bay bị hoãn", "situation": "Hành khách báo tin chuyến bay bị hoãn.",
+      "turns": [
+        { "speaker": "a", "en": "I heard my flight is delayed.", "vi": "Tôi nghe nói chuyến bay của tôi bị hoãn." },
+        { "speaker": "b", "en": "Yes, it is delayed by two hours.", "vi": "Vâng, bị hoãn hai giờ." },
+        { "speaker": "a", "en": "What is the new departure time?", "vi": "Giờ khởi hành mới là mấy giờ ạ?" },
+        { "speaker": "b", "en": "It is now scheduled for 4pm.", "vi": "Giờ được dời sang 4 giờ chiều." },
+        { "speaker": "a", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã cho biết." },
+        { "speaker": "b", "en": "We apologize for the inconvenience.", "vi": "Chúng tôi xin lỗi vì sự bất tiện này." }
+      ]},
+    { "title": "Hành lý bị thất lạc", "situation": "Hành khách báo hành lý bị thất lạc.",
+      "turns": [
+        { "speaker": "a", "en": "My luggage did not arrive.", "vi": "Hành lý của tôi không tới nơi." },
+        { "speaker": "b", "en": "I am sorry to hear that. Let me check.", "vi": "Tôi rất tiếc khi nghe vậy. Để tôi kiểm tra." },
+        { "speaker": "a", "en": "Here is my baggage claim ticket.", "vi": "Đây là vé nhận hành lý của tôi." },
+        { "speaker": "b", "en": "It seems it was left on the previous flight.", "vi": "Có vẻ nó bị bỏ lại trên chuyến bay trước." },
+        { "speaker": "a", "en": "When will I get it back?", "vi": "Khi nào tôi nhận lại được vậy?" },
+        { "speaker": "b", "en": "It will be delivered to your hotel tonight.", "vi": "Nó sẽ được giao tới khách sạn của bạn tối nay." }
+      ]},
+    { "title": "Lỡ chuyến bay nối chuyến", "situation": "Hành khách bị lỡ chuyến bay nối chuyến.",
+      "turns": [
+        { "speaker": "a", "en": "I missed my connecting flight.", "vi": "Tôi lỡ mất chuyến bay nối chuyến." },
+        { "speaker": "b", "en": "I am sorry, let me find you another option.", "vi": "Tôi xin lỗi, để tôi tìm phương án khác cho bạn." },
+        { "speaker": "a", "en": "Is there a later flight today?", "vi": "Hôm nay có chuyến muộn hơn không ạ?" },
+        { "speaker": "b", "en": "Yes, there is one at 7pm.", "vi": "Có, có một chuyến lúc 7 giờ tối." },
+        { "speaker": "a", "en": "Can I get on that one for free?", "vi": "Tôi lên chuyến đó miễn phí được không ạ?" },
+        { "speaker": "b", "en": "Yes, since it was our delay.", "vi": "Được, vì đây là lỗi trễ chuyến của chúng tôi." }
+      ]},
+    { "title": "Hỏi về việc đổi chỗ ngồi", "situation": "Hành khách hỏi về việc đổi chỗ ngồi trên máy bay.",
+      "turns": [
+        { "speaker": "a", "en": "Could I change my seat?", "vi": "Tôi đổi chỗ ngồi được không ạ?" },
+        { "speaker": "b", "en": "Sure, what seat would you prefer?", "vi": "Được, bạn muốn ghế nào ạ?" },
+        { "speaker": "a", "en": "Something near the window, please.", "vi": "Ghế gần cửa sổ nhé." },
+        { "speaker": "b", "en": "Let me check availability.", "vi": "Để tôi kiểm tra chỗ trống." },
+        { "speaker": "a", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." },
+        { "speaker": "b", "en": "There is one available, seat 14A.", "vi": "Có một chỗ trống, ghế 14A." }
+      ]},
+    { "title": "Chuyến bay bị hủy", "situation": "Hành khách được thông báo chuyến bay bị hủy.",
+      "turns": [
+        { "speaker": "a", "en": "I was told my flight is cancelled.", "vi": "Tôi được báo chuyến bay của tôi bị hủy." },
+        { "speaker": "b", "en": "Yes, due to weather conditions.", "vi": "Vâng, do điều kiện thời tiết." },
+        { "speaker": "a", "en": "What are my options now?", "vi": "Giờ tôi có những lựa chọn nào ạ?" },
+        { "speaker": "b", "en": "We can rebook you on tomorrow's flight.", "vi": "Chúng tôi có thể đặt lại vé cho bạn vào chuyến ngày mai." },
+        { "speaker": "a", "en": "Will accommodation be provided?", "vi": "Có được hỗ trợ chỗ ở không ạ?" },
+        { "speaker": "b", "en": "Yes, we will cover your hotel tonight.", "vi": "Có, chúng tôi sẽ chi trả khách sạn tối nay cho bạn." }
+      ]},
+    { "title": "Xin nâng hạng ghế", "situation": "Hành khách hỏi về việc nâng hạng ghế ngồi.",
+      "turns": [
+        { "speaker": "a", "en": "Is it possible to upgrade my seat?", "vi": "Tôi nâng hạng ghế được không ạ?" },
+        { "speaker": "b", "en": "Yes, business class is available.", "vi": "Được, hạng thương gia còn chỗ." },
+        { "speaker": "a", "en": "How much would that cost?", "vi": "Vậy tốn bao nhiêu ạ?" },
+        { "speaker": "b", "en": "An additional two million dong.", "vi": "Thêm hai triệu đồng." },
+        { "speaker": "a", "en": "That sounds reasonable, let us do it.", "vi": "Nghe hợp lý đấy, tôi đổi luôn nhé." },
+        { "speaker": "b", "en": "I will process that upgrade now.", "vi": "Tôi sẽ xử lý nâng hạng ngay." }
+      ]},
+    { "title": "Hành khách lo lắng vì trễ giờ nối chuyến", "situation": "Hành khách lo lắng vì chuyến bay trễ có thể ảnh hưởng đến chuyến nối tiếp.",
+      "turns": [
+        { "speaker": "a", "en": "This delay might affect my connection.", "vi": "Sự trễ chuyến này có thể ảnh hưởng đến chuyến nối tiếp của tôi." },
+        { "speaker": "b", "en": "Let me check your connecting flight.", "vi": "Để tôi kiểm tra chuyến nối tiếp của bạn." },
+        { "speaker": "a", "en": "I only have a forty minute layover.", "vi": "Tôi chỉ có bốn mươi phút quá cảnh thôi." },
+        { "speaker": "b", "en": "That should still be enough time.", "vi": "Vậy vẫn đủ thời gian đấy." },
+        { "speaker": "a", "en": "I hope so, thank you for checking.", "vi": "Mong là vậy, cảm ơn bạn đã kiểm tra." },
+        { "speaker": "b", "en": "We will notify the next gate just in case.", "vi": "Chúng tôi sẽ báo cổng tiếp theo để đề phòng." }
+      ]},
+    { "title": "Yêu cầu bồi thường vì sự cố chuyến bay", "situation": "Hành khách yêu cầu bồi thường vì chuyến bay bị hoãn lâu.",
+      "turns": [
+        { "speaker": "a", "en": "This delay has caused me a lot of trouble.", "vi": "Sự trễ chuyến này gây cho tôi rất nhiều rắc rối." },
+        { "speaker": "b", "en": "I understand, we can offer compensation.", "vi": "Tôi hiểu, chúng tôi có thể bồi thường." },
+        { "speaker": "a", "en": "What kind of compensation is available?", "vi": "Có loại bồi thường nào ạ?" },
+        { "speaker": "b", "en": "A meal voucher and travel credit.", "vi": "Phiếu ăn và tín dụng du lịch." },
+        { "speaker": "a", "en": "That would help, thank you.", "vi": "Vậy sẽ giúp ích, cảm ơn bạn." },
+        { "speaker": "b", "en": "I will process that for you now.", "vi": "Tôi sẽ xử lý ngay cho bạn." }
+      ]},
+    { "title": "Hỏi về hành lý xách tay", "situation": "Hành khách hỏi về quy định hành lý xách tay.",
+      "turns": [
+        { "speaker": "a", "en": "What is the carry-on luggage limit?", "vi": "Giới hạn hành lý xách tay là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "Seven kilograms per passenger.", "vi": "Bảy ki-lô-gam mỗi hành khách." },
+        { "speaker": "a", "en": "My bag might be slightly over.", "vi": "Túi của tôi có thể hơi vượt quá." },
+        { "speaker": "b", "en": "Let me weigh it for you.", "vi": "Để tôi cân giúp bạn." },
+        { "speaker": "a", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." },
+        { "speaker": "b", "en": "It is just under the limit, you are fine.", "vi": "Nó vừa dưới giới hạn, bạn ổn rồi." }
+      ]},
+    { "title": "Xử lý sự cố chuyến bay phức tạp với nhiều thay đổi liên tiếp", "situation": "Hành khách gặp nhiều sự cố liên tiếp trong cùng một chuyến đi phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "First my flight was delayed, and now the gate has changed.", "vi": "Đầu tiên chuyến bay của tôi bị hoãn, giờ lại đổi cổng nữa." },
+        { "speaker": "b", "en": "I am sorry for all the changes today.", "vi": "Tôi xin lỗi vì tất cả những thay đổi hôm nay." },
+        { "speaker": "a", "en": "Will I still make my connecting flight?", "vi": "Vậy tôi còn kịp chuyến nối tiếp không ạ?" },
+        { "speaker": "b", "en": "It will be very tight, but possible.", "vi": "Sẽ khá sát giờ, nhưng vẫn có thể kịp." },
+        { "speaker": "a", "en": "Is there a backup plan if I miss it?", "vi": "Nếu tôi lỡ thì có phương án dự phòng không ạ?" },
+        { "speaker": "b", "en": "Yes, we will automatically rebook you on the next available flight.", "vi": "Có, chúng tôi sẽ tự động đặt lại vé chuyến gần nhất cho bạn." }
+      ]}
+  ]
+}

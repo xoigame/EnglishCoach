@@ -1,0 +1,96 @@
+{
+  "id": "thue-nha-va-ky-hop-dong",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Hỏi xem nhà cho thuê", "situation": "Người thuê tiềm năng hỏi xem một căn nhà cho thuê.",
+      "turns": [
+        { "speaker": "a", "en": "Is this apartment still available?", "vi": "Căn hộ này còn cho thuê không ạ?" },
+        { "speaker": "b", "en": "Yes, it is still available.", "vi": "Vâng, vẫn còn ạ." },
+        { "speaker": "a", "en": "Could I come see it this weekend?", "vi": "Cuối tuần này tôi tới xem được không ạ?" },
+        { "speaker": "b", "en": "Sure, Saturday afternoon works.", "vi": "Được, chiều thứ Bảy được đấy." },
+        { "speaker": "a", "en": "Great, what time exactly?", "vi": "Tuyệt, chính xác là mấy giờ ạ?" },
+        { "speaker": "b", "en": "How about 3pm?", "vi": "3 giờ chiều được không?" }
+      ]},
+    { "title": "Hỏi về giá thuê và tiền cọc", "situation": "Người thuê hỏi về giá thuê hàng tháng và tiền cọc.",
+      "turns": [
+        { "speaker": "a", "en": "What is the monthly rent?", "vi": "Tiền thuê hàng tháng là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "It is eight million dong per month.", "vi": "Là tám triệu đồng mỗi tháng." },
+        { "speaker": "a", "en": "How much is the deposit?", "vi": "Tiền cọc là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "Two months' rent as a deposit.", "vi": "Cọc bằng hai tháng tiền thuê." },
+        { "speaker": "a", "en": "That is within my budget.", "vi": "Vậy nằm trong ngân sách của tôi." },
+        { "speaker": "b", "en": "Great, would you like to proceed?", "vi": "Tuyệt, bạn muốn tiến hành luôn không ạ?" }
+      ]},
+    { "title": "Hỏi về tiện ích trong nhà", "situation": "Người thuê hỏi về các tiện ích có sẵn trong nhà.",
+      "turns": [
+        { "speaker": "a", "en": "Does the apartment come furnished?", "vi": "Căn hộ có sẵn nội thất không ạ?" },
+        { "speaker": "b", "en": "Yes, it includes a bed and a wardrobe.", "vi": "Có, bao gồm giường và tủ quần áo." },
+        { "speaker": "a", "en": "What about a washing machine?", "vi": "Còn máy giặt thì sao ạ?" },
+        { "speaker": "b", "en": "Yes, there is one in the unit.", "vi": "Có, có sẵn trong căn hộ." },
+        { "speaker": "a", "en": "That is very convenient.", "vi": "Vậy tiện lợi quá." },
+        { "speaker": "b", "en": "It saves you the extra cost.", "vi": "Vậy giúp bạn tiết kiệm chi phí thêm." }
+      ]},
+    { "title": "Thương lượng giá thuê", "situation": "Người thuê thương lượng để giảm giá thuê.",
+      "turns": [
+        { "speaker": "a", "en": "Could you lower the rent a little?", "vi": "Anh/chị giảm giá thuê chút được không ạ?" },
+        { "speaker": "b", "en": "How much were you thinking?", "vi": "Bạn nghĩ mức nào ạ?" },
+        { "speaker": "a", "en": "Maybe seven and a half million.", "vi": "Có lẽ bảy triệu rưỡi." },
+        { "speaker": "b", "en": "I could agree to that if you sign a year lease.", "vi": "Tôi có thể đồng ý nếu bạn ký hợp đồng một năm." },
+        { "speaker": "a", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "b", "en": "Great, let us prepare the contract.", "vi": "Tuyệt, mình chuẩn bị hợp đồng nhé." }
+      ]},
+    { "title": "Hỏi về điều khoản chấm dứt hợp đồng", "situation": "Người thuê hỏi về điều khoản khi muốn chấm dứt hợp đồng sớm.",
+      "turns": [
+        { "speaker": "a", "en": "What if I need to end the lease early?", "vi": "Nếu tôi cần chấm dứt hợp đồng sớm thì sao ạ?" },
+        { "speaker": "b", "en": "You would need to give a month's notice.", "vi": "Bạn cần báo trước một tháng." },
+        { "speaker": "a", "en": "Is there a penalty fee?", "vi": "Có phí phạt không ạ?" },
+        { "speaker": "b", "en": "Yes, one month's rent as a penalty.", "vi": "Có, phạt bằng một tháng tiền thuê." },
+        { "speaker": "a", "en": "Understood, thank you for explaining.", "vi": "Tôi hiểu rồi, cảm ơn anh/chị đã giải thích." },
+        { "speaker": "b", "en": "Let me know if you have more questions.", "vi": "Có câu hỏi gì thêm cứ hỏi tôi nhé." }
+      ]},
+    { "title": "Ký hợp đồng thuê nhà", "situation": "Người thuê ký hợp đồng thuê nhà chính thức.",
+      "turns": [
+        { "speaker": "a", "en": "Where do I need to sign?", "vi": "Tôi cần ký ở đâu ạ?" },
+        { "speaker": "b", "en": "Right here, on the last page.", "vi": "Ngay đây, ở trang cuối." },
+        { "speaker": "a", "en": "Should I read through it first?", "vi": "Tôi nên đọc qua trước không ạ?" },
+        { "speaker": "b", "en": "Yes, please take your time.", "vi": "Vâng, bạn cứ từ từ đọc." },
+        { "speaker": "a", "en": "Everything looks clear to me.", "vi": "Mọi thứ đều rõ ràng với tôi." },
+        { "speaker": "b", "en": "Great, welcome to your new home.", "vi": "Tuyệt, chào mừng bạn tới ngôi nhà mới." }
+      ]},
+    { "title": "Hỏi về chi phí điện nước", "situation": "Người thuê hỏi về việc chi trả tiền điện nước.",
+      "turns": [
+        { "speaker": "a", "en": "Are utilities included in the rent?", "vi": "Tiền điện nước có bao gồm trong giá thuê không ạ?" },
+        { "speaker": "b", "en": "No, they are billed separately.", "vi": "Không, chúng được tính riêng." },
+        { "speaker": "a", "en": "How much does that usually cost?", "vi": "Thường mất khoảng bao nhiêu vậy ạ?" },
+        { "speaker": "b", "en": "Around five hundred thousand dong monthly.", "vi": "Khoảng năm trăm nghìn đồng mỗi tháng." },
+        { "speaker": "a", "en": "That is reasonable, thank you.", "vi": "Vậy hợp lý, cảm ơn anh/chị." },
+        { "speaker": "b", "en": "Let me know if you need more information.", "vi": "Cần thêm thông tin gì cứ hỏi tôi nhé." }
+      ]},
+    { "title": "Phát hiện vấn đề trong nhà trước khi ký", "situation": "Người thuê phát hiện vấn đề nhỏ trong nhà trước khi ký hợp đồng.",
+      "turns": [
+        { "speaker": "a", "en": "I noticed the sink is leaking a bit.", "vi": "Tôi để ý thấy bồn rửa hơi bị rỉ nước." },
+        { "speaker": "b", "en": "I will have that fixed before you move in.", "vi": "Tôi sẽ cho sửa trước khi bạn dọn vào." },
+        { "speaker": "a", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn anh/chị, tôi cảm kích điều đó." },
+        { "speaker": "b", "en": "Anything else you noticed?", "vi": "Bạn có để ý thấy gì khác không?" },
+        { "speaker": "a", "en": "No, everything else looks fine.", "vi": "Không, mọi thứ khác đều ổn." },
+        { "speaker": "b", "en": "Great, I will schedule the repair.", "vi": "Tuyệt, tôi sẽ sắp xếp sửa chữa." }
+      ]},
+    { "title": "Hỏi về quy định nuôi thú cưng", "situation": "Người thuê hỏi về quy định nuôi thú cưng trong nhà.",
+      "turns": [
+        { "speaker": "a", "en": "Are pets allowed in this building?", "vi": "Tòa nhà này có cho phép nuôi thú cưng không ạ?" },
+        { "speaker": "b", "en": "Small pets are allowed with a deposit.", "vi": "Thú cưng nhỏ được phép nếu đóng thêm cọc." },
+        { "speaker": "a", "en": "I have a small cat.", "vi": "Tôi có một con mèo nhỏ." },
+        { "speaker": "b", "en": "That should be fine then.", "vi": "Vậy chắc là được đấy." },
+        { "speaker": "a", "en": "How much is the pet deposit?", "vi": "Cọc cho thú cưng là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "One million dong, refundable.", "vi": "Một triệu đồng, có thể hoàn lại." }
+      ]},
+    { "title": "Thương lượng hợp đồng phức tạp với nhiều điều khoản cần điều chỉnh", "situation": "Người thuê thương lượng nhiều điều khoản phức tạp trong hợp đồng trước khi ký. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to discuss a few clauses before signing.", "vi": "Tôi muốn bàn về vài điều khoản trước khi ký." },
+        { "speaker": "b", "en": "Of course, which ones concern you?", "vi": "Đương nhiên, những điều khoản nào khiến bạn lo ngại ạ?" },
+        { "speaker": "a", "en": "The early termination penalty seems high.", "vi": "Phí phạt chấm dứt sớm có vẻ cao quá." },
+        { "speaker": "b", "en": "We could reduce it if you extend the lease to two years.", "vi": "Chúng tôi có thể giảm nếu bạn gia hạn hợp đồng lên hai năm." },
+        { "speaker": "a", "en": "I would also like a maintenance clause added.", "vi": "Tôi cũng muốn thêm điều khoản về bảo trì." },
+        { "speaker": "b", "en": "That is reasonable, I will revise the contract.", "vi": "Điều đó hợp lý, tôi sẽ chỉnh sửa hợp đồng." }
+      ]}
+  ]
+}

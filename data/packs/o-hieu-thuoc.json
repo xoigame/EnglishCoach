@@ -1,0 +1,96 @@
+{
+  "id": "o-hieu-thuoc",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Mua thuốc cảm cúm", "situation": "Khách hàng mua thuốc cảm cúm tại hiệu thuốc.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have anything for a cold?", "vi": "Anh/chị có thuốc gì trị cảm không ạ?" },
+        { "speaker": "b", "en": "Yes, this syrup works well.", "vi": "Có, siro này hiệu quả lắm." },
+        { "speaker": "a", "en": "How often should I take it?", "vi": "Tôi nên uống bao lâu một lần vậy ạ?" },
+        { "speaker": "b", "en": "Three times a day, after meals.", "vi": "Ba lần một ngày, sau bữa ăn." },
+        { "speaker": "a", "en": "Thank you, I will take two bottles.", "vi": "Cảm ơn, tôi lấy hai chai nhé." },
+        { "speaker": "b", "en": "Sure, here you go.", "vi": "Được, đây ạ." }
+      ]},
+    { "title": "Hỏi về tác dụng phụ", "situation": "Khách hàng hỏi về tác dụng phụ của thuốc.",
+      "turns": [
+        { "speaker": "a", "en": "Does this medicine have any side effects?", "vi": "Thuốc này có tác dụng phụ gì không ạ?" },
+        { "speaker": "b", "en": "It might cause slight drowsiness.", "vi": "Có thể gây hơi buồn ngủ." },
+        { "speaker": "a", "en": "Should I avoid driving after taking it?", "vi": "Uống xong tôi có nên tránh lái xe không ạ?" },
+        { "speaker": "b", "en": "Yes, that would be safer.", "vi": "Vâng, vậy sẽ an toàn hơn." },
+        { "speaker": "a", "en": "Thank you for the warning.", "vi": "Cảm ơn anh/chị đã cảnh báo." },
+        { "speaker": "b", "en": "You are welcome, take care.", "vi": "Không có gì, giữ gìn sức khỏe nhé." }
+      ]},
+    { "title": "Hỏi thuốc thay thế vì hết hàng", "situation": "Thuốc khách cần đã hết hàng, dược sĩ tư vấn thuốc thay thế.",
+      "turns": [
+        { "speaker": "a", "en": "I need this specific brand of painkiller.", "vi": "Tôi cần đúng nhãn thuốc giảm đau này." },
+        { "speaker": "b", "en": "I am sorry, we are out of stock.", "vi": "Xin lỗi, chúng tôi hết hàng rồi." },
+        { "speaker": "a", "en": "Is there an alternative?", "vi": "Có loại thay thế không ạ?" },
+        { "speaker": "b", "en": "Yes, this one has the same ingredients.", "vi": "Có, loại này có cùng thành phần." },
+        { "speaker": "a", "en": "That should work then.", "vi": "Vậy chắc là được đấy." },
+        { "speaker": "b", "en": "Let me know if you need anything else.", "vi": "Cần gì thêm cứ báo tôi nhé." }
+      ]},
+    { "title": "Mua thuốc theo đơn bác sĩ", "situation": "Khách hàng mua thuốc theo đơn bác sĩ kê.",
+      "turns": [
+        { "speaker": "a", "en": "I have a prescription from my doctor.", "vi": "Tôi có đơn thuốc từ bác sĩ." },
+        { "speaker": "b", "en": "Let me take a look at it.", "vi": "Để tôi xem qua." },
+        { "speaker": "a", "en": "Do you have all these medicines?", "vi": "Anh/chị có đủ các loại thuốc này không ạ?" },
+        { "speaker": "b", "en": "Yes, I will prepare them now.", "vi": "Có, tôi sẽ chuẩn bị ngay." },
+        { "speaker": "a", "en": "Thank you very much.", "vi": "Cảm ơn anh/chị nhiều." },
+        { "speaker": "b", "en": "That will be ready in a few minutes.", "vi": "Vài phút nữa sẽ xong ạ." }
+      ]},
+    { "title": "Hỏi về liều dùng cho trẻ em", "situation": "Phụ huynh hỏi về liều dùng thuốc cho trẻ em.",
+      "turns": [
+        { "speaker": "a", "en": "What is the dosage for a five year old?", "vi": "Liều dùng cho trẻ năm tuổi là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "Half a teaspoon, twice a day.", "vi": "Nửa muỗng cà phê, hai lần một ngày." },
+        { "speaker": "a", "en": "Should it be taken with food?", "vi": "Có nên uống cùng thức ăn không ạ?" },
+        { "speaker": "b", "en": "Yes, that is recommended.", "vi": "Vâng, nên uống cùng thức ăn." },
+        { "speaker": "a", "en": "Thank you for the guidance.", "vi": "Cảm ơn anh/chị đã hướng dẫn." },
+        { "speaker": "b", "en": "You are welcome, take care.", "vi": "Không có gì, giữ gìn sức khỏe nhé." }
+      ]},
+    { "title": "Hỏi về tương tác thuốc", "situation": "Khách hàng hỏi liệu hai loại thuốc có tương tác với nhau không.",
+      "turns": [
+        { "speaker": "a", "en": "Can I take these two medicines together?", "vi": "Tôi uống chung hai loại thuốc này được không ạ?" },
+        { "speaker": "b", "en": "Let me check for interactions.", "vi": "Để tôi kiểm tra tương tác thuốc." },
+        { "speaker": "a", "en": "Thank you for checking.", "vi": "Cảm ơn anh/chị đã kiểm tra." },
+        { "speaker": "b", "en": "It is best to space them two hours apart.", "vi": "Tốt nhất nên uống cách nhau hai giờ." },
+        { "speaker": "a", "en": "I will do that then.", "vi": "Vậy tôi sẽ làm theo." },
+        { "speaker": "b", "en": "Good, that should be safe.", "vi": "Tốt, vậy sẽ an toàn." }
+      ]},
+    { "title": "Khách hàng quên tên thuốc", "situation": "Khách hàng quên tên thuốc và mô tả triệu chứng thay thế.",
+      "turns": [
+        { "speaker": "a", "en": "I forgot the name, but I need something for allergies.", "vi": "Tôi quên tên rồi, nhưng tôi cần thuốc trị dị ứng." },
+        { "speaker": "b", "en": "What symptoms are you having?", "vi": "Bạn đang gặp triệu chứng gì vậy?" },
+        { "speaker": "a", "en": "Sneezing and itchy eyes.", "vi": "Hắt hơi và ngứa mắt." },
+        { "speaker": "b", "en": "This antihistamine should help.", "vi": "Thuốc kháng histamin này sẽ giúp ích." },
+        { "speaker": "a", "en": "Thank you, I will try it.", "vi": "Cảm ơn, tôi sẽ dùng thử." },
+        { "speaker": "b", "en": "Let me know if it does not work.", "vi": "Nếu không hiệu quả cứ báo tôi nhé." }
+      ]},
+    { "title": "Hỏi về hạn sử dụng thuốc", "situation": "Khách hàng hỏi về hạn sử dụng của thuốc.",
+      "turns": [
+        { "speaker": "a", "en": "What is the expiry date on this?", "vi": "Hạn sử dụng của cái này là khi nào ạ?" },
+        { "speaker": "b", "en": "It expires next year in March.", "vi": "Hạn dùng là tháng Ba năm sau." },
+        { "speaker": "a", "en": "That should be plenty of time.", "vi": "Vậy chắc là đủ lâu rồi." },
+        { "speaker": "b", "en": "Yes, store it in a cool place.", "vi": "Vâng, bảo quản ở nơi thoáng mát nhé." },
+        { "speaker": "a", "en": "Thank you for the advice.", "vi": "Cảm ơn anh/chị đã tư vấn." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Khách hàng lo lắng về liều lượng đã dùng", "situation": "Khách hàng lo lắng vì có thể đã uống quá liều.",
+      "turns": [
+        { "speaker": "a", "en": "I think I may have taken too much.", "vi": "Tôi nghĩ có thể mình đã uống quá liều." },
+        { "speaker": "b", "en": "How much did you take?", "vi": "Bạn đã uống bao nhiêu vậy?" },
+        { "speaker": "a", "en": "Double the recommended dose.", "vi": "Gấp đôi liều khuyến nghị." },
+        { "speaker": "b", "en": "You should see a doctor immediately.", "vi": "Bạn nên đi khám bác sĩ ngay lập tức." },
+        { "speaker": "a", "en": "Should I go to the hospital now?", "vi": "Tôi nên tới bệnh viện ngay bây giờ không ạ?" },
+        { "speaker": "b", "en": "Yes, to be safe.", "vi": "Vâng, để đảm bảo an toàn." }
+      ]},
+    { "title": "Tư vấn phức tạp cho khách hàng có nhiều bệnh nền", "situation": "Dược sĩ tư vấn phức tạp cho khách hàng có nhiều bệnh nền và đang dùng nhiều loại thuốc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I have diabetes and high blood pressure, is this medicine safe?", "vi": "Tôi bị tiểu đường và huyết áp cao, thuốc này có an toàn không ạ?" },
+        { "speaker": "b", "en": "Let me check its interactions with your current medications.", "vi": "Để tôi kiểm tra tương tác với các thuốc bạn đang dùng." },
+        { "speaker": "a", "en": "I am currently taking metformin as well.", "vi": "Hiện tôi cũng đang dùng metformin." },
+        { "speaker": "b", "en": "This should be safe, but take it at a different time.", "vi": "Cái này chắc an toàn, nhưng nên uống vào thời điểm khác." },
+        { "speaker": "a", "en": "How many hours apart should I space them?", "vi": "Tôi nên uống cách nhau bao nhiêu giờ?" },
+        { "speaker": "b", "en": "At least four hours, and monitor your blood sugar closely.", "vi": "Ít nhất bốn giờ, và theo dõi sát đường huyết nhé." }
+      ]}
+  ]
+}

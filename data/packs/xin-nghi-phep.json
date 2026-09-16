@@ -1,0 +1,96 @@
+{
+  "id": "xin-nghi-phep",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Xin nghỉ phép một ngày", "situation": "Bạn xin nghỉ phép một ngày vì việc cá nhân.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to request a day off.", "vi": "Tôi muốn xin nghỉ phép một ngày." },
+        { "speaker": "b", "en": "Sure, which day do you need?", "vi": "Được, bạn cần nghỉ ngày nào ạ?" },
+        { "speaker": "a", "en": "This Friday, if possible.", "vi": "Thứ Sáu này nếu có thể." },
+        { "speaker": "b", "en": "That should be fine.", "vi": "Vậy chắc là được." },
+        { "speaker": "a", "en": "Thank you for approving it.", "vi": "Cảm ơn bạn đã duyệt." },
+        { "speaker": "b", "en": "No problem, enjoy your day.", "vi": "Không sao, chúc bạn ngày nghỉ vui vẻ." }
+      ]},
+    { "title": "Xin nghỉ ốm", "situation": "Bạn báo nghỉ ốm với quản lý.",
+      "turns": [
+        { "speaker": "a", "en": "I am not feeling well today.", "vi": "Hôm nay tôi không khỏe." },
+        { "speaker": "b", "en": "I am sorry to hear that.", "vi": "Tôi rất tiếc khi nghe vậy." },
+        { "speaker": "a", "en": "I would like to take sick leave.", "vi": "Tôi muốn xin nghỉ ốm." },
+        { "speaker": "b", "en": "Of course, please rest well.", "vi": "Đương nhiên rồi, bạn nghỉ ngơi cho khỏe nhé." },
+        { "speaker": "a", "en": "Thank you, I will update you tomorrow.", "vi": "Cảm ơn bạn, mai tôi sẽ cập nhật tình hình." },
+        { "speaker": "b", "en": "Take care of yourself.", "vi": "Bạn giữ gìn sức khỏe nhé." }
+      ]},
+    { "title": "Xin nghỉ phép trước cho kỳ nghỉ", "situation": "Bạn xin nghỉ phép trước cho một kỳ nghỉ đã lên kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to plan a vacation next month.", "vi": "Tôi muốn lên kế hoạch nghỉ phép tháng sau." },
+        { "speaker": "b", "en": "How many days do you need?", "vi": "Bạn cần nghỉ mấy ngày?" },
+        { "speaker": "a", "en": "Five days, from the 10th to the 14th.", "vi": "Năm ngày, từ mùng 10 đến 14." },
+        { "speaker": "b", "en": "Let me check the team schedule.", "vi": "Để tôi kiểm tra lịch của nhóm." },
+        { "speaker": "a", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "That should work fine.", "vi": "Chắc là ổn thôi." }
+      ]},
+    { "title": "Bàn giao công việc trước khi nghỉ", "situation": "Bạn bàn giao công việc cho đồng nghiệp trước khi nghỉ phép.",
+      "turns": [
+        { "speaker": "a", "en": "I will hand over my tasks before I leave.", "vi": "Tôi sẽ bàn giao công việc trước khi nghỉ." },
+        { "speaker": "b", "en": "That would be helpful, thank you.", "vi": "Vậy hữu ích lắm, cảm ơn bạn." },
+        { "speaker": "a", "en": "I will send a document with details.", "vi": "Tôi sẽ gửi tài liệu chi tiết." },
+        { "speaker": "b", "en": "Perfect, I will review it.", "vi": "Hoàn hảo, tôi sẽ xem qua." },
+        { "speaker": "a", "en": "Let me know if anything is unclear.", "vi": "Có gì chưa rõ cứ báo tôi nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ báo, cảm ơn bạn." }
+      ]},
+    { "title": "Xin nghỉ đột xuất vì việc gia đình", "situation": "Bạn xin nghỉ gấp vì có việc gia đình.",
+      "turns": [
+        { "speaker": "a", "en": "I have a family emergency.", "vi": "Tôi có việc khẩn cấp trong gia đình." },
+        { "speaker": "b", "en": "I am sorry to hear that, please go.", "vi": "Tôi rất tiếc khi nghe vậy, bạn cứ đi đi." },
+        { "speaker": "a", "en": "Thank you, I will keep you updated.", "vi": "Cảm ơn bạn, tôi sẽ cập nhật tình hình." },
+        { "speaker": "b", "en": "Take all the time you need.", "vi": "Bạn cứ dành thời gian cần thiết nhé." },
+        { "speaker": "a", "en": "I really appreciate your support.", "vi": "Tôi thật sự cảm kích sự hỗ trợ của bạn." },
+        { "speaker": "b", "en": "Family always comes first.", "vi": "Gia đình luôn là ưu tiên hàng đầu." }
+      ]},
+    { "title": "Hỏi về số ngày phép còn lại", "situation": "Bạn hỏi phòng nhân sự về số ngày phép còn lại.",
+      "turns": [
+        { "speaker": "a", "en": "How many leave days do I have left?", "vi": "Tôi còn bao nhiêu ngày phép ạ?" },
+        { "speaker": "b", "en": "Let me check the system.", "vi": "Để tôi kiểm tra trên hệ thống." },
+        { "speaker": "a", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra giúp." },
+        { "speaker": "b", "en": "You have eight days remaining.", "vi": "Bạn còn lại tám ngày." },
+        { "speaker": "a", "en": "That is good to know.", "vi": "Biết vậy tốt quá." },
+        { "speaker": "b", "en": "Let me know if you plan to use them.", "vi": "Bạn định dùng thì cứ báo tôi nhé." }
+      ]},
+    { "title": "Đề nghị làm việc từ xa thay vì nghỉ", "situation": "Bạn đề nghị làm việc từ xa thay vì nghỉ hẳn một ngày.",
+      "turns": [
+        { "speaker": "a", "en": "Could I work from home instead of taking leave?", "vi": "Tôi làm việc tại nhà thay vì xin nghỉ được không?" },
+        { "speaker": "b", "en": "That could work, what is the reason?", "vi": "Vậy cũng được, lý do là gì vậy?" },
+        { "speaker": "a", "en": "I need to wait for a delivery.", "vi": "Tôi cần đợi nhận hàng." },
+        { "speaker": "b", "en": "That is a reasonable request.", "vi": "Đó là yêu cầu hợp lý đấy." },
+        { "speaker": "a", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Từ chối yêu cầu nghỉ vì trùng lịch quan trọng", "situation": "Quản lý từ chối yêu cầu nghỉ vì trùng với sự kiện quan trọng.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to take leave next Friday.", "vi": "Tôi muốn xin nghỉ vào thứ Sáu tới." },
+        { "speaker": "b", "en": "That is the day of the client launch.", "vi": "Ngày đó lại đúng ngày ra mắt cho khách hàng." },
+        { "speaker": "a", "en": "Oh, I did not realize that.", "vi": "Ồ, tôi không để ý điều đó." },
+        { "speaker": "b", "en": "Could we find another day?", "vi": "Mình tìm ngày khác được không?" },
+        { "speaker": "a", "en": "Sure, how about the following Monday?", "vi": "Được, thứ Hai tuần sau thì sao?" },
+        { "speaker": "b", "en": "That works better for the team.", "vi": "Vậy hợp với nhóm hơn." }
+      ]},
+    { "title": "Xin nghỉ phép nửa ngày", "situation": "Bạn xin nghỉ nửa ngày để đi khám bệnh.",
+      "turns": [
+        { "speaker": "a", "en": "Could I take half a day off tomorrow?", "vi": "Ngày mai tôi xin nghỉ nửa ngày được không?" },
+        { "speaker": "b", "en": "Sure, morning or afternoon?", "vi": "Được, sáng hay chiều vậy?" },
+        { "speaker": "a", "en": "The morning, for a doctor's appointment.", "vi": "Buổi sáng, để đi khám bệnh." },
+        { "speaker": "b", "en": "That is no problem.", "vi": "Vậy không sao đâu." },
+        { "speaker": "a", "en": "Thank you for approving it.", "vi": "Cảm ơn bạn đã duyệt." },
+        { "speaker": "b", "en": "I hope everything goes well.", "vi": "Mong mọi thứ diễn ra suôn sẻ." }
+      ]},
+    { "title": "Xin nghỉ dài ngày và thương lượng bàn giao phức tạp", "situation": "Bạn xin nghỉ phép dài ngày và cần thương lượng việc bàn giao công việc phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need to request two weeks of leave next month.", "vi": "Tôi cần xin nghỉ hai tuần vào tháng sau." },
+        { "speaker": "b", "en": "That is a long time, is everything alright?", "vi": "Vậy khá lâu đấy, mọi việc vẫn ổn chứ?" },
+        { "speaker": "a", "en": "Yes, it is for a family event abroad.", "vi": "Vâng, đó là vì sự kiện gia đình ở nước ngoài." },
+        { "speaker": "b", "en": "We will need a solid handover plan.", "vi": "Chúng ta sẽ cần một kế hoạch bàn giao chắc chắn." },
+        { "speaker": "a", "en": "I can train a colleague to cover my tasks.", "vi": "Tôi có thể hướng dẫn một đồng nghiệp đảm nhận công việc." },
+        { "speaker": "b", "en": "That sounds like a reasonable plan.", "vi": "Nghe có vẻ là kế hoạch hợp lý đấy." }
+      ]}
+  ]
+}

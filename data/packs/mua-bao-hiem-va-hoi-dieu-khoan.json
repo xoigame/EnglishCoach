@@ -1,0 +1,96 @@
+{
+  "id": "mua-bao-hiem-va-hoi-dieu-khoan",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Hỏi về gói bảo hiểm cơ bản", "situation": "Khách hàng hỏi về các gói bảo hiểm sức khỏe cơ bản.",
+      "turns": [
+        { "speaker": "a", "en": "What health insurance plans do you offer?", "vi": "Bạn có những gói bảo hiểm sức khỏe nào ạ?" },
+        { "speaker": "b", "en": "We have basic, standard, and premium plans.", "vi": "Chúng tôi có gói cơ bản, tiêu chuẩn và cao cấp." },
+        { "speaker": "a", "en": "What does the basic plan cover?", "vi": "Gói cơ bản bao gồm những gì ạ?" },
+        { "speaker": "b", "en": "It covers hospital stays and basic treatment.", "vi": "Nó bao gồm nằm viện và điều trị cơ bản." },
+        { "speaker": "a", "en": "That sounds like a good start.", "vi": "Nghe là một khởi đầu tốt đấy." },
+        { "speaker": "b", "en": "I can send you the full details.", "vi": "Tôi có thể gửi bạn chi tiết đầy đủ." }
+      ]},
+    { "title": "Hỏi về mức phí bảo hiểm", "situation": "Khách hàng hỏi về chi phí hàng tháng của gói bảo hiểm.",
+      "turns": [
+        { "speaker": "a", "en": "How much is the monthly premium?", "vi": "Phí bảo hiểm hàng tháng là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "It depends on your age and coverage.", "vi": "Còn tùy vào độ tuổi và phạm vi bảo hiểm của bạn." },
+        { "speaker": "a", "en": "I am thirty years old.", "vi": "Tôi ba mươi tuổi." },
+        { "speaker": "b", "en": "Around eight hundred thousand dong monthly.", "vi": "Khoảng tám trăm nghìn đồng mỗi tháng." },
+        { "speaker": "a", "en": "That fits my budget.", "vi": "Vậy phù hợp với ngân sách của tôi." },
+        { "speaker": "b", "en": "Great, let us proceed with the application.", "vi": "Tuyệt, mình tiến hành làm hồ sơ nhé." }
+      ]},
+    { "title": "Hỏi về điều khoản loại trừ", "situation": "Khách hàng hỏi về những điều không được bảo hiểm chi trả.",
+      "turns": [
+        { "speaker": "a", "en": "What is not covered by this policy?", "vi": "Hợp đồng này không chi trả những gì ạ?" },
+        { "speaker": "b", "en": "Pre-existing conditions are excluded.", "vi": "Các bệnh có sẵn từ trước không được bảo hiểm." },
+        { "speaker": "a", "en": "What counts as pre-existing?", "vi": "Vậy bệnh có sẵn từ trước là như thế nào ạ?" },
+        { "speaker": "b", "en": "Conditions diagnosed before signing up.", "vi": "Các bệnh được chẩn đoán trước khi đăng ký." },
+        { "speaker": "a", "en": "That makes sense, thank you.", "vi": "Vậy hợp lý, cảm ơn bạn." },
+        { "speaker": "b", "en": "Let me know if you have more questions.", "vi": "Có câu hỏi gì thêm cứ hỏi tôi nhé." }
+      ]},
+    { "title": "So sánh hai gói bảo hiểm", "situation": "Khách hàng so sánh hai gói bảo hiểm khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "What is the difference between these two plans?", "vi": "Hai gói này khác nhau thế nào ạ?" },
+        { "speaker": "b", "en": "The premium plan covers dental care too.", "vi": "Gói cao cấp còn bao gồm cả chăm sóc răng miệng." },
+        { "speaker": "a", "en": "Is the price difference significant?", "vi": "Chênh lệch giá có nhiều không ạ?" },
+        { "speaker": "b", "en": "About two hundred thousand dong more per month.", "vi": "Khoảng thêm hai trăm nghìn đồng mỗi tháng." },
+        { "speaker": "a", "en": "I think the premium plan is worth it.", "vi": "Tôi nghĩ gói cao cấp đáng giá đấy." },
+        { "speaker": "b", "en": "Great choice, let us set that up.", "vi": "Lựa chọn hay đấy, mình đăng ký nhé." }
+      ]},
+    { "title": "Hỏi về thời gian chờ", "situation": "Khách hàng hỏi về thời gian chờ trước khi bảo hiểm có hiệu lực.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a waiting period before coverage starts?", "vi": "Có thời gian chờ trước khi bảo hiểm có hiệu lực không ạ?" },
+        { "speaker": "b", "en": "Yes, thirty days for most conditions.", "vi": "Có, ba mươi ngày cho hầu hết các trường hợp." },
+        { "speaker": "a", "en": "What about emergencies?", "vi": "Còn trường hợp khẩn cấp thì sao ạ?" },
+        { "speaker": "b", "en": "Emergencies are covered immediately.", "vi": "Trường hợp khẩn cấp được bảo hiểm ngay lập tức." },
+        { "speaker": "a", "en": "That is reassuring to know.", "vi": "Biết vậy tôi thấy yên tâm hơn." },
+        { "speaker": "b", "en": "Let me know if you would like to proceed.", "vi": "Bạn muốn tiến hành thì cứ báo tôi nhé." }
+      ]},
+    { "title": "Hỏi về quy trình yêu cầu bồi thường", "situation": "Khách hàng hỏi cách nộp yêu cầu bồi thường bảo hiểm.",
+      "turns": [
+        { "speaker": "a", "en": "How do I file a claim?", "vi": "Tôi nộp yêu cầu bồi thường bằng cách nào ạ?" },
+        { "speaker": "b", "en": "You submit the medical receipts online.", "vi": "Bạn nộp hóa đơn y tế trực tuyến." },
+        { "speaker": "a", "en": "How long does processing take?", "vi": "Xử lý mất bao lâu ạ?" },
+        { "speaker": "b", "en": "Usually within two weeks.", "vi": "Thường trong vòng hai tuần." },
+        { "speaker": "a", "en": "Thank you for explaining.", "vi": "Cảm ơn bạn đã giải thích." },
+        { "speaker": "b", "en": "You are welcome, anytime.", "vi": "Không có gì, lúc nào cũng được." }
+      ]},
+    { "title": "Muốn thêm người thân vào hợp đồng", "situation": "Khách hàng muốn thêm thành viên gia đình vào hợp đồng bảo hiểm.",
+      "turns": [
+        { "speaker": "a", "en": "Can I add my spouse to this plan?", "vi": "Tôi có thể thêm vợ/chồng vào gói này không ạ?" },
+        { "speaker": "b", "en": "Yes, that is possible with family coverage.", "vi": "Được, có thể với gói bảo hiểm gia đình." },
+        { "speaker": "a", "en": "How much extra would that cost?", "vi": "Vậy sẽ tốn thêm bao nhiêu ạ?" },
+        { "speaker": "b", "en": "About five hundred thousand dong more monthly.", "vi": "Khoảng thêm năm trăm nghìn đồng mỗi tháng." },
+        { "speaker": "a", "en": "That works for our budget.", "vi": "Vậy phù hợp với ngân sách gia đình tôi." },
+        { "speaker": "b", "en": "I will update your policy accordingly.", "vi": "Tôi sẽ cập nhật hợp đồng theo đó." }
+      ]},
+    { "title": "Hỏi về hủy hợp đồng bảo hiểm", "situation": "Khách hàng hỏi về việc hủy hợp đồng bảo hiểm.",
+      "turns": [
+        { "speaker": "a", "en": "What happens if I cancel my policy?", "vi": "Nếu tôi hủy hợp đồng thì sẽ thế nào ạ?" },
+        { "speaker": "b", "en": "You would lose the accumulated benefits.", "vi": "Bạn sẽ mất các quyền lợi đã tích lũy." },
+        { "speaker": "a", "en": "Is there a cancellation fee?", "vi": "Có phí hủy hợp đồng không ạ?" },
+        { "speaker": "b", "en": "A small administrative fee applies.", "vi": "Có một khoản phí hành chính nhỏ." },
+        { "speaker": "a", "en": "I understand, thank you for clarifying.", "vi": "Tôi hiểu rồi, cảm ơn bạn đã làm rõ." },
+        { "speaker": "b", "en": "Let me know if you decide to proceed.", "vi": "Bạn quyết định thì cứ báo tôi nhé." }
+      ]},
+    { "title": "Khách hàng lo lắng về điều khoản nhỏ", "situation": "Khách hàng lo lắng về một điều khoản khó hiểu trong hợp đồng.",
+      "turns": [
+        { "speaker": "a", "en": "This clause is a bit confusing to me.", "vi": "Điều khoản này hơi khó hiểu với tôi." },
+        { "speaker": "b", "en": "Which part would you like me to explain?", "vi": "Bạn muốn tôi giải thích phần nào ạ?" },
+        { "speaker": "a", "en": "The part about annual limits.", "vi": "Phần về giới hạn hàng năm." },
+        { "speaker": "b", "en": "That means a maximum payout per year.", "vi": "Nghĩa là mức chi trả tối đa mỗi năm." },
+        { "speaker": "a", "en": "Ah, now I understand.", "vi": "À, giờ tôi hiểu rồi." },
+        { "speaker": "b", "en": "Let me know if anything else is unclear.", "vi": "Có gì khác chưa rõ cứ hỏi tôi nhé." }
+      ]},
+    { "title": "So sánh nhiều gói bảo hiểm phức tạp với các điều khoản chi tiết", "situation": "Khách hàng so sánh kỹ nhiều gói bảo hiểm với các điều khoản phức tạp trước khi quyết định. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain the difference in annual limits across all three plans?", "vi": "Bạn giải thích sự khác biệt về giới hạn hàng năm giữa cả ba gói được không?" },
+        { "speaker": "b", "en": "Sure, the basic plan caps at fifty million, standard at one hundred.", "vi": "Được, gói cơ bản giới hạn năm mươi triệu, gói tiêu chuẩn là một trăm triệu." },
+        { "speaker": "a", "en": "And what about pre-existing condition coverage?", "vi": "Còn về bảo hiểm bệnh có sẵn từ trước thì sao?" },
+        { "speaker": "b", "en": "Only the premium plan covers those after two years.", "vi": "Chỉ gói cao cấp mới bảo hiểm sau hai năm." },
+        { "speaker": "a", "en": "This is a lot to consider.", "vi": "Có nhiều điều cần cân nhắc quá." },
+        { "speaker": "b", "en": "Take your time, I can send a comparison chart.", "vi": "Bạn cứ từ từ, tôi có thể gửi bảng so sánh." }
+      ]}
+  ]
+}

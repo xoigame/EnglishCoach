@@ -1,0 +1,96 @@
+{
+  "id": "phan-nan-va-khieu-nai",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Khiếu nại về sản phẩm lỗi", "situation": "Khách hàng khiếu nại về sản phẩm bị lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Tôi có thể giúp gì cho bạn hôm nay ạ?" },
+        { "speaker": "b", "en": "This product arrived broken.", "vi": "Sản phẩm này tới nơi đã bị hỏng." },
+        { "speaker": "a", "en": "I am very sorry to hear that.", "vi": "Tôi rất tiếc khi nghe điều đó." },
+        { "speaker": "b", "en": "I would like a replacement.", "vi": "Tôi muốn được đổi hàng mới." },
+        { "speaker": "a", "en": "Of course, we will send one right away.", "vi": "Đương nhiên rồi, chúng tôi sẽ gửi ngay." },
+        { "speaker": "b", "en": "Thank you for resolving this quickly.", "vi": "Cảm ơn bạn đã giải quyết nhanh chóng." }
+      ]},
+    { "title": "Khiếu nại về giao hàng trễ", "situation": "Khách hàng phàn nàn vì hàng giao trễ.",
+      "turns": [
+        { "speaker": "a", "en": "My order is three days late.", "vi": "Đơn hàng của tôi trễ ba ngày rồi." },
+        { "speaker": "b", "en": "I apologize for the delay.", "vi": "Tôi xin lỗi vì sự chậm trễ." },
+        { "speaker": "a", "en": "Can you tell me the status?", "vi": "Bạn cho tôi biết tình trạng được không?" },
+        { "speaker": "b", "en": "It is out for delivery today.", "vi": "Hôm nay hàng đang được giao đi rồi." },
+        { "speaker": "a", "en": "Thank you, I hope it arrives soon.", "vi": "Cảm ơn bạn, mong hàng sớm tới nơi." },
+        { "speaker": "b", "en": "We will also offer a small discount.", "vi": "Chúng tôi cũng sẽ tặng một khoản giảm giá nhỏ." }
+      ]},
+    { "title": "Phàn nàn về dịch vụ khách hàng", "situation": "Khách hàng phàn nàn về thái độ phục vụ trước đó.",
+      "turns": [
+        { "speaker": "a", "en": "I was treated rudely on my last call.", "vi": "Lần gọi trước tôi bị đối xử thô lỗ." },
+        { "speaker": "b", "en": "I am very sorry to hear that.", "vi": "Tôi rất tiếc khi nghe điều đó." },
+        { "speaker": "a", "en": "It made me feel quite frustrated.", "vi": "Điều đó khiến tôi khá bực bội." },
+        { "speaker": "b", "en": "That is not the experience we want for you.", "vi": "Đó không phải trải nghiệm chúng tôi muốn dành cho bạn." },
+        { "speaker": "a", "en": "I appreciate you taking this seriously.", "vi": "Tôi cảm kích vì bạn xem trọng việc này." },
+        { "speaker": "b", "en": "We will address it with the team.", "vi": "Chúng tôi sẽ nói chuyện với nhóm về việc này." }
+      ]},
+    { "title": "Yêu cầu hoàn tiền", "situation": "Khách hàng yêu cầu hoàn tiền vì không hài lòng.",
+      "turns": [
+        { "speaker": "a", "en": "I would like a refund for this item.", "vi": "Tôi muốn hoàn tiền cho món hàng này." },
+        { "speaker": "b", "en": "May I ask the reason?", "vi": "Tôi hỏi lý do được không ạ?" },
+        { "speaker": "a", "en": "It does not match the description.", "vi": "Nó không giống với mô tả." },
+        { "speaker": "b", "en": "I understand, we can process that.", "vi": "Tôi hiểu rồi, chúng tôi có thể xử lý việc đó." },
+        { "speaker": "a", "en": "How long will the refund take?", "vi": "Hoàn tiền mất bao lâu vậy?" },
+        { "speaker": "b", "en": "Within five business days.", "vi": "Trong vòng năm ngày làm việc." }
+      ]},
+    { "title": "Phàn nàn nhẹ về giá cả", "situation": "Khách hàng phàn nàn nhẹ về việc tăng giá.",
+      "turns": [
+        { "speaker": "a", "en": "The price seems higher than before.", "vi": "Giá có vẻ cao hơn trước." },
+        { "speaker": "b", "en": "Yes, there was a recent adjustment.", "vi": "Vâng, gần đây có điều chỉnh giá." },
+        { "speaker": "a", "en": "That is a bit disappointing.", "vi": "Vậy hơi đáng thất vọng." },
+        { "speaker": "b", "en": "I understand your concern.", "vi": "Tôi hiểu mối lo ngại của bạn." },
+        { "speaker": "a", "en": "Is there any loyalty discount available?", "vi": "Có ưu đãi khách hàng thân thiết nào không?" },
+        { "speaker": "b", "en": "Let me check that for you.", "vi": "Để tôi kiểm tra giúp bạn." }
+      ]},
+    { "title": "Khiếu nại về đặt phòng sai", "situation": "Khách hàng khiếu nại vì đặt phòng bị sai loại.",
+      "turns": [
+        { "speaker": "a", "en": "I booked a double room, not a single.", "vi": "Tôi đặt phòng đôi, không phải phòng đơn." },
+        { "speaker": "b", "en": "I apologize for the error.", "vi": "Tôi xin lỗi vì sai sót này." },
+        { "speaker": "a", "en": "Can this be corrected today?", "vi": "Việc này có thể sửa hôm nay được không?" },
+        { "speaker": "b", "en": "Yes, we will upgrade you immediately.", "vi": "Được, chúng tôi sẽ nâng cấp cho bạn ngay." },
+        { "speaker": "a", "en": "Thank you for fixing it quickly.", "vi": "Cảm ơn bạn đã sửa nhanh chóng." },
+        { "speaker": "b", "en": "We apologize again for the inconvenience.", "vi": "Chúng tôi xin lỗi lần nữa vì sự bất tiện." }
+      ]},
+    { "title": "Khách hàng vẫn chưa hài lòng", "situation": "Khách hàng vẫn chưa hài lòng dù đã được đề nghị bồi thường.",
+      "turns": [
+        { "speaker": "a", "en": "This discount does not feel like enough.", "vi": "Khoản giảm giá này có vẻ chưa đủ." },
+        { "speaker": "b", "en": "I understand, let me see what else I can offer.", "vi": "Tôi hiểu, để tôi xem có thể đề nghị gì thêm." },
+        { "speaker": "a", "en": "I appreciate you trying to help.", "vi": "Tôi cảm kích vì bạn đang cố giúp." },
+        { "speaker": "b", "en": "How about a full refund instead?", "vi": "Hay là hoàn tiền toàn bộ thay vào đó nhé?" },
+        { "speaker": "a", "en": "That would be more acceptable.", "vi": "Vậy chấp nhận được hơn." },
+        { "speaker": "b", "en": "I will process that right away.", "vi": "Tôi sẽ xử lý ngay." }
+      ]},
+    { "title": "Khiếu nại được giải quyết tốt", "situation": "Khiếu nại được giải quyết ổn thỏa và khách hàng hài lòng.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for resolving my issue.", "vi": "Cảm ơn bạn đã giải quyết vấn đề của tôi." },
+        { "speaker": "b", "en": "You are welcome, I am glad it worked out.", "vi": "Không có gì, tôi vui vì việc đã ổn thỏa." },
+        { "speaker": "a", "en": "Your service was excellent today.", "vi": "Dịch vụ của bạn hôm nay rất tuyệt." },
+        { "speaker": "b", "en": "Thank you for your kind words.", "vi": "Cảm ơn lời khen của bạn." },
+        { "speaker": "a", "en": "I will definitely come back.", "vi": "Chắc chắn tôi sẽ quay lại." },
+        { "speaker": "b", "en": "We look forward to serving you again.", "vi": "Chúng tôi mong được phục vụ bạn lần sau." }
+      ]},
+    { "title": "Khiếu nại lặp lại nhiều lần", "situation": "Khách hàng phàn nàn vì vấn đề tương tự đã xảy ra nhiều lần.",
+      "turns": [
+        { "speaker": "a", "en": "This is the second time this has happened.", "vi": "Đây là lần thứ hai chuyện này xảy ra rồi." },
+        { "speaker": "b", "en": "I understand your frustration completely.", "vi": "Tôi hoàn toàn hiểu sự bực bội của bạn." },
+        { "speaker": "a", "en": "What will be done differently this time?", "vi": "Lần này sẽ làm khác đi thế nào?" },
+        { "speaker": "b", "en": "We will flag your account for priority service.", "vi": "Chúng tôi sẽ đánh dấu tài khoản của bạn để ưu tiên phục vụ." },
+        { "speaker": "a", "en": "I hope that prevents future issues.", "vi": "Mong điều đó ngăn được vấn đề trong tương lai." },
+        { "speaker": "b", "en": "We will do our best to ensure that.", "vi": "Chúng tôi sẽ cố gắng hết sức để đảm bảo điều đó." }
+      ]},
+    { "title": "Khiếu nại phức tạp với yêu cầu bồi thường lớn và nhiều bên liên quan", "situation": "Khách hàng có khiếu nại phức tạp liên quan đến nhiều bộ phận và yêu cầu bồi thường đáng kể. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This mistake caused me to miss an important event.", "vi": "Sai sót này khiến tôi lỡ mất một sự kiện quan trọng." },
+        { "speaker": "b", "en": "I am truly sorry for the impact this had.", "vi": "Tôi thật sự xin lỗi vì ảnh hưởng này." },
+        { "speaker": "a", "en": "I would like significant compensation for this.", "vi": "Tôi muốn được bồi thường đáng kể cho việc này." },
+        { "speaker": "b", "en": "Let me escalate this to our resolutions team.", "vi": "Để tôi chuyển việc này lên đội giải quyết khiếu nại." },
+        { "speaker": "a", "en": "How soon will I hear back?", "vi": "Bao lâu tôi sẽ nhận được phản hồi?" },
+        { "speaker": "b", "en": "Within 24 hours with a formal offer.", "vi": "Trong vòng 24 giờ cùng với đề nghị chính thức." }
+      ]}
+  ]
+}

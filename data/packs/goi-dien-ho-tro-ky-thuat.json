@@ -1,0 +1,96 @@
+{
+  "id": "goi-dien-ho-tro-ky-thuat",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Báo lỗi mạng internet chậm", "situation": "Khách hàng gọi báo internet chậm.",
+      "turns": [
+        { "speaker": "a", "en": "My internet has been very slow lately.", "vi": "Internet nhà tôi gần đây rất chậm." },
+        { "speaker": "b", "en": "I am sorry for the trouble, let me check.", "vi": "Xin lỗi vì sự bất tiện, để tôi kiểm tra." },
+        { "speaker": "a", "en": "It happens mostly in the evening.", "vi": "Chủ yếu là vào buổi tối." },
+        { "speaker": "b", "en": "That could be network congestion.", "vi": "Có thể là do tắc nghẽn mạng." },
+        { "speaker": "a", "en": "Is there a fix for that?", "vi": "Có cách khắc phục không?" },
+        { "speaker": "b", "en": "We will adjust your connection remotely.", "vi": "Chúng tôi sẽ điều chỉnh kết nối từ xa cho bạn." }
+      ]},
+    { "title": "Internet bị mất kết nối hoàn toàn", "situation": "Khách hàng báo mất kết nối internet hoàn toàn.",
+      "turns": [
+        { "speaker": "a", "en": "My internet is completely down.", "vi": "Internet nhà tôi mất hoàn toàn rồi." },
+        { "speaker": "b", "en": "Let me check for outages in your area.", "vi": "Để tôi kiểm tra xem khu vực bạn có sự cố không." },
+        { "speaker": "a", "en": "Thank you, please let me know.", "vi": "Cảm ơn bạn, cho tôi biết kết quả nhé." },
+        { "speaker": "b", "en": "There is a local outage being fixed now.", "vi": "Có sự cố cục bộ đang được khắc phục." },
+        { "speaker": "a", "en": "How long until it is resolved?", "vi": "Bao lâu nữa thì được khắc phục?" },
+        { "speaker": "b", "en": "Within the next two hours.", "vi": "Trong vòng hai giờ tới." }
+      ]},
+    { "title": "Hướng dẫn khởi động lại modem", "situation": "Nhân viên hỗ trợ hướng dẫn khách khởi động lại modem.",
+      "turns": [
+        { "speaker": "a", "en": "Could you try restarting your modem?", "vi": "Bạn thử khởi động lại modem được không?" },
+        { "speaker": "b", "en": "Sure, how do I do that?", "vi": "Được, tôi làm thế nào ạ?" },
+        { "speaker": "a", "en": "Unplug it for ten seconds, then plug it back in.", "vi": "Rút phích cắm mười giây, rồi cắm lại." },
+        { "speaker": "b", "en": "Okay, I did that.", "vi": "Được, tôi làm rồi." },
+        { "speaker": "a", "en": "Is the connection working now?", "vi": "Giờ kết nối có hoạt động không?" },
+        { "speaker": "b", "en": "Yes, it works now, thank you.", "vi": "Có, giờ hoạt động rồi, cảm ơn bạn." }
+      ]},
+    { "title": "Vấn đề vẫn chưa được giải quyết", "situation": "Vấn đề chưa được giải quyết dù đã thử nhiều cách.",
+      "turns": [
+        { "speaker": "a", "en": "I already tried restarting, it did not help.", "vi": "Tôi đã thử khởi động lại rồi, không có tác dụng." },
+        { "speaker": "b", "en": "I am sorry to hear that.", "vi": "Tôi rất tiếc khi nghe vậy." },
+        { "speaker": "a", "en": "What else can we try?", "vi": "Mình còn cách nào khác không?" },
+        { "speaker": "b", "en": "I will schedule a technician visit.", "vi": "Tôi sẽ sắp xếp kỹ thuật viên tới kiểm tra." },
+        { "speaker": "a", "en": "When can they come?", "vi": "Khi nào họ có thể tới vậy?" },
+        { "speaker": "b", "en": "Tomorrow morning, if that works.", "vi": "Sáng mai, nếu được với bạn." }
+      ]},
+    { "title": "Hỏi về nâng cấp gói cước", "situation": "Khách hàng hỏi về việc nâng cấp gói internet.",
+      "turns": [
+        { "speaker": "a", "en": "Is it possible to upgrade my internet plan?", "vi": "Tôi có thể nâng cấp gói internet không?" },
+        { "speaker": "b", "en": "Sure, what speed are you looking for?", "vi": "Được, bạn muốn tốc độ khoảng bao nhiêu?" },
+        { "speaker": "a", "en": "Something faster for streaming.", "vi": "Nhanh hơn để xem phim trực tuyến." },
+        { "speaker": "b", "en": "I recommend our 200 Mbps plan.", "vi": "Tôi khuyến nghị gói 200 Mbps." },
+        { "speaker": "a", "en": "That sounds good, let us do that.", "vi": "Nghe được đấy, mình đổi gói đó nhé." },
+        { "speaker": "b", "en": "I will process the upgrade now.", "vi": "Tôi sẽ xử lý nâng cấp ngay bây giờ." }
+      ]},
+    { "title": "Sự cố Wi-Fi chập chờn", "situation": "Khách hàng báo Wi-Fi chập chờn liên tục.",
+      "turns": [
+        { "speaker": "a", "en": "My Wi-Fi keeps disconnecting.", "vi": "Wi-Fi nhà tôi cứ bị ngắt kết nối liên tục." },
+        { "speaker": "b", "en": "How often does this happen?", "vi": "Việc này xảy ra thường xuyên cỡ nào?" },
+        { "speaker": "a", "en": "Every twenty minutes or so.", "vi": "Khoảng mỗi hai mươi phút." },
+        { "speaker": "b", "en": "That might be a router setting issue.", "vi": "Có thể là do cài đặt bộ định tuyến." },
+        { "speaker": "a", "en": "Can you fix it remotely?", "vi": "Bạn có thể khắc phục từ xa được không?" },
+        { "speaker": "b", "en": "Yes, let me adjust it now.", "vi": "Được, để tôi điều chỉnh ngay." }
+      ]},
+    { "title": "Khách hàng bực bội vì chờ lâu", "situation": "Khách hàng bực bội vì phải chờ lâu để được hỗ trợ.",
+      "turns": [
+        { "speaker": "a", "en": "I have been waiting for thirty minutes.", "vi": "Tôi đã chờ ba mươi phút rồi." },
+        { "speaker": "b", "en": "I am very sorry for the wait.", "vi": "Tôi rất xin lỗi vì để bạn chờ lâu." },
+        { "speaker": "a", "en": "This is quite frustrating.", "vi": "Việc này khá bực bội đấy." },
+        { "speaker": "b", "en": "I understand, let me resolve this quickly.", "vi": "Tôi hiểu, để tôi giải quyết nhanh chóng." },
+        { "speaker": "a", "en": "Thank you, I appreciate your effort.", "vi": "Cảm ơn bạn, tôi cảm kích nỗ lực của bạn." },
+        { "speaker": "b", "en": "We will get this fixed right away.", "vi": "Chúng tôi sẽ khắc phục ngay." }
+      ]},
+    { "title": "Hỏi về hóa đơn bất thường", "situation": "Khách hàng hỏi về hóa đơn internet cao bất thường.",
+      "turns": [
+        { "speaker": "a", "en": "My bill this month seems too high.", "vi": "Hóa đơn tháng này của tôi có vẻ quá cao." },
+        { "speaker": "b", "en": "Let me look into that for you.", "vi": "Để tôi kiểm tra giúp bạn." },
+        { "speaker": "a", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "It seems there was an extra service charge.", "vi": "Có vẻ có một khoản phí dịch vụ thêm." },
+        { "speaker": "a", "en": "Can that be removed?", "vi": "Khoản đó có thể bỏ đi được không?" },
+        { "speaker": "b", "en": "Yes, I will correct the bill.", "vi": "Được, tôi sẽ sửa lại hóa đơn." }
+      ]},
+    { "title": "Sự cố được khắc phục thành công", "situation": "Sự cố kỹ thuật đã được khắc phục thành công.",
+      "turns": [
+        { "speaker": "a", "en": "The connection is working perfectly now.", "vi": "Kết nối giờ hoạt động hoàn hảo rồi." },
+        { "speaker": "b", "en": "Wonderful, thank you for your patience.", "vi": "Tuyệt vời, cảm ơn bạn đã kiên nhẫn." },
+        { "speaker": "a", "en": "I really appreciate your help today.", "vi": "Tôi thật sự cảm kích sự giúp đỡ hôm nay." },
+        { "speaker": "b", "en": "It was my pleasure to assist you.", "vi": "Tôi rất vui được hỗ trợ bạn." },
+        { "speaker": "a", "en": "Have a great day.", "vi": "Chúc bạn ngày tốt lành." },
+        { "speaker": "b", "en": "You too, take care.", "vi": "Bạn cũng vậy, giữ gìn sức khoẻ nhé." }
+      ]},
+    { "title": "Nhiều sự cố kỹ thuật xảy ra đồng thời và cần chẩn đoán phức tạp", "situation": "Khách hàng gặp nhiều sự cố kỹ thuật cùng lúc, cần chẩn đoán kỹ lưỡng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "My internet is slow, and now my phone service is out too.", "vi": "Internet chậm, mà giờ dịch vụ điện thoại cũng bị mất luôn." },
+        { "speaker": "b", "en": "That is unusual, let me run a full diagnostic.", "vi": "Vậy khá bất thường, để tôi chạy chẩn đoán toàn diện." },
+        { "speaker": "a", "en": "Could both issues be related?", "vi": "Hai vấn đề này có liên quan tới nhau không?" },
+        { "speaker": "b", "en": "Possibly, it looks like a line issue at your address.", "vi": "Có thể, có vẻ là sự cố đường dây tại địa chỉ của bạn." },
+        { "speaker": "a", "en": "What is the next step then?", "vi": "Vậy bước tiếp theo là gì?" },
+        { "speaker": "b", "en": "I will send a technician to inspect the line today.", "vi": "Tôi sẽ cử kỹ thuật viên tới kiểm tra đường dây hôm nay." }
+      ]}
+  ]
+}

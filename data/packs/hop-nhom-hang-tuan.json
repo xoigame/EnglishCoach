@@ -1,0 +1,96 @@
+{
+  "id": "hop-nhom-hang-tuan",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Báo cáo tiến độ bình thường", "situation": "Bạn báo cáo tiến độ công việc trong buổi họp nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "How is the project progress?", "vi": "Tiến độ dự án thế nào rồi?" },
+        { "speaker": "b", "en": "We are on track for this week.", "vi": "Tuần này chúng tôi đang đúng tiến độ." },
+        { "speaker": "a", "en": "Any blockers I should know about?", "vi": "Có vướng mắc gì tôi cần biết không?" },
+        { "speaker": "b", "en": "No blockers right now.", "vi": "Hiện tại không có vướng mắc gì." },
+        { "speaker": "a", "en": "Great, keep up the good work.", "vi": "Tuyệt, cứ tiếp tục phát huy nhé." },
+        { "speaker": "b", "en": "Thank you, will do.", "vi": "Cảm ơn bạn, tôi sẽ cố gắng." }
+      ]},
+    { "title": "Báo cáo có vướng mắc", "situation": "Bạn báo cáo có một vướng mắc cần hỗ trợ.",
+      "turns": [
+        { "speaker": "a", "en": "What is the status on the report feature?", "vi": "Tính năng báo cáo tới đâu rồi?" },
+        { "speaker": "b", "en": "We have a blocker with the data source.", "vi": "Chúng tôi gặp vướng mắc với nguồn dữ liệu." },
+        { "speaker": "a", "en": "Can you explain the blocker?", "vi": "Bạn giải thích vướng mắc đó được không?" },
+        { "speaker": "b", "en": "The API is returning incomplete data.", "vi": "API đang trả về dữ liệu không đầy đủ." },
+        { "speaker": "a", "en": "I will assign support to help.", "vi": "Tôi sẽ cử người hỗ trợ giúp." },
+        { "speaker": "b", "en": "Thank you, that would help a lot.", "vi": "Cảm ơn bạn, vậy giúp ích lắm." }
+      ]},
+    { "title": "Xin thêm thời gian", "situation": "Bạn xin gia hạn thêm thời gian cho một nhiệm vụ.",
+      "turns": [
+        { "speaker": "a", "en": "Will you meet the deadline on Friday?", "vi": "Bạn có kịp hạn chót vào thứ Sáu không?" },
+        { "speaker": "b", "en": "It might be tight. Could we extend to Monday?", "vi": "Có thể hơi gấp. Gia hạn tới thứ Hai được không ạ?" },
+        { "speaker": "a", "en": "What is causing the delay?", "vi": "Nguyên nhân chậm trễ là gì?" },
+        { "speaker": "b", "en": "More testing is needed than expected.", "vi": "Cần kiểm thử nhiều hơn dự kiến." },
+        { "speaker": "a", "en": "Okay, Monday works.", "vi": "Được, thứ Hai được đấy." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Ưu tiên công việc thay đổi", "situation": "Quản lý thông báo thay đổi ưu tiên công việc.",
+      "turns": [
+        { "speaker": "a", "en": "Priorities have changed this week.", "vi": "Ưu tiên tuần này đã thay đổi rồi." },
+        { "speaker": "b", "en": "What should we focus on now?", "vi": "Vậy chúng tôi nên tập trung vào gì ạ?" },
+        { "speaker": "a", "en": "The client demo takes priority.", "vi": "Buổi demo cho khách hàng được ưu tiên." },
+        { "speaker": "b", "en": "Understood, I will adjust my plan.", "vi": "Tôi hiểu rồi, tôi sẽ điều chỉnh kế hoạch." },
+        { "speaker": "a", "en": "Thank you for being flexible.", "vi": "Cảm ơn bạn đã linh hoạt." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Đề xuất cải tiến quy trình", "situation": "Bạn đưa ra khuyến nghị để cải thiện quy trình làm việc.",
+      "turns": [
+        { "speaker": "a", "en": "Any recommendations for the team?", "vi": "Bạn có khuyến nghị gì cho nhóm không?" },
+        { "speaker": "b", "en": "I recommend shorter daily check-ins.", "vi": "Tôi khuyến nghị các buổi trao đổi hằng ngày ngắn hơn." },
+        { "speaker": "a", "en": "Why do you think that would help?", "vi": "Vì sao bạn nghĩ vậy sẽ giúp ích?" },
+        { "speaker": "b", "en": "It would save time for everyone.", "vi": "Nó sẽ tiết kiệm thời gian cho mọi người." },
+        { "speaker": "a", "en": "Let us try that next week.", "vi": "Tuần sau mình thử làm vậy nhé." },
+        { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe ổn với tôi." }
+      ]},
+    { "title": "Xin quyền truy cập tài liệu", "situation": "Bạn cần quyền truy cập một tài liệu để hoàn thành việc.",
+      "turns": [
+        { "speaker": "a", "en": "Is there anything blocking your work?", "vi": "Có gì cản trở công việc của bạn không?" },
+        { "speaker": "b", "en": "I need access to the design files.", "vi": "Tôi cần quyền truy cập vào các tệp thiết kế." },
+        { "speaker": "a", "en": "I will grant that access today.", "vi": "Tôi sẽ cấp quyền đó hôm nay." },
+        { "speaker": "b", "en": "Thank you, that will help me move forward.", "vi": "Cảm ơn bạn, vậy giúp tôi tiến hành tiếp được." },
+        { "speaker": "a", "en": "Let me know if you need anything else.", "vi": "Cần gì nữa thì cứ báo tôi nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ báo, cảm ơn bạn." }
+      ]},
+    { "title": "Phản hồi về công việc của người khác", "situation": "Bạn được yêu cầu góp ý về công việc của đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have feedback on the design draft?", "vi": "Bạn có phản hồi gì về bản thiết kế nháp không?" },
+        { "speaker": "b", "en": "Yes, the layout looks great overall.", "vi": "Có, bố cục nhìn chung đẹp đấy." },
+        { "speaker": "a", "en": "Any suggestions for revision?", "vi": "Có đề xuất chỉnh sửa nào không?" },
+        { "speaker": "b", "en": "Maybe make the buttons bigger.", "vi": "Có lẽ làm các nút to hơn." },
+        { "speaker": "a", "en": "Good point, I will pass that on.", "vi": "Nói đúng đấy, tôi sẽ chuyển lời." },
+        { "speaker": "b", "en": "Thank you for asking.", "vi": "Cảm ơn bạn đã hỏi." }
+      ]},
+    { "title": "Báo cáo trễ vì lý do bên ngoài", "situation": "Bạn giải thích lý do chậm tiến độ không phải do nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "The timeline seems delayed.", "vi": "Tiến độ có vẻ chậm rồi." },
+        { "speaker": "b", "en": "Yes, the vendor was late with materials.", "vi": "Vâng, nhà cung cấp giao vật liệu trễ." },
+        { "speaker": "a", "en": "Is that resolved now?", "vi": "Giờ đã giải quyết chưa?" },
+        { "speaker": "b", "en": "Yes, we received them yesterday.", "vi": "Rồi, chúng tôi nhận được hôm qua." },
+        { "speaker": "a", "en": "Good, please keep me updated.", "vi": "Tốt, cứ cập nhật cho tôi nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ cập nhật, cảm ơn bạn." }
+      ]},
+    { "title": "Đề nghị hỗ trợ đồng nghiệp gặp khó khăn", "situation": "Bạn đề nghị giúp một đồng nghiệp đang gặp khó khăn.",
+      "turns": [
+        { "speaker": "a", "en": "Minh seems behind on his tasks.", "vi": "Minh có vẻ đang chậm tiến độ." },
+        { "speaker": "b", "en": "I noticed that too. Should I help him?", "vi": "Tôi cũng để ý thấy. Tôi giúp anh ấy nhé?" },
+        { "speaker": "a", "en": "That would be great, thank you.", "vi": "Vậy tốt quá, cảm ơn bạn." },
+        { "speaker": "b", "en": "I will check in with him after this.", "vi": "Sau buổi này tôi sẽ trao đổi với anh ấy." },
+        { "speaker": "a", "en": "I appreciate you offering.", "vi": "Tôi cảm kích vì bạn đề nghị giúp." },
+        { "speaker": "b", "en": "No problem, that is what teams do.", "vi": "Không sao, nhóm là phải giúp nhau mà." }
+      ]},
+    { "title": "Báo cáo nhiều vấn đề cùng lúc trong một dự án lớn", "situation": "Bạn báo cáo nhiều vướng mắc khác nhau trong cùng một dự án phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Give me a full update on the project.", "vi": "Cập nhật đầy đủ cho tôi về dự án nhé." },
+        { "speaker": "b", "en": "We have two blockers: access issues and a tight deadline.", "vi": "Chúng tôi có hai vướng mắc: vấn đề quyền truy cập và hạn chót gấp." },
+        { "speaker": "a", "en": "Let us address the access issue first.", "vi": "Mình giải quyết vấn đề quyền truy cập trước nhé." },
+        { "speaker": "b", "en": "I will send the request today.", "vi": "Tôi sẽ gửi yêu cầu hôm nay." },
+        { "speaker": "a", "en": "And for the deadline, what do you recommend?", "vi": "Còn về hạn chót, bạn khuyến nghị gì?" },
+        { "speaker": "b", "en": "I recommend extending it by three days.", "vi": "Tôi khuyến nghị gia hạn thêm ba ngày." }
+      ]}
+  ]
+}

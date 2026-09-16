@@ -1,0 +1,96 @@
+{
+  "id": "lam-viec-voi-ngan-hang",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Mở tài khoản ngân hàng mới", "situation": "Khách hàng muốn mở tài khoản ngân hàng mới.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to open a new account.", "vi": "Tôi muốn mở một tài khoản mới." },
+        { "speaker": "b", "en": "Sure, do you have your ID with you?", "vi": "Được, bạn có mang theo giấy tờ tùy thân không?" },
+        { "speaker": "a", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "b", "en": "What type of account do you need?", "vi": "Bạn cần loại tài khoản nào ạ?" },
+        { "speaker": "a", "en": "A savings account, please.", "vi": "Tài khoản tiết kiệm nhé." },
+        { "speaker": "b", "en": "I will prepare the paperwork now.", "vi": "Tôi sẽ chuẩn bị giấy tờ ngay bây giờ." }
+      ]},
+    { "title": "Hỏi về lãi suất tiết kiệm", "situation": "Khách hàng hỏi về lãi suất của tài khoản tiết kiệm.",
+      "turns": [
+        { "speaker": "a", "en": "What is the interest rate for savings accounts?", "vi": "Lãi suất tài khoản tiết kiệm là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "It is currently 5 percent annually.", "vi": "Hiện tại là 5 phần trăm mỗi năm." },
+        { "speaker": "a", "en": "Is that fixed or variable?", "vi": "Đó là lãi suất cố định hay thay đổi ạ?" },
+        { "speaker": "b", "en": "It is fixed for twelve months.", "vi": "Cố định trong mười hai tháng." },
+        { "speaker": "a", "en": "That sounds reasonable.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "b", "en": "Would you like to proceed?", "vi": "Bạn muốn tiến hành luôn không ạ?" }
+      ]},
+    { "title": "Báo mất thẻ ngân hàng", "situation": "Khách hàng báo mất thẻ ngân hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I lost my bank card yesterday.", "vi": "Hôm qua tôi làm mất thẻ ngân hàng." },
+        { "speaker": "b", "en": "I am sorry to hear that, let us block it immediately.", "vi": "Tôi rất tiếc khi nghe vậy, mình khoá thẻ ngay nhé." },
+        { "speaker": "a", "en": "Thank you, how do I get a new one?", "vi": "Cảm ơn bạn, tôi làm sao để lấy thẻ mới ạ?" },
+        { "speaker": "b", "en": "We will issue a replacement card.", "vi": "Chúng tôi sẽ cấp thẻ thay thế." },
+        { "speaker": "a", "en": "How long will that take?", "vi": "Mất bao lâu vậy ạ?" },
+        { "speaker": "b", "en": "About five business days.", "vi": "Khoảng năm ngày làm việc." }
+      ]},
+    { "title": "Chuyển khoản quốc tế", "situation": "Khách hàng hỏi về chuyển khoản quốc tế.",
+      "turns": [
+        { "speaker": "a", "en": "I need to send money overseas.", "vi": "Tôi cần chuyển tiền ra nước ngoài." },
+        { "speaker": "b", "en": "Sure, which country is the recipient in?", "vi": "Được, người nhận ở nước nào ạ?" },
+        { "speaker": "a", "en": "Thailand, actually.", "vi": "Thái Lan ạ." },
+        { "speaker": "b", "en": "There will be a small transfer fee.", "vi": "Sẽ có một khoản phí chuyển khoản nhỏ." },
+        { "speaker": "a", "en": "That is fine, how long does it take?", "vi": "Vậy được, mất bao lâu ạ?" },
+        { "speaker": "b", "en": "Usually one to two business days.", "vi": "Thường là một đến hai ngày làm việc." }
+      ]},
+    { "title": "Hỏi về khoản vay", "situation": "Khách hàng hỏi về điều kiện vay ngân hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I am interested in a personal loan.", "vi": "Tôi quan tâm đến khoản vay cá nhân." },
+        { "speaker": "b", "en": "What amount are you looking for?", "vi": "Bạn muốn vay khoảng bao nhiêu ạ?" },
+        { "speaker": "a", "en": "Around fifty million dong.", "vi": "Khoảng năm mươi triệu đồng." },
+        { "speaker": "b", "en": "What is the loan purpose?", "vi": "Mục đích vay là gì ạ?" },
+        { "speaker": "a", "en": "Home renovation.", "vi": "Sửa chữa nhà cửa." },
+        { "speaker": "b", "en": "I will explain the interest rates and terms.", "vi": "Tôi sẽ giải thích lãi suất và điều khoản." }
+      ]},
+    { "title": "Giao dịch bị từ chối", "situation": "Khách hàng gặp vấn đề vì giao dịch thẻ bị từ chối.",
+      "turns": [
+        { "speaker": "a", "en": "My card was declined at the store.", "vi": "Thẻ của tôi bị từ chối ở cửa hàng." },
+        { "speaker": "b", "en": "Let me check your account status.", "vi": "Để tôi kiểm tra tình trạng tài khoản của bạn." },
+        { "speaker": "a", "en": "I do have sufficient funds.", "vi": "Tôi có đủ tiền trong tài khoản mà." },
+        { "speaker": "b", "en": "It seems there was a security hold.", "vi": "Có vẻ có một khoản giữ tạm vì bảo mật." },
+        { "speaker": "a", "en": "Can that be removed now?", "vi": "Cái đó có thể gỡ bỏ ngay bây giờ không ạ?" },
+        { "speaker": "b", "en": "Yes, I will release it immediately.", "vi": "Được, tôi sẽ gỡ ngay lập tức." }
+      ]},
+    { "title": "Hỏi về phí duy trì tài khoản", "situation": "Khách hàng hỏi về các loại phí duy trì tài khoản.",
+      "turns": [
+        { "speaker": "a", "en": "Are there any monthly account fees?", "vi": "Có phí duy trì tài khoản hàng tháng không ạ?" },
+        { "speaker": "b", "en": "Yes, a small maintenance fee applies.", "vi": "Có, có một khoản phí duy trì nhỏ." },
+        { "speaker": "a", "en": "Is there a way to waive it?", "vi": "Có cách nào miễn phí đó không ạ?" },
+        { "speaker": "b", "en": "Yes, with a minimum balance requirement.", "vi": "Có, nếu duy trì số dư tối thiểu." },
+        { "speaker": "a", "en": "What is the minimum amount?", "vi": "Số dư tối thiểu là bao nhiêu ạ?" },
+        { "speaker": "b", "en": "Five million dong.", "vi": "Năm triệu đồng." }
+      ]},
+    { "title": "Cập nhật thông tin cá nhân", "situation": "Khách hàng cập nhật thông tin liên hệ với ngân hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I need to update my phone number.", "vi": "Tôi cần cập nhật số điện thoại." },
+        { "speaker": "b", "en": "Sure, may I have the new number?", "vi": "Được, bạn cho tôi số mới nhé?" },
+        { "speaker": "a", "en": "Yes, here it is.", "vi": "Vâng, đây ạ." },
+        { "speaker": "b", "en": "I will update it in our system.", "vi": "Tôi sẽ cập nhật vào hệ thống." },
+        { "speaker": "a", "en": "Thank you for your help.", "vi": "Cảm ơn bạn đã giúp đỡ." },
+        { "speaker": "b", "en": "You are welcome, anytime.", "vi": "Không có gì, lúc nào cũng được." }
+      ]},
+    { "title": "Khiếu nại về giao dịch không xác định", "situation": "Khách hàng phát hiện giao dịch lạ trong sao kê.",
+      "turns": [
+        { "speaker": "a", "en": "I see a transaction I do not recognize.", "vi": "Tôi thấy một giao dịch mà tôi không nhận ra." },
+        { "speaker": "b", "en": "Let me look into that right away.", "vi": "Để tôi kiểm tra ngay." },
+        { "speaker": "a", "en": "This is concerning to me.", "vi": "Việc này khiến tôi lo lắng." },
+        { "speaker": "b", "en": "I understand, we will investigate it.", "vi": "Tôi hiểu, chúng tôi sẽ điều tra." },
+        { "speaker": "a", "en": "Should I block my card meanwhile?", "vi": "Tôi có nên khoá thẻ trong lúc chờ không?" },
+        { "speaker": "b", "en": "Yes, that would be a safe precaution.", "vi": "Có, đó là biện pháp phòng ngừa an toàn." }
+      ]},
+    { "title": "Giải quyết vấn đề tài khoản phức tạp liên quan đến nhiều giao dịch nghi vấn", "situation": "Khách hàng phát hiện nhiều giao dịch nghi vấn và cần xử lý toàn diện. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I found three suspicious transactions this week.", "vi": "Tuần này tôi phát hiện ba giao dịch đáng nghi." },
+        { "speaker": "b", "en": "This looks serious, let me freeze your account now.", "vi": "Việc này có vẻ nghiêm trọng, để tôi khóa tài khoản của bạn ngay." },
+        { "speaker": "a", "en": "How will I get my money back?", "vi": "Tôi sẽ lấy lại tiền như thế nào?" },
+        { "speaker": "b", "en": "We will open a formal fraud investigation.", "vi": "Chúng tôi sẽ mở một cuộc điều tra gian lận chính thức." },
+        { "speaker": "a", "en": "How long does that usually take?", "vi": "Thường mất bao lâu vậy ạ?" },
+        { "speaker": "b", "en": "Typically within ten business days, with updates along the way.", "vi": "Thường là trong vòng mười ngày làm việc, có cập nhật trong quá trình." }
+      ]}
+  ]
+}

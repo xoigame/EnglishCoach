@@ -1,0 +1,96 @@
+{
+  "id": "xu-ly-hieu-lam",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Làm rõ hiểu lầm nhỏ", "situation": "Bạn làm rõ một hiểu lầm nhỏ với đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "I think there was a misunderstanding earlier.", "vi": "Tôi nghĩ lúc nãy có sự hiểu lầm." },
+        { "speaker": "b", "en": "Oh, what happened?", "vi": "Ồ, chuyện gì vậy?" },
+        { "speaker": "a", "en": "I thought you meant Friday, not Thursday.", "vi": "Tôi tưởng bạn nói thứ Sáu, không phải thứ Năm." },
+        { "speaker": "b", "en": "Ah, my mistake for not being clear.", "vi": "À, lỗi của tôi vì nói không rõ ràng." },
+        { "speaker": "a", "en": "No worries, now it is clear.", "vi": "Không sao, giờ rõ rồi." },
+        { "speaker": "b", "en": "Thanks for checking with me.", "vi": "Cảm ơn bạn đã hỏi lại." }
+      ]},
+    { "title": "Xin lỗi vì hiểu sai ý", "situation": "Bạn xin lỗi vì đã hiểu sai ý đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, I misunderstood your message.", "vi": "Tôi xin lỗi, tôi đã hiểu sai tin nhắn của bạn." },
+        { "speaker": "b", "en": "That is okay, it happens.", "vi": "Không sao, chuyện này vẫn xảy ra mà." },
+        { "speaker": "a", "en": "I thought you wanted the report today.", "vi": "Tôi tưởng bạn muốn báo cáo hôm nay." },
+        { "speaker": "b", "en": "No, tomorrow is fine.", "vi": "Không, mai là được rồi." },
+        { "speaker": "a", "en": "Good, I will finish it by then.", "vi": "Tốt, tôi sẽ hoàn thành trước lúc đó." },
+        { "speaker": "b", "en": "Thank you for clarifying.", "vi": "Cảm ơn bạn đã làm rõ." }
+      ]},
+    { "title": "Hiểu lầm về nhiệm vụ được giao", "situation": "Bạn làm rõ hiểu lầm về nhiệm vụ được giao.",
+      "turns": [
+        { "speaker": "a", "en": "I thought this task was assigned to me.", "vi": "Tôi tưởng nhiệm vụ này được giao cho tôi." },
+        { "speaker": "b", "en": "Actually, it was assigned to the other team.", "vi": "Thực ra nó được giao cho nhóm khác." },
+        { "speaker": "a", "en": "Oh, I see, my mistake.", "vi": "Ồ, tôi hiểu rồi, lỗi của tôi." },
+        { "speaker": "b", "en": "No harm done, easy mix-up.", "vi": "Không sao cả, nhầm lẫn thôi mà." },
+        { "speaker": "a", "en": "I will let them know I am not working on it.", "vi": "Tôi sẽ báo họ là tôi không làm việc đó." },
+        { "speaker": "b", "en": "Good idea, thanks for checking.", "vi": "Ý hay, cảm ơn bạn đã kiểm tra." }
+      ]},
+    { "title": "Hiểu lầm qua tin nhắn viết", "situation": "Một tin nhắn văn bản gây ra hiểu lầm về giọng điệu.",
+      "turns": [
+        { "speaker": "a", "en": "Your message sounded a bit harsh to me.", "vi": "Tin nhắn của bạn nghe hơi gay gắt với tôi." },
+        { "speaker": "b", "en": "I am sorry, that was not my intention.", "vi": "Tôi xin lỗi, tôi không có ý đó." },
+        { "speaker": "a", "en": "I understand, text can be misread.", "vi": "Tôi hiểu mà, chữ viết dễ bị hiểu sai." },
+        { "speaker": "b", "en": "I meant it as a simple reminder.", "vi": "Ý tôi chỉ là một lời nhắc đơn giản thôi." },
+        { "speaker": "a", "en": "That makes more sense now.", "vi": "Giờ nghe hợp lý hơn rồi." },
+        { "speaker": "b", "en": "Thanks for telling me directly.", "vi": "Cảm ơn bạn đã nói thẳng với tôi." }
+      ]},
+    { "title": "Hiểu lầm về vai trò trong dự án", "situation": "Có sự hiểu lầm về vai trò của mỗi người trong dự án.",
+      "turns": [
+        { "speaker": "a", "en": "I thought I was leading this project.", "vi": "Tôi tưởng mình là người dẫn dắt dự án này." },
+        { "speaker": "b", "en": "Actually, we are co-leading it together.", "vi": "Thực ra chúng ta cùng dẫn dắt nó." },
+        { "speaker": "a", "en": "Ah, that clears things up.", "vi": "À, vậy là rõ rồi." },
+        { "speaker": "b", "en": "Sorry for not clarifying earlier.", "vi": "Xin lỗi vì đã không làm rõ sớm hơn." },
+        { "speaker": "a", "en": "No problem, let us divide the tasks now.", "vi": "Không sao, giờ mình chia việc ra nhé." },
+        { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Hiểu lầm về deadline", "situation": "Hai người hiểu khác nhau về thời hạn công việc.",
+      "turns": [
+        { "speaker": "a", "en": "I understood the deadline was next week.", "vi": "Tôi hiểu hạn chót là tuần sau." },
+        { "speaker": "b", "en": "No, it was actually moved to this Friday.", "vi": "Không, thực ra nó đã được chuyển sang thứ Sáu này." },
+        { "speaker": "a", "en": "That is a big difference, thank you for clarifying.", "vi": "Vậy khác nhiều đấy, cảm ơn bạn đã làm rõ." },
+        { "speaker": "b", "en": "Sorry, I should have sent an update earlier.", "vi": "Xin lỗi, lẽ ra tôi nên gửi cập nhật sớm hơn." },
+        { "speaker": "a", "en": "It is fine, I will adjust my plan.", "vi": "Không sao, tôi sẽ điều chỉnh kế hoạch." },
+        { "speaker": "b", "en": "Let me know if you need support.", "vi": "Cần hỗ trợ gì cứ báo tôi nhé." }
+      ]},
+    { "title": "Xin lỗi công khai trong nhóm", "situation": "Bạn công khai xin lỗi cả nhóm vì gây hiểu lầm.",
+      "turns": [
+        { "speaker": "a", "en": "I want to clarify something for everyone.", "vi": "Tôi muốn làm rõ điều gì đó cho cả nhóm." },
+        { "speaker": "b", "en": "Sure, go ahead.", "vi": "Được, bạn cứ nói." },
+        { "speaker": "a", "en": "My earlier message caused confusion, sorry about that.", "vi": "Tin nhắn trước của tôi gây hiểu lầm, xin lỗi mọi người." },
+        { "speaker": "b", "en": "Thanks for clarifying it now.", "vi": "Cảm ơn bạn đã làm rõ ngay bây giờ." },
+        { "speaker": "a", "en": "The correct information is in the new email.", "vi": "Thông tin đúng nằm trong email mới." },
+        { "speaker": "b", "en": "Got it, thanks for fixing it.", "vi": "Rõ rồi, cảm ơn bạn đã sửa lại." }
+      ]},
+    { "title": "Hiểu lầm về ngân sách", "situation": "Có hiểu lầm về con số ngân sách được phê duyệt.",
+      "turns": [
+        { "speaker": "a", "en": "I thought the budget was fully approved.", "vi": "Tôi tưởng ngân sách đã được duyệt toàn bộ." },
+        { "speaker": "b", "en": "Only half of it was approved so far.", "vi": "Cho tới giờ chỉ mới duyệt một nửa thôi." },
+        { "speaker": "a", "en": "That changes our plan significantly.", "vi": "Vậy thay đổi kế hoạch của chúng ta nhiều đấy." },
+        { "speaker": "b", "en": "Sorry, I should have mentioned it sooner.", "vi": "Xin lỗi, lẽ ra tôi nên nói sớm hơn." },
+        { "speaker": "a", "en": "No problem, let us revise the numbers.", "vi": "Không sao, mình điều chỉnh lại con số nhé." },
+        { "speaker": "b", "en": "I will send the updated figures.", "vi": "Tôi sẽ gửi số liệu cập nhật." }
+      ]},
+    { "title": "Hiểu lầm dẫn đến bực bội", "situation": "Một hiểu lầm khiến đồng nghiệp có phần bực bội.",
+      "turns": [
+        { "speaker": "a", "en": "I felt a bit frustrated by your email.", "vi": "Tôi thấy hơi bực bội vì email của bạn." },
+        { "speaker": "b", "en": "I am really sorry, that was not my intent.", "vi": "Tôi thật sự xin lỗi, tôi không có ý đó." },
+        { "speaker": "a", "en": "I think I misread the tone.", "vi": "Tôi nghĩ mình đã đọc sai giọng điệu." },
+        { "speaker": "b", "en": "Let us talk it through to be clear.", "vi": "Mình nói chuyện rõ ràng để hiểu nhau nhé." },
+        { "speaker": "a", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn bạn, tôi cảm kích điều đó." },
+        { "speaker": "b", "en": "No hard feelings, I hope.", "vi": "Mong là không có gì phật lòng nhé." }
+      ]},
+    { "title": "Làm rõ hiểu lầm phức tạp liên quan đến nhiều bên và thông tin trái ngược", "situation": "Nhiều bên có thông tin trái ngược nhau về cùng một vấn đề, cần làm rõ toàn diện. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Everyone seems to have different information about this.", "vi": "Có vẻ mọi người đều có thông tin khác nhau về việc này." },
+        { "speaker": "b", "en": "Yes, some heard the launch was delayed, others did not.", "vi": "Vâng, một số nghe nói buổi ra mắt bị hoãn, số khác thì không." },
+        { "speaker": "a", "en": "Let us trace back where the confusion started.", "vi": "Mình truy lại xem hiểu lầm bắt đầu từ đâu nhé." },
+        { "speaker": "b", "en": "It seems an early draft email was shared by mistake.", "vi": "Có vẻ một bản nháp email đã bị chia sẻ nhầm." },
+        { "speaker": "a", "en": "I will send one final, clear message to everyone.", "vi": "Tôi sẽ gửi một tin nhắn cuối cùng, rõ ràng cho mọi người." },
+        { "speaker": "b", "en": "Good, that should resolve all the confusion.", "vi": "Tốt, vậy chắc sẽ giải quyết hết hiểu lầm." }
+      ]}
+  ]
+}

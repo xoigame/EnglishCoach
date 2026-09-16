@@ -1,0 +1,96 @@
+{
+  "id": "bao-cao-su-co-cho-quan-ly",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Báo cáo lỗi hệ thống nhỏ", "situation": "Bạn báo cáo một lỗi hệ thống nhỏ cho quản lý.",
+      "turns": [
+        { "speaker": "a", "en": "I need to report a small issue.", "vi": "Tôi cần báo cáo một vấn đề nhỏ." },
+        { "speaker": "b", "en": "Sure, what happened?", "vi": "Được, có chuyện gì vậy?" },
+        { "speaker": "a", "en": "The system was slow this morning.", "vi": "Sáng nay hệ thống chạy chậm." },
+        { "speaker": "b", "en": "Is it working normally now?", "vi": "Giờ nó hoạt động bình thường chưa?" },
+        { "speaker": "a", "en": "Yes, it seems fine now.", "vi": "Vâng, giờ có vẻ ổn rồi." },
+        { "speaker": "b", "en": "Good, thanks for letting me know.", "vi": "Tốt, cảm ơn bạn đã báo." }
+      ]},
+    { "title": "Báo cáo sự cố nghiêm trọng hơn", "situation": "Bạn báo cáo một sự cố nghiêm trọng ảnh hưởng đến khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "We have a serious issue with the website.", "vi": "Chúng tôi có một sự cố nghiêm trọng với trang web." },
+        { "speaker": "b", "en": "What is affected exactly?", "vi": "Chính xác cái gì bị ảnh hưởng vậy?" },
+        { "speaker": "a", "en": "Customers cannot complete checkout.", "vi": "Khách hàng không thể hoàn tất thanh toán." },
+        { "speaker": "b", "en": "How long has this been happening?", "vi": "Việc này xảy ra bao lâu rồi?" },
+        { "speaker": "a", "en": "About thirty minutes so far.", "vi": "Khoảng ba mươi phút rồi." },
+        { "speaker": "b", "en": "Let us escalate this immediately.", "vi": "Mình cần báo cấp trên ngay lập tức." }
+      ]},
+    { "title": "Đề xuất giải pháp khi báo cáo", "situation": "Bạn báo cáo sự cố và đồng thời đề xuất giải pháp.",
+      "turns": [
+        { "speaker": "a", "en": "There is an issue with the payment gateway.", "vi": "Có sự cố với cổng thanh toán." },
+        { "speaker": "b", "en": "Do you have a suggested fix?", "vi": "Bạn có đề xuất cách khắc phục nào không?" },
+        { "speaker": "a", "en": "We could switch to the backup gateway.", "vi": "Chúng ta có thể chuyển sang cổng dự phòng." },
+        { "speaker": "b", "en": "That sounds like a good plan.", "vi": "Nghe có vẻ là kế hoạch tốt đấy." },
+        { "speaker": "a", "en": "I will implement it right away.", "vi": "Tôi sẽ triển khai ngay." },
+        { "speaker": "b", "en": "Thank you for acting quickly.", "vi": "Cảm ơn bạn đã hành động nhanh chóng." }
+      ]},
+    { "title": "Quản lý hỏi về nguyên nhân", "situation": "Quản lý hỏi thêm về nguyên nhân gây ra sự cố.",
+      "turns": [
+        { "speaker": "a", "en": "What caused this problem?", "vi": "Nguyên nhân gây ra vấn đề này là gì?" },
+        { "speaker": "b", "en": "It seems to be a server overload.", "vi": "Có vẻ là do quá tải máy chủ." },
+        { "speaker": "a", "en": "Has this happened before?", "vi": "Việc này đã từng xảy ra trước đây chưa?" },
+        { "speaker": "b", "en": "Once, a few months ago.", "vi": "Một lần, vài tháng trước." },
+        { "speaker": "a", "en": "We should prevent it from recurring.", "vi": "Mình nên ngăn nó tái diễn." },
+        { "speaker": "b", "en": "I agree, I will look into it.", "vi": "Tôi đồng ý, tôi sẽ tìm hiểu thêm." }
+      ]},
+    { "title": "Báo cáo sự cố đã được khắc phục", "situation": "Bạn báo cáo rằng sự cố đã được khắc phục thành công.",
+      "turns": [
+        { "speaker": "a", "en": "The issue has been resolved.", "vi": "Sự cố đã được khắc phục rồi." },
+        { "speaker": "b", "en": "That is great news.", "vi": "Tin tốt quá." },
+        { "speaker": "a", "en": "It took about an hour to fix.", "vi": "Mất khoảng một giờ để khắc phục." },
+        { "speaker": "b", "en": "Good work handling it quickly.", "vi": "Xử lý nhanh vậy tốt đấy." },
+        { "speaker": "a", "en": "Thank you, the team worked hard.", "vi": "Cảm ơn bạn, cả nhóm đã làm việc chăm chỉ." },
+        { "speaker": "b", "en": "Please send a summary report.", "vi": "Vui lòng gửi báo cáo tóm tắt nhé." }
+      ]},
+    { "title": "Sự cố ảnh hưởng đến nhiều bộ phận", "situation": "Bạn báo cáo sự cố ảnh hưởng đến nhiều bộ phận khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "This issue is affecting multiple departments.", "vi": "Sự cố này đang ảnh hưởng tới nhiều bộ phận." },
+        { "speaker": "b", "en": "Which departments are impacted?", "vi": "Những bộ phận nào bị ảnh hưởng vậy?" },
+        { "speaker": "a", "en": "Sales and customer support, mainly.", "vi": "Chủ yếu là bán hàng và hỗ trợ khách hàng." },
+        { "speaker": "b", "en": "We need to notify both teams.", "vi": "Mình cần thông báo cho cả hai nhóm." },
+        { "speaker": "a", "en": "I will send the notification now.", "vi": "Tôi sẽ gửi thông báo ngay bây giờ." },
+        { "speaker": "b", "en": "Thank you for handling this promptly.", "vi": "Cảm ơn bạn đã xử lý kịp thời." }
+      ]},
+    { "title": "Đánh giá mức độ ưu tiên của sự cố", "situation": "Bạn cùng quản lý đánh giá mức độ ưu tiên của sự cố.",
+      "turns": [
+        { "speaker": "a", "en": "How urgent would you rate this issue?", "vi": "Bạn đánh giá mức độ khẩn cấp của sự cố này thế nào?" },
+        { "speaker": "b", "en": "I would say it is high priority.", "vi": "Tôi cho rằng nó có mức ưu tiên cao." },
+        { "speaker": "a", "en": "Should we pause other tasks?", "vi": "Mình nên tạm dừng các công việc khác không?" },
+        { "speaker": "b", "en": "Yes, let us focus on this first.", "vi": "Vâng, mình tập trung vào việc này trước." },
+        { "speaker": "a", "en": "Understood, I will reassign the team.", "vi": "Tôi hiểu rồi, tôi sẽ điều phối lại nhóm." },
+        { "speaker": "b", "en": "Thank you for the quick response.", "vi": "Cảm ơn bạn đã phản hồi nhanh." }
+      ]},
+    { "title": "Sự cố tái diễn nhiều lần", "situation": "Bạn báo cáo sự cố này đã tái diễn nhiều lần.",
+      "turns": [
+        { "speaker": "a", "en": "This is the third time this month.", "vi": "Đây là lần thứ ba trong tháng này rồi." },
+        { "speaker": "b", "en": "That is concerning.", "vi": "Vậy đáng lo ngại đấy." },
+        { "speaker": "a", "en": "We need a permanent fix.", "vi": "Chúng ta cần một giải pháp khắc phục lâu dài." },
+        { "speaker": "b", "en": "I agree, let us investigate the root cause.", "vi": "Tôi đồng ý, mình điều tra nguyên nhân gốc rễ nhé." },
+        { "speaker": "a", "en": "I will schedule a review meeting.", "vi": "Tôi sẽ lên lịch họp đánh giá." },
+        { "speaker": "b", "en": "Good, keep me posted.", "vi": "Tốt, cứ cập nhật cho tôi nhé." }
+      ]},
+    { "title": "Xin thêm nguồn lực để xử lý sự cố", "situation": "Bạn xin thêm nhân lực để xử lý sự cố nhanh hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Could we get more help on this?", "vi": "Mình có thể có thêm người hỗ trợ việc này không?" },
+        { "speaker": "b", "en": "How many more people do you need?", "vi": "Bạn cần thêm bao nhiêu người?" },
+        { "speaker": "a", "en": "Two more would speed things up.", "vi": "Thêm hai người nữa sẽ giúp nhanh hơn." },
+        { "speaker": "b", "en": "I will pull them from another team.", "vi": "Tôi sẽ điều họ từ nhóm khác qua." },
+        { "speaker": "a", "en": "Thank you, that will help a lot.", "vi": "Cảm ơn bạn, vậy giúp ích nhiều lắm." },
+        { "speaker": "b", "en": "Let me know if you need anything else.", "vi": "Cần gì thêm cứ báo tôi nhé." }
+      ]},
+    { "title": "Báo cáo sự cố lớn với nhiều diễn biến phức tạp trong thời gian thực", "situation": "Bạn báo cáo một sự cố lớn với các diễn biến thay đổi liên tục theo thời gian thực. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The outage is now affecting the payment system too.", "vi": "Sự cố giờ đã ảnh hưởng đến cả hệ thống thanh toán." },
+        { "speaker": "b", "en": "This is escalating quickly.", "vi": "Việc này đang leo thang nhanh chóng." },
+        { "speaker": "a", "en": "We have identified a temporary workaround.", "vi": "Chúng tôi đã tìm ra giải pháp tạm thời." },
+        { "speaker": "b", "en": "Implement it now and keep monitoring.", "vi": "Triển khai ngay và tiếp tục theo dõi." },
+        { "speaker": "a", "en": "Understood, I will update you every fifteen minutes.", "vi": "Tôi hiểu rồi, tôi sẽ cập nhật cho bạn mỗi mười lăm phút." },
+        { "speaker": "b", "en": "Good, let me know the moment it stabilizes.", "vi": "Tốt, ổn định lại thì báo tôi ngay nhé." }
+      ]}
+  ]
+}

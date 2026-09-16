@@ -1,0 +1,96 @@
+{
+  "id": "noi-ve-muc-tieu-nghe-nghiep",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Nói về mục tiêu ngắn hạn", "situation": "Bạn chia sẻ mục tiêu nghề nghiệp ngắn hạn.",
+      "turns": [
+        { "speaker": "a", "en": "What is your career goal for this year?", "vi": "Mục tiêu nghề nghiệp của bạn năm nay là gì?" },
+        { "speaker": "b", "en": "I want to grow in my current role.", "vi": "Tôi muốn phát triển hơn trong vai trò hiện tại." },
+        { "speaker": "a", "en": "What does growth look like for you?", "vi": "Sự phát triển đó với bạn là như thế nào?" },
+        { "speaker": "b", "en": "Taking on more responsibility.", "vi": "Đảm nhận nhiều trách nhiệm hơn." },
+        { "speaker": "a", "en": "That is a clear goal.", "vi": "Vậy là mục tiêu rõ ràng đấy." },
+        { "speaker": "b", "en": "Yes, I have been working toward it.", "vi": "Vâng, tôi đã cố gắng hướng tới nó." }
+      ]},
+    { "title": "Nói về vai trò hiện tại", "situation": "Bạn mô tả công việc hiện tại của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about your current role.", "vi": "Kể tôi nghe về vai trò hiện tại của bạn." },
+        { "speaker": "b", "en": "I manage a small support team.", "vi": "Tôi quản lý một nhóm hỗ trợ nhỏ." },
+        { "speaker": "a", "en": "How long have you been there?", "vi": "Bạn làm ở đó bao lâu rồi?" },
+        { "speaker": "b", "en": "About two years now.", "vi": "Khoảng hai năm rồi." },
+        { "speaker": "a", "en": "What do you enjoy most about it?", "vi": "Bạn thích nhất điều gì ở công việc đó?" },
+        { "speaker": "b", "en": "Helping my team grow professionally.", "vi": "Giúp nhóm của tôi phát triển chuyên môn." }
+      ]},
+    { "title": "Nói về việc chủ động trong công việc", "situation": "Bạn kể về việc chủ động đề xuất ý tưởng.",
+      "turns": [
+        { "speaker": "a", "en": "Can you give an example of taking initiative?", "vi": "Bạn cho ví dụ về việc chủ động được không?" },
+        { "speaker": "b", "en": "I proposed a new training program.", "vi": "Tôi đã đề xuất một chương trình đào tạo mới." },
+        { "speaker": "a", "en": "What was the result?", "vi": "Kết quả thế nào?" },
+        { "speaker": "b", "en": "It improved onboarding for new hires.", "vi": "Nó cải thiện quá trình hội nhập cho nhân viên mới." },
+        { "speaker": "a", "en": "That shows leadership potential.", "vi": "Vậy cho thấy tiềm năng lãnh đạo đấy." },
+        { "speaker": "b", "en": "Thank you, I hope to lead more projects.", "vi": "Cảm ơn bạn, tôi hy vọng dẫn dắt nhiều dự án hơn." }
+      ]},
+    { "title": "Muốn trở thành trưởng nhóm", "situation": "Bạn chia sẻ mong muốn trở thành trưởng nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "Where do you see yourself in three years?", "vi": "Bạn thấy mình ở đâu trong ba năm tới?" },
+        { "speaker": "b", "en": "I would like to be a team leader.", "vi": "Tôi muốn trở thành trưởng nhóm." },
+        { "speaker": "a", "en": "What skills are you building for that?", "vi": "Bạn đang trau dồi kỹ năng gì cho việc đó?" },
+        { "speaker": "b", "en": "Communication and decision making.", "vi": "Giao tiếp và ra quyết định." },
+        { "speaker": "a", "en": "That is a solid plan.", "vi": "Kế hoạch đó vững đấy." },
+        { "speaker": "b", "en": "Thank you, I am working on it daily.", "vi": "Cảm ơn bạn, tôi đang cố gắng mỗi ngày." }
+      ]},
+    { "title": "Nói về hướng nghề nghiệp thay đổi", "situation": "Bạn giải thích lý do đổi hướng nghề nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Your career direction has changed recently.", "vi": "Hướng nghề nghiệp của bạn gần đây có thay đổi." },
+        { "speaker": "b", "en": "Yes, I moved from sales to customer success.", "vi": "Vâng, tôi chuyển từ bán hàng sang thành công khách hàng." },
+        { "speaker": "a", "en": "What appealed to you about that change?", "vi": "Điều gì thu hút bạn ở sự thay đổi đó?" },
+        { "speaker": "b", "en": "Building long-term relationships appealed to me.", "vi": "Việc xây dựng mối quan hệ dài hạn thu hút tôi." },
+        { "speaker": "a", "en": "That makes sense given your background.", "vi": "Vậy hợp lý với nền tảng của bạn đấy." },
+        { "speaker": "b", "en": "Yes, it feels like the right fit.", "vi": "Vâng, tôi thấy nó hợp với mình." }
+      ]},
+    { "title": "Hỏi về chương trình đào tạo", "situation": "Bạn hỏi công ty có chương trình đào tạo không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have questions about growth here?", "vi": "Bạn có câu hỏi gì về cơ hội phát triển ở đây không?" },
+        { "speaker": "b", "en": "Is there a training program available?", "vi": "Có chương trình đào tạo nào không ạ?" },
+        { "speaker": "a", "en": "Yes, we offer quarterly training.", "vi": "Có, chúng tôi có đào tạo hàng quý." },
+        { "speaker": "b", "en": "That sounds valuable.", "vi": "Nghe hữu ích đấy." },
+        { "speaker": "a", "en": "It has helped many employees advance.", "vi": "Nó đã giúp nhiều nhân viên thăng tiến." },
+        { "speaker": "b", "en": "That is encouraging to hear.", "vi": "Nghe vậy tôi thấy khích lệ lắm." }
+      ]},
+    { "title": "Nói về mục tiêu dài hạn không rõ ràng", "situation": "Bạn thẳng thắn nói chưa chắc chắn về mục tiêu dài hạn.",
+      "turns": [
+        { "speaker": "a", "en": "What is your five year plan?", "vi": "Kế hoạch năm năm của bạn là gì?" },
+        { "speaker": "b", "en": "Honestly, I am still figuring that out.", "vi": "Thật lòng, tôi vẫn đang tìm hiểu điều đó." },
+        { "speaker": "a", "en": "That is fair. What excites you now?", "vi": "Vậy cũng hợp lý. Vậy giờ điều gì khiến bạn hào hứng?" },
+        { "speaker": "b", "en": "Learning new skills in this field.", "vi": "Học các kỹ năng mới trong lĩnh vực này." },
+        { "speaker": "a", "en": "That curiosity is valuable too.", "vi": "Sự tò mò đó cũng đáng quý đấy." },
+        { "speaker": "b", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn bạn, tôi cảm kích lắm." }
+      ]},
+    { "title": "So sánh mục tiêu cũ và mới", "situation": "Bạn so sánh mục tiêu nghề nghiệp trước đây với hiện tại.",
+      "turns": [
+        { "speaker": "a", "en": "How have your career goals changed?", "vi": "Mục tiêu nghề nghiệp của bạn đã thay đổi thế nào?" },
+        { "speaker": "b", "en": "I used to focus only on salary.", "vi": "Trước đây tôi chỉ tập trung vào lương." },
+        { "speaker": "a", "en": "And now?", "vi": "Còn bây giờ thì sao?" },
+        { "speaker": "b", "en": "Now I value professional growth more.", "vi": "Giờ tôi coi trọng phát triển chuyên môn hơn." },
+        { "speaker": "a", "en": "That is a mature perspective.", "vi": "Đó là góc nhìn trưởng thành đấy." },
+        { "speaker": "b", "en": "Thank you, experience taught me that.", "vi": "Cảm ơn bạn, kinh nghiệm dạy tôi điều đó." }
+      ]},
+    { "title": "Nói về mong muốn được feedback thường xuyên", "situation": "Bạn chia sẻ mong muốn nhận phản hồi thường xuyên hơn.",
+      "turns": [
+        { "speaker": "a", "en": "What would help you grow faster?", "vi": "Điều gì sẽ giúp bạn phát triển nhanh hơn?" },
+        { "speaker": "b", "en": "More regular feedback from managers.", "vi": "Phản hồi thường xuyên hơn từ quản lý." },
+        { "speaker": "a", "en": "How often would you like that?", "vi": "Bạn muốn tần suất thế nào?" },
+        { "speaker": "b", "en": "Monthly check-ins would be ideal.", "vi": "Trao đổi hằng tháng thì lý tưởng." },
+        { "speaker": "a", "en": "That is a reasonable request.", "vi": "Đó là yêu cầu hợp lý đấy." },
+        { "speaker": "b", "en": "Thank you for considering it.", "vi": "Cảm ơn bạn đã cân nhắc." }
+      ]},
+    { "title": "Trình bày kế hoạch phát triển chi tiết", "situation": "Bạn trình bày một kế hoạch phát triển nghề nghiệp cụ thể với nhiều bước. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through your development plan.", "vi": "Trình bày cho tôi kế hoạch phát triển của bạn." },
+        { "speaker": "b", "en": "First, I want to strengthen my leadership skills.", "vi": "Đầu tiên, tôi muốn nâng cao kỹ năng lãnh đạo." },
+        { "speaker": "a", "en": "How do you plan to do that?", "vi": "Bạn dự định làm điều đó thế nào?" },
+        { "speaker": "b", "en": "By taking on a training program and mentoring juniors.", "vi": "Bằng cách tham gia đào tạo và kèm cặp nhân viên mới." },
+        { "speaker": "a", "en": "And after that?", "vi": "Và sau đó thì sao?" },
+        { "speaker": "b", "en": "I hope to take initiative on a bigger team project.", "vi": "Tôi hy vọng chủ động dẫn dắt một dự án nhóm lớn hơn." }
+      ]}
+  ]
+}

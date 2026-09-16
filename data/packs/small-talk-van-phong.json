@@ -1,0 +1,96 @@
+{
+  "id": "small-talk-van-phong",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Gặp nhau trong thang máy", "situation": "Bạn tình cờ gặp đồng nghiệp phòng khác trong thang máy.",
+      "turns": [
+        { "speaker": "a", "en": "Oh, I did not expect to run into you here.", "vi": "Ồ, không ngờ lại gặp bạn ở đây." },
+        { "speaker": "b", "en": "Same here. How is your week going?", "vi": "Tôi cũng vậy. Tuần này bạn thế nào?" },
+        { "speaker": "a", "en": "Pretty hectic, to be honest.", "vi": "Khá bận rộn, nói thật." },
+        { "speaker": "b", "en": "I know the feeling.", "vi": "Tôi hiểu cảm giác đó." },
+        { "speaker": "a", "en": "Well, have a good day.", "vi": "Chúc bạn ngày tốt lành nhé." },
+        { "speaker": "b", "en": "You too, take care.", "vi": "Bạn cũng vậy, giữ gìn sức khoẻ." }
+      ]},
+    { "title": "Hỏi thăm về dự án đang làm", "situation": "Bạn hỏi thăm đồng nghiệp về dự án hiện tại.",
+      "turns": [
+        { "speaker": "a", "en": "How is the campaign launch going?", "vi": "Chiến dịch ra mắt thế nào rồi?" },
+        { "speaker": "b", "en": "It is demanding, but on track.", "vi": "Khá vất vả, nhưng vẫn đúng tiến độ." },
+        { "speaker": "a", "en": "When does it launch?", "vi": "Khi nào thì ra mắt vậy?" },
+        { "speaker": "b", "en": "Next Monday, actually.", "vi": "Thứ Hai tới đây thật ra." },
+        { "speaker": "a", "en": "Good luck with that.", "vi": "Chúc bạn may mắn nhé." },
+        { "speaker": "b", "en": "Thanks, I will need it.", "vi": "Cảm ơn, tôi cần đấy." }
+      ]},
+    { "title": "Nói chuyện phiếm về ngân sách", "situation": "Hai đồng nghiệp than thở về ngân sách hàng tháng.",
+      "turns": [
+        { "speaker": "a", "en": "By the way, how is your monthly budget?", "vi": "Nhân tiện, ngân sách hàng tháng của bạn thế nào?" },
+        { "speaker": "b", "en": "Tight this month, honestly.", "vi": "Thật lòng thì tháng này khá eo hẹp." },
+        { "speaker": "a", "en": "Same here, it has been a demanding quarter.", "vi": "Tôi cũng vậy, quý này khá vất vả." },
+        { "speaker": "b", "en": "At least we are not alone.", "vi": "Ít ra thì không phải mỗi mình mình." },
+        { "speaker": "a", "en": "True. Let us hope next month is easier.", "vi": "Đúng vậy. Mong tháng sau dễ thở hơn." },
+        { "speaker": "b", "en": "Fingers crossed.", "vi": "Mong là vậy." }
+      ]},
+    { "title": "Trao đổi số điện thoại", "situation": "Bạn muốn giữ liên lạc với đồng nghiệp phòng khác.",
+      "turns": [
+        { "speaker": "a", "en": "We should keep in touch about this.", "vi": "Chúng ta nên giữ liên lạc về việc này." },
+        { "speaker": "b", "en": "Sure, let us exchange numbers.", "vi": "Được, mình trao đổi số điện thoại nhé." },
+        { "speaker": "a", "en": "Here is mine.", "vi": "Đây là số của tôi." },
+        { "speaker": "b", "en": "Thanks, I will text you later.", "vi": "Cảm ơn, lát tôi nhắn tin cho bạn." },
+        { "speaker": "a", "en": "Sounds good.", "vi": "Được đấy." },
+        { "speaker": "b", "en": "Talk soon.", "vi": "Nói chuyện sau nhé." }
+      ]},
+    { "title": "Nói về việc xếp hàng đông đúc", "situation": "Bạn than thở về việc xếp hàng đông ở thang máy.",
+      "turns": [
+        { "speaker": "a", "en": "The elevator line was so long this morning.", "vi": "Sáng nay hàng chờ thang máy dài kinh khủng." },
+        { "speaker": "b", "en": "I know, I waited ten minutes.", "vi": "Tôi biết, tôi đợi mười phút liền." },
+        { "speaker": "a", "en": "Maybe we should take the stairs.", "vi": "Có lẽ mình nên đi cầu thang bộ." },
+        { "speaker": "b", "en": "Good idea for exercise too.", "vi": "Ý hay, còn tập thể dục nữa." },
+        { "speaker": "a", "en": "Let us try that tomorrow.", "vi": "Mai mình thử vậy nhé." },
+        { "speaker": "b", "en": "Deal.", "vi": "Chốt vậy." }
+      ]},
+    { "title": "Hỏi về việc kết thúc cuộc họp đúng giờ", "situation": "Bạn than thở về cuộc họp kéo dài.",
+      "turns": [
+        { "speaker": "a", "en": "That meeting ran over time again.", "vi": "Cuộc họp đó lại kéo dài quá giờ nữa rồi." },
+        { "speaker": "b", "en": "It never seems to wrap up on time.", "vi": "Có vẻ chưa bao giờ kết thúc đúng giờ cả." },
+        { "speaker": "a", "en": "Maybe we need a stricter agenda.", "vi": "Có lẽ mình cần chương trình họp chặt chẽ hơn." },
+        { "speaker": "b", "en": "I agree completely.", "vi": "Tôi hoàn toàn đồng ý." },
+        { "speaker": "a", "en": "Let us suggest that to the manager.", "vi": "Mình đề xuất với quản lý nhé." },
+        { "speaker": "b", "en": "Good idea.", "vi": "Ý hay đấy." }
+      ]},
+    { "title": "Hỏi thăm sau kỳ nghỉ", "situation": "Bạn hỏi thăm đồng nghiệp vừa đi nghỉ về.",
+      "turns": [
+        { "speaker": "a", "en": "How was your vacation?", "vi": "Kỳ nghỉ của bạn thế nào?" },
+        { "speaker": "b", "en": "It was relaxing, thank you.", "vi": "Rất thư giãn, cảm ơn bạn." },
+        { "speaker": "a", "en": "Where did you go?", "vi": "Bạn đi đâu vậy?" },
+        { "speaker": "b", "en": "Just stayed local this time.", "vi": "Lần này chỉ ở gần thôi." },
+        { "speaker": "a", "en": "Sometimes that is the best kind.", "vi": "Đôi khi vậy lại là kiểu nghỉ ngơi tốt nhất." },
+        { "speaker": "b", "en": "Exactly, no stress at all.", "vi": "Đúng vậy, không căng thẳng gì cả." }
+      ]},
+    { "title": "Chuyển chủ đề sang công việc chung", "situation": "Cuộc nói chuyện phiếm chuyển sang bàn công việc chung.",
+      "turns": [
+        { "speaker": "a", "en": "By the way, are we still meeting on Thursday?", "vi": "Nhân tiện, thứ Năm mình vẫn họp chứ?" },
+        { "speaker": "b", "en": "Yes, that is still on the calendar.", "vi": "Vẫn còn trong lịch đấy." },
+        { "speaker": "a", "en": "Great, I will prepare the numbers.", "vi": "Tuyệt, tôi sẽ chuẩn bị số liệu." },
+        { "speaker": "b", "en": "Perfect, I will bring the slides.", "vi": "Hoàn hảo, tôi sẽ mang theo slide." },
+        { "speaker": "a", "en": "Sounds like a plan.", "vi": "Vậy là chốt kế hoạch rồi." },
+        { "speaker": "b", "en": "See you Thursday then.", "vi": "Vậy hẹn thứ Năm gặp." }
+      ]},
+    { "title": "Nói về đồng nghiệp sắp nghỉ việc", "situation": "Bạn bàn về việc một đồng nghiệp sắp rời công ty.",
+      "turns": [
+        { "speaker": "a", "en": "Did you hear Linh is leaving?", "vi": "Bạn nghe tin Linh sắp nghỉ chưa?" },
+        { "speaker": "b", "en": "Yes, that is surprising news.", "vi": "Rồi, tin đó bất ngờ thật." },
+        { "speaker": "a", "en": "She has been here for years.", "vi": "Cô ấy làm ở đây bao nhiêu năm rồi." },
+        { "speaker": "b", "en": "We should organize a farewell.", "vi": "Mình nên tổ chức tiệc chia tay." },
+        { "speaker": "a", "en": "Good idea, let us plan something.", "vi": "Ý hay đấy, mình lên kế hoạch nhé." },
+        { "speaker": "b", "en": "I will start a group chat.", "vi": "Tôi sẽ tạo nhóm chat." }
+      ]},
+    { "title": "Small talk kéo dài với nhiều chủ đề chuyển tiếp", "situation": "Cuộc trò chuyện phiếm kéo dài, chuyển qua nhiều chủ đề khác nhau trước khi vào việc chính. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Busy week, huh? How is the campaign coming along?", "vi": "Tuần bận nhỉ? Chiến dịch tới đâu rồi?" },
+        { "speaker": "b", "en": "Demanding, but we are on track. By the way, how is your budget review?", "vi": "Vất vả, nhưng vẫn đúng tiến độ. Nhân tiện, đánh giá ngân sách của bạn thế nào?" },
+        { "speaker": "a", "en": "Also hectic. Speaking of which, are you free Thursday?", "vi": "Cũng bận rộn lắm. Nhắc mới nhớ, thứ Năm bạn rảnh không?" },
+        { "speaker": "b", "en": "I should be. What is on Thursday?", "vi": "Chắc rảnh. Thứ Năm có gì vậy?" },
+        { "speaker": "a", "en": "A quick sync on both our projects.", "vi": "Một buổi trao đổi nhanh về cả hai dự án." },
+        { "speaker": "b", "en": "Sounds useful, let us exchange numbers to confirm.", "vi": "Nghe hữu ích đấy, mình trao đổi số để xác nhận nhé." }
+      ]}
+  ]
+}

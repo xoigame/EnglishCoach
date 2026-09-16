@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-xin-viec",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Giới thiệu kinh nghiệm liên quan", "situation": "Bạn giới thiệu kinh nghiệm phù hợp với vị trí ứng tuyển.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about your relevant experience.", "vi": "Kể tôi nghe về kinh nghiệm liên quan của bạn." },
+        { "speaker": "b", "en": "I have worked in customer success for three years.", "vi": "Tôi đã làm về thành công khách hàng được ba năm." },
+        { "speaker": "a", "en": "What does that role involve?", "vi": "Vai trò đó bao gồm những gì?" },
+        { "speaker": "b", "en": "Helping clients solve problems quickly.", "vi": "Giúp khách hàng giải quyết vấn đề nhanh chóng." },
+        { "speaker": "a", "en": "That sounds relevant to this position.", "vi": "Nghe khá liên quan đến vị trí này đấy." },
+        { "speaker": "b", "en": "Yes, I believe so too.", "vi": "Vâng, tôi cũng nghĩ vậy." }
+      ]},
+    { "title": "Kể về khách hàng khó tính", "situation": "Bạn kể về một lần xử lý khách hàng khó chịu.",
+      "turns": [
+        { "speaker": "a", "en": "Can you describe handling a difficult customer?", "vi": "Bạn có thể kể về lần xử lý khách hàng khó tính không?" },
+        { "speaker": "b", "en": "One customer was very upset about a delay.", "vi": "Một khách hàng rất bực vì bị trễ hàng." },
+        { "speaker": "a", "en": "How did you handle it?", "vi": "Bạn đã xử lý thế nào?" },
+        { "speaker": "b", "en": "I listened first, then offered a replacement.", "vi": "Tôi lắng nghe trước, rồi đề nghị đổi hàng thay thế." },
+        { "speaker": "a", "en": "Did that resolve the issue?", "vi": "Vậy có giải quyết được vấn đề không?" },
+        { "speaker": "b", "en": "Yes, the customer was satisfied.", "vi": "Có, khách hàng đã hài lòng." }
+      ]},
+    { "title": "Nhận phản hồi từ đồng nghiệp", "situation": "Bạn kể về việc nhận phản hồi để cải thiện.",
+      "turns": [
+        { "speaker": "a", "en": "How do you handle feedback from colleagues?", "vi": "Bạn xử lý phản hồi từ đồng nghiệp thế nào?" },
+        { "speaker": "b", "en": "I try to listen without getting defensive.", "vi": "Tôi cố lắng nghe mà không phòng thủ." },
+        { "speaker": "a", "en": "Can you give an example?", "vi": "Bạn cho ví dụ được không?" },
+        { "speaker": "b", "en": "A colleague once said my reports were unclear.", "vi": "Có lần đồng nghiệp nói báo cáo của tôi không rõ ràng." },
+        { "speaker": "a", "en": "What did you do about it?", "vi": "Bạn đã làm gì về việc đó?" },
+        { "speaker": "b", "en": "I worked to strengthen my writing skills.", "vi": "Tôi đã cố gắng nâng cao kỹ năng viết của mình." }
+      ]},
+    { "title": "Hỏi về bước tiếp theo", "situation": "Cuối buổi phỏng vấn, bạn hỏi về các bước tiếp theo.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any questions for me?", "vi": "Bạn có câu hỏi nào cho tôi không?" },
+        { "speaker": "b", "en": "Yes, what are the next steps?", "vi": "Có, các bước tiếp theo là gì ạ?" },
+        { "speaker": "a", "en": "We will contact candidates next week.", "vi": "Chúng tôi sẽ liên hệ ứng viên vào tuần sau." },
+        { "speaker": "b", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã cho biết." },
+        { "speaker": "a", "en": "Thank you for coming in today.", "vi": "Cảm ơn bạn đã tới hôm nay." },
+        { "speaker": "b", "en": "Thank you for the opportunity.", "vi": "Cảm ơn bạn đã cho tôi cơ hội này." }
+      ]},
+    { "title": "Nói về điểm mạnh", "situation": "Bạn được hỏi về điểm mạnh của mình.",
+      "turns": [
+        { "speaker": "a", "en": "What would you say is your biggest strength?", "vi": "Bạn nghĩ điểm mạnh lớn nhất của bạn là gì?" },
+        { "speaker": "b", "en": "I stay calm when handling problems.", "vi": "Tôi giữ bình tĩnh khi xử lý vấn đề." },
+        { "speaker": "a", "en": "Can you give an example?", "vi": "Bạn cho ví dụ được không?" },
+        { "speaker": "b", "en": "When a system crashed, I stayed focused and fixed it.", "vi": "Khi hệ thống bị sập, tôi vẫn tập trung và khắc phục được." },
+        { "speaker": "a", "en": "That is a valuable skill.", "vi": "Đó là kỹ năng quý giá đấy." },
+        { "speaker": "b", "en": "Thank you, I try to build on it.", "vi": "Cảm ơn bạn, tôi cố gắng phát huy thêm nó." }
+      ]},
+    { "title": "Nói về lý do rời công ty cũ", "situation": "Bạn giải thích lý do rời công việc trước.",
+      "turns": [
+        { "speaker": "a", "en": "Why did you leave your last position?", "vi": "Vì sao bạn rời vị trí trước đây?" },
+        { "speaker": "b", "en": "I wanted new challenges and growth.", "vi": "Tôi muốn thử thách mới và phát triển." },
+        { "speaker": "a", "en": "What kind of growth are you looking for?", "vi": "Bạn đang tìm loại phát triển nào?" },
+        { "speaker": "b", "en": "More responsibility in customer relations.", "vi": "Trách nhiệm lớn hơn trong quan hệ khách hàng." },
+        { "speaker": "a", "en": "This role could offer that.", "vi": "Vị trí này có thể mang lại điều đó." },
+        { "speaker": "b", "en": "That is exactly why I applied.", "vi": "Đó chính là lý do tôi ứng tuyển." }
+      ]},
+    { "title": "Trả lời câu hỏi bất ngờ", "situation": "Nhà tuyển dụng hỏi một câu hơi bất ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "How would your colleague describe you?", "vi": "Đồng nghiệp của bạn sẽ mô tả bạn thế nào?" },
+        { "speaker": "b", "en": "That is an interesting question.", "vi": "Đó là câu hỏi thú vị đấy." },
+        { "speaker": "a", "en": "Take your time to think.", "vi": "Bạn cứ từ từ suy nghĩ." },
+        { "speaker": "b", "en": "I think they would say I am reliable.", "vi": "Tôi nghĩ họ sẽ nói tôi là người đáng tin cậy." },
+        { "speaker": "a", "en": "Why reliable specifically?", "vi": "Vì sao cụ thể là đáng tin cậy?" },
+        { "speaker": "b", "en": "I always follow through on my commitments.", "vi": "Tôi luôn hoàn thành những gì đã cam kết." }
+      ]},
+    { "title": "Thương lượng về giờ làm việc", "situation": "Bạn hỏi về sự linh hoạt trong giờ làm việc.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have questions about the role?", "vi": "Bạn có câu hỏi gì về vị trí này không?" },
+        { "speaker": "b", "en": "Is there flexibility in working hours?", "vi": "Giờ làm việc có linh hoạt không ạ?" },
+        { "speaker": "a", "en": "Yes, we offer some flexibility.", "vi": "Có, chúng tôi có một chút linh hoạt." },
+        { "speaker": "b", "en": "That is good to know, thank you.", "vi": "Vậy tốt quá, cảm ơn bạn." },
+        { "speaker": "a", "en": "Is that important to you?", "vi": "Điều đó có quan trọng với bạn không?" },
+        { "speaker": "b", "en": "Yes, it helps me manage my schedule better.", "vi": "Có, nó giúp tôi quản lý lịch trình tốt hơn." }
+      ]},
+    { "title": "Nói về thất bại và bài học", "situation": "Bạn kể về một lần thất bại và điều học được.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about a time you failed.", "vi": "Kể tôi nghe về một lần bạn thất bại." },
+        { "speaker": "b", "en": "I once missed an important deadline.", "vi": "Có lần tôi lỡ một hạn chót quan trọng." },
+        { "speaker": "a", "en": "What happened?", "vi": "Chuyện gì đã xảy ra vậy?" },
+        { "speaker": "b", "en": "I underestimated the time needed.", "vi": "Tôi đã đánh giá thấp thời gian cần thiết." },
+        { "speaker": "a", "en": "What did you learn from that?", "vi": "Bạn học được gì từ chuyện đó?" },
+        { "speaker": "b", "en": "Now I always build in extra time.", "vi": "Giờ tôi luôn tính thêm thời gian dự phòng." }
+      ]},
+    { "title": "Trả lời nhiều câu hỏi tình huống liên tiếp", "situation": "Nhà tuyển dụng hỏi liên tiếp nhiều câu hỏi tình huống khó. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Describe a time you handled a difficult customer.", "vi": "Mô tả một lần bạn xử lý khách hàng khó tính." },
+        { "speaker": "b", "en": "A customer received the wrong replacement item.", "vi": "Một khách hàng nhận nhầm món hàng thay thế." },
+        { "speaker": "a", "en": "How did you resolve it, and what feedback did you get?", "vi": "Bạn đã giải quyết thế nào, và nhận phản hồi gì?" },
+        { "speaker": "b", "en": "I sent the correct item quickly, and they thanked me.", "vi": "Tôi gửi đúng món ngay, và họ đã cảm ơn tôi." },
+        { "speaker": "a", "en": "What would you do differently next time?", "vi": "Lần sau bạn sẽ làm khác đi thế nào?" },
+        { "speaker": "b", "en": "I would double-check orders before shipping.", "vi": "Tôi sẽ kiểm tra kỹ đơn hàng trước khi gửi." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "thao-luan-ngan-sach-nho",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Đề xuất ngân sách nhỏ cho sự kiện", "situation": "Nhân viên đề xuất ngân sách nhỏ cho một sự kiện nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to propose a budget for the team event.", "vi": "Tôi muốn đề xuất ngân sách cho sự kiện nhóm." },
+        { "speaker": "b", "en": "Sure, how much are you thinking?", "vi": "Được, bạn nghĩ khoảng bao nhiêu vậy?" },
+        { "speaker": "a", "en": "Around three million dong.", "vi": "Khoảng ba triệu đồng." },
+        { "speaker": "b", "en": "What would that cover?", "vi": "Vậy sẽ bao gồm những gì?" },
+        { "speaker": "a", "en": "Food, drinks, and a small venue.", "vi": "Đồ ăn, thức uống, và một địa điểm nhỏ." },
+        { "speaker": "b", "en": "That sounds reasonable.", "vi": "Nghe hợp lý đấy." }
+      ]},
+    { "title": "Hỏi chi tiết khoản chi", "situation": "Kế toán hỏi chi tiết về từng khoản chi trong ngân sách đề xuất.",
+      "turns": [
+        { "speaker": "a", "en": "Can you break down the costs?", "vi": "Bạn phân tích chi tiết các khoản chi được không?" },
+        { "speaker": "b", "en": "Sure, one million for food.", "vi": "Được, một triệu cho đồ ăn." },
+        { "speaker": "a", "en": "And the rest?", "vi": "Còn lại thì sao?" },
+        { "speaker": "b", "en": "Two million for the venue rental.", "vi": "Hai triệu cho thuê địa điểm." },
+        { "speaker": "a", "en": "That seems reasonable to me.", "vi": "Vậy tôi thấy hợp lý đấy." },
+        { "speaker": "b", "en": "Thank you for reviewing it.", "vi": "Cảm ơn bạn đã xem xét." }
+      ]},
+    { "title": "Xin duyệt ngân sách khẩn cấp", "situation": "Nhân viên xin duyệt ngân sách khẩn cấp cho một nhu cầu bất ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "We need urgent approval for extra supplies.", "vi": "Chúng tôi cần duyệt gấp để mua thêm vật tư." },
+        { "speaker": "b", "en": "What happened exactly?", "vi": "Chính xác chuyện gì đã xảy ra vậy?" },
+        { "speaker": "a", "en": "We ran out sooner than expected.", "vi": "Chúng tôi hết hàng sớm hơn dự kiến." },
+        { "speaker": "b", "en": "How much do you need?", "vi": "Bạn cần bao nhiêu?" },
+        { "speaker": "a", "en": "About five hundred thousand dong.", "vi": "Khoảng năm trăm nghìn đồng." },
+        { "speaker": "b", "en": "I will approve that right away.", "vi": "Tôi sẽ duyệt ngay." }
+      ]},
+    { "title": "Từ chối một phần ngân sách", "situation": "Kế toán từ chối một phần khoản chi vì vượt hạn mức.",
+      "turns": [
+        { "speaker": "a", "en": "I am afraid this exceeds our limit.", "vi": "Tôi e là khoản này vượt quá hạn mức rồi." },
+        { "speaker": "b", "en": "Which part exceeds it?", "vi": "Phần nào vượt hạn mức vậy?" },
+        { "speaker": "a", "en": "The decoration cost is too high.", "vi": "Chi phí trang trí quá cao." },
+        { "speaker": "b", "en": "Could we reduce it by half?", "vi": "Mình giảm xuống một nửa được không?" },
+        { "speaker": "a", "en": "Yes, that would work.", "vi": "Được, vậy sẽ ổn." },
+        { "speaker": "b", "en": "I will revise the proposal.", "vi": "Tôi sẽ chỉnh sửa lại đề xuất." }
+      ]},
+    { "title": "So sánh chi phí giữa hai nhà cung cấp", "situation": "Nhân viên so sánh chi phí giữa hai nhà cung cấp khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "We have two vendor quotes to compare.", "vi": "Chúng tôi có hai báo giá nhà cung cấp để so sánh." },
+        { "speaker": "b", "en": "What is the price difference?", "vi": "Chênh lệch giá là bao nhiêu?" },
+        { "speaker": "a", "en": "Vendor A is cheaper by ten percent.", "vi": "Nhà cung cấp A rẻ hơn mười phần trăm." },
+        { "speaker": "b", "en": "Is the quality similar?", "vi": "Chất lượng có tương đương không?" },
+        { "speaker": "a", "en": "Yes, based on previous reviews.", "vi": "Có, dựa trên đánh giá trước đây." },
+        { "speaker": "b", "en": "Let us go with vendor A then.", "vi": "Vậy mình chọn nhà cung cấp A nhé." }
+      ]},
+    { "title": "Đề xuất cắt giảm ngân sách", "situation": "Kế toán đề xuất cắt giảm một phần ngân sách để tiết kiệm.",
+      "turns": [
+        { "speaker": "a", "en": "We need to cut costs this quarter.", "vi": "Quý này chúng ta cần cắt giảm chi phí." },
+        { "speaker": "b", "en": "Which area should we reduce?", "vi": "Nên cắt giảm ở lĩnh vực nào?" },
+        { "speaker": "a", "en": "Maybe reduce the marketing budget slightly.", "vi": "Có lẽ giảm nhẹ ngân sách marketing." },
+        { "speaker": "b", "en": "By how much?", "vi": "Giảm bao nhiêu vậy?" },
+        { "speaker": "a", "en": "About fifteen percent should work.", "vi": "Khoảng mười lăm phần trăm là được." },
+        { "speaker": "b", "en": "I will adjust the numbers.", "vi": "Tôi sẽ điều chỉnh lại con số." }
+      ]},
+    { "title": "Giải thích lý do vượt ngân sách", "situation": "Nhân viên giải thích lý do một khoản chi vượt ngân sách dự kiến.",
+      "turns": [
+        { "speaker": "a", "en": "This expense went over budget.", "vi": "Khoản chi này đã vượt ngân sách rồi." },
+        { "speaker": "b", "en": "What caused the overspend?", "vi": "Nguyên nhân vượt chi là gì vậy?" },
+        { "speaker": "a", "en": "Prices increased unexpectedly.", "vi": "Giá cả tăng bất ngờ." },
+        { "speaker": "b", "en": "By how much did it increase?", "vi": "Tăng bao nhiêu vậy?" },
+        { "speaker": "a", "en": "About twenty percent higher.", "vi": "Cao hơn khoảng hai mươi phần trăm." },
+        { "speaker": "b", "en": "I understand, let us note that for next time.", "vi": "Tôi hiểu rồi, ghi chú lại cho lần sau nhé." }
+      ]},
+    { "title": "Thảo luận phân bổ ngân sách cho từng nhóm nhỏ", "situation": "Bạn thảo luận cách phân bổ ngân sách cho các nhóm nhỏ khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "How should we split the budget between teams?", "vi": "Mình chia ngân sách cho các nhóm thế nào?" },
+        { "speaker": "b", "en": "Equally would be the simplest option.", "vi": "Chia đều là phương án đơn giản nhất." },
+        { "speaker": "a", "en": "But some teams need more resources.", "vi": "Nhưng một số nhóm cần nhiều nguồn lực hơn." },
+        { "speaker": "b", "en": "True, let us weigh it by team size.", "vi": "Đúng vậy, mình tính theo quy mô nhóm nhé." },
+        { "speaker": "a", "en": "That sounds fairer.", "vi": "Vậy công bằng hơn đấy." },
+        { "speaker": "b", "en": "I will prepare the new allocation.", "vi": "Tôi sẽ chuẩn bị phân bổ mới." }
+      ]},
+    { "title": "Xin thêm ngân sách với lý do thuyết phục", "situation": "Nhân viên xin thêm ngân sách với lý do và dữ liệu thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to request additional budget.", "vi": "Tôi muốn xin thêm ngân sách." },
+        { "speaker": "b", "en": "What is the justification?", "vi": "Lý do là gì vậy?" },
+        { "speaker": "a", "en": "Our previous campaign increased sales by 30 percent.", "vi": "Chiến dịch trước của chúng tôi tăng doanh số 30 phần trăm." },
+        { "speaker": "b", "en": "That is convincing evidence.", "vi": "Đó là bằng chứng thuyết phục đấy." },
+        { "speaker": "a", "en": "Thank you, I hope you approve it.", "vi": "Cảm ơn, mong bạn sẽ duyệt." },
+        { "speaker": "b", "en": "I will review it with the finance team.", "vi": "Tôi sẽ xem xét cùng đội tài chính." }
+      ]},
+    { "title": "Thảo luận ngân sách phức tạp với nhiều khoản mục cần cân đối", "situation": "Bạn và kế toán thảo luận phức tạp về nhiều khoản mục ngân sách cần cân đối cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "We have three requests competing for the same budget.", "vi": "Chúng ta có ba yêu cầu cùng cạnh tranh một ngân sách." },
+        { "speaker": "b", "en": "Let us prioritize based on urgency and impact.", "vi": "Mình ưu tiên dựa trên mức độ khẩn cấp và tác động nhé." },
+        { "speaker": "a", "en": "The equipment request seems most urgent.", "vi": "Yêu cầu về thiết bị có vẻ khẩn cấp nhất." },
+        { "speaker": "b", "en": "Agreed, but the training request has long-term value.", "vi": "Đồng ý, nhưng yêu cầu đào tạo có giá trị lâu dài." },
+        { "speaker": "a", "en": "Could we split the remaining funds between both?", "vi": "Mình có thể chia số tiền còn lại cho cả hai không?" },
+        { "speaker": "b", "en": "Yes, that seems like the fairest compromise.", "vi": "Được, vậy có vẻ là thỏa hiệp công bằng nhất." }
+      ]}
+  ]
+}

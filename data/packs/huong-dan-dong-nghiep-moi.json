@@ -1,0 +1,96 @@
+{
+  "id": "huong-dan-dong-nghiep-moi",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Chào đón nhân viên mới", "situation": "Bạn chào đón một đồng nghiệp mới vào ngày đầu tiên.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome to the team, I am your mentor.", "vi": "Chào mừng bạn tới nhóm, tôi là người kèm cặp bạn." },
+        { "speaker": "b", "en": "Nice to meet you, thank you.", "vi": "Rất vui được gặp bạn, cảm ơn bạn." },
+        { "speaker": "a", "en": "Let me show you around the office.", "vi": "Để tôi dẫn bạn đi tham quan văn phòng." },
+        { "speaker": "b", "en": "That would be great.", "vi": "Vậy thì tuyệt quá." },
+        { "speaker": "a", "en": "Feel free to ask me anything.", "vi": "Có gì cứ thoải mái hỏi tôi nhé." },
+        { "speaker": "b", "en": "I really appreciate that.", "vi": "Tôi thật sự cảm kích điều đó." }
+      ]},
+    { "title": "Hướng dẫn dùng hệ thống nội bộ", "situation": "Bạn hướng dẫn nhân viên mới sử dụng hệ thống nội bộ.",
+      "turns": [
+        { "speaker": "a", "en": "This is our internal system for reports.", "vi": "Đây là hệ thống nội bộ để báo cáo." },
+        { "speaker": "b", "en": "How do I log in?", "vi": "Tôi đăng nhập thế nào ạ?" },
+        { "speaker": "a", "en": "Use your company email and this password.", "vi": "Dùng email công ty và mật khẩu này." },
+        { "speaker": "b", "en": "Got it, thank you.", "vi": "Rõ rồi, cảm ơn bạn." },
+        { "speaker": "a", "en": "Let me know if you have trouble.", "vi": "Có khó khăn gì cứ báo tôi nhé." },
+        { "speaker": "b", "en": "I will, thanks again.", "vi": "Tôi sẽ báo, cảm ơn lần nữa." }
+      ]},
+    { "title": "Giải thích quy tắc văn phòng", "situation": "Bạn giải thích các quy tắc cơ bản trong văn phòng.",
+      "turns": [
+        { "speaker": "a", "en": "Here are a few office rules to know.", "vi": "Đây là vài quy tắc văn phòng bạn nên biết." },
+        { "speaker": "b", "en": "Sure, I am listening.", "vi": "Được, tôi đang nghe đây." },
+        { "speaker": "a", "en": "Lunch break is from 12 to 1.", "vi": "Giờ nghỉ trưa từ 12 đến 1 giờ." },
+        { "speaker": "b", "en": "Understood, thank you.", "vi": "Tôi hiểu rồi, cảm ơn bạn." },
+        { "speaker": "a", "en": "Any questions so far?", "vi": "Tới giờ có câu hỏi gì không?" },
+        { "speaker": "b", "en": "Not yet, this is clear.", "vi": "Chưa có, mọi thứ rõ ràng rồi." }
+      ]},
+    { "title": "Nhân viên mới hỏi về quy trình", "situation": "Nhân viên mới hỏi về quy trình xin nghỉ phép.",
+      "turns": [
+        { "speaker": "a", "en": "How do I request time off?", "vi": "Tôi xin nghỉ phép bằng cách nào?" },
+        { "speaker": "b", "en": "You submit a request through the system.", "vi": "Bạn gửi yêu cầu qua hệ thống." },
+        { "speaker": "a", "en": "How far in advance should I submit it?", "vi": "Tôi nên gửi trước bao lâu?" },
+        { "speaker": "b", "en": "At least three days in advance.", "vi": "Ít nhất trước ba ngày." },
+        { "speaker": "a", "en": "Thank you for explaining.", "vi": "Cảm ơn bạn đã giải thích." },
+        { "speaker": "b", "en": "You are welcome, anytime.", "vi": "Không có gì, lúc nào cũng được." }
+      ]},
+    { "title": "Giới thiệu nhân viên mới với nhóm", "situation": "Bạn giới thiệu nhân viên mới với các thành viên khác trong nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "Everyone, this is our new team member.", "vi": "Mọi người ơi, đây là thành viên mới của nhóm." },
+        { "speaker": "b", "en": "Nice to meet you all.", "vi": "Rất vui được gặp mọi người." },
+        { "speaker": "a", "en": "They will be joining the design team.", "vi": "Bạn ấy sẽ tham gia nhóm thiết kế." },
+        { "speaker": "b", "en": "Looking forward to working together.", "vi": "Mong được làm việc cùng mọi người." },
+        { "speaker": "a", "en": "Let us know if you need anything.", "vi": "Cần gì cứ báo chúng tôi nhé." },
+        { "speaker": "b", "en": "Thank you, I appreciate the welcome.", "vi": "Cảm ơn, tôi cảm kích sự chào đón này." }
+      ]},
+    { "title": "Nhân viên mới mắc lỗi nhỏ", "situation": "Nhân viên mới mắc lỗi nhỏ và bạn hướng dẫn sửa.",
+      "turns": [
+        { "speaker": "a", "en": "I think I made a mistake in the report.", "vi": "Hình như tôi làm sai trong báo cáo rồi." },
+        { "speaker": "b", "en": "It is okay, let us look at it together.", "vi": "Không sao, mình cùng xem lại nhé." },
+        { "speaker": "a", "en": "I used the wrong template.", "vi": "Tôi đã dùng nhầm mẫu." },
+        { "speaker": "b", "en": "No worries, here is the correct one.", "vi": "Đừng lo, đây là mẫu đúng." },
+        { "speaker": "a", "en": "Thank you for your patience.", "vi": "Cảm ơn bạn đã kiên nhẫn." },
+        { "speaker": "b", "en": "Everyone makes mistakes at first.", "vi": "Ai lúc đầu cũng có lúc mắc lỗi mà." }
+      ]},
+    { "title": "Hướng dẫn quy trình báo cáo hàng tuần", "situation": "Bạn hướng dẫn nhân viên mới cách viết báo cáo hàng tuần.",
+      "turns": [
+        { "speaker": "a", "en": "You need to submit a weekly report.", "vi": "Bạn cần nộp báo cáo hàng tuần." },
+        { "speaker": "b", "en": "What should it include?", "vi": "Báo cáo cần có những gì ạ?" },
+        { "speaker": "a", "en": "Your tasks, progress, and any blockers.", "vi": "Công việc của bạn, tiến độ, và các vướng mắc." },
+        { "speaker": "b", "en": "When is it due?", "vi": "Hạn nộp là khi nào ạ?" },
+        { "speaker": "a", "en": "Every Friday afternoon.", "vi": "Chiều thứ Sáu hàng tuần." },
+        { "speaker": "b", "en": "Got it, thank you.", "vi": "Rõ rồi, cảm ơn bạn." }
+      ]},
+    { "title": "Nhân viên mới cảm thấy choáng ngợp", "situation": "Nhân viên mới cảm thấy quá tải với thông tin.",
+      "turns": [
+        { "speaker": "a", "en": "How are you feeling about everything so far?", "vi": "Bạn thấy mọi thứ tới giờ thế nào?" },
+        { "speaker": "b", "en": "Honestly, a bit overwhelmed.", "vi": "Thật lòng thì hơi choáng ngợp." },
+        { "speaker": "a", "en": "That is completely normal.", "vi": "Vậy là hoàn toàn bình thường mà." },
+        { "speaker": "b", "en": "That is reassuring to hear.", "vi": "Nghe vậy tôi cũng yên tâm hơn." },
+        { "speaker": "a", "en": "Take it one step at a time.", "vi": "Cứ làm từng bước một thôi." },
+        { "speaker": "b", "en": "Thank you, I will try that.", "vi": "Cảm ơn bạn, tôi sẽ thử cách đó." }
+      ]},
+    { "title": "Nhân viên mới đề xuất ý tưởng", "situation": "Nhân viên mới mạnh dạn đề xuất một ý tưởng cải tiến.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any thoughts on our process?", "vi": "Bạn có ý kiến gì về quy trình của chúng ta không?" },
+        { "speaker": "b", "en": "Actually, I have a suggestion.", "vi": "Thật ra tôi có một đề xuất." },
+        { "speaker": "a", "en": "Please, go ahead.", "vi": "Mời bạn cứ nói." },
+        { "speaker": "b", "en": "Maybe we could automate the data entry.", "vi": "Có lẽ mình có thể tự động hoá việc nhập liệu." },
+        { "speaker": "a", "en": "That is a great idea, thank you.", "vi": "Ý tưởng hay đấy, cảm ơn bạn." },
+        { "speaker": "b", "en": "I am glad it was helpful.", "vi": "Tôi vui vì nó hữu ích." }
+      ]},
+    { "title": "Hướng dẫn toàn diện trong tuần đầu phức tạp", "situation": "Bạn hướng dẫn nhân viên mới qua nhiều quy trình phức tạp trong tuần đầu. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Today we will cover the approval workflow.", "vi": "Hôm nay chúng ta sẽ tìm hiểu quy trình phê duyệt." },
+        { "speaker": "b", "en": "This seems more complex than yesterday's topic.", "vi": "Cái này có vẻ phức tạp hơn chủ đề hôm qua." },
+        { "speaker": "a", "en": "It is, but I will break it into steps.", "vi": "Đúng vậy, nhưng tôi sẽ chia nhỏ thành từng bước." },
+        { "speaker": "b", "en": "That would help a lot.", "vi": "Vậy giúp ích nhiều lắm." },
+        { "speaker": "a", "en": "First, submit the request, then wait for two approvals.", "vi": "Đầu tiên gửi yêu cầu, sau đó chờ hai lượt phê duyệt." },
+        { "speaker": "b", "en": "I think I understand now, thank you for your patience.", "vi": "Tôi nghĩ giờ tôi đã hiểu rồi, cảm ơn bạn đã kiên nhẫn." }
+      ]}
+  ]
+}

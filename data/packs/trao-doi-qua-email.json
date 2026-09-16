@@ -1,0 +1,96 @@
+{
+  "id": "trao-doi-qua-email",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Yêu cầu thông tin qua email", "situation": "Bạn hỏi thông tin từ đồng nghiệp chi nhánh khác.",
+      "turns": [
+        { "speaker": "a", "en": "Could you send me the latest sales figures?", "vi": "Bạn gửi tôi số liệu bán hàng mới nhất được không?" },
+        { "speaker": "b", "en": "Sure, I will send them today.", "vi": "Được, hôm nay tôi sẽ gửi." },
+        { "speaker": "a", "en": "Thank you, that is much appreciated.", "vi": "Cảm ơn bạn, tôi thật sự cảm kích." },
+        { "speaker": "b", "en": "No problem, happy to help.", "vi": "Không sao, tôi vui lòng giúp mà." },
+        { "speaker": "a", "en": "Let me know if you need anything from our side.", "vi": "Nếu cần gì từ phía chúng tôi cứ báo nhé." },
+        { "speaker": "b", "en": "Will do, thanks.", "vi": "Tôi sẽ báo, cảm ơn." }
+      ]},
+    { "title": "Xác nhận đã nhận email", "situation": "Bạn xác nhận đã nhận được email quan trọng.",
+      "turns": [
+        { "speaker": "a", "en": "Did you receive my email from yesterday?", "vi": "Bạn có nhận được email hôm qua của tôi không?" },
+        { "speaker": "b", "en": "Yes, I received it this morning.", "vi": "Có, sáng nay tôi nhận được rồi." },
+        { "speaker": "a", "en": "Great, please review it when you can.", "vi": "Tốt, khi nào rảnh bạn xem qua nhé." },
+        { "speaker": "b", "en": "I will look at it this afternoon.", "vi": "Chiều nay tôi sẽ xem." },
+        { "speaker": "a", "en": "Thank you, let me know your thoughts.", "vi": "Cảm ơn, có ý kiến gì cứ cho tôi biết." },
+        { "speaker": "b", "en": "I will reply by tomorrow.", "vi": "Mai tôi sẽ trả lời." }
+      ]},
+    { "title": "Xin lỗi vì phản hồi email chậm", "situation": "Bạn xin lỗi vì trả lời email trễ.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry for the late reply.", "vi": "Xin lỗi vì trả lời trễ." },
+        { "speaker": "b", "en": "No worries, I understand you are busy.", "vi": "Không sao, tôi hiểu bạn bận mà." },
+        { "speaker": "a", "en": "I have attached the file you requested.", "vi": "Tôi đã đính kèm tệp bạn yêu cầu." },
+        { "speaker": "b", "en": "Thank you, I will check it now.", "vi": "Cảm ơn bạn, giờ tôi sẽ kiểm tra." },
+        { "speaker": "a", "en": "Let me know if it looks correct.", "vi": "Nếu đúng thì cứ báo tôi nhé." },
+        { "speaker": "b", "en": "Will do, thank you.", "vi": "Tôi sẽ báo, cảm ơn bạn." }
+      ]},
+    { "title": "Trao đổi về file đính kèm bị lỗi", "situation": "File đính kèm trong email bị lỗi và cần gửi lại.",
+      "turns": [
+        { "speaker": "a", "en": "The attachment did not open properly.", "vi": "Tệp đính kèm không mở được bình thường." },
+        { "speaker": "b", "en": "Sorry about that, let me resend it.", "vi": "Xin lỗi về việc đó, để tôi gửi lại." },
+        { "speaker": "a", "en": "Thank you, I will check again.", "vi": "Cảm ơn bạn, tôi sẽ kiểm tra lại." },
+        { "speaker": "b", "en": "Please confirm once you receive it.", "vi": "Nhận được rồi thì xác nhận giúp tôi nhé." },
+        { "speaker": "a", "en": "Got it, it opens fine now.", "vi": "Được rồi, giờ mở được bình thường." },
+        { "speaker": "b", "en": "Great, glad it worked.", "vi": "Tốt, vui vì nó hoạt động rồi." }
+      ]},
+    { "title": "Nhắc lại email chưa được trả lời", "situation": "Bạn nhắc nhở đồng nghiệp về một email chưa được trả lời.",
+      "turns": [
+        { "speaker": "a", "en": "Just following up on my previous email.", "vi": "Tôi chỉ nhắc lại email trước đó thôi." },
+        { "speaker": "b", "en": "Sorry, it slipped my mind.", "vi": "Xin lỗi, tôi lỡ quên mất." },
+        { "speaker": "a", "en": "No problem, when can you get back to me?", "vi": "Không sao, khi nào bạn phản hồi được?" },
+        { "speaker": "b", "en": "I will reply by end of day.", "vi": "Cuối ngày tôi sẽ trả lời." },
+        { "speaker": "a", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "Sorry again for the delay.", "vi": "Xin lỗi lần nữa vì sự chậm trễ." }
+      ]},
+    { "title": "Đề nghị chuyển email sang gọi điện", "situation": "Vấn đề phức tạp nên bạn đề nghị gọi điện thay vì email.",
+      "turns": [
+        { "speaker": "a", "en": "This might be easier to discuss on a call.", "vi": "Chuyện này có lẽ dễ bàn hơn qua điện thoại." },
+        { "speaker": "b", "en": "I agree, email is getting complicated.", "vi": "Tôi đồng ý, email đang trở nên rối rắm." },
+        { "speaker": "a", "en": "Are you free this afternoon?", "vi": "Chiều nay bạn rảnh không?" },
+        { "speaker": "b", "en": "Yes, around 3pm works.", "vi": "Có, khoảng 3 giờ chiều được." },
+        { "speaker": "a", "en": "Great, I will call you then.", "vi": "Tuyệt, lúc đó tôi sẽ gọi bạn." },
+        { "speaker": "b", "en": "Sounds good, talk then.", "vi": "Nghe được đấy, hẹn lúc đó." }
+      ]},
+    { "title": "Gửi email với thông tin bổ sung", "situation": "Bạn bổ sung thêm thông tin vào email trước đó.",
+      "turns": [
+        { "speaker": "a", "en": "I forgot to mention something in my last email.", "vi": "Tôi quên đề cập điều gì đó trong email trước." },
+        { "speaker": "b", "en": "No problem, what did you want to add?", "vi": "Không sao, bạn muốn bổ sung gì vậy?" },
+        { "speaker": "a", "en": "The deadline has been moved up.", "vi": "Hạn chót đã được đẩy lên sớm hơn." },
+        { "speaker": "b", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã cho biết." },
+        { "speaker": "a", "en": "I will send the updated schedule too.", "vi": "Tôi sẽ gửi cả lịch trình cập nhật nữa." },
+        { "speaker": "b", "en": "That would be helpful.", "vi": "Vậy sẽ hữu ích lắm." }
+      ]},
+    { "title": "Giải quyết bất đồng qua email", "situation": "Hai bên có ý kiến khác nhau qua email và cần thống nhất.",
+      "turns": [
+        { "speaker": "a", "en": "I disagree with the proposed timeline.", "vi": "Tôi không đồng ý với tiến độ được đề xuất." },
+        { "speaker": "b", "en": "Could you explain your concern?", "vi": "Bạn giải thích mối lo ngại được không?" },
+        { "speaker": "a", "en": "Two weeks seems too short.", "vi": "Hai tuần có vẻ quá ngắn." },
+        { "speaker": "b", "en": "We could extend it to three weeks.", "vi": "Mình có thể gia hạn thành ba tuần." },
+        { "speaker": "a", "en": "That works better for our team.", "vi": "Vậy hợp với nhóm chúng tôi hơn." },
+        { "speaker": "b", "en": "Great, I will update the plan.", "vi": "Tuyệt, tôi sẽ cập nhật kế hoạch." }
+      ]},
+    { "title": "Yêu cầu xác nhận trước khi tiến hành", "situation": "Bạn cần xác nhận từ đồng nghiệp trước khi tiến hành công việc.",
+      "turns": [
+        { "speaker": "a", "en": "Can you confirm before I proceed?", "vi": "Bạn xác nhận trước khi tôi tiến hành được không?" },
+        { "speaker": "b", "en": "Yes, everything looks correct.", "vi": "Được, mọi thứ đều đúng cả." },
+        { "speaker": "a", "en": "Great, I will start right away.", "vi": "Tuyệt, tôi sẽ bắt đầu ngay." },
+        { "speaker": "b", "en": "Let me know once it is done.", "vi": "Xong thì báo tôi nhé." },
+        { "speaker": "a", "en": "I will send an update by email.", "vi": "Tôi sẽ gửi cập nhật qua email." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Hoàn hảo, cảm ơn bạn." }
+      ]},
+    { "title": "Trao đổi email phức tạp với nhiều bên và hiểu lầm cần làm rõ", "situation": "Nhiều bên trao đổi email cùng lúc gây hiểu lầm cần làm rõ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I think there was some confusion in the thread.", "vi": "Tôi nghĩ chuỗi email này có sự hiểu lầm nào đó." },
+        { "speaker": "b", "en": "Yes, some people thought the deadline was final.", "vi": "Vâng, một số người tưởng hạn chót là cố định." },
+        { "speaker": "a", "en": "Let me send a clarifying email to everyone.", "vi": "Để tôi gửi email làm rõ cho mọi người." },
+        { "speaker": "b", "en": "That would help avoid further confusion.", "vi": "Vậy sẽ giúp tránh hiểu lầm thêm." },
+        { "speaker": "a", "en": "I will cc both branches this time.", "vi": "Lần này tôi sẽ cc cả hai chi nhánh." },
+        { "speaker": "b", "en": "Good idea, that should settle it.", "vi": "Ý hay, vậy chắc sẽ giải quyết được." }
+      ]}
+  ]
+}

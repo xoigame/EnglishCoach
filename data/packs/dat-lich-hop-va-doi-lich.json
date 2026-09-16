@@ -1,0 +1,96 @@
+{
+  "id": "dat-lich-hop-va-doi-lich",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Đặt lịch họp mới", "situation": "Bạn đặt một cuộc họp mới với trợ lý của đối tác.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to schedule a meeting next week.", "vi": "Tôi muốn đặt lịch họp vào tuần sau." },
+        { "speaker": "b", "en": "Sure, what day works for you?", "vi": "Được, ngày nào phù hợp với bạn ạ?" },
+        { "speaker": "a", "en": "Tuesday afternoon would be ideal.", "vi": "Chiều thứ Ba thì lý tưởng." },
+        { "speaker": "b", "en": "Let me check availability.", "vi": "Để tôi kiểm tra lịch trống." },
+        { "speaker": "a", "en": "Thank you, I appreciate it.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "Tuesday at 3pm is open.", "vi": "Thứ Ba lúc 3 giờ chiều còn trống." }
+      ]},
+    { "title": "Xác nhận lịch họp", "situation": "Bạn xác nhận lại thời gian cuộc họp đã đặt.",
+      "turns": [
+        { "speaker": "a", "en": "I am calling to confirm our meeting.", "vi": "Tôi gọi để xác nhận lại cuộc họp của chúng ta." },
+        { "speaker": "b", "en": "Yes, it is scheduled for Wednesday.", "vi": "Vâng, đã lên lịch vào thứ Tư." },
+        { "speaker": "a", "en": "What time exactly?", "vi": "Chính xác là mấy giờ vậy?" },
+        { "speaker": "b", "en": "10am, in the main conference room.", "vi": "10 giờ sáng, tại phòng họp chính." },
+        { "speaker": "a", "en": "Perfect, that works for me.", "vi": "Hoàn hảo, vậy được với tôi." },
+        { "speaker": "b", "en": "Great, see you then.", "vi": "Tuyệt, hẹn gặp lúc đó." }
+      ]},
+    { "title": "Đề nghị đổi lịch họp", "situation": "Bạn cần dời cuộc họp sang thời điểm khác.",
+      "turns": [
+        { "speaker": "a", "en": "I need to reschedule our meeting.", "vi": "Tôi cần dời cuộc họp của chúng ta." },
+        { "speaker": "b", "en": "No problem, what day suits you?", "vi": "Không sao, ngày nào phù hợp với bạn ạ?" },
+        { "speaker": "a", "en": "Could we move it to Friday?", "vi": "Mình chuyển sang thứ Sáu được không?" },
+        { "speaker": "b", "en": "Let me check that day.", "vi": "Để tôi kiểm tra ngày đó." },
+        { "speaker": "a", "en": "Thank you for accommodating.", "vi": "Cảm ơn bạn đã sắp xếp cho." },
+        { "speaker": "b", "en": "Friday at 2pm works.", "vi": "Thứ Sáu lúc 2 giờ chiều được đấy." }
+      ]},
+    { "title": "Hỏi lịch trống của đối tác", "situation": "Bạn hỏi lịch trống của đối tác để chọn ngày họp.",
+      "turns": [
+        { "speaker": "a", "en": "What does your calendar look like this week?", "vi": "Lịch tuần này của bạn thế nào?" },
+        { "speaker": "b", "en": "I am fairly open on Thursday.", "vi": "Thứ Năm tôi khá rảnh." },
+        { "speaker": "a", "en": "Does 11am work?", "vi": "11 giờ sáng được không?" },
+        { "speaker": "b", "en": "Yes, that works well.", "vi": "Được, giờ đó ổn đấy." },
+        { "speaker": "a", "en": "I will send a calendar invite.", "vi": "Tôi sẽ gửi lời mời trên lịch." },
+        { "speaker": "b", "en": "Sounds good, thank you.", "vi": "Nghe được đấy, cảm ơn bạn." }
+      ]},
+    { "title": "Xin lỗi vì đổi lịch gấp", "situation": "Bạn xin lỗi vì phải đổi lịch họp gấp gáp.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry for the short notice.", "vi": "Xin lỗi vì báo gấp quá." },
+        { "speaker": "b", "en": "That is okay, what happened?", "vi": "Không sao, có chuyện gì vậy?" },
+        { "speaker": "a", "en": "Something urgent came up.", "vi": "Có việc gấp phát sinh." },
+        { "speaker": "b", "en": "I understand, let us find a new time.", "vi": "Tôi hiểu mà, mình tìm giờ khác nhé." },
+        { "speaker": "a", "en": "Thank you for your flexibility.", "vi": "Cảm ơn bạn đã linh hoạt." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Kiểm tra múi giờ khác nhau", "situation": "Bạn kiểm tra múi giờ vì đối tác ở nước khác.",
+      "turns": [
+        { "speaker": "a", "en": "What time zone are you in?", "vi": "Bạn ở múi giờ nào vậy?" },
+        { "speaker": "b", "en": "I am in the Bangkok time zone.", "vi": "Tôi ở múi giờ Bangkok." },
+        { "speaker": "a", "en": "So 9am your time is 10am mine.", "vi": "Vậy 9 giờ sáng bên bạn là 10 giờ sáng bên tôi." },
+        { "speaker": "b", "en": "Exactly, that should work.", "vi": "Chính xác, vậy chắc là ổn." },
+        { "speaker": "a", "en": "Great, I will confirm the invite.", "vi": "Tuyệt, tôi sẽ xác nhận lời mời." },
+        { "speaker": "b", "en": "Thank you, see you then.", "vi": "Cảm ơn bạn, hẹn gặp lúc đó." }
+      ]},
+    { "title": "Hủy lịch họp", "situation": "Bạn cần hủy một cuộc họp đã lên lịch.",
+      "turns": [
+        { "speaker": "a", "en": "I need to cancel our meeting tomorrow.", "vi": "Tôi cần hủy cuộc họp ngày mai của chúng ta." },
+        { "speaker": "b", "en": "Okay, is everything alright?", "vi": "Được, mọi việc vẫn ổn chứ?" },
+        { "speaker": "a", "en": "Yes, just a scheduling conflict.", "vi": "Vâng, chỉ là bị trùng lịch thôi." },
+        { "speaker": "b", "en": "No problem, let us reschedule later.", "vi": "Không sao, để sau mình sắp lại lịch nhé." },
+        { "speaker": "a", "en": "I will follow up next week.", "vi": "Tuần sau tôi sẽ liên hệ lại." },
+        { "speaker": "b", "en": "Sounds good, thank you.", "vi": "Nghe được đấy, cảm ơn bạn." }
+      ]},
+    { "title": "Đặt lịch họp gấp trong ngày", "situation": "Bạn cần đặt một cuộc họp gấp ngay trong ngày hôm nay.",
+      "turns": [
+        { "speaker": "a", "en": "Is there any chance to meet today?", "vi": "Có khả năng gặp nhau hôm nay không?" },
+        { "speaker": "b", "en": "It is urgent, I take it?", "vi": "Chắc là gấp lắm nhỉ?" },
+        { "speaker": "a", "en": "Yes, quite urgent actually.", "vi": "Vâng, khá gấp đấy." },
+        { "speaker": "b", "en": "I can fit you in at 4pm.", "vi": "Tôi có thể sắp xếp lúc 4 giờ chiều." },
+        { "speaker": "a", "en": "That works, thank you for accommodating.", "vi": "Được đấy, cảm ơn bạn đã sắp xếp." },
+        { "speaker": "b", "en": "No problem, see you at 4.", "vi": "Không sao, hẹn gặp lúc 4 giờ." }
+      ]},
+    { "title": "Đề xuất họp định kỳ", "situation": "Bạn đề xuất thiết lập cuộc họp định kỳ hàng tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Should we set up a recurring meeting?", "vi": "Mình thiết lập cuộc họp định kỳ được không?" },
+        { "speaker": "b", "en": "That sounds efficient.", "vi": "Nghe hiệu quả đấy." },
+        { "speaker": "a", "en": "Every Monday at 9am, perhaps?", "vi": "Có lẽ mỗi thứ Hai lúc 9 giờ sáng?" },
+        { "speaker": "b", "en": "That works well for me.", "vi": "Vậy hợp với tôi đấy." },
+        { "speaker": "a", "en": "I will send a recurring invite.", "vi": "Tôi sẽ gửi lời mời định kỳ." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Hoàn hảo, cảm ơn bạn." }
+      ]},
+    { "title": "Xử lý xung đột lịch nhiều bên phức tạp", "situation": "Nhiều bên tham gia có lịch trùng nhau, cần tìm giải pháp phù hợp cho tất cả. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Three people have conflicts with the proposed time.", "vi": "Ba người bị trùng lịch với giờ đề xuất." },
+        { "speaker": "b", "en": "Let us look for an alternative slot.", "vi": "Mình tìm khung giờ khác vậy." },
+        { "speaker": "a", "en": "Everyone seems free on Wednesday morning.", "vi": "Có vẻ mọi người đều rảnh vào sáng thứ Tư." },
+        { "speaker": "b", "en": "Except one person who is traveling then.", "vi": "Trừ một người đang đi công tác lúc đó." },
+        { "speaker": "a", "en": "Could that person join remotely instead?", "vi": "Người đó có thể tham gia từ xa thay vào không?" },
+        { "speaker": "b", "en": "Yes, that should solve the conflict.", "vi": "Được, vậy sẽ giải quyết được xung đột lịch." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "mo-ta-trieu-chung-voi-bac-si",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Mô tả triệu chứng cảm cúm", "situation": "Bệnh nhân mô tả triệu chứng cảm cúm với bác sĩ.",
+      "turns": [
+        { "speaker": "a", "en": "What symptoms are you experiencing?", "vi": "Bạn đang gặp triệu chứng gì vậy?" },
+        { "speaker": "b", "en": "I have a fever and a sore throat.", "vi": "Tôi bị sốt và đau họng." },
+        { "speaker": "a", "en": "How long have you had these symptoms?", "vi": "Bạn bị các triệu chứng này bao lâu rồi?" },
+        { "speaker": "b", "en": "Since yesterday evening.", "vi": "Từ tối hôm qua." },
+        { "speaker": "a", "en": "Let me check your temperature.", "vi": "Để tôi đo nhiệt độ cho bạn." },
+        { "speaker": "b", "en": "Okay, thank you doctor.", "vi": "Vâng, cảm ơn bác sĩ." }
+      ]},
+    { "title": "Mô tả cơn đau đầu", "situation": "Bệnh nhân mô tả cơn đau đầu kéo dài.",
+      "turns": [
+        { "speaker": "a", "en": "Can you describe the headache?", "vi": "Bạn mô tả cơn đau đầu được không?" },
+        { "speaker": "b", "en": "It is a dull pain on one side.", "vi": "Đó là cơn đau âm ỉ ở một bên đầu." },
+        { "speaker": "a", "en": "How often does it happen?", "vi": "Việc này xảy ra thường xuyên cỡ nào?" },
+        { "speaker": "b", "en": "Almost every afternoon.", "vi": "Gần như mỗi buổi chiều." },
+        { "speaker": "a", "en": "Does light or noise make it worse?", "vi": "Ánh sáng hay tiếng ồn có làm nó nặng hơn không?" },
+        { "speaker": "b", "en": "Yes, bright light makes it worse.", "vi": "Có, ánh sáng chói làm nó nặng hơn." }
+      ]},
+    { "title": "Mô tả đau bụng", "situation": "Bệnh nhân mô tả cơn đau bụng cho bác sĩ.",
+      "turns": [
+        { "speaker": "a", "en": "Where exactly does it hurt?", "vi": "Chính xác chỗ nào đau vậy?" },
+        { "speaker": "b", "en": "Around my lower abdomen.", "vi": "Xung quanh vùng bụng dưới." },
+        { "speaker": "a", "en": "Is the pain sharp or dull?", "vi": "Cơn đau nhói hay âm ỉ vậy?" },
+        { "speaker": "b", "en": "It comes and goes, sharp at times.", "vi": "Nó lúc có lúc không, đôi khi nhói lên." },
+        { "speaker": "a", "en": "Have you eaten anything unusual?", "vi": "Bạn có ăn gì lạ không?" },
+        { "speaker": "b", "en": "I had street food yesterday.", "vi": "Hôm qua tôi ăn đồ ăn đường phố." }
+      ]},
+    { "title": "Hỏi về thuốc đang dùng", "situation": "Bác sĩ hỏi về thuốc bệnh nhân đang dùng.",
+      "turns": [
+        { "speaker": "a", "en": "Are you currently taking any medication?", "vi": "Hiện bạn có đang dùng thuốc gì không?" },
+        { "speaker": "b", "en": "Just vitamins, nothing else.", "vi": "Chỉ vitamin thôi, không có gì khác." },
+        { "speaker": "a", "en": "Any allergies I should know about?", "vi": "Bạn có dị ứng gì tôi cần biết không?" },
+        { "speaker": "b", "en": "I am allergic to penicillin.", "vi": "Tôi bị dị ứng với penicillin." },
+        { "speaker": "a", "en": "Thank you, I will note that.", "vi": "Cảm ơn bạn, tôi sẽ ghi chú lại." },
+        { "speaker": "b", "en": "I appreciate you asking.", "vi": "Tôi cảm kích vì bác sĩ đã hỏi." }
+      ]},
+    { "title": "Mô tả triệu chứng mất ngủ", "situation": "Bệnh nhân mô tả tình trạng mất ngủ.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about your sleep patterns.", "vi": "Hãy kể cho tôi nghe về giấc ngủ của bạn." },
+        { "speaker": "b", "en": "I have trouble falling asleep.", "vi": "Tôi khó ngủ." },
+        { "speaker": "a", "en": "How many hours do you sleep?", "vi": "Bạn ngủ được bao nhiêu tiếng?" },
+        { "speaker": "b", "en": "Maybe four hours a night.", "vi": "Có lẽ bốn tiếng mỗi đêm." },
+        { "speaker": "a", "en": "That is quite little.", "vi": "Vậy khá ít đấy." },
+        { "speaker": "b", "en": "Yes, it has been affecting my work.", "vi": "Vâng, nó đang ảnh hưởng đến công việc của tôi." }
+      ]},
+    { "title": "Mô tả dị ứng da", "situation": "Bệnh nhân mô tả tình trạng dị ứng da.",
+      "turns": [
+        { "speaker": "a", "en": "When did the rash appear?", "vi": "Phát ban xuất hiện khi nào vậy?" },
+        { "speaker": "b", "en": "About three days ago.", "vi": "Khoảng ba ngày trước." },
+        { "speaker": "a", "en": "Does it itch?", "vi": "Nó có ngứa không?" },
+        { "speaker": "b", "en": "Yes, quite a lot.", "vi": "Có, khá ngứa." },
+        { "speaker": "a", "en": "Have you used any new products?", "vi": "Bạn có dùng sản phẩm mới nào không?" },
+        { "speaker": "b", "en": "I tried a new soap recently.", "vi": "Gần đây tôi thử dùng loại xà phòng mới." }
+      ]},
+    { "title": "Mô tả triệu chứng kéo dài không rõ nguyên nhân", "situation": "Bệnh nhân mô tả triệu chứng kéo dài mà không rõ nguyên nhân.",
+      "turns": [
+        { "speaker": "a", "en": "This fatigue has lasted for weeks.", "vi": "Tình trạng mệt mỏi này kéo dài đã nhiều tuần rồi." },
+        { "speaker": "b", "en": "Have you noticed any pattern to it?", "vi": "Bạn có nhận thấy quy luật nào không?" },
+        { "speaker": "a", "en": "It is worse in the mornings.", "vi": "Buổi sáng nó nặng hơn." },
+        { "speaker": "b", "en": "Let us run some blood tests to check.", "vi": "Mình làm vài xét nghiệm máu để kiểm tra nhé." },
+        { "speaker": "a", "en": "How soon will I get results?", "vi": "Bao lâu tôi có kết quả vậy?" },
+        { "speaker": "b", "en": "Within two days usually.", "vi": "Thường trong vòng hai ngày." }
+      ]},
+    { "title": "Bệnh nhân lo lắng về triệu chứng", "situation": "Bệnh nhân tỏ ra lo lắng về triệu chứng của mình.",
+      "turns": [
+        { "speaker": "a", "en": "I am worried this might be serious.", "vi": "Tôi lo cái này có thể nghiêm trọng." },
+        { "speaker": "b", "en": "Let us not jump to conclusions yet.", "vi": "Mình chưa nên vội kết luận đâu." },
+        { "speaker": "a", "en": "What could this be caused by?", "vi": "Cái này có thể do nguyên nhân gì gây ra?" },
+        { "speaker": "b", "en": "It could simply be stress-related.", "vi": "Có thể đơn giản là do căng thẳng." },
+        { "speaker": "a", "en": "That is somewhat reassuring.", "vi": "Vậy tôi thấy yên tâm hơn phần nào." },
+        { "speaker": "b", "en": "We will run tests to be sure.", "vi": "Chúng ta sẽ làm xét nghiệm để chắc chắn." }
+      ]},
+    { "title": "Tái khám và báo cáo tiến triển", "situation": "Bệnh nhân tái khám và báo cáo tình trạng đã cải thiện.",
+      "turns": [
+        { "speaker": "a", "en": "How have you been feeling since last visit?", "vi": "Từ lần khám trước bạn cảm thấy thế nào?" },
+        { "speaker": "b", "en": "Much better, the pain has reduced.", "vi": "Khá hơn nhiều rồi, cơn đau đã giảm." },
+        { "speaker": "a", "en": "That is good progress.", "vi": "Vậy là tiến triển tốt đấy." },
+        { "speaker": "b", "en": "Should I continue the medication?", "vi": "Tôi có nên tiếp tục dùng thuốc không ạ?" },
+        { "speaker": "a", "en": "Yes, for one more week.", "vi": "Có, thêm một tuần nữa." },
+        { "speaker": "b", "en": "Thank you doctor.", "vi": "Cảm ơn bác sĩ." }
+      ]},
+    { "title": "Mô tả nhiều triệu chứng phức tạp cùng lúc khiến khó chẩn đoán", "situation": "Bệnh nhân mô tả nhiều triệu chứng khác nhau cùng lúc, gây khó khăn cho chẩn đoán. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I have a headache, nausea, and joint pain all at once.", "vi": "Tôi bị đau đầu, buồn nôn, và đau khớp cùng lúc." },
+        { "speaker": "b", "en": "That is quite a combination of symptoms.", "vi": "Đó là sự kết hợp triệu chứng khá phức tạp đấy." },
+        { "speaker": "a", "en": "It started suddenly two days ago.", "vi": "Nó bắt đầu đột ngột hai ngày trước." },
+        { "speaker": "b", "en": "Have you traveled anywhere recently?", "vi": "Gần đây bạn có đi du lịch ở đâu không?" },
+        { "speaker": "a", "en": "Yes, I visited a rural area last week.", "vi": "Có, tuần trước tôi tới một vùng nông thôn." },
+        { "speaker": "b", "en": "That is important information, let us run further tests.", "vi": "Đó là thông tin quan trọng, mình làm thêm xét nghiệm nhé." }
+      ]}
+  ]
+}

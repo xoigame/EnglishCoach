@@ -1,0 +1,96 @@
+{
+  "id": "tham-gia-hop-online",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Vào họp trễ và xin lỗi", "situation": "Bạn vào cuộc họp online trễ và xin lỗi mọi người.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry I am late, my connection was slow.", "vi": "Xin lỗi tôi vào trễ, kết nối mạng của tôi chậm." },
+        { "speaker": "b", "en": "No worries, we just started.", "vi": "Không sao, chúng tôi vừa mới bắt đầu." },
+        { "speaker": "a", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "Let me quickly recap what we covered.", "vi": "Để tôi tóm tắt nhanh những gì đã bàn." },
+        { "speaker": "a", "en": "I appreciate that.", "vi": "Tôi cảm kích điều đó." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Gặp sự cố âm thanh", "situation": "Micro của bạn bị lỗi trong cuộc họp.",
+      "turns": [
+        { "speaker": "a", "en": "Can everyone hear me okay?", "vi": "Mọi người nghe tôi rõ không?" },
+        { "speaker": "b", "en": "Your audio is a bit choppy.", "vi": "Âm thanh của bạn hơi bị ngắt quãng." },
+        { "speaker": "a", "en": "Let me try a different microphone.", "vi": "Để tôi thử micro khác." },
+        { "speaker": "b", "en": "Sure, take your time.", "vi": "Được, bạn cứ từ từ." },
+        { "speaker": "a", "en": "Is this better now?", "vi": "Giờ có tốt hơn không?" },
+        { "speaker": "b", "en": "Yes, much clearer now.", "vi": "Có, rõ hơn nhiều rồi." }
+      ]},
+    { "title": "Chia sẻ màn hình", "situation": "Bạn cần chia sẻ màn hình để trình bày.",
+      "turns": [
+        { "speaker": "a", "en": "Can I share my screen now?", "vi": "Tôi chia sẻ màn hình bây giờ được không?" },
+        { "speaker": "b", "en": "Yes, go ahead.", "vi": "Được, bạn cứ làm đi." },
+        { "speaker": "a", "en": "Can you see my slides clearly?", "vi": "Mọi người thấy slide của tôi rõ không?" },
+        { "speaker": "b", "en": "Yes, it looks good.", "vi": "Có, trông ổn đấy." },
+        { "speaker": "a", "en": "Great, let me begin then.", "vi": "Tuyệt, vậy tôi bắt đầu nhé." },
+        { "speaker": "b", "en": "Go ahead, we are listening.", "vi": "Bạn cứ nói, chúng tôi đang nghe." }
+      ]},
+    { "title": "Hỏi lại vì mất kết nối", "situation": "Bạn bị rớt mạng và hỏi lại phần vừa bỏ lỡ.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, I lost connection for a moment.", "vi": "Xin lỗi, tôi bị mất kết nối một lúc." },
+        { "speaker": "b", "en": "No problem, welcome back.", "vi": "Không sao, chào mừng bạn trở lại." },
+        { "speaker": "a", "en": "Could you repeat the last point?", "vi": "Bạn nhắc lại ý vừa rồi được không?" },
+        { "speaker": "b", "en": "Sure, we were discussing the budget.", "vi": "Được, chúng tôi đang bàn về ngân sách." },
+        { "speaker": "a", "en": "Thank you for catching me up.", "vi": "Cảm ơn bạn đã cập nhật lại cho tôi." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Đề nghị chuyển sang chat", "situation": "Bạn đề nghị dùng khung chat vì mạng không ổn định.",
+      "turns": [
+        { "speaker": "a", "en": "My video keeps freezing.", "vi": "Video của tôi cứ bị đứng hình." },
+        { "speaker": "b", "en": "You could turn off your camera.", "vi": "Bạn có thể tắt camera đi." },
+        { "speaker": "a", "en": "Good idea, let me try that.", "vi": "Ý hay, để tôi thử." },
+        { "speaker": "b", "en": "Is the connection better now?", "vi": "Kết nối giờ có tốt hơn không?" },
+        { "speaker": "a", "en": "Yes, much more stable.", "vi": "Có, ổn định hơn nhiều." },
+        { "speaker": "b", "en": "Great, let us continue.", "vi": "Tốt, mình tiếp tục nhé." }
+      ]},
+    { "title": "Người khác nói cùng lúc", "situation": "Hai người vô tình nói cùng lúc trong cuộc họp.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, go ahead, you first.", "vi": "Xin lỗi, mời bạn nói trước." },
+        { "speaker": "b", "en": "No, please, you go first.", "vi": "Không, mời bạn nói trước đi." },
+        { "speaker": "a", "en": "Okay, I was just asking about the timeline.", "vi": "Được, tôi chỉ hỏi về tiến độ thôi." },
+        { "speaker": "b", "en": "We are still on schedule.", "vi": "Chúng tôi vẫn đúng tiến độ." },
+        { "speaker": "a", "en": "Good to hear.", "vi": "Nghe vậy tốt quá." },
+        { "speaker": "b", "en": "What did you want to add?", "vi": "Bạn muốn bổ sung gì vậy?" }
+      ]},
+    { "title": "Yêu cầu ghi âm cuộc họp", "situation": "Bạn xin phép ghi âm để xem lại sau.",
+      "turns": [
+        { "speaker": "a", "en": "Would it be okay to record this meeting?", "vi": "Ghi âm cuộc họp này có được không ạ?" },
+        { "speaker": "b", "en": "Sure, that is fine with me.", "vi": "Được, tôi không phiền đâu." },
+        { "speaker": "a", "en": "I will share the recording afterward.", "vi": "Sau đó tôi sẽ chia sẻ bản ghi âm." },
+        { "speaker": "b", "en": "That would be helpful, thank you.", "vi": "Vậy hữu ích lắm, cảm ơn bạn." },
+        { "speaker": "a", "en": "No problem, I will send it by email.", "vi": "Không sao, tôi sẽ gửi qua email." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Kết thúc cuộc họp sớm", "situation": "Cuộc họp kết thúc sớm hơn dự kiến.",
+      "turns": [
+        { "speaker": "a", "en": "I think we have covered everything.", "vi": "Tôi nghĩ chúng ta đã bàn hết mọi thứ rồi." },
+        { "speaker": "b", "en": "Yes, that saves us some time.", "vi": "Đúng vậy, vậy tiết kiệm được thời gian." },
+        { "speaker": "a", "en": "Any final questions before we end?", "vi": "Ai có câu hỏi cuối cùng trước khi kết thúc không?" },
+        { "speaker": "b", "en": "No, everything is clear.", "vi": "Không, mọi thứ đều rõ ràng rồi." },
+        { "speaker": "a", "en": "Great, thanks everyone for joining.", "vi": "Tuyệt, cảm ơn mọi người đã tham gia." },
+        { "speaker": "b", "en": "Thank you, see you next time.", "vi": "Cảm ơn, hẹn gặp lại lần sau." }
+      ]},
+    { "title": "Xử lý im lặng kéo dài", "situation": "Có sự im lặng kéo dài do lỗi kỹ thuật.",
+      "turns": [
+        { "speaker": "a", "en": "Hello, can anyone hear me?", "vi": "Xin chào, có ai nghe được tôi không?" },
+        { "speaker": "b", "en": "Yes, we can hear you now.", "vi": "Có, giờ chúng tôi nghe được rồi." },
+        { "speaker": "a", "en": "Sorry, there seemed to be a delay.", "vi": "Xin lỗi, hình như có độ trễ." },
+        { "speaker": "b", "en": "It happens sometimes with this platform.", "vi": "Nền tảng này thỉnh thoảng vẫn vậy." },
+        { "speaker": "a", "en": "Let us continue then.", "vi": "Vậy mình tiếp tục nhé." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Xử lý nhiều sự cố kỹ thuật liên tiếp trong họp quan trọng", "situation": "Nhiều sự cố kỹ thuật xảy ra liên tiếp trong một cuộc họp quan trọng với đối tác. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, my screen share is not working now.", "vi": "Xin lỗi, chia sẻ màn hình của tôi không hoạt động." },
+        { "speaker": "b", "en": "Try restarting the app quickly.", "vi": "Thử khởi động lại ứng dụng xem sao." },
+        { "speaker": "a", "en": "Okay, and now my audio cut out too.", "vi": "Được, mà giờ âm thanh của tôi cũng bị mất luôn." },
+        { "speaker": "b", "en": "We can wait a moment while you fix it.", "vi": "Chúng tôi có thể đợi trong lúc bạn khắc phục." },
+        { "speaker": "a", "en": "Thank you, everything should work now.", "vi": "Cảm ơn, giờ mọi thứ chắc đã ổn rồi." },
+        { "speaker": "b", "en": "Great, let us pick up where we left off.", "vi": "Tuyệt, mình tiếp tục từ chỗ đã dừng nhé." }
+      ]}
+  ]
+}

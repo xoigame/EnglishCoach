@@ -1,0 +1,96 @@
+{
+  "id": "giai-thich-quy-trinh",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Giải thích quy trình đặt hàng", "situation": "Bạn giải thích quy trình đặt hàng cho đồng nghiệp mới.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain the ordering process?", "vi": "Bạn giải thích quy trình đặt hàng được không?" },
+        { "speaker": "b", "en": "Sure, first you submit a request form.", "vi": "Được, đầu tiên bạn nộp mẫu yêu cầu." },
+        { "speaker": "a", "en": "Then what happens?", "vi": "Sau đó thì sao?" },
+        { "speaker": "b", "en": "The manager approves it within a day.", "vi": "Quản lý sẽ duyệt trong một ngày." },
+        { "speaker": "a", "en": "That sounds straightforward.", "vi": "Nghe khá đơn giản đấy." },
+        { "speaker": "b", "en": "Yes, it is quite simple.", "vi": "Vâng, khá đơn giản mà." }
+      ]},
+    { "title": "Giải thích quy trình từng bước", "situation": "Bạn giải thích quy trình theo từng bước rõ ràng.",
+      "turns": [
+        { "speaker": "a", "en": "Let me walk you through the steps.", "vi": "Để tôi hướng dẫn bạn từng bước." },
+        { "speaker": "b", "en": "Okay, I am ready.", "vi": "Được, tôi sẵn sàng rồi." },
+        { "speaker": "a", "en": "Step one is filling out the form.", "vi": "Bước một là điền vào mẫu đơn." },
+        { "speaker": "b", "en": "And step two?", "vi": "Còn bước hai?" },
+        { "speaker": "a", "en": "Step two is sending it for approval.", "vi": "Bước hai là gửi đi để được duyệt." },
+        { "speaker": "b", "en": "Got it, thank you.", "vi": "Rõ rồi, cảm ơn bạn." }
+      ]},
+    { "title": "Đồng nghiệp không hiểu rõ bước nào đó", "situation": "Đồng nghiệp không hiểu một bước trong quy trình.",
+      "turns": [
+        { "speaker": "a", "en": "I am not sure I understand this step.", "vi": "Tôi không chắc mình hiểu bước này." },
+        { "speaker": "b", "en": "Which part is confusing?", "vi": "Phần nào khó hiểu vậy?" },
+        { "speaker": "a", "en": "The approval process seems unclear.", "vi": "Quy trình phê duyệt có vẻ không rõ ràng." },
+        { "speaker": "b", "en": "Let me explain it differently.", "vi": "Để tôi giải thích theo cách khác." },
+        { "speaker": "a", "en": "That makes more sense now.", "vi": "Giờ nghe hợp lý hơn rồi." },
+        { "speaker": "b", "en": "Great, let me know if you need more help.", "vi": "Tốt, cần giúp gì thêm cứ báo tôi nhé." }
+      ]},
+    { "title": "So sánh quy trình cũ và mới", "situation": "Bạn so sánh quy trình cũ với quy trình mới vừa thay đổi.",
+      "turns": [
+        { "speaker": "a", "en": "How is the new process different?", "vi": "Quy trình mới khác thế nào?" },
+        { "speaker": "b", "en": "It is faster and requires less paperwork.", "vi": "Nó nhanh hơn và cần ít giấy tờ hơn." },
+        { "speaker": "a", "en": "That sounds like an improvement.", "vi": "Nghe có vẻ là một cải tiến đấy." },
+        { "speaker": "b", "en": "Yes, everyone finds it easier.", "vi": "Vâng, mọi người đều thấy dễ hơn." },
+        { "speaker": "a", "en": "When did this change happen?", "vi": "Thay đổi này diễn ra khi nào vậy?" },
+        { "speaker": "b", "en": "Just last month, actually.", "vi": "Thực ra là tháng trước thôi." }
+      ]},
+    { "title": "Giải thích quy trình xử lý lỗi", "situation": "Bạn giải thích quy trình xử lý khi hệ thống gặp lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "What do we do if the system fails?", "vi": "Nếu hệ thống bị lỗi thì mình làm gì?" },
+        { "speaker": "b", "en": "First, report it to IT immediately.", "vi": "Đầu tiên, báo ngay cho bộ phận IT." },
+        { "speaker": "a", "en": "Then what is the next step?", "vi": "Sau đó bước tiếp theo là gì?" },
+        { "speaker": "b", "en": "They will investigate and update us.", "vi": "Họ sẽ điều tra và cập nhật cho chúng ta." },
+        { "speaker": "a", "en": "How long does that usually take?", "vi": "Thường thì mất bao lâu vậy?" },
+        { "speaker": "b", "en": "Usually within a few hours.", "vi": "Thường thì trong vài giờ." }
+      ]},
+    { "title": "Yêu cầu tài liệu hướng dẫn", "situation": "Bạn hỏi xin tài liệu hướng dẫn quy trình.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a document for this process?", "vi": "Có tài liệu nào về quy trình này không?" },
+        { "speaker": "b", "en": "Yes, I will send you the link.", "vi": "Có, tôi sẽ gửi link cho bạn." },
+        { "speaker": "a", "en": "Thank you, that will help.", "vi": "Cảm ơn bạn, vậy sẽ giúp ích lắm." },
+        { "speaker": "b", "en": "It covers everything in detail.", "vi": "Nó bao gồm mọi thứ chi tiết đấy." },
+        { "speaker": "a", "en": "Perfect, I will read through it.", "vi": "Hoàn hảo, tôi sẽ đọc qua." },
+        { "speaker": "b", "en": "Let me know if anything is unclear.", "vi": "Có gì chưa rõ cứ báo tôi nhé." }
+      ]},
+    { "title": "Đề xuất đơn giản hóa quy trình", "situation": "Bạn đề xuất đơn giản hóa một quy trình rườm rà.",
+      "turns": [
+        { "speaker": "a", "en": "This process feels too complicated.", "vi": "Quy trình này có vẻ quá phức tạp." },
+        { "speaker": "b", "en": "I agree, it has too many steps.", "vi": "Tôi đồng ý, nó có quá nhiều bước." },
+        { "speaker": "a", "en": "Could we simplify it somehow?", "vi": "Mình có thể đơn giản hóa nó cách nào đó không?" },
+        { "speaker": "b", "en": "Maybe combine steps two and three.", "vi": "Có lẽ gộp bước hai và ba lại." },
+        { "speaker": "a", "en": "That sounds like a good idea.", "vi": "Nghe có vẻ là ý hay đấy." },
+        { "speaker": "b", "en": "Let us propose it to the manager.", "vi": "Mình đề xuất với quản lý nhé." }
+      ]},
+    { "title": "Giải thích quy trình cho khách hàng", "situation": "Bạn giải thích quy trình đổi trả hàng cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "How does the return process work?", "vi": "Quy trình đổi trả hàng hoạt động thế nào ạ?" },
+        { "speaker": "b", "en": "You bring the item with the receipt.", "vi": "Bạn mang món hàng cùng hóa đơn tới." },
+        { "speaker": "a", "en": "How long does the refund take?", "vi": "Hoàn tiền mất bao lâu vậy?" },
+        { "speaker": "b", "en": "Usually within five business days.", "vi": "Thường trong vòng năm ngày làm việc." },
+        { "speaker": "a", "en": "That is good to know.", "vi": "Biết vậy tốt quá." },
+        { "speaker": "b", "en": "Let me know if you need anything else.", "vi": "Cần gì thêm cứ báo tôi nhé." }
+      ]},
+    { "title": "Quy trình bị thay đổi đột ngột", "situation": "Bạn thông báo quy trình vừa bị thay đổi đột ngột.",
+      "turns": [
+        { "speaker": "a", "en": "The process changed again this morning.", "vi": "Sáng nay quy trình lại thay đổi nữa rồi." },
+        { "speaker": "b", "en": "Really? What changed exactly?", "vi": "Thật à? Chính xác là thay đổi gì vậy?" },
+        { "speaker": "a", "en": "Now we need two approvals instead of one.", "vi": "Giờ cần hai lượt phê duyệt thay vì một." },
+        { "speaker": "b", "en": "That will slow things down.", "vi": "Vậy sẽ làm chậm mọi thứ đấy." },
+        { "speaker": "a", "en": "I agree, let us raise this concern.", "vi": "Tôi đồng ý, mình nêu vấn đề này lên nhé." },
+        { "speaker": "b", "en": "Good idea, I will join you.", "vi": "Ý hay, tôi sẽ cùng bạn." }
+      ]},
+    { "title": "Giải thích quy trình phức tạp với nhiều trường hợp ngoại lệ", "situation": "Bạn giải thích một quy trình có nhiều trường hợp ngoại lệ phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What happens if the request is rejected twice?", "vi": "Nếu yêu cầu bị từ chối hai lần thì sao?" },
+        { "speaker": "b", "en": "Then it goes to a senior manager for review.", "vi": "Thì nó sẽ chuyển lên quản lý cấp cao để xem xét." },
+        { "speaker": "a", "en": "And if there is an urgent exception?", "vi": "Còn nếu có trường hợp khẩn cấp ngoại lệ thì sao?" },
+        { "speaker": "b", "en": "You can request an expedited review instead.", "vi": "Bạn có thể yêu cầu xét duyệt nhanh thay vào đó." },
+        { "speaker": "a", "en": "This is more complex than I expected.", "vi": "Cái này phức tạp hơn tôi tưởng." },
+        { "speaker": "b", "en": "I will send you a flowchart to make it clearer.", "vi": "Tôi sẽ gửi bạn sơ đồ để dễ hiểu hơn." }
+      ]}
+  ]
+}

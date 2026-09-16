@@ -1,0 +1,96 @@
+{
+  "id": "trinh-bay-y-tuong-ngan",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Mở đầu bài trình bày ngắn", "situation": "Bạn mở đầu một bài trình bày ý tưởng ngắn gọn.",
+      "turns": [
+        { "speaker": "a", "en": "Whenever you are ready, go ahead.", "vi": "Khi nào sẵn sàng thì bạn cứ trình bày." },
+        { "speaker": "b", "en": "Thank you, I will keep this brief.", "vi": "Cảm ơn, tôi sẽ trình bày ngắn gọn thôi." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "My idea is about improving onboarding.", "vi": "Ý tưởng của tôi là về cải thiện quy trình hội nhập." },
+        { "speaker": "a", "en": "Interesting, please continue.", "vi": "Thú vị đấy, mời bạn tiếp tục." },
+        { "speaker": "b", "en": "Thank you, I will.", "vi": "Cảm ơn, tôi sẽ tiếp tục." }
+      ]},
+    { "title": "Trình bày ý tưởng và nhận câu hỏi", "situation": "Bạn trình bày xong và nhận một câu hỏi từ người nghe.",
+      "turns": [
+        { "speaker": "a", "en": "That is my idea in short.", "vi": "Đó là ý tưởng của tôi tóm tắt lại." },
+        { "speaker": "b", "en": "How would this be implemented?", "vi": "Ý tưởng này sẽ được triển khai thế nào?" },
+        { "speaker": "a", "en": "We would start with a small pilot.", "vi": "Chúng ta sẽ bắt đầu với một thử nghiệm nhỏ." },
+        { "speaker": "b", "en": "That sounds reasonable.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "a", "en": "Thank you for the question.", "vi": "Cảm ơn bạn đã đặt câu hỏi." },
+        { "speaker": "b", "en": "Good presentation overall.", "vi": "Nhìn chung bài trình bày tốt đấy." }
+      ]},
+    { "title": "Nhận phản hồi tích cực", "situation": "Bạn nhận được phản hồi tích cực sau bài trình bày.",
+      "turns": [
+        { "speaker": "a", "en": "That was a clear presentation.", "vi": "Bài trình bày rất rõ ràng đấy." },
+        { "speaker": "b", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn bạn, tôi cảm kích điều đó." },
+        { "speaker": "a", "en": "I especially liked the example you gave.", "vi": "Tôi đặc biệt thích ví dụ bạn đưa ra." },
+        { "speaker": "b", "en": "I am glad it was helpful.", "vi": "Tôi vui vì nó hữu ích." },
+        { "speaker": "a", "en": "Let us move forward with this idea.", "vi": "Mình tiến hành ý tưởng này nhé." },
+        { "speaker": "b", "en": "Sounds great, thank you.", "vi": "Nghe tuyệt quá, cảm ơn bạn." }
+      ]},
+    { "title": "Nhận phản hồi trái chiều", "situation": "Một người nghe không đồng ý với ý tưởng của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "I am not sure this idea will work.", "vi": "Tôi không chắc ý tưởng này sẽ hiệu quả." },
+        { "speaker": "b", "en": "Could you tell me your concern?", "vi": "Bạn cho tôi biết mối lo ngại được không?" },
+        { "speaker": "a", "en": "It might take too much time.", "vi": "Có thể sẽ tốn quá nhiều thời gian." },
+        { "speaker": "b", "en": "That is a fair point.", "vi": "Đó là một ý kiến hợp lý." },
+        { "speaker": "a", "en": "Maybe start with a smaller version.", "vi": "Có lẽ bắt đầu với phiên bản nhỏ hơn." },
+        { "speaker": "b", "en": "That could work well.", "vi": "Vậy có thể hiệu quả đấy." }
+      ]},
+    { "title": "Trình bày ý tưởng bằng số liệu", "situation": "Bạn dùng số liệu để hỗ trợ ý tưởng của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Our data shows a 20 percent improvement.", "vi": "Số liệu của chúng tôi cho thấy cải thiện 20 phần trăm." },
+        { "speaker": "b", "en": "Where did this data come from?", "vi": "Số liệu này lấy từ đâu vậy?" },
+        { "speaker": "a", "en": "From last quarter's pilot test.", "vi": "Từ thử nghiệm quý trước." },
+        { "speaker": "b", "en": "That is convincing evidence.", "vi": "Đó là bằng chứng thuyết phục đấy." },
+        { "speaker": "a", "en": "Thank you, that is why I recommend it.", "vi": "Cảm ơn, đó là lý do tôi khuyến nghị nó." },
+        { "speaker": "b", "en": "Let us discuss it further.", "vi": "Mình bàn thêm về nó nhé." }
+      ]},
+    { "title": "Thời gian trình bày bị giới hạn", "situation": "Bạn chỉ có ít thời gian để trình bày ý tưởng.",
+      "turns": [
+        { "speaker": "a", "en": "You have three minutes to present.", "vi": "Bạn có ba phút để trình bày." },
+        { "speaker": "b", "en": "Understood, I will be quick.", "vi": "Tôi hiểu rồi, tôi sẽ nhanh gọn." },
+        { "speaker": "a", "en": "Go ahead whenever ready.", "vi": "Khi nào sẵn sàng thì cứ trình bày." },
+        { "speaker": "b", "en": "In short, we should automate this task.", "vi": "Tóm lại, chúng ta nên tự động hóa việc này." },
+        { "speaker": "a", "en": "That is a clear point.", "vi": "Điểm đó rõ ràng đấy." },
+        { "speaker": "b", "en": "Thank you for the time.", "vi": "Cảm ơn bạn đã dành thời gian." }
+      ]},
+    { "title": "Trình bày ý tưởng bị ngắt lời", "situation": "Bạn bị ngắt lời khi đang trình bày ý tưởng.",
+      "turns": [
+        { "speaker": "a", "en": "So the main benefit is time savings—", "vi": "Vậy lợi ích chính là tiết kiệm thời gian—" },
+        { "speaker": "b", "en": "Sorry to interrupt, how much time exactly?", "vi": "Xin lỗi ngắt lời, chính xác là tiết kiệm bao nhiêu thời gian?" },
+        { "speaker": "a", "en": "About two hours per week.", "vi": "Khoảng hai giờ mỗi tuần." },
+        { "speaker": "b", "en": "That is significant, please continue.", "vi": "Vậy đáng kể đấy, mời bạn tiếp tục." },
+        { "speaker": "a", "en": "Thank you, as I was saying...", "vi": "Cảm ơn, như tôi đang nói..." },
+        { "speaker": "b", "en": "Go on, we are listening.", "vi": "Bạn cứ nói tiếp, chúng tôi đang nghe." }
+      ]},
+    { "title": "Thuyết phục người nghe do dự", "situation": "Người nghe còn do dự trước ý tưởng của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "I am still on the fence about this.", "vi": "Tôi vẫn còn phân vân về việc này." },
+        { "speaker": "b", "en": "What would help you decide?", "vi": "Điều gì sẽ giúp bạn quyết định?" },
+        { "speaker": "a", "en": "Maybe a small trial run first.", "vi": "Có lẽ chạy thử nghiệm nhỏ trước." },
+        { "speaker": "b", "en": "That is a reasonable compromise.", "vi": "Đó là thỏa hiệp hợp lý đấy." },
+        { "speaker": "a", "en": "Alright, let us try it.", "vi": "Được rồi, mình thử xem sao." },
+        { "speaker": "b", "en": "Great, I will prepare the trial.", "vi": "Tuyệt, tôi sẽ chuẩn bị thử nghiệm." }
+      ]},
+    { "title": "So sánh hai ý tưởng khác nhau", "situation": "Bạn trình bày và so sánh hai phương án khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "We have two options to consider.", "vi": "Chúng ta có hai phương án để xem xét." },
+        { "speaker": "b", "en": "What is the difference between them?", "vi": "Sự khác biệt giữa hai phương án là gì?" },
+        { "speaker": "a", "en": "Option A is cheaper but slower.", "vi": "Phương án A rẻ hơn nhưng chậm hơn." },
+        { "speaker": "b", "en": "And option B?", "vi": "Còn phương án B?" },
+        { "speaker": "a", "en": "Option B is faster but costs more.", "vi": "Phương án B nhanh hơn nhưng tốn kém hơn." },
+        { "speaker": "b", "en": "Let us weigh both carefully.", "vi": "Mình cân nhắc kỹ cả hai nhé." }
+      ]},
+    { "title": "Trình bày ý tưởng với nhiều câu hỏi phản biện liên tiếp", "situation": "Bạn nhận nhiều câu hỏi phản biện khó liên tiếp sau bài trình bày. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What is the cost of implementing this?", "vi": "Chi phí để triển khai cái này là bao nhiêu?" },
+        { "speaker": "b", "en": "Roughly ten million dong for the first phase.", "vi": "Khoảng mười triệu đồng cho giai đoạn đầu." },
+        { "speaker": "a", "en": "And what if it fails?", "vi": "Nếu nó thất bại thì sao?" },
+        { "speaker": "b", "en": "We have a fallback plan in place.", "vi": "Chúng tôi đã có kế hoạch dự phòng." },
+        { "speaker": "a", "en": "How soon can we see results?", "vi": "Bao lâu thì thấy được kết quả?" },
+        { "speaker": "b", "en": "Within one month of the pilot launch.", "vi": "Trong vòng một tháng sau khi khởi động thử nghiệm." }
+      ]}
+  ]
+}
