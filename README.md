@@ -169,6 +169,8 @@ gh api -X POST repos/<user>/<repo>/pages -f build_type=workflow
 | **1 · Chuẩn bị** | Mục tiêu, từ vựng kèm IPA, mẫu câu, **lỗi người Việt hay mắc**, **cùng một ý ở hai mức trang trọng**, **khác biệt văn hoá**, lưu ý phát âm — bấm 🔊 để nghe từng mục |
 | **2 · Luyện từng câu** | Nghe mẫu (có nút 🐢 chậm) → nhắc lại vào micro → chấm %, tô đỏ từ chưa khớp |
 | **3 · Nghe chép** | **Bài nghe hiểu** (độc thoại riêng, kèm 3 câu trắc nghiệm, chữ giấu tới khi trả lời xong) rồi tới **nghe chép chính tả** từng câu |
+| **2 · Luyện từng câu** | Có thêm **trình phát cả bài liền mạch**: hai vai hai giọng, tạm dừng, tốc độ, khoảng nghỉ, 🔁 lặp lại, và chế độ *"Chỉ vai AI"* chừa khoảng lặng để bạn tự đọc lượt mình |
+| **🗺️ Sơ đồ** | Một hình gom từ vựng, mẫu câu, sắc thái và lỗi hay mắc quanh chủ đề. Bấm nhánh nào là nghe câu đó |
 | **4 · Hội thoại 1-1** | Nói chuyện liên tục với AI, sai thì được sửa **bằng giọng nói** và cho nói lại |
 | **5 · Bài tập** | Dịch Việt → Anh rồi nói ra, chấm với nhiều đáp án chấp nhận được; kèm bài về nhà |
 
@@ -185,8 +187,37 @@ Bật **Rảnh tay** ở tab ⚙️ Cài đặt thì micro tự mở ngay khi AI
 
 ### Hai chế độ hội thoại
 
-- **Kịch bản** (mặc định) — bám đúng giáo án, chấm điểm và sửa lỗi từng lượt bằng giọng nói. Chạy hoàn toàn offline, không cần API key. Cuối buổi liệt kê những từ bạn hay sai nhất.
-- **Tự do (AI trực tiếp)** — AI đóng vai và trả lời theo ý bạn nói. Mỗi lượt trả về ba phần: câu thoại (đọc lên), một câu sửa lỗi tiếng Anh ngắn (cũng đọc lên), và ghi chú tiếng Việt (hiện chữ). Cần dán API key Anthropic ở tab ⚙️ Cài đặt.
+- **Kịch bản** (mặc định) — bám đúng giáo án, chấm điểm và sửa lỗi từng lượt bằng giọng nói. Chạy hoàn toàn offline, không cần gì cả. Cuối buổi liệt kê những từ bạn hay sai nhất.
+- **Tự do** — AI đóng vai và trả lời theo ý bạn nói. Mỗi lượt trả về ba phần: câu thoại (đọc lên), một câu sửa lỗi tiếng Anh ngắn (cũng đọc lên), và ghi chú tiếng Việt (hiện chữ).
+
+#### Chế độ tự do chạy bằng Codex CLI
+
+Chạy ở máy bạn thì không cần API key nào:
+
+```bash
+node tools/serve.mjs
+```
+
+Mở `localhost:4173`, chọn chế độ **Tự do** — trang web tự dò thấy Codex và nói rõ "Đang dùng codex CLI ở máy bạn".
+
+**Vì sao không gọi `codex exec` mỗi lượt.** Đo trên máy thật: một lần `codex exec` mất **~11 giây kể cả với prompt "Reply with PONG"** — gần như toàn bộ là chi phí khởi động tiến trình, không phải thời gian suy nghĩ. Mỗi lượt 13–16 giây thì không còn là hội thoại.
+
+`codex mcp-server` giữ một tiến trình sống và có `codex-reply` để nối tiếp theo thread:
+
+| | Thời gian |
+| --- | --- |
+| Khởi tạo thread (một lần mỗi buổi) | 13,2 giây |
+| **Mỗi lượt sau đó** | **2,5 giây** |
+
+Đây là giao thức MCP chuẩn, không phải `app-server`/`exec-server` đang gắn nhãn experimental.
+
+Server chỉ bind vào `127.0.0.1`, nên không ai trong cùng mạng LAN gọi Codex qua máy bạn được. Tắt hẳn phần này bằng `node tools/serve.mjs --no-api`.
+
+Một cái bẫy đã xử lý: Codex báo hết quota bằng **một câu văn thường trong phần nội dung**, không phải lỗi JSON-RPC. Không bắt riêng thì câu *"You've hit your usage limit…"* sẽ được đọc lên như lời của nhân vật. `tools/codex-chat.mjs` nhận diện các câu đó và đổi thành thông báo tiếng Việt kèm việc cần làm.
+
+#### Hoặc dùng API key Anthropic
+
+Chỉ cần khi bạn muốn chế độ tự do chạy được **trên GitHub Pages** chứ không chỉ ở máy. Dán key ở tab ⚙️ Cài đặt — nhanh hơn Codex nhưng tốn tiền và key nằm trong `localStorage`.
 
 > ⚠️ **Về API key ở chế độ tự do:** key lưu trong `localStorage` và gọi thẳng `api.anthropic.com` từ trình duyệt (`dangerouslyAllowBrowser`). Trang tĩnh không giấu được key — **chỉ dùng key cá nhân có giới hạn chi tiêu**, đừng dùng key công ty hay key production, và đừng dán key trên máy công cộng. Nếu cần chia sẻ cho nhiều người học, hãy đặt một proxy nhỏ giữ key phía server thay vì phát key ra trình duyệt.
 
@@ -212,6 +243,8 @@ assets/js/
   speech.js                 # TTS, nhận diện giọng nói, chấm điểm, settings
   mic.js                    # một recognizer dùng chung
   coach.js                  # biến câu sai thành lời sửa để đọc lên
+  player.js                 # phát cả hội thoại: hai giọng, loop, tốc độ
+  mindmap.js                # sơ đồ tư duy của bài, vẽ bằng SVG
   lesson.js                 # render pane Chuẩn bị / Luyện câu / Nghe hiểu / Bài tập
   roleplay.js               # hội thoại 1-1 (kịch bản + AI trực tiếp)
   store.js                  # tải giáo án, bản nháp, tiến độ, schema
@@ -224,7 +257,8 @@ tools/gen-lesson.mjs        # soạn một bài
 tools/rewrite.mjs           # soạn lại một phần của một bài
 tools/doctor.mjs            # kiểm tra sức khoẻ dự án
 tools/stats.mjs             # thống kê nội dung
-tools/serve.mjs             # web server tĩnh, không phụ thuộc
+tools/serve.mjs             # web server tĩnh + API gọi Codex ở máy
+tools/codex-chat.mjs        # Codex CLI làm đối tác hội thoại (qua MCP)
 tools/generate.mjs          # prompt → CLI → JSON → file
 tools/ai-cli.mjs            # gọi CLI (codex | claude | tuỳ chỉnh)
 tools/lesson.schema.json    # JSON Schema ép model trả đúng cấu trúc
@@ -275,5 +309,6 @@ Bắt buộc: `id`, `title`, `level`, và `dialogue.turns` từ 4 lượt trở 
 ## Giới hạn đã biết
 
 - Nhận diện giọng nói chỉ chạy trên Chrome/Edge, cần HTTPS (GitHub Pages có sẵn) và cần mạng.
+- Chế độ tự do bằng Codex chỉ chạy khi mở qua `node tools/serve.mjs` ở máy bạn. Trên GitHub Pages không có server nào để gọi CLI, nên ở đó chỉ còn chế độ Kịch bản hoặc đường API key.
 - Giọng đọc phụ thuộc voice cài trên máy; chọn giọng ở tab ⚙️ Cài đặt.
 - Tiến độ và bản nháp lưu trong `localStorage` của từng trình duyệt, không đồng bộ giữa các máy.

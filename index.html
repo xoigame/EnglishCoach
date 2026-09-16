@@ -64,7 +64,7 @@
     <div id="pane-talk" class="pane">
       <div class="talk-modes">
         <label class="radio"><input type="radio" name="talkMode" value="script" checked> <b>Kịch bản</b> <small>bám giáo án, nói sai được sửa bằng giọng nói và cho nói lại — không cần API key</small></label>
-        <label class="radio"><input type="radio" name="talkMode" value="live"> <b>Tự do (AI trực tiếp)</b> <small>AI đóng vai, nghe bạn nói rồi sửa lỗi — cần API key ở tab Cài đặt</small></label>
+        <label class="radio"><input type="radio" name="talkMode" value="live"> <b>Tự do (AI trực tiếp)</b> <small>AI đóng vai, nghe bạn nói rồi sửa lỗi. Chạy <code>node tools/serve.mjs</code> ở máy để dùng Codex CLI (không tốn thêm tiền), hoặc dán API key ở tab Cài đặt</small></label>
       </div>
       <div class="roleinfo" id="roleInfo"></div>
       <div id="chatLog" class="chat"></div>
@@ -175,8 +175,9 @@
       <p id="micSupport" class="msg"></p>
     </div>
     <div class="card">
-      <h3>Chế độ hội thoại tự do (tuỳ chọn)</h3>
-      <p class="muted">Dán API key Anthropic để chat tự do với AI ngay trên trình duyệt. Key lưu trong <code>localStorage</code> của máy bạn và chỉ gửi tới api.anthropic.com. <b>Đừng dùng key công ty / key production</b> — ai mở DevTools trên máy này đều đọc được.</p>
+      <h3>Chế độ hội thoại tự do</h3>
+      <p class="muted"><b>Cách nên dùng:</b> chạy <code>node tools/serve.mjs</code> ở máy bạn rồi mở <code>localhost:4173</code>. Chế độ tự do sẽ nói chuyện qua <b>Codex CLI</b> — không cần key, không tốn thêm tiền, lượt đầu ~13 giây để mở phiên rồi mỗi lượt sau ~2,5 giây.</p>
+      <p class="muted">Cách dưới đây chỉ cần khi bạn muốn chế độ tự do chạy được cả trên GitHub Pages. Dán API key Anthropic để chat tự do với AI ngay trên trình duyệt. Key lưu trong <code>localStorage</code> của máy bạn và chỉ gửi tới api.anthropic.com. <b>Đừng dùng key công ty / key production</b> — ai mở DevTools trên máy này đều đọc được.</p>
       <label>API key <input id="apiKey" type="password" placeholder="sk-ant-..." autocomplete="off"></label>
       <div class="row"><button id="saveKey" class="primary">Lưu</button><button id="clearKey" class="ghost danger">Xoá key</button></div>
       <p id="keyMsg" class="msg"></p>

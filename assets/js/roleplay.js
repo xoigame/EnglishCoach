@@ -9,6 +9,24 @@ import { getApiKey, setProgress } from './store.js';
 
 const MODEL = 'claude-opus-5';
 
+/**
+ * Chế độ tự do có hai đường:
+ *   - Codex CLI qua tools/serve.mjs ở máy bạn — không cần API key, không tốn
+ *     thêm tiền. Lượt đầu ~13 giây để mở thread, các lượt sau ~2,5 giây.
+ *   - API key Anthropic dán trong trình duyệt — chạy được cả trên GitHub Pages
+ *     nhưng tốn tiền và key nằm trong localStorage.
+ * Có Codex thì dùng Codex.
+ */
+let localCodex = null;
+function probeLocalCodex() {
+  if (localCodex) return localCodex;
+  localCodex = fetch('api/status', { cache: 'no-store' })
+    .then(r => (r.ok ? r.json() : null))
+    .then(info => (info?.installed ? info : null))
+    .catch(() => null);
+  return localCodex;
+}
+
 export function createRoleplay({ lesson, els, onScore }) {
   const { roles, userRole, turns } = lesson.dialogue;
   const partnerRole = userRole === 'a' ? 'b' : 'a';
@@ -24,6 +42,7 @@ export function createRoleplay({ lesson, els, onScore }) {
   let alive = true;
   let autoTimer = null;
   let lastSpoken = '';
+  let threadId = '';   // phiên Codex của buổi hội thoại này
 
   /* ------------------------------------------------------------- UI bits */
 
@@ -161,10 +180,48 @@ export function createRoleplay({ lesson, els, onScore }) {
     return clientPromise;
   }
 
+  async function codexReply(userText) {
+    const thinking = bubble('ai', threadId
+      ? '<i>…Codex đang trả lời</i>'
+      : '<i>…Codex đang mở phiên hội thoại, lượt đầu hơi lâu</i>');
+    try {
+      const res = await fetch('api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ lesson, userText, threadId }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+
+      threadId = data.threadId || threadId;
+      thinking.remove();
+      lastSpoken = data.en;
+      bubble('ai', `${esc(data.en)}<span class="vi">Codex · ${(data.ms / 1000).toFixed(1).replace('.', ',')}s</span>`);
+      if (data.fix || data.tip) {
+        bubble('coach', `🧑‍🏫 ${data.fix ? `<b>${esc(data.fix)}</b><br>` : ''}${esc(data.tip)}`);
+      }
+
+      await sayAll([{ text: data.en }], { force: true });
+      if (data.fix) await sayAll([{ text: data.fix, rate: 0.82 }]);
+      status('Tới lượt bạn — bấm 🎤 và trả lời tự nhiên.');
+      armMic();
+    } catch (err) {
+      thinking.remove();
+      bubble('sys', `⚠️ ${esc(err.message)}`);
+      status('Codex không trả lời được. Thử chế độ Kịch bản.');
+    }
+  }
+
   async function liveReply(userText) {
+    const codex = await probeLocalCodex();
+    if (codex) return codexReply(userText);
+
     const key = getApiKey();
     if (!key) {
-      bubble('sys', '🔑 Chưa có API key. Vào tab ⚙️ Cài đặt để dán key, hoặc quay lại chế độ Kịch bản.');
+      bubble('sys', 'Chế độ tự do cần một trong hai:<br>' +
+        '🖥️ chạy <code>node tools/serve.mjs</code> ở máy bạn để dùng <b>Codex CLI</b> (không tốn thêm tiền), hoặc<br>' +
+        '🔑 dán API key Anthropic ở tab ⚙️ Cài đặt.<br>' +
+        'Hoặc quay lại chế độ <b>Kịch bản</b> — chạy được ở mọi nơi.');
       return;
     }
     const thinking = bubble('ai', '<i>…đang soạn câu trả lời</i>');
@@ -308,6 +365,7 @@ export function createRoleplay({ lesson, els, onScore }) {
     scores = [];
     wordHistory = [];
     history = [];
+    threadId = '';
     awaiting = false;
     pending = '';
     els.chatLog.innerHTML = '';
@@ -320,6 +378,10 @@ export function createRoleplay({ lesson, els, onScore }) {
       advanceScript();
     } else {
       bubble('sys', 'Chế độ tự do — AI đóng vai, trả lời theo ý bạn nói và sửa lỗi bằng giọng nói sau mỗi câu.');
+      probeLocalCodex().then(codex => {
+        if (codex) bubble('sys', `🖥️ Đang dùng <b>${esc(codex.cli)} CLI</b> ở máy bạn — không cần API key.`);
+        else if (getApiKey()) bubble('sys', '🔑 Đang dùng API key Anthropic trong trình duyệt.');
+      });
       partnerSays(lesson.roleplay.opener, '').then(armMic);
       status('Tới lượt bạn — bấm 🎤 và trả lời tự nhiên.');
     }
