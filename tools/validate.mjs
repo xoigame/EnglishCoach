@@ -20,7 +20,20 @@ for (const file of files) {
     if (lesson.id !== id) throw new Error(`"id" là "${lesson.id}" nhưng tên file là "${id}.json"`);
     const userTurns = lesson.dialogue.turns.filter(t => t.speaker === lesson.dialogue.userRole).length;
     if (!userTurns) throw new Error('người học không có lượt nói nào (kiểm tra "userRole").');
-    console.log(`✅ ${file}  ${lesson.level}  ${lesson.dialogue.turns.length} lượt  ${lesson.vocab.length} từ`);
+
+    // Bài nghe hiểu: câu hỏi phải có đáp án nằm trong danh sách lựa chọn.
+    for (const [i, q] of (lesson.listening?.questions || []).entries()) {
+      if (q.answer < 0 || q.answer >= q.choices.length) {
+        throw new Error(`câu hỏi nghe thứ ${i + 1} có "answer" ngoài phạm vi lựa chọn.`);
+      }
+    }
+
+    const extras = [
+      lesson.listening ? `nghe ${lesson.listening.questions.length} câu` : null,
+      lesson.variations.length ? `${lesson.variations.length} sắc thái` : null,
+      lesson.culture.length ? `${lesson.culture.length} văn hoá` : null,
+    ].filter(Boolean).join('  ');
+    console.log(`✅ ${file}  ${lesson.level}  ${lesson.dialogue.turns.length} lượt  ${lesson.vocab.length} từ  ${extras}`);
   } catch (err) {
     bad++;
     console.error(`❌ ${file}: ${err.message}`);

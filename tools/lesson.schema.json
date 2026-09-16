@@ -1,25 +1,78 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "topic", "level", "summary", "goals", "vocab", "patterns", "pronunciation", "commonMistakes", "dialogue", "roleplay", "drills", "homework"],
+  "required": [
+    "id",
+    "title",
+    "topic",
+    "level",
+    "summary",
+    "goals",
+    "vocab",
+    "patterns",
+    "pronunciation",
+    "commonMistakes",
+    "variations",
+    "culture",
+    "listening",
+    "dialogue",
+    "roleplay",
+    "drills",
+    "homework"
+  ],
   "properties": {
-    "id": { "type": "string" },
-    "title": { "type": "string" },
-    "topic": { "type": "string" },
-    "level": { "type": "string", "enum": ["A1", "A2", "B1", "B2", "C1"] },
-    "summary": { "type": "string" },
-    "goals": { "type": "array", "items": { "type": "string" } },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "vocab": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["en", "ipa", "vi", "example"],
+        "required": [
+          "en",
+          "ipa",
+          "vi",
+          "example"
+        ],
         "properties": {
-          "en": { "type": "string" },
-          "ipa": { "type": "string" },
-          "vi": { "type": "string" },
-          "example": { "type": "string" }
+          "en": {
+            "type": "string"
+          },
+          "ipa": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
+          },
+          "example": {
+            "type": "string"
+          }
         }
       }
     },
@@ -28,11 +81,21 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["en", "vi", "note"],
+        "required": [
+          "en",
+          "vi",
+          "note"
+        ],
         "properties": {
-          "en": { "type": "string" },
-          "vi": { "type": "string" },
-          "note": { "type": "string" }
+          "en": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
         }
       }
     },
@@ -41,11 +104,24 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["focus", "tip", "words"],
+        "required": [
+          "focus",
+          "tip",
+          "words"
+        ],
         "properties": {
-          "focus": { "type": "string" },
-          "tip": { "type": "string" },
-          "words": { "type": "array", "items": { "type": "string" } }
+          "focus": {
+            "type": "string"
+          },
+          "tip": {
+            "type": "string"
+          },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       }
     },
@@ -54,37 +130,84 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["wrong", "right", "vi"],
+        "required": [
+          "wrong",
+          "right",
+          "vi"
+        ],
         "properties": {
-          "wrong": { "type": "string" },
-          "right": { "type": "string" },
-          "vi": { "type": "string" }
+          "wrong": {
+            "type": "string"
+          },
+          "right": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
+          }
         }
       }
     },
     "dialogue": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["roles", "userRole", "turns"],
+      "required": [
+        "roles",
+        "userRole",
+        "turns"
+      ],
       "properties": {
         "roles": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["a", "b"],
-          "properties": { "a": { "type": "string" }, "b": { "type": "string" } }
+          "required": [
+            "a",
+            "b"
+          ],
+          "properties": {
+            "a": {
+              "type": "string"
+            },
+            "b": {
+              "type": "string"
+            }
+          }
         },
-        "userRole": { "type": "string", "enum": ["a", "b"] },
+        "userRole": {
+          "type": "string",
+          "enum": [
+            "a",
+            "b"
+          ]
+        },
         "turns": {
           "type": "array",
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["speaker", "en", "vi", "hint"],
+            "required": [
+              "speaker",
+              "en",
+              "vi",
+              "hint"
+            ],
             "properties": {
-              "speaker": { "type": "string", "enum": ["a", "b"] },
-              "en": { "type": "string" },
-              "vi": { "type": "string" },
-              "hint": { "type": "string" }
+              "speaker": {
+                "type": "string",
+                "enum": [
+                  "a",
+                  "b"
+                ]
+              },
+              "en": {
+                "type": "string"
+              },
+              "vi": {
+                "type": "string"
+              },
+              "hint": {
+                "type": "string"
+              }
             }
           }
         }
@@ -93,11 +216,21 @@
     "roleplay": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["persona", "opener", "goal"],
+      "required": [
+        "persona",
+        "opener",
+        "goal"
+      ],
       "properties": {
-        "persona": { "type": "string" },
-        "opener": { "type": "string" },
-        "goal": { "type": "string" }
+        "persona": {
+          "type": "string"
+        },
+        "opener": {
+          "type": "string"
+        },
+        "goal": {
+          "type": "string"
+        }
       }
     },
     "drills": {
@@ -105,14 +238,116 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["vi", "en", "alts"],
+        "required": [
+          "vi",
+          "en",
+          "alts"
+        ],
         "properties": {
-          "vi": { "type": "string" },
-          "en": { "type": "string" },
-          "alts": { "type": "array", "items": { "type": "string" } }
+          "vi": {
+            "type": "string"
+          },
+          "en": {
+            "type": "string"
+          },
+          "alts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       }
     },
-    "homework": { "type": "array", "items": { "type": "string" } }
+    "homework": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "variations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "situation",
+          "formal",
+          "casual",
+          "vi"
+        ],
+        "properties": {
+          "situation": {
+            "type": "string"
+          },
+          "formal": {
+            "type": "string"
+          },
+          "casual": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "culture": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "listening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "passage",
+        "vi",
+        "questions"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "passage": {
+          "type": "string"
+        },
+        "vi": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "q",
+              "choices",
+              "answer",
+              "vi"
+            ],
+            "properties": {
+              "q": {
+                "type": "string"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "answer": {
+                "type": "integer"
+              },
+              "vi": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

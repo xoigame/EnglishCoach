@@ -50,6 +50,31 @@ export function renderPrep(el, lesson) {
       </div>`).join('')}</div>`);
   }
 
+  if (lesson.variations.length) {
+    parts.push(`<h3>🎚️ Cùng một ý, hai mức trang trọng</h3>
+      <p class="muted">Người Việt hay dịch đúng nghĩa nhưng sai mức độ trang trọng. Nghe cả hai để cảm được khác biệt.</p>
+      ${lesson.variations.map(v => `
+      <div class="variation">
+        <div class="vsit">${esc(v.situation)}</div>
+        <div class="vrow">
+          <button class="speak" data-say="${esc(v.formal)}">🔊</button>
+          <span class="vtag formal">Trang trọng</span>
+          <span>${esc(v.formal)}</span>
+        </div>
+        <div class="vrow">
+          <button class="speak" data-say="${esc(v.casual)}">🔊</button>
+          <span class="vtag casual">Thân mật</span>
+          <span>${esc(v.casual)}</span>
+        </div>
+        <div class="vi">${esc(v.vi)}</div>
+      </div>`).join('')}`);
+  }
+
+  if (lesson.culture.length) {
+    parts.push(`<h3>🌏 Khác biệt văn hoá cần biết</h3>${
+      lesson.culture.map(c => `<div class="tip culture">${esc(c)}</div>`).join('')}`);
+  }
+
   if (lesson.pronunciation.length) {
     parts.push(`<h3>🗣️ Lưu ý phát âm</h3>${lesson.pronunciation.map(p => `
       <div class="tip">
@@ -131,6 +156,69 @@ export function renderDrill(el, lesson, onScore) {
   });
 }
 
+/** Listening comprehension: a monologue the learner only ever hears, plus questions. */
+function listeningBlock(lesson) {
+  const l = lesson.listening;
+  if (!l) return '';
+  return `
+    <div class="card listen-card">
+      <h3>🎧 ${esc(l.title)}</h3>
+      <p class="muted">Nghe đoạn này rồi trả lời. Chữ được giấu cho tới khi bạn trả lời xong —
+      nghe lại bao nhiêu lần cũng được.</p>
+      <div class="row">
+        <button class="primary act-play">▶ Nghe</button>
+        <button class="ghost act-play-slow">🐢 Nghe chậm</button>
+        <button class="ghost act-script">📄 Hiện lời thoại</button>
+      </div>
+      <div class="passage hidden">${esc(l.passage)}${l.vi ? `<div class="vi">${esc(l.vi)}</div>` : ''}</div>
+      ${l.questions.map((q, i) => `
+        <div class="quiz-q" data-q="${i}">
+          <div class="q">${i + 1}. ${esc(q.q)}</div>
+          <div class="choices">${q.choices.map((c, j) =>
+            `<button class="choice" data-c="${j}">${esc(c)}</button>`).join('')}</div>
+          <div class="why hidden">${esc(q.vi)}</div>
+        </div>`).join('')}
+      <div class="listen-score muted"></div>
+    </div>`;
+}
+
+function wireListening(el, lesson) {
+  const l = lesson.listening;
+  if (!l) return;
+  const card = el.querySelector('.listen-card');
+  const passage = card.querySelector('.passage');
+  const answered = new Array(l.questions.length).fill(null);
+
+  card.querySelector('.act-play').addEventListener('click', () => speak(l.passage));
+  card.querySelector('.act-play-slow').addEventListener('click', () => speak(l.passage, { rate: 0.7 }));
+  card.querySelector('.act-script').addEventListener('click', ev => {
+    passage.classList.toggle('hidden');
+    ev.currentTarget.textContent = passage.classList.contains('hidden')
+      ? '📄 Hiện lời thoại' : '🙈 Ẩn lời thoại';
+  });
+
+  card.querySelectorAll('.quiz-q').forEach(block => {
+    const i = Number(block.dataset.q);
+    const q = l.questions[i];
+    block.querySelectorAll('.choice').forEach(btn => btn.addEventListener('click', () => {
+      if (answered[i] !== null) return;
+      const picked = Number(btn.dataset.c);
+      answered[i] = picked;
+      block.querySelectorAll('.choice').forEach((b, j) => {
+        b.disabled = true;
+        if (j === q.answer) b.classList.add('right');
+        else if (j === picked) b.classList.add('wrong');
+      });
+      block.querySelector('.why').classList.remove('hidden');
+
+      const done = answered.filter(a => a !== null).length;
+      const correct = answered.filter((a, k) => a === l.questions[k].answer).length;
+      card.querySelector('.listen-score').textContent = `Đúng ${correct}/${done} câu`;
+      if (done === l.questions.length) passage.classList.remove('hidden');
+    }));
+  });
+}
+
 /** Dictation: hear the sentence with the text hidden, then write or say it back. */
 export function renderListen(el, lesson) {
   const items = [
@@ -139,6 +227,8 @@ export function renderListen(el, lesson) {
   ].slice(0, 16);
 
   el.innerHTML = `
+    ${listeningBlock(lesson)}
+    <h3>✍️ Nghe chép chính tả</h3>
     <p class="muted">Bấm 🔊 để nghe (chữ bị che), rồi gõ hoặc nói lại đúng câu bạn nghe được.
     Đây là phần rèn tai nghe — đừng bấm 👁 xem đáp án quá sớm.</p>
     ${items.map((it, i) => `
@@ -155,6 +245,8 @@ export function renderListen(el, lesson) {
         <div class="reveal hidden"></div>
         <div class="heard"></div>
       </div>`).join('')}`;
+
+  wireListening(el, lesson);
 
   el.querySelectorAll('.listen-row').forEach(row => {
     const i = Number(row.dataset.i);

@@ -122,6 +122,11 @@ export function normalizeLesson(raw) {
     commonMistakes: arr(raw.commonMistakes).map(m => ({
       wrong: m.wrong || '', right: m.right || '', vi: m.vi || '',
     })).filter(m => m.wrong && m.right),
+    variations: arr(raw.variations).map(v => ({
+      situation: v.situation || '', formal: v.formal || '', casual: v.casual || '', vi: v.vi || '',
+    })).filter(v => v.formal && v.casual),
+    culture: arr(raw.culture).filter(Boolean),
+    listening: normalizeListening(raw.listening),
     dialogue: { roles: { a: roles.a || 'Partner', b: roles.b || 'You' }, userRole, turns },
     roleplay: {
       persona: raw.roleplay?.persona || `You are ${roles[userRole === 'a' ? 'b' : 'a'] || 'a friendly English partner'}.`,
@@ -136,3 +141,21 @@ export function normalizeLesson(raw) {
 }
 
 function arr(v) { return Array.isArray(v) ? v : []; }
+
+/** Bài nghe hiểu; trả về null nếu giáo án chưa có phần này (bài soạn theo schema cũ). */
+function normalizeListening(raw) {
+  if (!raw || typeof raw !== 'object' || !raw.passage) return null;
+  const questions = arr(raw.questions).map(q => ({
+    q: q.q || '',
+    choices: arr(q.choices).map(String),
+    answer: Number.isInteger(q.answer) ? q.answer : 0,
+    vi: q.vi || '',
+  })).filter(q => q.q && q.choices.length >= 2 && q.answer < q.choices.length);
+
+  return {
+    title: raw.title || 'Bài nghe',
+    passage: String(raw.passage).trim(),
+    vi: raw.vi || '',
+    questions,
+  };
+}

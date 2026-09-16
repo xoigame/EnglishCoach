@@ -1,0 +1,20 @@
+{
+  "name": "english-coach",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Luyen nghe noi tieng Anh 1-1 voi giao an do AI soan qua Codex CLI",
+  "homepage": "https://xoigame.github.io/EnglishCoach/",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "doctor": "node tools/doctor.mjs",
+    "stats": "node tools/stats.mjs",
+    "check": "node tools/build-index.mjs && node tools/validate.mjs",
+    "gen": "node tools/gen-series.mjs --jobs 3",
+    "gen:one": "node tools/gen-lesson.mjs",
+    "gen:list": "node tools/gen-series.mjs --list",
+    "rewrite": "node tools/rewrite.mjs",
+    "index": "node tools/build-index.mjs"
+  }
+}

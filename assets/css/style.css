@@ -194,6 +194,42 @@ input[type=range] { padding: 0; }
 .mic-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .mic-actions .ghost { padding: 6px 10px; font-size: 13px; }
 
+/* ---------- variations & culture ---------- */
+.variation {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; padding: 12px 14px; margin-bottom: 10px;
+}
+.variation .vsit { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.variation .vrow { display: flex; align-items: center; gap: 9px; margin: 5px 0; }
+.vtag {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px; flex: 0 0 auto;
+}
+.vtag.formal { background: #1f6feb33; color: #79c0ff; border: 1px solid #1f6feb55; }
+.vtag.casual { background: #3fb95033; color: #56d364; border: 1px solid #3fb95055; }
+.variation .vi { margin-top: 7px; color: var(--muted); font-size: 13px; }
+.tip.culture { border-left-color: var(--ok); background: #3fb95014; }
+
+/* ---------- listening comprehension ---------- */
+.listen-card .passage {
+  background: #0d1117; border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 14px; margin: 12px 0; line-height: 1.7;
+}
+.listen-card .passage .vi { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.quiz-q { margin: 14px 0; }
+.quiz-q .q { margin-bottom: 8px; }
+.choices { display: grid; gap: 6px; }
+.choice {
+  text-align: left; background: var(--bg-soft); color: var(--fg);
+  border: 1px solid var(--line); padding: 9px 13px;
+}
+.choice:hover:not(:disabled) { border-color: var(--accent); }
+.choice:disabled { cursor: default; opacity: .75; }
+.choice.right { border-color: var(--ok); background: #3fb95022; color: #56d364; opacity: 1; }
+.choice.wrong { border-color: var(--bad); background: #f8514922; color: #ff7b72; opacity: 1; }
+.quiz-q .why { margin-top: 7px; font-size: 13px; color: var(--muted); }
+.listen-score { margin-top: 10px; font-size: 13px; font-weight: 600; }
+
 /* ---------- dictation ---------- */
 .listen-row .masked { font-family: "Cascadia Code", Consolas, monospace; color: var(--muted); letter-spacing: 2px; }
 .listen-row.done .masked { color: var(--ok); }

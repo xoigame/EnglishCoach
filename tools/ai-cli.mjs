@@ -136,10 +136,11 @@ export class AiCliError extends Error {
 
 /**
  * @param {string} prompt
- * @param {{timeoutMs?: number, logFile?: string, onLog?: (line: string) => void}} [opts]
+ * @param {{timeoutMs?: number, logFile?: string, schemaPath?: string,
+ *           onLog?: (line: string) => void}} [opts]
  * @returns {Promise<string>} câu trả lời cuối cùng của model
  */
-export async function runAi(prompt, { timeoutMs = 15 * 60_000, logFile, onLog } = {}) {
+export async function runAi(prompt, { timeoutMs = 15 * 60_000, logFile, onLog, schemaPath } = {}) {
   const { cmd, args: template } = describeCli();
 
   const resolved = resolveCommand(cmd);
@@ -155,7 +156,7 @@ export async function runAi(prompt, { timeoutMs = 15 * 60_000, logFile, onLog } 
   const viaArgv = template.some(a => a.includes('{{PROMPT}}'));
   const args = template.map(a => a
     .replace('{{OUT}}', outFile ?? '')
-    .replace('{{SCHEMA}}', SCHEMA_PATH)
+    .replace('{{SCHEMA}}', schemaPath || SCHEMA_PATH)
     .replace('{{CWD}}', ROOT)
     .replace('{{PROMPT}}', prompt));
 

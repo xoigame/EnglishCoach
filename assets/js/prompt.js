@@ -38,6 +38,30 @@ const SCHEMA = `{
   "commonMistakes": [
     { "wrong": "I want book a room.", "right": "I'd like to book a room.", "vi": "Sau want phải có to, và I'd like nghe lịch sự hơn." }
   ],
+  "variations": [
+    {
+      "situation": "Hỏi giá phòng",
+      "formal": "Could you tell me the rate for a double room, please?",
+      "casual": "How much is a double room?",
+      "vi": "Câu trên dùng khi nói với lễ tân khách sạn lớn, câu dưới dùng ở nhà nghỉ nhỏ hoặc với người quen."
+    }
+  ],
+  "culture": [
+    "Ở Mỹ và Anh, khách thường chào lại nhân viên bằng một câu ngắn chứ không im lặng gật đầu."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ khách sạn",
+    "passage": "Hello, this is Sea Breeze Hotel calling about your booking for Friday. We have you down for a double room for two nights. Breakfast is served from six thirty to ten. Please call us back if you need a late check-in.",
+    "vi": "Xin chào, đây là khách sạn Sea Breeze gọi về đặt phòng thứ Sáu của bạn...",
+    "questions": [
+      {
+        "q": "How many nights is the booking for?",
+        "choices": ["One night", "Two nights", "Three nights"],
+        "answer": 1,
+        "vi": "Câu chốt là 'a double room for two nights'."
+      }
+    ]
+  },
   "dialogue": {
     "roles": { "a": "Vai của AI (tiếng Việt)", "b": "Vai của người học (tiếng Việt)" },
     "userRole": "b",
@@ -84,6 +108,9 @@ Nguyên tắc nội dung:
 6. 5-8 câu drill dịch Việt → Anh, bám sát từ vựng và mẫu câu ở trên.
 7. Câu thoại sẽ được đọc bằng text-to-speech, nên tránh ký hiệu lạ, emoji, hay chữ viết tắt khó đọc.
 8. "commonMistakes": 3-5 lỗi người Việt hay mắc ở CHÍNH chủ đề này — "wrong" là câu sai thường gặp, "right" là câu đúng tương ứng, "vi" giải thích ngắn. Ứng dụng dùng phần này để sửa lỗi cho người học ngay khi họ nói.
+8b. "variations": 3-4 cặp câu cùng một ý nhưng khác sắc thái — "formal" dùng với người lạ/cấp trên/nơi trang trọng, "casual" dùng với bạn bè/đồng nghiệp thân; "vi" nói rõ khi nào dùng cái nào. Đây là chỗ người học hay sai nhất: dịch đúng nghĩa nhưng sai mức độ trang trọng.
+8c. "culture": 2-3 ghi chú tiếng Việt về thói quen giao tiếp của người bản xứ ở tình huống này mà người Việt hay bất ngờ (khoảng cách, tip, cách từ chối, mức độ thẳng thắn, im lặng…). Không phải mẹo ngữ pháp.
+8d. "listening": MỘT đoạn nghe độc thoại 45-90 từ, đúng trình độ, KHÁC với hội thoại ở trên nhưng cùng bối cảnh — ví dụ tin nhắn thoại, thông báo loa, hướng dẫn, review của khách. Kèm 3 câu hỏi trắc nghiệm tiếng Anh, mỗi câu 3 lựa chọn, "answer" là chỉ số từ 0, "vi" giải thích vì sao đáp án đó đúng và chỉ ra chỗ trong bài nghe. Đoạn này sẽ được đọc bằng text-to-speech và người học KHÔNG nhìn thấy chữ, nên phải nghe là hiểu được, đừng nhồi số liệu rối rắm. "vi" của listening là bản dịch tiếng Việt cả đoạn (hiện sau khi trả lời xong).
 9. Lượt đầu tiên trong "turns" PHẢI là "speaker": "a" (AI mở lời trước), hai vai nói xen kẽ, và "userRole" là "b".
 10. "persona" viết bằng tiếng Anh ở ngôi thứ hai ("You are a ..."), mô tả rõ vai, nơi chốn, thái độ — nó được dùng làm system prompt khi AI đóng vai nói chuyện trực tiếp với người học.
 

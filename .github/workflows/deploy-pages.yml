@@ -31,6 +31,11 @@ jobs:
       - name: Check lesson files are valid
         run: node tools/validate.mjs
 
+      # Bắt cả những lỗi validate không thấy: id lệch tên file, trùng chủ đề,
+      # index lệch thư mục lessons, thiếu file web. Cảnh báo không làm đỏ CI.
+      - name: Project health check
+        run: node tools/doctor.mjs
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

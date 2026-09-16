@@ -8,13 +8,30 @@ Không backend, không build step — chỉ HTML/CSS/JS thuần, deploy thẳng 
 
 ## Chạy thử tại máy
 
-Trang dùng `fetch()` để đọc `data/index.json`, nên **không mở bằng `file://`** được. Chạy một web server tĩnh:
+Trang dùng `fetch()` để đọc `data/index.json`, nên **không mở bằng `file://`** được. Server tĩnh có sẵn trong repo, không cần cài gì:
 
 ```bash
-npx serve .
+node tools/serve.mjs
 ```
 
-Rồi mở <http://localhost:3000>. Dùng **Chrome hoặc Edge** — Firefox/Safari chưa hỗ trợ đầy đủ Web Speech API cho phần micro.
+Rồi mở <http://localhost:4173>. Dùng **Chrome hoặc Edge** — Firefox/Safari chưa hỗ trợ đầy đủ Web Speech API cho phần micro.
+
+## Bảng lệnh
+
+| Lệnh | Việc |
+| --- | --- |
+| `node tools/serve.mjs` | Chạy web local (không cần npm install) |
+| `node tools/doctor.mjs` | Kiểm tra toàn bộ: Codex, schema, lộ trình, 100 giáo án, index, file web |
+| `node tools/stats.mjs` | Thống kê nội dung theo trình độ; `--words` xem từ vựng lặp nhiều nhất |
+| `node tools/gen-series.mjs` | Soạn mọi bài còn thiếu trong lộ trình |
+| `node tools/gen-lesson.mjs` | Soạn một bài lẻ |
+| `node tools/rewrite.mjs` | Soạn lại **một phần** của một bài (rẻ hơn nhiều so với cả bài) |
+| `node tools/build-index.mjs` | Build lại `data/index.json` |
+| `node tools/validate.mjs` | Kiểm tra schema của mọi giáo án |
+
+Mọi lệnh đều có `--help`. Cũng chạy được qua npm: `npm run doctor`, `npm run serve`, `npm run gen`, `npm run stats`.
+
+Chạy `doctor` trước khi push — nó bắt được những thứ `validate` bỏ sót: id lệch tên file, chủ đề trùng, `index.json` lệch thư mục `lessons`, bài thiếu phần nghe hiểu.
 
 ---
 
@@ -22,11 +39,13 @@ Rồi mở <http://localhost:3000>. Dùng **Chrome hoặc Edge** — Firefox/Saf
 
 ### Soạn cả lộ trình
 
-Danh sách chủ đề A1 → C1 nằm ở [`data/curriculum.json`](data/curriculum.json) — 40 bài chia theo 5 trình độ. Soạn mọi bài còn thiếu:
+Danh sách chủ đề nằm ở [`data/curriculum.json`](data/curriculum.json) — **100 bài** chia theo 5 trình độ: A1 (20), A2 (22), B1 (22), B2 (20), C1 (16). Soạn mọi bài còn thiếu:
 
 ```bash
 node tools/gen-series.mjs --jobs 3
 ```
+
+Mỗi bài mất khoảng 2 phút, nên soạn lại toàn bộ 100 bài với 4 luồng hết chừng 50 phút.
 
 | Tham số | Ý nghĩa |
 | --- | --- |
@@ -98,6 +117,17 @@ Get-Content logs/gen-dat-phong-khach-san.log -Wait
 
 Nếu AI trả về dữ liệu hỏng, nguyên văn output được lưu ở `data/.last-raw-<id>.txt` để xem lại.
 
+### Sửa một phần thay vì soạn lại cả bài
+
+Không hài lòng đúng một mục thì đừng đốt cả bài:
+
+```bash
+node tools/rewrite.mjs --id dat-phong-khach-san --part listening
+node tools/rewrite.mjs --id phong-van-xin-viec --part drills --notes "khó hơn, thêm số liệu"
+```
+
+Lệnh này cắt `lesson.schema.json` xuống đúng phần được yêu cầu rồi đưa cho Codex làm `--output-schema`, nên model **không có cách nào** trả về thừa hay thiếu trường. Phần còn lại của giáo án giữ nguyên từng chữ. Chạy `--help` để xem danh sách phần sửa được.
+
 **Không có CLI?** Nút **✨ Soạn giáo án** trên web sinh sẵn prompt — copy dán vào bất kỳ chatbot nào, rồi dán JSON trả về vào ô *Xem thử ngay* để học liền (lưu trong trình duyệt, gắn nhãn *Nháp*). Bấm *Tải bản nháp* để lấy file `.json` và bỏ vào `data/lessons/`.
 
 Các lệnh khác:
@@ -133,9 +163,9 @@ git add data && git commit -m "lesson: ..." && git push
 
 | Bước | Nội dung |
 | --- | --- |
-| **1 · Chuẩn bị** | Mục tiêu, từ vựng kèm IPA, mẫu câu, **lỗi người Việt hay mắc**, lưu ý phát âm — bấm 🔊 để nghe từng mục |
+| **1 · Chuẩn bị** | Mục tiêu, từ vựng kèm IPA, mẫu câu, **lỗi người Việt hay mắc**, **cùng một ý ở hai mức trang trọng**, **khác biệt văn hoá**, lưu ý phát âm — bấm 🔊 để nghe từng mục |
 | **2 · Luyện từng câu** | Nghe mẫu (có nút 🐢 chậm) → nhắc lại vào micro → chấm %, tô đỏ từ chưa khớp |
-| **3 · Nghe chép** | Chữ bị che, chỉ nghe rồi gõ hoặc nói lại — phần rèn tai nghe thuần tuý |
+| **3 · Nghe chép** | **Bài nghe hiểu** (độc thoại riêng, kèm 3 câu trắc nghiệm, chữ giấu tới khi trả lời xong) rồi tới **nghe chép chính tả** từng câu |
 | **4 · Hội thoại 1-1** | Nói chuyện liên tục với AI, sai thì được sửa **bằng giọng nói** và cho nói lại |
 | **5 · Bài tập** | Dịch Việt → Anh rồi nói ra, chấm với nhiều đáp án chấp nhận được; kèm bài về nhà |
 
@@ -179,15 +209,19 @@ assets/js/
   speech.js                 # TTS, nhận diện giọng nói, chấm điểm, settings
   mic.js                    # một recognizer dùng chung
   coach.js                  # biến câu sai thành lời sửa để đọc lên
-  lesson.js                 # render pane Chuẩn bị / Luyện câu / Nghe chép / Bài tập
+  lesson.js                 # render pane Chuẩn bị / Luyện câu / Nghe hiểu / Bài tập
   roleplay.js               # hội thoại 1-1 (kịch bản + AI trực tiếp)
   store.js                  # tải giáo án, bản nháp, tiến độ, schema
   prompt.js                 # prompt sinh giáo án (web và CLI dùng chung)
-data/curriculum.json        # lộ trình 40 chủ đề A1 → C1
+data/curriculum.json        # lộ trình 100 chủ đề A1 → C1
 data/index.json             # danh mục, sinh tự động
 data/lessons/*.json         # từng giáo án
 tools/gen-series.mjs        # soạn cả lộ trình
 tools/gen-lesson.mjs        # soạn một bài
+tools/rewrite.mjs           # soạn lại một phần của một bài
+tools/doctor.mjs            # kiểm tra sức khoẻ dự án
+tools/stats.mjs             # thống kê nội dung
+tools/serve.mjs             # web server tĩnh, không phụ thuộc
 tools/generate.mjs          # prompt → CLI → JSON → file
 tools/ai-cli.mjs            # gọi CLI (codex | claude | tuỳ chỉnh)
 tools/lesson.schema.json    # JSON Schema ép model trả đúng cấu trúc
@@ -212,6 +246,12 @@ tools/validate.mjs
   "patterns":[{ "en": "…", "vi": "…", "note": "…" }],
   "pronunciation": [{ "focus": "…", "tip": "…", "words": ["…"] }],
   "commonMistakes": [{ "wrong": "I want book a room.", "right": "I'd like to book a room.", "vi": "…" }],
+  "variations": [{ "situation": "Hỏi giá phòng", "formal": "Could you tell me the rate…?", "casual": "How much is…?", "vi": "…" }],
+  "culture": ["Ghi chú khác biệt văn hoá bằng tiếng Việt"],
+  "listening": {
+    "title": "…", "passage": "Đoạn độc thoại 45-90 từ", "vi": "Bản dịch cả đoạn",
+    "questions": [{ "q": "…", "choices": ["…", "…", "…"], "answer": 1, "vi": "Vì sao đáp án đó đúng" }]
+  },
   "dialogue": {
     "roles": { "a": "Vai AI", "b": "Vai người học" },
     "userRole": "b",
@@ -223,7 +263,9 @@ tools/validate.mjs
 }
 ```
 
-Bắt buộc: `id`, `title`, `level`, và `dialogue.turns` từ 4 lượt trở lên. Các phần khác thiếu thì pane tương ứng tự ẩn.
+Bắt buộc: `id`, `title`, `level`, và `dialogue.turns` từ 4 lượt trở lên. Các phần khác thiếu thì mục tương ứng trên giao diện tự ẩn — nên giáo án soạn theo schema cũ vẫn mở được bình thường, chỉ là không có phần nghe hiểu.
+
+`tools/lesson.schema.json` là bản JSON Schema đầy đủ của cấu trúc này, và cũng chính là file đưa cho Codex qua `--output-schema`. Sửa schema thì nhớ sửa cả phần ví dụ trong `assets/js/prompt.js`.
 
 ---
 
