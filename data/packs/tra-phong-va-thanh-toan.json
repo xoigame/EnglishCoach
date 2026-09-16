@@ -1,0 +1,96 @@
+{
+  "id": "tra-phong-va-thanh-toan",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Trả phòng bình thường", "situation": "Bạn trả phòng và thanh toán không có vấn đề gì.",
+      "turns": [
+        { "speaker": "a", "en": "Good morning, checking out today?", "vi": "Chào buổi sáng, hôm nay bạn trả phòng ạ?" },
+        { "speaker": "b", "en": "Yes, room three oh five.", "vi": "Vâng, phòng ba không năm." },
+        { "speaker": "a", "en": "Here is your bill.", "vi": "Đây là hoá đơn của bạn." },
+        { "speaker": "b", "en": "Can I pay by card?", "vi": "Tôi trả bằng thẻ được không?" },
+        { "speaker": "a", "en": "Of course.", "vi": "Được ạ." },
+        { "speaker": "b", "en": "Thank you, have a good day.", "vi": "Cảm ơn bạn, chúc bạn ngày tốt lành." }
+      ]},
+    { "title": "Trả lại chìa khoá phòng", "situation": "Bạn trả lại chìa khoá phòng khi checkout.",
+      "turns": [
+        { "speaker": "a", "en": "Are you checking out now?", "vi": "Bạn trả phòng bây giờ ạ?" },
+        { "speaker": "b", "en": "Yes, here is my room key.", "vi": "Vâng, đây là chìa khoá phòng của tôi." },
+        { "speaker": "a", "en": "Thank you. Room two ten?", "vi": "Cảm ơn bạn. Phòng hai mười phải không ạ?" },
+        { "speaker": "b", "en": "Yes, that is right.", "vi": "Vâng, đúng rồi." },
+        { "speaker": "a", "en": "Let me print your receipt.", "vi": "Để tôi in hoá đơn cho bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi về khoản phí minibar", "situation": "Bạn hỏi rõ về một khoản phí trên hoá đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is one hundred and fifty dollars.", "vi": "Tổng của bạn là một trăm năm mươi đô." },
+        { "speaker": "b", "en": "What is this charge here?", "vi": "Khoản này ở đây là gì vậy?" },
+        { "speaker": "a", "en": "That is from the minibar.", "vi": "Đó là từ minibar ạ." },
+        { "speaker": "b", "en": "Oh, I remember now. That is correct.", "vi": "À, giờ tôi nhớ ra rồi. Đúng vậy." },
+        { "speaker": "a", "en": "Great, here is your final bill.", "vi": "Tuyệt, đây là hoá đơn cuối cùng của bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin xoá một khoản phí sai", "situation": "Bạn thấy một khoản phí không đúng và yêu cầu xoá.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is two hundred dollars.", "vi": "Tổng của bạn là hai trăm đô." },
+        { "speaker": "b", "en": "I never used the minibar. Can you check?", "vi": "Tôi chưa dùng minibar bao giờ. Kiểm tra giúp được không?" },
+        { "speaker": "a", "en": "Let me check that for you.", "vi": "Để tôi kiểm tra giúp bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "You are right. I will remove that charge.", "vi": "Bạn nói đúng. Tôi sẽ xoá khoản phí đó." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." }
+      ]},
+    { "title": "Trả phòng sớm hơn dự định", "situation": "Bạn trả phòng sớm hơn kế hoạch ban đầu.",
+      "turns": [
+        { "speaker": "a", "en": "You were staying until tomorrow, right?", "vi": "Bạn dự định ở đến mai phải không ạ?" },
+        { "speaker": "b", "en": "Yes, but I need to check out today.", "vi": "Vâng, nhưng tôi cần trả phòng hôm nay." },
+        { "speaker": "a", "en": "That is fine. Let me update your bill.", "vi": "Không sao. Để tôi cập nhật lại hoá đơn cho bạn." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "Your new total is ninety dollars.", "vi": "Tổng mới của bạn là chín mươi đô." },
+        { "speaker": "b", "en": "Okay, here is my card.", "vi": "Được, đây là thẻ của tôi." }
+      ]},
+    { "title": "Thẻ bị từ chối", "situation": "Thẻ của bạn bị từ chối khi thanh toán.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, the card was declined.", "vi": "Xin lỗi, thẻ bị từ chối rồi ạ." },
+        { "speaker": "b", "en": "That is strange. Let me try again.", "vi": "Lạ nhỉ. Để tôi thử lại." },
+        { "speaker": "a", "en": "Sure, take your time.", "vi": "Được ạ, bạn cứ từ từ." },
+        { "speaker": "b", "en": "It worked this time.", "vi": "Lần này được rồi." },
+        { "speaker": "a", "en": "Great, here is your receipt.", "vi": "Tuyệt, đây là hoá đơn của bạn." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi xin hoá đơn qua email", "situation": "Bạn muốn nhận hoá đơn qua email thay vì giấy.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like a printed receipt?", "vi": "Bạn muốn hoá đơn giấy không ạ?" },
+        { "speaker": "b", "en": "Actually, can you send it by email?", "vi": "Thật ra, gửi qua email được không ạ?" },
+        { "speaker": "a", "en": "Sure, what is your email address?", "vi": "Được ạ, email của bạn là gì?" },
+        { "speaker": "b", "en": "It is on my booking confirmation.", "vi": "Nó có trong xác nhận đặt phòng của tôi." },
+        { "speaker": "a", "en": "Got it, I will send it now.", "vi": "Rõ rồi, tôi sẽ gửi ngay." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Nhờ giữ hành lý sau khi trả phòng", "situation": "Bạn trả phòng nhưng chuyến bay tối mới cất cánh.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for staying with us.", "vi": "Cảm ơn bạn đã ở lại với chúng tôi." },
+        { "speaker": "b", "en": "Could you keep my bags until tonight?", "vi": "Bạn giữ giúp hành lý của tôi tới tối được không?" },
+        { "speaker": "a", "en": "Of course, we have a storage room.", "vi": "Tất nhiên rồi, chúng tôi có phòng giữ đồ." },
+        { "speaker": "b", "en": "Thank you, that is very helpful.", "vi": "Cảm ơn bạn, vậy giúp ích lắm." },
+        { "speaker": "a", "en": "No problem at all. Safe trip.", "vi": "Không có gì đâu. Chúc bạn thượng lộ bình an." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Thanh toán chia đôi", "situation": "Hai người ở cùng phòng muốn chia đôi hoá đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is one hundred dollars.", "vi": "Tổng của bạn là một trăm đô." },
+        { "speaker": "b", "en": "Can we split it into two cards?", "vi": "Chúng tôi chia đôi ra hai thẻ được không ạ?" },
+        { "speaker": "a", "en": "Sure, fifty dollars each?", "vi": "Được ạ, mỗi người năm mươi đô?" },
+        { "speaker": "b", "en": "Yes, exactly.", "vi": "Vâng, đúng vậy." },
+        { "speaker": "a", "en": "Okay, first card please.", "vi": "Được, cho tôi xin thẻ thứ nhất." },
+        { "speaker": "b", "en": "Here you go.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Nhiều khoản phí cần giải thích cùng lúc", "situation": "Bạn có ba khoản phí cần hỏi rõ trước khi trả tiền. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is two hundred and thirty dollars.", "vi": "Tổng của bạn là hai trăm ba mươi đô." },
+        { "speaker": "b", "en": "There are three charges I do not recognize.", "vi": "Có ba khoản tôi không nhận ra." },
+        { "speaker": "a", "en": "Let me go through them one by one.", "vi": "Để tôi kiểm tra từng khoản một." },
+        { "speaker": "b", "en": "Thank you, that would help.", "vi": "Cảm ơn bạn, vậy sẽ giúp ích lắm." },
+        { "speaker": "a", "en": "Two are correct, one was a mistake.", "vi": "Hai khoản đúng, một khoản bị nhầm." },
+        { "speaker": "b", "en": "Thank you for checking so carefully.", "vi": "Cảm ơn bạn đã kiểm tra kỹ lưỡng vậy." }
+      ]}
+  ]
+}

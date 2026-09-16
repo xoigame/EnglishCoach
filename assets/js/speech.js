@@ -63,29 +63,113 @@ export function voicePair() {
   return [mine.voiceURI, other.voiceURI];
 }
 
-/** Speak `text`; resolves when playback ends (or immediately if TTS is missing). */
+/*
+ * VÌ SAO PHẦN NÀY PHỨC TẠP HƠN MỘT LỜI GỌI speechSynthesis.speak():
+ *
+ * 1. Chrome cắt ngang những câu dài (khoảng 15 giây trở lên). Mẹo phổ biến
+ *    trên mạng là gọi pause()/resume() mỗi vài giây để "giữ hàng đợi sống" —
+ *    nhưng chính nó làm giọng đọc bị ngắt quãng nghe rất gợn. Cách đúng là
+ *    TÁCH văn bản thành từng câu rồi đọc lần lượt.
+ *
+ * 2. onend đôi khi không bao giờ kích hoạt, nhất là khi cancel() chạy sát
+ *    ngay trước speak(). Nếu không có đồng hồ canh chừng thì lời hứa không
+ *    bao giờ hoàn tất, và chỗ nào đang await sẽ đứng vĩnh viễn — đó là lúc
+ *    trình phát hoặc phần hội thoại "bị đứng".
+ *
+ * 3. Sau cancel(), Chrome cần một nhịp mới nhận utterance mới. Gọi speak()
+ *    ngay lập tức thì câu đó có thể bị nuốt mất: không có tiếng, cũng không
+ *    có onend.
+ */
+
+let activeSettle = null;   // kết thúc lượt đọc đang chạy, dù vì lý do gì
+
+/** Tách thành từng câu đủ ngắn để Chrome không cắt giữa chừng. */
+function chunk(text) {
+  const parts = String(text)
+    .split(/(?<=[.!?])\s+/)
+    .flatMap(sentence => {
+      if (sentence.length <= 160) return [sentence];
+      // Câu quá dài thì cắt tiếp ở dấu phẩy, rồi mới cắt cứng theo từ.
+      const byComma = sentence.split(/(?<=,)\s+/);
+      return byComma.flatMap(piece => {
+        if (piece.length <= 160) return [piece];
+        const words = piece.split(/\s+/);
+        const out = [];
+        let line = '';
+        for (const w of words) {
+          if ((line + ' ' + w).trim().length > 160) { out.push(line.trim()); line = w; }
+          else line = (line + ' ' + w).trim();
+        }
+        if (line) out.push(line);
+        return out;
+      });
+    });
+  return parts.map(p => p.trim()).filter(Boolean);
+}
+
+/** Thời gian tối đa hợp lý cho một đoạn, để canh chừng khi onend mất tích. */
+function watchdogMs(text, rate) {
+  const words = text.split(/\s+/).length;
+  const perWord = 400 / Math.max(0.5, rate);   // ~150 từ/phút ở tốc độ 1.0
+  return Math.max(4000, words * perWord + 3000);
+}
+
+const nextTick = () => new Promise(r => setTimeout(r, 60));
+
+/** Đọc `text`; hoàn tất khi đọc xong, khi bị dừng, hoặc khi hết giờ canh chừng. */
 export function speak(text, { rate, voiceURI, pitch } = {}) {
+  if (!('speechSynthesis' in window) || !text) return Promise.resolve();
+
+  // Lượt đọc trước phải được kết thúc tử tế, nếu không chỗ đang await nó sẽ treo.
+  activeSettle?.();
+
+  const speed = rate ?? settings.rate;
+  const pieces = chunk(text);
+
   return new Promise(resolve => {
-    if (!('speechSynthesis' in window) || !text) return resolve();
-    speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    if (pitch) u.pitch = pitch;
-    const v = pickVoice(voiceURI);
-    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = settings.asrLang; }
-    u.rate = rate ?? settings.rate;
-    u.onend = resolve;
-    u.onerror = resolve;
-    speechSynthesis.speak(u);
-    // Chrome sometimes drops long utterances; keep the queue alive.
-    const keepAlive = setInterval(() => {
-      if (!speechSynthesis.speaking) { clearInterval(keepAlive); resolve(); }
-      else { speechSynthesis.pause(); speechSynthesis.resume(); }
-    }, 5000);
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      if (activeSettle === finish) activeSettle = null;
+      resolve();
+    };
+    activeSettle = finish;
+
+    (async () => {
+      speechSynthesis.cancel();
+      await nextTick();          // Chrome cần một nhịp sau cancel()
+      if (done) return;
+
+      for (const piece of pieces) {
+        if (done) return;
+        await new Promise(next => {
+          let moved = false;
+          const step = () => { if (!moved) { moved = true; clearTimeout(pieceTimer); next(); } };
+
+          const u = new SpeechSynthesisUtterance(piece);
+          const v = pickVoice(voiceURI);
+          if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = settings.asrLang; }
+          u.rate = speed;
+          if (pitch) u.pitch = pitch;
+          u.onend = step;
+          u.onerror = step;
+
+          // Canh chừng riêng cho từng đoạn: onend mất tích thì vẫn đi tiếp.
+          const pieceTimer = setTimeout(step, watchdogMs(piece, speed));
+          speechSynthesis.speak(u);
+        });
+      }
+      finish();
+    })();
   });
 }
 
 export function stopSpeaking() {
-  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  if (!('speechSynthesis' in window)) return;
+  // Kết thúc lời hứa TRƯỚC khi cancel, để chỗ đang await không bị treo.
+  activeSettle?.();
+  speechSynthesis.cancel();
 }
 
 /* ------------------------------------------------------ Speech recognition */

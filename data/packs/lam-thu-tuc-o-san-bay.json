@@ -1,0 +1,96 @@
+{
+  "id": "lam-thu-tuc-o-san-bay",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Làm thủ tục bình thường", "situation": "Bạn làm thủ tục check-in tại quầy hàng không.",
+      "turns": [
+        { "speaker": "a", "en": "Passport and boarding pass, please.", "vi": "Cho tôi xem hộ chiếu và thẻ lên máy bay ạ." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của tôi đây." },
+        { "speaker": "a", "en": "Do you have any checked bags?", "vi": "Bạn có hành lý ký gửi không ạ?" },
+        { "speaker": "b", "en": "Yes, one bag.", "vi": "Có, một túi." },
+        { "speaker": "a", "en": "Please put it on the scale.", "vi": "Vui lòng đặt lên cân ạ." },
+        { "speaker": "b", "en": "Sure, here it is.", "vi": "Được, đây ạ." }
+      ]},
+    { "title": "Hành lý quá cân", "situation": "Túi của bạn vượt quá giới hạn cân cho phép.",
+      "turns": [
+        { "speaker": "a", "en": "Your bag is over the baggage limit.", "vi": "Túi của bạn vượt quá giới hạn hành lý rồi ạ." },
+        { "speaker": "b", "en": "Oh, by how much?", "vi": "Ồ, vượt bao nhiêu vậy ạ?" },
+        { "speaker": "a", "en": "Two kilograms.", "vi": "Hai ki-lô-gam ạ." },
+        { "speaker": "b", "en": "Let me move something to my carry-on.", "vi": "Để tôi chuyển bớt sang túi xách tay." },
+        { "speaker": "a", "en": "Sure, take your time.", "vi": "Được ạ, bạn cứ từ từ." },
+        { "speaker": "b", "en": "Okay, please check it again.", "vi": "Được rồi, kiểm tra lại giúp tôi nhé." }
+      ]},
+    { "title": "Chọn chỗ ngồi cạnh cửa sổ", "situation": "Bạn yêu cầu ngồi cạnh cửa sổ.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like a window or aisle seat?", "vi": "Bạn muốn ghế cạnh cửa sổ hay lối đi ạ?" },
+        { "speaker": "b", "en": "A window seat, please.", "vi": "Cho tôi ghế cạnh cửa sổ nhé." },
+        { "speaker": "a", "en": "Let me check availability.", "vi": "Để tôi kiểm tra chỗ trống." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "You have seat fourteen A.", "vi": "Bạn có ghế mười bốn A." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi về hành lý xách tay", "situation": "Bạn hỏi về đồ lỏng trong túi xách tay.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any liquids in your bag?", "vi": "Túi bạn có đồ lỏng nào không ạ?" },
+        { "speaker": "b", "en": "Yes, a small bottle of water.", "vi": "Có, một chai nước nhỏ." },
+        { "speaker": "a", "en": "You will need to put it in a tray.", "vi": "Bạn cần đặt nó vào khay ạ." },
+        { "speaker": "b", "en": "Okay, where do I do that?", "vi": "Được, tôi làm ở đâu ạ?" },
+        { "speaker": "a", "en": "At the security checkpoint.", "vi": "Ở trạm kiểm tra an ninh ạ." },
+        { "speaker": "b", "en": "Thank you for telling me.", "vi": "Cảm ơn bạn đã cho biết." }
+      ]},
+    { "title": "Đổi cổng lên máy bay", "situation": "Cổng lên máy bay của bạn vừa đổi.",
+      "turns": [
+        { "speaker": "a", "en": "Your gate has changed to gate twelve.", "vi": "Cổng của bạn đã đổi sang cổng mười hai ạ." },
+        { "speaker": "b", "en": "Oh, thank you for letting me know.", "vi": "Ồ, cảm ơn bạn đã báo cho tôi." },
+        { "speaker": "a", "en": "It is on your updated boarding pass.", "vi": "Đã cập nhật trên thẻ lên máy bay của bạn." },
+        { "speaker": "b", "en": "How far is gate twelve?", "vi": "Cổng mười hai xa không ạ?" },
+        { "speaker": "a", "en": "About ten minutes walk.", "vi": "Khoảng mười phút đi bộ ạ." },
+        { "speaker": "b", "en": "Okay, I will head there now.", "vi": "Được, tôi đi ngay bây giờ." }
+      ]},
+    { "title": "Xếp hàng nhầm quầy", "situation": "Bạn xếp nhầm hàng chờ và cần chuyển sang quầy khác.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, this line is for business class.", "vi": "Xin lỗi, hàng này dành cho hạng thương gia ạ." },
+        { "speaker": "b", "en": "Oh, I am sorry. Where should I go?", "vi": "Ồ, tôi xin lỗi. Vậy tôi nên đi đâu ạ?" },
+        { "speaker": "a", "en": "Economy check-in is over there.", "vi": "Quầy làm thủ tục hạng phổ thông ở đằng kia ạ." },
+        { "speaker": "b", "en": "Thank you for telling me.", "vi": "Cảm ơn bạn đã chỉ giúp." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không có gì đâu." },
+        { "speaker": "b", "en": "Have a good day.", "vi": "Chúc bạn ngày tốt lành." }
+      ]},
+    { "title": "Quên mang hộ chiếu ra sẵn", "situation": "Bạn tìm hộ chiếu trong túi và làm nhân viên phải chờ.",
+      "turns": [
+        { "speaker": "a", "en": "Passport, please.", "vi": "Cho tôi xin hộ chiếu ạ." },
+        { "speaker": "b", "en": "Sorry, one moment. I need to find it.", "vi": "Xin lỗi, chờ tôi một chút. Tôi cần tìm nó." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "Found it. Here you are.", "vi": "Tìm thấy rồi. Của bạn đây." },
+        { "speaker": "a", "en": "Thank you. All good now.", "vi": "Cảm ơn bạn. Vậy là ổn rồi ạ." },
+        { "speaker": "b", "en": "Sorry for the delay.", "vi": "Xin lỗi vì để bạn phải chờ." }
+      ]},
+    { "title": "Hỏi thời gian bay còn lại", "situation": "Bạn hỏi thời gian trước khi lên máy bay.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your boarding pass.", "vi": "Đây là thẻ lên máy bay của bạn." },
+        { "speaker": "b", "en": "What time does boarding start?", "vi": "Mấy giờ bắt đầu lên máy bay ạ?" },
+        { "speaker": "a", "en": "Boarding starts at nine thirty.", "vi": "Bắt đầu lên máy bay lúc chín giờ ba mươi." },
+        { "speaker": "b", "en": "So I have about one hour?", "vi": "Vậy tôi còn khoảng một tiếng?" },
+        { "speaker": "a", "en": "Yes, that is right.", "vi": "Vâng, đúng vậy." },
+        { "speaker": "b", "en": "Thank you, I will get some coffee.", "vi": "Cảm ơn bạn, tôi đi uống cà phê chút." }
+      ]},
+    { "title": "Yêu cầu đổi hành lý ký gửi thành xách tay", "situation": "Bạn muốn đổi một túi ký gửi thành xách tay.",
+      "turns": [
+        { "speaker": "a", "en": "You have two checked bags.", "vi": "Bạn có hai túi ký gửi ạ." },
+        { "speaker": "b", "en": "Can I carry one of them on the plane?", "vi": "Tôi mang một túi lên máy bay được không?" },
+        { "speaker": "a", "en": "Let me check the size and weight.", "vi": "Để tôi kiểm tra kích thước và cân nặng." },
+        { "speaker": "b", "en": "Sure, here it is.", "vi": "Được, đây ạ." },
+        { "speaker": "a", "en": "Yes, this one fits carry-on rules.", "vi": "Vâng, túi này đủ tiêu chuẩn xách tay." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." }
+      ]},
+    { "title": "Nhiều vấn đề cùng lúc: quá cân và đổi ghế", "situation": "Bạn vừa bị quá cân hành lý vừa muốn đổi ghế. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your bag is three kilograms over the limit.", "vi": "Túi của bạn vượt ba ki-lô-gam ạ." },
+        { "speaker": "b", "en": "I see. Also, could I get a window seat?", "vi": "Tôi hiểu rồi. Ngoài ra, cho tôi ghế cạnh cửa sổ được không ạ?" },
+        { "speaker": "a", "en": "Let me handle the bag first.", "vi": "Để tôi xử lý túi trước đã." },
+        { "speaker": "b", "en": "Sure, no rush.", "vi": "Được, không vội đâu." },
+        { "speaker": "a", "en": "Okay, that is fixed. Now, seat fourteen A is free.", "vi": "Được, xong rồi. Giờ thì ghế mười bốn A còn trống." },
+        { "speaker": "b", "en": "Perfect, I will take that one.", "vi": "Tuyệt vời, tôi lấy ghế đó." }
+      ]}
+  ]
+}

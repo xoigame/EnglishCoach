@@ -1,0 +1,96 @@
+{
+  "id": "hoi-wifi-va-tien-nghi",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Hỏi mật khẩu wifi", "situation": "Bạn hỏi mật khẩu wifi sau khi nhận phòng.",
+      "turns": [
+        { "speaker": "a", "en": "Is there anything else you need?", "vi": "Bạn còn cần gì nữa không ạ?" },
+        { "speaker": "b", "en": "Yes, what is the Wi-Fi password?", "vi": "Có, mật khẩu wifi là gì vậy?" },
+        { "speaker": "a", "en": "The network is Hotel Guest.", "vi": "Mạng tên là Hotel Guest." },
+        { "speaker": "b", "en": "And the password?", "vi": "Còn mật khẩu?" },
+        { "speaker": "a", "en": "It is on the card in your room.", "vi": "Có ghi trên thẻ trong phòng bạn ạ." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giờ ăn sáng", "situation": "Bạn hỏi giờ và địa điểm ăn sáng.",
+      "turns": [
+        { "speaker": "a", "en": "Breakfast is included with your room.", "vi": "Bữa sáng đã bao gồm trong giá phòng của bạn." },
+        { "speaker": "b", "en": "Great. What time is breakfast?", "vi": "Tuyệt. Bữa sáng lúc mấy giờ ạ?" },
+        { "speaker": "a", "en": "From six thirty to ten in the lobby.", "vi": "Từ sáu giờ ba mươi đến mười giờ ở sảnh." },
+        { "speaker": "b", "en": "Is the lobby on the first floor?", "vi": "Sảnh ở tầng một phải không ạ?" },
+        { "speaker": "a", "en": "Yes, right next to the front desk.", "vi": "Vâng, ngay cạnh quầy lễ tân." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Xin thêm khăn tắm", "situation": "Bạn cần thêm khăn tắm cho phòng.",
+      "turns": [
+        { "speaker": "a", "en": "Hello, front desk.", "vi": "Xin chào, đây là lễ tân." },
+        { "speaker": "b", "en": "Hi, could I get an extra towel?", "vi": "Chào, cho tôi xin thêm một cái khăn được không ạ?" },
+        { "speaker": "a", "en": "Of course. What is your room number?", "vi": "Được ạ. Số phòng của bạn là gì?" },
+        { "speaker": "b", "en": "Room three oh five.", "vi": "Phòng ba không năm." },
+        { "speaker": "a", "en": "We will send it up right away.", "vi": "Chúng tôi sẽ mang lên ngay." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Máy sấy tóc không hoạt động", "situation": "Máy sấy tóc trong phòng bị hỏng.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you tonight?", "vi": "Tối nay tôi giúp gì được cho bạn ạ?" },
+        { "speaker": "b", "en": "The hair dryer in my room is not working.", "vi": "Máy sấy tóc trong phòng tôi không hoạt động." },
+        { "speaker": "a", "en": "I am sorry about that. I will send a new one.", "vi": "Tôi xin lỗi về việc đó. Tôi sẽ gửi cái mới lên." },
+        { "speaker": "b", "en": "Thank you. What room is next to the sink?", "vi": "Cảm ơn bạn. Máy để ở đâu, gần bồn rửa à?" },
+        { "speaker": "a", "en": "Yes, it will be by the sink.", "vi": "Vâng, sẽ để cạnh bồn rửa ạ." },
+        { "speaker": "b", "en": "Great, thank you for your help.", "vi": "Tuyệt, cảm ơn bạn đã giúp đỡ." }
+      ]},
+    { "title": "Hỏi các tiện nghi trong khách sạn", "situation": "Bạn hỏi tổng quan các tiện nghi có sẵn.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome. Here is your key card.", "vi": "Chào mừng bạn. Đây là thẻ phòng của bạn." },
+        { "speaker": "b", "en": "Thank you. What amenities do you have?", "vi": "Cảm ơn bạn. Khách sạn có những tiện nghi gì ạ?" },
+        { "speaker": "a", "en": "We have a gym, a pool, and free Wi-Fi.", "vi": "Chúng tôi có phòng gym, hồ bơi, và wifi miễn phí." },
+        { "speaker": "b", "en": "Is the pool on the first floor?", "vi": "Hồ bơi ở tầng một phải không ạ?" },
+        { "speaker": "a", "en": "Yes, next to the gym.", "vi": "Vâng, ngay cạnh phòng gym." },
+        { "speaker": "b", "en": "Sounds great, thank you.", "vi": "Nghe hay đấy, cảm ơn bạn." }
+      ]},
+    { "title": "Wifi yếu trong phòng", "situation": "Wifi trong phòng của bạn rất yếu.",
+      "turns": [
+        { "speaker": "a", "en": "Front desk, how can I help?", "vi": "Lễ tân đây, tôi giúp gì được ạ?" },
+        { "speaker": "b", "en": "The Wi-Fi is very weak in my room.", "vi": "Wifi trong phòng tôi rất yếu." },
+        { "speaker": "a", "en": "I am sorry. Which room are you in?", "vi": "Tôi xin lỗi. Bạn ở phòng nào ạ?" },
+        { "speaker": "b", "en": "Room four twelve.", "vi": "Phòng bốn mười hai." },
+        { "speaker": "a", "en": "I will send someone to check it.", "vi": "Tôi sẽ cử người lên kiểm tra." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." }
+      ]},
+    { "title": "Hỏi nơi cất đồ có giá trị", "situation": "Bạn hỏi có két an toàn trong phòng không.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your room key.", "vi": "Đây là chìa khoá phòng của bạn." },
+        { "speaker": "b", "en": "Is there a safe in the room?", "vi": "Trong phòng có két an toàn không ạ?" },
+        { "speaker": "a", "en": "Yes, it is in the closet.", "vi": "Có ạ, nó ở trong tủ." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Let me know if you need help with it.", "vi": "Nếu cần giúp thì cứ báo tôi nhé." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ báo, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giờ mở cửa phòng gym", "situation": "Bạn hỏi phòng tập gym mở đến mấy giờ.",
+      "turns": [
+        { "speaker": "a", "en": "Do you need anything else?", "vi": "Bạn còn cần gì nữa không ạ?" },
+        { "speaker": "b", "en": "What time does the gym close?", "vi": "Phòng gym đóng cửa lúc mấy giờ ạ?" },
+        { "speaker": "a", "en": "It is open until eleven at night.", "vi": "Mở cửa đến mười một giờ đêm." },
+        { "speaker": "b", "en": "And it opens at what time?", "vi": "Vậy mở cửa lúc mấy giờ?" },
+        { "speaker": "a", "en": "From six in the morning.", "vi": "Từ sáu giờ sáng." },
+        { "speaker": "b", "en": "Perfect, thank you.", "vi": "Tuyệt vời, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi về dịch vụ giặt ủi", "situation": "Bạn hỏi khách sạn có dịch vụ giặt ủi không.",
+      "turns": [
+        { "speaker": "a", "en": "Anything else I can help with?", "vi": "Còn gì tôi giúp được không ạ?" },
+        { "speaker": "b", "en": "Do you have laundry service?", "vi": "Bên bạn có dịch vụ giặt ủi không ạ?" },
+        { "speaker": "a", "en": "Yes, just call the front desk.", "vi": "Có ạ, chỉ cần gọi lễ tân." },
+        { "speaker": "b", "en": "How long does it take?", "vi": "Mất bao lâu vậy ạ?" },
+        { "speaker": "a", "en": "Usually one day.", "vi": "Thường là một ngày." },
+        { "speaker": "b", "en": "Okay, thank you for the information.", "vi": "Được, cảm ơn thông tin bạn cung cấp." }
+      ]},
+    { "title": "Nhiều yêu cầu cùng lúc lúc nửa đêm", "situation": "Bạn có ba yêu cầu khác nhau khi gọi lễ tân ca đêm. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Good evening, front desk.", "vi": "Chào buổi tối, đây là lễ tân." },
+        { "speaker": "b", "en": "Hi, I need an extra towel and the Wi-Fi password.", "vi": "Chào, tôi cần thêm khăn tắm và mật khẩu wifi." },
+        { "speaker": "a", "en": "Sure. The password is on your key card.", "vi": "Được ạ. Mật khẩu ghi trên thẻ phòng của bạn." },
+        { "speaker": "b", "en": "Also, is breakfast included tomorrow?", "vi": "Ngoài ra, mai bữa sáng có bao gồm không ạ?" },
+        { "speaker": "a", "en": "Yes, from six thirty in the lobby.", "vi": "Có ạ, từ sáu giờ ba mươi ở sảnh." },
+        { "speaker": "b", "en": "Perfect, and please send the towel soon.", "vi": "Tuyệt, và cho tôi xin khăn sớm nhé." }
+      ]}
+  ]
+}

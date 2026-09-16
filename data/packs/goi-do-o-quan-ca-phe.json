@@ -1,0 +1,96 @@
+{
+  "id": "goi-do-o-quan-ca-phe",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Gọi latte đá", "situation": "Bạn gọi một ly latte đá cơ bản.",
+      "turns": [
+        { "speaker": "a", "en": "Hi, what can I get you today?", "vi": "Chào bạn, hôm nay bạn muốn dùng gì?" },
+        { "speaker": "b", "en": "Can I get an iced latte, please?", "vi": "Cho tôi một ly latte đá được không?" },
+        { "speaker": "a", "en": "Sure. What size would you like?", "vi": "Được ạ. Bạn muốn cỡ nào?" },
+        { "speaker": "b", "en": "Medium, please.", "vi": "Cỡ vừa nhé." },
+        { "speaker": "a", "en": "That will be four dollars.", "vi": "Vậy là bốn đô." },
+        { "speaker": "b", "en": "Can I pay by card?", "vi": "Tôi trả bằng thẻ được không?" }
+      ]},
+    { "title": "Đổi sang sữa yến mạch", "situation": "Bạn yêu cầu đổi sữa vì dị ứng sữa bò.",
+      "turns": [
+        { "speaker": "a", "en": "One latte, coming up.", "vi": "Một latte, sắp có ngay." },
+        { "speaker": "b", "en": "Sorry, can I have oat milk instead?", "vi": "Xin lỗi, đổi sang sữa yến mạch được không?" },
+        { "speaker": "a", "en": "Sure, no problem. It is fifty cents extra.", "vi": "Được ạ, không sao. Phụ thu năm mươi xu." },
+        { "speaker": "b", "en": "That is fine.", "vi": "Vậy được." },
+        { "speaker": "a", "en": "Anything else?", "vi": "Còn gì nữa không ạ?" },
+        { "speaker": "b", "en": "No, that is all. Thank you.", "vi": "Không, vậy thôi. Cảm ơn bạn." }
+      ]},
+    { "title": "Yêu cầu ít ngọt", "situation": "Bạn muốn đồ uống bớt ngọt hơn bình thường.",
+      "turns": [
+        { "speaker": "a", "en": "One iced latte, coming right up.", "vi": "Một latte đá, sắp có ngay." },
+        { "speaker": "b", "en": "Could you make it less sweet?", "vi": "Bạn làm bớt ngọt hơn được không?" },
+        { "speaker": "a", "en": "Sure. Half sugar or no sugar?", "vi": "Được ạ. Nửa đường hay không đường?" },
+        { "speaker": "b", "en": "Half sugar is fine.", "vi": "Nửa đường là ổn rồi." },
+        { "speaker": "a", "en": "Got it, half sugar.", "vi": "Rõ rồi, nửa đường." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Gọi thêm bánh muffin", "situation": "Bạn gọi thêm một chiếc bánh muffin việt quất.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like anything else?", "vi": "Bạn có muốn thêm gì không?" },
+        { "speaker": "b", "en": "Yes, a blueberry muffin, please.", "vi": "Có, cho tôi một cái bánh muffin việt quất." },
+        { "speaker": "a", "en": "Would you like it warmed up?", "vi": "Bạn có muốn hâm nóng không?" },
+        { "speaker": "b", "en": "Yes, please.", "vi": "Vâng, làm ơn." },
+        { "speaker": "a", "en": "Sure, that will take a minute.", "vi": "Được ạ, sẽ mất khoảng một phút." },
+        { "speaker": "b", "en": "No problem, thank you.", "vi": "Không sao, cảm ơn bạn." }
+      ]},
+    { "title": "Quầy hết một loại đồ uống", "situation": "Quán đã hết loại đồ uống bạn muốn gọi.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, we are out of oat milk today.", "vi": "Xin lỗi, hôm nay quán hết sữa yến mạch rồi." },
+        { "speaker": "b", "en": "Oh, do you have almond milk?", "vi": "Ồ, vậy có sữa hạnh nhân không?" },
+        { "speaker": "a", "en": "Yes, we have almond milk.", "vi": "Có, chúng tôi có sữa hạnh nhân." },
+        { "speaker": "b", "en": "Okay, I will try that instead.", "vi": "Được, vậy cho tôi thử loại đó." },
+        { "speaker": "a", "en": "Great choice.", "vi": "Lựa chọn hay đấy." },
+        { "speaker": "b", "en": "Thank you for letting me know.", "vi": "Cảm ơn bạn đã báo cho tôi." }
+      ]},
+    { "title": "Thanh toán bằng thẻ bị lỗi", "situation": "Thẻ của bạn không quẹt được lần đầu.",
+      "turns": [
+        { "speaker": "a", "en": "That will be five dollars.", "vi": "Vậy là năm đô." },
+        { "speaker": "b", "en": "Can I pay by card?", "vi": "Tôi trả bằng thẻ được không?" },
+        { "speaker": "a", "en": "Sure, please tap here.", "vi": "Được ạ, chạm vào đây nhé." },
+        { "speaker": "b", "en": "Sorry, it did not work.", "vi": "Xin lỗi, không được rồi." },
+        { "speaker": "a", "en": "No problem, try again.", "vi": "Không sao, thử lại nhé." },
+        { "speaker": "b", "en": "Okay, it worked this time.", "vi": "Được rồi, lần này được." }
+      ]},
+    { "title": "Ngồi lại quán làm việc", "situation": "Bạn hỏi wifi để ngồi làm việc tại quán.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like it to go?", "vi": "Bạn dùng mang đi ạ?" },
+        { "speaker": "b", "en": "No, for here, please. Do you have Wi-Fi?", "vi": "Không, dùng tại quán ạ. Bên bạn có wifi không?" },
+        { "speaker": "a", "en": "Yes, the password is on the counter.", "vi": "Có ạ, mật khẩu ghi ở quầy." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Is there a plug near your table?", "vi": "Chỗ bàn bạn có ổ cắm gần không ạ?" },
+        { "speaker": "b", "en": "I will check, thank you.", "vi": "Tôi sẽ kiểm tra, cảm ơn bạn." }
+      ]},
+    { "title": "Gọi nhầm đồ uống", "situation": "Quán làm nhầm đơn của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your hot latte.", "vi": "Đây là latte nóng của bạn." },
+        { "speaker": "b", "en": "Sorry, I ordered an iced latte.", "vi": "Xin lỗi, tôi gọi latte đá mà." },
+        { "speaker": "a", "en": "Oh, I am so sorry. Let me fix that.", "vi": "Ồ, tôi thật sự xin lỗi. Để tôi sửa lại." },
+        { "speaker": "b", "en": "No worries, thank you.", "vi": "Không sao đâu, cảm ơn bạn." },
+        { "speaker": "a", "en": "Here is your iced latte.", "vi": "Đây là latte đá của bạn." },
+        { "speaker": "b", "en": "This is right. Thank you.", "vi": "Đúng rồi. Cảm ơn bạn." }
+      ]},
+    { "title": "Gọi cho cả nhóm bạn", "situation": "Bạn gọi đồ uống khác nhau cho ba người bạn.",
+      "turns": [
+        { "speaker": "a", "en": "What can I get for your group?", "vi": "Nhóm bạn muốn dùng gì ạ?" },
+        { "speaker": "b", "en": "Two iced lattes and one hot coffee, please.", "vi": "Hai latte đá và một cà phê nóng nhé." },
+        { "speaker": "a", "en": "Any sizes in particular?", "vi": "Có yêu cầu cỡ cụ thể không ạ?" },
+        { "speaker": "b", "en": "All medium, please.", "vi": "Tất cả cỡ vừa nhé." },
+        { "speaker": "a", "en": "Got it. For here or to go?", "vi": "Rõ rồi. Dùng tại quán hay mang đi ạ?" },
+        { "speaker": "b", "en": "For here, please.", "vi": "Dùng tại quán nhé." }
+      ]},
+    { "title": "Đổi nhiều thứ trong một đơn phức tạp", "situation": "Bạn thay đổi sữa, độ ngọt và thêm bánh cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What would you like today?", "vi": "Hôm nay bạn dùng gì ạ?" },
+        { "speaker": "b", "en": "An iced latte with oat milk, less sweet.", "vi": "Một latte đá, sữa yến mạch, ít ngọt." },
+        { "speaker": "a", "en": "Got it. Anything else?", "vi": "Rõ rồi. Còn gì nữa không ạ?" },
+        { "speaker": "b", "en": "Yes, a blueberry muffin, warmed up.", "vi": "Có, một bánh muffin việt quất, hâm nóng nhé." },
+        { "speaker": "a", "en": "So, oat milk, less sweet, and a warmed muffin.", "vi": "Vậy là sữa yến mạch, ít ngọt, và bánh muffin hâm nóng." },
+        { "speaker": "b", "en": "Exactly right. Thank you.", "vi": "Chính xác. Cảm ơn bạn." }
+      ]}
+  ]
+}
