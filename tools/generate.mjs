@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { buildPrompt, slugify } from '../assets/js/prompt.js';
 // normalizeLesson is pure (no browser globals at import time) so Node can reuse it.
 import { normalizeLesson } from '../assets/js/store.js';
-import { runAi } from './ai-cli.mjs';
+import { runAi, AiCliError } from './ai-cli.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LESSON_DIR = path.join(ROOT, 'data', 'lessons');
@@ -33,7 +33,10 @@ export async function generateLesson(opts) {
     throw new Error(`đã có ${path.relative(ROOT, file)} — dùng --force để ghi đè.`);
   }
 
-  const raw = opts.raw ?? await runAi(buildPrompt({ ...opts, level, id }), { onLog: opts.onLog });
+  const raw = opts.raw ?? await runAi(buildPrompt({ ...opts, level, id }), {
+    onLog: opts.onLog,
+    logFile: path.join(ROOT, 'logs', `gen-${id}.log`),
+  });
 
   let lesson;
   try {
@@ -41,7 +44,10 @@ export async function generateLesson(opts) {
   } catch (err) {
     const dump = path.join(ROOT, 'data', `.last-raw-${id}.txt`);
     await writeFile(dump, raw, 'utf8').catch(() => {});
-    throw new Error(`${err.message} (nguyên văn output lưu ở ${path.relative(ROOT, dump)})`);
+    const wrapped = new AiCliError(
+      `${err.message} (nguyên văn output lưu ở ${path.relative(ROOT, dump)})`);
+    wrapped.kind = err instanceof AiCliError ? err.kind : null;
+    throw wrapped;
   }
 
   lesson.id = id;   // keep filename and id in sync

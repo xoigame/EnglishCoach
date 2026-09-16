@@ -3,3 +3,4 @@ node_modules/
 Thumbs.db
 data/.last-raw-*.txt
 .vscode/
+logs/

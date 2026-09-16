@@ -73,7 +73,28 @@ codex exec --skip-git-repo-check -s read-only --color never --output-schema tool
 AI_CLI=claude node tools/gen-lesson.mjs --topic "Ở sân bay" --level A2
 ```
 
-Với lệnh tự đặt, dùng hai placeholder trong `AI_CLI_ARGS`: `{{OUT}}` là file chứa câu trả lời cuối (có thì stdout bị bỏ qua), `{{SCHEMA}}` là đường dẫn tới `tools/lesson.schema.json`.
+Với lệnh tự đặt, dùng các placeholder trong `AI_CLI_ARGS`:
+
+| Placeholder | Thay bằng |
+| --- | --- |
+| `{{PROMPT}}` | Nội dung prompt. **Không** có placeholder này thì prompt đi qua stdin |
+| `{{OUT}}` | File chứa câu trả lời cuối — có thì stdout bị bỏ qua |
+| `{{SCHEMA}}` | Đường dẫn `tools/lesson.schema.json` |
+| `{{CWD}}` | Thư mục gốc dự án |
+
+### Ba điều rút từ `AI-Unity-Game-Factory`
+
+Cách gọi CLI ở [`tools/ai-cli.mjs`](tools/ai-cli.mjs) làm theo `factory/providers/base.py` của dự án đó, vì ba chỗ dưới đây đều đã có người trả giá rồi:
+
+1. **Phải tự dò đường dẫn đầy đủ của lệnh.** Trên Windows, npm cài CLI dưới dạng `.cmd` shim; `CreateProcess` chỉ tự thêm `.exe` nên `spawn('codex')` báo ENOENT dù `where codex` vẫn thấy. Dò ra `codex.CMD` rồi spawn thẳng thì không cần `shell: true`, kéo theo không còn rủi ro escape sai dấu nháy.
+2. **Prompt đi bằng argv, để trống stdin.** Phiên headless mà stdin đã bị prompt chiếm thì mọi câu hỏi xin quyền của CLI không ai trả lời được — thao tác bị từ chối *im lặng*, CLI vẫn thoát 0, và ta tưởng là thành công.
+3. **Hết token có hai kiểu.** Hết quota cả tài khoản thì phải dừng cả loạt chờ reset; tràn context chỉ hỏng đúng bài đó. `gen-series.mjs` phân biệt hai trường hợp và tự dừng khi gặp quota, thay vì đốt tiếp mấy chục lượt lỗi.
+
+Toàn bộ transcript mỗi lần gọi được ghi ra `logs/gen-<id>.log` để xem trực tiếp trong lúc chạy:
+
+```bash
+Get-Content logs/gen-dat-phong-khach-san.log -Wait
+```
 
 Nếu AI trả về dữ liệu hỏng, nguyên văn output được lưu ở `data/.last-raw-<id>.txt` để xem lại.
 

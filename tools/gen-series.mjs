@@ -12,7 +12,7 @@ import { parseArgs } from 'node:util';
 import path from 'node:path';
 
 import { generateLesson, lessonExists, ROOT } from './generate.mjs';
-import { describeCli } from './ai-cli.mjs';
+import { prettyCli, AiCliError } from './ai-cli.mjs';
 import { buildIndex } from './build-index.mjs';
 
 const { values } = parseArgs({
@@ -82,17 +82,19 @@ if (!queue.length) {
   process.exit(0);
 }
 
-const { cmd, args } = describeCli();
 const jobs = Math.max(1, Math.min(4, Number(values.jobs) || 2));
-console.log(`⏳ Soạn ${queue.length} bài bằng "${cmd} ${args.join(' ')}", ${jobs} luồng song song.\n`);
+console.log(`⏳ Soạn ${queue.length} bài, ${jobs} luồng song song.`);
+console.log(`   ${prettyCli()}`);
+console.log(`   Transcript từng bài: logs/gen-<id>.log\n`);
 
 const started = Date.now();
 const done = [];
 const failed = [];
 let next = 0;
+let halted = '';   // hết quota cả tài khoản: dừng, chạy tiếp cũng vô ích
 
 await Promise.all(Array.from({ length: jobs }, async () => {
-  while (next < queue.length) {
+  while (next < queue.length && !halted) {
     const task = queue[next++];
     const n = `${done.length + failed.length + 1}/${queue.length}`;
     try {
@@ -102,6 +104,12 @@ await Promise.all(Array.from({ length: jobs }, async () => {
     } catch (err) {
       failed.push({ id: task.id, msg: err.message });
       console.error(`❌ ${n} ${task.level} ${task.id} — ${err.message.split('\n')[0]}`);
+      if (err instanceof AiCliError && err.tail) {
+        console.error(err.tail.split('\n').map(l => `   ${l}`).join('\n'));
+      }
+      if (err instanceof AiCliError && err.kind === 'quota') {
+        halted = 'Tài khoản hết quota hoặc bị giới hạn tốc độ — dừng cả loạt, chờ reset rồi chạy lại.';
+      }
     }
     await buildIndex(ROOT).catch(() => {});
   }
@@ -110,6 +118,9 @@ await Promise.all(Array.from({ length: jobs }, async () => {
 const mins = ((Date.now() - started) / 60000).toFixed(1);
 const count = await buildIndex(ROOT);
 console.log(`\n🏁 Xong sau ${mins} phút · ${done.length} thành công · ${failed.length} lỗi · index có ${count} bài.`);
+if (halted) console.log(`\n⛔ ${halted}`);
+const left = queue.length - done.length - failed.length;
+if (left > 0) console.log(`   Còn ${left} bài chưa chạy — chạy lại lệnh cũ, bài đã có sẽ tự bỏ qua.`);
 if (failed.length) {
   console.log('\nSoạn lại các bài lỗi:');
   console.log(`  node tools/gen-series.mjs --only ${failed.map(f => f.id).join(',')}`);

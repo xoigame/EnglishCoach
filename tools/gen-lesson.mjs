@@ -11,7 +11,7 @@ import path from 'node:path';
 
 import { buildPrompt, slugify } from '../assets/js/prompt.js';
 import { generateLesson, ROOT } from './generate.mjs';
-import { describeCli } from './ai-cli.mjs';
+import { prettyCli } from './ai-cli.mjs';
 import { buildIndex } from './build-index.mjs';
 
 const { values } = parseArgs({
@@ -31,7 +31,6 @@ const { values } = parseArgs({
 });
 
 if (values.help || !values.topic) {
-  const { cmd, args } = describeCli();
   console.log(`
 Soạn một giáo án tiếng Anh bằng AI CLI.
 
@@ -46,7 +45,7 @@ Soạn một giáo án tiếng Anh bằng AI CLI.
   --force               Ghi đè bài đã tồn tại
   --quiet               Không in log của CLI
 
-CLI đang dùng: ${cmd} ${args.join(' ')}
+CLI đang dùng: ${prettyCli()}
 Đổi bằng env AI_CLI (codex | claude | lệnh khác) và AI_CLI_ARGS.
 `.trim());
   process.exit(values.help ? 0 : 1);
@@ -57,8 +56,8 @@ if (values['dry-run']) {
   process.exit(0);
 }
 
-const { cmd, args } = describeCli();
-if (!values['from-file']) console.error(`⏳ ${cmd} ${args.join(' ')} — đang soạn "${values.topic}"…`);
+if (!values['from-file']) console.error(`⏳ ${prettyCli()}
+   đang soạn "${values.topic}"…`);
 
 try {
   const { lesson, file } = await generateLesson({
