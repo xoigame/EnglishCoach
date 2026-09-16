@@ -1,0 +1,96 @@
+{
+  "id": "noi-ve-thoi-tiet",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Trời nắng đẹp", "situation": "Hàng xóm nhận xét về thời tiết đẹp.",
+      "turns": [
+        { "speaker": "a", "en": "It is sunny today.", "vi": "Hôm nay trời nắng." },
+        { "speaker": "b", "en": "Yes, and warm too.", "vi": "Ừ, lại ấm nữa." },
+        { "speaker": "a", "en": "Do you have plans today?", "vi": "Hôm nay bạn có kế hoạch gì không?" },
+        { "speaker": "b", "en": "I go to the market.", "vi": "Tôi đi chợ." },
+        { "speaker": "a", "en": "Have a good day.", "vi": "Chúc bạn một ngày tốt lành." },
+        { "speaker": "b", "en": "Thank you. You too.", "vi": "Cảm ơn bạn. Bạn cũng vậy." }
+      ]},
+    { "title": "Trời mưa", "situation": "Trời đang mưa và hai người bàn về kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "It is rainy today.", "vi": "Hôm nay trời mưa." },
+        { "speaker": "b", "en": "Yes, very rainy.", "vi": "Ừ, mưa to lắm." },
+        { "speaker": "a", "en": "Do you have plans today?", "vi": "Hôm nay bạn có kế hoạch gì không?" },
+        { "speaker": "b", "en": "No, I will stay home.", "vi": "Không, tôi sẽ ở nhà." },
+        { "speaker": "a", "en": "That is a good idea.", "vi": "Ý hay đấy." },
+        { "speaker": "b", "en": "Yes, I will relax today.", "vi": "Ừ, hôm nay tôi nghỉ ngơi." }
+      ]},
+    { "title": "Cần giúp mang đồ", "situation": "Hàng xóm hỏi giúp bạn khi trời nắng nóng.",
+      "turns": [
+        { "speaker": "a", "en": "It is very warm today.", "vi": "Hôm nay trời nóng lắm." },
+        { "speaker": "b", "en": "Yes, too warm for me.", "vi": "Ừ, với tôi thì nóng quá." },
+        { "speaker": "a", "en": "Do you need help?", "vi": "Bạn cần giúp gì không?" },
+        { "speaker": "b", "en": "Yes, please. These bags are heavy.", "vi": "Có, giúp tôi với. Mấy túi này nặng lắm." },
+        { "speaker": "a", "en": "I can carry one for you.", "vi": "Tôi mang giúp bạn một túi nhé." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Dọn nhà trước khi mưa", "situation": "Bạn vội dọn đồ trước khi trời mưa.",
+      "turns": [
+        { "speaker": "a", "en": "The weather looks bad today.", "vi": "Hôm nay thời tiết trông xấu quá." },
+        { "speaker": "b", "en": "Yes, I think it will rain.", "vi": "Ừ, tôi nghĩ trời sắp mưa." },
+        { "speaker": "a", "en": "I need to clean the yard first.", "vi": "Tôi cần dọn sân trước đã." },
+        { "speaker": "b", "en": "Do you need help?", "vi": "Bạn cần giúp không?" },
+        { "speaker": "a", "en": "Yes, please. Thank you.", "vi": "Có, giúp tôi với. Cảm ơn bạn." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không có gì đâu." }
+      ]},
+    { "title": "So sánh thời tiết", "situation": "Hai người so sánh thời tiết hôm nay và hôm qua.",
+      "turns": [
+        { "speaker": "a", "en": "The weather today is nice.", "vi": "Thời tiết hôm nay đẹp đấy." },
+        { "speaker": "b", "en": "Yes, better than yesterday.", "vi": "Ừ, tốt hơn hôm qua." },
+        { "speaker": "a", "en": "Yesterday was very rainy.", "vi": "Hôm qua mưa to lắm." },
+        { "speaker": "b", "en": "Today is sunny and warm.", "vi": "Hôm nay trời nắng và ấm." },
+        { "speaker": "a", "en": "Perfect for a walk.", "vi": "Vậy đi dạo thì hợp lắm." },
+        { "speaker": "b", "en": "Yes, let us go for a walk.", "vi": "Ừ, đi dạo thôi." }
+      ]},
+    { "title": "Rủ đi dạo", "situation": "Hàng xóm rủ bạn đi dạo vì trời đẹp.",
+      "turns": [
+        { "speaker": "a", "en": "It is sunny and warm.", "vi": "Trời nắng và ấm." },
+        { "speaker": "b", "en": "Yes, a beautiful day.", "vi": "Ừ, ngày đẹp trời." },
+        { "speaker": "a", "en": "Do you want to go for a walk?", "vi": "Bạn muốn đi dạo không?" },
+        { "speaker": "b", "en": "Sure, I would like that.", "vi": "Được, tôi thích thế." },
+        { "speaker": "a", "en": "Let us go to the park.", "vi": "Mình đi công viên nhé." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe hay đấy." }
+      ]},
+    { "title": "Quên mang dù", "situation": "Trời bất ngờ đổ mưa và bạn không có dù.",
+      "turns": [
+        { "speaker": "a", "en": "Oh no, it is raining now.", "vi": "Ôi không, giờ trời mưa rồi." },
+        { "speaker": "b", "en": "Do you have an umbrella?", "vi": "Bạn có ô không?" },
+        { "speaker": "a", "en": "No, I forgot it at home.", "vi": "Không, tôi để quên ở nhà rồi." },
+        { "speaker": "b", "en": "I have one. We can share.", "vi": "Tôi có một cái. Mình dùng chung nhé." },
+        { "speaker": "a", "en": "Thank you, that is very kind.", "vi": "Cảm ơn bạn, bạn tốt quá." },
+        { "speaker": "b", "en": "No problem. Let us go.", "vi": "Không có gì. Đi thôi." }
+      ]},
+    { "title": "Kế hoạch cho ngày mai", "situation": "Bạn hỏi thăm kế hoạch của hàng xóm cho ngày mai.",
+      "turns": [
+        { "speaker": "a", "en": "What are your plans for tomorrow?", "vi": "Ngày mai bạn có kế hoạch gì?" },
+        { "speaker": "b", "en": "I will go to the market.", "vi": "Tôi sẽ đi chợ." },
+        { "speaker": "a", "en": "I heard it will be rainy.", "vi": "Tôi nghe nói mai mưa đấy." },
+        { "speaker": "b", "en": "Really? I need an umbrella then.", "vi": "Thật à? Vậy tôi cần mang ô rồi." },
+        { "speaker": "a", "en": "Yes, be prepared.", "vi": "Ừ, chuẩn bị trước nhé." },
+        { "speaker": "b", "en": "Thank you for telling me.", "vi": "Cảm ơn bạn đã báo." }
+      ]},
+    { "title": "Thời tiết ảnh hưởng công việc", "situation": "Trời mưa làm ảnh hưởng đến kế hoạch làm việc ngoài trời.",
+      "turns": [
+        { "speaker": "a", "en": "It is rainy today. Bad timing.", "vi": "Hôm nay trời mưa. Đúng lúc không may." },
+        { "speaker": "b", "en": "Why? What is your plan?", "vi": "Sao vậy? Bạn định làm gì?" },
+        { "speaker": "a", "en": "I need to clean the yard.", "vi": "Tôi cần dọn sân." },
+        { "speaker": "b", "en": "You can do it tomorrow instead.", "vi": "Bạn để mai làm cũng được." },
+        { "speaker": "a", "en": "Good idea. Thank you.", "vi": "Ý hay đấy. Cảm ơn bạn." },
+        { "speaker": "b", "en": "Have a good day anyway.", "vi": "Dù sao cũng chúc bạn ngày tốt lành." }
+      ]},
+    { "title": "Thời tiết thay đổi bất ngờ", "situation": "Thời tiết thay đổi giữa buổi và hai người bàn cách xử lý. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This morning was sunny and warm.", "vi": "Sáng nay trời nắng và ấm." },
+        { "speaker": "b", "en": "Yes, but now it looks rainy.", "vi": "Ừ, nhưng giờ trông sắp mưa rồi." },
+        { "speaker": "a", "en": "I have plans to go to the market.", "vi": "Tôi định đi chợ." },
+        { "speaker": "b", "en": "Do you need help carrying an umbrella?", "vi": "Bạn cần tôi mang ô giúp không?" },
+        { "speaker": "a", "en": "No, I have my own. Thank you.", "vi": "Không, tôi có ô riêng rồi. Cảm ơn bạn." },
+        { "speaker": "b", "en": "Have a good day, and stay dry.", "vi": "Chúc bạn ngày tốt lành, và đừng để bị ướt nhé." }
+      ]}
+  ]
+}

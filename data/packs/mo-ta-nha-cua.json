@@ -1,0 +1,96 @@
+{
+  "id": "mo-ta-nha-cua",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Giới thiệu phòng khách", "situation": "Bạn dẫn khách vào xem phòng khách.",
+      "turns": [
+        { "speaker": "a", "en": "Your home is nice.", "vi": "Nhà bạn đẹp đấy." },
+        { "speaker": "b", "en": "Thank you. The living room is here.", "vi": "Cảm ơn bạn. Phòng khách đây." },
+        { "speaker": "a", "en": "It is very bright.", "vi": "Sáng sủa quá." },
+        { "speaker": "b", "en": "Yes, we have big windows.", "vi": "Vâng, nhà tôi có cửa sổ lớn." },
+        { "speaker": "a", "en": "I like it a lot.", "vi": "Tôi thích lắm." },
+        { "speaker": "b", "en": "Thank you. Please sit down.", "vi": "Cảm ơn bạn. Mời bạn ngồi." }
+      ]},
+    { "title": "Xem phòng ngủ", "situation": "Khách hỏi về phòng ngủ.",
+      "turns": [
+        { "speaker": "a", "en": "Where is your bedroom?", "vi": "Phòng ngủ của bạn ở đâu?" },
+        { "speaker": "b", "en": "The bedroom is upstairs.", "vi": "Phòng ngủ ở tầng trên." },
+        { "speaker": "a", "en": "Can I see it?", "vi": "Tôi xem được không?" },
+        { "speaker": "b", "en": "Sure, this way please.", "vi": "Được, mời đi lối này." },
+        { "speaker": "a", "en": "It is very tidy.", "vi": "Gọn gàng quá." },
+        { "speaker": "b", "en": "Thank you. I clean it every day.", "vi": "Cảm ơn bạn. Tôi dọn nó mỗi ngày." }
+      ]},
+    { "title": "Bàn học trong phòng", "situation": "Khách chú ý đến bàn học trong phòng.",
+      "turns": [
+        { "speaker": "a", "en": "My room has a desk.", "vi": "Phòng tôi có một cái bàn." },
+        { "speaker": "b", "en": "Where is the desk?", "vi": "Bàn ở đâu vậy?" },
+        { "speaker": "a", "en": "It is next to the window.", "vi": "Nó nằm cạnh cửa sổ." },
+        { "speaker": "b", "en": "That is a good spot.", "vi": "Chỗ đó tốt đấy." },
+        { "speaker": "a", "en": "Yes, it is bright there.", "vi": "Vâng, chỗ đó sáng lắm." },
+        { "speaker": "b", "en": "I like your desk.", "vi": "Tôi thích cái bàn của bạn." }
+      ]},
+    { "title": "Nhà bếp nhỏ nhưng gọn", "situation": "Khách xem nhà bếp.",
+      "turns": [
+        { "speaker": "a", "en": "Is your kitchen small?", "vi": "Nhà bếp của bạn nhỏ à?" },
+        { "speaker": "b", "en": "Yes, but it is tidy.", "vi": "Vâng, nhưng gọn gàng." },
+        { "speaker": "a", "en": "I like small kitchens.", "vi": "Tôi thích bếp nhỏ." },
+        { "speaker": "b", "en": "Me too. It is easy to clean.", "vi": "Tôi cũng vậy. Dễ dọn dẹp lắm." },
+        { "speaker": "a", "en": "Do you cook here every day?", "vi": "Bạn nấu ăn ở đây mỗi ngày à?" },
+        { "speaker": "b", "en": "Yes, every day.", "vi": "Vâng, mỗi ngày." }
+      ]},
+    { "title": "Phòng tắm ở đâu", "situation": "Khách hỏi phòng tắm để rửa tay.",
+      "turns": [
+        { "speaker": "a", "en": "Where is the bathroom?", "vi": "Phòng tắm ở đâu vậy?" },
+        { "speaker": "b", "en": "It is next to the bedroom.", "vi": "Ngay cạnh phòng ngủ." },
+        { "speaker": "a", "en": "Is it upstairs?", "vi": "Ở tầng trên à?" },
+        { "speaker": "b", "en": "Yes, upstairs on the right.", "vi": "Vâng, tầng trên, bên phải." },
+        { "speaker": "a", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "So sánh hai phòng ngủ", "situation": "Nhà có hai phòng ngủ, khách hỏi khác nhau thế nào.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have two bedrooms?", "vi": "Bạn có hai phòng ngủ à?" },
+        { "speaker": "b", "en": "Yes, this one and one more.", "vi": "Vâng, cái này và một cái nữa." },
+        { "speaker": "a", "en": "Which one is bigger?", "vi": "Cái nào lớn hơn?" },
+        { "speaker": "b", "en": "The other one is bigger.", "vi": "Cái kia lớn hơn." },
+        { "speaker": "a", "en": "Is this one bright too?", "vi": "Cái này cũng sáng chứ?" },
+        { "speaker": "b", "en": "Yes, it has a big window.", "vi": "Vâng, nó có cửa sổ lớn." }
+      ]},
+    { "title": "Nhà mới chuyển vào", "situation": "Bạn mới chuyển đến nhà này gần đây.",
+      "turns": [
+        { "speaker": "a", "en": "Is this a new home?", "vi": "Đây là nhà mới của bạn à?" },
+        { "speaker": "b", "en": "Yes, I moved here last month.", "vi": "Vâng, tôi mới chuyển tới tháng trước." },
+        { "speaker": "a", "en": "Do you like it here?", "vi": "Bạn có thích ở đây không?" },
+        { "speaker": "b", "en": "Yes, very much.", "vi": "Vâng, rất thích." },
+        { "speaker": "a", "en": "It is very tidy for a new home.", "vi": "Nhà mới mà gọn gàng thế." },
+        { "speaker": "b", "en": "Thank you. I clean every day.", "vi": "Cảm ơn bạn. Tôi dọn mỗi ngày." }
+      ]},
+    { "title": "Khách khen phòng khách", "situation": "Khách khen phòng khách sáng sủa và rộng rãi.",
+      "turns": [
+        { "speaker": "a", "en": "The living room is very bright.", "vi": "Phòng khách sáng quá." },
+        { "speaker": "b", "en": "Thank you. I like it too.", "vi": "Cảm ơn bạn. Tôi cũng thích thế." },
+        { "speaker": "a", "en": "Is the kitchen near here?", "vi": "Bếp có gần đây không?" },
+        { "speaker": "b", "en": "Yes, the kitchen is next to it.", "vi": "Vâng, bếp ở ngay cạnh." },
+        { "speaker": "a", "en": "Your home is very nice.", "vi": "Nhà bạn đẹp thật." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Phòng chưa dọn xong", "situation": "Bạn xin lỗi vì phòng chưa gọn gàng.",
+      "turns": [
+        { "speaker": "a", "en": "Can I see your bedroom?", "vi": "Tôi xem phòng ngủ của bạn được không?" },
+        { "speaker": "b", "en": "Sorry, it is not tidy today.", "vi": "Xin lỗi, hôm nay chưa gọn lắm." },
+        { "speaker": "a", "en": "That is okay, no problem.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "I will clean it tomorrow.", "vi": "Mai tôi sẽ dọn." },
+        { "speaker": "a", "en": "It looks fine to me.", "vi": "Với tôi thì cũng ổn mà." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "So sánh nhà cũ và nhà mới", "situation": "Bạn so sánh nhà hiện tại với nhà trước đây. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Is this bigger than your old home?", "vi": "Nhà này lớn hơn nhà cũ của bạn à?" },
+        { "speaker": "b", "en": "Yes, much bigger.", "vi": "Vâng, lớn hơn nhiều." },
+        { "speaker": "a", "en": "What was different about the old one?", "vi": "Nhà cũ khác thế nào?" },
+        { "speaker": "b", "en": "The old kitchen was very small.", "vi": "Bếp nhà cũ rất nhỏ." },
+        { "speaker": "a", "en": "This kitchen looks bigger.", "vi": "Bếp này trông lớn hơn đấy." },
+        { "speaker": "b", "en": "Yes, and it is much brighter too.", "vi": "Vâng, và cũng sáng hơn nhiều." }
+      ]}
+  ]
+}

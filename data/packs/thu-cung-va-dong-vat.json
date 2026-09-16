@@ -1,0 +1,96 @@
+{
+  "id": "thu-cung-va-dong-vat",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Làm quen với chó", "situation": "Bạn gặp hàng xóm đang dắt chó đi dạo.",
+      "turns": [
+        { "speaker": "a", "en": "This is my dog.", "vi": "Đây là chó của tôi." },
+        { "speaker": "b", "en": "Is he friendly with people?", "vi": "Nó có thân thiện với người không?" },
+        { "speaker": "a", "en": "Yes, very friendly.", "vi": "Có, thân thiện lắm." },
+        { "speaker": "b", "en": "Can I pet him?", "vi": "Tôi vuốt ve nó được không?" },
+        { "speaker": "a", "en": "Sure, go ahead.", "vi": "Được, bạn cứ tự nhiên." },
+        { "speaker": "b", "en": "He is very cute.", "vi": "Nó dễ thương quá." }
+      ]},
+    { "title": "Hỏi tên chó", "situation": "Bạn hỏi tên chó của hàng xóm.",
+      "turns": [
+        { "speaker": "a", "en": "What is your dog's name?", "vi": "Chó của bạn tên gì?" },
+        { "speaker": "b", "en": "His name is Max.", "vi": "Nó tên là Max." },
+        { "speaker": "a", "en": "That is a nice name.", "vi": "Cái tên hay đấy." },
+        { "speaker": "b", "en": "Thank you. He is two years old.", "vi": "Cảm ơn bạn. Nó hai tuổi rồi." },
+        { "speaker": "a", "en": "Does he like walks?", "vi": "Nó có thích đi dạo không?" },
+        { "speaker": "b", "en": "Yes, every day.", "vi": "Có, mỗi ngày." }
+      ]},
+    { "title": "Con mèo của bạn", "situation": "Bạn kể về con mèo của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a pet?", "vi": "Bạn có nuôi thú cưng không?" },
+        { "speaker": "b", "en": "Yes, I have a cat.", "vi": "Có, tôi có một con mèo." },
+        { "speaker": "a", "en": "Is your cat friendly?", "vi": "Mèo của bạn có thân thiện không?" },
+        { "speaker": "b", "en": "Yes, she likes people.", "vi": "Có, nó thích người lắm." },
+        { "speaker": "a", "en": "What is her name?", "vi": "Nó tên gì vậy?" },
+        { "speaker": "b", "en": "Her name is Kitty.", "vi": "Nó tên là Kitty." }
+      ]},
+    { "title": "Chó sợ người lạ", "situation": "Con chó có vẻ ngại người lạ.",
+      "turns": [
+        { "speaker": "a", "en": "Can I pet your dog?", "vi": "Tôi vuốt ve chó của bạn được không?" },
+        { "speaker": "b", "en": "Sorry, she is a little shy.", "vi": "Xin lỗi, nó hơi nhút nhát." },
+        { "speaker": "a", "en": "That is okay.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "She needs time with new people.", "vi": "Nó cần thời gian để quen người mới." },
+        { "speaker": "a", "en": "I understand.", "vi": "Tôi hiểu mà." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Dây dắt chó", "situation": "Bạn hỏi về dây dắt của con chó.",
+      "turns": [
+        { "speaker": "a", "en": "Your dog has a new leash.", "vi": "Chó của bạn có dây dắt mới đấy." },
+        { "speaker": "b", "en": "Yes, I bought it yesterday.", "vi": "Vâng, tôi mua hôm qua." },
+        { "speaker": "a", "en": "It looks strong.", "vi": "Trông chắc chắn đấy." },
+        { "speaker": "b", "en": "Yes, he pulls a lot.", "vi": "Vâng, nó kéo mạnh lắm." },
+        { "speaker": "a", "en": "Does he get excited outside?", "vi": "Nó có hào hứng khi ra ngoài không?" },
+        { "speaker": "b", "en": "Yes, very excited.", "vi": "Có, hào hứng lắm." }
+      ]},
+    { "title": "Chó chạy xa", "situation": "Con chó chạy xa khỏi chủ.",
+      "turns": [
+        { "speaker": "a", "en": "Where is your dog?", "vi": "Chó của bạn đâu rồi?" },
+        { "speaker": "b", "en": "He is far away now.", "vi": "Giờ nó chạy xa rồi." },
+        { "speaker": "a", "en": "Should we call him?", "vi": "Mình gọi nó không?" },
+        { "speaker": "b", "en": "Yes, please help me.", "vi": "Có, giúp tôi với." },
+        { "speaker": "a", "en": "He is coming back now.", "vi": "Nó đang chạy lại rồi." },
+        { "speaker": "b", "en": "Thank you for the help.", "vi": "Cảm ơn bạn đã giúp." }
+      ]},
+    { "title": "Hai con chó chơi cùng nhau", "situation": "Hai chú chó gặp nhau và chơi đùa.",
+      "turns": [
+        { "speaker": "a", "en": "Our dogs are playing together.", "vi": "Chó của chúng ta đang chơi cùng nhau." },
+        { "speaker": "b", "en": "They like each other.", "vi": "Chúng thích nhau đấy." },
+        { "speaker": "a", "en": "Yes, they are friendly.", "vi": "Ừ, chúng thân thiện lắm." },
+        { "speaker": "b", "en": "How old is your dog?", "vi": "Chó của bạn mấy tuổi rồi?" },
+        { "speaker": "a", "en": "He is one year old.", "vi": "Nó một tuổi." },
+        { "speaker": "b", "en": "Mine is the same age.", "vi": "Con của tôi cũng cùng tuổi đấy." }
+      ]},
+    { "title": "Thú cưng ở nhà", "situation": "Bạn kể về việc chăm sóc thú cưng ở nhà.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have pets at home?", "vi": "Ở nhà bạn có nuôi thú cưng không?" },
+        { "speaker": "b", "en": "Yes, a dog and a cat.", "vi": "Có, một con chó và một con mèo." },
+        { "speaker": "a", "en": "Do they like each other?", "vi": "Chúng có thích nhau không?" },
+        { "speaker": "b", "en": "Yes, they play together often.", "vi": "Có, chúng thường chơi cùng nhau." },
+        { "speaker": "a", "en": "That is nice to hear.", "vi": "Nghe hay đấy." },
+        { "speaker": "b", "en": "Yes, I am happy about it.", "vi": "Vâng, tôi vui vì điều đó." }
+      ]},
+    { "title": "Xin chào chó mới", "situation": "Bạn gặp một chú chó mới lần đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Is this a new dog?", "vi": "Đây là chó mới à?" },
+        { "speaker": "b", "en": "Yes, we got him last week.", "vi": "Vâng, chúng tôi mới nhận nuôi tuần trước." },
+        { "speaker": "a", "en": "He is very cute.", "vi": "Nó dễ thương quá." },
+        { "speaker": "b", "en": "Thank you. He is still learning.", "vi": "Cảm ơn bạn. Nó vẫn đang học hỏi." },
+        { "speaker": "a", "en": "Is he friendly already?", "vi": "Vậy nó đã thân thiện chưa?" },
+        { "speaker": "b", "en": "Yes, very friendly already.", "vi": "Có, đã thân thiện lắm rồi." }
+      ]},
+    { "title": "Chó không thích người lạ nhưng dần quen", "situation": "Ban đầu chó ngại nhưng sau đó thân thiện hơn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your dog seems nervous around me.", "vi": "Chó của bạn có vẻ e ngại tôi." },
+        { "speaker": "b", "en": "Yes, he gets excited near strangers.", "vi": "Vâng, nó hào hứng khi thấy người lạ." },
+        { "speaker": "a", "en": "Should I stay far away?", "vi": "Tôi nên đứng xa ra không?" },
+        { "speaker": "b", "en": "No, just move slowly.", "vi": "Không, bạn cứ di chuyển từ từ thôi." },
+        { "speaker": "a", "en": "Okay, like this?", "vi": "Được, như thế này à?" },
+        { "speaker": "b", "en": "Yes, now he is friendly with you.", "vi": "Vâng, giờ nó thân thiện với bạn rồi đấy." }
+      ]}
+  ]
+}

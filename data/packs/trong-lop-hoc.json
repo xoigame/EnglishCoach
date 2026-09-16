@@ -1,0 +1,96 @@
+{
+  "id": "trong-lop-hoc",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Xin nhắc lại", "situation": "Bạn chưa nghe rõ và xin giáo viên nhắc lại.",
+      "turns": [
+        { "speaker": "a", "en": "Open your book to page ten.", "vi": "Mở sách tới trang mười." },
+        { "speaker": "b", "en": "Could you repeat that, please?", "vi": "Bạn nói lại được không ạ?" },
+        { "speaker": "a", "en": "Page ten, please.", "vi": "Trang mười nhé." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn cô." },
+        { "speaker": "a", "en": "You are welcome.", "vi": "Không có gì." },
+        { "speaker": "b", "en": "I found it now.", "vi": "Em tìm thấy rồi ạ." }
+      ]},
+    { "title": "Hỏi trang sách", "situation": "Bạn không rõ đang ở trang nào.",
+      "turns": [
+        { "speaker": "a", "en": "Let us read this line.", "vi": "Chúng ta đọc dòng này nhé." },
+        { "speaker": "b", "en": "Sorry, which page is it?", "vi": "Xin lỗi, đó là trang nào ạ?" },
+        { "speaker": "a", "en": "Page fifteen.", "vi": "Trang mười lăm." },
+        { "speaker": "b", "en": "Thank you, I found it.", "vi": "Cảm ơn cô, em tìm thấy rồi." },
+        { "speaker": "a", "en": "Good. Let us continue.", "vi": "Tốt. Chúng ta tiếp tục nhé." },
+        { "speaker": "b", "en": "Okay.", "vi": "Vâng ạ." }
+      ]},
+    { "title": "Xin ngồi cạnh bạn", "situation": "Bạn xin phép ngồi cạnh một người bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Where would you like to sit?", "vi": "Bạn muốn ngồi đâu?" },
+        { "speaker": "b", "en": "Can I sit here?", "vi": "Em ngồi đây được không ạ?" },
+        { "speaker": "a", "en": "Yes, that is fine.", "vi": "Được, ổn mà." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn cô." },
+        { "speaker": "a", "en": "You are welcome. Sit down.", "vi": "Không có gì. Ngồi xuống đi." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Em cảm ơn nhiều ạ." }
+      ]},
+    { "title": "Mượn bút", "situation": "Bạn quên mang bút và mượn bạn học.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a pen?", "vi": "Bạn có bút không?" },
+        { "speaker": "b", "en": "Can I use your pen, please?", "vi": "Em mượn bút của bạn được không ạ?" },
+        { "speaker": "a", "en": "Sure, here you are.", "vi": "Được, của bạn đây." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Em cảm ơn nhiều." },
+        { "speaker": "a", "en": "No problem.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "I will give it back soon.", "vi": "Em sẽ trả lại sớm." }
+      ]},
+    { "title": "Không hiểu một từ", "situation": "Bạn không hiểu nghĩa một từ trong bài.",
+      "turns": [
+        { "speaker": "a", "en": "Do you understand this word?", "vi": "Em hiểu từ này không?" },
+        { "speaker": "b", "en": "I do not understand this word.", "vi": "Em không hiểu từ này ạ." },
+        { "speaker": "a", "en": "It means happy.", "vi": "Nó có nghĩa là vui." },
+        { "speaker": "b", "en": "Oh, I see. Thank you.", "vi": "À, em hiểu rồi. Cảm ơn cô." },
+        { "speaker": "a", "en": "You are welcome.", "vi": "Không có gì." },
+        { "speaker": "b", "en": "Now it makes sense.", "vi": "Giờ thì em hiểu rồi ạ." }
+      ]},
+    { "title": "Đọc to trước lớp", "situation": "Bạn được yêu cầu đọc to một đoạn văn.",
+      "turns": [
+        { "speaker": "a", "en": "Can you read this line?", "vi": "Em đọc dòng này được không?" },
+        { "speaker": "b", "en": "Yes, I can read it.", "vi": "Dạ, em đọc được." },
+        { "speaker": "a", "en": "Please read it out loud.", "vi": "Hãy đọc to lên nhé." },
+        { "speaker": "b", "en": "Okay, I will read now.", "vi": "Vâng, em đọc bây giờ ạ." },
+        { "speaker": "a", "en": "Very good. Thank you.", "vi": "Rất tốt. Cảm ơn em." },
+        { "speaker": "b", "en": "Thank you, teacher.", "vi": "Em cảm ơn cô ạ." }
+      ]},
+    { "title": "Xin nói chậm hơn", "situation": "Giáo viên nói hơi nhanh và bạn xin nói chậm lại.",
+      "turns": [
+        { "speaker": "a", "en": "Let us practice together now.", "vi": "Bây giờ chúng ta luyện tập cùng nhau nhé." },
+        { "speaker": "b", "en": "Sorry, can you speak more slowly?", "vi": "Xin lỗi cô, cô nói chậm hơn được không ạ?" },
+        { "speaker": "a", "en": "Of course. Let us practice.", "vi": "Được. Chúng ta luyện tập nhé." },
+        { "speaker": "b", "en": "Thank you, teacher.", "vi": "Em cảm ơn cô." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "This is much clearer.", "vi": "Vậy rõ hơn nhiều rồi ạ." }
+      ]},
+    { "title": "Xin phép đi vệ sinh", "situation": "Bạn xin phép ra ngoài một chút.",
+      "turns": [
+        { "speaker": "a", "en": "Yes, what is it?", "vi": "Vâng, có chuyện gì?" },
+        { "speaker": "b", "en": "Can I go to the toilet, please?", "vi": "Em đi vệ sinh được không ạ?" },
+        { "speaker": "a", "en": "Yes, go ahead.", "vi": "Được, em cứ đi." },
+        { "speaker": "b", "en": "Thank you. I will be quick.", "vi": "Em cảm ơn. Em sẽ nhanh thôi." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Cứ từ từ." },
+        { "speaker": "b", "en": "Thank you, teacher.", "vi": "Em cảm ơn cô." }
+      ]},
+    { "title": "Bài tập khó", "situation": "Bạn thấy bài tập khó và xin giúp đỡ.",
+      "turns": [
+        { "speaker": "a", "en": "How is the exercise going?", "vi": "Bài tập thế nào rồi em?" },
+        { "speaker": "b", "en": "This one is difficult for me.", "vi": "Bài này khó với em quá." },
+        { "speaker": "a", "en": "Which line is the problem?", "vi": "Dòng nào khiến em khó vậy?" },
+        { "speaker": "b", "en": "This word here.", "vi": "Từ này ạ." },
+        { "speaker": "a", "en": "Let me explain it again.", "vi": "Để cô giải thích lại nhé." },
+        { "speaker": "b", "en": "Thank you, that helps.", "vi": "Em cảm ơn cô, vậy dễ hiểu hơn ạ." }
+      ]},
+    { "title": "Nhiều câu hỏi liên tiếp", "situation": "Bạn có nhiều thắc mắc trong một bài tập khó. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any questions?", "vi": "Em có câu hỏi nào không?" },
+        { "speaker": "b", "en": "Yes, I do not understand this word.", "vi": "Dạ có, em không hiểu từ này." },
+        { "speaker": "a", "en": "It means to begin.", "vi": "Nó có nghĩa là bắt đầu." },
+        { "speaker": "b", "en": "I see. Which page do we read next?", "vi": "Em hiểu rồi ạ. Tiếp theo mình đọc trang nào?" },
+        { "speaker": "a", "en": "Page twenty, please.", "vi": "Trang hai mươi nhé." },
+        { "speaker": "b", "en": "Thank you for explaining everything.", "vi": "Em cảm ơn cô đã giải thích hết ạ." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "hoi-tham-suc-khoe",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Hỏi thăm sau khi bị ốm", "situation": "Đồng nghiệp mới đi làm lại sau khi ốm.",
+      "turns": [
+        { "speaker": "a", "en": "How are you feeling today?", "vi": "Hôm nay bạn thấy thế nào?" },
+        { "speaker": "b", "en": "I feel much better.", "vi": "Tôi thấy khá hơn nhiều rồi." },
+        { "speaker": "a", "en": "Are you still sick?", "vi": "Bạn còn ốm không?" },
+        { "speaker": "b", "en": "No, I am okay now.", "vi": "Không, giờ tôi ổn rồi." },
+        { "speaker": "a", "en": "I am happy to hear that.", "vi": "Nghe vậy tôi mừng quá." },
+        { "speaker": "b", "en": "Thank you for asking.", "vi": "Cảm ơn bạn đã hỏi thăm." }
+      ]},
+    { "title": "Bị cảm lạnh", "situation": "Đồng nghiệp vẫn còn ho nhẹ.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a cold?", "vi": "Bạn bị cảm à?" },
+        { "speaker": "b", "en": "Yes, a little cough.", "vi": "Vâng, ho nhẹ thôi." },
+        { "speaker": "a", "en": "Please take it easy.", "vi": "Bạn nghỉ ngơi nhẹ nhàng nhé." },
+        { "speaker": "b", "en": "Thank you, I will.", "vi": "Cảm ơn bạn, tôi sẽ nghỉ." },
+        { "speaker": "a", "en": "Do you need tea?", "vi": "Bạn cần trà không?" },
+        { "speaker": "b", "en": "Yes, please. Thank you.", "vi": "Có, cảm ơn bạn." }
+      ]},
+    { "title": "Khuyên nghỉ ngơi", "situation": "Bạn khuyên đồng nghiệp nghỉ ngơi thêm.",
+      "turns": [
+        { "speaker": "a", "en": "You still look tired.", "vi": "Bạn trông vẫn còn mệt đấy." },
+        { "speaker": "b", "en": "Yes, I need more rest.", "vi": "Vâng, tôi cần nghỉ thêm." },
+        { "speaker": "a", "en": "Do you want to go home?", "vi": "Bạn muốn về nhà không?" },
+        { "speaker": "b", "en": "No, I can finish today.", "vi": "Không, hôm nay tôi làm xong được." },
+        { "speaker": "a", "en": "Okay, but take it easy.", "vi": "Được, nhưng bạn làm nhẹ nhàng thôi nhé." },
+        { "speaker": "b", "en": "I will. Thank you.", "vi": "Tôi sẽ vậy. Cảm ơn bạn." }
+      ]},
+    { "title": "Mang thuốc tới cho đồng nghiệp", "situation": "Bạn mang thuốc cho đồng nghiệp bị ốm.",
+      "turns": [
+        { "speaker": "a", "en": "I brought you some medicine.", "vi": "Tôi mang thuốc tới cho bạn đây." },
+        { "speaker": "b", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "How do you feel now?", "vi": "Giờ bạn thấy thế nào?" },
+        { "speaker": "b", "en": "A little better, thank you.", "vi": "Khá hơn một chút rồi, cảm ơn bạn." },
+        { "speaker": "a", "en": "Do you need anything else?", "vi": "Bạn cần gì nữa không?" },
+        { "speaker": "b", "en": "No, this is enough. Thank you.", "vi": "Không, vậy là đủ rồi. Cảm ơn bạn." }
+      ]},
+    { "title": "Nghỉ làm vì ốm", "situation": "Đồng nghiệp báo tin nghỉ làm vì bị ốm.",
+      "turns": [
+        { "speaker": "a", "en": "Are you coming to work today?", "vi": "Hôm nay bạn có đi làm không?" },
+        { "speaker": "b", "en": "No, I feel sick today.", "vi": "Không, hôm nay tôi thấy không khoẻ." },
+        { "speaker": "a", "en": "I am sorry to hear that.", "vi": "Nghe vậy tôi rất tiếc." },
+        { "speaker": "b", "en": "Thank you. I need rest.", "vi": "Cảm ơn bạn. Tôi cần nghỉ ngơi." },
+        { "speaker": "a", "en": "Please take it easy.", "vi": "Bạn nghỉ ngơi nhẹ nhàng nhé." },
+        { "speaker": "b", "en": "I will. See you soon.", "vi": "Tôi sẽ vậy. Hẹn gặp lại sớm." }
+      ]},
+    { "title": "Hỏi thăm qua điện thoại", "situation": "Bạn gọi điện hỏi thăm đồng nghiệp đang nghỉ ốm.",
+      "turns": [
+        { "speaker": "a", "en": "Hi, how are you feeling?", "vi": "Chào, bạn thấy thế nào rồi?" },
+        { "speaker": "b", "en": "Still a little sick.", "vi": "Vẫn hơi mệt một chút." },
+        { "speaker": "a", "en": "Do you have a fever?", "vi": "Bạn có sốt không?" },
+        { "speaker": "b", "en": "No, just a cough.", "vi": "Không, chỉ ho thôi." },
+        { "speaker": "a", "en": "Please rest well.", "vi": "Bạn nghỉ ngơi cho khoẻ nhé." },
+        { "speaker": "b", "en": "Thank you for calling.", "vi": "Cảm ơn bạn đã gọi." }
+      ]},
+    { "title": "Trở lại làm việc từ từ", "situation": "Đồng nghiệp mới đi làm lại nhưng chưa hoàn toàn khoẻ.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome back to work.", "vi": "Chào mừng bạn trở lại làm việc." },
+        { "speaker": "b", "en": "Thank you. I feel better now.", "vi": "Cảm ơn bạn. Giờ tôi thấy khoẻ hơn rồi." },
+        { "speaker": "a", "en": "Do not do too much today.", "vi": "Hôm nay đừng làm nhiều quá nhé." },
+        { "speaker": "b", "en": "Okay, I will take it easy.", "vi": "Được, tôi sẽ làm nhẹ nhàng thôi." },
+        { "speaker": "a", "en": "That is a good idea.", "vi": "Vậy hợp lý đấy." },
+        { "speaker": "b", "en": "Thank you for your care.", "vi": "Cảm ơn bạn đã quan tâm." }
+      ]},
+    { "title": "Chia sẻ mẹo trị cảm", "situation": "Bạn chia sẻ cách trị cảm lạnh với đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "I have a cold today.", "vi": "Hôm nay tôi bị cảm." },
+        { "speaker": "b", "en": "Try drinking warm tea.", "vi": "Bạn thử uống trà ấm đi." },
+        { "speaker": "a", "en": "Does that help?", "vi": "Vậy có giúp ích không?" },
+        { "speaker": "b", "en": "Yes, it always helps me.", "vi": "Có, nó luôn giúp tôi." },
+        { "speaker": "a", "en": "Thank you, I will try it.", "vi": "Cảm ơn bạn, tôi sẽ thử." },
+        { "speaker": "b", "en": "I hope you feel better soon.", "vi": "Tôi mong bạn sớm khoẻ lại." }
+      ]},
+    { "title": "Lo lắng về sức khoẻ đồng nghiệp", "situation": "Bạn lo lắng vì đồng nghiệp ốm đã nhiều ngày.",
+      "turns": [
+        { "speaker": "a", "en": "You have been sick for three days.", "vi": "Bạn ốm ba ngày rồi đấy." },
+        { "speaker": "b", "en": "Yes, it is taking a while.", "vi": "Vâng, lâu khỏi thật." },
+        { "speaker": "a", "en": "Have you seen a doctor?", "vi": "Bạn đã đi khám bác sĩ chưa?" },
+        { "speaker": "b", "en": "Not yet, but I will go tomorrow.", "vi": "Chưa, nhưng mai tôi sẽ đi." },
+        { "speaker": "a", "en": "That is a good idea.", "vi": "Vậy tốt đấy." },
+        { "speaker": "b", "en": "Thank you for caring.", "vi": "Cảm ơn bạn đã quan tâm." }
+      ]},
+    { "title": "Đồng nghiệp lo lắng khi bạn vẫn đi làm dù ốm", "situation": "Bạn cố đi làm dù chưa khoẻ hẳn và đồng nghiệp khuyên nghỉ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You do not look well today.", "vi": "Hôm nay trông bạn không khoẻ đấy." },
+        { "speaker": "b", "en": "I am still a little sick, but I came anyway.", "vi": "Tôi vẫn còn hơi mệt, nhưng tôi vẫn tới." },
+        { "speaker": "a", "en": "You should go home and rest.", "vi": "Bạn nên về nhà nghỉ ngơi đi." },
+        { "speaker": "b", "en": "I have important work today.", "vi": "Hôm nay tôi có việc quan trọng." },
+        { "speaker": "a", "en": "I can help with your work.", "vi": "Tôi có thể giúp bạn phần việc đó." },
+        { "speaker": "b", "en": "Thank you. Maybe I should go home.", "vi": "Cảm ơn bạn. Có lẽ tôi nên về nhà thật." }
+      ]}
+  ]
+}

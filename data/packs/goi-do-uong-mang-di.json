@@ -1,0 +1,96 @@
+{
+  "id": "goi-do-uong-mang-di",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Gọi trà đá mang đi", "situation": "Bạn gọi một ly trà đá mang đi.",
+      "turns": [
+        { "speaker": "a", "en": "What would you like?", "vi": "Bạn muốn dùng gì ạ?" },
+        { "speaker": "b", "en": "I would like iced tea, please.", "vi": "Cho tôi trà đá nhé." },
+        { "speaker": "a", "en": "What size would you like?", "vi": "Bạn muốn cỡ nào?" },
+        { "speaker": "b", "en": "Small, please.", "vi": "Cỡ nhỏ nhé." },
+        { "speaker": "a", "en": "For here or to go?", "vi": "Dùng tại quán hay mang đi?" },
+        { "speaker": "b", "en": "To go, please.", "vi": "Mang đi nhé." }
+      ]},
+    { "title": "Uống tại quán", "situation": "Bạn muốn ngồi lại uống tại quán.",
+      "turns": [
+        { "speaker": "a", "en": "Can I have a coffee, please?", "vi": "Cho tôi một ly cà phê nhé." },
+        { "speaker": "b", "en": "For here or to go?", "vi": "Dùng tại quán hay mang đi ạ?" },
+        { "speaker": "a", "en": "For here, please.", "vi": "Dùng tại quán ạ." },
+        { "speaker": "b", "en": "What size?", "vi": "Cỡ nào ạ?" },
+        { "speaker": "a", "en": "Large, please.", "vi": "Cỡ lớn nhé." },
+        { "speaker": "b", "en": "Okay, please have a seat.", "vi": "Được ạ, mời bạn ngồi." }
+      ]},
+    { "title": "Hỏi giá đồ uống", "situation": "Bạn hỏi giá trước khi gọi.",
+      "turns": [
+        { "speaker": "a", "en": "How much is the coffee?", "vi": "Cà phê bao nhiêu tiền?" },
+        { "speaker": "b", "en": "Small is two dollars.", "vi": "Cỡ nhỏ hai đô." },
+        { "speaker": "a", "en": "And large?", "vi": "Còn cỡ lớn?" },
+        { "speaker": "b", "en": "Large is three dollars.", "vi": "Cỡ lớn ba đô." },
+        { "speaker": "a", "en": "I would like a large one, please.", "vi": "Cho tôi cỡ lớn nhé." },
+        { "speaker": "b", "en": "Sure, for here or to go?", "vi": "Được ạ, dùng tại quán hay mang đi?" }
+      ]},
+    { "title": "Thêm đường", "situation": "Bạn yêu cầu thêm đường vào đồ uống.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your iced tea.", "vi": "Đây là trà đá của bạn." },
+        { "speaker": "b", "en": "Can I have some sugar, please?", "vi": "Cho tôi xin đường được không?" },
+        { "speaker": "a", "en": "Sure, here you go.", "vi": "Được ạ, của bạn đây." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Do you need a straw?", "vi": "Bạn cần ống hút không?" },
+        { "speaker": "b", "en": "Yes, please.", "vi": "Vâng, cho tôi xin." }
+      ]},
+    { "title": "Đổi cỡ ly", "situation": "Bạn muốn đổi cỡ ly đã gọi.",
+      "turns": [
+        { "speaker": "a", "en": "One small coffee, coming up.", "vi": "Một cà phê cỡ nhỏ, sắp có ngay." },
+        { "speaker": "b", "en": "Sorry, can I change to large?", "vi": "Xin lỗi, đổi sang cỡ lớn được không?" },
+        { "speaker": "a", "en": "Sure, no problem.", "vi": "Được ạ, không sao." },
+        { "speaker": "b", "en": "How much more is that?", "vi": "Vậy thêm bao nhiêu tiền?" },
+        { "speaker": "a", "en": "One dollar more.", "vi": "Thêm một đô." },
+        { "speaker": "b", "en": "Okay, that is fine.", "vi": "Được, vậy ổn rồi." }
+      ]},
+    { "title": "Quán đông khách", "situation": "Bạn phải đợi lâu hơn vì quán đông.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry for the wait. It is busy today.", "vi": "Xin lỗi vì để bạn đợi. Hôm nay đông khách quá." },
+        { "speaker": "b", "en": "That is okay. How long is the wait?", "vi": "Không sao. Đợi khoảng bao lâu ạ?" },
+        { "speaker": "a", "en": "About five minutes.", "vi": "Khoảng năm phút." },
+        { "speaker": "b", "en": "Okay, I can wait.", "vi": "Được, tôi đợi được." },
+        { "speaker": "a", "en": "Thank you for your patience.", "vi": "Cảm ơn bạn đã kiên nhẫn." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Đồ uống bị nhầm", "situation": "Bạn nhận nhầm đồ uống.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your coffee.", "vi": "Đây là cà phê của bạn." },
+        { "speaker": "b", "en": "Sorry, I ordered iced tea.", "vi": "Xin lỗi, tôi gọi trà đá mà." },
+        { "speaker": "a", "en": "Oh, sorry about that.", "vi": "Ồ, xin lỗi bạn nhé." },
+        { "speaker": "b", "en": "No worries, it happens.", "vi": "Không sao đâu, chuyện thường mà." },
+        { "speaker": "a", "en": "Here is your iced tea.", "vi": "Đây là trà đá của bạn." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Hỏi loại trà có sẵn", "situation": "Bạn hỏi các loại trà đang có.",
+      "turns": [
+        { "speaker": "a", "en": "What kinds of tea do you have?", "vi": "Bên bạn có những loại trà nào?" },
+        { "speaker": "b", "en": "We have green tea and black tea.", "vi": "Chúng tôi có trà xanh và hồng trà." },
+        { "speaker": "a", "en": "I will try the green tea.", "vi": "Tôi thử trà xanh nhé." },
+        { "speaker": "b", "en": "Hot or iced?", "vi": "Nóng hay đá?" },
+        { "speaker": "a", "en": "Iced, please.", "vi": "Đá nhé." },
+        { "speaker": "b", "en": "Coming right up.", "vi": "Sẽ có ngay ạ." }
+      ]},
+    { "title": "Không mang đủ tiền lẻ", "situation": "Bạn không có tiền lẻ vừa đủ.",
+      "turns": [
+        { "speaker": "a", "en": "That is two dollars, please.", "vi": "Hai đô ạ." },
+        { "speaker": "b", "en": "Sorry, I only have a ten.", "vi": "Xin lỗi, tôi chỉ có tờ mười đô." },
+        { "speaker": "a", "en": "That is fine, I have change.", "vi": "Không sao, tôi có tiền thối." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "Here is eight dollars back.", "vi": "Đây là tám đô tiền thối lại." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Gọi cho nhiều người", "situation": "Bạn gọi đồ uống cho cả nhóm bạn, mỗi người một loại khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What would you all like?", "vi": "Mọi người dùng gì ạ?" },
+        { "speaker": "b", "en": "One iced tea and two coffees, please.", "vi": "Một trà đá và hai cà phê nhé." },
+        { "speaker": "a", "en": "What size for the coffees?", "vi": "Cà phê cỡ nào ạ?" },
+        { "speaker": "b", "en": "One small, one large.", "vi": "Một cỡ nhỏ, một cỡ lớn." },
+        { "speaker": "a", "en": "For here or to go?", "vi": "Dùng tại quán hay mang đi ạ?" },
+        { "speaker": "b", "en": "All to go, please.", "vi": "Tất cả mang đi nhé." }
+      ]}
+  ]
+}

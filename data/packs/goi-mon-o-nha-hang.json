@@ -1,0 +1,96 @@
+{
+  "id": "goi-mon-o-nha-hang",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Gọi món cơ bản", "situation": "Bạn gọi món ăn và đồ uống đơn giản.",
+      "turns": [
+        { "speaker": "a", "en": "A table for two, please.", "vi": "Cho bàn hai người." },
+        { "speaker": "b", "en": "This way, please.", "vi": "Mời đi lối này." },
+        { "speaker": "a", "en": "I'd like the chicken, please.", "vi": "Cho tôi món gà nhé." },
+        { "speaker": "b", "en": "What would you like to drink?", "vi": "Bạn muốn uống gì?" },
+        { "speaker": "a", "en": "Water, please.", "vi": "Cho tôi nước lọc." },
+        { "speaker": "b", "en": "Anything else?", "vi": "Còn gì nữa không ạ?" }
+      ]},
+    { "title": "Gọi thêm đồ uống", "situation": "Bạn gọi thêm nước cam sau khi gọi món.",
+      "turns": [
+        { "speaker": "a", "en": "I'd like the chicken, please.", "vi": "Cho tôi món gà." },
+        { "speaker": "b", "en": "Sure. Anything to drink?", "vi": "Vâng ạ. Bạn uống gì không?" },
+        { "speaker": "a", "en": "Could I have orange juice, please?", "vi": "Cho tôi xin nước cam được không?" },
+        { "speaker": "b", "en": "Of course.", "vi": "Được ạ." },
+        { "speaker": "a", "en": "That's all, thank you.", "vi": "Vậy thôi, cảm ơn." },
+        { "speaker": "b", "en": "Coming right up.", "vi": "Sẽ có ngay ạ." }
+      ]},
+    { "title": "Hỏi lại thực đơn", "situation": "Bạn cần xem lại thực đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Are you ready to order?", "vi": "Bạn gọi món chưa ạ?" },
+        { "speaker": "b", "en": "Can I see the menu again?", "vi": "Cho tôi xem lại thực đơn được không?" },
+        { "speaker": "a", "en": "Sure, here you go.", "vi": "Được ạ, của bạn đây." },
+        { "speaker": "b", "en": "Thank you. One more minute, please.", "vi": "Cảm ơn. Cho tôi thêm một phút nữa." },
+        { "speaker": "a", "en": "No problem, take your time.", "vi": "Không sao, bạn cứ từ từ." },
+        { "speaker": "b", "en": "Okay, I am ready now.", "vi": "Được rồi, giờ tôi sẵn sàng." }
+      ]},
+    { "title": "Món đã hết", "situation": "Món bạn muốn gọi đã hết.",
+      "turns": [
+        { "speaker": "a", "en": "I'd like the fish, please.", "vi": "Cho tôi món cá nhé." },
+        { "speaker": "b", "en": "Sorry, the fish is finished.", "vi": "Xin lỗi, món cá hết rồi ạ." },
+        { "speaker": "a", "en": "Oh. What do you recommend?", "vi": "Ồ. Vậy bạn gợi ý món gì?" },
+        { "speaker": "b", "en": "The chicken is very good.", "vi": "Món gà rất ngon ạ." },
+        { "speaker": "a", "en": "Okay, I'll have that.", "vi": "Được, cho tôi món đó." },
+        { "speaker": "b", "en": "Great choice.", "vi": "Lựa chọn tốt đấy ạ." }
+      ]},
+    { "title": "Xin thêm nước", "situation": "Bạn xin thêm nước trong bữa ăn.",
+      "turns": [
+        { "speaker": "a", "en": "How is your food?", "vi": "Món ăn của bạn thế nào?" },
+        { "speaker": "b", "en": "It's very good, thank you.", "vi": "Rất ngon, cảm ơn." },
+        { "speaker": "a", "en": "Would you like anything else?", "vi": "Bạn cần thêm gì không?" },
+        { "speaker": "b", "en": "Could I have more water, please?", "vi": "Cho tôi thêm nước được không?" },
+        { "speaker": "a", "en": "Of course, right away.", "vi": "Được ạ, ngay đây." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Xin hoá đơn", "situation": "Bạn ăn xong và xin hoá đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Are you finished?", "vi": "Bạn dùng xong chưa ạ?" },
+        { "speaker": "b", "en": "Yes, that's all. Thank you.", "vi": "Rồi ạ, vậy thôi. Cảm ơn." },
+        { "speaker": "a", "en": "Would you like the bill?", "vi": "Bạn cần hoá đơn không?" },
+        { "speaker": "b", "en": "Yes, please.", "vi": "Vâng, cho tôi xin." },
+        { "speaker": "a", "en": "Here you are.", "vi": "Của bạn đây ạ." },
+        { "speaker": "b", "en": "Thank you. It was delicious.", "vi": "Cảm ơn. Rất ngon." }
+      ]},
+    { "title": "Đổi món khi gọi nhầm", "situation": "Bạn nhận ra mình gọi nhầm món.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your chicken.", "vi": "Đây là món gà của bạn." },
+        { "speaker": "b", "en": "Sorry, I ordered the fish.", "vi": "Xin lỗi, tôi gọi món cá mà." },
+        { "speaker": "a", "en": "Oh, I am sorry. Let me check.", "vi": "Ồ, xin lỗi bạn. Để tôi kiểm tra." },
+        { "speaker": "b", "en": "Thank you for checking.", "vi": "Cảm ơn bạn đã kiểm tra." },
+        { "speaker": "a", "en": "Your fish is coming now.", "vi": "Món cá sắp ra ngay ạ." },
+        { "speaker": "b", "en": "No problem, thank you.", "vi": "Không sao, cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi món ăn cay không", "situation": "Bạn hỏi độ cay của món trước khi gọi.",
+      "turns": [
+        { "speaker": "a", "en": "The soup is very popular.", "vi": "Món súp này rất được ưa chuộng." },
+        { "speaker": "b", "en": "Is it spicy?", "vi": "Món đó có cay không?" },
+        { "speaker": "a", "en": "A little bit spicy.", "vi": "Hơi cay một chút thôi." },
+        { "speaker": "b", "en": "I do not like spicy food.", "vi": "Tôi không thích ăn cay." },
+        { "speaker": "a", "en": "The chicken is not spicy.", "vi": "Món gà thì không cay ạ." },
+        { "speaker": "b", "en": "Okay, I'll have the chicken.", "vi": "Được, vậy cho tôi món gà." }
+      ]},
+    { "title": "Bàn chưa dọn xong", "situation": "Bàn của bạn chưa được dọn sạch.",
+      "turns": [
+        { "speaker": "a", "en": "A table for two, please.", "vi": "Cho bàn hai người ạ." },
+        { "speaker": "b", "en": "Sorry, this table is not clean.", "vi": "Xin lỗi, bàn này chưa sạch." },
+        { "speaker": "a", "en": "That is okay, we can wait.", "vi": "Không sao, chúng tôi đợi được." },
+        { "speaker": "b", "en": "It will be ready in one minute.", "vi": "Một phút nữa sẽ sẵn sàng ạ." },
+        { "speaker": "a", "en": "Thank you for telling us.", "vi": "Cảm ơn đã báo cho chúng tôi." },
+        { "speaker": "b", "en": "Sorry for the wait.", "vi": "Xin lỗi vì để bạn phải đợi." }
+      ]},
+    { "title": "Nhóm lớn gọi nhiều món", "situation": "Bạn gọi món cho cả nhóm bốn người và có yêu cầu riêng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "A table for four, please.", "vi": "Cho bàn bốn người ạ." },
+        { "speaker": "b", "en": "This way, please. Are you ready to order?", "vi": "Mời đi lối này. Các bạn gọi món chưa ạ?" },
+        { "speaker": "a", "en": "Two chicken, one fish, and one soup.", "vi": "Hai món gà, một cá, và một súp." },
+        { "speaker": "b", "en": "Any drinks?", "vi": "Có đồ uống gì không ạ?" },
+        { "speaker": "a", "en": "Two water and two orange juice, please.", "vi": "Hai nước lọc và hai nước cam nhé." },
+        { "speaker": "b", "en": "Got it. Anything else?", "vi": "Rõ rồi ạ. Còn gì nữa không?" }
+      ]}
+  ]
+}

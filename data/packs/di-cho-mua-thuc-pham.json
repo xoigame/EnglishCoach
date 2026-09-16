@@ -1,0 +1,96 @@
+{
+  "id": "di-cho-mua-thuc-pham",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Mua cà chua", "situation": "Bạn mua cà chua ở quầy rau.",
+      "turns": [
+        { "speaker": "a", "en": "How many tomatoes do you need?", "vi": "Bạn cần bao nhiêu cà chua?" },
+        { "speaker": "b", "en": "I need five tomatoes, please.", "vi": "Cho tôi năm quả cà chua." },
+        { "speaker": "a", "en": "Anything else?", "vi": "Còn gì nữa không?" },
+        { "speaker": "b", "en": "No, that's all.", "vi": "Không, vậy thôi." },
+        { "speaker": "a", "en": "Your total is three dollars.", "vi": "Tổng cộng ba đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Hỏi độ tươi", "situation": "Bạn hỏi rau có tươi không.",
+      "turns": [
+        { "speaker": "a", "en": "Can I help you?", "vi": "Tôi giúp gì được cho bạn?" },
+        { "speaker": "b", "en": "Is the spinach fresh?", "vi": "Rau bina này có tươi không?" },
+        { "speaker": "a", "en": "Yes, it came this morning.", "vi": "Có, sáng nay mới nhập về." },
+        { "speaker": "b", "en": "Great, I need two bags.", "vi": "Tuyệt, cho tôi hai bó." },
+        { "speaker": "a", "en": "Sure, here you go.", "vi": "Được ạ, của bạn đây." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Mua nhiều loại rau", "situation": "Bạn mua ba loại rau khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "What do you need today?", "vi": "Hôm nay bạn cần gì?" },
+        { "speaker": "b", "en": "I need carrots, tomatoes, and spinach.", "vi": "Tôi cần cà rốt, cà chua, và rau bina." },
+        { "speaker": "a", "en": "How many carrots?", "vi": "Bao nhiêu cà rốt?" },
+        { "speaker": "b", "en": "Four, please.", "vi": "Bốn củ nhé." },
+        { "speaker": "a", "en": "Your total is six dollars.", "vi": "Tổng cộng sáu đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Hỏi giá cà rốt", "situation": "Bạn hỏi giá trước khi mua.",
+      "turns": [
+        { "speaker": "a", "en": "One carrot costs fifty cents.", "vi": "Một củ cà rốt năm mươi xu." },
+        { "speaker": "b", "en": "I need six carrots then.", "vi": "Vậy cho tôi sáu củ nhé." },
+        { "speaker": "a", "en": "That is three dollars.", "vi": "Vậy là ba đô." },
+        { "speaker": "b", "en": "Do you have any onions?", "vi": "Bạn có hành tây không?" },
+        { "speaker": "a", "en": "Yes, right here.", "vi": "Có, ngay đây ạ." },
+        { "speaker": "b", "en": "I will take two, please.", "vi": "Cho tôi hai củ nhé." }
+      ]},
+    { "title": "Không có rau bạn cần", "situation": "Rau bạn muốn mua đã hết.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any spinach?", "vi": "Bạn có rau bina không ạ?" },
+        { "speaker": "b", "en": "Sorry, spinach is finished today.", "vi": "Xin lỗi, hôm nay hết rau bina rồi." },
+        { "speaker": "a", "en": "That is okay. What is fresh today?", "vi": "Không sao. Hôm nay có gì tươi ạ?" },
+        { "speaker": "b", "en": "The carrots are very fresh.", "vi": "Cà rốt hôm nay tươi lắm." },
+        { "speaker": "a", "en": "Okay, I will take carrots instead.", "vi": "Vậy cho tôi lấy cà rốt thay thế." },
+        { "speaker": "b", "en": "How many do you need?", "vi": "Bạn cần bao nhiêu ạ?" }
+      ]},
+    { "title": "Túi mang theo", "situation": "Bạn tự mang túi để đựng rau.",
+      "turns": [
+        { "speaker": "a", "en": "Do you need a bag?", "vi": "Bạn cần túi không?" },
+        { "speaker": "b", "en": "No, I have my own bag.", "vi": "Không, tôi có túi riêng rồi." },
+        { "speaker": "a", "en": "Okay, that is fine.", "vi": "Được, vậy ổn." },
+        { "speaker": "b", "en": "Here is my bag.", "vi": "Đây là túi của tôi." },
+        { "speaker": "a", "en": "Thank you. Your total is four dollars.", "vi": "Cảm ơn bạn. Tổng cộng bốn đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Trả tiền lẻ", "situation": "Bạn thanh toán và nhận lại tiền thừa.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is seven dollars.", "vi": "Tổng cộng bảy đô." },
+        { "speaker": "b", "en": "Here is ten dollars.", "vi": "Đây là mười đô." },
+        { "speaker": "a", "en": "Your change is three dollars.", "vi": "Tiền thừa của bạn là ba đô." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Thank you. Come again.", "vi": "Cảm ơn bạn. Hôm khác ghé lại nhé." },
+        { "speaker": "b", "en": "I will. Bye.", "vi": "Tôi sẽ ghé lại. Tạm biệt." }
+      ]},
+    { "title": "Hỏi lại số lượng", "situation": "Người bán hỏi lại số lượng bạn muốn mua.",
+      "turns": [
+        { "speaker": "a", "en": "How many onions do you need?", "vi": "Bạn cần bao nhiêu hành tây?" },
+        { "speaker": "b", "en": "Sorry, could you repeat that?", "vi": "Xin lỗi, bạn nói lại được không?" },
+        { "speaker": "a", "en": "How many onions?", "vi": "Bao nhiêu hành tây ạ?" },
+        { "speaker": "b", "en": "Oh, three please.", "vi": "À, ba củ nhé." },
+        { "speaker": "a", "en": "Three onions, got it.", "vi": "Ba củ hành tây, rõ rồi." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Rau bị dập", "situation": "Bạn phát hiện một quả cà chua bị dập.",
+      "turns": [
+        { "speaker": "a", "en": "Here are your tomatoes.", "vi": "Đây là cà chua của bạn." },
+        { "speaker": "b", "en": "This one looks damaged.", "vi": "Quả này có vẻ bị dập." },
+        { "speaker": "a", "en": "Oh, sorry. Let me change it.", "vi": "Ồ, xin lỗi. Để tôi đổi cho bạn." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "Here is a fresh one.", "vi": "Đây là quả tươi khác." },
+        { "speaker": "b", "en": "This looks much better.", "vi": "Trông tốt hơn nhiều rồi." }
+      ]},
+    { "title": "Mua nhiều loại và trả giá", "situation": "Bạn mua nhiều loại rau và hỏi giảm giá vì mua số lượng lớn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You are buying a lot today.", "vi": "Hôm nay bạn mua nhiều đấy." },
+        { "speaker": "b", "en": "Yes, ten tomatoes, five carrots, and spinach.", "vi": "Vâng, mười cà chua, năm cà rốt, và rau bina." },
+        { "speaker": "a", "en": "That comes to twelve dollars.", "vi": "Tổng cộng là mười hai đô." },
+        { "speaker": "b", "en": "Can you give a discount for buying so much?", "vi": "Mua nhiều vậy giảm giá được không?" },
+        { "speaker": "a", "en": "Okay, ten dollars for you.", "vi": "Được, mười đô cho bạn." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]}
+  ]
+}

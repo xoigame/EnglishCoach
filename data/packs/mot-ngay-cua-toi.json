@@ -1,0 +1,96 @@
+{
+  "id": "mot-ngay-cua-toi",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Giờ thức dậy", "situation": "Giáo viên hỏi bạn dậy lúc mấy giờ.",
+      "turns": [
+        { "speaker": "a", "en": "What time do you get up?", "vi": "Bạn thức dậy lúc mấy giờ?" },
+        { "speaker": "b", "en": "I get up at six.", "vi": "Tôi dậy lúc sáu giờ." },
+        { "speaker": "a", "en": "Do you eat breakfast?", "vi": "Bạn có ăn sáng không?" },
+        { "speaker": "b", "en": "Yes, I always eat breakfast.", "vi": "Có, tôi luôn ăn sáng." },
+        { "speaker": "a", "en": "What do you usually eat?", "vi": "Bạn thường ăn gì?" },
+        { "speaker": "b", "en": "I usually eat rice and eggs.", "vi": "Tôi thường ăn cơm và trứng." }
+      ]},
+    { "title": "Ngày làm việc", "situation": "Giáo viên hỏi về công việc trong tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Do you work every day?", "vi": "Bạn làm việc mỗi ngày à?" },
+        { "speaker": "b", "en": "I work on weekdays.", "vi": "Tôi làm việc vào các ngày trong tuần." },
+        { "speaker": "a", "en": "What time do you start work?", "vi": "Bạn bắt đầu làm lúc mấy giờ?" },
+        { "speaker": "b", "en": "I start at eight.", "vi": "Tôi bắt đầu lúc tám giờ." },
+        { "speaker": "a", "en": "And what time do you finish?", "vi": "Còn kết thúc lúc mấy giờ?" },
+        { "speaker": "b", "en": "I finish at five.", "vi": "Tôi xong việc lúc năm giờ." }
+      ]},
+    { "title": "Sau giờ làm việc", "situation": "Giáo viên hỏi bạn làm gì sau giờ làm.",
+      "turns": [
+        { "speaker": "a", "en": "What do you do after work?", "vi": "Sau giờ làm bạn thường làm gì?" },
+        { "speaker": "b", "en": "After work, I often cook dinner.", "vi": "Sau giờ làm, tôi thường nấu bữa tối." },
+        { "speaker": "a", "en": "Do you relax too?", "vi": "Bạn có nghỉ ngơi không?" },
+        { "speaker": "b", "en": "Yes, I relax before I sleep.", "vi": "Có, tôi nghỉ ngơi trước khi ngủ." },
+        { "speaker": "a", "en": "What do you do to relax?", "vi": "Bạn làm gì để thư giãn?" },
+        { "speaker": "b", "en": "I watch television.", "vi": "Tôi xem ti vi." }
+      ]},
+    { "title": "Bữa tối gia đình", "situation": "Bạn kể về bữa tối cùng gia đình.",
+      "turns": [
+        { "speaker": "a", "en": "Do you eat dinner alone?", "vi": "Bạn ăn tối một mình à?" },
+        { "speaker": "b", "en": "No, I eat with my family.", "vi": "Không, tôi ăn cùng gia đình." },
+        { "speaker": "a", "en": "What time is dinner?", "vi": "Mấy giờ ăn tối?" },
+        { "speaker": "b", "en": "We usually eat at seven.", "vi": "Chúng tôi thường ăn lúc bảy giờ." },
+        { "speaker": "a", "en": "That sounds nice.", "vi": "Nghe hay đấy." },
+        { "speaker": "b", "en": "Yes, I like it very much.", "vi": "Vâng, tôi rất thích thế." }
+      ]},
+    { "title": "Ngủ trễ vì công việc", "situation": "Bạn kể về hôm bận rộn, ngủ trễ hơn thường lệ.",
+      "turns": [
+        { "speaker": "a", "en": "What time do you usually sleep?", "vi": "Bạn thường ngủ lúc mấy giờ?" },
+        { "speaker": "b", "en": "I usually sleep at ten.", "vi": "Tôi thường ngủ lúc mười giờ." },
+        { "speaker": "a", "en": "And last night?", "vi": "Còn tối qua thì sao?" },
+        { "speaker": "b", "en": "Last night I slept at midnight.", "vi": "Tối qua tôi ngủ lúc nửa đêm." },
+        { "speaker": "a", "en": "Why? Did you work late?", "vi": "Sao vậy? Bạn làm việc trễ à?" },
+        { "speaker": "b", "en": "Yes, I had a lot of work.", "vi": "Vâng, tôi có nhiều việc lắm." }
+      ]},
+    { "title": "Thói quen buổi sáng", "situation": "Giáo viên hỏi bạn làm gì trước khi đi làm.",
+      "turns": [
+        { "speaker": "a", "en": "What do you do before work?", "vi": "Trước khi đi làm bạn làm gì?" },
+        { "speaker": "b", "en": "I always drink coffee.", "vi": "Tôi luôn uống cà phê." },
+        { "speaker": "a", "en": "Do you exercise too?", "vi": "Bạn có tập thể dục không?" },
+        { "speaker": "b", "en": "Sometimes, but not always.", "vi": "Thỉnh thoảng, nhưng không phải lúc nào cũng vậy." },
+        { "speaker": "a", "en": "That is understandable.", "vi": "Vậy cũng dễ hiểu." },
+        { "speaker": "b", "en": "Yes, I am often busy in the morning.", "vi": "Vâng, buổi sáng tôi thường bận lắm." }
+      ]},
+    { "title": "Ngày nghỉ khác ngày thường", "situation": "Bạn so sánh ngày làm việc với ngày nghỉ.",
+      "turns": [
+        { "speaker": "a", "en": "Is your weekend different?", "vi": "Cuối tuần của bạn có khác không?" },
+        { "speaker": "b", "en": "Yes, I get up later.", "vi": "Có, tôi dậy muộn hơn." },
+        { "speaker": "a", "en": "What time do you get up?", "vi": "Vậy bạn dậy lúc mấy giờ?" },
+        { "speaker": "b", "en": "I get up at nine.", "vi": "Tôi dậy lúc chín giờ." },
+        { "speaker": "a", "en": "That sounds relaxing.", "vi": "Nghe thư giãn đấy." },
+        { "speaker": "b", "en": "Yes, I really enjoy it.", "vi": "Vâng, tôi rất thích thế." }
+      ]},
+    { "title": "Quên ăn sáng", "situation": "Bạn kể về một hôm quên ăn sáng.",
+      "turns": [
+        { "speaker": "a", "en": "Did you eat breakfast today?", "vi": "Hôm nay bạn ăn sáng chưa?" },
+        { "speaker": "b", "en": "No, I forgot this morning.", "vi": "Chưa, sáng nay tôi quên mất." },
+        { "speaker": "a", "en": "Why did you forget?", "vi": "Sao lại quên vậy?" },
+        { "speaker": "b", "en": "I woke up late today.", "vi": "Hôm nay tôi dậy trễ." },
+        { "speaker": "a", "en": "You should eat something now.", "vi": "Giờ bạn nên ăn gì đó đi." },
+        { "speaker": "b", "en": "Yes, you are right.", "vi": "Vâng, bạn nói đúng." }
+      ]},
+    { "title": "Kể lại cả ngày", "situation": "Bạn kể tóm tắt một ngày bình thường của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Can you tell me about your day?", "vi": "Bạn kể tôi nghe về một ngày của bạn được không?" },
+        { "speaker": "b", "en": "I get up at six and eat breakfast.", "vi": "Tôi dậy lúc sáu giờ và ăn sáng." },
+        { "speaker": "a", "en": "Then what?", "vi": "Rồi sao nữa?" },
+        { "speaker": "b", "en": "I work from eight to five.", "vi": "Tôi làm việc từ tám giờ đến năm giờ." },
+        { "speaker": "a", "en": "And after that?", "vi": "Sau đó thì sao?" },
+        { "speaker": "b", "en": "I cook dinner and relax before I sleep.", "vi": "Tôi nấu bữa tối và nghỉ ngơi trước khi ngủ." }
+      ]},
+    { "title": "Ngày bận rộn bất thường", "situation": "Bạn kể về một ngày khác hẳn thói quen bình thường. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Was your day normal today?", "vi": "Hôm nay bạn có bình thường như mọi ngày không?" },
+        { "speaker": "b", "en": "No, today was very different.", "vi": "Không, hôm nay khác hẳn." },
+        { "speaker": "a", "en": "What happened?", "vi": "Có chuyện gì vậy?" },
+        { "speaker": "b", "en": "I got up early and worked all day.", "vi": "Tôi dậy sớm và làm việc cả ngày." },
+        { "speaker": "a", "en": "Did you have time to eat?", "vi": "Bạn có kịp ăn gì không?" },
+        { "speaker": "b", "en": "Not really. I usually always eat, but not today.", "vi": "Không hẳn. Tôi thường luôn ăn, nhưng hôm nay thì không." }
+      ]}
+  ]
+}

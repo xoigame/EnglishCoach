@@ -1,0 +1,96 @@
+{
+  "id": "mua-sam-o-sieu-thi",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Thanh toán bình thường", "situation": "Bạn thanh toán vài món đồ ở quầy thu ngân.",
+      "turns": [
+        { "speaker": "a", "en": "Did you find everything?", "vi": "Bạn tìm đủ đồ chưa?" },
+        { "speaker": "b", "en": "Yes, thank you.", "vi": "Vâng, cảm ơn." },
+        { "speaker": "a", "en": "Do you need a bag?", "vi": "Bạn cần túi không?" },
+        { "speaker": "b", "en": "Yes, please.", "vi": "Vâng, cho tôi xin." },
+        { "speaker": "a", "en": "Your total is twelve dollars.", "vi": "Tổng cộng mười hai đô." },
+        { "speaker": "b", "en": "Here you are.", "vi": "Của bạn đây." }
+      ]},
+    { "title": "Trả bằng thẻ", "situation": "Bạn hỏi có trả bằng thẻ được không.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is eight dollars.", "vi": "Tổng cộng tám đô." },
+        { "speaker": "b", "en": "Can I pay by card?", "vi": "Tôi trả bằng thẻ được không?" },
+        { "speaker": "a", "en": "Yes, of course.", "vi": "Được, tất nhiên rồi." },
+        { "speaker": "b", "en": "Do I tap here?", "vi": "Tôi chạm thẻ vào đây à?" },
+        { "speaker": "a", "en": "Yes, just tap.", "vi": "Vâng, chạm vào là được." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Xin hoá đơn", "situation": "Bạn xin một tờ hoá đơn.",
+      "turns": [
+        { "speaker": "a", "en": "Here is your total, seven dollars.", "vi": "Tổng cộng bảy đô." },
+        { "speaker": "b", "en": "Can I get a receipt?", "vi": "Cho tôi xin hoá đơn được không?" },
+        { "speaker": "a", "en": "Sure, here you go.", "vi": "Được ạ, của bạn đây." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "You are welcome.", "vi": "Không có gì." },
+        { "speaker": "b", "en": "Have a good day.", "vi": "Chúc bạn một ngày tốt lành." }
+      ]},
+    { "title": "Không cần túi", "situation": "Bạn tự mang túi riêng.",
+      "turns": [
+        { "speaker": "a", "en": "Do you need a bag?", "vi": "Bạn cần túi không?" },
+        { "speaker": "b", "en": "No, I have my own bag.", "vi": "Không, tôi có túi riêng rồi." },
+        { "speaker": "a", "en": "Okay, no problem.", "vi": "Được, không sao." },
+        { "speaker": "b", "en": "Is that cheaper?", "vi": "Vậy có rẻ hơn không?" },
+        { "speaker": "a", "en": "Yes, ten cents cheaper.", "vi": "Có, rẻ hơn mười xu." },
+        { "speaker": "b", "en": "Good to know.", "vi": "Hay đấy, tôi sẽ nhớ." }
+      ]},
+    { "title": "Trả tiền mặt", "situation": "Bạn trả bằng tiền mặt và nhận tiền thừa.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is six dollars.", "vi": "Tổng cộng sáu đô." },
+        { "speaker": "b", "en": "Here is ten dollars.", "vi": "Đây là mười đô." },
+        { "speaker": "a", "en": "Your change is four dollars.", "vi": "Tiền thừa của bạn là bốn đô." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "You are welcome. Bye.", "vi": "Không có gì. Tạm biệt." },
+        { "speaker": "b", "en": "Bye.", "vi": "Tạm biệt." }
+      ]},
+    { "title": "Quên một món đồ", "situation": "Bạn nhớ ra quên lấy một món hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Did you find everything?", "vi": "Bạn tìm đủ đồ chưa?" },
+        { "speaker": "b", "en": "Oh, wait. I forgot the milk.", "vi": "Ồ, khoan đã. Tôi quên mua sữa." },
+        { "speaker": "a", "en": "It is okay. Go and get it.", "vi": "Không sao. Bạn đi lấy đi." },
+        { "speaker": "b", "en": "Thank you. I will be quick.", "vi": "Cảm ơn bạn. Tôi sẽ nhanh thôi." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "Okay, I found it.", "vi": "Được rồi, tôi tìm thấy rồi." }
+      ]},
+    { "title": "Hỏi giá của một món", "situation": "Máy quét giá không rõ ràng nên bạn hỏi lại.",
+      "turns": [
+        { "speaker": "a", "en": "Your total is fifteen dollars.", "vi": "Tổng cộng mười lăm đô." },
+        { "speaker": "b", "en": "Sorry, how much is this item?", "vi": "Xin lỗi, món này bao nhiêu tiền?" },
+        { "speaker": "a", "en": "This one is three dollars.", "vi": "Món này ba đô." },
+        { "speaker": "b", "en": "Oh, that is more than I thought.", "vi": "Ồ, đắt hơn tôi nghĩ." },
+        { "speaker": "a", "en": "Do you still want it?", "vi": "Bạn vẫn muốn lấy chứ?" },
+        { "speaker": "b", "en": "Yes, that is fine.", "vi": "Vâng, vẫn được." }
+      ]},
+    { "title": "Thẻ bị lỗi", "situation": "Thẻ của bạn không quẹt được ngay lần đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Please tap your card.", "vi": "Vui lòng chạm thẻ của bạn." },
+        { "speaker": "b", "en": "It did not work.", "vi": "Không được rồi." },
+        { "speaker": "a", "en": "Try again, please.", "vi": "Bạn thử lại nhé." },
+        { "speaker": "b", "en": "Okay, let me try.", "vi": "Được, để tôi thử." },
+        { "speaker": "a", "en": "It worked this time.", "vi": "Lần này được rồi." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." }
+      ]},
+    { "title": "Đổi ý không mua nữa", "situation": "Bạn quyết định không mua một món hàng nữa.",
+      "turns": [
+        { "speaker": "a", "en": "Is that everything?", "vi": "Vậy là hết rồi phải không?" },
+        { "speaker": "b", "en": "Actually, I do not need this one.", "vi": "Thật ra, tôi không cần món này nữa." },
+        { "speaker": "a", "en": "No problem. I will remove it.", "vi": "Không sao. Tôi sẽ bỏ nó ra." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã hiểu cho." },
+        { "speaker": "a", "en": "Your new total is nine dollars.", "vi": "Tổng mới của bạn là chín đô." },
+        { "speaker": "b", "en": "That is better.", "vi": "Vậy tốt hơn rồi." }
+      ]},
+    { "title": "Hàng dài đợi thanh toán", "situation": "Có nhiều người xếp hàng và bạn xin lỗi vì thanh toán chậm. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry for the wait. The line is long today.", "vi": "Xin lỗi vì phải chờ. Hôm nay hàng dài quá." },
+        { "speaker": "b", "en": "That is okay, no rush.", "vi": "Không sao đâu, không vội." },
+        { "speaker": "a", "en": "I cannot find the price for this.", "vi": "Tôi không tìm thấy giá của món này." },
+        { "speaker": "b", "en": "Take your time. I am not in a hurry.", "vi": "Bạn cứ từ từ. Tôi không vội đâu." },
+        { "speaker": "a", "en": "Found it. Sorry again.", "vi": "Tìm thấy rồi. Xin lỗi bạn lần nữa." },
+        { "speaker": "b", "en": "No worries at all.", "vi": "Không sao đâu mà." }
+      ]}
+  ]
+}

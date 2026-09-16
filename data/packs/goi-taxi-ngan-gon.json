@@ -1,0 +1,96 @@
+{
+  "id": "goi-taxi-ngan-gon",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Đi tới khách sạn", "situation": "Bạn bắt taxi tới khách sạn.",
+      "turns": [
+        { "speaker": "a", "en": "Where would you like to go?", "vi": "Bạn muốn đi đâu ạ?" },
+        { "speaker": "b", "en": "Could you take me to this hotel, please?", "vi": "Cho tôi tới khách sạn này được không?" },
+        { "speaker": "a", "en": "Sure, do you have the address?", "vi": "Được ạ, bạn có địa chỉ không?" },
+        { "speaker": "b", "en": "Yes, here it is.", "vi": "Có, đây ạ." },
+        { "speaker": "a", "en": "Okay, let us go.", "vi": "Được, mình đi thôi." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giá cước", "situation": "Bạn hỏi giá trước khi lên xe.",
+      "turns": [
+        { "speaker": "a", "en": "I need to go downtown.", "vi": "Tôi cần đi vào trung tâm." },
+        { "speaker": "b", "en": "How much is the fare?", "vi": "Giá cước bao nhiêu ạ?" },
+        { "speaker": "a", "en": "About ten dollars.", "vi": "Khoảng mười đô." },
+        { "speaker": "b", "en": "Okay, that is fine.", "vi": "Được, vậy ổn." },
+        { "speaker": "a", "en": "Is it far from here?", "vi": "Có xa đây không ạ?" },
+        { "speaker": "b", "en": "No, about fifteen minutes.", "vi": "Không, khoảng mười lăm phút." }
+      ]},
+    { "title": "Đường bị kẹt xe", "situation": "Xe bị kẹt trên đường đi.",
+      "turns": [
+        { "speaker": "a", "en": "There is a lot of traffic.", "vi": "Đường đang kẹt lắm." },
+        { "speaker": "b", "en": "How long will it take?", "vi": "Sẽ mất bao lâu vậy?" },
+        { "speaker": "a", "en": "Maybe twenty more minutes.", "vi": "Có lẽ thêm hai mươi phút nữa." },
+        { "speaker": "b", "en": "That is okay, no problem.", "vi": "Không sao đâu." },
+        { "speaker": "a", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "I am not in a hurry.", "vi": "Tôi không vội đâu." }
+      ]},
+    { "title": "Dừng gần cửa", "situation": "Bạn nhờ tài xế dừng gần cửa vào.",
+      "turns": [
+        { "speaker": "a", "en": "We are almost there.", "vi": "Sắp tới nơi rồi." },
+        { "speaker": "b", "en": "Please stop near the entrance.", "vi": "Vui lòng dừng gần cửa vào." },
+        { "speaker": "a", "en": "Sure, right here?", "vi": "Được ạ, ngay đây được không?" },
+        { "speaker": "b", "en": "Yes, this is perfect.", "vi": "Vâng, chỗ này tốt rồi." },
+        { "speaker": "a", "en": "Here we are.", "vi": "Tới nơi rồi." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Không nhớ địa chỉ", "situation": "Bạn chỉ nhớ tên chứ không nhớ địa chỉ chính xác.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have the address?", "vi": "Bạn có địa chỉ không?" },
+        { "speaker": "b", "en": "No, but it is near the park.", "vi": "Không, nhưng nó gần công viên." },
+        { "speaker": "a", "en": "I know that area.", "vi": "Tôi biết khu đó." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không có gì đâu." },
+        { "speaker": "b", "en": "I appreciate your help.", "vi": "Tôi rất cảm kích." }
+      ]},
+    { "title": "Hỏi khoảng cách", "situation": "Bạn hỏi điểm đến có xa không.",
+      "turns": [
+        { "speaker": "a", "en": "I need to go to the airport.", "vi": "Tôi cần đi ra sân bay." },
+        { "speaker": "b", "en": "Is it far from here?", "vi": "Có xa đây không ạ?" },
+        { "speaker": "a", "en": "About thirty minutes.", "vi": "Khoảng ba mươi phút." },
+        { "speaker": "b", "en": "Okay, how much is the fare?", "vi": "Được, giá cước bao nhiêu ạ?" },
+        { "speaker": "a", "en": "About twenty dollars.", "vi": "Khoảng hai mươi đô." },
+        { "speaker": "b", "en": "That sounds fine.", "vi": "Vậy ổn đấy." }
+      ]},
+    { "title": "Đổi điểm đến giữa chừng", "situation": "Bạn đổi ý và muốn tới nơi khác.",
+      "turns": [
+        { "speaker": "a", "en": "We are close to the hotel now.", "vi": "Mình sắp tới khách sạn rồi." },
+        { "speaker": "b", "en": "Sorry, can we go to the station instead?", "vi": "Xin lỗi, đổi đi tới ga được không?" },
+        { "speaker": "a", "en": "Sure, no problem.", "vi": "Được, không sao." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "Is the station near here?", "vi": "Ga có gần đây không ạ?" },
+        { "speaker": "b", "en": "Yes, ten minutes away.", "vi": "Có, cách đây mười phút." }
+      ]},
+    { "title": "Xe không tìm thấy địa chỉ", "situation": "Tài xế khó tìm đúng địa chỉ.",
+      "turns": [
+        { "speaker": "a", "en": "I cannot find the entrance.", "vi": "Tôi không tìm thấy lối vào." },
+        { "speaker": "b", "en": "It is near the bank.", "vi": "Nó gần ngân hàng đấy." },
+        { "speaker": "a", "en": "Oh, I see it now.", "vi": "À, giờ tôi thấy rồi." },
+        { "speaker": "b", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "a", "en": "Sorry for the trouble.", "vi": "Xin lỗi vì để bạn phải chờ." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Hành lý nhiều", "situation": "Bạn có nhiều hành lý cần mang theo.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a lot of luggage?", "vi": "Bạn có nhiều hành lý không?" },
+        { "speaker": "b", "en": "Yes, two big bags.", "vi": "Vâng, hai túi lớn." },
+        { "speaker": "a", "en": "I can help you with them.", "vi": "Tôi giúp bạn mang nhé." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không có gì đâu." },
+        { "speaker": "b", "en": "That is very kind.", "vi": "Bạn tốt quá." }
+      ]},
+    { "title": "Đường đông và cần tới đúng giờ", "situation": "Bạn cần tới đúng giờ nhưng đường đang đông. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need to be there by nine.", "vi": "Tôi cần tới đó trước chín giờ." },
+        { "speaker": "b", "en": "Traffic is bad, but I will try.", "vi": "Đường đang kẹt, nhưng tôi sẽ cố gắng." },
+        { "speaker": "a", "en": "Is there a faster way?", "vi": "Có đường nào nhanh hơn không?" },
+        { "speaker": "b", "en": "Yes, but it costs a little more.", "vi": "Có, nhưng tốn thêm chút tiền." },
+        { "speaker": "a", "en": "That is fine, please take it.", "vi": "Không sao, đi đường đó đi." },
+        { "speaker": "b", "en": "Okay, we will arrive on time.", "vi": "Được, mình sẽ tới đúng giờ." }
+      ]}
+  ]
+}

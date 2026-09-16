@@ -1,0 +1,96 @@
+{
+  "id": "so-thich-va-thoi-gian-ranh",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Sở thích nghe nhạc", "situation": "Mia hỏi bạn về sở thích âm nhạc.",
+      "turns": [
+        { "speaker": "a", "en": "What do you like doing?", "vi": "Bạn thích làm gì?" },
+        { "speaker": "b", "en": "I like listening to music.", "vi": "Tôi thích nghe nhạc." },
+        { "speaker": "a", "en": "Do you listen every day?", "vi": "Bạn nghe mỗi ngày à?" },
+        { "speaker": "b", "en": "Yes, every day after work.", "vi": "Vâng, mỗi ngày sau giờ làm." },
+        { "speaker": "a", "en": "What kind of music?", "vi": "Bạn thích loại nhạc gì?" },
+        { "speaker": "b", "en": "I like pop music.", "vi": "Tôi thích nhạc pop." }
+      ]},
+    { "title": "Sở thích đọc sách", "situation": "Bạn kể về sở thích đọc sách trước khi ngủ.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like reading?", "vi": "Bạn có thích đọc sách không?" },
+        { "speaker": "b", "en": "Yes, I read every night.", "vi": "Có, tôi đọc mỗi tối." },
+        { "speaker": "a", "en": "What do you read?", "vi": "Bạn đọc sách gì?" },
+        { "speaker": "b", "en": "I like reading short stories.", "vi": "Tôi thích đọc truyện ngắn." },
+        { "speaker": "a", "en": "That sounds relaxing.", "vi": "Nghe thư giãn đấy." },
+        { "speaker": "b", "en": "Yes, it helps me sleep.", "vi": "Vâng, nó giúp tôi ngủ ngon." }
+      ]},
+    { "title": "Chơi cầu lông", "situation": "Bạn kể về việc chơi cầu lông sau giờ làm.",
+      "turns": [
+        { "speaker": "a", "en": "Do you play any sports?", "vi": "Bạn có chơi môn thể thao nào không?" },
+        { "speaker": "b", "en": "Yes, I play badminton.", "vi": "Có, tôi chơi cầu lông." },
+        { "speaker": "a", "en": "When do you play?", "vi": "Bạn chơi khi nào?" },
+        { "speaker": "b", "en": "I play after work.", "vi": "Tôi chơi sau giờ làm." },
+        { "speaker": "a", "en": "Do you play alone?", "vi": "Bạn chơi một mình à?" },
+        { "speaker": "b", "en": "No, I play with my friend.", "vi": "Không, tôi chơi cùng bạn tôi." }
+      ]},
+    { "title": "Rủ nhau đi xem phim", "situation": "Mia rủ bạn đi xem phim.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like watching movies?", "vi": "Bạn có thích xem phim không?" },
+        { "speaker": "b", "en": "Yes, I love movies.", "vi": "Có, tôi rất thích xem phim." },
+        { "speaker": "a", "en": "We can watch one sometime.", "vi": "Lúc nào đó mình xem cùng nhé." },
+        { "speaker": "b", "en": "That sounds fun.", "vi": "Nghe vui đấy." },
+        { "speaker": "a", "en": "How about this weekend?", "vi": "Cuối tuần này thì sao?" },
+        { "speaker": "b", "en": "Sure, I am free.", "vi": "Được, tôi rảnh." }
+      ]},
+    { "title": "Không có nhiều thời gian rảnh", "situation": "Bạn giải thích vì sao ít thời gian rảnh.",
+      "turns": [
+        { "speaker": "a", "en": "What do you do in your free time?", "vi": "Thời gian rảnh bạn làm gì?" },
+        { "speaker": "b", "en": "I do not have much free time.", "vi": "Tôi không có nhiều thời gian rảnh." },
+        { "speaker": "a", "en": "Why is that?", "vi": "Sao vậy?" },
+        { "speaker": "b", "en": "I work every day, even weekends.", "vi": "Tôi làm việc mỗi ngày, cả cuối tuần." },
+        { "speaker": "a", "en": "That sounds tiring.", "vi": "Nghe mệt đấy." },
+        { "speaker": "b", "en": "Yes, but I like my job.", "vi": "Vâng, nhưng tôi thích công việc của mình." }
+      ]},
+    { "title": "Sở thích nấu ăn", "situation": "Bạn kể về sở thích nấu ăn vào buổi tối.",
+      "turns": [
+        { "speaker": "a", "en": "What do you like doing at home?", "vi": "Ở nhà bạn thích làm gì?" },
+        { "speaker": "b", "en": "I like cooking.", "vi": "Tôi thích nấu ăn." },
+        { "speaker": "a", "en": "Do you cook every day?", "vi": "Bạn nấu ăn mỗi ngày à?" },
+        { "speaker": "b", "en": "Yes, I cook dinner every day.", "vi": "Vâng, tôi nấu bữa tối mỗi ngày." },
+        { "speaker": "a", "en": "What do you like to cook?", "vi": "Bạn thích nấu món gì?" },
+        { "speaker": "b", "en": "I like cooking soup.", "vi": "Tôi thích nấu súp." }
+      ]},
+    { "title": "Cuối tuần đi công viên", "situation": "Mia và bạn bàn về kế hoạch cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "What do you do on weekends?", "vi": "Cuối tuần bạn làm gì?" },
+        { "speaker": "b", "en": "I usually go to the park.", "vi": "Tôi thường đi công viên." },
+        { "speaker": "a", "en": "Do you go alone?", "vi": "Bạn đi một mình à?" },
+        { "speaker": "b", "en": "Sometimes with my friend.", "vi": "Thỉnh thoảng cùng bạn tôi." },
+        { "speaker": "a", "en": "We can go together sometime.", "vi": "Lúc nào đó mình đi cùng nhé." },
+        { "speaker": "b", "en": "That sounds great.", "vi": "Nghe hay đấy." }
+      ]},
+    { "title": "Hai sở thích khác nhau", "situation": "Mia và bạn có sở thích khác nhau nhưng vẫn tìm cách chơi cùng.",
+      "turns": [
+        { "speaker": "a", "en": "I like reading. What about you?", "vi": "Tôi thích đọc sách. Còn bạn?" },
+        { "speaker": "b", "en": "I like playing badminton.", "vi": "Tôi thích chơi cầu lông." },
+        { "speaker": "a", "en": "We like different things.", "vi": "Chúng ta thích những thứ khác nhau nhỉ." },
+        { "speaker": "b", "en": "Yes, but we can still do both.", "vi": "Ừ, nhưng vẫn có thể làm cả hai mà." },
+        { "speaker": "a", "en": "Good idea. Badminton first?", "vi": "Ý hay đấy. Chơi cầu lông trước nhé?" },
+        { "speaker": "b", "en": "Sure, then we can read together.", "vi": "Được, rồi mình đọc sách cùng nhau." }
+      ]},
+    { "title": "Sở thích mới", "situation": "Bạn kể về một sở thích mới bắt đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a new hobby?", "vi": "Bạn có sở thích mới nào không?" },
+        { "speaker": "b", "en": "Yes, I started painting.", "vi": "Có, tôi bắt đầu vẽ tranh." },
+        { "speaker": "a", "en": "That is interesting. Do you like it?", "vi": "Thú vị đấy. Bạn có thích không?" },
+        { "speaker": "b", "en": "Yes, I really like it.", "vi": "Có, tôi rất thích." },
+        { "speaker": "a", "en": "How often do you paint?", "vi": "Bạn vẽ thường xuyên không?" },
+        { "speaker": "b", "en": "I paint every weekend.", "vi": "Tôi vẽ mỗi cuối tuần." }
+      ]},
+    { "title": "Lịch bận nhưng vẫn sắp xếp được", "situation": "Bạn và Mia cố tìm thời gian chung dù cả hai đều bận. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I want to watch a movie with you.", "vi": "Tôi muốn xem phim cùng bạn." },
+        { "speaker": "b", "en": "I am busy most days, sorry.", "vi": "Xin lỗi, tôi bận hầu hết các ngày." },
+        { "speaker": "a", "en": "Are you free on any day?", "vi": "Có ngày nào bạn rảnh không?" },
+        { "speaker": "b", "en": "I am free on Sunday evening.", "vi": "Tôi rảnh chiều tối Chủ nhật." },
+        { "speaker": "a", "en": "Sunday evening works for me too.", "vi": "Chiều tối Chủ nhật cũng được với tôi." },
+        { "speaker": "b", "en": "Great, we can watch a movie then.", "vi": "Tuyệt, vậy mình xem phim lúc đó nhé." }
+      ]}
+  ]
+}

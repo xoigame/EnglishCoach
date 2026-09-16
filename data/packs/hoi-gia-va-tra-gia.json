@@ -1,0 +1,96 @@
+{
+  "id": "hoi-gia-va-tra-gia",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Hỏi giá một chiếc khăn", "situation": "Bạn hỏi giá một chiếc khăn ở chợ.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you?", "vi": "Tôi giúp gì được cho bạn?" },
+        { "speaker": "b", "en": "How much is this scarf?", "vi": "Chiếc khăn này bao nhiêu tiền?" },
+        { "speaker": "a", "en": "Ten dollars.", "vi": "Mười đô." },
+        { "speaker": "b", "en": "Can you do eight dollars?", "vi": "Tám đô được không?" },
+        { "speaker": "a", "en": "Okay, eight dollars for you.", "vi": "Được, tám đô cho bạn." },
+        { "speaker": "b", "en": "I will take it, please.", "vi": "Vậy cho tôi lấy nhé." }
+      ]},
+    { "title": "Trả giá không thành", "situation": "Người bán không đồng ý giảm giá.",
+      "turns": [
+        { "speaker": "a", "en": "This bag is fifteen dollars.", "vi": "Túi này mười lăm đô." },
+        { "speaker": "b", "en": "That is too expensive for me.", "vi": "Vậy đắt quá với tôi." },
+        { "speaker": "a", "en": "Sorry, this is the best price.", "vi": "Xin lỗi, đây là giá tốt nhất rồi." },
+        { "speaker": "b", "en": "Can you do twelve dollars?", "vi": "Mười hai đô được không?" },
+        { "speaker": "a", "en": "No, I cannot.", "vi": "Không được đâu." },
+        { "speaker": "b", "en": "Okay, maybe next time.", "vi": "Được, có lẽ lần sau vậy." }
+      ]},
+    { "title": "So sánh hai món đồ", "situation": "Bạn so sánh giá hai chiếc áo.",
+      "turns": [
+        { "speaker": "a", "en": "This one is nice too.", "vi": "Cái này cũng đẹp đấy." },
+        { "speaker": "b", "en": "How much is this shirt?", "vi": "Chiếc áo này bao nhiêu?" },
+        { "speaker": "a", "en": "This one is twenty dollars.", "vi": "Cái này hai mươi đô." },
+        { "speaker": "b", "en": "And the other one?", "vi": "Còn cái kia thì sao?" },
+        { "speaker": "a", "en": "That one is fifteen dollars.", "vi": "Cái đó mười lăm đô." },
+        { "speaker": "b", "en": "I will take the cheaper one.", "vi": "Tôi lấy cái rẻ hơn." }
+      ]},
+    { "title": "Trả giá mua hai món", "situation": "Bạn hỏi giảm giá khi mua nhiều hơn một món.",
+      "turns": [
+        { "speaker": "a", "en": "Each hat is twelve dollars.", "vi": "Mỗi cái mũ mười hai đô." },
+        { "speaker": "b", "en": "How about two for twenty dollars?", "vi": "Hai cái hai mươi đô được không?" },
+        { "speaker": "a", "en": "Okay, that is a deal.", "vi": "Được, vậy chốt vậy nhé." },
+        { "speaker": "b", "en": "Great. I will take two.", "vi": "Tuyệt. Tôi lấy hai cái." },
+        { "speaker": "a", "en": "Cash or card?", "vi": "Tiền mặt hay thẻ?" },
+        { "speaker": "b", "en": "Cash, please.", "vi": "Tiền mặt nhé." }
+      ]},
+    { "title": "Hàng chất lượng thấp", "situation": "Bạn nhận thấy món hàng có vấn đề nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "This vase is thirty dollars.", "vi": "Chiếc bình này ba mươi đô." },
+        { "speaker": "b", "en": "There is a small crack here.", "vi": "Có một vết nứt nhỏ ở đây." },
+        { "speaker": "a", "en": "Oh, you are right. Sorry.", "vi": "Ồ, bạn nói đúng. Xin lỗi." },
+        { "speaker": "b", "en": "Can you lower the price?", "vi": "Bạn giảm giá được không?" },
+        { "speaker": "a", "en": "Okay, twenty dollars then.", "vi": "Được, vậy hai mươi đô." },
+        { "speaker": "b", "en": "Deal. I will take it.", "vi": "Chốt vậy. Tôi lấy nó." }
+      ]},
+    { "title": "Không đủ tiền mặt", "situation": "Bạn không mang đủ tiền mặt để trả.",
+      "turns": [
+        { "speaker": "a", "en": "It is eighteen dollars.", "vi": "Là mười tám đô." },
+        { "speaker": "b", "en": "I only have fifteen dollars.", "vi": "Tôi chỉ có mười lăm đô thôi." },
+        { "speaker": "a", "en": "Okay, fifteen is fine.", "vi": "Được, mười lăm cũng được." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không có gì đâu." },
+        { "speaker": "b", "en": "Here is fifteen dollars.", "vi": "Đây là mười lăm đô." }
+      ]},
+    { "title": "Hỏi về chất liệu", "situation": "Bạn hỏi thêm về chất liệu trước khi mua.",
+      "turns": [
+        { "speaker": "a", "en": "This scarf is very soft.", "vi": "Chiếc khăn này rất mềm." },
+        { "speaker": "b", "en": "Is it real silk?", "vi": "Đây là lụa thật à?" },
+        { "speaker": "a", "en": "Yes, one hundred percent silk.", "vi": "Vâng, một trăm phần trăm lụa." },
+        { "speaker": "b", "en": "Then the price makes sense.", "vi": "Vậy thì giá cũng hợp lý." },
+        { "speaker": "a", "en": "Yes, it is good quality.", "vi": "Đúng vậy, chất lượng tốt lắm." },
+        { "speaker": "b", "en": "Okay, I will take it.", "vi": "Được, tôi lấy nó." }
+      ]},
+    { "title": "Đi cùng bạn để trả giá", "situation": "Bạn đi cùng người bạn giỏi trả giá hơn.",
+      "turns": [
+        { "speaker": "a", "en": "This is my final price, ten dollars.", "vi": "Đây là giá cuối rồi, mười đô." },
+        { "speaker": "b", "en": "My friend says that is still high.", "vi": "Bạn tôi nói vậy vẫn còn cao." },
+        { "speaker": "a", "en": "Okay, nine dollars, last offer.", "vi": "Được, chín đô, giá cuối cùng." },
+        { "speaker": "b", "en": "Let me ask my friend.", "vi": "Để tôi hỏi bạn tôi đã." },
+        { "speaker": "a", "en": "Sure, take your time.", "vi": "Được, bạn cứ từ từ." },
+        { "speaker": "b", "en": "Okay, nine dollars is fine.", "vi": "Được, chín đô là ổn rồi." }
+      ]},
+    { "title": "Người bán mời mua thêm", "situation": "Người bán giới thiệu thêm sản phẩm khác.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like to see more colors?", "vi": "Bạn muốn xem thêm màu khác không?" },
+        { "speaker": "b", "en": "Sure, show me please.", "vi": "Được, cho tôi xem đi." },
+        { "speaker": "a", "en": "This blue one is popular.", "vi": "Màu xanh này bán chạy lắm." },
+        { "speaker": "b", "en": "I like the red one better.", "vi": "Tôi thích màu đỏ hơn." },
+        { "speaker": "a", "en": "Good choice. Same price.", "vi": "Lựa chọn tốt. Giá vẫn vậy." },
+        { "speaker": "b", "en": "Okay, I will take the red one.", "vi": "Được, tôi lấy cái màu đỏ." }
+      ]},
+    { "title": "Trả giá bằng ba bước", "situation": "Bạn và người bán trả giá qua lại nhiều lần. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This is twenty five dollars.", "vi": "Cái này hai mươi lăm đô." },
+        { "speaker": "b", "en": "Can you do fifteen dollars?", "vi": "Mười lăm đô được không?" },
+        { "speaker": "a", "en": "No, that is too low. Twenty two.", "vi": "Không, vậy thấp quá. Hai mươi hai." },
+        { "speaker": "b", "en": "How about eighteen dollars?", "vi": "Mười tám đô thì sao?" },
+        { "speaker": "a", "en": "Okay, let us meet at twenty.", "vi": "Được, mình chốt hai mươi nhé." },
+        { "speaker": "b", "en": "Deal. Twenty dollars.", "vi": "Chốt vậy. Hai mươi đô." }
+      ]}
+  ]
+}

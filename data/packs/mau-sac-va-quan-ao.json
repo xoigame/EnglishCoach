@@ -1,0 +1,96 @@
+{
+  "id": "mau-sac-va-quan-ao",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Mua áo sơ mi xanh", "situation": "Bạn tìm mua áo sơ mi màu xanh.",
+      "turns": [
+        { "speaker": "a", "en": "What color do you like?", "vi": "Bạn thích màu gì?" },
+        { "speaker": "b", "en": "I need a blue shirt.", "vi": "Tôi cần một chiếc áo màu xanh." },
+        { "speaker": "a", "en": "What size are you?", "vi": "Bạn mặc cỡ nào?" },
+        { "speaker": "b", "en": "Medium, please.", "vi": "Cỡ vừa nhé." },
+        { "speaker": "a", "en": "Here you are.", "vi": "Của bạn đây." },
+        { "speaker": "b", "en": "Can I try it on?", "vi": "Tôi thử được không?" }
+      ]},
+    { "title": "Không có cỡ vừa", "situation": "Cỡ áo bạn cần đã hết.",
+      "turns": [
+        { "speaker": "a", "en": "I need a medium shirt.", "vi": "Tôi cần áo cỡ vừa." },
+        { "speaker": "b", "en": "Sorry, medium is finished.", "vi": "Xin lỗi, cỡ vừa hết rồi ạ." },
+        { "speaker": "a", "en": "Do you have large?", "vi": "Vậy có cỡ lớn không?" },
+        { "speaker": "b", "en": "Yes, we have large.", "vi": "Có, chúng tôi có cỡ lớn." },
+        { "speaker": "a", "en": "Okay, I will try large.", "vi": "Được, tôi thử cỡ lớn nhé." },
+        { "speaker": "b", "en": "Sure, here you go.", "vi": "Được ạ, của bạn đây." }
+      ]},
+    { "title": "Thử quần", "situation": "Bạn thử một chiếc quần trước khi mua.",
+      "turns": [
+        { "speaker": "a", "en": "I need black pants.", "vi": "Tôi cần một chiếc quần đen." },
+        { "speaker": "b", "en": "What size do you need?", "vi": "Bạn cần cỡ nào?" },
+        { "speaker": "a", "en": "Small, please.", "vi": "Cỡ nhỏ nhé." },
+        { "speaker": "b", "en": "Can I try it on?", "vi": "Tôi thử được không?" },
+        { "speaker": "a", "en": "Sure, the fitting room is there.", "vi": "Được, phòng thử đồ ở đằng kia." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." }
+      ]},
+    { "title": "Đổi màu khác", "situation": "Bạn không thích màu vừa thử và đổi ý.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like this white shirt?", "vi": "Bạn có thích áo trắng này không?" },
+        { "speaker": "b", "en": "Not really. Do you have it in black?", "vi": "Không hẳn. Có màu đen không?" },
+        { "speaker": "a", "en": "Yes, let me check.", "vi": "Có, để tôi kiểm tra." },
+        { "speaker": "b", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "a", "en": "Here is the black one.", "vi": "Đây là cái màu đen." },
+        { "speaker": "b", "en": "This is better. I will take it.", "vi": "Cái này ổn hơn. Tôi lấy nó." }
+      ]},
+    { "title": "Áo hơi chật", "situation": "Bạn thử áo và thấy hơi chật.",
+      "turns": [
+        { "speaker": "a", "en": "How does it fit?", "vi": "Áo có vừa không?" },
+        { "speaker": "b", "en": "It is a little small.", "vi": "Hơi chật một chút." },
+        { "speaker": "a", "en": "I can get you a large.", "vi": "Tôi lấy cho bạn cỡ lớn nhé." },
+        { "speaker": "b", "en": "Yes, please.", "vi": "Vâng, làm ơn." },
+        { "speaker": "a", "en": "Try this one.", "vi": "Bạn thử cái này đi." },
+        { "speaker": "b", "en": "This fits better. Thank you.", "vi": "Cái này vừa hơn rồi. Cảm ơn bạn." }
+      ]},
+    { "title": "Hỏi giá quần áo", "situation": "Bạn hỏi giá chiếc áo trước khi mua.",
+      "turns": [
+        { "speaker": "a", "en": "How much is this shirt?", "vi": "Áo này bao nhiêu tiền?" },
+        { "speaker": "b", "en": "It is fifteen dollars.", "vi": "Mười lăm đô ạ." },
+        { "speaker": "a", "en": "Do you have it in white?", "vi": "Có màu trắng không?" },
+        { "speaker": "b", "en": "Yes, same price.", "vi": "Có, giá vẫn vậy ạ." },
+        { "speaker": "a", "en": "I will take the white one.", "vi": "Tôi lấy cái màu trắng." },
+        { "speaker": "b", "en": "Sure, right this way.", "vi": "Được ạ, mời đi lối này." }
+      ]},
+    { "title": "Mua quần áo cho bạn", "situation": "Bạn mua quần áo giúp một người khác không có mặt.",
+      "turns": [
+        { "speaker": "a", "en": "Who is this shirt for?", "vi": "Áo này cho ai vậy?" },
+        { "speaker": "b", "en": "It is for my brother.", "vi": "Cho em trai tôi." },
+        { "speaker": "a", "en": "What size does he wear?", "vi": "Em ấy mặc cỡ nào?" },
+        { "speaker": "b", "en": "He wears large.", "vi": "Em ấy mặc cỡ lớn." },
+        { "speaker": "a", "en": "What color does he like?", "vi": "Em ấy thích màu gì?" },
+        { "speaker": "b", "en": "He likes blue.", "vi": "Em ấy thích màu xanh." }
+      ]},
+    { "title": "So sánh hai màu", "situation": "Bạn phân vân giữa hai màu áo.",
+      "turns": [
+        { "speaker": "a", "en": "Which color do you like more?", "vi": "Bạn thích màu nào hơn?" },
+        { "speaker": "b", "en": "I like blue more than black.", "vi": "Tôi thích xanh hơn đen." },
+        { "speaker": "a", "en": "Blue is a good choice.", "vi": "Xanh là lựa chọn tốt đấy." },
+        { "speaker": "b", "en": "Yes, it is my favorite color.", "vi": "Vâng, đó là màu yêu thích của tôi." },
+        { "speaker": "a", "en": "I will get the blue one for you.", "vi": "Tôi lấy màu xanh cho bạn nhé." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Kích cỡ không chuẩn", "situation": "Cỡ áo ghi trên nhãn không đúng thực tế.",
+      "turns": [
+        { "speaker": "a", "en": "This says medium, but it feels small.", "vi": "Cái này ghi cỡ vừa, nhưng cảm giác nhỏ." },
+        { "speaker": "b", "en": "Sorry, the sizes are different here.", "vi": "Xin lỗi, cỡ ở đây không giống chuẩn." },
+        { "speaker": "a", "en": "What size should I try?", "vi": "Vậy tôi nên thử cỡ nào?" },
+        { "speaker": "b", "en": "Try large instead.", "vi": "Thử cỡ lớn xem sao." },
+        { "speaker": "a", "en": "Okay, thank you for telling me.", "vi": "Được, cảm ơn bạn đã cho biết." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không có gì đâu." }
+      ]},
+    { "title": "Mua đồng phục cho nhiều người", "situation": "Bạn mua áo cùng màu, khác cỡ cho cả nhóm. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need five blue shirts.", "vi": "Tôi cần năm chiếc áo màu xanh." },
+        { "speaker": "b", "en": "What sizes do you need?", "vi": "Bạn cần những cỡ nào ạ?" },
+        { "speaker": "a", "en": "Two small, two medium, one large.", "vi": "Hai cỡ nhỏ, hai cỡ vừa, một cỡ lớn." },
+        { "speaker": "b", "en": "Let me check if we have enough.", "vi": "Để tôi kiểm tra xem có đủ không." },
+        { "speaker": "a", "en": "Thank you. It is for my team.", "vi": "Cảm ơn bạn. Là để cho nhóm của tôi." },
+        { "speaker": "b", "en": "Good news, we have all sizes.", "vi": "Tin vui, chúng tôi có đủ tất cả các cỡ." }
+      ]}
+  ]
+}
