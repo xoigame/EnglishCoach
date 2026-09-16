@@ -1,0 +1,126 @@
+{
+  "id": "hoi-duong-va-chi-duong",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Chỉ đường tới ngân hàng",
+      "situation": "Người đi đường hỏi ngân hàng gần nhất ở đâu.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, where is the nearest bank?", "vi": "Xin lỗi, ngân hàng gần nhất ở đâu ạ?" },
+        { "speaker": "b", "en": "Go straight for two blocks.", "vi": "Bạn đi thẳng hai dãy nhà." },
+        { "speaker": "a", "en": "And then?", "vi": "Rồi sao nữa?" },
+        { "speaker": "b", "en": "Turn left at the red building.", "vi": "Rẽ trái ở toà nhà màu đỏ." },
+        { "speaker": "a", "en": "Is it far?", "vi": "Có xa không ạ?" },
+        { "speaker": "b", "en": "No, about five minutes.", "vi": "Không, khoảng năm phút." }
+      ]
+    },
+    {
+      "title": "Hỏi nhà thuốc",
+      "situation": "Ai đó cần tìm nhà thuốc gấp.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a pharmacy near here?", "vi": "Gần đây có nhà thuốc không ạ?" },
+        { "speaker": "b", "en": "Yes, next to the post office.", "vi": "Có, ngay cạnh bưu điện." },
+        { "speaker": "a", "en": "Where is the post office?", "vi": "Bưu điện ở đâu ạ?" },
+        { "speaker": "b", "en": "Across from the park.", "vi": "Đối diện công viên." },
+        { "speaker": "a", "en": "Thank you. Is it open now?", "vi": "Cảm ơn. Giờ còn mở không ạ?" },
+        { "speaker": "b", "en": "I think so. It closes at nine.", "vi": "Chắc là còn. Chín giờ mới đóng." }
+      ]
+    },
+    {
+      "title": "Đi bộ hay đi xe buýt",
+      "situation": "Người kia hỏi nên đi bộ hay bắt xe.",
+      "turns": [
+        { "speaker": "a", "en": "Can I walk to the museum?", "vi": "Tôi đi bộ tới bảo tàng được không?" },
+        { "speaker": "b", "en": "You can, but it is thirty minutes.", "vi": "Được, nhưng mất ba mươi phút." },
+        { "speaker": "a", "en": "Is there a bus?", "vi": "Có xe buýt không ạ?" },
+        { "speaker": "b", "en": "Yes, bus number eight.", "vi": "Có, xe buýt số tám." },
+        { "speaker": "a", "en": "Where is the bus stop?", "vi": "Trạm xe buýt ở đâu?" },
+        { "speaker": "b", "en": "Just there, in front of the shop.", "vi": "Ngay kia, trước cửa hàng." }
+      ]
+    },
+    {
+      "title": "Bạn cũng không biết đường",
+      "situation": "Ai đó hỏi bạn nhưng bạn không biết. Bạn giúp theo cách khác.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, where is Green Street?", "vi": "Xin lỗi, đường Green ở đâu ạ?" },
+        { "speaker": "b", "en": "Sorry, I do not know.", "vi": "Xin lỗi, tôi không biết." },
+        { "speaker": "a", "en": "Oh. Thank you anyway.", "vi": "Ồ. Dù sao cũng cảm ơn bạn." },
+        { "speaker": "b", "en": "Wait. Let me check my phone.", "vi": "Khoan đã. Để tôi xem điện thoại." },
+        { "speaker": "a", "en": "That is very kind.", "vi": "Bạn tốt quá." },
+        { "speaker": "b", "en": "Here. It is the second street on the right.", "vi": "Đây rồi. Là con đường thứ hai bên phải." }
+      ]
+    },
+    {
+      "title": "Hỏi lại cho chắc",
+      "situation": "Bạn chưa nghe rõ và hỏi lại từng bước.",
+      "turns": [
+        { "speaker": "a", "en": "Go straight, turn right, then left.", "vi": "Đi thẳng, rẽ phải, rồi rẽ trái." },
+        { "speaker": "b", "en": "Sorry, right first or left first?", "vi": "Xin lỗi, rẽ phải trước hay trái trước?" },
+        { "speaker": "a", "en": "Right first.", "vi": "Rẽ phải trước." },
+        { "speaker": "b", "en": "So straight, then right, then left.", "vi": "Vậy là đi thẳng, rồi phải, rồi trái." },
+        { "speaker": "a", "en": "Exactly.", "vi": "Chính xác." },
+        { "speaker": "b", "en": "Thank you. Now I understand.", "vi": "Cảm ơn bạn. Giờ tôi hiểu rồi." }
+      ]
+    },
+    {
+      "title": "Chỉ đường bằng điểm mốc",
+      "situation": "Bạn chỉ đường dựa vào những thứ dễ thấy.",
+      "turns": [
+        { "speaker": "a", "en": "How do I get to the station?", "vi": "Tôi đi tới nhà ga thế nào ạ?" },
+        { "speaker": "b", "en": "Do you see the tall grey building?", "vi": "Bạn thấy toà nhà xám cao kia không?" },
+        { "speaker": "a", "en": "Yes, I see it.", "vi": "Vâng, tôi thấy rồi." },
+        { "speaker": "b", "en": "Walk to it, then turn right.", "vi": "Đi tới đó, rồi rẽ phải." },
+        { "speaker": "a", "en": "And the station is there?", "vi": "Và nhà ga ở đó à?" },
+        { "speaker": "b", "en": "Yes, you cannot miss it.", "vi": "Ừ, không lạc được đâu." }
+      ]
+    },
+    {
+      "title": "Bị lạc trong khu phố",
+      "situation": "Bạn đi nhầm đường và phải hỏi lại.",
+      "turns": [
+        { "speaker": "a", "en": "I think I am lost.", "vi": "Hình như tôi bị lạc rồi." },
+        { "speaker": "b", "en": "Where do you want to go?", "vi": "Bạn muốn đi đâu?" },
+        { "speaker": "a", "en": "To the market.", "vi": "Tới chợ." },
+        { "speaker": "b", "en": "You walked too far. Go back one block.", "vi": "Bạn đi quá rồi. Quay lại một dãy nhà." },
+        { "speaker": "a", "en": "Back this way?", "vi": "Quay lại hướng này ạ?" },
+        { "speaker": "b", "en": "Yes, and the market is on your left.", "vi": "Ừ, rồi chợ ở bên trái bạn." }
+      ]
+    },
+    {
+      "title": "Chỉ đường cho người đi xe",
+      "situation": "Một tài xế dừng lại hỏi đường.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, is this the way to the airport?", "vi": "Xin lỗi, đây có phải đường ra sân bay không?" },
+        { "speaker": "b", "en": "No, this road goes to the city.", "vi": "Không, đường này vào thành phố." },
+        { "speaker": "a", "en": "Oh no. Where do I turn?", "vi": "Ôi không. Tôi phải rẽ ở đâu?" },
+        { "speaker": "b", "en": "Turn around and take the second exit.", "vi": "Bạn quay đầu lại và đi lối ra thứ hai." },
+        { "speaker": "a", "en": "The second exit. Thank you.", "vi": "Lối ra thứ hai. Cảm ơn bạn." },
+        { "speaker": "b", "en": "Drive safely.", "vi": "Bạn lái xe an toàn nhé." }
+      ]
+    },
+    {
+      "title": "Hỏi nhà vệ sinh",
+      "situation": "Bạn cần hỏi nhà vệ sinh ở nơi công cộng.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, where is the toilet?", "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?" },
+        { "speaker": "b", "en": "Downstairs, near the exit.", "vi": "Ở tầng dưới, gần lối ra." },
+        { "speaker": "a", "en": "Downstairs. Thank you.", "vi": "Tầng dưới. Cảm ơn bạn." },
+        { "speaker": "b", "en": "You need a key from the desk.", "vi": "Bạn cần lấy chìa khoá ở quầy." },
+        { "speaker": "a", "en": "Oh, I see. Where is the desk?", "vi": "Ồ, tôi hiểu rồi. Quầy ở đâu ạ?" },
+        { "speaker": "b", "en": "Right behind you.", "vi": "Ngay sau lưng bạn." }
+      ]
+    },
+    {
+      "title": "Hai người chỉ hai đường khác nhau",
+      "situation": "Người thứ hai chỉ đường khác, bạn phải xử lý. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "My friend said go left, but you said right.", "vi": "Bạn tôi bảo rẽ trái, còn bạn bảo rẽ phải." },
+        { "speaker": "b", "en": "Both ways work, but right is shorter.", "vi": "Hai đường đều tới, nhưng bên phải ngắn hơn." },
+        { "speaker": "a", "en": "How much shorter?", "vi": "Ngắn hơn bao nhiêu ạ?" },
+        { "speaker": "b", "en": "About ten minutes.", "vi": "Khoảng mười phút." },
+        { "speaker": "a", "en": "Then I will go right. Thank you.", "vi": "Vậy tôi đi bên phải. Cảm ơn bạn." },
+        { "speaker": "b", "en": "Good choice. Have a nice day.", "vi": "Lựa chọn tốt đấy. Chúc bạn một ngày vui." }
+      ]
+    }
+  ]
+}

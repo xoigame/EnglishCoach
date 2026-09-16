@@ -1,0 +1,126 @@
+{
+  "id": "so-dem-gio-giac-lich-hen",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Rủ đi xem phim",
+      "situation": "Bạn rủ đi xem phim và hỏi giờ chiếu.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free on Friday?", "vi": "Thứ Sáu bạn rảnh không?" },
+        { "speaker": "b", "en": "Yes, after six.", "vi": "Có, sau sáu giờ." },
+        { "speaker": "a", "en": "There is a movie at seven thirty.", "vi": "Có phim lúc bảy giờ ba mươi." },
+        { "speaker": "b", "en": "What time does it finish?", "vi": "Mấy giờ thì hết phim?" },
+        { "speaker": "a", "en": "About nine forty.", "vi": "Khoảng chín giờ bốn mươi." },
+        { "speaker": "b", "en": "That works for me.", "vi": "Giờ đó được với tôi." }
+      ]
+    },
+    {
+      "title": "Hỏi giá vé",
+      "situation": "Bạn hỏi vé bao nhiêu tiền.",
+      "turns": [
+        { "speaker": "a", "en": "How much are the tickets?", "vi": "Vé bao nhiêu tiền vậy?" },
+        { "speaker": "b", "en": "Nine dollars each.", "vi": "Chín đô một vé." },
+        { "speaker": "a", "en": "So eighteen dollars for two.", "vi": "Vậy hai vé là mười tám đô." },
+        { "speaker": "b", "en": "Yes. That is not bad.", "vi": "Đúng rồi. Cũng không đắt." },
+        { "speaker": "a", "en": "It is cheap on Tuesday.", "vi": "Thứ Ba thì rẻ hơn." },
+        { "speaker": "b", "en": "Then let us go on Tuesday.", "vi": "Vậy mình đi thứ Ba đi." }
+      ]
+    },
+    {
+      "title": "Hỏi mấy giờ rồi",
+      "situation": "Bạn hỏi giờ vì quên mang đồng hồ.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, what time is it?", "vi": "Xin lỗi, mấy giờ rồi ạ?" },
+        { "speaker": "b", "en": "It is ten past four.", "vi": "Bốn giờ mười phút." },
+        { "speaker": "a", "en": "Sorry, ten past four?", "vi": "Xin lỗi, bốn giờ mười à?" },
+        { "speaker": "b", "en": "Yes, four ten.", "vi": "Ừ, bốn giờ mười." },
+        { "speaker": "a", "en": "Thank you. I am late.", "vi": "Cảm ơn bạn. Tôi muộn rồi." },
+        { "speaker": "b", "en": "Good luck.", "vi": "Chúc bạn may mắn." }
+      ]
+    },
+    {
+      "title": "Hẹn nhau ở đâu",
+      "situation": "Hai người chốt chỗ gặp.",
+      "turns": [
+        { "speaker": "a", "en": "Where do we meet?", "vi": "Mình gặp ở đâu?" },
+        { "speaker": "b", "en": "In front of the cinema.", "vi": "Trước rạp chiếu phim." },
+        { "speaker": "a", "en": "At what time?", "vi": "Mấy giờ?" },
+        { "speaker": "b", "en": "At seven fifteen.", "vi": "Bảy giờ mười lăm." },
+        { "speaker": "a", "en": "Okay, seven fifteen. Do not be late.", "vi": "Được, bảy giờ mười lăm. Đừng trễ nhé." },
+        { "speaker": "b", "en": "I will be there early.", "vi": "Tôi sẽ tới sớm." }
+      ]
+    },
+    {
+      "title": "Ngày trong tuần",
+      "situation": "Hai người tìm ngày cả hai cùng rảnh.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free on Monday?", "vi": "Thứ Hai bạn rảnh không?" },
+        { "speaker": "b", "en": "No, I work late on Monday.", "vi": "Không, thứ Hai tôi làm muộn." },
+        { "speaker": "a", "en": "What about Wednesday?", "vi": "Thứ Tư thì sao?" },
+        { "speaker": "b", "en": "Wednesday is good.", "vi": "Thứ Tư thì được." },
+        { "speaker": "a", "en": "Morning or evening?", "vi": "Buổi sáng hay buổi tối?" },
+        { "speaker": "b", "en": "Evening, please.", "vi": "Buổi tối nhé." }
+      ]
+    },
+    {
+      "title": "Đặt bàn qua điện thoại",
+      "situation": "Bạn gọi đặt bàn và nói số người, giờ.",
+      "turns": [
+        { "speaker": "a", "en": "Hello, can I book a table?", "vi": "Xin chào, tôi đặt bàn được không?" },
+        { "speaker": "b", "en": "Sure. For how many people?", "vi": "Được ạ. Cho mấy người?" },
+        { "speaker": "a", "en": "For four people.", "vi": "Cho bốn người." },
+        { "speaker": "b", "en": "And what time?", "vi": "Mấy giờ ạ?" },
+        { "speaker": "a", "en": "At eight o'clock tonight.", "vi": "Tám giờ tối nay." },
+        { "speaker": "b", "en": "Okay. Your name, please?", "vi": "Được ạ. Cho tôi xin tên?" }
+      ]
+    },
+    {
+      "title": "Đổi lịch phút chót",
+      "situation": "Bạn bận đột xuất và phải dời giờ hẹn.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry, can we meet later?", "vi": "Xin lỗi, mình gặp muộn hơn được không?" },
+        { "speaker": "b", "en": "Sure. How much later?", "vi": "Được thôi. Muộn bao lâu?" },
+        { "speaker": "a", "en": "One hour. At eight instead of seven.", "vi": "Một tiếng. Tám giờ thay vì bảy giờ." },
+        { "speaker": "b", "en": "Eight is fine for me.", "vi": "Tám giờ thì ổn với tôi." },
+        { "speaker": "a", "en": "Thank you. Sorry about that.", "vi": "Cảm ơn bạn. Xin lỗi về chuyện đó." },
+        { "speaker": "b", "en": "No worries. See you at eight.", "vi": "Không sao đâu. Hẹn tám giờ gặp." }
+      ]
+    },
+    {
+      "title": "Đếm tiền lẻ",
+      "situation": "Bạn trả tiền và đếm lại tiền thừa.",
+      "turns": [
+        { "speaker": "a", "en": "That is twelve dollars, please.", "vi": "Của bạn là mười hai đô ạ." },
+        { "speaker": "b", "en": "Here is twenty.", "vi": "Đây là hai mươi đô." },
+        { "speaker": "a", "en": "Your change is eight dollars.", "vi": "Tiền thừa của bạn là tám đô." },
+        { "speaker": "b", "en": "Sorry, I only see five.", "vi": "Xin lỗi, tôi chỉ thấy năm đô." },
+        { "speaker": "a", "en": "Oh, you are right. Here is three more.", "vi": "Ồ, bạn nói đúng. Đây là ba đô nữa." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]
+    },
+    {
+      "title": "Hỏi giờ mở cửa",
+      "situation": "Bạn hỏi cửa hàng mở và đóng lúc mấy giờ.",
+      "turns": [
+        { "speaker": "a", "en": "What time do you open?", "vi": "Mấy giờ bên bạn mở cửa?" },
+        { "speaker": "b", "en": "We open at nine in the morning.", "vi": "Chúng tôi mở cửa lúc chín giờ sáng." },
+        { "speaker": "a", "en": "And what time do you close?", "vi": "Còn mấy giờ đóng cửa?" },
+        { "speaker": "b", "en": "At ten at night.", "vi": "Mười giờ tối." },
+        { "speaker": "a", "en": "Are you open on Sunday?", "vi": "Chủ nhật có mở không ạ?" },
+        { "speaker": "b", "en": "Yes, but we close at six.", "vi": "Có, nhưng chúng tôi đóng lúc sáu giờ." }
+      ]
+    },
+    {
+      "title": "Ba người, ba lịch khác nhau",
+      "situation": "Bạn phải tìm một giờ hợp cho cả ba người. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Nam is free at six. Hoa is free at eight.", "vi": "Nam rảnh lúc sáu giờ. Hoa rảnh lúc tám giờ." },
+        { "speaker": "b", "en": "And I finish work at seven.", "vi": "Còn tôi tan làm lúc bảy giờ." },
+        { "speaker": "a", "en": "So seven thirty is the best time.", "vi": "Vậy bảy rưỡi là giờ hợp nhất." },
+        { "speaker": "b", "en": "Is that too late for Nam?", "vi": "Vậy có muộn quá với Nam không?" },
+        { "speaker": "a", "en": "He said any time after six.", "vi": "Bạn ấy nói sau sáu giờ là được." },
+        { "speaker": "b", "en": "Then seven thirty works for everyone.", "vi": "Vậy bảy rưỡi hợp với tất cả." }
+      ]
+    }
+  ]
+}

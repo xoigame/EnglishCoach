@@ -1,0 +1,126 @@
+{
+  "id": "cam-on-xin-loi-lich-su",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Va phải người trên phố",
+      "situation": "Bạn vô tình va vào ai đó khi đang đi bộ.",
+      "turns": [
+        { "speaker": "a", "en": "Oh! I am sorry about that.", "vi": "Ồ! Tôi xin lỗi về chuyện đó." },
+        { "speaker": "b", "en": "No problem. Are you okay?", "vi": "Không sao. Bạn ổn chứ?" },
+        { "speaker": "a", "en": "Yes, I am fine. And you?", "vi": "Vâng, tôi ổn. Còn bạn?" },
+        { "speaker": "b", "en": "I am okay too.", "vi": "Tôi cũng ổn." },
+        { "speaker": "a", "en": "Sorry again. Have a nice day.", "vi": "Xin lỗi bạn lần nữa. Chúc bạn một ngày tốt lành." },
+        { "speaker": "b", "en": "You too. Take care.", "vi": "Bạn cũng vậy. Giữ gìn sức khoẻ nhé." }
+      ]
+    },
+    {
+      "title": "Ai đó nhặt đồ giúp bạn",
+      "situation": "Bạn làm rơi ví và người lạ nhặt giúp.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me. You dropped this.", "vi": "Xin lỗi. Bạn làm rơi cái này." },
+        { "speaker": "b", "en": "Oh, my wallet! Thank you very much.", "vi": "Ôi, ví của tôi! Cảm ơn bạn rất nhiều." },
+        { "speaker": "a", "en": "You are welcome.", "vi": "Không có gì đâu." },
+        { "speaker": "b", "en": "That is very kind of you.", "vi": "Bạn tốt quá." },
+        { "speaker": "a", "en": "It is no problem at all.", "vi": "Có gì đâu mà." },
+        { "speaker": "b", "en": "Thank you again. Have a good day.", "vi": "Cảm ơn bạn lần nữa. Chúc bạn một ngày vui." }
+      ]
+    },
+    {
+      "title": "Nhắc khéo người khác",
+      "situation": "Bạn thấy túi của người kia đang mở và nhắc họ.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, your bag is open.", "vi": "Xin lỗi, túi của bạn đang mở." },
+        { "speaker": "b", "en": "Oh no. Thank you for telling me.", "vi": "Ôi không. Cảm ơn bạn đã nhắc." },
+        { "speaker": "a", "en": "No problem. Check your phone.", "vi": "Không có gì. Bạn kiểm tra điện thoại xem." },
+        { "speaker": "b", "en": "It is still here. Thank you so much.", "vi": "Vẫn còn đây. Cảm ơn bạn nhiều lắm." },
+        { "speaker": "a", "en": "I am glad. Be careful.", "vi": "Tôi mừng quá. Bạn cẩn thận nhé." },
+        { "speaker": "b", "en": "I will. Thanks again.", "vi": "Tôi sẽ cẩn thận. Cảm ơn lần nữa." }
+      ]
+    },
+    {
+      "title": "Xin lỗi vì tới muộn",
+      "situation": "Bạn tới trễ cuộc hẹn và xin lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "Hi. You are a little late.", "vi": "Chào. Bạn tới hơi muộn đấy." },
+        { "speaker": "b", "en": "I am so sorry. The bus was slow.", "vi": "Tôi rất xin lỗi. Xe buýt chạy chậm quá." },
+        { "speaker": "a", "en": "That is okay. Do not worry.", "vi": "Không sao đâu. Bạn đừng lo." },
+        { "speaker": "b", "en": "Thank you for waiting.", "vi": "Cảm ơn bạn đã đợi." },
+        { "speaker": "a", "en": "It is fine. Let us go in.", "vi": "Ổn mà. Chúng ta vào đi." },
+        { "speaker": "b", "en": "Yes, thank you. Sorry again.", "vi": "Vâng, cảm ơn bạn. Xin lỗi lần nữa nhé." }
+      ]
+    },
+    {
+      "title": "Nhờ người khác nhường chỗ",
+      "situation": "Bạn cần đi qua một lối hẹp.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me, can I get through?", "vi": "Xin lỗi, tôi đi qua được không?" },
+        { "speaker": "b", "en": "Of course. Go ahead.", "vi": "Tất nhiên rồi. Bạn cứ đi đi." },
+        { "speaker": "a", "en": "Thank you.", "vi": "Cảm ơn bạn." },
+        { "speaker": "b", "en": "No problem.", "vi": "Không có gì." },
+        { "speaker": "a", "en": "Sorry for the trouble.", "vi": "Xin lỗi vì làm phiền bạn." },
+        { "speaker": "b", "en": "It is no trouble at all.", "vi": "Có phiền gì đâu." }
+      ]
+    },
+    {
+      "title": "Cảm ơn khi được mời",
+      "situation": "Hàng xóm mời bạn một cốc trà.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like some tea?", "vi": "Bạn uống trà nhé?" },
+        { "speaker": "b", "en": "Yes, please. Thank you.", "vi": "Vâng, cho tôi xin. Cảm ơn bạn." },
+        { "speaker": "a", "en": "Here you are. It is hot.", "vi": "Của bạn đây. Trà nóng đấy." },
+        { "speaker": "b", "en": "Thank you. That is very kind.", "vi": "Cảm ơn bạn. Bạn tốt quá." },
+        { "speaker": "a", "en": "You are welcome. Please sit down.", "vi": "Không có gì. Mời bạn ngồi." },
+        { "speaker": "b", "en": "Thank you. This is really nice.", "vi": "Cảm ơn bạn. Chỗ này dễ chịu thật." }
+      ]
+    },
+    {
+      "title": "Từ chối lịch sự",
+      "situation": "Bạn được mời thêm đồ ăn nhưng đã no.",
+      "turns": [
+        { "speaker": "a", "en": "Would you like more rice?", "vi": "Bạn ăn thêm cơm nhé?" },
+        { "speaker": "b", "en": "No, thank you. I am full.", "vi": "Không, cảm ơn bạn. Tôi no rồi." },
+        { "speaker": "a", "en": "Are you sure? There is a lot.", "vi": "Bạn chắc chứ? Còn nhiều mà." },
+        { "speaker": "b", "en": "I am sure. It was delicious.", "vi": "Tôi chắc mà. Món ăn ngon lắm." },
+        { "speaker": "a", "en": "I am happy you liked it.", "vi": "Tôi mừng vì bạn thích." },
+        { "speaker": "b", "en": "Thank you for the meal.", "vi": "Cảm ơn bạn vì bữa ăn." }
+      ]
+    },
+    {
+      "title": "Xin lỗi vì làm ồn",
+      "situation": "Hàng xóm nhắc bạn về tiếng ồn tối qua.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me. Last night was very loud.", "vi": "Xin lỗi. Tối qua ồn quá." },
+        { "speaker": "b", "en": "Oh, I am really sorry.", "vi": "Ồ, tôi thật sự xin lỗi." },
+        { "speaker": "a", "en": "It is okay, but I could not sleep.", "vi": "Không sao, nhưng tôi không ngủ được." },
+        { "speaker": "b", "en": "I understand. It will not happen again.", "vi": "Tôi hiểu. Chuyện đó sẽ không lặp lại." },
+        { "speaker": "a", "en": "Thank you. I appreciate that.", "vi": "Cảm ơn bạn. Tôi cảm kích lắm." },
+        { "speaker": "b", "en": "Sorry again. Have a good day.", "vi": "Xin lỗi bạn lần nữa. Chúc bạn một ngày vui." }
+      ]
+    },
+    {
+      "title": "Cảm ơn người giúp chỉ đường",
+      "situation": "Ai đó dẫn bạn tới tận nơi bạn cần tìm.",
+      "turns": [
+        { "speaker": "a", "en": "The station is here. You made it.", "vi": "Nhà ga đây rồi. Bạn tới nơi rồi nhé." },
+        { "speaker": "b", "en": "Thank you so much for your help.", "vi": "Cảm ơn bạn nhiều vì đã giúp." },
+        { "speaker": "a", "en": "You are welcome. It was on my way.", "vi": "Không có gì. Tôi cũng đi ngang qua đây mà." },
+        { "speaker": "b", "en": "You walked ten minutes with me.", "vi": "Bạn đi bộ với tôi tận mười phút." },
+        { "speaker": "a", "en": "That is fine. I was happy to help.", "vi": "Không sao đâu. Tôi vui vì giúp được bạn." },
+        { "speaker": "b", "en": "That is very kind. Thank you again.", "vi": "Bạn tốt quá. Cảm ơn bạn lần nữa." }
+      ]
+    },
+    {
+      "title": "Lỗi không phải của bạn",
+      "situation": "Ai đó trách nhầm bạn. Bạn giải thích nhẹ nhàng mà vẫn lịch sự. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Excuse me. You took my seat.", "vi": "Xin lỗi. Bạn ngồi vào chỗ của tôi rồi." },
+        { "speaker": "b", "en": "Oh, sorry. Let me check my ticket.", "vi": "Ồ, xin lỗi. Để tôi xem lại vé." },
+        { "speaker": "a", "en": "Mine says seat twelve A.", "vi": "Vé tôi ghi ghế mười hai A." },
+        { "speaker": "b", "en": "Mine says twelve A too. Let us ask the staff.", "vi": "Vé tôi cũng ghi mười hai A. Ta hỏi nhân viên nhé." },
+        { "speaker": "a", "en": "Good idea. Sorry for the trouble.", "vi": "Ý hay đấy. Xin lỗi vì làm phiền bạn." },
+        { "speaker": "b", "en": "No problem at all. It happens.", "vi": "Không phiền gì đâu. Chuyện thường mà." }
+      ]
+    }
+  ]
+}

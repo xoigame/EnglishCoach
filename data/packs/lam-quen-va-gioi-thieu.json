@@ -1,0 +1,126 @@
+{
+  "id": "lam-quen-va-gioi-thieu",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Chào người mới ở bàn bên",
+      "situation": "Bạn thấy một đồng nghiệp mới ngồi bàn cạnh và chủ động bắt chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "Hi. Are you new here?", "vi": "Chào. Bạn mới ở đây phải không?" },
+        { "speaker": "b", "en": "Yes, I am. I am Lan.", "vi": "Vâng, đúng rồi. Tôi là Lan." },
+        { "speaker": "a", "en": "Nice to meet you, Lan. I am Ben.", "vi": "Rất vui được gặp Lan. Tôi là Ben." },
+        { "speaker": "b", "en": "Nice to meet you too.", "vi": "Tôi cũng rất vui được gặp bạn." },
+        { "speaker": "a", "en": "Which team are you on?", "vi": "Bạn ở nhóm nào?" },
+        { "speaker": "b", "en": "I work in marketing.", "vi": "Tôi làm ở bộ phận marketing." }
+      ]
+    },
+    {
+      "title": "Hỏi tên khi nghe chưa rõ",
+      "situation": "Bạn không nghe rõ tên người kia và hỏi lại một cách lịch sự.",
+      "turns": [
+        { "speaker": "a", "en": "Hello, I am Matteo.", "vi": "Xin chào, tôi là Matteo." },
+        { "speaker": "b", "en": "Sorry, what is your name again?", "vi": "Xin lỗi, tên bạn là gì nhỉ?" },
+        { "speaker": "a", "en": "Matteo. M A T T E O.", "vi": "Matteo. M A T T E O." },
+        { "speaker": "b", "en": "Thank you. I am Minh.", "vi": "Cảm ơn bạn. Tôi là Minh." },
+        { "speaker": "a", "en": "Nice to meet you, Minh.", "vi": "Rất vui được gặp Minh." },
+        { "speaker": "b", "en": "Nice to meet you too, Matteo.", "vi": "Tôi cũng vậy, Matteo." }
+      ]
+    },
+    {
+      "title": "Giới thiệu bộ phận của mình",
+      "situation": "Hai người hỏi nhau làm ở bộ phận nào.",
+      "turns": [
+        { "speaker": "a", "en": "I work in sales. And you?", "vi": "Tôi làm ở bộ phận bán hàng. Còn bạn?" },
+        { "speaker": "b", "en": "I work in design.", "vi": "Tôi làm ở bộ phận thiết kế." },
+        { "speaker": "a", "en": "Is your team big?", "vi": "Nhóm bạn có đông không?" },
+        { "speaker": "b", "en": "No, we are only four people.", "vi": "Không, nhóm tôi chỉ có bốn người." },
+        { "speaker": "a", "en": "That is nice. A small team is easy.", "vi": "Vậy cũng hay. Nhóm nhỏ thì dễ làm việc." },
+        { "speaker": "b", "en": "Yes, we talk together every day.", "vi": "Đúng vậy, chúng tôi trao đổi với nhau mỗi ngày." }
+      ]
+    },
+    {
+      "title": "Ngày đầu đi làm",
+      "situation": "Hôm nay là ngày đầu tiên của bạn và ai đó hỏi thăm.",
+      "turns": [
+        { "speaker": "a", "en": "Welcome. Is this your first day?", "vi": "Chào mừng bạn. Hôm nay là ngày đầu của bạn à?" },
+        { "speaker": "b", "en": "Yes, it is. I started today.", "vi": "Vâng, đúng vậy. Tôi bắt đầu hôm nay." },
+        { "speaker": "a", "en": "How do you feel?", "vi": "Bạn thấy thế nào?" },
+        { "speaker": "b", "en": "A little nervous, but happy.", "vi": "Hơi hồi hộp, nhưng vui." },
+        { "speaker": "a", "en": "Do not worry. Everyone is friendly here.", "vi": "Đừng lo. Mọi người ở đây thân thiện lắm." },
+        { "speaker": "b", "en": "Thank you. That is good to hear.", "vi": "Cảm ơn bạn. Nghe vậy tôi yên tâm." }
+      ]
+    },
+    {
+      "title": "Rủ đi ăn trưa",
+      "situation": "Sau khi làm quen, người kia rủ bạn đi ăn trưa.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have lunch plans?", "vi": "Bạn có hẹn ăn trưa chưa?" },
+        { "speaker": "b", "en": "No, not yet.", "vi": "Chưa, tôi chưa có hẹn gì." },
+        { "speaker": "a", "en": "We can eat together later.", "vi": "Lát nữa chúng ta ăn cùng nhau nhé." },
+        { "speaker": "b", "en": "That sounds great. What time?", "vi": "Nghe hay đấy. Mấy giờ vậy?" },
+        { "speaker": "a", "en": "Twelve o'clock, downstairs.", "vi": "Mười hai giờ, ở tầng dưới." },
+        { "speaker": "b", "en": "Okay, see you then.", "vi": "Được, hẹn gặp lúc đó nhé." }
+      ]
+    },
+    {
+      "title": "Làm quen trong lớp học",
+      "situation": "Bạn ngồi cạnh một người lạ trong lớp tiếng Anh.",
+      "turns": [
+        { "speaker": "a", "en": "Is this seat free?", "vi": "Chỗ này trống phải không?" },
+        { "speaker": "b", "en": "Yes, please sit down.", "vi": "Vâng, bạn ngồi đi." },
+        { "speaker": "a", "en": "Thanks. I am Sofia.", "vi": "Cảm ơn. Tôi là Sofia." },
+        { "speaker": "b", "en": "I am Nam. Is this your first class?", "vi": "Tôi là Nam. Đây là buổi học đầu của bạn à?" },
+        { "speaker": "a", "en": "Yes, it is. I am a bit shy.", "vi": "Vâng, đúng vậy. Tôi hơi ngại." },
+        { "speaker": "b", "en": "Me too. We can practise together.", "vi": "Tôi cũng vậy. Chúng ta luyện cùng nhau nhé." }
+      ]
+    },
+    {
+      "title": "Gặp lại người quên tên mình",
+      "situation": "Người kia nhớ mặt bạn nhưng quên tên. Bạn xử lý nhẹ nhàng.",
+      "turns": [
+        { "speaker": "a", "en": "Hi again. Sorry, your name is…?", "vi": "Chào lại nhé. Xin lỗi, tên bạn là…?" },
+        { "speaker": "b", "en": "No worries. I am Lan.", "vi": "Không sao đâu. Tôi là Lan." },
+        { "speaker": "a", "en": "Lan, right. I am bad with names.", "vi": "À Lan, đúng rồi. Tôi hay quên tên lắm." },
+        { "speaker": "b", "en": "Me too. It happens.", "vi": "Tôi cũng vậy. Chuyện thường mà." },
+        { "speaker": "a", "en": "Thanks for being kind about it.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "Of course. See you around.", "vi": "Có gì đâu. Hẹn gặp lại nhé." }
+      ]
+    },
+    {
+      "title": "Giới thiệu bạn mình cho người khác",
+      "situation": "Bạn giới thiệu hai người quen với nhau.",
+      "turns": [
+        { "speaker": "a", "en": "Hello. Who is this?", "vi": "Xin chào. Đây là ai vậy?" },
+        { "speaker": "b", "en": "This is my colleague, Hoa.", "vi": "Đây là đồng nghiệp của tôi, Hoa." },
+        { "speaker": "a", "en": "Nice to meet you, Hoa.", "vi": "Rất vui được gặp Hoa." },
+        { "speaker": "b", "en": "Hoa works in sales with me.", "vi": "Hoa làm bán hàng cùng tôi." },
+        { "speaker": "a", "en": "Oh, we work in the same building.", "vi": "Ồ, chúng ta làm cùng toà nhà đấy." },
+        { "speaker": "b", "en": "Really? Then we can have coffee sometime.", "vi": "Thật sao? Vậy lúc nào đó đi cà phê nhé." }
+      ]
+    },
+    {
+      "title": "Người kia nói quá nhanh",
+      "situation": "Bạn chưa nghe kịp và phải nhờ người kia nói chậm lại.",
+      "turns": [
+        { "speaker": "a", "en": "So I work in operations and logistics.", "vi": "Vậy đó, tôi làm ở mảng vận hành và hậu cần." },
+        { "speaker": "b", "en": "Sorry, can you speak more slowly?", "vi": "Xin lỗi, bạn nói chậm hơn được không?" },
+        { "speaker": "a", "en": "Of course. I work in operations.", "vi": "Tất nhiên rồi. Tôi làm ở mảng vận hành." },
+        { "speaker": "b", "en": "I see. Thank you.", "vi": "Tôi hiểu rồi. Cảm ơn bạn." },
+        { "speaker": "a", "en": "My English is fast. Tell me anytime.", "vi": "Tôi nói tiếng Anh nhanh lắm. Cứ nói với tôi bất cứ lúc nào nhé." },
+        { "speaker": "b", "en": "Thank you. That helps a lot.", "vi": "Cảm ơn bạn. Vậy giúp tôi nhiều lắm." }
+      ]
+    },
+    {
+      "title": "Làm quen ở buổi tiệc công ty",
+      "situation": "Ở tiệc công ty, bạn bắt chuyện với người chưa quen. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Hi. I do not think we have met.", "vi": "Chào. Hình như chúng ta chưa gặp nhau." },
+        { "speaker": "b", "en": "No, we have not. I am Minh, from design.", "vi": "Chưa đâu. Tôi là Minh, bên thiết kế." },
+        { "speaker": "a", "en": "I am Clara. I joined last month.", "vi": "Tôi là Clara. Tôi vào công ty tháng trước." },
+        { "speaker": "b", "en": "How is it going so far?", "vi": "Cho tới giờ bạn thấy thế nào?" },
+        { "speaker": "a", "en": "Good, but I do not know many people yet.", "vi": "Ổn, nhưng tôi chưa quen nhiều người lắm." },
+        { "speaker": "b", "en": "Come with me. I will introduce you to my team.", "vi": "Đi với tôi nào. Tôi giới thiệu bạn với nhóm tôi." }
+      ]
+    }
+  ]
+}

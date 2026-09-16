@@ -112,6 +112,57 @@ if (noVariations) warn(`${noVariations} bài chưa có phần trang trọng/thâ
 if (noCulture) warn(`${noCulture} bài chưa có ghi chú văn hoá`);
 if (shortDialogue) warn(`${shortDialogue} bài có hội thoại dưới 8 lượt`);
 
+/* ------------------------------------------------- 10 hội thoại mẫu */
+
+head('Bộ 10 hội thoại mẫu');
+
+const PACK_DIR = path.join(ROOT, 'data', 'packs');
+let packFiles = [];
+try { packFiles = (await readdir(PACK_DIR)).filter(f => f.endsWith('.json')); } catch { /* chưa có */ }
+
+let packDialogues = 0;
+let packTurns = 0;
+let thin = 0;
+
+for (const file of packFiles) {
+  const id = path.basename(file, '.json');
+  try {
+    const pack = JSON.parse(await readFile(path.join(PACK_DIR, file), 'utf8'));
+    if (pack.id !== id) bad(`packs/${file}: "id" là "${pack.id}" nhưng tên file là "${id}"`);
+    if (!have.has(id)) bad(`packs/${file}: không có giáo án tương ứng data/lessons/${id}.json`);
+    if (!Array.isArray(pack.dialogues) || !pack.dialogues.length) {
+      bad(`packs/${file}: thiếu "dialogues"`);
+      continue;
+    }
+    if (pack.dialogues.length < 10) thin++;
+    for (const [i, d] of pack.dialogues.entries()) {
+      if (!d.title) bad(`packs/${file}: hội thoại ${i + 1} thiếu "title"`);
+      if (!Array.isArray(d.turns) || d.turns.length < 4) {
+        bad(`packs/${file}: hội thoại ${i + 1} có dưới 4 lượt`);
+        continue;
+      }
+      if (d.turns[0].speaker !== 'a') warn(`packs/${file}: hội thoại ${i + 1} không bắt đầu bằng vai a`);
+      for (const [j, t] of d.turns.entries()) {
+        if (!t.en) bad(`packs/${file}: hội thoại ${i + 1} lượt ${j + 1} thiếu "en"`);
+        if (!t.vi) warn(`packs/${file}: hội thoại ${i + 1} lượt ${j + 1} thiếu bản dịch`);
+      }
+      packDialogues++;
+      packTurns += d.turns.length;
+    }
+  } catch (err) {
+    bad(`packs/${file}: ${err.message}`);
+  }
+}
+
+if (packFiles.length) {
+  ok(`${packFiles.length}/${planned.size} chủ đề có bộ hội thoại · ${packDialogues} hội thoại · ${packTurns} lượt`);
+} else {
+  warn('Chưa chủ đề nào có bộ 10 hội thoại mẫu');
+}
+if (thin) warn(`${thin} bộ có dưới 10 hội thoại`);
+const noPack = planned.size - packFiles.length;
+if (noPack > 0) warn(`${noPack} chủ đề chưa có bộ hội thoại mẫu`);
+
 /* -------------------------------------------------------------- index */
 
 head('Danh mục & web');

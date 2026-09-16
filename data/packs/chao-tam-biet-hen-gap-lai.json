@@ -1,0 +1,126 @@
+{
+  "id": "chao-tam-biet-hen-gap-lai",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Tạm biệt sau khi uống cà phê",
+      "situation": "Hai người bạn vừa uống cà phê xong và chia tay.",
+      "turns": [
+        { "speaker": "a", "en": "I need to leave now.", "vi": "Tôi phải đi bây giờ." },
+        { "speaker": "b", "en": "Okay. Thanks for the coffee.", "vi": "Được. Cảm ơn vì buổi cà phê nhé." },
+        { "speaker": "a", "en": "See you later.", "vi": "Hẹn gặp lại." },
+        { "speaker": "b", "en": "See you. Take care.", "vi": "Gặp lại nhé. Giữ gìn sức khoẻ." },
+        { "speaker": "a", "en": "You too. Bye.", "vi": "Bạn cũng vậy. Tạm biệt." },
+        { "speaker": "b", "en": "Bye.", "vi": "Tạm biệt." }
+      ]
+    },
+    {
+      "title": "Hẹn gặp ngày mai",
+      "situation": "Bạn muốn hẹn gặp lại vào ngày hôm sau.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free tomorrow?", "vi": "Mai bạn rảnh không?" },
+        { "speaker": "b", "en": "Yes, after work.", "vi": "Có, sau giờ làm." },
+        { "speaker": "a", "en": "Let us meet at six then.", "vi": "Vậy mình gặp lúc sáu giờ nhé." },
+        { "speaker": "b", "en": "Six works for me.", "vi": "Sáu giờ thì được với tôi." },
+        { "speaker": "a", "en": "Great. See you tomorrow.", "vi": "Tuyệt. Hẹn gặp bạn ngày mai." },
+        { "speaker": "b", "en": "See you tomorrow. Bye.", "vi": "Hẹn mai gặp. Tạm biệt." }
+      ]
+    },
+    {
+      "title": "Chào tạm biệt ở văn phòng",
+      "situation": "Bạn về trước và chào đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Are you leaving already?", "vi": "Bạn về luôn rồi à?" },
+        { "speaker": "b", "en": "Yes, I finished my work.", "vi": "Ừ, tôi làm xong việc rồi." },
+        { "speaker": "a", "en": "Okay. Have a good evening.", "vi": "Được. Chúc bạn buổi tối vui vẻ." },
+        { "speaker": "b", "en": "Thank you. See you tomorrow.", "vi": "Cảm ơn bạn. Hẹn mai gặp." },
+        { "speaker": "a", "en": "See you. Get home safely.", "vi": "Gặp lại nhé. Về nhà an toàn." },
+        { "speaker": "b", "en": "Thanks. Good night.", "vi": "Cảm ơn. Chúc ngủ ngon." }
+      ]
+    },
+    {
+      "title": "Đổi giờ hẹn",
+      "situation": "Giờ hẹn cũ không tiện, bạn đề nghị đổi.",
+      "turns": [
+        { "speaker": "a", "en": "Can we meet at five?", "vi": "Mình gặp lúc năm giờ được không?" },
+        { "speaker": "b", "en": "Sorry, five is too early for me.", "vi": "Xin lỗi, năm giờ sớm quá với tôi." },
+        { "speaker": "a", "en": "How about seven?", "vi": "Bảy giờ thì sao?" },
+        { "speaker": "b", "en": "Seven is perfect.", "vi": "Bảy giờ thì hoàn hảo." },
+        { "speaker": "a", "en": "Good. Same place?", "vi": "Tốt. Vẫn chỗ cũ chứ?" },
+        { "speaker": "b", "en": "Yes, same place. See you then.", "vi": "Ừ, vẫn chỗ cũ. Hẹn gặp lúc đó." }
+      ]
+    },
+    {
+      "title": "Chào tạm biệt trên điện thoại",
+      "situation": "Kết thúc một cuộc gọi ngắn.",
+      "turns": [
+        { "speaker": "a", "en": "Okay, I have to go now.", "vi": "Được rồi, tôi phải đi đây." },
+        { "speaker": "b", "en": "Sure. Thanks for calling.", "vi": "Ừ. Cảm ơn bạn đã gọi." },
+        { "speaker": "a", "en": "No problem. Talk to you soon.", "vi": "Không có gì. Nói chuyện sau nhé." },
+        { "speaker": "b", "en": "Yes, talk soon.", "vi": "Ừ, nói chuyện sau." },
+        { "speaker": "a", "en": "Bye for now.", "vi": "Tạm biệt nhé." },
+        { "speaker": "b", "en": "Bye.", "vi": "Tạm biệt." }
+      ]
+    },
+    {
+      "title": "Hẹn cuối tuần",
+      "situation": "Hai người bàn xem cuối tuần đi đâu.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free this weekend?", "vi": "Cuối tuần này bạn rảnh không?" },
+        { "speaker": "b", "en": "Saturday, yes. Sunday, no.", "vi": "Thứ Bảy thì rảnh. Chủ nhật thì không." },
+        { "speaker": "a", "en": "Let us meet on Saturday then.", "vi": "Vậy mình gặp thứ Bảy nhé." },
+        { "speaker": "b", "en": "Where do you want to go?", "vi": "Bạn muốn đi đâu?" },
+        { "speaker": "a", "en": "How about the park near your house?", "vi": "Công viên gần nhà bạn thì sao?" },
+        { "speaker": "b", "en": "Sounds good. See you Saturday.", "vi": "Nghe ổn đấy. Hẹn thứ Bảy gặp." }
+      ]
+    },
+    {
+      "title": "Bạn phải đi gấp",
+      "situation": "Bạn đang vội và phải cắt ngang cuộc nói chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "And then my sister said…", "vi": "Rồi chị tôi nói là…" },
+        { "speaker": "b", "en": "Sorry, I have to run.", "vi": "Xin lỗi, tôi phải chạy đây." },
+        { "speaker": "a", "en": "Oh, no problem. Are you late?", "vi": "Ồ, không sao. Bạn muộn giờ à?" },
+        { "speaker": "b", "en": "Yes, my bus leaves in five minutes.", "vi": "Ừ, xe buýt của tôi năm phút nữa chạy." },
+        { "speaker": "a", "en": "Go, go. Tell me later.", "vi": "Đi đi, đi đi. Kể tôi nghe sau nhé." },
+        { "speaker": "b", "en": "I will. Sorry, and thank you.", "vi": "Tôi sẽ kể. Xin lỗi, và cảm ơn bạn." }
+      ]
+    },
+    {
+      "title": "Chào tạm biệt khách tới nhà",
+      "situation": "Khách về sau bữa tối ở nhà bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for dinner. It was lovely.", "vi": "Cảm ơn bữa tối. Ngon lắm." },
+        { "speaker": "b", "en": "I am happy you came.", "vi": "Tôi vui vì bạn đã tới." },
+        { "speaker": "a", "en": "I should go. It is late.", "vi": "Tôi nên về thôi. Muộn rồi." },
+        { "speaker": "b", "en": "Okay. Come again soon.", "vi": "Được. Lần sau tới chơi nữa nhé." },
+        { "speaker": "a", "en": "I will. Good night.", "vi": "Tôi sẽ tới. Chúc ngủ ngon." },
+        { "speaker": "b", "en": "Good night. Get home safely.", "vi": "Ngủ ngon. Về nhà an toàn nhé." }
+      ]
+    },
+    {
+      "title": "Không chắc khi nào gặp lại",
+      "situation": "Cả hai đều bận, chưa chốt được ngày.",
+      "turns": [
+        { "speaker": "a", "en": "When can we meet again?", "vi": "Khi nào mình gặp lại được?" },
+        { "speaker": "b", "en": "I am busy this month.", "vi": "Tháng này tôi bận lắm." },
+        { "speaker": "a", "en": "That is okay. Next month?", "vi": "Không sao. Tháng sau nhé?" },
+        { "speaker": "b", "en": "Maybe. Let us play it by ear.", "vi": "Có thể. Tới đâu tính đó nhé." },
+        { "speaker": "a", "en": "Sure. Just send me a message.", "vi": "Được thôi. Cứ nhắn tin cho tôi." },
+        { "speaker": "b", "en": "I will. See you around.", "vi": "Tôi sẽ nhắn. Hẹn gặp lại." }
+      ]
+    },
+    {
+      "title": "Tạm biệt người sắp chuyển đi xa",
+      "situation": "Bạn của bạn sắp chuyển sang thành phố khác. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "So, tomorrow is my last day here.", "vi": "Vậy đó, mai là ngày cuối của tôi ở đây." },
+        { "speaker": "b", "en": "I know. I will miss you.", "vi": "Tôi biết. Tôi sẽ nhớ bạn." },
+        { "speaker": "a", "en": "Me too. But we can call often.", "vi": "Tôi cũng vậy. Nhưng mình gọi nhau thường xuyên được mà." },
+        { "speaker": "b", "en": "Yes. And I can visit you.", "vi": "Ừ. Và tôi có thể tới thăm bạn." },
+        { "speaker": "a", "en": "Please do. You are always welcome.", "vi": "Bạn tới nhé. Lúc nào tôi cũng chào đón." },
+        { "speaker": "b", "en": "Thank you. Take care of yourself.", "vi": "Cảm ơn bạn. Giữ gìn sức khoẻ nhé." }
+      ]
+    }
+  ]
+}

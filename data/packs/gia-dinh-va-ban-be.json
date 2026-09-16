@@ -1,0 +1,126 @@
+{
+  "id": "gia-dinh-va-ban-be",
+  "level": "A1",
+  "dialogues": [
+    {
+      "title": "Hỏi về gia đình",
+      "situation": "Bạn học cùng lớp hỏi bạn về gia đình.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any brothers or sisters?", "vi": "Bạn có anh chị em không?" },
+        { "speaker": "b", "en": "Yes, I have one brother.", "vi": "Có, tôi có một người anh." },
+        { "speaker": "a", "en": "Is he older than you?", "vi": "Anh ấy lớn hơn bạn à?" },
+        { "speaker": "b", "en": "Yes, he is three years older.", "vi": "Ừ, anh ấy hơn tôi ba tuổi." },
+        { "speaker": "a", "en": "What does he do?", "vi": "Anh ấy làm nghề gì?" },
+        { "speaker": "b", "en": "He works in a hospital.", "vi": "Anh ấy làm ở bệnh viện." }
+      ]
+    },
+    {
+      "title": "Khoe ảnh gia đình",
+      "situation": "Bạn cho bạn học xem ảnh gia đình trên điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "Is this your family?", "vi": "Đây là gia đình bạn à?" },
+        { "speaker": "b", "en": "Yes. This is my mother and father.", "vi": "Ừ. Đây là mẹ và bố tôi." },
+        { "speaker": "a", "en": "And who is this?", "vi": "Còn đây là ai?" },
+        { "speaker": "b", "en": "That is my little sister.", "vi": "Đó là em gái tôi." },
+        { "speaker": "a", "en": "She looks like you.", "vi": "Em ấy giống bạn đấy." },
+        { "speaker": "b", "en": "Everyone says that.", "vi": "Ai cũng nói vậy." }
+      ]
+    },
+    {
+      "title": "Nói về bạn thân",
+      "situation": "Hai người kể về bạn thân của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Who is your best friend?", "vi": "Bạn thân nhất của bạn là ai?" },
+        { "speaker": "b", "en": "My best friend is Hoa.", "vi": "Bạn thân nhất của tôi là Hoa." },
+        { "speaker": "a", "en": "How long have you known her?", "vi": "Bạn quen bạn ấy bao lâu rồi?" },
+        { "speaker": "b", "en": "Since school. About ten years.", "vi": "Từ hồi đi học. Khoảng mười năm." },
+        { "speaker": "a", "en": "That is a long time.", "vi": "Lâu thật đấy." },
+        { "speaker": "b", "en": "Yes. We still meet every month.", "vi": "Ừ. Chúng tôi vẫn gặp nhau mỗi tháng." }
+      ]
+    },
+    {
+      "title": "Gia đình sống ở đâu",
+      "situation": "Bạn kể gia đình mình ở quê.",
+      "turns": [
+        { "speaker": "a", "en": "Does your family live here?", "vi": "Gia đình bạn sống ở đây à?" },
+        { "speaker": "b", "en": "No, they live in Hue.", "vi": "Không, họ sống ở Huế." },
+        { "speaker": "a", "en": "Do you visit them often?", "vi": "Bạn có hay về thăm họ không?" },
+        { "speaker": "b", "en": "About twice a year.", "vi": "Khoảng hai lần một năm." },
+        { "speaker": "a", "en": "Do you miss them?", "vi": "Bạn có nhớ họ không?" },
+        { "speaker": "b", "en": "Yes, but we call every week.", "vi": "Có, nhưng chúng tôi gọi nhau mỗi tuần." }
+      ]
+    },
+    {
+      "title": "Bạn cùng lớp học chung",
+      "situation": "Hai người rủ nhau học cùng sau giờ lên lớp.",
+      "turns": [
+        { "speaker": "a", "en": "Do you study after class?", "vi": "Sau giờ học bạn có học thêm không?" },
+        { "speaker": "b", "en": "Sometimes, with a classmate.", "vi": "Thỉnh thoảng, với một bạn cùng lớp." },
+        { "speaker": "a", "en": "Can I join you?", "vi": "Tôi học cùng được không?" },
+        { "speaker": "b", "en": "Of course. We meet on Tuesday.", "vi": "Tất nhiên rồi. Chúng tôi gặp vào thứ Ba." },
+        { "speaker": "a", "en": "Great. Where do you study?", "vi": "Tuyệt. Các bạn học ở đâu?" },
+        { "speaker": "b", "en": "At the cafe near school.", "vi": "Ở quán cà phê gần trường." }
+      ]
+    },
+    {
+      "title": "Hỏi thăm bố mẹ",
+      "situation": "Bạn hỏi thăm về bố mẹ của người kia.",
+      "turns": [
+        { "speaker": "a", "en": "How are your parents?", "vi": "Bố mẹ bạn khoẻ không?" },
+        { "speaker": "b", "en": "They are well, thank you.", "vi": "Họ khoẻ, cảm ơn bạn." },
+        { "speaker": "a", "en": "Do they still work?", "vi": "Họ vẫn đi làm chứ?" },
+        { "speaker": "b", "en": "My father does. My mother is retired.", "vi": "Bố tôi vẫn làm. Mẹ tôi nghỉ hưu rồi." },
+        { "speaker": "a", "en": "What does your father do?", "vi": "Bố bạn làm nghề gì?" },
+        { "speaker": "b", "en": "He is a teacher.", "vi": "Bố tôi là giáo viên." }
+      ]
+    },
+    {
+      "title": "Gia đình đông người",
+      "situation": "Người kia có gia đình rất đông.",
+      "turns": [
+        { "speaker": "a", "en": "I have four brothers.", "vi": "Tôi có bốn anh em trai." },
+        { "speaker": "b", "en": "Four? That is a big family.", "vi": "Bốn à? Gia đình đông thật." },
+        { "speaker": "a", "en": "Yes, our house is always loud.", "vi": "Ừ, nhà tôi lúc nào cũng ồn." },
+        { "speaker": "b", "en": "Do you like it?", "vi": "Bạn có thích vậy không?" },
+        { "speaker": "a", "en": "Most of the time, yes.", "vi": "Phần lớn thời gian thì có." },
+        { "speaker": "b", "en": "I am an only child. It is quiet.", "vi": "Tôi là con một. Nhà yên tĩnh lắm." }
+      ]
+    },
+    {
+      "title": "Kể về con",
+      "situation": "Đồng nghiệp hỏi về con nhỏ của bạn.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have children?", "vi": "Bạn có con chưa?" },
+        { "speaker": "b", "en": "Yes, one daughter.", "vi": "Có, một con gái." },
+        { "speaker": "a", "en": "How old is she?", "vi": "Cháu mấy tuổi rồi?" },
+        { "speaker": "b", "en": "She is five. She starts school soon.", "vi": "Cháu năm tuổi. Sắp đi học rồi." },
+        { "speaker": "a", "en": "That is exciting.", "vi": "Vui nhỉ." },
+        { "speaker": "b", "en": "Yes, but I am a little nervous.", "vi": "Ừ, nhưng tôi hơi lo." }
+      ]
+    },
+    {
+      "title": "Bạn cũ lâu ngày không gặp",
+      "situation": "Bạn tình cờ gặp lại bạn cũ trên phố.",
+      "turns": [
+        { "speaker": "a", "en": "Nam? Is that you?", "vi": "Nam? Có phải bạn không?" },
+        { "speaker": "b", "en": "Lan! Long time no see.", "vi": "Lan! Lâu quá không gặp." },
+        { "speaker": "a", "en": "How have you been?", "vi": "Dạo này bạn thế nào?" },
+        { "speaker": "b", "en": "Busy, but good. And you?", "vi": "Bận, nhưng ổn. Còn bạn?" },
+        { "speaker": "a", "en": "The same. We should have coffee.", "vi": "Cũng vậy. Hôm nào đi cà phê nhé." },
+        { "speaker": "b", "en": "Yes. Give me your number.", "vi": "Ừ. Cho tôi xin số của bạn." }
+      ]
+    },
+    {
+      "title": "Câu hỏi hơi riêng tư",
+      "situation": "Người kia hỏi một câu hơi riêng tư. Bạn trả lời khéo. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Are you married?", "vi": "Bạn lập gia đình chưa?" },
+        { "speaker": "b", "en": "Not yet. Maybe one day.", "vi": "Chưa. Chắc lúc nào đó." },
+        { "speaker": "a", "en": "Sorry, is that a strange question?", "vi": "Xin lỗi, câu đó có kỳ không?" },
+        { "speaker": "b", "en": "No, it is fine. People ask a lot.", "vi": "Không, không sao. Nhiều người hỏi lắm." },
+        { "speaker": "a", "en": "In my country we do not ask that.", "vi": "Ở nước tôi người ta không hỏi vậy." },
+        { "speaker": "b", "en": "Interesting. Here it is normal.", "vi": "Thú vị nhỉ. Ở đây thì bình thường." }
+      ]
+    }
+  ]
+}
