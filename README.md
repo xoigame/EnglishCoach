@@ -64,7 +64,7 @@ Thêm chủ đề mới = thêm một mục vào `curriculum.json` rồi chạy 
 node tools/gen-lesson.mjs --topic "Đặt phòng khách sạn" --level A2 --partner "Lễ tân" --turns 12
 ```
 
-Script sẽ: dựng prompt → đẩy vào Codex qua stdin → lấy JSON trong output → kiểm tra schema → ghi `data/lessons/<id>.json` → build lại `data/index.json`.
+Script sẽ: dựng prompt → đưa cho Codex qua argv → đọc câu trả lời cuối từ file `-o` → kiểm tra schema → ghi `data/lessons/<id>.json` → build lại `data/index.json`.
 
 Codex được gọi với `--output-schema tools/lesson.schema.json`, nên model bị ép trả đúng cấu trúc giáo án thay vì văn xuôi lẫn JSON.
 
@@ -83,7 +83,7 @@ Codex được gọi với `--output-schema tools/lesson.schema.json`, nên mode
 Mặc định gọi:
 
 ```
-codex exec --skip-git-repo-check -s read-only --color never --output-schema tools/lesson.schema.json -o <tmp> -
+codex exec --cd <thư mục dự án> --skip-git-repo-check -s read-only --color never \n     --output-schema tools/lesson.schema.json -o <file tạm> "<prompt>"
 ```
 
 Đổi CLI khác qua biến môi trường `AI_CLI` (`codex`, `claude`, hoặc lệnh bất kỳ) và `AI_CLI_ARGS`:
@@ -105,7 +105,9 @@ Với lệnh tự đặt, dùng các placeholder trong `AI_CLI_ARGS`:
 
 Cách gọi CLI ở [`tools/ai-cli.mjs`](tools/ai-cli.mjs) làm theo `factory/providers/base.py` của dự án đó, vì ba chỗ dưới đây đều đã có người trả giá rồi:
 
-1. **Phải tự dò đường dẫn đầy đủ của lệnh.** Trên Windows, npm cài CLI dưới dạng `.cmd` shim; `CreateProcess` chỉ tự thêm `.exe` nên `spawn('codex')` báo ENOENT dù `where codex` vẫn thấy. Dò ra `codex.CMD` rồi spawn thẳng thì không cần `shell: true`, kéo theo không còn rủi ro escape sai dấu nháy.
+1. **Phải tự dò đường dẫn đầy đủ của lệnh, đừng nhờ shell.** Trên Windows, npm cài CLI dưới dạng `.cmd` shim nên `spawn('codex')` báo ENOENT dù `where codex` vẫn thấy.
+
+   Mẹo `shutil.which` bên đó **không bê thẳng sang Node được**: từ Node 20, `spawn` một file `.cmd` mà không bật shell sẽ trả về `EINVAL` (chặn theo CVE-2024-27980) — Python không chặn, Node có. Nên `resolveCommand()` đi thêm một bước: đọc nội dung `codex.CMD`, moi ra đường dẫn `codex.js` thật rồi chạy bằng chính `node` đang chạy. Vẫn đạt mục đích ban đầu là spawn thẳng, không qua shell, nên prompt không bao giờ bị escape sai dấu nháy.
 2. **Prompt đi bằng argv, để trống stdin.** Phiên headless mà stdin đã bị prompt chiếm thì mọi câu hỏi xin quyền của CLI không ai trả lời được — thao tác bị từ chối *im lặng*, CLI vẫn thoát 0, và ta tưởng là thành công.
 3. **Hết token có hai kiểu.** Hết quota cả tài khoản thì phải dừng cả loạt chờ reset; tràn context chỉ hỏng đúng bài đó. `gen-series.mjs` phân biệt hai trường hợp và tự dừng khi gặp quota, thay vì đốt tiếp mấy chục lượt lỗi.
 
@@ -141,20 +143,21 @@ node tools/validate.mjs      # kiểm tra toàn bộ giáo án
 
 ## Đẩy lên GitHub Pages
 
+Repo đang chạy tại **<https://xoigame.github.io/EnglishCoach/>**. Mỗi lần push vào `main`, workflow `.github/workflows/deploy-pages.yml` build lại index → validate giáo án → chạy `doctor` → deploy. Giáo án hỏng schema thì CI đỏ và **chặn deploy**, site cũ vẫn nguyên.
+
+Vòng lặp thêm bài:
+
 ```bash
-git init && git add . && git commit -m "English Coach"
-git branch -M main
-git remote add origin https://github.com/<user>/<repo>.git
-git push -u origin main
+node tools/gen-series.mjs --jobs 3
+node tools/doctor.mjs
+git add data && git commit -m "lesson: ..." && git push
 ```
 
-Vào **Settings → Pages → Source: GitHub Actions**. Workflow `.github/workflows/deploy-pages.yml` sẽ build lại index, validate giáo án rồi deploy mỗi lần push vào `main`.
-
-Sau này thêm bài chỉ cần:
+Dựng lại từ đầu ở repo khác thì: tạo repo public, push nhánh `main`, rồi bật Pages ở chế độ workflow:
 
 ```bash
-node tools/gen-lesson.mjs --topic "..." --level B1
-git add data && git commit -m "lesson: ..." && git push
+gh repo create <user>/<repo> --public --source=. --remote=origin --push
+gh api -X POST repos/<user>/<repo>/pages -f build_type=workflow
 ```
 
 ---
