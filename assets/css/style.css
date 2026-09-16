@@ -282,6 +282,38 @@ input[type=range] { padding: 0; }
 .word:disabled { opacity: .3; cursor: default; }
 .homework { color: var(--muted); font-size: 14px; }
 
+/* ---------- nghĩa từng từ (word by word) ---------- */
+.gloss {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-top: 10px; padding: 10px;
+  background: #0d1117; border: 1px solid var(--line); border-radius: 10px;
+}
+.gw {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 5px 9px; border-radius: 8px; background: var(--bg-soft);
+  border: 1px solid var(--line); min-width: 52px;
+}
+.gw b { font-size: 14px; cursor: pointer; }
+.gw b:hover { color: var(--accent); }
+.gw i { font-size: 11.5px; color: var(--muted); font-style: normal; text-align: center; }
+.gw.unknown { opacity: .55; border-style: dashed; }
+
+/* ---------- nói như người bản xứ ---------- */
+.swap {
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent-2); border-radius: 0 12px 12px 0;
+  padding: 11px 14px; margin-bottom: 9px;
+}
+.swap-pair { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.swap-bookish { color: var(--muted); text-decoration: line-through; }
+.swap-arrow { color: var(--accent-2); font-weight: 700; }
+.swap-native {
+  background: #7c5cff22; border: 1px solid #7c5cff66; color: var(--fg);
+  font-weight: 600; padding: 5px 11px; border-radius: 8px;
+}
+.swap-native:hover { border-color: var(--accent-2); background: #7c5cff33; }
+.swap .vi { color: var(--muted); font-size: 13px; margin-top: 7px; }
+
 /* ---------- variations & culture ---------- */
 .variation {
   background: var(--card); border: 1px solid var(--line);
@@ -414,6 +446,9 @@ code { font-family: "Cascadia Code", Consolas, monospace; }
   .speak { padding: 7px 11px; }
   .choice { padding: 12px 14px; }            /* vùng bấm trắc nghiệm to hơn */
   .word { padding: 11px 14px; font-size: 16px; }
+  .gw { min-width: 46px; padding: 4px 7px; }
+  .gw b { font-size: 13px; }
+  .gw i { font-size: 10.5px; }
   .quiz-card .q { font-size: 16px; }
   .pack > summary { padding: 13px 12px; }
   .pack-body { padding: 0 12px 12px; }

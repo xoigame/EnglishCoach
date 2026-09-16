@@ -369,5 +369,231 @@
     "Ghi âm lại hội thoại, chú ý âm cuối trong passport và breakfast.",
     "Tự nói ba câu: xác nhận đặt phòng, hỏi bữa sáng và xin thẻ phòng.",
     "Đổi tên khách, số đêm và loại phòng rồi luyện lại hội thoại."
+  ],
+  "nativeSwaps": [
+    {
+      "bookish": "I understand.",
+      "native": "I see.",
+      "vi": "Người bản xứ hiếm khi nói I understand trong hội thoại thường. I see hoặc Got it tự nhiên hơn nhiều."
+    },
+    {
+      "bookish": "It is not a problem.",
+      "native": "No worries.",
+      "vi": "Ngắn, thân thiện, dùng khắp nơi. Nói cả câu dài nghe rất sách vở."
+    },
+    {
+      "bookish": "I would like to ask a question.",
+      "native": "Quick question.",
+      "vi": "Trước khi hỏi, người bản xứ chỉ nói gọn Quick question chứ không rào trước cả câu."
+    },
+    {
+      "bookish": "Please wait a moment.",
+      "native": "One moment, please.",
+      "vi": "Cùng nghĩa nhưng One moment là cách lễ tân thật sự nói."
+    },
+    {
+      "bookish": "Is it possible to check in early?",
+      "native": "Any chance of an early check in?",
+      "vi": "Any chance of... là cách hỏi xin đặc cách rất tự nhiên và dễ được đồng ý."
+    },
+    {
+      "bookish": "I am very sorry for this mistake.",
+      "native": "Sorry about that.",
+      "vi": "Lỗi nhỏ thì người bản xứ xin lỗi cực ngắn. Xin lỗi dài dòng nghe như đọc thư."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "reservation",
+      "vi": "việc đặt phòng trước"
+    },
+    {
+      "en": "booking",
+      "vi": "việc đặt chỗ"
+    },
+    {
+      "en": "confirmation",
+      "vi": "giấy xác nhận"
+    },
+    {
+      "en": "double room",
+      "vi": "phòng đôi"
+    },
+    {
+      "en": "single room",
+      "vi": "phòng đơn"
+    },
+    {
+      "en": "check in",
+      "vi": "làm thủ tục nhận phòng"
+    },
+    {
+      "en": "check out",
+      "vi": "làm thủ tục trả phòng"
+    },
+    {
+      "en": "passport",
+      "vi": "hộ chiếu"
+    },
+    {
+      "en": "included",
+      "vi": "đã bao gồm"
+    },
+    {
+      "en": "breakfast",
+      "vi": "bữa sáng"
+    },
+    {
+      "en": "lobby",
+      "vi": "sảnh khách sạn"
+    },
+    {
+      "en": "key card",
+      "vi": "thẻ mở phòng"
+    },
+    {
+      "en": "password",
+      "vi": "mật khẩu"
+    },
+    {
+      "en": "floor",
+      "vi": "tầng"
+    },
+    {
+      "en": "available",
+      "vi": "còn trống"
+    },
+    {
+      "en": "per night",
+      "vi": "mỗi đêm"
+    },
+    {
+      "en": "nights",
+      "vi": "số đêm"
+    },
+    {
+      "en": "tonight",
+      "vi": "tối nay"
+    },
+    {
+      "en": "luggage",
+      "vi": "hành lý"
+    },
+    {
+      "en": "storage",
+      "vi": "kho chứa"
+    },
+    {
+      "en": "fee",
+      "vi": "phụ phí"
+    },
+    {
+      "en": "charge",
+      "vi": "khoản tính tiền"
+    },
+    {
+      "en": "bill",
+      "vi": "hoá đơn"
+    },
+    {
+      "en": "receipt",
+      "vi": "hoá đơn in"
+    },
+    {
+      "en": "minibar",
+      "vi": "tủ lạnh mini trong phòng"
+    },
+    {
+      "en": "housekeeping",
+      "vi": "bộ phận buồng phòng"
+    },
+    {
+      "en": "noisy",
+      "vi": "ồn"
+    },
+    {
+      "en": "quieter",
+      "vi": "yên tĩnh hơn"
+    },
+    {
+      "en": "faces",
+      "vi": "hướng ra"
+    },
+    {
+      "en": "replacement",
+      "vi": "cái thay thế"
+    },
+    {
+      "en": "booked",
+      "vi": "đã đặt"
+    },
+    {
+      "en": "fully booked",
+      "vi": "hết phòng"
+    },
+    {
+      "en": "sister hotel",
+      "vi": "khách sạn cùng hệ thống"
+    },
+    {
+      "en": "recommend",
+      "vi": "giới thiệu"
+    },
+    {
+      "en": "stay",
+      "vi": "kỳ nghỉ, ở lại"
+    },
+    {
+      "en": "staying",
+      "vi": "đang ở"
+    },
+    {
+      "en": "enjoy",
+      "vi": "tận hưởng"
+    },
+    {
+      "en": "gym",
+      "vi": "phòng tập"
+    },
+    {
+      "en": "shower",
+      "vi": "vòi tắm"
+    },
+    {
+      "en": "flight",
+      "vi": "chuyến bay"
+    },
+    {
+      "en": "tired",
+      "vi": "mệt"
+    },
+    {
+      "en": "mistake",
+      "vi": "sai sót"
+    },
+    {
+      "en": "removed",
+      "vi": "đã bỏ ra"
+    },
+    {
+      "en": "printed",
+      "vi": "đã in"
+    },
+    {
+      "en": "sort out",
+      "vi": "giải quyết"
+    },
+    {
+      "en": "count as",
+      "vi": "được tính là"
+    },
+    {
+      "en": "half a day",
+      "vi": "nửa ngày"
+    },
+    {
+      "en": "tag",
+      "vi": "phiếu, nhãn"
+    }
   ]
 }

@@ -4,7 +4,7 @@
 
 import { speak, scoreSpeech, scoreClass, scoreLabel } from './speech.js';
 import { captureOnce, asrSupported } from './mic.js';
-import { esc, micError } from './lesson.js';
+import { esc, micError, wireGloss } from './lesson.js';
 import { createPlayer } from './player.js';
 import { setProgress, getProgress } from './store.js';
 
@@ -78,8 +78,10 @@ function buildBody(node, dlg, index, lesson, root) {
           <button class="ghost act-listen">🔊 Nghe</button>
           <button class="ghost act-slow">🐢 Chậm</button>
           <button class="ghost act-rec" ${asrSupported ? '' : 'disabled'}>🎤 Đọc lại</button>
+          <button class="ghost act-gloss">📖 Từng từ</button>
           <span class="score-pill hidden"></span>
         </div>
+        <div class="gloss hidden"></div>
         <div class="heard"></div>
       </div>`).join('')}`;
 
@@ -89,6 +91,7 @@ function buildBody(node, dlg, index, lesson, root) {
     lesson: { dialogue: { turns: dlg.turns, roles, userRole } },
     mount: body.querySelector('.pack-player'),
   });
+  wireGloss(body, lesson);
 
   const scores = new Array(dlg.turns.length).fill(null);
 

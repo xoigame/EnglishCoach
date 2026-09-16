@@ -18,7 +18,9 @@
     "dialogue",
     "roleplay",
     "drills",
-    "homework"
+    "homework",
+    "nativeSwaps",
+    "glossary"
   ],
   "properties": {
     "id": {
@@ -345,6 +347,48 @@
                 "type": "string"
               }
             }
+          }
+        }
+      }
+    },
+    "nativeSwaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "bookish",
+          "native",
+          "vi"
+        ],
+        "properties": {
+          "bookish": {
+            "type": "string"
+          },
+          "native": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "glossary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "en",
+          "vi"
+        ],
+        "properties": {
+          "en": {
+            "type": "string"
+          },
+          "vi": {
+            "type": "string"
           }
         }
       }

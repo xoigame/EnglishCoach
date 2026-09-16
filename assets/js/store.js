@@ -126,6 +126,12 @@ export function normalizeLesson(raw) {
       situation: v.situation || '', formal: v.formal || '', casual: v.casual || '', vi: v.vi || '',
     })).filter(v => v.formal && v.casual),
     culture: arr(raw.culture).filter(Boolean),
+    nativeSwaps: arr(raw.nativeSwaps).map(n => ({
+      bookish: n.bookish || '', native: n.native || '', vi: n.vi || '',
+    })).filter(n => n.bookish && n.native),
+    glossary: arr(raw.glossary).map(g => ({
+      en: String(g.en || '').toLowerCase().trim(), vi: g.vi || '',
+    })).filter(g => g.en && g.vi),
     listening: normalizeListening(raw.listening),
     dialogue: { roles: { a: roles.a || 'Partner', b: roles.b || 'You' }, userRole, turns },
     roleplay: {

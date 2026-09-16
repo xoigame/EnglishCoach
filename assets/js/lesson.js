@@ -4,6 +4,7 @@ import { speak, scoreSpeech, scoreClass, scoreLabel } from './speech.js';
 import { captureOnce, asrSupported } from './mic.js';
 import { setProgress } from './store.js';
 import { createPlayer } from './player.js';
+import { glossSentence } from './gloss.js';
 
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -49,6 +50,20 @@ export function renderPrep(el, lesson) {
           <div class="vi">${esc(m.vi)}</div>
         </div>
       </div>`).join('')}</div>`);
+  }
+
+  if (lesson.nativeSwaps.length) {
+    parts.push(`<h3>🗽 Nói như người bản xứ</h3>
+      <p class="muted">Cột trái đúng ngữ pháp nhưng nghe ra ngay là học trong sách. Cột phải là cách người bản xứ thật sự nói.</p>
+      ${lesson.nativeSwaps.map(n => `
+      <div class="swap">
+        <div class="swap-pair">
+          <span class="swap-bookish">${esc(n.bookish)}</span>
+          <span class="swap-arrow">→</span>
+          <button class="swap-native" data-say="${esc(n.native)}">${esc(n.native)} 🔊</button>
+        </div>
+        <div class="vi">${esc(n.vi)}</div>
+      </div>`).join('')}`);
   }
 
   if (lesson.variations.length) {
@@ -110,12 +125,15 @@ export function renderDrill(el, lesson, onScore) {
           <button class="ghost act-listen">🔊 Nghe</button>
           <button class="ghost act-slow">🐢 Chậm</button>
           <button class="ghost act-rec" ${asrSupported ? '' : 'disabled'}>🎤 Nhắc lại</button>
+          <button class="ghost act-gloss">📖 Từng từ</button>
           <span class="score-pill hidden"></span>
         </div>
+        <div class="gloss hidden"></div>
         <div class="heard"></div>
       </div>`).join('')}`;
 
   createPlayer({ lesson, mount: el.querySelector('.player-mount') });
+  wireGloss(el, lesson);
 
   const scores = new Array(turns.length).fill(null);
 
@@ -302,6 +320,45 @@ export function renderListen(el, lesson) {
         btn.textContent = '🎤 Nói lại';
         btn.disabled = false;
       }
+    });
+  });
+}
+
+/**
+ * Gắn nút "📖 Từng từ" cho mọi dòng có .act-gloss trong `root`.
+ * Nghĩa lấy từ glossary của bài, từ vựng của bài, rồi tới từ điển dựng sẵn —
+ * nên chạy được cả với giáo án soạn trước khi có trường "glossary".
+ */
+export function wireGloss(root, lesson) {
+  root.querySelectorAll('.act-gloss').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const row = btn.closest('.drill-row, .pack-row, .quiz-card');
+      const box = row?.querySelector('.gloss');
+      if (!box) return;
+
+      if (!box.classList.contains('hidden')) {
+        box.classList.add('hidden');
+        btn.textContent = '📖 Từng từ';
+        return;
+      }
+
+      if (!box.dataset.built) {
+        const sentence = row.querySelector('.en')?.dataset.target
+          || row.querySelector('.en')?.textContent
+          || '';
+        const parts = glossSentence(sentence, lesson);
+        box.innerHTML = parts.map(p => `
+          <span class="gw ${p.vi ? '' : 'unknown'}">
+            <b>${esc(p.word)}</b>
+            <i>${esc(p.vi || '—')}</i>
+          </span>`).join('');
+        box.querySelectorAll('.gw b').forEach(w =>
+          w.addEventListener('click', () => speak(w.textContent)));
+        box.dataset.built = '1';
+      }
+
+      box.classList.remove('hidden');
+      btn.textContent = '📖 Ẩn nghĩa';
     });
   });
 }
