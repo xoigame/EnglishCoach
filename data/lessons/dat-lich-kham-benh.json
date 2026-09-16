@@ -1,0 +1,305 @@
+{
+  "id": "dat-lich-kham-benh",
+  "title": "Đặt lịch khám và mô tả triệu chứng",
+  "topic": "Đặt lịch khám bệnh",
+  "level": "A2",
+  "summary": "Bạn gọi đến phòng khám để đặt lịch và mô tả các triệu chứng đơn giản. Bạn sẽ chọn thời gian khám, cung cấp thông tin liên hệ và nhận xác nhận lịch hẹn.",
+  "goals": [
+    "Đặt một lịch khám bằng cách nói lịch sự.",
+    "Mô tả đau họng, ho và sốt nhẹ.",
+    "Hỏi và xác nhận thời gian khám phù hợp."
+  ],
+  "vocab": [
+    {
+      "en": "appointment",
+      "ipa": "/əˈpɔɪntmənt/",
+      "vi": "lịch hẹn khám",
+      "example": "I would like to make an appointment."
+    },
+    {
+      "en": "symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "vi": "triệu chứng",
+      "example": "Please tell me about your symptoms."
+    },
+    {
+      "en": "sore throat",
+      "ipa": "/ˌsɔːr ˈθroʊt/",
+      "vi": "đau họng",
+      "example": "My sore throat started yesterday afternoon."
+    },
+    {
+      "en": "cough",
+      "ipa": "/kɔːf/",
+      "vi": "cơn ho, ho",
+      "example": "I have a cough at night."
+    },
+    {
+      "en": "fever",
+      "ipa": "/ˈfiːvər/",
+      "vi": "sốt",
+      "example": "I have a mild fever today."
+    },
+    {
+      "en": "available",
+      "ipa": "/əˈveɪləbəl/",
+      "vi": "còn trống, có sẵn",
+      "example": "Tuesday afternoon is available for an appointment."
+    },
+    {
+      "en": "morning",
+      "ipa": "/ˈmɔːrnɪŋ/",
+      "vi": "buổi sáng",
+      "example": "Morning appointments begin at nine o'clock."
+    },
+    {
+      "en": "afternoon",
+      "ipa": "/ˌæftərˈnuːn/",
+      "vi": "buổi chiều",
+      "example": "Afternoon appointments start after one o'clock."
+    },
+    {
+      "en": "full name",
+      "ipa": "/ˌfʊl ˈneɪm/",
+      "vi": "họ và tên đầy đủ",
+      "example": "Please give me your full name."
+    },
+    {
+      "en": "arrive",
+      "ipa": "/əˈraɪv/",
+      "vi": "đến nơi",
+      "example": "Please arrive ten minutes before your appointment."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to make an appointment.",
+      "vi": "Tôi muốn đặt lịch hẹn.",
+      "note": "Cách nói lịch sự khi gọi đến phòng khám."
+    },
+    {
+      "en": "I have a ___ and a ___.",
+      "vi": "Tôi bị ___ và ___.",
+      "note": "Dùng để nêu hai triệu chứng đơn giản."
+    },
+    {
+      "en": "My ___ started yesterday.",
+      "vi": "___ của tôi bắt đầu từ hôm qua.",
+      "note": "Dùng quá khứ đơn để nói thời điểm triệu chứng bắt đầu."
+    },
+    {
+      "en": "Does ___ work for you?",
+      "vi": "___ có phù hợp với bạn không?",
+      "note": "Dùng để hỏi xem thời gian đề xuất có tiện không."
+    },
+    {
+      "en": "May I have your ___?",
+      "vi": "Tôi có thể xin ___ của bạn không?",
+      "note": "Cách hỏi lịch sự về tên, số điện thoại hoặc thông tin khác."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong sore throat",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra. Không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "throat",
+        "three",
+        "thanks"
+      ]
+    },
+    {
+      "focus": "âm cuối /f/ trong cough",
+      "tip": "Chạm răng trên vào môi dưới và để hơi thoát ra ở cuối từ. Không đọc thành âm /p/.",
+      "words": [
+        "cough",
+        "fever",
+        "off"
+      ]
+    },
+    {
+      "focus": "trọng âm trong appointment và available",
+      "tip": "Nhấn rõ âm thứ hai của appointment và âm thứ ba của available.",
+      "words": [
+        "appointment",
+        "available",
+        "afternoon"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have sore throat.",
+      "right": "I have a sore throat.",
+      "vi": "Sore throat là danh từ đếm được số ít, cần có mạo từ a."
+    },
+    {
+      "wrong": "I am fever.",
+      "right": "I have a fever.",
+      "vi": "Dùng have a fever, không dùng am fever."
+    },
+    {
+      "wrong": "I want make an appointment.",
+      "right": "I would like to make an appointment.",
+      "vi": "Sau want cần có to; I would like lịch sự và tự nhiên hơn khi gọi phòng khám."
+    },
+    {
+      "wrong": "My cough start yesterday.",
+      "right": "My cough started yesterday.",
+      "vi": "Khi nói việc bắt đầu trong quá khứ, dùng started."
+    },
+    {
+      "wrong": "Doctor free at three thirty?",
+      "right": "Is the doctor free at three thirty?",
+      "vi": "Câu hỏi cần động từ is và mạo từ the trước doctor."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Lễ tân phòng khám",
+      "b": "Người đặt lịch khám"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, how can I help you at the clinic today?",
+        "vi": "Xin chào, hôm nay tôi có thể giúp gì cho bạn tại phòng khám?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I would like to make an appointment.",
+        "vi": "Chào, tôi muốn đặt một lịch hẹn khám.",
+        "hint": "Dùng I would like to để nói lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. What brings you to the clinic today?",
+        "vi": "Được chứ. Hôm nay điều gì khiến bạn đến phòng khám?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My throat hurts, and it started yesterday.",
+        "vi": "Cổ họng tôi đau, và nó bắt đầu từ hôm qua.",
+        "hint": "Dùng started để nói triệu chứng bắt đầu trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "Do you have a cough, fever, or body aches?",
+        "vi": "Bạn có ho, sốt hoặc đau nhức người không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have a cough and a mild fever too.",
+        "vi": "Tôi cũng bị ho và sốt nhẹ.",
+        "hint": "Dùng I have a để nói về triệu chứng."
+      },
+      {
+        "speaker": "a",
+        "en": "We have openings Tuesday afternoon. Does that work for you?",
+        "vi": "Chúng tôi còn lịch trống vào chiều thứ Ba. Thời gian đó có phù hợp với bạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, Tuesday afternoon would be good for me.",
+        "vi": "Vâng, chiều thứ Ba sẽ phù hợp với tôi.",
+        "hint": "Would be good là cách nói mềm và lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "The doctor is free at three thirty. Is that okay?",
+        "vi": "Bác sĩ rảnh lúc ba giờ ba mươi. Thời gian đó ổn chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, three thirty works well for me.",
+        "vi": "Vâng, ba giờ ba mươi rất phù hợp với tôi.",
+        "hint": "Dùng works well for me để xác nhận thời gian."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. May I have your full name and phone number?",
+        "vi": "Tuyệt. Tôi có thể xin họ tên đầy đủ và số điện thoại của bạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My full name is Minh Nguyen, and my number is 0901 234 567.",
+        "vi": "Họ tên đầy đủ của tôi là Minh Nguyen, và số của tôi là 0901 234 567.",
+        "hint": "Nói My full name is trước khi cho tên."
+      },
+      {
+        "speaker": "a",
+        "en": "You are booked for Tuesday at three thirty. Please arrive ten minutes early for your appointment.",
+        "vi": "Bạn đã được đặt lịch vào thứ Ba lúc ba giờ ba mươi. Vui lòng đến sớm mười phút cho lịch hẹn.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly clinic receptionist at a local medical clinic. You speak clearly, ask simple questions about symptoms, offer available appointment times, and confirm the booking politely.",
+    "opener": "Hello, how can I help you at the clinic today?",
+    "goal": "Người học đặt lịch khám, mô tả triệu chứng đơn giản và xác nhận thời gian hẹn."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn đặt một lịch hẹn khám.",
+      "en": "I would like to make an appointment.",
+      "alts": [
+        "I would like to book an appointment."
+      ]
+    },
+    {
+      "vi": "Tôi bị đau họng và ho.",
+      "en": "I have a sore throat and a cough.",
+      "alts": [
+        "My throat hurts, and I have a cough."
+      ]
+    },
+    {
+      "vi": "Cơn ho của tôi bắt đầu từ hôm qua.",
+      "en": "My cough started yesterday.",
+      "alts": [
+        "I started coughing yesterday."
+      ]
+    },
+    {
+      "vi": "Tôi cũng bị sốt nhẹ.",
+      "en": "I have a mild fever too.",
+      "alts": [
+        "I also have a mild fever."
+      ]
+    },
+    {
+      "vi": "Chiều thứ Ba có phù hợp với bạn không?",
+      "en": "Does Tuesday afternoon work for you?",
+      "alts": [
+        "Is Tuesday afternoon okay for you?"
+      ]
+    },
+    {
+      "vi": "Ba giờ ba mươi rất phù hợp với tôi.",
+      "en": "Three thirty works well for me.",
+      "alts": [
+        "Three thirty is good for me."
+      ]
+    },
+    {
+      "vi": "Tôi có thể xin số điện thoại của bạn không?",
+      "en": "May I have your phone number?",
+      "alts": [
+        "Could I have your phone number?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý âm /θ/ trong throat và âm cuối /f/ trong cough.",
+    "Tự thay đổi ngày, giờ và hai triệu chứng trong hội thoại.",
+    "Đặt ba câu với mẫu I have a ___ and a ___."
+  ]
+}

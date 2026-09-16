@@ -1,70 +1,275 @@
 {
   "id": "lam-quen-va-gioi-thieu",
   "title": "Làm quen và giới thiệu bản thân",
-  "topic": "Chào hỏi, làm quen người mới",
+  "topic": "Chào hỏi và giới thiệu",
   "level": "A1",
-  "summary": "Bạn gặp một đồng nghiệp mới ở quầy pha cà phê của công ty và bắt chuyện.",
+  "summary": "Bạn gặp một đồng nghiệp mới vào ngày đầu đi làm. Bạn chào hỏi, giới thiệu tên và nói về nhóm làm việc của mình.",
   "goals": [
-    "Chào hỏi và giới thiệu tên một cách tự nhiên",
-    "Hỏi và trả lời về quê quán, công việc",
-    "Kết thúc cuộc trò chuyện lịch sự"
+    "Chào hỏi và giới thiệu tên bản thân",
+    "Hỏi người khác có phải người mới không",
+    "Nói đơn giản về nhóm làm việc của mình"
   ],
   "vocab": [
-    { "en": "nice to meet you", "ipa": "/naɪs tə ˈmiːt juː/", "vi": "rất vui được gặp bạn", "example": "Hi, I'm Lan. Nice to meet you." },
-    { "en": "originally from", "ipa": "/əˈrɪdʒɪnəli frəm/", "vi": "quê gốc ở", "example": "I'm originally from Hue." },
-    { "en": "work in", "ipa": "/wɜːrk ɪn/", "vi": "làm việc ở (bộ phận)", "example": "I work in marketing." },
-    { "en": "team", "ipa": "/tiːm/", "vi": "nhóm, đội", "example": "Which team are you on?" },
-    { "en": "join", "ipa": "/dʒɔɪn/", "vi": "gia nhập", "example": "I joined last Monday." },
-    { "en": "so far", "ipa": "/səʊ ˈfɑːr/", "vi": "cho tới giờ", "example": "How is it so far?" },
-    { "en": "friendly", "ipa": "/ˈfrendli/", "vi": "thân thiện", "example": "Everyone is really friendly." },
-    { "en": "see you around", "ipa": "/siː juː əˈraʊnd/", "vi": "hẹn gặp lại nhé", "example": "See you around, Minh!" }
+    {
+      "en": "hello",
+      "ipa": "/həˈloʊ/",
+      "vi": "xin chào",
+      "example": "Hello, I am Maya."
+    },
+    {
+      "en": "name",
+      "ipa": "/neɪm/",
+      "vi": "tên",
+      "example": "My name is Minh."
+    },
+    {
+      "en": "meet",
+      "ipa": "/miːt/",
+      "vi": "gặp, làm quen",
+      "example": "Nice to meet you."
+    },
+    {
+      "en": "new",
+      "ipa": "/nuː/",
+      "vi": "mới",
+      "example": "Are you new here?"
+    },
+    {
+      "en": "first day",
+      "ipa": "/fɜːrst deɪ/",
+      "vi": "ngày đầu tiên",
+      "example": "Today is my first day."
+    },
+    {
+      "en": "work",
+      "ipa": "/wɜːrk/",
+      "vi": "làm việc",
+      "example": "I work in customer support."
+    },
+    {
+      "en": "team",
+      "ipa": "/tiːm/",
+      "vi": "nhóm làm việc",
+      "example": "I work on the sales team."
+    },
+    {
+      "en": "desk",
+      "ipa": "/desk/",
+      "vi": "bàn làm việc",
+      "example": "Our desks are nearby."
+    },
+    {
+      "en": "nearby",
+      "ipa": "/ˌnɪrˈbaɪ/",
+      "vi": "ở gần",
+      "example": "Our desks are nearby."
+    },
+    {
+      "en": "join",
+      "ipa": "/dʒɔɪn/",
+      "vi": "tham gia",
+      "example": "I am happy to join."
+    }
   ],
   "patterns": [
-    { "en": "I'm ___. Nice to meet you.", "vi": "Tôi là ___. Rất vui được gặp bạn.", "note": "Dùng I'm thay vì My name is cho tự nhiên" },
-    { "en": "Where are you from?", "vi": "Bạn từ đâu tới?", "note": "Trả lời: I'm from ___." },
-    { "en": "What do you do?", "vi": "Bạn làm nghề gì?", "note": "Không phải What do you do now" },
-    { "en": "How long have you been here?", "vi": "Bạn ở đây bao lâu rồi?", "note": "Trả lời ngắn: About two weeks." },
-    { "en": "It was nice talking to you.", "vi": "Nói chuyện với bạn vui lắm.", "note": "Câu kết lịch sự" }
+    {
+      "en": "I am ___.",
+      "vi": "Tôi là ___.",
+      "note": "Dùng để nói tên hoặc vai trò của bạn."
+    },
+    {
+      "en": "Nice to meet you.",
+      "vi": "Rất vui được gặp bạn.",
+      "note": "Câu đáp tự nhiên là Nice to meet you too."
+    },
+    {
+      "en": "Are you new here?",
+      "vi": "Bạn mới ở đây phải không?",
+      "note": "Dùng để hỏi người mới ở công ty hoặc nơi làm việc."
+    },
+    {
+      "en": "I work on the ___ team.",
+      "vi": "Tôi làm ở nhóm ___.",
+      "note": "Dùng on the với tên nhóm, ví dụ sales team."
+    },
+    {
+      "en": "Today is my first day.",
+      "vi": "Hôm nay là ngày đầu tiên của tôi.",
+      "note": "Dùng khi mới bắt đầu đi làm hoặc học ở một nơi."
+    }
   ],
   "pronunciation": [
-    { "focus": "Âm cuối /s/ và /z/", "tip": "Người Việt hay nuốt âm cuối. Kéo dài nhẹ âm gió ở cuối từ.", "words": ["works", "jobs", "teams", "years"] },
-    { "focus": "Nối âm nice to meet you", "tip": "Đọc liền thành 'nai-stu-mi-chu', không tách rời từng chữ.", "words": ["nice to meet you"] },
-    { "focus": "Âm /θ/ trong 'thanks'", "tip": "Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi, đừng đọc thành 'tenks'.", "words": ["thanks", "think", "three"] }
+    {
+      "focus": "âm /h/ trong hello",
+      "tip": "Bật hơi nhẹ ở đầu từ; không bỏ âm h như khi nói e-lo.",
+      "words": [
+        "hello",
+        "happy",
+        "here"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong thanks",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai răng và thổi hơi; không đọc thành âm t hoặc s.",
+      "words": [
+        "thanks",
+        "three",
+        "thank"
+      ]
+    },
+    {
+      "focus": "âm /z/ trong is",
+      "tip": "Rung nhẹ cổ họng ở cuối từ; không đọc thành âm s.",
+      "words": [
+        "is",
+        "desks",
+        "sales"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My name Minh.",
+      "right": "My name is Minh.",
+      "vi": "Cần dùng động từ is sau My name."
+    },
+    {
+      "wrong": "Nice meet you.",
+      "right": "Nice to meet you.",
+      "vi": "Sau nice cần có to meet."
+    },
+    {
+      "wrong": "I am new in here.",
+      "right": "I am new here.",
+      "vi": "Không dùng in trước here trong câu này."
+    },
+    {
+      "wrong": "I work at sales team.",
+      "right": "I work on the sales team.",
+      "vi": "Dùng on the khi nói làm trong một nhóm."
+    },
+    {
+      "wrong": "I am happy join.",
+      "right": "I am happy to join.",
+      "vi": "Sau happy dùng to cộng động từ."
+    }
   ],
   "dialogue": {
-    "roles": { "a": "Đồng nghiệp mới (Alex)", "b": "Bạn" },
+    "roles": {
+      "a": "Đồng nghiệp mới của người học",
+      "b": "Người học"
+    },
     "userRole": "b",
     "turns": [
-      { "speaker": "a", "en": "Hi! Is this seat taken?", "vi": "Chào! Ghế này có ai ngồi chưa?", "hint": "" },
-      { "speaker": "b", "en": "No, go ahead. I'm Lan.", "vi": "Chưa, mời bạn. Tôi là Lan.", "hint": "Go ahead = cứ tự nhiên" },
-      { "speaker": "a", "en": "Nice to meet you, Lan. I'm Alex.", "vi": "Rất vui được gặp Lan. Tôi là Alex.", "hint": "" },
-      { "speaker": "b", "en": "Nice to meet you too. Are you new here?", "vi": "Tôi cũng vậy. Bạn mới vào đây à?", "hint": "Thêm 'too' để đáp lại" },
-      { "speaker": "a", "en": "Yes, I joined last Monday. I work in marketing.", "vi": "Đúng rồi, tôi vào thứ Hai tuần trước. Tôi làm marketing.", "hint": "" },
-      { "speaker": "b", "en": "Oh, welcome! I work in the design team.", "vi": "Ồ, chào mừng nhé! Tôi làm ở nhóm thiết kế.", "hint": "work in + tên bộ phận" },
-      { "speaker": "a", "en": "That sounds fun. Where are you from?", "vi": "Nghe thú vị đấy. Bạn quê ở đâu?", "hint": "" },
-      { "speaker": "b", "en": "I'm originally from Hue, but I live in Da Nang now.", "vi": "Tôi quê gốc ở Huế, nhưng giờ sống ở Đà Nẵng.", "hint": "Dùng 'but' để nối hai ý" },
-      { "speaker": "a", "en": "Nice. How do you like the company so far?", "vi": "Hay đấy. Bạn thấy công ty thế nào?", "hint": "" },
-      { "speaker": "b", "en": "I really like it. Everyone is very friendly.", "vi": "Tôi thích lắm. Mọi người rất thân thiện.", "hint": "Everyone + động từ số ít (is)" },
-      { "speaker": "a", "en": "Good to hear. I should get back to my desk.", "vi": "Nghe vậy tôi yên tâm. Tôi phải về bàn làm việc đây.", "hint": "" },
-      { "speaker": "b", "en": "Sure. It was nice talking to you. See you around!", "vi": "Ừ. Nói chuyện với bạn vui lắm. Hẹn gặp lại!", "hint": "Câu kết chuẩn của người bản xứ" }
+      {
+        "speaker": "a",
+        "en": "Hi, I am Maya.",
+        "vi": "Chào, tôi là Maya.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi Maya, I am Minh.",
+        "vi": "Chào Maya, tôi là Minh.",
+        "hint": "Dùng I am để giới thiệu tên."
+      },
+      {
+        "speaker": "a",
+        "en": "Nice to meet you, Minh.",
+        "vi": "Rất vui được gặp bạn, Minh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Nice to meet you too.",
+        "vi": "Tôi cũng rất vui được gặp bạn.",
+        "hint": "Thêm too để nói tôi cũng vậy."
+      },
+      {
+        "speaker": "a",
+        "en": "Are you new here too?",
+        "vi": "Bạn cũng mới ở đây phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, today is my first day.",
+        "vi": "Vâng, hôm nay là ngày đầu tiên của tôi.",
+        "hint": "Dùng today is my first day."
+      },
+      {
+        "speaker": "a",
+        "en": "I work on the sales team.",
+        "vi": "Tôi làm ở nhóm kinh doanh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I work in customer support.",
+        "vi": "Tôi làm ở bộ phận chăm sóc khách hàng.",
+        "hint": "Dùng I work in cộng bộ phận."
+      },
+      {
+        "speaker": "a",
+        "en": "Great, our desks are nearby.",
+        "vi": "Tuyệt, bàn làm việc của chúng ta ở gần nhau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks, I am happy to join.",
+        "vi": "Cảm ơn, tôi rất vui được tham gia.",
+        "hint": "Dùng happy to join để thể hiện sự vui mừng."
+      }
     ]
   },
   "roleplay": {
-    "persona": "You are Alex, a friendly new colleague in the marketing team, chatting in the office pantry.",
-    "opener": "Hi! Is this seat taken?",
-    "goal": "Hai người làm quen: tên, bộ phận, quê quán, cảm nhận về công ty."
+    "persona": "You are a friendly new colleague at a small office in Ho Chi Minh City. You meet the learner on their first day and speak slowly, warmly, and naturally.",
+    "opener": "Hi, I am Maya. Welcome aboard.",
+    "goal": "Người học chào hỏi, giới thiệu tên, nói ngày đầu tiên và nhóm làm việc."
   },
   "drills": [
-    { "vi": "Chào, tôi là Nam. Rất vui được gặp bạn.", "en": "Hi, I'm Nam. Nice to meet you.", "alts": ["Hello, I'm Nam. Nice to meet you."] },
-    { "vi": "Bạn quê ở đâu?", "en": "Where are you from?", "alts": ["Where do you come from?"] },
-    { "vi": "Tôi làm việc ở nhóm thiết kế.", "en": "I work in the design team.", "alts": ["I'm on the design team."] },
-    { "vi": "Tôi mới vào tuần trước.", "en": "I joined last week.", "alts": ["I started last week."] },
-    { "vi": "Mọi người ở đây rất thân thiện.", "en": "Everyone here is very friendly.", "alts": ["People here are really friendly."] },
-    { "vi": "Nói chuyện với bạn vui lắm. Hẹn gặp lại!", "en": "It was nice talking to you. See you around!", "alts": ["Nice talking to you. See you!"] }
+    {
+      "vi": "Chào, tôi là Lan.",
+      "en": "Hi, I am Lan.",
+      "alts": [
+        "Hello, I am Lan."
+      ]
+    },
+    {
+      "vi": "Rất vui được gặp bạn.",
+      "en": "Nice to meet you.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi cũng rất vui được gặp bạn.",
+      "en": "Nice to meet you too.",
+      "alts": []
+    },
+    {
+      "vi": "Bạn mới ở đây phải không?",
+      "en": "Are you new here?",
+      "alts": []
+    },
+    {
+      "vi": "Hôm nay là ngày đầu tiên của tôi.",
+      "en": "Today is my first day.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi làm ở nhóm kinh doanh.",
+      "en": "I work on the sales team.",
+      "alts": []
+    },
+    {
+      "vi": "Bàn làm việc của chúng ta ở gần nhau.",
+      "en": "Our desks are nearby.",
+      "alts": []
+    }
   ],
   "homework": [
-    "Thu âm phần giới thiệu bản thân trong 30 giây rồi nghe lại, chú ý âm cuối /s/",
-    "Viết 5 câu giới thiệu bản thân với 5 mẫu câu trong bài",
-    "Luyện chế độ Hội thoại 1-1 đến khi đạt trên 85%"
+    "Ghi âm lại hội thoại và nghe lại phát âm.",
+    "Tự giới thiệu tên và nhóm làm việc của bạn bằng ba câu tiếng Anh.",
+    "Luyện đáp lại Nice to meet you với Nice to meet you too."
   ]
 }

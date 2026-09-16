@@ -1,0 +1,318 @@
+{
+  "id": "xu-ly-xung-dot-nhom",
+  "title": "Xử lý bất đồng trong nhóm một cách xây dựng",
+  "topic": "Giải quyết bất đồng trong nhóm",
+  "level": "B2",
+  "summary": "Bạn trao đổi với một đồng nghiệp đang bực bội vì cho rằng ý kiến của mình bị cả nhóm phớt lờ. Bạn thực hành lắng nghe, làm rõ vấn đề và thương lượng một hướng đi chung.",
+  "goals": [
+    "Bày tỏ sự đồng cảm mà không đồng ý vội vàng",
+    "Nêu quan điểm bất đồng một cách tôn trọng và cụ thể",
+    "Đề xuất giải pháp dung hòa, có bước hành động rõ ràng"
+  ],
+  "vocab": [
+    {
+      "en": "to feel sidelined",
+      "ipa": "/tə fiːl ˈsaɪdlaɪnd/",
+      "vi": "cảm thấy bị gạt ra ngoài lề, không được coi trọng",
+      "example": "I feel sidelined whenever decisions are made without me."
+    },
+    {
+      "en": "to brush off an idea",
+      "ipa": "/tə brʌʃ ɔːf ən aɪˈdɪə/",
+      "vi": "gạt bỏ hoặc phớt lờ một ý kiến",
+      "example": "Please do not brush off her idea before hearing the details."
+    },
+    {
+      "en": "a sticking point",
+      "ipa": "/ə ˈstɪkɪŋ pɔɪnt/",
+      "vi": "điểm bất đồng khó giải quyết",
+      "example": "The budget is still the main sticking point."
+    },
+    {
+      "en": "to see eye to eye",
+      "ipa": "/tə siː aɪ tə aɪ/",
+      "vi": "đồng quan điểm",
+      "example": "We do not always see eye to eye, but we can still work well together."
+    },
+    {
+      "en": "to get on the same page",
+      "ipa": "/tə ɡet ɑːn ðə seɪm peɪdʒ/",
+      "vi": "thống nhất cách hiểu hoặc mục tiêu chung",
+      "example": "Let us get on the same page before we present this to the client."
+    },
+    {
+      "en": "to raise a concern",
+      "ipa": "/tə reɪz ə kənˈsɜːrn/",
+      "vi": "nêu một mối lo ngại",
+      "example": "I want to raise a concern about the timeline."
+    },
+    {
+      "en": "to compromise",
+      "ipa": "/tə ˈkɑːmprəmaɪz/",
+      "vi": "thỏa hiệp, nhượng bộ hợp lý",
+      "example": "We may need to compromise to meet the deadline."
+    },
+    {
+      "en": "to take ownership",
+      "ipa": "/tə teɪk ˈoʊnərʃɪp/",
+      "vi": "nhận trách nhiệm chủ động",
+      "example": "I will take ownership of the revised proposal."
+    },
+    {
+      "en": "constructive feedback",
+      "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
+      "vi": "phản hồi mang tính xây dựng",
+      "example": "Constructive feedback helps the team improve the plan."
+    },
+    {
+      "en": "a workable solution",
+      "ipa": "/ə ˈwɜːrkəbəl səˈluːʃən/",
+      "vi": "một giải pháp khả thi",
+      "example": "I think we have found a workable solution."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I can see why you feel that way, especially since ___.",
+      "vi": "Tôi hiểu vì sao bạn cảm thấy như vậy, nhất là vì ___.",
+      "note": "Dùng để thể hiện đồng cảm trước khi đưa ra quan điểm khác."
+    },
+    {
+      "en": "Could we take a step back and look at ___?",
+      "vi": "Chúng ta có thể lùi lại một bước và xem xét ___ không?",
+      "note": "Giúp hạ nhiệt cuộc nói chuyện và chuyển sang phân tích vấn đề."
+    },
+    {
+      "en": "My concern is not ___; it is ___.",
+      "vi": "Điều tôi lo không phải là ___; mà là ___.",
+      "note": "Làm rõ trọng tâm để tránh hiểu lầm hoặc công kích cá nhân."
+    },
+    {
+      "en": "What would a workable compromise look like to you?",
+      "vi": "Theo bạn, một thỏa hiệp khả thi sẽ trông như thế nào?",
+      "note": "Mời người kia cùng tạo giải pháp thay vì chỉ phản đối."
+    },
+    {
+      "en": "If we agree on ___, I am happy to ___.",
+      "vi": "Nếu chúng ta thống nhất về ___, tôi sẵn sàng ___.",
+      "note": "Dùng để chốt cam kết và bước tiếp theo."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong think, third, with",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra. Không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "think",
+        "third",
+        "with"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối trong brushed, raised, worked",
+      "tip": "Phát âm nhẹ âm cuối để người nghe phân biệt thì quá khứ và nghĩa của câu.",
+      "words": [
+        "brushed",
+        "raised",
+        "worked"
+      ]
+    },
+    {
+      "focus": "trọng âm trong constructive và compromise",
+      "tip": "Nhấn âm thứ hai ở constructive và âm đầu ở compromise. Không nhấn đều tất cả các âm.",
+      "words": [
+        "constructive",
+        "compromise",
+        "solution"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I do not agree with you in this point.",
+      "right": "I do not agree with you on this point.",
+      "vi": "Dùng agree with someone nhưng agree on a point hoặc issue."
+    },
+    {
+      "wrong": "We need to find a solution which both sides are happy.",
+      "right": "We need to find a solution that both sides are happy with.",
+      "vi": "Cần có giới từ with sau happy trong cấu trúc này."
+    },
+    {
+      "wrong": "I am not agree with the decision.",
+      "right": "I do not agree with the decision.",
+      "vi": "Agree là động từ, không dùng trực tiếp sau am."
+    },
+    {
+      "wrong": "Let us discuss about this problem.",
+      "right": "Let us discuss this problem.",
+      "vi": "Discuss là ngoại động từ nên không dùng about ngay sau nó."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp đang bực bội",
+      "b": "Bạn, thành viên trong nhóm"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I am really frustrated. It feels like the team just brushed off my proposal again.",
+        "vi": "Tôi thực sự bực bội. Cảm giác như cả nhóm lại gạt phăng đề xuất của tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can see why you feel that way. You put a lot of work into it.",
+        "vi": "Tôi hiểu vì sao bạn cảm thấy như vậy. Bạn đã bỏ rất nhiều công sức vào nó.",
+        "hint": "Trước hết, hãy công nhận cảm xúc và nỗ lực của đồng nghiệp."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. They barely asked any questions before moving on.",
+        "vi": "Đúng vậy. Họ hầu như không hỏi gì trước khi chuyển sang việc khác.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could we take a step back and look at what happened in the meeting?",
+        "vi": "Chúng ta có thể lùi lại một bước và xem xét điều gì đã xảy ra trong cuộc họp không?",
+        "hint": "Dùng câu này để chuyển từ cảm xúc sang phân tích sự việc."
+      },
+      {
+        "speaker": "a",
+        "en": "When I suggested delaying the launch by one week, Minh said we could not afford it, and everyone agreed immediately.",
+        "vi": "Khi tôi đề xuất lùi ngày ra mắt một tuần, Minh nói chúng ta không thể kham nổi, và mọi người lập tức đồng ý.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I remember that. I do not think they meant to sideline you, but the deadline was a real concern.",
+        "vi": "Tôi nhớ chuyện đó. Tôi không nghĩ họ cố tình gạt bạn ra ngoài, nhưng hạn chót thực sự là một mối lo.",
+        "hint": "Nêu góc nhìn khác nhẹ nhàng bằng I do not think, rồi thừa nhận vấn đề thực tế."
+      },
+      {
+        "speaker": "a",
+        "en": "Maybe, but nobody asked why I wanted the extra week. They assumed I was being overly cautious.",
+        "vi": "Có thể, nhưng không ai hỏi vì sao tôi muốn thêm một tuần. Họ cho rằng tôi quá thận trọng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is fair. Your concern was about testing the new payment flow, right?",
+        "vi": "Điều đó cũng có lý. Mối lo của bạn là về việc kiểm thử luồng thanh toán mới, đúng không?",
+        "hint": "Tóm tắt đúng ý của người kia để cho thấy bạn đang lắng nghe."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. If it fails after launch, we will spend far more time fixing it than we would by delaying now.",
+        "vi": "Đúng. Nếu nó lỗi sau khi ra mắt, chúng ta sẽ tốn nhiều thời gian sửa hơn rất nhiều so với việc lùi lại ngay bây giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My concern is not your proposal itself; it is whether a full one-week delay is the only option. Could we test the payment flow with a smaller group first?",
+        "vi": "Điều tôi lo không phải là đề xuất của bạn; mà là liệu lùi toàn bộ một tuần có phải lựa chọn duy nhất không. Chúng ta có thể kiểm thử luồng thanh toán trước với một nhóm nhỏ hơn không?",
+        "hint": "Dùng My concern is not để bất đồng với ý tưởng, không công kích con người."
+      },
+      {
+        "speaker": "a",
+        "en": "A limited rollout could work, but only if someone takes ownership of monitoring the results over the weekend.",
+        "vi": "Ra mắt giới hạn có thể hiệu quả, nhưng chỉ khi có người chủ động chịu trách nhiệm theo dõi kết quả vào cuối tuần.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can take ownership of the monitoring, and we can ask Minh to review the numbers with us on Monday morning.",
+        "vi": "Tôi có thể chịu trách nhiệm theo dõi, và chúng ta có thể đề nghị Minh xem lại số liệu cùng mình vào sáng thứ Hai.",
+        "hint": "Đưa ra cam kết cụ thể để biến đề xuất thành khả thi."
+      },
+      {
+        "speaker": "a",
+        "en": "That would address my biggest concern. I still want the team to understand that this is about reducing risk, not slowing everyone down.",
+        "vi": "Như vậy sẽ giải quyết mối lo lớn nhất của tôi. Tôi vẫn muốn cả nhóm hiểu rằng chuyện này là để giảm rủi ro, không phải để làm chậm mọi người.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Absolutely. At the next check-in, we can explain the trade-off clearly: a limited rollout now, followed by a full launch if the results are stable.",
+        "vi": "Chắc chắn rồi. Trong buổi cập nhật tiếp theo, chúng ta có thể giải thích rõ sự đánh đổi: ra mắt giới hạn bây giờ, rồi ra mắt đầy đủ nếu kết quả ổn định.",
+        "hint": "Dùng trade-off để nói về sự đánh đổi giữa hai lựa chọn."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. That feels like a workable compromise. I was angry, but I do not want this to become personal.",
+        "vi": "Được rồi. Cách đó có vẻ là một thỏa hiệp khả thi. Tôi đã tức giận, nhưng tôi không muốn chuyện này trở thành vấn đề cá nhân.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate that. Let us get on the same page before the next meeting, then present the plan together.",
+        "vi": "Tôi trân trọng điều đó. Hãy thống nhất với nhau trước cuộc họp tiếp theo, rồi cùng trình bày kế hoạch.",
+        "hint": "Kết thúc bằng một hành động chung rõ ràng và tinh thần hợp tác."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a frustrated colleague in a project team at a busy office. You feel that your proposal was dismissed too quickly during a meeting, and you speak bluntly at first, but you are willing to listen if the learner responds with empathy and practical ideas.",
+    "opener": "I am really frustrated. It feels like the team just brushed off my proposal again.",
+    "goal": "Người học xoa dịu đồng nghiệp, làm rõ bất đồng và thống nhất một phương án thử nghiệm khả thi."
+  },
+  "drills": [
+    {
+      "vi": "Tôi hiểu vì sao bạn cảm thấy bị gạt ra ngoài lề.",
+      "en": "I can see why you feel sidelined.",
+      "alts": [
+        "I understand why you feel left out."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể lùi lại một bước và xem xét vấn đề không?",
+      "en": "Could we take a step back and look at the issue?",
+      "alts": [
+        "Can we step back and review what happened?"
+      ]
+    },
+    {
+      "vi": "Điều tôi lo không phải là ý tưởng của bạn mà là thời hạn.",
+      "en": "My concern is not your idea; it is the deadline.",
+      "alts": [
+        "I am not worried about your idea. I am worried about the deadline."
+      ]
+    },
+    {
+      "vi": "Ngân sách vẫn là điểm bất đồng chính.",
+      "en": "The budget is still the main sticking point.",
+      "alts": [
+        "The budget remains our biggest sticking point."
+      ]
+    },
+    {
+      "vi": "Theo bạn, một thỏa hiệp khả thi sẽ như thế nào?",
+      "en": "What would a workable compromise look like to you?",
+      "alts": [
+        "What kind of compromise would work for you?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ chịu trách nhiệm theo dõi kết quả.",
+      "en": "I will take ownership of monitoring the results.",
+      "alts": [
+        "I can be responsible for monitoring the results."
+      ]
+    },
+    {
+      "vi": "Hãy thống nhất với nhau trước cuộc họp tiếp theo.",
+      "en": "Let us get on the same page before the next meeting.",
+      "alts": [
+        "Let us make sure we agree before the next meeting."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm toàn bộ hội thoại, chú ý thể hiện giọng điệu bình tĩnh khi bất đồng.",
+    "Viết một đoạn 6 đến 8 câu về một bất đồng trong nhóm và đề xuất một thỏa hiệp.",
+    "Đặt ba câu sử dụng mẫu My concern is not ___; it is ___."
+  ]
+}

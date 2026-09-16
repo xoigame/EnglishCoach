@@ -1,0 +1,306 @@
+{
+  "id": "thue-nha-va-ky-hop-dong",
+  "title": "Xem nhà, hỏi điều khoản và ký hợp đồng thuê",
+  "topic": "Thuê căn hộ",
+  "level": "B1",
+  "summary": "Người học xem một căn hộ, hỏi về giá thuê, tiền cọc, sửa chữa và thời hạn báo trước. Cuối cùng, người học đồng ý các điều khoản và ký hợp đồng thuê.",
+  "goals": [
+    "Hỏi thông tin chi tiết về căn hộ và chi phí thuê",
+    "Trao đổi về tiền cọc, sửa chữa và thời hạn báo trước",
+    "Đồng ý điều khoản và hoàn tất việc ký hợp đồng thuê"
+  ],
+  "vocab": [
+    {
+      "en": "lease agreement",
+      "ipa": "/liːs əˈɡriːmənt/",
+      "vi": "hợp đồng thuê",
+      "example": "Please read the lease agreement before you sign it."
+    },
+    {
+      "en": "security deposit",
+      "ipa": "/sɪˈkjʊrəti dɪˈpɒzɪt/",
+      "vi": "tiền đặt cọc",
+      "example": "The security deposit is returned after the final inspection."
+    },
+    {
+      "en": "monthly rent",
+      "ipa": "/ˈmʌnθli rent/",
+      "vi": "tiền thuê hằng tháng",
+      "example": "The monthly rent includes high-speed internet."
+    },
+    {
+      "en": "utilities",
+      "ipa": "/juːˈtɪlətiz/",
+      "vi": "các chi phí điện, nước và dịch vụ thiết yếu",
+      "example": "Electricity and water are not included in the utilities."
+    },
+    {
+      "en": "furnished",
+      "ipa": "/ˈfɜːrnɪʃt/",
+      "vi": "được trang bị nội thất",
+      "example": "The furnished apartment has a bed and a washing machine."
+    },
+    {
+      "en": "notice period",
+      "ipa": "/ˈnoʊtɪs ˈpɪriəd/",
+      "vi": "thời hạn báo trước",
+      "example": "The notice period is thirty days before moving out."
+    },
+    {
+      "en": "move-in date",
+      "ipa": "/ˈmuːv ɪn deɪt/",
+      "vi": "ngày chuyển vào",
+      "example": "Our move-in date is the first Monday of October."
+    },
+    {
+      "en": "maintenance",
+      "ipa": "/ˈmeɪntənəns/",
+      "vi": "việc bảo trì, sửa chữa",
+      "example": "The landlord pays for major maintenance in the apartment."
+    },
+    {
+      "en": "tenant",
+      "ipa": "/ˈtenənt/",
+      "vi": "người thuê nhà",
+      "example": "Each tenant receives a key after signing the lease."
+    },
+    {
+      "en": "landlord",
+      "ipa": "/ˈlændlɔːrd/",
+      "vi": "chủ nhà",
+      "example": "The landlord answered our questions about the contract."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to ask about ___.",
+      "vi": "Tôi muốn hỏi về ___.",
+      "note": "Dùng để mở đầu câu hỏi một cách lịch sự."
+    },
+    {
+      "en": "Could you explain whether ___ is included?",
+      "vi": "Bạn có thể giải thích liệu ___ có được bao gồm không?",
+      "note": "Dùng khi hỏi một chi phí hoặc dịch vụ có nằm trong giá thuê không."
+    },
+    {
+      "en": "If ___ happens, who is responsible for ___?",
+      "vi": "Nếu ___ xảy ra, ai chịu trách nhiệm về ___?",
+      "note": "Phù hợp khi hỏi về sửa chữa hoặc hư hỏng."
+    },
+    {
+      "en": "What notice period do you require if I move out?",
+      "vi": "Nếu tôi chuyển đi, bạn yêu cầu thời hạn báo trước bao lâu?",
+      "note": "Dùng để hỏi điều kiện chấm dứt hợp đồng."
+    },
+    {
+      "en": "I agree with those terms because ___.",
+      "vi": "Tôi đồng ý với những điều khoản đó vì ___.",
+      "note": "Dùng để nêu ý kiến và lý do khi đồng ý."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, không đọc thành âm /t/.",
+      "words": [
+        "month",
+        "three",
+        "thirty"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /t/",
+      "tip": "Phát âm rõ âm /t/ cuối từ, tránh bỏ âm cuối khi nói nhanh.",
+      "words": [
+        "rent",
+        "deposit",
+        "agreement"
+      ]
+    },
+    {
+      "focus": "trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết được in đậm trong đầu: de-PO-sit, u-TI-li-ties, a-PART-ment.",
+      "words": [
+        "deposit",
+        "utilities",
+        "apartment"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want ask about deposit.",
+      "right": "I would like to ask about the security deposit.",
+      "vi": "Sau want cần có to; dùng I would like nghe lịch sự hơn khi hỏi chủ nhà."
+    },
+    {
+      "wrong": "How much is the deposit return?",
+      "right": "When will the security deposit be returned?",
+      "vi": "Khi hỏi thời điểm hoàn tiền cọc, dùng câu hỏi bị động với will be returned."
+    },
+    {
+      "wrong": "Rent include electricity?",
+      "right": "Does the rent include electricity?",
+      "vi": "Câu hỏi hiện tại đơn cần trợ động từ does."
+    },
+    {
+      "wrong": "I will move in at Monday.",
+      "right": "I will move in on Monday.",
+      "vi": "Dùng on trước thứ hoặc ngày cụ thể."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Chủ nhà",
+      "b": "Người thuê nhà"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, welcome in. Would you like to look around the apartment first?",
+        "vi": "Chào bạn, mời vào. Bạn có muốn xem quanh căn hộ trước không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am looking for a quiet place near my office.",
+        "vi": "Có, tôi đang tìm một nơi yên tĩnh gần văn phòng của tôi.",
+        "hint": "Dùng I am looking for để nói bạn đang tìm nhà."
+      },
+      {
+        "speaker": "a",
+        "en": "The apartment is furnished and available from the first of next month.",
+        "vi": "Căn hộ có nội thất và có thể vào ở từ ngày đầu tháng sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It looks bright, but I would like to ask about monthly rent.",
+        "vi": "Căn hộ trông sáng sủa, nhưng tôi muốn hỏi về tiền thuê hằng tháng.",
+        "hint": "Dùng I would like to ask about để hỏi lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "The rent is twelve million dong, including internet but excluding electricity and water.",
+        "vi": "Tiền thuê là mười hai triệu đồng, gồm internet nhưng không gồm điện và nước.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you explain how much the security deposit is and when it is returned?",
+        "vi": "Bạn có thể giải thích tiền cọc là bao nhiêu và khi nào được hoàn lại không?",
+        "hint": "Nối hai câu hỏi bằng and để hỏi đầy đủ hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "It is one month of rent, returned after inspection if there is no damage.",
+        "vi": "Đó là một tháng tiền thuê, được hoàn sau khi kiểm tra nếu không có hư hỏng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That seems reasonable. Would you handle repairs if the air conditioner stopped working?",
+        "vi": "Điều đó có vẻ hợp lý. Bạn có xử lý việc sửa chữa nếu điều hòa ngừng hoạt động không?",
+        "hint": "Dùng if để nêu tình huống có thể xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, I arrange major maintenance, while tenants handle small items like light bulbs.",
+        "vi": "Có, tôi sắp xếp các việc bảo trì lớn, còn người thuê tự xử lý những việc nhỏ như bóng đèn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Before I decide, what notice period do you require if I move out?",
+        "vi": "Trước khi quyết định, bạn yêu cầu thời hạn báo trước bao lâu nếu tôi chuyển đi?",
+        "hint": "What notice period do you require là cách hỏi điều khoản rất tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "The lease requires thirty days notice, which gives us time to find another tenant.",
+        "vi": "Hợp đồng yêu cầu báo trước ba mươi ngày, điều này cho chúng tôi thời gian tìm người thuê khác.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree with those terms because the location and condition both suit me.",
+        "vi": "Tôi đồng ý với những điều khoản đó vì cả vị trí lẫn tình trạng căn hộ đều phù hợp với tôi.",
+        "hint": "Dùng because để nêu lý do cho quyết định của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. We can sign today, and you may move in next Monday morning.",
+        "vi": "Tuyệt. Chúng ta có thể ký hôm nay, và bạn có thể chuyển vào sáng thứ Hai tới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect, I will transfer the deposit now and sign the lease carefully.",
+        "vi": "Tuyệt, tôi sẽ chuyển tiền cọc ngay bây giờ và ký hợp đồng cẩn thận.",
+        "hint": "Dùng will để nói quyết định hoặc hành động ngay lúc này."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly landlord showing a furnished apartment in Ho Chi Minh City. You explain rental terms clearly, answer questions patiently, and help a prospective tenant sign the lease.",
+    "opener": "Hello, welcome in. Would you like to look around the apartment first?",
+    "goal": "Người học hỏi rõ điều khoản thuê nhà, đồng ý các điều khoản và ký hợp đồng."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn hỏi về tiền thuê hằng tháng.",
+      "en": "I would like to ask about the monthly rent.",
+      "alts": [
+        "Could I ask about the monthly rent?"
+      ]
+    },
+    {
+      "vi": "Tiền thuê có bao gồm tiền nước không?",
+      "en": "Does the rent include water?",
+      "alts": [
+        "Could you explain whether water is included?"
+      ]
+    },
+    {
+      "vi": "Tiền đặt cọc là bao nhiêu?",
+      "en": "How much is the security deposit?",
+      "alts": [
+        "Could you tell me the amount of the security deposit?"
+      ]
+    },
+    {
+      "vi": "Nếu điều hòa hỏng, ai chịu trách nhiệm sửa chữa?",
+      "en": "If the air conditioner breaks, who is responsible for repairs?",
+      "alts": [
+        "Who handles repairs if the air conditioner stops working?"
+      ]
+    },
+    {
+      "vi": "Bạn yêu cầu thời hạn báo trước bao lâu nếu tôi chuyển đi?",
+      "en": "What notice period do you require if I move out?",
+      "alts": [
+        "How much notice do I need to give before moving out?"
+      ]
+    },
+    {
+      "vi": "Tôi đồng ý với các điều khoản vì căn hộ phù hợp với tôi.",
+      "en": "I agree with the terms because the apartment suits me.",
+      "alts": [
+        "I am happy to accept these terms because the apartment is suitable for me."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ chuyển tiền cọc và ký hợp đồng hôm nay.",
+      "en": "I will transfer the deposit and sign the lease today.",
+      "alts": [
+        "I will pay the security deposit and sign the agreement today."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại, chú ý âm cuối trong rent và deposit.",
+    "Viết năm câu hỏi lịch sự cho chủ nhà bằng các mẫu câu đã học.",
+    "Đóng vai người thuê và tự nói lại lý do bạn đồng ý hoặc từ chối căn hộ."
+  ]
+}

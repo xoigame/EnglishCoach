@@ -1,0 +1,330 @@
+{
+  "id": "dam-phan-hop-dong",
+  "title": "Đàm phán điều khoản hợp đồng",
+  "topic": "Đàm phán hợp đồng",
+  "level": "C1",
+  "summary": "Bạn đại diện nhà cung cấp đang đàm phán hợp đồng dịch vụ với một đối tác cứng rắn. Bạn cần bảo vệ mức giá, điều khoản thanh toán và giới hạn trách nhiệm nhưng vẫn chốt được thỏa thuận.",
+  "goals": [
+    "Đề xuất và nhượng bộ điều khoản hợp đồng bằng giọng điệu chuyên nghiệp.",
+    "Dùng collocation tự nhiên để nói về giá, trách nhiệm pháp lý và vi phạm hợp đồng.",
+    "Tóm tắt các điều khoản đã thống nhất để chốt cuộc đàm phán."
+  ],
+  "vocab": [
+    {
+      "en": "meet someone halfway",
+      "ipa": "/miːt ˈsʌmwʌn hɑːfˈweɪ/",
+      "vi": "nhượng bộ để gặp nhau ở một phương án trung hòa",
+      "example": "If you extend the term, we can meet you halfway on price."
+    },
+    {
+      "en": "non-negotiable",
+      "ipa": "/ˌnɑːn nɪˈɡoʊʃiəbəl/",
+      "vi": "không thể thương lượng",
+      "example": "Data ownership is non-negotiable for us."
+    },
+    {
+      "en": "liability cap",
+      "ipa": "/ˌlaɪəˈbɪləti kæp/",
+      "vi": "mức trần trách nhiệm bồi thường",
+      "example": "The liability cap should not exceed the fees paid in twelve months."
+    },
+    {
+      "en": "carve-out",
+      "ipa": "/ˈkɑːrv aʊt/",
+      "vi": "ngoại lệ được tách riêng khỏi một điều khoản chung",
+      "example": "We can accept a carve-out for fraud and willful misconduct."
+    },
+    {
+      "en": "material breach",
+      "ipa": "/məˈtɪriəl briːtʃ/",
+      "vi": "vi phạm nghiêm trọng",
+      "example": "A material breach gives either party the right to terminate the agreement."
+    },
+    {
+      "en": "cure period",
+      "ipa": "/kjʊr ˈpɪriəd/",
+      "vi": "thời hạn khắc phục vi phạm",
+      "example": "The supplier should have a thirty-day cure period."
+    },
+    {
+      "en": "staged payment",
+      "ipa": "/steɪdʒd ˈpeɪmənt/",
+      "vi": "thanh toán theo từng đợt",
+      "example": "We proposed a staged payment tied to delivery milestones."
+    },
+    {
+      "en": "service-level agreement",
+      "ipa": "/ˈsɜːrvɪs ˈlevəl əˈɡriːmənt/",
+      "vi": "thỏa thuận mức độ dịch vụ",
+      "example": "The service-level agreement guarantees ninety-nine point nine percent availability."
+    },
+    {
+      "en": "commercially viable",
+      "ipa": "/kəˈmɜːrʃəli ˈvaɪəbəl/",
+      "vi": "khả thi về mặt thương mại",
+      "example": "The revised pricing must remain commercially viable for us."
+    },
+    {
+      "en": "redline",
+      "ipa": "/ˈredlaɪn/",
+      "vi": "bản hợp đồng có đánh dấu các phần chỉnh sửa",
+      "example": "Please send the redline before our legal teams meet."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "We can be flexible on ___, but ___ is non-negotiable.",
+      "vi": "Chúng tôi có thể linh hoạt về ___, nhưng ___ thì không thể thương lượng.",
+      "note": "Dùng để nhượng bộ có điều kiện mà vẫn giữ ranh giới rõ ràng."
+    },
+    {
+      "en": "If you can ___, we can meet you halfway on ___.",
+      "vi": "Nếu bên bạn có thể ___, chúng tôi có thể nhượng bộ về ___.",
+      "note": "Mẫu trao đổi điều khoản theo hướng đôi bên cùng có lợi."
+    },
+    {
+      "en": "I am afraid that does not work for us from a commercial standpoint.",
+      "vi": "Tôi e rằng điều đó không phù hợp với chúng tôi về mặt thương mại.",
+      "note": "Cách từ chối trang trọng, tự nhiên hơn nói thẳng rằng điều khoản đó không tốt."
+    },
+    {
+      "en": "We would need a carve-out for ___.",
+      "vi": "Chúng tôi cần một ngoại lệ riêng cho ___.",
+      "note": "Thường dùng khi bàn về giới hạn trách nhiệm, bảo mật hoặc sở hữu trí tuệ."
+    },
+    {
+      "en": "Subject to those changes, we are ready to move forward.",
+      "vi": "Nếu các thay đổi đó được chấp nhận, chúng tôi sẵn sàng tiến hành.",
+      "note": "Dùng để chốt có điều kiện trước khi ký."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong liability",
+      "tip": "Nhấn âm thứ ba, đọc là lai-ờ-BI-lờ-ti; không nhấn mạnh âm đầu.",
+      "words": [
+        "liability",
+        "viable",
+        "availability"
+      ]
+    },
+    {
+      "focus": "âm cuối /tʃ/ và /dʒ/",
+      "tip": "Phát âm rõ âm cuối trong breach và bridge; không bỏ âm cuối khi nói nhanh.",
+      "words": [
+        "breach",
+        "approach",
+        "bridge"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm từ hợp đồng",
+      "tip": "Nối phụ âm cuối với nguyên âm đầu để câu trôi chảy, ví dụ cap should và terms are.",
+      "words": [
+        "cap should",
+        "terms are",
+        "work for us"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We can compromise to 128,000 US dollars.",
+      "right": "We can compromise at 128,000 US dollars.",
+      "vi": "Dùng compromise at khi chốt một mức giá cụ thể."
+    },
+    {
+      "wrong": "The price is not negotiable for us.",
+      "right": "The price is non-negotiable for us.",
+      "vi": "Non-negotiable là cách diễn đạt tự nhiên và chuyên nghiệp hơn trong đàm phán."
+    },
+    {
+      "wrong": "We need you sign the contract before Friday.",
+      "right": "We need you to sign the contract before Friday.",
+      "vi": "Sau need someone phải dùng to cộng động từ."
+    },
+    {
+      "wrong": "If you breach the contract, we terminate immediately.",
+      "right": "If there is a material breach, we may terminate the agreement.",
+      "vi": "Cách đúng dùng material breach và may để giữ sắc thái pháp lý, chuyên nghiệp."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Đối tác đàm phán cứng rắn, đại diện bên mua",
+      "b": "Đại diện nhà cung cấp, là người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "We have reviewed your proposal. The scope is acceptable, but the price is too high.",
+        "vi": "Chúng tôi đã xem đề xuất của bên bạn. Phạm vi công việc chấp nhận được, nhưng giá quá cao.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you for the feedback. Which part of the pricing concerns you most?",
+        "vi": "Cảm ơn phản hồi của ông. Phần nào của mức giá khiến ông băn khoăn nhất?",
+        "hint": "Hỏi cụ thể để hiểu điểm vướng trước khi nhượng bộ."
+      },
+      {
+        "speaker": "a",
+        "en": "Your total fee is 135,000 US dollars. Our ceiling is 125,000.",
+        "vi": "Tổng phí của bên bạn là 135.000 đô la Mỹ. Mức trần của chúng tôi là 125.000.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "At 125,000, the project would not be commercially viable for us. Could we discuss the payment structure as well as the total fee?",
+        "vi": "Ở mức 125.000, dự án sẽ không khả thi về mặt thương mại với chúng tôi. Chúng ta có thể bàn cả cơ cấu thanh toán lẫn tổng mức phí không?",
+        "hint": "Dùng commercially viable để phản đối giá mà không nghe quá gay gắt."
+      },
+      {
+        "speaker": "a",
+        "en": "Possibly, but I am not prepared to increase the budget without a meaningful concession from your side.",
+        "vi": "Có thể, nhưng tôi chưa sẵn sàng tăng ngân sách nếu bên bạn không có một nhượng bộ đáng kể.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If you can commit to a twenty-four-month term, we can meet you halfway and reduce the fee to 128,000 US dollars.",
+        "vi": "Nếu bên ông có thể cam kết thời hạn 24 tháng, chúng tôi có thể nhượng bộ và giảm phí xuống 128.000 đô la Mỹ.",
+        "hint": "Dùng if để đưa ra nhượng bộ có điều kiện."
+      },
+      {
+        "speaker": "a",
+        "en": "I can consider the term, but the service-level agreement must guarantee ninety-nine point nine percent availability. Service credits must also apply if you miss that target.",
+        "vi": "Tôi có thể cân nhắc thời hạn đó, nhưng thỏa thuận mức độ dịch vụ phải bảo đảm mức sẵn sàng 99,9 phần trăm. Nếu bên bạn không đạt mục tiêu, tín dụng dịch vụ cũng phải được áp dụng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We can accept the availability target and service credits, provided the credits are capped at 10 percent of the monthly fee.",
+        "vi": "Chúng tôi có thể chấp nhận mục tiêu về mức sẵn sàng và tín dụng dịch vụ, với điều kiện khoản tín dụng được giới hạn ở 10 phần trăm phí hàng tháng.",
+        "hint": "Provided tạo điều kiện trang trọng, phù hợp văn phong hợp đồng."
+      },
+      {
+        "speaker": "a",
+        "en": "That cap is reasonable. What is not reasonable is your proposed liability cap of one month's fees. That offers us very little protection.",
+        "vi": "Mức trần đó hợp lý. Điều không hợp lý là mức trần trách nhiệm bằng một tháng phí mà bên bạn đề xuất. Điều đó bảo vệ chúng tôi rất ít.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand the concern. We could raise the liability cap to the fees paid in the preceding twelve months, with carve-outs for fraud, willful misconduct, and data breaches caused by our negligence.",
+        "vi": "Tôi hiểu băn khoăn đó. Chúng tôi có thể nâng mức trần trách nhiệm lên bằng khoản phí đã thanh toán trong mười hai tháng trước đó, với các ngoại lệ cho gian lận, hành vi cố ý sai phạm và vi phạm dữ liệu do sự sơ suất của chúng tôi.",
+        "hint": "Nêu giới hạn chung trước, rồi thêm carve-outs để tăng bảo vệ cho đối tác."
+      },
+      {
+        "speaker": "a",
+        "en": "That is closer to market practice. I also need a clear termination right for material breach, not vague language that leaves us arguing for weeks.",
+        "vi": "Điều đó gần với thông lệ thị trường hơn. Tôi cũng cần quyền chấm dứt rõ ràng khi có vi phạm nghiêm trọng, chứ không phải ngôn ngữ mơ hồ khiến chúng ta tranh cãi nhiều tuần.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. Either party may terminate for a material breach if the breach is not cured within thirty days of written notice. For a serious data-security incident, we can agree to a shorter cure period.",
+        "vi": "Đồng ý. Mỗi bên có thể chấm dứt khi có vi phạm nghiêm trọng nếu vi phạm đó không được khắc phục trong vòng 30 ngày kể từ khi nhận thông báo bằng văn bản. Với sự cố an ninh dữ liệu nghiêm trọng, chúng tôi có thể chấp nhận thời hạn khắc phục ngắn hơn.",
+        "hint": "Dùng either party may để điều khoản cân bằng và chuyên nghiệp."
+      },
+      {
+        "speaker": "a",
+        "en": "Make it ten days for a serious data-security incident, and we have a deal on termination. Now let us return to payment. We will not pay half the fee upfront.",
+        "vi": "Hãy để là mười ngày đối với sự cố an ninh dữ liệu nghiêm trọng, và chúng ta chốt điều khoản chấm dứt. Bây giờ quay lại thanh toán. Chúng tôi sẽ không trả trước một nửa khoản phí.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Would a staged payment work: 20 percent on signature, 40 percent on acceptance of the implementation, and the remaining 40 percent thirty days after launch?",
+        "vi": "Thanh toán theo đợt như sau có được không: 20 phần trăm khi ký, 40 phần trăm khi nghiệm thu triển khai, và 40 phần trăm còn lại sau khi vận hành 30 ngày?",
+        "hint": "Liệt kê các mốc rõ ràng để đề xuất staged payment thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "I can accept that schedule if the acceptance criteria are objective and the final payment is not due until the system has operated successfully for thirty days.",
+        "vi": "Tôi có thể chấp nhận lịch thanh toán đó nếu tiêu chí nghiệm thu mang tính khách quan và khoản thanh toán cuối chỉ đến hạn khi hệ thống đã vận hành thành công trong 30 ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is fair. We will define the acceptance criteria in an appendix, and the final payment will be tied to successful operation during that thirty-day period. In return, we would need the contract to renew automatically unless either party gives sixty days' notice.",
+        "vi": "Điều đó công bằng. Chúng tôi sẽ xác định tiêu chí nghiệm thu trong một phụ lục, và khoản thanh toán cuối sẽ gắn với việc vận hành thành công trong giai đoạn 30 ngày đó. Đổi lại, chúng tôi cần hợp đồng tự động gia hạn trừ khi một trong hai bên báo trước 60 ngày.",
+        "hint": "In return giúp liên kết yêu cầu mới với nhượng bộ vừa đưa ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Automatic renewal is acceptable, provided any annual price increase is capped at 3 percent. Send me a redline reflecting the price, payment milestones, liability cap, and termination language.",
+        "vi": "Tự động gia hạn có thể chấp nhận được, với điều kiện mọi mức tăng giá hằng năm bị giới hạn ở 3 phần trăm. Hãy gửi tôi bản chỉnh sửa có đánh dấu, thể hiện mức giá, các mốc thanh toán, mức trần trách nhiệm và điều khoản chấm dứt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. Subject to those changes, we are ready to move forward at 128,000 US dollars. I will send the redline today, and once legal approves it, we can execute the agreement.",
+        "vi": "Đồng ý. Với các thay đổi đó, chúng tôi sẵn sàng tiến hành ở mức 128.000 đô la Mỹ. Tôi sẽ gửi bản chỉnh sửa hôm nay, và khi bộ phận pháp lý phê duyệt, chúng ta có thể ký kết hợp đồng.",
+        "hint": "Tóm tắt mức giá và bước tiếp theo để chốt tình huống trọn vẹn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a hard-nosed procurement director negotiating a software services agreement in a formal meeting room in Ho Chi Minh City. You are professional, direct, and unwilling to make concessions unless the supplier offers clear value in return.",
+    "opener": "We have reviewed your proposal. The scope is acceptable, but the price is too high.",
+    "goal": "Người học đàm phán được mức giá, lịch thanh toán, giới hạn trách nhiệm và điều khoản chấm dứt để đi đến thỏa thuận."
+  },
+  "drills": [
+    {
+      "vi": "Nếu bên bạn gia hạn hợp đồng, chúng tôi có thể nhượng bộ về giá.",
+      "en": "If you extend the contract, we can meet you halfway on price.",
+      "alts": [
+        "We can meet you halfway on price if you extend the contract."
+      ]
+    },
+    {
+      "vi": "Quyền sở hữu dữ liệu là điều không thể thương lượng với chúng tôi.",
+      "en": "Data ownership is non-negotiable for us.",
+      "alts": [
+        "For us, data ownership is non-negotiable."
+      ]
+    },
+    {
+      "vi": "Chúng tôi cần một ngoại lệ riêng cho hành vi gian lận.",
+      "en": "We would need a carve-out for fraud.",
+      "alts": [
+        "We need a carve-out for fraud."
+      ]
+    },
+    {
+      "vi": "Mức trần trách nhiệm nên giới hạn ở phí của mười hai tháng.",
+      "en": "The liability cap should be limited to twelve months of fees.",
+      "alts": [
+        "We propose a liability cap of twelve months of fees."
+      ]
+    },
+    {
+      "vi": "Bên vi phạm sẽ có thời hạn khắc phục là ba mươi ngày.",
+      "en": "The breaching party will have a thirty-day cure period.",
+      "alts": [
+        "There will be a thirty-day cure period for any material breach."
+      ]
+    },
+    {
+      "vi": "Tôi e rằng điều đó không phù hợp với chúng tôi về mặt thương mại.",
+      "en": "I am afraid that does not work for us from a commercial standpoint.",
+      "alts": [
+        "That is not commercially viable for us."
+      ]
+    },
+    {
+      "vi": "Với các thay đổi đó, chúng tôi sẵn sàng tiến hành.",
+      "en": "Subject to those changes, we are ready to move forward.",
+      "alts": [
+        "Provided those changes are made, we are ready to proceed."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai người học, chú ý nhấn trọng âm trong liability và availability.",
+    "Viết một email ngắn bằng tiếng Anh tóm tắt bốn điều khoản đã thống nhất.",
+    "Tự thay đổi một điều khoản trong hội thoại và luyện đưa ra nhượng bộ có điều kiện."
+  ]
+}

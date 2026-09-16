@@ -1,0 +1,330 @@
+{
+  "id": "phong-van-podcast",
+  "title": "Trả lời phỏng vấn podcast về chuyên môn của bạn",
+  "topic": "Chia sẻ chuyên môn trên podcast",
+  "level": "C1",
+  "summary": "Bạn tham gia một podcast với vai trò khách mời chuyên môn. Bạn giới thiệu lĩnh vực của mình, giải thích cách làm việc, xử lý câu hỏi khó và chốt lại bằng một thông điệp đáng nhớ.",
+  "goals": [
+    "Giới thiệu chuyên môn một cách tự nhiên, thuyết phục",
+    "Giải thích khái niệm phức tạp bằng ngôn ngữ dễ hiểu",
+    "Nêu quan điểm có sắc thái và xử lý câu hỏi phản biện chuyên nghiệp"
+  ],
+  "vocab": [
+    {
+      "en": "area of expertise",
+      "ipa": "/ˈeriə əv ˌekspɜːrˈtiːz/",
+      "vi": "lĩnh vực chuyên môn",
+      "example": "My area of expertise is user-centered product strategy."
+    },
+    {
+      "en": "work at the intersection of",
+      "ipa": "/wɜːrk æt ði ˌɪntərˈsekʃən əv/",
+      "vi": "làm việc ở giao điểm giữa hai hoặc nhiều lĩnh vực",
+      "example": "I work at the intersection of technology, business, and human behavior."
+    },
+    {
+      "en": "user-centered",
+      "ipa": "/ˌjuːzər ˈsentərd/",
+      "vi": "lấy người dùng làm trung tâm",
+      "example": "A user-centered approach starts with real needs, not assumptions."
+    },
+    {
+      "en": "translate into",
+      "ipa": "/trænzˈleɪt ˈɪntuː/",
+      "vi": "chuyển hóa thành, diễn giải thành",
+      "example": "The challenge is to translate research into practical decisions."
+    },
+    {
+      "en": "misconception",
+      "ipa": "/ˌmɪskənˈsepʃən/",
+      "vi": "quan niệm sai lầm",
+      "example": "A common misconception is that innovation always requires a large budget."
+    },
+    {
+      "en": "evidence-based",
+      "ipa": "/ˈevɪdəns beɪst/",
+      "vi": "dựa trên bằng chứng",
+      "example": "We take an evidence-based approach to prioritizing ideas."
+    },
+    {
+      "en": "stakeholder",
+      "ipa": "/ˈsteɪkhoʊldər/",
+      "vi": "bên liên quan",
+      "example": "It is important to involve stakeholders early in the process."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi",
+      "example": "Every strategic decision involves a trade-off."
+    },
+    {
+      "en": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "vi": "phản biện hoặc không đồng ý một cách có cơ sở",
+      "example": "I am comfortable pushing back when the evidence points elsewhere."
+    },
+    {
+      "en": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "vi": "điểm hoặc thông điệp chính cần rút ra",
+      "example": "The main takeaway is that clarity comes before speed."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I specialize in ___, with a particular focus on ___.",
+      "vi": "Tôi chuyên về ___, đặc biệt tập trung vào ___.",
+      "note": "Dùng để giới thiệu chuyên môn rõ ràng và chuyên nghiệp."
+    },
+    {
+      "en": "At its core, ___ is about ___.",
+      "vi": "Về bản chất, ___ là việc ___.",
+      "note": "Dùng để giải thích một khái niệm phức tạp theo cách ngắn gọn."
+    },
+    {
+      "en": "One misconception I often encounter is that ___.",
+      "vi": "Một quan niệm sai lầm tôi thường gặp là ___.",
+      "note": "Mở đầu lịch sự khi muốn chỉnh lại một nhận định phổ biến."
+    },
+    {
+      "en": "The key is not to ___, but to ___.",
+      "vi": "Điều then chốt không phải là ___, mà là ___.",
+      "note": "Tạo sự tương phản để nhấn mạnh quan điểm."
+    },
+    {
+      "en": "If listeners take one thing away, I hope it is that ___.",
+      "vi": "Nếu thính giả chỉ nhớ một điều, tôi hy vọng đó là ___.",
+      "note": "Mẫu câu chốt ý rất tự nhiên trong podcast hoặc bài nói."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong từ chuyên môn",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi; không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "think",
+        "throughout",
+        "three"
+      ]
+    },
+    {
+      "focus": "Trọng âm của expertise và specialize",
+      "tip": "Nhấn mạnh âm cuối trong expertise và âm đầu trong specialize; tránh đọc đều tất cả các âm tiết.",
+      "words": [
+        "expertise",
+        "specialize",
+        "specialization"
+      ]
+    },
+    {
+      "focus": "Phụ âm cuối và nối âm",
+      "tip": "Phát rõ âm cuối trong words như trade-off và stakeholder, rồi nối liền với từ sau để câu nghe tự nhiên hơn.",
+      "words": [
+        "trade-off",
+        "stakeholder",
+        "worked at the intersection"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My expertise is on product strategy.",
+      "right": "My expertise is in product strategy.",
+      "vi": "Dùng expertise in khi nói về lĩnh vực chuyên môn."
+    },
+    {
+      "wrong": "I have ten years experience in this field.",
+      "right": "I have ten years of experience in this field.",
+      "vi": "Cần có of sau years trong cấu trúc này."
+    },
+    {
+      "wrong": "I am responsible of helping clients.",
+      "right": "I am responsible for helping clients.",
+      "vi": "Responsible đi với giới từ for, không dùng of."
+    },
+    {
+      "wrong": "According to me, the problem is unclear goals.",
+      "right": "In my view, the problem is unclear goals.",
+      "vi": "In my view tự nhiên và trang trọng hơn khi nêu quan điểm cá nhân."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Người dẫn podcast",
+      "b": "Khách mời là người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Welcome to the show. For listeners meeting you for the first time, how would you describe what you do?",
+        "vi": "Chào mừng bạn đến với chương trình. Với những thính giả lần đầu biết đến bạn, bạn sẽ mô tả công việc của mình thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you for having me. I specialize in helping organizations turn complex problems into practical, user-centered solutions.",
+        "vi": "Cảm ơn vì đã mời tôi. Tôi chuyên giúp các tổ chức biến những vấn đề phức tạp thành các giải pháp thực tế, lấy người dùng làm trung tâm.",
+        "hint": "Mở đầu tự nhiên bằng Thank you for having me."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a broad and fascinating area. What drew you to it in the first place?",
+        "vi": "Đó là một lĩnh vực rộng và rất thú vị. Điều gì đã đưa bạn đến với lĩnh vực này từ đầu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I was drawn to the gap between good ideas and real-world execution. I became interested in the question of why promising initiatives sometimes fail to create meaningful change.",
+        "vi": "Tôi bị thu hút bởi khoảng cách giữa ý tưởng hay và việc triển khai trong thực tế. Tôi quan tâm đến câu hỏi vì sao những sáng kiến đầy hứa hẹn đôi khi lại không tạo ra thay đổi có ý nghĩa.",
+        "hint": "Dùng was drawn to để nói điều đã thu hút bạn trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "You often use the phrase user-centered. What does that mean in practice?",
+        "vi": "Bạn thường dùng cụm từ lấy người dùng làm trung tâm. Trên thực tế, điều đó có nghĩa là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "At its core, it means starting with people rather than assumptions. We look closely at what users are trying to achieve, where they get stuck, and what would genuinely make their lives easier.",
+        "vi": "Về bản chất, nó có nghĩa là bắt đầu từ con người thay vì các giả định. Chúng tôi xem kỹ người dùng đang cố đạt được điều gì, họ gặp khó ở đâu và điều gì thực sự có thể giúp cuộc sống của họ dễ dàng hơn.",
+        "hint": "Dùng At its core để giải thích bản chất của một khái niệm."
+      },
+      {
+        "speaker": "a",
+        "en": "Could you give us an example of that approach making a tangible difference?",
+        "vi": "Bạn có thể cho chúng tôi một ví dụ về việc cách tiếp cận đó tạo ra khác biệt cụ thể không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Certainly. In one project, the client assumed that customers needed more features. Our research showed that the real obstacle was a confusing first-time experience. By simplifying the initial steps, we improved adoption without adding a single new feature.",
+        "vi": "Chắc chắn rồi. Trong một dự án, khách hàng cho rằng người dùng cần thêm tính năng. Nghiên cứu của chúng tôi cho thấy trở ngại thực sự là trải nghiệm lần đầu gây khó hiểu. Bằng cách đơn giản hóa các bước ban đầu, chúng tôi đã cải thiện mức độ sử dụng mà không cần thêm một tính năng mới nào.",
+        "hint": "Dùng Our research showed that để dẫn bằng chứng thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "That brings a useful nuance to the conversation. What is one misconception you often encounter?",
+        "vi": "Điều đó mang đến một sắc thái hữu ích cho cuộc trao đổi. Một quan niệm sai lầm mà bạn thường gặp là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "One misconception I often encounter is that transformation is mainly about buying new technology. Technology can enable change, of course, but the harder work is aligning incentives, habits, and decision-making across the organization.",
+        "vi": "Một quan niệm sai lầm tôi thường gặp là chuyển đổi chủ yếu là mua công nghệ mới. Dĩ nhiên công nghệ có thể tạo điều kiện cho thay đổi, nhưng phần khó hơn là đồng bộ động lực, thói quen và cách ra quyết định trong toàn tổ chức.",
+        "hint": "Dùng can enable để thừa nhận một phần đúng trước khi nêu ý chính."
+      },
+      {
+        "speaker": "a",
+        "en": "What happens when the evidence points one way, but a senior stakeholder strongly prefers another direction?",
+        "vi": "Điều gì xảy ra khi bằng chứng chỉ theo một hướng, nhưng một bên liên quan cấp cao lại rất muốn đi theo hướng khác?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I try not to frame it as a battle between data and opinion. Instead, I make the assumptions visible, explain the risks, and suggest a small experiment. That gives everyone a way to test the idea without turning disagreement into a personal conflict.",
+        "vi": "Tôi cố gắng không xem đó là cuộc đối đầu giữa dữ liệu và ý kiến. Thay vào đó, tôi làm rõ các giả định, giải thích rủi ro và đề xuất một thử nghiệm nhỏ. Cách đó giúp mọi người kiểm chứng ý tưởng mà không biến bất đồng thành xung đột cá nhân.",
+        "hint": "Dùng Instead để chuyển sang cách làm bạn đề xuất."
+      },
+      {
+        "speaker": "a",
+        "en": "Every project involves trade-offs. How do you decide what to prioritize when time and resources are limited?",
+        "vi": "Mọi dự án đều có những đánh đổi. Bạn quyết định ưu tiên điều gì khi thời gian và nguồn lực có hạn như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I start by clarifying the outcome we are trying to create and for whom. The key is not to chase every possible improvement, but to identify the few decisions that will have the greatest effect. Then we weigh impact, feasibility, and what we would lose by delaying the work.",
+        "vi": "Tôi bắt đầu bằng việc làm rõ kết quả chúng tôi muốn tạo ra là gì và dành cho ai. Điều then chốt không phải là chạy theo mọi cải tiến có thể có, mà là xác định một vài quyết định sẽ tạo ảnh hưởng lớn nhất. Sau đó, chúng tôi cân nhắc tác động, tính khả thi và điều sẽ mất đi nếu trì hoãn công việc.",
+        "hint": "Dùng The key is not to..., but to... để nói về tiêu chí ưu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "For someone who wants to build credibility in your field, what would you encourage them to do?",
+        "vi": "Với một người muốn xây dựng uy tín trong lĩnh vực của bạn, bạn khuyến khích họ làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would encourage them to develop range without losing depth. Learn to listen carefully, understand the commercial context, and communicate clearly with people outside your specialty. Expertise matters, but trust is built when people see that you can connect the dots and make sound judgment calls.",
+        "vi": "Tôi khuyến khích họ phát triển sự đa dạng mà không đánh mất chiều sâu. Hãy học cách lắng nghe kỹ, hiểu bối cảnh kinh doanh và giao tiếp rõ ràng với những người ngoài chuyên môn của mình. Chuyên môn rất quan trọng, nhưng niềm tin được xây dựng khi mọi người thấy bạn có thể kết nối các điểm lại và đưa ra những nhận định vững vàng.",
+        "hint": "Dùng I would encourage them to để đưa lời khuyên trang trọng, không áp đặt."
+      },
+      {
+        "speaker": "a",
+        "en": "A final question before we wrap up. What is the one idea you hope listeners remember after this conversation?",
+        "vi": "Một câu hỏi cuối trước khi chúng ta kết thúc. Bạn mong thính giả nhớ một ý nào sau cuộc trò chuyện này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If listeners take one thing away, I hope it is that lasting progress rarely comes from a single brilliant solution. It comes from staying curious, testing assumptions, and doing the unglamorous work of making change useful for real people. Thank you for the conversation.",
+        "vi": "Nếu thính giả chỉ nhớ một điều, tôi hy vọng đó là tiến bộ bền vững hiếm khi đến từ một giải pháp xuất sắc duy nhất. Nó đến từ việc luôn tò mò, kiểm chứng các giả định và làm phần việc thầm lặng để biến thay đổi thành điều hữu ích cho con người thực tế. Cảm ơn vì cuộc trò chuyện.",
+        "hint": "Kết bài mạnh bằng If listeners take one thing away, I hope it is that..."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a thoughtful podcast host in a relaxed studio in Ho Chi Minh City. You interview a guest about their professional expertise with warmth, curiosity, and intelligent follow-up questions. Keep the tone polished but conversational, and invite specific examples when the guest makes a broad point.",
+    "opener": "Welcome to the show. It is great to have you here. To begin, how would you describe your area of expertise?",
+    "goal": "Người học giới thiệu chuyên môn, giải thích một cách tiếp cận đặc trưng, trả lời câu hỏi phản biện và chốt bằng một thông điệp chính."
+  },
+  "drills": [
+    {
+      "vi": "Tôi chuyên về chiến lược sản phẩm, đặc biệt tập trung vào nhu cầu của người dùng.",
+      "en": "I specialize in product strategy, with a particular focus on user needs.",
+      "alts": [
+        "My area of expertise is product strategy, especially user needs."
+      ]
+    },
+    {
+      "vi": "Về bản chất, công việc này là biến nghiên cứu thành những quyết định thực tế.",
+      "en": "At its core, this work is about translating research into practical decisions.",
+      "alts": [
+        "Essentially, the work means turning research into practical decisions."
+      ]
+    },
+    {
+      "vi": "Một quan niệm sai lầm thường gặp là công nghệ tự nó sẽ giải quyết vấn đề.",
+      "en": "One common misconception is that technology will solve the problem by itself.",
+      "alts": [
+        "People often assume that technology alone can solve the problem."
+      ]
+    },
+    {
+      "vi": "Điều then chốt không phải là thêm nhiều tính năng hơn, mà là đơn giản hóa trải nghiệm.",
+      "en": "The key is not to add more features, but to simplify the experience.",
+      "alts": [
+        "What matters is simplifying the experience rather than adding features."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ làm rõ các giả định trước khi phản biện quyết định đó.",
+      "en": "I would make the assumptions clear before pushing back on that decision.",
+      "alts": [
+        "Before I challenge that decision, I would clarify the assumptions."
+      ]
+    },
+    {
+      "vi": "Chúng tôi cân nhắc tác động, tính khả thi và các đánh đổi.",
+      "en": "We weigh impact, feasibility, and the trade-offs involved.",
+      "alts": [
+        "We consider impact, feasibility, and the trade-offs."
+      ]
+    },
+    {
+      "vi": "Nếu thính giả chỉ nhớ một điều, tôi hy vọng đó là sự tò mò dẫn đến quyết định tốt hơn.",
+      "en": "If listeners take one thing away, I hope it is that curiosity leads to better decisions.",
+      "alts": [
+        "My main takeaway is that curiosity leads to better decisions."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời cho ba câu hỏi đầu tiên và tự kiểm tra trọng âm của expertise, specialize và stakeholder.",
+    "Thay ví dụ dự án trong hội thoại bằng một tình huống thật thuộc chuyên môn của bạn.",
+    "Viết một câu kết podcast sử dụng mẫu If listeners take one thing away, I hope it is that..."
+  ]
+}

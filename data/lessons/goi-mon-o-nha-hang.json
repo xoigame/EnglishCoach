@@ -1,0 +1,269 @@
+{
+  "id": "goi-mon-o-nha-hang",
+  "title": "Gọi món ở nhà hàng",
+  "topic": "Gọi món ăn và đồ uống",
+  "level": "A1",
+  "summary": "Bạn gọi món ăn và đồ uống tại một nhà hàng bình dân. Bạn thực hành trả lời các câu hỏi cơ bản của nhân viên phục vụ.",
+  "goals": [
+    "Gọi một món ăn và đồ uống đơn giản",
+    "Hỏi xem thực đơn bằng cách lịch sự",
+    "Chọn cỡ đồ uống và kết thúc việc gọi món"
+  ],
+  "vocab": [
+    {
+      "en": "menu",
+      "ipa": "/ˈmenjuː/",
+      "vi": "thực đơn",
+      "example": "Can I see the menu, please?"
+    },
+    {
+      "en": "order",
+      "ipa": "/ˈɔːrdər/",
+      "vi": "gọi món; đơn gọi món",
+      "example": "Are you ready to order?"
+    },
+    {
+      "en": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "vi": "thịt gà; món gà",
+      "example": "I would like chicken, please."
+    },
+    {
+      "en": "rice",
+      "ipa": "/raɪs/",
+      "vi": "cơm",
+      "example": "Would you like rice?"
+    },
+    {
+      "en": "drink",
+      "ipa": "/drɪŋk/",
+      "vi": "đồ uống",
+      "example": "Anything to drink?"
+    },
+    {
+      "en": "orange juice",
+      "ipa": "/ˈɔːrɪndʒ dʒuːs/",
+      "vi": "nước cam",
+      "example": "I would like orange juice."
+    },
+    {
+      "en": "small",
+      "ipa": "/smɔːl/",
+      "vi": "nhỏ",
+      "example": "A small orange juice, please."
+    },
+    {
+      "en": "large",
+      "ipa": "/lɑːrdʒ/",
+      "vi": "lớn",
+      "example": "Small or large?"
+    },
+    {
+      "en": "meal",
+      "ipa": "/miːl/",
+      "vi": "bữa ăn; phần ăn",
+      "example": "Your meal is on the way."
+    },
+    {
+      "en": "bill",
+      "ipa": "/bɪl/",
+      "vi": "hóa đơn",
+      "example": "Can I have the bill, please?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like ___, please.",
+      "vi": "Tôi muốn ___, làm ơn.",
+      "note": "Dùng để gọi món một cách lịch sự."
+    },
+    {
+      "en": "Can I have ___, please?",
+      "vi": "Tôi có thể gọi/lấy ___ được không?",
+      "note": "Dùng cho món ăn, đồ uống hoặc hóa đơn."
+    },
+    {
+      "en": "Would you like ___?",
+      "vi": "Bạn có muốn ___ không?",
+      "note": "Nhân viên thường dùng mẫu này để hỏi lựa chọn."
+    },
+    {
+      "en": "Anything to drink?",
+      "vi": "Bạn có muốn uống gì không?",
+      "note": "Câu hỏi ngắn, tự nhiên tại nhà hàng."
+    },
+    {
+      "en": "Small or large?",
+      "vi": "Cỡ nhỏ hay cỡ lớn?",
+      "note": "Dùng khi chọn kích cỡ đồ uống."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /tʃ/",
+      "tip": "Âm đầu giống âm ch trong tiếng Việt nhưng bật hơi rõ hơn.",
+      "words": [
+        "chicken"
+      ]
+    },
+    {
+      "focus": "âm /dʒ/",
+      "tip": "Phát âm như âm gi trong từ giò, không đọc thành âm ch.",
+      "words": [
+        "juice",
+        "orange juice",
+        "large"
+      ]
+    },
+    {
+      "focus": "âm cuối /s/ và /l/",
+      "tip": "Phát âm nhẹ âm cuối, không bỏ qua âm s trong rice và âm l trong small.",
+      "words": [
+        "rice",
+        "small",
+        "bill"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want chicken.",
+      "right": "I would like chicken, please.",
+      "vi": "I want không sai ngữ pháp, nhưng I would like lịch sự và tự nhiên hơn khi gọi món."
+    },
+    {
+      "wrong": "Can I order a chicken?",
+      "right": "Can I have chicken, please?",
+      "vi": "Khi nói món thịt gà nói chung, dùng chicken không cần a."
+    },
+    {
+      "wrong": "I would like a orange juice.",
+      "right": "I would like an orange juice.",
+      "vi": "Dùng an trước orange vì từ này bắt đầu bằng nguyên âm."
+    },
+    {
+      "wrong": "Give me a menu.",
+      "right": "Can I see the menu, please?",
+      "vi": "Give me nghe ra lệnh; dùng Can I see lịch sự hơn với nhân viên."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên phục vụ",
+      "b": "Khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello. Are you ready to order?",
+        "vi": "Xin chào. Bạn sẵn sàng gọi món chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I would like chicken.",
+        "vi": "Vâng, tôi muốn món gà.",
+        "hint": "Dùng I would like để gọi món lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Would you like rice?",
+        "vi": "Tuyệt. Bạn có muốn cơm không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please. I want some rice.",
+        "vi": "Vâng, làm ơn. Tôi muốn một ít cơm.",
+        "hint": "Some dùng được với cơm vì rice không đếm được."
+      },
+      {
+        "speaker": "a",
+        "en": "Anything to drink with that?",
+        "vi": "Bạn có muốn uống gì kèm không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would like orange juice.",
+        "vi": "Tôi muốn nước cam.",
+        "hint": "Nói I would like rồi đến tên đồ uống."
+      },
+      {
+        "speaker": "a",
+        "en": "Small or large orange juice?",
+        "vi": "Nước cam cỡ nhỏ hay lớn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A small orange juice, please.",
+        "vi": "Cho tôi một ly nước cam nhỏ, làm ơn.",
+        "hint": "Đặt small trước orange juice."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Your meal is on the way.",
+        "vi": "Tuyệt. Phần ăn của bạn đang được mang ra.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you very much.",
+        "vi": "Cảm ơn bạn rất nhiều.",
+        "hint": "Bạn có thể kết thúc lịch sự bằng câu này."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly waiter in a casual restaurant. You help a customer order food and drinks with a warm, patient attitude.",
+    "opener": "Hello. Are you ready to order?",
+    "goal": "Người học gọi món gà, cơm và nước cam cỡ nhỏ một cách lịch sự."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn món gà, làm ơn.",
+      "en": "I would like chicken, please.",
+      "alts": [
+        "Can I have chicken, please?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể xem thực đơn không?",
+      "en": "Can I see the menu, please?",
+      "alts": []
+    },
+    {
+      "vi": "Bạn có muốn uống gì không?",
+      "en": "Would you like something to drink?",
+      "alts": [
+        "Anything to drink?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn một ly nước cam nhỏ.",
+      "en": "I would like a small orange juice.",
+      "alts": [
+        "Can I have a small orange juice, please?"
+      ]
+    },
+    {
+      "vi": "Cỡ nhỏ hay cỡ lớn?",
+      "en": "Small or large?",
+      "alts": []
+    },
+    {
+      "vi": "Tôi có thể lấy hóa đơn không?",
+      "en": "Can I have the bill, please?",
+      "alts": [
+        "Can I see the bill, please?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và nghe lại.",
+    "Tự thay chicken và orange juice bằng hai món bạn thích.",
+    "Đặt ba câu với mẫu I would like ___, please."
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": "di-taxi-va-grab",
+  "title": "Đi taxi và gọi xe công nghệ",
+  "topic": "Taxi và gọi xe công nghệ",
+  "level": "A2",
+  "summary": "Người học gặp tài xế Grab, xác nhận điểm đến và hỏi về tuyến đường, thời gian, thanh toán. Tình huống kết thúc khi xe đến nơi.",
+  "goals": [
+    "Xác nhận đúng tài xế và xe đã đặt",
+    "Nói điểm đến, hỏi thời gian và yêu cầu dừng dọc đường",
+    "Hỏi cách thanh toán qua ứng dụng"
+  ],
+  "vocab": [
+    {
+      "en": "Grab",
+      "ipa": "/ɡræb/",
+      "vi": "xe Grab, chuyến xe đặt qua Grab",
+      "example": "I booked a Grab from the hotel."
+    },
+    {
+      "en": "pickup point",
+      "ipa": "/ˈpɪkʌp pɔɪnt/",
+      "vi": "điểm đón",
+      "example": "My pickup point is in front of the hotel."
+    },
+    {
+      "en": "destination",
+      "ipa": "/ˌdestɪˈneɪʃən/",
+      "vi": "điểm đến",
+      "example": "What is your destination for this trip?"
+    },
+    {
+      "en": "route",
+      "ipa": "/ruːt/",
+      "vi": "tuyến đường",
+      "example": "We can take a faster route."
+    },
+    {
+      "en": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "vi": "giao thông, tình trạng kẹt xe",
+      "example": "Traffic is heavy near the market today."
+    },
+    {
+      "en": "fare",
+      "ipa": "/fer/",
+      "vi": "cước phí",
+      "example": "Your fare is shown in the app."
+    },
+    {
+      "en": "pay by card",
+      "ipa": "/peɪ baɪ kɑːrd/",
+      "vi": "thanh toán bằng thẻ",
+      "example": "Can I pay by card?"
+    },
+    {
+      "en": "through the app",
+      "ipa": "/θruː ði æp/",
+      "vi": "thông qua ứng dụng",
+      "example": "Payment goes through the app automatically."
+    },
+    {
+      "en": "on the way",
+      "ipa": "/ɑːn ðə weɪ/",
+      "vi": "trên đường đi",
+      "example": "Is there an ATM on the way?"
+    },
+    {
+      "en": "arrive",
+      "ipa": "/əˈraɪv/",
+      "vi": "đến nơi",
+      "example": "We will arrive in twenty minutes."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Are you ___?",
+      "vi": "Bạn có phải là ___ không?",
+      "note": "Dùng để xác nhận đúng hành khách hoặc tài xế."
+    },
+    {
+      "en": "Where would you like to go?",
+      "vi": "Bạn muốn đi đâu?",
+      "note": "Cách hỏi lịch sự và tự nhiên của tài xế."
+    },
+    {
+      "en": "I am going to ___.",
+      "vi": "Tôi đi đến ___.",
+      "note": "Dùng để nói điểm đến."
+    },
+    {
+      "en": "Could you stop at ___, please?",
+      "vi": "Bạn có thể dừng ở ___ được không?",
+      "note": "Dùng để nhờ tài xế dừng dọc đường một cách lịch sự."
+    },
+    {
+      "en": "How long will the trip take?",
+      "vi": "Chuyến đi sẽ mất bao lâu?",
+      "note": "Dùng will để hỏi thời gian dự kiến trong tương lai."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /æ/ trong Grab, traffic và app",
+      "tip": "Mở miệng rộng hơn âm e, phát âm ngắn và rõ; tránh đọc thành âm e.",
+      "words": [
+        "Grab",
+        "traffic",
+        "app"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong through",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm t.",
+      "words": [
+        "through",
+        "thank",
+        "three"
+      ]
+    },
+    {
+      "focus": "Phụ âm cuối trong card và app",
+      "tip": "Phát nhẹ âm cuối /d/ và /p/ để người nghe phân biệt rõ từ.",
+      "words": [
+        "card",
+        "app",
+        "route"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Where you go?",
+      "right": "Where are you going?",
+      "vi": "Câu hỏi hiện tại tiếp diễn cần động từ to be là are."
+    },
+    {
+      "wrong": "I go to Ben Thanh Market.",
+      "right": "I am going to Ben Thanh Market.",
+      "vi": "Khi nói về điểm đến của chuyến đi hiện tại, dùng am going to tự nhiên hơn."
+    },
+    {
+      "wrong": "Please stop me at an ATM.",
+      "right": "Could you stop at an ATM, please?",
+      "vi": "Không dùng stop me khi muốn yêu cầu xe dừng tại một địa điểm."
+    },
+    {
+      "wrong": "Can I pay by card in the app?",
+      "right": "Can I pay by card through the app?",
+      "vi": "Dùng through the app để nói thanh toán được xử lý qua ứng dụng."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Tài xế Grab",
+      "b": "Hành khách"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, are you Minh? I am your Grab driver.",
+        "vi": "Chào, bạn là Minh phải không? Tôi là tài xế Grab của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, that is me. Is this your car?",
+        "vi": "Vâng, là tôi. Đây là xe của bạn phải không?",
+        "hint": "Dùng That is me để xác nhận danh tính."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. Please get in. Where would you like to go?",
+        "vi": "Đúng rồi. Mời bạn lên xe. Bạn muốn đi đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am going to Ben Thanh Market, please.",
+        "vi": "Tôi đi đến chợ Bến Thành, làm ơn.",
+        "hint": "Dùng I am going to rồi nói địa điểm."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. Would you like the fastest route today?",
+        "vi": "Được. Hôm nay bạn muốn đi tuyến đường nhanh nhất chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please. How long will the trip take?",
+        "vi": "Vâng, làm ơn. Chuyến đi sẽ mất bao lâu?",
+        "hint": "Dùng How long will để hỏi thời gian dự kiến."
+      },
+      {
+        "speaker": "a",
+        "en": "It should take about twenty minutes with normal traffic.",
+        "vi": "Sẽ mất khoảng hai mươi phút nếu giao thông bình thường.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you stop at an ATM on the way?",
+        "vi": "Bạn có thể dừng ở một cây ATM trên đường đi không?",
+        "hint": "Dùng Could you để yêu cầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I know one near the market.",
+        "vi": "Tất nhiên. Tôi biết một cây gần chợ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Can I pay by card through the app?",
+        "vi": "Tuyệt. Tôi có thể thanh toán bằng thẻ qua ứng dụng không?",
+        "hint": "Nhớ dùng through the app, không dùng in the app."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. We have arrived, and payment goes through the app.",
+        "vi": "Được. Chúng ta đã đến nơi, và thanh toán được xử lý qua ứng dụng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. Thank you for the ride. Have a nice day.",
+        "vi": "Tuyệt. Cảm ơn bạn vì chuyến đi. Chúc bạn một ngày tốt lành.",
+        "hint": "Dùng Thank you for the ride để cảm ơn tài xế."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly Grab driver in Ho Chi Minh City. You have just picked up the passenger and speak slowly, clearly, and helpfully.",
+    "opener": "Hi, are you Minh? I am your Grab driver.",
+    "goal": "Người học xác nhận chuyến xe, nói điểm đến, yêu cầu dừng ở cây ATM và hỏi cách thanh toán."
+  },
+  "drills": [
+    {
+      "vi": "Tôi đã đặt một chuyến Grab từ khách sạn.",
+      "en": "I booked a Grab from the hotel.",
+      "alts": [
+        "I booked a car from the hotel."
+      ]
+    },
+    {
+      "vi": "Điểm đón của tôi ở trước khách sạn.",
+      "en": "My pickup point is in front of the hotel.",
+      "alts": [
+        "I am waiting in front of the hotel."
+      ]
+    },
+    {
+      "vi": "Bạn muốn đi đâu?",
+      "en": "Where would you like to go?",
+      "alts": [
+        "Where are you going?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể dừng ở một cây ATM trên đường đi không?",
+      "en": "Could you stop at an ATM on the way, please?",
+      "alts": [
+        "Can you stop at an ATM on the way?"
+      ]
+    },
+    {
+      "vi": "Chuyến đi sẽ mất bao lâu?",
+      "en": "How long will the trip take?",
+      "alts": [
+        "How long does the trip take?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể thanh toán bằng thẻ qua ứng dụng không?",
+      "en": "Can I pay by card through the app?",
+      "alts": [
+        "Can I use my card through the app?"
+      ]
+    },
+    {
+      "vi": "Chúng ta sẽ đến trong hai mươi phút.",
+      "en": "We will arrive in twenty minutes.",
+      "alts": [
+        "We should arrive in twenty minutes."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và nghe lại để sửa phát âm.",
+    "Đặt ba câu dùng mẫu Could you ___, please?",
+    "Tập nói điểm đón và điểm đến của một chuyến xe thực tế."
+  ]
+}

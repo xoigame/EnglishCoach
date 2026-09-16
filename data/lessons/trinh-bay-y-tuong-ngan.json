@@ -1,0 +1,312 @@
+{
+  "id": "trinh-bay-y-tuong-ngan",
+  "title": "Trình bày ý tưởng trong 3 phút và trả lời câu hỏi",
+  "topic": "Thuyết trình ý tưởng sản phẩm ngắn",
+  "level": "B1",
+  "summary": "Bạn trình bày một ý tưởng cải tiến ứng dụng học nói trong cuộc họp với Trưởng phòng sản phẩm. Sau phần trình bày, bạn trả lời các câu hỏi về lợi ích, số liệu và rủi ro.",
+  "goals": [
+    "Trình bày một ý tưởng rõ ràng trong khoảng ba phút",
+    "Giải thích vấn đề, giải pháp và lý do thuyết phục",
+    "Trả lời câu hỏi về cách đo lường thành công và rủi ro"
+  ],
+  "vocab": [
+    {
+      "en": "propose",
+      "ipa": "/prəˈpoʊz/",
+      "vi": "đề xuất",
+      "example": "I would like to propose a new speaking feature."
+    },
+    {
+      "en": "feature",
+      "ipa": "/ˈfiːtʃər/",
+      "vi": "tính năng",
+      "example": "This feature helps users practice every day."
+    },
+    {
+      "en": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "vi": "phản hồi",
+      "example": "Users receive useful feedback after each roleplay."
+    },
+    {
+      "en": "clarity",
+      "ipa": "/ˈklærəti/",
+      "vi": "sự rõ ràng",
+      "example": "The feedback focuses on clarity and grammar."
+    },
+    {
+      "en": "priority",
+      "ipa": "/praɪˈɔːrəti/",
+      "vi": "ưu tiên",
+      "example": "We should choose two priorities for improvement."
+    },
+    {
+      "en": "survey",
+      "ipa": "/ˈsɜːrveɪ/",
+      "vi": "khảo sát",
+      "example": "Our survey showed that users wanted shorter lessons."
+    },
+    {
+      "en": "completion rate",
+      "ipa": "/kəmˈpliːʃn reɪt/",
+      "vi": "tỷ lệ hoàn thành",
+      "example": "Completion rates can show whether the activity is engaging."
+    },
+    {
+      "en": "launch",
+      "ipa": "/lɔːntʃ/",
+      "vi": "ra mắt",
+      "example": "We plan to launch the pilot next month."
+    },
+    {
+      "en": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "vi": "bản thử nghiệm quy mô nhỏ",
+      "example": "Let us test the idea with a small pilot first."
+    },
+    {
+      "en": "technical limit",
+      "ipa": "/ˈteknɪkl ˈlɪmɪt/",
+      "vi": "giới hạn kỹ thuật",
+      "example": "Technical limits may affect the speed of feedback."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to propose ___.",
+      "vi": "Tôi muốn đề xuất ___.",
+      "note": "Dùng để mở đầu phần trình bày một cách chuyên nghiệp."
+    },
+    {
+      "en": "The problem is that ___.",
+      "vi": "Vấn đề là ___.",
+      "note": "Nêu vấn đề trước khi đưa ra giải pháp."
+    },
+    {
+      "en": "We could ___, so that ___.",
+      "vi": "Chúng ta có thể ___, để ___.",
+      "note": "Nối giải pháp với lợi ích cụ thể."
+    },
+    {
+      "en": "I would measure success by ___.",
+      "vi": "Tôi sẽ đo lường thành công bằng ___.",
+      "note": "Dùng khi trả lời câu hỏi về chỉ số đánh giá."
+    },
+    {
+      "en": "If ___, we could ___.",
+      "vi": "Nếu ___, chúng ta có thể ___.",
+      "note": "Dùng câu điều kiện để nói về rủi ro và phương án thay thế."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, không đọc thành âm /t/.",
+      "words": [
+        "three",
+        "think",
+        "month"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /k/ và /t/",
+      "tip": "Phát âm rõ phụ âm cuối, không thêm nguyên âm phía sau.",
+      "words": [
+        "feedback",
+        "instant",
+        "pilot"
+      ]
+    },
+    {
+      "focus": "trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết được in hoa để lời nói tự nhiên hơn.",
+      "words": [
+        "proPOSE",
+        "priORity",
+        "comPLEtion"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I propose a feature help users speak better.",
+      "right": "I propose a feature that helps users speak better.",
+      "vi": "Cần dùng that để nối mệnh đề, và feature số ít đi với helps."
+    },
+    {
+      "wrong": "We can to launch a pilot next month.",
+      "right": "We can launch a pilot next month.",
+      "vi": "Sau can dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "This solution will make users more confident.",
+      "right": "This solution will make users feel more confident.",
+      "vi": "More confident là tính từ; thêm feel giúp câu tự nhiên và đúng ý hơn."
+    },
+    {
+      "wrong": "I suggest to add instant feedback.",
+      "right": "I suggest adding instant feedback.",
+      "vi": "Sau suggest thường dùng động từ thêm ing."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Trưởng phòng sản phẩm",
+      "b": "Người trình bày ý tưởng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining. Please present your idea in three minutes, then I will ask questions.",
+        "vi": "Cảm ơn bạn đã tham gia. Hãy trình bày ý tưởng trong ba phút, sau đó tôi sẽ đặt câu hỏi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. I would like to propose a feature that helps users practice speaking every day.",
+        "vi": "Được. Tôi muốn đề xuất một tính năng giúp người dùng luyện nói mỗi ngày.",
+        "hint": "Mở đầu bằng I would like to propose."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds promising. Please explain the problem first, then tell me how your feature solves it.",
+        "vi": "Nghe có vẻ triển vọng. Hãy giải thích vấn đề trước, rồi cho tôi biết tính năng giải quyết nó thế nào.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Many users feel nervous speaking English because they do not receive quick, useful feedback.",
+        "vi": "Nhiều người dùng thấy lo lắng khi nói tiếng Anh vì họ không nhận được phản hồi nhanh và hữu ích.",
+        "hint": "Dùng because để nêu lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "What is your solution, and why would people choose it instead of our current lessons?",
+        "vi": "Giải pháp của bạn là gì, và vì sao mọi người sẽ chọn nó thay cho các bài học hiện tại?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The app would offer three-minute roleplays, followed by instant feedback on clarity, grammar, and confidence.",
+        "vi": "Ứng dụng sẽ cung cấp các hội thoại nhập vai ba phút, sau đó là phản hồi ngay về độ rõ ràng, ngữ pháp và sự tự tin.",
+        "hint": "Dùng would offer để mô tả tính năng đề xuất."
+      },
+      {
+        "speaker": "a",
+        "en": "How could we make the feedback helpful without overwhelming beginners or causing them to lose motivation?",
+        "vi": "Làm sao để phản hồi hữu ích mà không khiến người mới bắt đầu bị quá tải hoặc mất động lực?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We could highlight one strength and two priorities, so learners know exactly what to improve.",
+        "vi": "Chúng ta có thể nêu bật một điểm mạnh và hai ưu tiên, để người học biết chính xác điều cần cải thiện.",
+        "hint": "Dùng We could..., so... để nêu giải pháp và lợi ích."
+      },
+      {
+        "speaker": "a",
+        "en": "What evidence suggests users would return often enough for this feature to be worth building?",
+        "vi": "Bằng chứng nào cho thấy người dùng sẽ quay lại đủ thường xuyên để tính năng này đáng được xây dựng?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "In our recent survey, busy learners requested short practice sessions they could finish during breaks.",
+        "vi": "Trong khảo sát gần đây, những người học bận rộn đã yêu cầu các buổi luyện tập ngắn mà họ có thể hoàn thành trong giờ nghỉ.",
+        "hint": "Dẫn chứng bằng In our recent survey."
+      },
+      {
+        "speaker": "a",
+        "en": "Good point. How would you measure success after launch, and what risks should we watch?",
+        "vi": "Ý hay. Bạn sẽ đo lường thành công sau khi ra mắt thế nào, và chúng ta nên theo dõi rủi ro nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would track weekly speaking sessions and completion rates, while testing whether feedback feels supportive.",
+        "vi": "Tôi sẽ theo dõi số buổi luyện nói hằng tuần và tỷ lệ hoàn thành, đồng thời kiểm tra xem phản hồi có tạo cảm giác hỗ trợ không.",
+        "hint": "Dùng I would track để nói về chỉ số cần theo dõi."
+      },
+      {
+        "speaker": "a",
+        "en": "If technical limits delayed instant feedback, what smaller version could we release first?",
+        "vi": "Nếu giới hạn kỹ thuật làm chậm phản hồi tức thì, chúng ta có thể ra mắt phiên bản nhỏ hơn nào trước?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We could begin with recorded prompts and simple pronunciation scores, then add personalized feedback later.",
+        "vi": "Chúng ta có thể bắt đầu với câu nhắc được ghi âm và điểm phát âm đơn giản, rồi thêm phản hồi cá nhân hóa sau.",
+        "hint": "Dùng We could begin with để đề xuất phương án thử nghiệm."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. Your proposal is clear, practical, and well supported. Let us plan a small pilot next month.",
+        "vi": "Cảm ơn bạn. Đề xuất của bạn rõ ràng, thực tế và có cơ sở tốt. Chúng ta hãy lên kế hoạch thử nghiệm quy mô nhỏ vào tháng tới.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a supportive product manager at an education technology company in Ho Chi Minh City. You are leading a product meeting and ask practical, thoughtful follow-up questions about the learner's idea.",
+    "opener": "Thanks for joining. Please present your idea in three minutes, then I will ask questions.",
+    "goal": "Người học trình bày một ý tưởng sản phẩm, đưa ra lý do và trả lời câu hỏi phản biện."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn đề xuất một tính năng mới cho người học bận rộn.",
+      "en": "I would like to propose a new feature for busy learners.",
+      "alts": [
+        "I would like to propose a feature for busy learners."
+      ]
+    },
+    {
+      "vi": "Vấn đề là người dùng không nhận được phản hồi nhanh.",
+      "en": "The problem is that users do not receive quick feedback.",
+      "alts": [
+        "The problem is that users do not get feedback quickly."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể thêm các hội thoại nhập vai ngắn để người học luyện tập hằng ngày.",
+      "en": "We could add short roleplays so that learners can practice every day.",
+      "alts": [
+        "We could offer short roleplays to help learners practice daily."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ đo lường thành công bằng tỷ lệ hoàn thành.",
+      "en": "I would measure success by completion rates.",
+      "alts": [
+        "I would track completion rates to measure success."
+      ]
+    },
+    {
+      "vi": "Khảo sát cho thấy người học muốn các buổi luyện tập ngắn.",
+      "en": "The survey showed that learners wanted short practice sessions.",
+      "alts": [
+        "Our survey showed that learners wanted shorter practice sessions."
+      ]
+    },
+    {
+      "vi": "Nếu phản hồi tức thì quá khó, chúng ta có thể ra mắt một bản thử nghiệm nhỏ.",
+      "en": "If instant feedback is too difficult, we could launch a small pilot.",
+      "alts": [
+        "If instant feedback is difficult to build, we could start with a small pilot."
+      ]
+    },
+    {
+      "vi": "Sau đó, chúng ta có thể thêm phản hồi cá nhân hóa.",
+      "en": "Then we could add personalized feedback.",
+      "alts": [
+        "We could add personalized feedback later."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trình bày ý tưởng dài khoảng ba phút của bạn.",
+    "Viết ba câu trả lời cho các câu hỏi về số liệu, rủi ro và bản thử nghiệm.",
+    "Dùng ít nhất năm từ vựng của bài để mô tả một ý tưởng khác."
+  ]
+}

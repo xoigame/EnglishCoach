@@ -1,0 +1,312 @@
+{
+  "id": "phan-nan-va-khieu-nai",
+  "title": "Phàn nàn về dịch vụ và yêu cầu bồi thường",
+  "topic": "Khiếu nại dịch vụ giao hàng",
+  "level": "B1",
+  "summary": "Người học phàn nàn với quản lý cửa hàng về đơn hàng giao trễ và bị hư hỏng. Bài học tập trung vào cách nói lịch sự nhưng dứt khoát để yêu cầu hoàn tiền hoặc bồi thường.",
+  "goals": [
+    "Phàn nàn về một dịch vụ bằng giọng điệu lịch sự, rõ ràng.",
+    "Nêu lý do, mức độ bất tiện và yêu cầu bồi thường phù hợp.",
+    "Thương lượng để nhận hoàn tiền cho sản phẩm và phí giao hàng."
+  ],
+  "vocab": [
+    {
+      "en": "complaint",
+      "ipa": "/kəmˈpleɪnt/",
+      "vi": "lời phàn nàn, khiếu nại",
+      "example": "I would like to make a complaint about the delivery service."
+    },
+    {
+      "en": "damaged",
+      "ipa": "/ˈdæmɪdʒd/",
+      "vi": "bị hư hỏng",
+      "example": "The package was badly damaged when it arrived."
+    },
+    {
+      "en": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "vi": "hoàn tiền",
+      "example": "Could you give me a full refund, please?"
+    },
+    {
+      "en": "compensation",
+      "ipa": "/ˌkɑːmpənˈseɪʃən/",
+      "vi": "khoản bồi thường",
+      "example": "I believe some compensation would be fair."
+    },
+    {
+      "en": "delivery charge",
+      "ipa": "/dɪˈlɪvəri tʃɑːrdʒ/",
+      "vi": "phí giao hàng",
+      "example": "I would also like the delivery charge refunded."
+    },
+    {
+      "en": "inconvenience",
+      "ipa": "/ˌɪnkənˈviːniəns/",
+      "vi": "sự bất tiện",
+      "example": "The delay caused a lot of inconvenience."
+    },
+    {
+      "en": "unusable",
+      "ipa": "/ʌnˈjuːzəbəl/",
+      "vi": "không thể sử dụng được",
+      "example": "The item is unusable because it was damaged."
+    },
+    {
+      "en": "express delivery",
+      "ipa": "/ɪkˈspres dɪˈlɪvəri/",
+      "vi": "giao hàng nhanh",
+      "example": "I paid extra for express delivery."
+    },
+    {
+      "en": "written confirmation",
+      "ipa": "/ˈrɪtn ˌkɑːnfərˈmeɪʃən/",
+      "vi": "xác nhận bằng văn bản",
+      "example": "Please send me written confirmation by email."
+    },
+    {
+      "en": "process",
+      "ipa": "/ˈprɑːses/",
+      "vi": "xử lý",
+      "example": "I will process your refund today."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I'd like to make a complaint about ___.",
+      "vi": "Tôi muốn khiếu nại về ___.",
+      "note": "Mở đầu lịch sự, phù hợp khi trao đổi với nhân viên hoặc quản lý."
+    },
+    {
+      "en": "I'm disappointed with ___ because ___.",
+      "vi": "Tôi thất vọng về ___ vì ___.",
+      "note": "Nêu cảm xúc và lý do cụ thể mà không quá gay gắt."
+    },
+    {
+      "en": "Could you look into this, please?",
+      "vi": "Bạn có thể xem xét việc này được không?",
+      "note": "Dùng để yêu cầu họ kiểm tra vấn đề một cách lịch sự."
+    },
+    {
+      "en": "Given ___, I think ___ would be fair.",
+      "vi": "Xét đến ___, tôi nghĩ ___ sẽ là hợp lý.",
+      "note": "Mẫu câu dứt khoát để đề xuất mức bồi thường."
+    },
+    {
+      "en": "I would prefer ___ instead of ___.",
+      "vi": "Tôi muốn ___ thay vì ___.",
+      "note": "Dùng khi muốn từ chối phương án được đưa ra và nêu lựa chọn khác."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối trong damaged",
+      "tip": "Phát âm đủ cụm âm cuối /dʒd/, không bỏ mất âm cuối như dam-age.",
+      "words": [
+        "damaged",
+        "packaged",
+        "charged"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong compensation",
+      "tip": "Nhấn mạnh âm thứ tư, seɪ: com pen SA tion.",
+      "words": [
+        "compensation",
+        "confirmation",
+        "inconvenience"
+      ]
+    },
+    {
+      "focus": "Âm /r/ trong refund và delivery",
+      "tip": "Cuộn nhẹ đầu lưỡi, không rung mạnh như âm r tiếng Việt.",
+      "words": [
+        "refund",
+        "driver",
+        "delivery"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want complain about the service.",
+      "right": "I'd like to complain about the service.",
+      "vi": "Sau want cần có to, nhưng I'd like lịch sự hơn khi khiếu nại."
+    },
+    {
+      "wrong": "My package was damage.",
+      "right": "My package was damaged.",
+      "vi": "Sau was dùng quá khứ phân từ damaged để nói đồ vật bị hư hỏng."
+    },
+    {
+      "wrong": "They delivered late two hours.",
+      "right": "They delivered it two hours late.",
+      "vi": "Cần có tân ngữ it và đặt khoảng thời gian trước late."
+    },
+    {
+      "wrong": "Could you give me compensate?",
+      "right": "Could you offer me compensation?",
+      "vi": "Compensate là động từ; compensation là danh từ chỉ khoản bồi thường."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý cửa hàng",
+      "b": "Khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good afternoon. I understand you asked to speak with the store manager.",
+        "vi": "Chào buổi chiều. Tôi được biết bạn muốn gặp quản lý cửa hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am disappointed with the delivery service I received yesterday.",
+        "vi": "Vâng, tôi thất vọng về dịch vụ giao hàng mà tôi nhận được hôm qua.",
+        "hint": "Dùng I am disappointed with để mở đầu lời phàn nàn lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry to hear that. Could you explain what happened with your order?",
+        "vi": "Tôi rất tiếc khi nghe điều đó. Bạn có thể giải thích chuyện gì đã xảy ra với đơn hàng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The driver arrived two hours late, and the package was badly damaged.",
+        "vi": "Tài xế đến trễ hai tiếng, và kiện hàng bị hư hỏng nặng.",
+        "hint": "Dùng was damaged để mô tả đồ vật bị hư hỏng."
+      },
+      {
+        "speaker": "a",
+        "en": "That certainly should not have happened. Do you have photos of the damage?",
+        "vi": "Điều đó chắc chắn không nên xảy ra. Bạn có ảnh chụp hư hỏng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I took pictures because the box was crushed when it arrived.",
+        "vi": "Có, tôi đã chụp ảnh vì cái hộp bị móp nát khi nó đến nơi.",
+        "hint": "Dùng because để giải thích lý do bạn đã chụp ảnh."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Since the item is unusable, I can offer a full refund.",
+        "vi": "Cảm ơn bạn. Vì sản phẩm không thể sử dụng được, tôi có thể hoàn tiền toàn bộ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate that, but I also paid extra for express delivery.",
+        "vi": "Tôi cảm kích điều đó, nhưng tôi cũng đã trả thêm tiền cho giao hàng nhanh.",
+        "hint": "Dùng I appreciate that, but để đồng ý một phần rồi nêu vấn đề còn lại."
+      },
+      {
+        "speaker": "a",
+        "en": "You are right, and the service did not meet the promised delivery time.",
+        "vi": "Bạn nói đúng, và dịch vụ đã không đáp ứng thời gian giao hàng đã cam kết.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you refund the delivery charge as well, given the inconvenience?",
+        "vi": "Bạn có thể hoàn cả phí giao hàng không, xét đến sự bất tiện này?",
+        "hint": "Given the inconvenience giúp yêu cầu nghe có lý và vẫn dứt khoát."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, I can refund that charge and add a discount for next time.",
+        "vi": "Được, tôi có thể hoàn khoản phí đó và thêm một mã giảm giá cho lần sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you, but I would prefer compensation instead of a future discount.",
+        "vi": "Cảm ơn, nhưng tôi muốn nhận bồi thường thay vì giảm giá cho lần sau.",
+        "hint": "Dùng I would prefer để từ chối đề xuất một cách lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand. I will process the full refund and delivery charge today.",
+        "vi": "Tôi hiểu. Hôm nay tôi sẽ xử lý hoàn tiền toàn bộ và phí giao hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds fair. Please send written confirmation when the refund has been processed.",
+        "vi": "Như vậy là hợp lý. Vui lòng gửi xác nhận bằng văn bản khi việc hoàn tiền được xử lý.",
+        "hint": "Dùng Please send written confirmation để yêu cầu bằng chứng rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "I will email confirmation today. The refund will appear within three business days.",
+        "vi": "Hôm nay tôi sẽ gửi xác nhận qua email. Tiền hoàn sẽ hiển thị trong vòng ba ngày làm việc.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, professional store manager at an electronics shop. You listen carefully, apologize when appropriate, check the details, and offer fair solutions without becoming defensive.",
+    "opener": "Good afternoon. I understand you have a problem with a recent delivery. How can I help?",
+    "goal": "Người học phàn nàn về giao hàng trễ và hàng hư hỏng, sau đó yêu cầu hoàn tiền và bồi thường hợp lý."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn khiếu nại về dịch vụ giao hàng.",
+      "en": "I'd like to make a complaint about the delivery service.",
+      "alts": [
+        "I would like to complain about the delivery service."
+      ]
+    },
+    {
+      "vi": "Tôi thất vọng vì đơn hàng đến quá trễ.",
+      "en": "I'm disappointed because my order arrived too late.",
+      "alts": [
+        "I am disappointed with the late delivery."
+      ]
+    },
+    {
+      "vi": "Bạn có thể xem xét vấn đề này không?",
+      "en": "Could you look into this issue, please?",
+      "alts": [
+        "Could you check what happened, please?"
+      ]
+    },
+    {
+      "vi": "Kiện hàng đã bị hư hỏng khi đến nơi.",
+      "en": "The package was damaged when it arrived.",
+      "alts": [
+        "My package arrived damaged."
+      ]
+    },
+    {
+      "vi": "Tôi đã trả thêm tiền cho giao hàng nhanh.",
+      "en": "I paid extra for express delivery.",
+      "alts": [
+        "I also paid an extra delivery charge."
+      ]
+    },
+    {
+      "vi": "Xét đến sự bất tiện này, tôi nghĩ hoàn tiền là hợp lý.",
+      "en": "Given the inconvenience, I think a refund would be fair.",
+      "alts": [
+        "I believe a refund would be fair given the delay."
+      ]
+    },
+    {
+      "vi": "Tôi muốn nhận bồi thường thay vì mã giảm giá.",
+      "en": "I would prefer compensation instead of a discount.",
+      "alts": [
+        "I would rather receive compensation than a future discount."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý phát âm damaged, compensation và refund.",
+    "Viết một đoạn khiếu nại 5 câu về một dịch vụ giao hàng bị trễ.",
+    "Tự nói ba cách lịch sự để yêu cầu hoàn tiền hoặc bồi thường."
+  ]
+}

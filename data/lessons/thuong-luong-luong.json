@@ -1,0 +1,318 @@
+{
+  "id": "thuong-luong-luong",
+  "title": "Thương lượng lương và phúc lợi",
+  "topic": "Đàm phán lương khi nhận việc",
+  "level": "B2",
+  "summary": "Bạn vừa nhận được đề nghị cho một vị trí mới và trao đổi với nhà tuyển dụng cấp cao về mức lương, thưởng và các phúc lợi. Bạn học cách nêu giá trị của mình, phản hồi một đề nghị và đi đến thỏa thuận chuyên nghiệp.",
+  "goals": [
+    "Nêu kỳ vọng lương một cách tự tin và lịch sự",
+    "Thương lượng về lương, thưởng và phúc lợi bằng lập luận cụ thể",
+    "Chốt thỏa thuận và xác nhận các bước tiếp theo"
+  ],
+  "vocab": [
+    {
+      "en": "base salary",
+      "ipa": "/beɪs ˈsæləri/",
+      "vi": "lương cơ bản",
+      "example": "The base salary is lower than I expected."
+    },
+    {
+      "en": "compensation package",
+      "ipa": "/ˌkɑːmpənˈseɪʃən ˈpækɪdʒ/",
+      "vi": "gói đãi ngộ tổng thể",
+      "example": "Could we discuss the full compensation package?"
+    },
+    {
+      "en": "signing bonus",
+      "ipa": "/ˈsaɪnɪŋ ˈboʊnəs/",
+      "vi": "thưởng khi nhận việc",
+      "example": "Would a signing bonus be possible?"
+    },
+    {
+      "en": "annual bonus",
+      "ipa": "/ˈænjuəl ˈboʊnəs/",
+      "vi": "thưởng hằng năm",
+      "example": "The annual bonus depends on company performance."
+    },
+    {
+      "en": "equity",
+      "ipa": "/ˈekwəti/",
+      "vi": "cổ phần hoặc quyền sở hữu cổ phần",
+      "example": "The offer includes equity after the first year."
+    },
+    {
+      "en": "counteroffer",
+      "ipa": "/ˈkaʊntərˌɔːfər/",
+      "vi": "đề nghị phản hồi với điều kiện khác",
+      "example": "I would like to make a counteroffer."
+    },
+    {
+      "en": "market rate",
+      "ipa": "/ˈmɑːrkɪt reɪt/",
+      "vi": "mức lương phổ biến trên thị trường",
+      "example": "My target is in line with the market rate."
+    },
+    {
+      "en": "flexible working arrangement",
+      "ipa": "/ˈfleksəbəl ˈwɜːrkɪŋ əˈreɪndʒmənt/",
+      "vi": "hình thức làm việc linh hoạt",
+      "example": "A flexible working arrangement is important to me."
+    },
+    {
+      "en": "paid time off",
+      "ipa": "/peɪd taɪm ɔːf/",
+      "vi": "ngày nghỉ có lương",
+      "example": "How much paid time off does the role include?"
+    },
+    {
+      "en": "meet someone halfway",
+      "ipa": "/miːt ˈsʌmwʌn ˌhæfˈweɪ/",
+      "vi": "nhượng bộ để đạt điểm chung",
+      "example": "I hope we can meet somewhere halfway."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I appreciate the offer. Could we discuss the compensation package in more detail?",
+      "vi": "Tôi cảm kích đề nghị này. Chúng ta có thể trao đổi chi tiết hơn về gói đãi ngộ không?",
+      "note": "Mở đầu tích cực trước khi chuyển sang thương lượng."
+    },
+    {
+      "en": "Based on my experience and the market rate, I was hoping for ___.",
+      "vi": "Dựa trên kinh nghiệm của tôi và mức thị trường, tôi kỳ vọng ___.",
+      "note": "Dùng để đưa ra con số có căn cứ thay vì chỉ nói mong muốn cá nhân."
+    },
+    {
+      "en": "Would there be any flexibility on the base salary?",
+      "vi": "Mức lương cơ bản có thể linh hoạt thêm không?",
+      "note": "Câu hỏi mềm, lịch sự và phù hợp trong phỏng vấn."
+    },
+    {
+      "en": "If the salary cannot move, would you consider ___ instead?",
+      "vi": "Nếu lương không thể tăng, anh chị có thể cân nhắc ___ thay thế không?",
+      "note": "Dùng để thương lượng thưởng, ngày nghỉ, làm việc linh hoạt hoặc cổ phần."
+    },
+    {
+      "en": "If we can agree on ___, I would be happy to accept the offer.",
+      "vi": "Nếu chúng ta có thể thống nhất về ___, tôi sẽ vui lòng nhận lời đề nghị.",
+      "note": "Dùng để chốt điều kiện rõ ràng mà vẫn chuyên nghiệp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong compensation và negotiation",
+      "tip": "Nhấn mạnh âm seɪ trong compensation và âm eɪ trong negotiation; không đọc đều từng âm tiết.",
+      "words": [
+        "compensation",
+        "negotiation",
+        "arrangement"
+      ]
+    },
+    {
+      "focus": "âm cuối /s/ và /z/",
+      "tip": "Phát âm rõ âm cuối để tránh mất nghĩa, đặc biệt trong offers và benefits.",
+      "words": [
+        "offers",
+        "benefits",
+        "years"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /ks/ trong flexible",
+      "tip": "Nói nhanh nhưng tách rõ flek rồi sờ bồ; tránh đọc thành fe-li-si-bồ.",
+      "words": [
+        "flexible",
+        "expected",
+        "experience"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My expected salary is 3,000 dollars.",
+      "right": "My salary expectation is 3,000 dollars.",
+      "vi": "Expected là tính từ; dùng salary expectation hoặc I am expecting để diễn đạt kỳ vọng."
+    },
+    {
+      "wrong": "Can you increase the salary for me?",
+      "right": "Would there be any flexibility on the base salary?",
+      "vi": "Câu sai không hẳn ngữ pháp nhưng quá trực tiếp; câu đúng tự nhiên và lịch sự hơn khi thương lượng."
+    },
+    {
+      "wrong": "I have five years experience in this field.",
+      "right": "I have five years of experience in this field.",
+      "vi": "Cần có of sau years."
+    },
+    {
+      "wrong": "I want more benefit.",
+      "right": "I would like to discuss the benefits package.",
+      "vi": "Benefit thường cần số nhiều khi nói về phúc lợi; would like lịch sự hơn want."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Nhà tuyển dụng cấp cao",
+      "b": "Ứng viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thank you for meeting with me today. We are very impressed with your background, and we would like to offer you the Senior Account Manager role.",
+        "vi": "Cảm ơn bạn đã gặp tôi hôm nay. Chúng tôi rất ấn tượng với kinh nghiệm của bạn và muốn đề nghị bạn vị trí Quản lý Khách hàng Cấp cao.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am excited about the role and the chance to work with the team.",
+        "vi": "Cảm ơn anh chị. Tôi rất hào hứng với vị trí này và cơ hội làm việc cùng đội ngũ.",
+        "hint": "Mở đầu bằng sự tích cực trước khi nói về lương."
+      },
+      {
+        "speaker": "a",
+        "en": "The offer includes a base salary of 3,200 dollars per month, plus an annual performance bonus.",
+        "vi": "Đề nghị gồm lương cơ bản 3.200 đô la mỗi tháng, cộng với thưởng hiệu suất hằng năm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate the offer. Could we discuss the compensation package in a little more detail?",
+        "vi": "Tôi cảm kích đề nghị này. Chúng ta có thể trao đổi chi tiết hơn một chút về gói đãi ngộ không?",
+        "hint": "Dùng appreciate the offer để giữ giọng điệu tích cực."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. The annual bonus can be up to fifteen percent of your base salary, depending on individual and company performance.",
+        "vi": "Tất nhiên. Thưởng hằng năm có thể lên đến mười lăm phần trăm lương cơ bản, tùy vào hiệu suất cá nhân và công ty.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds reasonable. Based on my six years of experience and the market rate for similar roles, I was hoping for a base salary closer to 3,700 dollars.",
+        "vi": "Nghe hợp lý. Dựa trên sáu năm kinh nghiệm của tôi và mức thị trường cho các vị trí tương tự, tôi kỳ vọng mức lương cơ bản gần 3.700 đô la hơn.",
+        "hint": "Nêu kinh nghiệm và mức thị trường trước khi đưa ra con số."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand where you are coming from. Our approved range for this role tops out at 3,400 dollars, so 3,700 would be difficult for us.",
+        "vi": "Tôi hiểu quan điểm của bạn. Khung lương đã được phê duyệt cho vị trí này tối đa là 3.400 đô la, nên 3.700 sẽ khá khó với chúng tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand there may be limits. Would there be any flexibility on the base salary, given that I would be managing several key client accounts from day one?",
+        "vi": "Tôi hiểu rằng có thể có những giới hạn. Mức lương cơ bản có thể linh hoạt thêm không, xét đến việc tôi sẽ quản lý một số khách hàng quan trọng ngay từ ngày đầu?",
+        "hint": "Dùng given that để đưa lý do thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "Your point is fair. I may be able to get approval for 3,500 dollars, but I would need to check with our finance director.",
+        "vi": "Ý của bạn hợp lý. Tôi có thể xin phê duyệt mức 3.500 đô la, nhưng cần trao đổi với giám đốc tài chính.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate that. If the salary cannot move beyond 3,500 dollars, would you consider a signing bonus or additional paid time off instead?",
+        "vi": "Tôi cảm kích điều đó. Nếu lương không thể tăng quá 3.500 đô la, anh chị có thể cân nhắc thưởng nhận việc hoặc thêm ngày nghỉ có lương thay thế không?",
+        "hint": "Đưa ra phương án thay thế thay vì chỉ lặp lại yêu cầu tăng lương."
+      },
+      {
+        "speaker": "a",
+        "en": "We do not usually offer signing bonuses for this level, but we could consider three additional days of paid time off and a flexible working arrangement after your probation period.",
+        "vi": "Chúng tôi thường không có thưởng nhận việc cho cấp bậc này, nhưng có thể cân nhắc thêm ba ngày nghỉ có lương và hình thức làm việc linh hoạt sau thời gian thử việc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That would help. I also value long-term growth, so could you clarify whether the role includes equity or a salary review after the first year?",
+        "vi": "Điều đó sẽ hữu ích. Tôi cũng coi trọng sự phát triển dài hạn, nên anh chị có thể làm rõ liệu vị trí này có cổ phần hoặc xét tăng lương sau năm đầu tiên không?",
+        "hint": "Chuyển sang lợi ích dài hạn để cuộc thương lượng toàn diện hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "There is no equity for this position, but we conduct a formal salary review after twelve months. High performers are eligible for an adjustment of up to ten percent.",
+        "vi": "Vị trí này không có cổ phần, nhưng chúng tôi có đợt xét lương chính thức sau mười hai tháng. Nhân viên có hiệu suất cao có thể được điều chỉnh tăng tối đa mười phần trăm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you for explaining that. If we can agree on 3,500 dollars, the additional paid time off, and a written salary review after twelve months, I would be happy to accept the offer.",
+        "vi": "Cảm ơn anh chị đã giải thích. Nếu chúng ta có thể thống nhất mức 3.500 đô la, ngày nghỉ có lương bổ sung và cam kết xét lương bằng văn bản sau mười hai tháng, tôi sẽ vui lòng nhận lời đề nghị.",
+        "hint": "Tóm tắt rõ các điều kiện cuối cùng để chốt thỏa thuận."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a fair request. I can confirm those terms, and I will have the revised offer sent to you by tomorrow morning.",
+        "vi": "Đó là một đề nghị hợp lý. Tôi có thể xác nhận các điều khoản đó và sẽ gửi đề nghị đã điều chỉnh cho bạn trước sáng mai.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds great. I am pleased we could meet halfway, and I look forward to reviewing the written offer.",
+        "vi": "Thật tuyệt. Tôi rất vui vì chúng ta đã tìm được điểm chung và mong được xem đề nghị bằng văn bản.",
+        "hint": "Meet halfway nghĩa là cả hai bên cùng nhượng bộ để đạt thỏa thuận."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior hiring manager at a growing technology company in Ho Chi Minh City. You are professional, direct, and respectful. You have made the candidate an offer and are willing to negotiate within a realistic budget.",
+    "opener": "Thank you for joining me today. We are pleased to offer you the Senior Account Manager position. Shall we go over the compensation package?",
+    "goal": "Người học thương lượng lương và ít nhất một phúc lợi, sau đó chốt được một thỏa thuận rõ ràng."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cảm kích đề nghị này, nhưng tôi muốn trao đổi về gói đãi ngộ.",
+      "en": "I appreciate the offer, but I would like to discuss the compensation package.",
+      "alts": [
+        "Thank you for the offer. Could we discuss the compensation package?"
+      ]
+    },
+    {
+      "vi": "Dựa trên kinh nghiệm của tôi, tôi kỳ vọng mức lương gần 3.500 đô la.",
+      "en": "Based on my experience, I was hoping for a salary closer to 3,500 dollars.",
+      "alts": [
+        "Given my experience, I was aiming for a salary of around 3,500 dollars."
+      ]
+    },
+    {
+      "vi": "Mức lương cơ bản có thể linh hoạt thêm không?",
+      "en": "Would there be any flexibility on the base salary?",
+      "alts": [
+        "Is there any room to negotiate the base salary?"
+      ]
+    },
+    {
+      "vi": "Nếu lương không thể tăng, anh chị có thể cân nhắc thêm ngày nghỉ có lương không?",
+      "en": "If the salary cannot move, would you consider additional paid time off?",
+      "alts": [
+        "If the base salary is fixed, could we discuss more paid time off?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn biết liệu vị trí này có thưởng hằng năm không.",
+      "en": "I would like to know whether this position includes an annual bonus.",
+      "alts": [
+        "Could you tell me if there is an annual bonus?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta thống nhất những điều khoản này, tôi sẽ vui lòng nhận lời đề nghị.",
+      "en": "If we can agree on these terms, I would be happy to accept the offer.",
+      "alts": [
+        "I would be pleased to accept if we can reach an agreement on these terms."
+      ]
+    },
+    {
+      "vi": "Tôi rất vui vì chúng ta đã tìm được điểm chung.",
+      "en": "I am glad we were able to meet halfway.",
+      "alts": [
+        "I am pleased that we found a middle ground."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý nhấn trọng âm trong compensation, negotiation và flexible.",
+    "Viết một đề nghị phản hồi gồm mức lương mong muốn, một lý do dựa trên kinh nghiệm và một phúc lợi thay thế.",
+    "Tự đóng vai trong hai phút: thương lượng lương nhưng chỉ được dùng giọng điệu lịch sự và chuyên nghiệp."
+  ]
+}

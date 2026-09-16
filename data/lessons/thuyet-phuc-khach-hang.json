@@ -1,0 +1,324 @@
+{
+  "id": "thuyet-phuc-khach-hang",
+  "title": "Thuyết phục khách hàng chọn giải pháp của bạn",
+  "topic": "Tư vấn và thuyết phục khách hàng",
+  "level": "B2",
+  "summary": "Bạn giới thiệu một giải pháp quản lý dự án cho khách hàng đang phân vân giữa việc đổi hệ thống và tiếp tục dùng công cụ cũ. Mục tiêu là xử lý băn khoăn về chi phí, triển khai và rủi ro để đi đến một bước tiếp theo rõ ràng.",
+  "goals": [
+    "Trình bày lợi ích của giải pháp theo nhu cầu thực tế của khách hàng.",
+    "Xử lý phản đối về giá, thời gian triển khai và rủi ro thay đổi.",
+    "Đề xuất bước tiếp theo một cách tự tin nhưng không gây áp lực."
+  ],
+  "vocab": [
+    {
+      "en": "pain point",
+      "ipa": "/ˈpeɪn pɔɪnt/",
+      "vi": "điểm khó khăn, vấn đề gây trở ngại",
+      "example": "The biggest pain point seems to be missed deadlines."
+    },
+    {
+      "en": "tailored",
+      "ipa": "/ˈteɪlərd/",
+      "vi": "được thiết kế phù hợp riêng",
+      "example": "We can offer a tailored setup for your team."
+    },
+    {
+      "en": "streamline",
+      "ipa": "/ˈstriːmlaɪn/",
+      "vi": "tinh gọn, làm cho hiệu quả hơn",
+      "example": "The platform streamlines the approval process."
+    },
+    {
+      "en": "return on investment",
+      "ipa": "/rɪˈtɜːrn ɑːn ɪnˈvestmənt/",
+      "vi": "lợi tức đầu tư, hiệu quả so với chi phí",
+      "example": "The return on investment becomes clear within a few months."
+    },
+    {
+      "en": "upfront cost",
+      "ipa": "/ˌʌpˈfrʌnt kɔːst/",
+      "vi": "chi phí ban đầu",
+      "example": "I understand that the upfront cost is a concern."
+    },
+    {
+      "en": "rollout",
+      "ipa": "/ˈroʊlaʊt/",
+      "vi": "quá trình triển khai rộng rãi",
+      "example": "We can plan the rollout in phases."
+    },
+    {
+      "en": "onboarding",
+      "ipa": "/ˈɑːnbɔːrdɪŋ/",
+      "vi": "quá trình hướng dẫn và đưa người dùng vào hệ thống",
+      "example": "Our onboarding team will train your staff."
+    },
+    {
+      "en": "downtime",
+      "ipa": "/ˈdaʊntaɪm/",
+      "vi": "thời gian hệ thống ngừng hoạt động",
+      "example": "We schedule the migration to minimize downtime."
+    },
+    {
+      "en": "commitment",
+      "ipa": "/kəˈmɪtmənt/",
+      "vi": "cam kết, nghĩa vụ gắn bó",
+      "example": "The pilot gives you value without a long-term commitment."
+    },
+    {
+      "en": "bottom line",
+      "ipa": "/ˈbɑːtəm laɪn/",
+      "vi": "điểm mấu chốt, kết luận quan trọng nhất",
+      "example": "The bottom line is that your team will save time every week."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "From what you have said, it sounds like ___ is the main issue.",
+      "vi": "Từ những gì bạn chia sẻ, có vẻ ___ là vấn đề chính.",
+      "note": "Dùng để xác nhận đúng nhu cầu trước khi đề xuất giải pháp."
+    },
+    {
+      "en": "What if we started with ___ instead of committing to ___ right away?",
+      "vi": "Nếu chúng ta bắt đầu với ___ thay vì cam kết với ___ ngay lập tức thì sao?",
+      "note": "Mẫu câu hiệu quả để giảm áp lực khi khách hàng do dự."
+    },
+    {
+      "en": "The real value is not just ___, but also ___.",
+      "vi": "Giá trị thực sự không chỉ là ___ mà còn là ___.",
+      "note": "Dùng để chuyển trọng tâm từ giá sang lợi ích dài hạn."
+    },
+    {
+      "en": "I understand your concern; however, ___",
+      "vi": "Tôi hiểu băn khoăn của bạn; tuy nhiên, ___.",
+      "note": "Thừa nhận phản đối trước khi đưa ra lập luận phản hồi."
+    },
+    {
+      "en": "Would you be open to ___?",
+      "vi": "Bạn có sẵn sàng cân nhắc ___ không?",
+      "note": "Cách đề xuất nhẹ nhàng, không tạo cảm giác ép buộc."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm đầu trong 'rollout' và 'downtime', nhưng nhấn âm hai trong 'commitment' và 'investment'.",
+      "words": [
+        "rollout",
+        "downtime",
+        "commitment",
+        "investment"
+      ]
+    },
+    {
+      "focus": "âm /s/ ở cuối từ",
+      "tip": "Phát âm rõ âm cuối trong 'costs', 'needs' và 'concerns' để tránh làm câu nghe thiếu tự nhiên.",
+      "words": [
+        "costs",
+        "needs",
+        "concerns"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm nói nhanh",
+      "tip": "Nối nhẹ các từ trong 'return on investment' và 'would you be open to' để câu nói liền mạch hơn.",
+      "words": [
+        "return on investment",
+        "would you be open to",
+        "what if we"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "This solution has many benefit for our team.",
+      "right": "This solution has many benefits for our team.",
+      "vi": "Sau 'many' cần dùng danh từ số nhiều."
+    },
+    {
+      "wrong": "It will help us to save more time and more money.",
+      "right": "It will help us save time and money.",
+      "vi": "Sau 'help' có thể dùng động từ nguyên mẫu không 'to'; cách này tự nhiên và gọn hơn."
+    },
+    {
+      "wrong": "The price is expensive, but the quality is good.",
+      "right": "The price is high, but the solution offers good value.",
+      "vi": "Giá thường dùng 'high' thay vì 'expensive'; 'good value' phù hợp khi nói về hiệu quả đầu tư."
+    },
+    {
+      "wrong": "We can discuss about a pilot project.",
+      "right": "We can discuss a pilot project.",
+      "vi": "'Discuss' là ngoại động từ, không đi với 'about' trong cấu trúc này."
+    },
+    {
+      "wrong": "If you will choose our solution, you will save time.",
+      "right": "If you choose our solution, you will save time.",
+      "vi": "Trong mệnh đề 'if' nói về điều kiện tương lai, thường dùng hiện tại đơn thay vì 'will'."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Khách hàng đang phân vân",
+      "b": "Chuyên viên tư vấn giải pháp"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for the demo. I can see the potential, but I am not sure we need to change our current system yet.",
+        "vi": "Cảm ơn buổi giới thiệu. Tôi thấy có tiềm năng, nhưng chưa chắc chúng tôi cần đổi hệ thống hiện tại ngay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That makes sense. From what you have said, it sounds like missed deadlines and unclear ownership are the main issues.",
+        "vi": "Điều đó hợp lý. Từ những gì bạn chia sẻ, có vẻ trễ hạn và không rõ người phụ trách là các vấn đề chính.",
+        "hint": "Mở đầu bằng cách công nhận băn khoăn, rồi tóm tắt đúng vấn đề của khách hàng."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, but we have managed with spreadsheets for years. My team may not want another tool.",
+        "vi": "Đúng, nhưng chúng tôi đã xoay xở với bảng tính nhiều năm rồi. Đội ngũ của tôi có thể không muốn thêm một công cụ nữa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand. The goal is not to add work; it is to streamline the work your team already does. They would have one place to track tasks, approvals, and deadlines.",
+        "vi": "Tôi hiểu. Mục tiêu không phải là thêm việc, mà là tinh gọn công việc đội ngũ đang làm. Họ sẽ có một nơi để theo dõi việc, phê duyệt và thời hạn.",
+        "hint": "Dùng 'The goal is not..., it is to...' để nhấn mạnh lợi ích cốt lõi."
+      },
+      {
+        "speaker": "a",
+        "en": "My bigger concern is the upfront cost. We are watching our budget closely this quarter.",
+        "vi": "Băn khoăn lớn hơn của tôi là chi phí ban đầu. Quý này chúng tôi đang kiểm soát ngân sách rất chặt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is completely fair. The real value is not just the software itself, but also the time your managers get back by spending less time chasing updates and fixing avoidable mistakes.",
+        "vi": "Điều đó hoàn toàn dễ hiểu. Giá trị thực sự không chỉ là phần mềm, mà còn là thời gian quản lý lấy lại được nhờ ít phải đuổi theo cập nhật và sửa các lỗi có thể tránh.",
+        "hint": "Chuyển cuộc nói chuyện từ 'giá' sang giá trị và thời gian tiết kiệm được."
+      },
+      {
+        "speaker": "a",
+        "en": "Can you prove that the savings would outweigh the cost?",
+        "vi": "Bạn có thể chứng minh khoản tiết kiệm sẽ lớn hơn chi phí không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Based on the numbers you shared, your project leads spend roughly six hours a week on manual status reporting. Even a modest reduction would create a positive return on investment within the first year.",
+        "vi": "Dựa trên các số liệu bạn cung cấp, trưởng dự án của bạn dành khoảng sáu giờ mỗi tuần để báo cáo tiến độ thủ công. Chỉ cần giảm ở mức vừa phải cũng tạo ra lợi tức đầu tư tích cực trong năm đầu.",
+        "hint": "Nêu số liệu cụ thể của khách hàng để lập luận thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Possibly, but implementation worries me. We cannot afford a messy rollout during our busiest season.",
+        "vi": "Có thể, nhưng tôi lo việc triển khai. Chúng tôi không thể chịu một đợt triển khai lộn xộn trong mùa bận nhất.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand your concern; however, we would not switch everything overnight. We can run a phased rollout with one project team first, while your current process stays in place.",
+        "vi": "Tôi hiểu băn khoăn của bạn; tuy nhiên, chúng ta sẽ không chuyển toàn bộ chỉ trong một đêm. Chúng ta có thể triển khai theo từng giai đoạn với một nhóm dự án trước, trong khi quy trình hiện tại vẫn được giữ.",
+        "hint": "Dùng 'would not' để trấn an và đề xuất triển khai theo giai đoạn."
+      },
+      {
+        "speaker": "a",
+        "en": "What kind of support would my team receive during that pilot?",
+        "vi": "Đội ngũ của tôi sẽ nhận được hỗ trợ gì trong giai đoạn thử nghiệm đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You would have a dedicated onboarding specialist, live training sessions, and weekly check-ins. We would also measure adoption, time saved, and any issues before recommending a wider rollout.",
+        "vi": "Bạn sẽ có chuyên viên hướng dẫn riêng, các buổi đào tạo trực tiếp và các buổi kiểm tra hằng tuần. Chúng ta cũng sẽ đo mức độ sử dụng, thời gian tiết kiệm và mọi vấn đề trước khi đề xuất triển khai rộng hơn.",
+        "hint": "Liệt kê hỗ trợ cụ thể, sau đó cho thấy cách giảm rủi ro bằng đo lường."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds more manageable. Still, I do not want to sign a long contract before I know whether people will use it.",
+        "vi": "Nghe có vẻ dễ quản lý hơn. Tuy vậy, tôi không muốn ký hợp đồng dài hạn trước khi biết mọi người có dùng nó không.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What if we started with a sixty-day pilot for one department instead of committing to a full company rollout right away? If the agreed success measures are not met, you can walk away with no long-term commitment.",
+        "vi": "Nếu chúng ta bắt đầu bằng một đợt thử nghiệm sáu mươi ngày cho một phòng ban thay vì cam kết triển khai toàn công ty ngay thì sao? Nếu không đạt các chỉ số thành công đã thống nhất, bạn có thể dừng lại mà không có cam kết dài hạn.",
+        "hint": "Đề xuất thử nghiệm nhỏ để giảm rủi ro và áp lực cam kết."
+      },
+      {
+        "speaker": "a",
+        "en": "A sixty-day pilot with clear success measures would make me more comfortable. What would you need from us to get started?",
+        "vi": "Một đợt thử nghiệm sáu mươi ngày với chỉ số thành công rõ ràng sẽ khiến tôi yên tâm hơn. Bạn cần gì từ chúng tôi để bắt đầu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Just a project sponsor, a small pilot team, and access to your current workflow. I will send a tailored pilot proposal today, and we can review it together on Friday. Does that work for you?",
+        "vi": "Chỉ cần một người bảo trợ dự án, một nhóm thử nghiệm nhỏ và quyền xem quy trình hiện tại của bạn. Tôi sẽ gửi đề xuất thử nghiệm được thiết kế phù hợp hôm nay, rồi chúng ta có thể xem lại cùng nhau vào thứ Sáu. Như vậy ổn chứ?",
+        "hint": "Chốt bước tiếp theo rõ ràng bằng một câu hỏi xác nhận."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a cautious operations director at a growing company. You are meeting a solution consultant in your office, and you are interested but skeptical about changing your project management process. Ask practical questions about cost, implementation, staff adoption, and risk. Become more open when the consultant gives specific, credible answers, but do not agree too quickly.",
+    "opener": "Thanks for meeting with me. Your solution looks promising, but I am not convinced that changing our current system is worth the disruption.",
+    "goal": "Người học thuyết phục khách hàng đồng ý thực hiện thử nghiệm ngắn hạn với tiêu chí thành công rõ ràng."
+  },
+  "drills": [
+    {
+      "vi": "Từ những gì bạn chia sẻ, có vẻ trễ hạn là vấn đề chính.",
+      "en": "From what you have said, it sounds like missed deadlines are the main issue.",
+      "alts": [
+        "It seems that missed deadlines are the main problem."
+      ]
+    },
+    {
+      "vi": "Giải pháp này giúp tinh gọn quy trình phê duyệt.",
+      "en": "This solution streamlines the approval process.",
+      "alts": [
+        "The solution makes the approval process more efficient."
+      ]
+    },
+    {
+      "vi": "Giá trị thực sự không chỉ là phần mềm, mà còn là thời gian tiết kiệm được.",
+      "en": "The real value is not just the software, but also the time saved.",
+      "alts": [
+        "The value comes from both the software and the time it saves."
+      ]
+    },
+    {
+      "vi": "Tôi hiểu băn khoăn của bạn; tuy nhiên, chúng ta có thể triển khai theo từng giai đoạn.",
+      "en": "I understand your concern; however, we can roll it out in phases.",
+      "alts": [
+        "I see your concern, but we can use a phased rollout."
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta bắt đầu bằng một đợt thử nghiệm thay vì cam kết ngay thì sao?",
+      "en": "What if we started with a pilot instead of committing right away?",
+      "alts": [
+        "How about starting with a pilot before making a full commitment?"
+      ]
+    },
+    {
+      "vi": "Bạn có sẵn sàng cân nhắc một đợt thử nghiệm sáu mươi ngày không?",
+      "en": "Would you be open to a sixty-day pilot?",
+      "alts": [
+        "Would you consider a sixty-day pilot?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi sẽ giảm thời gian hệ thống ngừng hoạt động xuống mức tối thiểu.",
+      "en": "We will keep downtime to a minimum.",
+      "alts": [
+        "We will minimize any downtime."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý nhấn trọng âm ở các từ 'commitment', 'investment' và 'downtime'.",
+    "Viết một đoạn thuyết phục khách hàng gồm 6 đến 8 câu, có dùng ít nhất ba mẫu câu của bài.",
+    "Tự đóng vai khách hàng và nêu ba phản đối về chi phí, triển khai và mức độ sử dụng của nhân viên; sau đó trả lời từng phản đối bằng tiếng Anh."
+  ]
+}

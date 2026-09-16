@@ -1,0 +1,311 @@
+{
+  "id": "networking-su-kien",
+  "title": "Networking ở hội thảo: Bắt chuyện và giữ liên lạc",
+  "topic": "Kết nối tại hội thảo",
+  "level": "B2",
+  "summary": "Bạn gặp một chuyên gia tại khu vực giải lao của hội thảo, bắt chuyện về công việc và trao đổi một ý tưởng hợp tác. Cuối cuộc trò chuyện, hai bên thống nhất cách giữ liên lạc và bước tiếp theo.",
+  "goals": [
+    "Tự nhiên mở đầu cuộc trò chuyện với người lạ tại sự kiện chuyên môn",
+    "Trình bày ngắn gọn công việc, quan điểm và đề xuất hợp tác",
+    "Trao đổi thông tin liên hệ và hẹn bước tiếp theo một cách chuyên nghiệp"
+  ],
+  "vocab": [
+    {
+      "en": "break the ice",
+      "ipa": "/breɪk ði aɪs/",
+      "vi": "phá tan sự ngại ngùng ban đầu",
+      "example": "I usually ask about the keynote to break the ice."
+    },
+    {
+      "en": "keynote",
+      "ipa": "/ˈkiːnoʊt/",
+      "vi": "bài phát biểu chính tại sự kiện",
+      "example": "The keynote gave us a useful overview of current trends."
+    },
+    {
+      "en": "mutual connection",
+      "ipa": "/ˈmjuːtʃuəl kəˈnekʃən/",
+      "vi": "mối quan hệ chung, người quen chung",
+      "example": "It turns out we have a mutual connection in the industry."
+    },
+    {
+      "en": "cross-functional",
+      "ipa": "/ˌkrɔːs ˈfʌŋkʃənəl/",
+      "vi": "liên phòng ban, liên chức năng",
+      "example": "We need a cross-functional team to deliver the project."
+    },
+    {
+      "en": "pain point",
+      "ipa": "/ˈpeɪn pɔɪnt/",
+      "vi": "điểm khó khăn, vấn đề gây phiền toái",
+      "example": "Slow approval processes are a major pain point for our clients."
+    },
+    {
+      "en": "thought leadership",
+      "ipa": "/ˈθɔːt ˌliːdərʃɪp/",
+      "vi": "vai trò dẫn dắt tư tưởng, chuyên môn có ảnh hưởng",
+      "example": "Her articles have strengthened the company's thought leadership."
+    },
+    {
+      "en": "follow up",
+      "ipa": "/ˈfɑːloʊ ʌp/",
+      "vi": "liên hệ lại, theo dõi sau cuộc gặp",
+      "example": "I will follow up with a short message tomorrow."
+    },
+    {
+      "en": "pick your brain",
+      "ipa": "/pɪk jʊr breɪn/",
+      "vi": "xin ý kiến hoặc kinh nghiệm của ai đó",
+      "example": "Could I pick your brain about scaling a small team?"
+    },
+    {
+      "en": "touch base",
+      "ipa": "/tʌtʃ beɪs/",
+      "vi": "liên lạc ngắn để cập nhật",
+      "example": "Let us touch base next week after the conference."
+    },
+    {
+      "en": "win-win",
+      "ipa": "/ˌwɪn ˈwɪn/",
+      "vi": "cùng có lợi",
+      "example": "A pilot project could create a win-win for both teams."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I do not think we have met yet. I am ___.",
+      "vi": "Tôi nghĩ là chúng ta chưa gặp nhau. Tôi là ___.",
+      "note": "Cách mở lời lịch sự, tự nhiên tại sự kiện."
+    },
+    {
+      "en": "What brought you to this conference?",
+      "vi": "Điều gì khiến bạn đến hội thảo này?",
+      "note": "Câu hỏi mở giúp kéo dài cuộc trò chuyện."
+    },
+    {
+      "en": "One challenge we keep running into is ___.",
+      "vi": "Một thách thức chúng tôi liên tục gặp phải là ___.",
+      "note": "Dùng để nêu vấn đề công việc một cách tự nhiên."
+    },
+    {
+      "en": "Would you be open to ___?",
+      "vi": "Bạn có sẵn sàng cân nhắc ___ không?",
+      "note": "Mẫu đề xuất mềm, phù hợp khi thương lượng hoặc hợp tác."
+    },
+    {
+      "en": "Let us touch base next week and see where it goes.",
+      "vi": "Hãy liên lạc vào tuần sau và xem mọi việc tiến triển thế nào.",
+      "note": "Dùng để chốt một bước tiếp theo mà không gây áp lực."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong thought",
+      "tip": "Đặt nhẹ đầu lưỡi giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "thought",
+        "three",
+        "through"
+      ]
+    },
+    {
+      "focus": "trọng âm trong networking và conference",
+      "tip": "Nhấn âm đầu: NET-working, CON-ference; các âm còn lại đọc nhẹ hơn.",
+      "words": [
+        "networking",
+        "conference",
+        "keynote"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm follow up",
+      "tip": "Nối âm cuối /oʊ/ với nguyên âm đầu của up để cụm từ liền mạch, không ngắt quá rõ từng từ.",
+      "words": [
+        "follow up",
+        "touch base",
+        "would you be open to"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Nice to meet you. I heard a lot about your company.",
+      "right": "Nice to meet you. I have heard a lot about your company.",
+      "vi": "Khi nói đã nghe nhiều điều trước thời điểm hiện tại, dùng hiện tại hoàn thành."
+    },
+    {
+      "wrong": "What is your job in this conference?",
+      "right": "What brought you to this conference?",
+      "vi": "Không dùng job để hỏi lý do tham dự; mẫu đúng tự nhiên và mở rộng được câu chuyện."
+    },
+    {
+      "wrong": "I will contact to you next week.",
+      "right": "I will contact you next week.",
+      "vi": "Contact là động từ trực tiếp, không đi với to."
+    },
+    {
+      "wrong": "Can we exchange our contacts?",
+      "right": "Could we exchange contact details?",
+      "vi": "Contact details tự nhiên hơn contacts khi xin thông tin liên lạc."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Chuyên gia vừa gặp tại hội thảo",
+      "b": "Người tham dự hội thảo"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, I do not think we have met yet. I am Maya Chen from Horizon Labs.",
+        "vi": "Chào, tôi nghĩ là chúng ta chưa gặp nhau. Tôi là Maya Chen, đến từ Horizon Labs.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Nice to meet you, Maya. I am Minh. I work in product strategy at a fintech company.",
+        "vi": "Rất vui được gặp bạn, Maya. Tôi là Minh. Tôi làm chiến lược sản phẩm tại một công ty công nghệ tài chính.",
+        "hint": "Giới thiệu tên, rồi dùng I work in để nói lĩnh vực của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a fascinating space. What brought you to this conference?",
+        "vi": "Đó là một lĩnh vực rất thú vị. Điều gì khiến bạn đến hội thảo này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I came for the sessions on responsible artificial intelligence, but I am also hoping to meet people facing similar challenges.",
+        "vi": "Tôi đến vì các phiên thảo luận về trí tuệ nhân tạo có trách nhiệm, nhưng tôi cũng hy vọng gặp những người đang đối mặt với các thách thức tương tự.",
+        "hint": "Dùng but I am also hoping to để thêm mục đích thứ hai."
+      },
+      {
+        "speaker": "a",
+        "en": "You picked a good event for that. My team helps companies turn artificial intelligence ideas into practical tools without losing sight of risk and trust.",
+        "vi": "Bạn đã chọn đúng sự kiện cho việc đó. Nhóm của tôi giúp các công ty biến ý tưởng trí tuệ nhân tạo thành công cụ thực tế mà vẫn chú trọng đến rủi ro và sự tin cậy.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds relevant. One challenge we keep running into is getting our legal, technical, and customer teams aligned.",
+        "vi": "Nghe rất liên quan. Một thách thức chúng tôi liên tục gặp phải là làm cho các nhóm pháp lý, kỹ thuật và chăm sóc khách hàng thống nhất với nhau.",
+        "hint": "Cụm keep running into diễn tả vấn đề lặp đi lặp lại."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a classic cross-functional pain point. In my experience, alignment improves when every team agrees on one customer outcome instead of defending its own priorities.",
+        "vi": "Đó là một điểm khó khăn điển hình giữa các phòng ban. Theo kinh nghiệm của tôi, sự thống nhất sẽ tốt hơn khi mọi nhóm cùng đồng ý về một kết quả cho khách hàng thay vì bảo vệ ưu tiên riêng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree in principle, although it can be difficult when compliance needs more evidence before a product team can move quickly.",
+        "vi": "Về nguyên tắc tôi đồng ý, dù việc đó có thể khó khi bộ phận tuân thủ cần thêm bằng chứng trước khi nhóm sản phẩm có thể hành động nhanh.",
+        "hint": "Dùng although để nêu ý đối lập một cách mềm mại."
+      },
+      {
+        "speaker": "a",
+        "en": "Absolutely. Speed should not come at the expense of good governance. Would you be open to testing a small pilot with clear review points, rather than trying to solve everything at once?",
+        "vi": "Chắc chắn rồi. Tốc độ không nên phải đánh đổi bằng quản trị tốt. Bạn có sẵn sàng thử một dự án thí điểm nhỏ với các mốc rà soát rõ ràng, thay vì cố giải quyết mọi thứ cùng lúc không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, a pilot could be easier to sell internally. What would you need from us to decide whether it is a good fit?",
+        "vi": "Có, một dự án thí điểm có thể dễ thuyết phục nội bộ hơn. Bạn cần gì từ chúng tôi để quyết định xem nó có phù hợp hay không?",
+        "hint": "Good fit nghĩa là phù hợp để hợp tác hoặc áp dụng."
+      },
+      {
+        "speaker": "a",
+        "en": "A short overview of your customer journey, the main risk concerns, and one measurable goal would be enough for a first conversation. Then we could identify where a pilot would create the most value.",
+        "vi": "Một bản tổng quan ngắn về hành trình khách hàng, các mối lo về rủi ro chính và một mục tiêu đo lường được là đủ cho cuộc trao đổi đầu tiên. Sau đó, chúng ta có thể xác định dự án thí điểm sẽ tạo giá trị nhiều nhất ở đâu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is manageable. I would also like to pick your brain about how you persuaded stakeholders to support this kind of work.",
+        "vi": "Điều đó khả thi. Tôi cũng muốn xin ý kiến của bạn về cách bạn thuyết phục các bên liên quan ủng hộ loại công việc này.",
+        "hint": "Pick your brain là cách thân thiện để xin lời khuyên chuyên môn."
+      },
+      {
+        "speaker": "a",
+        "en": "I would be happy to. The key is usually to frame governance as an enabler of sustainable growth, not as a brake on innovation. That makes the conversation less defensive.",
+        "vi": "Tôi rất sẵn lòng. Điểm mấu chốt thường là xem quản trị như một yếu tố giúp tăng trưởng bền vững, chứ không phải lực cản đổi mới. Cách đó khiến cuộc trao đổi bớt phòng thủ hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That framing would help a lot. Could we exchange contact details so I can send you a brief outline after the conference?",
+        "vi": "Cách diễn đạt đó sẽ giúp ích rất nhiều. Chúng ta có thể trao đổi thông tin liên hệ để tôi gửi bạn một bản phác thảo ngắn sau hội thảo không?",
+        "hint": "Dùng Could we exchange contact details để xin thông tin liên hệ lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. Let us connect on LinkedIn as well. If you send the outline by Friday, I can review it and we can touch base for twenty minutes next week.",
+        "vi": "Tất nhiên. Chúng ta cũng hãy kết nối trên LinkedIn. Nếu bạn gửi bản phác thảo trước thứ Sáu, tôi có thể xem qua và chúng ta có thể liên lạc trong hai mươi phút vào tuần sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. I will send it by Friday and follow up next week. It was great meeting you, Maya. Enjoy the rest of the conference.",
+        "vi": "Tuyệt vời. Tôi sẽ gửi trước thứ Sáu và liên hệ lại vào tuần sau. Rất vui được gặp bạn, Maya. Chúc bạn tận hưởng phần còn lại của hội thảo.",
+        "hint": "Kết thúc bằng lời cảm ơn và xác nhận rõ bước tiếp theo."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are Maya Chen, an experienced artificial intelligence strategy consultant at a professional conference. You have just met the learner during a networking break. You are warm, curious, and practical, and you give thoughtful but concise answers while exploring whether there could be a useful professional connection.",
+    "opener": "Hi, I do not think we have met yet. I am Maya Chen from Horizon Labs. What brought you to the conference?",
+    "goal": "Người học bắt chuyện với chuyên gia, thảo luận một thách thức công việc, đề xuất bước tiếp theo và trao đổi thông tin liên hệ."
+  },
+  "drills": [
+    {
+      "vi": "Tôi nghĩ là chúng ta chưa gặp nhau.",
+      "en": "I do not think we have met yet.",
+      "alts": [
+        "I do not believe we have met before."
+      ]
+    },
+    {
+      "vi": "Điều gì khiến bạn đến hội thảo này?",
+      "en": "What brought you to this conference?",
+      "alts": [
+        "What made you decide to attend this conference?"
+      ]
+    },
+    {
+      "vi": "Một thách thức chúng tôi liên tục gặp phải là phối hợp các nhóm.",
+      "en": "One challenge we keep running into is aligning our teams.",
+      "alts": [
+        "We keep running into challenges when we try to align our teams."
+      ]
+    },
+    {
+      "vi": "Bạn có sẵn sàng thử một dự án thí điểm nhỏ không?",
+      "en": "Would you be open to testing a small pilot?",
+      "alts": [
+        "Would you consider starting with a small pilot?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn xin ý kiến của bạn về việc thuyết phục các bên liên quan.",
+      "en": "I would like to pick your brain about persuading stakeholders.",
+      "alts": [
+        "Could I pick your brain about how to persuade stakeholders?"
+      ]
+    },
+    {
+      "vi": "Hãy liên lạc vào tuần sau và xem mọi việc tiến triển thế nào.",
+      "en": "Let us touch base next week and see where it goes.",
+      "alts": [
+        "Let us follow up next week and see how things develop."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý nhấn âm trong networking, conference và keynote.",
+    "Viết một tin nhắn LinkedIn ngắn để cảm ơn chuyên gia và đề nghị một cuộc trao đổi hai mươi phút.",
+    "Tự tạo ba câu dùng các mẫu Would you be open to, One challenge we keep running into, và Let us touch base."
+  ]
+}

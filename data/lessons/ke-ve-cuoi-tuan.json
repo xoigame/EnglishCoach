@@ -1,0 +1,294 @@
+{
+  "id": "ke-ve-cuoi-tuan",
+  "title": "Kể về cuối tuần vừa rồi",
+  "topic": "Cuối tuần vừa rồi",
+  "level": "A2",
+  "summary": "Bạn trò chuyện với một đồng nghiệp thân vào sáng thứ Hai về những hoạt động cuối tuần. Bài học nhấn mạnh thì quá khứ đơn và các động từ bất quy tắc thông dụng.",
+  "goals": [
+    "Hỏi và kể ngắn gọn về cuối tuần vừa rồi",
+    "Dùng đúng thì quá khứ đơn trong hội thoại",
+    "Sử dụng các động từ bất quy tắc như went, had, met, took, slept và swam"
+  ],
+  "vocab": [
+    {
+      "en": "last weekend",
+      "ipa": "/læst ˈwiːk.end/",
+      "vi": "cuối tuần vừa rồi",
+      "example": "I visited my parents last weekend."
+    },
+    {
+      "en": "went",
+      "ipa": "/went/",
+      "vi": "đã đi, quá khứ của go",
+      "example": "We went to the lake last Saturday."
+    },
+    {
+      "en": "had",
+      "ipa": "/hæd/",
+      "vi": "đã có, đã ăn, quá khứ của have",
+      "example": "I had lunch with my sister yesterday."
+    },
+    {
+      "en": "met",
+      "ipa": "/met/",
+      "vi": "đã gặp, quá khứ của meet",
+      "example": "My sister met me for dinner downtown."
+    },
+    {
+      "en": "took",
+      "ipa": "/tʊk/",
+      "vi": "đã chụp hoặc lấy, quá khứ của take",
+      "example": "She took photos beside the lake."
+    },
+    {
+      "en": "slept",
+      "ipa": "/slept/",
+      "vi": "đã ngủ, quá khứ của sleep",
+      "example": "I slept late on Sunday morning."
+    },
+    {
+      "en": "swam",
+      "ipa": "/swæm/",
+      "vi": "đã bơi, quá khứ của swim",
+      "example": "We swam in the lake after lunch."
+    },
+    {
+      "en": "stayed",
+      "ipa": "/steɪd/",
+      "vi": "đã ở lại",
+      "example": "We stayed there until sunset last Saturday."
+    },
+    {
+      "en": "relaxed",
+      "ipa": "/rɪˈlækst/",
+      "vi": "đã thư giãn",
+      "example": "We relaxed at home on Sunday afternoon."
+    },
+    {
+      "en": "downtown",
+      "ipa": "/ˌdaʊnˈtaʊn/",
+      "vi": "khu trung tâm thành phố",
+      "example": "Downtown has several good restaurants for dinner."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What did you do last weekend?",
+      "vi": "Bạn đã làm gì vào cuối tuần vừa rồi?",
+      "note": "Dùng did để hỏi về quá khứ; động từ chính trở về dạng nguyên mẫu."
+    },
+    {
+      "en": "I went to ___ with ___.",
+      "vi": "Tôi đã đi đến ___ với ___.",
+      "note": "Dùng went, quá khứ bất quy tắc của go."
+    },
+    {
+      "en": "We ___, then we ___.",
+      "vi": "Chúng tôi đã ___, sau đó chúng tôi đã ___.",
+      "note": "Dùng để kể các hoạt động theo thứ tự."
+    },
+    {
+      "en": "Did you ___ after ___?",
+      "vi": "Bạn có ___ sau khi ___ không?",
+      "note": "Sau did dùng động từ nguyên mẫu, không dùng dạng quá khứ."
+    },
+    {
+      "en": "It was ___, so I ___.",
+      "vi": "Nó đã ___, nên tôi đã ___.",
+      "note": "Dùng so để nói kết quả hoặc tiếp nối ý."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /t/ trong động từ quá khứ",
+      "tip": "Phát rõ âm /t/ ở cuối, không bỏ mất âm cuối như khi nói tiếng Việt.",
+      "words": [
+        "went",
+        "slept",
+        "watched"
+      ]
+    },
+    {
+      "focus": "âm /æ/ ngắn",
+      "tip": "Mở miệng rộng và phát âm ngắn; không kéo thành âm /e/.",
+      "words": [
+        "had",
+        "swam",
+        "last"
+      ]
+    },
+    {
+      "focus": "đuôi ed trong stayed",
+      "tip": "Sau âm hữu thanh, ed đọc là /d/, không đọc thêm một âm tiết.",
+      "words": [
+        "stayed",
+        "played",
+        "relaxed"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I go to the lake last weekend.",
+      "right": "I went to the lake last weekend.",
+      "vi": "Có mốc thời gian quá khứ nên dùng went, không dùng go."
+    },
+    {
+      "wrong": "Did you went downtown after lunch?",
+      "right": "Did you go downtown after lunch?",
+      "vi": "Sau did phải dùng động từ nguyên mẫu go."
+    },
+    {
+      "wrong": "I have noodles for dinner yesterday.",
+      "right": "I had noodles for dinner yesterday.",
+      "vi": "Have đổi thành had ở thì quá khứ đơn."
+    },
+    {
+      "wrong": "We was tired after swimming.",
+      "right": "We were tired after swimming.",
+      "vi": "Với we, dùng were chứ không dùng was."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp thân của người học",
+      "b": "Người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hey, did you do anything fun last weekend?",
+        "vi": "Này, cuối tuần vừa rồi bạn có làm gì vui không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yeah, I went to the lake with friends.",
+        "vi": "Có chứ, tôi đã đi hồ với bạn bè.",
+        "hint": "Dùng went, quá khứ của go."
+      },
+      {
+        "speaker": "a",
+        "en": "Nice, what did you do there?",
+        "vi": "Hay đấy, bạn đã làm gì ở đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We swam, had lunch, and took lots of photos.",
+        "vi": "Chúng tôi đã bơi, ăn trưa và chụp nhiều ảnh.",
+        "hint": "Kể ba hoạt động bằng swam, had và took."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds like a really fun day.",
+        "vi": "Nghe như một ngày thật vui đấy.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It was fun, and we stayed until sunset.",
+        "vi": "Rất vui, và chúng tôi đã ở lại đến lúc hoàng hôn.",
+        "hint": "Dùng stayed để nói đã ở lại."
+      },
+      {
+        "speaker": "a",
+        "en": "Did you eat anywhere after you got home?",
+        "vi": "Bạn có ăn ở đâu sau khi về nhà không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I met my sister for dinner downtown.",
+        "vi": "Có, tôi đã gặp chị gái để ăn tối ở trung tâm thành phố.",
+        "hint": "Dùng met, quá khứ của meet."
+      },
+      {
+        "speaker": "a",
+        "en": "What did you have for dinner?",
+        "vi": "Bạn đã ăn gì cho bữa tối?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I had noodles, then we went for coffee.",
+        "vi": "Tôi đã ăn mì, sau đó chúng tôi đi uống cà phê.",
+        "hint": "Dùng had và went để kể hai việc đã xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Did you get enough rest on Sunday?",
+        "vi": "Bạn có nghỉ ngơi đủ vào Chủ nhật không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I slept late and felt ready for work.",
+        "vi": "Có, tôi đã ngủ muộn và cảm thấy sẵn sàng đi làm.",
+        "hint": "Dùng slept, quá khứ của sleep."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly coworker chatting during a Monday morning break at the office. You are relaxed, curious, and supportive.",
+    "opener": "Hey, did you do anything fun last weekend?",
+    "goal": "Người học kể được ít nhất ba hoạt động cuối tuần bằng thì quá khứ đơn và phản hồi tự nhiên với đồng nghiệp."
+  },
+  "drills": [
+    {
+      "vi": "Cuối tuần rồi tôi đã đi hồ với vài người bạn.",
+      "en": "I went to the lake with some friends.",
+      "alts": [
+        "Last weekend, I went to the lake with friends."
+      ]
+    },
+    {
+      "vi": "Bạn đã làm gì vào cuối tuần vừa rồi?",
+      "en": "What did you do last weekend?",
+      "alts": [
+        "What did you do over the weekend?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi đã bơi, sau đó chụp nhiều ảnh.",
+      "en": "We swam, then took lots of photos.",
+      "alts": [
+        "We swam and took lots of photos."
+      ]
+    },
+    {
+      "vi": "Tôi đã ăn trưa với chị gái hôm qua.",
+      "en": "I had lunch with my sister yesterday.",
+      "alts": [
+        "Yesterday, I had lunch with my sister."
+      ]
+    },
+    {
+      "vi": "Bạn có gặp bạn bè sau bữa tối không?",
+      "en": "Did you meet friends after dinner?",
+      "alts": [
+        "Did you meet your friends after dinner?"
+      ]
+    },
+    {
+      "vi": "Tôi đã ăn mì, sau đó đi uống cà phê.",
+      "en": "I had noodles, then went for coffee.",
+      "alts": [
+        "I ate noodles and then went for coffee."
+      ]
+    },
+    {
+      "vi": "Chủ nhật tôi đã ngủ muộn và thư giãn ở nhà.",
+      "en": "On Sunday, I slept late and relaxed at home.",
+      "alts": [
+        "I slept late and relaxed at home on Sunday."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và nghe lại.",
+    "Viết năm câu về cuối tuần của bạn, dùng went, had, met, took hoặc slept.",
+    "Luyện hỏi và trả lời ba lần với mẫu What did you do last weekend?"
+  ]
+}

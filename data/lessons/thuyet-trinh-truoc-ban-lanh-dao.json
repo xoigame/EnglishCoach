@@ -1,0 +1,330 @@
+{
+  "id": "thuyet-trinh-truoc-ban-lanh-dao",
+  "title": "Thuyết trình trước ban lãnh đạo và bảo vệ đề xuất",
+  "topic": "Bảo vệ đề xuất kinh doanh",
+  "level": "C1",
+  "summary": "Người học trình bày đề xuất chuyển đổi quy trình trước ban lãnh đạo và trả lời các câu hỏi khó từ Giám đốc điều hành. Bài học tập trung vào cách nêu lập luận, xử lý phản biện và chốt cam kết một cách thuyết phục.",
+  "goals": [
+    "Trình bày đề xuất rõ ràng, có cấu trúc trước ban lãnh đạo.",
+    "Bảo vệ các giả định về chi phí, lợi ích và rủi ro bằng giọng điệu điềm tĩnh.",
+    "Đề xuất phương án triển khai và phản hồi điều kiện phê duyệt một cách chuyên nghiệp."
+  ],
+  "vocab": [
+    {
+      "en": "phased rollout",
+      "ipa": "/feɪzd ˈroʊlaʊt/",
+      "vi": "triển khai theo từng giai đoạn",
+      "example": "A phased rollout will help us manage operational risk."
+    },
+    {
+      "en": "business case",
+      "ipa": "/ˈbɪznəs keɪs/",
+      "vi": "bản luận chứng kinh doanh, lập luận về lợi ích đầu tư",
+      "example": "The business case shows a clear return on investment."
+    },
+    {
+      "en": "pain point",
+      "ipa": "/ˈpeɪn pɔɪnt/",
+      "vi": "điểm gây khó khăn, vấn đề cốt lõi",
+      "example": "The main pain point is the time staff spend on manual reporting."
+    },
+    {
+      "en": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "vi": "nguyên nhân gốc rễ",
+      "example": "The proposal addresses the root cause rather than a symptom."
+    },
+    {
+      "en": "payback period",
+      "ipa": "/ˈpeɪbæk ˈpɪriəd/",
+      "vi": "thời gian hoàn vốn",
+      "example": "We expect a payback period of sixteen months."
+    },
+    {
+      "en": "conservative estimate",
+      "ipa": "/kənˈsɜːrvətɪv ˈestɪmət/",
+      "vi": "ước tính thận trọng",
+      "example": "These figures are based on a conservative estimate of adoption."
+    },
+    {
+      "en": "contingency",
+      "ipa": "/kənˈtɪndʒənsi/",
+      "vi": "phương án dự phòng",
+      "example": "We have built a contingency into the implementation plan."
+    },
+    {
+      "en": "mitigate risk",
+      "ipa": "/ˈmɪtɪɡeɪt rɪsk/",
+      "vi": "giảm thiểu rủi ro",
+      "example": "The pilot phase is designed to mitigate risk."
+    },
+    {
+      "en": "stakeholder buy-in",
+      "ipa": "/ˈsteɪkhoʊldər ˈbaɪ ɪn/",
+      "vi": "sự đồng thuận, ủng hộ từ các bên liên quan",
+      "example": "Early stakeholder buy-in is essential to the programme's success."
+    },
+    {
+      "en": "ring-fence",
+      "ipa": "/ˈrɪŋ fens/",
+      "vi": "khoanh riêng và bảo vệ một nguồn lực hoặc ngân sách",
+      "example": "We will ring-fence the project budget from day-to-day operating costs."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am asking the executive team to approve ___.",
+      "vi": "Tôi đề nghị ban điều hành phê duyệt ___.",
+      "note": "Dùng để nêu quyết định cụ thể bạn muốn ban lãnh đạo đưa ra."
+    },
+    {
+      "en": "The proposal is designed to ___ while ___.",
+      "vi": "Đề xuất này được thiết kế để ___ đồng thời ___.",
+      "note": "Giúp cân bằng lợi ích với một ưu tiên khác như chi phí hoặc rủi ro."
+    },
+    {
+      "en": "We considered ___, but it would not address ___.",
+      "vi": "Chúng tôi đã cân nhắc ___, nhưng phương án đó sẽ không giải quyết ___.",
+      "note": "Cách phản biện một lựa chọn khác mà vẫn lịch sự, khách quan."
+    },
+    {
+      "en": "Even under a conservative assumption, we would ___.",
+      "vi": "Ngay cả với giả định thận trọng, chúng ta vẫn sẽ ___.",
+      "note": "Dùng để bảo vệ số liệu và cho thấy bạn đã tính đến kịch bản kém thuận lợi."
+    },
+    {
+      "en": "To mitigate this risk, we will ___.",
+      "vi": "Để giảm thiểu rủi ro này, chúng tôi sẽ ___.",
+      "note": "Nên nói ngay sau khi thừa nhận một rủi ro hoặc mối lo ngại."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm chính để lời nói có sức nặng: pro-PO-sal, con-SER-va-tive, con-TIN-gen-cy. Không đọc đều mọi âm.",
+      "words": [
+        "proposal",
+        "conservative",
+        "contingency"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /t/ và /d/",
+      "tip": "Phát âm nhẹ nhưng rõ âm cuối trong risk, cost và phased; đừng bỏ âm cuối vì có thể làm người nghe khó phân biệt từ.",
+      "words": [
+        "risk",
+        "cost",
+        "phased"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong think và /ð/ trong the",
+      "tip": "Đưa đầu lưỡi nhẹ giữa hai hàm răng. Với /θ/ không rung cổ họng, với /ð/ có rung cổ họng.",
+      "words": [
+        "three",
+        "think",
+        "the"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I propose the board to approve this project.",
+      "right": "I am asking the board to approve this project.",
+      "vi": "Không dùng propose someone to do something. Dùng ask someone to do something hoặc propose that someone do something."
+    },
+    {
+      "wrong": "This solution will reduce the costs fifteen percent.",
+      "right": "This solution will reduce costs by fifteen percent.",
+      "vi": "Sau reduce costs, dùng by để nói mức giảm."
+    },
+    {
+      "wrong": "We have calculated very carefully about the risks.",
+      "right": "We have considered the risks very carefully.",
+      "vi": "Calculate không đi tự nhiên với about trong ngữ cảnh đánh giá rủi ro; dùng consider hoặc assess."
+    },
+    {
+      "wrong": "The investment will return back in sixteen months.",
+      "right": "The investment will pay for itself in sixteen months.",
+      "vi": "Return back bị thừa nghĩa. Với thời gian hoàn vốn, pay for itself là cách nói tự nhiên hơn."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Giám đốc điều hành",
+      "b": "Trưởng nhóm đề xuất"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Please walk us through your proposal.",
+        "vi": "Chào buổi sáng. Hãy trình bày đề xuất của bạn cho chúng tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am proposing a phased rollout of a new workflow platform to reduce manual reporting and improve decision-making.",
+        "vi": "Cảm ơn. Tôi đề xuất triển khai theo giai đoạn một nền tảng quy trình làm việc mới nhằm giảm báo cáo thủ công và cải thiện việc ra quyết định.",
+        "hint": "Mở đầu bằng I am proposing để nêu đề xuất chính."
+      },
+      {
+        "speaker": "a",
+        "en": "Before we get into the detail, what decision are you asking us to make today?",
+        "vi": "Trước khi đi vào chi tiết, hôm nay bạn muốn chúng tôi đưa ra quyết định gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am asking the executive team to approve a six-month pilot and ring-fence the budget needed to deliver it.",
+        "vi": "Tôi đề nghị ban điều hành phê duyệt một chương trình thí điểm sáu tháng và khoanh riêng ngân sách cần thiết để thực hiện nó.",
+        "hint": "Dùng approve a pilot và ring-fence the budget để nói rõ yêu cầu."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. What is the underlying problem?",
+        "vi": "Được. Vấn đề nền tảng là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Our teams spend too much time reconciling spreadsheets from different systems. The result is slow reporting, duplicated work, and decisions based on incomplete information.",
+        "vi": "Các nhóm của chúng ta dành quá nhiều thời gian đối chiếu bảng tính từ các hệ thống khác nhau. Hệ quả là báo cáo chậm, công việc trùng lặp và quyết định dựa trên thông tin không đầy đủ.",
+        "hint": "Liệt kê ba hệ quả để lập luận thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Why not simply improve the tools we already have? That would be cheaper.",
+        "vi": "Tại sao không chỉ cải thiện các công cụ hiện có? Cách đó sẽ rẻ hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We considered that option, but it would not address the root cause. The issue is not one weak tool; it is the lack of a shared process across functions.",
+        "vi": "Chúng tôi đã cân nhắc phương án đó, nhưng nó sẽ không giải quyết nguyên nhân gốc rễ. Vấn đề không phải là một công cụ yếu; mà là thiếu một quy trình chung giữa các bộ phận.",
+        "hint": "Dùng We considered that option, but để phản biện lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Talk me through the financial case. What will this cost, and when do we see a return?",
+        "vi": "Hãy trình bày luận chứng tài chính. Việc này sẽ tốn bao nhiêu, và khi nào chúng ta thấy lợi nhuận?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The pilot requires an investment of one point two million dollars. Based on lower administrative costs and faster cycle times, we expect it to pay for itself within sixteen months.",
+        "vi": "Chương trình thí điểm cần khoản đầu tư một phẩy hai triệu đô la. Dựa trên chi phí hành chính thấp hơn và chu kỳ xử lý nhanh hơn, chúng tôi kỳ vọng nó sẽ tự hoàn vốn trong vòng mười sáu tháng.",
+        "hint": "Pay for itself là cách nói tự nhiên về hoàn vốn."
+      },
+      {
+        "speaker": "a",
+        "en": "Those savings depend on people adopting the platform. What happens if uptake is slower than expected?",
+        "vi": "Các khoản tiết kiệm đó phụ thuộc vào việc mọi người sử dụng nền tảng. Điều gì xảy ra nếu mức độ tiếp nhận chậm hơn dự kiến?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We have stress-tested the model. Even under a conservative assumption of sixty percent adoption, the pilot remains viable, although the payback period would extend by four months.",
+        "vi": "Chúng tôi đã kiểm tra mô hình theo các kịch bản bất lợi. Ngay cả với giả định thận trọng là sáu mươi phần trăm tiếp nhận, chương trình thí điểm vẫn khả thi, dù thời gian hoàn vốn sẽ kéo dài thêm bốn tháng.",
+        "hint": "Even under a conservative assumption giúp bảo vệ số liệu."
+      },
+      {
+        "speaker": "a",
+        "en": "My other concern is disruption. Operations cannot afford a difficult transition during the busiest quarter.",
+        "vi": "Mối lo khác của tôi là sự gián đoạn. Bộ phận vận hành không thể chịu một giai đoạn chuyển đổi khó khăn trong quý bận rộn nhất.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is precisely why we are recommending a phased rollout. We will start with two volunteer teams, run the old and new processes in parallel, and pause expansion if service levels fall below the agreed threshold.",
+        "vi": "Đó chính là lý do chúng tôi khuyến nghị triển khai theo giai đoạn. Chúng tôi sẽ bắt đầu với hai nhóm tự nguyện, vận hành song song quy trình cũ và mới, đồng thời dừng mở rộng nếu mức dịch vụ giảm dưới ngưỡng đã thống nhất.",
+        "hint": "Dùng precisely why để liên kết trực tiếp lo ngại với giải pháp."
+      },
+      {
+        "speaker": "a",
+        "en": "And how will you secure stakeholder buy-in, especially from managers who may see this as extra work?",
+        "vi": "Và bạn sẽ đạt được sự ủng hộ từ các bên liên quan như thế nào, đặc biệt là các quản lý có thể xem đây là việc phát sinh?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We will involve those managers in the design sessions and give them ownership of the success measures. To mitigate resistance, each team will also have a trained champion who can resolve issues quickly on the ground.",
+        "vi": "Chúng tôi sẽ mời các quản lý đó tham gia các buổi thiết kế và trao cho họ quyền sở hữu đối với các chỉ số thành công. Để giảm sự phản kháng, mỗi nhóm cũng sẽ có một người hỗ trợ được đào tạo để xử lý nhanh các vấn đề tại chỗ.",
+        "hint": "To mitigate resistance là cách chuyển sang biện pháp xử lý rủi ro."
+      },
+      {
+        "speaker": "a",
+        "en": "You have made a credible case. I am prepared to approve the pilot, subject to monthly progress reviews and a clear stop-go decision at the end of month three.",
+        "vi": "Bạn đã đưa ra một lập luận đáng tin cậy. Tôi sẵn sàng phê duyệt chương trình thí điểm, với điều kiện có đánh giá tiến độ hằng tháng và quyết định tiếp tục hay dừng lại rõ ràng vào cuối tháng thứ ba.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a sensible safeguard. We will provide a concise monthly dashboard and return at the end of month three with the evidence needed for the next decision. Thank you for your approval.",
+        "vi": "Đó là một biện pháp bảo đảm hợp lý. Chúng tôi sẽ cung cấp bảng tổng hợp hằng tháng ngắn gọn và quay lại vào cuối tháng thứ ba với bằng chứng cần thiết cho quyết định tiếp theo. Cảm ơn vì sự phê duyệt của ông bà.",
+        "hint": "Kết thúc bằng cách xác nhận điều kiện và cam kết bước tiếp theo."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a chief executive officer in a formal executive meeting. You are direct, analytical, and respectful. Challenge the learner's proposal on cost, risk, operational impact, and stakeholder support, then make a clear decision when the evidence is convincing.",
+    "opener": "Good morning. You have fifteen minutes to make your case. What are you asking the executive team to approve?",
+    "goal": "Người học bảo vệ thành công một đề xuất, xử lý phản biện về chi phí và rủi ro, rồi xác nhận các bước tiếp theo sau quyết định của Giám đốc điều hành."
+  },
+  "drills": [
+    {
+      "vi": "Tôi đề nghị ban điều hành phê duyệt chương trình thí điểm sáu tháng.",
+      "en": "I am asking the executive team to approve a six-month pilot.",
+      "alts": [
+        "I would like the executive team to approve a six-month pilot."
+      ]
+    },
+    {
+      "vi": "Đề xuất này được thiết kế để giảm công việc thủ công đồng thời cải thiện tốc độ ra quyết định.",
+      "en": "The proposal is designed to reduce manual work while improving the speed of decision-making.",
+      "alts": [
+        "This proposal is intended to reduce manual work while improving decision-making speed."
+      ]
+    },
+    {
+      "vi": "Chúng tôi đã cân nhắc phương án rẻ hơn, nhưng nó không giải quyết nguyên nhân gốc rễ.",
+      "en": "We considered a cheaper option, but it would not address the root cause.",
+      "alts": [
+        "We looked at a less expensive alternative, but it would not solve the root cause."
+      ]
+    },
+    {
+      "vi": "Ngay cả với giả định thận trọng, dự án vẫn khả thi.",
+      "en": "Even under a conservative assumption, the project remains viable.",
+      "alts": [
+        "The project remains viable even under conservative assumptions."
+      ]
+    },
+    {
+      "vi": "Để giảm thiểu rủi ro, chúng tôi sẽ triển khai theo từng giai đoạn.",
+      "en": "To mitigate risk, we will use a phased rollout.",
+      "alts": [
+        "We will use a phased rollout to mitigate risk."
+      ]
+    },
+    {
+      "vi": "Chúng tôi kỳ vọng khoản đầu tư sẽ tự hoàn vốn trong vòng mười sáu tháng.",
+      "en": "We expect the investment to pay for itself within sixteen months.",
+      "alts": [
+        "The investment is expected to pay for itself in sixteen months."
+      ]
+    },
+    {
+      "vi": "Chúng tôi cần sự đồng thuận từ các bên liên quan trước khi mở rộng chương trình.",
+      "en": "We need stakeholder buy-in before expanding the programme.",
+      "alts": [
+        "Stakeholder buy-in is needed before we expand the programme."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trình bày đề xuất trong hai phút, bao gồm vấn đề, chi phí, lợi ích và rủi ro.",
+    "Viết câu trả lời cho ba phản biện: chi phí quá cao, nhân viên không sử dụng, và quá trình chuyển đổi gây gián đoạn.",
+    "Đặt một câu với mỗi cụm: business case, root cause, conservative estimate, mitigate risk và stakeholder buy-in."
+  ]
+}

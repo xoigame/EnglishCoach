@@ -1,0 +1,329 @@
+{
+  "id": "phong-van-cap-quan-ly",
+  "title": "Phỏng vấn vị trí quản lý: Câu hỏi tình huống",
+  "topic": "Xử lý tình huống trong phỏng vấn quản lý",
+  "level": "C1",
+  "summary": "Người học vào vai ứng viên cho vị trí quản lý và trả lời các câu hỏi tình huống từ Giám đốc Nhân sự. Bài học tập trung vào cách thể hiện năng lực lãnh đạo, phán đoán và giao tiếp chuyên nghiệp.",
+  "goals": [
+    "Trả lời tự tin các câu hỏi tình huống ở cấp quản lý",
+    "Dùng collocation tự nhiên để nói về lãnh đạo, xung đột và ra quyết định",
+    "Điều chỉnh giọng điệu chuyên nghiệp nhưng vẫn gần gũi trong phỏng vấn"
+  ],
+  "vocab": [
+    {
+      "en": "stakeholder alignment",
+      "ipa": "/ˈsteɪkˌhoʊldər əˈlaɪnmənt/",
+      "vi": "sự thống nhất giữa các bên liên quan",
+      "example": "I would seek stakeholder alignment before changing the timeline."
+    },
+    {
+      "en": "underperform",
+      "ipa": "/ˌʌndərpərˈfɔːrm/",
+      "vi": "hoạt động dưới kỳ vọng",
+      "example": "I would first try to understand why the employee is underperforming."
+    },
+    {
+      "en": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "vi": "nguyên nhân gốc rễ",
+      "example": "We need to identify the root cause before proposing a solution."
+    },
+    {
+      "en": "course-correct",
+      "ipa": "/ˈkɔːrs kəˈrekt/",
+      "vi": "điều chỉnh hướng đi",
+      "example": "The data showed that we needed to course-correct quickly."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi",
+      "example": "I would explain the trade-offs clearly to the leadership team."
+    },
+    {
+      "en": "buy-in",
+      "ipa": "/ˈbaɪ ɪn/",
+      "vi": "sự đồng thuận và ủng hộ",
+      "example": "Early involvement is essential for building buy-in."
+    },
+    {
+      "en": "de-escalate",
+      "ipa": "/diːˈeskəleɪt/",
+      "vi": "hạ nhiệt căng thẳng",
+      "example": "My first priority would be to de-escalate the conflict."
+    },
+    {
+      "en": "accountability",
+      "ipa": "/əˌkaʊntəˈbɪləti/",
+      "vi": "tinh thần chịu trách nhiệm",
+      "example": "I would take accountability for the outcome and communicate openly."
+    },
+    {
+      "en": "contingency plan",
+      "ipa": "/kənˈtɪndʒənsi plæn/",
+      "vi": "phương án dự phòng",
+      "example": "We prepared a contingency plan in case the supplier missed the deadline."
+    },
+    {
+      "en": "sound judgment",
+      "ipa": "/saʊnd ˈdʒʌdʒmənt/",
+      "vi": "phán đoán sáng suốt",
+      "example": "Managers need to show sound judgment when information is incomplete."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "My first step would be to ___ before ___.",
+      "vi": "Bước đầu tiên của tôi sẽ là ___ trước khi ___.",
+      "note": "Dùng để trả lời có cấu trúc và cho thấy bạn biết ưu tiên."
+    },
+    {
+      "en": "I would start by understanding the root cause rather than making assumptions.",
+      "vi": "Tôi sẽ bắt đầu bằng việc tìm nguyên nhân gốc rễ thay vì vội giả định.",
+      "note": "Phù hợp khi nói về hiệu suất kém hoặc vấn đề phức tạp."
+    },
+    {
+      "en": "I would balance ___ with ___, while being transparent about the trade-offs.",
+      "vi": "Tôi sẽ cân bằng ___ với ___, đồng thời minh bạch về các đánh đổi.",
+      "note": "Thể hiện tư duy quản lý đa chiều."
+    },
+    {
+      "en": "The goal would be to get everyone aligned on a practical way forward.",
+      "vi": "Mục tiêu sẽ là giúp mọi người thống nhất về một hướng đi thực tế.",
+      "note": "Cách nói tự nhiên khi xử lý xung đột hoặc thay đổi."
+    },
+    {
+      "en": "If the situation did not improve, I would escalate it appropriately.",
+      "vi": "Nếu tình hình không cải thiện, tôi sẽ báo cáo hoặc xử lý ở cấp phù hợp.",
+      "note": "Cho thấy bạn biết giới hạn thẩm quyền và quản trị rủi ro."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ dài",
+      "tip": "Nhấn đúng âm chính để lời nói rõ và chuyên nghiệp hơn; không đọc đều tất cả các âm.",
+      "words": [
+        "accountability",
+        "contingency",
+        "alignment"
+      ]
+    },
+    {
+      "focus": "âm cuối /d/ và /t/",
+      "tip": "Phát rõ âm cuối nhẹ trong các cụm có động từ quá khứ hoặc tính từ; tránh bỏ hẳn âm cuối.",
+      "words": [
+        "aligned",
+        "missed",
+        "escalated"
+      ]
+    },
+    {
+      "focus": "âm /r/ trong tiếng Anh",
+      "tip": "Cuộn nhẹ đầu lưỡi, không rung như âm r tiếng Việt; đặc biệt chú ý trong các từ quản lý thường dùng.",
+      "words": [
+        "root cause",
+        "priority",
+        "risk"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I will discuss with the employee about the problem.",
+      "right": "I would discuss the problem with the employee.",
+      "vi": "Discuss không đi với about khi đã có tân ngữ trực tiếp; trong câu tình huống, would tự nhiên hơn will."
+    },
+    {
+      "wrong": "I would find the root cause of why he underperforms.",
+      "right": "I would find the root cause of his underperformance.",
+      "vi": "Dùng danh từ underperformance nghe gọn và chuyên nghiệp hơn."
+    },
+    {
+      "wrong": "I will make a meeting with all stakeholders.",
+      "right": "I would hold a meeting with all stakeholders.",
+      "vi": "Hold a meeting là collocation tự nhiên; make a meeting không tự nhiên."
+    },
+    {
+      "wrong": "I would take a decision based on the data.",
+      "right": "I would make a decision based on the data.",
+      "vi": "Tiếng Anh dùng make a decision, không dùng take a decision trong ngữ cảnh này."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Giám đốc Nhân sự",
+      "b": "Ứng viên quản lý"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Thank you for joining us today. Shall we begin?",
+        "vi": "Chào buổi sáng. Cảm ơn bạn đã tham gia hôm nay. Chúng ta bắt đầu nhé?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good morning. Thank you for the opportunity. I am happy to be here.",
+        "vi": "Chào buổi sáng. Cảm ơn ông bà đã cho tôi cơ hội. Tôi rất vui khi có mặt ở đây.",
+        "hint": "Mở đầu ngắn gọn, lịch sự và tự tin."
+      },
+      {
+        "speaker": "a",
+        "en": "To start us off, how would you describe your management style?",
+        "vi": "Để bắt đầu, bạn sẽ mô tả phong cách quản lý của mình như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would describe it as clear, collaborative, and accountable. I set high expectations, but I also make sure people have the support they need to succeed.",
+        "vi": "Tôi sẽ mô tả phong cách đó là rõ ràng, hợp tác và có trách nhiệm. Tôi đặt kỳ vọng cao, nhưng cũng bảo đảm mọi người có sự hỗ trợ cần thiết để thành công.",
+        "hint": "Nêu ba tính từ, rồi bổ sung một câu giải thích cân bằng."
+      },
+      {
+        "speaker": "a",
+        "en": "Imagine that one of your strongest employees has recently begun to underperform. What would you do?",
+        "vi": "Hãy tưởng tượng một nhân viên giỏi nhất của bạn gần đây bắt đầu làm việc dưới kỳ vọng. Bạn sẽ làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My first step would be to have a private conversation with them. I would try to understand the root cause, whether it is workload, unclear expectations, or something outside work, before agreeing on a specific improvement plan.",
+        "vi": "Bước đầu tiên của tôi sẽ là trao đổi riêng với họ. Tôi sẽ cố tìm hiểu nguyên nhân gốc rễ, có thể là khối lượng công việc, kỳ vọng chưa rõ ràng hoặc chuyện ngoài công việc, trước khi thống nhất một kế hoạch cải thiện cụ thể.",
+        "hint": "Dùng My first step would be to để thể hiện thứ tự xử lý."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose two senior team leads disagree strongly about how to deliver a project, and the deadline is approaching. How would you handle it?",
+        "vi": "Giả sử hai trưởng nhóm cấp cao bất đồng mạnh mẽ về cách triển khai một dự án, trong khi hạn chót đang đến gần. Bạn sẽ xử lý thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would bring them together and make sure each person can explain their reasoning without interruption. Then I would focus the discussion on the project goals, the available evidence, and the risks of each option. The goal would be to reach a decision that the team can support, even if it is not everyone’s first choice.",
+        "vi": "Tôi sẽ đưa họ lại với nhau và bảo đảm mỗi người có thể giải thích lập luận của mình mà không bị ngắt lời. Sau đó, tôi sẽ tập trung cuộc thảo luận vào mục tiêu dự án, bằng chứng hiện có và rủi ro của từng lựa chọn. Mục tiêu là đi đến một quyết định mà cả nhóm có thể ủng hộ, dù đó không phải lựa chọn đầu tiên của tất cả mọi người.",
+        "hint": "Nhấn vào mục tiêu chung thay vì ai đúng ai sai."
+      },
+      {
+        "speaker": "a",
+        "en": "What if one of them continues to challenge the decision after it has been made?",
+        "vi": "Nếu một trong hai người vẫn tiếp tục phản đối quyết định sau khi nó đã được đưa ra thì sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would acknowledge the concern, but I would be clear that healthy debate has to end once a decision is made. I would ask them to commit to the agreed direction and raise any new evidence through the right channel. If the behavior became disruptive, I would address it directly and document the conversation.",
+        "vi": "Tôi sẽ ghi nhận mối quan ngại đó, nhưng sẽ nói rõ rằng tranh luận lành mạnh phải kết thúc khi quyết định đã được đưa ra. Tôi sẽ đề nghị họ cam kết với hướng đi đã thống nhất và đưa ra bất kỳ bằng chứng mới nào qua kênh phù hợp. Nếu hành vi đó trở nên gây ảnh hưởng, tôi sẽ xử lý trực tiếp và ghi nhận lại cuộc trao đổi.",
+        "hint": "Dùng acknowledge để vừa công nhận ý kiến vừa giữ vững quyết định."
+      },
+      {
+        "speaker": "a",
+        "en": "Let us move to change management. You need to introduce a new process that will initially slow the team down, and several experienced employees are resistant. What would you do?",
+        "vi": "Hãy chuyển sang quản lý thay đổi. Bạn cần áp dụng một quy trình mới khiến nhóm chậm lại lúc đầu, và một số nhân viên giàu kinh nghiệm đang phản đối. Bạn sẽ làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would not simply announce the change and expect instant buy-in. I would explain why the current process is no longer sustainable, involve respected team members early, and invite practical feedback on implementation. I would also be transparent about the short-term trade-offs and define how we would measure whether the new process is working.",
+        "vi": "Tôi sẽ không chỉ thông báo thay đổi rồi mong mọi người lập tức ủng hộ. Tôi sẽ giải thích vì sao quy trình hiện tại không còn bền vững, mời những thành viên được tôn trọng tham gia sớm và tiếp nhận phản hồi thực tế về cách triển khai. Tôi cũng sẽ minh bạch về những đánh đổi ngắn hạn và xác định cách đo lường xem quy trình mới có hiệu quả hay không.",
+        "hint": "Cụm instant buy-in cho thấy bạn hiểu thay đổi cần được tạo đồng thuận."
+      },
+      {
+        "speaker": "a",
+        "en": "Now imagine a key client tells you that your team has missed a commitment two days before a major launch. They are frustrated and considering other suppliers. How would you respond?",
+        "vi": "Bây giờ hãy tưởng tượng một khách hàng quan trọng nói rằng nhóm của bạn đã không thực hiện cam kết chỉ hai ngày trước một đợt ra mắt lớn. Họ đang bực bội và cân nhắc nhà cung cấp khác. Bạn sẽ phản hồi thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would contact the client immediately, take accountability for the situation, and avoid making excuses. I would share the facts we know, explain what we are doing to contain the impact, and give them a realistic timeline for the next update. Internally, I would assign clear owners, activate a contingency plan, and keep senior stakeholders aligned until the issue was resolved.",
+        "vi": "Tôi sẽ liên hệ khách hàng ngay lập tức, nhận trách nhiệm về tình huống và tránh đưa ra lời bào chữa. Tôi sẽ chia sẻ những sự thật mà chúng tôi biết, giải thích việc chúng tôi đang làm để hạn chế tác động và đưa cho họ thời điểm thực tế cho lần cập nhật tiếp theo. Trong nội bộ, tôi sẽ phân công rõ người phụ trách, kích hoạt phương án dự phòng và giữ các bên liên quan cấp cao thống nhất cho đến khi vấn đề được giải quyết.",
+        "hint": "Trình tự tốt là nhận trách nhiệm, cập nhật khách hàng, rồi điều phối nội bộ."
+      },
+      {
+        "speaker": "a",
+        "en": "Tell me about a time when you had to make a decision with incomplete information. How did you protect the team from unnecessary risk?",
+        "vi": "Hãy kể về một lần bạn phải ra quyết định khi thông tin chưa đầy đủ. Bạn đã bảo vệ nhóm khỏi rủi ro không cần thiết như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "In a previous role, we had to decide whether to pause a campaign after seeing an unexpected drop in results. The data was incomplete, so I gathered the most reliable signals, consulted the people closest to the work, and set a short decision window. We paused only the highest-risk activity, monitored the outcome daily, and prepared a reversal plan. That approach allowed us to course-correct without overreacting.",
+        "vi": "Ở vị trí trước đây, chúng tôi phải quyết định có tạm dừng một chiến dịch hay không sau khi thấy kết quả giảm bất ngờ. Dữ liệu chưa đầy đủ, nên tôi thu thập các tín hiệu đáng tin cậy nhất, tham vấn những người sát với công việc nhất và đặt ra khung thời gian ra quyết định ngắn. Chúng tôi chỉ tạm dừng hoạt động có rủi ro cao nhất, theo dõi kết quả hằng ngày và chuẩn bị phương án đảo ngược. Cách tiếp cận đó giúp chúng tôi điều chỉnh hướng đi mà không phản ứng thái quá.",
+        "hint": "Kể theo trình tự bối cảnh, hành động, kết quả để câu trả lời thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Based on what you have shared, what would be your priorities in your first ninety days in this role?",
+        "vi": "Dựa trên những gì bạn đã chia sẻ, ưu tiên của bạn trong chín mươi ngày đầu ở vị trí này sẽ là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My priorities would be to listen carefully, understand the business context, and build trust with the team and key stakeholders. I would assess where performance is strong, where decisions are getting stuck, and which risks need attention first. By the end of the first ninety days, I would aim to have a shared set of priorities, a practical operating rhythm, and a credible plan for the next phase.",
+        "vi": "Ưu tiên của tôi sẽ là lắng nghe kỹ, hiểu bối cảnh kinh doanh và xây dựng niềm tin với đội ngũ cùng các bên liên quan chính. Tôi sẽ đánh giá điểm mạnh về hiệu suất, nơi các quyết định đang bị tắc và những rủi ro nào cần được chú ý trước. Đến cuối chín mươi ngày đầu, tôi hướng tới việc có một bộ ưu tiên chung, nhịp vận hành thực tế và kế hoạch đáng tin cậy cho giai đoạn tiếp theo.",
+        "hint": "Kết thúc bằng kết quả cụ thể bạn muốn đạt được sau chín mươi ngày."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Your answers show a thoughtful balance of empathy, accountability, and sound judgment. That concludes our interview. We will be in touch soon.",
+        "vi": "Cảm ơn bạn. Các câu trả lời của bạn cho thấy sự cân bằng chín chắn giữa thấu cảm, trách nhiệm và phán đoán sáng suốt. Buổi phỏng vấn đến đây là kết thúc. Chúng tôi sẽ sớm liên hệ với bạn.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a Human Resources Director interviewing a candidate for a management position in a modern corporate office in Ho Chi Minh City. You are professional, warm, and observant. Ask realistic situational questions, listen carefully, and follow up when an answer lacks clarity or leadership judgment.",
+    "opener": "Good morning. Thank you for joining us today. Shall we begin?",
+    "goal": "Người học trả lời các tình huống quản lý một cách có cấu trúc, chuyên nghiệp và thuyết phục."
+  },
+  "drills": [
+    {
+      "vi": "Bước đầu tiên của tôi sẽ là tìm hiểu nguyên nhân gốc rễ trước khi đề xuất giải pháp.",
+      "en": "My first step would be to understand the root cause before proposing a solution.",
+      "alts": [
+        "I would start by identifying the root cause before proposing a solution."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ cân bằng nhu cầu của khách hàng với năng lực thực tế của nhóm.",
+      "en": "I would balance the client’s needs with the team’s actual capacity.",
+      "alts": [
+        "I would balance client expectations with what the team can realistically deliver."
+      ]
+    },
+    {
+      "vi": "Mục tiêu là giúp mọi người thống nhất về một hướng đi thực tế.",
+      "en": "The goal would be to get everyone aligned on a practical way forward.",
+      "alts": [
+        "My goal would be to create alignment around a practical next step."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ minh bạch về những đánh đổi và cập nhật thường xuyên cho các bên liên quan.",
+      "en": "I would be transparent about the trade-offs and update the stakeholders regularly.",
+      "alts": [
+        "I would communicate the trade-offs clearly and keep stakeholders informed."
+      ]
+    },
+    {
+      "vi": "Nếu tình hình không cải thiện, tôi sẽ báo cáo vấn đề ở cấp phù hợp.",
+      "en": "If the situation did not improve, I would escalate the issue appropriately.",
+      "alts": [
+        "If there was no improvement, I would raise the issue through the appropriate channel."
+      ]
+    },
+    {
+      "vi": "Chúng tôi đã kích hoạt phương án dự phòng để hạn chế tác động đến khách hàng.",
+      "en": "We activated a contingency plan to limit the impact on the client.",
+      "alts": [
+        "We put our contingency plan into action to minimize the impact on the client."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần trả lời cho ba tình huống: nhân viên làm việc dưới kỳ vọng, xung đột trong nhóm và khách hàng không hài lòng.",
+    "Viết một câu trả lời dài khoảng một phút cho câu hỏi về chín mươi ngày đầu tiên ở vị trí quản lý.",
+    "Đặt một câu với từng cụm: root cause, buy-in, trade-off, accountability và contingency plan."
+  ]
+}

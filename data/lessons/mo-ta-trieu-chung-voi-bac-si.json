@@ -1,0 +1,323 @@
+{
+  "id": "mo-ta-trieu-chung-voi-bac-si",
+  "title": "Mô tả triệu chứng chi tiết với bác sĩ",
+  "topic": "Khám bệnh và mô tả triệu chứng",
+  "level": "B1",
+  "summary": "Người học trao đổi với bác sĩ về đau đầu, sốt và các triệu chứng đi kèm. Bài học tập trung vào cách mô tả diễn biến, mức độ và tiền sử dị ứng.",
+  "goals": [
+    "Mô tả triệu chứng, thời điểm bắt đầu và mức độ nghiêm trọng",
+    "Trả lời câu hỏi theo dõi của bác sĩ bằng nhiều thì",
+    "Nói về thuốc đã dùng, dị ứng và dấu hiệu cần theo dõi"
+  ],
+  "vocab": [
+    {
+      "en": "headache",
+      "ipa": "/ˈhedeɪk/",
+      "vi": "đau đầu",
+      "example": "She has had a mild headache since early this morning."
+    },
+    {
+      "en": "fever",
+      "ipa": "/ˈfiːvər/",
+      "vi": "sốt",
+      "example": "His fever went down after he rested and drank water."
+    },
+    {
+      "en": "pressure",
+      "ipa": "/ˈpreʃər/",
+      "vi": "cảm giác áp lực, đè nặng",
+      "example": "I feel a steady pressure behind my eyes at night."
+    },
+    {
+      "en": "sensitivity to light",
+      "ipa": "/ˌsensəˈtɪvəti tə laɪt/",
+      "vi": "nhạy cảm với ánh sáng",
+      "example": "Sensitivity to light makes my headache much worse."
+    },
+    {
+      "en": "nausea",
+      "ipa": "/ˈnɔːziə/",
+      "vi": "buồn nôn",
+      "example": "She felt nausea before breakfast but did not vomit."
+    },
+    {
+      "en": "vomit",
+      "ipa": "/ˈvɒmɪt/",
+      "vi": "nôn",
+      "example": "I have felt sick, but I have not vomited yet."
+    },
+    {
+      "en": "sore throat",
+      "ipa": "/sɔːr θroʊt/",
+      "vi": "đau họng",
+      "example": "My sore throat became worse after I spoke all day."
+    },
+    {
+      "en": "muscle aches",
+      "ipa": "/ˈmʌsəl eɪks/",
+      "vi": "đau nhức cơ",
+      "example": "My muscle aches started after the fever appeared yesterday."
+    },
+    {
+      "en": "symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "vi": "triệu chứng",
+      "example": "Please describe each symptom and when it first appeared."
+    },
+    {
+      "en": "allergy",
+      "ipa": "/ˈælədʒi/",
+      "vi": "dị ứng",
+      "example": "I have an allergy to penicillin and certain foods."
+    },
+    {
+      "en": "examine",
+      "ipa": "/ɪɡˈzæmɪn/",
+      "vi": "khám, kiểm tra y khoa",
+      "example": "The doctor will examine your throat, ears, and breathing carefully."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I have had ___ since ___.",
+      "vi": "Tôi đã bị ___ từ ___.",
+      "note": "Dùng hiện tại hoàn thành để nói triệu chứng bắt đầu trong quá khứ và còn tiếp diễn."
+    },
+    {
+      "en": "It feels like ___, especially when ___.",
+      "vi": "Nó có cảm giác như ___, đặc biệt khi ___.",
+      "note": "Dùng để mô tả cảm giác đau hoặc khó chịu cụ thể."
+    },
+    {
+      "en": "It gets worse when ___.",
+      "vi": "Nó trở nên nặng hơn khi ___.",
+      "note": "Dùng worse, không dùng worst khi so sánh sự thay đổi."
+    },
+    {
+      "en": "I have noticed ___, but I have not ___.",
+      "vi": "Tôi nhận thấy ___, nhưng tôi chưa ___.",
+      "note": "Nêu triệu chứng có và triệu chứng không có."
+    },
+    {
+      "en": "I took ___, which helped ___.",
+      "vi": "Tôi đã dùng ___, và nó giúp ___.",
+      "note": "Which helped dùng để nói tác dụng của thuốc đã uống."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong throat",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra. Không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "throat",
+        "three",
+        "think"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /t/ và /k/",
+      "tip": "Phát âm rõ âm cuối để phân biệt felt với feel, và aches với ace.",
+      "words": [
+        "felt",
+        "took",
+        "aches"
+      ]
+    },
+    {
+      "focus": "trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn âm đầu ở nausea và allergy, nhấn âm hai ở examine.",
+      "words": [
+        "nausea",
+        "allergy",
+        "examine"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have headache since Monday.",
+      "right": "I have had a headache since Monday.",
+      "vi": "Cần mạo từ a trước headache và dùng hiện tại hoàn thành với since."
+    },
+    {
+      "wrong": "Yesterday I feel very tired.",
+      "right": "Yesterday I felt very tired.",
+      "vi": "Có mốc thời gian quá khứ yesterday nên dùng felt."
+    },
+    {
+      "wrong": "My head is pain.",
+      "right": "I have a headache.",
+      "vi": "Không dùng is pain để diễn tả đau đầu; dùng have a headache tự nhiên hơn."
+    },
+    {
+      "wrong": "I am allergy to penicillin.",
+      "right": "I am allergic to penicillin.",
+      "vi": "Allergy là danh từ, còn allergic là tính từ sau động từ am."
+    },
+    {
+      "wrong": "The medicine did not helped me.",
+      "right": "The medicine did not help me.",
+      "vi": "Sau did not phải dùng động từ nguyên mẫu help."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Bác sĩ",
+      "b": "Bệnh nhân"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. What symptoms have brought you in to see me today?",
+        "vi": "Chào buổi sáng. Hôm nay triệu chứng nào khiến bạn đến gặp tôi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have had a headache and fever since Monday evening.",
+        "vi": "Tôi bị đau đầu và sốt từ tối thứ Hai.",
+        "hint": "Dùng have had để nói triệu chứng kéo dài đến hiện tại."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry you feel unwell. Can you describe the headache more precisely?",
+        "vi": "Tôi rất tiếc vì bạn đang không khỏe. Bạn có thể mô tả cơn đau đầu cụ thể hơn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It feels like pressure behind my eyes, and it gets worse at night.",
+        "vi": "Nó có cảm giác như bị đè nặng sau mắt, và nặng hơn vào ban đêm.",
+        "hint": "Dùng It feels like để mô tả cảm giác đau."
+      },
+      {
+        "speaker": "a",
+        "en": "Have you noticed nausea, sensitivity to light, or any changes in vision?",
+        "vi": "Bạn có bị buồn nôn, nhạy cảm với ánh sáng, hoặc thay đổi thị lực không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, bright light bothers me, but I have not vomited or seen anything unusual.",
+        "vi": "Có, ánh sáng mạnh làm tôi khó chịu, nhưng tôi chưa nôn hay thấy điều gì bất thường.",
+        "hint": "Nêu triệu chứng có bằng Yes, rồi dùng have not cho triệu chứng chưa có."
+      },
+      {
+        "speaker": "a",
+        "en": "Besides the headache, have you had a cough, sore throat, or muscle aches?",
+        "vi": "Ngoài đau đầu ra, bạn có ho, đau họng hoặc đau nhức cơ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My throat was sore yesterday, and I have felt unusually tired all week long.",
+        "vi": "Hôm qua tôi bị đau họng, và tôi đã mệt bất thường suốt cả tuần.",
+        "hint": "Kết hợp quá khứ đơn với hiện tại hoàn thành để mô tả diễn biến."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Have your symptoms improved, worsened, or stayed about the same today?",
+        "vi": "Cảm ơn bạn. Hôm nay các triệu chứng đã đỡ hơn, nặng hơn hay gần như không đổi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My fever is lower, but the headache has become stronger since this morning.",
+        "vi": "Tôi bớt sốt, nhưng cơn đau đầu đã nặng hơn từ sáng nay.",
+        "hint": "Dùng has become để nói một thay đổi mới xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Have you taken any medicine, and do you have allergies or other health conditions?",
+        "vi": "Bạn đã dùng thuốc gì chưa, và bạn có dị ứng hoặc bệnh lý nào khác không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I took paracetamol twice, which helped briefly, and I am allergic to penicillin.",
+        "vi": "Tôi đã uống paracetamol hai lần, thuốc chỉ giúp trong chốc lát, và tôi dị ứng với penicillin.",
+        "hint": "Dùng which helped briefly để nói thuốc chỉ có tác dụng ngắn."
+      },
+      {
+        "speaker": "a",
+        "en": "This may be a viral infection, but I would like to examine you carefully.",
+        "vi": "Đây có thể là nhiễm vi rút, nhưng tôi muốn khám kỹ cho bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds good. What should I watch for after I go home today?",
+        "vi": "Vâng. Sau khi về nhà hôm nay, tôi nên theo dõi dấu hiệu nào?",
+        "hint": "Dùng What should I watch for để hỏi dấu hiệu cần lưu ý."
+      },
+      {
+        "speaker": "a",
+        "en": "Rest, drink fluids, and seek urgent care if you develop severe pain or confusion.",
+        "vi": "Hãy nghỉ ngơi, uống đủ nước và đi khám khẩn nếu bạn đau dữ dội hoặc lú lẫn.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, attentive doctor at a neighborhood clinic. You ask clear follow-up questions, explain the next steps plainly, and respond with empathy.",
+    "opener": "Good morning. What symptoms have brought you in to see me today?",
+    "goal": "Người học mô tả rõ triệu chứng, thuốc đã dùng và dị ứng để nhận hướng dẫn phù hợp."
+  },
+  "drills": [
+    {
+      "vi": "Tôi bị đau đầu từ tối thứ Hai.",
+      "en": "I have had a headache since Monday evening.",
+      "alts": [
+        "I have had a headache since Monday night."
+      ]
+    },
+    {
+      "vi": "Tôi cảm thấy áp lực phía sau mắt.",
+      "en": "I feel pressure behind my eyes.",
+      "alts": [
+        "It feels like pressure behind my eyes."
+      ]
+    },
+    {
+      "vi": "Ánh sáng mạnh làm cơn đau của tôi nặng hơn.",
+      "en": "Bright light makes my pain worse.",
+      "alts": [
+        "My headache gets worse in bright light."
+      ]
+    },
+    {
+      "vi": "Tôi đã mệt suốt cả tuần.",
+      "en": "I have felt tired all week.",
+      "alts": [
+        "I have been unusually tired all week."
+      ]
+    },
+    {
+      "vi": "Tôi đã uống paracetamol, nhưng nó chỉ giúp trong chốc lát.",
+      "en": "I took paracetamol, but it only helped briefly.",
+      "alts": [
+        "I took paracetamol twice, which helped briefly."
+      ]
+    },
+    {
+      "vi": "Tôi dị ứng với penicillin.",
+      "en": "I am allergic to penicillin.",
+      "alts": [
+        "I have an allergy to penicillin."
+      ]
+    },
+    {
+      "vi": "Tôi nên theo dõi triệu chứng nào ở nhà?",
+      "en": "What symptoms should I watch for at home?",
+      "alts": [
+        "What should I watch for after I go home?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm toàn bộ hội thoại, chú ý các từ headache, throat và allergy.",
+    "Viết năm câu mô tả một triệu chứng bằng các mẫu câu đã học.",
+    "Tập trả lời không nhìn bài cho các câu hỏi theo dõi của bác sĩ."
+  ]
+}

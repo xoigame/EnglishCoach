@@ -1,0 +1,306 @@
+{
+  "id": "su-co-chuyen-bay",
+  "title": "Xử lý sự cố chuyến bay và hành lý",
+  "topic": "Hoãn chuyến, thất lạc hành lý",
+  "level": "B1",
+  "summary": "Bạn trao đổi với nhân viên quầy hỗ trợ khi chuyến bay bị hoãn và hành lý chưa đến. Bạn sẽ xin đổi chuyến, hỏi hỗ trợ khách sạn và báo thất lạc hành lý.",
+  "goals": [
+    "Trình bày rõ vấn đề hoãn chuyến và lỡ chuyến nối.",
+    "Yêu cầu đổi chuyến bay, khách sạn và thông tin hỗ trợ.",
+    "Mô tả hành lý thất lạc và hỏi cách nhận lại hành lý."
+  ],
+  "vocab": [
+    {
+      "en": "delayed flight",
+      "ipa": "/dɪˈleɪd flaɪt/",
+      "vi": "chuyến bay bị hoãn",
+      "example": "My delayed flight means that I will miss my connection."
+    },
+    {
+      "en": "connection",
+      "ipa": "/kəˈnekʃən/",
+      "vi": "chuyến bay nối chuyến",
+      "example": "I am worried about missing my connection tonight."
+    },
+    {
+      "en": "rebook",
+      "ipa": "/ˌriːˈbʊk/",
+      "vi": "đặt lại chuyến bay",
+      "example": "Could you rebook me on the next available flight?"
+    },
+    {
+      "en": "hotel voucher",
+      "ipa": "/həʊˈtel ˈvaʊtʃər/",
+      "vi": "phiếu hỗ trợ khách sạn",
+      "example": "The airline gave me a hotel voucher for tonight."
+    },
+    {
+      "en": "missing luggage",
+      "ipa": "/ˈmɪsɪŋ ˈlʌɡɪdʒ/",
+      "vi": "hành lý thất lạc",
+      "example": "I need to report my missing luggage before leaving."
+    },
+    {
+      "en": "baggage report",
+      "ipa": "/ˈbæɡɪdʒ rɪˈpɔːrt/",
+      "vi": "biên bản báo thất lạc hành lý",
+      "example": "The agent filed a baggage report for my suitcase."
+    },
+    {
+      "en": "trace",
+      "ipa": "/treɪs/",
+      "vi": "truy tìm, theo dõi",
+      "example": "The airline will trace your suitcase immediately."
+    },
+    {
+      "en": "delivery",
+      "ipa": "/dɪˈlɪvəri/",
+      "vi": "việc giao hàng, giao hành lý",
+      "example": "Please ask about delivery to your hotel."
+    },
+    {
+      "en": "suitcase",
+      "ipa": "/ˈsuːtkeɪs/",
+      "vi": "va li",
+      "example": "My suitcase has a blue ribbon on the handle."
+    },
+    {
+      "en": "handle",
+      "ipa": "/ˈhændl/",
+      "vi": "tay cầm",
+      "example": "There is a name tag on the suitcase handle."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "My flight has been delayed, so I will miss my connection.",
+      "vi": "Chuyến bay của tôi bị hoãn, nên tôi sẽ lỡ chuyến nối.",
+      "note": "Dùng hiện tại hoàn thành bị động để nói sự cố vừa xảy ra và còn ảnh hưởng hiện tại."
+    },
+    {
+      "en": "Could you rebook me on the next available flight?",
+      "vi": "Bạn có thể đặt lại cho tôi chuyến bay sớm nhất còn chỗ không?",
+      "note": "Cách yêu cầu lịch sự tại quầy hỗ trợ."
+    },
+    {
+      "en": "Could you tell me whether the airline provides accommodation?",
+      "vi": "Bạn có thể cho tôi biết hãng có hỗ trợ chỗ ở không?",
+      "note": "Dùng whether khi hỏi thông tin một cách trang trọng, lịch sự."
+    },
+    {
+      "en": "I need to report my missing luggage.",
+      "vi": "Tôi cần báo hành lý thất lạc.",
+      "note": "Sau need dùng to cộng động từ."
+    },
+    {
+      "en": "If it is found, could you deliver it to my hotel?",
+      "vi": "Nếu tìm thấy, bạn có thể giao nó đến khách sạn của tôi không?",
+      "note": "Dùng câu điều kiện với if để nói về khả năng trong tương lai."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong delayed và connection",
+      "tip": "Nhấn âm thứ hai: di-LAYED, cờ-NEC-shần. Không đọc đều mọi âm tiết.",
+      "words": [
+        "delayed",
+        "connection",
+        "delivery"
+      ]
+    },
+    {
+      "focus": "âm /ʌ/ trong luggage",
+      "tip": "Mở miệng ngắn và thấp như âm ơ trong tiếng Việt, không đọc thành luu-gâyj.",
+      "words": [
+        "luggage",
+        "double",
+        "voucher"
+      ]
+    },
+    {
+      "focus": "âm /tʃ/ trong voucher",
+      "tip": "Bắt đầu bằng âm t rồi chuyển nhanh sang sh: vâu-chờ, không đọc thành vâu-sờ.",
+      "words": [
+        "voucher",
+        "connection",
+        "catch"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My flight was delay.",
+      "right": "My flight was delayed.",
+      "vi": "Sau was cần tính từ delayed, không dùng động từ delay nguyên mẫu."
+    },
+    {
+      "wrong": "Can you to rebook me?",
+      "right": "Can you rebook me?",
+      "vi": "Sau can dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "I need report my luggage.",
+      "right": "I need to report my missing luggage.",
+      "vi": "Sau need phải có to; thêm missing để nói hành lý chưa được hãng giao đến."
+    },
+    {
+      "wrong": "Where are my luggages?",
+      "right": "Where is my luggage?",
+      "vi": "Luggage là danh từ không đếm được, không thêm s và thường dùng động từ số ít."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên quầy hỗ trợ sân bay",
+      "b": "Hành khách"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good afternoon. Are you here about a delayed flight or missing luggage?",
+        "vi": "Chào buổi chiều. Bạn đến vì chuyến bay bị hoãn hay hành lý thất lạc?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "My flight to Hanoi has been delayed, and my suitcase did not arrive.",
+        "vi": "Chuyến bay của tôi đến Hà Nội bị hoãn, và va li của tôi chưa đến.",
+        "hint": "Dùng has been delayed để nói chuyến bay đã bị hoãn."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry to hear that. May I see your passport and boarding pass?",
+        "vi": "Tôi rất tiếc khi nghe điều đó. Tôi có thể xem hộ chiếu và thẻ lên máy bay của bạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here they are. The delay means I will miss my connection tonight.",
+        "vi": "Đây ạ. Việc hoãn chuyến có nghĩa là tôi sẽ lỡ chuyến nối tối nay.",
+        "hint": "Dùng means I will miss để nói hệ quả sắp xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "The next available flight leaves tomorrow morning at eight thirty.",
+        "vi": "Chuyến bay sớm nhất còn chỗ khởi hành lúc tám giờ ba mươi sáng mai.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you rebook me and tell me whether the airline provides accommodation?",
+        "vi": "Bạn có thể đổi chuyến cho tôi và cho biết hãng có hỗ trợ chỗ ở không?",
+        "hint": "Could you và whether giúp câu hỏi lịch sự hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, we can rebook you and arrange a hotel voucher because of the delay.",
+        "vi": "Có, chúng tôi có thể đổi chuyến và sắp xếp phiếu khách sạn do chuyến bay bị hoãn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I also need to report my missing suitcase before leaving the airport.",
+        "vi": "Cảm ơn bạn. Tôi cũng cần báo va li thất lạc trước khi rời sân bay.",
+        "hint": "Dùng also need to để thêm một yêu cầu liên quan."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. Please describe the suitcase and tell me where you last saw it.",
+        "vi": "Tất nhiên. Vui lòng mô tả va li và cho tôi biết lần cuối bạn thấy nó ở đâu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is a large black suitcase with a blue ribbon on the handle.",
+        "vi": "Đó là một va li lớn màu đen, có một dải ruy băng xanh ở tay cầm.",
+        "hint": "Dùng with để thêm đặc điểm nhận dạng."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. I have filed a baggage report, and we will trace it immediately.",
+        "vi": "Cảm ơn bạn. Tôi đã lập biên bản báo hành lý, và chúng tôi sẽ truy tìm ngay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How will I know if it is found, and when can it be delivered?",
+        "vi": "Làm sao tôi biết nếu nó được tìm thấy, và khi nào nó có thể được giao đến?",
+        "hint": "Dùng if it is found để nói về tình huống có thể xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "We will text you today. If found, it should arrive at your hotel tomorrow.",
+        "vi": "Chúng tôi sẽ nhắn tin cho bạn hôm nay. Nếu tìm thấy, nó sẽ đến khách sạn của bạn vào ngày mai.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect, thank you for sorting everything out. I will wait for your message.",
+        "vi": "Tuyệt vời, cảm ơn bạn đã giải quyết mọi việc. Tôi sẽ chờ tin nhắn của bạn.",
+        "hint": "Dùng sorting everything out để cảm ơn vì đã xử lý toàn bộ sự việc."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm and helpful airport support desk agent. You are working at an international airport and assist passengers with delayed flights, rebooking, hotel vouchers, and missing luggage.",
+    "opener": "Good afternoon. Are you here about a delayed flight or missing luggage?",
+    "goal": "Người học đổi chuyến sau khi bị hoãn, nhận phiếu khách sạn và hoàn tất báo thất lạc hành lý."
+  },
+  "drills": [
+    {
+      "vi": "Chuyến bay của tôi bị hoãn, nên tôi sẽ lỡ chuyến nối.",
+      "en": "My flight has been delayed, so I will miss my connection.",
+      "alts": [
+        "My delayed flight means that I will miss my connection."
+      ]
+    },
+    {
+      "vi": "Bạn có thể đổi chuyến cho tôi vào sáng mai không?",
+      "en": "Could you rebook me for tomorrow morning?",
+      "alts": [
+        "Could you put me on the next available flight tomorrow morning?"
+      ]
+    },
+    {
+      "vi": "Hãng hàng không có hỗ trợ khách sạn không?",
+      "en": "Does the airline provide accommodation?",
+      "alts": [
+        "Could you tell me whether the airline provides accommodation?"
+      ]
+    },
+    {
+      "vi": "Tôi cần báo va li thất lạc của mình.",
+      "en": "I need to report my missing suitcase.",
+      "alts": [
+        "I would like to file a baggage report for my missing luggage."
+      ]
+    },
+    {
+      "vi": "Va li có một dải ruy băng xanh ở tay cầm.",
+      "en": "The suitcase has a blue ribbon on the handle.",
+      "alts": [
+        "There is a blue ribbon on the suitcase handle."
+      ]
+    },
+    {
+      "vi": "Nếu tìm thấy, bạn có thể giao nó đến khách sạn của tôi không?",
+      "en": "If it is found, could you deliver it to my hotel?",
+      "alts": [
+        "Could you send it to my hotel when you find it?"
+      ]
+    },
+    {
+      "vi": "Khi nào tôi sẽ nhận được tin nhắn cập nhật?",
+      "en": "When will I receive a text update?",
+      "alts": [
+        "When will you text me with an update?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm toàn bộ hội thoại, chú ý trọng âm của delayed, connection và delivery.",
+    "Viết ba câu về sự cố ở sân bay, sử dụng delayed flight, rebook và missing luggage.",
+    "Tự đóng vai hành khách và nói lại yêu cầu đổi chuyến trong 45 giây."
+  ]
+}

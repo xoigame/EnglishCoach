@@ -1,0 +1,306 @@
+{
+  "id": "hop-nhom-hang-tuan",
+  "title": "Họp nhóm hằng tuần: Báo cáo tiến độ và vướng mắc",
+  "topic": "Cập nhật tiến độ công việc và xin hỗ trợ",
+  "level": "B1",
+  "summary": "Người học báo cáo tiến độ trong buổi họp nhóm hằng tuần với quản lý trực tiếp. Người học nêu vướng mắc, giải thích nguyên nhân và thống nhất kế hoạch hoàn thành.",
+  "goals": [
+    "Báo cáo công việc đã hoàn thành và đang thực hiện",
+    "Nêu vấn đề cùng lý do một cách rõ ràng",
+    "Đề xuất hoặc phản hồi về hỗ trợ và thời hạn hoàn thành"
+  ],
+  "vocab": [
+    {
+      "en": "priority",
+      "ipa": "/praɪˈɔːrəti/",
+      "vi": "ưu tiên",
+      "example": "This task is our top priority this week."
+    },
+    {
+      "en": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "vi": "phản hồi",
+      "example": "I am reviewing customer feedback this afternoon."
+    },
+    {
+      "en": "dashboard",
+      "ipa": "/ˈdæʃbɔːrd/",
+      "vi": "bảng điều khiển",
+      "example": "Customers like the new dashboard."
+    },
+    {
+      "en": "loading time",
+      "ipa": "/ˈloʊdɪŋ taɪm/",
+      "vi": "thời gian tải",
+      "example": "Several users mentioned slow loading times."
+    },
+    {
+      "en": "flag",
+      "ipa": "/flæɡ/",
+      "vi": "báo cáo, lưu ý một vấn đề",
+      "example": "Thank you for flagging that issue."
+    },
+    {
+      "en": "investigate",
+      "ipa": "/ɪnˈvestɪɡeɪt/",
+      "vi": "điều tra, tìm hiểu nguyên nhân",
+      "example": "The engineering team will investigate the problem."
+    },
+    {
+      "en": "behind schedule",
+      "ipa": "/bɪˈhaɪnd ˈskedʒuːl/",
+      "vi": "chậm tiến độ",
+      "example": "I am behind schedule on the training guide."
+    },
+    {
+      "en": "last-minute",
+      "ipa": "/ˌlæst ˈmɪnɪt/",
+      "vi": "vào phút chót",
+      "example": "We had several last-minute changes."
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "vi": "hạn chót",
+      "example": "Thursday is the deadline for the guide."
+    },
+    {
+      "en": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "vi": "làm rõ",
+      "example": "Could you clarify the updated process?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I have finished ___, and I am currently ___.",
+      "vi": "Tôi đã hoàn thành ___ và hiện đang ___.",
+      "note": "Dùng hiện tại hoàn thành cho việc vừa xong và hiện tại tiếp diễn cho việc đang làm."
+    },
+    {
+      "en": "I am behind on ___ due to ___.",
+      "vi": "Tôi đang chậm tiến độ về ___ do ___.",
+      "note": "Sau due to dùng danh từ hoặc cụm danh từ."
+    },
+    {
+      "en": "What is blocking you most?",
+      "vi": "Điều gì đang cản trở bạn nhiều nhất?",
+      "note": "Dùng để hỏi trực tiếp nhưng vẫn phù hợp trong họp nhóm."
+    },
+    {
+      "en": "I can finish ___ by ___ if ___.",
+      "vi": "Tôi có thể hoàn thành ___ trước/vào ___ nếu ___.",
+      "note": "Dùng if để nêu điều kiện cần có."
+    },
+    {
+      "en": "I will ___, so the team can ___.",
+      "vi": "Tôi sẽ ___ để cả nhóm có thể ___.",
+      "note": "Dùng so để diễn đạt mục đích hoặc kết quả."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn mạnh âm thứ hai trong priority, feedback và investigate; không đọc đều từng âm.",
+      "words": [
+        "priority",
+        "feedback",
+        "investigate"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /d/ và /t/",
+      "tip": "Phát âm nhẹ âm cuối trong feedback, updated và deadline để lời nói rõ hơn.",
+      "words": [
+        "feedback",
+        "updated",
+        "deadline"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm đầu /kl/",
+      "tip": "Đọc liền /k/ và /l/ trong clarify, không thêm nguyên âm ở giữa.",
+      "words": [
+        "clarify",
+        "clearer",
+        "client"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am behind schedule because last-minute changes.",
+      "right": "I am behind schedule because of last-minute changes.",
+      "vi": "Sau because cần một mệnh đề; trước cụm danh từ dùng because of hoặc due to."
+    },
+    {
+      "wrong": "I have finished the survey yesterday.",
+      "right": "I finished the survey yesterday.",
+      "vi": "Có mốc thời gian đã kết thúc như yesterday thì dùng quá khứ đơn, không dùng hiện tại hoàn thành."
+    },
+    {
+      "wrong": "I will discuss about it with engineering.",
+      "right": "I will discuss it with engineering.",
+      "vi": "Discuss là ngoại động từ, không dùng thêm about trước tân ngữ."
+    },
+    {
+      "wrong": "The design team has not sent me the screenshots yet.",
+      "right": "The design team has not sent me the screenshots yet.",
+      "vi": "Không nói has not sent to me the screenshots; đặt tân ngữ trực tiếp trước, rồi dùng me."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý trực tiếp",
+      "b": "Nhân viên báo cáo tiến độ"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning, everyone. Let us start with a quick update on this week's priorities.",
+        "vi": "Chào buổi sáng mọi người. Chúng ta hãy bắt đầu bằng phần cập nhật nhanh về các ưu tiên tuần này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have finished the client survey, and I am reviewing the feedback this afternoon.",
+        "vi": "Tôi đã hoàn thành khảo sát khách hàng và chiều nay đang xem lại phản hồi.",
+        "hint": "Dùng have finished cho việc vừa hoàn thành."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Which findings look most useful for the product team so far?",
+        "vi": "Tốt. Cho đến nay, những phát hiện nào có vẻ hữu ích nhất cho đội sản phẩm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Customers like the new dashboard, but several mentioned slow loading times.",
+        "vi": "Khách hàng thích bảng điều khiển mới, nhưng một số người đề cập thời gian tải chậm.",
+        "hint": "Dùng but để nêu điểm tích cực rồi đến vấn đề."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks for flagging that. Have you shared those concerns with the engineering team?",
+        "vi": "Cảm ơn bạn đã lưu ý điều đó. Bạn đã chia sẻ những quan ngại này với đội kỹ thuật chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Not yet, because I wanted to confirm the issue before raising it.",
+        "vi": "Chưa, vì tôi muốn xác nhận vấn đề trước khi báo lên.",
+        "hint": "Dùng before raising it để nói việc cần làm trước."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Please send them the details today, so they can investigate.",
+        "vi": "Điều đó hợp lý. Hãy gửi cho họ chi tiết hôm nay để họ có thể tìm hiểu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will. I am also behind on the training guide due to last-minute changes.",
+        "vi": "Tôi sẽ làm. Tôi cũng đang chậm tiến độ phần hướng dẫn đào tạo do những thay đổi phút chót.",
+        "hint": "Dùng due to trước cụm danh từ."
+      },
+      {
+        "speaker": "a",
+        "en": "What is blocking you most, and what support would help you finish it?",
+        "vi": "Điều gì đang cản trở bạn nhiều nhất, và sự hỗ trợ nào sẽ giúp bạn hoàn thành việc đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I need final screenshots from design and clearer instructions about the updated process.",
+        "vi": "Tôi cần ảnh chụp màn hình cuối cùng từ đội thiết kế và hướng dẫn rõ hơn về quy trình cập nhật.",
+        "hint": "Dùng need để nêu cụ thể nguồn hỗ trợ bạn cần."
+      },
+      {
+        "speaker": "a",
+        "en": "I will ask design for the screenshots and clarify the process after this meeting.",
+        "vi": "Tôi sẽ hỏi đội thiết kế về ảnh chụp màn hình và làm rõ quy trình sau cuộc họp này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That would help a lot. I can complete the guide by Thursday if I receive them.",
+        "vi": "Điều đó sẽ giúp rất nhiều. Tôi có thể hoàn thành tài liệu hướng dẫn vào thứ Năm nếu nhận được chúng.",
+        "hint": "Mẫu can complete ... if ... giúp nêu cam kết có điều kiện."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Let us set Thursday as the deadline, then review progress in Friday's check-in.",
+        "vi": "Tốt. Chúng ta đặt thứ Năm là hạn chót, rồi xem lại tiến độ trong buổi cập nhật thứ Sáu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sounds good. I will send the engineering notes today and update you on Thursday.",
+        "vi": "Nghe ổn đấy. Tôi sẽ gửi ghi chú cho đội kỹ thuật hôm nay và cập nhật cho anh/chị vào thứ Năm.",
+        "hint": "Kết thúc bằng cam kết hành động cụ thể."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a supportive direct manager leading a weekly team meeting in a busy office. You ask clear follow-up questions, help remove blockers, and agree on realistic next steps.",
+    "opener": "Good morning. Could you give me a quick update on your priorities this week?",
+    "goal": "Người học báo cáo tiến độ, nêu một vướng mắc kèm lý do, xin hỗ trợ và thống nhất thời hạn."
+  },
+  "drills": [
+    {
+      "vi": "Tôi đã hoàn thành khảo sát khách hàng và đang xem phản hồi.",
+      "en": "I have finished the client survey, and I am reviewing the feedback.",
+      "alts": [
+        "I finished the client survey, and I am reviewing the feedback."
+      ]
+    },
+    {
+      "vi": "Tôi đang chậm tiến độ tài liệu hướng dẫn do thay đổi phút chót.",
+      "en": "I am behind on the guide due to last-minute changes.",
+      "alts": [
+        "I am behind schedule on the guide because of last-minute changes."
+      ]
+    },
+    {
+      "vi": "Một số khách hàng đã đề cập thời gian tải chậm.",
+      "en": "Several customers mentioned slow loading times.",
+      "alts": [
+        "A few customers reported slow loading times."
+      ]
+    },
+    {
+      "vi": "Điều gì đang cản trở bạn nhiều nhất?",
+      "en": "What is blocking you most?",
+      "alts": [
+        "What is the main thing blocking you?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ gửi chi tiết để đội kỹ thuật có thể tìm hiểu.",
+      "en": "I will send the details, so the engineering team can investigate.",
+      "alts": [
+        "I will share the details with engineering so they can investigate."
+      ]
+    },
+    {
+      "vi": "Tôi có thể hoàn thành việc này vào thứ Năm nếu nhận được ảnh chụp màn hình.",
+      "en": "I can finish this by Thursday if I receive the screenshots.",
+      "alts": [
+        "I can complete it by Thursday if I get the screenshots."
+      ]
+    },
+    {
+      "vi": "Bạn có thể làm rõ quy trình cập nhật không?",
+      "en": "Could you clarify the updated process?",
+      "alts": [
+        "Could you give me clearer instructions about the updated process?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần báo cáo tiến độ của bạn trong khoảng một phút.",
+    "Viết ba câu dùng mẫu I am behind on ___ due to ___.",
+    "Chuẩn bị một cập nhật công việc gồm việc đã xong, vướng mắc và thời hạn mới."
+  ]
+}

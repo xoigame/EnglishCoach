@@ -1,0 +1,290 @@
+{
+  "id": "lam-thu-tuc-o-san-bay",
+  "title": "Làm thủ tục ở sân bay và qua cửa an ninh",
+  "topic": "Làm thủ tục chuyến bay",
+  "level": "A2",
+  "summary": "Bạn làm thủ tục cho chuyến bay, ký gửi hành lý và hỏi đường đến cửa an ninh. Bạn cũng học cách hỏi về giờ lên máy bay.",
+  "goals": [
+    "Làm thủ tục chuyến bay bằng các câu lịch sự, đơn giản.",
+    "Nói về hành lý ký gửi và hành lý xách tay.",
+    "Hỏi về cửa lên máy bay, an ninh và giờ lên máy bay."
+  ],
+  "vocab": [
+    {
+      "en": "passport",
+      "ipa": "/ˈpæspɔːrt/",
+      "vi": "hộ chiếu",
+      "example": "Here is my passport."
+    },
+    {
+      "en": "electronic ticket",
+      "ipa": "/ɪˌlekˈtrɑːnɪk ˈtɪkɪt/",
+      "vi": "vé điện tử",
+      "example": "Here is my electronic ticket."
+    },
+    {
+      "en": "check in",
+      "ipa": "/ˈtʃek ɪn/",
+      "vi": "làm thủ tục chuyến bay",
+      "example": "I would like to check in."
+    },
+    {
+      "en": "suitcase",
+      "ipa": "/ˈsuːtkeɪs/",
+      "vi": "va li",
+      "example": "I have one suitcase to check."
+    },
+    {
+      "en": "backpack",
+      "ipa": "/ˈbækpæk/",
+      "vi": "ba lô",
+      "example": "My backpack is small."
+    },
+    {
+      "en": "scale",
+      "ipa": "/skeɪl/",
+      "vi": "cân hành lý",
+      "example": "Put your suitcase on the scale."
+    },
+    {
+      "en": "liquids",
+      "ipa": "/ˈlɪkwɪdz/",
+      "vi": "chất lỏng",
+      "example": "Remove liquids before security."
+    },
+    {
+      "en": "security",
+      "ipa": "/sɪˈkjʊrəti/",
+      "vi": "khu vực an ninh",
+      "example": "Security is straight ahead."
+    },
+    {
+      "en": "gate",
+      "ipa": "/ɡeɪt/",
+      "vi": "cửa lên máy bay",
+      "example": "My gate is twelve."
+    },
+    {
+      "en": "boarding",
+      "ipa": "/ˈbɔːrdɪŋ/",
+      "vi": "việc lên máy bay",
+      "example": "Boarding begins at two thirty."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "May I see your ___, please?",
+      "vi": "Tôi có thể xem ___ của bạn được không?",
+      "note": "Câu lịch sự thường dùng bởi nhân viên sân bay."
+    },
+    {
+      "en": "I would like to check in for this flight.",
+      "vi": "Tôi muốn làm thủ tục cho chuyến bay này.",
+      "note": "Dùng would like to để nói lịch sự."
+    },
+    {
+      "en": "Do you have any bags to check?",
+      "vi": "Bạn có hành lý nào cần ký gửi không?",
+      "note": "Bag to check là hành lý gửi ở quầy."
+    },
+    {
+      "en": "Is my ___ okay to take on board?",
+      "vi": "___ của tôi có được mang lên máy bay không?",
+      "note": "Dùng để hỏi về hành lý xách tay."
+    },
+    {
+      "en": "What time does boarding begin?",
+      "vi": "Việc lên máy bay bắt đầu lúc mấy giờ?",
+      "note": "Dùng does với boarding vì đây là danh từ số ít."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "phụ âm cuối /t/",
+      "tip": "Phát âm rõ âm t ở cuối, không bỏ mất âm như khi nói tiếng Việt.",
+      "words": [
+        "passport",
+        "ticket",
+        "gate"
+      ]
+    },
+    {
+      "focus": "trọng âm trong security",
+      "tip": "Nhấn mạnh âm thứ hai: si-KYU-rơ-ti.",
+      "words": [
+        "security"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /kw/ và âm cuối /dz/",
+      "tip": "Nói liền kw trong liquids và phát âm nhẹ dz ở cuối.",
+      "words": [
+        "liquids"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want check in.",
+      "right": "I want to check in.",
+      "vi": "Sau want cần có to trước động từ."
+    },
+    {
+      "wrong": "I have one luggage.",
+      "right": "I have one suitcase.",
+      "vi": "Luggage không đếm được; dùng suitcase để nói một va li."
+    },
+    {
+      "wrong": "Where gate twelve is?",
+      "right": "Where is gate twelve?",
+      "vi": "Trong câu hỏi, động từ is đứng trước chủ ngữ gate twelve."
+    },
+    {
+      "wrong": "I have a water.",
+      "right": "I have a bottle of water.",
+      "vi": "Water không đếm được; dùng a bottle of water để nói một chai nước."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên hàng không",
+      "b": "Hành khách"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. May I see your passport and ticket, please?",
+        "vi": "Chào buổi sáng. Tôi có thể xem hộ chiếu và vé của bạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. Here are my passport and electronic ticket.",
+        "vi": "Đây ạ. Đây là hộ chiếu và vé điện tử của tôi.",
+        "hint": "Dùng Here are khi đưa nhiều hơn một đồ vật."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Do you have any bags to check?",
+        "vi": "Cảm ơn. Bạn có hành lý nào cần ký gửi không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I have one suitcase and a small backpack.",
+        "vi": "Có, tôi có một va li và một ba lô nhỏ.",
+        "hint": "Dùng one suitcase cho một va li."
+      },
+      {
+        "speaker": "a",
+        "en": "Please put your suitcase on the scale here.",
+        "vi": "Vui lòng đặt va li của bạn lên cân ở đây.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Is my backpack okay to take on board?",
+        "vi": "Ba lô của tôi có được mang lên máy bay không?",
+        "hint": "Dùng Is my ... okay to hỏi xem đồ vật có được phép không."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, but remove liquids before you reach security.",
+        "vi": "Được, nhưng hãy bỏ chất lỏng ra trước khi bạn đến khu vực an ninh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have a water bottle. Should I throw it away?",
+        "vi": "Tôi có một chai nước. Tôi có nên bỏ nó đi không?",
+        "hint": "Should I ...? dùng để hỏi lời khuyên."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, please. Your gate is twelve, near security.",
+        "vi": "Vâng. Cửa lên máy bay của bạn là số mười hai, gần khu vực an ninh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What time does boarding begin for my flight today?",
+        "vi": "Việc lên máy bay cho chuyến bay của tôi hôm nay bắt đầu lúc mấy giờ?",
+        "hint": "Dùng What time does ... begin? để hỏi giờ bắt đầu."
+      },
+      {
+        "speaker": "a",
+        "en": "Boarding begins at two thirty. Please be at the gate early.",
+        "vi": "Việc lên máy bay bắt đầu lúc hai giờ ba mươi. Vui lòng đến cửa lên máy bay sớm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I will go through security now.",
+        "vi": "Cảm ơn. Bây giờ tôi sẽ đi qua khu vực an ninh.",
+        "hint": "Go through security nghĩa là đi qua cửa an ninh."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly airline check-in agent at an international airport. You help passengers check in, explain baggage rules, and guide them to security. Speak clearly and patiently.",
+    "opener": "Good morning. May I see your passport and ticket, please?",
+    "goal": "Người học hoàn tất làm thủ tục, hỏi về hành lý và tìm được cửa lên máy bay."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn làm thủ tục cho chuyến bay này.",
+      "en": "I would like to check in for this flight.",
+      "alts": [
+        "I need to check in for this flight."
+      ]
+    },
+    {
+      "vi": "Đây là hộ chiếu và vé điện tử của tôi.",
+      "en": "Here are my passport and electronic ticket.",
+      "alts": [
+        "Here is my passport and my electronic ticket."
+      ]
+    },
+    {
+      "vi": "Tôi có một va li để ký gửi.",
+      "en": "I have one suitcase to check.",
+      "alts": [
+        "I need to check one suitcase."
+      ]
+    },
+    {
+      "vi": "Tôi có thể mang ba lô lên máy bay không?",
+      "en": "Can I take my backpack on board?",
+      "alts": [
+        "Is my backpack okay to take on board?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể cho tôi biết cửa lên máy bay ở đâu không?",
+      "en": "Could you tell me where my gate is?",
+      "alts": [
+        "Where is my gate, please?"
+      ]
+    },
+    {
+      "vi": "Việc lên máy bay bắt đầu lúc mấy giờ?",
+      "en": "What time does boarding begin?",
+      "alts": [
+        "When does boarding begin?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ bỏ chai nước này đi.",
+      "en": "I will throw away this water bottle.",
+      "alts": [
+        "I will throw this water bottle away."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm toàn bộ hội thoại và nghe lại để sửa phát âm.",
+    "Đặt ba câu hỏi với mẫu Is my ___ okay to take on board?",
+    "Tự nói một đoạn ngắn về hành lý và giờ lên máy bay của bạn."
+  ]
+}

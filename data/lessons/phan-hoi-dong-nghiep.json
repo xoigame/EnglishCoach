@@ -1,0 +1,323 @@
+{
+  "id": "phan-hoi-dong-nghiep",
+  "title": "Đưa và nhận phản hồi trong đánh giá hiệu suất",
+  "topic": "Phản hồi trong buổi đánh giá hiệu suất",
+  "level": "B2",
+  "summary": "Người học trao đổi với quản lý trực tiếp trong buổi đánh giá hiệu suất. Họ tiếp nhận phản hồi, làm rõ điểm cần cải thiện và cùng thống nhất kế hoạch hành động.",
+  "goals": [
+    "Tiếp nhận phản hồi tích cực và mang tính xây dựng một cách chuyên nghiệp",
+    "Hỏi làm rõ bằng ví dụ cụ thể thay vì phản ứng phòng thủ",
+    "Đề xuất kế hoạch cải thiện và đưa phản hồi ngược cho quản lý một cách khéo léo"
+  ],
+  "vocab": [
+    {
+      "en": "performance review",
+      "ipa": "/pərˈfɔːrməns rɪˈvjuː/",
+      "vi": "buổi đánh giá hiệu suất",
+      "example": "We will discuss your goals during the performance review."
+    },
+    {
+      "en": "constructive feedback",
+      "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
+      "vi": "phản hồi mang tính xây dựng",
+      "example": "I appreciate the constructive feedback."
+    },
+    {
+      "en": "strength",
+      "ipa": "/streŋθ/",
+      "vi": "điểm mạnh",
+      "example": "Clear communication is one of your strengths."
+    },
+    {
+      "en": "area for improvement",
+      "ipa": "/ˈeriə fər ɪmˈpruːvmənt/",
+      "vi": "điểm cần cải thiện",
+      "example": "Time management is an area for improvement."
+    },
+    {
+      "en": "take ownership",
+      "ipa": "/teɪk ˈoʊnərʃɪp/",
+      "vi": "chịu trách nhiệm chủ động",
+      "example": "She takes ownership when a problem arises."
+    },
+    {
+      "en": "deliverable",
+      "ipa": "/dɪˈlɪvərəbəl/",
+      "vi": "kết quả công việc cần bàn giao",
+      "example": "The final deliverable was submitted on time."
+    },
+    {
+      "en": "blind spot",
+      "ipa": "/blaɪnd spɑːt/",
+      "vi": "điểm yếu mà bản thân chưa nhận ra",
+      "example": "That comment helped me identify a blind spot."
+    },
+    {
+      "en": "follow through",
+      "ipa": "/ˈfɑːloʊ θruː/",
+      "vi": "theo sát và hoàn thành điều đã cam kết",
+      "example": "I need to follow through on my commitments."
+    },
+    {
+      "en": "prioritize",
+      "ipa": "/praɪˈɔːrətaɪz/",
+      "vi": "ưu tiên",
+      "example": "I will prioritize the urgent tasks first."
+    },
+    {
+      "en": "action plan",
+      "ipa": "/ˈækʃən plæn/",
+      "vi": "kế hoạch hành động",
+      "example": "Let us agree on an action plan for the next quarter."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I appreciate you pointing that out.",
+      "vi": "Tôi cảm ơn vì anh/chị đã chỉ ra điều đó.",
+      "note": "Dùng để tiếp nhận góp ý bình tĩnh, chuyên nghiệp."
+    },
+    {
+      "en": "Could you give me a specific example?",
+      "vi": "Anh/chị có thể cho tôi một ví dụ cụ thể không?",
+      "note": "Hỏi làm rõ để hiểu chính xác phản hồi."
+    },
+    {
+      "en": "Looking back, I could have handled that differently.",
+      "vi": "Nhìn lại, tôi đã có thể xử lý việc đó khác đi.",
+      "note": "Thể hiện tinh thần tự đánh giá và nhận trách nhiệm."
+    },
+    {
+      "en": "Going forward, I will make sure to ___.",
+      "vi": "Từ bây giờ, tôi sẽ đảm bảo ___.",
+      "note": "Dùng để cam kết một hành động cụ thể."
+    },
+    {
+      "en": "What would success look like in your view?",
+      "vi": "Theo anh/chị, kết quả thành công sẽ trông như thế nào?",
+      "note": "Hỏi tiêu chí kỳ vọng để thương lượng mục tiêu rõ ràng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong \"strength\" và \"through\"",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "strength",
+        "through",
+        "three"
+      ]
+    },
+    {
+      "focus": "trọng âm trong \"constructive\" và \"prioritize\"",
+      "tip": "Nhấn âm thứ hai ở constructive và prioritize; các âm còn lại đọc nhẹ hơn.",
+      "words": [
+        "constructive",
+        "prioritize",
+        "performance"
+      ]
+    },
+    {
+      "focus": "nối âm trong \"follow through\"",
+      "tip": "Nối nhẹ âm cuối /oʊ/ với /θ/ để cụm từ liền mạch, tránh ngắt giữa hai từ.",
+      "words": [
+        "follow through",
+        "take ownership",
+        "specific example"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I very appreciate your feedback.",
+      "right": "I really appreciate your feedback.",
+      "vi": "Không dùng very trực tiếp trước động từ appreciate; dùng really hoặc greatly."
+    },
+    {
+      "wrong": "Can you give me an example more specific?",
+      "right": "Could you give me a more specific example?",
+      "vi": "Tính từ specific đứng trước danh từ example; could nghe lịch sự hơn trong buổi đánh giá."
+    },
+    {
+      "wrong": "I will improve this point in next time.",
+      "right": "I will improve in this area next time.",
+      "vi": "Không nói improve this point; dùng improve in this area hoặc improve this skill."
+    },
+    {
+      "wrong": "I have responsibility for the delay.",
+      "right": "I take responsibility for the delay.",
+      "vi": "Trong ngữ cảnh nhận lỗi chủ động, dùng take responsibility for tự nhiên hơn."
+    },
+    {
+      "wrong": "My manager did not give me enough feedbacks.",
+      "right": "My manager did not give me enough feedback.",
+      "vi": "Feedback là danh từ không đếm được, không thêm s."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý trực tiếp",
+      "b": "Nhân viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for meeting with me today. I would like to review your performance over the last six months.",
+        "vi": "Cảm ơn bạn đã gặp tôi hôm nay. Tôi muốn đánh giá hiệu suất của bạn trong sáu tháng qua.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am ready to hear your feedback.",
+        "vi": "Cảm ơn anh/chị. Tôi sẵn sàng lắng nghe phản hồi.",
+        "hint": "Dùng ready to hear để thể hiện thái độ cởi mở."
+      },
+      {
+        "speaker": "a",
+        "en": "Overall, you have done solid work. Your client communication has been clear and reliable.",
+        "vi": "Nhìn chung, bạn đã làm việc vững vàng. Cách bạn giao tiếp với khách hàng rõ ràng và đáng tin cậy.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am glad to hear that. Building trust with clients has been a priority for me.",
+        "vi": "Tôi rất vui khi nghe điều đó. Xây dựng niềm tin với khách hàng là ưu tiên của tôi.",
+        "hint": "Dùng has been a priority để nói về ưu tiên kéo dài đến hiện tại."
+      },
+      {
+        "speaker": "a",
+        "en": "One strength is that you take ownership when issues come up. You do not wait for someone else to fix them.",
+        "vi": "Một điểm mạnh là bạn chủ động chịu trách nhiệm khi có vấn đề phát sinh. Bạn không chờ người khác xử lý chúng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate you pointing that out. I try to keep people informed and follow through on what I promise.",
+        "vi": "Tôi cảm ơn vì anh/chị đã chỉ ra điều đó. Tôi cố gắng cập nhật cho mọi người và theo sát những gì mình cam kết.",
+        "hint": "Dùng follow through on để nói về việc làm đến cùng lời cam kết."
+      },
+      {
+        "speaker": "a",
+        "en": "There is also an area for improvement. On the product launch, two deliverables were late because the risks were raised too close to the deadline.",
+        "vi": "Cũng có một điểm cần cải thiện. Trong đợt ra mắt sản phẩm, hai kết quả bàn giao bị trễ vì các rủi ro được nêu ra quá sát hạn chót.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand. Could you give me a specific example of where you felt I should have raised the risk earlier?",
+        "vi": "Tôi hiểu. Anh/chị có thể cho tôi một ví dụ cụ thể về lúc anh/chị thấy tôi nên nêu rủi ro sớm hơn không?",
+        "hint": "Hỏi ví dụ cụ thể để làm rõ phản hồi, thay vì giải thích hoặc phản bác ngay."
+      },
+      {
+        "speaker": "a",
+        "en": "For example, the design approval was still uncertain a week before launch. If you had flagged it in the project meeting, we could have adjusted the scope or brought in extra support.",
+        "vi": "Ví dụ, việc phê duyệt thiết kế vẫn chưa chắc chắn một tuần trước khi ra mắt. Nếu bạn nêu điều đó trong cuộc họp dự án, chúng ta đã có thể điều chỉnh phạm vi hoặc bổ sung hỗ trợ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is fair. Looking back, I focused too much on solving the issue myself, rather than escalating it early enough. That was a blind spot for me.",
+        "vi": "Điều đó hợp lý. Nhìn lại, tôi đã quá tập trung tự giải quyết vấn đề thay vì báo cáo sớm. Đó là một điểm mù của tôi.",
+        "hint": "Dùng Looking back để nhìn nhận một việc đã xảy ra theo hướng tự đánh giá."
+      },
+      {
+        "speaker": "a",
+        "en": "I appreciate that reflection. I am not asking you to escalate every small problem, but I do need earlier visibility when a deadline or client commitment may be at risk.",
+        "vi": "Tôi đánh giá cao sự nhìn nhận đó. Tôi không yêu cầu bạn báo cáo mọi vấn đề nhỏ, nhưng tôi cần được biết sớm hơn khi hạn chót hoặc cam kết với khách hàng có nguy cơ bị ảnh hưởng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That makes sense. Going forward, I will flag risks in the weekly meeting and send a short update when a key dependency is unclear.",
+        "vi": "Điều đó hợp lý. Từ bây giờ, tôi sẽ nêu các rủi ro trong cuộc họp hằng tuần và gửi cập nhật ngắn khi một yếu tố phụ thuộc quan trọng chưa rõ ràng.",
+        "hint": "Dùng Going forward để đưa ra cam kết cải thiện trong tương lai."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Let us make that part of your action plan. For the next quarter, I would also like you to lead the planning for one cross-functional project.",
+        "vi": "Tốt. Chúng ta hãy đưa việc đó vào kế hoạch hành động của bạn. Trong quý tới, tôi cũng muốn bạn dẫn dắt việc lập kế hoạch cho một dự án liên phòng ban.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would welcome that opportunity. What would success look like in your view, especially if different teams have competing priorities?",
+        "vi": "Tôi rất mong có cơ hội đó. Theo anh/chị, thành công sẽ trông như thế nào, đặc biệt khi các nhóm khác nhau có những ưu tiên cạnh tranh?",
+        "hint": "Dùng What would success look like để hỏi rõ tiêu chí thành công."
+      },
+      {
+        "speaker": "a",
+        "en": "Success would mean agreeing on priorities early, documenting decisions, and keeping everyone aligned when the plan changes. I will support you, but I expect you to drive the conversation.",
+        "vi": "Thành công có nghĩa là thống nhất ưu tiên sớm, ghi lại các quyết định và giữ mọi người cùng định hướng khi kế hoạch thay đổi. Tôi sẽ hỗ trợ bạn, nhưng tôi kỳ vọng bạn dẫn dắt cuộc trao đổi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is clear, and I am comfortable taking that on. One piece of feedback for you: regular check-ins like this help me course-correct sooner. Could we schedule a brief monthly check-in?",
+        "vi": "Điều đó rõ ràng, và tôi sẵn sàng đảm nhận. Tôi cũng có một góp ý cho anh/chị: những buổi trao đổi định kỳ như thế này giúp tôi điều chỉnh sớm hơn. Chúng ta có thể lên lịch một buổi trao đổi ngắn hằng tháng không?",
+        "hint": "Dùng One piece of feedback for you để góp ý ngược một cách tôn trọng; course-correct nghĩa là điều chỉnh hướng đi kịp thời."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a direct manager in a busy international company in Ho Chi Minh City. You are calm, fair, specific, and supportive during a performance review, while still holding the employee accountable for clear improvements.",
+    "opener": "Thanks for making time today. Let us talk about your performance over the past six months.",
+    "goal": "Người học tiếp nhận phản hồi về hiệu suất, hỏi làm rõ một điểm cần cải thiện, cam kết kế hoạch hành động và góp ý ngược cho quản lý."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cảm ơn vì anh/chị đã chỉ ra điều đó.",
+      "en": "I appreciate you pointing that out.",
+      "alts": [
+        "I really appreciate that feedback."
+      ]
+    },
+    {
+      "vi": "Anh/chị có thể cho tôi một ví dụ cụ thể không?",
+      "en": "Could you give me a specific example?",
+      "alts": [
+        "Could you share a specific example?"
+      ]
+    },
+    {
+      "vi": "Nhìn lại, tôi đã có thể xử lý việc đó khác đi.",
+      "en": "Looking back, I could have handled that differently.",
+      "alts": [
+        "In hindsight, I could have approached that differently."
+      ]
+    },
+    {
+      "vi": "Tôi cần chủ động chịu trách nhiệm hơn về các kết quả bàn giao của mình.",
+      "en": "I need to take more ownership of my deliverables.",
+      "alts": [
+        "I need to be more proactive about my deliverables."
+      ]
+    },
+    {
+      "vi": "Từ bây giờ, tôi sẽ nêu rủi ro sớm hơn.",
+      "en": "Going forward, I will flag risks earlier.",
+      "alts": [
+        "From now on, I will raise risks earlier."
+      ]
+    },
+    {
+      "vi": "Theo anh/chị, kết quả thành công sẽ trông như thế nào?",
+      "en": "What would success look like in your view?",
+      "alts": [
+        "How would you define success?"
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể lên lịch trao đổi ngắn hằng tháng không?",
+      "en": "Could we schedule a brief monthly check-in?",
+      "alts": [
+        "Would it be possible to have a short monthly check-in?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại và chú ý phát âm /θ/ trong strength, through và monthly check-in.",
+    "Viết một kế hoạch hành động gồm ba câu, sử dụng mẫu Going forward, I will make sure to.",
+    "Chuẩn bị hai câu phản hồi mang tính xây dựng dành cho quản lý trực tiếp của bạn."
+  ]
+}

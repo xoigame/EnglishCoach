@@ -1,0 +1,294 @@
+{
+  "id": "mot-ngay-cua-toi",
+  "title": "Kể về một ngày bình thường của tôi",
+  "topic": "Sinh hoạt hằng ngày",
+  "level": "A1",
+  "summary": "Người học kể ngắn gọn về thói quen trong một ngày bình thường. Bài tập tập trung vào thì hiện tại đơn và trạng từ tần suất.",
+  "goals": [
+    "Dùng thì hiện tại đơn để kể về thói quen hằng ngày.",
+    "Dùng các trạng từ tần suất như always, usually, often và sometimes.",
+    "Trả lời các câu hỏi ngắn về lịch sinh hoạt cá nhân."
+  ],
+  "vocab": [
+    {
+      "en": "wake up",
+      "ipa": "/weɪk ʌp/",
+      "vi": "thức dậy",
+      "example": "I wake up at six."
+    },
+    {
+      "en": "early",
+      "ipa": "/ˈɜːrli/",
+      "vi": "sớm",
+      "example": "I wake up early daily."
+    },
+    {
+      "en": "breakfast",
+      "ipa": "/ˈbrekfəst/",
+      "vi": "bữa sáng",
+      "example": "I eat breakfast at seven."
+    },
+    {
+      "en": "weekday",
+      "ipa": "/ˈwiːkdeɪ/",
+      "vi": "ngày trong tuần",
+      "example": "We work every weekday."
+    },
+    {
+      "en": "work from home",
+      "ipa": "/wɜːrk frəm hoʊm/",
+      "vi": "làm việc tại nhà",
+      "example": "I work from home."
+    },
+    {
+      "en": "after work",
+      "ipa": "/ˈæftər wɜːrk/",
+      "vi": "sau giờ làm",
+      "example": "I cook after work."
+    },
+    {
+      "en": "cook dinner",
+      "ipa": "/kʊk ˈdɪnər/",
+      "vi": "nấu bữa tối",
+      "example": "We cook dinner together."
+    },
+    {
+      "en": "relax",
+      "ipa": "/rɪˈlæks/",
+      "vi": "thư giãn",
+      "example": "I relax after dinner."
+    },
+    {
+      "en": "read",
+      "ipa": "/riːd/",
+      "vi": "đọc sách",
+      "example": "I read before I sleep."
+    },
+    {
+      "en": "sleep",
+      "ipa": "/sliːp/",
+      "vi": "ngủ",
+      "example": "I sleep at ten."
+    },
+    {
+      "en": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "vi": "thường",
+      "example": "I usually drink tea."
+    },
+    {
+      "en": "sometimes",
+      "ipa": "/ˈsʌmtaɪmz/",
+      "vi": "đôi khi",
+      "example": "Sometimes I read at night."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I usually ___.",
+      "vi": "Tôi thường ___.",
+      "note": "Đặt usually trước động từ thường."
+    },
+    {
+      "en": "I always ___ at ___.",
+      "vi": "Tôi luôn ___ vào lúc ___.",
+      "note": "Dùng để nói một thói quen cố định."
+    },
+    {
+      "en": "Do you ___ every weekday?",
+      "vi": "Bạn có ___ mỗi ngày trong tuần không?",
+      "note": "Dùng do để hỏi về thói quen."
+    },
+    {
+      "en": "After work, I often ___.",
+      "vi": "Sau giờ làm, tôi thường ___.",
+      "note": "Often đứng trước động từ thường."
+    },
+    {
+      "en": "At night, I sometimes ___.",
+      "vi": "Ban đêm, đôi khi tôi ___.",
+      "note": "Sometimes có thể đứng đầu hoặc trước động từ thường."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /k/",
+      "tip": "Phát nhẹ âm /k/ ở cuối từ, không bỏ mất âm cuối.",
+      "words": [
+        "wake",
+        "work",
+        "cook"
+      ]
+    },
+    {
+      "focus": "âm /r/",
+      "tip": "Cong nhẹ đầu lưỡi, không rung lưỡi như âm r tiếng Việt.",
+      "words": [
+        "read",
+        "relax",
+        "early"
+      ]
+    },
+    {
+      "focus": "âm /z/",
+      "tip": "Bật giọng ở âm /z/, không đọc thành /s/.",
+      "words": [
+        "always",
+        "sometimes",
+        "is"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am usually wake up early.",
+      "right": "I usually wake up early.",
+      "vi": "Không dùng am trước động từ thường khi nói thói quen."
+    },
+    {
+      "wrong": "I am work from home.",
+      "right": "I work from home.",
+      "vi": "Thì hiện tại đơn dùng work, không dùng am work."
+    },
+    {
+      "wrong": "I cook dinner every days.",
+      "right": "I cook dinner every day.",
+      "vi": "Sau every dùng danh từ số ít."
+    },
+    {
+      "wrong": "I usually eat breakfast on seven.",
+      "right": "I usually eat breakfast at seven.",
+      "vi": "Dùng at với giờ giấc."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Giáo viên tiếng Anh",
+      "b": "Người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi! Tell me about your day.",
+        "vi": "Chào! Hãy kể cho tôi về một ngày của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I usually wake up early.",
+        "vi": "Tôi thường thức dậy sớm.",
+        "hint": "Đặt usually trước wake up."
+      },
+      {
+        "speaker": "a",
+        "en": "What do you do first?",
+        "vi": "Bạn làm gì đầu tiên?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I always eat breakfast at seven.",
+        "vi": "Tôi luôn ăn sáng lúc bảy giờ.",
+        "hint": "Dùng always trước eat."
+      },
+      {
+        "speaker": "a",
+        "en": "Do you work every weekday?",
+        "vi": "Bạn có làm việc mỗi ngày trong tuần không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I work from home.",
+        "vi": "Có, tôi làm việc tại nhà.",
+        "hint": "Dùng work from home."
+      },
+      {
+        "speaker": "a",
+        "en": "What do you do after work?",
+        "vi": "Bạn làm gì sau giờ làm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I often cook dinner and relax.",
+        "vi": "Tôi thường nấu bữa tối và thư giãn.",
+        "hint": "Often đứng trước cook."
+      },
+      {
+        "speaker": "a",
+        "en": "What do you usually do at night?",
+        "vi": "Bạn thường làm gì vào ban đêm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I sometimes read, then sleep.",
+        "vi": "Đôi khi tôi đọc sách, rồi đi ngủ.",
+        "hint": "Sometimes đứng trước read."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly English teacher in a small online speaking class. You speak slowly, ask one simple question at a time, and warmly help the learner describe a normal day.",
+    "opener": "Hi! Tell me about your day.",
+    "goal": "Người học kể được giờ thức dậy, bữa sáng, công việc và hoạt động buổi tối bằng thì hiện tại đơn."
+  },
+  "drills": [
+    {
+      "vi": "Tôi thường dậy sớm.",
+      "en": "I usually wake up early.",
+      "alts": [
+        "I often wake up early."
+      ]
+    },
+    {
+      "vi": "Tôi luôn ăn sáng lúc bảy giờ.",
+      "en": "I always eat breakfast at seven.",
+      "alts": [
+        "I always have breakfast at seven."
+      ]
+    },
+    {
+      "vi": "Bạn có làm việc mỗi ngày trong tuần không?",
+      "en": "Do you work every weekday?",
+      "alts": [
+        "Do you work on weekdays?"
+      ]
+    },
+    {
+      "vi": "Tôi làm việc tại nhà.",
+      "en": "I work from home.",
+      "alts": [
+        "I work at home."
+      ]
+    },
+    {
+      "vi": "Sau giờ làm, tôi thường nấu bữa tối.",
+      "en": "After work, I often cook dinner.",
+      "alts": [
+        "I often cook dinner after work."
+      ]
+    },
+    {
+      "vi": "Ban đêm, đôi khi tôi đọc sách.",
+      "en": "At night, I sometimes read.",
+      "alts": [
+        "Sometimes I read at night."
+      ]
+    },
+    {
+      "vi": "Tôi thư giãn sau bữa tối.",
+      "en": "I relax after dinner.",
+      "alts": [
+        "After dinner, I relax."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý phát âm âm cuối trong wake, work và cook.",
+    "Viết năm câu về một ngày bình thường, dùng always, usually, often hoặc sometimes.",
+    "Tự trả lời bằng tiếng Anh: What do you usually do at night?"
+  ]
+}

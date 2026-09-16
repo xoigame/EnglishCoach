@@ -1,0 +1,299 @@
+{
+  "id": "small-talk-van-phong",
+  "title": "Nói chuyện xã giao ở văn phòng và trong thang máy",
+  "topic": "Small talk nơi công sở",
+  "level": "B1",
+  "summary": "Bạn gặp một đồng nghiệp phòng khác trong thang máy và bắt chuyện về công việc. Cuộc trò chuyện tự nhiên chuyển từ làm quen sang trao đổi ý kiến về một chiến dịch mới.",
+  "goals": [
+    "Bắt chuyện tự nhiên với đồng nghiệp trong thang máy",
+    "Hỏi và trả lời về công việc đang diễn ra",
+    "Nêu ý kiến, lý do và kết thúc cuộc trò chuyện thân thiện"
+  ],
+  "vocab": [
+    {
+      "en": "head up",
+      "ipa": "/hed ʌp/",
+      "vi": "đi lên, lên tầng trên",
+      "example": "I am heading up to the seventh floor for a meeting now."
+    },
+    {
+      "en": "down the hall",
+      "ipa": "/daʊn ðə hɔːl/",
+      "vi": "ở cuối hành lang, dọc theo hành lang",
+      "example": "Our finance office is just down the hall from the main elevator."
+    },
+    {
+      "en": "client meeting",
+      "ipa": "/ˈklaɪənt ˈmiːtɪŋ/",
+      "vi": "cuộc họp với khách hàng",
+      "example": "She has three client meetings scheduled before lunch tomorrow morning."
+    },
+    {
+      "en": "campaign",
+      "ipa": "/kæmˈpeɪn/",
+      "vi": "chiến dịch",
+      "example": "The marketing campaign has received more attention than we expected this week."
+    },
+    {
+      "en": "customer feedback",
+      "ipa": "/ˈkʌstəmər ˈfiːdbæk/",
+      "vi": "phản hồi của khách hàng",
+      "example": "We are reviewing customer feedback before making any final changes."
+    },
+    {
+      "en": "launch",
+      "ipa": "/lɔːntʃ/",
+      "vi": "ra mắt, triển khai",
+      "example": "They plan to launch the updated service near the end of October."
+    },
+    {
+      "en": "look closely at",
+      "ipa": "/lʊk ˈkloʊsli æt/",
+      "vi": "xem xét kỹ",
+      "example": "Our managers look closely at costs before approving major projects."
+    },
+    {
+      "en": "overlook",
+      "ipa": "/ˌoʊvərˈlʊk/",
+      "vi": "bỏ sót, không để ý đến",
+      "example": "It is easy to overlook small risks when everyone feels optimistic."
+    },
+    {
+      "en": "room to grow",
+      "ipa": "/ruːm tə ɡroʊ/",
+      "vi": "dư địa để phát triển",
+      "example": "The proposal has room to grow with clearer goals and data."
+    },
+    {
+      "en": "grab coffee",
+      "ipa": "/ɡræb ˈkɔːfi/",
+      "vi": "đi uống cà phê nhanh",
+      "example": "Let us grab coffee after lunch and talk about the new project."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Are you heading up to the ___ floor as well?",
+      "vi": "Bạn cũng đang lên tầng ___ phải không?",
+      "note": "Dùng để mở lời tự nhiên khi cùng ở trong thang máy."
+    },
+    {
+      "en": "Has ___ been keeping your team busy lately?",
+      "vi": "Gần đây ___ có làm nhóm bạn bận không?",
+      "note": "Dùng hiện tại hoàn thành tiếp diễn để hỏi về việc đang kéo dài đến hiện tại."
+    },
+    {
+      "en": "I have been ___ quite often lately.",
+      "vi": "Gần đây tôi đã ___ khá thường xuyên.",
+      "note": "Dùng để nói về hoạt động lặp lại trong thời gian gần đây."
+    },
+    {
+      "en": "That makes sense. We ___ before ___.",
+      "vi": "Điều đó hợp lý. Chúng tôi ___ trước khi ___.",
+      "note": "Đồng tình trước, rồi giải thích quy trình hoặc lý do của mình."
+    },
+    {
+      "en": "Let us grab coffee sometime and ___.",
+      "vi": "Hôm nào chúng ta đi uống cà phê và ___.",
+      "note": "Lời gợi ý thân thiện để kết thúc cuộc trò chuyện và giữ liên lạc."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /θ/ trong seventh",
+      "tip": "Đưa đầu lưỡi nhẹ giữa hai răng rồi thổi hơi ra; không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "seventh",
+        "with",
+        "month"
+      ]
+    },
+    {
+      "focus": "Phân biệt /v/ và /f/",
+      "tip": "Âm /v/ có rung cổ họng, còn /f/ chỉ có hơi; chú ý khi nói very và feedback.",
+      "words": [
+        "very",
+        "feedback",
+        "finance"
+      ]
+    },
+    {
+      "focus": "Trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn âm hai trong campaign và presentation, nhưng nhấn âm một trong colleague.",
+      "words": [
+        "campaign",
+        "presentation",
+        "colleague"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I work at finance.",
+      "right": "I work in finance.",
+      "vi": "Dùng in khi nói làm việc trong một phòng ban hoặc lĩnh vực."
+    },
+    {
+      "wrong": "Are you go to the seventh floor?",
+      "right": "Are you going to the seventh floor?",
+      "vi": "Sau are cần dùng động từ thêm ing trong câu hỏi hiện tại tiếp diễn."
+    },
+    {
+      "wrong": "I have joined the team three months ago.",
+      "right": "I joined the team three months ago.",
+      "vi": "Có mốc thời gian quá khứ cụ thể thì dùng quá khứ đơn, không dùng hiện tại hoàn thành."
+    },
+    {
+      "wrong": "Let us drink coffee sometime.",
+      "right": "Let us grab coffee sometime.",
+      "vi": "Grab coffee tự nhiên hơn khi rủ đồng nghiệp đi uống cà phê."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Maya, đồng nghiệp phòng Marketing",
+      "b": "Linh, nhân viên phòng Tài chính"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, are you heading up to the seventh floor as well?",
+        "vi": "Chào, bạn cũng đang lên tầng bảy phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am. I work in finance, just down the hall.",
+        "vi": "Vâng. Tôi làm ở phòng Tài chính, ngay dọc hành lang thôi.",
+        "hint": "Nói tên phòng ban sau cụm work in."
+      },
+      {
+        "speaker": "a",
+        "en": "Nice. I am Maya from marketing. I do not think we have met.",
+        "vi": "Hay quá. Tôi là Maya, phòng Marketing. Tôi không nghĩ là chúng ta đã gặp nhau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am Linh. I joined the finance team about three months ago.",
+        "vi": "Tôi là Linh. Tôi vào nhóm Tài chính khoảng ba tháng trước.",
+        "hint": "Dùng joined với mốc thời gian đã qua."
+      },
+      {
+        "speaker": "a",
+        "en": "That explains it. I have been traveling for client meetings quite often lately.",
+        "vi": "Vậy thì dễ hiểu rồi. Gần đây tôi thường xuyên đi họp với khách hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sounds busy. Has the new campaign been keeping your team busy too?",
+        "vi": "Nghe bận rộn thật. Chiến dịch mới cũng làm nhóm bạn bận phải không?",
+        "hint": "Dùng Has ... been keeping để hỏi một việc kéo dài gần đây."
+      },
+      {
+        "speaker": "a",
+        "en": "Very busy, but it is exciting because we are testing a new direction.",
+        "vi": "Rất bận, nhưng cũng thú vị vì chúng tôi đang thử một hướng đi mới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I saw the presentation yesterday, and the customer feedback seemed surprisingly positive.",
+        "vi": "Hôm qua tôi đã xem bài thuyết trình, và phản hồi của khách hàng có vẻ tích cực đáng ngạc nhiên.",
+        "hint": "Dùng seemed để nêu ấn tượng của bạn về một việc trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks, though we still need clearer data before deciding which version to launch.",
+        "vi": "Cảm ơn, dù vậy chúng tôi vẫn cần dữ liệu rõ ràng hơn trước khi quyết định ra mắt phiên bản nào.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That makes sense. In finance, we look closely at costs before supporting changes.",
+        "vi": "Điều đó hợp lý. Ở phòng Tài chính, chúng tôi xem xét kỹ chi phí trước khi ủng hộ các thay đổi.",
+        "hint": "Đồng tình trước, rồi giải thích lý do theo góc nhìn phòng ban của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. Your team probably sees risks that marketing people tend to overlook.",
+        "vi": "Chính xác. Nhóm của bạn có lẽ nhìn thấy những rủi ro mà người làm Marketing thường bỏ sót.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We do, although good ideas sometimes need room to grow before showing results.",
+        "vi": "Đúng vậy, mặc dù những ý tưởng tốt đôi khi cần dư địa để phát triển trước khi cho thấy kết quả.",
+        "hint": "Dùng although để thêm một ý tương phản nhẹ nhàng."
+      },
+      {
+        "speaker": "a",
+        "en": "I agree. It was great talking with you, Linh. This is my floor.",
+        "vi": "Tôi đồng ý. Rất vui được nói chuyện với bạn, Linh. Đây là tầng của tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Likewise, Maya. Let us grab coffee sometime and compare notes on the campaign.",
+        "vi": "Tôi cũng vậy, Maya. Hôm nào chúng ta đi uống cà phê và trao đổi thêm về chiến dịch nhé.",
+        "hint": "Dùng Likewise để đáp lại lịch sự, rồi gợi ý gặp lại."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly colleague from the marketing department, riding an elevator in a busy office. You have just met the learner from finance, and you make relaxed, professional small talk before leaving at your floor.",
+    "opener": "Hi, are you heading up to the seventh floor as well?",
+    "goal": "Người học bắt chuyện, trao đổi về công việc và gợi ý đi uống cà phê với đồng nghiệp."
+  },
+  "drills": [
+    {
+      "vi": "Tôi làm ở phòng Tài chính, gần thang máy chính ở tầng này.",
+      "en": "I work in finance, right near the main elevator on this floor.",
+      "alts": [
+        "I am in finance, near the main elevator on this floor."
+      ]
+    },
+    {
+      "vi": "Gần đây chiến dịch mới có làm nhóm bạn bận không?",
+      "en": "Has the new campaign been keeping your team busy lately?",
+      "alts": [
+        "Has your team been busy with the new campaign lately?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi đang xem phản hồi khách hàng trước khi quyết định ra mắt phiên bản nào.",
+      "en": "We are reviewing customer feedback before deciding which version to launch.",
+      "alts": [
+        "We need customer feedback before choosing a version to launch."
+      ]
+    },
+    {
+      "vi": "Ở Tài chính, chúng tôi xem xét kỹ chi phí trước khi ủng hộ thay đổi lớn.",
+      "en": "In finance, we look closely at costs before supporting major changes.",
+      "alts": [
+        "Our finance team reviews costs carefully before approving changes."
+      ]
+    },
+    {
+      "vi": "Ý tưởng này cần thêm thời gian để phát triển trước khi cho thấy kết quả thật.",
+      "en": "This idea needs more room to grow before showing real results.",
+      "alts": [
+        "The idea needs time to grow before it shows results."
+      ]
+    },
+    {
+      "vi": "Hôm nào chúng ta uống cà phê và trao đổi về chiến dịch nhé.",
+      "en": "Let us grab coffee sometime and compare notes on the campaign.",
+      "alts": [
+        "We should get coffee sometime and talk about the campaign."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại, chú ý ngữ điệu thân thiện trong câu hỏi.",
+    "Viết ba câu hỏi dùng mẫu Has ... been keeping your team busy lately?.",
+    "Tạo một đoạn hội thoại sáu lượt với đồng nghiệp từ phòng ban khác."
+  ]
+}

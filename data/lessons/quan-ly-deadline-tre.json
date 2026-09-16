@@ -1,0 +1,323 @@
+{
+  "id": "quan-ly-deadline-tre",
+  "title": "Báo tin dự án trễ hạn và đề xuất phương án",
+  "topic": "Quản lý dự án trễ hạn",
+  "level": "B2",
+  "summary": "Bạn đóng vai quản lý dự án, thông báo dự án bị trễ hạn cho một khách hàng khó tính. Bạn cần giải thích nguyên nhân, thương lượng phạm vi bàn giao và chốt kế hoạch khắc phục.",
+  "goals": [
+    "Thông báo tin trễ hạn một cách chuyên nghiệp và thẳng thắn",
+    "Giải thích nguyên nhân mà không đổ lỗi",
+    "Đề xuất phương án thay thế và thương lượng với khách hàng khó tính"
+  ],
+  "vocab": [
+    {
+      "en": "miss a deadline",
+      "ipa": "/mɪs ə ˈdedlaɪn/",
+      "vi": "trễ hạn",
+      "example": "We are likely to miss the deadline by a few days."
+    },
+    {
+      "en": "setback",
+      "ipa": "/ˈsetbæk/",
+      "vi": "trở ngại, sự chậm trễ bất ngờ",
+      "example": "The integration issue caused an unexpected setback."
+    },
+    {
+      "en": "integration",
+      "ipa": "/ˌɪntɪˈɡreɪʃən/",
+      "vi": "việc tích hợp các hệ thống hoặc phần mềm",
+      "example": "We found a problem during the payment system integration."
+    },
+    {
+      "en": "revised timeline",
+      "ipa": "/rɪˈvaɪzd ˈtaɪmlaɪn/",
+      "vi": "tiến độ đã điều chỉnh",
+      "example": "I will send you a revised timeline this afternoon."
+    },
+    {
+      "en": "get back on track",
+      "ipa": "/ɡet bæk ɑn træk/",
+      "vi": "quay lại đúng tiến độ",
+      "example": "This plan should help us get back on track."
+    },
+    {
+      "en": "partial launch",
+      "ipa": "/ˈpɑrʃəl lɔntʃ/",
+      "vi": "ra mắt hoặc bàn giao một phần",
+      "example": "We can offer a partial launch next Friday."
+    },
+    {
+      "en": "deliverable",
+      "ipa": "/dɪˈlɪvərəbəl/",
+      "vi": "hạng mục bàn giao",
+      "example": "The reporting dashboard is the final deliverable."
+    },
+    {
+      "en": "dedicated team",
+      "ipa": "/ˈdedɪkeɪtɪd tiːm/",
+      "vi": "đội ngũ chuyên trách",
+      "example": "We have assigned a dedicated team to fix the issue."
+    },
+    {
+      "en": "absorb the cost",
+      "ipa": "/əbˈzɔrb ðə kɔst/",
+      "vi": "tự chịu chi phí",
+      "example": "We will absorb the cost of the extra work."
+    },
+    {
+      "en": "written confirmation",
+      "ipa": "/ˈrɪtən ˌkɑnfərˈmeɪʃən/",
+      "vi": "xác nhận bằng văn bản",
+      "example": "Please send written confirmation of the new plan."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am afraid that we will not be able to meet the original deadline.",
+      "vi": "Tôi e rằng chúng tôi sẽ không thể đáp ứng hạn chót ban đầu.",
+      "note": "Dùng để báo tin xấu một cách lịch sự và chuyên nghiệp."
+    },
+    {
+      "en": "We ran into an issue with ___, which has delayed ___.",
+      "vi": "Chúng tôi gặp vấn đề với ___, điều này đã làm chậm ___.",
+      "note": "Nêu nguyên nhân cụ thể, tránh nói chung chung."
+    },
+    {
+      "en": "To get back on track, I propose that we ___.",
+      "vi": "Để quay lại đúng tiến độ, tôi đề xuất chúng ta ___.",
+      "note": "Theo sau propose that có thể dùng động từ nguyên mẫu."
+    },
+    {
+      "en": "If we prioritize ___, we can deliver it by ___.",
+      "vi": "Nếu chúng ta ưu tiên ___, chúng ta có thể bàn giao nó trước ___.",
+      "note": "Dùng để thương lượng phạm vi và thời điểm bàn giao."
+    },
+    {
+      "en": "I understand your concern, but I can assure you that ___.",
+      "vi": "Tôi hiểu mối lo của bạn, nhưng tôi có thể đảm bảo rằng ___.",
+      "note": "Thể hiện đồng cảm trước khi đưa ra cam kết."
+    },
+    {
+      "en": "Would you be willing to accept ___ as an interim solution?",
+      "vi": "Bạn có sẵn lòng chấp nhận ___ như một giải pháp tạm thời không?",
+      "note": "Cách đề nghị mềm mại khi cần khách hàng nhượng bộ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong deadline, setback và deliverable",
+      "tip": "Nhấn mạnh âm đầu ở deadline và setback; nhấn âm thứ hai ở deliverable.",
+      "words": [
+        "deadline",
+        "setback",
+        "deliverable"
+      ]
+    },
+    {
+      "focus": "nối âm trong get back on track",
+      "tip": "Nối nhẹ các từ thành get backon track để câu nói tự nhiên hơn.",
+      "words": [
+        "get back on track",
+        "partial launch"
+      ]
+    },
+    {
+      "focus": "âm /dʒ/ trong integration",
+      "tip": "Âm cuối của integration là shən, không đọc thành ti-on từng chữ.",
+      "words": [
+        "integration",
+        "revision",
+        "solution"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We are late the deadline.",
+      "right": "We are late for the deadline.",
+      "vi": "Dùng late for, hoặc tự nhiên hơn là miss the deadline."
+    },
+    {
+      "wrong": "The project will delay three days.",
+      "right": "The project will be delayed by three days.",
+      "vi": "Delay thường cần dạng bị động khi nói dự án bị chậm."
+    },
+    {
+      "wrong": "We have a problem in the integration.",
+      "right": "We have a problem with the integration.",
+      "vi": "Dùng problem with khi nói gặp vấn đề với một hạng mục."
+    },
+    {
+      "wrong": "I propose you to launch partially.",
+      "right": "I propose that we launch partially.",
+      "vi": "Sau propose không dùng tân ngữ người kèm to như cấu trúc này."
+    },
+    {
+      "wrong": "We will compensate the cost.",
+      "right": "We will cover the cost.",
+      "vi": "Cover the cost hoặc absorb the cost tự nhiên hơn trong ngữ cảnh này."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Khách hàng khó tính",
+      "b": "Quản lý dự án, người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I received your meeting request. Are you telling me the project will not be ready on Friday?",
+        "vi": "Tôi đã nhận được yêu cầu họp của bạn. Bạn đang nói rằng dự án sẽ không sẵn sàng vào thứ Sáu sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am afraid that we will not be able to meet the original deadline.",
+        "vi": "Vâng, tôi e rằng chúng tôi sẽ không thể đáp ứng hạn chót ban đầu.",
+        "hint": "Mở đầu thẳng thắn nhưng lịch sự bằng I am afraid that."
+      },
+      {
+        "speaker": "a",
+        "en": "That is not what we agreed to. What exactly went wrong?",
+        "vi": "Đó không phải là điều chúng ta đã thỏa thuận. Chính xác thì chuyện gì đã xảy ra?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We ran into an unexpected issue with the payment system integration, which delayed the final testing.",
+        "vi": "Chúng tôi gặp một vấn đề bất ngờ với việc tích hợp hệ thống thanh toán, điều này làm chậm quá trình kiểm thử cuối cùng.",
+        "hint": "Dùng ran into an issue with để giải thích nguyên nhân tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "Why was I not told sooner? This puts my launch campaign at risk.",
+        "vi": "Tại sao tôi không được báo sớm hơn? Điều này khiến chiến dịch ra mắt của tôi gặp rủi ro.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a fair concern. We should have updated you earlier, and I take responsibility for that.",
+        "vi": "Đó là một mối lo chính đáng. Chúng tôi đáng lẽ phải cập nhật cho bạn sớm hơn, và tôi nhận trách nhiệm về việc đó.",
+        "hint": "Thừa nhận thiếu sót trước khi đưa ra giải pháp."
+      },
+      {
+        "speaker": "a",
+        "en": "I need more than an apology. When can you actually deliver?",
+        "vi": "Tôi cần nhiều hơn một lời xin lỗi. Chính xác khi nào các bạn có thể bàn giao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "To get back on track, I propose a partial launch next Friday, followed by the remaining features five business days later.",
+        "vi": "Để quay lại đúng tiến độ, tôi đề xuất ra mắt một phần vào thứ Sáu tuần sau, sau đó bàn giao các tính năng còn lại sau năm ngày làm việc.",
+        "hint": "Nêu giải pháp gồm hai mốc thời gian rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "Ten extra days is a long time. What will be included in the partial launch?",
+        "vi": "Thêm mười ngày là quá lâu. Bản ra mắt một phần sẽ bao gồm những gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It will include checkout, account creation, and the customer dashboard. The advanced reporting feature would follow in the second release.",
+        "vi": "Bản đó sẽ gồm thanh toán, tạo tài khoản và bảng điều khiển khách hàng. Tính năng báo cáo nâng cao sẽ được bàn giao ở đợt thứ hai.",
+        "hint": "Dùng would follow để nói phần sẽ được hoàn thành sau."
+      },
+      {
+        "speaker": "a",
+        "en": "A partial launch could work, but I need to know how you will prevent another setback.",
+        "vi": "Ra mắt một phần có thể được, nhưng tôi cần biết các bạn sẽ ngăn một sự chậm trễ khác như thế nào.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We have assigned a dedicated team to the integration, and we will share a daily progress update until the launch is complete.",
+        "vi": "Chúng tôi đã phân công một đội chuyên trách cho phần tích hợp, và chúng tôi sẽ gửi cập nhật tiến độ hằng ngày cho đến khi hoàn tất ra mắt.",
+        "hint": "Dùng have assigned để nhấn mạnh hành động đã được thực hiện."
+      },
+      {
+        "speaker": "a",
+        "en": "I am not willing to pay extra because of a delay on your side.",
+        "vi": "Tôi không sẵn lòng trả thêm tiền vì sự chậm trễ từ phía các bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand your concern, and I can assure you that we will absorb the cost of the additional work.",
+        "vi": "Tôi hiểu mối lo của bạn, và tôi có thể đảm bảo rằng chúng tôi sẽ tự chịu chi phí cho phần việc bổ sung.",
+        "hint": "Dùng I can assure you that để đưa ra cam kết chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. I will accept this plan, provided that I receive written confirmation and the first update tomorrow morning.",
+        "vi": "Được. Tôi sẽ chấp nhận kế hoạch này, với điều kiện tôi nhận được xác nhận bằng văn bản và bản cập nhật đầu tiên vào sáng mai.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You will have both by ten tomorrow morning. Thank you for giving us the chance to put this right.",
+        "vi": "Bạn sẽ nhận được cả hai trước mười giờ sáng mai. Cảm ơn bạn đã cho chúng tôi cơ hội khắc phục việc này.",
+        "hint": "Kết thúc bằng cam kết thời gian cụ thể và lời cảm ơn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a demanding client in a software company's conference room. Your project is late, your launch campaign is at risk, and you expect clear answers, accountability, and a realistic recovery plan.",
+    "opener": "I received your meeting request. Are you telling me the project will not be ready on Friday?",
+    "goal": "Người học báo tin trễ hạn, giải thích nguyên nhân, đề xuất bàn giao từng phần và chốt cam kết cập nhật tiến độ."
+  },
+  "drills": [
+    {
+      "vi": "Tôi e rằng chúng tôi sẽ không thể đáp ứng hạn chót ban đầu.",
+      "en": "I am afraid that we will not be able to meet the original deadline.",
+      "alts": []
+    },
+    {
+      "vi": "Chúng tôi gặp vấn đề với việc tích hợp hệ thống thanh toán.",
+      "en": "We ran into an issue with the payment system integration.",
+      "alts": [
+        "We encountered a problem with the payment system integration."
+      ]
+    },
+    {
+      "vi": "Để quay lại đúng tiến độ, tôi đề xuất ra mắt một phần.",
+      "en": "To get back on track, I propose a partial launch.",
+      "alts": [
+        "To get back on track, I propose that we do a partial launch."
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta ưu tiên tính năng thanh toán, chúng ta có thể bàn giao vào thứ Sáu.",
+      "en": "If we prioritize the payment feature, we can deliver it by Friday.",
+      "alts": []
+    },
+    {
+      "vi": "Chúng tôi đã phân công một đội chuyên trách để xử lý vấn đề này.",
+      "en": "We have assigned a dedicated team to handle this issue.",
+      "alts": [
+        "We have put a dedicated team on this issue."
+      ]
+    },
+    {
+      "vi": "Chúng tôi sẽ tự chịu chi phí cho phần việc bổ sung.",
+      "en": "We will absorb the cost of the additional work.",
+      "alts": [
+        "We will cover the cost of the additional work."
+      ]
+    },
+    {
+      "vi": "Bạn có sẵn lòng chấp nhận đây là một giải pháp tạm thời không?",
+      "en": "Would you be willing to accept this as an interim solution?",
+      "alts": [
+        "Could you accept this as a temporary solution?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, đặc biệt luyện phần giải thích nguyên nhân và đề xuất phương án.",
+    "Viết một email ngắn cho khách hàng để xác nhận tiến độ đã điều chỉnh.",
+    "Tự thay đổi tình huống: dự án trễ hai tuần và khách hàng yêu cầu giảm giá."
+  ]
+}

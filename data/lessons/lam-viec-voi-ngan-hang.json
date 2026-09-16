@@ -1,0 +1,306 @@
+{
+  "id": "lam-viec-voi-ngan-hang",
+  "title": "Mở tài khoản và xử lý vấn đề ở ngân hàng",
+  "topic": "Giao dịch ngân hàng",
+  "level": "B1",
+  "summary": "Bạn đến ngân hàng để mở tài khoản nhận lương và nhờ xử lý lỗi đăng nhập ứng dụng. Cuối buổi, tài khoản được mở và quyền truy cập được khôi phục.",
+  "goals": [
+    "Mở tài khoản bằng cách nêu nhu cầu và giấy tờ cần thiết.",
+    "Hỏi về loại tài khoản, phí và thời gian nhận thẻ.",
+    "Mô tả sự cố ứng dụng ngân hàng và yêu cầu hỗ trợ lịch sự."
+  ],
+  "vocab": [
+    {
+      "en": "current account",
+      "ipa": "/ˈkʌrənt əˈkaʊnt/",
+      "vi": "tài khoản thanh toán",
+      "example": "I use my current account to receive my salary each month."
+    },
+    {
+      "en": "open an account",
+      "ipa": "/ˈəʊpən ən əˈkaʊnt/",
+      "vi": "mở tài khoản",
+      "example": "I would like to open an account at your bank today."
+    },
+    {
+      "en": "proof of address",
+      "ipa": "/ˌpruːf əv əˈdres/",
+      "vi": "giấy tờ chứng minh địa chỉ",
+      "example": "A recent utility bill can be used as proof of address."
+    },
+    {
+      "en": "debit card",
+      "ipa": "/ˈdebɪt kɑːd/",
+      "vi": "thẻ ghi nợ",
+      "example": "Your debit card will be sent to your registered address."
+    },
+    {
+      "en": "mobile banking",
+      "ipa": "/ˈməʊbaɪl ˈbæŋkɪŋ/",
+      "vi": "ngân hàng trên điện thoại",
+      "example": "Mobile banking lets you check your balance whenever you need."
+    },
+    {
+      "en": "international transfer",
+      "ipa": "/ˌɪntəˈnæʃənəl trænsfɜː/",
+      "vi": "chuyển tiền quốc tế",
+      "example": "This account offers lower fees for international transfers abroad."
+    },
+    {
+      "en": "banking application",
+      "ipa": "/ˈbæŋkɪŋ ˌæplɪˈkeɪʃən/",
+      "vi": "ứng dụng ngân hàng",
+      "example": "The banking application was unavailable for several minutes yesterday."
+    },
+    {
+      "en": "reset a password",
+      "ipa": "/ˌriːˈset ə ˈpɑːswɜːd/",
+      "vi": "đặt lại mật khẩu",
+      "example": "The bank can reset your password after checking your identity."
+    },
+    {
+      "en": "locked out",
+      "ipa": "/lɒkt aʊt/",
+      "vi": "bị khóa, không thể truy cập",
+      "example": "I was locked out after entering the wrong password repeatedly."
+    },
+    {
+      "en": "registered address",
+      "ipa": "/ˈredʒɪstəd əˈdres/",
+      "vi": "địa chỉ đã đăng ký",
+      "example": "Please confirm that your registered address is still correct."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to open a ___ account.",
+      "vi": "Tôi muốn mở tài khoản ___.",
+      "note": "Dùng cách nói này để nêu yêu cầu lịch sự tại quầy."
+    },
+    {
+      "en": "Which account would suit me best?",
+      "vi": "Loại tài khoản nào phù hợp với tôi nhất?",
+      "note": "Dùng khi muốn xin tư vấn dựa trên nhu cầu cá nhân."
+    },
+    {
+      "en": "I have had trouble using ___.",
+      "vi": "Tôi đã gặp khó khăn khi sử dụng ___.",
+      "note": "Hiện tại hoàn thành cho vấn đề bắt đầu trước đây và còn liên quan đến hiện tại."
+    },
+    {
+      "en": "Could you explain how ___ works?",
+      "vi": "Bạn có thể giải thích ___ hoạt động thế nào không?",
+      "note": "Mẫu câu lịch sự để hỏi về dịch vụ hoặc quy trình."
+    },
+    {
+      "en": "It has been locked, so could you reset it?",
+      "vi": "Nó đã bị khóa, vậy bạn có thể đặt lại không?",
+      "note": "Dùng bị động hiện tại hoàn thành để nói tài khoản hoặc ứng dụng đang bị khóa."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong account và application",
+      "tip": "Nhấn âm hai trong account và âm ba trong application; tránh đọc đều tất cả các âm.",
+      "words": [
+        "account",
+        "application",
+        "address"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /t/",
+      "tip": "Phát rõ âm /t/ ở cuối từ, không bỏ mất âm khi nối câu.",
+      "words": [
+        "debit",
+        "reset",
+        "account"
+      ]
+    },
+    {
+      "focus": "âm /əʊ/ trong open và mobile",
+      "tip": "Bắt đầu bằng âm gần /ơ/ rồi lướt môi tròn sang /u/; không đọc thành âm /o/ ngắn.",
+      "words": [
+        "open",
+        "mobile",
+        "only"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want open a bank account.",
+      "right": "I want to open a bank account.",
+      "vi": "Sau want cần có to trước động từ."
+    },
+    {
+      "wrong": "My account is lock.",
+      "right": "My account has been locked.",
+      "vi": "Dùng bị động hiện tại hoàn thành khi tài khoản đã bị khóa và hiện vẫn có kết quả đó."
+    },
+    {
+      "wrong": "I cannot login to the application.",
+      "right": "I cannot log in to the application.",
+      "vi": "Log in là cụm động từ gồm hai từ; login thường là danh từ hoặc tính từ."
+    },
+    {
+      "wrong": "Please reset for me.",
+      "right": "Please reset my password for me.",
+      "vi": "Cần nêu rõ đối tượng cần đặt lại, ví dụ my password."
+    }
+  ],
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên ngân hàng",
+      "b": "Khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. How can I help you with your banking needs today?",
+        "vi": "Chào buổi sáng. Hôm nay tôi có thể hỗ trợ nhu cầu ngân hàng nào của bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hello. I would like to open an account for my salary.",
+        "vi": "Chào. Tôi muốn mở một tài khoản để nhận lương.",
+        "hint": "Dùng I would like to để đưa ra yêu cầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. Do you have your passport and proof of address?",
+        "vi": "Được chứ. Bạn có hộ chiếu và giấy tờ chứng minh địa chỉ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I brought both documents, but I am unsure which account suits me.",
+        "vi": "Có, tôi đã mang cả hai giấy tờ, nhưng tôi chưa chắc loại tài khoản nào phù hợp.",
+        "hint": "Dùng but để nối nhu cầu và điều bạn còn băn khoăn."
+      },
+      {
+        "speaker": "a",
+        "en": "Our current account includes a debit card and free mobile banking.",
+        "vi": "Tài khoản thanh toán của chúng tôi gồm thẻ ghi nợ và dịch vụ ngân hàng trên điện thoại miễn phí.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds useful, but I travel often and need low international fees.",
+        "vi": "Nghe hữu ích đấy, nhưng tôi thường đi nước ngoài và cần phí quốc tế thấp.",
+        "hint": "Dùng but để nêu thêm nhu cầu quan trọng."
+      },
+      {
+        "speaker": "a",
+        "en": "In that case, this account is suitable, and transfers cost less abroad.",
+        "vi": "Trong trường hợp đó, tài khoản này phù hợp và phí chuyển tiền ở nước ngoài thấp hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. I also had trouble using the banking application yesterday.",
+        "vi": "Tuyệt. Tôi cũng đã gặp khó khăn khi dùng ứng dụng ngân hàng hôm qua.",
+        "hint": "Had trouble using có nghĩa là gặp khó khăn khi sử dụng."
+      },
+      {
+        "speaker": "a",
+        "en": "I can help with that after we verify your identity in person.",
+        "vi": "Tôi có thể giúp việc đó sau khi chúng tôi xác minh danh tính trực tiếp của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I entered my password several times, so the application locked me out.",
+        "vi": "Tôi đã nhập mật khẩu vài lần, nên ứng dụng đã khóa quyền truy cập của tôi.",
+        "hint": "Dùng so để nói kết quả của việc nhập mật khẩu nhiều lần."
+      },
+      {
+        "speaker": "a",
+        "en": "It was locked for security, but I can reset your password now.",
+        "vi": "Nó bị khóa vì lý do bảo mật, nhưng giờ tôi có thể đặt lại mật khẩu cho bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. Could you also explain how long the card delivery takes?",
+        "vi": "Cảm ơn. Bạn cũng có thể giải thích việc giao thẻ mất bao lâu không?",
+        "hint": "Could you also giải thích là cách hỏi thêm lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Your account is open, and the card will arrive within five working days.",
+        "vi": "Tài khoản của bạn đã được mở, và thẻ sẽ đến trong vòng năm ngày làm việc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I can use the application now and will await my card.",
+        "vi": "Cảm ơn. Giờ tôi có thể dùng ứng dụng và sẽ chờ thẻ của mình.",
+        "hint": "Will await diễn tả điều bạn dự định làm sau cuộc nói chuyện."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly bank customer service representative at a busy city branch. You speak clearly, check identification carefully, and solve customer problems patiently.",
+    "opener": "Good morning. How can I help you with your banking needs today?",
+    "goal": "Người học mở tài khoản nhận lương, mô tả lỗi ứng dụng và hỏi thời gian nhận thẻ."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn mở một tài khoản thanh toán để nhận lương.",
+      "en": "I would like to open a current account to receive my salary.",
+      "alts": [
+        "I want to open a current account for my salary."
+      ]
+    },
+    {
+      "vi": "Loại tài khoản nào sẽ phù hợp với tôi nhất?",
+      "en": "Which account would suit me best?",
+      "alts": [
+        "Which type of account is best for me?"
+      ]
+    },
+    {
+      "vi": "Tôi có hộ chiếu và giấy tờ chứng minh địa chỉ.",
+      "en": "I have my passport and proof of address.",
+      "alts": [
+        "I brought my passport and proof of address."
+      ]
+    },
+    {
+      "vi": "Tôi đã gặp khó khăn khi dùng ứng dụng ngân hàng.",
+      "en": "I have had trouble using the banking application.",
+      "alts": [
+        "I had trouble with the banking application."
+      ]
+    },
+    {
+      "vi": "Ứng dụng đã khóa quyền truy cập của tôi sau nhiều lần nhập mật khẩu.",
+      "en": "The application locked me out after several password attempts.",
+      "alts": [
+        "I was locked out after entering my password several times."
+      ]
+    },
+    {
+      "vi": "Bạn có thể đặt lại mật khẩu cho tôi không?",
+      "en": "Could you reset my password for me?",
+      "alts": [
+        "Could you help me reset my password?"
+      ]
+    },
+    {
+      "vi": "Thẻ của tôi sẽ đến địa chỉ đã đăng ký khi nào?",
+      "en": "When will my card arrive at my registered address?",
+      "alts": [
+        "How long will card delivery take?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý trọng âm của account và application.",
+    "Viết năm câu dùng I would like to, Could you và I have had trouble.",
+    "Tự đóng vai khách hàng, thay đổi lý do mở tài khoản và sự cố ứng dụng."
+  ]
+}
