@@ -1,0 +1,390 @@
+{
+  "id": "unity-khai-niem-co-ban",
+  "title": "Unity căn bản: GameObject, Component, Prefab và Scene",
+  "topic": "Khái niệm Unity cơ bản",
+  "level": "B1",
+  "summary": "Bạn tham gia một buổi phỏng vấn ngắn với kỹ sư Unity. Bạn giải thích các khái niệm nền tảng và đưa ví dụ từ dự án game platform.",
+  "goals": [
+    "Giải thích bằng tiếng Anh GameObject, Component, Prefab và Scene.",
+    "Dùng ví dụ thực tế để mô tả cấu trúc một dự án Unity.",
+    "Nêu lý do chọn Component hoặc tách Scene bằng các câu B1 tự nhiên."
+  ],
+  "vocab": [
+    {
+      "en": "GameObject",
+      "ipa": "/ˈɡeɪm ˌɑːbdʒekt/",
+      "vi": "đối tượng cơ bản trong Unity, có thể đại diện cho nhân vật, vật thể hoặc camera",
+      "example": "A GameObject called Player holds the character at the start of my level."
+    },
+    {
+      "en": "Component",
+      "ipa": "/kəmˈpoʊnənt/",
+      "vi": "thành phần gắn vào GameObject để thêm chức năng hoặc dữ liệu",
+      "example": "Each Component gives my enemy a specific job in the project."
+    },
+    {
+      "en": "Prefab",
+      "ipa": "/ˈpriːfæb/",
+      "vi": "mẫu đối tượng tái sử dụng để tạo nhiều bản giống nhau",
+      "example": "My coin Prefab keeps the same sprite, sound, and collider everywhere."
+    },
+    {
+      "en": "Scene",
+      "ipa": "/siːn/",
+      "vi": "một không gian hoặc màn chơi chứa các đối tượng liên quan",
+      "example": "The Forest Scene contains trees, enemies, checkpoints, and the main camera."
+    },
+    {
+      "en": "instance",
+      "ipa": "/ˈɪnstəns/",
+      "vi": "một bản thể được tạo ra từ Prefab",
+      "example": "Each coin instance can have a different position in the level."
+    },
+    {
+      "en": "Rigidbody",
+      "ipa": "/ˈrɪdʒɪd ˌbɑːdi/",
+      "vi": "Component giúp vật thể chịu tác động của hệ thống vật lý",
+      "example": "The Rigidbody makes the falling crate respond naturally to gravity."
+    },
+    {
+      "en": "Collider",
+      "ipa": "/kəˈlaɪdər/",
+      "vi": "Component xác định vùng va chạm của vật thể",
+      "example": "An invisible Collider stops the player from walking through the wall."
+    },
+    {
+      "en": "script",
+      "ipa": "/skrɪpt/",
+      "vi": "đoạn mã điều khiển hành vi của đối tượng",
+      "example": "The movement script reads input and moves the player character."
+    },
+    {
+      "en": "inherit",
+      "ipa": "/ɪnˈherɪt/",
+      "vi": "kế thừa thay đổi từ đối tượng hoặc mẫu gốc",
+      "example": "Prefab instances inherit changes unless someone overrides a local property."
+    },
+    {
+      "en": "Hierarchy",
+      "ipa": "/ˈhaɪərɑːrki/",
+      "vi": "bảng hiển thị quan hệ cha con giữa các GameObject trong Scene",
+      "example": "The Hierarchy shows which GameObjects belong under the player character."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What is ___ used for in Unity?",
+      "vi": "___ được dùng để làm gì trong Unity?",
+      "note": "Dùng để hỏi mục đích của một khái niệm hoặc Component."
+    },
+    {
+      "en": "A ___ is a ___ that ___.",
+      "vi": "Một ___ là một ___ mà ___.",
+      "note": "Mẫu định nghĩa ngắn, rõ ràng khi phỏng vấn."
+    },
+    {
+      "en": "I would add ___ because ___.",
+      "vi": "Tôi sẽ thêm ___ vì ___.",
+      "note": "Dùng để nêu lựa chọn kỹ thuật và lý do."
+    },
+    {
+      "en": "After updating ___, ___ can ___.",
+      "vi": "Sau khi cập nhật ___, ___ có thể ___.",
+      "note": "Dùng để giải thích tác động sau một thay đổi."
+    },
+    {
+      "en": "I use separate ___ so that ___.",
+      "vi": "Tôi dùng các ___ riêng biệt để ___.",
+      "note": "Dùng để nói về cách tổ chức dự án và mục đích."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong Component",
+      "tip": "Nhấn mạnh âm thứ hai: com-PO-nent. Không đọc đều từng âm như tiếng Việt.",
+      "words": [
+        "Component",
+        "components"
+      ]
+    },
+    {
+      "focus": "nguyên âm dài trong Scene",
+      "tip": "Kéo dài âm i: Scene giống âm trong từ see, không đọc thành sin.",
+      "words": [
+        "Scene",
+        "scenes"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm trong Rigidbody",
+      "tip": "Đọc rõ rigid rồi body; không bỏ âm d ở cuối rigid.",
+      "words": [
+        "Rigidbody",
+        "rigid",
+        "body"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "A GameObject have many component.",
+      "right": "A GameObject can have many components.",
+      "vi": "GameObject số ít cần động từ phù hợp; dùng can have tự nhiên hơn và components cần số nhiều."
+    },
+    {
+      "wrong": "Prefab is a GameObject in the Scene.",
+      "right": "A Prefab is a reusable asset that can create GameObjects.",
+      "vi": "Prefab là mẫu tái sử dụng, không chỉ là một GameObject đang nằm trong Scene."
+    },
+    {
+      "wrong": "I add Rigidbody for player can jump.",
+      "right": "I add a Rigidbody component so the player can use physics.",
+      "vi": "Cần mạo từ a, danh từ component và so để nối mục đích."
+    },
+    {
+      "wrong": "This Scene contain the menu and the level.",
+      "right": "This Scene contains the menu and the level.",
+      "vi": "This Scene là chủ ngữ số ít nên contain phải thêm s."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi chức năng của một GameObject",
+      "formal": "Could you explain how this GameObject is used in the Scene?",
+      "casual": "What does this GameObject do here?",
+      "vi": "Câu formal phù hợp khi hỏi người phỏng vấn hoặc quản lý; câu casual dùng với đồng nghiệp thân hoặc khi cùng xem dự án."
+    },
+    {
+      "situation": "Đề xuất thêm Component vật lý",
+      "formal": "I would add a Rigidbody component because the object needs physics.",
+      "casual": "I'd add a Rigidbody so it can use physics.",
+      "vi": "Câu formal đầy đủ và phù hợp khi trình bày quyết định kỹ thuật; câu casual tự nhiên trong lúc trao đổi nhanh với đồng đội."
+    },
+    {
+      "situation": "Hỏi ảnh hưởng khi sửa Prefab",
+      "formal": "Would this change be applied to every Prefab instance?",
+      "casual": "Will all the copies get this change?",
+      "vi": "Câu formal chính xác hơn về thuật ngữ khi họp hoặc phỏng vấn; câu casual dùng trong trò chuyện nội bộ."
+    },
+    {
+      "situation": "Nêu ý kiến về việc tách Scene",
+      "formal": "In my view, separate Scenes make the project easier to maintain.",
+      "casual": "I think separate Scenes keep things easier to manage.",
+      "vi": "Câu formal phù hợp khi bảo vệ phương án trước người lạ hoặc cấp trên; câu casual phù hợp khi thảo luận với đồng nghiệp quen."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, người phỏng vấn thường muốn nghe bạn suy nghĩ thành lời và đưa ví dụ ngắn từ dự án, không chỉ nêu định nghĩa.",
+    "Nếu chưa chắc hoàn toàn, bạn có thể nói rõ giả định của mình rồi trả lời. Cách này thường tạo ấn tượng tốt hơn là trả lời mơ hồ.",
+    "Người nói tiếng Anh thường hỏi thẳng về lý do của một lựa chọn kỹ thuật. Trả lời ngắn gọn theo cấu trúc lựa chọn cộng với because thường được đánh giá là rõ ràng."
+  ],
+  "listening": {
+    "title": "Tin nhắn chuẩn bị kiểm thử màn Forest",
+    "passage": "Hi team, before we test the Forest level, please open the Forest Scene rather than the Main Menu Scene. The player is a GameObject with a movement script, a Collider, and a Rigidbody component. The coins were created from one Prefab, so update the Prefab if you want every coin to use the new sound. Leave the special coin alone because its sound has been overridden.",
+    "vi": "Chào cả nhóm, trước khi kiểm thử màn Forest, hãy mở Scene Forest thay vì Scene Main Menu. Nhân vật người chơi là một GameObject có script di chuyển, Collider và Component Rigidbody. Các đồng xu được tạo từ một Prefab, vì vậy hãy cập nhật Prefab nếu bạn muốn mọi đồng xu dùng âm thanh mới. Hãy để nguyên đồng xu đặc biệt vì âm thanh của nó đã bị ghi đè.",
+    "questions": [
+      {
+        "q": "Which Scene should the team open before testing?",
+        "choices": [
+          "The Forest Scene",
+          "The Main Menu Scene",
+          "The Player Scene"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là The Forest Scene vì đoạn nghe nói rõ: open the Forest Scene rather than the Main Menu Scene."
+      },
+      {
+        "q": "What should be updated to change the sound for every coin?",
+        "choices": [
+          "The Collider",
+          "The Prefab",
+          "The camera"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The Prefab vì đoạn nghe nói update the Prefab if you want every coin to use the new sound."
+      },
+      {
+        "q": "Why should the special coin be left alone?",
+        "choices": [
+          "It has been deleted",
+          "Its sound has been overridden",
+          "It is outside the Scene"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Its sound has been overridden vì câu cuối nói rõ âm thanh của đồng xu đặc biệt đã bị ghi đè."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư Unity đang phỏng vấn",
+      "b": "Ứng viên lập trình Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining. Could you explain what a GameObject is in Unity?",
+        "vi": "Cảm ơn bạn đã tham gia. Bạn có thể giải thích GameObject trong Unity là gì không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A GameObject is a basic container that represents something in the game world.",
+        "vi": "GameObject là một đối tượng chứa cơ bản, đại diện cho một thứ trong thế giới game.",
+        "hint": "Dùng basic container để diễn đạt đây là đối tượng nền tảng."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Can you give a practical example from a small platform project?",
+        "vi": "Tốt. Bạn có thể đưa ví dụ thực tế từ một dự án game platform nhỏ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "In a recent platform game, I created the player character as a GameObject.",
+        "vi": "Trong một game platform gần đây, tôi đã tạo nhân vật người chơi dưới dạng GameObject.",
+        "hint": "Dùng quá khứ created để kể về dự án đã làm."
+      },
+      {
+        "speaker": "a",
+        "en": "What makes that GameObject useful instead of being only an empty object?",
+        "vi": "Điều gì khiến GameObject đó hữu ích thay vì chỉ là một đối tượng trống?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Components add behavior, such as movement, collision, sound, or a visible sprite.",
+        "vi": "Các Component thêm hành vi, chẳng hạn di chuyển, va chạm, âm thanh hoặc sprite hiển thị.",
+        "hint": "Liệt kê vài chức năng sau such as để câu trả lời cụ thể hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Which component would you add if the player should react to gravity?",
+        "vi": "Bạn sẽ thêm Component nào nếu người chơi cần phản ứng với trọng lực?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would add a Rigidbody component because it lets physics control the player's motion.",
+        "vi": "Tôi sẽ thêm Component Rigidbody vì nó cho phép vật lý điều khiển chuyển động của người chơi.",
+        "hint": "Dùng I would add để đưa ra lựa chọn kỹ thuật lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Now explain a Prefab and why teams use it during development.",
+        "vi": "Bây giờ hãy giải thích Prefab và lý do nhóm phát triển dùng nó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A Prefab is a reusable template, so every coin can share the same setup and save time.",
+        "vi": "Prefab là một mẫu có thể tái sử dụng, nên mọi đồng xu có thể dùng chung cấu hình và tiết kiệm thời gian.",
+        "hint": "Dùng so để nối định nghĩa với lợi ích thực tế."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose you change the coin sound. How would that affect existing coin instances?",
+        "vi": "Giả sử bạn thay đổi âm thanh của đồng xu. Điều đó sẽ ảnh hưởng thế nào đến các bản thể đồng xu hiện có?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "After updating the Prefab, its instances can inherit the new sound automatically.",
+        "vi": "Sau khi cập nhật Prefab, các bản thể của nó có thể tự động kế thừa âm thanh mới.",
+        "hint": "Bắt đầu bằng After updating để nói về kết quả của một thay đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "Finally, how does a Scene organize these objects while the game is running?",
+        "vi": "Cuối cùng, Scene tổ chức các đối tượng này như thế nào khi game đang chạy?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A Scene holds related GameObjects, like the menu, level, lights, and camera.",
+        "vi": "Một Scene chứa các GameObject liên quan, như menu, màn chơi, đèn và camera.",
+        "hint": "Dùng holds related GameObjects để mô tả vai trò tổ chức của Scene."
+      },
+      {
+        "speaker": "a",
+        "en": "Why might you use separate Scenes for the menu and each playable level?",
+        "vi": "Vì sao bạn có thể dùng các Scene riêng cho menu và mỗi màn chơi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would use separate Scenes because they organize content and reduce loading work.",
+        "vi": "Tôi sẽ dùng các Scene riêng vì chúng tổ chức nội dung tốt hơn và giảm khối lượng tải.",
+        "hint": "Nêu hai lý do sau because để câu trả lời thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a clear explanation. You understand the core Unity concepts well.",
+        "vi": "Đó là lời giải thích rõ ràng. Bạn hiểu tốt các khái niệm Unity cốt lõi.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm Unity engineer interviewing a junior developer in a game studio. Ask clear follow-up questions, encourage precise examples, and keep a professional but supportive tone.",
+    "opener": "Thanks for joining. Could you explain what a GameObject is in Unity?",
+    "goal": "Người học giải thích được GameObject, Component, Prefab và Scene, đồng thời nêu ví dụ từ một dự án game."
+  },
+  "drills": [
+    {
+      "vi": "GameObject được dùng để làm gì trong Unity?",
+      "en": "What is a GameObject used for in Unity?",
+      "alts": [
+        "What does a GameObject do in Unity?"
+      ]
+    },
+    {
+      "vi": "Một Component là một phần thêm chức năng cho GameObject.",
+      "en": "A Component is a part that adds functionality to a GameObject.",
+      "alts": [
+        "A Component adds functionality to a GameObject."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ thêm Rigidbody vì vật thể cần phản ứng với trọng lực.",
+      "en": "I would add a Rigidbody because the object needs to react to gravity.",
+      "alts": [
+        "I would use a Rigidbody component for gravity."
+      ]
+    },
+    {
+      "vi": "Prefab này là một mẫu tái sử dụng cho mọi đồng xu.",
+      "en": "This Prefab is a reusable template for every coin.",
+      "alts": [
+        "Every coin uses this reusable Prefab."
+      ]
+    },
+    {
+      "vi": "Sau khi cập nhật Prefab, các bản thể có thể kế thừa thay đổi đó.",
+      "en": "After updating the Prefab, the instances can inherit that change.",
+      "alts": [
+        "The instances can inherit changes from the updated Prefab."
+      ]
+    },
+    {
+      "vi": "Tôi dùng các Scene riêng để dự án dễ quản lý hơn.",
+      "en": "I use separate Scenes so that the project is easier to manage.",
+      "alts": [
+        "Separate Scenes make the project easier to manage."
+      ]
+    },
+    {
+      "vi": "Scene này chứa camera, đèn và các GameObject của màn chơi.",
+      "en": "This Scene contains the camera, lights, and GameObjects for the level.",
+      "alts": [
+        "The level Scene holds the camera, lights, and GameObjects."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời về bốn khái niệm, sau đó tự nghe lại để kiểm tra phát âm.",
+    "Tạo một ví dụ dự án riêng cho GameObject, Component, Prefab và Scene bằng tiếng Anh.",
+    "Viết năm câu dùng các mẫu câu trong bài, trong đó có ít nhất hai câu nêu lý do."
+  ]
+}

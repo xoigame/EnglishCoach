@@ -194,6 +194,35 @@ input[type=range] { padding: 0; }
 .mic-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .mic-actions .ghost { padding: 6px 10px; font-size: 13px; }
 
+/* ---------- dialogue player ---------- */
+.player { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.player-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.player-bar label { margin: 0; display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+.player-bar input[type=range] { width: 108px; }
+.player-bar input[type=checkbox] { width: auto; }
+.player-bar select { width: auto; min-width: 150px; }
+.p-loop { color: var(--fg); cursor: pointer; }
+.script { list-style: none; margin: 10px 0 0; padding: 0; max-height: 260px; overflow-y: auto; display: grid; gap: 4px; }
+.script .line {
+  padding: 7px 10px; border-radius: 8px; cursor: pointer;
+  border-left: 3px solid transparent; transition: .12s;
+}
+.script .line:hover { background: var(--bg-soft); }
+.script .line.theirs { border-left-color: var(--accent); }
+.script .line.mine { border-left-color: var(--accent-2); }
+.script .line.now { background: #1f6feb28; border-left-color: var(--warn); }
+.script .who { display: block; font-size: 11px; color: var(--muted); }
+.script .en { font-size: 14.5px; }
+.script .vi { display: block; font-size: 12px; color: var(--muted); }
+
+/* ---------- mindmap ---------- */
+.mindmap-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: #0d1117; padding: 6px; }
+.mindmap { display: block; min-width: 720px; }
+.mindmap .leaf { cursor: pointer; }
+.mindmap .leaf:hover rect { stroke: var(--accent); fill: var(--bg-soft); }
+.mindmap .leaf:focus { outline: none; }
+.mindmap .leaf:focus rect { stroke: var(--accent); stroke-width: 2; }
+
 /* ---------- variations & culture ---------- */
 .variation {
   background: var(--card); border: 1px solid var(--line);
@@ -256,8 +285,88 @@ input[type=range] { padding: 0; }
 .roadmap-list code { font-size: 11.5px; color: var(--warn); }
 code { font-family: "Cascadia Code", Consolas, monospace; }
 
-@media (max-width: 640px) {
-  .topbar { flex-direction: column; align-items: flex-start; }
-  .bubble { max-width: 90%; }
-  .mic { width: 84px; height: 84px; font-size: 24px; }
+/* =======================================================================
+   ĐIỆN THOẠI
+   Học trên điện thoại là đường dùng chính, nên đây không phải vài chỗ chỉnh
+   cho vừa mà là bố cục riêng: thanh micro dính đáy trong tầm ngón tay, tab
+   cuộn ngang thay vì xuống dòng, và mọi vùng bấm đủ lớn.
+   ===================================================================== */
+@media (max-width: 720px) {
+  main { padding: 14px 12px 96px; }          /* chỗ trống dưới cho thanh micro */
+  h1 { font-size: 20px; }
+
+  .topbar { padding: 10px 12px; gap: 10px; }
+  .brand small { display: none; }
+  .tabs { width: 100%; }
+  #mainNav .tab {
+    flex: 1 1 0; min-width: 0; padding: 9px 4px;
+    font-size: 11.5px; text-align: center;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
+  /* Tab bài học: cuộn ngang, không xuống dòng thành ba tầng. */
+  .subtabs {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    margin: 14px -12px; padding: 0 12px 4px;
+  }
+  .subtabs::-webkit-scrollbar { display: none; }
+  .subtab { flex: 0 0 auto; white-space: nowrap; }
+  .chip { white-space: nowrap; }
+
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+  .chips::-webkit-scrollbar { display: none; }
+
+  .grid { grid-template-columns: 1fr; }
+  .gen-grid { grid-template-columns: 1fr; }
+  /* Tiêu đề và điểm nằm cùng một hàng, không để vòng điểm rơi xuống dòng riêng. */
+  .lesson-head { flex-wrap: nowrap; align-items: flex-start; gap: 12px; }
+  .lesson-head > div:first-child { min-width: 0; flex: 1 1 auto; }
+  .lesson-progress { flex: 0 0 auto; }
+  .lesson-progress small { font-size: 10px; }
+  .ring { width: 52px; height: 52px; font-size: 14px; }
+  .card { padding: 13px 14px; }
+
+  /* iOS zoom vào ô nhập nếu chữ dưới 16px. */
+  input, select, textarea { font-size: 16px; }
+
+  /* Thanh micro dính đáy màn hình. */
+  .mic-bar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    margin: 0; padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+    background: rgba(14, 17, 22, .96); border-top: 1px solid var(--line);
+    backdrop-filter: blur(10px);
+    display: grid; grid-template-columns: 64px 1fr; gap: 10px; align-items: center;
+  }
+  .mic { width: 64px; height: 64px; font-size: 22px; }
+  .mic span { display: none; }
+  .interim { min-height: 0; padding: 6px 10px; font-size: 13px; }
+  .mic-actions .ghost { padding: 7px 10px; }
+  #typeFallback { display: none; }           /* trên điện thoại thì dùng micro */
+  .chat { max-height: 52vh; }
+  .bubble { max-width: 92%; }
+
+  .player-bar { gap: 8px; }
+  .player-bar label { font-size: 12px; }
+  .player-bar input[type=range] { width: 88px; }
+  .player-bar select { min-width: 0; max-width: 58vw; }
+  .script { max-height: 42vh; }
+
+  .vocab-item, .pattern-item { padding: 10px 12px; }
+  .speak { padding: 7px 11px; }
+  .choice { padding: 11px 13px; }            /* vùng bấm trắc nghiệm to hơn */
+  .variation .vrow { flex-wrap: wrap; }
+  .code { font-size: 11.5px; }
+  .mindmap-wrap { margin: 0 -12px; border-radius: 0; border-left: 0; border-right: 0; }
+}
+
+@media (max-width: 420px) {
+  .mic-bar { grid-template-columns: 56px 1fr; }
+  .mic { width: 56px; height: 56px; font-size: 20px; }
+  .mic-actions .ghost { font-size: 12px; padding: 6px 8px; }
+}
+
+/* Máy không có chuột: bỏ hiệu ứng hover dính lại sau khi chạm. */
+@media (hover: none) {
+  .lesson-card:hover { transform: none; border-color: var(--line); }
+  .script .line:hover { background: none; }
 }

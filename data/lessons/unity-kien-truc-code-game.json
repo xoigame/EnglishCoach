@@ -1,0 +1,396 @@
+{
+  "id": "unity-kien-truc-code-game",
+  "title": "Bảo vệ kiến trúc code game trước technical lead",
+  "topic": "ScriptableObject, event và tách lớp trong Unity",
+  "level": "C1",
+  "summary": "Bạn trình bày một thiết kế Unity trước technical lead khó tính. Bạn cần giải thích rõ các đánh đổi giữa ScriptableObject, event và lời gọi trực tiếp thay vì chỉ liệt kê pattern.",
+  "goals": [
+    "Trình bày ranh giới giữa dữ liệu cấu hình và trạng thái chạy thực tế.",
+    "Lập luận về khi nào nên dùng event và khi nào nên gọi trực tiếp.",
+    "Diễn đạt đánh đổi kiến trúc một cách tự nhiên, chuyên nghiệp và thuyết phục."
+  ],
+  "vocab": [
+    {
+      "en": "configuration asset",
+      "ipa": "/kənˌfɪɡjəˈreɪʃən ˈæset/",
+      "vi": "asset chứa dữ liệu cấu hình",
+      "example": "A weapon configuration asset should contain stable values such as damage and range."
+    },
+    {
+      "en": "runtime state",
+      "ipa": "/ˈrʌntaɪm steɪt/",
+      "vi": "trạng thái thay đổi khi game đang chạy",
+      "example": "Current ammunition belongs in runtime state, not in a shared asset."
+    },
+    {
+      "en": "decouple",
+      "ipa": "/ˌdiːˈkʌpəl/",
+      "vi": "tách rời, giảm phụ thuộc trực tiếp",
+      "example": "Events can decouple the audio system from the combat system."
+    },
+    {
+      "en": "event contract",
+      "ipa": "/ɪˈvent ˈkɒntrækt/",
+      "vi": "quy ước rõ ràng về dữ liệu và ý nghĩa của một event",
+      "example": "Every event contract should say who raises the event and who may subscribe."
+    },
+    {
+      "en": "subscriber",
+      "ipa": "/səbˈskraɪbər/",
+      "vi": "thành phần đăng ký lắng nghe event",
+      "example": "The achievement system is a subscriber to the weapon-fired event."
+    },
+    {
+      "en": "indirection",
+      "ipa": "/ˌɪndəˈrekʃən/",
+      "vi": "lớp trung gian làm đường đi xử lý bớt trực tiếp",
+      "example": "Extra indirection is not useful when one local service owns the whole action."
+    },
+    {
+      "en": "ownership boundary",
+      "ipa": "/ˈəʊnərʃɪp ˈbaʊndri/",
+      "vi": "ranh giới trách nhiệm sở hữu dữ liệu hoặc hành vi",
+      "example": "The design needs a clear ownership boundary between the user interface and combat."
+    },
+    {
+      "en": "tight coupling",
+      "ipa": "/taɪt ˈkʌplɪŋ/",
+      "vi": "sự phụ thuộc chặt giữa các thành phần",
+      "example": "Direct references can create tight coupling across unrelated features."
+    },
+    {
+      "en": "traceability",
+      "ipa": "/ˌtreɪsəˈbɪləti/",
+      "vi": "khả năng lần theo nguồn gốc và luồng xử lý",
+      "example": "Good traceability makes asynchronous event flows easier to debug."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi giữa lợi ích và chi phí",
+      "example": "The trade-off is lower coupling at the cost of a less visible control flow."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am using ___ for ___, while ___ remains ___.",
+      "vi": "Tôi dùng ___ cho ___, còn ___ vẫn là ___.",
+      "note": "Dùng để phân định trách nhiệm giữa hai loại dữ liệu hoặc hai lớp."
+    },
+    {
+      "en": "The trade-off is that ___, but ___.",
+      "vi": "Đánh đổi là ___, nhưng ___.",
+      "note": "Mẫu C1 rất hữu ích khi bảo vệ quyết định kỹ thuật cân bằng."
+    },
+    {
+      "en": "Rather than ___, I would ___.",
+      "vi": "Thay vì ___, tôi sẽ ___.",
+      "note": "Nêu phương án ưu tiên mà không phủ định gay gắt phương án còn lại."
+    },
+    {
+      "en": "I would draw the boundary between ___ and ___.",
+      "vi": "Tôi sẽ đặt ranh giới giữa ___ và ___.",
+      "note": "Dùng khi nói về tách lớp, ownership hoặc trách nhiệm."
+    },
+    {
+      "en": "I am not convinced that ___; what happens when ___?",
+      "vi": "Tôi chưa bị thuyết phục rằng ___; điều gì xảy ra khi ___?",
+      "note": "Cách phản biện thẳng nhưng vẫn chuyên nghiệp."
+    },
+    {
+      "en": "Given that ___, I would prefer ___.",
+      "vi": "Vì ___, tôi sẽ ưu tiên ___.",
+      "note": "Dùng để kết luận đề xuất dựa trên một điều kiện cụ thể."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong event và architecture",
+      "tip": "Nhấn âm hai ở event và âm đầu ở architecture. Tránh đọc đều từng âm.",
+      "words": [
+        "event",
+        "architecture",
+        "subscriber"
+      ]
+    },
+    {
+      "focus": "Âm /k/ trong decouple và coupling",
+      "tip": "Âm c ở đây đọc là /k/, không đọc gần như /s/. Nhấn mạnh âm hai của decouple.",
+      "words": [
+        "decouple",
+        "coupling",
+        "contract"
+      ]
+    },
+    {
+      "focus": "Nối âm trong runtime state",
+      "tip": "Nối nhẹ giữa runtime và state để cụm từ liền mạch, không ngắt sau runtime.",
+      "words": [
+        "runtime state",
+        "event contract",
+        "ownership boundary"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I use a ScriptableObject to store the current player health.",
+      "right": "I use a ScriptableObject for configuration, while the current player health remains runtime state.",
+      "vi": "Máu hiện tại thay đổi theo lúc chơi nên không nên để trong asset cấu hình dùng chung."
+    },
+    {
+      "wrong": "Events make the code less coupled.",
+      "right": "Events reduce coupling between independent systems.",
+      "vi": "Less coupled không hẳn sai, nhưng reduce coupling là collocation tự nhiên và chuyên nghiệp hơn."
+    },
+    {
+      "wrong": "Every system listen to the global event bus.",
+      "right": "Every system listens to the global event bus.",
+      "vi": "Chủ ngữ Every system là số ít nên động từ cần thêm s."
+    },
+    {
+      "wrong": "We should separate logic to data.",
+      "right": "We should separate logic from data.",
+      "vi": "Dùng separate something from something, không dùng separate to."
+    },
+    {
+      "wrong": "The user interface calls an event.",
+      "right": "The user interface raises an event.",
+      "vi": "Trong ngữ cảnh kỹ thuật, raise hoặc publish an event tự nhiên hơn call an event."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu lo ngại về event bus toàn cục",
+      "formal": "I am concerned that a global event bus may obscure the flow of control.",
+      "casual": "I worry a global event bus will make the flow hard to follow.",
+      "vi": "Câu formal phù hợp khi review với cấp trên hoặc trong tài liệu thiết kế; câu casual hợp với đồng nghiệp thân trong trao đổi nội bộ."
+    },
+    {
+      "situation": "Yêu cầu làm rõ ranh giới trách nhiệm",
+      "formal": "Could we document the ownership boundary before we commit to this design?",
+      "casual": "Can we write down who owns what before we lock this in?",
+      "vi": "Câu formal mềm và chuyên nghiệp khi họp chính thức; câu casual tự nhiên trong nhóm đã quen cách làm việc với nhau."
+    },
+    {
+      "situation": "Từ chối tạo phụ thuộc xuyên lớp",
+      "formal": "I would prefer not to expose that dependency across layers.",
+      "casual": "I would rather not let those layers call each other directly.",
+      "vi": "Câu formal phù hợp khi phản hồi thiết kế hoặc email; câu casual dùng trong trao đổi nhanh với đồng đội."
+    },
+    {
+      "situation": "Yêu cầu chứng minh một lớp trừu tượng là cần thiết",
+      "formal": "What evidence do we have that this indirection is justified?",
+      "casual": "Do we really need this extra layer?",
+      "vi": "Câu formal có tính thách thức nhưng vẫn khách quan trong review; câu casual ngắn hơn, phù hợp khi pair programming hoặc họp nhóm nhỏ."
+    }
+  ],
+  "culture": [
+    "Trong review kỹ thuật bằng tiếng Anh, người bản xứ thường phản biện trực tiếp vào ý tưởng, ví dụ hỏi về chi phí gỡ lỗi, mà không xem đó là công kích cá nhân.",
+    "Một câu mở đầu như I am concerned hoặc I am not convinced thường làm lời phản biện bớt gay gắt, nhưng phần lập luận sau đó vẫn cần cụ thể và thẳng thắn.",
+    "Khi được hỏi Why not use a global event bus, đừng chỉ đáp rằng đó là bad practice. Người nghe thường mong bạn nêu điều kiện áp dụng và đánh đổi thực tế."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về kiến trúc inventory",
+    "passage": "Before the next sprint, I want us to simplify the inventory flow. Put item definitions in ScriptableObjects, but keep the changing inventory for each player in runtime state. Use an event only when several independent systems genuinely need to react. For a single local interaction, call the owning service directly. This gives us a clearer path to debug and stops the global event bus from becoming a dumping ground.",
+    "vi": "Trước sprint tiếp theo, tôi muốn chúng ta đơn giản hóa luồng inventory. Hãy đặt định nghĩa vật phẩm trong ScriptableObject, nhưng giữ inventory thay đổi của từng người chơi trong trạng thái chạy thực tế. Chỉ dùng event khi nhiều hệ thống độc lập thực sự cần phản ứng. Với một tương tác cục bộ đơn lẻ, hãy gọi trực tiếp service sở hữu nó. Cách này cho chúng ta đường đi rõ ràng hơn để gỡ lỗi và ngăn event bus toàn cục trở thành nơi nhét mọi thứ vào.",
+    "questions": [
+      {
+        "q": "What should remain in runtime state?",
+        "choices": [
+          "Item definitions",
+          "The changing inventory for each player",
+          "The global event bus"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 1 vì bài nghe nói rõ: keep the changing inventory for each player in runtime state."
+      },
+      {
+        "q": "When should the team use an event?",
+        "choices": [
+          "When one local service owns the interaction",
+          "When item definitions are created",
+          "When several independent systems need to react"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là lựa chọn 2 vì đoạn nghe nêu: Use an event only when several independent systems genuinely need to react."
+      },
+      {
+        "q": "Why should a local interaction use a direct call?",
+        "choices": [
+          "It creates a clearer path to debug",
+          "It makes all systems subscribe",
+          "It moves inventory into an asset"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn 0. Đoạn nghe nói lời gọi trực tiếp cho đường đi rõ ràng hơn để gỡ lỗi."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Technical lead khó tính đang review kiến trúc",
+      "b": "Lập trình viên game trình bày phương án thiết kế"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Walk me through your proposal.",
+        "vi": "Hãy trình bày đề xuất của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I want to use ScriptableObjects for weapon definitions and events for reactions between systems.",
+        "vi": "Tôi muốn dùng ScriptableObject cho định nghĩa vũ khí và event cho các phản ứng giữa những hệ thống.",
+        "hint": "Nói ngắn gọn mục đích của từng công cụ."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a list of tools, not an architecture. What stays in a ScriptableObject, and what changes at runtime?",
+        "vi": "Đó là danh sách công cụ, chưa phải kiến trúc. Cái gì nằm trong ScriptableObject, và cái gì thay đổi khi chạy game?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Static values such as damage, cooldown, and icons go in the asset. Current ammunition and temporary buffs remain runtime state.",
+        "vi": "Các giá trị cố định như sát thương, thời gian hồi chiêu và biểu tượng nằm trong asset. Đạn hiện có và hiệu ứng tăng sức mạnh tạm thời vẫn là trạng thái chạy thực tế.",
+        "hint": "Dùng static values cho dữ liệu ổn định, rồi đối lập với runtime state."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Why not keep the current ammunition in the same asset? It would be convenient.",
+        "vi": "Tốt. Tại sao không giữ lượng đạn hiện tại trong cùng asset? Cách đó sẽ tiện mà.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It would be convenient only at first. Shared assets can leak state between sessions, tests, or players, so mutable data would become fragile.",
+        "vi": "Ban đầu thì tiện, nhưng chỉ vậy thôi. Asset dùng chung có thể làm trạng thái bị rò giữa các phiên chơi, bài kiểm thử hoặc người chơi, nên dữ liệu có thể thay đổi sẽ trở nên mong manh.",
+        "hint": "Dùng would be convenient only at first để nhượng bộ rồi phản biện."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair. Now defend the events. Do not tell me they decouple everything.",
+        "vi": "Được. Giờ hãy bảo vệ việc dùng event. Đừng nói với tôi rằng chúng tách rời mọi thứ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would raise an event when several independent systems need to react, for example audio, the user interface, and achievements after a weapon fires.",
+        "vi": "Tôi sẽ phát event khi nhiều hệ thống độc lập cần phản ứng, ví dụ âm thanh, giao diện người dùng và thành tựu sau khi một vũ khí khai hỏa.",
+        "hint": "Nêu điều kiện several independent systems để tránh dùng event tràn lan."
+      },
+      {
+        "speaker": "a",
+        "en": "And when only the combat controller needs to spend ammunition and spawn a projectile?",
+        "vi": "Còn khi chỉ combat controller cần trừ đạn và tạo đạn bay thì sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Then I would call the owning service directly. An event would add indirection without buying us a meaningful boundary.",
+        "vi": "Khi đó tôi sẽ gọi trực tiếp service sở hữu hành vi đó. Event sẽ thêm một lớp trung gian mà không mang lại ranh giới có ý nghĩa.",
+        "hint": "Dùng Rather than hoặc Then I would để nêu lựa chọn cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "Better. What is the cost of your event layer once the project grows?",
+        "vi": "Khá hơn. Khi dự án lớn lên, lớp event của bạn phải trả giá gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The trade-off is weaker direct coupling, but the control flow becomes less visible. We need explicit event contracts, clear ownership, and tracing; otherwise debugging turns into guesswork.",
+        "vi": "Đánh đổi là phụ thuộc trực tiếp yếu hơn, nhưng luồng điều khiển khó nhìn thấy hơn. Chúng ta cần quy ước event rõ ràng, ownership rõ ràng và khả năng lần vết; nếu không việc gỡ lỗi sẽ thành đoán mò.",
+        "hint": "Mở đầu bằng The trade-off is that để nói đủ cả lợi ích lẫn chi phí."
+      },
+      {
+        "speaker": "a",
+        "en": "Where do you draw the boundary between the presentation layer and the game domain?",
+        "vi": "Bạn đặt ranh giới giữa lớp trình bày và miền nghiệp vụ game ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The user interface can request an action and observe published state, but it must not mutate combat data or invoke weapon internals. The domain decides whether an action is valid.",
+        "vi": "Giao diện người dùng có thể yêu cầu một hành động và quan sát trạng thái được công bố, nhưng không được tự thay đổi dữ liệu chiến đấu hoặc gọi vào phần nội bộ của vũ khí. Miền nghiệp vụ quyết định hành động có hợp lệ hay không.",
+        "hint": "Dùng must not để xác định giới hạn trách nhiệm thật rõ."
+      },
+      {
+        "speaker": "a",
+        "en": "Fine. State the decision you will put in the design note.",
+        "vi": "Được. Hãy nêu quyết định bạn sẽ ghi vào tài liệu thiết kế.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Item definitions will live in ScriptableObjects, while changing game data will live in runtime state. We will use scoped events for genuine cross-system reactions and direct calls for intentional local dependencies. That gives us flexibility without making responsibility invisible.",
+        "vi": "Định nghĩa vật phẩm sẽ nằm trong ScriptableObject, còn dữ liệu game thay đổi sẽ nằm trong runtime state. Chúng ta sẽ dùng event có phạm vi cho các phản ứng thực sự liên hệ nhiều hệ thống và gọi trực tiếp cho các phụ thuộc cục bộ có chủ đích. Cách đó cho ta tính linh hoạt mà không làm trách nhiệm trở nên vô hình.",
+        "hint": "Kết luận bằng cấu trúc will live in, while... will live in để tóm tắt kiến trúc."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a demanding technical lead in a Unity architecture review at a game studio. You are concise, skeptical, and direct, but you accept well-reasoned trade-offs. Challenge vague claims and ask the learner to justify boundaries, ownership, and debugging consequences.",
+    "opener": "You have proposed ScriptableObjects and events. Explain the architecture, not just the patterns.",
+    "goal": "Thuyết phục technical lead rằng bạn đã cân nhắc rõ dữ liệu cấu hình, trạng thái chạy thực tế, event và lời gọi trực tiếp."
+  },
+  "drills": [
+    {
+      "vi": "Tôi dùng asset cấu hình cho dữ liệu ổn định, còn lượng đạn hiện tại vẫn là trạng thái chạy thực tế.",
+      "en": "I use configuration assets for stable data, while current ammunition remains runtime state.",
+      "alts": [
+        "Stable data lives in configuration assets, while current ammunition lives in runtime state."
+      ]
+    },
+    {
+      "vi": "Đánh đổi là ít phụ thuộc trực tiếp hơn, nhưng luồng xử lý khó theo dõi hơn.",
+      "en": "The trade-off is weaker direct coupling, but the control flow is harder to trace.",
+      "alts": [
+        "We reduce direct coupling at the cost of traceability."
+      ]
+    },
+    {
+      "vi": "Thay vì phát event, tôi sẽ gọi trực tiếp service sở hữu hành động này.",
+      "en": "Rather than raise an event, I would call the service that owns this action directly.",
+      "alts": [
+        "I would prefer a direct call because this service owns the action."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần một ranh giới trách nhiệm rõ ràng giữa giao diện người dùng và miền nghiệp vụ.",
+      "en": "We need a clear ownership boundary between the user interface and the game domain.",
+      "alts": [
+        "The user interface and the game domain need clearly defined responsibilities."
+      ]
+    },
+    {
+      "vi": "Tôi chưa bị thuyết phục rằng chúng ta cần một event bus toàn cục.",
+      "en": "I am not convinced that we need a global event bus.",
+      "alts": [
+        "I do not think a global event bus is justified here."
+      ]
+    },
+    {
+      "vi": "Mỗi subscriber phải được ghi lại để việc gỡ lỗi không trở thành đoán mò.",
+      "en": "Every subscriber should be documented so that debugging does not become guesswork.",
+      "alts": [
+        "We should document every subscriber to preserve traceability."
+      ]
+    },
+    {
+      "vi": "Vì chỉ có một hệ thống cần phản ứng, tôi ưu tiên lời gọi trực tiếp.",
+      "en": "Given that only one system needs to react, I would prefer a direct call.",
+      "alts": [
+        "Since this is a local interaction, a direct call is the better choice."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời ở lượt 12 và 16, rồi tự kiểm tra xem bạn đã nêu cả lợi ích lẫn chi phí chưa.",
+    "Viết một design note gồm năm câu về một tính năng khác, chẳng hạn inventory hoặc quest, dùng ít nhất ba từ vựng của bài.",
+    "Tập phản biện một global event bus bằng hai cách: một câu trang trọng và một câu thân mật."
+  ]
+}

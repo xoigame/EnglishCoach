@@ -1,0 +1,391 @@
+{
+  "id": "unity-debug-crash-kho",
+  "title": "Debug crash và bug khó tái hiện trên thiết bị thật",
+  "topic": "Gỡ lỗi crash trên thiết bị thật",
+  "level": "B2",
+  "summary": "Bạn tham gia một buổi phỏng vấn kỹ thuật và trình bày cách điều tra một lỗi crash chỉ xảy ra không ổn định trên điện thoại thật. Bạn cần mô tả rõ hiện tượng, giả thuyết, thử nghiệm và kết quả cuối cùng.",
+  "goals": [
+    "Mô tả một lỗi crash theo trình tự điều tra rõ ràng.",
+    "Nêu và phản biện các giả thuyết kỹ thuật một cách tự nhiên.",
+    "Giải thích cách thử nghiệm, kết quả và biện pháp ngăn lỗi tái diễn."
+  ],
+  "vocab": [
+    {
+      "en": "intermittent",
+      "ipa": "/ˌɪntərˈmɪtənt/",
+      "vi": "không ổn định, xảy ra ngắt quãng",
+      "example": "The crash was intermittent and difficult to reproduce."
+    },
+    {
+      "en": "reproduce",
+      "ipa": "/ˌriːprəˈduːs/",
+      "vi": "tái hiện một lỗi",
+      "example": "We could not reproduce the bug on every device."
+    },
+    {
+      "en": "stack trace",
+      "ipa": "/stæk treɪs/",
+      "vi": "dấu vết lời gọi hàm khi chương trình lỗi",
+      "example": "The stack trace pointed to an object that had already been destroyed."
+    },
+    {
+      "en": "memory leak",
+      "ipa": "/ˈmeməri liːk/",
+      "vi": "rò rỉ bộ nhớ",
+      "example": "Our first theory was that a memory leak caused the crash."
+    },
+    {
+      "en": "device-specific",
+      "ipa": "/dɪˈvaɪs spəˌsɪfɪk/",
+      "vi": "chỉ xảy ra trên một loại thiết bị nhất định",
+      "example": "The issue looked device-specific at first."
+    },
+    {
+      "en": "race condition",
+      "ipa": "/reɪs kənˈdɪʃən/",
+      "vi": "lỗi do các tác vụ chạy không đúng thứ tự hoặc tranh chấp thời điểm",
+      "example": "We eventually found a race condition between two callbacks."
+    },
+    {
+      "en": "callback",
+      "ipa": "/ˈkɔːlbæk/",
+      "vi": "hàm được gọi lại khi một tác vụ hoàn thành",
+      "example": "The callback arrived after the scene had been unloaded."
+    },
+    {
+      "en": "instrument",
+      "ipa": "/ˈɪnstrəmənt/",
+      "vi": "gắn thêm log hoặc công cụ theo dõi để đo và quan sát",
+      "example": "We instrumented the loading flow with detailed logs."
+    },
+    {
+      "en": "workaround",
+      "ipa": "/ˈwɜːrkəraʊnd/",
+      "vi": "giải pháp tạm thời",
+      "example": "We shipped a workaround while investigating the root cause."
+    },
+    {
+      "en": "regression",
+      "ipa": "/rɪˈɡreʃən/",
+      "vi": "lỗi cũ xuất hiện trở lại sau khi sửa đổi",
+      "example": "We added a test to prevent a regression."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The issue only occurred when ___, which made it hard to reproduce.",
+      "vi": "Lỗi chỉ xảy ra khi ___, điều này khiến nó khó tái hiện.",
+      "note": "Dùng để nêu điều kiện gây lỗi và lý do lỗi khó điều tra."
+    },
+    {
+      "en": "Our initial hypothesis was that ___, but the evidence did not support it.",
+      "vi": "Giả thuyết ban đầu của chúng tôi là ___, nhưng bằng chứng không ủng hộ điều đó.",
+      "note": "Phù hợp khi trình bày một giả thuyết đã bị loại bỏ."
+    },
+    {
+      "en": "To rule that out, we ___ and compared the results.",
+      "vi": "Để loại trừ khả năng đó, chúng tôi ___ và so sánh kết quả.",
+      "note": "Rule out nghĩa là loại trừ một khả năng sau khi kiểm tra."
+    },
+    {
+      "en": "It turned out that ___ was happening after ___.",
+      "vi": "Cuối cùng hóa ra ___ xảy ra sau khi ___.",
+      "note": "Dùng để nêu nguyên nhân thật sau quá trình điều tra."
+    },
+    {
+      "en": "We fixed it by ___, then ran regression tests to make sure ___.",
+      "vi": "Chúng tôi sửa lỗi bằng cách ___, rồi chạy kiểm thử hồi quy để bảo đảm ___.",
+      "note": "Mẫu câu tóm tắt cách sửa và bước xác nhận sau sửa lỗi."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "cụm phụ âm /kr/ trong crash",
+      "tip": "Đọc nhanh âm /k/ rồi chuyển ngay sang /r/. Không thêm nguyên âm ở giữa như ca-rash.",
+      "words": [
+        "crash",
+        "critical",
+        "create"
+      ]
+    },
+    {
+      "focus": "trọng âm trong reproducible",
+      "tip": "Nhấn mạnh âm tiết thứ tư, gần như ri-prơ-ĐU-sờ-bồ.",
+      "words": [
+        "reproduce",
+        "reproducible",
+        "production"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /k/ và /s/",
+      "tip": "Phát âm nhẹ phụ âm cuối để phân biệt stack với star và crashes với crash.",
+      "words": [
+        "stack",
+        "crash",
+        "crashes"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The app is crash when I open the level.",
+      "right": "The app crashes when I open the level.",
+      "vi": "Crash là động từ ở đây, nên dùng crashes với chủ ngữ số ít."
+    },
+    {
+      "wrong": "I tested in three real devices.",
+      "right": "I tested it on three real devices.",
+      "vi": "Dùng test something on a device, không dùng test in a device."
+    },
+    {
+      "wrong": "We could not reproduced the issue.",
+      "right": "We could not reproduce the issue.",
+      "vi": "Sau could dùng động từ nguyên mẫu."
+    },
+    {
+      "wrong": "We needed to find why it was happened.",
+      "right": "We needed to find out why it happened.",
+      "vi": "Không dùng was happened; happen là nội động từ. Find out tự nhiên hơn find trong ngữ cảnh điều tra."
+    },
+    {
+      "wrong": "The callback came after the scene was destroy.",
+      "right": "The callback came after the scene had been destroyed.",
+      "vi": "Dùng quá khứ hoàn thành bị động để nói cảnh đã bị hủy trước khi callback đến."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Yêu cầu đồng nghiệp mô tả cách tái hiện lỗi",
+      "formal": "Could you walk me through the exact steps that trigger the crash?",
+      "casual": "Can you show me how to make it crash?",
+      "vi": "Câu formal phù hợp trong buổi họp với người lạ hoặc cấp trên; câu casual dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Nêu một giả thuyết chưa chắc chắn",
+      "formal": "One possible explanation is that the callback is running after the scene unloads.",
+      "casual": "I think the callback might be firing too late.",
+      "vi": "Câu formal thận trọng và phù hợp khi báo cáo; câu casual trực tiếp hơn trong lúc cùng debug."
+    },
+    {
+      "situation": "Đề xuất thêm log để điều tra",
+      "formal": "I suggest that we add logging around the scene transition before changing the code.",
+      "casual": "Let us add some logs around the scene change first.",
+      "vi": "Câu formal phù hợp khi đề xuất với nhóm rộng hơn; câu casual hợp với cuộc trao đổi nhanh trong nhóm nhỏ."
+    },
+    {
+      "situation": "Không đồng ý với một kết luận vội vàng",
+      "formal": "I am not convinced that memory usage is the root cause, given the current evidence.",
+      "casual": "I am not sure memory is really the problem.",
+      "vi": "Câu formal phản biện mềm nhưng rõ ràng trong cuộc họp; câu casual phù hợp khi thảo luận với đồng nghiệp gần gũi."
+    }
+  ],
+  "culture": [
+    "Trong môi trường kỹ thuật nói tiếng Anh, người ta thường đánh giá cao việc nói rõ mức độ chắc chắn như I suspect hoặc the evidence suggests, thay vì khẳng định nguyên nhân khi chưa có dữ liệu.",
+    "Khi bị hỏi về lỗi của mình trong phỏng vấn, hãy thừa nhận chi tiết chưa biết rồi giải thích cách bạn kiểm tra. Tránh đổ lỗi ngay cho thiết bị, người dùng hoặc đồng nghiệp.",
+    "Việc phản biện một giả thuyết là bình thường. Cách lịch sự thường là nói I am not convinced hoặc I would like to verify that before we conclude, thay vì nói thẳng That is wrong."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ nhóm kiểm thử",
+    "passage": "Hi, this is Maya from quality assurance. We found a crash on a real phone when the player leaves the settings screen just as a download finishes. It does not happen on every attempt. We added logs and discovered that the download callback still tries to update a screen that is no longer open. The team will cancel that callback when the screen closes and test the fix this afternoon.",
+    "vi": "Chào, tôi là Maya từ bộ phận đảm bảo chất lượng. Chúng tôi đã tìm thấy một lỗi crash trên điện thoại thật khi người chơi rời khỏi màn hình cài đặt đúng lúc một lượt tải xuống hoàn tất. Lỗi không xảy ra ở mọi lần thử. Chúng tôi đã thêm log và phát hiện callback tải xuống vẫn cố cập nhật một màn hình không còn mở. Nhóm sẽ hủy callback đó khi màn hình đóng lại và kiểm tra bản sửa vào chiều nay.",
+    "questions": [
+      {
+        "q": "When does the crash happen?",
+        "choices": [
+          "When a player opens the settings screen",
+          "When a player leaves the settings screen as a download finishes",
+          "When a player starts a new download"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói lỗi xảy ra khi người chơi rời khỏi màn hình cài đặt đúng lúc lượt tải xuống hoàn tất."
+      },
+      {
+        "q": "What did the logs reveal?",
+        "choices": [
+          "The phone had no free memory",
+          "The callback updated a screen that was closed",
+          "The download never finished"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nêu callback vẫn cố cập nhật một màn hình không còn mở."
+      },
+      {
+        "q": "What will the team do next?",
+        "choices": [
+          "Cancel the callback and test the fix",
+          "Remove the settings screen",
+          "Stop all downloads"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì nhóm sẽ hủy callback khi màn hình đóng và kiểm tra bản sửa vào chiều nay."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư phỏng vấn",
+      "b": "Ứng viên lập trình Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Tell me about a crash that was difficult to reproduce on a real device.",
+        "vi": "Hãy kể về một lỗi crash khó tái hiện trên thiết bị thật.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It happened on a mid-range Android phone after the player finished level twelve.",
+        "vi": "Lỗi xảy ra trên một điện thoại Android tầm trung sau khi người chơi hoàn thành màn mười hai.",
+        "hint": "Mở đầu bằng thời điểm và loại thiết bị."
+      },
+      {
+        "speaker": "a",
+        "en": "What did the player actually see?",
+        "vi": "Người chơi thực sự nhìn thấy hiện tượng gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The loading screen froze for a moment, and then the app closed without an error message.",
+        "vi": "Màn hình tải bị đứng trong chốc lát, rồi ứng dụng tự đóng mà không có thông báo lỗi.",
+        "hint": "Dùng froze để mô tả quá khứ của freeze."
+      },
+      {
+        "speaker": "a",
+        "en": "Did it happen every time?",
+        "vi": "Lỗi có xảy ra mỗi lần không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No. It was intermittent. We saw it on two physical phones, but not in the editor or on our faster test device.",
+        "vi": "Không. Lỗi xảy ra không ổn định. Chúng tôi thấy nó trên hai điện thoại thật, nhưng không thấy trong trình biên tập hoặc trên thiết bị thử nghiệm nhanh hơn.",
+        "hint": "Dùng but not để đối chiếu nơi có và không có lỗi."
+      },
+      {
+        "speaker": "a",
+        "en": "What was your initial hypothesis?",
+        "vi": "Giả thuyết ban đầu của bạn là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Our initial hypothesis was a memory leak during level loading, because both affected phones had limited available memory.",
+        "vi": "Giả thuyết ban đầu của chúng tôi là rò rỉ bộ nhớ khi tải màn, vì cả hai điện thoại bị ảnh hưởng đều có lượng bộ nhớ khả dụng hạn chế.",
+        "hint": "Dùng because để giải thích căn cứ cho giả thuyết."
+      },
+      {
+        "speaker": "a",
+        "en": "How did you test that theory?",
+        "vi": "Bạn đã kiểm tra giả thuyết đó như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We instrumented the loading flow, recorded memory use before and after each level, and compared the logs with a device that never crashed.",
+        "vi": "Chúng tôi gắn log vào luồng tải màn, ghi lại mức dùng bộ nhớ trước và sau mỗi màn, rồi so sánh log với một thiết bị chưa từng crash.",
+        "hint": "Liệt kê hành động bằng động từ quá khứ song song: instrumented, recorded, compared."
+      },
+      {
+        "speaker": "a",
+        "en": "What did the results tell you?",
+        "vi": "Kết quả cho bạn biết điều gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Memory did rise slightly, but it stayed within a safe range. The stack trace instead suggested that a callback was touching an object after the scene had been unloaded.",
+        "vi": "Bộ nhớ có tăng nhẹ, nhưng vẫn trong phạm vi an toàn. Thay vào đó, stack trace cho thấy một callback đang truy cập một đối tượng sau khi cảnh đã bị gỡ bỏ.",
+        "hint": "Dùng instead để chuyển từ giả thuyết cũ sang manh mối mới."
+      },
+      {
+        "speaker": "a",
+        "en": "So what did you investigate next?",
+        "vi": "Vậy tiếp theo bạn điều tra điều gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We suspected a race condition between unloading the completed level and an advertisement callback. To rule it out, we added timestamps to both events and repeated the transition under a slower network connection.",
+        "vi": "Chúng tôi nghi ngờ có race condition giữa việc gỡ màn vừa hoàn thành và callback quảng cáo. Để loại trừ khả năng đó, chúng tôi thêm mốc thời gian cho cả hai sự kiện và lặp lại việc chuyển màn trong điều kiện mạng chậm hơn.",
+        "hint": "Dùng To rule it out để nêu mục đích của phép thử."
+      },
+      {
+        "speaker": "a",
+        "en": "Did that give you a clear result?",
+        "vi": "Việc đó có cho kết quả rõ ràng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. The callback sometimes arrived after its target object had been destroyed. We fixed it by canceling pending callbacks during scene unload, then ran regression tests on several phones. The crash did not return, so we removed the temporary workaround.",
+        "vi": "Có. Callback đôi khi đến sau khi đối tượng đích của nó đã bị hủy. Chúng tôi sửa bằng cách hủy các callback đang chờ khi gỡ cảnh, rồi chạy kiểm thử hồi quy trên nhiều điện thoại. Lỗi crash không quay lại, nên chúng tôi đã bỏ giải pháp tạm thời.",
+        "hint": "Kết thúc theo trình tự nguyên nhân, cách sửa, kiểm thử hồi quy và kết quả."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior engineering interviewer in a quiet mobile game studio interview room. You are calm, curious, and constructive. Ask follow-up questions that help the candidate explain a real-device crash through symptoms, hypotheses, experiments, and results.",
+    "opener": "Tell me about a crash that was difficult to reproduce on a real device.",
+    "goal": "Người học trình bày trọn vẹn một ca debug crash theo trình tự hiện tượng, giả thuyết, thử nghiệm và kết quả."
+  },
+  "drills": [
+    {
+      "vi": "Lỗi chỉ xảy ra khi người chơi chuyển sang màn tiếp theo.",
+      "en": "The issue only occurred when the player moved to the next level.",
+      "alts": [
+        "The bug only happened when the player entered the next level."
+      ]
+    },
+    {
+      "vi": "Giả thuyết ban đầu của chúng tôi là có rò rỉ bộ nhớ.",
+      "en": "Our initial hypothesis was that there was a memory leak.",
+      "alts": [
+        "At first, we thought a memory leak was causing it."
+      ]
+    },
+    {
+      "vi": "Để loại trừ khả năng đó, chúng tôi đã so sánh log của hai thiết bị.",
+      "en": "To rule that out, we compared the logs from two devices.",
+      "alts": [
+        "We compared logs from two devices to rule out that theory."
+      ]
+    },
+    {
+      "vi": "Hóa ra callback đến sau khi cảnh đã bị gỡ bỏ.",
+      "en": "It turned out that the callback arrived after the scene had been unloaded.",
+      "alts": [
+        "We found that the callback came after the scene was unloaded."
+      ]
+    },
+    {
+      "vi": "Lỗi này chỉ xuất hiện không ổn định trên điện thoại thật.",
+      "en": "This bug was intermittent and only appeared on real devices.",
+      "alts": [
+        "The issue occurred intermittently on physical devices."
+      ]
+    },
+    {
+      "vi": "Chúng tôi sửa lỗi bằng cách hủy các callback đang chờ.",
+      "en": "We fixed it by canceling pending callbacks.",
+      "alts": [
+        "The fix was to cancel any pending callbacks."
+      ]
+    },
+    {
+      "vi": "Sau đó, chúng tôi chạy kiểm thử hồi quy để chắc rằng lỗi không quay lại.",
+      "en": "Then we ran regression tests to make sure the crash did not return.",
+      "alts": [
+        "Afterward, we ran regression tests to prevent the issue from coming back."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời tám lượt của ứng viên và tự kiểm tra xem đã có hiện tượng, giả thuyết, thử nghiệm và kết quả chưa.",
+    "Viết một ca debug khác gồm sáu đến tám câu, dùng ít nhất ba từ trong phần từ vựng.",
+    "Luyện nói ba lần mẫu câu To rule that out, we ... với các giả thuyết khác nhau."
+  ]
+}

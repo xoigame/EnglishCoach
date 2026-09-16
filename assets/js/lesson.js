@@ -3,6 +3,7 @@
 import { speak, scoreSpeech, scoreClass, scoreLabel } from './speech.js';
 import { captureOnce, asrSupported } from './mic.js';
 import { setProgress } from './store.js';
+import { createPlayer } from './player.js';
 
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -94,6 +95,9 @@ export function renderDrill(el, lesson, onScore) {
   const roleName = k => lesson.dialogue.roles[k];
 
   el.innerHTML = `
+    <h3>🎧 Nghe cả bài liền mạch</h3>
+    <div class="player-mount"></div>
+    <h3>🗣️ Nhắc lại từng câu và chấm phát âm</h3>
     <p class="muted">Nghe mẫu → bấm 🎤 nhắc lại. Điểm dựa trên độ khớp từ mà trình duyệt nghe được,
     nên hãy nói rõ và ở nơi yên tĩnh.</p>
     ${!asrSupported ? '<div class="tip">⚠️ Trình duyệt này không hỗ trợ nhận diện giọng nói. Dùng Chrome hoặc Edge để chấm điểm.</div>' : ''}
@@ -110,6 +114,8 @@ export function renderDrill(el, lesson, onScore) {
         </div>
         <div class="heard"></div>
       </div>`).join('')}`;
+
+  createPlayer({ lesson, mount: el.querySelector('.player-mount') });
 
   const scores = new Array(turns.length).fill(null);
 

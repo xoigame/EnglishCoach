@@ -1,0 +1,392 @@
+{
+  "id": "unity-gioi-thieu-portfolio",
+  "title": "Giới thiệu portfolio game và vai trò trong dự án",
+  "topic": "Phỏng vấn portfolio game",
+  "level": "B1",
+  "summary": "Bạn giới thiệu một game trong portfolio với nhà tuyển dụng studio game. Bạn trình bày thể loại, quy mô đội, trách nhiệm cá nhân, kết quả và bài học rút ra.",
+  "goals": [
+    "Giới thiệu tự nhiên một dự án game đã thực hiện.",
+    "Nêu rõ vai trò, trách nhiệm và cách phối hợp với đội.",
+    "Trình bày kết quả bằng số liệu và trả lời về thử thách trong dự án."
+  ],
+  "vocab": [
+    {
+      "en": "portfolio",
+      "ipa": "/pɔːrˈtfoʊlioʊ/",
+      "vi": "hồ sơ các sản phẩm, dự án đã làm",
+      "example": "My portfolio includes three Unity games."
+    },
+    {
+      "en": "role",
+      "ipa": "/roʊl/",
+      "vi": "vai trò",
+      "example": "My role was gameplay programmer."
+    },
+    {
+      "en": "responsibility",
+      "ipa": "/rɪˌspɑːnsəˈbɪləti/",
+      "vi": "trách nhiệm",
+      "example": "My main responsibility was building player controls."
+    },
+    {
+      "en": "gameplay",
+      "ipa": "/ˈɡeɪpleɪ/",
+      "vi": "lối chơi và các hệ thống người chơi tương tác",
+      "example": "I improved the gameplay after user testing."
+    },
+    {
+      "en": "cooperative",
+      "ipa": "/koʊˈɑːpərətɪv/",
+      "vi": "hợp tác, chơi cùng nhau",
+      "example": "It is a cooperative puzzle game for friends."
+    },
+    {
+      "en": "launch",
+      "ipa": "/lɔːntʃ/",
+      "vi": "ra mắt sản phẩm",
+      "example": "The game launched on mobile last spring."
+    },
+    {
+      "en": "downloads",
+      "ipa": "/ˈdaʊnloʊdz/",
+      "vi": "lượt tải xuống",
+      "example": "The game reached ten thousand downloads."
+    },
+    {
+      "en": "revenue",
+      "ipa": "/ˈrevənuː/",
+      "vi": "doanh thu",
+      "example": "The game generated revenue through cosmetic items."
+    },
+    {
+      "en": "crash",
+      "ipa": "/kræʃ/",
+      "vi": "lỗi khiến ứng dụng bị văng",
+      "example": "We fixed a crash on older phones."
+    },
+    {
+      "en": "performance",
+      "ipa": "/pərˈfɔːrməns/",
+      "vi": "hiệu năng",
+      "example": "Better performance made the game feel smoother."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I was responsible for ___.",
+      "vi": "Tôi chịu trách nhiệm về ___.",
+      "note": "Dùng để nêu phần việc cá nhân rõ ràng trong dự án."
+    },
+    {
+      "en": "I worked closely with ___ to ___.",
+      "vi": "Tôi phối hợp chặt chẽ với ___ để ___.",
+      "note": "Nêu cách bạn làm việc cùng nhà thiết kế, họa sĩ hoặc lập trình viên khác."
+    },
+    {
+      "en": "One challenge we faced was ___, so I ___.",
+      "vi": "Một thử thách chúng tôi gặp là ___, nên tôi ___.",
+      "note": "Cấu trúc nêu vấn đề và hành động xử lý."
+    },
+    {
+      "en": "Within ___ months, the game reached ___ downloads.",
+      "vi": "Trong vòng ___ tháng, game đạt ___ lượt tải.",
+      "note": "Dùng within để nói kết quả trong một khoảng thời gian."
+    },
+    {
+      "en": "I am interested in this role because ___.",
+      "vi": "Tôi quan tâm tới vị trí này vì ___.",
+      "note": "Đưa ra lý do cụ thể, liên hệ kinh nghiệm của bạn với vị trí tuyển dụng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong portfolio và cooperative",
+      "tip": "Nhấn mạnh âm thứ hai của portfolio và âm thứ ba của cooperative, không đọc đều tất cả các âm.",
+      "words": [
+        "portfolio",
+        "cooperative",
+        "responsibility"
+      ]
+    },
+    {
+      "focus": "âm cuối /z/ trong downloads",
+      "tip": "Phát âm âm /z/ nhẹ ở cuối, không bỏ mất phụ âm cuối như khi nói tiếng Việt.",
+      "words": [
+        "downloads",
+        "games",
+        "designers"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối trong crash và launch",
+      "tip": "Kết thúc rõ âm /ʃ/ ở crash và /tʃ/ ở launch để người nghe không nhầm từ.",
+      "words": [
+        "crash",
+        "launch",
+        "feature"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I was responsible to make the gameplay.",
+      "right": "I was responsible for developing the gameplay.",
+      "vi": "Sau responsible dùng for, rồi đến danh từ hoặc động từ thêm ing."
+    },
+    {
+      "wrong": "Our game has six people.",
+      "right": "Our team had six people.",
+      "vi": "Dùng team để nói số người trong nhóm; dự án đã hoàn thành nên dùng had."
+    },
+    {
+      "wrong": "It has eighty thousand players after six months.",
+      "right": "It reached eighty thousand downloads within six months.",
+      "vi": "Dùng reached để báo thành tích trong quá khứ và within six months cho khoảng thời gian."
+    },
+    {
+      "wrong": "I very like multiplayer games.",
+      "right": "I really like multiplayer games.",
+      "vi": "Very không đứng trực tiếp trước động từ like; dùng really."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Bắt đầu giới thiệu portfolio",
+      "formal": "I would be happy to walk you through my portfolio.",
+      "casual": "Let me show you some projects I have worked on.",
+      "vi": "Câu formal phù hợp khi phỏng vấn hoặc gặp nhà tuyển dụng lần đầu; câu casual hợp với đồng nghiệp thân hoặc buổi trò chuyện không chính thức."
+    },
+    {
+      "situation": "Nêu phần việc cá nhân",
+      "formal": "I was responsible for the gameplay systems.",
+      "casual": "I handled the gameplay systems.",
+      "vi": "Câu formal rõ ràng, chuyên nghiệp khi phỏng vấn; câu casual tự nhiên khi trao đổi nội bộ với đồng nghiệp."
+    },
+    {
+      "situation": "Báo cáo thành tích game",
+      "formal": "The game reached eighty thousand downloads within six months.",
+      "casual": "We got around eighty thousand downloads in six months.",
+      "vi": "Câu formal phù hợp với phỏng vấn, báo cáo hoặc portfolio; câu casual phù hợp khi kể chuyện công việc với bạn bè."
+    },
+    {
+      "situation": "Nói về mức độ phù hợp với vị trí",
+      "formal": "I believe my experience would be a strong fit for this role.",
+      "casual": "I think my experience fits this role well.",
+      "vi": "Câu formal tạo sắc thái tự tin nhưng lịch sự với nhà tuyển dụng; câu casual dùng khi nói với đồng nghiệp hoặc người quen."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn ở các studio nói tiếng Anh, hãy nói rõ phần bạn trực tiếp làm bằng I, kể cả khi dự án là sản phẩm của cả đội. Điều này thường được xem là minh bạch, không phải khoe khoang.",
+    "Nhà tuyển dụng thường đánh giá cao một khó khăn thật và cách bạn xử lý nó. Không cần nói dự án hoàn hảo; hãy nêu vấn đề, hành động và bài học ngắn gọn.",
+    "Câu hỏi tiếp nối hoặc việc người phỏng vấn ngắt lời để hỏi chi tiết thường chỉ thể hiện sự quan tâm. Hãy dừng lại, trả lời thẳng câu hỏi rồi tiếp tục nếu cần."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ nhà tuyển dụng sau buổi giới thiệu game",
+    "passage": "Hi, this is Maya from Bright Pixel Studio. I watched your demo at the game showcase last weekend. I liked the clear tutorial and your explanation of the cooperative mode. Before our interview, please prepare a short overview of your role, one technical challenge, and the game's results. You do not need a full presentation. We mainly want to hear how you made decisions with your team.",
+    "vi": "Chào, tôi là Maya từ studio Bright Pixel. Tôi đã xem bản demo của bạn tại buổi giới thiệu game vào cuối tuần trước. Tôi thích phần hướng dẫn rõ ràng và lời giải thích của bạn về chế độ hợp tác. Trước buổi phỏng vấn, hãy chuẩn bị phần tóm tắt ngắn về vai trò của bạn, một thử thách kỹ thuật và kết quả của game. Bạn không cần chuẩn bị một bài thuyết trình đầy đủ. Chúng tôi chủ yếu muốn nghe cách bạn đưa ra quyết định cùng đội của mình.",
+    "questions": [
+      {
+        "q": "Where did Maya watch the demo?",
+        "choices": [
+          "At a game showcase",
+          "In an online meeting",
+          "At the studio office"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì Maya nói cô ấy xem bản demo tại buổi giới thiệu game vào cuối tuần trước."
+      },
+      {
+        "q": "What should the candidate prepare before the interview?",
+        "choices": [
+          "A full game trailer",
+          "A short project overview",
+          "A new game prototype"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì Maya yêu cầu một phần tổng quan ngắn về vai trò, thử thách kỹ thuật và kết quả game."
+      },
+      {
+        "q": "What does the studio mainly want to hear about?",
+        "choices": [
+          "How the candidate made team decisions",
+          "How much the game cost to make",
+          "Which engine the candidate used"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì cuối đoạn Maya nói studio chủ yếu muốn nghe cách ứng viên đưa ra quyết định cùng đội."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhà tuyển dụng tại studio game",
+      "b": "Ứng viên, nhà phát triển Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for meeting with us today. Could you briefly introduce yourself and your portfolio?",
+        "vi": "Cảm ơn bạn đã gặp chúng tôi hôm nay. Bạn có thể giới thiệu ngắn gọn về bản thân và portfolio không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure, I am Minh, a Unity developer with three years of mobile game experience.",
+        "vi": "Chắc chắn rồi, tôi là Minh, một lập trình viên Unity có ba năm kinh nghiệm làm game di động.",
+        "hint": "Giới thiệu tên, vị trí và số năm kinh nghiệm trong một câu."
+      },
+      {
+        "speaker": "a",
+        "en": "Great, which project in your portfolio would you like to discuss first today?",
+        "vi": "Tốt lắm, hôm nay bạn muốn thảo luận dự án nào trong portfolio trước?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would like to discuss Sky Harbor, a cooperative puzzle adventure for mobile players.",
+        "vi": "Tôi muốn giới thiệu Sky Harbor, một game phiêu lưu giải đố hợp tác dành cho người chơi di động.",
+        "hint": "Nêu tên game, thể loại và nền tảng hoặc đối tượng người chơi."
+      },
+      {
+        "speaker": "a",
+        "en": "What was the team size, and what responsibilities did you personally take on?",
+        "vi": "Quy mô đội là bao nhiêu, và cá nhân bạn đảm nhận những trách nhiệm nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Our team had six people, and I owned gameplay programming and interface implementation.",
+        "vi": "Đội của chúng tôi có sáu người, và tôi phụ trách lập trình gameplay cùng việc triển khai giao diện.",
+        "hint": "Dùng Our team had để nói số người; sau đó nêu hai phần việc chính."
+      },
+      {
+        "speaker": "a",
+        "en": "Could you describe a feature you built that had the strongest effect on players?",
+        "vi": "Bạn có thể mô tả một tính năng bạn xây dựng có ảnh hưởng mạnh nhất tới người chơi không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I built the cooperative level editor, because players wanted to create and share their own puzzles.",
+        "vi": "Tôi xây dựng trình chỉnh sửa màn chơi hợp tác, vì người chơi muốn tạo và chia sẻ các câu đố của riêng họ.",
+        "hint": "Nêu tính năng trước, rồi dùng because để giải thích lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "How did you work with the designers and artists while developing that feature?",
+        "vi": "Bạn đã phối hợp với nhà thiết kế và họa sĩ như thế nào khi phát triển tính năng đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I ran short planning sessions, then adjusted the tools after testing their first level designs.",
+        "vi": "Tôi tổ chức các buổi lên kế hoạch ngắn, sau đó điều chỉnh công cụ sau khi thử nghiệm những thiết kế màn chơi đầu tiên của họ.",
+        "hint": "Dùng then và after để kể trình tự công việc."
+      },
+      {
+        "speaker": "a",
+        "en": "What results did the game achieve after launch, and how did you measure them?",
+        "vi": "Game đạt được những kết quả gì sau khi ra mắt, và bạn đo lường chúng như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Within six months, it reached eighty thousand downloads and earned about forty thousand dollars.",
+        "vi": "Trong sáu tháng, game đạt tám mươi nghìn lượt tải và kiếm được khoảng bốn mươi nghìn đô la.",
+        "hint": "Dùng Within six months để mở đầu khi nêu số liệu kết quả."
+      },
+      {
+        "speaker": "a",
+        "en": "That is promising. What challenge did you face, and what did you learn from it?",
+        "vi": "Điều đó rất triển vọng. Bạn đã gặp thử thách nào và học được gì từ nó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We had early crashes on older phones, so I improved memory use and added device testing.",
+        "vi": "Chúng tôi gặp lỗi văng game ban đầu trên các điện thoại cũ, nên tôi cải thiện việc dùng bộ nhớ và thêm kiểm thử thiết bị.",
+        "hint": "Dùng so để nối vấn đề với hành động bạn đã làm."
+      },
+      {
+        "speaker": "a",
+        "en": "Why are you interested in joining our studio, especially for this role now?",
+        "vi": "Vì sao bạn muốn gia nhập studio của chúng tôi, đặc biệt là ở vị trí này lúc này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I like your focus on polished multiplayer games, and I believe my teamwork fits your process.",
+        "vi": "Tôi thích việc công ty tập trung vào game nhiều người chơi được hoàn thiện kỹ, và tôi tin tinh thần làm việc nhóm của mình phù hợp với quy trình của công ty.",
+        "hint": "Nêu một điểm cụ thể của studio, rồi liên hệ điểm mạnh của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you, Minh. Your experience is relevant, and we will contact you after reviewing candidates.",
+        "vi": "Cảm ơn Minh. Kinh nghiệm của bạn phù hợp, và chúng tôi sẽ liên hệ sau khi xem xét các ứng viên.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly game studio recruiter conducting a portfolio interview in a quiet meeting room. You ask focused follow-up questions and respond professionally.",
+    "opener": "Thanks for joining us today. Could you tell me about one game in your portfolio?",
+    "goal": "Người học giới thiệu một game, nêu quy mô đội, vai trò cá nhân, kết quả và lý do phù hợp với studio."
+  },
+  "drills": [
+    {
+      "vi": "Tôi chịu trách nhiệm về các hệ thống gameplay.",
+      "en": "I was responsible for the gameplay systems.",
+      "alts": [
+        "I handled the gameplay systems."
+      ]
+    },
+    {
+      "vi": "Đội của chúng tôi có sáu người.",
+      "en": "Our team had six people.",
+      "alts": [
+        "There were six people on our team."
+      ]
+    },
+    {
+      "vi": "Đó là một game giải đố hợp tác dành cho thiết bị di động.",
+      "en": "It was a cooperative puzzle game for mobile devices.",
+      "alts": [
+        "The game was a cooperative puzzle adventure on mobile."
+      ]
+    },
+    {
+      "vi": "Tôi phối hợp chặt chẽ với nhà thiết kế để cải thiện các màn chơi.",
+      "en": "I worked closely with the designers to improve the levels.",
+      "alts": [
+        "I collaborated with the designers to improve the levels."
+      ]
+    },
+    {
+      "vi": "Một thử thách chúng tôi gặp là lỗi văng game, nên tôi cải thiện hiệu năng.",
+      "en": "One challenge we faced was crashes, so I improved performance.",
+      "alts": [
+        "We had crashes, so I worked on performance."
+      ]
+    },
+    {
+      "vi": "Trong sáu tháng, game đạt tám mươi nghìn lượt tải.",
+      "en": "Within six months, the game reached eighty thousand downloads.",
+      "alts": [
+        "The game got eighty thousand downloads in six months."
+      ]
+    },
+    {
+      "vi": "Tôi quan tâm tới vị trí này vì thích làm game nhiều người chơi.",
+      "en": "I am interested in this role because I enjoy building multiplayer games.",
+      "alts": [
+        "I want this role because I like making multiplayer games."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần giới thiệu một game trong portfolio dài khoảng một phút.",
+    "Viết ba câu nêu trách nhiệm cá nhân bằng mẫu I was responsible for.",
+    "Chuẩn bị một ví dụ về thử thách kỹ thuật và cách bạn đã xử lý nó."
+  ]
+}

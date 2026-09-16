@@ -1,0 +1,385 @@
+{
+  "id": "unity-toi-uu-mobile",
+  "title": "Tối ưu game mobile: pin, nhiệt độ và dung lượng build",
+  "topic": "Tối ưu hiệu năng game mobile",
+  "level": "B2",
+  "summary": "Bạn là lập trình viên Unity trao đổi với Producer về các vấn đề pin, nhiệt độ máy và dung lượng bản build trước khi phát hành. Bạn cần nêu đánh đổi kỹ thuật, phản biện hợp lý và chốt kế hoạch ưu tiên.",
+  "goals": [
+    "Mô tả các vấn đề về hao pin, nóng máy và dung lượng bản build bằng tiếng Anh tự nhiên.",
+    "Đề xuất giải pháp, nêu đánh đổi và phản biện một quyết định sản phẩm một cách lịch sự.",
+    "Thương lượng thứ tự ưu tiên và chốt các hạng mục cần kiểm tra trước khi phát hành."
+  ],
+  "vocab": [
+    {
+      "en": "battery drain",
+      "ipa": "/ˈbætəri dreɪn/",
+      "vi": "tình trạng hao pin nhanh",
+      "example": "The new lighting system is causing noticeable battery drain."
+    },
+    {
+      "en": "thermal throttling",
+      "ipa": "/ˈθɜːrməl ˈθrɑːtəlɪŋ/",
+      "vi": "máy tự giảm hiệu năng vì quá nóng",
+      "example": "After fifteen minutes, thermal throttling lowers the frame rate."
+    },
+    {
+      "en": "frame rate",
+      "ipa": "/freɪm reɪt/",
+      "vi": "tốc độ khung hình",
+      "example": "We need a stable frame rate on mid-range phones."
+    },
+    {
+      "en": "build size",
+      "ipa": "/bɪld saɪz/",
+      "vi": "dung lượng bản build",
+      "example": "Our build size is too large for users with limited storage."
+    },
+    {
+      "en": "memory footprint",
+      "ipa": "/ˈmeməri ˈfʊtprɪnt/",
+      "vi": "lượng bộ nhớ mà ứng dụng sử dụng",
+      "example": "Reducing the memory footprint should prevent some crashes."
+    },
+    {
+      "en": "bottleneck",
+      "ipa": "/ˈbɑːtəlnek/",
+      "vi": "điểm nghẽn gây chậm hiệu năng",
+      "example": "The profiler shows that particle effects are the main bottleneck."
+    },
+    {
+      "en": "to profile",
+      "ipa": "/tə ˈproʊfaɪl/",
+      "vi": "đo đạc, phân tích hiệu năng bằng công cụ",
+      "example": "Let us profile the game on a low-end device first."
+    },
+    {
+      "en": "texture compression",
+      "ipa": "/ˈtekstʃər kəmˈpreʃən/",
+      "vi": "nén kết cấu hình ảnh",
+      "example": "Texture compression can reduce both memory use and build size."
+    },
+    {
+      "en": "fallback",
+      "ipa": "/ˈfɔːlbæk/",
+      "vi": "phương án thay thế khi thiết bị yếu hoặc tính năng không phù hợp",
+      "example": "We need a simpler fallback for older phones."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa các lợi ích",
+      "example": "Higher visual quality comes with a battery-life trade-off."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "We need to ___ without ___ .",
+      "vi": "Chúng ta cần ___ mà không ___ .",
+      "note": "Dùng để nêu mục tiêu tối ưu có ràng buộc."
+    },
+    {
+      "en": "Could we ___ before we ___ ?",
+      "vi": "Liệu chúng ta có thể ___ trước khi ___ không?",
+      "note": "Dùng để đề xuất một bước kiểm tra trước khi ra quyết định."
+    },
+    {
+      "en": "If we ___, we can ___, but it may ___ .",
+      "vi": "Nếu chúng ta ___, chúng ta có thể ___, nhưng điều đó có thể ___ .",
+      "note": "Mẫu câu nêu giải pháp kèm đánh đổi."
+    },
+    {
+      "en": "I am not convinced that ___ is worth the trade-off.",
+      "vi": "Tôi chưa bị thuyết phục rằng ___ đáng với sự đánh đổi đó.",
+      "note": "Phản biện thẳng nhưng vẫn chuyên nghiệp."
+    },
+    {
+      "en": "Let us agree on ___, then revisit ___ .",
+      "vi": "Hãy thống nhất về ___, rồi xem xét lại ___ .",
+      "note": "Dùng để chốt ưu tiên và hoãn một vấn đề chưa cần quyết ngay."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong thermal và throttling",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra. Không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "thermal",
+        "throttling",
+        "three"
+      ]
+    },
+    {
+      "focus": "Phụ âm cuối trong build và rate",
+      "tip": "Phát âm rõ âm /d/ ở build và /t/ ở rate; không bỏ âm cuối khi nói nhanh.",
+      "words": [
+        "build",
+        "rate",
+        "footprint"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong compression và performance",
+      "tip": "Nhấn âm thứ hai trong compression và âm thứ hai trong performance.",
+      "words": [
+        "compression",
+        "performance",
+        "optimization"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The game is very hot after ten minutes.",
+      "right": "The phone gets very hot after ten minutes of playing.",
+      "vi": "Game không tự nóng; điện thoại hoặc thiết bị nóng lên. Dùng gets very hot tự nhiên hơn."
+    },
+    {
+      "wrong": "We need reduce the build size.",
+      "right": "We need to reduce the build size.",
+      "vi": "Sau need phải dùng to cộng động từ."
+    },
+    {
+      "wrong": "This effect consumes too much battery.",
+      "right": "This effect drains the battery too quickly.",
+      "vi": "Consume có thể dùng nhưng drains the battery tự nhiên hơn khi nói về hao pin."
+    },
+    {
+      "wrong": "The frame rate drops because the phone is hot.",
+      "right": "The frame rate drops because the phone overheats.",
+      "vi": "Dùng overheat làm động từ để diễn tả máy quá nóng gây giảm hiệu năng."
+    },
+    {
+      "wrong": "Let us make the texture smaller quality.",
+      "right": "Let us lower the texture quality.",
+      "vi": "Không nói smaller quality. Dùng lower the quality hoặc reduce the quality."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất kiểm tra hiệu năng trước khi thay đổi",
+      "formal": "Could we profile the level before making any changes to the lighting?",
+      "casual": "Can we profile the level before we touch the lighting?",
+      "vi": "Câu formal phù hợp khi họp với cấp trên hoặc đối tác. Câu casual hợp với đồng nghiệp thân trong nhóm."
+    },
+    {
+      "situation": "Không đồng ý với ưu tiên chất lượng hình ảnh",
+      "formal": "I am not convinced that this visual improvement justifies the performance cost.",
+      "casual": "I do not think this visual upgrade is worth the performance hit.",
+      "vi": "Câu formal khách quan và phù hợp trong cuộc họp. Câu casual trực tiếp hơn, dùng khi nhóm đã quen cách trao đổi thẳng."
+    },
+    {
+      "situation": "Chốt hạng mục ưu tiên",
+      "formal": "I suggest that we prioritize stability and download size for this release.",
+      "casual": "Let us focus on stability and download size for this release.",
+      "vi": "Câu formal phù hợp khi đưa ra đề xuất chính thức. Câu casual phù hợp khi điều phối cuộc họp nội bộ."
+    },
+    {
+      "situation": "Yêu cầu báo cáo kết quả kiểm tra",
+      "formal": "Please share the test results once they are available.",
+      "casual": "Send me the results when you have them.",
+      "vi": "Câu formal lịch sự và trung tính hơn. Câu casual tự nhiên khi nói với đồng nghiệp cùng cấp."
+    }
+  ],
+  "culture": [
+    "Trong các studio nói tiếng Anh, việc nêu rủi ro sớm thường được đánh giá cao hơn việc đợi đến khi đã có giải pháp hoàn hảo. Bạn có thể nói rõ điều mình chưa chắc bằng seems hoặc I need to verify that.",
+    "Người bản xứ trong họp sản phẩm thường phản biện ý tưởng khá thẳng, nhưng họ nhắm vào tác động và dữ liệu thay vì phê phán cá nhân. Các cụm như I am not convinced hoặc That is a reasonable compromise giúp giữ không khí hợp tác.",
+    "Khi phải chọn giữa nhiều mục tiêu, họ thường mong một đề xuất ưu tiên rõ ràng kèm đánh đổi, thay vì chỉ liệt kê mọi vấn đề kỹ thuật."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau buổi kiểm tra thiết bị",
+    "passage": "Hi team, I finished testing the new mobile build this morning. The game stays smooth on newer phones, but older devices become warm during longer matches. I recommend reducing shadow quality on those phones and keeping the character models unchanged. This should improve battery life without changing the first impression too much. I will send a smaller test build this afternoon so the design team can compare both versions.",
+    "vi": "Chào cả nhóm, sáng nay tôi đã hoàn thành kiểm tra bản build mobile mới. Game vẫn mượt trên điện thoại mới hơn, nhưng các thiết bị cũ nóng lên khi chơi các trận dài. Tôi đề xuất giảm chất lượng bóng trên những máy đó và giữ nguyên mẫu nhân vật. Việc này sẽ cải thiện thời lượng pin mà không làm thay đổi ấn tượng ban đầu quá nhiều. Chiều nay tôi sẽ gửi một bản build thử nhỏ hơn để đội thiết kế so sánh hai phiên bản.",
+    "questions": [
+      {
+        "q": "Which devices become warm during longer matches?",
+        "choices": [
+          "Newer phones",
+          "Older devices",
+          "All phones"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Older devices vì bài nghe nói rõ older devices become warm during longer matches."
+      },
+      {
+        "q": "What does the speaker recommend reducing?",
+        "choices": [
+          "Character model quality",
+          "Shadow quality",
+          "Match length"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Shadow quality vì người nói đề xuất reducing shadow quality on those phones."
+      },
+      {
+        "q": "Why will the speaker send another build?",
+        "choices": [
+          "To compare two versions",
+          "To add new characters",
+          "To change the opening scene"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là To compare two versions vì cuối bài nghe nói đội thiết kế có thể compare both versions."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Producer của studio game mobile",
+      "b": "Lập trình viên Unity phụ trách tối ưu game"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "We are close to release, but the latest mobile build is worrying me. What did you find?",
+        "vi": "Chúng ta sắp phát hành, nhưng bản build mobile mới nhất làm tôi lo. Bạn phát hiện gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The game runs well at first, but battery drain is high on mid-range phones.",
+        "vi": "Lúc đầu game chạy tốt, nhưng hao pin nhiều trên các điện thoại tầm trung.",
+        "hint": "Dùng runs well at first để nói game ban đầu chạy ổn."
+      },
+      {
+        "speaker": "a",
+        "en": "Is the frame rate also affected, or is it mainly a battery issue?",
+        "vi": "Tốc độ khung hình có bị ảnh hưởng không, hay chủ yếu là vấn đề pin?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "After about fifteen minutes, some phones get hot and the frame rate starts to drop.",
+        "vi": "Sau khoảng mười lăm phút, một số máy nóng lên và tốc độ khung hình bắt đầu giảm.",
+        "hint": "Dùng get hot và start to drop để mô tả diễn biến."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds like thermal throttling. Do we know what is causing it?",
+        "vi": "Nghe có vẻ là giảm hiệu năng do nhiệt. Chúng ta có biết nguyên nhân là gì không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Not completely. I profiled one level, and the main bottleneck seems to be the lighting and particle effects.",
+        "vi": "Chưa hoàn toàn. Tôi đã đo đạc một màn chơi và điểm nghẽn chính có vẻ là ánh sáng cùng hiệu ứng hạt.",
+        "hint": "Dùng seems to be khi kết luận vẫn chưa hoàn toàn chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "Could we lower those effects on weaker devices without making the game look cheap?",
+        "vi": "Liệu chúng ta có thể giảm các hiệu ứng đó trên thiết bị yếu mà không làm game trông rẻ tiền không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. We can add a simpler fallback for low-end phones, but we need to test whether players notice the visual difference.",
+        "vi": "Có. Chúng ta có thể thêm phương án đơn giản hơn cho máy yếu, nhưng cần kiểm tra xem người chơi có nhận ra khác biệt hình ảnh không.",
+        "hint": "Fallback là phương án thay thế cho thiết bị yếu."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair enough. What about the build size? Marketing says some users are giving up during the download.",
+        "vi": "Nghe hợp lý. Còn dung lượng build thì sao? Marketing nói một số người dùng bỏ cuộc khi đang tải.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is larger than it should be because several textures are stored at higher quality than the screen can really show.",
+        "vi": "Nó lớn hơn mức cần thiết vì một số kết cấu được lưu ở chất lượng cao hơn mức màn hình thực sự thể hiện được.",
+        "hint": "Dùng larger than it should be để nói lớn hơn mức hợp lý."
+      },
+      {
+        "speaker": "a",
+        "en": "Can texture compression solve most of that, or will it make the art look blurry?",
+        "vi": "Nén kết cấu có thể giải quyết phần lớn việc đó không, hay nó sẽ làm hình ảnh bị mờ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If we compress the background textures, we can cut the build size significantly, but character faces may lose too much detail.",
+        "vi": "Nếu nén các kết cấu nền, chúng ta có thể giảm đáng kể dung lượng build, nhưng gương mặt nhân vật có thể mất quá nhiều chi tiết.",
+        "hint": "Dùng If we..., we can..., but... để nêu giải pháp và đánh đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "I am not convinced that keeping every high-resolution face texture is worth the trade-off. Players care more about smooth gameplay.",
+        "vi": "Tôi chưa bị thuyết phục rằng giữ mọi kết cấu gương mặt độ phân giải cao đáng với sự đánh đổi đó. Người chơi quan tâm đến gameplay mượt hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree, although I would keep the textures in the opening scene sharper because that is where players form their first impression.",
+        "vi": "Tôi đồng ý, dù tôi sẽ giữ kết cấu ở cảnh mở đầu sắc nét hơn vì đó là lúc người chơi hình thành ấn tượng đầu tiên.",
+        "hint": "Dùng although để thêm ý đối lập một cách mềm mại."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a reasonable compromise. Let us prioritize stable performance and a smaller download, then revisit the visual settings after the next playtest.",
+        "vi": "Đó là một sự thỏa hiệp hợp lý. Hãy ưu tiên hiệu năng ổn định và bản tải nhỏ hơn, rồi xem lại thiết lập hình ảnh sau đợt chơi thử tiếp theo.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will prepare two optimized builds, test them on low-end and mid-range phones, and share the battery, temperature, and size results tomorrow.",
+        "vi": "Tôi sẽ chuẩn bị hai bản build đã tối ưu, kiểm tra chúng trên điện thoại cấu hình thấp và tầm trung, rồi gửi kết quả về pin, nhiệt độ và dung lượng vào ngày mai.",
+        "hint": "Dùng share the results để cam kết báo cáo kết quả."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a mobile game studio producer in a release meeting. You are practical, direct, and collaborative. You want to protect player experience while keeping the project on schedule and within download-size limits.",
+    "opener": "We need to make a call on the mobile build today. What should we optimize first?",
+    "goal": "Người học trình bày vấn đề, đề xuất giải pháp có đánh đổi và thống nhất kế hoạch tối ưu trước khi phát hành."
+  },
+  "drills": [
+    {
+      "vi": "Chúng ta cần giảm hao pin mà không làm giảm chất lượng gameplay.",
+      "en": "We need to reduce battery drain without hurting the gameplay quality.",
+      "alts": [
+        "We need to cut battery drain without damaging the gameplay experience."
+      ]
+    },
+    {
+      "vi": "Liệu chúng ta có thể đo đạc màn chơi này trước khi thay đổi ánh sáng không?",
+      "en": "Could we profile this level before we change the lighting?",
+      "alts": [
+        "Can we profile this level before changing the lighting?"
+      ]
+    },
+    {
+      "vi": "Nếu giảm hiệu ứng hạt, chúng ta có thể giảm nhiệt độ máy, nhưng hình ảnh có thể kém ấn tượng hơn.",
+      "en": "If we reduce the particle effects, we can lower the phone temperature, but the visuals may be less impressive.",
+      "alts": []
+    },
+    {
+      "vi": "Điểm nghẽn chính dường như là các kết cấu chất lượng cao.",
+      "en": "The main bottleneck seems to be the high-quality textures.",
+      "alts": [
+        "The high-quality textures appear to be the main bottleneck."
+      ]
+    },
+    {
+      "vi": "Tôi chưa bị thuyết phục rằng chất lượng đó đáng với sự đánh đổi về dung lượng build.",
+      "en": "I am not convinced that that quality is worth the build-size trade-off.",
+      "alts": []
+    },
+    {
+      "vi": "Hãy thống nhất về phương án dự phòng cho máy yếu, rồi xem lại chất lượng hình ảnh.",
+      "en": "Let us agree on a fallback for weaker phones, then revisit the visual quality.",
+      "alts": []
+    },
+    {
+      "vi": "Sau một lúc chơi, điện thoại quá nóng và tốc độ khung hình giảm xuống.",
+      "en": "After a while, the phone overheats and the frame rate drops.",
+      "alts": [
+        "After playing for a while, the phone gets too hot and the frame rate drops."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần lời của vai b trong hội thoại và tự kiểm tra các âm cuối ở build, rate, footprint.",
+    "Viết một tin nhắn ngắn bằng tiếng Anh cho Producer, đề xuất hai cách giảm dung lượng build và nêu một đánh đổi cho mỗi cách.",
+    "Tạo ba câu dùng các mẫu If we..., we can..., but... và I am not convinced that... is worth the trade-off."
+  ]
+}

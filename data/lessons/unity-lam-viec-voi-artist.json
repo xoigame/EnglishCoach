@@ -1,0 +1,386 @@
+{
+  "id": "unity-lam-viec-voi-artist",
+  "title": "Làm việc với artist và designer: quy trình asset và kiểm soát phiên bản",
+  "topic": "Phối hợp asset trong dự án Unity",
+  "level": "B2",
+  "summary": "Bạn là lập trình viên Unity trao đổi với Producer về việc artist và designer gửi asset không đồng nhất. Hai bên thương lượng một quy trình rõ ràng để tránh lỗi và chậm tiến độ.",
+  "goals": [
+    "Mô tả vấn đề trong quy trình bàn giao asset một cách tự nhiên.",
+    "Đề xuất và thương lượng cách kiểm soát phiên bản, quyền sở hữu và thời hạn.",
+    "Dùng cách nói lịch sự nhưng thẳng thắn khi cần phản biện kế hoạch."
+  ],
+  "vocab": [
+    {
+      "en": "asset pipeline",
+      "ipa": "/ˈæs.et ˈpaɪp.laɪn/",
+      "vi": "quy trình tạo, bàn giao và đưa tài nguyên vào dự án",
+      "example": "Our asset pipeline needs clearer handoff rules."
+    },
+    {
+      "en": "source control",
+      "ipa": "/sɔːrs kənˈtroʊl/",
+      "vi": "hệ thống kiểm soát phiên bản mã nguồn và tệp dự án",
+      "example": "Please put the final files in source control."
+    },
+    {
+      "en": "check in a file",
+      "ipa": "/tʃek ɪn ə faɪl/",
+      "vi": "đưa hoặc lưu một tệp lên hệ thống kiểm soát phiên bản",
+      "example": "Can you check in the updated material today?"
+    },
+    {
+      "en": "file naming convention",
+      "ipa": "/faɪl ˈneɪmɪŋ kənˈvenʃən/",
+      "vi": "quy ước đặt tên tệp",
+      "example": "The file naming convention should include the asset type."
+    },
+    {
+      "en": "handoff",
+      "ipa": "/ˈhænd.ɔːf/",
+      "vi": "việc bàn giao công việc hoặc tài nguyên cho người hay bộ phận khác",
+      "example": "We need a smoother handoff from art to engineering."
+    },
+    {
+      "en": "approved version",
+      "ipa": "/əˈpruːvd ˈvɜːrʒən/",
+      "vi": "phiên bản đã được phê duyệt",
+      "example": "Only the approved version should go into the build."
+    },
+    {
+      "en": "overwrite",
+      "ipa": "/ˌoʊ.vɚˈraɪt/",
+      "vi": "ghi đè, thay thế mất dữ liệu cũ",
+      "example": "Two artists overwrote each other's textures."
+    },
+    {
+      "en": "dependency",
+      "ipa": "/dɪˈpen.dən.si/",
+      "vi": "phần phụ thuộc; việc này cần hoàn tất trước để việc khác tiếp tục",
+      "example": "The animation is a dependency for the combat test."
+    },
+    {
+      "en": "scope creep",
+      "ipa": "/skoʊp kriːp/",
+      "vi": "phạm vi công việc tăng dần ngoài thỏa thuận ban đầu",
+      "example": "Extra skin variations could lead to scope creep."
+    },
+    {
+      "en": "single source of truth",
+      "ipa": "/ˌsɪŋ.ɡəl sɔːrs əv ˈtruːθ/",
+      "vi": "nguồn thông tin duy nhất được mọi người dùng làm chuẩn",
+      "example": "The asset tracker should be our single source of truth."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could we agree on a clear process for ___?",
+      "vi": "Chúng ta có thể thống nhất một quy trình rõ ràng cho ___ không?",
+      "note": "Dùng để mở đầu đề xuất hợp tác, không quá áp đặt."
+    },
+    {
+      "en": "The main issue is that ___, which means ___.",
+      "vi": "Vấn đề chính là ___, điều này dẫn đến ___.",
+      "note": "Mẫu câu phức để giải thích nguyên nhân và hậu quả."
+    },
+    {
+      "en": "Before we move forward, I need ___ to be ___.",
+      "vi": "Trước khi tiếp tục, tôi cần ___ được ___.",
+      "note": "Nêu điều kiện cần thiết một cách chuyên nghiệp."
+    },
+    {
+      "en": "I see your point, but we need to weigh that against ___.",
+      "vi": "Tôi hiểu ý bạn, nhưng chúng ta cần cân nhắc điều đó với ___.",
+      "note": "Phản biện lịch sự khi thương lượng."
+    },
+    {
+      "en": "If we ___, we can avoid ___ and still meet ___.",
+      "vi": "Nếu chúng ta ___, chúng ta có thể tránh ___ mà vẫn đáp ứng ___.",
+      "note": "Đề xuất giải pháp kèm lợi ích rõ ràng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong \"version\" và \"convention\"",
+      "tip": "Nhấn mạnh âm đầu của version và âm thứ hai của convention; không đọc đều từng âm.",
+      "words": [
+        "version",
+        "convention",
+        "dependency"
+      ]
+    },
+    {
+      "focus": "Âm cuối trong \"checked\" và \"approved\"",
+      "tip": "Phát âm rõ âm cuối để người nghe nhận ra hành động đã hoàn tất; checked kết thúc bằng /t/, approved kết thúc bằng /d/.",
+      "words": [
+        "checked",
+        "approved",
+        "updated"
+      ]
+    },
+    {
+      "focus": "Cụm phụ âm trong \"source control\"",
+      "tip": "Nối source với control tự nhiên, nhưng vẫn giữ âm /s/ cuối của source.",
+      "words": [
+        "source control",
+        "scope creep",
+        "single source"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The artist has sent the file yesterday.",
+      "right": "The artist sent the file yesterday.",
+      "vi": "Có mốc thời gian đã kết thúc là yesterday thì dùng quá khứ đơn, không dùng hiện tại hoàn thành."
+    },
+    {
+      "wrong": "Please check in it to source control.",
+      "right": "Please check it in to source control.",
+      "vi": "Với đại từ như it, đặt đại từ vào giữa check và in."
+    },
+    {
+      "wrong": "This asset is depend on the animation.",
+      "right": "This asset depends on the animation.",
+      "vi": "Depend là động từ; chủ ngữ số ít asset cần depends. Có thể nói \"This asset is dependent on the animation\"."
+    },
+    {
+      "wrong": "We need discuss about the naming convention.",
+      "right": "We need to discuss the naming convention.",
+      "vi": "Discuss đi trực tiếp với tân ngữ, không dùng about sau discuss."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Yêu cầu dùng một nơi chung để lưu asset cuối cùng",
+      "formal": "Could we use source control as the single location for approved assets?",
+      "casual": "Let us keep the final assets in source control.",
+      "vi": "Câu formal dùng khi đề xuất với quản lý hoặc nhóm mới; câu casual phù hợp với đồng nghiệp thân trong trao đổi hằng ngày."
+    },
+    {
+      "situation": "Yêu cầu người khác cập nhật trạng thái asset",
+      "formal": "Could you update the tracker before you start editing the shared asset?",
+      "casual": "Please mark it in progress before you edit it.",
+      "vi": "Câu formal lịch sự hơn khi nhắc người chưa thân hoặc nhiều cấp bậc; câu casual ngắn, trực tiếp cho team nội bộ."
+    },
+    {
+      "situation": "Phản đối thay đổi muộn",
+      "formal": "I understand the request, but we would need to assess its impact on the release schedule first.",
+      "casual": "I get it, but let us check what it does to the schedule first.",
+      "vi": "Câu formal phù hợp trong họp với khách hàng hoặc quản lý; câu casual dùng khi bàn nhanh với đồng nghiệp."
+    },
+    {
+      "situation": "Chốt một thỏa thuận",
+      "formal": "That sounds like a workable approach. I will circulate the agreed process after this meeting.",
+      "casual": "Sounds good. I will send the process around after the meeting.",
+      "vi": "Câu formal phù hợp khi kết luận cuộc họp chính thức; câu casual tự nhiên trong nhóm quen biết."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm game nói tiếng Anh, mọi người thường nêu thẳng rủi ro như chậm tiến độ hoặc lỗi import, nhưng hay mở đầu bằng \"I see your point\" hoặc \"That makes sense\" để giảm cảm giác đối đầu.",
+    "Khi một thay đổi ngoài kế hoạch xuất hiện, việc hỏi ai phê duyệt và ảnh hưởng đến thời hạn thường được xem là trách nhiệm chuyên nghiệp, không phải thiếu tinh thần hỗ trợ.",
+    "Nhiều team ưu tiên ghi quyết định vào bảng theo dõi hoặc hệ thống quản lý công việc thay vì chỉ nói trong cuộc họp. Sau cuộc họp, một tin nhắn tóm tắt người phụ trách và thời hạn là thói quen phổ biến."
+  ],
+  "listening": {
+    "title": "Tin nhắn về việc bàn giao asset",
+    "passage": "Hi team, a quick reminder about tomorrow's character review. Please upload your final texture files to source control before the meeting, and use the new naming guide. If a file is still being revised, mark it as in progress in the tracker instead of calling it final. We will review only approved assets tomorrow, so any late design requests will be scheduled for the following build.",
+    "vi": "Chào cả nhóm, đây là lời nhắc ngắn về buổi duyệt nhân vật ngày mai. Hãy tải các tệp texture cuối cùng lên hệ thống kiểm soát phiên bản trước cuộc họp và dùng hướng dẫn đặt tên mới. Nếu một tệp vẫn đang được chỉnh sửa, hãy đánh dấu là đang xử lý trong bảng theo dõi thay vì gọi nó là bản cuối. Ngày mai chúng ta chỉ duyệt asset đã được phê duyệt, vì vậy mọi yêu cầu design đến muộn sẽ được lên lịch cho bản build sau.",
+    "questions": [
+      {
+        "q": "Where should the team upload final texture files?",
+        "choices": [
+          "To source control",
+          "To a chat group",
+          "To a personal folder"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì đoạn nghe nói rõ \"upload your final texture files to source control\"."
+      },
+      {
+        "q": "What should someone do with a file that is still being revised?",
+        "choices": [
+          "Call it final",
+          "Mark it as in progress",
+          "Delete it"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói yêu cầu đánh dấu tệp là \"in progress\" khi nó vẫn đang được chỉnh sửa."
+      },
+      {
+        "q": "When will late design requests be scheduled?",
+        "choices": [
+          "For tomorrow's review",
+          "For the following build",
+          "Before the current meeting"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói các yêu cầu design đến muộn sẽ được lên lịch \"for the following build\"."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Producer",
+      "b": "Lập trình viên Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining. I want to talk about the art handoff for the next Unity build.",
+        "vi": "Cảm ơn bạn đã tham gia. Tôi muốn bàn về việc bàn giao phần art cho bản Unity tiếp theo.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. The current process is causing a few problems.",
+        "vi": "Được. Quy trình hiện tại đang gây ra vài vấn đề.",
+        "hint": "Cụm a few problems nhẹ nhàng hơn nói \"many problems\"."
+      },
+      {
+        "speaker": "a",
+        "en": "What is the biggest problem from your side?",
+        "vi": "Theo phía bạn, vấn đề lớn nhất là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Artists sometimes send files through chat, so I cannot tell which version is approved.",
+        "vi": "Artist đôi khi gửi tệp qua chat, nên tôi không biết phiên bản nào đã được phê duyệt.",
+        "hint": "Dùng \"cannot tell which\" để nói không thể xác định cái nào."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Could we make source control the only place for final assets?",
+        "vi": "Điều đó hợp lý. Chúng ta có thể dùng hệ thống kiểm soát phiên bản làm nơi duy nhất cho asset cuối cùng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, but we also need a simple file naming convention. Right now, several textures have nearly identical names.",
+        "vi": "Có, nhưng chúng ta cũng cần một quy ước đặt tên tệp đơn giản. Hiện tại, vài texture có tên gần như giống hệt nhau.",
+        "hint": "Dùng \"we also need\" để bổ sung một yêu cầu quan trọng."
+      },
+      {
+        "speaker": "a",
+        "en": "What would you include in the name?",
+        "vi": "Bạn sẽ đưa những thông tin gì vào tên tệp?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would include the character or level name, the asset type, and a version number. That would make searching much faster.",
+        "vi": "Tôi sẽ đưa tên nhân vật hoặc màn chơi, loại asset và số phiên bản vào. Như vậy việc tìm kiếm sẽ nhanh hơn nhiều.",
+        "hint": "Dùng \"would\" để đề xuất lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "I like that. The art team is worried that strict rules will slow them down, though.",
+        "vi": "Tôi thích ý đó. Tuy nhiên, đội art lo rằng quy tắc chặt chẽ sẽ làm họ chậm lại.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I see their point, but the main issue is that unclear names lead to wrong imports, which then cost us more time to fix.",
+        "vi": "Tôi hiểu ý họ, nhưng vấn đề chính là tên không rõ ràng dẫn đến import sai, rồi chúng ta mất nhiều thời gian hơn để sửa.",
+        "hint": "Dùng \"I see their point, but\" để đồng tình một phần trước khi phản biện."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair enough. How do we prevent two people from overwriting the same file?",
+        "vi": "Hợp lý. Làm sao chúng ta ngăn hai người ghi đè cùng một tệp?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Before anyone edits a shared asset, they should mark it as in progress in the tracker. The tracker can be our single source of truth for ownership and status.",
+        "vi": "Trước khi bất kỳ ai sửa asset dùng chung, họ nên đánh dấu nó đang được xử lý trong bảng theo dõi. Bảng theo dõi có thể là nguồn chuẩn duy nhất về người phụ trách và trạng thái.",
+        "hint": "Dùng \"Before anyone edits\" để đặt quy tắc trước một hành động."
+      },
+      {
+        "speaker": "a",
+        "en": "What about late changes from design? They often affect art after a task has been approved.",
+        "vi": "Còn những thay đổi muộn từ phía design thì sao? Chúng thường ảnh hưởng đến art sau khi một việc đã được phê duyệt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We should treat those as new requests, unless they are genuine bugs. If we log the dependency and get approval first, we can avoid scope creep and still protect the release date.",
+        "vi": "Chúng ta nên xem chúng là yêu cầu mới, trừ khi đó là lỗi thực sự. Nếu ghi lại phần phụ thuộc và được phê duyệt trước, chúng ta có thể tránh phình phạm vi mà vẫn bảo vệ ngày phát hành.",
+        "hint": "Mẫu \"unless\" nghĩa là \"trừ khi\"; dùng để nêu ngoại lệ."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a reasonable compromise. I will ask art and design to use the tracker, and you can publish the naming guide today.",
+        "vi": "Đó là một thỏa hiệp hợp lý. Tôi sẽ yêu cầu art và design dùng bảng theo dõi, còn bạn có thể công bố hướng dẫn đặt tên hôm nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Deal. Once the guide is up, I will run a short walkthrough so everyone knows how to check in approved assets before the next build.",
+        "vi": "Thống nhất. Khi hướng dẫn được đăng, tôi sẽ hướng dẫn ngắn để mọi người biết cách đưa asset đã phê duyệt lên hệ thống trước bản build tiếp theo.",
+        "hint": "\"Once\" dùng để nói một việc sẽ xảy ra ngay sau khi điều kiện được đáp ứng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, practical Producer at a game studio. You are meeting a Unity developer to improve the asset pipeline between artists, designers, and engineers. You listen carefully, challenge vague ideas politely, and aim to leave the meeting with clear owners and next steps.",
+    "opener": "Thanks for making time. We have had a few asset mix-ups lately, so I would like to agree on a better handoff process.",
+    "goal": "Người học giải thích rủi ro của quy trình hiện tại, đề xuất quy ước bàn giao asset và chốt các bước tiếp theo với Producer."
+  },
+  "drills": [
+    {
+      "vi": "Chúng ta có thể thống nhất một quy trình rõ ràng cho asset cuối cùng không?",
+      "en": "Could we agree on a clear process for final assets?",
+      "alts": [
+        "Can we agree on a clear process for final assets?"
+      ]
+    },
+    {
+      "vi": "Vấn đề chính là tên tệp không rõ ràng, điều này dẫn đến import sai.",
+      "en": "The main issue is that unclear file names lead to wrong imports.",
+      "alts": [
+        "The main problem is that unclear file names cause wrong imports."
+      ]
+    },
+    {
+      "vi": "Trước khi tiếp tục, tôi cần phiên bản này được phê duyệt.",
+      "en": "Before we move forward, I need this version to be approved.",
+      "alts": [
+        "I need this version approved before we move forward."
+      ]
+    },
+    {
+      "vi": "Tôi hiểu ý bạn, nhưng chúng ta cần cân nhắc điều đó với thời hạn phát hành.",
+      "en": "I see your point, but we need to weigh that against the release deadline.",
+      "alts": [
+        "I understand your point, but we also need to consider the release deadline."
+      ]
+    },
+    {
+      "vi": "Xin hãy đưa material đã cập nhật lên hệ thống kiểm soát phiên bản.",
+      "en": "Please check the updated material in to source control.",
+      "alts": [
+        "Could you check the updated material in to source control?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta dùng bảng theo dõi, chúng ta có thể tránh ghi đè tệp.",
+      "en": "If we use the tracker, we can avoid overwriting files.",
+      "alts": [
+        "Using the tracker can help us avoid overwriting files."
+      ]
+    },
+    {
+      "vi": "Yêu cầu mới này có thể dẫn đến phình phạm vi công việc.",
+      "en": "This new request could lead to scope creep.",
+      "alts": [
+        "This new request may cause scope creep."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai Lập trình viên Unity trong hội thoại và tự kiểm tra trọng âm của version, convention và dependency.",
+    "Viết một tin nhắn bằng tiếng Anh gồm 4 câu, yêu cầu team chỉ đưa asset đã phê duyệt lên hệ thống kiểm soát phiên bản.",
+    "Tạo 3 câu dùng mẫu \"I see your point, but...\" để phản biện lịch sự trong công việc."
+  ]
+}

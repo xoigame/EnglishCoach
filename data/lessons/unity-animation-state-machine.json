@@ -1,0 +1,391 @@
+{
+  "id": "unity-animation-state-machine",
+  "title": "Phỏng vấn kỹ sư Unity: Animator, State Machine và Blend Tree",
+  "topic": "Animator, state machine và blend tree",
+  "level": "B2",
+  "summary": "Bạn đang phỏng vấn vị trí lập trình Unity với một kỹ sư. Bạn cần giải thích cách thiết kế Animator, bảo vệ lựa chọn kỹ thuật và thương lượng giữa độ mượt của chuyển động với khả năng phản hồi điều khiển.",
+  "goals": [
+    "Giải thích cấu trúc Animator và state machine một cách rõ ràng.",
+    "Mô tả cách dùng blend tree cho chuyển động nhân vật.",
+    "Nêu ưu nhược điểm và thương lượng giải pháp kỹ thuật trong buổi phỏng vấn."
+  ],
+  "vocab": [
+    {
+      "en": "Animator",
+      "ipa": "/ˈænɪmeɪtər/",
+      "vi": "thành phần quản lý hoạt ảnh trong Unity",
+      "example": "The Animator controls which animation the character plays."
+    },
+    {
+      "en": "state machine",
+      "ipa": "/steɪt məˈʃiːn/",
+      "vi": "máy trạng thái, hệ thống các trạng thái và điều kiện chuyển đổi",
+      "example": "I use a state machine to organize idle, walk, and jump states."
+    },
+    {
+      "en": "transition",
+      "ipa": "/trænˈzɪʃən/",
+      "vi": "sự chuyển đổi giữa các trạng thái",
+      "example": "The transition from running to jumping should feel immediate."
+    },
+    {
+      "en": "parameter",
+      "ipa": "/pəˈræmɪtər/",
+      "vi": "tham số dùng để điều khiển hoạt ảnh",
+      "example": "Speed is a float parameter that drives the blend tree."
+    },
+    {
+      "en": "blend tree",
+      "ipa": "/blend triː/",
+      "vi": "cây hòa trộn nhiều hoạt ảnh theo giá trị đầu vào",
+      "example": "The blend tree mixes walk and run animations smoothly."
+    },
+    {
+      "en": "threshold",
+      "ipa": "/ˈθreʃhoʊld/",
+      "vi": "ngưỡng giá trị để chọn hoặc hòa trộn hoạt ảnh",
+      "example": "I set the run threshold higher than the walk threshold."
+    },
+    {
+      "en": "locomotion",
+      "ipa": "/ˌloʊkəˈmoʊʃən/",
+      "vi": "hệ thống chuyển động của nhân vật",
+      "example": "The locomotion system handles movement on the ground."
+    },
+    {
+      "en": "trigger",
+      "ipa": "/ˈtrɪɡər/",
+      "vi": "tham số kích hoạt một lần",
+      "example": "A jump trigger starts the jump animation."
+    },
+    {
+      "en": "responsive",
+      "ipa": "/rɪˈspɑːnsɪv/",
+      "vi": "phản hồi nhanh theo thao tác người chơi",
+      "example": "The controls must remain responsive during combat."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa hai lợi ích",
+      "example": "There is a trade-off between smooth blending and quick input response."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would start by using ___ for ___.",
+      "vi": "Tôi sẽ bắt đầu bằng cách dùng ___ cho ___.",
+      "note": "Dùng để trình bày phương án kỹ thuật theo trật tự rõ ràng."
+    },
+    {
+      "en": "Rather than ___, I would ___.",
+      "vi": "Thay vì ___, tôi sẽ ___.",
+      "note": "Dùng khi so sánh và bảo vệ một lựa chọn tốt hơn."
+    },
+    {
+      "en": "If ___ happens, the character will ___.",
+      "vi": "Nếu ___ xảy ra, nhân vật sẽ ___.",
+      "note": "Phù hợp để giải thích điều kiện chuyển trạng thái."
+    },
+    {
+      "en": "The main trade-off is between ___ and ___.",
+      "vi": "Sự đánh đổi chính là giữa ___ và ___.",
+      "note": "Mẫu câu hữu ích khi thảo luận ưu và nhược điểm."
+    },
+    {
+      "en": "Could we trade a little ___ for better ___?",
+      "vi": "Chúng ta có thể đánh đổi một chút ___ để có ___ tốt hơn không?",
+      "note": "Cách đề xuất thỏa hiệp lịch sự trong trao đổi kỹ thuật."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong Animator và parameter",
+      "tip": "Nhấn mạnh âm đầu trong Animator và âm thứ hai trong parameter. Không đọc đều từng âm như tiếng Việt.",
+      "words": [
+        "Animator",
+        "parameter",
+        "responsive"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong threshold",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Tránh đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "threshold",
+        "three",
+        "thought"
+      ]
+    },
+    {
+      "focus": "Phụ âm cuối /d/ và /t/",
+      "tip": "Phát âm rõ phụ âm cuối nhưng không thêm nguyên âm phía sau.",
+      "words": [
+        "blend",
+        "state",
+        "trade-off"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I use blend tree for blend the walk and run animation.",
+      "right": "I use a blend tree to blend the walk and run animations.",
+      "vi": "Cần có mạo từ a và dùng to blend để nói mục đích. Khi nói hai hoạt ảnh, dùng animations."
+    },
+    {
+      "wrong": "When speed more than five, character run.",
+      "right": "When the speed is above five, the character runs.",
+      "vi": "Cần có the và động từ to be trong mệnh đề điều kiện. Chủ ngữ số ít character đi với runs."
+    },
+    {
+      "wrong": "The Animator have many state.",
+      "right": "The Animator has several states.",
+      "vi": "Animator là chủ ngữ số ít nên dùng has. State cần ở số nhiều khi có nhiều trạng thái."
+    },
+    {
+      "wrong": "I will make transition more smooth.",
+      "right": "I will make the transition smoother.",
+      "vi": "Sau make dùng tính từ. So sánh hơn smoother tự nhiên hơn more smooth trong ngữ cảnh này."
+    },
+    {
+      "wrong": "I prefer use trigger because it is more convenient.",
+      "right": "I prefer to use a trigger because it is more convenient.",
+      "vi": "Sau prefer cần to use trong cấu trúc này, và trigger là danh từ đếm được nên cần a."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu đề xuất kỹ thuật trong buổi phỏng vấn",
+      "formal": "I would recommend using a blend tree for the locomotion system.",
+      "casual": "I would use a blend tree for locomotion.",
+      "vi": "Câu formal phù hợp khi trình bày với người phỏng vấn hoặc cấp trên; câu casual phù hợp khi trao đổi nhanh với đồng nghiệp thân."
+    },
+    {
+      "situation": "Không đồng ý với một quyết định thiết kế",
+      "formal": "I see the benefit, but I am concerned that it may reduce responsiveness.",
+      "casual": "I get the idea, but it might make the controls feel slow.",
+      "vi": "Câu formal mềm và phù hợp khi phản biện trong cuộc họp; câu casual trực tiếp hơn khi trao đổi nội bộ thân mật."
+    },
+    {
+      "situation": "Đề xuất thỏa hiệp",
+      "formal": "Could we preserve the animation while allowing combat input to interrupt it?",
+      "casual": "What if we keep the animation but let combat cancel it?",
+      "vi": "Câu formal dùng khi nói với người lạ, quản lý hoặc trong phỏng vấn; câu casual dùng với đồng đội quen biết."
+    },
+    {
+      "situation": "Yêu cầu làm rõ yêu cầu kỹ thuật",
+      "formal": "Could you clarify whether responsiveness is the priority in combat?",
+      "casual": "So, is responsiveness the priority during combat?",
+      "vi": "Câu formal lịch sự hơn trong phỏng vấn hay họp chính thức; câu casual tự nhiên trong cuộc trao đổi hằng ngày."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, người trả lời thường nêu lập trường trước rồi mới giải thích lý do. Trả lời vòng vo quá lâu có thể tạo cảm giác thiếu tự tin.",
+    "Khi không đồng ý, người bản xứ thường mở đầu bằng việc công nhận điểm hợp lý của người khác, như I see the benefit, before presenting a concern.",
+    "Người phỏng vấn có thể ngắt lời để hỏi sâu về một lựa chọn kỹ thuật. Điều này thường nhằm kiểm tra cách lập luận, không nhất thiết là dấu hiệu họ bác bỏ câu trả lời."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ trưởng nhóm hoạt ảnh",
+    "passage": "Hi team, I reviewed the new movement setup this morning. The blend tree looks smooth at normal speed, but the character takes too long to react after a sharp turn. Please reduce the transition duration for direction changes. Keep the longer stop animation for exploration, because it supports the relaxed mood there. During combat, however, player input should be able to interrupt that animation quickly.",
+    "vi": "Chào cả nhóm, sáng nay tôi đã xem lại thiết lập chuyển động mới. Blend tree trông mượt ở tốc độ bình thường, nhưng nhân vật mất quá lâu để phản ứng sau khi rẽ gấp. Hãy giảm thời lượng chuyển đổi khi đổi hướng. Giữ hoạt ảnh dừng dài hơn cho phần khám phá vì nó hỗ trợ không khí thư giãn ở đó. Tuy nhiên, trong chiến đấu, thao tác của người chơi phải có thể ngắt hoạt ảnh đó nhanh chóng.",
+    "questions": [
+      {
+        "q": "What problem did the reviewer notice?",
+        "choices": [
+          "The blend tree is missing.",
+          "The character reacts too slowly after sharp turns.",
+          "The stop animation is too short."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 2 vì đoạn nghe nói character takes too long to react after a sharp turn."
+      },
+      {
+        "q": "Where should the longer stop animation remain?",
+        "choices": [
+          "During exploration",
+          "During combat",
+          "During every direction change"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói yêu cầu keep the longer stop animation for exploration."
+      },
+      {
+        "q": "What should happen during combat?",
+        "choices": [
+          "The blend tree should be removed.",
+          "Player input should interrupt the stop animation quickly.",
+          "The character should stop moving completely."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 2 vì đoạn nghe nói player input should be able to interrupt that animation quickly."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư phỏng vấn",
+      "b": "Ứng viên lập trình Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Let us begin with a simple question. How would you organize character animations in Unity?",
+        "vi": "Hãy bắt đầu với một câu hỏi đơn giản. Bạn sẽ tổ chức hoạt ảnh nhân vật trong Unity như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would use an Animator with a state machine for the main character actions.",
+        "vi": "Tôi sẽ dùng Animator với một state machine cho các hành động chính của nhân vật.",
+        "hint": "Dùng I would để câu trả lời nghe chuyên nghiệp nhưng không quá cứng."
+      },
+      {
+        "speaker": "a",
+        "en": "Which states would you include first?",
+        "vi": "Bạn sẽ đưa những trạng thái nào vào đầu tiên?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would start with idle, locomotion, jump, fall, and attack states.",
+        "vi": "Tôi sẽ bắt đầu với các trạng thái đứng yên, di chuyển, nhảy, rơi và tấn công.",
+        "hint": "Liệt kê ngắn gọn; locomotion là nhóm chuyển động trên mặt đất."
+      },
+      {
+        "speaker": "a",
+        "en": "Why would you separate jump and fall instead of using one state?",
+        "vi": "Tại sao bạn tách nhảy và rơi thay vì dùng một trạng thái?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "They need different transitions and timings. The jump begins from player input, while the fall starts when the character is no longer grounded.",
+        "vi": "Chúng cần chuyển trạng thái và thời điểm khác nhau. Nhảy bắt đầu từ thao tác người chơi, còn rơi bắt đầu khi nhân vật không còn chạm đất.",
+        "hint": "Dùng while để đối chiếu hai tình huống."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Where would a blend tree fit into that design?",
+        "vi": "Tốt. Blend tree sẽ phù hợp ở đâu trong thiết kế đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would place a one-dimensional blend tree inside locomotion. A Speed parameter could blend idle, walk, and run based on the character velocity.",
+        "vi": "Tôi sẽ đặt blend tree một chiều bên trong locomotion. Tham số Speed có thể hòa trộn đứng yên, đi bộ và chạy dựa trên vận tốc nhân vật.",
+        "hint": "Dùng could để mô tả khả năng thiết kế; based on nghĩa là dựa trên."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose the movement animation looks smooth, but the character feels slow to respond when the player changes direction. What would you check?",
+        "vi": "Giả sử hoạt ảnh di chuyển trông mượt, nhưng nhân vật phản hồi chậm khi người chơi đổi hướng. Bạn sẽ kiểm tra gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would check the transition duration and the blend tree thresholds first. Long transitions can make the movement feel polished, but they may also hide quick input changes.",
+        "vi": "Trước tiên, tôi sẽ kiểm tra thời lượng chuyển trạng thái và các ngưỡng của blend tree. Chuyển đổi dài có thể làm chuyển động trau chuốt, nhưng cũng có thể che mất các thay đổi thao tác nhanh.",
+        "hint": "Dùng may để nêu tác động có thể xảy ra, không khẳng định tuyệt đối."
+      },
+      {
+        "speaker": "a",
+        "en": "Would you remove transition blending entirely to make the controls more responsive?",
+        "vi": "Bạn có bỏ hoàn toàn việc hòa trộn khi chuyển trạng thái để điều khiển phản hồi tốt hơn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Not entirely. That would be a bit of a balancing act. Rather than removing all blending, I would shorten it for direction changes and keep a small amount for less urgent transitions.",
+        "vi": "Không hoàn toàn. Đó sẽ là một bài toán cân bằng. Thay vì bỏ toàn bộ hòa trộn, tôi sẽ rút ngắn nó khi đổi hướng và giữ một lượng nhỏ cho những chuyển đổi ít gấp hơn.",
+        "hint": "A bit of a balancing act là cách nói tự nhiên về việc phải cân bằng nhiều yếu tố."
+      },
+      {
+        "speaker": "a",
+        "en": "Our designer wants a long stop animation because it looks more realistic, but the gameplay team says it makes combat feel sluggish. How would you handle that disagreement?",
+        "vi": "Nhà thiết kế của chúng tôi muốn hoạt ảnh dừng dài vì trông thực tế hơn, nhưng đội gameplay nói nó khiến chiến đấu bị ì. Bạn sẽ xử lý bất đồng đó thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would test both versions with the team and define the moments when the player needs immediate control. The main trade-off is between visual realism and responsiveness, so I would protect responsiveness during combat and use the longer stop animation outside combat.",
+        "vi": "Tôi sẽ thử nghiệm cả hai phiên bản cùng đội ngũ và xác định những thời điểm người chơi cần điều khiển ngay lập tức. Sự đánh đổi chính là giữa tính chân thực hình ảnh và khả năng phản hồi, nên tôi sẽ ưu tiên phản hồi trong chiến đấu và dùng hoạt ảnh dừng dài hơn ngoài chiến đấu.",
+        "hint": "Dùng The main trade-off is between để nêu rõ hai ưu tiên đang mâu thuẫn."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds reasonable. If the designer still objects, what compromise would you propose?",
+        "vi": "Nghe hợp lý. Nếu nhà thiết kế vẫn phản đối, bạn sẽ đề xuất thỏa hiệp gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could we keep the full stop animation for the visual effect, but allow the next combat input to interrupt it after a short delay? That gives the designer a readable pose without making the player feel trapped.",
+        "vi": "Chúng ta có thể giữ hoạt ảnh dừng đầy đủ để tạo hiệu ứng hình ảnh, nhưng cho phép thao tác chiến đấu tiếp theo ngắt nó sau một khoảng trễ ngắn không? Cách đó cho nhà thiết kế một tư thế dễ nhận biết mà không khiến người chơi cảm thấy bị kẹt.",
+        "hint": "Dùng Could we để đề xuất thỏa hiệp. Allow ... to interrupt diễn tả việc cho phép hành động ngắt hoạt ảnh."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior Unity engineer interviewing a game programmer in a quiet studio meeting room. You are professional, curious, and friendly, but you ask follow-up questions when an answer lacks technical reasoning.",
+    "opener": "Thanks for joining us today. Could you walk me through how you would set up a character Animator?",
+    "goal": "Người học giải thích thiết kế Animator, trả lời câu hỏi phản biện và đề xuất một thỏa hiệp giữa độ mượt hoạt ảnh với khả năng phản hồi."
+  },
+  "drills": [
+    {
+      "vi": "Tôi sẽ dùng state machine để tổ chức các hành động chính.",
+      "en": "I would use a state machine to organize the main actions.",
+      "alts": [
+        "I would organize the main actions with a state machine."
+      ]
+    },
+    {
+      "vi": "Tham số Speed điều khiển blend tree này.",
+      "en": "The Speed parameter drives this blend tree.",
+      "alts": [
+        "This blend tree is driven by the Speed parameter."
+      ]
+    },
+    {
+      "vi": "Nếu nhân vật không còn chạm đất, nó sẽ vào trạng thái rơi.",
+      "en": "If the character is no longer grounded, it will enter the fall state.",
+      "alts": [
+        "When the character is no longer grounded, it will switch to the fall state."
+      ]
+    },
+    {
+      "vi": "Thay vì bỏ toàn bộ hòa trộn, tôi sẽ rút ngắn thời lượng chuyển đổi.",
+      "en": "Rather than removing all blending, I would shorten the transition duration.",
+      "alts": [
+        "Instead of removing all blending, I would make the transitions shorter."
+      ]
+    },
+    {
+      "vi": "Sự đánh đổi chính là giữa tính chân thực và khả năng phản hồi.",
+      "en": "The main trade-off is between realism and responsiveness.",
+      "alts": [
+        "The key trade-off is visual realism versus responsiveness."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể đánh đổi một chút độ mượt để điều khiển phản hồi tốt hơn không?",
+      "en": "Could we trade a little smoothness for better responsiveness?",
+      "alts": [
+        "Could we accept slightly less smoothness for more responsive controls?"
+      ]
+    },
+    {
+      "vi": "Một trigger có thể khởi động hoạt ảnh nhảy.",
+      "en": "A trigger can start the jump animation.",
+      "alts": [
+        "I can use a trigger to start the jump animation."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời cho câu hỏi về blend tree và tự kiểm tra trọng âm của Animator, parameter và responsive.",
+    "Viết 5 câu dùng các mẫu Rather than, If, và The main trade-off is between.",
+    "Tạo một sơ đồ state machine đơn giản gồm idle, locomotion, jump, fall và attack, rồi mô tả sơ đồ đó bằng tiếng Anh trong một phút."
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "unity-physics-va-collision",
+  "title": "Phỏng vấn Unity: Collider, Rigidbody, Raycast và Layer",
+  "topic": "Vật lý và va chạm trong Unity",
+  "level": "B2",
+  "summary": "Bạn tham gia một buổi phỏng vấn cho vị trí lập trình viên Unity. Bạn cần giải thích và bảo vệ các quyết định kỹ thuật về collider, rigidbody, raycast và layer.",
+  "goals": [
+    "Giải thích rõ vai trò của Collider, Rigidbody, Raycast và Layer.",
+    "Trình bày giải pháp kỹ thuật có nêu ưu, nhược điểm.",
+    "Phản hồi tự tin khi người phỏng vấn đặt câu hỏi phản biện."
+  ],
+  "vocab": [
+    {
+      "en": "collider",
+      "ipa": "/kəˈlaɪdər/",
+      "vi": "bộ xác định hình dạng va chạm",
+      "example": "Each wall needs a collider so the player cannot walk through it."
+    },
+    {
+      "en": "rigidbody",
+      "ipa": "/ˈrɪdʒɪd ˌbɑːdi/",
+      "vi": "thành phần cho phép đối tượng chịu tác động của vật lý",
+      "example": "The moving platform has a rigidbody because physics moves it."
+    },
+    {
+      "en": "raycast",
+      "ipa": "/ˈreɪkæst/",
+      "vi": "tia kiểm tra va chạm theo một hướng",
+      "example": "I use a raycast to detect what the player is looking at."
+    },
+    {
+      "en": "layer mask",
+      "ipa": "/ˈleɪər mæsk/",
+      "vi": "bộ lọc layer khi truy vấn vật lý",
+      "example": "The layer mask prevents the raycast from hitting decorations."
+    },
+    {
+      "en": "trigger collider",
+      "ipa": "/ˈtrɪɡər kəˈlaɪdər/",
+      "vi": "collider chỉ phát hiện sự đi vào hoặc ra khỏi vùng, không tạo va chạm vật lý",
+      "example": "The checkpoint uses a trigger collider."
+    },
+    {
+      "en": "collision matrix",
+      "ipa": "/kəˈlɪʒən ˈmeɪtrɪks/",
+      "vi": "bảng thiết lập layer nào được phép va chạm với nhau",
+      "example": "We changed the collision matrix to stop items from colliding with each other."
+    },
+    {
+      "en": "tunnel through",
+      "ipa": "/ˈtʌnəl θruː/",
+      "vi": "xuyên qua vật cản do di chuyển quá nhanh",
+      "example": "Fast projectiles can tunnel through thin walls."
+    },
+    {
+      "en": "continuous collision detection",
+      "ipa": "/kənˈtɪnjuəs kəˈlɪʒən dɪˈtekʃən/",
+      "vi": "chế độ phát hiện va chạm liên tục cho vật thể nhanh",
+      "example": "Continuous collision detection helps fast bullets hit thin targets."
+    },
+    {
+      "en": "interactable",
+      "ipa": "/ˌɪntərˈæktəbəl/",
+      "vi": "đối tượng người chơi có thể tương tác",
+      "example": "Put every interactable object on a dedicated layer."
+    },
+    {
+      "en": "debug view",
+      "ipa": "/ˈdiːbʌɡ vjuː/",
+      "vi": "chế độ hiển thị để kiểm tra lỗi",
+      "example": "I would turn on the debug view before changing the code."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would use ___ because ___.",
+      "vi": "Tôi sẽ dùng ___ vì ___.",
+      "note": "Dùng để nêu quyết định kỹ thuật và lý do rõ ràng."
+    },
+    {
+      "en": "The trade-off is that ___.",
+      "vi": "Điểm đánh đổi là ___.",
+      "note": "Hữu ích khi so sánh hiệu năng, độ chính xác hoặc độ phức tạp."
+    },
+    {
+      "en": "Could we clarify whether ___?",
+      "vi": "Chúng ta có thể làm rõ liệu ___ không?",
+      "note": "Cách hỏi lại lịch sự khi yêu cầu chưa đủ thông tin."
+    },
+    {
+      "en": "To avoid ___, I would ___.",
+      "vi": "Để tránh ___, tôi sẽ ___.",
+      "note": "Dùng để trình bày cách phòng ngừa lỗi."
+    },
+    {
+      "en": "I would not do that every frame unless ___.",
+      "vi": "Tôi sẽ không làm việc đó mỗi khung hình trừ khi ___.",
+      "note": "Cách phản biện lịch sự về hiệu năng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm và nguyên âm trong collider",
+      "tip": "Nhấn mạnh âm thứ hai, đọc gần như \"cờ-LAI-đờ\", không đọc đều từng âm tiết.",
+      "words": [
+        "collider",
+        "collision"
+      ]
+    },
+    {
+      "focus": "Âm cuối trong raycast và layer mask",
+      "tip": "Phát âm rõ âm /t/ trong raycast và /sk/ trong mask; đừng bỏ âm cuối.",
+      "words": [
+        "raycast",
+        "layer mask",
+        "detect"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong through",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi; không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "through",
+        "thin",
+        "thing"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I use raycast to check the enemy is in front of me.",
+      "right": "I use a raycast to check whether an enemy is in front of me.",
+      "vi": "Cần mạo từ \"a\" trước raycast và dùng whether để nối mệnh đề tự nhiên hơn."
+    },
+    {
+      "wrong": "Rigidbody is responsible to move physics objects.",
+      "right": "A Rigidbody is responsible for physics-based movement.",
+      "vi": "Dùng responsible for, không dùng responsible to trong cấu trúc này."
+    },
+    {
+      "wrong": "The player goes through the wall because I forgot add a Rigidbody.",
+      "right": "The player passes through the wall because I forgot to add a Rigidbody.",
+      "vi": "Sau forgot cần to + động từ; pass through tự nhiên hơn go through khi nói về lỗi va chạm."
+    },
+    {
+      "wrong": "I put the object in Player layer, so it collides everything.",
+      "right": "I put the object on the Player layer, but I control its interactions in the collision matrix.",
+      "vi": "Dùng on a layer, và layer không tự quyết định mọi va chạm nếu collision matrix được cấu hình khác."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất cách tổ chức layer cho đối tượng tương tác",
+      "formal": "I would recommend putting interactable objects on a dedicated layer.",
+      "casual": "I'd put interactables on their own layer.",
+      "vi": "Câu formal phù hợp khi trình bày với người phỏng vấn hoặc quản lý; câu casual phù hợp khi trao đổi nhanh với đồng nghiệp thân."
+    },
+    {
+      "situation": "Hỏi lại yêu cầu kỹ thuật chưa rõ",
+      "formal": "Could we clarify whether the player uses a Rigidbody or a character controller?",
+      "casual": "Quick question: is the player Rigidbody-based or using a character controller?",
+      "vi": "Câu formal lịch sự và thận trọng hơn trong cuộc họp; câu casual tự nhiên trong lúc trao đổi nội bộ."
+    },
+    {
+      "situation": "Đề nghị kiểm tra hiệu năng trước khi triển khai",
+      "formal": "I suggest that we profile this before adding raycasts every frame.",
+      "casual": "Let's profile it before we spam raycasts every frame.",
+      "vi": "Câu formal nên dùng với cấp trên hoặc khách hàng; câu casual dùng với đội ngũ thân quen, trong đó spam mang sắc thái thân mật."
+    },
+    {
+      "situation": "Nêu rủi ro về va chạm của vật thể nhanh",
+      "formal": "There is a risk that fast projectiles may tunnel through thin colliders.",
+      "casual": "Fast bullets might clip through thin walls.",
+      "vi": "Câu formal phù hợp trong báo cáo hoặc phỏng vấn; câu casual ngắn và tự nhiên hơn khi thảo luận trong nhóm."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, người phỏng vấn thường muốn bạn nói rõ cách suy nghĩ. Bạn có thể tạm dừng ngắn để cân nhắc, nhưng nên nói thành lời các giả định và đánh đổi.",
+    "Khi không chắc một chi tiết, nói thẳng rằng bạn sẽ kiểm tra hoặc tạo test scene thường tạo ấn tượng tốt hơn là đoán chắc. Đây được xem là thái độ chuyên nghiệp, không phải yếu kém.",
+    "Việc phản biện ý kiến người phỏng vấn là bình thường nếu bạn dùng ngôn ngữ mềm như I would not keep that design by default hoặc I would profile it first."
+  ],
+  "listening": {
+    "title": "Lời nhắn trước buổi kiểm thử vật lý",
+    "passage": "Hi team, before today's playtest, please check the training room scene. The doors should use box colliders, while the moving platforms need rigidbodies. The interaction raycast must ignore the Decoration layer, or players may select background props by mistake. For the laser sensor, use a trigger collider on the Hazard layer. If anything behaves oddly, turn on the physics debug view and leave a short note in the test report.",
+    "vi": "Chào cả nhóm, trước buổi kiểm thử hôm nay, hãy kiểm tra cảnh phòng huấn luyện. Các cánh cửa nên dùng box collider, còn các bệ di chuyển cần rigidbody. Raycast tương tác phải bỏ qua layer Decoration, nếu không người chơi có thể chọn nhầm đạo cụ nền. Với cảm biến laser, hãy dùng trigger collider trên layer Hazard. Nếu có gì hoạt động bất thường, hãy bật chế độ debug vật lý và để lại ghi chú ngắn trong báo cáo kiểm thử.",
+    "questions": [
+      {
+        "q": "Which objects need rigidbodies?",
+        "choices": [
+          "The doors",
+          "The moving platforms",
+          "The background props"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 1 vì bài nghe nói rõ: \"the moving platforms need rigidbodies\"."
+      },
+      {
+        "q": "Why must the interaction raycast ignore the Decoration layer?",
+        "choices": [
+          "To make the doors move faster",
+          "To avoid selecting background props",
+          "To activate the laser sensor"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 1 vì bài nghe nói người chơi có thể chọn nhầm background props nếu không bỏ qua layer này."
+      },
+      {
+        "q": "Which layer should the laser sensor use?",
+        "choices": [
+          "The Player layer",
+          "The Decoration layer",
+          "The Hazard layer"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là lựa chọn 2 vì bài nghe hướng dẫn dùng trigger collider trên \"the Hazard layer\"."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư phỏng vấn",
+      "b": "Ứng viên lập trình Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining us. Could you briefly explain what a collider does in Unity?",
+        "vi": "Cảm ơn bạn đã tham gia. Bạn có thể giải thích ngắn gọn collider làm gì trong Unity không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A collider defines the shape that Unity uses to detect collisions and overlaps.",
+        "vi": "Collider xác định hình dạng mà Unity dùng để phát hiện va chạm và sự chồng lấp.",
+        "hint": "Dùng defines the shape để giải thích chức năng chính."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Then when would you add a Rigidbody?",
+        "vi": "Tốt. Vậy khi nào bạn sẽ thêm Rigidbody?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would add a Rigidbody when an object needs physics-based movement, forces, or collision responses.",
+        "vi": "Tôi sẽ thêm Rigidbody khi một đối tượng cần chuyển động theo vật lý, lực hoặc phản hồi va chạm.",
+        "hint": "Liệt kê ba chức năng bằng forces, or collision responses."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose the player looks at a door and presses an interact button. Why might a raycast be a better fit than relying on collisions?",
+        "vi": "Giả sử người chơi nhìn vào một cánh cửa và bấm nút tương tác. Vì sao raycast có thể phù hợp hơn việc dựa vào va chạm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A raycast checks a precise direction from the camera, so it tells us what the player is actually aiming at. A collision alone would not show that intent.",
+        "vi": "Raycast kiểm tra một hướng chính xác từ camera, nên nó cho biết người chơi thật sự đang nhắm vào cái gì. Chỉ va chạm thì không thể hiện được ý định đó.",
+        "hint": "Dùng actually aiming at để nhấn mạnh hướng nhìn của người chơi."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. How would you stop the raycast from selecting scenery behind the door?",
+        "vi": "Hợp lý. Bạn sẽ ngăn raycast chọn cảnh vật phía sau cánh cửa như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would put interactable objects on a dedicated layer and use a layer mask in the raycast. That keeps irrelevant scenery out of the query.",
+        "vi": "Tôi sẽ đặt các đối tượng có thể tương tác vào một layer riêng và dùng layer mask trong raycast. Cách đó loại cảnh vật không liên quan khỏi truy vấn.",
+        "hint": "Dùng put ... on a dedicated layer và keeps ... out of."
+      },
+      {
+        "speaker": "a",
+        "en": "Now imagine that a fast projectile occasionally passes through a thin wall. What would you investigate first?",
+        "vi": "Bây giờ hãy tưởng tượng một viên đạn nhanh đôi lúc xuyên qua tường mỏng. Bạn sẽ kiểm tra điều gì đầu tiên?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "First, I would confirm that both objects have suitable colliders and that the projectile has a Rigidbody. Then I would enable continuous collision detection for the projectile, because discrete checks can miss a thin wall between frames.",
+        "vi": "Đầu tiên, tôi sẽ xác nhận cả hai đối tượng có collider phù hợp và viên đạn có Rigidbody. Sau đó tôi sẽ bật phát hiện va chạm liên tục cho viên đạn, vì các lần kiểm tra rời rạc có thể bỏ sót tường mỏng giữa các khung hình.",
+        "hint": "Dùng First, Then để trình bày quy trình; between frames là cụm quan trọng."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair point. We also have a laser sensor that should detect the player but should not physically push the player or react to dropped items. How would you set that up?",
+        "vi": "Ý hợp lý. Chúng tôi còn có một cảm biến laser cần phát hiện người chơi nhưng không được đẩy người chơi về mặt vật lý hoặc phản ứng với vật phẩm rơi. Bạn sẽ thiết lập thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would use a trigger collider for the sensor and place it on a Hazard layer. In the collision matrix, I would allow that layer to interact with the Player layer but ignore the Item layer, so the sensor receives the events it needs without unwanted physical contact.",
+        "vi": "Tôi sẽ dùng trigger collider cho cảm biến và đặt nó trên layer Hazard. Trong collision matrix, tôi sẽ cho layer đó tương tác với layer Player nhưng bỏ qua layer Item, để cảm biến nhận các sự kiện cần thiết mà không có tiếp xúc vật lý không mong muốn.",
+        "hint": "Dùng allow ... to interact with và ignore ... layer để mô tả thiết lập layer."
+      },
+      {
+        "speaker": "a",
+        "en": "One concern: some developers cast several rays every frame for every character. I think that could become expensive. Would you agree, or would you keep that design?",
+        "vi": "Một lo ngại là vài lập trình viên bắn nhiều ray mỗi khung hình cho mọi nhân vật. Tôi nghĩ điều đó có thể tốn tài nguyên. Bạn đồng ý hay vẫn giữ thiết kế đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would not keep that design by default. The trade-off is responsiveness versus cost, so I would cast only when the result is needed, such as during interaction or grounded checks. If continuous checks are essential, I would profile the scene first and centralize the queries where possible.",
+        "vi": "Tôi sẽ không giữ thiết kế đó theo mặc định. Điểm đánh đổi là độ phản hồi so với chi phí, nên tôi chỉ bắn ray khi cần kết quả, chẳng hạn lúc tương tác hoặc kiểm tra chạm đất. Nếu cần kiểm tra liên tục, tôi sẽ đo hiệu năng cảnh trước và tập trung các truy vấn khi có thể.",
+        "hint": "Dùng The trade-off is để nêu cân bằng, rồi đưa ra giải pháp có điều kiện."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a practical answer. Before we wrap up, how would you verify that the layers and physics settings behave as intended?",
+        "vi": "Đó là câu trả lời thực tế. Trước khi kết thúc, bạn sẽ xác minh layer và cài đặt vật lý hoạt động đúng như dự định thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would create a small test scene with one case for each interaction: player and wall, projectile and thin target, sensor and dropped item. I would turn on the physics debug view, log the relevant events, and test the layer matrix deliberately. That gives the team repeatable evidence instead of relying on guesswork.",
+        "vi": "Tôi sẽ tạo một cảnh kiểm thử nhỏ với một trường hợp cho mỗi tương tác: người chơi và tường, đạn và mục tiêu mỏng, cảm biến và vật phẩm rơi. Tôi sẽ bật chế độ debug vật lý, ghi log các sự kiện liên quan và kiểm tra layer matrix một cách có chủ đích. Cách đó cho nhóm bằng chứng có thể lặp lại thay vì dựa vào phỏng đoán.",
+        "hint": "Kết thúc mạnh bằng instead of relying on guesswork để nêu lợi ích của việc kiểm thử."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior game-engine engineer interviewing a Unity programmer in a quiet studio meeting room. You are friendly, precise, and willing to challenge weak assumptions. Ask follow-up questions about colliders, rigidbodies, raycasts, and layers, then close the interview professionally.",
+    "opener": "Thanks for joining us. Could you briefly explain what a collider does in Unity?",
+    "goal": "Người học giải thích được lựa chọn kỹ thuật, phản hồi câu hỏi phản biện và kết thúc buổi phỏng vấn chuyên nghiệp."
+  },
+  "drills": [
+    {
+      "vi": "Tôi sẽ dùng raycast để kiểm tra người chơi đang nhìn vào cái gì.",
+      "en": "I would use a raycast to check what the player is looking at.",
+      "alts": [
+        "I would use a raycast to detect the object in front of the player."
+      ]
+    },
+    {
+      "vi": "Để tránh va chạm không cần thiết, tôi sẽ dùng layer mask.",
+      "en": "To avoid unnecessary collisions, I would use a layer mask.",
+      "alts": [
+        "I would use a layer mask to filter out irrelevant objects."
+      ]
+    },
+    {
+      "vi": "Collider này chỉ nên phát hiện người chơi.",
+      "en": "This collider should only detect the player.",
+      "alts": [
+        "This trigger collider should interact only with the Player layer."
+      ]
+    },
+    {
+      "vi": "Điểm đánh đổi là độ chính xác so với hiệu năng.",
+      "en": "The trade-off is accuracy versus performance.",
+      "alts": [
+        "The main trade-off is better accuracy at a performance cost."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể làm rõ liệu viên đạn có Rigidbody không?",
+      "en": "Could we clarify whether the projectile has a Rigidbody?",
+      "alts": [
+        "Could you confirm whether the projectile uses a Rigidbody?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ không bắn ray mỗi khung hình trừ khi thật sự cần thiết.",
+      "en": "I would not cast a ray every frame unless it is truly necessary.",
+      "alts": [
+        "I would avoid raycasting every frame unless the feature requires it."
+      ]
+    },
+    {
+      "vi": "Viên đạn nhanh có thể xuyên qua tường mỏng.",
+      "en": "A fast projectile can tunnel through a thin wall.",
+      "alts": [
+        "Fast projectiles may pass through thin colliders."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời cho bốn câu hỏi kỹ thuật đầu tiên và tự kiểm tra trọng âm của collider, rigidbody, raycast.",
+    "Viết một đoạn ngắn bằng tiếng Anh nêu cách dùng layer mask để tối ưu một raycast.",
+    "Tạo ba câu dùng các mẫu I would use, The trade-off is that, và To avoid."
+  ]
+}

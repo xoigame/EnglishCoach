@@ -1,0 +1,386 @@
+{
+  "id": "unity-toi-uu-hieu-nang",
+  "title": "Tối ưu hiệu năng Unity: Draw Call, Batching và Profiler",
+  "topic": "Tìm và xử lý nút thắt hiệu năng",
+  "level": "B2",
+  "summary": "Người học trao đổi với technical lead về hiện tượng giật khung hình trong một khu chợ của game. Họ mô tả quy trình dùng Profiler và Frame Debugger để tìm nút thắt, sau đó đề xuất giải pháp batching hợp lý.",
+  "goals": [
+    "Mô tả quy trình tìm nút thắt hiệu năng bằng Profiler.",
+    "Giải thích mối liên hệ giữa draw call, vật liệu và batching.",
+    "Đề xuất giải pháp, nêu đánh đổi và thống nhất kế hoạch tối ưu."
+  ],
+  "vocab": [
+    {
+      "en": "draw call",
+      "ipa": "/ˈdrɔː kɔːl/",
+      "vi": "lệnh yêu cầu hệ thống vẽ một đối tượng hoặc nhóm đối tượng",
+      "example": "The scene has too many draw calls for this device."
+    },
+    {
+      "en": "batching",
+      "ipa": "/ˈbætʃɪŋ/",
+      "vi": "gộp các đối tượng phù hợp để giảm số lần vẽ",
+      "example": "Batching can reduce rendering overhead."
+    },
+    {
+      "en": "bottleneck",
+      "ipa": "/ˈbɒtəlnek/",
+      "vi": "nút thắt, phần làm chậm toàn bộ hệ thống",
+      "example": "We need to identify the bottleneck before changing the scene."
+    },
+    {
+      "en": "Profiler",
+      "ipa": "/prəˈfaɪlər/",
+      "vi": "công cụ theo dõi và phân tích hiệu năng",
+      "example": "The Profiler shows a spike during rendering."
+    },
+    {
+      "en": "representative frame",
+      "ipa": "/ˌreprɪˈzentətɪv freɪm/",
+      "vi": "khung hình tiêu biểu để phân tích",
+      "example": "Choose a representative frame instead of an unusually bad one."
+    },
+    {
+      "en": "rendering overhead",
+      "ipa": "/ˈrendərɪŋ ˈoʊvərhed/",
+      "vi": "chi phí xử lý phát sinh khi vẽ hình",
+      "example": "Extra materials increase rendering overhead."
+    },
+    {
+      "en": "material variant",
+      "ipa": "/məˈtɪriəl ˈveriənt/",
+      "vi": "biến thể của vật liệu có khác biệt nhỏ",
+      "example": "Those props use three nearly identical material variants."
+    },
+    {
+      "en": "static batching",
+      "ipa": "/ˈstætɪk ˈbætʃɪŋ/",
+      "vi": "gộp các đối tượng không di chuyển để vẽ hiệu quả hơn",
+      "example": "Static batching works well for fixed market stalls."
+    },
+    {
+      "en": "Frame Debugger",
+      "ipa": "/freɪm dɪˈbʌɡər/",
+      "vi": "công cụ xem từng bước vẽ của một khung hình",
+      "example": "Use the Frame Debugger to see why objects do not batch."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa các lợi ích và bất lợi",
+      "example": "The memory cost is an important trade-off."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Before we change anything, we should ___.",
+      "vi": "Trước khi thay đổi gì, chúng ta nên ___.",
+      "note": "Dùng để đề xuất quy trình thận trọng, dựa trên dữ liệu."
+    },
+    {
+      "en": "The Profiler suggests that ___ is causing the spike.",
+      "vi": "Profiler cho thấy có khả năng ___ đang gây ra đột biến.",
+      "note": "Suggests that giúp nêu nhận định có cơ sở nhưng không khẳng định quá sớm."
+    },
+    {
+      "en": "I would start by ___, then ___.",
+      "vi": "Tôi sẽ bắt đầu bằng ___, sau đó ___.",
+      "note": "Mẫu câu rõ ràng để mô tả từng bước điều tra."
+    },
+    {
+      "en": "Could this be related to ___?",
+      "vi": "Liệu việc này có thể liên quan đến ___ không?",
+      "note": "Cách đặt giả thuyết mang tính hợp tác."
+    },
+    {
+      "en": "The trade-off is that ___, but ___.",
+      "vi": "Đánh đổi là ___, nhưng ___.",
+      "note": "Dùng khi bảo vệ một quyết định kỹ thuật có mặt lợi và hại."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Cụm phụ âm trong draw calls",
+      "tip": "Nối nhẹ draw với calls; âm cuối /z/ ở calls cần được phát rõ, không đọc thành call.",
+      "words": [
+        "draw calls",
+        "fewer calls",
+        "render calls"
+      ]
+    },
+    {
+      "focus": "Âm /tʃ/ trong batching",
+      "tip": "Âm /tʃ/ bật hơi như trong từ tiếng Việt “chạy”, tránh đọc thành âm /s/ hoặc /t/.",
+      "words": [
+        "batching",
+        "match",
+        "check"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong Profiler và representative",
+      "tip": "Nhấn âm thứ hai ở Profiler và âm thứ ba ở representative; các âm còn lại đọc nhẹ hơn.",
+      "words": [
+        "Profiler",
+        "representative",
+        "material"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "There are too much draw calls in this scene.",
+      "right": "There are too many draw calls in this scene.",
+      "vi": "Draw calls là danh từ đếm được số nhiều, nên dùng many thay vì much."
+    },
+    {
+      "wrong": "The Profiler show a rendering spike.",
+      "right": "The Profiler shows a rendering spike.",
+      "vi": "Profiler là chủ ngữ số ít, động từ hiện tại đơn cần thêm s."
+    },
+    {
+      "wrong": "I will make batching for these objects.",
+      "right": "I will batch these objects.",
+      "vi": "Batch thường dùng như động từ. Không nói make batching trong ngữ cảnh này."
+    },
+    {
+      "wrong": "We should reduce the draw calls by merge the materials.",
+      "right": "We should reduce the draw calls by merging the materials.",
+      "vi": "Sau by dùng động từ thêm ing."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề nghị kiểm tra dữ liệu trước khi sửa",
+      "formal": "Before we make any changes, I recommend reviewing the Profiler data.",
+      "casual": "Let us check the Profiler first.",
+      "vi": "Câu formal phù hợp khi báo cáo với cấp trên hoặc trong cuộc họp trang trọng. Câu casual tự nhiên hơn khi trao đổi nhanh với đồng nghiệp thân."
+    },
+    {
+      "situation": "Nêu giả thuyết về nguyên nhân",
+      "formal": "The evidence suggests that the material variants may be increasing the draw-call count.",
+      "casual": "Those material variants might be adding extra draw calls.",
+      "vi": "Câu formal thận trọng, dựa vào bằng chứng và phù hợp trong báo cáo. Câu casual ngắn gọn hơn trong lúc cùng gỡ lỗi."
+    },
+    {
+      "situation": "Không đồng ý với việc tối ưu quá mức",
+      "formal": "I would advise against marking every object as static because of the memory cost.",
+      "casual": "I would not mark everything static. It could use too much memory.",
+      "vi": "Câu formal lịch sự khi phản biện đề xuất của người lạ hoặc cấp trên. Câu casual phù hợp giữa các thành viên quen thuộc trong nhóm."
+    },
+    {
+      "situation": "Chốt kế hoạch",
+      "formal": "I will validate the change against the original baseline before we approve it.",
+      "casual": "I will compare it with the baseline before we sign off.",
+      "vi": "Câu formal phù hợp khi cam kết quy trình chính thức. Câu casual dùng khi chốt việc với đồng nghiệp; sign off mang sắc thái duyệt xong."
+    }
+  ],
+  "culture": [
+    "Trong các nhóm phát triển phần mềm dùng tiếng Anh, người nói thường yêu cầu dữ liệu trước khi đồng ý với giải pháp. Một câu như “let us not jump to conclusions” là cách hợp tác, không phải chê trách cá nhân.",
+    "Khi phản biện giải pháp, người bản xứ thường công nhận điểm tốt trước rồi mới nêu giới hạn, ví dụ “Solid answer. One concern is...”. Cách này giúp cuộc trao đổi thẳng thắn nhưng vẫn dễ chịu.",
+    "Trong họp kỹ thuật, nêu rõ trade-off thường được đánh giá cao hơn là hứa một giải pháp hoàn hảo. Có thể nói thẳng về rủi ro bộ nhớ nếu kèm điều kiện kiểm tra lại."
+  ],
+  "listening": {
+    "title": "Tin nhắn cập nhật hiệu năng",
+    "passage": "Hi team, I reviewed the latest performance capture from the forest level. The slowdown is mostly in rendering, not game logic. Several trees use different materials even though they look almost identical. Please combine those materials where it makes sense, then run the same camera path again. Do not mark the animated trees as static. We need a clean comparison with the original capture before the next build.",
+    "vi": "Chào cả nhóm, tôi đã xem bản ghi hiệu năng mới nhất từ màn chơi khu rừng. Hiện tượng chậm chủ yếu nằm ở phần vẽ hình, không phải logic game. Một số cây dùng các vật liệu khác nhau dù trông gần như giống hệt nhau. Hãy gộp các vật liệu đó khi hợp lý, rồi chạy lại cùng đường đi của máy quay. Đừng đánh dấu các cây có hoạt ảnh là static. Chúng ta cần so sánh rõ ràng với bản ghi ban đầu trước bản dựng tiếp theo.",
+    "questions": [
+      {
+        "q": "Where is the slowdown mainly happening?",
+        "choices": [
+          "In rendering",
+          "In game logic",
+          "In audio playback"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn 0 vì đoạn nghe nói rõ: “The slowdown is mostly in rendering, not game logic.”"
+      },
+      {
+        "q": "What should the team do with similar tree materials?",
+        "choices": [
+          "Delete all trees",
+          "Combine materials when appropriate",
+          "Make every tree animated"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 1 vì người nói yêu cầu gộp các vật liệu khi hợp lý: “Please combine those materials where it makes sense.”"
+      },
+      {
+        "q": "Which trees should not be marked as static?",
+        "choices": [
+          "Small trees",
+          "Animated trees",
+          "Trees near the camera"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 1 vì đoạn nghe nói trực tiếp: “Do not mark the animated trees as static.”"
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Technical lead",
+      "b": "Lập trình viên game"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Morning. The market area feels choppy on mid-range devices. What have you noticed?",
+        "vi": "Chào buổi sáng. Khu chợ bị giật trên các thiết bị tầm trung. Bạn đã nhận thấy gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I see short stutters when the camera reaches the busiest part of the market.",
+        "vi": "Tôi thấy hiện tượng khựng ngắn khi máy quay đến phần đông đúc nhất của khu chợ.",
+        "hint": "Dùng when để nói thời điểm lỗi xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Good observation. Before we change anything, how would you find the bottleneck?",
+        "vi": "Quan sát tốt. Trước khi thay đổi gì, bạn sẽ tìm nút thắt như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would capture a run in the Profiler and compare slow frames with normal ones.",
+        "vi": "Tôi sẽ ghi lại một lượt chạy trong Profiler và so sánh các khung hình chậm với khung hình bình thường.",
+        "hint": "Dùng I would để trình bày quy trình đề xuất."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. Pick a representative slow frame, not just the worst frame you can find. Which area would you inspect first?",
+        "vi": "Chính xác. Hãy chọn một khung hình chậm tiêu biểu, không chỉ chọn khung hình tệ nhất bạn tìm được. Bạn sẽ kiểm tra phần nào trước?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would start with rendering, then check whether the spikes line up with a high number of draw calls.",
+        "vi": "Tôi sẽ bắt đầu với phần vẽ hình, rồi kiểm tra xem các đột biến có trùng với số lượng draw call cao hay không.",
+        "hint": "Dùng whether để diễn đạt “có hay không” trong câu dài."
+      },
+      {
+        "speaker": "a",
+        "en": "That is the right direction. The trace shows rendering work rising sharply in that area. What might be behind those extra draw calls?",
+        "vi": "Đó là hướng đúng. Dữ liệu cho thấy công việc vẽ hình tăng mạnh ở khu vực đó. Điều gì có thể đứng sau các draw call tăng thêm này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "They may come from separate materials and small objects that cannot be batched together.",
+        "vi": "Chúng có thể đến từ các vật liệu riêng lẻ và những đối tượng nhỏ không thể được gộp lại để vẽ.",
+        "hint": "May come from giúp nêu khả năng mà chưa kết luận chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "Possibly, but let us not jump to conclusions. How would you prove that materials are the issue?",
+        "vi": "Có thể, nhưng đừng kết luận vội. Bạn sẽ chứng minh vật liệu là vấn đề như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would use the Frame Debugger to inspect the render sequence and look for objects that should share a material but do not.",
+        "vi": "Tôi sẽ dùng Frame Debugger để kiểm tra trình tự vẽ và tìm các đối tượng đáng lẽ dùng chung vật liệu nhưng lại không dùng chung.",
+        "hint": "Dùng should để nói điều đáng lẽ phải xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "We checked, and the vendor stalls use three nearly identical material variants. What solution would you recommend, and what is the trade-off?",
+        "vi": "Chúng ta đã kiểm tra và các quầy hàng dùng ba biến thể vật liệu gần như giống nhau. Bạn đề xuất giải pháp nào, và đánh đổi là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would merge the variants into one shared material where possible and use static batching for fixed scenery. The trade-off is that static batching can increase memory use, so I would not apply it blindly.",
+        "vi": "Tôi sẽ gộp các biến thể thành một vật liệu dùng chung khi có thể và dùng static batching cho cảnh vật cố định. Đánh đổi là static batching có thể tăng lượng bộ nhớ sử dụng, nên tôi sẽ không áp dụng một cách máy móc.",
+        "hint": "Dùng where possible để tránh cam kết tuyệt đối; dùng The trade-off is that để nêu đánh đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "Solid answer. Can we mark every prop as static, though?",
+        "vi": "Câu trả lời tốt. Tuy vậy, chúng ta có thể đánh dấu mọi vật thể là static không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No. Moving stalls and animated signs must stay separate. I would batch only fixed props, consolidate their materials, and retest the same representative scene.",
+        "vi": "Không. Các quầy di chuyển và biển hiệu có hoạt ảnh phải để riêng. Tôi chỉ gộp các vật thể cố định, hợp nhất vật liệu của chúng, rồi kiểm tra lại cùng cảnh tiêu biểu.",
+        "hint": "Dùng must để nêu điều bắt buộc; retest là kiểm tra lại sau khi sửa."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds balanced. Give me the final plan so the team can implement it without losing sight of the evidence.",
+        "vi": "Nghe cân bằng đấy. Hãy nêu kế hoạch cuối cùng để cả nhóm có thể triển khai mà không bỏ qua dữ liệu kiểm chứng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "First, I will save a baseline from the Profiler and the Frame Debugger. Next, I will merge the redundant materials and enable static batching only for fixed props. Finally, I will capture the same camera path again and confirm that draw calls and frame spikes have dropped without creating a memory problem.",
+        "vi": "Đầu tiên, tôi sẽ lưu số liệu nền từ Profiler và Frame Debugger. Tiếp theo, tôi sẽ gộp các vật liệu dư thừa và chỉ bật static batching cho vật thể cố định. Cuối cùng, tôi sẽ ghi lại cùng đường đi của máy quay và xác nhận rằng draw call cùng các đột biến khung hình đã giảm mà không tạo ra vấn đề về bộ nhớ.",
+        "hint": "Dùng First, Next, Finally để trình bày kế hoạch có thứ tự và kết thúc bằng tiêu chí xác nhận."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a technical lead at a game studio, reviewing a Unity performance issue with a developer in a calm, practical meeting. You ask focused questions, challenge unsupported assumptions, and help the developer agree on a measured optimization plan.",
+    "opener": "The market scene is stuttering on mid-range devices. Walk me through how you would investigate it.",
+    "goal": "Người học mô tả được cách dùng Profiler để tìm nút thắt, xác minh nguyên nhân bằng Frame Debugger và đề xuất cách giảm draw call có nêu đánh đổi."
+  },
+  "drills": [
+    {
+      "vi": "Trước khi thay đổi gì, chúng ta nên tìm nút thắt.",
+      "en": "Before we change anything, we should identify the bottleneck.",
+      "alts": [
+        "We should identify the bottleneck before changing anything."
+      ]
+    },
+    {
+      "vi": "Profiler cho thấy phần vẽ hình đang gây ra đột biến.",
+      "en": "The Profiler suggests that rendering is causing the spike.",
+      "alts": [
+        "The Profiler shows that rendering is causing the spike."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ bắt đầu bằng việc kiểm tra draw call, sau đó kiểm tra vật liệu.",
+      "en": "I would start by checking draw calls, then inspect the materials.",
+      "alts": [
+        "I would check draw calls first and then inspect the materials."
+      ]
+    },
+    {
+      "vi": "Liệu việc này có thể liên quan đến các biến thể vật liệu không?",
+      "en": "Could this be related to material variants?",
+      "alts": [
+        "Could the material variants be causing this?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ dùng Frame Debugger để xem vì sao các đối tượng không được gộp.",
+      "en": "I would use the Frame Debugger to see why the objects are not batched.",
+      "alts": [
+        "I would inspect the Frame Debugger to find out why the objects do not batch."
+      ]
+    },
+    {
+      "vi": "Đánh đổi là dùng nhiều bộ nhớ hơn, nhưng chúng ta sẽ có ít draw call hơn.",
+      "en": "The trade-off is that we use more memory, but we get fewer draw calls.",
+      "alts": [
+        "We may use more memory, but the number of draw calls will drop."
+      ]
+    },
+    {
+      "vi": "Chúng ta chỉ nên dùng static batching cho các vật thể cố định.",
+      "en": "We should use static batching only for fixed props.",
+      "alts": [
+        "Only fixed props should use static batching."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần mô tả quy trình gồm năm bước: tạo số liệu nền, chọn khung hình tiêu biểu, tìm nút thắt, sửa có chọn lọc và kiểm tra lại.",
+    "Tự nói trong một phút về một cảnh game có nhiều draw call, dùng ít nhất bốn từ vựng của bài.",
+    "Viết ba câu nêu đánh đổi khi áp dụng static batching hoặc gộp vật liệu."
+  ]
+}

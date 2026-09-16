@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:31:41.924Z",
+  "generatedAt": "2026-09-16T06:52:27.949Z",
   "lessons": [
     {
       "id": "cam-on-xin-loi-lich-su",
@@ -362,6 +362,14 @@
       "turns": 14
     },
     {
+      "id": "unity-gioi-thieu-portfolio",
+      "title": "Giới thiệu portfolio game và vai trò trong dự án",
+      "topic": "Phỏng vấn portfolio game",
+      "level": "B1",
+      "summary": "Bạn giới thiệu một game trong portfolio với nhà tuyển dụng studio game. Bạn trình bày thể loại, quy mô đội, trách nhiệm cá nhân, kết quả và bài học rút ra.",
+      "turns": 17
+    },
+    {
       "id": "goi-dien-ho-tro-ky-thuat",
       "title": "Gọi tổng đài hỗ trợ kỹ thuật",
       "topic": "Hỗ trợ sự cố internet tại nhà",
@@ -442,6 +450,14 @@
       "turns": 14
     },
     {
+      "id": "unity-ui-va-canvas",
+      "title": "Phỏng vấn về UI và Canvas đa độ phân giải",
+      "topic": "UI Unity phản hồi theo màn hình",
+      "level": "B1",
+      "summary": "Bạn tham gia phỏng vấn vị trí phát triển Unity và giải thích cách làm giao diện hoạt động tốt trên nhiều màn hình. Bài học tập trung vào Canvas, neo vị trí và kiểm thử bố cục.",
+      "turns": 16
+    },
+    {
       "id": "phong-van-xin-viec",
       "title": "Phỏng vấn xin việc vòng đầu",
       "topic": "Phỏng vấn xin việc",
@@ -480,6 +496,14 @@
       "level": "B1",
       "summary": "Bạn trình bày một ý tưởng sản phẩm trong ba phút trước trưởng phòng sản phẩm. Sau đó, bạn trả lời câu hỏi về lợi ích, bằng chứng, rủi ro và nguồn lực cần thiết.",
       "turns": 14
+    },
+    {
+      "id": "unity-khai-niem-co-ban",
+      "title": "Unity căn bản: GameObject, Component, Prefab và Scene",
+      "topic": "Khái niệm Unity cơ bản",
+      "level": "B1",
+      "summary": "Bạn tham gia một buổi phỏng vấn ngắn với kỹ sư Unity. Bạn giải thích các khái niệm nền tảng và đưa ví dụ từ dự án game platform.",
+      "turns": 17
     },
     {
       "id": "thue-nha-va-ky-hop-dong",
@@ -530,6 +554,14 @@
       "turns": 16
     },
     {
+      "id": "unity-debug-crash-kho",
+      "title": "Debug crash và bug khó tái hiện trên thiết bị thật",
+      "topic": "Gỡ lỗi crash trên thiết bị thật",
+      "level": "B2",
+      "summary": "Bạn tham gia một buổi phỏng vấn kỹ thuật và trình bày cách điều tra một lỗi crash chỉ xảy ra không ổn định trên điện thoại thật. Bạn cần mô tả rõ hiện tượng, giả thuyết, thử nghiệm và kết quả cuối cùng.",
+      "turns": 16
+    },
+    {
       "id": "dam-phan-gia-nha-cung-cap",
       "title": "Đàm phán giá với nhà cung cấp",
       "topic": "Thương lượng giá và điều khoản mua hàng",
@@ -559,6 +591,14 @@
       "topic": "Thuyết phục bằng câu chuyện cá nhân",
       "level": "B2",
       "summary": "Bạn trình bày trước một nhóm khán giả nhỏ để xin ủng hộ dự án khu vườn cộng đồng. Bạn dùng một câu chuyện cụ thể, phản hồi băn khoăn và đề xuất một bước đi thực tế.",
+      "turns": 16
+    },
+    {
+      "id": "unity-lam-viec-voi-artist",
+      "title": "Làm việc với artist và designer: quy trình asset và kiểm soát phiên bản",
+      "topic": "Phối hợp asset trong dự án Unity",
+      "level": "B2",
+      "summary": "Bạn là lập trình viên Unity trao đổi với Producer về việc artist và designer gửi asset không đồng nhất. Hai bên thương lượng một quy trình rõ ràng để tránh lỗi và chậm tiến độ.",
       "turns": 16
     },
     {
@@ -594,6 +634,14 @@
       "turns": 16
     },
     {
+      "id": "unity-animation-state-machine",
+      "title": "Phỏng vấn kỹ sư Unity: Animator, State Machine và Blend Tree",
+      "topic": "Animator, state machine và blend tree",
+      "level": "B2",
+      "summary": "Bạn đang phỏng vấn vị trí lập trình Unity với một kỹ sư. Bạn cần giải thích cách thiết kế Animator, bảo vệ lựa chọn kỹ thuật và thương lượng giữa độ mượt của chuyển động với khả năng phản hồi điều khiển.",
+      "turns": 16
+    },
+    {
       "id": "phong-van-ky-thuat",
       "title": "Phỏng vấn kỹ thuật: Giải thích giải pháp và đánh đổi",
       "topic": "Trình bày giải pháp kỹ thuật",
@@ -602,11 +650,35 @@
       "turns": 16
     },
     {
+      "id": "unity-physics-va-collision",
+      "title": "Phỏng vấn Unity: Collider, Rigidbody, Raycast và Layer",
+      "topic": "Vật lý và va chạm trong Unity",
+      "level": "B2",
+      "summary": "Bạn tham gia một buổi phỏng vấn cho vị trí lập trình viên Unity. Bạn cần giải thích và bảo vệ các quyết định kỹ thuật về collider, rigidbody, raycast và layer.",
+      "turns": 16
+    },
+    {
       "id": "phong-van-nguoi-khac",
       "title": "Phỏng vấn ứng viên",
       "topic": "Bạn là người phỏng vấn",
       "level": "B2",
       "summary": "Bạn đóng vai người phỏng vấn một ứng viên đang hơi hồi hộp. Bạn sẽ đặt câu hỏi, khai thác kinh nghiệm và kết thúc buổi phỏng vấn một cách chuyên nghiệp.",
+      "turns": 16
+    },
+    {
+      "id": "unity-quan-ly-bo-nho",
+      "title": "Quản lý bộ nhớ, thu gom rác và tái sử dụng đối tượng trong Unity",
+      "topic": "Tối ưu bộ nhớ trong Unity",
+      "level": "B2",
+      "summary": "Bạn trao đổi với technical lead về các đợt giật khung hình do garbage collection trong game Unity. Hai người phân tích nguyên nhân, tranh luận về object pooling và thống nhất kế hoạch xử lý.",
+      "turns": 16
+    },
+    {
+      "id": "unity-shader-va-do-hoa",
+      "title": "Shader, URP và ánh sáng trong game",
+      "topic": "Shader, URP và ánh sáng game",
+      "level": "B2",
+      "summary": "Bạn trao đổi với một technical artist về việc cải thiện ánh sáng và vật liệu cho cảnh rừng trong game di động. Cuộc hội thoại đi từ chẩn đoán vấn đề đến thương lượng giữa chất lượng hình ảnh và hiệu năng.",
       "turns": 16
     },
     {
@@ -634,6 +706,22 @@
       "turns": 16
     },
     {
+      "id": "unity-toi-uu-mobile",
+      "title": "Tối ưu game mobile: pin, nhiệt độ và dung lượng build",
+      "topic": "Tối ưu hiệu năng game mobile",
+      "level": "B2",
+      "summary": "Bạn là lập trình viên Unity trao đổi với Producer về các vấn đề pin, nhiệt độ máy và dung lượng bản build trước khi phát hành. Bạn cần nêu đánh đổi kỹ thuật, phản biện hợp lý và chốt kế hoạch ưu tiên.",
+      "turns": 16
+    },
+    {
+      "id": "unity-toi-uu-hieu-nang",
+      "title": "Tối ưu hiệu năng Unity: Draw Call, Batching và Profiler",
+      "topic": "Tìm và xử lý nút thắt hiệu năng",
+      "level": "B2",
+      "summary": "Người học trao đổi với technical lead về hiện tượng giật khung hình trong một khu chợ của game. Họ mô tả quy trình dùng Profiler và Frame Debugger để tìm nút thắt, sau đó đề xuất giải pháp batching hợp lý.",
+      "turns": 16
+    },
+    {
       "id": "tranh-luan-van-de-xa-hoi",
       "title": "Tranh luận về làm việc từ xa và cân bằng cuộc sống",
       "topic": "Làm việc từ xa và cân bằng cuộc sống",
@@ -658,6 +746,14 @@
       "turns": 16
     },
     {
+      "id": "unity-vong-doi-monobehaviour",
+      "title": "Vòng đời MonoBehaviour: chọn đúng Update, FixedUpdate và LateUpdate",
+      "topic": "Phỏng vấn Unity về vòng đời MonoBehaviour",
+      "level": "B2",
+      "summary": "Bạn đóng vai ứng viên Unity trong một buổi phỏng vấn kỹ thuật. Bạn cần giải thích vòng đời MonoBehaviour và bảo vệ lựa chọn giữa Update, FixedUpdate và LateUpdate trong các tình huống thực tế.",
+      "turns": 16
+    },
+    {
       "id": "xin-loi-khach-hang-lon",
       "title": "Xin lỗi khách hàng lớn sau một sự cố nghiêm trọng",
       "topic": "Xử lý khủng hoảng với khách hàng doanh nghiệp",
@@ -671,6 +767,14 @@
       "topic": "Xử lý bất đồng trong nhóm",
       "level": "B2",
       "summary": "Bạn nói chuyện với một đồng nghiệp đang bực bội vì phần việc của họ bị thay đổi mà không được hỏi trước. Bạn sẽ thể hiện sự thấu cảm, tìm nguyên nhân và cùng họ thống nhất một giải pháp rõ ràng.",
+      "turns": 16
+    },
+    {
+      "id": "unity-kien-truc-code-game",
+      "title": "Bảo vệ kiến trúc code game trước technical lead",
+      "topic": "ScriptableObject, event và tách lớp trong Unity",
+      "level": "C1",
+      "summary": "Bạn trình bày một thiết kế Unity trước technical lead khó tính. Bạn cần giải thích rõ các đánh đổi giữa ScriptableObject, event và lời gọi trực tiếp thay vì chỉ liệt kê pattern.",
       "turns": 16
     },
     {
@@ -720,6 +824,14 @@
       "level": "C1",
       "summary": "Bạn đóng vai người kèm cặp, trao đổi thẳng thắn với một nhân viên sau cuộc gọi khách hàng chưa thành công. Bạn học cách nêu tác động, chỉ ra hành vi cụ thể và cùng họ lập kế hoạch cải thiện.",
       "turns": 18
+    },
+    {
+      "id": "unity-multiplayer-dong-bo",
+      "title": "Multiplayer: Đồng bộ trạng thái, độ trễ và dự đoán",
+      "topic": "Multiplayer networking",
+      "level": "C1",
+      "summary": "Bạn trao đổi với kỹ sư backend game về hiện tượng nhân vật bị giật trong một trò chơi Unity nhiều người chơi. Cuộc nói chuyện đi từ chẩn đoán độ trễ đến thống nhất cách dùng đồng bộ trạng thái, nội suy và dự đoán phía máy khách.",
+      "turns": 16
     },
     {
       "id": "phat-bieu-nhan-giai",

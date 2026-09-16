@@ -5,6 +5,7 @@ import { asrSupported } from './mic.js';
 import * as store from './store.js';
 import { renderPrep, renderDrill, renderListen, renderQuiz, esc } from './lesson.js';
 import { createRoleplay } from './roleplay.js';
+import { renderMindmap } from './mindmap.js';
 import { buildPrompt, buildCommand, slugify } from './prompt.js';
 
 const $ = sel => document.querySelector(sel);
@@ -74,7 +75,7 @@ async function refreshLibrary() {
 async function openLesson(id) {
   showView('lesson');
   $('#lsTitle').textContent = 'Đang tải…';
-  ['prep', 'drill', 'listen', 'quiz'].forEach(p => { $(`#pane-${p}`).innerHTML = ''; });
+  ['prep', 'drill', 'listen', 'quiz', 'map'].forEach(p => { $(`#pane-${p}`).innerHTML = ''; });
   $('#chatLog').innerHTML = '';
 
   let lesson;
@@ -95,6 +96,7 @@ async function openLesson(id) {
   renderDrill($('#pane-drill'), lesson, setScore);
   renderListen($('#pane-listen'), lesson);
   renderQuiz($('#pane-quiz'), lesson);
+  renderMindmap($('#pane-map'), lesson);
 
   const roleplay = createRoleplay({
     lesson,

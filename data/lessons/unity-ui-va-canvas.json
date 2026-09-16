@@ -1,0 +1,386 @@
+{
+  "id": "unity-ui-va-canvas",
+  "title": "Phỏng vấn về UI và Canvas đa độ phân giải",
+  "topic": "UI Unity phản hồi theo màn hình",
+  "level": "B1",
+  "summary": "Bạn tham gia phỏng vấn vị trí phát triển Unity và giải thích cách làm giao diện hoạt động tốt trên nhiều màn hình. Bài học tập trung vào Canvas, neo vị trí và kiểm thử bố cục.",
+  "goals": [
+    "Trình bày kinh nghiệm làm giao diện Unity bằng câu tự nhiên.",
+    "Giải thích lý do chọn thiết lập Canvas và độ phân giải tham chiếu.",
+    "Mô tả cách xử lý lỗi bố cục trên các thiết bị khác nhau."
+  ],
+  "vocab": [
+    {
+      "en": "Canvas",
+      "ipa": "/ˈkænvəs/",
+      "vi": "thành phần gốc quản lý giao diện trong Unity",
+      "example": "The Canvas contains all the menu elements."
+    },
+    {
+      "en": "Canvas Scaler",
+      "ipa": "/ˈkænvəs ˈskeɪlər/",
+      "vi": "thành phần điều chỉnh tỉ lệ giao diện theo màn hình",
+      "example": "The Canvas Scaler keeps the menu readable."
+    },
+    {
+      "en": "reference resolution",
+      "ipa": "/ˈrefərəns ˌrezəˈluːʃən/",
+      "vi": "độ phân giải tham chiếu",
+      "example": "We chose a reference resolution for mobile screens."
+    },
+    {
+      "en": "anchor",
+      "ipa": "/ˈæŋkər/",
+      "vi": "điểm neo, giúp giữ vị trí phần tử theo màn hình",
+      "example": "The button has anchors near the bottom edge."
+    },
+    {
+      "en": "pivot",
+      "ipa": "/ˈpɪvət/",
+      "vi": "điểm xoay hoặc điểm gốc khi phần tử thay đổi kích thước",
+      "example": "The pivot controls how the panel expands."
+    },
+    {
+      "en": "responsive",
+      "ipa": "/rɪˈspɑːnsɪv/",
+      "vi": "tự thích ứng tốt với các kích thước màn hình",
+      "example": "We need a responsive layout for tablets."
+    },
+    {
+      "en": "layout",
+      "ipa": "/ˈleɪaʊt/",
+      "vi": "bố cục",
+      "example": "The layout looks clean on smaller phones."
+    },
+    {
+      "en": "safe area",
+      "ipa": "/seɪf ˈeriə/",
+      "vi": "vùng hiển thị an toàn, tránh tai thỏ hoặc vùng điều khiển hệ thống",
+      "example": "Keep important buttons inside the safe area."
+    },
+    {
+      "en": "proportionate",
+      "ipa": "/prəˈpɔːrʃənət/",
+      "vi": "cân đối về tỉ lệ",
+      "example": "The icons remain proportionate on every screen."
+    },
+    {
+      "en": "readability",
+      "ipa": "/ˌriːdəˈbɪləti/",
+      "vi": "độ dễ đọc",
+      "example": "Good contrast improves readability."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I start with ___ and then ___.",
+      "vi": "Tôi bắt đầu với ___ rồi ___.",
+      "note": "Dùng để mô tả các bước xử lý theo trình tự."
+    },
+    {
+      "en": "I usually choose ___ because ___.",
+      "vi": "Tôi thường chọn ___ vì ___.",
+      "note": "Dùng để nêu lựa chọn và lý do chuyên môn."
+    },
+    {
+      "en": "How would you ___ if ___?",
+      "vi": "Bạn sẽ ___ như thế nào nếu ___?",
+      "note": "Câu hỏi tình huống thường gặp trong phỏng vấn."
+    },
+    {
+      "en": "Anchors keep ___, while pivots ___.",
+      "vi": "Anchor giữ ___, trong khi pivot ___.",
+      "note": "Dùng while để đối chiếu hai chức năng."
+    },
+    {
+      "en": "I would use ___ so that ___.",
+      "vi": "Tôi sẽ dùng ___ để ___.",
+      "note": "Dùng để đề xuất giải pháp và kết quả mong muốn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /æ/",
+      "tip": "Mở miệng rộng hơn âm e tiếng Việt, hạ hàm và phát âm ngắn.",
+      "words": [
+        "Canvas",
+        "anchor",
+        "panel"
+      ]
+    },
+    {
+      "focus": "âm /θ/ ở cuối từ",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi; không đọc thành âm t hoặc s.",
+      "words": [
+        "width",
+        "both",
+        "smooth"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm đầu /sk/ và /skr/",
+      "tip": "Đọc nhanh các phụ âm liền nhau, không chèn âm ơ ở giữa.",
+      "words": [
+        "scale",
+        "screen",
+        "screenshot"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The Canvas adapt for all resolutions.",
+      "right": "The Canvas adapts to all resolutions.",
+      "vi": "Chủ ngữ số ít Canvas cần động từ adapts, và dùng adapt to."
+    },
+    {
+      "wrong": "I use Scale With Screen Size for keep the user interface proportional.",
+      "right": "I use Scale With Screen Size to keep the user interface proportional.",
+      "vi": "Sau for không dùng động từ nguyên mẫu trong cấu trúc này; dùng to keep để chỉ mục đích."
+    },
+    {
+      "wrong": "The button is too small in a tablet.",
+      "right": "The button is too small on a tablet.",
+      "vi": "Dùng on a tablet hoặc on tablets khi nói về màn hình thiết bị."
+    },
+    {
+      "wrong": "The user interface is stretch on wide screens.",
+      "right": "The user interface stretches on wide screens.",
+      "vi": "Cần động từ stretches ở dạng hiện tại đơn, không dùng is stretch."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi về thiết bị cần ưu tiên kiểm thử",
+      "formal": "Could you clarify which devices you would prioritize for testing?",
+      "casual": "Which devices would you test first?",
+      "vi": "Câu trang trọng phù hợp khi hỏi người phỏng vấn hoặc quản lý; câu thân mật hợp với đồng nghiệp quen trong lúc trao đổi nhanh."
+    },
+    {
+      "situation": "Giải thích lý do chọn chế độ co giãn",
+      "formal": "I selected this scaling mode because it preserves the intended proportions.",
+      "casual": "I picked this mode because it keeps things in proportion.",
+      "vi": "Câu trang trọng phù hợp trong phỏng vấn hoặc báo cáo; câu thân mật phù hợp khi nói chuyện trong nhóm gần gũi."
+    },
+    {
+      "situation": "Đề xuất dùng anchor",
+      "formal": "I would recommend using anchors to keep the element in the correct position.",
+      "casual": "I would use anchors so the element stays where it should.",
+      "vi": "Câu trang trọng dùng khi đưa khuyến nghị cho cấp trên hoặc khách hàng; câu thân mật dùng khi góp ý cho đồng nghiệp."
+    },
+    {
+      "situation": "Chưa đủ dữ liệu để quyết định",
+      "formal": "I would need to test it on a wider range of resolutions before deciding.",
+      "casual": "I would test more screen sizes before I decide.",
+      "vi": "Câu trang trọng thể hiện sự thận trọng trong phỏng vấn; câu thân mật tự nhiên hơn trong thảo luận nội bộ."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, câu trả lời thường được đánh giá cao hơn khi có ví dụ cụ thể và lý do, thay vì chỉ nói biết hoặc đã làm.",
+    "Nếu chưa hiểu yêu cầu, việc hỏi lại để làm rõ thường được xem là chuyên nghiệp, không phải thiếu năng lực.",
+    "Người phỏng vấn có thể hỏi thẳng về điểm yếu của giải pháp. Bạn nên bình tĩnh nêu đánh đổi và cách kiểm thử thay vì cố khẳng định giải pháp hoàn hảo."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ người kiểm thử giao diện",
+    "passage": "Hi team, I have finished reviewing the shop screen on several phones and tablets. On the smallest phone, the purchase button was close to the bottom edge, so I moved it into the safe area. The text still looks clear because we used flexible font settings. Before release, please test the screen in landscape mode and report any overlapping icons.",
+    "vi": "Chào cả nhóm, tôi đã hoàn tất việc xem xét màn hình cửa hàng trên một số điện thoại và máy tính bảng. Trên điện thoại nhỏ nhất, nút mua hàng nằm gần mép dưới nên tôi đã chuyển nó vào vùng an toàn. Chữ vẫn rõ vì chúng ta đã dùng thiết lập phông chữ linh hoạt. Trước khi phát hành, hãy kiểm tra màn hình ở chế độ ngang và báo lại nếu có biểu tượng nào chồng lên nhau.",
+    "questions": [
+      {
+        "q": "What did the tester move into the safe area?",
+        "choices": [
+          "The purchase button",
+          "The text settings",
+          "The overlapping icons"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là nút mua hàng, vì đoạn nghe nói nút này quá gần mép dưới và đã được chuyển vào vùng an toàn."
+      },
+      {
+        "q": "Why does the text still look clear?",
+        "choices": [
+          "The screen is larger",
+          "Flexible font settings were used",
+          "The icons were removed"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là thiết lập phông chữ linh hoạt, được nêu là lý do chữ vẫn rõ."
+      },
+      {
+        "q": "What should the team test before release?",
+        "choices": [
+          "A new shop screen",
+          "More purchase buttons",
+          "The screen in landscape mode"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là kiểm tra màn hình ở chế độ ngang trước khi phát hành."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư phỏng vấn tại studio phát triển game Unity",
+      "b": "Ứng viên lập trình Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining us today. Could you describe your experience with Unity user interfaces?",
+        "vi": "Cảm ơn bạn đã tham gia hôm nay. Bạn có thể mô tả kinh nghiệm của mình với giao diện người dùng trong Unity không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have built menus and game screens for two small mobile projects.",
+        "vi": "Tôi đã xây dựng menu và màn hình trò chơi cho hai dự án di động nhỏ.",
+        "hint": "Dùng hiện tại hoàn thành để nói kinh nghiệm đến nay."
+      },
+      {
+        "speaker": "a",
+        "en": "What do you check first when a screen needs to work on different devices?",
+        "vi": "Bạn kiểm tra điều gì đầu tiên khi một màn hình cần hoạt động trên các thiết bị khác nhau?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I start with the Canvas settings and test the layout at several resolutions.",
+        "vi": "Tôi bắt đầu với thiết lập Canvas và kiểm tra bố cục ở một số độ phân giải.",
+        "hint": "Bắt đầu bằng I start with, rồi nối bằng and."
+      },
+      {
+        "speaker": "a",
+        "en": "Which Canvas scaling mode have you used, and why did you choose it?",
+        "vi": "Bạn đã dùng chế độ co giãn Canvas nào, và tại sao bạn chọn nó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I usually choose Scale With Screen Size because it keeps elements proportionate.",
+        "vi": "Tôi thường chọn Scale With Screen Size vì nó giữ các phần tử cân đối về tỉ lệ.",
+        "hint": "Nêu lựa chọn rồi giải thích bằng because."
+      },
+      {
+        "speaker": "a",
+        "en": "How do you decide on the reference resolution for a new project?",
+        "vi": "Bạn quyết định độ phân giải tham chiếu cho một dự án mới như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I choose the main target device, then check whether smaller screens still feel usable.",
+        "vi": "Tôi chọn thiết bị mục tiêu chính, rồi kiểm tra xem màn hình nhỏ hơn có còn dễ dùng không.",
+        "hint": "Dùng whether để nói điều cần kiểm tra."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose a button moves on a narrow phone. How would you investigate that issue?",
+        "vi": "Giả sử một nút bị lệch trên điện thoại màn hình hẹp. Bạn sẽ điều tra vấn đề đó thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "First, I would check its anchors, parent layout, and Canvas Scaler settings.",
+        "vi": "Đầu tiên, tôi sẽ kiểm tra anchor, bố cục phần tử cha và thiết lập Canvas Scaler.",
+        "hint": "Dùng would để trả lời tình huống giả định."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a good start. What would you change if text became too small?",
+        "vi": "Đó là một khởi đầu tốt. Bạn sẽ thay đổi gì nếu chữ trở nên quá nhỏ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would review font size and scaling, then set reasonable limits for readability.",
+        "vi": "Tôi sẽ xem lại cỡ chữ và tỉ lệ, rồi đặt các giới hạn hợp lý để dễ đọc.",
+        "hint": "Dùng then để nối hai bước xử lý."
+      },
+      {
+        "speaker": "a",
+        "en": "Can you explain how anchors and pivots help a responsive layout behave consistently?",
+        "vi": "Bạn có thể giải thích anchor và pivot giúp bố cục thích ứng hoạt động ổn định như thế nào không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Anchors keep elements tied to screen edges, while pivots control how they expand.",
+        "vi": "Anchor giữ các phần tử gắn theo mép màn hình, trong khi pivot điều khiển cách chúng mở rộng.",
+        "hint": "Dùng while để đối chiếu hai chức năng."
+      },
+      {
+        "speaker": "a",
+        "en": "How would you balance visual consistency with extra space on a wide tablet screen?",
+        "vi": "Bạn sẽ cân bằng sự nhất quán hình ảnh với khoảng trống trên màn hình máy tính bảng rộng như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would use flexible layouts and safe margins, so the interface does not look stretched.",
+        "vi": "Tôi sẽ dùng bố cục linh hoạt và lề an toàn để giao diện không bị kéo giãn.",
+        "hint": "Dùng so để nêu kết quả mong muốn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, friendly engineering interviewer at a Unity game studio. You are interviewing a candidate about responsive user interfaces, Canvas settings, and testing across screen sizes. Ask practical follow-up questions and give brief, professional feedback.",
+    "opener": "Thanks for coming in today. Could you tell me about your experience with Unity user interfaces?",
+    "goal": "Người học trả lời phỏng vấn, giải thích cách thiết kế UI Unity thích ứng với nhiều độ phân giải."
+  },
+  "drills": [
+    {
+      "vi": "Tôi bắt đầu với thiết lập Canvas rồi kiểm tra bố cục.",
+      "en": "I start with the Canvas settings and then test the layout.",
+      "alts": [
+        "First, I check the Canvas settings, then I test the layout."
+      ]
+    },
+    {
+      "vi": "Tôi thường chọn chế độ này vì nó giữ các phần tử cân đối.",
+      "en": "I usually choose this mode because it keeps the elements proportionate.",
+      "alts": [
+        "I choose this mode because the elements stay in proportion."
+      ]
+    },
+    {
+      "vi": "Bạn sẽ làm gì nếu nút nằm quá gần mép màn hình?",
+      "en": "What would you do if the button was too close to the screen edge?",
+      "alts": [
+        "How would you fix a button near the screen edge?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ kiểm tra anchor của nút và bố cục phần tử cha.",
+      "en": "I would check the button's anchors and the parent layout.",
+      "alts": [
+        "First, I would review the button anchors and its parent layout."
+      ]
+    },
+    {
+      "vi": "Anchor giữ phần tử theo mép màn hình.",
+      "en": "Anchors keep elements tied to the screen edges.",
+      "alts": [
+        "Anchors help elements stay near the screen edges."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ dùng lề an toàn để giao diện không bị kéo giãn.",
+      "en": "I would use safe margins so that the interface does not look stretched.",
+      "alts": [
+        "I would add safe margins to avoid a stretched interface."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần kiểm tra màn hình ở nhiều độ phân giải trước khi phát hành.",
+      "en": "We need to test the screen at several resolutions before release.",
+      "alts": [
+        "Before release, we should test several screen resolutions."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời của bạn cho tám lượt vai ứng viên và tự kiểm tra phát âm Canvas, anchor, width.",
+    "Viết ba câu giải thích lý do chọn Canvas Scaler bằng mẫu I usually choose ... because ....",
+    "Mở một dự án Unity, quan sát một màn hình ở ba kích thước khác nhau và mô tả hai thay đổi cần thiết bằng tiếng Anh."
+  ]
+}

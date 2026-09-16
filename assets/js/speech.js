@@ -41,21 +41,36 @@ export function loadVoices() {
 
 export function getVoices() { return voices; }
 
-function pickVoice() {
+function pickVoice(uri) {
   if (!voices.length) return null;
-  return voices.find(v => v.voiceURI === settings.voiceURI)
+  return (uri && voices.find(v => v.voiceURI === uri))
+    || voices.find(v => v.voiceURI === settings.voiceURI)
     || voices.find(v => v.lang === settings.asrLang)
     || voices.find(v => /en-US/i.test(v.lang))
     || voices[0];
 }
 
+/**
+ * Hai giọng khác nhau cho hai vai hội thoại. Trả về [giọng vai A, giọng vai B];
+ * máy chỉ có một giọng tiếng Anh thì cả hai vai dùng chung, phân biệt bằng tốc độ.
+ */
+export function voicePair() {
+  const mine = pickVoice();
+  if (voices.length < 2) return [mine?.voiceURI || '', mine?.voiceURI || ''];
+  // Ưu tiên giọng khác giới tính hoặc khác tên hẳn để tai dễ phân biệt.
+  const other = voices.find(v => v.voiceURI !== mine.voiceURI && v.lang === mine.lang)
+    || voices.find(v => v.voiceURI !== mine.voiceURI);
+  return [mine.voiceURI, other.voiceURI];
+}
+
 /** Speak `text`; resolves when playback ends (or immediately if TTS is missing). */
-export function speak(text, { rate } = {}) {
+export function speak(text, { rate, voiceURI, pitch } = {}) {
   return new Promise(resolve => {
     if (!('speechSynthesis' in window) || !text) return resolve();
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    const v = pickVoice();
+    if (pitch) u.pitch = pitch;
+    const v = pickVoice(voiceURI);
     if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = settings.asrLang; }
     u.rate = rate ?? settings.rate;
     u.onend = resolve;

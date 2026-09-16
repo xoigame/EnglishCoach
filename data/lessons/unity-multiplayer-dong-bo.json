@@ -1,0 +1,386 @@
+{
+  "id": "unity-multiplayer-dong-bo",
+  "title": "Multiplayer: Đồng bộ trạng thái, độ trễ và dự đoán",
+  "topic": "Multiplayer networking",
+  "level": "C1",
+  "summary": "Bạn trao đổi với kỹ sư backend game về hiện tượng nhân vật bị giật trong một trò chơi Unity nhiều người chơi. Cuộc nói chuyện đi từ chẩn đoán độ trễ đến thống nhất cách dùng đồng bộ trạng thái, nội suy và dự đoán phía máy khách.",
+  "goals": [
+    "Mô tả chính xác các vấn đề đồng bộ trong game nhiều người chơi.",
+    "Đề xuất và phản biện giải pháp giảm cảm giác độ trễ một cách tự nhiên.",
+    "Linh hoạt chuyển giữa cách nói kỹ thuật trang trọng và trao đổi thân mật với đồng nghiệp."
+  ],
+  "vocab": [
+    {
+      "en": "state synchronization",
+      "ipa": "/steɪt ˌsɪŋkrənaɪˈzeɪʃən/",
+      "vi": "đồng bộ trạng thái",
+      "example": "State synchronization keeps every player looking at roughly the same world."
+    },
+    {
+      "en": "latency",
+      "ipa": "/ˈleɪtənsi/",
+      "vi": "độ trễ",
+      "example": "High latency is noticeable when players change direction quickly."
+    },
+    {
+      "en": "round-trip time",
+      "ipa": "/ˌraʊnd trɪp ˈtaɪm/",
+      "vi": "thời gian tín hiệu đi và về giữa máy khách và máy chủ",
+      "example": "We should measure round-trip time before blaming the rendering code."
+    },
+    {
+      "en": "client-side prediction",
+      "ipa": "/ˈklaɪənt saɪd prɪˈdɪkʃən/",
+      "vi": "dự đoán ở phía máy khách",
+      "example": "Client-side prediction makes local movement feel immediate."
+    },
+    {
+      "en": "server authority",
+      "ipa": "/ˈsɜːrvər əˈθɔːrəti/",
+      "vi": "quyền quyết định cuối cùng của máy chủ",
+      "example": "Server authority prevents clients from deciding their own damage values."
+    },
+    {
+      "en": "reconciliation",
+      "ipa": "/ˌrekənsɪliˈeɪʃən/",
+      "vi": "đối chiếu và điều chỉnh lại trạng thái dự đoán với trạng thái máy chủ",
+      "example": "Reconciliation corrects the client when its prediction differs from the server."
+    },
+    {
+      "en": "interpolation",
+      "ipa": "/ɪnˌtɜːrpəˈleɪʃən/",
+      "vi": "nội suy giữa các trạng thái",
+      "example": "Interpolation smooths the movement of remote players."
+    },
+    {
+      "en": "jitter",
+      "ipa": "/ˈdʒɪtər/",
+      "vi": "sự dao động thất thường của độ trễ hoặc dữ liệu mạng",
+      "example": "Even moderate latency can feel bad when jitter is high."
+    },
+    {
+      "en": "packet loss",
+      "ipa": "/ˈpækɪt lɔːs/",
+      "vi": "mất gói tin",
+      "example": "Packet loss can make a character appear to snap backward."
+    },
+    {
+      "en": "rubber-banding",
+      "ipa": "/ˈrʌbər ˌbændɪŋ/",
+      "vi": "hiện tượng nhân vật bị kéo giật về vị trí cũ",
+      "example": "Players reported rubber-banding during busy matches."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "We are seeing ___ under heavy load.",
+      "vi": "Chúng tôi đang thấy hiện tượng ___ khi tải cao.",
+      "note": "Dùng để báo cáo một vấn đề kỹ thuật dựa trên quan sát, nghe chuyên nghiệp hơn We have."
+    },
+    {
+      "en": "Could the issue be caused by ___?",
+      "vi": "Liệu vấn đề có thể do ___ gây ra không?",
+      "note": "Cách nêu giả thuyết thận trọng khi chưa đủ bằng chứng."
+    },
+    {
+      "en": "I would rather ___ than ___.",
+      "vi": "Tôi muốn ưu tiên ___ hơn là ___.",
+      "note": "Dùng để nêu lựa chọn kỹ thuật có đối chiếu rõ ràng."
+    },
+    {
+      "en": "The client should feel responsive, even if ___.",
+      "vi": "Máy khách vẫn nên phản hồi tức thì, ngay cả khi ___.",
+      "note": "Hữu ích khi giải thích sự đánh đổi giữa trải nghiệm người chơi và tính chính xác."
+    },
+    {
+      "en": "Let us validate that assumption before we roll it out.",
+      "vi": "Hãy kiểm chứng giả định đó trước khi triển khai rộng.",
+      "note": "Giọng điệu hợp tác, phù hợp khi trao đổi với đồng nghiệp hoặc trong cuộc họp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong latency và authority",
+      "tip": "Nhấn âm đầu ở latency và âm thứ hai ở authority. Không đọc đều từng âm tiết.",
+      "words": [
+        "latency",
+        "authority",
+        "interpolation"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm trong client-side prediction",
+      "tip": "Nối client với side nhẹ nhàng; không thêm nguyên âm giữa các phụ âm.",
+      "words": [
+        "client-side",
+        "prediction",
+        "packet"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong synchronization và authority",
+      "tip": "Đưa đầu lưỡi nhẹ giữa hai răng và thổi hơi; tránh thay bằng âm /t/ hoặc /s/.",
+      "words": [
+        "synchronization",
+        "authority",
+        "with"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The state is not synchronize between clients.",
+      "right": "The state is not synchronized between clients.",
+      "vi": "Sau is cần dùng quá khứ phân từ synchronized để mô tả trạng thái đã được đồng bộ."
+    },
+    {
+      "wrong": "We need reduce the latency.",
+      "right": "We need to reduce latency.",
+      "vi": "Sau need dùng to cộng động từ. Khi nói chung về độ trễ, latency thường không cần mạo từ the."
+    },
+    {
+      "wrong": "The server have the final authority.",
+      "right": "The server has the final authority.",
+      "vi": "Chủ ngữ số ít the server đi với has."
+    },
+    {
+      "wrong": "We should make prediction in client side.",
+      "right": "We should use client-side prediction.",
+      "vi": "Client-side là tính từ có gạch nối trước danh từ prediction; dùng use nghe tự nhiên hơn make prediction trong ngữ cảnh này."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất kiểm tra một giả thuyết kỹ thuật",
+      "formal": "Could we verify whether packet loss is contributing to the issue?",
+      "casual": "Can we check if packet loss is part of the problem?",
+      "vi": "Câu formal phù hợp trong buổi review, email hoặc khi nói với người chưa thân. Câu casual hợp với đồng đội trong cuộc gọi hoặc chat hằng ngày."
+    },
+    {
+      "situation": "Nêu ưu tiên về giải pháp",
+      "formal": "I would recommend client-side prediction for local movement.",
+      "casual": "I would go with client-side prediction for local movement.",
+      "vi": "Recommend trang trọng và có tính tư vấn hơn. Go with tự nhiên trong trao đổi nhanh giữa các đồng nghiệp."
+    },
+    {
+      "situation": "Yêu cầu kiểm chứng trước khi phát hành",
+      "formal": "We should validate the change in a controlled test before deployment.",
+      "casual": "Let us test it properly before we ship it.",
+      "vi": "Câu formal dùng trong kế hoạch hoặc báo cáo. Ship it thân mật, rất phổ biến trong môi trường phát triển sản phẩm."
+    },
+    {
+      "situation": "Báo cáo một lỗi quan sát được",
+      "formal": "We have observed noticeable jitter in remote-player movement.",
+      "casual": "Remote players are looking pretty jittery.",
+      "vi": "Câu formal phù hợp khi báo cáo bằng văn bản hoặc với quản lý. Câu casual dùng khi trao đổi trực tiếp với đội kỹ thuật."
+    }
+  ],
+  "culture": [
+    "Trong các đội phát triển game nói tiếng Anh, mọi người thường nêu thẳng giả thuyết rồi kèm mức độ chắc chắn, như I think hoặc Could it be. Đây thường được xem là hợp tác, không phải thiếu tự tin.",
+    "Khi bất đồng về giải pháp, đồng nghiệp bản xứ thường nói rõ trade-off thay vì chỉ nói một cách chung chung rằng giải pháp kia không tốt. Việc thừa nhận nhược điểm của phương án mình chọn tạo cảm giác đáng tin cậy.",
+    "Trong cuộc họp kỹ thuật, câu hỏi ngắn như What are we optimizing for? thường không phải chất vấn cá nhân; đó là cách đưa cả nhóm quay về tiêu chí quyết định chung."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau buổi thử nghiệm mạng",
+    "passage": "Hi team, I finished the network test on an unstable connection. Increasing the interpolation buffer made remote movement noticeably smoother, but it also added a small amount of visual delay. Client-side prediction kept local controls responsive. The remaining problem is occasional rubber-banding after packet loss. Tomorrow, I will compare two reconciliation settings and share the recordings with the team.",
+    "vi": "Chào cả đội, tôi đã hoàn thành thử nghiệm mạng trên một kết nối không ổn định. Việc tăng bộ đệm nội suy làm chuyển động của người chơi ở xa mượt hơn rõ rệt, nhưng cũng thêm một lượng nhỏ độ trễ hiển thị. Dự đoán phía máy khách giúp các thao tác cục bộ vẫn phản hồi tốt. Vấn đề còn lại là hiện tượng giật kéo về đôi khi xảy ra sau khi mất gói. Ngày mai, tôi sẽ so sánh hai thiết lập đối chiếu và chia sẻ bản ghi với cả đội.",
+    "questions": [
+      {
+        "q": "What improved after the interpolation buffer was increased?",
+        "choices": [
+          "Local controls",
+          "Remote movement",
+          "Packet loss"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Remote movement vì bài nghe nói increasing the interpolation buffer made remote movement noticeably smoother."
+      },
+      {
+        "q": "What is the remaining problem?",
+        "choices": [
+          "Slow local controls",
+          "Occasional rubber-banding",
+          "Missing recordings"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Occasional rubber-banding vì người nói nêu rõ vấn đề còn lại là rubber-banding after packet loss."
+      },
+      {
+        "q": "What will the speaker do tomorrow?",
+        "choices": [
+          "Deploy the change",
+          "Compare reconciliation settings",
+          "Reduce the buffer"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Compare reconciliation settings vì đoạn cuối nói Tomorrow, I will compare two reconciliation settings."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư backend game",
+      "b": "Lập trình viên Unity phía máy khách"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I saw the match recordings. Remote players are snapping quite a bit. What are you seeing on the client?",
+        "vi": "Tôi đã xem các bản ghi trận đấu. Nhân vật ở xa đang bị giật khá nhiều. Ở phía máy khách bạn đang thấy gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The local player feels fine, but other players sometimes jump backward.",
+        "vi": "Nhân vật cục bộ vẫn ổn, nhưng các người chơi khác đôi khi bị nhảy giật lùi.",
+        "hint": "Dùng local player cho nhân vật do máy của mình điều khiển; jump backward diễn tả bị giật về sau."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds like interpolation is running out of buffered states. Is the problem worse when latency spikes?",
+        "vi": "Nghe có vẻ nội suy đang hết các trạng thái đã đệm. Vấn đề có nặng hơn khi độ trễ tăng đột ngột không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. It becomes obvious during busy fights, especially when the connection has jitter.",
+        "vi": "Có. Nó trở nên rõ rệt trong các pha giao tranh đông người, đặc biệt khi kết nối có độ dao động.",
+        "hint": "Busy fights tự nhiên hơn many fights. Jitter là sự dao động thất thường của mạng."
+      },
+      {
+        "speaker": "a",
+        "en": "Then let us separate two concerns: smoothing remote players and making local input feel immediate.",
+        "vi": "Vậy hãy tách thành hai vấn đề: làm mượt người chơi ở xa và khiến thao tác cục bộ có cảm giác phản hồi ngay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "For remote players, could we keep a slightly larger buffer and interpolate between server snapshots?",
+        "vi": "Với người chơi ở xa, liệu chúng ta có thể giữ bộ đệm lớn hơn một chút và nội suy giữa các ảnh chụp trạng thái từ máy chủ không?",
+        "hint": "Could we dùng để đề xuất nhẹ nhàng. Snapshot là ảnh chụp trạng thái tại một thời điểm."
+      },
+      {
+        "speaker": "a",
+        "en": "We could, although a larger buffer makes everyone appear a little further in the past. It is a trade-off between smoothness and perceived delay.",
+        "vi": "Có thể, dù bộ đệm lớn hơn sẽ khiến mọi người trông như ở quá khứ xa hơn một chút. Đó là sự đánh đổi giữa độ mượt và độ trễ cảm nhận.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Understood. For the local character, I would rather use client-side prediction than wait for the server before moving.",
+        "vi": "Hiểu rồi. Với nhân vật cục bộ, tôi muốn ưu tiên dự đoán phía máy khách hơn là chờ máy chủ rồi mới di chuyển.",
+        "hint": "Dùng I would rather A than B để nêu ưu tiên kỹ thuật."
+      },
+      {
+        "speaker": "a",
+        "en": "I agree, provided that the server remains authoritative. The client can predict movement, but it cannot be allowed to invent its own final position.",
+        "vi": "Tôi đồng ý, miễn là máy chủ vẫn có quyền quyết định cuối cùng. Máy khách có thể dự đoán chuyển động, nhưng không được phép tự quyết vị trí cuối cùng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "So the client sends each input, simulates it locally, and later reconciles its state with the server response.",
+        "vi": "Vậy máy khách gửi từng thao tác đầu vào, tự mô phỏng tại chỗ, rồi sau đó đối chiếu trạng thái của nó với phản hồi từ máy chủ.",
+        "hint": "Simulate it locally là mô phỏng ngay trên máy người chơi. Reconcile đi với state."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. If the correction is small, blend it over a few frames. If it is large, correct it quickly so the client does not drift too far from reality.",
+        "vi": "Chính xác. Nếu mức điều chỉnh nhỏ, hãy pha mượt nó qua vài khung hình. Nếu lớn, hãy điều chỉnh nhanh để máy khách không lệch quá xa so với trạng thái thực.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could packet loss be making the corrections look harsher than they should?",
+        "vi": "Liệu mất gói tin có đang làm các lần điều chỉnh trông gắt hơn mức cần thiết không?",
+        "hint": "Could be making diễn tả nguyên nhân có thể đang tạo ra một tác động."
+      },
+      {
+        "speaker": "a",
+        "en": "Absolutely. When snapshots arrive late or out of order, the client may correct against stale data. We should record packet loss, jitter, and round-trip time together.",
+        "vi": "Chắc chắn rồi. Khi ảnh chụp trạng thái đến muộn hoặc sai thứ tự, máy khách có thể điều chỉnh dựa trên dữ liệu cũ. Chúng ta nên ghi lại mất gói, độ dao động và thời gian đi về cùng nhau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can add that telemetry and test a modest interpolation buffer. I will also log how often reconciliation exceeds a visible threshold.",
+        "vi": "Tôi có thể thêm dữ liệu đo lường đó và thử một bộ đệm nội suy vừa phải. Tôi cũng sẽ ghi lại tần suất điều chỉnh vượt ngưỡng có thể nhìn thấy.",
+        "hint": "Modest nghĩa là vừa phải, không quá mạnh tay. Telemetry là dữ liệu đo lường gửi về để theo dõi."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Let us validate the results on an unstable connection before we roll anything out. If movement stays responsive and rubber-banding drops, we will have a solid baseline.",
+        "vi": "Tốt. Hãy kiểm chứng kết quả trên kết nối không ổn định trước khi triển khai rộng. Nếu chuyển động vẫn phản hồi tốt và hiện tượng giật kéo về giảm, chúng ta sẽ có một nền tảng vững chắc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sounds good. I will share a short report after the test, including the trade-offs we observed.",
+        "vi": "Nghe ổn đấy. Tôi sẽ chia sẻ một báo cáo ngắn sau khi thử nghiệm, bao gồm cả những đánh đổi chúng ta quan sát được.",
+        "hint": "Including the trade-offs we observed giúp kết câu chuyên nghiệp và cho thấy bạn sẽ nêu cả mặt hạn chế."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a backend game engineer at a game studio. You are reviewing a multiplayer Unity build with a client programmer after players reported lag and rubber-banding. Be practical, collaborative, and technically precise, while adapting from concise team-chat language to a more formal design-review tone when needed.",
+    "opener": "I reviewed the latest multiplayer build. The movement looks responsive locally, but remote characters are still jittery. What did you find on the client?",
+    "goal": "Người học mô tả lỗi, đề xuất nội suy và dự đoán phía máy khách, rồi thống nhất một kế hoạch thử nghiệm có đo độ trễ, dao động và mất gói."
+  },
+  "drills": [
+    {
+      "vi": "Chúng tôi đang thấy hiện tượng giật kéo về khi tải cao.",
+      "en": "We are seeing rubber-banding under heavy load.",
+      "alts": [
+        "We are noticing rubber-banding when the server is under heavy load."
+      ]
+    },
+    {
+      "vi": "Liệu vấn đề có thể do mất gói tin gây ra không?",
+      "en": "Could the issue be caused by packet loss?",
+      "alts": [
+        "Could packet loss be causing this issue?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn ưu tiên dự đoán phía máy khách hơn là chờ máy chủ.",
+      "en": "I would rather use client-side prediction than wait for the server.",
+      "alts": [
+        "I would prefer client-side prediction to waiting for the server."
+      ]
+    },
+    {
+      "vi": "Máy khách vẫn nên phản hồi tức thì, ngay cả khi kết nối không ổn định.",
+      "en": "The client should feel responsive, even if the connection is unstable.",
+      "alts": [
+        "Local input should remain responsive despite an unstable connection."
+      ]
+    },
+    {
+      "vi": "Hãy kiểm chứng giả định đó trước khi triển khai rộng.",
+      "en": "Let us validate that assumption before we roll it out.",
+      "alts": [
+        "We should validate that assumption before a wider rollout."
+      ]
+    },
+    {
+      "vi": "Nội suy làm mượt chuyển động của người chơi ở xa.",
+      "en": "Interpolation smooths the movement of remote players.",
+      "alts": [
+        "We use interpolation to smooth remote-player movement."
+      ]
+    },
+    {
+      "vi": "Máy chủ phải có quyền quyết định cuối cùng.",
+      "en": "The server must retain final authority.",
+      "alts": [
+        "The server needs to remain authoritative."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại từ lượt 7 đến lượt 16, chú ý nhấn trọng âm trong latency, authority và interpolation.",
+    "Viết một ghi chú kỹ thuật ngắn bằng tiếng Anh, nêu một sự đánh đổi khi tăng interpolation buffer.",
+    "Tự đặt ba câu dùng các mẫu Could the issue be caused by, I would rather, và Let us validate."
+  ]
+}

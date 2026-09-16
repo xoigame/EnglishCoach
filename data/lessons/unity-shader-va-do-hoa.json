@@ -1,0 +1,382 @@
+{
+  "id": "unity-shader-va-do-hoa",
+  "title": "Shader, URP và ánh sáng trong game",
+  "topic": "Shader, URP và ánh sáng game",
+  "level": "B2",
+  "summary": "Bạn trao đổi với một technical artist về việc cải thiện ánh sáng và vật liệu cho cảnh rừng trong game di động. Cuộc hội thoại đi từ chẩn đoán vấn đề đến thương lượng giữa chất lượng hình ảnh và hiệu năng.",
+  "goals": [
+    "Mô tả vấn đề về ánh sáng và vật liệu trong game bằng tiếng Anh tự nhiên.",
+    "Đề xuất và phản hồi các giải pháp shader, ánh sáng và texture.",
+    "Thương lượng sự đánh đổi giữa chất lượng đồ họa và hiệu năng trên thiết bị di động."
+  ],
+  "vocab": [
+    {
+      "en": "shader",
+      "ipa": "/ˈʃeɪdər/",
+      "vi": "shader, chương trình quyết định cách bề mặt hiển thị",
+      "example": "This shader makes the leaves react to light more naturally."
+    },
+    {
+      "en": "ambient light",
+      "ipa": "/ˈæmbiənt laɪt/",
+      "vi": "ánh sáng môi trường, ánh sáng lấp đầy vùng tối",
+      "example": "Ambient light keeps the darkest areas from becoming completely black."
+    },
+    {
+      "en": "key light",
+      "ipa": "/kiː laɪt/",
+      "vi": "nguồn sáng chính tạo hướng và độ nổi khối",
+      "example": "A warm key light gives the scene a late-afternoon feeling."
+    },
+    {
+      "en": "washed out",
+      "ipa": "/wɑːʃt aʊt/",
+      "vi": "nhợt nhạt, thiếu tương phản",
+      "example": "The colors look washed out when the ambient light is too strong."
+    },
+    {
+      "en": "smoothness",
+      "ipa": "/ˈsmuːðnəs/",
+      "vi": "độ mịn và phản chiếu của bề mặt",
+      "example": "Lower the smoothness so the bark does not look like plastic."
+    },
+    {
+      "en": "normal map",
+      "ipa": "/ˈnɔːrməl mæp/",
+      "vi": "bản đồ pháp tuyến, tạo cảm giác bề mặt có chi tiết",
+      "example": "A normal map can add detail without increasing the polygon count."
+    },
+    {
+      "en": "tiling",
+      "ipa": "/ˈtaɪlɪŋ/",
+      "vi": "độ lặp của texture trên bề mặt",
+      "example": "Use a small tiling value to keep the leaf pattern believable."
+    },
+    {
+      "en": "mask texture",
+      "ipa": "/mæsk ˈtekstʃər/",
+      "vi": "texture mặt nạ để kiểm soát hiệu ứng theo từng vùng",
+      "example": "The mask texture keeps only the wet leaves shiny."
+    },
+    {
+      "en": "readable",
+      "ipa": "/ˈriːdəbəl/",
+      "vi": "dễ nhận biết, dễ nhìn rõ trong bối cảnh game",
+      "example": "The path needs to stay readable even in the shadow."
+    },
+    {
+      "en": "frame rate",
+      "ipa": "/freɪm reɪt/",
+      "vi": "tốc độ khung hình",
+      "example": "We need to protect the frame rate on older phones."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What feels off to you about ___?",
+      "vi": "Theo bạn, điểm nào ở ___ đang chưa ổn?",
+      "note": "Dùng để hỏi ý kiến chuyên môn một cách cởi mở."
+    },
+    {
+      "en": "If we push it too far, ___ will ___.",
+      "vi": "Nếu chúng ta đẩy nó quá mức, ___ sẽ ___.",
+      "note": "Dùng để nêu hậu quả khi điều chỉnh thông số quá mạnh."
+    },
+    {
+      "en": "Would ___ fix it, or should I ___?",
+      "vi": "Liệu ___ có giải quyết được không, hay tôi nên ___?",
+      "note": "Dùng để cân nhắc hai hướng xử lý."
+    },
+    {
+      "en": "Let us keep ___ lean.",
+      "vi": "Hãy giữ ___ gọn nhẹ.",
+      "note": "Trong đồ họa game, lean thường chỉ giải pháp ít tốn tài nguyên."
+    },
+    {
+      "en": "That sounds like a reasonable trade-off.",
+      "vi": "Nghe có vẻ là một sự đánh đổi hợp lý.",
+      "note": "Dùng khi đồng ý cân bằng giữa hai lợi ích đối lập."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /ʃ/ trong shader và smoothness",
+      "tip": "Chu môi nhẹ, không rung dây thanh, đẩy hơi liên tục. Tránh đọc thành âm x hoặc s.",
+      "words": [
+        "shader",
+        "smoothness",
+        "shiny"
+      ]
+    },
+    {
+      "focus": "Âm /ð/ trong smoothness",
+      "tip": "Đặt đầu lưỡi chạm nhẹ giữa hai hàm răng và rung dây thanh. Đừng đọc thành d hoặc t.",
+      "words": [
+        "smoothness",
+        "the",
+        "that"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong ambient và performance",
+      "tip": "Nhấn âm đầu trong ambient và âm thứ hai trong performance để lời nói tự nhiên hơn.",
+      "words": [
+        "ambient",
+        "performance",
+        "material"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I use the Universal Render Pipeline for make the lighting better.",
+      "right": "I use the Universal Render Pipeline to improve the lighting.",
+      "vi": "Sau for không dùng trực tiếp động từ nguyên mẫu để chỉ mục đích; dùng to improve tự nhiên hơn."
+    },
+    {
+      "wrong": "The shader is too much shiny.",
+      "right": "The shader is too shiny.",
+      "vi": "Too đứng trực tiếp trước tính từ shiny, không dùng too much ở đây."
+    },
+    {
+      "wrong": "Can you explain me how the normal map works?",
+      "right": "Can you explain how the normal map works to me?",
+      "vi": "Explain không đi trực tiếp với tân ngữ chỉ người như explain me."
+    },
+    {
+      "wrong": "Let us discuss about the performance cost.",
+      "right": "Let us discuss the performance cost.",
+      "vi": "Discuss là ngoại động từ nên không cần about."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề nghị xem xét một vấn đề kỹ thuật",
+      "formal": "Could we review the lighting issue before we change the material settings?",
+      "casual": "Can we look at the lighting before we change the material?",
+      "vi": "Câu formal phù hợp khi họp với khách hàng, cấp trên hoặc nhóm chưa thân; câu casual dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Nêu lo ngại về hiệu năng",
+      "formal": "I am concerned that this feature may have a noticeable performance cost on mobile devices.",
+      "casual": "I am worried this might slow down the mobile build.",
+      "vi": "Câu formal thận trọng và phù hợp trong báo cáo hoặc cuộc họp; câu casual ngắn gọn cho trao đổi hằng ngày trong nhóm."
+    },
+    {
+      "situation": "Đề xuất giải pháp",
+      "formal": "I would recommend reducing the smoothness before introducing another shader feature.",
+      "casual": "I would lower the smoothness before adding anything else.",
+      "vi": "Câu formal nghe như khuyến nghị chuyên môn; câu casual dùng khi cùng đồng nghiệp thử nghiệm nhanh."
+    },
+    {
+      "situation": "Đồng ý với sự đánh đổi",
+      "formal": "That seems like an acceptable compromise given our performance target.",
+      "casual": "That sounds like a fair trade-off.",
+      "vi": "Câu formal phù hợp khi chốt quyết định dự án; câu casual phù hợp trong buổi trao đổi thân mật với đội ngũ."
+    }
+  ],
+  "culture": [
+    "Trong các nhóm phát triển game nói tiếng Anh, người ta thường nêu vấn đề rất thẳng như “The lighting looks flat”, nhưng thường kèm lý do hoặc đề xuất để lời nhận xét mang tính xây dựng.",
+    "Khi bất đồng về chất lượng đồ họa, việc thừa nhận quan điểm đối phương bằng “Fair point” hoặc “I see what you mean” thường được đánh giá cao trước khi nêu ý kiến khác.",
+    "Đồng nghiệp bản xứ thường dùng các từ giảm nhẹ như probably, might và could khi chưa chắc nguyên nhân kỹ thuật, thay vì khẳng định tuyệt đối quá sớm."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về bản dựng cảnh rừng",
+    "passage": "Hi team, I reviewed the latest forest build on a mid-range phone. The frame rate is stable, which is great. However, the ground looks brighter than the trees, so the player path is not easy to notice. Please make the ambient color slightly cooler and reduce the shine on the wet rocks. Do not add another transparent effect yet. We will review the updated build tomorrow morning.",
+    "vi": "Chào cả nhóm, tôi đã xem bản dựng cảnh rừng mới nhất trên một điện thoại tầm trung. Tốc độ khung hình ổn định, điều đó rất tốt. Tuy nhiên, mặt đất sáng hơn cây nên người chơi khó nhận ra lối đi. Hãy làm màu ánh sáng môi trường lạnh hơn một chút và giảm độ bóng trên các tảng đá ướt. Chưa thêm hiệu ứng trong suốt nào. Chúng ta sẽ xem bản dựng đã cập nhật vào sáng mai.",
+    "questions": [
+      {
+        "q": "What is working well in the latest build?",
+        "choices": [
+          "The frame rate is stable.",
+          "The wet rocks look natural.",
+          "The player path is clear."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu vì đoạn nghe nói rõ “The frame rate is stable, which is great.”"
+      },
+      {
+        "q": "Why is the player path difficult to notice?",
+        "choices": [
+          "The trees are too dark.",
+          "The ground is brighter than the trees.",
+          "The rocks cover the path."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì người nói giải thích “the ground looks brighter than the trees.”"
+      },
+      {
+        "q": "What should the team avoid for now?",
+        "choices": [
+          "Adding a transparent effect.",
+          "Changing the ambient color.",
+          "Reducing shine on the rocks."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu vì người nói dặn “Do not add another transparent effect yet.”"
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Technical artist phụ trách đồ họa",
+      "b": "Lập trình viên game, cũng là người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hey, I took a look at the forest scene. What feels off to you?",
+        "vi": "Chào, tôi đã xem qua cảnh rừng. Theo bạn, điểm nào đang chưa ổn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The lighting looks flat, especially under the trees.",
+        "vi": "Ánh sáng trông phẳng, đặc biệt là ở dưới tán cây.",
+        "hint": "Dùng looks flat để mô tả hình ảnh thiếu chiều sâu."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Are you using Unity's Universal Render Pipeline?",
+        "vi": "Điều đó hợp lý. Bạn đang dùng Universal Render Pipeline của Unity phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, but I am not sure which settings matter most.",
+        "vi": "Đúng, nhưng tôi không chắc thiết lập nào quan trọng nhất.",
+        "hint": "Not sure which dùng để nói bạn chưa biết cần chọn điều gì."
+      },
+      {
+        "speaker": "a",
+        "en": "Let us start simple: the main light gives direction, while ambient light fills the shadows.",
+        "vi": "Hãy bắt đầu đơn giản: nguồn sáng chính tạo hướng, còn ánh sáng môi trường lấp đầy vùng bóng tối.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "So should I increase the ambient light to brighten everything?",
+        "vi": "Vậy tôi có nên tăng ánh sáng môi trường để làm sáng mọi thứ không?",
+        "hint": "Should I dùng để xin lời khuyên kỹ thuật."
+      },
+      {
+        "speaker": "a",
+        "en": "Not across the board. If we push it too far, the scene will lose contrast and look washed out.",
+        "vi": "Không phải toàn bộ. Nếu tăng quá mức, cảnh sẽ mất tương phản và trông nhợt nhạt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Then how can I keep the shadows readable without making them gray?",
+        "vi": "Vậy làm sao tôi giữ các vùng tối dễ nhìn mà không khiến chúng bị xám?",
+        "hint": "Keep something readable nghĩa là giữ cho chi tiết vẫn dễ nhận ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Try a subtle cool ambient color and add a warm key light. That contrast can make the scene feel more natural.",
+        "vi": "Hãy thử màu ánh sáng môi trường lạnh nhẹ và thêm nguồn sáng chính ấm. Sự tương phản đó có thể làm cảnh tự nhiên hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can do that. The leaves still look too plastic, though.",
+        "vi": "Tôi làm được. Tuy vậy, lá cây vẫn trông quá giống nhựa.",
+        "hint": "Though ở cuối câu thêm ý đối lập một cách tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "That is probably your shader. Its smoothness is high, so it reflects light like polished plastic.",
+        "vi": "Có lẽ vấn đề nằm ở shader của bạn. Độ mịn của nó cao nên nó phản chiếu ánh sáng như nhựa được đánh bóng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Would lowering smoothness fix it, or should I use a different shader?",
+        "vi": "Giảm độ mịn có giải quyết được không, hay tôi nên dùng shader khác?",
+        "hint": "Dùng Would ... fix it, or should I ...? để hỏi hai phương án."
+      },
+      {
+        "speaker": "a",
+        "en": "Lower it first, then add a normal map with a small tiling value. We can also use a mask texture so only the wetter leaves stay shiny.",
+        "vi": "Trước hết hãy giảm nó, sau đó thêm normal map với độ lặp nhỏ. Chúng ta cũng có thể dùng texture mặt nạ để chỉ những lá ướt hơn còn bóng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am worried that extra shader features will hurt performance on mobile.",
+        "vi": "Tôi lo rằng các tính năng shader bổ sung sẽ làm giảm hiệu năng trên điện thoại.",
+        "hint": "Be worried that dùng để nêu mối lo có lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair point. Let us keep the shader lean: one normal map, one mask texture, and no expensive transparent effects. If the frame rate holds up, we can add detail later.",
+        "vi": "Ý hợp lý. Hãy giữ shader gọn nhẹ: một normal map, một texture mặt nạ và không dùng hiệu ứng trong suốt tốn tài nguyên. Nếu tốc độ khung hình vẫn ổn, chúng ta có thể thêm chi tiết sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds like a reasonable trade-off. I will update the material and send you a build this afternoon.",
+        "vi": "Nghe có vẻ là một sự đánh đổi hợp lý. Tôi sẽ cập nhật material và gửi bạn bản build vào chiều nay.",
+        "hint": "Reasonable trade-off thể hiện sự đồng ý với một phương án cân bằng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm technical artist in a game studio, reviewing a mobile forest scene with a game developer. You ask focused questions, explain graphics trade-offs in plain English, and collaborate rather than dictate.",
+    "opener": "Hey, I took a look at the forest scene. What feels off to you?",
+    "goal": "Người học mô tả vấn đề đồ họa, thảo luận giải pháp shader và thống nhất một phương án tối ưu cho thiết bị di động."
+  },
+  "drills": [
+    {
+      "vi": "Ánh sáng môi trường làm vùng tối sáng hơn.",
+      "en": "Ambient light makes the shadowed areas brighter.",
+      "alts": [
+        "Ambient light brightens the shadows."
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta tăng nó quá mức, cảnh sẽ trông nhợt nhạt.",
+      "en": "If we push it too far, the scene will look washed out.",
+      "alts": []
+    },
+    {
+      "vi": "Liệu giảm độ mịn có giải quyết được không?",
+      "en": "Would lowering the smoothness fix it?",
+      "alts": [
+        "Would it help if I lowered the smoothness?"
+      ]
+    },
+    {
+      "vi": "Hãy thêm một normal map với độ lặp nhỏ.",
+      "en": "Let us add a normal map with a small tiling value.",
+      "alts": [
+        "We should add a normal map with low tiling."
+      ]
+    },
+    {
+      "vi": "Texture mặt nạ chỉ giữ những vùng ướt bóng.",
+      "en": "The mask texture keeps only the wet areas shiny.",
+      "alts": []
+    },
+    {
+      "vi": "Chúng ta cần giữ shader gọn nhẹ cho điện thoại.",
+      "en": "We need to keep the shader lean for mobile.",
+      "alts": [
+        "Let us keep the mobile shader lean."
+      ]
+    },
+    {
+      "vi": "Nghe có vẻ là một sự đánh đổi hợp lý.",
+      "en": "That sounds like a reasonable trade-off.",
+      "alts": [
+        "I think that is a reasonable trade-off."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai người học trong hội thoại, chú ý trọng âm của ambient, performance và material.",
+    "Viết năm câu đề xuất cách cải thiện một cảnh game, dùng ít nhất ba từ vựng trong bài.",
+    "Tự mô tả một vấn đề đồ họa bạn từng gặp và nêu sự đánh đổi giữa chất lượng hình ảnh với tốc độ khung hình."
+  ]
+}

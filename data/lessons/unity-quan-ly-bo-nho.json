@@ -1,0 +1,391 @@
+{
+  "id": "unity-quan-ly-bo-nho",
+  "title": "Quản lý bộ nhớ, thu gom rác và tái sử dụng đối tượng trong Unity",
+  "topic": "Tối ưu bộ nhớ trong Unity",
+  "level": "B2",
+  "summary": "Bạn trao đổi với technical lead về các đợt giật khung hình do garbage collection trong game Unity. Hai người phân tích nguyên nhân, tranh luận về object pooling và thống nhất kế hoạch xử lý.",
+  "goals": [
+    "Mô tả vấn đề hiệu năng liên quan đến cấp phát bộ nhớ và garbage collection.",
+    "Đề xuất, phản biện và thương lượng giải pháp object pooling một cách tự nhiên.",
+    "Thống nhất kế hoạch kỹ thuật với điều kiện và mức độ ưu tiên rõ ràng."
+  ],
+  "vocab": [
+    {
+      "en": "memory allocation",
+      "ipa": "/ˈmeməri ˌæləˈkeɪʃən/",
+      "vi": "việc cấp phát bộ nhớ",
+      "example": "Too many memory allocations can cause frame drops."
+    },
+    {
+      "en": "garbage collection",
+      "ipa": "/ˈɡɑːrbɪdʒ kəˈlekʃən/",
+      "vi": "quá trình thu gom rác bộ nhớ",
+      "example": "Garbage collection is causing short pauses during gameplay."
+    },
+    {
+      "en": "memory spike",
+      "ipa": "/ˈmeməri spaɪk/",
+      "vi": "mức tăng đột biến về sử dụng bộ nhớ",
+      "example": "We noticed a memory spike when the battle starts."
+    },
+    {
+      "en": "frame drop",
+      "ipa": "/freɪm drɑːp/",
+      "vi": "hiện tượng giảm khung hình",
+      "example": "Players report a frame drop when many enemies appear."
+    },
+    {
+      "en": "object pooling",
+      "ipa": "/ˈɑːbdʒekt ˈpuːlɪŋ/",
+      "vi": "kỹ thuật tạo sẵn và tái sử dụng đối tượng",
+      "example": "Object pooling lets us reuse projectiles instead of creating new ones."
+    },
+    {
+      "en": "instantiate",
+      "ipa": "/ɪnˈstænʃieɪt/",
+      "vi": "khởi tạo một đối tượng trong Unity",
+      "example": "Do not instantiate effects repeatedly during combat."
+    },
+    {
+      "en": "dispose of",
+      "ipa": "/dɪˈspoʊz əv/",
+      "vi": "loại bỏ, giải phóng khi không còn cần thiết",
+      "example": "We should dispose of unused resources at the right time."
+    },
+    {
+      "en": "bottleneck",
+      "ipa": "/ˈbɑːtlnek/",
+      "vi": "điểm nghẽn gây hạn chế hiệu năng",
+      "example": "The profiler shows that particle effects are the main bottleneck."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa các lựa chọn",
+      "example": "Using a larger pool is a trade-off between memory and smoothness."
+    },
+    {
+      "en": "profile",
+      "ipa": "/ˈproʊfaɪl/",
+      "vi": "đo đạc, phân tích hiệu năng bằng công cụ",
+      "example": "Let us profile the build before we change the architecture."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The profiler suggests that ___ is causing ___.",
+      "vi": "Công cụ phân tích cho thấy ___ đang gây ra ___.",
+      "note": "Dùng để nêu nhận định dựa trên dữ liệu, không khẳng định cảm tính."
+    },
+    {
+      "en": "Would it make sense to ___ instead of ___?",
+      "vi": "Liệu có hợp lý không nếu ___ thay vì ___?",
+      "note": "Cách đề xuất nhẹ nhàng, phù hợp khi trao đổi với technical lead."
+    },
+    {
+      "en": "I see the benefit, but I am concerned about ___.",
+      "vi": "Tôi thấy lợi ích, nhưng tôi lo ngại về ___.",
+      "note": "Mẫu phản biện lịch sự: công nhận ý kiến trước rồi mới nêu lo ngại."
+    },
+    {
+      "en": "As long as we ___, I am comfortable with ___.",
+      "vi": "Miễn là chúng ta ___, tôi đồng ý với ___.",
+      "note": "Dùng để chấp nhận một phương án kèm điều kiện."
+    },
+    {
+      "en": "Let us prioritize ___ and revisit ___ after ___.",
+      "vi": "Hãy ưu tiên ___ và xem xét lại ___ sau khi ___.",
+      "note": "Dùng để chốt thứ tự công việc và trì hoãn hạng mục ít khẩn cấp hơn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối trong garbage collection",
+      "tip": "Phát âm rõ phụ âm cuối /dʒ/ trong garbage và /ʃən/ trong collection; đừng bỏ âm cuối hoặc đọc từng từ quá tách rời.",
+      "words": [
+        "garbage",
+        "collection",
+        "manage"
+      ]
+    },
+    {
+      "focus": "phân biệt pool và pull",
+      "tip": "Pool có âm /uː/ dài, môi tròn hơn; pull có âm /ʊ/ ngắn. Kéo dài âm trong pool một chút.",
+      "words": [
+        "pool",
+        "pooled",
+        "pull"
+      ]
+    },
+    {
+      "focus": "trọng âm trong allocation và instantiate",
+      "tip": "Nhấn âm chính rõ hơn: al-lo-CA-tion và in-STAN-ti-ate. Các âm còn lại đọc nhẹ để câu nói tự nhiên.",
+      "words": [
+        "allocation",
+        "instantiate",
+        "performance"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The garbage collector make the game freeze.",
+      "right": "The garbage collector makes the game freeze.",
+      "vi": "Chủ ngữ số ít garbage collector cần động từ makes."
+    },
+    {
+      "wrong": "We should use object pool for reduce memory allocation.",
+      "right": "We should use object pooling to reduce memory allocations.",
+      "vi": "Sau use dùng object pooling; sau to dùng động từ nguyên mẫu reduce."
+    },
+    {
+      "wrong": "I suggest to pool all the objects.",
+      "right": "I suggest pooling all the objects.",
+      "vi": "Sau suggest thường dùng động từ thêm ing, không dùng suggest to."
+    },
+    {
+      "wrong": "The game is lag when the effects appear.",
+      "right": "The game lags when the effects appear.",
+      "vi": "Lag là động từ ở đây, nên dùng game lags; không dùng is lag."
+    },
+    {
+      "wrong": "We instantiate too much enemies in one frame.",
+      "right": "We instantiate too many enemies in one frame.",
+      "vi": "Enemies là danh từ đếm được số nhiều, nên dùng too many."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất dùng object pooling",
+      "formal": "Would it make sense to introduce object pooling for frequently spawned objects?",
+      "casual": "Maybe we should pool the things we spawn all the time.",
+      "vi": "Câu formal phù hợp khi đề xuất trong cuộc họp hoặc với cấp trên; câu casual dùng trong trao đổi nhanh với đồng nghiệp thân."
+    },
+    {
+      "situation": "Nêu lo ngại về rủi ro kỹ thuật",
+      "formal": "I see the benefit, but I am concerned about the maintenance cost.",
+      "casual": "I get it, but I am worried it will be a pain to maintain.",
+      "vi": "Câu formal phù hợp với review hoặc báo cáo; câu casual tự nhiên trong nhóm thân quen, nhưng pain to maintain không nên dùng với khách hàng hay quản lý cấp cao."
+    },
+    {
+      "situation": "Yêu cầu đo đạc trước khi quyết định",
+      "formal": "Could you provide profiling data before we make that change?",
+      "casual": "Can you grab some profiler data before we change it?",
+      "vi": "Câu formal lịch sự hơn khi giao việc hoặc trao đổi liên nhóm; câu casual phù hợp với đồng đội trực tiếp."
+    },
+    {
+      "situation": "Chốt ưu tiên công việc",
+      "formal": "Let us prioritize the projectile pool and revisit the remaining items afterward.",
+      "casual": "Let us fix the projectile pool first and come back to the rest later.",
+      "vi": "Câu formal gọn và phù hợp khi điều phối cuộc họp; câu casual dùng tốt trong cuộc trao đổi nội bộ hằng ngày."
+    }
+  ],
+  "culture": [
+    "Trong các nhóm kỹ thuật nói tiếng Anh, mọi người thường nêu dữ liệu trước rồi mới đưa ra ý kiến. Câu như The profiler suggests giúp ý kiến nghe khách quan và dễ được chấp nhận hơn.",
+    "Phản biện thẳng là bình thường, nhưng thường đi kèm câu giảm nhẹ như I see the benefit, but I am concerned about để tránh cảm giác bác bỏ cá nhân.",
+    "Khi chưa chắc, người bản xứ thường nói let us measure it hoặc let us test it thay vì tranh luận quá lâu theo cảm nhận. Đây là dấu hiệu hợp tác, không phải né tránh quyết định."
+  ],
+  "listening": {
+    "title": "Tin nhắn cập nhật hiệu năng",
+    "passage": "Hi team, I reviewed last night's performance test. The biggest pause happens when the boss fires several projectiles and the damage numbers appear at the same time. We are going to pool both object types for the next test build. Please keep the pool sizes modest at first, and record any time a pool needs to expand. We need clear profiling results before deciding whether to pool particle effects as well.",
+    "vi": "Chào cả nhóm, tôi đã xem bài kiểm tra hiệu năng tối qua. Hiện tượng tạm dừng lớn nhất xảy ra khi trùm bắn nhiều đạn và các con số sát thương xuất hiện cùng lúc. Chúng ta sẽ dùng pool cho cả hai loại đối tượng trong bản build kiểm tra tiếp theo. Ban đầu hãy giữ kích thước pool ở mức vừa phải và ghi lại mọi lần pool cần mở rộng. Chúng ta cần kết quả phân tích rõ ràng trước khi quyết định có dùng pool cho hiệu ứng hạt hay không.",
+    "questions": [
+      {
+        "q": "When does the biggest pause happen?",
+        "choices": [
+          "When the boss fires projectiles and damage numbers appear",
+          "When the team opens the profiler",
+          "When particle effects are removed"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói pause happens when the boss fires several projectiles and the damage numbers appear at the same time."
+      },
+      {
+        "q": "What will the team pool in the next test build?",
+        "choices": [
+          "Particle effects only",
+          "Projectiles and damage number objects",
+          "Every object in the game"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói nói sẽ pool both object types, tức projectiles và damage numbers."
+      },
+      {
+        "q": "What must happen before the team decides about particle effects?",
+        "choices": [
+          "The pool must become larger",
+          "The boss must be redesigned",
+          "The team must review clear profiling results"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì câu cuối nói cần clear profiling results before deciding whether to pool particle effects."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Technical lead",
+      "b": "Lập trình viên Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Before we ship the next build, I want to revisit the memory spikes during combat.",
+        "vi": "Trước khi phát hành bản build tiếp theo, tôi muốn xem lại các đợt tăng bộ nhớ đột biến khi giao chiến.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I saw them in the profiler too. The game stutters when several enemies spawn at once.",
+        "vi": "Tôi cũng thấy chúng trong công cụ phân tích. Game bị giật khi nhiều kẻ địch xuất hiện cùng lúc.",
+        "hint": "Dùng stutters để nói game giật ngắn trong lúc chạy."
+      },
+      {
+        "speaker": "a",
+        "en": "Do we know what is allocating the most memory at that point?",
+        "vi": "Chúng ta có biết thành phần nào đang cấp phát nhiều bộ nhớ nhất vào thời điểm đó không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Mostly projectiles, hit effects, and floating damage text. We instantiate all of them during the fight.",
+        "vi": "Chủ yếu là đạn, hiệu ứng trúng đòn và chữ sát thương nổi. Chúng ta khởi tạo tất cả chúng trong lúc chiến đấu.",
+        "hint": "Mostly đứng đầu câu để nêu các nguyên nhân chính."
+      },
+      {
+        "speaker": "a",
+        "en": "That explains a lot. Repeated allocations put pressure on garbage collection, and that can lead to frame drops.",
+        "vi": "Điều đó giải thích được khá nhiều. Việc cấp phát lặp lại tạo áp lực lên quá trình thu gom rác, và điều đó có thể dẫn đến giảm khung hình.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Would it make sense to use object pooling for projectiles instead of creating and destroying them every time?",
+        "vi": "Liệu dùng object pooling cho đạn thay vì tạo rồi hủy chúng mỗi lần có hợp lý không?",
+        "hint": "Dùng Would it make sense to để đề xuất lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, that is the obvious first target. However, I do not want us to pool everything blindly.",
+        "vi": "Có, đó là mục tiêu đầu tiên rõ ràng nhất. Tuy nhiên, tôi không muốn chúng ta gom mọi thứ vào pool một cách mù quáng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I see the benefit, but I am concerned about keeping too many inactive objects in memory. A huge pool could create a different problem.",
+        "vi": "Tôi thấy lợi ích, nhưng tôi lo ngại việc giữ quá nhiều đối tượng không hoạt động trong bộ nhớ. Một pool quá lớn có thể tạo ra vấn đề khác.",
+        "hint": "Dùng I see the benefit, but I am concerned about để phản biện mềm mại."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair point. Let us start with a capped pool and expand it only when the data shows that we need to.",
+        "vi": "Ý kiến hợp lý. Hãy bắt đầu với pool có giới hạn và chỉ mở rộng khi dữ liệu cho thấy chúng ta cần làm vậy.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can set an initial size based on our busiest combat scene, then log how often the pool has to grow.",
+        "vi": "Tôi có thể đặt kích thước ban đầu dựa trên màn chiến đấu đông nhất, sau đó ghi lại tần suất pool phải mở rộng.",
+        "hint": "Based on nghĩa là dựa trên; then nối hai bước trong kế hoạch."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. Also profile the damage text. It may look harmless, but string formatting every frame is often a hidden bottleneck.",
+        "vi": "Tốt. Ngoài ra, hãy phân tích cả chữ sát thương. Nó có vẻ vô hại, nhưng việc định dạng chuỗi ở mỗi khung hình thường là một điểm nghẽn ẩn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "In that case, I will reuse the text objects and avoid building new strings in the update loop where possible.",
+        "vi": "Trong trường hợp đó, tôi sẽ tái sử dụng các đối tượng chữ và tránh tạo chuỗi mới trong vòng lặp cập nhật khi có thể.",
+        "hint": "Where possible nghĩa là khi có thể, giúp câu bớt tuyệt đối và nghe chuyên nghiệp."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a sensible trade-off. Keep the code readable, though; an optimization is not worth it if nobody can maintain it later.",
+        "vi": "Đó là một sự đánh đổi hợp lý. Tuy vậy, hãy giữ mã dễ đọc; tối ưu hóa không đáng giá nếu sau này không ai có thể bảo trì nó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. I will add a small pool manager, document the limits, and write a test for objects returning to the pool correctly.",
+        "vi": "Đồng ý. Tôi sẽ thêm một trình quản lý pool nhỏ, ghi lại các giới hạn và viết kiểm thử để bảo đảm đối tượng quay lại pool đúng cách.",
+        "hint": "Liệt kê ba việc bằng will add, document, and write để trình bày kế hoạch rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "As long as you compare frame time and memory before and after the change, I am comfortable merging it into the release branch.",
+        "vi": "Miễn là bạn so sánh thời gian khung hình và bộ nhớ trước, sau thay đổi, tôi đồng ý cho gộp nó vào nhánh phát hành.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sounds good. I will prioritize the projectile and damage text pools today, then share the profiling results before the end of the day.",
+        "vi": "Nghe ổn. Hôm nay tôi sẽ ưu tiên pool cho đạn và chữ sát thương, rồi chia sẻ kết quả phân tích trước cuối ngày.",
+        "hint": "Sounds good là cách tự nhiên để xác nhận đã thống nhất kế hoạch."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a practical technical lead at a game studio. You are reviewing a Unity performance issue with a developer before a release. You are direct but supportive, ask for evidence from profiling, and help the developer weigh maintainability against performance.",
+    "opener": "Before we ship the next build, I want to revisit the memory spikes during combat.",
+    "goal": "Người học giải thích nguyên nhân gây giật, đề xuất object pooling, nêu rủi ro và chốt kế hoạch đo đạc hiệu năng."
+  },
+  "drills": [
+    {
+      "vi": "Công cụ phân tích cho thấy hiệu ứng trúng đòn đang gây ra các đợt tăng bộ nhớ.",
+      "en": "The profiler suggests that hit effects are causing memory spikes.",
+      "alts": [
+        "The profiler shows that hit effects are causing memory spikes."
+      ]
+    },
+    {
+      "vi": "Liệu chúng ta nên tái sử dụng đạn thay vì tạo đạn mới mỗi lần không?",
+      "en": "Would it make sense to reuse projectiles instead of creating new ones every time?",
+      "alts": [
+        "Should we reuse projectiles instead of creating new ones every time?"
+      ]
+    },
+    {
+      "vi": "Tôi thấy lợi ích, nhưng tôi lo ngại về một pool quá lớn.",
+      "en": "I see the benefit, but I am concerned about an oversized pool.",
+      "alts": [
+        "I understand the benefit, but I worry that the pool could become too large."
+      ]
+    },
+    {
+      "vi": "Chúng ta nên dùng object pooling để giảm việc cấp phát bộ nhớ.",
+      "en": "We should use object pooling to reduce memory allocations.",
+      "alts": [
+        "Object pooling should help us reduce memory allocations."
+      ]
+    },
+    {
+      "vi": "Miễn là chúng ta đo đạc trước và sau thay đổi, tôi đồng ý với phương án này.",
+      "en": "As long as we profile before and after the change, I am comfortable with this approach.",
+      "alts": [
+        "I am fine with this approach as long as we profile it before and after the change."
+      ]
+    },
+    {
+      "vi": "Hãy ưu tiên đạn và xem xét lại hiệu ứng hạt sau khi có dữ liệu.",
+      "en": "Let us prioritize projectiles and revisit particle effects after we have data.",
+      "alts": [
+        "We should focus on projectiles first and review particle effects once we have data."
+      ]
+    },
+    {
+      "vi": "Việc định dạng chuỗi trong mỗi khung hình có thể là một điểm nghẽn ẩn.",
+      "en": "String formatting every frame can be a hidden bottleneck.",
+      "alts": [
+        "Formatting strings in every frame may be a hidden bottleneck."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần người học trong hội thoại, sau đó tự kiểm tra trọng âm của allocation, instantiate và object pooling.",
+    "Viết một đoạn 80 đến 100 từ bằng tiếng Anh đề xuất tối ưu bộ nhớ cho một màn chơi có nhiều kẻ địch.",
+    "Tạo năm câu dùng các mẫu Would it make sense to, I am concerned about và As long as."
+  ]
+}

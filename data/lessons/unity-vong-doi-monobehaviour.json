@@ -1,0 +1,397 @@
+{
+  "id": "unity-vong-doi-monobehaviour",
+  "title": "Vòng đời MonoBehaviour: chọn đúng Update, FixedUpdate và LateUpdate",
+  "topic": "Phỏng vấn Unity về vòng đời MonoBehaviour",
+  "level": "B2",
+  "summary": "Bạn đóng vai ứng viên Unity trong một buổi phỏng vấn kỹ thuật. Bạn cần giải thích vòng đời MonoBehaviour và bảo vệ lựa chọn giữa Update, FixedUpdate và LateUpdate trong các tình huống thực tế.",
+  "goals": [
+    "Giải thích được vai trò và thứ tự cơ bản của Awake và Start.",
+    "Phân biệt được Update, FixedUpdate và LateUpdate theo mục đích sử dụng.",
+    "Trình bày và bảo vệ quyết định kỹ thuật bằng tiếng Anh tự nhiên trong phỏng vấn."
+  ],
+  "vocab": [
+    {
+      "en": "initialization",
+      "ipa": "/ɪˌnɪʃələˈzeɪʃən/",
+      "vi": "quá trình khởi tạo",
+      "example": "Awake is useful for early initialization."
+    },
+    {
+      "en": "dependency",
+      "ipa": "/dɪˈpendənsi/",
+      "vi": "thành phần hoặc đối tượng mà một phần khác phụ thuộc vào",
+      "example": "The manager sets up its dependencies in Awake."
+    },
+    {
+      "en": "execution order",
+      "ipa": "/ˌeksɪˈkjuːʃən ˈɔːrdər/",
+      "vi": "thứ tự thực thi",
+      "example": "Execution order can affect how scripts behave."
+    },
+    {
+      "en": "frame rate",
+      "ipa": "/ˈfreɪm reɪt/",
+      "vi": "tốc độ khung hình",
+      "example": "The frame rate can change from one device to another."
+    },
+    {
+      "en": "time step",
+      "ipa": "/ˈtaɪm step/",
+      "vi": "khoảng thời gian của mỗi bước xử lý",
+      "example": "FixedUpdate uses a fixed time step."
+    },
+    {
+      "en": "physics simulation",
+      "ipa": "/ˈfɪzɪks ˌsɪmjəˈleɪʃən/",
+      "vi": "mô phỏng vật lý",
+      "example": "Physics simulation should run at a consistent interval."
+    },
+    {
+      "en": "Rigidbody",
+      "ipa": "/ˈrɪdʒɪd ˌbɑːdi/",
+      "vi": "thành phần vật lý Rigidbody trong Unity",
+      "example": "Move the Rigidbody in FixedUpdate."
+    },
+    {
+      "en": "jitter",
+      "ipa": "/ˈdʒɪtər/",
+      "vi": "hiện tượng rung hoặc giật hình",
+      "example": "A camera may jitter if it updates too early."
+    },
+    {
+      "en": "follow-up",
+      "ipa": "/ˈfɑːloʊ ʌp/",
+      "vi": "phần theo sau; thao tác theo dõi đối tượng",
+      "example": "The camera follow-up belongs in LateUpdate."
+    },
+    {
+      "en": "consistent",
+      "ipa": "/kənˈsɪstənt/",
+      "vi": "ổn định, nhất quán",
+      "example": "A fixed interval keeps physics more consistent."
+    },
+    {
+      "en": "decouple",
+      "ipa": "/diːˈkʌpəl/",
+      "vi": "tách rời để giảm phụ thuộc",
+      "example": "We decouple input collection from physics movement."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would use ___ for ___ because ___.",
+      "vi": "Tôi sẽ dùng ___ cho ___ vì ___.",
+      "note": "Mẫu câu rõ ràng để nêu quyết định kỹ thuật và lý do."
+    },
+    {
+      "en": "The key difference is that ___, whereas ___.",
+      "vi": "Khác biệt chính là ___, trong khi ___.",
+      "note": "Dùng để so sánh hai cơ chế trong phỏng vấn."
+    },
+    {
+      "en": "If ___ happens, it can lead to ___.",
+      "vi": "Nếu ___ xảy ra, nó có thể dẫn đến ___.",
+      "note": "Dùng để giải thích rủi ro hoặc lỗi tiềm ẩn."
+    },
+    {
+      "en": "I would avoid ___ unless ___.",
+      "vi": "Tôi sẽ tránh ___ trừ khi ___.",
+      "note": "Dùng để phản biện lịch sự và nêu ngoại lệ."
+    },
+    {
+      "en": "That approach makes sense, but I would argue that ___.",
+      "vi": "Cách đó hợp lý, nhưng tôi cho rằng ___.",
+      "note": "Dùng khi không đồng ý một cách chuyên nghiệp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong initialization và simulation",
+      "tip": "Nhấn mạnh âm chính gần cuối từ: ni-shuh-luh-ZAY-shun và sim-yuh-LAY-shun. Không đọc đều từng âm tiết.",
+      "words": [
+        "initialization",
+        "simulation",
+        "execution"
+      ]
+    },
+    {
+      "focus": "âm cuối trong fixed và update",
+      "tip": "Đọc rõ âm t hoặc d ở cuối để người nghe phân biệt fixed với fix, và update với up.",
+      "words": [
+        "fixed",
+        "update",
+        "LateUpdate"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm đầu trong physics và frame",
+      "tip": "Với physics, đặt răng trên chạm nhẹ môi dưới để đọc âm f. Với frame, nối nhanh f và r, không thêm nguyên âm ở giữa.",
+      "words": [
+        "physics",
+        "frame",
+        "Rigidbody"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Awake runs after Start.",
+      "right": "Awake runs before Start.",
+      "vi": "Awake được gọi trước Start trong vòng đời thông thường của script."
+    },
+    {
+      "wrong": "I use FixedUpdate for every movement because it is more stable.",
+      "right": "I use FixedUpdate for Rigidbody physics, but I use Update for frame-based visual movement.",
+      "vi": "FixedUpdate không phù hợp cho mọi chuyển động; nó chủ yếu dành cho mô phỏng vật lý."
+    },
+    {
+      "wrong": "Update runs with a fixed time step.",
+      "right": "FixedUpdate runs with a fixed time step, while Update runs once per rendered frame.",
+      "vi": "Update phụ thuộc số khung hình hiển thị, còn FixedUpdate chạy theo nhịp vật lý cố định."
+    },
+    {
+      "wrong": "The camera should follow the player in FixedUpdate.",
+      "right": "The camera usually follows the player in LateUpdate.",
+      "vi": "LateUpdate chạy sau các cập nhật thông thường, giúp camera theo mục tiêu sau khi mục tiêu đã di chuyển."
+    },
+    {
+      "wrong": "I will move the Rigidbody in Update.",
+      "right": "I will apply Rigidbody movement in FixedUpdate.",
+      "vi": "Thao tác vật lý với Rigidbody nên đồng bộ với chu kỳ physics để giảm hành vi không ổn định."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu lựa chọn kỹ thuật trong phỏng vấn",
+      "formal": "I would recommend using FixedUpdate for Rigidbody-based physics.",
+      "casual": "I would put Rigidbody physics in FixedUpdate.",
+      "vi": "Câu formal phù hợp khi trình bày với người phỏng vấn hoặc cấp trên; câu casual tự nhiên hơn khi trao đổi với đồng nghiệp thân."
+    },
+    {
+      "situation": "Không đồng ý với một quan điểm kỹ thuật",
+      "formal": "I see the reasoning, but I would argue that this is not appropriate for every type of movement.",
+      "casual": "I get the idea, but I would not use that for all movement.",
+      "vi": "Câu formal mềm mại và đầy đủ hơn trong cuộc họp hoặc phỏng vấn; câu casual dùng trong trao đổi nội bộ ít trang trọng."
+    },
+    {
+      "situation": "Giải thích nguy cơ gây rung camera",
+      "formal": "Updating the camera before the target has moved may result in visible jitter.",
+      "casual": "If the camera goes first, it can look jittery.",
+      "vi": "Câu formal phù hợp khi báo cáo lỗi hay giải thích thiết kế; câu casual phù hợp khi thảo luận nhanh trong đội."
+    },
+    {
+      "situation": "Đề xuất nơi đặt logic khởi tạo",
+      "formal": "I would place dependency-dependent setup in Start, once Awake has completed.",
+      "casual": "I would leave that setup for Start after Awake is done.",
+      "vi": "Câu formal dùng khi đưa ra khuyến nghị chính thức; câu casual phù hợp khi review code với đồng nghiệp quen."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, câu trả lời tốt thường bắt đầu bằng kết luận ngắn rồi mới nêu lý do và ví dụ. Trả lời quá vòng vo có thể bị hiểu là chưa chắc chắn.",
+    "Người phỏng vấn có thể cố tình phản biện một lựa chọn hợp lý để xem cách bạn bảo vệ quan điểm. Bạn không cần đồng ý ngay; hãy thừa nhận điểm hợp lý rồi giải thích điều kiện hoặc ngoại lệ.",
+    "Khi chưa chắc về chi tiết, người bản xứ thường nói theo mức độ chắc chắn như usually, generally hoặc in this case, thay vì khẳng định tuyệt đối."
+  ],
+  "listening": {
+    "title": "Ghi chú thoại sau buổi review Unity",
+    "passage": "I reviewed the character controller this morning. The input is collected in Update, which is fine because it responds to each rendered frame. However, the Rigidbody force is also applied there, and I would move that part to FixedUpdate. The camera should stay in LateUpdate, since it needs to follow the character after movement has been processed. That change should make the motion feel less jittery.",
+    "vi": "Tôi đã xem lại bộ điều khiển nhân vật sáng nay. Input được thu thập trong Update, điều này ổn vì nó phản hồi theo từng khung hình hiển thị. Tuy nhiên, lực Rigidbody cũng đang được áp dụng ở đó, và tôi sẽ chuyển phần này sang FixedUpdate. Camera nên ở LateUpdate, vì nó cần theo nhân vật sau khi chuyển động đã được xử lý. Thay đổi đó sẽ giúp chuyển động bớt rung hơn.",
+    "questions": [
+      {
+        "q": "Where is the input collected?",
+        "choices": [
+          "In Awake",
+          "In Update",
+          "In LateUpdate"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói rõ: input is collected in Update."
+      },
+      {
+        "q": "What should be moved to FixedUpdate?",
+        "choices": [
+          "The Rigidbody force",
+          "The camera follow logic",
+          "The user interface update"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói nêu rằng lực Rigidbody đang ở Update và nên chuyển sang FixedUpdate."
+      },
+      {
+        "q": "Why should the camera stay in LateUpdate?",
+        "choices": [
+          "It needs to follow movement after it is processed",
+          "It collects input more quickly",
+          "It starts before other scripts"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói camera cần theo nhân vật sau khi chuyển động đã được xử lý."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kỹ sư phỏng vấn",
+      "b": "Ứng viên Unity"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining us. To start simple, what is MonoBehaviour used for in Unity?",
+        "vi": "Cảm ơn bạn đã tham gia. Bắt đầu đơn giản nhé, MonoBehaviour được dùng để làm gì trong Unity?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is the base class for scripts that need to receive Unity events, such as Awake, Start, and Update.",
+        "vi": "Đó là lớp cơ sở cho các script cần nhận sự kiện từ Unity, như Awake, Start và Update.",
+        "hint": "Dùng cụm base class for scripts that need to để giải thích công dụng."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. What would you normally put in Awake?",
+        "vi": "Tốt. Bạn thường đặt gì trong Awake?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I use Awake for early initialization, such as caching components and setting up internal dependencies.",
+        "vi": "Tôi dùng Awake để khởi tạo sớm, ví dụ lưu sẵn các component và thiết lập các phần phụ thuộc nội bộ.",
+        "hint": "Caching components nghĩa là lấy và lưu component để dùng lại sau này."
+      },
+      {
+        "speaker": "a",
+        "en": "Then why not put the same work in Start?",
+        "vi": "Vậy tại sao không đặt cùng công việc đó trong Start?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Start is useful when I need other objects to finish their Awake phase first. Awake runs before Start, so Start gives me a safer place for setup that depends on another object being initialized.",
+        "vi": "Start hữu ích khi tôi cần các đối tượng khác hoàn tất Awake trước. Awake chạy trước Start, nên Start là nơi an toàn hơn cho phần thiết lập phụ thuộc vào việc đối tượng khác đã được khởi tạo.",
+        "hint": "Dùng cấu trúc when I need... và depends on... để nêu quan hệ phụ thuộc."
+      },
+      {
+        "speaker": "a",
+        "en": "Let us move to the game loop. What is Update for?",
+        "vi": "Chuyển sang vòng lặp game nhé. Update dùng để làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Update runs once per rendered frame. I use it for input, timers, user interface changes, and visual movement that should scale with delta time.",
+        "vi": "Update chạy một lần cho mỗi khung hình được hiển thị. Tôi dùng nó cho input, bộ đếm thời gian, thay đổi giao diện và chuyển động hình ảnh cần thay đổi theo delta time.",
+        "hint": "Nhấn mạnh once per rendered frame để phân biệt với FixedUpdate."
+      },
+      {
+        "speaker": "a",
+        "en": "What is the key difference between Update and FixedUpdate?",
+        "vi": "Khác biệt chính giữa Update và FixedUpdate là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The key difference is that Update follows the frame rate, whereas FixedUpdate follows a fixed time step. I would use FixedUpdate for Rigidbody forces and physics simulation because those calculations need a more consistent rhythm.",
+        "vi": "Khác biệt chính là Update phụ thuộc vào tốc độ khung hình, trong khi FixedUpdate theo một khoảng thời gian cố định. Tôi sẽ dùng FixedUpdate cho lực Rigidbody và mô phỏng vật lý vì các tính toán đó cần nhịp ổn định hơn.",
+        "hint": "Dùng mẫu The key difference is that..., whereas... để so sánh rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "Imagine a player uses a Rigidbody and a camera follows them. Where would you read input, move the player, and update the camera?",
+        "vi": "Giả sử người chơi dùng Rigidbody và một camera theo họ. Bạn sẽ đọc input, di chuyển người chơi và cập nhật camera ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would read input in Update, store the intended movement, and apply Rigidbody movement in FixedUpdate. Then I would move the camera in LateUpdate, after the player has finished its regular movement for that frame.",
+        "vi": "Tôi sẽ đọc input trong Update, lưu hướng di chuyển mong muốn, rồi áp dụng chuyển động Rigidbody trong FixedUpdate. Sau đó tôi sẽ di chuyển camera trong LateUpdate, sau khi người chơi đã hoàn tất chuyển động thông thường ở khung hình đó.",
+        "hint": "Dùng chuỗi read, store, and apply để mô tả quy trình ba bước."
+      },
+      {
+        "speaker": "a",
+        "en": "Why LateUpdate for the camera instead of Update?",
+        "vi": "Tại sao dùng LateUpdate cho camera thay vì Update?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If the camera updates before the target has moved, it can show the target's previous position and create visible jitter. LateUpdate is usually the better fit because it lets the camera react after most gameplay scripts have updated.",
+        "vi": "Nếu camera cập nhật trước khi mục tiêu di chuyển, nó có thể hiển thị vị trí cũ của mục tiêu và tạo ra hiện tượng rung thấy rõ. LateUpdate thường phù hợp hơn vì nó cho phép camera phản ứng sau khi phần lớn script gameplay đã cập nhật.",
+        "hint": "Dùng If... it can lead to... để giải thích nguyên nhân và hậu quả."
+      },
+      {
+        "speaker": "a",
+        "en": "Some developers say every kind of movement belongs in FixedUpdate. Do you agree?",
+        "vi": "Một số lập trình viên nói mọi kiểu chuyển động đều thuộc về FixedUpdate. Bạn đồng ý không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That approach makes sense for physics-driven objects, but I would argue that it is too broad. I would avoid putting purely visual animation or menu effects in FixedUpdate unless they are tied to physics. For non-physics movement, Update with delta time is usually smoother and easier to control.",
+        "vi": "Cách đó hợp lý với các đối tượng do vật lý điều khiển, nhưng tôi cho rằng nó quá bao quát. Tôi sẽ tránh đặt hoạt ảnh thuần hình ảnh hoặc hiệu ứng menu trong FixedUpdate trừ khi chúng gắn với vật lý. Với chuyển động không phải vật lý, Update kèm delta time thường mượt hơn và dễ kiểm soát hơn.",
+        "hint": "Mở đầu bằng nhượng bộ rồi phản biện: That approach makes sense, but I would argue that..."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a Unity engineering interviewer in a technical interview room. You are calm, direct, and curious. Ask follow-up questions about MonoBehaviour lifecycle methods, challenge vague answers, and expect practical reasoning about Awake, Start, Update, FixedUpdate, and LateUpdate.",
+    "opener": "Thanks for meeting with us today. Could you explain how you decide between Awake and Start in a Unity script?",
+    "goal": "Người học trả lời như một ứng viên Unity, phân biệt đúng Awake, Start, Update, FixedUpdate và LateUpdate, đồng thời bảo vệ lựa chọn trong tình huống có Rigidbody và camera."
+  },
+  "drills": [
+    {
+      "vi": "Tôi dùng Awake để lưu sẵn các component cần thiết.",
+      "en": "I use Awake to cache the components I need.",
+      "alts": [
+        "I use Awake for caching required components."
+      ]
+    },
+    {
+      "vi": "Start chạy sau khi Awake đã hoàn tất.",
+      "en": "Start runs after Awake has completed.",
+      "alts": [
+        "Awake finishes before Start runs."
+      ]
+    },
+    {
+      "vi": "Khác biệt chính là Update phụ thuộc vào tốc độ khung hình.",
+      "en": "The key difference is that Update follows the frame rate.",
+      "alts": [
+        "Update runs according to the rendered frame rate."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ dùng FixedUpdate cho mô phỏng vật lý với Rigidbody.",
+      "en": "I would use FixedUpdate for Rigidbody physics simulation.",
+      "alts": [
+        "I would handle Rigidbody physics in FixedUpdate."
+      ]
+    },
+    {
+      "vi": "Nếu camera cập nhật quá sớm, nó có thể gây rung hình.",
+      "en": "If the camera updates too early, it can cause jitter.",
+      "alts": [
+        "Updating the camera too early can lead to visible jitter."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ cập nhật camera trong LateUpdate sau khi người chơi di chuyển.",
+      "en": "I would update the camera in LateUpdate after the player moves.",
+      "alts": [
+        "I would use LateUpdate so the camera follows the player after movement."
+      ]
+    },
+    {
+      "vi": "Tôi tránh dùng FixedUpdate cho hiệu ứng giao diện thuần hình ảnh.",
+      "en": "I avoid using FixedUpdate for purely visual user interface effects.",
+      "alts": [
+        "I would not put purely visual user interface effects in FixedUpdate."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý nhấn rõ các từ Update, FixedUpdate và LateUpdate.",
+    "Tự trả lời bằng tiếng Anh tình huống: một vật dùng Rigidbody, một camera theo vật, và một thanh máu cập nhật trên giao diện.",
+    "Viết ba câu dùng các mẫu I would use..., The key difference is that..., và I would avoid..."
+  ]
+}
