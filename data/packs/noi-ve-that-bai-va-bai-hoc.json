@@ -1,0 +1,96 @@
+{
+  "id": "noi-ve-that-bai-va-bai-hoc",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Kể về một thất bại nhỏ", "situation": "Ứng viên kể về một thất bại nhỏ trong công việc.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about a time you failed.", "vi": "Kể tôi nghe về một lần bạn thất bại." },
+        { "speaker": "b", "en": "I missed a deadline early in my career.", "vi": "Đầu sự nghiệp tôi từng lỡ một hạn chót." },
+        { "speaker": "a", "en": "What was the setback exactly?", "vi": "Chính xác trở ngại đó là gì?" },
+        { "speaker": "b", "en": "I underestimated the complexity of the task.", "vi": "Tôi đã đánh giá thấp độ phức tạp của công việc." },
+        { "speaker": "a", "en": "How did you handle it afterward?", "vi": "Sau đó bạn đã xử lý thế nào?" },
+        { "speaker": "b", "en": "I communicated early and adjusted the plan.", "vi": "Tôi thông báo sớm và điều chỉnh lại kế hoạch." }
+      ]},
+    { "title": "Nhận trách nhiệm về sai sót", "situation": "Ứng viên chủ động nhận trách nhiệm về sai sót của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Who was responsible for that mistake?", "vi": "Ai chịu trách nhiệm cho sai sót đó?" },
+        { "speaker": "b", "en": "I take full ownership of it.", "vi": "Tôi xin nhận toàn bộ trách nhiệm về việc đó." },
+        { "speaker": "a", "en": "That is a mature response.", "vi": "Đó là phản ứng trưởng thành đấy." },
+        { "speaker": "b", "en": "I believe accountability matters most.", "vi": "Tôi tin trách nhiệm giải trình là quan trọng nhất." },
+        { "speaker": "a", "en": "What did you learn from it?", "vi": "Bạn học được gì từ điều đó?" },
+        { "speaker": "b", "en": "To double-check assumptions before proceeding.", "vi": "Kiểm tra kỹ các giả định trước khi tiến hành." }
+      ]},
+    { "title": "Tìm nguyên nhân gốc rễ", "situation": "Ứng viên giải thích cách họ tìm nguyên nhân gốc rễ của thất bại.",
+      "turns": [
+        { "speaker": "a", "en": "How did you find the root cause?", "vi": "Bạn đã tìm nguyên nhân gốc rễ thế nào?" },
+        { "speaker": "b", "en": "I reviewed the entire process step by step.", "vi": "Tôi xem lại toàn bộ quy trình từng bước một." },
+        { "speaker": "a", "en": "What did you discover?", "vi": "Bạn đã phát hiện ra điều gì?" },
+        { "speaker": "b", "en": "A communication gap between two teams.", "vi": "Một khoảng trống giao tiếp giữa hai nhóm." },
+        { "speaker": "a", "en": "How did you fix that going forward?", "vi": "Từ đó bạn đã khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "We set up a weekly sync meeting.", "vi": "Chúng tôi thiết lập buổi họp đồng bộ hàng tuần." }
+      ]},
+    { "title": "Kể về việc bị bỏ sót chi tiết quan trọng", "situation": "Ứng viên kể về việc từng bỏ sót một chi tiết quan trọng.",
+      "turns": [
+        { "speaker": "a", "en": "Have you ever overlooked something important?", "vi": "Bạn đã từng bỏ sót điều gì quan trọng chưa?" },
+        { "speaker": "b", "en": "Yes, I overlooked a client's specific requirement.", "vi": "Rồi, tôi đã bỏ sót một yêu cầu cụ thể của khách hàng." },
+        { "speaker": "a", "en": "What was the consequence?", "vi": "Hậu quả là gì?" },
+        { "speaker": "b", "en": "We had to redo part of the deliverable.", "vi": "Chúng tôi phải làm lại một phần sản phẩm." },
+        { "speaker": "a", "en": "How did you prevent it from happening again?", "vi": "Bạn đã ngăn điều đó tái diễn thế nào?" },
+        { "speaker": "b", "en": "I created a detailed requirements checklist.", "vi": "Tôi đã tạo một danh sách kiểm tra yêu cầu chi tiết." }
+      ]},
+    { "title": "Xử lý phản đối từ đồng nghiệp", "situation": "Ứng viên kể về việc phải phản đối một quyết định và học được bài học.",
+      "turns": [
+        { "speaker": "a", "en": "Have you had to push back on a decision?", "vi": "Bạn từng phải phản đối một quyết định chưa?" },
+        { "speaker": "b", "en": "Yes, but I did it too aggressively at first.", "vi": "Rồi, nhưng lúc đầu tôi làm quá gay gắt." },
+        { "speaker": "a", "en": "What happened as a result?", "vi": "Kết quả là gì?" },
+        { "speaker": "b", "en": "It created unnecessary tension with the team.", "vi": "Nó tạo ra căng thẳng không cần thiết với nhóm." },
+        { "speaker": "a", "en": "What did you learn from that?", "vi": "Bạn học được gì từ điều đó?" },
+        { "speaker": "b", "en": "To raise concerns with more empathy.", "vi": "Nêu mối lo ngại với nhiều sự đồng cảm hơn." }
+      ]},
+    { "title": "Thực hiện damage control kịp thời", "situation": "Ứng viên kể về việc phải xử lý khủng hoảng kịp thời.",
+      "turns": [
+        { "speaker": "a", "en": "Describe a time you had to do damage control.", "vi": "Mô tả một lần bạn phải xử lý khủng hoảng kịp thời." },
+        { "speaker": "b", "en": "A bug caused incorrect data for clients.", "vi": "Một lỗi gây ra dữ liệu sai cho khách hàng." },
+        { "speaker": "a", "en": "What was your immediate action?", "vi": "Hành động ngay lập tức của bạn là gì?" },
+        { "speaker": "b", "en": "I notified clients and provided a temporary fix.", "vi": "Tôi thông báo khách hàng và đưa ra giải pháp tạm thời." },
+        { "speaker": "a", "en": "How did clients respond?", "vi": "Khách hàng đã phản hồi thế nào?" },
+        { "speaker": "b", "en": "They appreciated the transparency.", "vi": "Họ đánh giá cao sự minh bạch." }
+      ]},
+    { "title": "Điều chỉnh hướng đi kịp thời", "situation": "Ứng viên kể về việc điều chỉnh hướng đi khi nhận ra sai lầm.",
+      "turns": [
+        { "speaker": "a", "en": "How do you course-correct when things go wrong?", "vi": "Bạn điều chỉnh hướng đi thế nào khi có sai sót?" },
+        { "speaker": "b", "en": "I reassess the situation quickly and adjust.", "vi": "Tôi đánh giá lại tình huống nhanh chóng và điều chỉnh." },
+        { "speaker": "a", "en": "Can you give a specific example?", "vi": "Bạn cho ví dụ cụ thể được không?" },
+        { "speaker": "b", "en": "A campaign underperformed, so we changed strategy midway.", "vi": "Một chiến dịch không đạt hiệu quả, nên chúng tôi đổi chiến lược giữa chừng." },
+        { "speaker": "a", "en": "Did that improve results?", "vi": "Điều đó có cải thiện kết quả không?" },
+        { "speaker": "b", "en": "Yes, significantly better afterward.", "vi": "Có, cải thiện đáng kể sau đó." }
+      ]},
+    { "title": "Đánh đổi giữa tốc độ và sự cẩn trọng", "situation": "Ứng viên kể về sự đánh đổi giữa tốc độ và sự cẩn trọng dẫn đến thất bại.",
+      "turns": [
+        { "speaker": "a", "en": "What trade-off led to that failure?", "vi": "Sự đánh đổi nào đã dẫn đến thất bại đó?" },
+        { "speaker": "b", "en": "We prioritized speed over thorough testing.", "vi": "Chúng tôi ưu tiên tốc độ hơn là kiểm thử kỹ lưỡng." },
+        { "speaker": "a", "en": "What was the outcome?", "vi": "Kết quả là gì?" },
+        { "speaker": "b", "en": "A bug reached production and caused issues.", "vi": "Một lỗi lọt vào sản phẩm thực tế và gây ra vấn đề." },
+        { "speaker": "a", "en": "How did that change your approach?", "vi": "Điều đó đã thay đổi cách tiếp cận của bạn thế nào?" },
+        { "speaker": "b", "en": "I now insist on a minimum testing standard.", "vi": "Giờ tôi luôn yêu cầu tiêu chuẩn kiểm thử tối thiểu." }
+      ]},
+    { "title": "Điều rút ra sau cùng", "situation": "Ứng viên tổng kết điều rút ra được từ thất bại đó.",
+      "turns": [
+        { "speaker": "a", "en": "What did you come away with from that experience?", "vi": "Bạn rút ra được điều gì từ trải nghiệm đó?" },
+        { "speaker": "b", "en": "The value of transparent communication.", "vi": "Giá trị của giao tiếp minh bạch." },
+        { "speaker": "a", "en": "How have you applied that since?", "vi": "Từ đó bạn đã áp dụng điều đó thế nào?" },
+        { "speaker": "b", "en": "I share progress updates more frequently now.", "vi": "Giờ tôi chia sẻ cập nhật tiến độ thường xuyên hơn." },
+        { "speaker": "a", "en": "That is a valuable habit.", "vi": "Đó là thói quen quý giá đấy." },
+        { "speaker": "b", "en": "It has strengthened trust with my team.", "vi": "Nó đã củng cố lòng tin với nhóm của tôi." }
+      ]},
+    { "title": "Kể về thất bại lớn với nhiều nguyên nhân liên kết và nhiều bài học rút ra", "situation": "Ứng viên kể về một thất bại lớn với nhiều nguyên nhân liên kết nhau và nhiều bài học sâu sắc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about the biggest professional setback you have faced.", "vi": "Kể tôi nghe về trở ngại lớn nhất trong sự nghiệp bạn từng gặp." },
+        { "speaker": "b", "en": "A product launch failed due to rushed testing and poor communication.", "vi": "Một lần ra mắt sản phẩm thất bại do kiểm thử vội vàng và giao tiếp kém." },
+        { "speaker": "a", "en": "What was the root cause behind both issues?", "vi": "Nguyên nhân gốc rễ đằng sau cả hai vấn đề đó là gì?" },
+        { "speaker": "b", "en": "We pushed back concerns instead of raising them early to leadership.", "vi": "Chúng tôi đã phớt lờ mối lo ngại thay vì nêu sớm với ban lãnh đạo." },
+        { "speaker": "a", "en": "How did you course-correct after the failure?", "vi": "Bạn đã điều chỉnh hướng đi thế nào sau thất bại đó?" },
+        { "speaker": "b", "en": "I now insist on raising risks immediately, even under pressure to move fast.", "vi": "Giờ tôi luôn yêu cầu nêu rủi ro ngay lập tức, kể cả khi bị áp lực phải làm nhanh." }
+      ]}
+  ]
+}

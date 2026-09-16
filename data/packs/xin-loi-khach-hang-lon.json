@@ -1,0 +1,96 @@
+{
+  "id": "xin-loi-khach-hang-lon",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Xin lỗi vì sự cố dịch vụ nhỏ", "situation": "Quản lý tài khoản xin lỗi khách hàng vì sự cố dịch vụ nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "This outage disrupted our operations this morning.", "vi": "Sự gián đoạn dịch vụ sáng nay đã ảnh hưởng đến hoạt động của chúng tôi." },
+        { "speaker": "b", "en": "I sincerely apologize for the inconvenience.", "vi": "Tôi thành thật xin lỗi vì sự bất tiện này." },
+        { "speaker": "a", "en": "How long did the outage last?", "vi": "Sự gián đoạn kéo dài bao lâu vậy?" },
+        { "speaker": "b", "en": "About thirty minutes, now fully resolved.", "vi": "Khoảng ba mươi phút, giờ đã được khắc phục hoàn toàn." },
+        { "speaker": "a", "en": "Thank you for the quick fix.", "vi": "Cảm ơn bạn đã khắc phục nhanh chóng." },
+        { "speaker": "b", "en": "We take this seriously and will follow up.", "vi": "Chúng tôi xem trọng việc này và sẽ theo dõi tiếp." }
+      ]},
+    { "title": "Giải thích nguyên nhân gốc rễ", "situation": "Quản lý tài khoản giải thích nguyên nhân gốc rễ của sự cố.",
+      "turns": [
+        { "speaker": "a", "en": "What was the root cause of this outage?", "vi": "Nguyên nhân gốc rễ của sự gián đoạn này là gì?" },
+        { "speaker": "b", "en": "A server configuration error, on our end.", "vi": "Lỗi cấu hình máy chủ, do phía chúng tôi." },
+        { "speaker": "a", "en": "How will you prevent this in the future?", "vi": "Bạn sẽ ngăn điều này trong tương lai thế nào?" },
+        { "speaker": "b", "en": "We are adding automated checks to catch it earlier.", "vi": "Chúng tôi đang thêm kiểm tra tự động để phát hiện sớm hơn." },
+        { "speaker": "a", "en": "I appreciate the transparency.", "vi": "Tôi cảm kích sự minh bạch đó." },
+        { "speaker": "b", "en": "We take full responsibility for this.", "vi": "Chúng tôi xin nhận toàn bộ trách nhiệm về việc này." }
+      ]},
+    { "title": "Khách hàng lo ngại về rò rỉ dữ liệu", "situation": "Khách hàng lo lắng về khả năng rò rỉ dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "Was there any data breach involved?", "vi": "Có liên quan đến rò rỉ dữ liệu nào không?" },
+        { "speaker": "b", "en": "No, we confirmed there was no data breach.", "vi": "Không, chúng tôi đã xác nhận không có rò rỉ dữ liệu." },
+        { "speaker": "a", "en": "How can you be certain?", "vi": "Sao bạn chắc chắn được vậy?" },
+        { "speaker": "b", "en": "Our security team ran a full audit.", "vi": "Đội bảo mật của chúng tôi đã kiểm tra toàn diện." },
+        { "speaker": "a", "en": "That is somewhat reassuring.", "vi": "Vậy tôi thấy yên tâm phần nào." },
+        { "speaker": "b", "en": "We will send the full audit report.", "vi": "Chúng tôi sẽ gửi báo cáo kiểm tra đầy đủ." }
+      ]},
+    { "title": "Đề nghị bồi thường", "situation": "Quản lý tài khoản đề nghị bồi thường cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "This impacted our revenue significantly.", "vi": "Việc này ảnh hưởng đáng kể đến doanh thu của chúng tôi." },
+        { "speaker": "b", "en": "We would like to offer compensation.", "vi": "Chúng tôi muốn đề nghị bồi thường." },
+        { "speaker": "a", "en": "What form would that take?", "vi": "Bồi thường dưới hình thức nào vậy?" },
+        { "speaker": "b", "en": "A credit equal to one month's service fee.", "vi": "Một khoản tín dụng bằng phí dịch vụ một tháng." },
+        { "speaker": "a", "en": "That is a fair gesture.", "vi": "Đó là cử chỉ công bằng đấy." },
+        { "speaker": "b", "en": "We hope it helps restore your confidence.", "vi": "Chúng tôi mong nó giúp khôi phục lòng tin của bạn." }
+      ]},
+    { "title": "Xem xét lại thỏa thuận mức dịch vụ", "situation": "Khách hàng yêu cầu xem xét lại thỏa thuận mức dịch vụ.",
+      "turns": [
+        { "speaker": "a", "en": "This violates our service-level agreement.", "vi": "Việc này vi phạm thỏa thuận mức dịch vụ của chúng tôi." },
+        { "speaker": "b", "en": "You are right, and we acknowledge that.", "vi": "Bạn nói đúng, và chúng tôi thừa nhận điều đó." },
+        { "speaker": "a", "en": "What penalty applies under the agreement?", "vi": "Theo thỏa thuận thì có hình phạt gì?" },
+        { "speaker": "b", "en": "We will waive the fees for this month.", "vi": "Chúng tôi sẽ miễn phí dịch vụ tháng này." },
+        { "speaker": "a", "en": "That aligns with the agreement.", "vi": "Vậy phù hợp với thỏa thuận đấy." },
+        { "speaker": "b", "en": "We will process that immediately.", "vi": "Chúng tôi sẽ xử lý ngay." }
+      ]},
+    { "title": "Khách hàng vẫn còn giận dữ", "situation": "Khách hàng vẫn còn tức giận dù đã được xin lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "An apology does not fix the damage already done.", "vi": "Lời xin lỗi không sửa được thiệt hại đã xảy ra." },
+        { "speaker": "b", "en": "I completely understand your frustration.", "vi": "Tôi hoàn toàn hiểu sự bực bội của bạn." },
+        { "speaker": "a", "en": "What concrete steps will you take?", "vi": "Bạn sẽ thực hiện những bước cụ thể nào?" },
+        { "speaker": "b", "en": "A dedicated engineer will monitor your account closely.", "vi": "Một kỹ sư chuyên trách sẽ giám sát sát sao tài khoản của bạn." },
+        { "speaker": "a", "en": "I want to see real improvement.", "vi": "Tôi muốn thấy sự cải thiện thực sự." },
+        { "speaker": "b", "en": "We are committed to making things right.", "vi": "Chúng tôi cam kết khắc phục mọi việc đúng đắn." }
+      ]},
+    { "title": "Cam kết kế hoạch dự phòng mới", "situation": "Quản lý tài khoản cam kết một kế hoạch dự phòng mới.",
+      "turns": [
+        { "speaker": "a", "en": "How do we know this will not happen again?", "vi": "Sao chúng tôi biết việc này sẽ không xảy ra nữa?" },
+        { "speaker": "b", "en": "We have built a new contingency plan.", "vi": "Chúng tôi đã xây dựng một kế hoạch dự phòng mới." },
+        { "speaker": "a", "en": "What does that plan include?", "vi": "Kế hoạch đó bao gồm những gì?" },
+        { "speaker": "b", "en": "Automatic failover to backup servers.", "vi": "Tự động chuyển sang máy chủ dự phòng." },
+        { "speaker": "a", "en": "That gives me more confidence.", "vi": "Vậy tôi tự tin hơn." },
+        { "speaker": "b", "en": "We will test it thoroughly before deployment.", "vi": "Chúng tôi sẽ kiểm thử kỹ trước khi triển khai." }
+      ]},
+    { "title": "Khách hàng cân nhắc chấm dứt hợp đồng", "situation": "Khách hàng cân nhắc việc chấm dứt hợp đồng vì sự cố.",
+      "turns": [
+        { "speaker": "a", "en": "We are considering ending our contract.", "vi": "Chúng tôi đang cân nhắc chấm dứt hợp đồng." },
+        { "speaker": "b", "en": "I understand, but please let us make this right first.", "vi": "Tôi hiểu, nhưng xin hãy để chúng tôi khắc phục việc này trước." },
+        { "speaker": "a", "en": "What would you propose?", "vi": "Bạn đề xuất gì vậy?" },
+        { "speaker": "b", "en": "A dedicated support team and a service credit.", "vi": "Một đội hỗ trợ chuyên trách và một khoản tín dụng dịch vụ." },
+        { "speaker": "a", "en": "We will give it one more chance.", "vi": "Chúng tôi sẽ cho thêm một cơ hội nữa." },
+        { "speaker": "b", "en": "Thank you, we will not let you down.", "vi": "Cảm ơn bạn, chúng tôi sẽ không làm bạn thất vọng." }
+      ]},
+    { "title": "Khôi phục lòng tin sau sự cố", "situation": "Quản lý tài khoản nỗ lực khôi phục lòng tin của khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I appreciate the effort to fix this.", "vi": "Tôi cảm kích nỗ lực khắc phục việc này." },
+        { "speaker": "b", "en": "We want to restore your confidence fully.", "vi": "Chúng tôi muốn khôi phục lòng tin của bạn hoàn toàn." },
+        { "speaker": "a", "en": "Regular updates would help.", "vi": "Cập nhật thường xuyên sẽ giúp ích." },
+        { "speaker": "b", "en": "We will send weekly reports going forward.", "vi": "Từ giờ chúng tôi sẽ gửi báo cáo hàng tuần." },
+        { "speaker": "a", "en": "That is exactly what I need.", "vi": "Đó chính xác là điều tôi cần." },
+        { "speaker": "b", "en": "We value this partnership deeply.", "vi": "Chúng tôi trân trọng mối hợp tác này sâu sắc." }
+      ]},
+    { "title": "Xử lý khủng hoảng lớn với khách hàng giận dữ, yêu cầu bồi thường và cam kết cụ thể", "situation": "Khách hàng lớn rất giận dữ vì sự cố nghiêm trọng, yêu cầu bồi thường và cam kết cụ thể để tiếp tục hợp tác. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This service outage disrupted our entire business for a full day.", "vi": "Sự gián đoạn dịch vụ này đã làm gián đoạn toàn bộ hoạt động kinh doanh của chúng tôi cả ngày." },
+        { "speaker": "b", "en": "We take full responsibility, and I am here to make things right.", "vi": "Chúng tôi xin nhận toàn bộ trách nhiệm, và tôi ở đây để khắc phục mọi việc." },
+        { "speaker": "a", "en": "I need significant compensation and a written guarantee.", "vi": "Tôi cần bồi thường đáng kể và một cam kết bằng văn bản." },
+        { "speaker": "b", "en": "We will waive three months of fees and provide a revised service-level agreement.", "vi": "Chúng tôi sẽ miễn phí ba tháng dịch vụ và cung cấp thỏa thuận mức dịch vụ đã sửa đổi." },
+        { "speaker": "a", "en": "What is your contingency plan if this happens again?", "vi": "Kế hoạch dự phòng của bạn nếu việc này xảy ra lần nữa là gì?" },
+        { "speaker": "b", "en": "An automatic failover system, fully tested and monitored around the clock.", "vi": "Một hệ thống chuyển đổi dự phòng tự động, được kiểm thử đầy đủ và giám sát liên tục." }
+      ]}
+  ]
+}

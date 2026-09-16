@@ -1,0 +1,96 @@
+{
+  "id": "tu-choi-lich-su-va-dut-khoat",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Từ chối việc nhờ vả nhỏ", "situation": "Đồng nghiệp nhờ giúp việc gấp vào phút chót, bạn từ chối lịch sự.",
+      "turns": [
+        { "speaker": "a", "en": "Could you take on this task right now?", "vi": "Bạn nhận việc này ngay bây giờ được không?" },
+        { "speaker": "b", "en": "I am tied up with something else at the moment.", "vi": "Hiện tôi đang bận việc khác rồi." },
+        { "speaker": "a", "en": "It is quite urgent, unfortunately.", "vi": "Tiếc là việc này khá gấp." },
+        { "speaker": "b", "en": "I understand, but I cannot squeeze it in today.", "vi": "Tôi hiểu, nhưng hôm nay tôi không thể sắp xếp thêm được." },
+        { "speaker": "a", "en": "No problem, I will find someone else.", "vi": "Không sao, tôi sẽ tìm người khác." },
+        { "speaker": "b", "en": "Sorry I could not help this time.", "vi": "Xin lỗi lần này tôi không giúp được." }
+      ]},
+    { "title": "Đặt ranh giới về công việc gấp", "situation": "Bạn đặt ranh giới rõ ràng về việc nhận thêm công việc gấp.",
+      "turns": [
+        { "speaker": "a", "en": "Can you handle this at short notice again?", "vi": "Bạn xử lý việc này gấp lần nữa được không?" },
+        { "speaker": "b", "en": "I need to set a boundary on last-minute requests.", "vi": "Tôi cần đặt ranh giới cho các yêu cầu vào phút chót." },
+        { "speaker": "a", "en": "That is fair, I did not realize this kept happening.", "vi": "Vậy hợp lý, tôi không nhận ra việc này cứ tái diễn." },
+        { "speaker": "b", "en": "It has been a pattern recently.", "vi": "Gần đây nó trở thành một xu hướng rồi." },
+        { "speaker": "a", "en": "I will try to plan ahead next time.", "vi": "Lần sau tôi sẽ cố lên kế hoạch trước." },
+        { "speaker": "b", "en": "I appreciate that, thank you.", "vi": "Tôi cảm kích điều đó, cảm ơn bạn." }
+      ]},
+    { "title": "Đề xuất dời lịch thay vì từ chối hẳn", "situation": "Bạn đề xuất dời lịch thay vì từ chối hoàn toàn.",
+      "turns": [
+        { "speaker": "a", "en": "Could you help with this report today?", "vi": "Bạn giúp báo cáo này hôm nay được không?" },
+        { "speaker": "b", "en": "I am in a bind with another deadline.", "vi": "Tôi đang kẹt với một hạn chót khác." },
+        { "speaker": "a", "en": "Would tomorrow work instead?", "vi": "Vậy mai được không?" },
+        { "speaker": "b", "en": "Yes, I can commit to that.", "vi": "Được, tôi có thể cam kết vậy." },
+        { "speaker": "a", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Từ chối vì đã cam kết việc khác", "situation": "Bạn từ chối dứt khoát vì đã cam kết công việc khác trước đó.",
+      "turns": [
+        { "speaker": "a", "en": "This really needs to happen today.", "vi": "Việc này thực sự cần làm hôm nay." },
+        { "speaker": "b", "en": "I have already committed to another priority.", "vi": "Tôi đã cam kết với một việc ưu tiên khác rồi." },
+        { "speaker": "a", "en": "Is there any flexibility at all?", "vi": "Có chút linh hoạt nào không vậy?" },
+        { "speaker": "b", "en": "Unfortunately, not today.", "vi": "Rất tiếc, hôm nay thì không." },
+        { "speaker": "a", "en": "I understand, thank you for being honest.", "vi": "Tôi hiểu, cảm ơn bạn đã thẳng thắn." },
+        { "speaker": "b", "en": "I can help first thing tomorrow.", "vi": "Sáng sớm mai tôi có thể giúp." }
+      ]},
+    { "title": "Đề xuất người khác thay thế", "situation": "Bạn từ chối nhưng đề xuất người khác có thể giúp.",
+      "turns": [
+        { "speaker": "a", "en": "Can you take this on right now?", "vi": "Bạn nhận việc này ngay được không?" },
+        { "speaker": "b", "en": "I cannot handle it today, sorry.", "vi": "Hôm nay tôi không xử lý được, xin lỗi." },
+        { "speaker": "a", "en": "Do you know anyone who could?", "vi": "Bạn có biết ai có thể giúp không?" },
+        { "speaker": "b", "en": "Minh might have some time available.", "vi": "Minh có thể có thời gian rảnh." },
+        { "speaker": "a", "en": "Thank you for the suggestion.", "vi": "Cảm ơn gợi ý của bạn." },
+        { "speaker": "b", "en": "I hope that helps.", "vi": "Mong nó giúp ích được." }
+      ]},
+    { "title": "Đồng nghiệp cố thuyết phục thêm", "situation": "Đồng nghiệp cố thuyết phục bạn nhận việc dù bạn đã từ chối.",
+      "turns": [
+        { "speaker": "a", "en": "It would really help if you could reconsider.", "vi": "Sẽ giúp ích nhiều nếu bạn cân nhắc lại." },
+        { "speaker": "b", "en": "I understand the pressure, but my answer stays the same.", "vi": "Tôi hiểu áp lực đó, nhưng câu trả lời của tôi vẫn không đổi." },
+        { "speaker": "a", "en": "I respect that decision.", "vi": "Tôi tôn trọng quyết định đó." },
+        { "speaker": "b", "en": "Thank you for understanding my position.", "vi": "Cảm ơn bạn đã hiểu cho vị trí của tôi." },
+        { "speaker": "a", "en": "No hard feelings at all.", "vi": "Không có gì phật lòng cả." },
+        { "speaker": "b", "en": "I appreciate that.", "vi": "Tôi cảm kích điều đó." }
+      ]},
+    { "title": "Từ chối vì lý do sức khỏe cá nhân", "situation": "Bạn từ chối nhận thêm việc vì đang ưu tiên sức khỏe.",
+      "turns": [
+        { "speaker": "a", "en": "Could you take on one more task this week?", "vi": "Tuần này bạn nhận thêm một việc nữa được không?" },
+        { "speaker": "b", "en": "I need to protect my time to avoid burnout.", "vi": "Tôi cần bảo vệ thời gian của mình để tránh kiệt sức." },
+        { "speaker": "a", "en": "That makes complete sense.", "vi": "Vậy hoàn toàn hợp lý." },
+        { "speaker": "b", "en": "I appreciate you understanding.", "vi": "Tôi cảm kích vì bạn hiểu cho." },
+        { "speaker": "a", "en": "Let us check in again next week.", "vi": "Tuần sau mình trao đổi lại nhé." },
+        { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Từ chối khách hàng một cách chuyên nghiệp", "situation": "Bạn từ chối một yêu cầu bổ sung từ khách hàng một cách chuyên nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Can you add this feature by tomorrow?", "vi": "Bạn thêm tính năng này trước ngày mai được không?" },
+        { "speaker": "b", "en": "That timeline is not realistic for quality work.", "vi": "Tiến độ đó không thực tế để đảm bảo chất lượng." },
+        { "speaker": "a", "en": "What timeline would you suggest?", "vi": "Vậy bạn đề xuất tiến độ nào?" },
+        { "speaker": "b", "en": "I can commit to delivering it by Friday.", "vi": "Tôi có thể cam kết giao trước thứ Sáu." },
+        { "speaker": "a", "en": "That works for us.", "vi": "Vậy được với chúng tôi." },
+        { "speaker": "b", "en": "Thank you for your flexibility.", "vi": "Cảm ơn bạn đã linh hoạt." }
+      ]},
+    { "title": "Nhắc lại ranh giới đã đặt ra", "situation": "Bạn nhắc lại ranh giới đã thiết lập trước đó khi bị yêu cầu lại.",
+      "turns": [
+        { "speaker": "a", "en": "I know we talked about this, but could you help just this once?", "vi": "Tôi biết mình đã nói chuyện về việc này, nhưng lần này giúp được không?" },
+        { "speaker": "b", "en": "I want to stick to the boundary we agreed on.", "vi": "Tôi muốn giữ đúng ranh giới mình đã thống nhất." },
+        { "speaker": "a", "en": "That is understandable.", "vi": "Vậy cũng dễ hiểu." },
+        { "speaker": "b", "en": "I can help if we plan it in advance next time.", "vi": "Tôi có thể giúp nếu lần sau mình lên kế hoạch trước." },
+        { "speaker": "a", "en": "That sounds reasonable.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "b", "en": "Thank you for respecting that.", "vi": "Cảm ơn bạn đã tôn trọng điều đó." }
+      ]},
+    { "title": "Từ chối dứt khoát trước áp lực liên tục từ nhiều phía cùng lúc", "situation": "Bạn phải từ chối dứt khoát khi chịu áp lực liên tục từ nhiều đồng nghiệp cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Everyone keeps asking me to squeeze in extra tasks at short notice.", "vi": "Mọi người cứ liên tục nhờ tôi sắp xếp thêm việc vào phút chót." },
+        { "speaker": "b", "en": "I completely understand, but I really need this handled today.", "vi": "Tôi hoàn toàn hiểu, nhưng tôi thực sự cần việc này xử lý hôm nay." },
+        { "speaker": "a", "en": "I am already tied up with three other urgent requests.", "vi": "Tôi đang bận với ba yêu cầu khẩn cấp khác rồi." },
+        { "speaker": "b", "en": "Is there any way to prioritize mine specifically?", "vi": "Có cách nào ưu tiên riêng việc của tôi không?" },
+        { "speaker": "a", "en": "I need to set a clear boundary and handle requests in order received.", "vi": "Tôi cần đặt ranh giới rõ ràng và xử lý theo thứ tự nhận được." },
+        { "speaker": "b", "en": "That is fair, I will wait my turn.", "vi": "Vậy công bằng, tôi sẽ chờ đến lượt." }
+      ]}
+  ]
+}

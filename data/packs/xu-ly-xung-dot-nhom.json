@@ -1,0 +1,96 @@
+{
+  "id": "xu-ly-xung-dot-nhom",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Đồng nghiệp bực bội vì thay đổi nhỏ", "situation": "Đồng nghiệp bực bội vì phần việc của họ bị thay đổi nhẹ.",
+      "turns": [
+        { "speaker": "a", "en": "I am frustrated that my part was changed without notice.", "vi": "Tôi thấy bực bội vì phần việc của mình bị thay đổi mà không báo trước." },
+        { "speaker": "b", "en": "I understand, let me explain what happened.", "vi": "Tôi hiểu, để tôi giải thích chuyện gì đã xảy ra." },
+        { "speaker": "a", "en": "Please do, I want to understand.", "vi": "Bạn cứ giải thích, tôi muốn hiểu." },
+        { "speaker": "b", "en": "The client requested it at the last minute.", "vi": "Khách hàng yêu cầu vào phút chót." },
+        { "speaker": "a", "en": "That makes more sense now.", "vi": "Giờ nghe hợp lý hơn rồi." },
+        { "speaker": "b", "en": "I should have told you sooner, sorry.", "vi": "Lẽ ra tôi nên báo bạn sớm hơn, xin lỗi." }
+      ]},
+    { "title": "Tìm điểm chung sau bất đồng", "situation": "Hai đồng nghiệp cố gắng tìm điểm chung sau một bất đồng.",
+      "turns": [
+        { "speaker": "a", "en": "I feel like we are not on the same page.", "vi": "Tôi cảm thấy chúng ta chưa cùng quan điểm với nhau." },
+        { "speaker": "b", "en": "You are right, let us clarify our goals.", "vi": "Bạn nói đúng, mình làm rõ mục tiêu nhé." },
+        { "speaker": "a", "en": "I want the design to stay simple.", "vi": "Tôi muốn thiết kế giữ đơn giản." },
+        { "speaker": "b", "en": "I was aiming for more features.", "vi": "Tôi lại nhắm tới nhiều tính năng hơn." },
+        { "speaker": "a", "en": "Maybe we can compromise on both.", "vi": "Có lẽ mình thỏa hiệp cả hai." },
+        { "speaker": "b", "en": "That sounds like a fair balance.", "vi": "Nghe có vẻ là sự cân bằng hợp lý đấy." }
+      ]},
+    { "title": "Nêu mối lo ngại một cách xây dựng", "situation": "Bạn nêu lên mối lo ngại về một quyết định của đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to raise a concern about this approach.", "vi": "Tôi muốn nêu lên một mối lo ngại về cách làm này." },
+        { "speaker": "b", "en": "Sure, what is on your mind?", "vi": "Được, bạn đang nghĩ gì vậy?" },
+        { "speaker": "a", "en": "It might not meet the client's requirements.", "vi": "Nó có thể không đáp ứng yêu cầu của khách hàng." },
+        { "speaker": "b", "en": "I had not considered that angle.", "vi": "Tôi chưa nghĩ tới góc độ đó." },
+        { "speaker": "a", "en": "Should we revisit the requirements together?", "vi": "Mình cùng xem lại yêu cầu được không?" },
+        { "speaker": "b", "en": "Yes, that would help us align.", "vi": "Được, vậy sẽ giúp mình thống nhất hơn." }
+      ]},
+    { "title": "Cảm thấy bị đối xử không công bằng", "situation": "Đồng nghiệp cảm thấy bị đối xử không công bằng trong phân công việc.",
+      "turns": [
+        { "speaker": "a", "en": "It feels unfair that I got the harder tasks.", "vi": "Cảm thấy không công bằng khi tôi nhận việc khó hơn." },
+        { "speaker": "b", "en": "I did not realize it felt that way to you.", "vi": "Tôi không nhận ra bạn cảm thấy như vậy." },
+        { "speaker": "a", "en": "Could we redistribute the workload?", "vi": "Mình phân bổ lại khối lượng công việc được không?" },
+        { "speaker": "b", "en": "Absolutely, let us look at it together.", "vi": "Chắc chắn rồi, mình cùng xem lại nhé." },
+        { "speaker": "a", "en": "Thank you for being open to that.", "vi": "Cảm ơn bạn đã cởi mở với việc đó." },
+        { "speaker": "b", "en": "I want this to feel fair for both of us.", "vi": "Tôi muốn điều này công bằng cho cả hai chúng ta." }
+      ]},
+    { "title": "Bàn về sự tuân thủ deadline", "situation": "Đồng nghiệp không hài lòng vì người kia không tuân thủ hạn chót đã thống nhất.",
+      "turns": [
+        { "speaker": "a", "en": "You did not stick to the agreed deadline.", "vi": "Bạn không tuân thủ hạn chót đã thống nhất." },
+        { "speaker": "b", "en": "You are right, I underestimated the time needed.", "vi": "Bạn nói đúng, tôi đã đánh giá thấp thời gian cần thiết." },
+        { "speaker": "a", "en": "That put pressure on the rest of the team.", "vi": "Điều đó gây áp lực lên phần còn lại của nhóm." },
+        { "speaker": "b", "en": "I take ownership of that, I am sorry.", "vi": "Tôi xin nhận trách nhiệm về việc đó, tôi xin lỗi." },
+        { "speaker": "a", "en": "Let us set clearer checkpoints going forward.", "vi": "Từ giờ mình đặt các mốc kiểm tra rõ ràng hơn nhé." },
+        { "speaker": "b", "en": "That sounds like a good solution.", "vi": "Nghe có vẻ là giải pháp tốt đấy." }
+      ]},
+    { "title": "Làm rõ mọi hiểu lầm để giải tỏa căng thẳng", "situation": "Hai đồng nghiệp trò chuyện thẳng thắn để giải tỏa căng thẳng.",
+      "turns": [
+        { "speaker": "a", "en": "I think we should clear the air about last week.", "vi": "Tôi nghĩ mình nên giải tỏa hiểu lầm về tuần trước." },
+        { "speaker": "b", "en": "Agreed, I have felt tension too.", "vi": "Đồng ý, tôi cũng cảm thấy căng thẳng." },
+        { "speaker": "a", "en": "I was frustrated by the sudden change in plans.", "vi": "Tôi thấy bực bội vì sự thay đổi kế hoạch đột ngột." },
+        { "speaker": "b", "en": "That was not my intention at all.", "vi": "Đó hoàn toàn không phải ý định của tôi." },
+        { "speaker": "a", "en": "I appreciate you explaining.", "vi": "Tôi cảm kích vì bạn giải thích." },
+        { "speaker": "b", "en": "Let us communicate more openly from now on.", "vi": "Từ giờ mình giao tiếp cởi mở hơn nhé." }
+      ]},
+    { "title": "Đề xuất thỏa hiệp giữa hai quan điểm", "situation": "Bạn đề xuất một thỏa hiệp giữa hai quan điểm khác nhau trong nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "We clearly have different opinions on this.", "vi": "Rõ ràng chúng ta có ý kiến khác nhau về việc này." },
+        { "speaker": "b", "en": "Yes, but I am open to a compromise.", "vi": "Vâng, nhưng tôi sẵn sàng thỏa hiệp." },
+        { "speaker": "a", "en": "What if we combine both approaches?", "vi": "Nếu mình kết hợp cả hai cách tiếp cận thì sao?" },
+        { "speaker": "b", "en": "That could actually work well.", "vi": "Vậy thực ra có thể hiệu quả đấy." },
+        { "speaker": "a", "en": "Let us try it for this project.", "vi": "Mình thử cho dự án này nhé." },
+        { "speaker": "b", "en": "Sounds good, I am on board.", "vi": "Nghe được đấy, tôi đồng ý." }
+      ]},
+    { "title": "Giải quyết bất đồng trước mặt quản lý", "situation": "Hai đồng nghiệp giải quyết bất đồng với sự có mặt của quản lý.",
+      "turns": [
+        { "speaker": "a", "en": "We have not been able to agree on this alone.", "vi": "Chúng tôi chưa tự thống nhất được việc này." },
+        { "speaker": "b", "en": "I appreciate you both bringing this forward.", "vi": "Tôi đánh giá cao việc cả hai bạn đưa vấn đề này ra." },
+        { "speaker": "a", "en": "My concern is about the timeline.", "vi": "Mối lo ngại của tôi là về tiến độ." },
+        { "speaker": "b", "en": "And mine is about the quality standard.", "vi": "Còn của tôi là về tiêu chuẩn chất lượng." },
+        { "speaker": "a", "en": "Both are valid points.", "vi": "Cả hai đều là ý kiến hợp lý." },
+        { "speaker": "b", "en": "Let us find a solution together.", "vi": "Mình cùng tìm giải pháp nhé." }
+      ]},
+    { "title": "Hàn gắn mối quan hệ sau xung đột", "situation": "Hai đồng nghiệp hàn gắn mối quan hệ sau khi giải quyết xung đột.",
+      "turns": [
+        { "speaker": "a", "en": "I am glad we worked this out.", "vi": "Tôi vui vì mình đã giải quyết được việc này." },
+        { "speaker": "b", "en": "Me too, I value our working relationship.", "vi": "Tôi cũng vậy, tôi coi trọng mối quan hệ làm việc của chúng ta." },
+        { "speaker": "a", "en": "Let us communicate more directly next time.", "vi": "Lần sau mình giao tiếp trực tiếp hơn nhé." },
+        { "speaker": "b", "en": "Agreed, that would prevent misunderstandings.", "vi": "Đồng ý, vậy sẽ tránh được hiểu lầm." },
+        { "speaker": "a", "en": "Thank you for being understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "Likewise, let us move forward together.", "vi": "Tương tự, mình cùng tiến về phía trước nhé." }
+      ]},
+    { "title": "Xung đột nhóm phức tạp liên quan đến nhiều thành viên và ưu tiên trái ngược", "situation": "Xung đột phức tạp liên quan đến nhiều thành viên nhóm với ưu tiên trái ngược nhau cần giải quyết đồng thời. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Half the team wants to prioritize speed, the other half wants quality.", "vi": "Một nửa nhóm muốn ưu tiên tốc độ, nửa còn lại muốn chất lượng." },
+        { "speaker": "b", "en": "This is causing real tension, we need to be on the same page.", "vi": "Việc này đang gây căng thẳng thật sự, chúng ta cần cùng quan điểm." },
+        { "speaker": "a", "en": "What if we split the project into two phases?", "vi": "Nếu mình chia dự án thành hai giai đoạn thì sao?" },
+        { "speaker": "b", "en": "A fast first phase, then a quality-focused second phase?", "vi": "Giai đoạn đầu nhanh, rồi giai đoạn hai tập trung chất lượng?" },
+        { "speaker": "a", "en": "Exactly, that meets both groups halfway.", "vi": "Chính xác, vậy đáp ứng cả hai nhóm ở mức giữa." },
+        { "speaker": "b", "en": "Let us propose this compromise to the whole team.", "vi": "Mình đề xuất thỏa hiệp này với cả nhóm nhé." }
+      ]}
+  ]
+}

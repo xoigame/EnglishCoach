@@ -1,0 +1,96 @@
+{
+  "id": "quan-ly-deadline-tre",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Thông báo trễ hạn nhỏ", "situation": "Quản lý dự án thông báo với khách hàng về một trễ hạn nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "I understand there is a delay.", "vi": "Tôi hiểu là có sự trễ hạn." },
+        { "speaker": "b", "en": "Yes, a minor setback in testing.", "vi": "Vâng, một trục trặc nhỏ trong khâu kiểm thử." },
+        { "speaker": "a", "en": "How much will this push the deadline?", "vi": "Vậy sẽ đẩy hạn chót lùi bao nhiêu?" },
+        { "speaker": "b", "en": "Just two extra days.", "vi": "Chỉ thêm hai ngày thôi." },
+        { "speaker": "a", "en": "That is manageable.", "vi": "Vậy vẫn xử lý được." },
+        { "speaker": "b", "en": "Thank you for your understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Giải thích nguyên nhân trễ hạn", "situation": "Quản lý giải thích nguyên nhân gốc rễ của việc trễ hạn.",
+      "turns": [
+        { "speaker": "a", "en": "What is the root cause of this delay?", "vi": "Nguyên nhân gốc rễ của sự trễ hạn này là gì?" },
+        { "speaker": "b", "en": "A vendor did not deliver components on time.", "vi": "Một nhà cung cấp không giao linh kiện đúng hạn." },
+        { "speaker": "a", "en": "Is that within our control?", "vi": "Việc đó có nằm trong tầm kiểm soát của chúng ta không?" },
+        { "speaker": "b", "en": "Not entirely, but we have a workaround.", "vi": "Không hoàn toàn, nhưng chúng tôi có giải pháp tạm thời." },
+        { "speaker": "a", "en": "Please explain the workaround.", "vi": "Vui lòng giải thích giải pháp tạm thời đó." },
+        { "speaker": "b", "en": "We are sourcing an alternative supplier.", "vi": "Chúng tôi đang tìm nhà cung cấp thay thế." }
+      ]},
+    { "title": "Khách hàng bày tỏ lo ngại về phạm vi dự án", "situation": "Khách hàng lo ngại về việc thay đổi phạm vi dự án.",
+      "turns": [
+        { "speaker": "a", "en": "Has the project scope changed?", "vi": "Phạm vi dự án có thay đổi không?" },
+        { "speaker": "b", "en": "No, the scope remains the same.", "vi": "Không, phạm vi vẫn giữ nguyên." },
+        { "speaker": "a", "en": "That is good to hear.", "vi": "Nghe vậy tốt quá." },
+        { "speaker": "b", "en": "We are simply catching up on the timeline.", "vi": "Chúng tôi chỉ đang bắt kịp tiến độ thôi." },
+        { "speaker": "a", "en": "When can we expect the next milestone?", "vi": "Khi nào chúng ta có thể mong đợi cột mốc tiếp theo?" },
+        { "speaker": "b", "en": "By the end of next week.", "vi": "Vào cuối tuần sau." }
+      ]},
+    { "title": "Đề xuất kế hoạch dự phòng", "situation": "Quản lý đề xuất một kế hoạch dự phòng cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a contingency plan?", "vi": "Bạn có kế hoạch dự phòng không?" },
+        { "speaker": "b", "en": "Yes, we can add extra staff if needed.", "vi": "Có, chúng tôi có thể thêm nhân sự nếu cần." },
+        { "speaker": "a", "en": "Would that increase the cost?", "vi": "Vậy có làm tăng chi phí không?" },
+        { "speaker": "b", "en": "A small amount, but it ensures the deadline.", "vi": "Một khoản nhỏ, nhưng nó đảm bảo hạn chót." },
+        { "speaker": "a", "en": "Let us proceed with that plan.", "vi": "Vậy mình tiến hành theo kế hoạch đó nhé." },
+        { "speaker": "b", "en": "I will implement it right away.", "vi": "Tôi sẽ triển khai ngay." }
+      ]},
+    { "title": "Khách hàng yêu cầu bù đắp", "situation": "Khách hàng yêu cầu một hình thức bù đắp cho sự trễ hạn.",
+      "turns": [
+        { "speaker": "a", "en": "This delay has cost us time and money.", "vi": "Sự trễ hạn này khiến chúng tôi mất thời gian và tiền bạc." },
+        { "speaker": "b", "en": "I understand, how can we make up for it?", "vi": "Tôi hiểu, chúng tôi có thể bù đắp thế nào?" },
+        { "speaker": "a", "en": "A discount on the next milestone payment.", "vi": "Giảm giá cho khoản thanh toán cột mốc tiếp theo." },
+        { "speaker": "b", "en": "That is a fair request.", "vi": "Đó là yêu cầu công bằng đấy." },
+        { "speaker": "a", "en": "I appreciate you agreeing to that.", "vi": "Tôi cảm kích vì bạn đồng ý điều đó." },
+        { "speaker": "b", "en": "We value this partnership.", "vi": "Chúng tôi coi trọng mối hợp tác này." }
+      ]},
+    { "title": "Đàm phán mốc thời gian mới", "situation": "Hai bên đàm phán về mốc thời gian mới cho dự án.",
+      "turns": [
+        { "speaker": "a", "en": "What is the new milestone date?", "vi": "Mốc thời gian mới là khi nào vậy?" },
+        { "speaker": "b", "en": "We propose next Friday.", "vi": "Chúng tôi đề xuất thứ Sáu tới." },
+        { "speaker": "a", "en": "Can you guarantee that this time?", "vi": "Lần này bạn đảm bảo được không?" },
+        { "speaker": "b", "en": "Yes, we have added buffer time.", "vi": "Được, chúng tôi đã thêm thời gian dự phòng." },
+        { "speaker": "a", "en": "That gives me more confidence.", "vi": "Vậy tôi tự tin hơn." },
+        { "speaker": "b", "en": "We will keep you updated closely.", "vi": "Chúng tôi sẽ cập nhật sát sao cho bạn." }
+      ]},
+    { "title": "Khách hàng bực bội vì trễ hạn lặp lại", "situation": "Khách hàng khó tính bày tỏ sự bực bội vì trễ hạn lặp lại.",
+      "turns": [
+        { "speaker": "a", "en": "This is the second delay this month.", "vi": "Đây là lần trễ hạn thứ hai trong tháng này rồi." },
+        { "speaker": "b", "en": "I understand your frustration completely.", "vi": "Tôi hoàn toàn hiểu sự bực bội của bạn." },
+        { "speaker": "a", "en": "What guarantees do I have now?", "vi": "Giờ tôi có đảm bảo gì đây?" },
+        { "speaker": "b", "en": "I will personally oversee the remaining work.", "vi": "Tôi sẽ đích thân giám sát phần công việc còn lại." },
+        { "speaker": "a", "en": "I hope that makes a difference.", "vi": "Mong điều đó tạo ra sự khác biệt." },
+        { "speaker": "b", "en": "I will provide daily updates from now on.", "vi": "Từ giờ tôi sẽ cập nhật hàng ngày." }
+      ]},
+    { "title": "Giải thích tác động của việc trễ hạn", "situation": "Quản lý giải thích tác động của việc trễ hạn lên các phần khác.",
+      "turns": [
+        { "speaker": "a", "en": "Will this delay affect the rollout?", "vi": "Sự trễ hạn này có ảnh hưởng đến việc triển khai không?" },
+        { "speaker": "b", "en": "It may push the rollout back by a few days.", "vi": "Nó có thể đẩy lùi việc triển khai vài ngày." },
+        { "speaker": "a", "en": "Is there a way to avoid that?", "vi": "Có cách nào tránh được điều đó không?" },
+        { "speaker": "b", "en": "We could do a partial rollout first.", "vi": "Chúng tôi có thể triển khai một phần trước." },
+        { "speaker": "a", "en": "That sounds like a reasonable compromise.", "vi": "Nghe có vẻ là thỏa hiệp hợp lý đấy." },
+        { "speaker": "b", "en": "I will prepare that plan today.", "vi": "Tôi sẽ chuẩn bị kế hoạch đó hôm nay." }
+      ]},
+    { "title": "Khách hàng chấp nhận kế hoạch mới", "situation": "Khách hàng chấp nhận kế hoạch mới sau khi được thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "I am willing to accept this new plan.", "vi": "Tôi sẵn sàng chấp nhận kế hoạch mới này." },
+        { "speaker": "b", "en": "Thank you for your patience and trust.", "vi": "Cảm ơn bạn đã kiên nhẫn và tin tưởng." },
+        { "speaker": "a", "en": "Please keep me informed of any changes.", "vi": "Vui lòng cập nhật cho tôi nếu có thay đổi gì." },
+        { "speaker": "b", "en": "Absolutely, I will send weekly updates.", "vi": "Chắc chắn rồi, tôi sẽ gửi cập nhật hàng tuần." },
+        { "speaker": "a", "en": "That works well for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "b", "en": "We appreciate your continued partnership.", "vi": "Chúng tôi trân trọng sự hợp tác lâu dài của bạn." }
+      ]},
+    { "title": "Xử lý khủng hoảng trễ hạn nghiêm trọng với khách hàng giận dữ và nhiều yêu cầu", "situation": "Khách hàng rất giận dữ vì trễ hạn nghiêm trọng và đưa ra nhiều yêu cầu khắt khe. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This delay has seriously damaged our business operations.", "vi": "Sự trễ hạn này đã gây thiệt hại nghiêm trọng cho hoạt động kinh doanh của chúng tôi." },
+        { "speaker": "b", "en": "I take full responsibility, and I am here to fix this.", "vi": "Tôi xin nhận toàn bộ trách nhiệm, và tôi ở đây để khắc phục việc này." },
+        { "speaker": "a", "en": "I need a guaranteed date and compensation.", "vi": "Tôi cần một ngày đảm bảo và khoản bồi thường." },
+        { "speaker": "b", "en": "We can commit to next Monday, with a discount as compensation.", "vi": "Chúng tôi có thể cam kết thứ Hai tới, cùng một khoản giảm giá bồi thường." },
+        { "speaker": "a", "en": "What is your contingency plan if that fails too?", "vi": "Kế hoạch dự phòng của bạn là gì nếu điều đó cũng thất bại?" },
+        { "speaker": "b", "en": "A dedicated team will be assigned exclusively to this project.", "vi": "Một đội ngũ chuyên trách sẽ được cử riêng cho dự án này." }
+      ]}
+  ]
+}

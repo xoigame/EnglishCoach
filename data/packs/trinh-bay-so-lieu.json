@@ -1,0 +1,96 @@
+{
+  "id": "trinh-bay-so-lieu",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Trình bày xu hướng tăng", "situation": "Chuyên viên phân tích trình bày xu hướng doanh số tăng.",
+      "turns": [
+        { "speaker": "a", "en": "What does this chart show?", "vi": "Biểu đồ này cho thấy điều gì?" },
+        { "speaker": "b", "en": "An upward trend in sales since March.", "vi": "Một xu hướng tăng trong doanh số từ tháng Ba." },
+        { "speaker": "a", "en": "What caused this increase?", "vi": "Điều gì gây ra sự tăng trưởng này?" },
+        { "speaker": "b", "en": "Our new marketing campaign, mainly.", "vi": "Chủ yếu là chiến dịch marketing mới." },
+        { "speaker": "a", "en": "That is encouraging news.", "vi": "Đó là tin tốt lành đấy." },
+        { "speaker": "b", "en": "We expect it to continue next quarter.", "vi": "Chúng tôi kỳ vọng nó tiếp tục vào quý tới." }
+      ]},
+    { "title": "Giải thích sự sụt giảm", "situation": "Chuyên viên giải thích nguyên nhân sụt giảm doanh số.",
+      "turns": [
+        { "speaker": "a", "en": "Why is there a decline in this figure?", "vi": "Vì sao con số này lại sụt giảm vậy?" },
+        { "speaker": "b", "en": "A seasonal dip, mostly.", "vi": "Chủ yếu là do giảm theo mùa." },
+        { "speaker": "a", "en": "Do you expect a rebound?", "vi": "Bạn có kỳ vọng phục hồi trở lại không?" },
+        { "speaker": "b", "en": "Yes, typically in the next two months.", "vi": "Có, thường trong hai tháng tới." },
+        { "speaker": "a", "en": "That is reassuring to hear.", "vi": "Nghe vậy tôi thấy yên tâm hơn." },
+        { "speaker": "b", "en": "We are monitoring it closely.", "vi": "Chúng tôi đang theo dõi sát sao." }
+      ]},
+    { "title": "Xác định điểm cao nhất", "situation": "Chuyên viên chỉ ra điểm cao nhất trong dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "Where did the numbers peak this year?", "vi": "Số liệu năm nay đạt đỉnh khi nào vậy?" },
+        { "speaker": "b", "en": "In June, during the promotional period.", "vi": "Vào tháng Sáu, trong giai đoạn khuyến mãi." },
+        { "speaker": "a", "en": "What accounted for that spike?", "vi": "Điều gì lý giải cho sự tăng vọt đó?" },
+        { "speaker": "b", "en": "A limited-time discount campaign.", "vi": "Một chiến dịch giảm giá có thời hạn." },
+        { "speaker": "a", "en": "That strategy seems effective.", "vi": "Chiến lược đó có vẻ hiệu quả đấy." },
+        { "speaker": "b", "en": "We plan to repeat it next year.", "vi": "Chúng tôi dự định lặp lại vào năm sau." }
+      ]},
+    { "title": "Giải thích số liệu bất thường", "situation": "Chuyên viên giải thích một con số bất thường trong báo cáo.",
+      "turns": [
+        { "speaker": "a", "en": "This figure looks unusual to me.", "vi": "Con số này có vẻ bất thường với tôi." },
+        { "speaker": "b", "en": "Yes, it was a one-time data entry error.", "vi": "Vâng, đó là lỗi nhập liệu một lần." },
+        { "speaker": "a", "en": "Has it been corrected?", "vi": "Nó đã được sửa chưa?" },
+        { "speaker": "b", "en": "Yes, the updated version is accurate.", "vi": "Rồi, phiên bản cập nhật đã chính xác." },
+        { "speaker": "a", "en": "Thank you for catching that.", "vi": "Cảm ơn bạn đã phát hiện ra điều đó." },
+        { "speaker": "b", "en": "We double-check figures before presenting.", "vi": "Chúng tôi kiểm tra kỹ số liệu trước khi trình bày." }
+      ]},
+    { "title": "Đưa ra dự báo thận trọng", "situation": "Chuyên viên đưa ra dự báo mang tính thận trọng.",
+      "turns": [
+        { "speaker": "a", "en": "What is your projection for next quarter?", "vi": "Dự báo của bạn cho quý tới là gì?" },
+        { "speaker": "b", "en": "A cautious ten percent growth.", "vi": "Tăng trưởng thận trọng khoảng mười phần trăm." },
+        { "speaker": "a", "en": "Why cautious specifically?", "vi": "Vì sao lại thận trọng vậy?" },
+        { "speaker": "b", "en": "Market conditions remain uncertain.", "vi": "Điều kiện thị trường vẫn còn bất định." },
+        { "speaker": "a", "en": "That is a reasonable approach.", "vi": "Đó là cách tiếp cận hợp lý đấy." },
+        { "speaker": "b", "en": "We will revise it as new data comes in.", "vi": "Chúng tôi sẽ điều chỉnh khi có dữ liệu mới." }
+      ]},
+    { "title": "Tóm tắt điểm chính từ dữ liệu", "situation": "Chuyên viên tóm tắt điểm chính rút ra từ dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "What is the key takeaway here?", "vi": "Điểm chính rút ra ở đây là gì?" },
+        { "speaker": "b", "en": "Customer retention improved significantly.", "vi": "Tỷ lệ giữ chân khách hàng đã cải thiện đáng kể." },
+        { "speaker": "a", "en": "What drove that improvement?", "vi": "Điều gì thúc đẩy sự cải thiện đó?" },
+        { "speaker": "b", "en": "Our new loyalty program.", "vi": "Chương trình khách hàng thân thiết mới của chúng tôi." },
+        { "speaker": "a", "en": "That is a strong result.", "vi": "Đó là kết quả tốt đấy." },
+        { "speaker": "b", "en": "We plan to expand the program further.", "vi": "Chúng tôi dự định mở rộng chương trình hơn nữa." }
+      ]},
+    { "title": "Trả lời câu hỏi hoài nghi về số liệu", "situation": "Giám đốc hoài nghi về độ chính xác của số liệu trình bày.",
+      "turns": [
+        { "speaker": "a", "en": "Are you confident in these figures?", "vi": "Bạn tự tin về những số liệu này chứ?" },
+        { "speaker": "b", "en": "Yes, they come from verified data sources.", "vi": "Vâng, chúng đến từ nguồn dữ liệu đã xác minh." },
+        { "speaker": "a", "en": "How often is this data updated?", "vi": "Dữ liệu này được cập nhật bao lâu một lần?" },
+        { "speaker": "b", "en": "Weekly, through our automated system.", "vi": "Hàng tuần, thông qua hệ thống tự động của chúng tôi." },
+        { "speaker": "a", "en": "That gives me more confidence.", "vi": "Vậy tôi tự tin hơn." },
+        { "speaker": "b", "en": "I am happy to share the raw data too.", "vi": "Tôi sẵn lòng chia sẻ cả dữ liệu thô nữa." }
+      ]},
+    { "title": "So sánh dữ liệu giữa hai kỳ", "situation": "Chuyên viên so sánh dữ liệu giữa hai kỳ báo cáo.",
+      "turns": [
+        { "speaker": "a", "en": "How does this compare to last quarter?", "vi": "Cái này so với quý trước thế nào?" },
+        { "speaker": "b", "en": "Revenue increased by fifteen percent.", "vi": "Doanh thu tăng mười lăm phần trăm." },
+        { "speaker": "a", "en": "What about costs during that period?", "vi": "Còn chi phí trong giai đoạn đó thì sao?" },
+        { "speaker": "b", "en": "Costs stayed relatively flat.", "vi": "Chi phí tương đối ổn định." },
+        { "speaker": "a", "en": "That is a healthy trend.", "vi": "Đó là xu hướng lành mạnh đấy." },
+        { "speaker": "b", "en": "We aim to maintain that balance.", "vi": "Chúng tôi cố gắng duy trì sự cân bằng đó." }
+      ]},
+    { "title": "Đề xuất hành động dựa trên dữ liệu", "situation": "Chuyên viên đề xuất hành động cụ thể dựa trên dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "What action would you recommend based on this?", "vi": "Bạn khuyến nghị hành động gì dựa trên dữ liệu này?" },
+        { "speaker": "b", "en": "Investing more in the top-performing channel.", "vi": "Đầu tư nhiều hơn vào kênh hoạt động hiệu quả nhất." },
+        { "speaker": "a", "en": "Which channel is that specifically?", "vi": "Cụ thể là kênh nào vậy?" },
+        { "speaker": "b", "en": "Social media advertising.", "vi": "Quảng cáo mạng xã hội." },
+        { "speaker": "a", "en": "That aligns with our strategy.", "vi": "Vậy phù hợp với chiến lược của chúng ta." },
+        { "speaker": "b", "en": "I will prepare a detailed proposal.", "vi": "Tôi sẽ chuẩn bị đề xuất chi tiết." }
+      ]},
+    { "title": "Trình bày số liệu phức tạp với nhiều biến động cần giải thích kỹ lưỡng", "situation": "Chuyên viên trình bày số liệu có nhiều biến động bất thường cần giải thích kỹ lưỡng cho ban lãnh đạo. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This chart shows a peak, then a sharp decline, then a rebound. Explain this.", "vi": "Biểu đồ này cho thấy đỉnh cao, rồi giảm mạnh, rồi phục hồi. Giải thích cho tôi." },
+        { "speaker": "b", "en": "The peak was from a marketing campaign, the decline followed a supply issue.", "vi": "Đỉnh cao là từ chiến dịch marketing, sự sụt giảm sau đó là do vấn đề nguồn cung." },
+        { "speaker": "a", "en": "And the rebound afterward?", "vi": "Còn sự phục hồi sau đó thì sao?" },
+        { "speaker": "b", "en": "Once supply stabilized, demand returned to normal levels.", "vi": "Khi nguồn cung ổn định lại, nhu cầu trở về mức bình thường." },
+        { "speaker": "a", "en": "What is your cautious projection going forward?", "vi": "Dự báo thận trọng của bạn cho sắp tới là gì?" },
+        { "speaker": "b", "en": "Steady growth, assuming no further supply disruptions.", "vi": "Tăng trưởng ổn định, giả định không có gián đoạn nguồn cung thêm nữa." }
+      ]}
+  ]
+}

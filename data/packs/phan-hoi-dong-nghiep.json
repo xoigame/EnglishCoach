@@ -1,0 +1,96 @@
+{
+  "id": "phan-hoi-dong-nghiep",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Bắt đầu buổi đánh giá hiệu suất", "situation": "Quản lý mở đầu buổi đánh giá hiệu suất định kỳ.",
+      "turns": [
+        { "speaker": "a", "en": "Let us start your performance review.", "vi": "Mình bắt đầu buổi đánh giá hiệu suất của bạn nhé." },
+        { "speaker": "b", "en": "Sure, I am ready.", "vi": "Được, tôi sẵn sàng." },
+        { "speaker": "a", "en": "Overall, your work has been solid this quarter.", "vi": "Nhìn chung, công việc của bạn quý này khá vững." },
+        { "speaker": "b", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn, tôi cảm kích điều đó." },
+        { "speaker": "a", "en": "Let us discuss areas for improvement too.", "vi": "Mình cũng bàn về những điểm cần cải thiện nhé." },
+        { "speaker": "b", "en": "I am open to that feedback.", "vi": "Tôi sẵn sàng đón nhận phản hồi đó." }
+      ]},
+    { "title": "Đưa ra phản hồi xây dựng", "situation": "Quản lý đưa ra phản hồi xây dựng về một dự án.",
+      "turns": [
+        { "speaker": "a", "en": "I have some constructive feedback on the report.", "vi": "Tôi có vài phản hồi mang tính xây dựng về báo cáo." },
+        { "speaker": "b", "en": "Please go ahead, I want to improve.", "vi": "Mời bạn cứ nói, tôi muốn cải thiện." },
+        { "speaker": "a", "en": "The analysis could be more detailed.", "vi": "Phần phân tích có thể chi tiết hơn." },
+        { "speaker": "b", "en": "I will add more depth next time.", "vi": "Lần sau tôi sẽ đào sâu hơn." },
+        { "speaker": "a", "en": "That would strengthen your work.", "vi": "Vậy sẽ củng cố công việc của bạn hơn." },
+        { "speaker": "b", "en": "Thank you for the guidance.", "vi": "Cảm ơn bạn đã chỉ dẫn." }
+      ]},
+    { "title": "Nhân viên chủ động nhận trách nhiệm", "situation": "Nhân viên chủ động nhận trách nhiệm về một sai sót.",
+      "turns": [
+        { "speaker": "a", "en": "There was an issue with the last deliverable.", "vi": "Có một vấn đề với sản phẩm giao nộp lần trước." },
+        { "speaker": "b", "en": "I take ownership of that mistake.", "vi": "Tôi xin nhận trách nhiệm về sai sót đó." },
+        { "speaker": "a", "en": "I appreciate you acknowledging it.", "vi": "Tôi cảm kích vì bạn thừa nhận điều đó." },
+        { "speaker": "b", "en": "I have already corrected the process.", "vi": "Tôi đã sửa lại quy trình rồi." },
+        { "speaker": "a", "en": "That shows real accountability.", "vi": "Vậy cho thấy tinh thần trách nhiệm thật sự đấy." },
+        { "speaker": "b", "en": "Thank you, I want to avoid repeating it.", "vi": "Cảm ơn, tôi muốn tránh lặp lại việc đó." }
+      ]},
+    { "title": "Nhân viên nêu lên mối lo ngại về khối lượng công việc", "situation": "Nhân viên nêu lên mối lo ngại về khối lượng công việc quá tải.",
+      "turns": [
+        { "speaker": "a", "en": "How do you feel about your current workload?", "vi": "Bạn cảm thấy thế nào về khối lượng công việc hiện tại?" },
+        { "speaker": "b", "en": "Honestly, I would like to raise a concern.", "vi": "Thật lòng, tôi muốn nêu lên một mối lo ngại." },
+        { "speaker": "a", "en": "Please, go ahead.", "vi": "Mời bạn cứ nói." },
+        { "speaker": "b", "en": "The workload has been quite heavy lately.", "vi": "Gần đây khối lượng công việc khá nặng." },
+        { "speaker": "a", "en": "Thank you for speaking up.", "vi": "Cảm ơn bạn đã nói lên điều đó." },
+        { "speaker": "b", "en": "I appreciate you taking this seriously.", "vi": "Tôi cảm kích vì bạn xem trọng việc này." }
+      ]},
+    { "title": "Thảo luận về sự đánh đổi trong ưu tiên", "situation": "Quản lý và nhân viên thảo luận về sự đánh đổi khi ưu tiên công việc.",
+      "turns": [
+        { "speaker": "a", "en": "There is a trade-off between speed and quality here.", "vi": "Có sự đánh đổi giữa tốc độ và chất lượng ở đây." },
+        { "speaker": "b", "en": "Which should I prioritize?", "vi": "Tôi nên ưu tiên cái nào?" },
+        { "speaker": "a", "en": "Quality matters more for this client.", "vi": "Chất lượng quan trọng hơn với khách hàng này." },
+        { "speaker": "b", "en": "Understood, I will adjust my approach.", "vi": "Tôi hiểu rồi, tôi sẽ điều chỉnh cách làm." },
+        { "speaker": "a", "en": "Thank you for being flexible.", "vi": "Cảm ơn bạn đã linh hoạt." },
+        { "speaker": "b", "en": "Of course, happy to adapt.", "vi": "Đương nhiên, tôi vui lòng thích nghi." }
+      ]},
+    { "title": "Nhân viên hỏi về điểm cần cải thiện", "situation": "Nhân viên chủ động hỏi về điểm cần cải thiện.",
+      "turns": [
+        { "speaker": "a", "en": "Is there anything else I should improve?", "vi": "Có điều gì khác tôi nên cải thiện không?" },
+        { "speaker": "b", "en": "Your presentation skills could use some work.", "vi": "Kỹ năng thuyết trình của bạn có thể cần cải thiện thêm." },
+        { "speaker": "a", "en": "Any suggestions on how?", "vi": "Có gợi ý nào về cách làm không?" },
+        { "speaker": "b", "en": "Practicing with the team could help.", "vi": "Luyện tập cùng nhóm có thể giúp ích." },
+        { "speaker": "a", "en": "I will start doing that.", "vi": "Tôi sẽ bắt đầu làm vậy." },
+        { "speaker": "b", "en": "Great, I look forward to seeing progress.", "vi": "Tốt, tôi mong được thấy sự tiến bộ." }
+      ]},
+    { "title": "Quản lý ghi nhận nỗ lực vượt trội", "situation": "Quản lý ghi nhận nỗ lực vượt trội của nhân viên.",
+      "turns": [
+        { "speaker": "a", "en": "I want to recognize your extra effort recently.", "vi": "Tôi muốn ghi nhận nỗ lực thêm của bạn gần đây." },
+        { "speaker": "b", "en": "Thank you, it means a lot.", "vi": "Cảm ơn, điều đó có ý nghĩa nhiều với tôi." },
+        { "speaker": "a", "en": "You followed through even under pressure.", "vi": "Bạn đã hoàn thành đến cùng ngay cả khi áp lực." },
+        { "speaker": "b", "en": "I wanted to make sure it was done right.", "vi": "Tôi muốn đảm bảo mọi thứ được làm đúng." },
+        { "speaker": "a", "en": "That kind of dedication stands out.", "vi": "Sự cống hiến như vậy thật nổi bật." },
+        { "speaker": "b", "en": "Thank you, I will keep it up.", "vi": "Cảm ơn, tôi sẽ tiếp tục phát huy." }
+      ]},
+    { "title": "Nhân viên không đồng ý với đánh giá", "situation": "Nhân viên nhẹ nhàng không đồng ý với một phần đánh giá.",
+      "turns": [
+        { "speaker": "a", "en": "Your review shows some missed deadlines.", "vi": "Đánh giá của bạn cho thấy một số hạn chót bị trễ." },
+        { "speaker": "b", "en": "I would like to raise a concern about that.", "vi": "Tôi muốn nêu lên mối lo ngại về việc đó." },
+        { "speaker": "a", "en": "Please explain your perspective.", "vi": "Mời bạn giải thích góc nhìn của mình." },
+        { "speaker": "b", "en": "Those delays were due to dependencies outside my control.", "vi": "Những trễ hạn đó là do các phụ thuộc ngoài tầm kiểm soát của tôi." },
+        { "speaker": "a", "en": "That is a fair point, I will reconsider.", "vi": "Đó là điểm hợp lý, tôi sẽ xem xét lại." },
+        { "speaker": "b", "en": "Thank you for hearing me out.", "vi": "Cảm ơn bạn đã lắng nghe tôi." }
+      ]},
+    { "title": "Đặt mục tiêu phát triển cho quý tới", "situation": "Quản lý và nhân viên cùng đặt mục tiêu phát triển cho quý tới.",
+      "turns": [
+        { "speaker": "a", "en": "Let us set goals for next quarter.", "vi": "Mình đặt mục tiêu cho quý tới nhé." },
+        { "speaker": "b", "en": "I would like to lead a small project.", "vi": "Tôi muốn dẫn dắt một dự án nhỏ." },
+        { "speaker": "a", "en": "That is a great growth opportunity.", "vi": "Đó là cơ hội phát triển tuyệt vời đấy." },
+        { "speaker": "b", "en": "I am excited to take that on.", "vi": "Tôi rất hào hứng đảm nhận việc đó." },
+        { "speaker": "a", "en": "I will support you along the way.", "vi": "Tôi sẽ hỗ trợ bạn trong quá trình đó." },
+        { "speaker": "b", "en": "Thank you, I appreciate the trust.", "vi": "Cảm ơn, tôi cảm kích sự tin tưởng đó." }
+      ]},
+    { "title": "Buổi đánh giá hiệu suất phức tạp với phản hồi trái chiều và cần thương lượng mục tiêu", "situation": "Buổi đánh giá có phản hồi trái chiều từ cả hai phía và cần thương lượng mục tiêu mới. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your output dropped significantly this quarter.", "vi": "Sản lượng công việc của bạn giảm đáng kể quý này." },
+        { "speaker": "b", "en": "I take ownership, but I also want to raise a concern about workload distribution.", "vi": "Tôi xin nhận trách nhiệm, nhưng tôi cũng muốn nêu lo ngại về việc phân bổ khối lượng công việc." },
+        { "speaker": "a", "en": "Tell me more about that concern.", "vi": "Bạn kể thêm về mối lo ngại đó được không?" },
+        { "speaker": "b", "en": "I was assigned two major projects simultaneously.", "vi": "Tôi được giao hai dự án lớn cùng lúc." },
+        { "speaker": "a", "en": "That is a fair trade-off issue, let us rebalance your tasks.", "vi": "Đó là vấn đề đánh đổi hợp lý, mình cân bằng lại công việc của bạn nhé." },
+        { "speaker": "b", "en": "Thank you, I will follow through on the new plan.", "vi": "Cảm ơn, tôi sẽ hoàn thành theo kế hoạch mới." }
+      ]}
+  ]
+}

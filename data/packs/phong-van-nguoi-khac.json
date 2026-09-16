@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-nguoi-khac",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Người phỏng vấn còn thiếu kinh nghiệm", "situation": "Người học đóng vai người phỏng vấn, còn hơi lúng túng.",
+      "turns": [
+        { "speaker": "a", "en": "I am a bit nervous, this is my first interview.", "vi": "Tôi hơi hồi hộp, đây là lần đầu tôi phỏng vấn." },
+        { "speaker": "b", "en": "No worries, we can take it slow.", "vi": "Đừng lo, chúng ta có thể làm từ từ." },
+        { "speaker": "a", "en": "Can you tell me about your relevant experience?", "vi": "Bạn kể tôi nghe về kinh nghiệm liên quan được không?" },
+        { "speaker": "b", "en": "Sure, I worked in a similar role for two years.", "vi": "Được, tôi đã làm vai trò tương tự hai năm." },
+        { "speaker": "a", "en": "That sounds like a good fit.", "vi": "Nghe có vẻ phù hợp đấy." },
+        { "speaker": "b", "en": "Thank you, I think so too.", "vi": "Cảm ơn, tôi cũng nghĩ vậy." }
+      ]},
+    { "title": "Hỏi về điểm mạnh và thử thách", "situation": "Người phỏng vấn hỏi về điểm mạnh và thử thách.",
+      "turns": [
+        { "speaker": "a", "en": "What would you say is your biggest strength?", "vi": "Bạn nghĩ điểm mạnh lớn nhất của bạn là gì?" },
+        { "speaker": "b", "en": "Taking initiative when problems arise.", "vi": "Chủ động khi có vấn đề phát sinh." },
+        { "speaker": "a", "en": "And a challenge you have faced?", "vi": "Còn một thử thách bạn từng gặp?" },
+        { "speaker": "b", "en": "Managing a tight deadline with limited resources.", "vi": "Quản lý hạn chót gấp với nguồn lực hạn chế." },
+        { "speaker": "a", "en": "How did you handle that?", "vi": "Bạn đã xử lý thế nào?" },
+        { "speaker": "b", "en": "I prioritized the most critical tasks.", "vi": "Tôi ưu tiên các nhiệm vụ quan trọng nhất." }
+      ]},
+    { "title": "Hỏi về làm việc với các bên liên quan", "situation": "Người phỏng vấn hỏi về kinh nghiệm làm việc với stakeholder.",
+      "turns": [
+        { "speaker": "a", "en": "How do you work with different stakeholders?", "vi": "Bạn làm việc với các bên liên quan khác nhau thế nào?" },
+        { "speaker": "b", "en": "I try to understand their priorities first.", "vi": "Tôi cố hiểu ưu tiên của họ trước." },
+        { "speaker": "a", "en": "What if their priorities conflict?", "vi": "Nếu ưu tiên của họ xung đột nhau thì sao?" },
+        { "speaker": "b", "en": "I look for a trade-off that works for everyone.", "vi": "Tôi tìm sự đánh đổi phù hợp cho mọi người." },
+        { "speaker": "a", "en": "That is a mature approach.", "vi": "Đó là cách tiếp cận trưởng thành đấy." },
+        { "speaker": "b", "en": "Thank you, communication helps a lot.", "vi": "Cảm ơn, giao tiếp giúp ích nhiều lắm." }
+      ]},
+    { "title": "Hỏi về cách nhận phản hồi", "situation": "Người phỏng vấn hỏi cách ứng viên tiếp nhận phản hồi.",
+      "turns": [
+        { "speaker": "a", "en": "How do you handle constructive feedback?", "vi": "Bạn xử lý phản hồi mang tính xây dựng thế nào?" },
+        { "speaker": "b", "en": "I try to see it as an opportunity to grow.", "vi": "Tôi cố xem nó như cơ hội để phát triển." },
+        { "speaker": "a", "en": "Can you give an example?", "vi": "Bạn cho ví dụ được không?" },
+        { "speaker": "b", "en": "A mentor once pointed out my reports were too long.", "vi": "Có lần người hướng dẫn chỉ ra báo cáo của tôi quá dài." },
+        { "speaker": "a", "en": "What did you change?", "vi": "Bạn đã thay đổi điều gì?" },
+        { "speaker": "b", "en": "I learned to be more concise.", "vi": "Tôi học cách viết súc tích hơn." }
+      ]},
+    { "title": "Hỏi về việc theo sát công việc", "situation": "Người phỏng vấn hỏi về việc theo sát công việc đã giao.",
+      "turns": [
+        { "speaker": "a", "en": "How do you follow up on tasks?", "vi": "Bạn theo sát công việc thế nào?" },
+        { "speaker": "b", "en": "I set reminders and check in regularly.", "vi": "Tôi đặt nhắc nhở và kiểm tra thường xuyên." },
+        { "speaker": "a", "en": "What if a deadline is at risk?", "vi": "Nếu hạn chót có nguy cơ trễ thì sao?" },
+        { "speaker": "b", "en": "I raise it early with the team.", "vi": "Tôi báo sớm cho cả nhóm." },
+        { "speaker": "a", "en": "That shows good communication.", "vi": "Vậy cho thấy khả năng giao tiếp tốt đấy." },
+        { "speaker": "b", "en": "Thank you, I try to stay proactive.", "vi": "Cảm ơn, tôi cố gắng chủ động." }
+      ]},
+    { "title": "Hỏi về việc đối mặt với thử thách bất ngờ", "situation": "Người phỏng vấn hỏi về cách xử lý thử thách bất ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "Describe an unexpected challenge you faced.", "vi": "Mô tả một thử thách bất ngờ bạn từng gặp." },
+        { "speaker": "b", "en": "A key team member left mid-project.", "vi": "Một thành viên chủ chốt rời nhóm giữa dự án." },
+        { "speaker": "a", "en": "How did you manage that?", "vi": "Bạn đã xử lý điều đó thế nào?" },
+        { "speaker": "b", "en": "I redistributed the workload quickly.", "vi": "Tôi phân bổ lại khối lượng công việc nhanh chóng." },
+        { "speaker": "a", "en": "That is impressive under pressure.", "vi": "Vậy ấn tượng đấy khi ở dưới áp lực." },
+        { "speaker": "b", "en": "Thank you, the team pulled together well.", "vi": "Cảm ơn, cả nhóm đã đoàn kết tốt." }
+      ]},
+    { "title": "Người phỏng vấn hỏi câu khó", "situation": "Người phỏng vấn (người học) chuẩn bị một câu hỏi hơi khó.",
+      "turns": [
+        { "speaker": "a", "en": "I prepared a slightly tricky question.", "vi": "Tôi đã chuẩn bị một câu hỏi hơi khó." },
+        { "speaker": "b", "en": "Go ahead, I am ready.", "vi": "Bạn cứ hỏi, tôi sẵn sàng." },
+        { "speaker": "a", "en": "How would a stakeholder describe working with you?", "vi": "Một bên liên quan sẽ mô tả việc làm việc với bạn thế nào?" },
+        { "speaker": "b", "en": "They would likely say I communicate clearly.", "vi": "Họ có lẽ sẽ nói tôi giao tiếp rõ ràng." },
+        { "speaker": "a", "en": "That is a strong answer.", "vi": "Đó là câu trả lời mạnh đấy." },
+        { "speaker": "b", "en": "Thank you for the thoughtful question.", "vi": "Cảm ơn bạn vì câu hỏi sâu sắc." }
+      ]},
+    { "title": "Đánh giá mức độ phù hợp", "situation": "Người phỏng vấn đánh giá mức độ phù hợp của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "Why do you think you are a good fit?", "vi": "Bạn nghĩ vì sao mình là người phù hợp?" },
+        { "speaker": "b", "en": "My background matches the role closely.", "vi": "Kinh nghiệm của tôi khá phù hợp với vai trò này." },
+        { "speaker": "a", "en": "What specifically stands out?", "vi": "Cụ thể điều gì nổi bật vậy?" },
+        { "speaker": "b", "en": "My experience managing tight deadlines.", "vi": "Kinh nghiệm quản lý hạn chót gấp của tôi." },
+        { "speaker": "a", "en": "That aligns with our needs.", "vi": "Vậy phù hợp với nhu cầu của chúng tôi." },
+        { "speaker": "b", "en": "I am glad to hear that.", "vi": "Tôi vui khi nghe điều đó." }
+      ]},
+    { "title": "Người phỏng vấn tổng kết buổi phỏng vấn", "situation": "Người phỏng vấn tổng kết lại buổi phỏng vấn thực hành.",
+      "turns": [
+        { "speaker": "a", "en": "I think that covers all my questions.", "vi": "Tôi nghĩ vậy là đủ các câu hỏi rồi." },
+        { "speaker": "b", "en": "Thank you for the practice session.", "vi": "Cảm ơn bạn vì buổi thực hành." },
+        { "speaker": "a", "en": "You did well overall.", "vi": "Nhìn chung bạn làm tốt đấy." },
+        { "speaker": "b", "en": "I appreciate the feedback.", "vi": "Tôi cảm kích phản hồi đó." },
+        { "speaker": "a", "en": "One area to improve is being more concise.", "vi": "Một điểm cần cải thiện là súc tích hơn." },
+        { "speaker": "b", "en": "Noted, thank you for the tip.", "vi": "Đã ghi nhận, cảm ơn lời khuyên." }
+      ]},
+    { "title": "Buổi phỏng vấn thực hành với nhiều câu hỏi tình huống phức tạp liên tiếp", "situation": "Người phỏng vấn đặt liên tiếp nhiều câu hỏi tình huống phức tạp để luyện tập chuyên sâu. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about a time you had to push back on a stakeholder.", "vi": "Kể tôi nghe về lần bạn phải phản đối một bên liên quan." },
+        { "speaker": "b", "en": "A client wanted a deadline we could not realistically meet.", "vi": "Một khách hàng muốn hạn chót mà chúng tôi không thể thực tế đáp ứng." },
+        { "speaker": "a", "en": "How did you push back while keeping the relationship positive?", "vi": "Bạn đã phản đối thế nào mà vẫn giữ mối quan hệ tích cực?" },
+        { "speaker": "b", "en": "I proposed a trade-off with a phased delivery instead.", "vi": "Tôi đề xuất một đánh đổi bằng cách giao hàng theo từng giai đoạn." },
+        { "speaker": "a", "en": "And how did they respond?", "vi": "Họ đã phản hồi thế nào?" },
+        { "speaker": "b", "en": "They appreciated the transparency and agreed to it.", "vi": "Họ đánh giá cao sự minh bạch và đồng ý với điều đó." }
+      ]}
+  ]
+}

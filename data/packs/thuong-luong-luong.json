@@ -1,0 +1,96 @@
+{
+  "id": "thuong-luong-luong",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Hỏi về mức lương cơ bản", "situation": "Ứng viên hỏi về mức lương cơ bản cho vị trí.",
+      "turns": [
+        { "speaker": "a", "en": "What are your salary expectations?", "vi": "Bạn kỳ vọng mức lương bao nhiêu?" },
+        { "speaker": "b", "en": "I am looking for a base salary around thirty million.", "vi": "Tôi mong muốn mức lương cơ bản khoảng ba mươi triệu." },
+        { "speaker": "a", "en": "That is within our range.", "vi": "Vậy nằm trong khoảng của chúng tôi." },
+        { "speaker": "b", "en": "Good to know, thank you.", "vi": "Biết vậy tốt quá, cảm ơn bạn." },
+        { "speaker": "a", "en": "We can discuss the full package next.", "vi": "Tiếp theo mình sẽ bàn về toàn bộ gói đãi ngộ." },
+        { "speaker": "b", "en": "I would appreciate that.", "vi": "Tôi rất mong điều đó." }
+      ]},
+    { "title": "Hỏi về gói đãi ngộ toàn diện", "situation": "Ứng viên hỏi chi tiết về gói đãi ngộ tổng thể.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain the full compensation package?", "vi": "Bạn giải thích chi tiết gói đãi ngộ được không?" },
+        { "speaker": "b", "en": "It includes salary, bonus, and health insurance.", "vi": "Nó bao gồm lương, thưởng, và bảo hiểm y tế." },
+        { "speaker": "a", "en": "What about paid time off?", "vi": "Còn về ngày nghỉ có lương thì sao?" },
+        { "speaker": "b", "en": "Fifteen days per year.", "vi": "Mười lăm ngày mỗi năm." },
+        { "speaker": "a", "en": "That sounds competitive.", "vi": "Nghe khá cạnh tranh đấy." },
+        { "speaker": "b", "en": "We aim to match market rate.", "vi": "Chúng tôi cố gắng phù hợp với mặt bằng thị trường." }
+      ]},
+    { "title": "Đưa ra đề nghị phản hồi", "situation": "Ứng viên đưa ra một đề nghị phản hồi cho mức lương ban đầu.",
+      "turns": [
+        { "speaker": "a", "en": "We can offer twenty-five million per month.", "vi": "Chúng tôi có thể đề nghị hai mươi lăm triệu một tháng." },
+        { "speaker": "b", "en": "I would like to make a counteroffer of twenty-eight.", "vi": "Tôi muốn đưa ra đề nghị phản hồi là hai mươi tám." },
+        { "speaker": "a", "en": "Let me see what flexibility we have.", "vi": "Để tôi xem chúng tôi có thể linh hoạt tới đâu." },
+        { "speaker": "b", "en": "I appreciate you considering it.", "vi": "Tôi cảm kích vì bạn cân nhắc điều đó." },
+        { "speaker": "a", "en": "We could meet somewhere in between.", "vi": "Chúng ta có thể gặp nhau ở khoảng giữa." },
+        { "speaker": "b", "en": "That sounds fair to me.", "vi": "Nghe công bằng với tôi đấy." }
+      ]},
+    { "title": "Hỏi về thưởng hằng năm", "situation": "Ứng viên hỏi về chính sách thưởng hằng năm.",
+      "turns": [
+        { "speaker": "a", "en": "Is there an annual bonus?", "vi": "Có thưởng hằng năm không ạ?" },
+        { "speaker": "b", "en": "Yes, based on company performance.", "vi": "Có, dựa trên hiệu quả kinh doanh của công ty." },
+        { "speaker": "a", "en": "What was last year's average?", "vi": "Trung bình năm ngoái là bao nhiêu vậy ạ?" },
+        { "speaker": "b", "en": "About one month's salary.", "vi": "Khoảng một tháng lương." },
+        { "speaker": "a", "en": "That is a helpful benchmark.", "vi": "Đó là một mốc tham khảo hữu ích." },
+        { "speaker": "b", "en": "It can vary depending on results.", "vi": "Nó có thể thay đổi tùy vào kết quả kinh doanh." }
+      ]},
+    { "title": "Đàm phán giờ làm linh hoạt", "situation": "Ứng viên thương lượng về giờ làm việc linh hoạt.",
+      "turns": [
+        { "speaker": "a", "en": "Would flexible working arrangements be possible?", "vi": "Có thể sắp xếp giờ làm linh hoạt không ạ?" },
+        { "speaker": "b", "en": "Yes, within certain limits.", "vi": "Có, trong một số giới hạn nhất định." },
+        { "speaker": "a", "en": "That would help my work-life balance.", "vi": "Vậy sẽ giúp tôi cân bằng cuộc sống và công việc." },
+        { "speaker": "b", "en": "We value that as well.", "vi": "Chúng tôi cũng coi trọng điều đó." },
+        { "speaker": "a", "en": "Thank you for considering it.", "vi": "Cảm ơn bạn đã cân nhắc." },
+        { "speaker": "b", "en": "We will include it in the offer.", "vi": "Chúng tôi sẽ đưa vào trong đề nghị." }
+      ]},
+    { "title": "Hỏi về thưởng ký hợp đồng", "situation": "Ứng viên hỏi về khoản thưởng khi ký hợp đồng.",
+      "turns": [
+        { "speaker": "a", "en": "Do you offer a signing bonus?", "vi": "Công ty có thưởng ký hợp đồng không ạ?" },
+        { "speaker": "b", "en": "In some cases, yes.", "vi": "Trong một số trường hợp thì có." },
+        { "speaker": "a", "en": "What would qualify for that?", "vi": "Điều kiện để được thưởng là gì ạ?" },
+        { "speaker": "b", "en": "Leaving a current contract early, for example.", "vi": "Ví dụ như phải nghỉ việc sớm hơn hợp đồng hiện tại." },
+        { "speaker": "a", "en": "That applies to my situation.", "vi": "Trường hợp của tôi cũng vậy đấy." },
+        { "speaker": "b", "en": "Then we can discuss that option.", "vi": "Vậy chúng ta có thể bàn về lựa chọn đó." }
+      ]},
+    { "title": "So sánh với mức lương thị trường", "situation": "Ứng viên so sánh đề nghị với mức lương thị trường.",
+      "turns": [
+        { "speaker": "a", "en": "This offer is below the market rate.", "vi": "Đề nghị này thấp hơn mặt bằng thị trường." },
+        { "speaker": "b", "en": "What figure are you comparing to?", "vi": "Bạn đang so sánh với con số nào vậy?" },
+        { "speaker": "a", "en": "Industry surveys suggest thirty-two million.", "vi": "Các khảo sát ngành cho thấy ba mươi hai triệu." },
+        { "speaker": "b", "en": "Let me review that with management.", "vi": "Để tôi xem xét lại với ban quản lý." },
+        { "speaker": "a", "en": "I appreciate you looking into it.", "vi": "Tôi cảm kích vì bạn xem xét việc này." },
+        { "speaker": "b", "en": "We want to make a fair offer.", "vi": "Chúng tôi muốn đưa ra đề nghị công bằng." }
+      ]},
+    { "title": "Thương lượng khi có đề nghị khác", "situation": "Ứng viên đề cập đến việc có đề nghị công việc khác.",
+      "turns": [
+        { "speaker": "a", "en": "I have another offer on the table.", "vi": "Tôi có một đề nghị khác đang cân nhắc." },
+        { "speaker": "b", "en": "May I ask what that offer includes?", "vi": "Tôi hỏi đề nghị đó bao gồm gì được không ạ?" },
+        { "speaker": "a", "en": "A slightly higher base salary.", "vi": "Lương cơ bản cao hơn một chút." },
+        { "speaker": "b", "en": "Let us see if we can meet you halfway.", "vi": "Để chúng tôi xem có thể gặp bạn ở giữa không." },
+        { "speaker": "a", "en": "I would appreciate that effort.", "vi": "Tôi cảm kích nỗ lực đó." },
+        { "speaker": "b", "en": "I will follow up by tomorrow.", "vi": "Mai tôi sẽ liên hệ lại." }
+      ]},
+    { "title": "Chốt thỏa thuận lương", "situation": "Hai bên đạt được thỏa thuận cuối cùng về lương.",
+      "turns": [
+        { "speaker": "a", "en": "We can finalize at twenty-nine million.", "vi": "Chúng tôi có thể chốt ở hai mươi chín triệu." },
+        { "speaker": "b", "en": "That works well for me.", "vi": "Vậy được với tôi đấy." },
+        { "speaker": "a", "en": "Great, I will prepare the offer letter.", "vi": "Tuyệt, tôi sẽ chuẩn bị thư mời làm việc." },
+        { "speaker": "b", "en": "Thank you for the negotiation.", "vi": "Cảm ơn bạn đã thương lượng." },
+        { "speaker": "a", "en": "We are happy to have you on board.", "vi": "Chúng tôi rất vui khi có bạn tham gia." },
+        { "speaker": "b", "en": "I am looking forward to starting.", "vi": "Tôi rất mong được bắt đầu." }
+      ]},
+    { "title": "Đàm phán lương phức tạp với nhiều yếu tố đãi ngộ cùng lúc", "situation": "Ứng viên và nhà tuyển dụng đàm phán đồng thời nhiều yếu tố: lương, thưởng, và phúc lợi. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The base salary is fixed, but we can adjust other parts.", "vi": "Lương cơ bản là cố định, nhưng chúng tôi có thể điều chỉnh các phần khác." },
+        { "speaker": "b", "en": "Could the signing bonus be increased instead?", "vi": "Vậy thưởng ký hợp đồng có thể tăng lên thay vào đó không?" },
+        { "speaker": "a", "en": "That is possible, along with extra paid time off.", "vi": "Điều đó có thể, cùng với thêm ngày nghỉ có lương." },
+        { "speaker": "b", "en": "I would also like flexible working arrangements included.", "vi": "Tôi cũng muốn có thêm điều khoản làm việc linh hoạt." },
+        { "speaker": "a", "en": "We can meet you halfway on all three points.", "vi": "Chúng tôi có thể gặp bạn ở giữa trên cả ba điểm đó." },
+        { "speaker": "b", "en": "That is a package I can accept.", "vi": "Đó là gói đãi ngộ tôi có thể chấp nhận." }
+      ]}
+  ]
+}

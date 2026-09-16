@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-van-de-xa-hoi",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu tranh luận về làm việc từ xa", "situation": "Hai người bạn bắt đầu tranh luận về làm việc từ xa.",
+      "turns": [
+        { "speaker": "a", "en": "I really think working from home is overrated.", "vi": "Tôi thực sự nghĩ làm việc từ nhà bị đánh giá quá cao." },
+        { "speaker": "b", "en": "I disagree, it gives me a better work-life balance.", "vi": "Tôi không đồng ý, nó cho tôi cân bằng cuộc sống và công việc tốt hơn." },
+        { "speaker": "a", "en": "But do you not miss the office energy?", "vi": "Nhưng bạn không nhớ năng lượng ở văn phòng à?" },
+        { "speaker": "b", "en": "Sometimes, but I value flexibility more.", "vi": "Đôi khi, nhưng tôi coi trọng sự linh hoạt hơn." },
+        { "speaker": "a", "en": "That is a fair point.", "vi": "Đó là điểm hợp lý đấy." },
+        { "speaker": "b", "en": "I think it depends on the person.", "vi": "Tôi nghĩ nó tùy thuộc vào mỗi người." }
+      ]},
+    { "title": "Bàn về nguy cơ kiệt sức", "situation": "Hai người bàn về nguy cơ kiệt sức khi làm việc từ xa.",
+      "turns": [
+        { "speaker": "a", "en": "Do you not worry about burnout at home?", "vi": "Bạn không lo về kiệt sức khi làm ở nhà à?" },
+        { "speaker": "b", "en": "Actually, I set clear boundaries to avoid that.", "vi": "Thực ra tôi đặt ranh giới rõ ràng để tránh điều đó." },
+        { "speaker": "a", "en": "What kind of boundaries?", "vi": "Ranh giới kiểu gì vậy?" },
+        { "speaker": "b", "en": "I stop working at a fixed time every day.", "vi": "Tôi dừng làm việc vào một giờ cố định mỗi ngày." },
+        { "speaker": "a", "en": "That sounds disciplined.", "vi": "Nghe có vẻ kỷ luật đấy." },
+        { "speaker": "b", "en": "It took practice, but it works.", "vi": "Phải luyện tập, nhưng nó hiệu quả." }
+      ]},
+    { "title": "Bàn về cảm giác cô lập", "situation": "Người bạn cho rằng làm việc từ xa dễ khiến cảm thấy cô lập.",
+      "turns": [
+        { "speaker": "a", "en": "Do you not feel isolated working alone?", "vi": "Bạn không cảm thấy cô lập khi làm việc một mình à?" },
+        { "speaker": "b", "en": "Sometimes, but video calls help with that.", "vi": "Đôi khi, nhưng cuộc gọi video giúp giảm bớt điều đó." },
+        { "speaker": "a", "en": "Is that the same as face-to-face interaction?", "vi": "Vậy có giống với tương tác trực tiếp không?" },
+        { "speaker": "b", "en": "Not exactly, but it is a reasonable substitute.", "vi": "Không hoàn toàn, nhưng nó là giải pháp thay thế hợp lý." },
+        { "speaker": "a", "en": "I still prefer in-person collaboration.", "vi": "Tôi vẫn thích hợp tác trực tiếp hơn." },
+        { "speaker": "b", "en": "That is understandable, everyone is different.", "vi": "Vậy cũng dễ hiểu, ai cũng khác nhau mà." }
+      ]},
+    { "title": "Bàn về năng suất làm việc", "situation": "Hai người bàn luận về năng suất khi làm việc từ xa.",
+      "turns": [
+        { "speaker": "a", "en": "I doubt remote work is as productive.", "vi": "Tôi nghi ngờ làm việc từ xa có năng suất cao như vậy." },
+        { "speaker": "b", "en": "Studies actually show otherwise.", "vi": "Các nghiên cứu thực ra cho thấy điều ngược lại." },
+        { "speaker": "a", "en": "What do those studies say exactly?", "vi": "Chính xác các nghiên cứu đó nói gì vậy?" },
+        { "speaker": "b", "en": "Fewer distractions can increase output.", "vi": "Ít bị phân tâm hơn có thể tăng hiệu suất." },
+        { "speaker": "a", "en": "That is an interesting perspective.", "vi": "Đó là góc nhìn thú vị đấy." },
+        { "speaker": "b", "en": "It depends heavily on the job type though.", "vi": "Tuy nhiên nó phụ thuộc nhiều vào loại công việc." }
+      ]},
+    { "title": "Đề xuất mô hình hybrid", "situation": "Một người đề xuất mô hình làm việc kết hợp.",
+      "turns": [
+        { "speaker": "a", "en": "Maybe a hybrid arrangement is the best solution.", "vi": "Có lẽ mô hình làm việc kết hợp là giải pháp tốt nhất." },
+        { "speaker": "b", "en": "That could combine the best of both worlds.", "vi": "Vậy có thể kết hợp ưu điểm của cả hai." },
+        { "speaker": "a", "en": "Office days for collaboration, home days for focus.", "vi": "Ngày ở văn phòng để hợp tác, ngày ở nhà để tập trung." },
+        { "speaker": "b", "en": "That sounds like a balanced approach.", "vi": "Nghe có vẻ là cách tiếp cận cân bằng đấy." },
+        { "speaker": "a", "en": "I think more companies should try it.", "vi": "Tôi nghĩ nhiều công ty nên thử cách đó." },
+        { "speaker": "b", "en": "I would agree with that.", "vi": "Tôi đồng ý với điều đó." }
+      ]},
+    { "title": "Chia sẻ trải nghiệm cá nhân", "situation": "Người bạn chia sẻ trải nghiệm cá nhân về làm việc tại văn phòng.",
+      "turns": [
+        { "speaker": "a", "en": "I genuinely enjoy the office atmosphere.", "vi": "Tôi thực sự thích bầu không khí văn phòng." },
+        { "speaker": "b", "en": "What do you enjoy most about it?", "vi": "Bạn thích nhất điều gì ở đó?" },
+        { "speaker": "a", "en": "Spontaneous conversations with colleagues.", "vi": "Những cuộc trò chuyện bất chợt với đồng nghiệp." },
+        { "speaker": "b", "en": "That is something remote work lacks.", "vi": "Đó là điều làm việc từ xa còn thiếu." },
+        { "speaker": "a", "en": "Exactly, it sparks creativity for me.", "vi": "Chính xác, nó khơi gợi sự sáng tạo cho tôi." },
+        { "speaker": "b", "en": "I can see the value in that.", "vi": "Tôi thấy giá trị của điều đó." }
+      ]},
+    { "title": "Bàn về ảnh hưởng đến sức khỏe tinh thần", "situation": "Hai người bàn về ảnh hưởng của làm việc từ xa đến sức khỏe tinh thần.",
+      "turns": [
+        { "speaker": "a", "en": "Does remote work affect mental health positively?", "vi": "Làm việc từ xa có ảnh hưởng tích cực đến sức khỏe tinh thần không?" },
+        { "speaker": "b", "en": "For me, yes, less commuting stress.", "vi": "Với tôi thì có, ít căng thẳng khi di chuyển hơn." },
+        { "speaker": "a", "en": "But some people feel more anxious alone.", "vi": "Nhưng một số người cảm thấy lo lắng hơn khi ở một mình." },
+        { "speaker": "b", "en": "That is a valid concern too.", "vi": "Đó cũng là mối lo ngại hợp lý." },
+        { "speaker": "a", "en": "It really varies by individual.", "vi": "Nó thực sự tùy vào từng cá nhân." },
+        { "speaker": "b", "en": "I think companies should offer both options.", "vi": "Tôi nghĩ các công ty nên đưa ra cả hai lựa chọn." }
+      ]},
+    { "title": "Người bạn thay đổi quan điểm một phần", "situation": "Người bạn dần thay đổi quan điểm sau khi nghe lập luận.",
+      "turns": [
+        { "speaker": "a", "en": "I am starting to see your point of view.", "vi": "Tôi bắt đầu thấy được góc nhìn của bạn." },
+        { "speaker": "b", "en": "What changed your mind?", "vi": "Điều gì làm bạn thay đổi ý kiến vậy?" },
+        { "speaker": "a", "en": "The point about setting boundaries made sense.", "vi": "Điểm về việc đặt ranh giới nghe hợp lý đấy." },
+        { "speaker": "b", "en": "I am glad that resonated with you.", "vi": "Tôi vui vì điều đó có cộng hưởng với bạn." },
+        { "speaker": "a", "en": "Still, I prefer some office time.", "vi": "Dù vậy, tôi vẫn thích có thời gian ở văn phòng." },
+        { "speaker": "b", "en": "That is a reasonable middle ground.", "vi": "Đó là điểm giữa hợp lý đấy." }
+      ]},
+    { "title": "Kết luận tranh luận với thỏa hiệp", "situation": "Hai người kết luận tranh luận bằng một thỏa hiệp.",
+      "turns": [
+        { "speaker": "a", "en": "I think we both have valid points.", "vi": "Tôi nghĩ cả hai chúng ta đều có điểm hợp lý." },
+        { "speaker": "b", "en": "Agreed, a hybrid model seems fair.", "vi": "Đồng ý, mô hình kết hợp có vẻ công bằng." },
+        { "speaker": "a", "en": "I enjoyed this discussion, honestly.", "vi": "Thật lòng tôi thích cuộc thảo luận này." },
+        { "speaker": "b", "en": "Me too, it gave me new perspectives.", "vi": "Tôi cũng vậy, nó cho tôi những góc nhìn mới." },
+        { "speaker": "a", "en": "Let us revisit this topic sometime.", "vi": "Lúc nào đó mình bàn lại chủ đề này nhé." },
+        { "speaker": "b", "en": "I would like that.", "vi": "Tôi rất muốn vậy." }
+      ]},
+    { "title": "Tranh luận sâu sắc với nhiều lập luận trái chiều về tương lai công việc", "situation": "Hai người tranh luận sâu sắc với nhiều lập luận trái chiều về tương lai của công việc từ xa. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I still believe remote work weakens company culture long term.", "vi": "Tôi vẫn tin làm việc từ xa làm suy yếu văn hóa công ty về lâu dài." },
+        { "speaker": "b", "en": "But flexible schedules attract better talent overall.", "vi": "Nhưng lịch làm việc linh hoạt thu hút nhân tài tốt hơn nói chung." },
+        { "speaker": "a", "en": "Even if it risks employees feeling isolated?", "vi": "Kể cả khi nó có nguy cơ khiến nhân viên cảm thấy cô lập?" },
+        { "speaker": "b", "en": "Companies need to actively build collaboration, not rely on the office alone.", "vi": "Công ty cần chủ động xây dựng sự hợp tác, không chỉ dựa vào văn phòng." },
+        { "speaker": "a", "en": "That requires real investment in tools and culture.", "vi": "Điều đó đòi hỏi đầu tư thực sự vào công cụ và văn hóa." },
+        { "speaker": "b", "en": "Exactly, and companies that do it well will draw the line between success and failure.", "vi": "Chính xác, và các công ty làm tốt điều đó sẽ vạch ranh giới giữa thành công và thất bại." }
+      ]}
+  ]
+}

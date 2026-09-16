@@ -1,0 +1,96 @@
+{
+  "id": "phan-bien-y-kien-sep",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Nêu quan ngại nhẹ nhàng", "situation": "Nhân viên nêu quan ngại nhẹ nhàng về kế hoạch triển khai nhanh.",
+      "turns": [
+        { "speaker": "a", "en": "We will roll this out next week.", "vi": "Chúng ta sẽ triển khai cái này vào tuần sau." },
+        { "speaker": "b", "en": "I would like to raise a concern about the timeline.", "vi": "Tôi muốn nêu lên một mối lo ngại về tiến độ." },
+        { "speaker": "a", "en": "Go ahead, I am listening.", "vi": "Bạn cứ nói, tôi đang nghe." },
+        { "speaker": "b", "en": "Testing has not been fully completed yet.", "vi": "Kiểm thử vẫn chưa được hoàn tất." },
+        { "speaker": "a", "en": "That is worth considering.", "vi": "Điều đó đáng để cân nhắc đấy." },
+        { "speaker": "b", "en": "Thank you for hearing me out.", "vi": "Cảm ơn sếp đã lắng nghe." }
+      ]},
+    { "title": "Đề xuất phương án thay thế", "situation": "Nhân viên đề xuất phương án thay thế một cách khéo léo.",
+      "turns": [
+        { "speaker": "a", "en": "This is the plan we are moving forward with.", "vi": "Đây là kế hoạch chúng ta sẽ tiến hành." },
+        { "speaker": "b", "en": "Could I suggest a slightly different approach?", "vi": "Tôi có thể đề xuất một cách tiếp cận hơi khác được không?" },
+        { "speaker": "a", "en": "Sure, what do you have in mind?", "vi": "Được, bạn nghĩ gì vậy?" },
+        { "speaker": "b", "en": "A phased rollout instead of a full launch.", "vi": "Triển khai theo từng giai đoạn thay vì ra mắt toàn bộ." },
+        { "speaker": "a", "en": "That could reduce risk.", "vi": "Vậy có thể giảm rủi ro đấy." },
+        { "speaker": "b", "en": "Exactly, that was my thinking.", "vi": "Chính xác, đó là suy nghĩ của tôi." }
+      ]},
+    { "title": "Sếp bảo vệ quyết định ban đầu", "situation": "Giám đốc bảo vệ quyết định triển khai nhanh của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Speed is critical for this launch.", "vi": "Tốc độ rất quan trọng cho lần ra mắt này." },
+        { "speaker": "b", "en": "I understand the urgency.", "vi": "Tôi hiểu tính cấp bách." },
+        { "speaker": "a", "en": "We cannot afford further delays.", "vi": "Chúng ta không thể chịu thêm trễ hạn nữa." },
+        { "speaker": "b", "en": "Could we at least add a safeguard step?", "vi": "Mình ít nhất thêm một bước bảo vệ được không?" },
+        { "speaker": "a", "en": "What would that look like?", "vi": "Bước đó sẽ như thế nào?" },
+        { "speaker": "b", "en": "A quick review before full release.", "vi": "Một đợt kiểm tra nhanh trước khi phát hành toàn bộ." }
+      ]},
+    { "title": "Thuyết phục sếp bằng dữ liệu", "situation": "Nhân viên dùng dữ liệu để thuyết phục sếp cân nhắc lại.",
+      "turns": [
+        { "speaker": "a", "en": "Why do you think we should slow down?", "vi": "Vì sao bạn nghĩ chúng ta nên chậm lại?" },
+        { "speaker": "b", "en": "Our data shows a similar rush backfired before.", "vi": "Dữ liệu của chúng ta cho thấy lần vội vàng trước đã phản tác dụng." },
+        { "speaker": "a", "en": "What happened in that case?", "vi": "Trường hợp đó chuyện gì đã xảy ra?" },
+        { "speaker": "b", "en": "We had to revisit the whole rollout plan.", "vi": "Chúng tôi phải xem xét lại toàn bộ kế hoạch triển khai." },
+        { "speaker": "a", "en": "I do not want to repeat that.", "vi": "Tôi không muốn lặp lại điều đó." },
+        { "speaker": "b", "en": "That is exactly my concern.", "vi": "Đó chính là mối lo ngại của tôi." }
+      ]},
+    { "title": "Xin sự đồng thuận từ sếp", "situation": "Nhân viên xin sự đồng thuận để điều chỉnh kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "I need your buy-in on this change.", "vi": "Tôi cần sự đồng thuận của sếp về thay đổi này." },
+        { "speaker": "b", "en": "Convince me why it is necessary.", "vi": "Thuyết phục tôi vì sao nó cần thiết đi." },
+        { "speaker": "a", "en": "It reduces the risk of a full failure.", "vi": "Nó giảm nguy cơ thất bại toàn diện." },
+        { "speaker": "b", "en": "That is a compelling reason.", "vi": "Đó là lý do thuyết phục đấy." },
+        { "speaker": "a", "en": "Thank you for considering it.", "vi": "Cảm ơn sếp đã cân nhắc." },
+        { "speaker": "b", "en": "Let us get the team on board too.", "vi": "Mình để cả nhóm đồng thuận nữa nhé." }
+      ]},
+    { "title": "Sếp lo lắng về việc trì hoãn", "situation": "Sếp lo lắng rằng việc trì hoãn sẽ gây ảnh hưởng xấu.",
+      "turns": [
+        { "speaker": "a", "en": "Delaying this could backfire on us.", "vi": "Trì hoãn việc này có thể phản tác dụng với chúng ta." },
+        { "speaker": "b", "en": "I understand that risk.", "vi": "Tôi hiểu rủi ro đó." },
+        { "speaker": "a", "en": "How do we balance both concerns?", "vi": "Mình cân bằng cả hai mối lo ngại thế nào?" },
+        { "speaker": "b", "en": "A short pilot could meet us halfway.", "vi": "Một thử nghiệm ngắn có thể là điểm giữa hợp lý." },
+        { "speaker": "a", "en": "That sounds like a workable compromise.", "vi": "Nghe có vẻ là thỏa hiệp khả thi đấy." },
+        { "speaker": "b", "en": "I will draft the pilot plan.", "vi": "Tôi sẽ soạn kế hoạch thử nghiệm." }
+      ]},
+    { "title": "Đề xuất bị từ chối ban đầu", "situation": "Đề xuất của nhân viên ban đầu bị từ chối nhưng vẫn kiên trì.",
+      "turns": [
+        { "speaker": "a", "en": "I do not think we need to change the plan.", "vi": "Tôi không nghĩ chúng ta cần thay đổi kế hoạch." },
+        { "speaker": "b", "en": "Could I share one more data point?", "vi": "Tôi chia sẻ thêm một dữ liệu nữa được không?" },
+        { "speaker": "a", "en": "Go ahead.", "vi": "Bạn cứ nói." },
+        { "speaker": "b", "en": "Our last similar rollout caused customer complaints.", "vi": "Lần triển khai tương tự trước đã gây khiếu nại từ khách hàng." },
+        { "speaker": "a", "en": "I was not aware of that.", "vi": "Tôi không biết điều đó." },
+        { "speaker": "b", "en": "That is why I want to revisit our approach.", "vi": "Đó là lý do tôi muốn xem xét lại cách tiếp cận của chúng ta." }
+      ]},
+    { "title": "Sếp đồng ý một phần đề xuất", "situation": "Sếp đồng ý một phần đề xuất của nhân viên.",
+      "turns": [
+        { "speaker": "a", "en": "I can agree to a shorter safeguard step.", "vi": "Tôi có thể đồng ý với một bước bảo vệ ngắn hơn." },
+        { "speaker": "b", "en": "That would still reduce the risk significantly.", "vi": "Vậy vẫn giảm được rủi ro đáng kể." },
+        { "speaker": "a", "en": "Let us meet halfway on the timeline then.", "vi": "Vậy mình gặp nhau ở giữa về tiến độ nhé." },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "a", "en": "I appreciate you pushing back constructively.", "vi": "Tôi đánh giá cao việc bạn phản biện một cách xây dựng." },
+        { "speaker": "b", "en": "Thank you for being open to it.", "vi": "Cảm ơn sếp đã cởi mở với việc đó." }
+      ]},
+    { "title": "Thống nhất kế hoạch cuối cùng", "situation": "Cả hai đạt được thống nhất về kế hoạch cuối cùng.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree on a phased rollout.", "vi": "Vậy mình thống nhất triển khai theo giai đoạn." },
+        { "speaker": "b", "en": "Yes, with a review after phase one.", "vi": "Vâng, cùng với đánh giá sau giai đoạn một." },
+        { "speaker": "a", "en": "I will communicate this to the team.", "vi": "Tôi sẽ thông báo việc này cho cả nhóm." },
+        { "speaker": "b", "en": "Thank you for considering my input.", "vi": "Cảm ơn sếp đã cân nhắc ý kiến của tôi." },
+        { "speaker": "a", "en": "Your point was well made.", "vi": "Ý kiến của bạn rất thuyết phục." },
+        { "speaker": "b", "en": "I am glad we found common ground.", "vi": "Tôi vui vì chúng ta tìm được điểm chung." }
+      ]},
+    { "title": "Phản biện phức tạp trước áp lực từ nhiều phía trong công ty", "situation": "Nhân viên phản biện quyết định của sếp trong khi chịu áp lực từ nhiều phía khác trong công ty. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Upper management wants this launched immediately.", "vi": "Ban lãnh đạo cấp cao muốn ra mắt ngay lập tức." },
+        { "speaker": "b", "en": "I understand the pressure, but the engineering team flagged serious risks.", "vi": "Tôi hiểu áp lực đó, nhưng đội kỹ thuật đã cảnh báo rủi ro nghiêm trọng." },
+        { "speaker": "a", "en": "What exactly are they worried about?", "vi": "Chính xác họ lo ngại điều gì?" },
+        { "speaker": "b", "en": "An untested edge case that could cause an outage.", "vi": "Một trường hợp biên chưa được kiểm thử có thể gây gián đoạn dịch vụ." },
+        { "speaker": "a", "en": "How do we get everyone on board with a delay?", "vi": "Mình làm sao để mọi người đồng thuận với việc trì hoãn?" },
+        { "speaker": "b", "en": "Let me present the risk data directly to upper management.", "vi": "Để tôi trình bày dữ liệu rủi ro trực tiếp với ban lãnh đạo cấp cao." }
+      ]}
+  ]
+}

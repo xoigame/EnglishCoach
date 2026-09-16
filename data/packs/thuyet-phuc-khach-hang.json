@@ -1,0 +1,96 @@
+{
+  "id": "thuyet-phuc-khach-hang",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Xác định điểm đau của khách hàng", "situation": "Chuyên viên tư vấn tìm hiểu vấn đề chính của khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "What is your biggest challenge right now?", "vi": "Thử thách lớn nhất hiện tại của bạn là gì?" },
+        { "speaker": "b", "en": "Our main pain point is manual data entry.", "vi": "Điểm đau chính của chúng tôi là nhập liệu thủ công." },
+        { "speaker": "a", "en": "How much time does that take weekly?", "vi": "Việc đó tốn bao nhiêu thời gian mỗi tuần?" },
+        { "speaker": "b", "en": "About ten hours per employee.", "vi": "Khoảng mười giờ mỗi nhân viên." },
+        { "speaker": "a", "en": "Our solution can automate most of that.", "vi": "Giải pháp của chúng tôi có thể tự động hóa phần lớn việc đó." },
+        { "speaker": "b", "en": "That sounds promising.", "vi": "Nghe có vẻ hứa hẹn đấy." }
+      ]},
+    { "title": "Giới thiệu giải pháp phù hợp riêng", "situation": "Chuyên viên giới thiệu giải pháp được thiết kế riêng cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Is this solution customizable?", "vi": "Giải pháp này có thể tùy chỉnh không?" },
+        { "speaker": "b", "en": "Yes, it is tailored to your specific workflow.", "vi": "Có, nó được thiết kế riêng theo quy trình cụ thể của bạn." },
+        { "speaker": "a", "en": "How long does implementation take?", "vi": "Triển khai mất bao lâu vậy?" },
+        { "speaker": "b", "en": "Usually about two weeks.", "vi": "Thường khoảng hai tuần." },
+        { "speaker": "a", "en": "That is faster than I expected.", "vi": "Vậy nhanh hơn tôi tưởng đấy." },
+        { "speaker": "b", "en": "We have refined the process over time.", "vi": "Chúng tôi đã hoàn thiện quy trình theo thời gian." }
+      ]},
+    { "title": "Trấn an về sự gián đoạn khi triển khai", "situation": "Khách hàng lo lắng về sự gián đoạn khi triển khai giải pháp mới.",
+      "turns": [
+        { "speaker": "a", "en": "Will this cause disruption to our operations?", "vi": "Việc này có gây gián đoạn hoạt động của chúng tôi không?" },
+        { "speaker": "b", "en": "Minimal disruption, we implement in phases.", "vi": "Gián đoạn rất ít, chúng tôi triển khai theo từng giai đoạn." },
+        { "speaker": "a", "en": "What about staff training?", "vi": "Còn việc đào tạo nhân viên thì sao?" },
+        { "speaker": "b", "en": "Onboarding is included in our package.", "vi": "Hỗ trợ làm quen được bao gồm trong gói của chúng tôi." },
+        { "speaker": "a", "en": "That eases my concern.", "vi": "Vậy làm tôi bớt lo hơn." },
+        { "speaker": "b", "en": "We want a smooth transition for you.", "vi": "Chúng tôi muốn quá trình chuyển đổi diễn ra suôn sẻ cho bạn." }
+      ]},
+    { "title": "Trình bày về lợi tức đầu tư", "situation": "Chuyên viên trình bày về lợi tức đầu tư của giải pháp.",
+      "turns": [
+        { "speaker": "a", "en": "What is the return on investment here?", "vi": "Lợi tức đầu tư ở đây là gì vậy?" },
+        { "speaker": "b", "en": "Most clients see savings within six months.", "vi": "Hầu hết khách hàng thấy tiết kiệm được trong sáu tháng." },
+        { "speaker": "a", "en": "That is a reasonable timeframe.", "vi": "Đó là khung thời gian hợp lý đấy." },
+        { "speaker": "b", "en": "We can share case studies as proof.", "vi": "Chúng tôi có thể chia sẻ nghiên cứu điển hình làm bằng chứng." },
+        { "speaker": "a", "en": "I would like to see those.", "vi": "Tôi muốn xem những cái đó." },
+        { "speaker": "b", "en": "I will send them right after this call.", "vi": "Tôi sẽ gửi ngay sau cuộc gọi này." }
+      ]},
+    { "title": "Đề xuất chương trình thử nghiệm", "situation": "Chuyên viên đề xuất một chương trình thử nghiệm cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I am still not fully convinced.", "vi": "Tôi vẫn chưa hoàn toàn bị thuyết phục." },
+        { "speaker": "b", "en": "We could start with a small pilot program.", "vi": "Chúng tôi có thể bắt đầu với một chương trình thử nghiệm nhỏ." },
+        { "speaker": "a", "en": "How long would that last?", "vi": "Vậy kéo dài bao lâu?" },
+        { "speaker": "b", "en": "One month, with no long term commitment.", "vi": "Một tháng, không cần cam kết dài hạn." },
+        { "speaker": "a", "en": "That reduces my risk significantly.", "vi": "Vậy giảm rủi ro cho tôi đáng kể." },
+        { "speaker": "b", "en": "Exactly, it lets you evaluate first.", "vi": "Chính xác, nó cho phép bạn đánh giá trước." }
+      ]},
+    { "title": "Khách hàng so sánh với giải pháp khác", "situation": "Khách hàng so sánh giải pháp này với đối thủ cạnh tranh.",
+      "turns": [
+        { "speaker": "a", "en": "How does this compare to your competitor?", "vi": "Cái này so với đối thủ cạnh tranh thế nào?" },
+        { "speaker": "b", "en": "Our solution is more scalable long term.", "vi": "Giải pháp của chúng tôi có khả năng mở rộng tốt hơn về lâu dài." },
+        { "speaker": "a", "en": "Can you give a specific example?", "vi": "Bạn cho ví dụ cụ thể được không?" },
+        { "speaker": "b", "en": "We support ten times the data volume.", "vi": "Chúng tôi hỗ trợ gấp mười lần khối lượng dữ liệu." },
+        { "speaker": "a", "en": "That is a meaningful difference.", "vi": "Đó là sự khác biệt đáng kể đấy." },
+        { "speaker": "b", "en": "We are confident in our advantage.", "vi": "Chúng tôi tự tin vào lợi thế của mình." }
+      ]},
+    { "title": "Đàm phán về việc thúc đẩy kết quả", "situation": "Khách hàng muốn thấy kết quả rõ ràng, thúc đẩy được chỉ số kinh doanh.",
+      "turns": [
+        { "speaker": "a", "en": "Will this actually move the needle for us?", "vi": "Cái này có thực sự tạo được thay đổi đáng kể cho chúng tôi không?" },
+        { "speaker": "b", "en": "Yes, clients typically see measurable growth.", "vi": "Có, khách hàng thường thấy sự tăng trưởng có thể đo được." },
+        { "speaker": "a", "en": "What metrics improved the most?", "vi": "Chỉ số nào cải thiện nhiều nhất?" },
+        { "speaker": "b", "en": "Customer response time, mostly.", "vi": "Chủ yếu là thời gian phản hồi khách hàng." },
+        { "speaker": "a", "en": "That matters a lot to us.", "vi": "Điều đó quan trọng nhiều với chúng tôi." },
+        { "speaker": "b", "en": "Then this should be a strong fit.", "vi": "Vậy chắc sẽ là lựa chọn phù hợp đấy." }
+      ]},
+    { "title": "Khách hàng lo ngại về đánh đổi chi phí", "situation": "Khách hàng cân nhắc sự đánh đổi giữa chi phí và lợi ích.",
+      "turns": [
+        { "speaker": "a", "en": "The price seems high for our budget.", "vi": "Giá có vẻ cao so với ngân sách của chúng tôi." },
+        { "speaker": "b", "en": "I understand, let us look at the trade-off.", "vi": "Tôi hiểu, mình xem xét sự đánh đổi nhé." },
+        { "speaker": "a", "en": "What would we be giving up with a cheaper plan?", "vi": "Với gói rẻ hơn chúng tôi sẽ mất gì?" },
+        { "speaker": "b", "en": "Fewer automation features, mainly.", "vi": "Chủ yếu là ít tính năng tự động hóa hơn." },
+        { "speaker": "a", "en": "That would reduce the value significantly.", "vi": "Vậy sẽ giảm giá trị đáng kể." },
+        { "speaker": "b", "en": "We can find a middle-tier option instead.", "vi": "Chúng tôi có thể tìm gói trung bình thay vào đó." }
+      ]},
+    { "title": "Khách hàng yêu cầu bằng chứng cụ thể", "situation": "Khách hàng yêu cầu bằng chứng cụ thể trước khi quyết định.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have proof this works for companies our size?", "vi": "Bạn có bằng chứng cái này hiệu quả với công ty quy mô như chúng tôi không?" },
+        { "speaker": "b", "en": "Yes, we have several similar case studies.", "vi": "Có, chúng tôi có vài nghiên cứu điển hình tương tự." },
+        { "speaker": "a", "en": "Could I speak with one of those clients?", "vi": "Tôi có thể nói chuyện với một trong số khách hàng đó được không?" },
+        { "speaker": "b", "en": "Certainly, I will arrange an introduction.", "vi": "Chắc chắn rồi, tôi sẽ sắp xếp giới thiệu." },
+        { "speaker": "a", "en": "That would help my decision.", "vi": "Vậy sẽ giúp ích cho quyết định của tôi." },
+        { "speaker": "b", "en": "I will send the details shortly.", "vi": "Tôi sẽ gửi thông tin chi tiết sớm." }
+      ]},
+    { "title": "Thuyết phục khách hàng phân vân với nhiều mối lo ngại phức tạp cùng lúc", "situation": "Khách hàng có nhiều mối lo ngại phức tạp về chi phí, gián đoạn, và độ tin cậy cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I am worried about cost, disruption, and whether this will actually scale.", "vi": "Tôi lo về chi phí, sự gián đoạn, và liệu cái này có thực sự mở rộng được không." },
+        { "speaker": "b", "en": "Let us address each concern one at a time.", "vi": "Mình giải quyết từng mối lo ngại một nhé." },
+        { "speaker": "a", "en": "Start with disruption, that worries me most.", "vi": "Bắt đầu với sự gián đoạn, đó là điều tôi lo nhất." },
+        { "speaker": "b", "en": "We use a phased pilot program to minimize that risk.", "vi": "Chúng tôi dùng chương trình thử nghiệm theo giai đoạn để giảm thiểu rủi ro đó." },
+        { "speaker": "a", "en": "And if the return on investment does not materialize?", "vi": "Còn nếu lợi tức đầu tư không đạt được thì sao?" },
+        { "speaker": "b", "en": "We offer a performance guarantee with a partial refund.", "vi": "Chúng tôi có bảo đảm hiệu quả kèm hoàn tiền một phần." }
+      ]}
+  ]
+}

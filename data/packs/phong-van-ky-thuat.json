@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-ky-thuat",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích trade-off trong thiết kế", "situation": "Ứng viên giải thích sự đánh đổi trong một quyết định thiết kế.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through a design trade-off you made.", "vi": "Kể tôi nghe về một đánh đổi thiết kế bạn từng thực hiện." },
+        { "speaker": "b", "en": "We chose speed over consistency for that feature.", "vi": "Chúng tôi chọn tốc độ thay vì tính nhất quán cho tính năng đó." },
+        { "speaker": "a", "en": "Why did you make that choice?", "vi": "Vì sao bạn lại chọn như vậy?" },
+        { "speaker": "b", "en": "Users needed instant feedback more than perfect accuracy.", "vi": "Người dùng cần phản hồi tức thì hơn là độ chính xác hoàn hảo." },
+        { "speaker": "a", "en": "That is a reasonable justification.", "vi": "Đó là lý do hợp lý đấy." },
+        { "speaker": "b", "en": "It worked well for our use case.", "vi": "Nó hoạt động tốt cho trường hợp sử dụng của chúng tôi." }
+      ]},
+    { "title": "Thảo luận về khả năng mở rộng hệ thống", "situation": "Ứng viên thảo luận về việc thiết kế hệ thống có thể mở rộng.",
+      "turns": [
+        { "speaker": "a", "en": "How would you make this system scalable?", "vi": "Bạn sẽ làm hệ thống này có khả năng mở rộng thế nào?" },
+        { "speaker": "b", "en": "I would add a caching layer first.", "vi": "Tôi sẽ thêm một lớp cache trước tiên." },
+        { "speaker": "a", "en": "What problem does that solve?", "vi": "Điều đó giải quyết vấn đề gì?" },
+        { "speaker": "b", "en": "It reduces load on the database.", "vi": "Nó giảm tải cho cơ sở dữ liệu." },
+        { "speaker": "a", "en": "What about future growth?", "vi": "Còn về sự phát triển trong tương lai thì sao?" },
+        { "speaker": "b", "en": "We would shard the database as needed.", "vi": "Chúng tôi sẽ phân mảnh cơ sở dữ liệu khi cần." }
+      ]},
+    { "title": "Xác định điểm nghẽn hiệu năng", "situation": "Ứng viên xác định nguyên nhân gây nghẽn hiệu năng.",
+      "turns": [
+        { "speaker": "a", "en": "How would you identify a bottleneck?", "vi": "Bạn xác định điểm nghẽn thế nào?" },
+        { "speaker": "b", "en": "I would start by profiling the slowest requests.", "vi": "Tôi sẽ bắt đầu bằng cách phân tích các yêu cầu chậm nhất." },
+        { "speaker": "a", "en": "What if the database is the bottleneck?", "vi": "Nếu cơ sở dữ liệu là điểm nghẽn thì sao?" },
+        { "speaker": "b", "en": "I would optimize the slow queries.", "vi": "Tôi sẽ tối ưu hóa các truy vấn chậm." },
+        { "speaker": "a", "en": "That is a solid approach.", "vi": "Cách tiếp cận đó vững đấy." },
+        { "speaker": "b", "en": "Latency reduction is always the goal.", "vi": "Giảm độ trễ luôn là mục tiêu." }
+      ]},
+    { "title": "Bàn về độ trễ hệ thống", "situation": "Ứng viên bàn về cách giảm độ trễ trong hệ thống.",
+      "turns": [
+        { "speaker": "a", "en": "How would you reduce latency here?", "vi": "Bạn sẽ giảm độ trễ ở đây thế nào?" },
+        { "speaker": "b", "en": "By moving the service closer to users.", "vi": "Bằng cách đưa dịch vụ gần người dùng hơn." },
+        { "speaker": "a", "en": "Would that require a CDN?", "vi": "Vậy có cần dùng CDN không?" },
+        { "speaker": "b", "en": "Yes, that would help significantly.", "vi": "Có, điều đó sẽ giúp ích đáng kể." },
+        { "speaker": "a", "en": "Good thinking.", "vi": "Suy nghĩ tốt đấy." },
+        { "speaker": "b", "en": "Thank you, I have used this before.", "vi": "Cảm ơn, tôi đã từng dùng cách này rồi." }
+      ]},
+    { "title": "Thảo luận về xử lý lỗi hệ thống", "situation": "Ứng viên bàn về cách xử lý khi hệ thống gặp lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "How would the system handle a failure?", "vi": "Hệ thống sẽ xử lý lỗi thế nào?" },
+        { "speaker": "b", "en": "It would fail gracefully and retry.", "vi": "Nó sẽ lỗi một cách nhẹ nhàng và thử lại." },
+        { "speaker": "a", "en": "What if retries also fail?", "vi": "Nếu thử lại cũng thất bại thì sao?" },
+        { "speaker": "b", "en": "We would alert the on-call engineer.", "vi": "Chúng tôi sẽ cảnh báo kỹ sư trực." },
+        { "speaker": "a", "en": "That sounds like a reliable design.", "vi": "Nghe có vẻ là thiết kế đáng tin cậy đấy." },
+        { "speaker": "b", "en": "Reliability was our top priority.", "vi": "Độ tin cậy là ưu tiên hàng đầu của chúng tôi." }
+      ]},
+    { "title": "Giải thích mô hình eventually consistent", "situation": "Ứng viên giải thích khái niệm eventually consistent.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain eventually consistent systems?", "vi": "Bạn giải thích hệ thống eventually consistent được không?" },
+        { "speaker": "b", "en": "Data may be temporarily out of sync.", "vi": "Dữ liệu có thể tạm thời không đồng bộ." },
+        { "speaker": "a", "en": "Why would that be acceptable?", "vi": "Vì sao điều đó lại chấp nhận được?" },
+        { "speaker": "b", "en": "It trades consistency for higher availability.", "vi": "Nó đánh đổi tính nhất quán để lấy tính khả dụng cao hơn." },
+        { "speaker": "a", "en": "That is a clear explanation.", "vi": "Giải thích rất rõ ràng đấy." },
+        { "speaker": "b", "en": "Thank you, it depends on the use case.", "vi": "Cảm ơn, còn tùy vào trường hợp sử dụng." }
+      ]},
+    { "title": "Đề xuất giải pháp giảm thiểu rủi ro", "situation": "Ứng viên đề xuất cách giảm thiểu rủi ro trong hệ thống.",
+      "turns": [
+        { "speaker": "a", "en": "How would you mitigate risk here?", "vi": "Bạn sẽ giảm thiểu rủi ro ở đây thế nào?" },
+        { "speaker": "b", "en": "By adding automated monitoring and alerts.", "vi": "Bằng cách thêm giám sát và cảnh báo tự động." },
+        { "speaker": "a", "en": "What about deployment risk?", "vi": "Còn về rủi ro khi triển khai thì sao?" },
+        { "speaker": "b", "en": "We would roll out changes gradually.", "vi": "Chúng tôi sẽ triển khai thay đổi từ từ." },
+        { "speaker": "a", "en": "That reduces the blast radius.", "vi": "Vậy giảm được phạm vi ảnh hưởng." },
+        { "speaker": "b", "en": "Exactly, that is the goal.", "vi": "Chính xác, đó là mục tiêu." }
+      ]},
+    { "title": "Thảo luận về trường hợp biên", "situation": "Ứng viên bàn về việc xử lý các trường hợp biên bất thường.",
+      "turns": [
+        { "speaker": "a", "en": "What edge case worries you most?", "vi": "Trường hợp biên nào khiến bạn lo ngại nhất?" },
+        { "speaker": "b", "en": "Concurrent updates to the same record.", "vi": "Cập nhật đồng thời vào cùng một bản ghi." },
+        { "speaker": "a", "en": "How would you handle that?", "vi": "Bạn sẽ xử lý điều đó thế nào?" },
+        { "speaker": "b", "en": "With optimistic locking or versioning.", "vi": "Bằng cách khóa lạc quan hoặc đánh phiên bản." },
+        { "speaker": "a", "en": "Have you implemented that before?", "vi": "Bạn đã từng triển khai cái đó chưa?" },
+        { "speaker": "b", "en": "Yes, in a previous project.", "vi": "Rồi, trong một dự án trước đây." }
+      ]},
+    { "title": "Phản biện đề xuất kiến trúc", "situation": "Người phỏng vấn phản biện đề xuất kiến trúc của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "Would this design handle ten times the traffic?", "vi": "Thiết kế này có xử lý được gấp mười lần lưu lượng không?" },
+        { "speaker": "b", "en": "It would need horizontal scaling first.", "vi": "Nó sẽ cần mở rộng theo chiều ngang trước." },
+        { "speaker": "a", "en": "What is the trade-off there?", "vi": "Đánh đổi ở đó là gì?" },
+        { "speaker": "b", "en": "Higher infrastructure cost for better reliability.", "vi": "Chi phí hạ tầng cao hơn để đổi lấy độ tin cậy tốt hơn." },
+        { "speaker": "a", "en": "That is a reasonable trade-off.", "vi": "Đó là đánh đổi hợp lý đấy." },
+        { "speaker": "b", "en": "I would monitor cost closely though.", "vi": "Tuy nhiên tôi sẽ theo dõi chi phí sát sao." }
+      ]},
+    { "title": "Thiết kế hệ thống phức tạp với nhiều ràng buộc mâu thuẫn", "situation": "Ứng viên thiết kế hệ thống có nhiều ràng buộc mâu thuẫn nhau cần cân bằng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The system needs low latency but also strong consistency.", "vi": "Hệ thống cần độ trễ thấp nhưng cũng cần tính nhất quán mạnh." },
+        { "speaker": "b", "en": "Those two goals often conflict as a trade-off.", "vi": "Hai mục tiêu đó thường xung đột nhau như một sự đánh đổi." },
+        { "speaker": "a", "en": "How would you balance them?", "vi": "Bạn sẽ cân bằng chúng thế nào?" },
+        { "speaker": "b", "en": "I would use strong consistency only for critical data.", "vi": "Tôi sẽ chỉ dùng tính nhất quán mạnh cho dữ liệu quan trọng." },
+        { "speaker": "a", "en": "And the rest of the system?", "vi": "Còn phần còn lại của hệ thống thì sao?" },
+        { "speaker": "b", "en": "Eventually consistent, to keep latency low and reliable.", "vi": "Eventually consistent, để giữ độ trễ thấp và đáng tin cậy." }
+      ]}
+  ]
+}

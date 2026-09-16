@@ -1,0 +1,96 @@
+{
+  "id": "giai-thich-ky-thuat-cho-nguoi-ngoai-nganh",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giải thích về cập nhật hệ thống", "situation": "Nhân viên hỗ trợ giải thích về một bản cập nhật hệ thống.",
+      "turns": [
+        { "speaker": "a", "en": "Why do I need this system update?", "vi": "Vì sao tôi cần bản cập nhật hệ thống này?" },
+        { "speaker": "b", "en": "It fixes some bugs and improves speed.", "vi": "Nó sửa vài lỗi và cải thiện tốc độ." },
+        { "speaker": "a", "en": "Will I lose any of my data?", "vi": "Tôi có mất dữ liệu gì không?" },
+        { "speaker": "b", "en": "No, everything will stay the same.", "vi": "Không, mọi thứ sẽ giữ nguyên." },
+        { "speaker": "a", "en": "That is a relief, thank you.", "vi": "Vậy nhẹ nhõm quá, cảm ơn bạn." },
+        { "speaker": "b", "en": "You are welcome, let me know if issues arise.", "vi": "Không có gì, có vấn đề gì cứ báo tôi nhé." }
+      ]},
+    { "title": "Giải thích kết nối bảo mật", "situation": "Nhân viên giải thích khái niệm kết nối bảo mật cho khách không rành công nghệ.",
+      "turns": [
+        { "speaker": "a", "en": "What does a secure connection mean?", "vi": "Kết nối bảo mật nghĩa là gì vậy?" },
+        { "speaker": "b", "en": "It means your data is encrypted while sent.", "vi": "Nghĩa là dữ liệu của bạn được mã hóa khi gửi đi." },
+        { "speaker": "a", "en": "So no one can see my information?", "vi": "Vậy không ai xem được thông tin của tôi phải không?" },
+        { "speaker": "b", "en": "Exactly, it stays private and protected.", "vi": "Chính xác, nó vẫn riêng tư và được bảo vệ." },
+        { "speaker": "a", "en": "That makes me feel safer.", "vi": "Vậy tôi cảm thấy an tâm hơn." },
+        { "speaker": "b", "en": "We take your privacy seriously.", "vi": "Chúng tôi xem trọng quyền riêng tư của bạn." }
+      ]},
+    { "title": "Giải thích chứng chỉ bảo mật hết hạn", "situation": "Nhân viên giải thích về lỗi chứng chỉ bảo mật hết hạn.",
+      "turns": [
+        { "speaker": "a", "en": "My browser shows a warning about the site.", "vi": "Trình duyệt của tôi hiện cảnh báo về trang web." },
+        { "speaker": "b", "en": "The security certificate recently expired.", "vi": "Chứng chỉ bảo mật gần đây đã hết hạn." },
+        { "speaker": "a", "en": "Is it safe to continue?", "vi": "Vậy tiếp tục có an toàn không?" },
+        { "speaker": "b", "en": "We are renewing it now, please wait a moment.", "vi": "Chúng tôi đang gia hạn nó, vui lòng đợi một chút." },
+        { "speaker": "a", "en": "Thank you for explaining.", "vi": "Cảm ơn bạn đã giải thích." },
+        { "speaker": "b", "en": "It should be resolved within the hour.", "vi": "Nó sẽ được khắc phục trong vòng một giờ." }
+      ]},
+    { "title": "Giải thích quyền truy cập tài khoản", "situation": "Nhân viên giải thích về quyền truy cập tài khoản cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Why can I not access this file?", "vi": "Vì sao tôi không truy cập được tệp này?" },
+        { "speaker": "b", "en": "Your account permissions do not include this folder.", "vi": "Quyền truy cập tài khoản của bạn không bao gồm thư mục này." },
+        { "speaker": "a", "en": "Can that be changed?", "vi": "Cái đó có thể thay đổi được không?" },
+        { "speaker": "b", "en": "Yes, I will update your access now.", "vi": "Được, giờ tôi sẽ cập nhật quyền truy cập cho bạn." },
+        { "speaker": "a", "en": "Thank you, that would help a lot.", "vi": "Cảm ơn bạn, vậy giúp ích nhiều lắm." },
+        { "speaker": "b", "en": "It should work within a few minutes.", "vi": "Nó sẽ hoạt động trong vài phút." }
+      ]},
+    { "title": "Giải thích thư mục chia sẻ", "situation": "Nhân viên giải thích cách sử dụng thư mục chia sẻ.",
+      "turns": [
+        { "speaker": "a", "en": "How do I access the shared folder?", "vi": "Tôi truy cập thư mục chia sẻ thế nào?" },
+        { "speaker": "b", "en": "Click this link, then log in with your email.", "vi": "Nhấn vào liên kết này, rồi đăng nhập bằng email của bạn." },
+        { "speaker": "a", "en": "Can everyone on the team see it?", "vi": "Cả nhóm có thể xem được không?" },
+        { "speaker": "b", "en": "Yes, anyone with access permission.", "vi": "Có, bất kỳ ai có quyền truy cập." },
+        { "speaker": "a", "en": "That is convenient, thank you.", "vi": "Vậy tiện lợi quá, cảm ơn bạn." },
+        { "speaker": "b", "en": "Let me know if you have trouble.", "vi": "Có khó khăn gì cứ báo tôi nhé." }
+      ]},
+    { "title": "Đề xuất giải pháp tạm thời", "situation": "Nhân viên đề xuất một giải pháp tạm thời trong khi chờ khắc phục lâu dài.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a way around this for now?", "vi": "Giờ có cách nào giải quyết tạm không?" },
+        { "speaker": "b", "en": "Yes, there is a temporary workaround.", "vi": "Có, có một giải pháp tạm thời." },
+        { "speaker": "a", "en": "What would I need to do?", "vi": "Tôi cần làm gì vậy?" },
+        { "speaker": "b", "en": "Use this alternative link for now.", "vi": "Giờ hãy dùng liên kết thay thế này." },
+        { "speaker": "a", "en": "That should work for me.", "vi": "Vậy chắc là được với tôi." },
+        { "speaker": "b", "en": "We will fix the main issue soon.", "vi": "Chúng tôi sẽ khắc phục vấn đề chính sớm." }
+      ]},
+    { "title": "Giải thích về bộ nhớ đệm trình duyệt", "situation": "Nhân viên giải thích về việc xóa bộ nhớ đệm trình duyệt.",
+      "turns": [
+        { "speaker": "a", "en": "Why does the page look outdated?", "vi": "Vì sao trang này trông cũ vậy?" },
+        { "speaker": "b", "en": "Your browser cache might be storing an old version.", "vi": "Bộ nhớ đệm trình duyệt của bạn có thể đang lưu phiên bản cũ." },
+        { "speaker": "a", "en": "How do I fix that?", "vi": "Tôi khắc phục điều đó thế nào?" },
+        { "speaker": "b", "en": "Clearing the cache should solve it.", "vi": "Xóa bộ nhớ đệm sẽ giải quyết được." },
+        { "speaker": "a", "en": "Let me try that now.", "vi": "Để tôi thử ngay." },
+        { "speaker": "b", "en": "Let me know if it works.", "vi": "Nếu được thì báo tôi nhé." }
+      ]},
+    { "title": "Xử lý từ xa qua phiên hỗ trợ", "situation": "Nhân viên đề nghị hỗ trợ từ xa qua phiên remote session.",
+      "turns": [
+        { "speaker": "a", "en": "I do not understand these settings at all.", "vi": "Tôi hoàn toàn không hiểu các cài đặt này." },
+        { "speaker": "b", "en": "Would a remote session help?", "vi": "Một phiên hỗ trợ từ xa có giúp ích không?" },
+        { "speaker": "a", "en": "Yes, that would be much easier.", "vi": "Có, vậy dễ hơn nhiều." },
+        { "speaker": "b", "en": "I will send a link to start it.", "vi": "Tôi sẽ gửi liên kết để bắt đầu." },
+        { "speaker": "a", "en": "Thank you, I appreciate the help.", "vi": "Cảm ơn bạn đã giúp đỡ." },
+        { "speaker": "b", "en": "Happy to walk you through it.", "vi": "Tôi vui lòng hướng dẫn bạn." }
+      ]},
+    { "title": "Trấn an về dữ liệu được lưu trữ", "situation": "Khách hàng lo lắng về dữ liệu được lưu trữ.",
+      "turns": [
+        { "speaker": "a", "en": "Where is my stored data kept?", "vi": "Dữ liệu được lưu trữ của tôi ở đâu vậy?" },
+        { "speaker": "b", "en": "On secure servers with encryption.", "vi": "Trên các máy chủ an toàn có mã hóa." },
+        { "speaker": "a", "en": "Can it be accessed by others?", "vi": "Người khác có truy cập được không?" },
+        { "speaker": "b", "en": "No, only you and authorized staff.", "vi": "Không, chỉ bạn và nhân viên được ủy quyền." },
+        { "speaker": "a", "en": "That gives me peace of mind.", "vi": "Vậy tôi thấy yên tâm hơn." },
+        { "speaker": "b", "en": "We prioritize data security highly.", "vi": "Chúng tôi ưu tiên bảo mật dữ liệu rất cao." }
+      ]},
+    { "title": "Chẩn đoán và giải thích vấn đề kỹ thuật phức tạp cho khách hàng không rành công nghệ", "situation": "Nhân viên hỗ trợ giải thích một vấn đề kỹ thuật phức tạp gồm nhiều nguyên nhân cho khách hàng không rành công nghệ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Nothing is working, and I have no idea why.", "vi": "Không gì hoạt động cả, và tôi không hiểu vì sao." },
+        { "speaker": "b", "en": "Let us get to the bottom of this together.", "vi": "Mình cùng tìm hiểu tận gốc vấn đề này nhé." },
+        { "speaker": "a", "en": "Where should we start?", "vi": "Mình nên bắt đầu từ đâu?" },
+        { "speaker": "b", "en": "First, let us check your account permissions and connection.", "vi": "Đầu tiên, mình kiểm tra quyền truy cập tài khoản và kết nối của bạn." },
+        { "speaker": "a", "en": "And if that does not fix it?", "vi": "Nếu vậy vẫn chưa khắc phục được thì sao?" },
+        { "speaker": "b", "en": "Then I will start a remote session to look deeper.", "vi": "Thì tôi sẽ bắt đầu một phiên hỗ trợ từ xa để xem sâu hơn." }
+      ]}
+  ]
+}

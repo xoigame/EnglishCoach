@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-hoc-bong",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Giới thiệu bản thân với hội đồng", "situation": "Ứng viên giới thiệu bản thân với hội đồng xét học bổng.",
+      "turns": [
+        { "speaker": "a", "en": "Please introduce yourself briefly.", "vi": "Mời bạn giới thiệu bản thân ngắn gọn." },
+        { "speaker": "b", "en": "I am a final year student studying economics.", "vi": "Tôi là sinh viên năm cuối ngành kinh tế." },
+        { "speaker": "a", "en": "What motivates you to apply for this scholarship?", "vi": "Điều gì thúc đẩy bạn ứng tuyển học bổng này?" },
+        { "speaker": "b", "en": "I want to pursue further studies without financial burden.", "vi": "Tôi muốn học tiếp mà không gặp gánh nặng tài chính." },
+        { "speaker": "a", "en": "That is a clear motivation.", "vi": "Động lực đó rõ ràng đấy." },
+        { "speaker": "b", "en": "Thank you for the opportunity to explain.", "vi": "Cảm ơn hội đồng đã cho tôi cơ hội giải thích." }
+      ]},
+    { "title": "Hỏi về thành tích học tập", "situation": "Hội đồng hỏi về thành tích học tập của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "Tell us about your academic record.", "vi": "Kể cho chúng tôi nghe về thành tích học tập của bạn." },
+        { "speaker": "b", "en": "I have maintained a high GPA throughout.", "vi": "Tôi đã duy trì GPA cao suốt quá trình học." },
+        { "speaker": "a", "en": "Any notable achievements?", "vi": "Có thành tích nổi bật nào không?" },
+        { "speaker": "b", "en": "I received a research award last year.", "vi": "Năm ngoái tôi nhận được giải thưởng nghiên cứu." },
+        { "speaker": "a", "en": "That is impressive.", "vi": "Vậy ấn tượng đấy." },
+        { "speaker": "b", "en": "Thank you, I worked hard for it.", "vi": "Cảm ơn, tôi đã nỗ lực rất nhiều." }
+      ]},
+    { "title": "Giải thích nhu cầu tài chính", "situation": "Ứng viên giải thích về nhu cầu tài chính của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Can you explain your financial need?", "vi": "Bạn giải thích về nhu cầu tài chính được không?" },
+        { "speaker": "b", "en": "My family cannot fully cover the tuition.", "vi": "Gia đình tôi không thể chi trả toàn bộ học phí." },
+        { "speaker": "a", "en": "Do you have any part-time income?", "vi": "Bạn có thu nhập bán thời gian nào không?" },
+        { "speaker": "b", "en": "Yes, I tutor students on weekends.", "vi": "Có, tôi dạy kèm học sinh vào cuối tuần." },
+        { "speaker": "a", "en": "Thank you for sharing this openly.", "vi": "Cảm ơn bạn đã chia sẻ thẳng thắn." },
+        { "speaker": "b", "en": "I appreciate you asking.", "vi": "Tôi cảm kích vì hội đồng đã hỏi." }
+      ]},
+    { "title": "Hỏi về hoạt động cộng đồng", "situation": "Hội đồng hỏi về hoạt động đóng góp cộng đồng.",
+      "turns": [
+        { "speaker": "a", "en": "What community outreach have you done?", "vi": "Bạn đã tham gia hoạt động cộng đồng nào?" },
+        { "speaker": "b", "en": "I volunteer at a local shelter monthly.", "vi": "Tôi tình nguyện tại một mái ấm địa phương hàng tháng." },
+        { "speaker": "a", "en": "What have you learned from that?", "vi": "Bạn học được gì từ việc đó?" },
+        { "speaker": "b", "en": "The importance of giving back to society.", "vi": "Tầm quan trọng của việc đóng góp lại cho xã hội." },
+        { "speaker": "a", "en": "That aligns with our scholarship values.", "vi": "Điều đó phù hợp với giá trị học bổng của chúng tôi." },
+        { "speaker": "b", "en": "I am glad to hear that.", "vi": "Tôi vui khi nghe điều đó." }
+      ]},
+    { "title": "Hỏi về mục tiêu dài hạn", "situation": "Hội đồng hỏi về mục tiêu dài hạn của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "What is your long term goal?", "vi": "Mục tiêu dài hạn của bạn là gì?" },
+        { "speaker": "b", "en": "I want to work in sustainable development.", "vi": "Tôi muốn làm việc trong lĩnh vực phát triển bền vững." },
+        { "speaker": "a", "en": "Why does that field interest you?", "vi": "Vì sao lĩnh vực đó thu hút bạn?" },
+        { "speaker": "b", "en": "I care deeply about environmental impact.", "vi": "Tôi rất quan tâm đến tác động môi trường." },
+        { "speaker": "a", "en": "That is a meaningful goal.", "vi": "Đó là mục tiêu có ý nghĩa đấy." },
+        { "speaker": "b", "en": "Thank you, it drives my studies.", "vi": "Cảm ơn, nó thúc đẩy việc học của tôi." }
+      ]},
+    { "title": "Hỏi về khả năng vượt khó", "situation": "Hội đồng hỏi về khả năng vượt qua khó khăn của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "How resilient are you under pressure?", "vi": "Bạn kiên cường thế nào khi gặp áp lực?" },
+        { "speaker": "b", "en": "I stayed focused even during financial hardship.", "vi": "Tôi vẫn tập trung ngay cả khi khó khăn tài chính." },
+        { "speaker": "a", "en": "Can you share an example?", "vi": "Bạn chia sẻ một ví dụ được không?" },
+        { "speaker": "b", "en": "I worked two jobs while studying full time.", "vi": "Tôi làm hai công việc trong khi vẫn học toàn thời gian." },
+        { "speaker": "a", "en": "That shows real dedication.", "vi": "Vậy cho thấy sự cống hiến thật sự đấy." },
+        { "speaker": "b", "en": "Thank you, it was not easy but worth it.", "vi": "Cảm ơn, không dễ dàng nhưng đáng giá." }
+      ]},
+    { "title": "Hỏi về học bổng theo thành tích", "situation": "Ứng viên hỏi về tiêu chí học bổng theo thành tích.",
+      "turns": [
+        { "speaker": "a", "en": "Is this scholarship merit based?", "vi": "Học bổng này có dựa trên thành tích không ạ?" },
+        { "speaker": "b", "en": "Partly, we also consider financial need.", "vi": "Một phần, chúng tôi cũng xem xét nhu cầu tài chính." },
+        { "speaker": "a", "en": "What weight does each factor carry?", "vi": "Mỗi yếu tố có trọng số như thế nào ạ?" },
+        { "speaker": "b", "en": "Roughly equal consideration for both.", "vi": "Cân nhắc gần như tương đương cho cả hai." },
+        { "speaker": "a", "en": "Thank you for clarifying.", "vi": "Cảm ơn hội đồng đã làm rõ." },
+        { "speaker": "b", "en": "You are welcome, any other questions?", "vi": "Không có gì, còn câu hỏi nào khác không?" }
+      ]},
+    { "title": "Đề cập đến kế hoạch dùng học bổng", "situation": "Ứng viên trình bày kế hoạch cụ thể nếu nhận được học bổng.",
+      "turns": [
+        { "speaker": "a", "en": "How would you use this scholarship?", "vi": "Bạn sẽ sử dụng học bổng này thế nào?" },
+        { "speaker": "b", "en": "To cover tuition and study materials.", "vi": "Để chi trả học phí và tài liệu học tập." },
+        { "speaker": "a", "en": "Any specific program you plan to pursue?", "vi": "Có chương trình cụ thể nào bạn dự định theo học không?" },
+        { "speaker": "b", "en": "A master's degree in public policy.", "vi": "Bằng thạc sĩ chính sách công." },
+        { "speaker": "a", "en": "That sounds like a strong plan.", "vi": "Nghe có vẻ là kế hoạch vững đấy." },
+        { "speaker": "b", "en": "Thank you for considering my application.", "vi": "Cảm ơn hội đồng đã xem xét hồ sơ của tôi." }
+      ]},
+    { "title": "Hội đồng đưa ra câu hỏi phản biện", "situation": "Hội đồng đặt câu hỏi phản biện về tính bền vững của kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "How sustainable is your plan financially?", "vi": "Kế hoạch của bạn bền vững về tài chính đến đâu?" },
+        { "speaker": "b", "en": "I have a part-time job to support living costs.", "vi": "Tôi có công việc bán thời gian để trang trải chi phí sinh hoạt." },
+        { "speaker": "a", "en": "What if that income is not enough?", "vi": "Nếu thu nhập đó không đủ thì sao?" },
+        { "speaker": "b", "en": "I have a small savings fund as backup.", "vi": "Tôi có một khoản tiết kiệm nhỏ dự phòng." },
+        { "speaker": "a", "en": "That shows careful planning.", "vi": "Vậy cho thấy sự lên kế hoạch cẩn thận đấy." },
+        { "speaker": "b", "en": "Thank you, I wanted to be prepared.", "vi": "Cảm ơn, tôi muốn chuẩn bị kỹ càng." }
+      ]},
+    { "title": "Phỏng vấn học bổng với nhiều câu hỏi phản biện sâu về động cơ và tính bền vững", "situation": "Hội đồng đặt nhiều câu hỏi phản biện sâu sắc về động cơ, kế hoạch dài hạn, và tính bền vững của ứng viên. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Many applicants say they want to give back, why should we believe you?", "vi": "Nhiều ứng viên nói muốn đóng góp lại, sao chúng tôi nên tin bạn?" },
+        { "speaker": "b", "en": "I have already spent two years volunteering consistently.", "vi": "Tôi đã dành hai năm tình nguyện liên tục rồi." },
+        { "speaker": "a", "en": "How does that connect to your long term goal?", "vi": "Điều đó liên kết thế nào với mục tiêu dài hạn của bạn?" },
+        { "speaker": "b", "en": "It shaped my decision to pursue sustainable development work.", "vi": "Nó định hình quyết định theo đuổi công việc phát triển bền vững của tôi." },
+        { "speaker": "a", "en": "And if your career path changes later?", "vi": "Nếu sau này con đường sự nghiệp của bạn thay đổi thì sao?" },
+        { "speaker": "b", "en": "The core value of giving back will still guide my choices.", "vi": "Giá trị cốt lõi về đóng góp lại sẽ vẫn định hướng lựa chọn của tôi." }
+      ]}
+  ]
+}

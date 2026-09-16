@@ -1,0 +1,96 @@
+{
+  "id": "networking-su-kien",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Bắt chuyện lần đầu tại hội thảo", "situation": "Người học bắt chuyện với một chuyên gia tại hội thảo.",
+      "turns": [
+        { "speaker": "a", "en": "Great keynote today, was it not?", "vi": "Bài phát biểu chính hôm nay hay quá nhỉ?" },
+        { "speaker": "b", "en": "Yes, that is a good way to break the ice.", "vi": "Vâng, đó là cách hay để bắt đầu câu chuyện." },
+        { "speaker": "a", "en": "What did you think of it?", "vi": "Bạn nghĩ sao về bài đó?" },
+        { "speaker": "b", "en": "Very insightful, especially the data points.", "vi": "Rất sâu sắc, đặc biệt là các số liệu." },
+        { "speaker": "a", "en": "I agree completely.", "vi": "Tôi hoàn toàn đồng ý." },
+        { "speaker": "b", "en": "Nice to meet someone who noticed that too.", "vi": "Vui vì gặp được người cũng để ý điều đó." }
+      ]},
+    { "title": "Hỏi kinh nghiệm chuyên môn", "situation": "Người học hỏi thăm kinh nghiệm chuyên môn của chuyên gia.",
+      "turns": [
+        { "speaker": "a", "en": "May I pick your brain about your field?", "vi": "Tôi hỏi kinh nghiệm của bạn được không?" },
+        { "speaker": "b", "en": "Sure, what would you like to know?", "vi": "Được, bạn muốn biết gì vậy?" },
+        { "speaker": "a", "en": "How did you get started in this industry?", "vi": "Bạn đã bắt đầu trong ngành này thế nào?" },
+        { "speaker": "b", "en": "I started as an intern, actually.", "vi": "Thực ra tôi bắt đầu làm thực tập sinh." },
+        { "speaker": "a", "en": "That is inspiring to hear.", "vi": "Nghe vậy truyền cảm hứng lắm." },
+        { "speaker": "b", "en": "Happy to share more if you are interested.", "vi": "Tôi vui lòng chia sẻ thêm nếu bạn quan tâm." }
+      ]},
+    { "title": "Chia sẻ cảm giác đồng cảnh ngộ", "situation": "Người học chia sẻ cảm giác đồng cảnh ngộ với người mới quen.",
+      "turns": [
+        { "speaker": "a", "en": "Is this your first time at this conference?", "vi": "Đây là lần đầu bạn tham dự hội nghị này à?" },
+        { "speaker": "b", "en": "Yes, it is quite overwhelming.", "vi": "Vâng, khá choáng ngợp." },
+        { "speaker": "a", "en": "We are in the same boat then.", "vi": "Vậy chúng ta cùng cảnh ngộ đấy." },
+        { "speaker": "b", "en": "That is comforting to know.", "vi": "Biết vậy tôi thấy dễ chịu hơn." },
+        { "speaker": "a", "en": "Let us explore the sessions together.", "vi": "Mình cùng khám phá các phiên hội thảo nhé." },
+        { "speaker": "b", "en": "I would love that.", "vi": "Tôi rất thích vậy." }
+      ]},
+    { "title": "Trao đổi thông tin liên lạc", "situation": "Người học trao đổi thông tin liên lạc với chuyên gia sau cuộc trò chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "I would love to stay in touch.", "vi": "Tôi rất muốn giữ liên lạc." },
+        { "speaker": "b", "en": "Sure, let us connect on LinkedIn.", "vi": "Được, mình kết nối trên LinkedIn nhé." },
+        { "speaker": "a", "en": "I will send a request today.", "vi": "Hôm nay tôi sẽ gửi lời mời kết bạn." },
+        { "speaker": "b", "en": "I will accept it right away.", "vi": "Tôi sẽ chấp nhận ngay." },
+        { "speaker": "a", "en": "Thank you for the great conversation.", "vi": "Cảm ơn bạn vì cuộc trò chuyện tuyệt vời." },
+        { "speaker": "b", "en": "Likewise, it was a pleasure.", "vi": "Tương tự, thật là niềm vui." }
+      ]},
+    { "title": "Rút ra bài học từ bài phát biểu", "situation": "Hai người chia sẻ điều rút ra được từ bài phát biểu chính.",
+      "turns": [
+        { "speaker": "a", "en": "What was your key takeaway from the keynote?", "vi": "Điều bạn rút ra từ bài phát biểu chính là gì?" },
+        { "speaker": "b", "en": "The importance of adapting quickly.", "vi": "Tầm quan trọng của việc thích nghi nhanh chóng." },
+        { "speaker": "a", "en": "That resonated with me too.", "vi": "Điều đó cũng cộng hưởng với tôi." },
+        { "speaker": "b", "en": "It is worth exploring further, I think.", "vi": "Tôi nghĩ đáng để tìm hiểu thêm." },
+        { "speaker": "a", "en": "Maybe we could discuss it over coffee.", "vi": "Có lẽ mình bàn thêm bên tách cà phê nhé." },
+        { "speaker": "b", "en": "That sounds like a great idea.", "vi": "Nghe có vẻ là ý hay đấy." }
+      ]},
+    { "title": "Tìm mối liên hệ chung", "situation": "Hai người tìm ra mối liên hệ chung trong cuộc trò chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "Do you know anyone from XYZ company?", "vi": "Bạn có biết ai ở công ty XYZ không?" },
+        { "speaker": "b", "en": "Actually, we have a mutual connection there.", "vi": "Thực ra chúng ta có mối liên hệ chung ở đó." },
+        { "speaker": "a", "en": "Small world, is it not?", "vi": "Thế giới nhỏ bé thật nhỉ?" },
+        { "speaker": "b", "en": "It really is, that is a nice coincidence.", "vi": "Đúng vậy, sự trùng hợp thú vị đấy." },
+        { "speaker": "a", "en": "I will mention I met you.", "vi": "Tôi sẽ nhắc là tôi đã gặp bạn." },
+        { "speaker": "b", "en": "Please do, say hello for me.", "vi": "Cứ nói giúp, gửi lời chào giúp tôi nhé." }
+      ]},
+    { "title": "Theo sát sau sự kiện", "situation": "Người học đề xuất theo sát liên lạc sau sự kiện.",
+      "turns": [
+        { "speaker": "a", "en": "I will follow up with you next week.", "vi": "Tuần sau tôi sẽ liên hệ lại với bạn." },
+        { "speaker": "b", "en": "That sounds great, I look forward to it.", "vi": "Nghe hay đấy, tôi mong chờ điều đó." },
+        { "speaker": "a", "en": "Should we touch base by email or call?", "vi": "Mình liên hệ qua email hay gọi điện nhỉ?" },
+        { "speaker": "b", "en": "Email works best for me.", "vi": "Email phù hợp với tôi hơn." },
+        { "speaker": "a", "en": "Great, I will send one soon.", "vi": "Tuyệt, tôi sẽ gửi sớm." },
+        { "speaker": "b", "en": "Looking forward to hearing from you.", "vi": "Mong nhận được tin từ bạn." }
+      ]},
+    { "title": "Người học hơi lo lắng khi giao tiếp", "situation": "Người học chia sẻ cảm giác hơi lo lắng khi giao tiếp tại sự kiện lớn.",
+      "turns": [
+        { "speaker": "a", "en": "I always feel nervous meeting new people here.", "vi": "Tôi luôn cảm thấy hồi hộp khi gặp người mới ở đây." },
+        { "speaker": "b", "en": "That is completely normal, I felt that too at first.", "vi": "Vậy hoàn toàn bình thường, lúc đầu tôi cũng vậy." },
+        { "speaker": "a", "en": "How did you overcome it?", "vi": "Bạn đã vượt qua điều đó thế nào?" },
+        { "speaker": "b", "en": "Just starting with simple questions helps.", "vi": "Chỉ cần bắt đầu bằng câu hỏi đơn giản là được." },
+        { "speaker": "a", "en": "I will try that approach.", "vi": "Tôi sẽ thử cách đó." },
+        { "speaker": "b", "en": "You are doing great already.", "vi": "Bạn đang làm tốt rồi đấy." }
+      ]},
+    { "title": "Đề xuất hợp tác trong tương lai", "situation": "Hai người bàn về khả năng hợp tác trong tương lai.",
+      "turns": [
+        { "speaker": "a", "en": "Our companies might benefit from working together.", "vi": "Công ty chúng ta có thể hưởng lợi khi hợp tác cùng nhau." },
+        { "speaker": "b", "en": "That is worth exploring further.", "vi": "Điều đó đáng để tìm hiểu thêm." },
+        { "speaker": "a", "en": "Should we set up a call next month?", "vi": "Mình sắp xếp cuộc gọi tháng sau nhé?" },
+        { "speaker": "b", "en": "Yes, I will check my calendar.", "vi": "Được, tôi sẽ kiểm tra lịch." },
+        { "speaker": "a", "en": "I will send an invite this week.", "vi": "Tuần này tôi sẽ gửi lời mời." },
+        { "speaker": "b", "en": "Looking forward to it.", "vi": "Mong chờ điều đó." }
+      ]},
+    { "title": "Networking phức tạp với nhiều người cùng lúc và cần theo sát nhiều mối liên hệ", "situation": "Người học networking với nhiều người cùng lúc tại sự kiện lớn và cần theo sát nhiều mối liên hệ khác nhau sau đó. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I have met so many interesting people today, it is hard to keep track.", "vi": "Hôm nay tôi gặp nhiều người thú vị quá, khó mà nhớ hết được." },
+        { "speaker": "b", "en": "I find it helpful to note one key detail about each person.", "vi": "Tôi thấy hữu ích khi ghi chú một chi tiết chính về mỗi người." },
+        { "speaker": "a", "en": "That is a smart way to follow up later.", "vi": "Đó là cách thông minh để liên hệ lại sau này." },
+        { "speaker": "b", "en": "Exactly, and prioritize the most promising connections first.", "vi": "Chính xác, và ưu tiên những mối liên hệ hứa hẹn nhất trước." },
+        { "speaker": "a", "en": "Which of today's contacts do you think are worth exploring most?", "vi": "Bạn nghĩ liên hệ nào hôm nay đáng để tìm hiểu nhất?" },
+        { "speaker": "b", "en": "The investor and the two mutual connections from our industry.", "vi": "Nhà đầu tư và hai mối liên hệ chung trong ngành của chúng ta." }
+      ]}
+  ]
+}

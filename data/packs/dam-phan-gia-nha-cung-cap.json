@@ -1,0 +1,96 @@
+{
+  "id": "dam-phan-gia-nha-cung-cap",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Hỏi về đơn giá sản phẩm", "situation": "Bên mua hỏi về đơn giá sản phẩm từ nhà cung cấp.",
+      "turns": [
+        { "speaker": "a", "en": "What is the unit price for this item?", "vi": "Đơn giá của món hàng này là bao nhiêu?" },
+        { "speaker": "b", "en": "It is fifty thousand dong per unit.", "vi": "Là năm mươi nghìn đồng mỗi đơn vị." },
+        { "speaker": "a", "en": "Is that negotiable for larger orders?", "vi": "Với đơn hàng lớn thì có thương lượng được không?" },
+        { "speaker": "b", "en": "Yes, definitely for bulk purchases.", "vi": "Có, chắc chắn với đơn hàng số lượng lớn." },
+        { "speaker": "a", "en": "Good to know, thank you.", "vi": "Biết vậy tốt quá, cảm ơn bạn." },
+        { "speaker": "b", "en": "I can send you a tiered pricing sheet.", "vi": "Tôi có thể gửi bạn bảng giá theo mức số lượng." }
+      ]},
+    { "title": "Hỏi về số lượng đặt hàng tối thiểu", "situation": "Bên mua hỏi về số lượng đặt hàng tối thiểu.",
+      "turns": [
+        { "speaker": "a", "en": "What is the minimum order quantity?", "vi": "Số lượng đặt hàng tối thiểu là bao nhiêu?" },
+        { "speaker": "b", "en": "One thousand units per order.", "vi": "Một nghìn đơn vị mỗi đơn hàng." },
+        { "speaker": "a", "en": "That is higher than we expected.", "vi": "Vậy cao hơn chúng tôi dự tính." },
+        { "speaker": "b", "en": "We could adjust it for a long term contract.", "vi": "Chúng tôi có thể điều chỉnh nếu ký hợp đồng dài hạn." },
+        { "speaker": "a", "en": "That is worth exploring.", "vi": "Điều đó đáng để tìm hiểu thêm." },
+        { "speaker": "b", "en": "I will prepare a proposal for that.", "vi": "Tôi sẽ chuẩn bị đề xuất cho việc đó." }
+      ]},
+    { "title": "Thương lượng chiết khấu theo số lượng", "situation": "Bên mua thương lượng chiết khấu khi mua số lượng lớn.",
+      "turns": [
+        { "speaker": "a", "en": "Do you offer a volume discount?", "vi": "Bạn có chiết khấu theo số lượng không?" },
+        { "speaker": "b", "en": "Yes, five percent off for orders over five thousand.", "vi": "Có, giảm năm phần trăm cho đơn hàng trên năm nghìn." },
+        { "speaker": "a", "en": "What about orders over ten thousand?", "vi": "Còn với đơn hàng trên mười nghìn thì sao?" },
+        { "speaker": "b", "en": "We could offer eight percent then.", "vi": "Lúc đó chúng tôi có thể giảm tám phần trăm." },
+        { "speaker": "a", "en": "That sounds much better.", "vi": "Nghe tốt hơn nhiều đấy." },
+        { "speaker": "b", "en": "I will include that in the revised quote.", "vi": "Tôi sẽ đưa vào báo giá đã sửa lại." }
+      ]},
+    { "title": "Thương lượng điều khoản thanh toán", "situation": "Hai bên thương lượng về điều khoản thanh toán.",
+      "turns": [
+        { "speaker": "a", "en": "What are your payment terms?", "vi": "Điều khoản thanh toán của bạn là gì?" },
+        { "speaker": "b", "en": "Fifty percent upfront payment is required.", "vi": "Cần thanh toán trước năm mươi phần trăm." },
+        { "speaker": "a", "en": "Could we do thirty percent instead?", "vi": "Mình làm ba mươi phần trăm thay vào đó được không?" },
+        { "speaker": "b", "en": "That could work with a longer relationship.", "vi": "Điều đó có thể được nếu mối quan hệ hợp tác dài hạn hơn." },
+        { "speaker": "a", "en": "We are open to a long term partnership.", "vi": "Chúng tôi sẵn sàng cho mối hợp tác dài hạn." },
+        { "speaker": "b", "en": "Then let us finalize those terms.", "vi": "Vậy mình chốt điều khoản đó nhé." }
+      ]},
+    { "title": "So sánh giá với đối thủ cạnh tranh", "situation": "Bên mua so sánh giá với một nhà cung cấp cạnh tranh khác.",
+      "turns": [
+        { "speaker": "a", "en": "Your competitor offers a lower price.", "vi": "Đối thủ của bạn đưa ra giá thấp hơn." },
+        { "speaker": "b", "en": "May I ask what price they quoted?", "vi": "Tôi hỏi họ báo giá bao nhiêu được không?" },
+        { "speaker": "a", "en": "About ten percent lower than yours.", "vi": "Thấp hơn khoảng mười phần trăm so với bạn." },
+        { "speaker": "b", "en": "We can be more competitive with a larger order.", "vi": "Chúng tôi có thể cạnh tranh hơn với đơn hàng lớn hơn." },
+        { "speaker": "a", "en": "Let me consider that option.", "vi": "Để tôi cân nhắc lựa chọn đó." },
+        { "speaker": "b", "en": "I will hold this price for a week.", "vi": "Tôi sẽ giữ giá này trong một tuần." }
+      ]},
+    { "title": "Thương lượng biên lợi nhuận", "situation": "Nhà cung cấp giải thích về biên lợi nhuận khi thương lượng giá.",
+      "turns": [
+        { "speaker": "a", "en": "Can you lower the price a bit more?", "vi": "Bạn giảm giá thêm chút được không?" },
+        { "speaker": "b", "en": "Our profit margin is already quite thin.", "vi": "Biên lợi nhuận của chúng tôi đã khá mỏng rồi." },
+        { "speaker": "a", "en": "I understand, but we need to meet somewhere.", "vi": "Tôi hiểu, nhưng mình cần tìm điểm chung." },
+        { "speaker": "b", "en": "Let us meet halfway at three percent off.", "vi": "Mình gặp nhau ở giữa với mức giảm ba phần trăm nhé." },
+        { "speaker": "a", "en": "That works for us.", "vi": "Vậy được với chúng tôi." },
+        { "speaker": "b", "en": "Great, I will update the contract.", "vi": "Tuyệt, tôi sẽ cập nhật hợp đồng." }
+      ]},
+    { "title": "Yêu cầu báo giá lại", "situation": "Bên mua yêu cầu nhà cung cấp gửi báo giá đã sửa đổi.",
+      "turns": [
+        { "speaker": "a", "en": "Could you send a revised quote?", "vi": "Bạn gửi báo giá đã sửa lại được không?" },
+        { "speaker": "b", "en": "Sure, with what changes?", "vi": "Được, với những thay đổi gì vậy?" },
+        { "speaker": "a", "en": "Include the volume discount we discussed.", "vi": "Bao gồm chiết khấu theo số lượng mình đã bàn." },
+        { "speaker": "b", "en": "I will have it ready by tomorrow.", "vi": "Mai tôi sẽ chuẩn bị xong." },
+        { "speaker": "a", "en": "Thank you, that works for our timeline.", "vi": "Cảm ơn bạn, vậy phù hợp với tiến độ của chúng tôi." },
+        { "speaker": "b", "en": "I will send it first thing in the morning.", "vi": "Sáng sớm mai tôi sẽ gửi ngay." }
+      ]},
+    { "title": "Nhà cung cấp yêu cầu cam kết dài hạn", "situation": "Nhà cung cấp yêu cầu cam kết dài hạn để đổi lấy giá tốt hơn.",
+      "turns": [
+        { "speaker": "a", "en": "For that price, we need a one year commitment.", "vi": "Với mức giá đó, chúng tôi cần cam kết một năm." },
+        { "speaker": "b", "en": "That is a significant commitment.", "vi": "Đó là cam kết đáng kể đấy." },
+        { "speaker": "a", "en": "It would lock in your pricing though.", "vi": "Nhưng nó sẽ khóa giá cho bạn." },
+        { "speaker": "b", "en": "Could we start with six months instead?", "vi": "Mình bắt đầu với sáu tháng thay vào đó được không?" },
+        { "speaker": "a", "en": "We could consider that as a trial.", "vi": "Chúng tôi có thể cân nhắc đó như một thử nghiệm." },
+        { "speaker": "b", "en": "That sounds like a fair compromise.", "vi": "Nghe có vẻ là thỏa hiệp công bằng đấy." }
+      ]},
+    { "title": "Chốt thỏa thuận cuối cùng", "situation": "Hai bên chốt thỏa thuận cuối cùng sau khi thương lượng.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree on the terms discussed?", "vi": "Vậy mình đồng ý với các điều khoản đã bàn chứ?" },
+        { "speaker": "b", "en": "Yes, I am ready to commit to this deal.", "vi": "Vâng, tôi sẵn sàng cam kết với thỏa thuận này." },
+        { "speaker": "a", "en": "Great, I will draft the final contract.", "vi": "Tuyệt, tôi sẽ soạn hợp đồng cuối cùng." },
+        { "speaker": "b", "en": "Thank you for a productive negotiation.", "vi": "Cảm ơn bạn vì cuộc đàm phán hiệu quả." },
+        { "speaker": "a", "en": "We look forward to this partnership.", "vi": "Chúng tôi mong chờ mối hợp tác này." },
+        { "speaker": "b", "en": "Likewise, thank you.", "vi": "Tương tự, cảm ơn bạn." }
+      ]},
+    { "title": "Đàm phán phức tạp với nhiều điều khoản liên kết nhau", "situation": "Hai bên đàm phán nhiều điều khoản liên kết nhau: giá, số lượng, và thời hạn thanh toán. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "If we increase the order quantity, can the unit price drop further?", "vi": "Nếu chúng tôi tăng số lượng đặt hàng, đơn giá có giảm thêm không?" },
+        { "speaker": "b", "en": "Yes, but that would require extending payment terms too.", "vi": "Có, nhưng điều đó cũng cần kéo dài điều khoản thanh toán." },
+        { "speaker": "a", "en": "What payment terms would you propose?", "vi": "Bạn đề xuất điều khoản thanh toán nào?" },
+        { "speaker": "b", "en": "Sixty days instead of thirty, with a smaller upfront payment.", "vi": "Sáu mươi ngày thay vì ba mươi, cùng khoản trả trước nhỏ hơn." },
+        { "speaker": "a", "en": "That affects our cash flow, could we meet halfway at forty-five days?", "vi": "Điều đó ảnh hưởng dòng tiền của chúng tôi, mình gặp nhau ở giữa với bốn mươi lăm ngày được không?" },
+        { "speaker": "b", "en": "That works, and I will commit to the lower price with that arrangement.", "vi": "Được đấy, và tôi sẽ cam kết mức giá thấp hơn với thỏa thuận đó." }
+      ]}
+  ]
+}

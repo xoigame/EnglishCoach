@@ -1,0 +1,96 @@
+{
+  "id": "ke-chuyen-thuyet-phuc",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu câu chuyện thuyết phục", "situation": "Người trình bày mở đầu câu chuyện về dự án khu vườn cộng đồng.",
+      "turns": [
+        { "speaker": "a", "en": "Let me tell you a story about our neighborhood.", "vi": "Để tôi kể cho các bạn nghe một câu chuyện về khu phố mình." },
+        { "speaker": "b", "en": "Sure, we are listening.", "vi": "Được, chúng tôi đang nghe đây." },
+        { "speaker": "a", "en": "It started with one empty lot nobody used.", "vi": "Nó bắt đầu từ một lô đất trống không ai sử dụng." },
+        { "speaker": "b", "en": "What happened to it?", "vi": "Chuyện gì đã xảy ra với nó vậy?" },
+        { "speaker": "a", "en": "A few neighbors decided to make a case for change.", "vi": "Vài người hàng xóm quyết định lập luận để thay đổi nó." },
+        { "speaker": "b", "en": "That sounds like a promising start.", "vi": "Nghe có vẻ là khởi đầu hứa hẹn đấy." }
+      ]},
+    { "title": "Kể về bước ngoặt quan trọng", "situation": "Người trình bày kể về bước ngoặt trong câu chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "There was a turning point in this project.", "vi": "Có một bước ngoặt trong dự án này." },
+        { "speaker": "b", "en": "What happened at that point?", "vi": "Chuyện gì đã xảy ra tại thời điểm đó?" },
+        { "speaker": "a", "en": "A local business offered to donate tools.", "vi": "Một doanh nghiệp địa phương đã đề nghị quyên góp dụng cụ." },
+        { "speaker": "b", "en": "That must have changed everything.", "vi": "Chắc hẳn điều đó đã thay đổi mọi thứ." },
+        { "speaker": "a", "en": "Exactly, momentum grew from there.", "vi": "Chính xác, động lực tăng lên từ đó." },
+        { "speaker": "b", "en": "That is a compelling detail.", "vi": "Đó là chi tiết thuyết phục đấy." }
+      ]},
+    { "title": "Kể về khó khăn ban đầu", "situation": "Người trình bày kể về những khó khăn ban đầu của dự án.",
+      "turns": [
+        { "speaker": "a", "en": "We struggled with funding at first.", "vi": "Lúc đầu chúng tôi vật lộn với việc gây quỹ." },
+        { "speaker": "b", "en": "How did you overcome that?", "vi": "Bạn đã vượt qua điều đó thế nào?" },
+        { "speaker": "a", "en": "We organized a small community fundraiser.", "vi": "Chúng tôi tổ chức một buổi gây quỹ cộng đồng nhỏ." },
+        { "speaker": "b", "en": "Did it work well?", "vi": "Nó có hiệu quả không?" },
+        { "speaker": "a", "en": "Better than we expected, honestly.", "vi": "Thật lòng, tốt hơn chúng tôi mong đợi." },
+        { "speaker": "b", "en": "That struggle makes the story stronger.", "vi": "Khó khăn đó làm câu chuyện mạnh mẽ hơn." }
+      ]},
+    { "title": "Đưa ra bằng chứng hỗ trợ câu chuyện", "situation": "Người trình bày đưa ra bằng chứng cụ thể để hỗ trợ câu chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "Can you back that up with any numbers?", "vi": "Bạn có thể đưa ra số liệu để chứng minh không?" },
+        { "speaker": "b", "en": "Yes, fifty families now use the garden weekly.", "vi": "Có, năm mươi hộ gia đình giờ dùng khu vườn hàng tuần." },
+        { "speaker": "a", "en": "That is a meaningful impact.", "vi": "Đó là tác động đáng kể đấy." },
+        { "speaker": "b", "en": "It created a real ripple effect in the community.", "vi": "Nó tạo ra hiệu ứng lan tỏa thực sự trong cộng đồng." },
+        { "speaker": "a", "en": "That is impressive to hear.", "vi": "Nghe ấn tượng thật đấy." },
+        { "speaker": "b", "en": "We hope to expand it further.", "vi": "Chúng tôi hy vọng mở rộng nó hơn nữa." }
+      ]},
+    { "title": "Kết nối câu chuyện với hành động", "situation": "Người trình bày kết nối câu chuyện với lời kêu gọi hành động.",
+      "turns": [
+        { "speaker": "a", "en": "So what do you want from us today?", "vi": "Vậy hôm nay bạn muốn gì từ chúng tôi?" },
+        { "speaker": "b", "en": "Your support to expand this to another block.", "vi": "Sự ủng hộ của bạn để mở rộng dự án sang khu phố khác." },
+        { "speaker": "a", "en": "What would that require exactly?", "vi": "Cụ thể điều đó cần gì vậy?" },
+        { "speaker": "b", "en": "A small budget and volunteer hours.", "vi": "Một ngân sách nhỏ và giờ tình nguyện." },
+        { "speaker": "a", "en": "That seems achievable.", "vi": "Nghe có vẻ khả thi đấy." },
+        { "speaker": "b", "en": "I truly believe we can make it happen.", "vi": "Tôi thật sự tin rằng chúng ta có thể thực hiện được." }
+      ]},
+    { "title": "Người nghe bày tỏ nghi ngờ", "situation": "Một người trong khán giả bày tỏ sự nghi ngờ về dự án.",
+      "turns": [
+        { "speaker": "a", "en": "This sounds like a long shot to me.", "vi": "Việc này nghe có vẻ khó thành với tôi." },
+        { "speaker": "b", "en": "I understand the doubt, we had it too.", "vi": "Tôi hiểu sự nghi ngờ đó, chúng tôi cũng từng vậy." },
+        { "speaker": "a", "en": "What convinced you it could work?", "vi": "Điều gì thuyết phục bạn rằng nó có thể thành công?" },
+        { "speaker": "b", "en": "Seeing the first small success firsthand.", "vi": "Chứng kiến thành công nhỏ đầu tiên trực tiếp." },
+        { "speaker": "a", "en": "That is a fair answer.", "vi": "Đó là câu trả lời hợp lý đấy." },
+        { "speaker": "b", "en": "We would love to show you in person.", "vi": "Chúng tôi rất muốn cho bạn xem trực tiếp." }
+      ]},
+    { "title": "Người nghe hỏi về tính bền vững", "situation": "Người nghe hỏi liệu dự án có bền vững lâu dài không.",
+      "turns": [
+        { "speaker": "a", "en": "Will this be sustainable in the long run?", "vi": "Việc này có bền vững lâu dài không?" },
+        { "speaker": "b", "en": "Yes, the community has taken ownership of it.", "vi": "Có, cộng đồng đã nhận trách nhiệm với nó rồi." },
+        { "speaker": "a", "en": "That is reassuring to know.", "vi": "Biết vậy tôi thấy yên tâm hơn." },
+        { "speaker": "b", "en": "It is no longer just our idea, it belongs to everyone.", "vi": "Nó không còn chỉ là ý tưởng của chúng tôi, mà thuộc về mọi người." },
+        { "speaker": "a", "en": "That is a powerful outcome.", "vi": "Đó là kết quả mạnh mẽ đấy." },
+        { "speaker": "b", "en": "We are proud of how far it has come.", "vi": "Chúng tôi tự hào về những gì đã đạt được." }
+      ]},
+    { "title": "Kêu gọi cam kết cụ thể", "situation": "Người trình bày kêu gọi cam kết cụ thể từ khán giả.",
+      "turns": [
+        { "speaker": "a", "en": "Can we count on your commitment today?", "vi": "Hôm nay chúng tôi có thể trông cậy vào sự cam kết của bạn không?" },
+        { "speaker": "b", "en": "I would like to follow through on this.", "vi": "Tôi muốn theo đến cùng với việc này." },
+        { "speaker": "a", "en": "That means a lot to us.", "vi": "Điều đó có ý nghĩa rất lớn với chúng tôi." },
+        { "speaker": "b", "en": "Count me in for the next phase.", "vi": "Hãy tính tôi vào giai đoạn tiếp theo nhé." },
+        { "speaker": "a", "en": "Thank you for believing in this.", "vi": "Cảm ơn bạn đã tin tưởng vào việc này." },
+        { "speaker": "b", "en": "I am glad to be part of it.", "vi": "Tôi vui vì được là một phần của nó." }
+      ]},
+    { "title": "Kết thúc câu chuyện với thông điệp mạnh mẽ", "situation": "Người trình bày kết thúc câu chuyện bằng một thông điệp mạnh mẽ.",
+      "turns": [
+        { "speaker": "a", "en": "This idea came to life because people believed in it.", "vi": "Ý tưởng này thành hiện thực vì mọi người đã tin tưởng vào nó." },
+        { "speaker": "b", "en": "That is truly inspiring.", "vi": "Điều đó thực sự truyền cảm hứng." },
+        { "speaker": "a", "en": "It shows what a small group can achieve.", "vi": "Nó cho thấy một nhóm nhỏ có thể đạt được gì." },
+        { "speaker": "b", "en": "Thank you for sharing this story.", "vi": "Cảm ơn bạn đã chia sẻ câu chuyện này." },
+        { "speaker": "a", "en": "Thank you for listening with an open mind.", "vi": "Cảm ơn các bạn đã lắng nghe với tâm thế cởi mở." },
+        { "speaker": "b", "en": "We are ready to support the next step.", "vi": "Chúng tôi sẵn sàng ủng hộ bước tiếp theo." }
+      ]},
+    { "title": "Thuyết phục khán giả hoài nghi với câu chuyện phức tạp và nhiều câu hỏi phản biện", "situation": "Người trình bày phải thuyết phục một nhóm khán giả hoài nghi thông qua câu chuyện phức tạp và trả lời nhiều câu hỏi phản biện. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Honestly, similar projects have failed before in this area.", "vi": "Thật lòng, các dự án tương tự đã từng thất bại ở khu vực này rồi." },
+        { "speaker": "b", "en": "You are right, and that struggle shaped how we designed this one differently.", "vi": "Bạn nói đúng, và khó khăn đó đã định hình cách chúng tôi thiết kế dự án này khác đi." },
+        { "speaker": "a", "en": "What exactly did you do differently?", "vi": "Chính xác bạn đã làm gì khác đi?" },
+        { "speaker": "b", "en": "We involved residents from day one, so they took ownership early.", "vi": "Chúng tôi đã để cư dân tham gia từ ngày đầu, để họ nhận trách nhiệm sớm." },
+        { "speaker": "a", "en": "That is a meaningful difference, but is it truly sustainable?", "vi": "Đó là sự khác biệt có ý nghĩa, nhưng liệu nó có thực sự bền vững?" },
+        { "speaker": "b", "en": "The ripple effect already reached three other neighborhoods asking to replicate it.", "vi": "Hiệu ứng lan tỏa đã tới ba khu phố khác đang muốn nhân rộng nó." }
+      ]}
+  ]
+}

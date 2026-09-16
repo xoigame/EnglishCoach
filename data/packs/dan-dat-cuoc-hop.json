@@ -1,0 +1,96 @@
+{
+  "id": "dan-dat-cuoc-hop",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu cuộc họp với agenda", "situation": "Người điều phối mở đầu cuộc họp bằng cách trình bày agenda.",
+      "turns": [
+        { "speaker": "a", "en": "Let us go through today's agenda quickly.", "vi": "Mình xem qua chương trình họp hôm nay nhanh nhé." },
+        { "speaker": "b", "en": "Sure, I am ready to start.", "vi": "Được, tôi sẵn sàng bắt đầu." },
+        { "speaker": "a", "en": "We have three topics to cover.", "vi": "Chúng ta có ba chủ đề cần bàn." },
+        { "speaker": "b", "en": "Sounds efficient.", "vi": "Nghe hiệu quả đấy." },
+        { "speaker": "a", "en": "Let us stay on track with the time.", "vi": "Mình giữ đúng thời gian nhé." },
+        { "speaker": "b", "en": "Agreed, let us begin.", "vi": "Đồng ý, mình bắt đầu thôi." }
+      ]},
+    { "title": "Nhắc nhở giữ đúng thời gian", "situation": "Người điều phối nhắc nhở nhóm giữ đúng khung thời gian.",
+      "turns": [
+        { "speaker": "a", "en": "We are running a bit over time.", "vi": "Chúng ta đang hơi quá giờ rồi." },
+        { "speaker": "b", "en": "Sorry, I got carried away with details.", "vi": "Xin lỗi, tôi hơi sa đà vào chi tiết." },
+        { "speaker": "a", "en": "Let us timebox this topic to five minutes.", "vi": "Mình giới hạn chủ đề này trong năm phút nhé." },
+        { "speaker": "b", "en": "That works, I will summarize quickly.", "vi": "Được, tôi sẽ tóm tắt nhanh." },
+        { "speaker": "a", "en": "Thank you for adjusting.", "vi": "Cảm ơn bạn đã điều chỉnh." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Người kể lan man cần được nhắc nhở", "situation": "Một thành viên kể lan man, người điều phối nhẹ nhàng nhắc quay lại chủ đề.",
+      "turns": [
+        { "speaker": "a", "en": "That reminds me of a similar project last year...", "vi": "Điều đó làm tôi nhớ tới một dự án tương tự năm ngoái..." },
+        { "speaker": "b", "en": "That is interesting, but let us stay on track for now.", "vi": "Nghe thú vị đấy, nhưng giờ mình giữ đúng chủ đề nhé." },
+        { "speaker": "a", "en": "Right, sorry for digressing.", "vi": "Đúng rồi, xin lỗi vì đã lạc đề." },
+        { "speaker": "b", "en": "No worries, we can discuss that separately.", "vi": "Không sao, mình có thể bàn riêng việc đó sau." },
+        { "speaker": "a", "en": "Sounds good, back to the main point.", "vi": "Nghe được, quay lại điểm chính thôi." },
+        { "speaker": "b", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." }
+      ]},
+    { "title": "Đưa vấn đề vào parking lot", "situation": "Người điều phối đưa một vấn đề ngoài lề vào danh sách bàn sau.",
+      "turns": [
+        { "speaker": "a", "en": "This is a good point, but off-topic for today.", "vi": "Đây là điểm hay, nhưng lạc đề cho hôm nay." },
+        { "speaker": "b", "en": "Should we discuss it another time?", "vi": "Mình bàn việc đó vào lúc khác nhé?" },
+        { "speaker": "a", "en": "Let us put it in the parking lot for now.", "vi": "Giờ mình đưa nó vào danh sách bàn sau nhé." },
+        { "speaker": "b", "en": "Understood, I will note it down.", "vi": "Tôi hiểu rồi, tôi sẽ ghi chú lại." },
+        { "speaker": "a", "en": "We can revisit it next week.", "vi": "Tuần sau mình có thể xem lại." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Yêu cầu tóm tắt ngắn gọn", "situation": "Người điều phối yêu cầu thành viên tóm tắt ngắn gọn hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Could you summarize that more concisely?", "vi": "Bạn tóm tắt lại súc tích hơn được không?" },
+        { "speaker": "b", "en": "Sure, in short, we are on schedule.", "vi": "Được, tóm lại, chúng tôi đang đúng tiến độ." },
+        { "speaker": "a", "en": "Perfect, that is exactly what we needed.", "vi": "Hoàn hảo, đó chính xác là điều cần thiết." },
+        { "speaker": "b", "en": "I will keep updates brief going forward.", "vi": "Từ giờ tôi sẽ cập nhật ngắn gọn." },
+        { "speaker": "a", "en": "I appreciate that.", "vi": "Tôi cảm kích điều đó." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Chuyển một chủ đề sang thảo luận riêng", "situation": "Người điều phối chuyển một cuộc thảo luận chi tiết sang bàn riêng.",
+      "turns": [
+        { "speaker": "a", "en": "This technical detail needs more discussion than we have time for.", "vi": "Chi tiết kỹ thuật này cần thảo luận nhiều hơn thời gian mình có." },
+        { "speaker": "b", "en": "Should we take this offline?", "vi": "Mình bàn riêng việc này ngoài cuộc họp nhé?" },
+        { "speaker": "a", "en": "Yes, let us schedule a separate call.", "vi": "Vâng, mình lên lịch một cuộc gọi riêng nhé." },
+        { "speaker": "b", "en": "I will set that up after this meeting.", "vi": "Tôi sẽ sắp xếp sau cuộc họp này." },
+        { "speaker": "a", "en": "Thank you, let us move to the next item.", "vi": "Cảm ơn, mình chuyển sang mục tiếp theo nhé." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Xác định action item rõ ràng", "situation": "Người điều phối xác định action item rõ ràng ở cuối cuộc họp.",
+      "turns": [
+        { "speaker": "a", "en": "Let us confirm the action items before we wrap up.", "vi": "Mình xác nhận các đầu việc cần làm trước khi kết thúc nhé." },
+        { "speaker": "b", "en": "I will send the report by Friday.", "vi": "Tôi sẽ gửi báo cáo trước thứ Sáu." },
+        { "speaker": "a", "en": "Great, anything else?", "vi": "Tuyệt, còn gì khác không?" },
+        { "speaker": "b", "en": "I will follow up with the client.", "vi": "Tôi sẽ liên hệ tiếp với khách hàng." },
+        { "speaker": "a", "en": "Perfect, thank you everyone.", "vi": "Hoàn hảo, cảm ơn mọi người." },
+        { "speaker": "b", "en": "Thanks, see you next time.", "vi": "Cảm ơn, hẹn gặp lần sau." }
+      ]},
+    { "title": "Kết thúc đúng giờ dù chưa xong hết mục", "situation": "Người điều phối phải kết thúc đúng giờ dù chưa bàn xong hết các mục.",
+      "turns": [
+        { "speaker": "a", "en": "We are almost out of time.", "vi": "Chúng ta sắp hết giờ rồi." },
+        { "speaker": "b", "en": "But we still have two items left.", "vi": "Nhưng vẫn còn hai mục nữa." },
+        { "speaker": "a", "en": "Let us wrap up and continue next time.", "vi": "Mình kết thúc thôi và tiếp tục lần sau nhé." },
+        { "speaker": "b", "en": "That makes sense, given the time.", "vi": "Vậy hợp lý, vì đã hết giờ rồi." },
+        { "speaker": "a", "en": "I will send a follow-up agenda.", "vi": "Tôi sẽ gửi chương trình họp tiếp theo." },
+        { "speaker": "b", "en": "Sounds good, thank you.", "vi": "Nghe được đấy, cảm ơn bạn." }
+      ]},
+    { "title": "Xử lý thành viên nói chen ngang liên tục", "situation": "Người điều phối xử lý một thành viên hay nói chen ngang liên tục.",
+      "turns": [
+        { "speaker": "a", "en": "Let us let everyone finish their point first.", "vi": "Mình để mọi người nói hết ý trước đã nhé." },
+        { "speaker": "b", "en": "Sorry, I keep jumping in.", "vi": "Xin lỗi, tôi cứ chen ngang liên tục." },
+        { "speaker": "a", "en": "No worries, just want to keep things fair.", "vi": "Không sao, tôi chỉ muốn công bằng cho mọi người." },
+        { "speaker": "b", "en": "That is a good approach.", "vi": "Đó là cách tiếp cận tốt đấy." },
+        { "speaker": "a", "en": "Please continue with your point.", "vi": "Mời bạn tiếp tục ý của mình." },
+        { "speaker": "b", "en": "Thank you, I will be brief.", "vi": "Cảm ơn, tôi sẽ nói ngắn gọn." }
+      ]},
+    { "title": "Điều phối cuộc họp phức tạp với nhiều người lạc đề và tranh luận kéo dài", "situation": "Người điều phối phải xử lý nhiều thành viên lạc đề và tranh luận kéo dài cùng lúc trong một cuộc họp quan trọng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "We have digressed twice already, and we are running over time.", "vi": "Mình đã lạc đề hai lần rồi, và đang quá giờ." },
+        { "speaker": "b", "en": "Sorry, this topic sparked a lot of debate.", "vi": "Xin lỗi, chủ đề này gây ra nhiều tranh luận quá." },
+        { "speaker": "a", "en": "Let us put the unresolved points in the parking lot.", "vi": "Mình đưa các điểm chưa giải quyết vào danh sách bàn sau nhé." },
+        { "speaker": "b", "en": "Agreed, but can we at least agree on next steps?", "vi": "Đồng ý, nhưng mình ít nhất thống nhất bước tiếp theo được không?" },
+        { "speaker": "a", "en": "Yes, let us timebox five minutes to define action items.", "vi": "Được, mình dành năm phút để xác định các đầu việc cần làm." },
+        { "speaker": "b", "en": "That sounds like the right way to wrap up.", "vi": "Nghe có vẻ là cách kết thúc hợp lý đấy." }
+      ]}
+  ]
+}

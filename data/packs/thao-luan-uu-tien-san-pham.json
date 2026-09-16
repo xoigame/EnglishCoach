@@ -1,0 +1,96 @@
+{
+  "id": "thao-luan-uu-tien-san-pham",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Đề xuất ưu tiên tính năng mới", "situation": "Trưởng nhóm hỗ trợ đề xuất ưu tiên một tính năng mới.",
+      "turns": [
+        { "speaker": "a", "en": "Which feature should we prioritize next?", "vi": "Tính năng nào chúng ta nên ưu tiên tiếp theo?" },
+        { "speaker": "b", "en": "Customers are requesting faster search the most.", "vi": "Khách hàng yêu cầu tìm kiếm nhanh hơn nhiều nhất." },
+        { "speaker": "a", "en": "How many requests have we received?", "vi": "Chúng ta đã nhận bao nhiêu yêu cầu vậy?" },
+        { "speaker": "b", "en": "Over fifty this month alone.", "vi": "Hơn năm mươi chỉ riêng tháng này." },
+        { "speaker": "a", "en": "That is significant user feedback.", "vi": "Đó là phản hồi người dùng đáng kể đấy." },
+        { "speaker": "b", "en": "I recommend adding it to the top of the backlog.", "vi": "Tôi khuyến nghị đưa nó lên đầu danh sách việc cần làm." }
+      ]},
+    { "title": "Bàn về sự đánh đổi giữa hai tính năng", "situation": "Quản lý sản phẩm và trưởng nhóm bàn về đánh đổi giữa hai tính năng.",
+      "turns": [
+        { "speaker": "a", "en": "We can only build one feature this sprint.", "vi": "Sprint này chúng ta chỉ có thể xây một tính năng thôi." },
+        { "speaker": "b", "en": "What is the trade-off between the two options?", "vi": "Sự đánh đổi giữa hai lựa chọn là gì?" },
+        { "speaker": "a", "en": "One is a quick win, the other takes longer but adds more value.", "vi": "Một cái là thắng lợi nhanh, cái kia lâu hơn nhưng mang lại giá trị lớn hơn." },
+        { "speaker": "b", "en": "I would lean toward the quick win for now.", "vi": "Tôi nghiêng về thắng lợi nhanh hơn cho lúc này." },
+        { "speaker": "a", "en": "That makes sense given our timeline.", "vi": "Vậy hợp lý với tiến độ của chúng ta." },
+        { "speaker": "b", "en": "We can revisit the bigger feature next quarter.", "vi": "Chúng ta có thể xem lại tính năng lớn hơn vào quý sau." }
+      ]},
+    { "title": "Giải thích sự phụ thuộc giữa các tính năng", "situation": "Quản lý sản phẩm giải thích sự phụ thuộc giữa các tính năng.",
+      "turns": [
+        { "speaker": "a", "en": "Why can we not build this feature yet?", "vi": "Vì sao chúng ta chưa xây được tính năng này?" },
+        { "speaker": "b", "en": "It has a dependency on the new database.", "vi": "Nó phụ thuộc vào cơ sở dữ liệu mới." },
+        { "speaker": "a", "en": "When will that be ready?", "vi": "Khi nào cái đó sẽ sẵn sàng?" },
+        { "speaker": "b", "en": "In about three weeks.", "vi": "Khoảng ba tuần nữa." },
+        { "speaker": "a", "en": "We will need to wait then.", "vi": "Vậy chúng ta cần chờ thôi." },
+        { "speaker": "b", "en": "I will keep you updated on progress.", "vi": "Tôi sẽ cập nhật tiến độ cho bạn." }
+      ]},
+    { "title": "Xác định tính năng bắt buộc phải có", "situation": "Hai bên xác định tính năng nào là bắt buộc phải có.",
+      "turns": [
+        { "speaker": "a", "en": "Is this a must-have or nice-to-have?", "vi": "Cái này là bắt buộc phải có hay có thì tốt?" },
+        { "speaker": "b", "en": "Definitely a must-have for this release.", "vi": "Chắc chắn là bắt buộc phải có cho lần phát hành này." },
+        { "speaker": "a", "en": "Why is it so critical?", "vi": "Vì sao nó lại quan trọng vậy?" },
+        { "speaker": "b", "en": "Without it, users cannot complete checkout.", "vi": "Không có nó, người dùng không thể hoàn tất thanh toán." },
+        { "speaker": "a", "en": "That settles it then.", "vi": "Vậy là đã rõ ràng rồi." },
+        { "speaker": "b", "en": "I will move it to the top of the list.", "vi": "Tôi sẽ đưa nó lên đầu danh sách." }
+      ]},
+    { "title": "Xử lý phản hồi trái chiều từ người dùng", "situation": "Trưởng nhóm chia sẻ phản hồi trái chiều từ người dùng về một tính năng.",
+      "turns": [
+        { "speaker": "a", "en": "What has user feedback been like on this?", "vi": "Phản hồi người dùng về cái này thế nào?" },
+        { "speaker": "b", "en": "Mixed, some love it, others find it confusing.", "vi": "Trái chiều, có người thích, có người thấy khó hiểu." },
+        { "speaker": "a", "en": "What is causing the confusion?", "vi": "Điều gì gây ra sự khó hiểu vậy?" },
+        { "speaker": "b", "en": "The interface is not intuitive enough.", "vi": "Giao diện chưa đủ trực quan." },
+        { "speaker": "a", "en": "We should prioritize a redesign then.", "vi": "Vậy chúng ta nên ưu tiên thiết kế lại." },
+        { "speaker": "b", "en": "I agree, I will add it to the backlog.", "vi": "Tôi đồng ý, tôi sẽ thêm vào danh sách việc cần làm." }
+      ]},
+    { "title": "Đề xuất triển khai từng phần", "situation": "Quản lý sản phẩm đề xuất triển khai tính năng theo từng phần.",
+      "turns": [
+        { "speaker": "a", "en": "Should we do a full rollout or a phased one?", "vi": "Mình nên triển khai toàn bộ hay theo từng giai đoạn?" },
+        { "speaker": "b", "en": "A phased rollout would reduce risk.", "vi": "Triển khai theo giai đoạn sẽ giảm rủi ro." },
+        { "speaker": "a", "en": "What would the first phase include?", "vi": "Giai đoạn đầu sẽ bao gồm những gì?" },
+        { "speaker": "b", "en": "Just the core functionality.", "vi": "Chỉ các chức năng cốt lõi thôi." },
+        { "speaker": "a", "en": "That sounds like a safer approach.", "vi": "Nghe có vẻ là cách tiếp cận an toàn hơn đấy." },
+        { "speaker": "b", "en": "I will prepare the rollout plan.", "vi": "Tôi sẽ chuẩn bị kế hoạch triển khai." }
+      ]},
+    { "title": "Thảo luận về backlog quá tải", "situation": "Hai bên thảo luận vì backlog đang quá tải.",
+      "turns": [
+        { "speaker": "a", "en": "Our backlog is getting quite large.", "vi": "Danh sách việc cần làm của chúng ta đang khá lớn rồi." },
+        { "speaker": "b", "en": "We should review and remove outdated items.", "vi": "Chúng ta nên xem lại và loại bỏ các mục lỗi thời." },
+        { "speaker": "a", "en": "Which ones do you think are outdated?", "vi": "Bạn nghĩ những mục nào đã lỗi thời?" },
+        { "speaker": "b", "en": "Requests from over a year ago with no recent votes.", "vi": "Các yêu cầu từ hơn một năm trước không có bình chọn gần đây." },
+        { "speaker": "a", "en": "That sounds like a reasonable cleanup.", "vi": "Nghe có vẻ là việc dọn dẹp hợp lý đấy." },
+        { "speaker": "b", "en": "I will start the review this week.", "vi": "Tuần này tôi sẽ bắt đầu xem lại." }
+      ]},
+    { "title": "Bảo vệ quyết định ưu tiên trước phản đối", "situation": "Quản lý sản phẩm bảo vệ quyết định ưu tiên trước ý kiến phản đối.",
+      "turns": [
+        { "speaker": "a", "en": "I disagree with this priority order.", "vi": "Tôi không đồng ý với thứ tự ưu tiên này." },
+        { "speaker": "b", "en": "Can you explain your reasoning?", "vi": "Bạn giải thích lý do được không?" },
+        { "speaker": "a", "en": "Support tickets suggest a different urgent need.", "vi": "Các phiếu hỗ trợ cho thấy một nhu cầu khẩn cấp khác." },
+        { "speaker": "b", "en": "That is valuable data, let me reconsider.", "vi": "Đó là dữ liệu quý giá, để tôi cân nhắc lại." },
+        { "speaker": "a", "en": "I appreciate you being open to it.", "vi": "Tôi cảm kích vì bạn cởi mở với việc đó." },
+        { "speaker": "b", "en": "We will adjust the backlog accordingly.", "vi": "Chúng tôi sẽ điều chỉnh danh sách theo đó." }
+      ]},
+    { "title": "Thống nhất ưu tiên cuối cùng", "situation": "Hai bên thống nhất về thứ tự ưu tiên cuối cùng.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree on this priority order?", "vi": "Vậy mình thống nhất thứ tự ưu tiên này chứ?" },
+        { "speaker": "b", "en": "Yes, this reflects both our concerns.", "vi": "Vâng, cái này phản ánh cả mối quan tâm của cả hai bên." },
+        { "speaker": "a", "en": "I will update the roadmap accordingly.", "vi": "Tôi sẽ cập nhật lộ trình theo đó." },
+        { "speaker": "b", "en": "Thank you for the collaboration.", "vi": "Cảm ơn sự hợp tác của bạn." },
+        { "speaker": "a", "en": "Likewise, this was productive.", "vi": "Tương tự, buổi này hiệu quả đấy." },
+        { "speaker": "b", "en": "Let us check in again next sprint.", "vi": "Sprint tới mình trao đổi lại nhé." }
+      ]},
+    { "title": "Thảo luận ưu tiên phức tạp với nhiều yêu cầu mâu thuẫn từ các bên khác nhau", "situation": "Nhiều bên đưa ra yêu cầu ưu tiên mâu thuẫn nhau, cần cân bằng phức tạp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Sales wants the enterprise feature, but support says the bug fix is more urgent.", "vi": "Bên bán hàng muốn tính năng doanh nghiệp, nhưng bên hỗ trợ nói sửa lỗi khẩn cấp hơn." },
+        { "speaker": "b", "en": "What is the trade-off if we delay the bug fix?", "vi": "Đánh đổi nếu mình trì hoãn sửa lỗi là gì?" },
+        { "speaker": "a", "en": "User complaints could increase significantly.", "vi": "Khiếu nại người dùng có thể tăng đáng kể." },
+        { "speaker": "b", "en": "And if we delay the enterprise feature instead?", "vi": "Còn nếu mình trì hoãn tính năng doanh nghiệp thì sao?" },
+        { "speaker": "a", "en": "We risk losing a major deal, according to sales.", "vi": "Chúng ta có nguy cơ mất một hợp đồng lớn, theo bên bán hàng." },
+        { "speaker": "b", "en": "Let us do the bug fix as a quick win, then start the feature immediately after.", "vi": "Mình sửa lỗi như một thắng lợi nhanh, rồi bắt đầu tính năng ngay sau đó." }
+      ]}
+  ]
+}
