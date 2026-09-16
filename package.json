@@ -5,7 +5,9 @@
   "type": "module",
   "description": "Luyen nghe noi tieng Anh 1-1 voi giao an do AI soan qua Codex CLI",
   "homepage": "https://xoigame.github.io/EnglishCoach/",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "serve": "node tools/serve.mjs",
     "doctor": "node tools/doctor.mjs",
@@ -15,6 +17,8 @@
     "gen:one": "node tools/gen-lesson.mjs",
     "gen:list": "node tools/gen-series.mjs --list",
     "rewrite": "node tools/rewrite.mjs",
-    "index": "node tools/build-index.mjs"
+    "index": "node tools/build-index.mjs",
+    "gloss": "node tools/gloss-report.mjs",
+    "packs": "node tools/gen-packs.mjs --jobs 2"
   }
 }

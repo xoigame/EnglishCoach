@@ -8,6 +8,8 @@
 // Nhờ nguồn 3 mà chức năng này chạy được ngay trên mọi bài, kể cả bài soạn
 // trước khi có trường "glossary".
 
+import { DOMAIN, NAMES } from './gloss-domain.js';
+
 const BUILT_IN = {
   // đại từ
   i: 'tôi', you: 'bạn', he: 'anh ấy', she: 'cô ấy', it: 'nó', we: 'chúng tôi',
@@ -132,7 +134,11 @@ const PHRASES = {
   'let me': 'để tôi',
 };
 
-/** Bỏ đuôi thường gặp để tra được dạng gốc. */
+/**
+ * Các dạng gốc có thể của một từ, để không phải liệt kê mọi biến đổi trong
+ * từ điển. "stopped" phải bỏ phụ âm nhân đôi mới ra "stop"; "unconvinced" phải
+ * bỏ tiền tố un- mới ra "convinced"; "projector" bỏ đuôi -or mới ra "project".
+ */
 function stems(word) {
   const out = [word];
   const rules = [
@@ -140,10 +146,28 @@ function stems(word) {
     [/ied$/, 'y'], [/ed$/, ''], [/ed$/, 'e'],
     [/ing$/, ''], [/ing$/, 'e'],
     [/est$/, ''], [/er$/, ''],
+    [/ly$/, ''], [/ily$/, 'y'], [/ly$/, 'le'],
+    [/ness$/, ''], [/ment$/, ''], [/ation$/, 'e'], [/ion$/, ''],
+    [/able$/, ''], [/able$/, 'e'], [/ful$/, ''],
+    [/ance$/, ''], [/ence$/, ''], [/ity$/, ''],
   ];
   for (const [re, rep] of rules) {
     if (re.test(word)) out.push(word.replace(re, rep));
   }
+
+  // Phụ âm nhân đôi trước đuôi: stopped -> stop, running -> run, bigger -> big.
+  // Viết bằng tay thay vì backreference trong regex cho dễ đọc và dễ sửa.
+  const doubled = word.match(/^(.*?)([bdfglmnprt])\2?(ed|ing|er|est)$/);
+  if (doubled) out.push(doubled[1] + doubled[2]);
+  for (const suffix of ['ed', 'ing', 'er', 'est']) {
+    if (!word.endsWith(suffix)) continue;
+    const base = word.slice(0, -suffix.length);
+    const n = base.length;
+    if (n >= 3 && base[n - 1] === base[n - 2]) out.push(base.slice(0, -1));
+  }
+
+  // Tiền tố phủ định: unconvinced -> convinced, nghĩa sẽ được thêm "không".
+  if (/^un[a-z]{4,}/.test(word)) out.push(word.slice(2));
   return out;
 }
 
@@ -182,12 +206,18 @@ export function glossSentence(sentence, lesson) {
     const word = raw[i];
     const key = word.toLowerCase().replace(/[^a-z']/g, '');
     let hit = fromLesson.get(key);
+    if (!hit && NAMES.has(key)) hit = { vi: '(tên riêng)', source: 'name' };
     if (!hit) {
       for (const stem of stems(key)) {
-        if (fromLesson.has(stem)) { hit = { ...fromLesson.get(stem), stemmed: true }; break; }
-        if (BUILT_IN[stem]) { hit = { vi: BUILT_IN[stem], source: 'builtin', stemmed: stem !== key }; break; }
+        const negated = key.startsWith('un') && stem === key.slice(2);
+        const wrap = vi => (negated ? `không ${vi}` : vi);
+        if (fromLesson.has(stem)) { hit = { vi: wrap(fromLesson.get(stem).vi), source: 'glossary' }; break; }
+        if (BUILT_IN[stem]) { hit = { vi: wrap(BUILT_IN[stem]), source: 'builtin' }; break; }
+        if (DOMAIN[stem]) { hit = { vi: wrap(DOMAIN[stem]), source: 'domain' }; break; }
       }
     }
+    // Chữ hoa giữa câu mà vẫn không tra được thì gần như chắc là tên riêng.
+    if (!hit && /^[A-Z]/.test(word) && i > 0) hit = { vi: '(tên riêng)', source: 'name' };
     out.push({ word, vi: hit?.vi || '', source: hit?.source || '' });
   }
 
