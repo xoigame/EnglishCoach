@@ -1,0 +1,96 @@
+{
+  "id": "dieu-hanh-toa-dam",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Nhắc nhở giữ đúng thời lượng", "situation": "Người điều hành nhắc khách mời giữ đúng thời lượng.",
+      "turns": [
+        { "speaker": "a", "en": "That is fascinating, but let us keep us on time.", "vi": "Điều đó thú vị đấy, nhưng mình giữ đúng thời gian nhé." },
+        { "speaker": "b", "en": "Of course, I will wrap up quickly.", "vi": "Đương nhiên, tôi sẽ kết thúc nhanh thôi." },
+        { "speaker": "a", "en": "Please give us the key point.", "vi": "Mời bạn cho chúng tôi điểm chính." },
+        { "speaker": "b", "en": "In short, adaptability matters most.", "vi": "Tóm lại, khả năng thích nghi là quan trọng nhất." },
+        { "speaker": "a", "en": "Thank you for keeping it brief.", "vi": "Cảm ơn bạn đã nói ngắn gọn." },
+        { "speaker": "b", "en": "Happy to respect the time.", "vi": "Tôi vui lòng tôn trọng thời gian." }
+      ]},
+    { "title": "Mời khách mời khác tham gia", "situation": "Người điều hành mời một khách mời khác tham gia thảo luận.",
+      "turns": [
+        { "speaker": "a", "en": "Let me bring you in on this point.", "vi": "Để tôi mời bạn tham gia vào điểm này." },
+        { "speaker": "b", "en": "Thank you, I would like to add something.", "vi": "Cảm ơn, tôi muốn bổ sung điều gì đó." },
+        { "speaker": "a", "en": "Please, go ahead.", "vi": "Mời bạn cứ nói." },
+        { "speaker": "b", "en": "I see this differently from my colleague.", "vi": "Tôi thấy điều này khác với đồng nghiệp của mình." },
+        { "speaker": "a", "en": "That is a valuable contrast.", "vi": "Đó là sự tương phản có giá trị đấy." },
+        { "speaker": "b", "en": "Thank you for the opportunity to share.", "vi": "Cảm ơn đã cho tôi cơ hội chia sẻ." }
+      ]},
+    { "title": "Bắt lấy một điểm thú vị", "situation": "Người điều hành bắt lấy một điểm thú vị vừa được nêu ra.",
+      "turns": [
+        { "speaker": "a", "en": "I want to pick up on a point you just made.", "vi": "Tôi muốn bắt lấy một điểm bạn vừa nêu ra." },
+        { "speaker": "b", "en": "Sure, which part interests you?", "vi": "Được, phần nào khiến bạn quan tâm vậy?" },
+        { "speaker": "a", "en": "The idea about shifting incentives.", "vi": "Ý tưởng về việc thay đổi động lực." },
+        { "speaker": "b", "en": "That is a topic I find fascinating.", "vi": "Đó là chủ đề tôi thấy rất thú vị." },
+        { "speaker": "a", "en": "Can you elaborate briefly?", "vi": "Bạn giải thích ngắn gọn thêm được không?" },
+        { "speaker": "b", "en": "Certainly, let me expand on that.", "vi": "Chắc chắn rồi, để tôi mở rộng thêm về điều đó." }
+      ]},
+    { "title": "Tạm gác một câu hỏi lại", "situation": "Người điều hành tạm gác một câu hỏi để bàn sau.",
+      "turns": [
+        { "speaker": "a", "en": "That is a great question, let us park it for now.", "vi": "Đó là câu hỏi hay, mình tạm gác lại đã nhé." },
+        { "speaker": "b", "en": "Understood, we can return to it later.", "vi": "Tôi hiểu rồi, mình có thể quay lại sau." },
+        { "speaker": "a", "en": "Let us focus on the current topic first.", "vi": "Mình tập trung vào chủ đề hiện tại trước đã." },
+        { "speaker": "b", "en": "That makes sense given our time.", "vi": "Vậy hợp lý với thời gian mình có." },
+        { "speaker": "a", "en": "I will come back to your question shortly.", "vi": "Tôi sẽ quay lại câu hỏi của bạn sớm thôi." },
+        { "speaker": "b", "en": "Thank you for not forgetting it.", "vi": "Cảm ơn bạn đã không quên nó." }
+      ]},
+    { "title": "Yêu cầu trả lời ngắn gọn", "situation": "Người điều hành yêu cầu khách mời trả lời ngắn gọn hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Could you keep it brief on this one?", "vi": "Bạn nói ngắn gọn cho câu này được không?" },
+        { "speaker": "b", "en": "Of course, in one sentence: trust matters most.", "vi": "Đương nhiên, tóm gọn một câu: lòng tin là quan trọng nhất." },
+        { "speaker": "a", "en": "That is a concise takeaway.", "vi": "Đó là điểm rút ra súc tích đấy." },
+        { "speaker": "b", "en": "Glad that landed clearly.", "vi": "Vui vì nó truyền tải rõ ràng." },
+        { "speaker": "a", "en": "Let us move to the next question.", "vi": "Mình chuyển sang câu hỏi tiếp theo nhé." },
+        { "speaker": "b", "en": "I am ready for it.", "vi": "Tôi sẵn sàng rồi." }
+      ]},
+    { "title": "Mở diễn đàn cho khán giả", "situation": "Người điều hành mở diễn đàn cho khán giả đặt câu hỏi.",
+      "turns": [
+        { "speaker": "a", "en": "Let us open the floor for questions.", "vi": "Mình mở diễn đàn cho câu hỏi nhé." },
+        { "speaker": "b", "en": "I am happy to take a few.", "vi": "Tôi vui lòng trả lời vài câu." },
+        { "speaker": "a", "en": "We have one from the audience.", "vi": "Chúng ta có một câu từ khán giả." },
+        { "speaker": "b", "en": "Please go ahead with your question.", "vi": "Mời bạn cứ hỏi." },
+        { "speaker": "a", "en": "In the interest of time, let us take one more.", "vi": "Vì lý do thời gian, mình lấy thêm một câu nữa nhé." },
+        { "speaker": "b", "en": "I will answer as concisely as possible.", "vi": "Tôi sẽ trả lời súc tích nhất có thể." }
+      ]},
+    { "title": "Khách mời trả lời quá dài", "situation": "Khách mời trả lời quá dài, người điều hành khéo léo cắt ngang.",
+      "turns": [
+        { "speaker": "a", "en": "This is fascinating, but in the interest of time...", "vi": "Điều này thú vị đấy, nhưng vì lý do thời gian..." },
+        { "speaker": "b", "en": "Right, let me land the point quickly.", "vi": "Đúng vậy, để tôi chốt ý nhanh." },
+        { "speaker": "a", "en": "Please, go ahead.", "vi": "Mời bạn cứ nói." },
+        { "speaker": "b", "en": "The core idea is collaboration over competition.", "vi": "Ý tưởng cốt lõi là hợp tác thay vì cạnh tranh." },
+        { "speaker": "a", "en": "That is a clear conclusion.", "vi": "Đó là kết luận rõ ràng đấy." },
+        { "speaker": "b", "en": "Thank you for guiding me back.", "vi": "Cảm ơn bạn đã hướng tôi quay lại." }
+      ]},
+    { "title": "Cân bằng thời lượng giữa các khách mời", "situation": "Người điều hành cân bằng thời lượng phát biểu giữa hai khách mời.",
+      "turns": [
+        { "speaker": "a", "en": "I want to strike a balance between both views.", "vi": "Tôi muốn cân bằng giữa cả hai quan điểm." },
+        { "speaker": "b", "en": "That is fair, I have spoken quite a bit.", "vi": "Vậy công bằng đấy, tôi đã nói khá nhiều rồi." },
+        { "speaker": "a", "en": "Let us hear from our other guest now.", "vi": "Giờ mình nghe khách mời còn lại nhé." },
+        { "speaker": "b", "en": "Please, I would like to hear their view too.", "vi": "Mời, tôi cũng muốn nghe quan điểm của họ." },
+        { "speaker": "a", "en": "Thank you for making space.", "vi": "Cảm ơn bạn đã nhường chỗ." },
+        { "speaker": "b", "en": "Balance makes for a better discussion.", "vi": "Sự cân bằng làm cho cuộc thảo luận tốt hơn." }
+      ]},
+    { "title": "Kết thúc tọa đàm với điểm rút ra", "situation": "Người điều hành kết thúc tọa đàm với điểm rút ra súc tích.",
+      "turns": [
+        { "speaker": "a", "en": "Let us close with a concise takeaway from each of you.", "vi": "Mình kết thúc với một điểm rút ra súc tích từ mỗi người nhé." },
+        { "speaker": "b", "en": "Stay curious and question your assumptions.", "vi": "Luôn tò mò và đặt câu hỏi về các giả định của mình." },
+        { "speaker": "a", "en": "That is a strong note to end on.", "vi": "Đó là điểm kết thúc mạnh mẽ đấy." },
+        { "speaker": "b", "en": "Thank you for having me today.", "vi": "Cảm ơn đã mời tôi hôm nay." },
+        { "speaker": "a", "en": "Thank you all for a lively discussion.", "vi": "Cảm ơn mọi người vì cuộc thảo luận sôi nổi." },
+        { "speaker": "b", "en": "It was a pleasure being here.", "vi": "Thật là niềm vui khi được ở đây." }
+      ]},
+    { "title": "Điều hành tọa đàm phức tạp với khách mời hay nói dài và tranh luận gay gắt cùng lúc", "situation": "Người điều hành phải quản lý một khách mời hay nói dài trong khi hai khách mời khác tranh luận gay gắt cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need to bring us back on track, we have gone in three directions at once.", "vi": "Tôi cần đưa chúng ta trở lại đúng hướng, mình đã đi theo ba hướng cùng lúc rồi." },
+        { "speaker": "b", "en": "Sorry, this topic really excites me.", "vi": "Xin lỗi, chủ đề này thực sự khiến tôi hào hứng." },
+        { "speaker": "a", "en": "Understood, but let us park the tangent and pick up on the main disagreement.", "vi": "Tôi hiểu, nhưng mình tạm gác nhánh phụ và bắt lấy bất đồng chính nhé." },
+        { "speaker": "b", "en": "Fair enough, I will keep it brief from here.", "vi": "Cũng hợp lý, từ giờ tôi sẽ nói ngắn gọn." },
+        { "speaker": "a", "en": "In the interest of time, let each of you land one final point.", "vi": "Vì lý do thời gian, mời mỗi người chốt một điểm cuối cùng." },
+        { "speaker": "b", "en": "That seems like the fairest way to strike a balance here.", "vi": "Vậy có vẻ là cách công bằng nhất để cân bằng ở đây." }
+      ]}
+  ]
+}

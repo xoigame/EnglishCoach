@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-tuyen-dung-cap-cao",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Hỏi về nhiệm vụ chiến lược trước đây", "situation": "Người phỏng vấn hỏi về nhiệm vụ chiến lược ứng viên từng đảm nhận.",
+      "turns": [
+        { "speaker": "a", "en": "Describe your last strategic mandate.", "vi": "Mô tả nhiệm vụ chiến lược gần đây nhất của bạn." },
+        { "speaker": "b", "en": "I was tasked with expanding into two new markets.", "vi": "Tôi được giao nhiệm vụ mở rộng sang hai thị trường mới." },
+        { "speaker": "a", "en": "What was the biggest challenge?", "vi": "Thử thách lớn nhất là gì?" },
+        { "speaker": "b", "en": "Aligning local teams with global strategy.", "vi": "Thống nhất các nhóm địa phương với chiến lược toàn cầu." },
+        { "speaker": "a", "en": "How did that turn out?", "vi": "Kết quả thế nào?" },
+        { "speaker": "b", "en": "We exceeded our revenue target by fifteen percent.", "vi": "Chúng tôi vượt mục tiêu doanh thu mười lăm phần trăm." }
+      ]},
+    { "title": "Hỏi về kinh nghiệm khắc phục tình hình", "situation": "Người phỏng vấn hỏi về kinh nghiệm khắc phục tình hình kinh doanh.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about a turnaround you led.", "vi": "Kể tôi nghe về một lần bạn khắc phục tình hình kinh doanh." },
+        { "speaker": "b", "en": "A division was losing money for three years.", "vi": "Một bộ phận đã thua lỗ trong ba năm." },
+        { "speaker": "a", "en": "What was your first move?", "vi": "Bước đi đầu tiên của bạn là gì?" },
+        { "speaker": "b", "en": "Restructuring the cost base immediately.", "vi": "Tái cấu trúc cơ cấu chi phí ngay lập tức." },
+        { "speaker": "a", "en": "How long did recovery take?", "vi": "Phục hồi mất bao lâu?" },
+        { "speaker": "b", "en": "Profitability returned within eighteen months.", "vi": "Lợi nhuận đã trở lại trong mười tám tháng." }
+      ]},
+    { "title": "Hỏi về trách nhiệm lãi lỗ", "situation": "Người phỏng vấn hỏi về kinh nghiệm chịu trách nhiệm lãi lỗ.",
+      "turns": [
+        { "speaker": "a", "en": "What was the size of your profit and loss responsibility?", "vi": "Quy mô trách nhiệm lãi lỗ của bạn là bao nhiêu?" },
+        { "speaker": "b", "en": "Around fifty million dollars annually.", "vi": "Khoảng năm mươi triệu đô la mỗi năm." },
+        { "speaker": "a", "en": "How did you manage that accountability?", "vi": "Bạn quản lý trách nhiệm đó thế nào?" },
+        { "speaker": "b", "en": "Through monthly reviews with department heads.", "vi": "Thông qua các buổi đánh giá hàng tháng với trưởng bộ phận." },
+        { "speaker": "a", "en": "That is a rigorous process.", "vi": "Đó là quy trình chặt chẽ đấy." },
+        { "speaker": "b", "en": "It kept everyone aligned on targets.", "vi": "Nó giữ mọi người thống nhất về mục tiêu." }
+      ]},
+    { "title": "Hỏi về đồng thuận các bên liên quan cấp cao", "situation": "Người phỏng vấn hỏi về việc đạt đồng thuận với các bên liên quan cấp cao.",
+      "turns": [
+        { "speaker": "a", "en": "How do you achieve stakeholder alignment at the executive level?", "vi": "Bạn đạt được đồng thuận với các bên liên quan ở cấp điều hành thế nào?" },
+        { "speaker": "b", "en": "By presenting data-driven recommendations early.", "vi": "Bằng cách trình bày khuyến nghị dựa trên dữ liệu sớm." },
+        { "speaker": "a", "en": "What if executives disagree with your approach?", "vi": "Nếu các giám đốc điều hành không đồng ý với cách tiếp cận của bạn thì sao?" },
+        { "speaker": "b", "en": "I seek to understand their underlying priorities.", "vi": "Tôi tìm hiểu ưu tiên nền tảng của họ." },
+        { "speaker": "a", "en": "That is a diplomatic approach.", "vi": "Đó là cách tiếp cận khéo léo đấy." },
+        { "speaker": "b", "en": "It usually leads to a workable trade-off.", "vi": "Nó thường dẫn đến một sự đánh đổi khả thi." }
+      ]},
+    { "title": "Hỏi về nhịp độ vận hành", "situation": "Người phỏng vấn hỏi về cách thiết lập nhịp độ vận hành cho tổ chức.",
+      "turns": [
+        { "speaker": "a", "en": "How do you establish an operating cadence?", "vi": "Bạn thiết lập nhịp độ vận hành thế nào?" },
+        { "speaker": "b", "en": "Weekly reviews and monthly strategic checkpoints.", "vi": "Đánh giá hàng tuần và các mốc kiểm tra chiến lược hàng tháng." },
+        { "speaker": "a", "en": "How do you keep teams engaged in that cadence?", "vi": "Bạn giữ các nhóm tham gia vào nhịp độ đó thế nào?" },
+        { "speaker": "b", "en": "By making meetings action-oriented, not status-only.", "vi": "Bằng cách làm cuộc họp hướng đến hành động, không chỉ báo cáo tình hình." },
+        { "speaker": "a", "en": "That is an effective structure.", "vi": "Đó là cấu trúc hiệu quả đấy." },
+        { "speaker": "b", "en": "It has worked well across different teams.", "vi": "Nó đã hoạt động tốt trên nhiều nhóm khác nhau." }
+      ]},
+    { "title": "Hỏi về kế hoạch kế nhiệm", "situation": "Người phỏng vấn hỏi về việc xây dựng kế hoạch kế nhiệm.",
+      "turns": [
+        { "speaker": "a", "en": "How do you approach succession planning?", "vi": "Bạn tiếp cận kế hoạch kế nhiệm thế nào?" },
+        { "speaker": "b", "en": "By identifying high-potential leaders early.", "vi": "Bằng cách xác định sớm các lãnh đạo tiềm năng." },
+        { "speaker": "a", "en": "How do you develop them?", "vi": "Bạn phát triển họ thế nào?" },
+        { "speaker": "b", "en": "Through stretch assignments and mentoring.", "vi": "Thông qua các nhiệm vụ thử thách và kèm cặp." },
+        { "speaker": "a", "en": "That is a proactive strategy.", "vi": "Đó là chiến lược chủ động đấy." },
+        { "speaker": "b", "en": "It ensures continuity during transitions.", "vi": "Nó đảm bảo tính liên tục trong quá trình chuyển giao." }
+      ]},
+    { "title": "Hỏi về đánh đổi trong quyết định lớn", "situation": "Người phỏng vấn hỏi về một sự đánh đổi lớn trong sự nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Describe a significant trade-off you had to make.", "vi": "Mô tả một sự đánh đổi lớn bạn từng phải thực hiện." },
+        { "speaker": "b", "en": "I sacrificed short-term profit for market share.", "vi": "Tôi hy sinh lợi nhuận ngắn hạn để lấy thị phần." },
+        { "speaker": "a", "en": "How did the board respond to that decision?", "vi": "Hội đồng quản trị đã phản hồi thế nào với quyết định đó?" },
+        { "speaker": "b", "en": "They were skeptical initially, but the data convinced them.", "vi": "Ban đầu họ hoài nghi, nhưng dữ liệu đã thuyết phục họ." },
+        { "speaker": "a", "en": "Did the strategy pay off eventually?", "vi": "Cuối cùng chiến lược đó có hiệu quả không?" },
+        { "speaker": "b", "en": "Yes, we doubled market share within two years.", "vi": "Có, chúng tôi tăng gấp đôi thị phần trong hai năm." }
+      ]},
+    { "title": "Hỏi về sự sẵn sàng trước hội đồng quản trị", "situation": "Người phỏng vấn hỏi về kinh nghiệm trình bày trước hội đồng quản trị.",
+      "turns": [
+        { "speaker": "a", "en": "How comfortable are you presenting board-ready materials?", "vi": "Bạn thoải mái đến đâu khi trình bày tài liệu sẵn sàng cho hội đồng quản trị?" },
+        { "speaker": "b", "en": "Very comfortable, I present quarterly.", "vi": "Rất thoải mái, tôi trình bày hàng quý." },
+        { "speaker": "a", "en": "What do board members typically scrutinize?", "vi": "Thành viên hội đồng quản trị thường xem xét kỹ điều gì?" },
+        { "speaker": "b", "en": "Risk exposure and long term strategy.", "vi": "Mức độ rủi ro và chiến lược dài hạn." },
+        { "speaker": "a", "en": "How do you prepare for tough questions?", "vi": "Bạn chuẩn bị cho các câu hỏi khó thế nào?" },
+        { "speaker": "b", "en": "I anticipate concerns and prepare data in advance.", "vi": "Tôi dự đoán mối lo ngại và chuẩn bị dữ liệu trước." }
+      ]},
+    { "title": "Hỏi về sự phù hợp văn hóa doanh nghiệp", "situation": "Người phỏng vấn hỏi về sự phù hợp văn hóa của ứng viên.",
+      "turns": [
+        { "speaker": "a", "en": "How do you assess cultural fit for yourself?", "vi": "Bạn tự đánh giá sự phù hợp văn hóa thế nào?" },
+        { "speaker": "b", "en": "I value transparency and direct communication.", "vi": "Tôi coi trọng sự minh bạch và giao tiếp trực tiếp." },
+        { "speaker": "a", "en": "How does that align with our leadership style?", "vi": "Điều đó phù hợp thế nào với phong cách lãnh đạo của chúng tôi?" },
+        { "speaker": "b", "en": "From what I have researched, it aligns closely.", "vi": "Theo những gì tôi tìm hiểu, nó khá phù hợp." },
+        { "speaker": "a", "en": "That is encouraging to hear.", "vi": "Nghe vậy tôi thấy khích lệ." },
+        { "speaker": "b", "en": "I look forward to contributing to that culture.", "vi": "Tôi mong được đóng góp vào văn hóa đó." }
+      ]},
+    { "title": "Phỏng vấn cấp cao với chuỗi câu hỏi phức tạp về khắc phục tình hình và thẩm định chiến lược", "situation": "Người phỏng vấn đặt liên tiếp các câu hỏi phức tạp về khắc phục tình hình, trách nhiệm lãi lỗ, và thẩm định chiến lược dài hạn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through the turnaround with full profit and loss responsibility.", "vi": "Trình bày cho tôi quá trình khắc phục với đầy đủ trách nhiệm lãi lỗ." },
+        { "speaker": "b", "en": "I inherited a division losing eight million annually with disengaged leadership.", "vi": "Tôi tiếp quản một bộ phận thua lỗ tám triệu hàng năm với đội ngũ lãnh đạo thiếu gắn kết." },
+        { "speaker": "a", "en": "How did you secure stakeholder alignment for such drastic changes?", "vi": "Bạn đã đạt được sự đồng thuận của các bên liên quan cho những thay đổi lớn như vậy thế nào?" },
+        { "speaker": "b", "en": "I presented board-ready data showing the trade-off between short-term pain and long-term viability.", "vi": "Tôi trình bày dữ liệu sẵn sàng cho hội đồng quản trị cho thấy sự đánh đổi giữa khó khăn ngắn hạn và khả năng tồn tại dài hạn." },
+        { "speaker": "a", "en": "And how did you handle succession planning during that transition?", "vi": "Bạn đã xử lý kế hoạch kế nhiệm trong quá trình chuyển giao đó thế nào?" },
+        { "speaker": "b", "en": "I identified two internal leaders and mentored them into expanded roles.", "vi": "Tôi xác định hai lãnh đạo nội bộ và kèm cặp họ vào các vai trò mở rộng." }
+      ]}
+  ]
+}

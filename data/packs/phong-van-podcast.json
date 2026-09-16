@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-podcast",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Giới thiệu chuyên môn của khách mời", "situation": "Người dẫn podcast giới thiệu chuyên môn của khách mời.",
+      "turns": [
+        { "speaker": "a", "en": "Tell us about your domain expertise.", "vi": "Kể cho khán giả nghe về chuyên môn của bạn." },
+        { "speaker": "b", "en": "I focus on responsible innovation in AI.", "vi": "Tôi tập trung vào đổi mới sáng tạo có trách nhiệm trong AI." },
+        { "speaker": "a", "en": "What drew you to that field?", "vi": "Điều gì khiến bạn theo đuổi lĩnh vực đó?" },
+        { "speaker": "b", "en": "Seeing technology outpace ethical guardrails.", "vi": "Chứng kiến công nghệ vượt qua các rào chắn đạo đức." },
+        { "speaker": "a", "en": "That is a compelling motivation.", "vi": "Đó là động lực thuyết phục đấy." },
+        { "speaker": "b", "en": "I hope to bridge that gap.", "vi": "Tôi hy vọng thu hẹp khoảng cách đó." }
+      ]},
+    { "title": "Không chấp nhận câu trả lời bề mặt", "situation": "Người dẫn podcast không chấp nhận câu trả lời ở mức bề mặt.",
+      "turns": [
+        { "speaker": "a", "en": "I do not want to take that at face value.", "vi": "Tôi không muốn chấp nhận điều đó ở mức bề mặt." },
+        { "speaker": "b", "en": "Fair enough, let me elaborate.", "vi": "Cũng hợp lý, để tôi giải thích thêm." },
+        { "speaker": "a", "en": "What is the nuance most people miss?", "vi": "Sự tinh tế nào mà hầu hết mọi người bỏ lỡ?" },
+        { "speaker": "b", "en": "Responsible AI is not just about avoiding harm.", "vi": "AI có trách nhiệm không chỉ là tránh gây hại." },
+        { "speaker": "a", "en": "What else does it involve?", "vi": "Nó còn bao gồm điều gì khác?" },
+        { "speaker": "b", "en": "Actively designing for fairness from the start.", "vi": "Chủ động thiết kế sự công bằng ngay từ đầu." }
+      ]},
+    { "title": "Phản biện quan điểm của khách mời", "situation": "Người dẫn podcast phản biện quan điểm của khách mời.",
+      "turns": [
+        { "speaker": "a", "en": "I want to push back on that a bit.", "vi": "Tôi muốn phản biện điều đó một chút." },
+        { "speaker": "b", "en": "Please, I welcome the challenge.", "vi": "Mời bạn, tôi hoan nghênh sự thách thức đó." },
+        { "speaker": "a", "en": "Is that not too idealistic for real companies?", "vi": "Vậy có lý tưởng hóa quá với các công ty thực tế không?" },
+        { "speaker": "b", "en": "It is challenging, but not unrealistic.", "vi": "Nó khó khăn, nhưng không phi thực tế." },
+        { "speaker": "a", "en": "Can you give a real example?", "vi": "Bạn cho ví dụ thực tế được không?" },
+        { "speaker": "b", "en": "Several companies already audit their models regularly.", "vi": "Vài công ty đã kiểm toán mô hình của họ thường xuyên rồi." }
+      ]},
+    { "title": "Đề cập đến hậu quả không lường trước", "situation": "Khách mời đề cập đến hậu quả không lường trước của công nghệ.",
+      "turns": [
+        { "speaker": "a", "en": "What worries you most about this technology?", "vi": "Điều gì khiến bạn lo ngại nhất về công nghệ này?" },
+        { "speaker": "b", "en": "Unintended consequences from rapid deployment.", "vi": "Hậu quả không lường trước từ việc triển khai nhanh chóng." },
+        { "speaker": "a", "en": "Can you give a specific example?", "vi": "Bạn cho ví dụ cụ thể được không?" },
+        { "speaker": "b", "en": "Bias amplification in hiring algorithms.", "vi": "Sự khuếch đại thiên vị trong thuật toán tuyển dụng." },
+        { "speaker": "a", "en": "How can that be safeguarded against?", "vi": "Làm sao có thể bảo vệ chống lại điều đó?" },
+        { "speaker": "b", "en": "Regular audits and diverse testing data.", "vi": "Kiểm toán thường xuyên và dữ liệu kiểm thử đa dạng." }
+      ]},
+    { "title": "Thẳng thắn về giới hạn của bản thân", "situation": "Khách mời thẳng thắn thừa nhận giới hạn hiểu biết của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have all the answers on this topic?", "vi": "Bạn có tất cả câu trả lời về chủ đề này không?" },
+        { "speaker": "b", "en": "To be candid, no one fully does yet.", "vi": "Thẳng thắn mà nói, chưa ai có đầy đủ câu trả lời cả." },
+        { "speaker": "a", "en": "That is a refreshing admission.", "vi": "Đó là sự thừa nhận thẳng thắn đấy." },
+        { "speaker": "b", "en": "The field is evolving too fast for certainty.", "vi": "Lĩnh vực này đang phát triển quá nhanh để có sự chắc chắn." },
+        { "speaker": "a", "en": "What do you feel most confident about?", "vi": "Điều gì bạn cảm thấy tự tin nhất?" },
+        { "speaker": "b", "en": "The need for ongoing oversight.", "vi": "Nhu cầu giám sát liên tục." }
+      ]},
+    { "title": "Yêu cầu ví dụ cụ thể để làm rõ", "situation": "Người dẫn podcast yêu cầu ví dụ cụ thể để làm rõ quan điểm.",
+      "turns": [
+        { "speaker": "a", "en": "Can you make a compelling case with an example?", "vi": "Bạn đưa ra lập luận thuyết phục kèm ví dụ được không?" },
+        { "speaker": "b", "en": "Sure, consider medical diagnosis tools.", "vi": "Được, hãy xem xét các công cụ chẩn đoán y tế." },
+        { "speaker": "a", "en": "How does responsibility apply there?", "vi": "Trách nhiệm áp dụng thế nào ở đó?" },
+        { "speaker": "b", "en": "Errors could directly harm patients.", "vi": "Sai sót có thể gây hại trực tiếp cho bệnh nhân." },
+        { "speaker": "a", "en": "That makes the stakes very clear.", "vi": "Điều đó làm rõ mức độ rủi ro." },
+        { "speaker": "b", "en": "Exactly why oversight matters so much.", "vi": "Chính xác là lý do vì sao giám sát quan trọng đến vậy." }
+      ]},
+    { "title": "Khách mời tự phản biện quan điểm của chính mình", "situation": "Khách mời tự phản biện lại quan điểm của chính mình để cân bằng.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a counterargument to your position?", "vi": "Có lập luận phản đối quan điểm của bạn không?" },
+        { "speaker": "b", "en": "Yes, over-regulation could slow beneficial innovation.", "vi": "Có, việc điều tiết quá mức có thể làm chậm đổi mới có ích." },
+        { "speaker": "a", "en": "How do you balance that trade-off?", "vi": "Bạn cân bằng sự đánh đổi đó thế nào?" },
+        { "speaker": "b", "en": "Targeted regulation rather than blanket rules.", "vi": "Điều tiết có mục tiêu thay vì quy tắc chung chung." },
+        { "speaker": "a", "en": "That is a nuanced position.", "vi": "Đó là quan điểm tinh tế đấy." },
+        { "speaker": "b", "en": "This topic rarely has simple answers.", "vi": "Chủ đề này hiếm khi có câu trả lời đơn giản." }
+      ]},
+    { "title": "Kết thúc phỏng vấn với thông điệp chính", "situation": "Người dẫn podcast kết thúc phỏng vấn với thông điệp chính.",
+      "turns": [
+        { "speaker": "a", "en": "What is the one message you want listeners to take away?", "vi": "Thông điệp chính bạn muốn khán giả rút ra là gì?" },
+        { "speaker": "b", "en": "Innovation and responsibility are not opposites.", "vi": "Đổi mới và trách nhiệm không phải là hai thái cực đối lập." },
+        { "speaker": "a", "en": "That is a powerful closing thought.", "vi": "Đó là suy nghĩ kết thúc mạnh mẽ đấy." },
+        { "speaker": "b", "en": "Thank you for having me on the show.", "vi": "Cảm ơn bạn đã mời tôi lên chương trình." },
+        { "speaker": "a", "en": "It was a pleasure, truly insightful.", "vi": "Thật là niềm vui, thực sự sâu sắc." },
+        { "speaker": "b", "en": "I appreciate the thoughtful questions.", "vi": "Tôi cảm kích những câu hỏi chu đáo." }
+      ]},
+    { "title": "Người dẫn thách thức giả định của khách mời", "situation": "Người dẫn podcast thách thức một giả định cơ bản của khách mời.",
+      "turns": [
+        { "speaker": "a", "en": "Are we assuming companies will act ethically without pressure?", "vi": "Chúng ta có đang giả định các công ty sẽ hành động có đạo đức mà không cần áp lực không?" },
+        { "speaker": "b", "en": "That is a fair challenge to my earlier point.", "vi": "Đó là thách thức hợp lý cho điểm tôi vừa nói." },
+        { "speaker": "a", "en": "So what actually drives ethical behavior then?", "vi": "Vậy điều gì thực sự thúc đẩy hành vi đạo đức vậy?" },
+        { "speaker": "b", "en": "A mix of regulation, public pressure, and internal culture.", "vi": "Sự kết hợp giữa điều tiết, áp lực công chúng, và văn hóa nội bộ." },
+        { "speaker": "a", "en": "That is a more complete picture.", "vi": "Đó là bức tranh đầy đủ hơn đấy." },
+        { "speaker": "b", "en": "No single factor is sufficient alone.", "vi": "Không có yếu tố đơn lẻ nào là đủ cả." }
+      ]},
+    { "title": "Phỏng vấn sâu với nhiều lớp phản biện về đạo đức và đổi mới công nghệ", "situation": "Người dẫn podcast phản biện nhiều lớp liên tiếp về mối quan hệ giữa đạo đức và đổi mới công nghệ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You say responsible innovation is possible, but is that not just a compelling case companies use for PR?", "vi": "Bạn nói đổi mới có trách nhiệm là khả thi, nhưng đó có phải chỉ là lập luận thuyết phục các công ty dùng để PR không?" },
+        { "speaker": "b", "en": "To be candid, that risk is real, but not universal.", "vi": "Thẳng thắn mà nói, rủi ro đó có thật, nhưng không phải phổ biến." },
+        { "speaker": "a", "en": "How do you tell genuine effort from performative gestures?", "vi": "Bạn phân biệt nỗ lực thực sự với những cử chỉ hình thức thế nào?" },
+        { "speaker": "b", "en": "Look for independent audits and willingness to publish failures.", "vi": "Hãy tìm kiểm toán độc lập và sự sẵn lòng công bố thất bại." },
+        { "speaker": "a", "en": "And the unintended consequences of over-trusting those audits?", "vi": "Còn hậu quả không lường trước của việc quá tin tưởng vào những kiểm toán đó thì sao?" },
+        { "speaker": "b", "en": "That is exactly the nuance we need ongoing, independent oversight to safeguard against.", "vi": "Đó chính là sự tinh tế mà chúng ta cần giám sát độc lập liên tục để bảo vệ chống lại." }
+      ]}
+  ]
+}

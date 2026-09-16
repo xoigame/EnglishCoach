@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-dao-duc-cong-nghe",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu về quyền riêng tư", "situation": "Người dân quan tâm đến quyền riêng tư mở đầu cuộc trò chuyện.",
+      "turns": [
+        { "speaker": "a", "en": "I am concerned about privacy in these new systems.", "vi": "Tôi lo ngại về quyền riêng tư trong các hệ thống mới này." },
+        { "speaker": "b", "en": "That is a valid and common concern.", "vi": "Đó là mối lo ngại hợp lý và phổ biến." },
+        { "speaker": "a", "en": "How is my data actually being used?", "vi": "Dữ liệu của tôi thực sự được sử dụng thế nào?" },
+        { "speaker": "b", "en": "It depends on the consent you provided.", "vi": "Còn tùy vào sự đồng ý bạn đã cung cấp." },
+        { "speaker": "a", "en": "I do not recall giving detailed consent.", "vi": "Tôi không nhớ đã đồng ý chi tiết như vậy." },
+        { "speaker": "b", "en": "That is a common gap worth discussing.", "vi": "Đó là khoảng trống phổ biến đáng để bàn." }
+      ]},
+    { "title": "Bàn về sự đồng ý có hiểu biết", "situation": "Chuyên gia chính sách giải thích khái niệm sự đồng ý có hiểu biết.",
+      "turns": [
+        { "speaker": "a", "en": "What does informed consent really mean here?", "vi": "Sự đồng ý có hiểu biết thực sự nghĩa là gì ở đây?" },
+        { "speaker": "b", "en": "Users should understand exactly what they agree to.", "vi": "Người dùng nên hiểu rõ chính xác điều mình đồng ý." },
+        { "speaker": "a", "en": "Most people just click accept without reading.", "vi": "Hầu hết mọi người chỉ nhấn đồng ý mà không đọc." },
+        { "speaker": "b", "en": "That undermines the whole concept, honestly.", "vi": "Thật lòng, điều đó làm suy yếu toàn bộ khái niệm." },
+        { "speaker": "a", "en": "So how can that be fixed?", "vi": "Vậy làm sao khắc phục được điều đó?" },
+        { "speaker": "b", "en": "Simpler, layered consent explanations could help.", "vi": "Giải thích đồng ý theo từng lớp đơn giản hơn có thể giúp ích." }
+      ]},
+    { "title": "Bàn về việc lưu trữ dữ liệu", "situation": "Hai người bàn về thời gian lưu trữ dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "How long is my data retained after I stop using the service?", "vi": "Dữ liệu của tôi được lưu trữ bao lâu sau khi tôi ngừng dùng dịch vụ?" },
+        { "speaker": "b", "en": "Data retention policies vary by company.", "vi": "Chính sách lưu trữ dữ liệu khác nhau tùy công ty." },
+        { "speaker": "a", "en": "Should there be a universal standard?", "vi": "Có nên có tiêu chuẩn chung không?" },
+        { "speaker": "b", "en": "That would improve transparency significantly.", "vi": "Điều đó sẽ cải thiện tính minh bạch đáng kể." },
+        { "speaker": "a", "en": "I would support such a regulation.", "vi": "Tôi sẽ ủng hộ một quy định như vậy." },
+        { "speaker": "b", "en": "Public pressure often drives that kind of change.", "vi": "Áp lực công chúng thường thúc đẩy loại thay đổi đó." }
+      ]},
+    { "title": "Lo ngại về giám sát", "situation": "Người dân bày tỏ lo ngại về việc bị giám sát.",
+      "turns": [
+        { "speaker": "a", "en": "This feels like constant surveillance to me.", "vi": "Việc này khiến tôi cảm thấy như bị giám sát liên tục." },
+        { "speaker": "b", "en": "That perception is understandable given the scale.", "vi": "Nhận thức đó dễ hiểu với quy mô như vậy." },
+        { "speaker": "a", "en": "Is any of it proportional to the benefit?", "vi": "Có phần nào tương xứng với lợi ích không?" },
+        { "speaker": "b", "en": "In some cases, yes, in others, questionable.", "vi": "Trong một số trường hợp thì có, trong số khác thì đáng ngờ." },
+        { "speaker": "a", "en": "Who decides what counts as proportional?", "vi": "Ai quyết định điều gì được coi là tương xứng?" },
+        { "speaker": "b", "en": "Independent oversight bodies should, ideally.", "vi": "Lý tưởng nhất là các cơ quan giám sát độc lập." }
+      ]},
+    { "title": "Bàn về việc từ chối tham gia", "situation": "Người dân hỏi về khả năng từ chối tham gia thu thập dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "Can I opt out of this data collection entirely?", "vi": "Tôi có thể hoàn toàn từ chối tham gia thu thập dữ liệu không?" },
+        { "speaker": "b", "en": "In theory, yes, though it is often buried in settings.", "vi": "Về lý thuyết thì có, dù thường bị ẩn trong cài đặt." },
+        { "speaker": "a", "en": "That makes it practically inaccessible.", "vi": "Điều đó khiến nó gần như không thể tiếp cận thực tế." },
+        { "speaker": "b", "en": "That is a fair criticism of current design.", "vi": "Đó là lời phê bình hợp lý về thiết kế hiện tại." },
+        { "speaker": "a", "en": "Opt-out should be simple and visible.", "vi": "Từ chối tham gia nên đơn giản và dễ thấy." },
+        { "speaker": "b", "en": "Regulators are pushing for exactly that.", "vi": "Các cơ quan quản lý đang thúc đẩy chính xác điều đó." }
+      ]},
+    { "title": "Bàn về trách nhiệm giải trình của công ty", "situation": "Hai người bàn về việc buộc công ty chịu trách nhiệm giải trình.",
+      "turns": [
+        { "speaker": "a", "en": "Companies should be held accountable for misuse.", "vi": "Các công ty nên bị buộc chịu trách nhiệm giải trình khi lạm dụng." },
+        { "speaker": "b", "en": "Agreed, but accountability mechanisms are often weak.", "vi": "Đồng ý, nhưng cơ chế trách nhiệm giải trình thường yếu." },
+        { "speaker": "a", "en": "What would strengthen them?", "vi": "Điều gì sẽ củng cố chúng?" },
+        { "speaker": "b", "en": "Meaningful fines and mandatory audits.", "vi": "Các khoản phạt có ý nghĩa và kiểm toán bắt buộc." },
+        { "speaker": "a", "en": "That would create real deterrence.", "vi": "Điều đó sẽ tạo ra sự răn đe thực sự." },
+        { "speaker": "b", "en": "Exactly, incentives need to change.", "vi": "Chính xác, động lực cần thay đổi." }
+      ]},
+    { "title": "Bàn về hậu quả không lường trước", "situation": "Hai người bàn về hậu quả không lường trước của công nghệ giám sát.",
+      "turns": [
+        { "speaker": "a", "en": "Even well-intentioned systems have unintended consequences.", "vi": "Ngay cả hệ thống có ý tốt cũng có hậu quả không lường trước." },
+        { "speaker": "b", "en": "Can you give an example?", "vi": "Bạn cho ví dụ được không?" },
+        { "speaker": "a", "en": "Fraud detection tools sometimes flag innocent people.", "vi": "Công cụ phát hiện gian lận đôi khi đánh dấu nhầm người vô tội." },
+        { "speaker": "b", "en": "That has real consequences for those individuals.", "vi": "Điều đó có hậu quả thực sự cho những cá nhân đó." },
+        { "speaker": "a", "en": "There should be a clear appeals process.", "vi": "Nên có quy trình khiếu nại rõ ràng." },
+        { "speaker": "b", "en": "That safeguard seems entirely reasonable.", "vi": "Biện pháp bảo vệ đó có vẻ hoàn toàn hợp lý đấy." }
+      ]},
+    { "title": "Đề xuất cơ chế giám sát độc lập", "situation": "Chuyên gia đề xuất cơ chế giám sát độc lập cho công nghệ.",
+      "turns": [
+        { "speaker": "a", "en": "We need independent oversight of these systems.", "vi": "Chúng ta cần giám sát độc lập cho các hệ thống này." },
+        { "speaker": "b", "en": "Who should lead that oversight?", "vi": "Ai nên dẫn dắt việc giám sát đó?" },
+        { "speaker": "a", "en": "A body separate from both government and industry.", "vi": "Một cơ quan tách biệt khỏi cả chính phủ lẫn ngành công nghiệp." },
+        { "speaker": "b", "en": "That would help avoid conflicts of interest.", "vi": "Điều đó sẽ giúp tránh xung đột lợi ích." },
+        { "speaker": "a", "en": "Exactly, credibility depends on independence.", "vi": "Chính xác, độ tin cậy phụ thuộc vào sự độc lập." },
+        { "speaker": "b", "en": "I would support establishing such a body.", "vi": "Tôi sẽ ủng hộ việc thành lập cơ quan như vậy." }
+      ]},
+    { "title": "Kết luận với sự đồng thuận thận trọng", "situation": "Hai người kết luận cuộc trò chuyện với sự đồng thuận thận trọng.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree oversight matters most.", "vi": "Vậy chúng ta đồng ý giám sát là quan trọng nhất." },
+        { "speaker": "b", "en": "Yes, alongside genuine informed consent.", "vi": "Vâng, cùng với sự đồng ý có hiểu biết thực sự." },
+        { "speaker": "a", "en": "This conversation gave me more clarity.", "vi": "Cuộc trò chuyện này giúp tôi rõ ràng hơn." },
+        { "speaker": "b", "en": "I am glad it addressed your concerns.", "vi": "Tôi vui vì nó giải quyết được mối lo ngại của bạn." },
+        { "speaker": "a", "en": "I will stay engaged with this issue.", "vi": "Tôi sẽ tiếp tục quan tâm đến vấn đề này." },
+        { "speaker": "b", "en": "Public engagement drives meaningful change.", "vi": "Sự tham gia của công chúng thúc đẩy thay đổi có ý nghĩa." }
+      ]},
+    { "title": "Tranh luận sâu về đạo đức công nghệ với nhiều lớp mối lo ngại chồng chéo về quyền riêng tư và giám sát", "situation": "Hai người tranh luận sâu sắc với nhiều lớp mối lo ngại chồng chéo về quyền riêng tư, sự đồng ý, và giám sát công nghệ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Even if I gave informed consent, the data retention period feels indefinite and disproportionate.", "vi": "Ngay cả khi tôi đã đồng ý có hiểu biết, thời gian lưu trữ dữ liệu có vẻ vô thời hạn và không tương xứng." },
+        { "speaker": "b", "en": "That is a legitimate concern, consent should not justify unlimited retention.", "vi": "Đó là mối lo ngại chính đáng, sự đồng ý không nên biện minh cho việc lưu trữ vô hạn." },
+        { "speaker": "a", "en": "And if I try to opt out now, can that past data really be deleted?", "vi": "Và nếu giờ tôi cố từ chối tham gia, dữ liệu quá khứ đó có thực sự bị xóa không?" },
+        { "speaker": "b", "en": "Technically yes, but enforcement without independent oversight is inconsistent.", "vi": "Về mặt kỹ thuật thì có, nhưng thực thi mà không có giám sát độc lập thì thiếu nhất quán." },
+        { "speaker": "a", "en": "So who holds companies accountable for unintended consequences down the line?", "vi": "Vậy ai buộc các công ty chịu trách nhiệm cho hậu quả không lường trước về sau?" },
+        { "speaker": "b", "en": "That gap is exactly why we need a proportional, independent regulatory framework now.", "vi": "Khoảng trống đó chính xác là lý do vì sao chúng ta cần khung pháp lý độc lập, tương xứng ngay bây giờ." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "xu-ly-khung-hoang-truyen-thong",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Xác nhận sự cố dữ liệu ban đầu", "situation": "Người phát ngôn xác nhận thông tin ban đầu về sự cố dữ liệu.",
+      "turns": [
+        { "speaker": "a", "en": "Can you confirm there was a data breach?", "vi": "Anh/chị xác nhận có rò rỉ dữ liệu không?" },
+        { "speaker": "b", "en": "We can confirm unauthorized access occurred.", "vi": "Chúng tôi có thể xác nhận đã có truy cập trái phép xảy ra." },
+        { "speaker": "a", "en": "When did this happen exactly?", "vi": "Chính xác việc này xảy ra khi nào?" },
+        { "speaker": "b", "en": "Our initial assessment points to early this week.", "vi": "Đánh giá ban đầu của chúng tôi cho thấy vào đầu tuần này." },
+        { "speaker": "a", "en": "How many customers are affected?", "vi": "Bao nhiêu khách hàng bị ảnh hưởng?" },
+        { "speaker": "b", "en": "We are still determining the exact number.", "vi": "Chúng tôi vẫn đang xác định con số chính xác." }
+      ]},
+    { "title": "Giải thích ngưỡng báo cáo", "situation": "Người phát ngôn giải thích về ngưỡng báo cáo pháp lý.",
+      "turns": [
+        { "speaker": "a", "en": "Why did it take days to disclose this?", "vi": "Vì sao mất nhiều ngày mới công bố việc này?" },
+        { "speaker": "b", "en": "We followed the legal reporting threshold requirements.", "vi": "Chúng tôi tuân theo yêu cầu ngưỡng báo cáo pháp lý." },
+        { "speaker": "a", "en": "What does that process involve?", "vi": "Quy trình đó bao gồm những gì?" },
+        { "speaker": "b", "en": "Verifying the scope before public disclosure.", "vi": "Xác minh phạm vi trước khi công bố công khai." },
+        { "speaker": "a", "en": "That is a reasonable explanation.", "vi": "Đó là lời giải thích hợp lý đấy." },
+        { "speaker": "b", "en": "We wanted accurate information, not speculation.", "vi": "Chúng tôi muốn thông tin chính xác, không phải suy đoán." }
+      ]},
+    { "title": "Thông báo biện pháp phòng ngừa", "situation": "Người phát ngôn thông báo biện pháp phòng ngừa cho khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "What steps are you taking as a precaution?", "vi": "Anh/chị đang thực hiện biện pháp phòng ngừa nào?" },
+        { "speaker": "b", "en": "We are resetting passwords for all affected accounts.", "vi": "Chúng tôi đang đặt lại mật khẩu cho tất cả tài khoản bị ảnh hưởng." },
+        { "speaker": "a", "en": "Should customers take any action?", "vi": "Khách hàng có cần thực hiện hành động gì không?" },
+        { "speaker": "b", "en": "Yes, we recommend changing passwords elsewhere too.", "vi": "Có, chúng tôi khuyến nghị đổi mật khẩu ở những nơi khác nữa." },
+        { "speaker": "a", "en": "That is prudent advice.", "vi": "Đó là lời khuyên thận trọng đấy." },
+        { "speaker": "b", "en": "We take customer safety seriously.", "vi": "Chúng tôi xem trọng sự an toàn của khách hàng." }
+      ]},
+    { "title": "Loại trừ khả năng cụ thể", "situation": "Phóng viên hỏi và người phát ngôn loại trừ một khả năng cụ thể.",
+      "turns": [
+        { "speaker": "a", "en": "Can you rule out financial data being exposed?", "vi": "Anh/chị có thể loại trừ khả năng dữ liệu tài chính bị lộ không?" },
+        { "speaker": "b", "en": "Yes, payment information was stored separately and encrypted.", "vi": "Có, thông tin thanh toán được lưu trữ riêng biệt và mã hóa." },
+        { "speaker": "a", "en": "How confident are you in that assessment?", "vi": "Anh/chị tự tin đến mức nào về đánh giá đó?" },
+        { "speaker": "b", "en": "Our security team has verified this independently.", "vi": "Đội bảo mật của chúng tôi đã xác minh điều này độc lập." },
+        { "speaker": "a", "en": "That is somewhat reassuring.", "vi": "Vậy tôi thấy yên tâm phần nào." },
+        { "speaker": "b", "en": "We will share the full audit once complete.", "vi": "Chúng tôi sẽ chia sẻ báo cáo kiểm toán đầy đủ khi hoàn tất." }
+      ]},
+    { "title": "Từ chối đổ lỗi vội vàng", "situation": "Người phát ngôn từ chối đổ lỗi vội vàng khi chưa có kết luận.",
+      "turns": [
+        { "speaker": "a", "en": "Was this caused by employee negligence?", "vi": "Việc này có do sự cẩu thả của nhân viên không?" },
+        { "speaker": "b", "en": "We are not ready to assign blame yet.", "vi": "Chúng tôi chưa sẵn sàng đổ lỗi cho ai lúc này." },
+        { "speaker": "a", "en": "When will you know more?", "vi": "Khi nào anh/chị sẽ biết thêm?" },
+        { "speaker": "b", "en": "The investigation should conclude within a week.", "vi": "Cuộc điều tra sẽ hoàn tất trong vòng một tuần." },
+        { "speaker": "a", "en": "Will you hold anyone accountable if needed?", "vi": "Anh/chị sẽ quy trách nhiệm cho ai đó nếu cần không?" },
+        { "speaker": "b", "en": "Absolutely, we take accountability seriously.", "vi": "Chắc chắn rồi, chúng tôi xem trọng trách nhiệm giải trình." }
+      ]},
+    { "title": "Đối mặt với câu hỏi gay gắt", "situation": "Phóng viên đặt câu hỏi gay gắt về khả năng che giấu thông tin.",
+      "turns": [
+        { "speaker": "a", "en": "Were you trying to hide this from the public?", "vi": "Anh/chị có đang cố giấu việc này với công chúng không?" },
+        { "speaker": "b", "en": "No, we disclosed as soon as we had verified facts.", "vi": "Không, chúng tôi đã công bố ngay khi xác minh được sự việc." },
+        { "speaker": "a", "en": "Some would argue that was too slow.", "vi": "Một số người cho rằng vậy là quá chậm." },
+        { "speaker": "b", "en": "We prioritized accuracy over speed.", "vi": "Chúng tôi ưu tiên độ chính xác hơn tốc độ." },
+        { "speaker": "a", "en": "Is that material information customers needed sooner?", "vi": "Đó có phải thông tin quan trọng khách hàng cần biết sớm hơn không?" },
+        { "speaker": "b", "en": "We believe our timeline met all legal obligations.", "vi": "Chúng tôi tin tiến độ của mình đáp ứng đầy đủ nghĩa vụ pháp lý." }
+      ]},
+    { "title": "Thông báo hỗ trợ khách hàng bị ảnh hưởng", "situation": "Người phát ngôn thông báo hỗ trợ cho khách hàng bị ảnh hưởng.",
+      "turns": [
+        { "speaker": "a", "en": "What support will affected customers receive?", "vi": "Khách hàng bị ảnh hưởng sẽ nhận được hỗ trợ gì?" },
+        { "speaker": "b", "en": "Free credit monitoring for one year.", "vi": "Giám sát tín dụng miễn phí trong một năm." },
+        { "speaker": "a", "en": "How will they be notified?", "vi": "Họ sẽ được thông báo thế nào?" },
+        { "speaker": "b", "en": "Direct email to all affected accounts.", "vi": "Email trực tiếp tới tất cả tài khoản bị ảnh hưởng." },
+        { "speaker": "a", "en": "When will those emails go out?", "vi": "Khi nào những email đó sẽ được gửi?" },
+        { "speaker": "b", "en": "Starting within twenty-four hours.", "vi": "Bắt đầu trong vòng hai mươi bốn giờ." }
+      ]},
+    { "title": "Cam kết minh bạch tiếp theo", "situation": "Người phát ngôn cam kết sẽ minh bạch trong các cập nhật tiếp theo.",
+      "turns": [
+        { "speaker": "a", "en": "Will you provide regular updates on this?", "vi": "Anh/chị có cung cấp cập nhật thường xuyên về việc này không?" },
+        { "speaker": "b", "en": "Yes, we will publish updates every forty-eight hours.", "vi": "Có, chúng tôi sẽ công bố cập nhật mỗi bốn mươi tám giờ." },
+        { "speaker": "a", "en": "Will that include the investigation findings?", "vi": "Điều đó có bao gồm kết quả điều tra không?" },
+        { "speaker": "b", "en": "Yes, once verified and legally reviewable.", "vi": "Có, khi đã được xác minh và có thể xem xét pháp lý." },
+        { "speaker": "a", "en": "That level of transparency is appreciated.", "vi": "Mức độ minh bạch đó được đánh giá cao đấy." },
+        { "speaker": "b", "en": "We owe our customers that much.", "vi": "Chúng tôi nợ khách hàng của mình điều đó." }
+      ]},
+    { "title": "Kết thúc họp báo với thông điệp trấn an", "situation": "Người phát ngôn kết thúc họp báo với thông điệp trấn an.",
+      "turns": [
+        { "speaker": "a", "en": "Any final message for your customers?", "vi": "Có thông điệp cuối cùng nào cho khách hàng không?" },
+        { "speaker": "b", "en": "We deeply regret this incident and are acting swiftly.", "vi": "Chúng tôi vô cùng lấy làm tiếc về sự cố này và đang hành động nhanh chóng." },
+        { "speaker": "a", "en": "What is your top priority right now?", "vi": "Ưu tiên hàng đầu của anh/chị lúc này là gì?" },
+        { "speaker": "b", "en": "Protecting customer data and rebuilding trust.", "vi": "Bảo vệ dữ liệu khách hàng và khôi phục lòng tin." },
+        { "speaker": "a", "en": "Thank you for taking these questions.", "vi": "Cảm ơn anh/chị đã trả lời những câu hỏi này." },
+        { "speaker": "b", "en": "Thank you for holding us accountable.", "vi": "Cảm ơn các bạn đã giữ chúng tôi có trách nhiệm giải trình." }
+      ]},
+    { "title": "Họp báo khủng hoảng phức tạp với nhiều câu hỏi chất vấn gay gắt liên tiếp từ nhiều phóng viên", "situation": "Người phát ngôn phải đối mặt với nhiều câu hỏi chất vấn gay gắt liên tiếp từ nhiều phóng viên khác nhau về cùng một sự cố nghiêm trọng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your initial assessment said the breach was contained, but now you say it affected more customers. Which is true?", "vi": "Đánh giá ban đầu của anh/chị nói sự cố đã được kiểm soát, nhưng giờ lại nói ảnh hưởng nhiều khách hàng hơn. Cái nào đúng vậy?" },
+        { "speaker": "b", "en": "Our assessment evolved as the investigation uncovered more facts.", "vi": "Đánh giá của chúng tôi thay đổi khi cuộc điều tra phát hiện thêm sự thật." },
+        { "speaker": "a", "en": "Should the public have been informed at the reporting threshold sooner?", "vi": "Công chúng lẽ ra nên được thông báo ở ngưỡng báo cáo sớm hơn không?" },
+        { "speaker": "b", "en": "We disclosed material information as soon as it was verified and actionable.", "vi": "Chúng tôi công bố thông tin quan trọng ngay khi được xác minh và có thể hành động." },
+        { "speaker": "a", "en": "Who will be held accountable for this delay?", "vi": "Ai sẽ chịu trách nhiệm cho sự chậm trễ này?" },
+        { "speaker": "b", "en": "The investigation will determine that, and we will not rule anyone out.", "vi": "Cuộc điều tra sẽ xác định điều đó, và chúng tôi sẽ không loại trừ bất kỳ ai." }
+      ]}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dam-phan-hop-dong",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Trình bày đề xuất gia hạn hợp đồng", "situation": "Đại diện nhà cung cấp trình bày đề xuất gia hạn hợp đồng.",
+      "turns": [
+        { "speaker": "a", "en": "Let us discuss the renewal proposal.", "vi": "Mình bàn về đề xuất gia hạn hợp đồng nhé." },
+        { "speaker": "b", "en": "We propose a two year extension at current rates.", "vi": "Chúng tôi đề xuất gia hạn hai năm với mức giá hiện tại." },
+        { "speaker": "a", "en": "That exceeds our budget ceiling.", "vi": "Vậy vượt quá hạn mức ngân sách của chúng tôi." },
+        { "speaker": "b", "en": "We could discuss a price freeze instead.", "vi": "Chúng tôi có thể bàn về việc giữ nguyên giá thay vào đó." },
+        { "speaker": "a", "en": "That would be more workable.", "vi": "Vậy sẽ khả thi hơn." },
+        { "speaker": "b", "en": "Let us explore the details further.", "vi": "Mình tìm hiểu thêm chi tiết nhé." }
+      ]},
+    { "title": "Thương lượng thỏa thuận mức dịch vụ", "situation": "Hai bên thương lượng về thỏa thuận mức dịch vụ.",
+      "turns": [
+        { "speaker": "a", "en": "The current service-level agreement is too lenient.", "vi": "Thỏa thuận mức dịch vụ hiện tại quá dễ dãi." },
+        { "speaker": "b", "en": "What specific terms concern you?", "vi": "Cụ thể điều khoản nào khiến bạn lo ngại?" },
+        { "speaker": "a", "en": "The response time guarantee is too long.", "vi": "Cam kết thời gian phản hồi quá dài." },
+        { "speaker": "b", "en": "We could tighten it to four hours.", "vi": "Chúng tôi có thể rút xuống bốn giờ." },
+        { "speaker": "a", "en": "That would satisfy our requirements.", "vi": "Vậy sẽ đáp ứng yêu cầu của chúng tôi." },
+        { "speaker": "b", "en": "I will draft the revised terms.", "vi": "Tôi sẽ soạn lại điều khoản sửa đổi." }
+      ]},
+    { "title": "Bàn về điều khoản chấm dứt hợp đồng", "situation": "Hai bên bàn về điều khoản chấm dứt hợp đồng thuận tiện.",
+      "turns": [
+        { "speaker": "a", "en": "We need a termination for convenience clause.", "vi": "Chúng tôi cần điều khoản chấm dứt hợp đồng thuận tiện." },
+        { "speaker": "b", "en": "That would need a notice period.", "vi": "Điều đó sẽ cần thời gian báo trước." },
+        { "speaker": "a", "en": "Ninety days seems reasonable.", "vi": "Chín mươi ngày nghe hợp lý đấy." },
+        { "speaker": "b", "en": "We could agree to that in good faith.", "vi": "Chúng tôi có thể đồng ý với thiện chí đó." },
+        { "speaker": "a", "en": "I appreciate the flexibility.", "vi": "Tôi cảm kích sự linh hoạt đó." },
+        { "speaker": "b", "en": "We value a fair partnership.", "vi": "Chúng tôi coi trọng mối hợp tác công bằng." }
+      ]},
+    { "title": "Thảo luận về thời gian khắc phục lỗi", "situation": "Hai bên thảo luận về thời gian khắc phục lỗi trước khi bị phạt.",
+      "turns": [
+        { "speaker": "a", "en": "What is the cure period for a breach?", "vi": "Thời gian khắc phục vi phạm là bao lâu vậy?" },
+        { "speaker": "b", "en": "Currently set at fifteen days.", "vi": "Hiện tại là mười lăm ngày." },
+        { "speaker": "a", "en": "We would prefer thirty days.", "vi": "Chúng tôi muốn ba mươi ngày hơn." },
+        { "speaker": "b", "en": "We can meet in the middle at twenty.", "vi": "Chúng ta có thể gặp nhau ở giữa với hai mươi ngày." },
+        { "speaker": "a", "en": "That works for us.", "vi": "Vậy được với chúng tôi." },
+        { "speaker": "b", "en": "I will update the draft accordingly.", "vi": "Tôi sẽ cập nhật bản nháp theo đó." }
+      ]},
+    { "title": "Bàn về giới hạn trách nhiệm pháp lý", "situation": "Hai bên bàn về giới hạn trách nhiệm pháp lý trong hợp đồng.",
+      "turns": [
+        { "speaker": "a", "en": "The liability cap seems too low for us.", "vi": "Giới hạn trách nhiệm pháp lý có vẻ quá thấp với chúng tôi." },
+        { "speaker": "b", "en": "What figure would you propose?", "vi": "Bạn đề xuất con số nào vậy?" },
+        { "speaker": "a", "en": "Twice the annual contract value.", "vi": "Gấp đôi giá trị hợp đồng hàng năm." },
+        { "speaker": "b", "en": "That is a significant increase for us.", "vi": "Đó là mức tăng đáng kể với chúng tôi." },
+        { "speaker": "a", "en": "It reflects the risk we are taking on.", "vi": "Nó phản ánh rủi ro chúng tôi đang chấp nhận." },
+        { "speaker": "b", "en": "Let us find a middle ground on this.", "vi": "Mình tìm điểm giữa cho việc này nhé." }
+      ]},
+    { "title": "Thảo luận về điều khoản bồi thường", "situation": "Hai bên thảo luận về điều khoản bồi thường thiệt hại.",
+      "turns": [
+        { "speaker": "a", "en": "The indemnity clause needs revision.", "vi": "Điều khoản bồi thường cần được sửa lại." },
+        { "speaker": "b", "en": "What specifically concerns you?", "vi": "Cụ thể điều gì khiến bạn lo ngại?" },
+        { "speaker": "a", "en": "It exposes us to third-party claims unfairly.", "vi": "Nó khiến chúng tôi chịu trách nhiệm không công bằng với khiếu nại bên thứ ba." },
+        { "speaker": "b", "en": "We could add a mutual indemnity provision.", "vi": "Chúng tôi có thể thêm điều khoản bồi thường song phương." },
+        { "speaker": "a", "en": "That would be more balanced.", "vi": "Vậy sẽ cân bằng hơn." },
+        { "speaker": "b", "en": "I will have legal review that language.", "vi": "Tôi sẽ để pháp chế xem lại câu chữ đó." }
+      ]},
+    { "title": "Yêu cầu điều khoản ngoại lệ", "situation": "Bên mua yêu cầu một điều khoản ngoại lệ cụ thể.",
+      "turns": [
+        { "speaker": "a", "en": "We need a carve-out for data localization requirements.", "vi": "Chúng tôi cần một điều khoản ngoại lệ cho yêu cầu lưu trữ dữ liệu nội địa." },
+        { "speaker": "b", "en": "That is a reasonable regulatory requirement.", "vi": "Đó là yêu cầu pháp lý hợp lý đấy." },
+        { "speaker": "a", "en": "Can that be added to the current draft?", "vi": "Có thể thêm vào bản nháp hiện tại không?" },
+        { "speaker": "b", "en": "Yes, I will incorporate it this week.", "vi": "Được, tuần này tôi sẽ đưa vào." },
+        { "speaker": "a", "en": "Thank you for accommodating that.", "vi": "Cảm ơn bạn đã đáp ứng điều đó." },
+        { "speaker": "b", "en": "We want the agreement to work for both sides.", "vi": "Chúng tôi muốn thỏa thuận này công bằng cho cả hai bên." }
+      ]},
+    { "title": "Bên mua cứng rắn về chi phí", "situation": "Giám đốc mua hàng cứng rắn về việc kiểm soát chi phí.",
+      "turns": [
+        { "speaker": "a", "en": "This price increase is simply not acceptable.", "vi": "Việc tăng giá này đơn giản là không thể chấp nhận được." },
+        { "speaker": "b", "en": "I understand your position on cost control.", "vi": "Tôi hiểu lập trường của bạn về kiểm soát chi phí." },
+        { "speaker": "a", "en": "What can you offer instead?", "vi": "Bạn có thể đề nghị gì thay vào đó?" },
+        { "speaker": "b", "en": "A price freeze for the first year of renewal.", "vi": "Giữ nguyên giá cho năm đầu tiên gia hạn." },
+        { "speaker": "a", "en": "That is a step in the right direction.", "vi": "Đó là bước đi đúng hướng đấy." },
+        { "speaker": "b", "en": "We want to preserve this partnership.", "vi": "Chúng tôi muốn duy trì mối hợp tác này." }
+      ]},
+    { "title": "Chốt thỏa thuận sau đàm phán kéo dài", "situation": "Hai bên chốt thỏa thuận sau một cuộc đàm phán kéo dài.",
+      "turns": [
+        { "speaker": "a", "en": "I believe we have reached a fair agreement.", "vi": "Tôi tin chúng ta đã đạt được thỏa thuận công bằng." },
+        { "speaker": "b", "en": "Agreed, both sides negotiated in good faith.", "vi": "Đồng ý, cả hai bên đã đàm phán với thiện chí." },
+        { "speaker": "a", "en": "I will have legal finalize the contract.", "vi": "Tôi sẽ để pháp chế hoàn thiện hợp đồng." },
+        { "speaker": "b", "en": "We appreciate the collaborative approach.", "vi": "Chúng tôi đánh giá cao cách tiếp cận hợp tác này." },
+        { "speaker": "a", "en": "This sets a strong foundation going forward.", "vi": "Điều này tạo nền tảng vững chắc cho tương lai." },
+        { "speaker": "b", "en": "Looking forward to the continued partnership.", "vi": "Mong chờ mối hợp tác tiếp tục." }
+      ]},
+    { "title": "Đàm phán hợp đồng phức tạp với nhiều điều khoản pháp lý gây tranh cãi cùng lúc", "situation": "Hai bên đàm phán đồng thời nhiều điều khoản pháp lý gây tranh cãi: giới hạn trách nhiệm, bồi thường, và chấm dứt hợp đồng. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The liability cap, indemnity clause, and termination terms are all unacceptable as drafted.", "vi": "Giới hạn trách nhiệm, điều khoản bồi thường, và điều khoản chấm dứt hợp đồng đều không thể chấp nhận như bản nháp." },
+        { "speaker": "b", "en": "Let us address them one at a time, starting with liability.", "vi": "Mình giải quyết từng cái một, bắt đầu với trách nhiệm pháp lý." },
+        { "speaker": "a", "en": "We need the cap raised, and a mutual indemnity provision.", "vi": "Chúng tôi cần tăng giới hạn, và có điều khoản bồi thường song phương." },
+        { "speaker": "b", "en": "We can agree to both if you accept a longer cure period for breaches.", "vi": "Chúng tôi có thể đồng ý cả hai nếu bạn chấp nhận thời gian khắc phục vi phạm dài hơn." },
+        { "speaker": "a", "en": "That is a fair trade-off, but the termination for convenience clause still needs work.", "vi": "Đó là sự đánh đổi công bằng, nhưng điều khoản chấm dứt hợp đồng thuận tiện vẫn cần chỉnh sửa." },
+        { "speaker": "b", "en": "Let us negotiate that in good faith and finalize everything by Friday.", "vi": "Mình đàm phán điều đó với thiện chí và hoàn tất mọi thứ trước thứ Sáu nhé." }
+      ]}
+  ]
+}

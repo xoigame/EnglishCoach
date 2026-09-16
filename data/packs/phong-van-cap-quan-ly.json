@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-cap-quan-ly",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Hỏi về ưu tiên cạnh tranh", "situation": "Giám đốc nhân sự hỏi về cách xử lý ưu tiên cạnh tranh.",
+      "turns": [
+        { "speaker": "a", "en": "How do you manage competing priorities?", "vi": "Bạn quản lý các ưu tiên cạnh tranh nhau thế nào?" },
+        { "speaker": "b", "en": "I assess impact and urgency for each one.", "vi": "Tôi đánh giá tác động và mức độ khẩn cấp của từng cái." },
+        { "speaker": "a", "en": "Can you give a concrete example?", "vi": "Bạn cho ví dụ cụ thể được không?" },
+        { "speaker": "b", "en": "I once delayed a minor feature to fix a critical bug.", "vi": "Tôi từng trì hoãn một tính năng nhỏ để sửa một lỗi nghiêm trọng." },
+        { "speaker": "a", "en": "That shows good judgment.", "vi": "Vậy cho thấy khả năng phán đoán tốt đấy." },
+        { "speaker": "b", "en": "Thank you, I try to stay pragmatic.", "vi": "Cảm ơn, tôi cố gắng thực tế." }
+      ]},
+    { "title": "Hỏi về sự đồng thuận của các bên liên quan", "situation": "Giám đốc nhân sự hỏi về cách đạt được sự đồng thuận từ các bên liên quan.",
+      "turns": [
+        { "speaker": "a", "en": "How do you achieve stakeholder alignment?", "vi": "Bạn đạt được sự đồng thuận của các bên liên quan thế nào?" },
+        { "speaker": "b", "en": "By understanding each person's core concern first.", "vi": "Bằng cách hiểu mối quan tâm cốt lõi của từng người trước." },
+        { "speaker": "a", "en": "What if their concerns conflict?", "vi": "Nếu mối quan tâm của họ xung đột thì sao?" },
+        { "speaker": "b", "en": "I look for a trade-off that satisfies the priority need.", "vi": "Tôi tìm sự đánh đổi đáp ứng nhu cầu ưu tiên." },
+        { "speaker": "a", "en": "That is a thoughtful approach.", "vi": "Đó là cách tiếp cận chu đáo đấy." },
+        { "speaker": "b", "en": "Communication is key throughout the process.", "vi": "Giao tiếp là chìa khóa xuyên suốt quá trình." }
+      ]},
+    { "title": "Hỏi về việc giành được sự ủng hộ", "situation": "Giám đốc nhân sự hỏi về cách giành được sự ủng hộ cho một quyết định khó.",
+      "turns": [
+        { "speaker": "a", "en": "How do you secure buy-in for a difficult decision?", "vi": "Bạn giành được sự ủng hộ cho một quyết định khó thế nào?" },
+        { "speaker": "b", "en": "I present the data transparently and early.", "vi": "Tôi trình bày dữ liệu minh bạch và sớm." },
+        { "speaker": "a", "en": "What if people remain resistant?", "vi": "Nếu mọi người vẫn kháng cự thì sao?" },
+        { "speaker": "b", "en": "I address their specific concerns individually.", "vi": "Tôi giải quyết từng mối lo ngại cụ thể của họ." },
+        { "speaker": "a", "en": "That is a patient approach.", "vi": "Đó là cách tiếp cận kiên nhẫn đấy." },
+        { "speaker": "b", "en": "It usually pays off in the long run.", "vi": "Nó thường mang lại kết quả về lâu dài." }
+      ]},
+    { "title": "Hỏi về việc nêu vấn đề lên cấp trên", "situation": "Giám đốc nhân sự hỏi về cách nêu vấn đề lên cấp trên đúng lúc.",
+      "turns": [
+        { "speaker": "a", "en": "When do you decide to escalate a concern?", "vi": "Khi nào bạn quyết định nêu vấn đề lên cấp trên?" },
+        { "speaker": "b", "en": "When it affects the broader team or timeline.", "vi": "Khi nó ảnh hưởng đến cả nhóm rộng hơn hoặc tiến độ." },
+        { "speaker": "a", "en": "Can you share a specific instance?", "vi": "Bạn chia sẻ một trường hợp cụ thể được không?" },
+        { "speaker": "b", "en": "A vendor delay threatened our launch date.", "vi": "Sự trễ hạn của nhà cung cấp đe dọa ngày ra mắt của chúng tôi." },
+        { "speaker": "a", "en": "What was the outcome?", "vi": "Kết quả là gì?" },
+        { "speaker": "b", "en": "Leadership helped secure an alternative supplier.", "vi": "Ban lãnh đạo đã giúp tìm nhà cung cấp thay thế." }
+      ]},
+    { "title": "Hỏi về khả năng điều chỉnh hướng đi", "situation": "Giám đốc nhân sự hỏi về khả năng điều chỉnh hướng đi khi cần.",
+      "turns": [
+        { "speaker": "a", "en": "How do you course-correct when a plan fails?", "vi": "Bạn điều chỉnh hướng đi thế nào khi kế hoạch thất bại?" },
+        { "speaker": "b", "en": "I reassess quickly and involve the team.", "vi": "Tôi đánh giá lại nhanh chóng và có cả nhóm tham gia." },
+        { "speaker": "a", "en": "How do you find the root cause?", "vi": "Bạn tìm nguyên nhân gốc rễ thế nào?" },
+        { "speaker": "b", "en": "By reviewing the process, not just blaming outcomes.", "vi": "Bằng cách xem lại quy trình, không chỉ đổ lỗi cho kết quả." },
+        { "speaker": "a", "en": "That is a mature management style.", "vi": "Đó là phong cách quản lý trưởng thành đấy." },
+        { "speaker": "b", "en": "I believe in learning over blaming.", "vi": "Tôi tin vào việc học hỏi hơn là đổ lỗi." }
+      ]},
+    { "title": "Hỏi về trách nhiệm giải trình trong nhóm", "situation": "Giám đốc nhân sự hỏi về cách xây dựng trách nhiệm giải trình trong nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "How do you build accountability in your team?", "vi": "Bạn xây dựng trách nhiệm giải trình trong nhóm thế nào?" },
+        { "speaker": "b", "en": "By setting clear ownership from the start.", "vi": "Bằng cách thiết lập trách nhiệm rõ ràng ngay từ đầu." },
+        { "speaker": "a", "en": "What if someone fails to deliver?", "vi": "Nếu ai đó không hoàn thành thì sao?" },
+        { "speaker": "b", "en": "We discuss it openly without assigning blame first.", "vi": "Chúng tôi thảo luận cởi mở mà không đổ lỗi trước." },
+        { "speaker": "a", "en": "That fosters trust within the team.", "vi": "Điều đó xây dựng lòng tin trong nhóm đấy." },
+        { "speaker": "b", "en": "Trust is essential for accountability to work.", "vi": "Lòng tin là thiết yếu để trách nhiệm giải trình hoạt động." }
+      ]},
+    { "title": "Hỏi về việc xây dựng an toàn tâm lý", "situation": "Giám đốc nhân sự hỏi về cách xây dựng an toàn tâm lý trong nhóm.",
+      "turns": [
+        { "speaker": "a", "en": "How do you build psychological safety?", "vi": "Bạn xây dựng an toàn tâm lý thế nào?" },
+        { "speaker": "b", "en": "By welcoming dissenting opinions openly.", "vi": "Bằng cách chào đón ý kiến trái chiều một cách cởi mở." },
+        { "speaker": "a", "en": "How do team members respond to that?", "vi": "Các thành viên trong nhóm phản ứng thế nào với điều đó?" },
+        { "speaker": "b", "en": "They speak up more about potential risks.", "vi": "Họ nói lên nhiều hơn về những rủi ro tiềm ẩn." },
+        { "speaker": "a", "en": "That leads to fewer surprises.", "vi": "Điều đó dẫn đến ít bất ngờ hơn." },
+        { "speaker": "b", "en": "Exactly, early warning is invaluable.", "vi": "Chính xác, cảnh báo sớm là vô giá." }
+      ]},
+    { "title": "Hỏi về việc dẫn dắt kế hoạch khắc phục", "situation": "Giám đốc nhân sự hỏi về việc dẫn dắt một kế hoạch khắc phục tình hình.",
+      "turns": [
+        { "speaker": "a", "en": "Have you led a turnaround plan before?", "vi": "Bạn đã từng dẫn dắt kế hoạch khắc phục tình hình chưa?" },
+        { "speaker": "b", "en": "Yes, for an underperforming product line.", "vi": "Rồi, cho một dòng sản phẩm hoạt động kém hiệu quả." },
+        { "speaker": "a", "en": "What was your first step?", "vi": "Bước đầu tiên của bạn là gì?" },
+        { "speaker": "b", "en": "Identifying the root cause of the decline.", "vi": "Xác định nguyên nhân gốc rễ của sự suy giảm." },
+        { "speaker": "a", "en": "What was the result of your efforts?", "vi": "Kết quả nỗ lực của bạn là gì?" },
+        { "speaker": "b", "en": "Performance recovered within two quarters.", "vi": "Hiệu suất đã phục hồi trong hai quý." }
+      ]},
+    { "title": "Hỏi về sự đánh đổi trong quyết định quản lý", "situation": "Giám đốc nhân sự hỏi về một sự đánh đổi khó khăn trong quản lý.",
+      "turns": [
+        { "speaker": "a", "en": "Describe a difficult trade-off you made as a manager.", "vi": "Mô tả một sự đánh đổi khó khăn bạn từng thực hiện với tư cách quản lý." },
+        { "speaker": "b", "en": "I chose to cut scope rather than extend the deadline.", "vi": "Tôi chọn cắt giảm phạm vi thay vì gia hạn thời gian." },
+        { "speaker": "a", "en": "Why did you decide that way?", "vi": "Vì sao bạn quyết định như vậy?" },
+        { "speaker": "b", "en": "The client valued timeliness over full features.", "vi": "Khách hàng coi trọng đúng hạn hơn là đầy đủ tính năng." },
+        { "speaker": "a", "en": "That shows strategic thinking.", "vi": "Vậy cho thấy tư duy chiến lược đấy." },
+        { "speaker": "b", "en": "It required difficult conversations, but it paid off.", "vi": "Nó đòi hỏi những cuộc trò chuyện khó khăn, nhưng đã mang lại kết quả tốt." }
+      ]},
+    { "title": "Phỏng vấn quản lý với chuỗi câu hỏi tình huống phức tạp về xung đột và trách nhiệm giải trình", "situation": "Giám đốc nhân sự đặt liên tiếp nhiều câu hỏi tình huống phức tạp về xung đột giữa các bên liên quan và trách nhiệm giải trình. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Describe a time you had competing priorities from stakeholders who could not agree.", "vi": "Mô tả một lần bạn có ưu tiên cạnh tranh từ các bên liên quan không thể thống nhất." },
+        { "speaker": "b", "en": "Two departments both needed the same engineering resources urgently.", "vi": "Hai bộ phận đều cần cùng nguồn lực kỹ thuật một cách khẩn cấp." },
+        { "speaker": "a", "en": "How did you achieve stakeholder alignment in that situation?", "vi": "Bạn đã đạt được sự đồng thuận của các bên liên quan trong tình huống đó thế nào?" },
+        { "speaker": "b", "en": "I presented the root cause data and proposed a phased trade-off.", "vi": "Tôi trình bày dữ liệu nguyên nhân gốc rễ và đề xuất một sự đánh đổi theo giai đoạn." },
+        { "speaker": "a", "en": "And when the plan needed to course-correct later?", "vi": "Còn khi kế hoạch cần điều chỉnh hướng đi sau đó thì sao?" },
+        { "speaker": "b", "en": "I took ownership publicly and adjusted transparently with both teams.", "vi": "Tôi công khai nhận trách nhiệm và điều chỉnh minh bạch với cả hai nhóm." }
+      ]}
+  ]
+}

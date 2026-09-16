@@ -1,0 +1,96 @@
+{
+  "id": "tranh-bien-hoc-thuat",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu tranh biện về tự động hóa", "situation": "Người học trình bày quan điểm mở đầu về tự động hóa và việc làm.",
+      "turns": [
+        { "speaker": "a", "en": "State your position on automation and jobs.", "vi": "Trình bày quan điểm của bạn về tự động hóa và việc làm." },
+        { "speaker": "b", "en": "I believe automation will augment work, not replace it entirely.", "vi": "Tôi tin tự động hóa sẽ bổ trợ công việc, không thay thế hoàn toàn." },
+        { "speaker": "a", "en": "How do you explain job displacement then?", "vi": "Vậy bạn giải thích thế nào về việc mất việc làm?" },
+        { "speaker": "b", "en": "Displacement happens, but new roles emerge too.", "vi": "Việc mất việc làm có xảy ra, nhưng vai trò mới cũng xuất hiện." },
+        { "speaker": "a", "en": "That is your opening argument, noted.", "vi": "Đó là lập luận mở đầu của bạn, tôi ghi nhận." },
+        { "speaker": "b", "en": "I look forward to defending it further.", "vi": "Tôi mong được bảo vệ nó thêm nữa." }
+      ]},
+    { "title": "Phản biện về thị trường lao động", "situation": "Người phản biện đưa ra lập luận về tác động lên thị trường lao động.",
+      "turns": [
+        { "speaker": "a", "en": "The labour market cannot absorb this pace of change.", "vi": "Thị trường lao động không thể hấp thụ tốc độ thay đổi này." },
+        { "speaker": "b", "en": "History shows markets do adapt, given time.", "vi": "Lịch sử cho thấy thị trường có thể thích nghi, nếu có đủ thời gian." },
+        { "speaker": "a", "en": "But this transition is happening faster than before.", "vi": "Nhưng quá trình chuyển đổi này đang diễn ra nhanh hơn trước." },
+        { "speaker": "b", "en": "That is a fair point about the pace.", "vi": "Đó là điểm hợp lý về tốc độ đấy." },
+        { "speaker": "a", "en": "So workers need support to keep up.", "vi": "Vậy người lao động cần hỗ trợ để bắt kịp." },
+        { "speaker": "b", "en": "I agree that support systems matter.", "vi": "Tôi đồng ý rằng các hệ thống hỗ trợ quan trọng." }
+      ]},
+    { "title": "Bàn về việc đào tạo lại", "situation": "Hai bên bàn về vai trò của việc đào tạo lại người lao động.",
+      "turns": [
+        { "speaker": "a", "en": "Reskilling programs are the key solution.", "vi": "Chương trình đào tạo lại là giải pháp then chốt." },
+        { "speaker": "b", "en": "Are they scalable enough for millions of workers?", "vi": "Chúng có đủ khả năng mở rộng cho hàng triệu lao động không?" },
+        { "speaker": "a", "en": "With government investment, yes.", "vi": "Với đầu tư của chính phủ, có thể." },
+        { "speaker": "b", "en": "That assumes political will exists.", "vi": "Điều đó giả định có ý chí chính trị tồn tại." },
+        { "speaker": "a", "en": "That is a valid limitation to consider.", "vi": "Đó là giới hạn hợp lý cần cân nhắc." },
+        { "speaker": "b", "en": "Policy design matters as much as technology.", "vi": "Thiết kế chính sách quan trọng ngang với công nghệ." }
+      ]},
+    { "title": "Tranh luận về việc làm cấp đầu vào", "situation": "Hai bên tranh luận về tác động đến việc làm cấp đầu vào.",
+      "turns": [
+        { "speaker": "a", "en": "Entry-level roles are disappearing fastest.", "vi": "Vai trò cấp đầu vào đang biến mất nhanh nhất." },
+        { "speaker": "b", "en": "That creates a real barrier for young workers.", "vi": "Điều đó tạo ra rào cản thực sự cho lao động trẻ." },
+        { "speaker": "a", "en": "How would you address that barrier?", "vi": "Bạn sẽ giải quyết rào cản đó thế nào?" },
+        { "speaker": "b", "en": "Apprenticeship programs bridging the gap.", "vi": "Chương trình học nghề để thu hẹp khoảng cách." },
+        { "speaker": "a", "en": "That could work at scale, potentially.", "vi": "Điều đó có thể hiệu quả ở quy mô lớn, có khả năng." },
+        { "speaker": "b", "en": "It requires employer buy-in though.", "vi": "Tuy nhiên nó cần sự ủng hộ từ nhà tuyển dụng." }
+      ]},
+    { "title": "Bàn về nguy cơ rỗng hóa ngành nghề", "situation": "Người phản biện lo ngại về nguy cơ rỗng hóa một số ngành nghề.",
+      "turns": [
+        { "speaker": "a", "en": "Automation could hollow out entire industries.", "vi": "Tự động hóa có thể làm rỗng toàn bộ ngành nghề." },
+        { "speaker": "b", "en": "Which industries concern you most?", "vi": "Bạn lo ngại nhất ngành nào?" },
+        { "speaker": "a", "en": "Manufacturing and administrative support.", "vi": "Sản xuất và hỗ trợ hành chính." },
+        { "speaker": "b", "en": "Those sectors do face significant disruption.", "vi": "Các ngành đó thực sự đối mặt với sự gián đoạn đáng kể." },
+        { "speaker": "a", "en": "So my concern has merit.", "vi": "Vậy mối lo ngại của tôi có cơ sở." },
+        { "speaker": "b", "en": "It does, though the timeline varies by sector.", "vi": "Đúng vậy, dù tiến độ khác nhau theo từng ngành." }
+      ]},
+    { "title": "Tranh luận về tăng năng suất", "situation": "Hai bên tranh luận về lợi ích của việc tăng năng suất.",
+      "turns": [
+        { "speaker": "a", "en": "Productivity gains benefit society overall.", "vi": "Tăng năng suất mang lại lợi ích cho xã hội nói chung." },
+        { "speaker": "b", "en": "But who actually captures those gains?", "vi": "Nhưng ai thực sự nhận được những lợi ích đó?" },
+        { "speaker": "a", "en": "Ideally, both companies and workers.", "vi": "Lý tưởng nhất là cả công ty lẫn người lao động." },
+        { "speaker": "b", "en": "Historically, gains have favored capital.", "vi": "Trong lịch sử, lợi ích thường nghiêng về vốn." },
+        { "speaker": "a", "en": "That is a fair historical observation.", "vi": "Đó là quan sát lịch sử hợp lý đấy." },
+        { "speaker": "b", "en": "Policy could redistribute that balance.", "vi": "Chính sách có thể phân phối lại sự cân bằng đó." }
+      ]},
+    { "title": "Bàn về tác động phân phối", "situation": "Hai bên bàn về tác động phân phối không đồng đều của tự động hóa.",
+      "turns": [
+        { "speaker": "a", "en": "The distributional impact will not be even.", "vi": "Tác động phân phối sẽ không đồng đều." },
+        { "speaker": "b", "en": "Which groups face the greatest impact?", "vi": "Nhóm nào đối mặt với tác động lớn nhất?" },
+        { "speaker": "a", "en": "Low-skilled workers in routine tasks.", "vi": "Lao động tay nghề thấp làm công việc lặp lại." },
+        { "speaker": "b", "en": "That reinforces the need for a social safety net.", "vi": "Điều đó củng cố nhu cầu về mạng lưới an sinh xã hội." },
+        { "speaker": "a", "en": "Exactly, and it must be well-funded.", "vi": "Chính xác, và nó cần được tài trợ đầy đủ." },
+        { "speaker": "b", "en": "That is a point we both agree on.", "vi": "Đó là điểm cả hai chúng ta đều đồng ý." }
+      ]},
+    { "title": "Đúc kết điểm đồng thuận", "situation": "Hai bên đúc kết những điểm đồng thuận sau tranh biện.",
+      "turns": [
+        { "speaker": "a", "en": "We disagree on timelines, but agree on solutions.", "vi": "Chúng ta bất đồng về tiến độ, nhưng đồng ý về giải pháp." },
+        { "speaker": "b", "en": "Reskilling and safety nets, specifically.", "vi": "Cụ thể là đào tạo lại và mạng lưới an sinh." },
+        { "speaker": "a", "en": "That common ground is valuable.", "vi": "Điểm chung đó có giá trị đấy." },
+        { "speaker": "b", "en": "Debates should aim for that, I think.", "vi": "Tôi nghĩ tranh biện nên hướng tới điều đó." },
+        { "speaker": "a", "en": "Well argued on both sides today.", "vi": "Hôm nay cả hai bên đều lập luận tốt." },
+        { "speaker": "b", "en": "Thank you, this was a rigorous exchange.", "vi": "Cảm ơn, đây là cuộc trao đổi chặt chẽ." }
+      ]},
+    { "title": "Phản biện cuối cùng với lập luận mạnh mẽ", "situation": "Người phản biện đưa ra lập luận cuối cùng mạnh mẽ.",
+      "turns": [
+        { "speaker": "a", "en": "In closing, technology alone will not solve this.", "vi": "Kết lại, công nghệ đơn thuần sẽ không giải quyết được việc này." },
+        { "speaker": "b", "en": "I agree, policy must roll out alongside it.", "vi": "Tôi đồng ý, chính sách phải triển khai song song với nó." },
+        { "speaker": "a", "en": "That is a strong point to end on.", "vi": "Đó là điểm mạnh để kết thúc đấy." },
+        { "speaker": "b", "en": "Thank you for a thoughtful debate.", "vi": "Cảm ơn vì cuộc tranh biện chu đáo." },
+        { "speaker": "a", "en": "Likewise, I learned from your perspective.", "vi": "Tương tự, tôi đã học được từ góc nhìn của bạn." },
+        { "speaker": "b", "en": "That is the goal of academic debate.", "vi": "Đó chính là mục tiêu của tranh biện học thuật." }
+      ]},
+    { "title": "Tranh biện học thuật phức tạp với nhiều lớp lập luận phản bác liên tiếp về chính sách và công nghệ", "situation": "Hai bên tranh biện với nhiều lớp lập luận phản bác liên tiếp về mối quan hệ giữa chính sách, công nghệ, và tác động xã hội. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "You claim automation augments work, but the data shows entry-level roles hollowing out entirely in some sectors.", "vi": "Bạn cho rằng tự động hóa bổ trợ công việc, nhưng dữ liệu cho thấy vai trò cấp đầu vào đang rỗng hóa hoàn toàn ở một số ngành." },
+        { "speaker": "b", "en": "That is accurate for routine roles, but it ignores the productivity gains creating new categories of work.", "vi": "Điều đó đúng với vai trò lặp lại, nhưng nó bỏ qua việc tăng năng suất tạo ra các loại công việc mới." },
+        { "speaker": "a", "en": "New roles that most displaced workers cannot access without reskilling.", "vi": "Vai trò mới mà hầu hết lao động bị mất việc không thể tiếp cận nếu không được đào tạo lại." },
+        { "speaker": "b", "en": "Which is precisely why a social safety net must roll out alongside reskilling investment.", "vi": "Đó chính là lý do vì sao mạng lưới an sinh xã hội phải triển khai song song với đầu tư đào tạo lại." },
+        { "speaker": "a", "en": "But who bears the distributional impact in the meantime, while policy catches up?", "vi": "Nhưng ai chịu tác động phân phối trong lúc chờ chính sách bắt kịp?" },
+        { "speaker": "b", "en": "That is the strongest argument against unchecked automation, and I concede it deserves urgent policy attention.", "vi": "Đó là lập luận mạnh nhất chống lại tự động hóa không kiểm soát, và tôi thừa nhận nó cần chính sách khẩn cấp quan tâm." }
+      ]}
+  ]
+}

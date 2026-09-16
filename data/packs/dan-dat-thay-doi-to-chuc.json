@@ -1,0 +1,96 @@
+{
+  "id": "dan-dat-thay-doi-to-chuc",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Giới thiệu đề xuất thay đổi", "situation": "Người học giới thiệu đề xuất thay đổi tổ chức.",
+      "turns": [
+        { "speaker": "a", "en": "I want to walk you through this restructuring proposal.", "vi": "Tôi muốn trình bày đề xuất tái cấu trúc này." },
+        { "speaker": "b", "en": "I am skeptical, but go ahead.", "vi": "Tôi hoài nghi đấy, nhưng cứ trình bày đi." },
+        { "speaker": "a", "en": "It aims to reduce operational disruption long term.", "vi": "Nó nhằm giảm gián đoạn vận hành về lâu dài." },
+        { "speaker": "b", "en": "What about the short term impact?", "vi": "Còn tác động ngắn hạn thì sao?" },
+        { "speaker": "a", "en": "There will be some, but we have a phased approach.", "vi": "Sẽ có một chút, nhưng chúng tôi có cách tiếp cận theo giai đoạn." },
+        { "speaker": "b", "en": "I am listening, please continue.", "vi": "Tôi đang nghe, mời bạn tiếp tục." }
+      ]},
+    { "title": "Giải thích cách tiếp cận theo giai đoạn", "situation": "Người học giải thích cách tiếp cận theo giai đoạn cho thay đổi.",
+      "turns": [
+        { "speaker": "a", "en": "What does the phased approach look like?", "vi": "Cách tiếp cận theo giai đoạn cụ thể là gì vậy?" },
+        { "speaker": "b", "en": "We start with one department as a pilot.", "vi": "Chúng tôi bắt đầu với một bộ phận làm thử nghiệm." },
+        { "speaker": "a", "en": "How long before full rollout?", "vi": "Bao lâu trước khi triển khai toàn bộ?" },
+        { "speaker": "b", "en": "Three months, if the pilot succeeds.", "vi": "Ba tháng, nếu thử nghiệm thành công." },
+        { "speaker": "a", "en": "That reduces my concern somewhat.", "vi": "Điều đó phần nào giảm bớt lo ngại của tôi." },
+        { "speaker": "b", "en": "We built it to minimize disruption.", "vi": "Chúng tôi thiết kế nó để giảm thiểu gián đoạn." }
+      ]},
+    { "title": "Bảo vệ đề xuất trước sự phản đối", "situation": "Trưởng bộ phận phản đối vì lo ngại nguyên trạng bị phá vỡ.",
+      "turns": [
+        { "speaker": "a", "en": "The current status quo works fine for us.", "vi": "Nguyên trạng hiện tại vẫn ổn với chúng tôi mà." },
+        { "speaker": "b", "en": "I understand, but it limits our cross-functional efficiency.", "vi": "Tôi hiểu, nhưng nó hạn chế hiệu quả liên phòng ban của chúng ta." },
+        { "speaker": "a", "en": "Can you prove that with data?", "vi": "Bạn chứng minh được điều đó bằng dữ liệu không?" },
+        { "speaker": "b", "en": "Yes, response times are twice as slow currently.", "vi": "Có, thời gian phản hồi hiện tại chậm gấp đôi." },
+        { "speaker": "a", "en": "That is a compelling number.", "vi": "Đó là con số thuyết phục đấy." },
+        { "speaker": "b", "en": "I hoped it would resonate with you.", "vi": "Tôi hy vọng nó sẽ cộng hưởng với bạn." }
+      ]},
+    { "title": "Giành sự ủng hộ từng bước", "situation": "Người học tìm cách giành sự ủng hộ từng bước từ trưởng bộ phận.",
+      "turns": [
+        { "speaker": "a", "en": "How do you plan to secure buy-in from my team?", "vi": "Bạn dự định giành sự ủng hộ từ nhóm tôi thế nào?" },
+        { "speaker": "b", "en": "Through workshops explaining the benefits directly.", "vi": "Thông qua các buổi hội thảo giải thích trực tiếp về lợi ích." },
+        { "speaker": "a", "en": "My team is resistant to change.", "vi": "Nhóm tôi kháng cự với sự thay đổi lắm." },
+        { "speaker": "b", "en": "That is common, we will address concerns individually.", "vi": "Điều đó phổ biến mà, chúng tôi sẽ giải quyết từng mối lo ngại." },
+        { "speaker": "a", "en": "I appreciate that level of care.", "vi": "Tôi đánh giá cao mức độ quan tâm đó." },
+        { "speaker": "b", "en": "Change works best when people feel heard.", "vi": "Thay đổi hiệu quả nhất khi mọi người cảm thấy được lắng nghe." }
+      ]},
+    { "title": "Đề cập đến kế hoạch dự phòng", "situation": "Người học đề cập đến kế hoạch dự phòng nếu thay đổi không hiệu quả.",
+      "turns": [
+        { "speaker": "a", "en": "What if this change fails?", "vi": "Nếu thay đổi này thất bại thì sao?" },
+        { "speaker": "b", "en": "We have a contingency plan to revert quickly.", "vi": "Chúng tôi có kế hoạch dự phòng để quay lại nhanh chóng." },
+        { "speaker": "a", "en": "How quickly could you revert?", "vi": "Bạn có thể quay lại nhanh cỡ nào?" },
+        { "speaker": "b", "en": "Within two weeks, with minimal disruption.", "vi": "Trong vòng hai tuần, với gián đoạn tối thiểu." },
+        { "speaker": "a", "en": "That gives me more confidence.", "vi": "Vậy tôi tự tin hơn." },
+        { "speaker": "b", "en": "We planned for that possibility deliberately.", "vi": "Chúng tôi đã cố tình lên kế hoạch cho khả năng đó." }
+      ]},
+    { "title": "Giải thích việc phân bổ nguồn lực cho thay đổi", "situation": "Người học giải thích việc phân bổ nguồn lực cần thiết cho thay đổi.",
+      "turns": [
+        { "speaker": "a", "en": "What resource allocation does this require?", "vi": "Việc này cần phân bổ nguồn lực thế nào?" },
+        { "speaker": "b", "en": "Two coordinators dedicated during the transition.", "vi": "Hai điều phối viên chuyên trách trong quá trình chuyển đổi." },
+        { "speaker": "a", "en": "Would that pull people from my team?", "vi": "Điều đó có rút người từ nhóm tôi không?" },
+        { "speaker": "b", "en": "Only temporarily, and we will backfill roles.", "vi": "Chỉ tạm thời thôi, và chúng tôi sẽ bổ sung nhân sự thay thế." },
+        { "speaker": "a", "en": "That is a reasonable accommodation.", "vi": "Đó là sự sắp xếp hợp lý đấy." },
+        { "speaker": "b", "en": "We wanted to minimize the burden on you.", "vi": "Chúng tôi muốn giảm thiểu gánh nặng cho bạn." }
+      ]},
+    { "title": "Trưởng bộ phận dần thay đổi quan điểm", "situation": "Trưởng bộ phận dần thay đổi quan điểm sau khi được thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "I am starting to see the value in this.", "vi": "Tôi bắt đầu thấy giá trị của việc này rồi." },
+        { "speaker": "b", "en": "That means a lot, thank you.", "vi": "Điều đó có ý nghĩa nhiều, cảm ơn bạn." },
+        { "speaker": "a", "en": "What convinced me was the phased safeguard.", "vi": "Điều thuyết phục tôi là biện pháp bảo vệ theo giai đoạn." },
+        { "speaker": "b", "en": "I am glad that addressed your concern.", "vi": "Tôi vui vì điều đó giải quyết được mối lo ngại của bạn." },
+        { "speaker": "a", "en": "I am willing to pilot it with my team.", "vi": "Tôi sẵn lòng thử nghiệm nó với nhóm mình." },
+        { "speaker": "b", "en": "That is a significant step forward.", "vi": "Đó là bước tiến đáng kể đấy." }
+      ]},
+    { "title": "Đàm phán về phạm vi triển khai ban đầu", "situation": "Hai bên đàm phán về phạm vi triển khai ban đầu của thay đổi.",
+      "turns": [
+        { "speaker": "a", "en": "Could we limit the pilot to just my smallest team?", "vi": "Mình giới hạn thử nghiệm chỉ với nhóm nhỏ nhất của tôi được không?" },
+        { "speaker": "b", "en": "That could work as a starting trade-off.", "vi": "Điều đó có thể được như một sự đánh đổi khởi đầu." },
+        { "speaker": "a", "en": "What metrics would define success there?", "vi": "Chỉ số nào sẽ xác định thành công ở đó?" },
+        { "speaker": "b", "en": "Reduced turnaround time on cross-team requests.", "vi": "Giảm thời gian xử lý cho các yêu cầu liên nhóm." },
+        { "speaker": "a", "en": "That is a fair and measurable goal.", "vi": "Đó là mục tiêu công bằng và đo lường được đấy." },
+        { "speaker": "b", "en": "I will draft the pilot plan today.", "vi": "Hôm nay tôi sẽ soạn kế hoạch thử nghiệm." }
+      ]},
+    { "title": "Đạt được thỏa thuận cuối cùng về thay đổi", "situation": "Hai bên đạt được thỏa thuận cuối cùng về việc triển khai thay đổi.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree to move forward with the pilot.", "vi": "Vậy mình đồng ý tiến hành thử nghiệm." },
+        { "speaker": "b", "en": "Yes, with clear checkpoints along the way.", "vi": "Vâng, cùng với các mốc kiểm tra rõ ràng trong quá trình." },
+        { "speaker": "a", "en": "I appreciate you addressing my concerns.", "vi": "Tôi cảm kích vì bạn đã giải quyết mối lo ngại của tôi." },
+        { "speaker": "b", "en": "Your input made this a stronger plan.", "vi": "Ý kiến của bạn làm kế hoạch này vững chắc hơn." },
+        { "speaker": "a", "en": "Let us keep communication open throughout.", "vi": "Mình giữ giao tiếp cởi mở xuyên suốt nhé." },
+        { "speaker": "b", "en": "Absolutely, I will update you weekly.", "vi": "Chắc chắn rồi, tôi sẽ cập nhật cho bạn hàng tuần." }
+      ]},
+    { "title": "Dẫn dắt thay đổi phức tạp trước sự phản đối mạnh mẽ và nhiều mối lo ngại chồng chéo", "situation": "Người học phải dẫn dắt thay đổi tổ chức trước sự phản đối mạnh mẽ và nhiều mối lo ngại chồng chéo từ nhiều bộ phận. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Three department heads are opposed, citing disruption, cost, and loss of autonomy.", "vi": "Ba trưởng bộ phận phản đối, viện dẫn gián đoạn, chi phí, và mất quyền tự chủ." },
+        { "speaker": "b", "en": "Let us address each concern with a targeted mitigation.", "vi": "Mình giải quyết từng mối lo ngại bằng biện pháp giảm thiểu có mục tiêu." },
+        { "speaker": "a", "en": "How do we secure buy-in without forcing the change through?", "vi": "Mình giành được sự ủng hộ mà không cưỡng ép thay đổi thế nào?" },
+        { "speaker": "b", "en": "A phased approach with an opt-in pilot for the most willing department first.", "vi": "Cách tiếp cận theo giai đoạn với thử nghiệm tự nguyện cho bộ phận sẵn lòng nhất trước." },
+        { "speaker": "a", "en": "And if that pilot still faces resistance internally?", "vi": "Nếu thử nghiệm đó vẫn gặp kháng cự nội bộ thì sao?" },
+        { "speaker": "b", "en": "We have a contingency plan to pause, gather feedback, and adjust the resource allocation before proceeding.", "vi": "Chúng tôi có kế hoạch dự phòng để tạm dừng, thu thập phản hồi, và điều chỉnh phân bổ nguồn lực trước khi tiếp tục." }
+      ]}
+  ]
+}

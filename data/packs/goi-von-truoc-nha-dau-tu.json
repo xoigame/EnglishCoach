@@ -1,0 +1,96 @@
+{
+  "id": "goi-von-truoc-nha-dau-tu",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Trình bày luận điểm đầu tư", "situation": "Nhà sáng lập trình bày luận điểm đầu tư ban đầu.",
+      "turns": [
+        { "speaker": "a", "en": "Walk me through your investment case.", "vi": "Trình bày cho tôi luận điểm đầu tư của bạn." },
+        { "speaker": "b", "en": "We solve a real pain point in logistics.", "vi": "Chúng tôi giải quyết một vấn đề thực sự trong logistics." },
+        { "speaker": "a", "en": "What makes your solution different?", "vi": "Điều gì làm giải pháp của bạn khác biệt?" },
+        { "speaker": "b", "en": "Our platform cuts delivery time by half.", "vi": "Nền tảng của chúng tôi giảm một nửa thời gian giao hàng." },
+        { "speaker": "a", "en": "That is a compelling starting point.", "vi": "Đó là điểm khởi đầu thuyết phục đấy." },
+        { "speaker": "b", "en": "I can walk you through the data next.", "vi": "Tiếp theo tôi có thể trình bày số liệu cho bạn." }
+      ]},
+    { "title": "Nhà đầu tư nghi ngờ về thị trường đông đúc", "situation": "Nhà đầu tư nghi ngờ vì thị trường đã có nhiều đối thủ.",
+      "turns": [
+        { "speaker": "a", "en": "This is a crowded market already.", "vi": "Thị trường này đã đông đúc rồi." },
+        { "speaker": "b", "en": "True, but our retention rate outperforms competitors.", "vi": "Đúng vậy, nhưng tỷ lệ giữ chân khách hàng của chúng tôi vượt trội hơn đối thủ." },
+        { "speaker": "a", "en": "What is driving that difference?", "vi": "Điều gì tạo nên sự khác biệt đó?" },
+        { "speaker": "b", "en": "A lower switching cost for our customers.", "vi": "Chi phí chuyển đổi thấp hơn cho khách hàng của chúng tôi." },
+        { "speaker": "a", "en": "That is a meaningful competitive edge.", "vi": "Đó là lợi thế cạnh tranh có ý nghĩa đấy." },
+        { "speaker": "b", "en": "We believe it will compound over time.", "vi": "Chúng tôi tin nó sẽ tích lũy dần theo thời gian." }
+      ]},
+    { "title": "Giải thích kinh tế đơn vị", "situation": "Nhà sáng lập giải thích kinh tế đơn vị của mô hình kinh doanh.",
+      "turns": [
+        { "speaker": "a", "en": "What do your unit economics look like?", "vi": "Kinh tế đơn vị của bạn thế nào?" },
+        { "speaker": "b", "en": "Positive contribution margin per customer already.", "vi": "Biên đóng góp trên mỗi khách hàng đã dương rồi." },
+        { "speaker": "a", "en": "How does that scale with growth?", "vi": "Vậy nó mở rộng thế nào khi tăng trưởng?" },
+        { "speaker": "b", "en": "Margins improve as fixed costs spread out.", "vi": "Biên lợi nhuận cải thiện khi chi phí cố định được phân bổ rộng hơn." },
+        { "speaker": "a", "en": "That is a healthy trajectory.", "vi": "Đó là quỹ đạo lành mạnh đấy." },
+        { "speaker": "b", "en": "We expect profitability within eighteen months.", "vi": "Chúng tôi kỳ vọng có lợi nhuận trong mười tám tháng." }
+      ]},
+    { "title": "Hỏi về chi phí thu hút khách hàng", "situation": "Nhà đầu tư hỏi về chi phí thu hút khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "What is your customer acquisition cost?", "vi": "Chi phí thu hút khách hàng của bạn là bao nhiêu?" },
+        { "speaker": "b", "en": "Around fifty dollars per customer currently.", "vi": "Hiện tại khoảng năm mươi đô la mỗi khách hàng." },
+        { "speaker": "a", "en": "How does that compare to lifetime value?", "vi": "Vậy so với giá trị vòng đời khách hàng thì sao?" },
+        { "speaker": "b", "en": "Lifetime value is roughly six times that figure.", "vi": "Giá trị vòng đời gấp khoảng sáu lần con số đó." },
+        { "speaker": "a", "en": "That ratio looks healthy.", "vi": "Tỷ lệ đó trông lành mạnh đấy." },
+        { "speaker": "b", "en": "We continue optimizing our channels.", "vi": "Chúng tôi tiếp tục tối ưu các kênh của mình." }
+      ]},
+    { "title": "Bàn về quy mô thị trường", "situation": "Nhà đầu tư hỏi về quy mô thị trường có thể tiếp cận.",
+      "turns": [
+        { "speaker": "a", "en": "What is your addressable market size?", "vi": "Quy mô thị trường có thể tiếp cận của bạn là bao nhiêu?" },
+        { "speaker": "b", "en": "Roughly two billion dollars regionally.", "vi": "Khoảng hai tỷ đô la trong khu vực." },
+        { "speaker": "a", "en": "How much of that can you realistically capture?", "vi": "Bạn có thể chiếm lĩnh thực tế bao nhiêu phần đó?" },
+        { "speaker": "b", "en": "We target five percent within five years.", "vi": "Chúng tôi nhắm tới năm phần trăm trong năm năm." },
+        { "speaker": "a", "en": "That is an ambitious but plausible goal.", "vi": "Đó là mục tiêu tham vọng nhưng khả thi đấy." },
+        { "speaker": "b", "en": "We have modeled it conservatively.", "vi": "Chúng tôi đã mô hình hóa nó một cách thận trọng." }
+      ]},
+    { "title": "Giải thích tỷ lệ rời bỏ", "situation": "Nhà sáng lập giải thích tỷ lệ rời bỏ khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "What is your monthly churn rate?", "vi": "Tỷ lệ rời bỏ hàng tháng của bạn là bao nhiêu?" },
+        { "speaker": "b", "en": "About two percent, which is below industry average.", "vi": "Khoảng hai phần trăm, thấp hơn mức trung bình ngành." },
+        { "speaker": "a", "en": "What is driving that low churn?", "vi": "Điều gì tạo ra tỷ lệ rời bỏ thấp đó?" },
+        { "speaker": "b", "en": "Strong onboarding and consistent product updates.", "vi": "Quy trình làm quen tốt và cập nhật sản phẩm liên tục." },
+        { "speaker": "a", "en": "That is a strong retention signal.", "vi": "Đó là tín hiệu giữ chân khách hàng mạnh mẽ đấy." },
+        { "speaker": "b", "en": "We continue to invest in that area.", "vi": "Chúng tôi tiếp tục đầu tư vào lĩnh vực đó." }
+      ]},
+    { "title": "Hỏi về thời gian còn lại của quỹ", "situation": "Nhà đầu tư hỏi về thời gian còn lại trước khi hết vốn.",
+      "turns": [
+        { "speaker": "a", "en": "How much runway do you currently have?", "vi": "Hiện tại bạn còn thời gian bao lâu trước khi hết vốn?" },
+        { "speaker": "b", "en": "About fourteen months at current burn rate.", "vi": "Khoảng mười bốn tháng với tốc độ đốt tiền hiện tại." },
+        { "speaker": "a", "en": "What does this funding extend it to?", "vi": "Khoản vốn này kéo dài thêm bao lâu?" },
+        { "speaker": "b", "en": "It would give us thirty months, reaching profitability.", "vi": "Nó sẽ cho chúng tôi ba mươi tháng, đạt được lợi nhuận." },
+        { "speaker": "a", "en": "That is a clear use of funds.", "vi": "Đó là mục đích sử dụng vốn rõ ràng đấy." },
+        { "speaker": "b", "en": "We have a detailed breakdown available.", "vi": "Chúng tôi có bảng phân tích chi tiết sẵn sàng." }
+      ]},
+    { "title": "Chuẩn bị cho quá trình thẩm định", "situation": "Nhà đầu tư đề cập đến quá trình thẩm định trước khi đầu tư.",
+      "turns": [
+        { "speaker": "a", "en": "We will need to conduct due diligence.", "vi": "Chúng tôi sẽ cần tiến hành thẩm định." },
+        { "speaker": "b", "en": "Of course, we are prepared for that.", "vi": "Đương nhiên, chúng tôi đã chuẩn bị sẵn sàng." },
+        { "speaker": "a", "en": "What documentation can you provide?", "vi": "Bạn có thể cung cấp tài liệu gì?" },
+        { "speaker": "b", "en": "Financial statements and customer contracts.", "vi": "Báo cáo tài chính và hợp đồng khách hàng." },
+        { "speaker": "a", "en": "That should give us a clear picture.", "vi": "Vậy sẽ cho chúng tôi bức tranh rõ ràng." },
+        { "speaker": "b", "en": "We are happy to answer follow-up questions.", "vi": "Chúng tôi vui lòng trả lời các câu hỏi tiếp theo." }
+      ]},
+    { "title": "Nhà đầu tư đưa ra điều kiện đầu tư", "situation": "Nhà đầu tư đưa ra điều kiện trước khi cam kết đầu tư.",
+      "turns": [
+        { "speaker": "a", "en": "I am interested, but with certain conditions.", "vi": "Tôi quan tâm, nhưng với một số điều kiện." },
+        { "speaker": "b", "en": "Please share what you have in mind.", "vi": "Mời bạn chia sẻ những điều đó." },
+        { "speaker": "a", "en": "A board seat and quarterly reporting.", "vi": "Một ghế trong hội đồng quản trị và báo cáo hàng quý." },
+        { "speaker": "b", "en": "Both are reasonable requests.", "vi": "Cả hai đều là yêu cầu hợp lý." },
+        { "speaker": "a", "en": "Then let us move forward with the term sheet.", "vi": "Vậy mình tiến hành với bản điều khoản đầu tư nhé." },
+        { "speaker": "b", "en": "We look forward to this partnership.", "vi": "Chúng tôi mong chờ mối hợp tác này." }
+      ]},
+    { "title": "Bảo vệ luận điểm đầu tư trước nhiều câu hỏi hoài nghi liên tiếp về mô hình kinh doanh", "situation": "Nhà sáng lập phải bảo vệ luận điểm đầu tư trước nhiều câu hỏi hoài nghi gay gắt liên tiếp về tính khả thi của mô hình kinh doanh. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Your customer acquisition cost seems unsustainable given this crowded market.", "vi": "Chi phí thu hút khách hàng của bạn có vẻ không bền vững trong thị trường đông đúc này." },
+        { "speaker": "b", "en": "It is trending down as our retention rate strengthens our unit economics.", "vi": "Nó đang có xu hướng giảm khi tỷ lệ giữ chân khách hàng củng cố kinh tế đơn vị của chúng tôi." },
+        { "speaker": "a", "en": "But your runway is short if churn increases unexpectedly.", "vi": "Nhưng thời gian còn lại của bạn ngắn nếu tỷ lệ rời bỏ tăng bất ngờ." },
+        { "speaker": "b", "en": "We have modeled that scenario, and this funding extends our runway significantly.", "vi": "Chúng tôi đã mô hình hóa tình huống đó, và khoản vốn này kéo dài đáng kể thời gian còn lại." },
+        { "speaker": "a", "en": "I would need full due diligence before committing to anything.", "vi": "Tôi sẽ cần thẩm định đầy đủ trước khi cam kết bất cứ điều gì." },
+        { "speaker": "b", "en": "Absolutely, we can provide complete financials and customer data immediately.", "vi": "Chắc chắn rồi, chúng tôi có thể cung cấp đầy đủ tài chính và dữ liệu khách hàng ngay lập tức." }
+      ]}
+  ]
+}

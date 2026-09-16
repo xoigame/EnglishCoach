@@ -1,0 +1,96 @@
+{
+  "id": "phat-bieu-nhan-giai",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu bài phát biểu nhận giải", "situation": "Người nhận giải mở đầu bài phát biểu.",
+      "turns": [
+        { "speaker": "a", "en": "Please welcome tonight's award recipient.", "vi": "Xin mời chào đón người nhận giải tối nay." },
+        { "speaker": "b", "en": "I am deeply honored to be standing here.", "vi": "Tôi vô cùng vinh dự khi được đứng ở đây." },
+        { "speaker": "a", "en": "The audience is eager to hear your words.", "vi": "Khán giả đang mong chờ nghe những lời của bạn." },
+        { "speaker": "b", "en": "Thank you, I will keep it heartfelt and brief.", "vi": "Cảm ơn, tôi sẽ giữ nó chân thành và ngắn gọn." },
+        { "speaker": "a", "en": "Take your time.", "vi": "Bạn cứ từ từ." },
+        { "speaker": "b", "en": "Thank you for this warm welcome.", "vi": "Cảm ơn vì sự chào đón nồng nhiệt này." }
+      ]},
+    { "title": "Chia sẻ thành công cùng đội ngũ", "situation": "Người nhận giải chia sẻ thành công cùng đội ngũ của mình.",
+      "turns": [
+        { "speaker": "a", "en": "This award recognizes your individual achievement.", "vi": "Giải thưởng này ghi nhận thành tựu cá nhân của bạn." },
+        { "speaker": "b", "en": "I want to share the credit with my entire team.", "vi": "Tôi muốn chia sẻ vinh dự này với toàn bộ đội ngũ." },
+        { "speaker": "a", "en": "That is a generous sentiment.", "vi": "Đó là tình cảm hào phóng đấy." },
+        { "speaker": "b", "en": "None of this would exist without them.", "vi": "Không có họ thì không có điều này." },
+        { "speaker": "a", "en": "Would you like to name anyone specifically?", "vi": "Bạn có muốn nhắc tên cụ thể ai không?" },
+        { "speaker": "b", "en": "Yes, I have a few people to thank.", "vi": "Có, tôi có vài người muốn cảm ơn." }
+      ]},
+    { "title": "Ghi nhận sự tin tưởng ban đầu", "situation": "Người nhận giải ghi nhận sự tin tưởng ban đầu dành cho mình.",
+      "turns": [
+        { "speaker": "a", "en": "Who believed in this project from the start?", "vi": "Ai đã tin tưởng vào dự án này ngay từ đầu?" },
+        { "speaker": "b", "en": "My mentor gave me a vote of confidence early on.", "vi": "Người hướng dẫn của tôi đã tin tưởng tôi ngay từ đầu." },
+        { "speaker": "a", "en": "How did that shape your journey?", "vi": "Điều đó đã định hình hành trình của bạn thế nào?" },
+        { "speaker": "b", "en": "It gave me the courage to keep going.", "vi": "Nó cho tôi can đảm để tiếp tục." },
+        { "speaker": "a", "en": "That is a touching acknowledgment.", "vi": "Đó là sự ghi nhận cảm động đấy." },
+        { "speaker": "b", "en": "I will never forget that support.", "vi": "Tôi sẽ không bao giờ quên sự hỗ trợ đó." }
+      ]},
+    { "title": "Nói về sự kiên định qua khó khăn", "situation": "Người nhận giải nói về sự kiên định qua những khó khăn.",
+      "turns": [
+        { "speaker": "a", "en": "This journey was not easy, was it?", "vi": "Hành trình này không dễ dàng phải không?" },
+        { "speaker": "b", "en": "No, but my team remained steadfast throughout.", "vi": "Không, nhưng đội ngũ của tôi vẫn kiên định suốt hành trình." },
+        { "speaker": "a", "en": "What kept everyone going?", "vi": "Điều gì đã giữ mọi người tiếp tục?" },
+        { "speaker": "b", "en": "A shared belief in the mission.", "vi": "Niềm tin chung vào sứ mệnh." },
+        { "speaker": "a", "en": "That dedication clearly paid off.", "vi": "Sự cống hiến đó rõ ràng đã được đền đáp." },
+        { "speaker": "b", "en": "It truly did, in the end.", "vi": "Đúng vậy, cuối cùng đã được đền đáp." }
+      ]},
+    { "title": "Nói về việc ước mơ thành hiện thực", "situation": "Người nhận giải nói về việc ước mơ đã thành hiện thực.",
+      "turns": [
+        { "speaker": "a", "en": "How does it feel to see this come to fruition?", "vi": "Cảm giác thế nào khi thấy điều này thành hiện thực?" },
+        { "speaker": "b", "en": "Surreal, honestly, after so many years.", "vi": "Thật lòng, cảm giác như mơ, sau bao nhiêu năm." },
+        { "speaker": "a", "en": "Did you ever doubt it would happen?", "vi": "Bạn có từng nghi ngờ nó sẽ xảy ra không?" },
+        { "speaker": "b", "en": "There were moments, yes, honestly.", "vi": "Có những lúc như vậy, thật lòng mà nói." },
+        { "speaker": "a", "en": "What kept you moving forward?", "vi": "Điều gì đã giữ bạn tiếp tục tiến lên?" },
+        { "speaker": "b", "en": "The people who never gave up on me.", "vi": "Những người chưa bao giờ từ bỏ tôi." }
+      ]},
+    { "title": "Nhắc nhở về việc không xem nhẹ điều gì", "situation": "Người nhận giải nhắc nhở khán giả không nên xem nhẹ những điều nhỏ.",
+      "turns": [
+        { "speaker": "a", "en": "What advice would you give to young professionals?", "vi": "Bạn có lời khuyên gì cho các bạn trẻ mới đi làm?" },
+        { "speaker": "b", "en": "Never take support for granted.", "vi": "Đừng bao giờ xem nhẹ sự hỗ trợ." },
+        { "speaker": "a", "en": "That is a meaningful reminder.", "vi": "Đó là lời nhắc nhở có ý nghĩa đấy." },
+        { "speaker": "b", "en": "Small acts of kindness carried me far.", "vi": "Những hành động nhỏ tử tế đã đưa tôi đi rất xa." },
+        { "speaker": "a", "en": "I am sure that resonates with many here.", "vi": "Tôi chắc điều đó cộng hưởng với nhiều người ở đây." },
+        { "speaker": "b", "en": "I hope it inspires someone tonight.", "vi": "Tôi hy vọng nó truyền cảm hứng cho ai đó tối nay." }
+      ]},
+    { "title": "Dành tặng giải thưởng cho ai đó đặc biệt", "situation": "Người nhận giải dành tặng giải thưởng cho một người đặc biệt.",
+      "turns": [
+        { "speaker": "a", "en": "Is there someone you would like to dedicate this to?", "vi": "Có ai bạn muốn dành tặng giải thưởng này không?" },
+        { "speaker": "b", "en": "I dedicate this to my late grandmother.", "vi": "Tôi dành tặng điều này cho bà tôi đã mất." },
+        { "speaker": "a", "en": "What did she mean to your journey?", "vi": "Bà có ý nghĩa gì với hành trình của bạn?" },
+        { "speaker": "b", "en": "She taught me to never give up.", "vi": "Bà đã dạy tôi không bao giờ bỏ cuộc." },
+        { "speaker": "a", "en": "A beautiful tribute.", "vi": "Đó là lời tri ân đẹp đẽ đấy." },
+        { "speaker": "b", "en": "I carry her lessons with me always.", "vi": "Tôi luôn mang theo những bài học của bà." }
+      ]},
+    { "title": "Cam kết mang di sản đi tiếp", "situation": "Người nhận giải cam kết mang di sản đi tiếp trong tương lai.",
+      "turns": [
+        { "speaker": "a", "en": "What comes next for you?", "vi": "Tiếp theo bạn sẽ làm gì?" },
+        { "speaker": "b", "en": "I want to carry this mission forward.", "vi": "Tôi muốn mang sứ mệnh này tiến về phía trước." },
+        { "speaker": "a", "en": "In what way specifically?", "vi": "Cụ thể là theo cách nào vậy?" },
+        { "speaker": "b", "en": "Mentoring the next generation of leaders.", "vi": "Kèm cặp thế hệ lãnh đạo tiếp theo." },
+        { "speaker": "a", "en": "That is a fitting way to honor this award.", "vi": "Đó là cách phù hợp để tôn vinh giải thưởng này đấy." },
+        { "speaker": "b", "en": "I hope to make this award proud.", "vi": "Tôi hy vọng làm giải thưởng này tự hào." }
+      ]},
+    { "title": "Kết thúc bài phát biểu với lời cảm ơn chân thành", "situation": "Người nhận giải kết thúc bài phát biểu với lời cảm ơn chân thành.",
+      "turns": [
+        { "speaker": "a", "en": "Any final words before we close?", "vi": "Còn lời nào cuối cùng trước khi kết thúc không?" },
+        { "speaker": "b", "en": "Just a heartfelt thank you to everyone here.", "vi": "Chỉ là lời cảm ơn chân thành tới tất cả mọi người ở đây." },
+        { "speaker": "a", "en": "That was a wonderful speech.", "vi": "Đó là bài phát biểu tuyệt vời đấy." },
+        { "speaker": "b", "en": "Thank you, this moment means everything.", "vi": "Cảm ơn, khoảnh khắc này có ý nghĩa với tôi rất nhiều." },
+        { "speaker": "a", "en": "Congratulations once again.", "vi": "Xin chúc mừng một lần nữa." },
+        { "speaker": "b", "en": "Thank you, truly, from the bottom of my heart.", "vi": "Cảm ơn, thật lòng, từ tận đáy lòng tôi." }
+      ]},
+    { "title": "Bài phát biểu nhận giải phức tạp với nhiều cảm xúc và nhiều người cần được ghi nhận", "situation": "Người nhận giải phải cân bằng nhiều cảm xúc phức tạp và ghi nhận nhiều người quan trọng trong một bài phát biểu ngắn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "This is a career-defining honor, take your time.", "vi": "Đây là vinh dự định hình sự nghiệp, bạn cứ từ từ." },
+        { "speaker": "b", "en": "I am deeply honored, though it is hard to find the right words.", "vi": "Tôi vô cùng vinh dự, dù khó tìm được lời phù hợp." },
+        { "speaker": "a", "en": "Take a moment, we are all here for you.", "vi": "Bạn cứ dành chút thời gian, chúng tôi ở đây vì bạn." },
+        { "speaker": "b", "en": "I want to share the credit with my team, my mentor's vote of confidence, and my family's steadfast support.", "vi": "Tôi muốn chia sẻ vinh dự này với đội ngũ, sự tin tưởng của người hướng dẫn, và sự hỗ trợ kiên định của gia đình." },
+        { "speaker": "a", "en": "That is a lot of gratitude to carry in one moment.", "vi": "Đó là nhiều lòng biết ơn để mang trong một khoảnh khắc đấy." },
+        { "speaker": "b", "en": "It is, but I never want to take any of it for granted, and I will carry this forward for all of them.", "vi": "Đúng vậy, nhưng tôi không bao giờ muốn xem nhẹ bất kỳ điều gì, và tôi sẽ mang nó tiến về phía trước vì tất cả họ." }
+      ]}
+  ]
+}

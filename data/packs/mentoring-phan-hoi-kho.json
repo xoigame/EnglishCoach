@@ -1,0 +1,96 @@
+{
+  "id": "mentoring-phan-hoi-kho",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu bằng sự thẳng thắn", "situation": "Người kèm cặp mở đầu buổi phản hồi bằng sự thẳng thắn.",
+      "turns": [
+        { "speaker": "a", "en": "I want to be candid with you today.", "vi": "Hôm nay tôi muốn thẳng thắn với bạn." },
+        { "speaker": "b", "en": "I appreciate that, please go ahead.", "vi": "Tôi cảm kích điều đó, mời bạn cứ nói." },
+        { "speaker": "a", "en": "Your last presentation missed the mark.", "vi": "Bài thuyết trình gần đây của bạn chưa đạt yêu cầu." },
+        { "speaker": "b", "en": "I suspected that might be the case.", "vi": "Tôi cũng nghi ngờ có thể như vậy." },
+        { "speaker": "a", "en": "Let us talk through what happened.", "vi": "Mình bàn kỹ xem chuyện gì đã xảy ra nhé." },
+        { "speaker": "b", "en": "Yes, I want to understand and improve.", "vi": "Vâng, tôi muốn hiểu và cải thiện." }
+      ]},
+    { "title": "Kiểm tra phản hồi có được tiếp nhận tốt", "situation": "Người kèm cặp kiểm tra xem phản hồi có được tiếp nhận tốt không.",
+      "turns": [
+        { "speaker": "a", "en": "How did that feedback land with you?", "vi": "Phản hồi đó tác động thế nào tới bạn?" },
+        { "speaker": "b", "en": "Honestly, it stung a little at first.", "vi": "Thật lòng, lúc đầu hơi đau lòng một chút." },
+        { "speaker": "a", "en": "That is understandable, thank you for being honest.", "vi": "Vậy cũng dễ hiểu, cảm ơn bạn đã thẳng thắn." },
+        { "speaker": "b", "en": "But I see the value in hearing it.", "vi": "Nhưng tôi thấy giá trị khi nghe được điều đó." },
+        { "speaker": "a", "en": "I did not want you to feel defensive.", "vi": "Tôi không muốn bạn cảm thấy phòng thủ." },
+        { "speaker": "b", "en": "I am trying to stay open to it.", "vi": "Tôi đang cố giữ sự cởi mở với điều đó." }
+      ]},
+    { "title": "Nhân viên phản ứng phòng thủ", "situation": "Nhân viên phản ứng có phần phòng thủ trước phản hồi.",
+      "turns": [
+        { "speaker": "a", "en": "I noticed some inconsistencies in your report.", "vi": "Tôi nhận thấy vài điểm không nhất quán trong báo cáo của bạn." },
+        { "speaker": "b", "en": "Well, I did have limited time to prepare it.", "vi": "À, tôi có ít thời gian để chuẩn bị nó." },
+        { "speaker": "a", "en": "I hear that, but let us focus on the content itself.", "vi": "Tôi hiểu điều đó, nhưng mình tập trung vào nội dung trước đã." },
+        { "speaker": "b", "en": "You are right, I am being a bit defensive.", "vi": "Bạn nói đúng, tôi đang hơi phòng thủ." },
+        { "speaker": "a", "en": "I appreciate you acknowledging that.", "vi": "Tôi cảm kích vì bạn thừa nhận điều đó." },
+        { "speaker": "b", "en": "Let us go through it together.", "vi": "Mình cùng xem lại nhé." }
+      ]},
+    { "title": "Xác định điểm mù của bản thân", "situation": "Người kèm cặp giúp nhân viên xác định điểm mù của bản thân.",
+      "turns": [
+        { "speaker": "a", "en": "I think this might be a blind spot for you.", "vi": "Tôi nghĩ đây có thể là điểm mù của bạn." },
+        { "speaker": "b", "en": "What makes you say that?", "vi": "Vì sao bạn nói vậy?" },
+        { "speaker": "a", "en": "You tend to skip stakeholder input.", "vi": "Bạn có xu hướng bỏ qua ý kiến các bên liên quan." },
+        { "speaker": "b", "en": "I had not noticed that pattern before.", "vi": "Trước đây tôi chưa nhận ra xu hướng đó." },
+        { "speaker": "a", "en": "It is worth paying attention to.", "vi": "Điều đó đáng để chú ý đấy." },
+        { "speaker": "b", "en": "Thank you for pointing it out.", "vi": "Cảm ơn bạn đã chỉ ra điều đó." }
+      ]},
+    { "title": "Đề xuất bước cụ thể tiếp theo", "situation": "Người kèm cặp đề xuất bước cụ thể tiếp theo để cải thiện.",
+      "turns": [
+        { "speaker": "a", "en": "Let us define a concrete next step.", "vi": "Mình xác định một bước cụ thể tiếp theo nhé." },
+        { "speaker": "b", "en": "That would help me a lot.", "vi": "Vậy sẽ giúp ích tôi nhiều lắm." },
+        { "speaker": "a", "en": "Start by involving stakeholders earlier next time.", "vi": "Bắt đầu bằng cách để các bên liên quan tham gia sớm hơn lần tới." },
+        { "speaker": "b", "en": "I will schedule that into my process.", "vi": "Tôi sẽ đưa việc đó vào quy trình của mình." },
+        { "speaker": "a", "en": "That is a practical action.", "vi": "Đó là hành động thực tế đấy." },
+        { "speaker": "b", "en": "I will report back on progress.", "vi": "Tôi sẽ báo cáo lại tiến độ." }
+      ]},
+    { "title": "Khôi phục lòng tin sau sai sót", "situation": "Người kèm cặp giúp nhân viên khôi phục lòng tin sau sai sót.",
+      "turns": [
+        { "speaker": "a", "en": "How do you plan to rebuild trust with the team?", "vi": "Bạn dự định khôi phục lòng tin với nhóm thế nào?" },
+        { "speaker": "b", "en": "I will apologize and explain what I have learned.", "vi": "Tôi sẽ xin lỗi và giải thích điều tôi đã học được." },
+        { "speaker": "a", "en": "That is a good first step.", "vi": "Đó là bước đầu tốt đấy." },
+        { "speaker": "b", "en": "I also want to show consistent improvement.", "vi": "Tôi cũng muốn thể hiện sự cải thiện liên tục." },
+        { "speaker": "a", "en": "Actions will speak louder than words here.", "vi": "Ở đây hành động sẽ nói lên nhiều hơn lời nói." },
+        { "speaker": "b", "en": "I understand, I am committed to that.", "vi": "Tôi hiểu, tôi cam kết với điều đó." }
+      ]},
+    { "title": "Nhân viên chủ động nhận trách nhiệm", "situation": "Nhân viên chủ động nhận trách nhiệm trong buổi phản hồi.",
+      "turns": [
+        { "speaker": "a", "en": "How do you see your role in this outcome?", "vi": "Bạn thấy vai trò của mình trong kết quả này thế nào?" },
+        { "speaker": "b", "en": "I take ownership of the missed details.", "vi": "Tôi xin nhận trách nhiệm về các chi tiết bị bỏ sót." },
+        { "speaker": "a", "en": "That is a mature response.", "vi": "Đó là phản ứng trưởng thành đấy." },
+        { "speaker": "b", "en": "I want to learn from this, not repeat it.", "vi": "Tôi muốn học từ điều này, không lặp lại nó." },
+        { "speaker": "a", "en": "That mindset will serve you well.", "vi": "Tư duy đó sẽ giúp ích cho bạn rất nhiều." },
+        { "speaker": "b", "en": "Thank you for guiding me through it.", "vi": "Cảm ơn bạn đã hướng dẫn tôi qua việc này." }
+      ]},
+    { "title": "Phản hồi mang tính xây dựng nhưng cụ thể", "situation": "Người kèm cặp đưa ra phản hồi xây dựng nhưng rất cụ thể.",
+      "turns": [
+        { "speaker": "a", "en": "I want this feedback to be constructive, not just critical.", "vi": "Tôi muốn phản hồi này mang tính xây dựng, không chỉ chỉ trích." },
+        { "speaker": "b", "en": "I appreciate that intention.", "vi": "Tôi cảm kích ý định đó." },
+        { "speaker": "a", "en": "Specifically, your data was solid, but the narrative was unclear.", "vi": "Cụ thể, dữ liệu của bạn vững, nhưng mạch trình bày lại không rõ ràng." },
+        { "speaker": "b", "en": "That is helpful and specific, thank you.", "vi": "Vậy hữu ích và cụ thể, cảm ơn bạn." },
+        { "speaker": "a", "en": "Let us work on structuring your next one.", "vi": "Mình cùng xây dựng cấu trúc cho bài tiếp theo nhé." },
+        { "speaker": "b", "en": "I would really value that.", "vi": "Tôi thật sự trân trọng điều đó." }
+      ]},
+    { "title": "Kết thúc buổi kèm cặp với sự tin tưởng", "situation": "Buổi kèm cặp kết thúc với sự tin tưởng được củng cố.",
+      "turns": [
+        { "speaker": "a", "en": "How are you feeling after this conversation?", "vi": "Bạn cảm thấy thế nào sau cuộc trò chuyện này?" },
+        { "speaker": "b", "en": "Better than I expected, honestly.", "vi": "Thật lòng, tốt hơn tôi mong đợi." },
+        { "speaker": "a", "en": "I am glad the feedback landed well.", "vi": "Tôi vui vì phản hồi đã được tiếp nhận tốt." },
+        { "speaker": "b", "en": "It did, and I feel motivated to improve.", "vi": "Đúng vậy, và tôi cảm thấy có động lực để cải thiện." },
+        { "speaker": "a", "en": "That is exactly what I hoped for.", "vi": "Đó chính xác là điều tôi mong đợi." },
+        { "speaker": "b", "en": "Thank you for your patience and honesty.", "vi": "Cảm ơn bạn đã kiên nhẫn và thẳng thắn." }
+      ]},
+    { "title": "Buổi phản hồi khó với nhiều lớp cảm xúc và cần khôi phục lòng tin sâu sắc", "situation": "Người kèm cặp phải đưa ra phản hồi rất khó liên quan đến nhiều lớp cảm xúc và cần khôi phục lòng tin sâu sắc trong nhóm. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need to be candid: your decision affected the whole team's trust in you.", "vi": "Tôi cần thẳng thắn: quyết định của bạn đã ảnh hưởng đến lòng tin của cả nhóm với bạn." },
+        { "speaker": "b", "en": "That is hard to hear, but I understand why.", "vi": "Nghe điều đó khó khăn, nhưng tôi hiểu vì sao." },
+        { "speaker": "a", "en": "I do not say this to make you defensive, but to help you see the blind spot.", "vi": "Tôi nói điều này không phải để bạn phòng thủ, mà để giúp bạn thấy điểm mù của mình." },
+        { "speaker": "b", "en": "I acknowledge it, I acted without consulting anyone.", "vi": "Tôi thừa nhận, tôi đã hành động mà không hỏi ý kiến ai." },
+        { "speaker": "a", "en": "What concrete next step will help rebuild that trust?", "vi": "Bước cụ thể tiếp theo nào sẽ giúp khôi phục lòng tin đó?" },
+        { "speaker": "b", "en": "I will take ownership publicly and involve the team in every decision going forward.", "vi": "Tôi sẽ công khai nhận trách nhiệm và để nhóm tham gia vào mọi quyết định từ giờ trở đi." }
+      ]}
+  ]
+}

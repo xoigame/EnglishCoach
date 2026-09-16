@@ -1,0 +1,96 @@
+{
+  "id": "hai-huoc-va-am-chi",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Nhận ra sự châm biếm nhẹ", "situation": "Đồng nghiệp người Anh châm biếm nhẹ sau buổi thuyết trình.",
+      "turns": [
+        { "speaker": "a", "en": "Well, that presentation was certainly... memorable.", "vi": "À, buổi thuyết trình đó chắc chắn là... khó quên." },
+        { "speaker": "b", "en": "Is that sarcastic or a genuine compliment?", "vi": "Vậy là mỉa mai hay khen thật vậy?" },
+        { "speaker": "a", "en": "A bit of both, honestly.", "vi": "Thật lòng thì cả hai một chút." },
+        { "speaker": "b", "en": "Fair enough, it was a bit rough.", "vi": "Cũng hợp lý, nó hơi lộn xộn thật." },
+        { "speaker": "a", "en": "We will laugh about it later.", "vi": "Sau này mình sẽ cười về nó thôi." },
+        { "speaker": "b", "en": "I appreciate the honesty, deadpan or not.", "vi": "Tôi trân trọng sự thẳng thắn, dù có tỉnh queo hay không." }
+      ]},
+    { "title": "Hiểu understatement kiểu Anh", "situation": "Đồng nghiệp dùng understatement kiểu Anh sau một sự cố lớn.",
+      "turns": [
+        { "speaker": "a", "en": "That was a bit of a hiccup with the client.", "vi": "Đó chỉ là một trục trặc nhỏ với khách hàng thôi." },
+        { "speaker": "b", "en": "A hiccup? The whole deal nearly fell through.", "vi": "Trục trặc nhỏ? Cả thương vụ suýt đổ bể rồi mà." },
+        { "speaker": "a", "en": "That is the British understatement for you.", "vi": "Đó là kiểu nói giảm nói tránh của người Anh mà." },
+        { "speaker": "b", "en": "I am learning to read between the lines.", "vi": "Tôi đang học cách đọc hàm ý ẩn giấu." },
+        { "speaker": "a", "en": "You are getting the hang of it.", "vi": "Bạn đang dần quen với nó rồi đấy." },
+        { "speaker": "b", "en": "Slowly, but surely.", "vi": "Từ từ, nhưng chắc chắn." }
+      ]},
+    { "title": "Phân biệt lời khen mỉa mai", "situation": "Đồng nghiệp đưa ra một lời khen có phần mỉa mai.",
+      "turns": [
+        { "speaker": "a", "en": "You certainly know how to fill a silence.", "vi": "Bạn chắc chắn biết cách lấp đầy sự im lặng đấy." },
+        { "speaker": "b", "en": "Is that a backhanded compliment?", "vi": "Đó là lời khen kèm mỉa mai à?" },
+        { "speaker": "a", "en": "Perhaps a little, yes.", "vi": "Có lẽ một chút, đúng vậy." },
+        { "speaker": "b", "en": "I will take it as a compliment regardless.", "vi": "Dù sao tôi cũng sẽ coi đó là lời khen." },
+        { "speaker": "a", "en": "That is the right attitude.", "vi": "Đó là thái độ đúng đắn đấy." },
+        { "speaker": "b", "en": "I am learning not to take everything at face value.", "vi": "Tôi đang học cách không nhìn nhận mọi thứ theo nghĩa đen." }
+      ]},
+    { "title": "Giải thích uyển ngữ", "situation": "Đồng nghiệp giải thích một uyển ngữ trong công sở.",
+      "turns": [
+        { "speaker": "a", "en": "The manager called it a 'restructuring opportunity'.", "vi": "Quản lý gọi đó là một 'cơ hội tái cấu trúc'." },
+        { "speaker": "b", "en": "That sounds like a euphemism for layoffs.", "vi": "Nghe có vẻ là uyển ngữ cho việc sa thải." },
+        { "speaker": "a", "en": "Exactly what I thought too.", "vi": "Chính xác là điều tôi cũng nghĩ." },
+        { "speaker": "b", "en": "Corporate language loves softening bad news.", "vi": "Ngôn ngữ doanh nghiệp thích làm mềm tin xấu." },
+        { "speaker": "a", "en": "It takes practice to decode it.", "vi": "Cần luyện tập để giải mã nó." },
+        { "speaker": "b", "en": "I am slowly picking it up.", "vi": "Tôi đang dần nắm bắt được." }
+      ]},
+    { "title": "Đọc không khí phòng họp", "situation": "Đồng nghiệp nhắc nhở về việc đọc không khí phòng họp.",
+      "turns": [
+        { "speaker": "a", "en": "I was about to make a joke there.", "vi": "Lúc đó tôi định pha trò đấy." },
+        { "speaker": "b", "en": "Good thing you read the room first.", "vi": "May mà bạn đọc được không khí trước." },
+        { "speaker": "a", "en": "It did not feel like the right moment.", "vi": "Cảm thấy không phải lúc thích hợp." },
+        { "speaker": "b", "en": "The client seemed quite tense, honestly.", "vi": "Thật lòng khách hàng có vẻ khá căng thẳng." },
+        { "speaker": "a", "en": "Timing really matters with humor.", "vi": "Thời điểm thực sự quan trọng với hài hước." },
+        { "speaker": "b", "en": "You are learning fast.", "vi": "Bạn đang học nhanh đấy." }
+      ]},
+    { "title": "Không chắc có phải nói đùa không", "situation": "Người học không chắc đồng nghiệp có đang nói đùa hay không.",
+      "turns": [
+        { "speaker": "a", "en": "Not exactly our finest hour, was it?", "vi": "Không hẳn là giờ phút đẹp nhất của chúng ta nhỉ?" },
+        { "speaker": "b", "en": "Wait, are you being serious or joking?", "vi": "Khoan, bạn đang nghiêm túc hay đùa vậy?" },
+        { "speaker": "a", "en": "A bit of dry humor, honestly.", "vi": "Thật lòng thì hài hước khô một chút thôi." },
+        { "speaker": "b", "en": "Your deadpan delivery gets me every time.", "vi": "Cách nói tỉnh queo của bạn lần nào cũng làm tôi bối rối." },
+        { "speaker": "a", "en": "That is half the fun of it.", "vi": "Đó là một nửa cái thú vị của nó đấy." },
+        { "speaker": "b", "en": "I am slowly catching on.", "vi": "Tôi đang dần bắt kịp." }
+      ]},
+    { "title": "Ứng phó khéo léo với sự châm biếm", "situation": "Người học ứng phó khéo léo với sự châm biếm của đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "Nice save on that question, by the way.", "vi": "Nhân tiện, xử lý câu hỏi đó khéo đấy." },
+        { "speaker": "b", "en": "I sensed a hint of sarcasm there.", "vi": "Tôi cảm nhận có chút mỉa mai ở đó đấy." },
+        { "speaker": "a", "en": "Only a small hint, I promise.", "vi": "Tôi hứa chỉ một chút thôi." },
+        { "speaker": "b", "en": "I will choose to be diplomatic about it.", "vi": "Tôi sẽ chọn cách khéo léo về việc đó." },
+        { "speaker": "a", "en": "That is a very British response.", "vi": "Đó là phản ứng rất kiểu Anh đấy." },
+        { "speaker": "b", "en": "I am adapting quickly, it seems.", "vi": "Có vẻ tôi đang thích nghi nhanh chóng." }
+      ]},
+    { "title": "Cân nhắc trước khi tin lời ai đó", "situation": "Người học cân nhắc trước khi tin lời của đồng nghiệp.",
+      "turns": [
+        { "speaker": "a", "en": "The client loved it, apparently.", "vi": "Rõ ràng khách hàng thích nó đấy." },
+        { "speaker": "b", "en": "Should I take that at face value?", "vi": "Tôi có nên tin điều đó theo nghĩa đen không?" },
+        { "speaker": "a", "en": "Probably not entirely, knowing them.", "vi": "Biết họ rồi thì có lẽ không hẳn." },
+        { "speaker": "b", "en": "That is a diplomatic way of saying they hated it.", "vi": "Đó là cách nói khéo léo rằng họ ghét nó." },
+        { "speaker": "a", "en": "You are catching on quickly.", "vi": "Bạn đang bắt kịp nhanh đấy." },
+        { "speaker": "b", "en": "Context really is everything here.", "vi": "Ngữ cảnh thực sự là tất cả ở đây." }
+      ]},
+    { "title": "Đùa cợt thân mật sau khi hoàn thành công việc", "situation": "Hai đồng nghiệp đùa cợt thân mật sau khi hoàn thành công việc tốt.",
+      "turns": [
+        { "speaker": "a", "en": "Well, we somehow survived that presentation.", "vi": "À, kiểu gì mình cũng sống sót qua bài thuyết trình đó." },
+        { "speaker": "b", "en": "Barely, but we did warm up to it eventually.", "vi": "Suýt thì không, nhưng cuối cùng mình cũng dần vào phong độ." },
+        { "speaker": "a", "en": "You could say it was a triumph, of sorts.", "vi": "Bạn có thể nói đó là một chiến thắng, kiểu vậy." },
+        { "speaker": "b", "en": "Very generous understatement there.", "vi": "Nói giảm nói tránh khá hào phóng đấy." },
+        { "speaker": "a", "en": "I try my best.", "vi": "Tôi cố gắng hết sức mà." },
+        { "speaker": "b", "en": "Pub after this one, I think.", "vi": "Tôi nghĩ xong việc này thì đi quán bar nhé." }
+      ]},
+    { "title": "Giải mã hài hước và ám chỉ phức tạp trong một cuộc trò chuyện dài nhiều lớp nghĩa", "situation": "Người học phải giải mã nhiều lớp hài hước, ám chỉ, và uyển ngữ trong một cuộc trò chuyện dài với đồng nghiệp người Anh. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Well, the client seemed 'quite pleased', shall we say.", "vi": "À, có thể nói là khách hàng có vẻ 'khá hài lòng'." },
+        { "speaker": "b", "en": "That understatement worries me more than if you had just said they hated it.", "vi": "Cách nói giảm nói tránh đó khiến tôi lo hơn là nếu bạn nói thẳng họ ghét nó." },
+        { "speaker": "a", "en": "You are reading the room correctly, for once.", "vi": "Lần này bạn đọc đúng không khí rồi đấy." },
+        { "speaker": "b", "en": "Was that a backhanded compliment or a genuine one?", "vi": "Đó là lời khen kèm mỉa mai hay khen thật vậy?" },
+        { "speaker": "a", "en": "I will let you decide, deadpan as always.", "vi": "Tôi để bạn tự quyết định, vẫn tỉnh queo như mọi khi." },
+        { "speaker": "b", "en": "I am learning never to take your comments entirely at face value.", "vi": "Tôi đang học không bao giờ tin lời bạn hoàn toàn theo nghĩa đen." }
+      ]}
+  ]
+}

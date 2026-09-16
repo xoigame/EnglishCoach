@@ -1,0 +1,96 @@
+{
+  "id": "thuyet-trinh-truoc-ban-lanh-dao",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu bằng lập luận thuyết phục", "situation": "Người trình bày mở đầu đề xuất bằng lập luận thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "Let us hear your proposal.", "vi": "Mời bạn trình bày đề xuất." },
+        { "speaker": "b", "en": "I want to make a compelling case for this investment.", "vi": "Tôi muốn đưa ra lập luận thuyết phục cho khoản đầu tư này." },
+        { "speaker": "a", "en": "What is the strategic rationale?", "vi": "Cơ sở chiến lược là gì vậy?" },
+        { "speaker": "b", "en": "It positions us ahead of emerging competitors.", "vi": "Nó giúp chúng ta đi trước các đối thủ mới nổi." },
+        { "speaker": "a", "en": "That is a strong opening point.", "vi": "Đó là điểm mở đầu mạnh mẽ đấy." },
+        { "speaker": "b", "en": "Thank you, I will elaborate further.", "vi": "Cảm ơn, tôi sẽ trình bày chi tiết hơn." }
+      ]},
+    { "title": "Giải thích lợi tức kỳ vọng", "situation": "Người trình bày giải thích lợi tức kỳ vọng của đề xuất.",
+      "turns": [
+        { "speaker": "a", "en": "What is the anticipated return here?", "vi": "Lợi tức kỳ vọng ở đây là gì vậy?" },
+        { "speaker": "b", "en": "We project a twenty percent return within two years.", "vi": "Chúng tôi dự kiến lợi tức hai mươi phần trăm trong hai năm." },
+        { "speaker": "a", "en": "What assumptions support that figure?", "vi": "Giả định nào hỗ trợ con số đó?" },
+        { "speaker": "b", "en": "Conservative market growth and stable costs.", "vi": "Tăng trưởng thị trường thận trọng và chi phí ổn định." },
+        { "speaker": "a", "en": "That seems reasonably grounded.", "vi": "Vậy có vẻ có cơ sở hợp lý đấy." },
+        { "speaker": "b", "en": "We stress-tested it against downturns too.", "vi": "Chúng tôi cũng đã kiểm tra khả năng chịu đựng khi thị trường suy giảm." }
+      ]},
+    { "title": "Đề cập đến rủi ro và cách giảm thiểu", "situation": "Ban lãnh đạo hỏi về rủi ro và cách giảm thiểu.",
+      "turns": [
+        { "speaker": "a", "en": "How do you plan to mitigate risk?", "vi": "Bạn dự định giảm thiểu rủi ro thế nào?" },
+        { "speaker": "b", "en": "Through a phased rollout rather than a full launch.", "vi": "Thông qua triển khai theo giai đoạn thay vì ra mắt toàn bộ." },
+        { "speaker": "a", "en": "What happens if phase one underperforms?", "vi": "Nếu giai đoạn một không đạt hiệu quả thì sao?" },
+        { "speaker": "b", "en": "We pause and reassess before scaling further.", "vi": "Chúng tôi sẽ tạm dừng và đánh giá lại trước khi mở rộng thêm." },
+        { "speaker": "a", "en": "That is a prudent safeguard.", "vi": "Đó là biện pháp bảo vệ thận trọng đấy." },
+        { "speaker": "b", "en": "We wanted to build in flexibility.", "vi": "Chúng tôi muốn xây dựng sự linh hoạt vào đó." }
+      ]},
+    { "title": "Thảo luận về phân bổ nguồn lực", "situation": "Ban lãnh đạo hỏi về việc phân bổ nguồn lực cho dự án.",
+      "turns": [
+        { "speaker": "a", "en": "What resource allocation does this require?", "vi": "Việc này cần phân bổ nguồn lực thế nào?" },
+        { "speaker": "b", "en": "Three engineers and one product manager, initially.", "vi": "Ban đầu là ba kỹ sư và một quản lý sản phẩm." },
+        { "speaker": "a", "en": "Would that pull resources from other projects?", "vi": "Điều đó có rút nguồn lực từ các dự án khác không?" },
+        { "speaker": "b", "en": "Minimally, we have accounted for that trade-off.", "vi": "Rất ít, chúng tôi đã tính đến sự đánh đổi đó." },
+        { "speaker": "a", "en": "Good, that shows careful planning.", "vi": "Tốt, vậy cho thấy sự lên kế hoạch cẩn thận." },
+        { "speaker": "b", "en": "We wanted to avoid overcommitting the team.", "vi": "Chúng tôi muốn tránh làm nhóm quá tải." }
+      ]},
+    { "title": "Xác định kết quả có thể đo lường", "situation": "Ban lãnh đạo yêu cầu kết quả có thể đo lường được.",
+      "turns": [
+        { "speaker": "a", "en": "What measurable outcome will define success?", "vi": "Kết quả đo lường được nào sẽ xác định thành công?" },
+        { "speaker": "b", "en": "A ten percent increase in customer retention.", "vi": "Tăng mười phần trăm tỷ lệ giữ chân khách hàng." },
+        { "speaker": "a", "en": "By what timeframe?", "vi": "Trong khung thời gian nào vậy?" },
+        { "speaker": "b", "en": "Within the first two quarters.", "vi": "Trong hai quý đầu tiên." },
+        { "speaker": "a", "en": "That gives us a clear benchmark.", "vi": "Vậy cho chúng ta một mốc rõ ràng." },
+        { "speaker": "b", "en": "We will report progress monthly.", "vi": "Chúng tôi sẽ báo cáo tiến độ hàng tháng." }
+      ]},
+    { "title": "Giải quyết mối lo ngại từ ban lãnh đạo", "situation": "Người trình bày giải quyết một mối lo ngại cụ thể từ ban lãnh đạo.",
+      "turns": [
+        { "speaker": "a", "en": "I want to address a concern before we proceed.", "vi": "Tôi muốn giải quyết một mối lo ngại trước khi tiếp tục." },
+        { "speaker": "b", "en": "Of course, please share it.", "vi": "Được, mời anh/chị chia sẻ." },
+        { "speaker": "a", "en": "This overlaps with an existing initiative.", "vi": "Việc này trùng lặp với một sáng kiến hiện tại." },
+        { "speaker": "b", "en": "We have coordinated with that team already.", "vi": "Chúng tôi đã phối hợp với nhóm đó rồi." },
+        { "speaker": "a", "en": "That addresses my concern well.", "vi": "Điều đó giải quyết tốt mối lo ngại của tôi." },
+        { "speaker": "b", "en": "We wanted to avoid duplicated effort.", "vi": "Chúng tôi muốn tránh trùng lặp công sức." }
+      ]},
+    { "title": "Bảo vệ đề xuất trước sự hoài nghi", "situation": "Người trình bày bảo vệ đề xuất trước sự hoài nghi của giám đốc điều hành.",
+      "turns": [
+        { "speaker": "a", "en": "Frankly, I remain skeptical about the timeline.", "vi": "Thẳng thắn mà nói, tôi vẫn hoài nghi về tiến độ." },
+        { "speaker": "b", "en": "That is a fair concern, let me clarify.", "vi": "Đó là mối lo ngại hợp lý, để tôi làm rõ." },
+        { "speaker": "a", "en": "Please do, I need more confidence.", "vi": "Mời anh/chị nói rõ, tôi cần thêm sự tin tưởng." },
+        { "speaker": "b", "en": "We built in a buffer for unforeseen delays.", "vi": "Chúng tôi đã dự phòng thời gian cho các trễ hạn không lường trước." },
+        { "speaker": "a", "en": "That reassures me somewhat.", "vi": "Điều đó phần nào làm tôi yên tâm hơn." },
+        { "speaker": "b", "en": "We would rather under-promise than overreach.", "vi": "Chúng tôi thà hứa ít hơn còn hơn là vượt quá khả năng." }
+      ]},
+    { "title": "Thương lượng về phạm vi đề xuất", "situation": "Ban lãnh đạo muốn thu hẹp phạm vi đề xuất.",
+      "turns": [
+        { "speaker": "a", "en": "Could we scale this down initially?", "vi": "Ban đầu mình có thể thu nhỏ quy mô cái này không?" },
+        { "speaker": "b", "en": "We could start with a single market as a trade-off.", "vi": "Chúng tôi có thể bắt đầu với một thị trường như một sự đánh đổi." },
+        { "speaker": "a", "en": "What would we lose by narrowing scope?", "vi": "Thu hẹp phạm vi thì chúng ta mất gì?" },
+        { "speaker": "b", "en": "Slower overall growth, but lower initial risk.", "vi": "Tăng trưởng tổng thể chậm hơn, nhưng rủi ro ban đầu thấp hơn." },
+        { "speaker": "a", "en": "That trade-off seems acceptable for now.", "vi": "Sự đánh đổi đó có vẻ chấp nhận được lúc này." },
+        { "speaker": "b", "en": "I will revise the proposal accordingly.", "vi": "Tôi sẽ chỉnh sửa đề xuất theo đó." }
+      ]},
+    { "title": "Ban lãnh đạo chuẩn thuận đề xuất", "situation": "Ban lãnh đạo chuẩn thuận đề xuất sau khi được thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "I am prepared to endorse the proposal.", "vi": "Tôi sẵn sàng chuẩn thuận đề xuất này." },
+        { "speaker": "b", "en": "Thank you, that means a great deal.", "vi": "Cảm ơn, điều đó có ý nghĩa rất lớn." },
+        { "speaker": "a", "en": "I will expect regular progress updates.", "vi": "Tôi mong nhận được cập nhật tiến độ thường xuyên." },
+        { "speaker": "b", "en": "Absolutely, I will schedule monthly reviews.", "vi": "Chắc chắn rồi, tôi sẽ lên lịch đánh giá hàng tháng." },
+        { "speaker": "a", "en": "I look forward to seeing the results.", "vi": "Tôi mong được thấy kết quả." },
+        { "speaker": "b", "en": "We will not disappoint the board.", "vi": "Chúng tôi sẽ không làm ban lãnh đạo thất vọng." }
+      ]},
+    { "title": "Bảo vệ đề xuất phức tạp trước nhiều câu hỏi phản biện gay gắt từ ban lãnh đạo", "situation": "Người trình bày phải bảo vệ đề xuất trước nhiều câu hỏi phản biện gay gắt liên tiếp từ ban lãnh đạo. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The anticipated return seems optimistic given market conditions.", "vi": "Lợi tức kỳ vọng có vẻ lạc quan quá so với tình hình thị trường." },
+        { "speaker": "b", "en": "We deliberately used conservative assumptions to make a compelling but realistic case.", "vi": "Chúng tôi đã cố tình dùng giả định thận trọng để có lập luận thuyết phục nhưng thực tế." },
+        { "speaker": "a", "en": "And if the phased rollout still fails to hit targets?", "vi": "Nếu triển khai theo giai đoạn vẫn không đạt mục tiêu thì sao?" },
+        { "speaker": "b", "en": "We have a contingency plan to reallocate resources and adjust scope.", "vi": "Chúng tôi có kế hoạch dự phòng để tái phân bổ nguồn lực và điều chỉnh phạm vi." },
+        { "speaker": "a", "en": "That addresses my concern, but I want measurable checkpoints.", "vi": "Điều đó giải quyết mối lo ngại của tôi, nhưng tôi muốn các mốc kiểm tra đo lường được." },
+        { "speaker": "b", "en": "We will define clear, measurable outcomes at each phase for your review.", "vi": "Chúng tôi sẽ xác định kết quả đo lường rõ ràng ở mỗi giai đoạn để ban lãnh đạo xem xét." }
+      ]}
+  ]
+}

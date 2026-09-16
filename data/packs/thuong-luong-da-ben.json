@@ -1,0 +1,96 @@
+{
+  "id": "thuong-luong-da-ben",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Thống nhất ưu tiên giữa các bộ phận", "situation": "Người điều phối thống nhất ưu tiên giữa Sản phẩm, Tài chính và Chăm sóc khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "Product wants faster delivery, Finance wants lower cost.", "vi": "Sản phẩm muốn giao nhanh hơn, Tài chính muốn chi phí thấp hơn." },
+        { "speaker": "b", "en": "Let us align on priorities before deciding.", "vi": "Mình thống nhất ưu tiên trước khi quyết định nhé." },
+        { "speaker": "a", "en": "Customer Support insists on quality above all.", "vi": "Chăm sóc khách hàng khăng khăng chất lượng là trên hết." },
+        { "speaker": "b", "en": "All three are valid, but we need a trade-off.", "vi": "Cả ba đều hợp lý, nhưng chúng ta cần một sự đánh đổi." },
+        { "speaker": "a", "en": "What would you propose as a middle ground?", "vi": "Bạn đề xuất điểm giữa nào vậy?" },
+        { "speaker": "b", "en": "A phased rollout that balances all three concerns.", "vi": "Triển khai theo giai đoạn để cân bằng cả ba mối quan tâm." }
+      ]},
+    { "title": "Xác định điều không thể thương lượng", "situation": "Một bộ phận xác định điều kiện không thể thương lượng.",
+      "turns": [
+        { "speaker": "a", "en": "Finance considers the budget ceiling non-negotiable.", "vi": "Tài chính coi hạn mức ngân sách là điều không thể thương lượng." },
+        { "speaker": "b", "en": "Understood, let us work within that constraint.", "vi": "Tôi hiểu rồi, mình làm việc trong giới hạn đó nhé." },
+        { "speaker": "a", "en": "Product still needs additional headcount though.", "vi": "Tuy nhiên Sản phẩm vẫn cần thêm nhân sự." },
+        { "speaker": "b", "en": "Could that come from a different budget line?", "vi": "Cái đó có thể lấy từ khoản ngân sách khác không?" },
+        { "speaker": "a", "en": "Possibly, if we ring-fence funds elsewhere.", "vi": "Có thể, nếu mình khoanh vùng ngân sách ở chỗ khác." },
+        { "speaker": "b", "en": "Let us explore that option further.", "vi": "Mình tìm hiểu thêm lựa chọn đó nhé." }
+      ]},
+    { "title": "Đưa ra lập luận cho một bộ phận", "situation": "Người điều phối đưa ra lập luận thay mặt cho Chăm sóc khách hàng.",
+      "turns": [
+        { "speaker": "a", "en": "I want to make the case for Customer Support's position.", "vi": "Tôi muốn đưa ra lập luận cho lập trường của Chăm sóc khách hàng." },
+        { "speaker": "b", "en": "Go ahead, we are listening.", "vi": "Bạn cứ trình bày, chúng tôi đang nghe." },
+        { "speaker": "a", "en": "Rushing this risks a spike in complaints.", "vi": "Vội vàng việc này có nguy cơ khiếu nại tăng vọt." },
+        { "speaker": "b", "en": "That is a legitimate concern.", "vi": "Đó là mối lo ngại chính đáng đấy." },
+        { "speaker": "a", "en": "We should safeguard quality even if it slows things down.", "vi": "Chúng ta nên bảo vệ chất lượng dù có làm chậm tiến độ." },
+        { "speaker": "b", "en": "Let us factor that into the timeline.", "vi": "Mình tính điều đó vào tiến độ nhé." }
+      ]},
+    { "title": "Xác định điểm nghẽn giữa các bên", "situation": "Người điều phối xác định điểm nghẽn giữa các bộ phận.",
+      "turns": [
+        { "speaker": "a", "en": "What is the actual bottleneck here?", "vi": "Điểm nghẽn thực sự ở đây là gì?" },
+        { "speaker": "b", "en": "Finance approval is taking too long.", "vi": "Việc phê duyệt của Tài chính đang mất quá nhiều thời gian." },
+        { "speaker": "a", "en": "Could we streamline that process?", "vi": "Mình có thể tinh gọn quy trình đó không?" },
+        { "speaker": "b", "en": "Yes, with a pre-approved budget range.", "vi": "Được, với một khoảng ngân sách được duyệt trước." },
+        { "speaker": "a", "en": "That would remove the bottleneck.", "vi": "Vậy sẽ loại bỏ điểm nghẽn đó." },
+        { "speaker": "b", "en": "I will propose that to Finance.", "vi": "Tôi sẽ đề xuất điều đó với Tài chính." }
+      ]},
+    { "title": "Thảo luận về nhượng bộ", "situation": "Các bên thảo luận về việc nhượng bộ lẫn nhau.",
+      "turns": [
+        { "speaker": "a", "en": "Product is willing to make a concession on timeline.", "vi": "Sản phẩm sẵn sàng nhượng bộ về tiến độ." },
+        { "speaker": "b", "en": "What would Product expect in return?", "vi": "Vậy Sản phẩm mong đợi gì đổi lại?" },
+        { "speaker": "a", "en": "A guarantee of the requested headcount.", "vi": "Một cam kết về số lượng nhân sự yêu cầu." },
+        { "speaker": "b", "en": "Finance could agree to that, within limits.", "vi": "Tài chính có thể đồng ý với điều đó, trong giới hạn nhất định." },
+        { "speaker": "a", "en": "That sounds like a fair exchange.", "vi": "Nghe có vẻ là sự trao đổi công bằng đấy." },
+        { "speaker": "b", "en": "Let us formalize this agreement.", "vi": "Mình chính thức hóa thỏa thuận này nhé." }
+      ]},
+    { "title": "Bảo vệ lợi ích của một nhóm", "situation": "Đại diện Chăm sóc khách hàng bảo vệ lợi ích của nhóm mình.",
+      "turns": [
+        { "speaker": "a", "en": "We need to safeguard the support team's workload.", "vi": "Chúng ta cần bảo vệ khối lượng công việc của đội hỗ trợ." },
+        { "speaker": "b", "en": "What specifically concerns you?", "vi": "Cụ thể điều gì khiến bạn lo ngại?" },
+        { "speaker": "a", "en": "This change could double their ticket volume.", "vi": "Thay đổi này có thể tăng gấp đôi số lượng phiếu hỗ trợ." },
+        { "speaker": "b", "en": "That is a valid trade-off to consider.", "vi": "Đó là sự đánh đổi hợp lý cần cân nhắc." },
+        { "speaker": "a", "en": "Could we add temporary support staff?", "vi": "Mình có thể thêm nhân viên hỗ trợ tạm thời không?" },
+        { "speaker": "b", "en": "Let us budget for that contingency.", "vi": "Mình dự trù ngân sách cho phương án đó nhé." }
+      ]},
+    { "title": "Đàm phán về phạm vi triển khai", "situation": "Các bên đàm phán về phạm vi triển khai theo giai đoạn.",
+      "turns": [
+        { "speaker": "a", "en": "Should this be a full launch or phased rollout?", "vi": "Cái này nên ra mắt toàn bộ hay triển khai theo giai đoạn?" },
+        { "speaker": "b", "en": "A phased rollout reduces risk for all departments.", "vi": "Triển khai theo giai đoạn giảm rủi ro cho tất cả bộ phận." },
+        { "speaker": "a", "en": "Finance would prefer that for cost control too.", "vi": "Tài chính cũng thích vậy để kiểm soát chi phí." },
+        { "speaker": "b", "en": "Then we have alignment on this point.", "vi": "Vậy mình đã thống nhất ở điểm này rồi." },
+        { "speaker": "a", "en": "Let us finalize the phase boundaries.", "vi": "Mình chốt ranh giới các giai đoạn nhé." },
+        { "speaker": "b", "en": "I will draft that plan today.", "vi": "Hôm nay tôi sẽ soạn kế hoạch đó." }
+      ]},
+    { "title": "Giải quyết bất đồng gay gắt giữa hai bộ phận", "situation": "Hai bộ phận có bất đồng gay gắt cần được giải quyết.",
+      "turns": [
+        { "speaker": "a", "en": "Finance and Product are at a real impasse here.", "vi": "Tài chính và Sản phẩm đang thực sự bế tắc ở đây." },
+        { "speaker": "b", "en": "What is each side unwilling to move on?", "vi": "Mỗi bên không sẵn lòng nhượng bộ điều gì?" },
+        { "speaker": "a", "en": "Finance will not exceed the budget ceiling.", "vi": "Tài chính sẽ không vượt quá hạn mức ngân sách." },
+        { "speaker": "b", "en": "And Product will not compromise on headcount.", "vi": "Còn Sản phẩm sẽ không thỏa hiệp về số lượng nhân sự." },
+        { "speaker": "a", "en": "We need a creative middle ground here.", "vi": "Chúng ta cần một điểm giữa sáng tạo ở đây." },
+        { "speaker": "b", "en": "What if headcount comes from a shared cross-team pool?", "vi": "Nếu nhân sự đến từ một nguồn chung giữa các nhóm thì sao?" }
+      ]},
+    { "title": "Chốt thỏa thuận đa bên cuối cùng", "situation": "Người điều phối chốt thỏa thuận cuối cùng giữa các bên.",
+      "turns": [
+        { "speaker": "a", "en": "So we have alignment across all three departments.", "vi": "Vậy mình đã thống nhất giữa cả ba bộ phận rồi." },
+        { "speaker": "b", "en": "Yes, each side made a reasonable concession.", "vi": "Vâng, mỗi bên đã có sự nhượng bộ hợp lý." },
+        { "speaker": "a", "en": "I will document the final agreement.", "vi": "Tôi sẽ ghi lại thỏa thuận cuối cùng." },
+        { "speaker": "b", "en": "This sets a good precedent for future negotiations.", "vi": "Điều này tạo tiền lệ tốt cho các đàm phán sau này." },
+        { "speaker": "a", "en": "Agreed, thank you all for the collaboration.", "vi": "Đồng ý, cảm ơn tất cả vì sự hợp tác." },
+        { "speaker": "b", "en": "Looking forward to executing this plan.", "vi": "Mong chờ được thực hiện kế hoạch này." }
+      ]},
+    { "title": "Đàm phán đa bên phức tạp với nhiều ưu tiên xung đột và nguồn lực hạn chế", "situation": "Người học phải điều phối đàm phán giữa ba bộ phận với ưu tiên xung đột nhau và nguồn lực rất hạn chế. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "All three departments consider their core demand non-negotiable, and resources are extremely limited.", "vi": "Cả ba bộ phận đều coi yêu cầu cốt lõi của mình là không thể thương lượng, và nguồn lực cực kỳ hạn chế." },
+        { "speaker": "b", "en": "Let us align on priorities first, then find where we can ring-fence resources.", "vi": "Mình thống nhất ưu tiên trước, rồi tìm chỗ có thể khoanh vùng nguồn lực." },
+        { "speaker": "a", "en": "Finance and Product are the biggest bottleneck right now.", "vi": "Tài chính và Sản phẩm đang là điểm nghẽn lớn nhất lúc này." },
+        { "speaker": "b", "en": "What if we phase the rollout so each department gets partial wins early?", "vi": "Nếu mình triển khai theo giai đoạn để mỗi bộ phận có thắng lợi từng phần sớm thì sao?" },
+        { "speaker": "a", "en": "That could work, but Customer Support needs a concession too.", "vi": "Vậy có thể được, nhưng Chăm sóc khách hàng cũng cần một nhượng bộ." },
+        { "speaker": "b", "en": "We will safeguard their workload with temporary support staff as the middle ground.", "vi": "Chúng ta sẽ bảo vệ khối lượng công việc của họ bằng nhân viên hỗ trợ tạm thời như điểm giữa." }
+      ]}
+  ]
+}

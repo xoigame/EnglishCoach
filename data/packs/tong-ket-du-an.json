@@ -1,0 +1,96 @@
+{
+  "id": "tong-ket-du-an",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Mở đầu buổi tổng kết", "situation": "Trưởng nhóm mở đầu buổi tổng kết dự án.",
+      "turns": [
+        { "speaker": "a", "en": "Let us start this retrospective with what went well.", "vi": "Mình bắt đầu buổi tổng kết này với những gì đã tốt nhé." },
+        { "speaker": "b", "en": "The team communication improved a lot.", "vi": "Giao tiếp trong nhóm đã cải thiện nhiều." },
+        { "speaker": "a", "en": "Any specific example?", "vi": "Có ví dụ cụ thể nào không?" },
+        { "speaker": "b", "en": "Daily check-ins caught issues early.", "vi": "Trao đổi hàng ngày đã phát hiện vấn đề sớm." },
+        { "speaker": "a", "en": "That is worth continuing.", "vi": "Điều đó đáng để tiếp tục đấy." },
+        { "speaker": "b", "en": "Agreed, it made a real difference.", "vi": "Đồng ý, nó tạo ra sự khác biệt thực sự." }
+      ]},
+    { "title": "Xác định điểm nghẽn của dự án", "situation": "Nhóm xác định điểm nghẽn chính của dự án.",
+      "turns": [
+        { "speaker": "a", "en": "What was our biggest bottleneck?", "vi": "Điểm nghẽn lớn nhất của chúng ta là gì?" },
+        { "speaker": "b", "en": "Waiting on design approvals slowed us down.", "vi": "Việc chờ phê duyệt thiết kế đã làm chậm chúng ta." },
+        { "speaker": "a", "en": "How much time did that cost us?", "vi": "Điều đó tốn bao nhiêu thời gian?" },
+        { "speaker": "b", "en": "About a week overall.", "vi": "Khoảng một tuần tổng cộng." },
+        { "speaker": "a", "en": "That is a surfaceable concern for next time.", "vi": "Đó là mối lo ngại nên nêu ra cho lần sau." },
+        { "speaker": "b", "en": "I agree, we should streamline that step.", "vi": "Tôi đồng ý, mình nên tinh gọn bước đó." }
+      ]},
+    { "title": "Thảo luận về phạm vi bị mở rộng", "situation": "Nhóm thảo luận về việc phạm vi dự án bị mở rộng ngoài kế hoạch.",
+      "turns": [
+        { "speaker": "a", "en": "We experienced some scope creep midway.", "vi": "Giữa chừng chúng ta gặp tình trạng phạm vi bị mở rộng ngoài kế hoạch." },
+        { "speaker": "b", "en": "What caused that exactly?", "vi": "Chính xác điều gì gây ra điều đó?" },
+        { "speaker": "a", "en": "New requirements added without formal review.", "vi": "Yêu cầu mới được thêm vào mà không xem xét chính thức." },
+        { "speaker": "b", "en": "That is a clear process gap.", "vi": "Đó là khoảng trống quy trình rõ ràng đấy." },
+        { "speaker": "a", "en": "We should enforce a change request process.", "vi": "Chúng ta nên thực thi quy trình yêu cầu thay đổi." },
+        { "speaker": "b", "en": "I will draft that for the next project.", "vi": "Tôi sẽ soạn cái đó cho dự án tiếp theo." }
+      ]},
+    { "title": "Tìm nguyên nhân gốc rễ của trễ hạn", "situation": "Nhóm tìm nguyên nhân gốc rễ của việc trễ hạn.",
+      "turns": [
+        { "speaker": "a", "en": "What was the root cause of the delay?", "vi": "Nguyên nhân gốc rễ của việc trễ hạn là gì?" },
+        { "speaker": "b", "en": "Underestimating the testing phase.", "vi": "Đánh giá thấp giai đoạn kiểm thử." },
+        { "speaker": "a", "en": "Why did that happen specifically?", "vi": "Cụ thể vì sao điều đó xảy ra?" },
+        { "speaker": "b", "en": "We used outdated estimates from a past project.", "vi": "Chúng tôi dùng ước tính lỗi thời từ dự án trước." },
+        { "speaker": "a", "en": "That is a valuable lesson learned.", "vi": "Đó là bài học quý giá rút ra được." },
+        { "speaker": "b", "en": "We will update our estimation model.", "vi": "Chúng tôi sẽ cập nhật mô hình ước tính." }
+      ]},
+    { "title": "Xác định người ra quyết định rõ ràng", "situation": "Nhóm nhận ra vấn đề về việc thiếu người ra quyết định rõ ràng.",
+      "turns": [
+        { "speaker": "a", "en": "Who was the decision owner for design changes?", "vi": "Ai là người ra quyết định cho các thay đổi thiết kế?" },
+        { "speaker": "b", "en": "That was unclear, honestly.", "vi": "Thật lòng thì điều đó không rõ ràng." },
+        { "speaker": "a", "en": "That ambiguity caused delays.", "vi": "Sự mơ hồ đó đã gây ra trễ hạn." },
+        { "speaker": "b", "en": "We should assign a clear owner next time.", "vi": "Lần sau chúng ta nên chỉ định người phụ trách rõ ràng." },
+        { "speaker": "a", "en": "I will note that as an action item.", "vi": "Tôi sẽ ghi chú đó là một đầu việc cần làm." },
+        { "speaker": "b", "en": "That should prevent similar confusion.", "vi": "Điều đó sẽ ngăn được sự nhầm lẫn tương tự." }
+      ]},
+    { "title": "Bàn về sự đánh đổi đã thực hiện", "situation": "Nhóm bàn về một sự đánh đổi đã thực hiện trong dự án.",
+      "turns": [
+        { "speaker": "a", "en": "We made a trade-off between speed and polish.", "vi": "Chúng ta đã đánh đổi giữa tốc độ và sự hoàn thiện." },
+        { "speaker": "b", "en": "Was that the right call in hindsight?", "vi": "Nhìn lại thì đó có phải quyết định đúng không?" },
+        { "speaker": "a", "en": "Mostly yes, given the deadline pressure.", "vi": "Phần lớn là đúng, vì áp lực hạn chót." },
+        { "speaker": "b", "en": "What would we do differently next time?", "vi": "Lần sau chúng ta sẽ làm khác đi thế nào?" },
+        { "speaker": "a", "en": "Communicate that trade-off earlier to stakeholders.", "vi": "Thông báo sự đánh đổi đó sớm hơn cho các bên liên quan." },
+        { "speaker": "b", "en": "That would manage expectations better.", "vi": "Điều đó sẽ quản lý kỳ vọng tốt hơn." }
+      ]},
+    { "title": "Khuyến khích nêu mối lo ngại thẳng thắn", "situation": "Trưởng nhóm khuyến khích thành viên nêu mối lo ngại thẳng thắn.",
+      "turns": [
+        { "speaker": "a", "en": "I want everyone to surface a concern, even a small one.", "vi": "Tôi muốn mọi người nêu lên một mối lo ngại, dù nhỏ." },
+        { "speaker": "b", "en": "Honestly, communication with the client was inconsistent.", "vi": "Thật lòng, giao tiếp với khách hàng không nhất quán." },
+        { "speaker": "a", "en": "Thank you for being candid about that.", "vi": "Cảm ơn bạn đã thẳng thắn về điều đó." },
+        { "speaker": "b", "en": "I think it affected trust a bit.", "vi": "Tôi nghĩ nó ảnh hưởng phần nào đến lòng tin." },
+        { "speaker": "a", "en": "That is worth addressing directly.", "vi": "Điều đó đáng để giải quyết trực tiếp." },
+        { "speaker": "b", "en": "I appreciate you creating space for this.", "vi": "Tôi cảm kích vì bạn tạo không gian cho việc này." }
+      ]},
+    { "title": "Xác định hành động cụ thể có thể thực hiện", "situation": "Nhóm xác định hành động cụ thể có thể thực hiện từ buổi tổng kết.",
+      "turns": [
+        { "speaker": "a", "en": "Let us make sure our takeaways are actionable.", "vi": "Mình đảm bảo các điều rút ra có thể hành động được nhé." },
+        { "speaker": "b", "en": "Update the estimation model, for one.", "vi": "Cập nhật mô hình ước tính, đó là một." },
+        { "speaker": "a", "en": "Who will own that task?", "vi": "Ai sẽ phụ trách nhiệm vụ đó?" },
+        { "speaker": "b", "en": "I can take that on this week.", "vi": "Tuần này tôi có thể đảm nhận." },
+        { "speaker": "a", "en": "Great, I will track it in our board.", "vi": "Tuyệt, tôi sẽ theo dõi nó trong bảng công việc." },
+        { "speaker": "b", "en": "That keeps us accountable.", "vi": "Điều đó giữ chúng ta có trách nhiệm giải trình." }
+      ]},
+    { "title": "Kết thúc buổi tổng kết với tinh thần tích cực", "situation": "Trưởng nhóm kết thúc buổi tổng kết với tinh thần tích cực.",
+      "turns": [
+        { "speaker": "a", "en": "Overall, I am proud of what we accomplished.", "vi": "Nhìn chung, tôi tự hào về những gì chúng ta đã đạt được." },
+        { "speaker": "b", "en": "Despite the bumps, it was a strong project.", "vi": "Dù có trục trặc, đó vẫn là dự án tốt." },
+        { "speaker": "a", "en": "Thank you all for the candid feedback.", "vi": "Cảm ơn mọi người vì phản hồi thẳng thắn." },
+        { "speaker": "b", "en": "This retrospective was genuinely useful.", "vi": "Buổi tổng kết này thực sự hữu ích." },
+        { "speaker": "a", "en": "Let us apply these lessons going forward.", "vi": "Mình áp dụng những bài học này về sau nhé." },
+        { "speaker": "b", "en": "Looking forward to the next project.", "vi": "Mong chờ dự án tiếp theo." }
+      ]},
+    { "title": "Tổng kết dự án phức tạp với nhiều vấn đề liên kết nhau và cần xác định trách nhiệm rõ ràng", "situation": "Nhóm tổng kết một dự án phức tạp với nhiều vấn đề liên kết nhau, cần thẳng thắn xác định trách nhiệm mà không đổ lỗi cá nhân. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The scope creep, the unclear decision owner, and the delay all seem connected.", "vi": "Việc mở rộng phạm vi, người ra quyết định không rõ ràng, và sự trễ hạn dường như đều liên kết với nhau." },
+        { "speaker": "b", "en": "Let us trace the root cause without assigning blame to individuals.", "vi": "Mình truy nguyên nhân gốc rễ mà không đổ lỗi cho cá nhân nhé." },
+        { "speaker": "a", "en": "Honestly, the lack of a clear decision owner was the real bottleneck.", "vi": "Thật lòng, việc thiếu người ra quyết định rõ ràng là điểm nghẽn thực sự." },
+        { "speaker": "b", "en": "That candid observation is exactly what this retrospective needs.", "vi": "Nhận xét thẳng thắn đó chính xác là điều buổi tổng kết này cần." },
+        { "speaker": "a", "en": "What concrete, actionable step prevents this next time?", "vi": "Bước hành động cụ thể nào sẽ ngăn điều này lần sau?" },
+        { "speaker": "b", "en": "Assign a named decision owner for every major trade-off before the project starts.", "vi": "Chỉ định người ra quyết định cụ thể cho mọi sự đánh đổi lớn trước khi dự án bắt đầu." }
+      ]}
+  ]
+}
