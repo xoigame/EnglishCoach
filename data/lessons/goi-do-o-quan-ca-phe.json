@@ -1,0 +1,76 @@
+{
+  "id": "goi-do-o-quan-ca-phe",
+  "title": "Gọi đồ ở quán cà phê",
+  "topic": "Gọi món, đổi món, thanh toán ở quán cà phê",
+  "level": "A2",
+  "summary": "Bạn vào một quán cà phê ở nước ngoài, gọi đồ uống, hỏi thêm về món và thanh toán.",
+  "goals": [
+    "Gọi đồ uống và đồ ăn kèm bằng mẫu câu lịch sự",
+    "Hỏi giá, hỏi thành phần món và yêu cầu thay đổi",
+    "Nghe hiểu câu hỏi thường gặp của nhân viên phục vụ"
+  ],
+  "vocab": [
+    { "en": "for here or to go", "ipa": "/fər hɪr ɔːr tə ɡoʊ/", "vi": "uống tại quán hay mang đi", "example": "Is that for here or to go?" },
+    { "en": "medium", "ipa": "/ˈmiːdiəm/", "vi": "cỡ vừa", "example": "A medium latte, please." },
+    { "en": "oat milk", "ipa": "/oʊt mɪlk/", "vi": "sữa yến mạch", "example": "Can I have oat milk instead?" },
+    { "en": "extra shot", "ipa": "/ˈekstrə ʃɒt/", "vi": "thêm một shot espresso", "example": "Could you add an extra shot?" },
+    { "en": "anything else", "ipa": "/ˈeniθɪŋ els/", "vi": "còn gì nữa không", "example": "Anything else for you today?" },
+    { "en": "that's all", "ipa": "/ðæts ɔːl/", "vi": "chỉ vậy thôi", "example": "No, that's all, thanks." },
+    { "en": "card", "ipa": "/kɑːrd/", "vi": "thẻ (thanh toán)", "example": "I'll pay by card." },
+    { "en": "receipt", "ipa": "/rɪˈsiːt/", "vi": "hoá đơn", "example": "Do you want your receipt?" },
+    { "en": "hang on", "ipa": "/hæŋ ɒn/", "vi": "đợi chút", "example": "Hang on, let me check." },
+    { "en": "pick up", "ipa": "/pɪk ʌp/", "vi": "lấy đồ (ở quầy)", "example": "You can pick it up at the end of the counter." }
+  ],
+  "patterns": [
+    { "en": "Can I get a ___, please?", "vi": "Cho tôi một ___ nhé?", "note": "Câu gọi món tự nhiên nhất ở Mỹ" },
+    { "en": "Could I have ___ instead?", "vi": "Cho tôi đổi thành ___ được không?", "note": "instead = thay vì cái vừa nói" },
+    { "en": "How much is that?", "vi": "Cái đó bao nhiêu tiền?", "note": "Đừng nói How much money" },
+    { "en": "Does it come with ___?", "vi": "Món đó có kèm ___ không?", "note": "come with = đi kèm" },
+    { "en": "No, that's all, thanks.", "vi": "Không, vậy thôi, cảm ơn.", "note": "Trả lời khi được hỏi Anything else?" },
+    { "en": "I'll pay by card.", "vi": "Tôi trả bằng thẻ.", "note": "by card / in cash" }
+  ],
+  "pronunciation": [
+    { "focus": "Nối âm 'Can I get a'", "tip": "Đọc liền thành 'k'n-ai-ge-da', không nhấn mạnh từng chữ.", "words": ["can I get a", "could I have"] },
+    { "focus": "Âm /iː/ dài trong 'receipt'", "tip": "Chữ p câm, đọc là /rɪˈsiːt/ — kéo dài âm 'ii'.", "words": ["receipt", "please", "medium"] },
+    { "focus": "Âm cuối /t/ và /d/", "tip": "Đừng bỏ hẳn âm cuối; chạm lưỡi lên lợi rồi bật nhẹ.", "words": ["card", "iced", "ordered"] }
+  ],
+  "dialogue": {
+    "roles": { "a": "Nhân viên pha chế (barista)", "b": "Bạn (khách hàng)" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Hi there! What can I get for you?", "vi": "Chào bạn! Bạn dùng gì ạ?", "hint": "" },
+      { "speaker": "b", "en": "Hi. Can I get a medium latte, please?", "vi": "Chào. Cho tôi một ly latte cỡ vừa nhé?", "hint": "Can I get a + món + please" },
+      { "speaker": "a", "en": "Sure. Hot or iced?", "vi": "Được ạ. Nóng hay đá?", "hint": "" },
+      { "speaker": "b", "en": "Iced, please. Could I have oat milk instead?", "vi": "Đá nhé. Cho tôi đổi sang sữa yến mạch được không?", "hint": "instead = thay vì sữa thường" },
+      { "speaker": "a", "en": "Of course. That's fifty cents extra. Anything else?", "vi": "Được ạ. Phụ thu năm mươi xu. Còn gì nữa không ạ?", "hint": "" },
+      { "speaker": "b", "en": "Does the croissant come with butter?", "vi": "Bánh sừng bò có kèm bơ không?", "hint": "come with = đi kèm" },
+      { "speaker": "a", "en": "It does, and we can warm it up for you.", "vi": "Có ạ, và chúng tôi có thể hâm nóng cho bạn.", "hint": "" },
+      { "speaker": "b", "en": "Great, I'll take one. That's all, thanks.", "vi": "Tuyệt, cho tôi một cái. Vậy thôi, cảm ơn.", "hint": "I'll take one = lấy một cái" },
+      { "speaker": "a", "en": "Is that for here or to go?", "vi": "Bạn dùng tại quán hay mang đi ạ?", "hint": "" },
+      { "speaker": "b", "en": "To go, please. How much is that?", "vi": "Mang đi nhé. Tổng cộng bao nhiêu ạ?", "hint": "How much is that?" },
+      { "speaker": "a", "en": "That's eight twenty-five. Card or cash?", "vi": "Hết tám đô hai lăm. Thẻ hay tiền mặt ạ?", "hint": "" },
+      { "speaker": "b", "en": "I'll pay by card. Can I have the receipt, please?", "vi": "Tôi trả bằng thẻ. Cho tôi xin hoá đơn nhé?", "hint": "by card, không phải with card" },
+      { "speaker": "a", "en": "Here you go. Your drink will be ready at the end of the counter.", "vi": "Của bạn đây. Đồ uống sẽ có ở cuối quầy.", "hint": "" },
+      { "speaker": "b", "en": "Perfect, thank you so much!", "vi": "Tuyệt, cảm ơn bạn nhiều!", "hint": "" }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a cheerful barista at a busy coffee shop in Seattle.",
+    "opener": "Hi there! What can I get for you?",
+    "goal": "Khách gọi đồ uống, hỏi thêm về món ăn kèm, chọn mang đi và thanh toán."
+  },
+  "drills": [
+    { "vi": "Cho tôi một ly cà phê đen cỡ lớn nhé?", "en": "Can I get a large black coffee, please?", "alts": ["Could I have a large black coffee, please?"] },
+    { "vi": "Cho tôi đổi sang sữa yến mạch được không?", "en": "Could I have oat milk instead?", "alts": ["Can I get oat milk instead?"] },
+    { "vi": "Món đó có kèm salad không?", "en": "Does it come with a salad?", "alts": ["Does that come with salad?"] },
+    { "vi": "Tổng cộng bao nhiêu tiền?", "en": "How much is that?", "alts": ["How much is it?", "How much will that be?"] },
+    { "vi": "Mang đi nhé, cảm ơn.", "en": "To go, please. Thank you.", "alts": ["It's to go, thanks."] },
+    { "vi": "Không, vậy thôi ạ.", "en": "No, that's all, thanks.", "alts": ["That's everything, thanks."] },
+    { "vi": "Tôi trả bằng thẻ được không?", "en": "Can I pay by card?", "alts": ["Could I pay by card?"] }
+  ],
+  "homework": [
+    "Gọi thử 3 món khác nhau bằng mẫu 'Can I get ___, please?'",
+    "Nghe một video order cà phê trên YouTube và nhại lại đúng nhịp",
+    "Đạt trên 85% ở phần Luyện từng câu trước khi sang bài B1"
+  ]
+}

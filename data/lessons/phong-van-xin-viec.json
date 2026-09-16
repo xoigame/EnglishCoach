@@ -1,0 +1,78 @@
+{
+  "id": "phong-van-xin-viec",
+  "title": "Phỏng vấn xin việc bằng tiếng Anh",
+  "topic": "Phỏng vấn tuyển dụng vị trí lập trình viên",
+  "level": "B1",
+  "summary": "Bạn phỏng vấn vòng đầu với nhà tuyển dụng nước ngoài: giới thiệu kinh nghiệm, điểm mạnh và đặt câu hỏi ngược.",
+  "goals": [
+    "Trình bày kinh nghiệm làm việc mạch lạc theo cấu trúc tình huống - hành động - kết quả",
+    "Nói về điểm mạnh, điểm yếu mà không sáo rỗng",
+    "Đặt câu hỏi ngược cho nhà tuyển dụng một cách chuyên nghiệp"
+  ],
+  "vocab": [
+    { "en": "walk me through", "ipa": "/wɔːk miː θruː/", "vi": "kể chi tiết cho tôi nghe", "example": "Can you walk me through your last project?" },
+    { "en": "background", "ipa": "/ˈbækɡraʊnd/", "vi": "nền tảng, kinh nghiệm", "example": "My background is mostly in backend development." },
+    { "en": "responsible for", "ipa": "/rɪˈspɒnsəbl fɔːr/", "vi": "chịu trách nhiệm về", "example": "I was responsible for the payment module." },
+    { "en": "reduce", "ipa": "/rɪˈdjuːs/", "vi": "giảm", "example": "We reduced loading time by forty percent." },
+    { "en": "deadline", "ipa": "/ˈdedlaɪn/", "vi": "hạn chót", "example": "We were behind on the deadline." },
+    { "en": "take ownership", "ipa": "/teɪk ˈoʊnərʃɪp/", "vi": "chủ động nhận trách nhiệm", "example": "I like to take ownership of my work." },
+    { "en": "room for improvement", "ipa": "/ruːm fər ɪmˈpruːvmənt/", "vi": "chỗ cần cải thiện", "example": "Public speaking is still room for improvement for me." },
+    { "en": "look forward to", "ipa": "/lʊk ˈfɔːrwərd tuː/", "vi": "mong chờ", "example": "I look forward to hearing from you." },
+    { "en": "onboarding", "ipa": "/ˈɒnbɔːrdɪŋ/", "vi": "quá trình hội nhập nhân sự mới", "example": "What does onboarding look like here?" },
+    { "en": "next steps", "ipa": "/nekst steps/", "vi": "các bước tiếp theo", "example": "What are the next steps in the process?" }
+  ],
+  "patterns": [
+    { "en": "I've been working as a ___ for ___ years.", "vi": "Tôi đã làm ___ được ___ năm.", "note": "Hiện tại hoàn thành tiếp diễn cho việc còn đang tiếp tục" },
+    { "en": "I was responsible for ___.", "vi": "Tôi phụ trách ___.", "note": "Theo sau là danh từ hoặc V-ing" },
+    { "en": "As a result, we managed to ___.", "vi": "Kết quả là chúng tôi đã ___.", "note": "Dùng để chốt kết quả bằng con số" },
+    { "en": "One area I'm working on is ___.", "vi": "Một điểm tôi đang cải thiện là ___.", "note": "Cách nói điểm yếu khéo léo" },
+    { "en": "Could you tell me more about ___?", "vi": "Anh/chị có thể nói rõ hơn về ___ không?", "note": "Câu hỏi ngược lịch sự" },
+    { "en": "I look forward to hearing from you.", "vi": "Tôi mong sớm nhận được phản hồi.", "note": "Câu kết chuẩn của phỏng vấn" }
+  ],
+  "pronunciation": [
+    { "focus": "Trọng âm danh từ - động từ", "tip": "PREsent (danh từ) khác preSENT (động từ). Đặt trọng âm sai làm người nghe hiểu nhầm.", "words": ["present", "record", "project", "increase"] },
+    { "focus": "Đuôi -ed", "tip": "Ba cách đọc: /t/ sau âm vô thanh, /d/ sau âm hữu thanh, /ɪd/ sau t và d.", "words": ["worked", "managed", "started", "reduced"] },
+    { "focus": "Ngữ điệu xuống cuối câu khẳng định", "tip": "Câu trả lời tự tin thì hạ giọng ở cuối, đừng lên giọng như đang hỏi.", "words": ["I was responsible for the payment module."] }
+  ],
+  "dialogue": {
+    "roles": { "a": "Nhà tuyển dụng (Sarah)", "b": "Bạn (ứng viên)" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Thanks for joining me today. Could you start by telling me a bit about yourself?", "vi": "Cảm ơn bạn đã tham gia. Bạn giới thiệu đôi chút về bản thân nhé?", "hint": "" },
+      { "speaker": "b", "en": "Of course. I've been working as a backend developer for about four years, mostly with Node and Postgres.", "vi": "Vâng. Tôi làm lập trình viên backend khoảng bốn năm, chủ yếu với Node và Postgres.", "hint": "Dùng 'I've been working ... for' cho việc còn tiếp tục" },
+      { "speaker": "a", "en": "Great. Can you walk me through a project you're proud of?", "vi": "Tốt. Bạn kể tôi nghe một dự án bạn tự hào nhé?", "hint": "" },
+      { "speaker": "b", "en": "Sure. At my last company I was responsible for rebuilding the payment service.", "vi": "Vâng. Ở công ty cũ tôi phụ trách việc xây dựng lại dịch vụ thanh toán.", "hint": "responsible for + V-ing" },
+      { "speaker": "a", "en": "What was the hardest part?", "vi": "Phần khó nhất là gì?", "hint": "" },
+      { "speaker": "b", "en": "We had to migrate live data without any downtime, and the deadline was tight.", "vi": "Chúng tôi phải chuyển dữ liệu đang chạy mà không được ngừng hệ thống, và hạn chót rất gấp.", "hint": "Nêu tình huống trước, kết quả sau" },
+      { "speaker": "a", "en": "How did it turn out?", "vi": "Kết quả thế nào?", "hint": "" },
+      { "speaker": "b", "en": "As a result, we managed to cut checkout errors by sixty percent in two months.", "vi": "Kết quả là chúng tôi giảm được sáu mươi phần trăm lỗi thanh toán trong hai tháng.", "hint": "Luôn chốt bằng con số cụ thể" },
+      { "speaker": "a", "en": "Impressive. And what would you say is an area you'd like to improve?", "vi": "Ấn tượng đấy. Còn điểm nào bạn muốn cải thiện?", "hint": "" },
+      { "speaker": "b", "en": "One area I'm working on is presenting to non-technical teams. I've started joining product reviews to practise.", "vi": "Một điểm tôi đang cải thiện là trình bày cho nhóm không chuyên kỹ thuật. Tôi đã bắt đầu tham gia các buổi review sản phẩm để luyện.", "hint": "Nêu điểm yếu kèm cách bạn đang khắc phục" },
+      { "speaker": "a", "en": "That's a good approach. Do you have any questions for me?", "vi": "Cách tiếp cận hay đấy. Bạn có câu hỏi nào cho tôi không?", "hint": "" },
+      { "speaker": "b", "en": "Yes. Could you tell me more about how the team handles code reviews?", "vi": "Có ạ. Anh/chị nói rõ hơn về cách nhóm thực hiện review code được không?", "hint": "Hỏi về cách làm việc thật, đừng hỏi lương ở vòng này" },
+      { "speaker": "a", "en": "We review every pull request within a day, and we pair on anything risky.", "vi": "Chúng tôi review mọi pull request trong vòng một ngày, và làm cặp với những phần rủi ro.", "hint": "" },
+      { "speaker": "b", "en": "That sounds great. What are the next steps in the process?", "vi": "Nghe hay quá. Các bước tiếp theo là gì ạ?", "hint": "next steps = bước tiếp theo" },
+      { "speaker": "a", "en": "We'll get back to you by Friday with a technical round.", "vi": "Chúng tôi sẽ phản hồi trước thứ Sáu để sắp vòng kỹ thuật.", "hint": "" },
+      { "speaker": "b", "en": "Thank you for your time. I look forward to hearing from you.", "vi": "Cảm ơn anh/chị đã dành thời gian. Tôi mong sớm nhận được phản hồi.", "hint": "Câu kết chuẩn, đừng dịch word-by-word từ tiếng Việt" }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are Sarah, a hiring manager at a software company, running a friendly but probing first-round interview.",
+    "opener": "Thanks for joining me today. Could you start by telling me a bit about yourself?",
+    "goal": "Ứng viên trình bày kinh nghiệm, một dự án cụ thể kèm kết quả, điểm cần cải thiện và đặt câu hỏi ngược."
+  },
+  "drills": [
+    { "vi": "Tôi đã làm lập trình viên được năm năm.", "en": "I've been working as a developer for five years.", "alts": ["I have worked as a developer for five years."] },
+    { "vi": "Ở công ty cũ tôi phụ trách mảng kiểm thử.", "en": "At my last company I was responsible for testing.", "alts": ["In my previous job, I was in charge of testing."] },
+    { "vi": "Kết quả là chúng tôi giảm được ba mươi phần trăm thời gian tải.", "en": "As a result, we managed to reduce loading time by thirty percent.", "alts": ["As a result, we cut loading time by thirty percent."] },
+    { "vi": "Một điểm tôi đang cải thiện là quản lý thời gian.", "en": "One area I'm working on is time management.", "alts": ["Something I'm improving is time management."] },
+    { "vi": "Anh/chị có thể nói rõ hơn về nhóm không?", "en": "Could you tell me more about the team?", "alts": ["Would you mind telling me more about the team?"] },
+    { "vi": "Các bước tiếp theo trong quy trình là gì ạ?", "en": "What are the next steps in the process?", "alts": ["What happens next in the process?"] },
+    { "vi": "Cảm ơn anh/chị đã dành thời gian. Tôi mong sớm nhận được phản hồi.", "en": "Thank you for your time. I look forward to hearing from you.", "alts": ["Thanks for your time. I look forward to your reply."] }
+  ],
+  "homework": [
+    "Chuẩn bị một câu chuyện dự án theo cấu trúc: tình huống - nhiệm vụ - hành động - kết quả có con số",
+    "Ghi âm phần trả lời 'Tell me about yourself' trong 90 giây, nghe lại và cắt bớt từ thừa",
+    "Chạy chế độ Hội thoại tự do và nhờ AI đóng vai nhà tuyển dụng khó tính"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-16T03:36:05.116Z",
+  "lessons": [
+    {
+      "id": "lam-quen-va-gioi-thieu",
+      "title": "Làm quen và giới thiệu bản thân",
+      "topic": "Chào hỏi, làm quen người mới",
+      "level": "A1",
+      "summary": "Bạn gặp một đồng nghiệp mới ở quầy pha cà phê của công ty và bắt chuyện.",
+      "turns": 12
+    },
+    {
+      "id": "goi-do-o-quan-ca-phe",
+      "title": "Gọi đồ ở quán cà phê",
+      "topic": "Gọi món, đổi món, thanh toán ở quán cà phê",
+      "level": "A2",
+      "summary": "Bạn vào một quán cà phê ở nước ngoài, gọi đồ uống, hỏi thêm về món và thanh toán.",
+      "turns": 14
+    },
+    {
+      "id": "phong-van-xin-viec",
+      "title": "Phỏng vấn xin việc bằng tiếng Anh",
+      "topic": "Phỏng vấn tuyển dụng vị trí lập trình viên",
+      "level": "B1",
+      "summary": "Bạn phỏng vấn vòng đầu với nhà tuyển dụng nước ngoài: giới thiệu kinh nghiệm, điểm mạnh và đặt câu hỏi ngược.",
+      "turns": 16
+    }
+  ]
+}

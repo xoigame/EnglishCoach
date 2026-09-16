@@ -1,0 +1,70 @@
+{
+  "id": "lam-quen-va-gioi-thieu",
+  "title": "Làm quen và giới thiệu bản thân",
+  "topic": "Chào hỏi, làm quen người mới",
+  "level": "A1",
+  "summary": "Bạn gặp một đồng nghiệp mới ở quầy pha cà phê của công ty và bắt chuyện.",
+  "goals": [
+    "Chào hỏi và giới thiệu tên một cách tự nhiên",
+    "Hỏi và trả lời về quê quán, công việc",
+    "Kết thúc cuộc trò chuyện lịch sự"
+  ],
+  "vocab": [
+    { "en": "nice to meet you", "ipa": "/naɪs tə ˈmiːt juː/", "vi": "rất vui được gặp bạn", "example": "Hi, I'm Lan. Nice to meet you." },
+    { "en": "originally from", "ipa": "/əˈrɪdʒɪnəli frəm/", "vi": "quê gốc ở", "example": "I'm originally from Hue." },
+    { "en": "work in", "ipa": "/wɜːrk ɪn/", "vi": "làm việc ở (bộ phận)", "example": "I work in marketing." },
+    { "en": "team", "ipa": "/tiːm/", "vi": "nhóm, đội", "example": "Which team are you on?" },
+    { "en": "join", "ipa": "/dʒɔɪn/", "vi": "gia nhập", "example": "I joined last Monday." },
+    { "en": "so far", "ipa": "/səʊ ˈfɑːr/", "vi": "cho tới giờ", "example": "How is it so far?" },
+    { "en": "friendly", "ipa": "/ˈfrendli/", "vi": "thân thiện", "example": "Everyone is really friendly." },
+    { "en": "see you around", "ipa": "/siː juː əˈraʊnd/", "vi": "hẹn gặp lại nhé", "example": "See you around, Minh!" }
+  ],
+  "patterns": [
+    { "en": "I'm ___. Nice to meet you.", "vi": "Tôi là ___. Rất vui được gặp bạn.", "note": "Dùng I'm thay vì My name is cho tự nhiên" },
+    { "en": "Where are you from?", "vi": "Bạn từ đâu tới?", "note": "Trả lời: I'm from ___." },
+    { "en": "What do you do?", "vi": "Bạn làm nghề gì?", "note": "Không phải What do you do now" },
+    { "en": "How long have you been here?", "vi": "Bạn ở đây bao lâu rồi?", "note": "Trả lời ngắn: About two weeks." },
+    { "en": "It was nice talking to you.", "vi": "Nói chuyện với bạn vui lắm.", "note": "Câu kết lịch sự" }
+  ],
+  "pronunciation": [
+    { "focus": "Âm cuối /s/ và /z/", "tip": "Người Việt hay nuốt âm cuối. Kéo dài nhẹ âm gió ở cuối từ.", "words": ["works", "jobs", "teams", "years"] },
+    { "focus": "Nối âm nice to meet you", "tip": "Đọc liền thành 'nai-stu-mi-chu', không tách rời từng chữ.", "words": ["nice to meet you"] },
+    { "focus": "Âm /θ/ trong 'thanks'", "tip": "Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi, đừng đọc thành 'tenks'.", "words": ["thanks", "think", "three"] }
+  ],
+  "dialogue": {
+    "roles": { "a": "Đồng nghiệp mới (Alex)", "b": "Bạn" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Hi! Is this seat taken?", "vi": "Chào! Ghế này có ai ngồi chưa?", "hint": "" },
+      { "speaker": "b", "en": "No, go ahead. I'm Lan.", "vi": "Chưa, mời bạn. Tôi là Lan.", "hint": "Go ahead = cứ tự nhiên" },
+      { "speaker": "a", "en": "Nice to meet you, Lan. I'm Alex.", "vi": "Rất vui được gặp Lan. Tôi là Alex.", "hint": "" },
+      { "speaker": "b", "en": "Nice to meet you too. Are you new here?", "vi": "Tôi cũng vậy. Bạn mới vào đây à?", "hint": "Thêm 'too' để đáp lại" },
+      { "speaker": "a", "en": "Yes, I joined last Monday. I work in marketing.", "vi": "Đúng rồi, tôi vào thứ Hai tuần trước. Tôi làm marketing.", "hint": "" },
+      { "speaker": "b", "en": "Oh, welcome! I work in the design team.", "vi": "Ồ, chào mừng nhé! Tôi làm ở nhóm thiết kế.", "hint": "work in + tên bộ phận" },
+      { "speaker": "a", "en": "That sounds fun. Where are you from?", "vi": "Nghe thú vị đấy. Bạn quê ở đâu?", "hint": "" },
+      { "speaker": "b", "en": "I'm originally from Hue, but I live in Da Nang now.", "vi": "Tôi quê gốc ở Huế, nhưng giờ sống ở Đà Nẵng.", "hint": "Dùng 'but' để nối hai ý" },
+      { "speaker": "a", "en": "Nice. How do you like the company so far?", "vi": "Hay đấy. Bạn thấy công ty thế nào?", "hint": "" },
+      { "speaker": "b", "en": "I really like it. Everyone is very friendly.", "vi": "Tôi thích lắm. Mọi người rất thân thiện.", "hint": "Everyone + động từ số ít (is)" },
+      { "speaker": "a", "en": "Good to hear. I should get back to my desk.", "vi": "Nghe vậy tôi yên tâm. Tôi phải về bàn làm việc đây.", "hint": "" },
+      { "speaker": "b", "en": "Sure. It was nice talking to you. See you around!", "vi": "Ừ. Nói chuyện với bạn vui lắm. Hẹn gặp lại!", "hint": "Câu kết chuẩn của người bản xứ" }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are Alex, a friendly new colleague in the marketing team, chatting in the office pantry.",
+    "opener": "Hi! Is this seat taken?",
+    "goal": "Hai người làm quen: tên, bộ phận, quê quán, cảm nhận về công ty."
+  },
+  "drills": [
+    { "vi": "Chào, tôi là Nam. Rất vui được gặp bạn.", "en": "Hi, I'm Nam. Nice to meet you.", "alts": ["Hello, I'm Nam. Nice to meet you."] },
+    { "vi": "Bạn quê ở đâu?", "en": "Where are you from?", "alts": ["Where do you come from?"] },
+    { "vi": "Tôi làm việc ở nhóm thiết kế.", "en": "I work in the design team.", "alts": ["I'm on the design team."] },
+    { "vi": "Tôi mới vào tuần trước.", "en": "I joined last week.", "alts": ["I started last week."] },
+    { "vi": "Mọi người ở đây rất thân thiện.", "en": "Everyone here is very friendly.", "alts": ["People here are really friendly."] },
+    { "vi": "Nói chuyện với bạn vui lắm. Hẹn gặp lại!", "en": "It was nice talking to you. See you around!", "alts": ["Nice talking to you. See you!"] }
+  ],
+  "homework": [
+    "Thu âm phần giới thiệu bản thân trong 30 giây rồi nghe lại, chú ý âm cuối /s/",
+    "Viết 5 câu giới thiệu bản thân với 5 mẫu câu trong bài",
+    "Luyện chế độ Hội thoại 1-1 đến khi đạt trên 85%"
+  ]
+}
