@@ -1,0 +1,398 @@
+{
+  "id": "dan-dat-thay-doi-to-chuc",
+  "title": "Dẫn dắt thay đổi trong tổ chức",
+  "topic": "Thuyết phục chấp nhận thay đổi lớn",
+  "level": "C1",
+  "summary": "Bạn đề xuất thay đổi lớn về cách các nhóm phối hợp và cần thuyết phục trưởng bộ phận đang lo ngại về rủi ro. Bài học giúp bạn trình bày lợi ích, thừa nhận phản đối và chốt một phương án thử nghiệm khả thi.",
+  "goals": [
+    "Trình bày đề xuất thay đổi một cách thuyết phục và có cấu trúc.",
+    "Phản hồi các lo ngại về rủi ro, chi phí và sự gián đoạn công việc.",
+    "Điều chỉnh giọng điệu trang trọng hoặc thân mật khi trao đổi với đồng nghiệp và cấp trên."
+  ],
+  "vocab": [
+    {
+      "en": "secure buy-in",
+      "ipa": "/sɪˈkjʊr ˈbaɪ ɪn/",
+      "vi": "giành được sự đồng thuận, ủng hộ",
+      "example": "We need to secure buy-in from the department heads before we proceed."
+    },
+    {
+      "en": "roll out",
+      "ipa": "/rəʊl aʊt/",
+      "vi": "triển khai rộng rãi",
+      "example": "The company plans to roll out the new operating model in stages."
+    },
+    {
+      "en": "phased approach",
+      "ipa": "/feɪzd əˈprəʊtʃ/",
+      "vi": "cách tiếp cận theo từng giai đoạn",
+      "example": "A phased approach would reduce disruption to daily operations."
+    },
+    {
+      "en": "operational disruption",
+      "ipa": "/ˌɒpəˈreɪʃənəl dɪsˈrʌpʃən/",
+      "vi": "sự gián đoạn vận hành",
+      "example": "We have taken steps to keep operational disruption to a minimum."
+    },
+    {
+      "en": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "vi": "giảm thiểu, hạn chế",
+      "example": "The pilot will help us mitigate the risks before a full launch."
+    },
+    {
+      "en": "resource allocation",
+      "ipa": "/rɪˈsɔːrs ˌæləˈkeɪʃən/",
+      "vi": "phân bổ nguồn lực",
+      "example": "The proposal includes a clearer process for resource allocation."
+    },
+    {
+      "en": "cross-functional",
+      "ipa": "/ˌkrɒs ˈfʌŋkʃənəl/",
+      "vi": "liên phòng ban, đa chức năng",
+      "example": "Cross-functional teams often make decisions faster."
+    },
+    {
+      "en": "status quo",
+      "ipa": "/ˌsteɪtəs ˈkwəʊ/",
+      "vi": "hiện trạng",
+      "example": "Keeping the status quo also carries a cost."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi",
+      "example": "We should be honest about the trade-offs involved."
+    },
+    {
+      "en": "contingency plan",
+      "ipa": "/kənˈtɪndʒənsi plæn/",
+      "vi": "phương án dự phòng",
+      "example": "We have prepared a contingency plan in case the pilot falls behind schedule."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I appreciate the concern, but I would argue that ___.",
+      "vi": "Tôi ghi nhận lo ngại đó, nhưng tôi cho rằng ___.",
+      "note": "Dùng để phản biện lịch sự mà không phủ nhận thẳng ý kiến của đối phương."
+    },
+    {
+      "en": "The case for change is not just ___; it is also ___.",
+      "vi": "Lý do cần thay đổi không chỉ là ___; mà còn là ___.",
+      "note": "Giúp mở rộng lập luận từ lợi ích trước mắt sang lợi ích chiến lược."
+    },
+    {
+      "en": "Rather than rolling this out all at once, we could ___.",
+      "vi": "Thay vì triển khai toàn bộ ngay một lúc, chúng ta có thể ___.",
+      "note": "Mẫu câu hữu ích khi đề xuất phương án giảm rủi ro."
+    },
+    {
+      "en": "What would it take for you to feel comfortable supporting this?",
+      "vi": "Cần có điều gì để anh hoặc chị cảm thấy yên tâm ủng hộ việc này?",
+      "note": "Câu hỏi hợp tác, giúp biến sự phản đối thành tiêu chí cụ thể."
+    },
+    {
+      "en": "If we agree on the safeguards, would you be prepared to endorse a pilot?",
+      "vi": "Nếu chúng ta thống nhất các biện pháp bảo đảm, anh hoặc chị có sẵn sàng ủng hộ thử nghiệm không?",
+      "note": "Dùng để chốt cam kết mềm sau khi đã xử lý các lo ngại."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm tiết in đậm trong mi-TI-gate và allo-CA-tion; không đọc đều tất cả âm tiết.",
+      "words": [
+        "mitigate",
+        "allocation",
+        "operational"
+      ]
+    },
+    {
+      "focus": "âm cuối trong cụm phụ âm",
+      "tip": "Phát rõ âm cuối /t/ trong status, /d/ trong phased và /f/ trong trade-off để câu nghe dứt khoát.",
+      "words": [
+        "status quo",
+        "phased approach",
+        "trade-off"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm nói nhanh",
+      "tip": "Nối nhẹ âm cuối với nguyên âm đầu từ sau, như roll out và not just it is, nhưng vẫn giữ nhịp chậm, rõ khi trình bày đề xuất.",
+      "words": [
+        "roll out",
+        "not only",
+        "would argue"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I suggest to change the structure of our organization.",
+      "right": "I suggest changing the structure of our organization.",
+      "vi": "Sau suggest thường dùng động từ thêm ing, không dùng suggest to do."
+    },
+    {
+      "wrong": "This change will bring more convenient for the teams.",
+      "right": "This change will make things more convenient for the teams.",
+      "vi": "Convenient là tính từ; dùng make things more convenient tự nhiên hơn."
+    },
+    {
+      "wrong": "We need to convince the board to accept this change.",
+      "right": "We need to persuade the board to approve this change.",
+      "vi": "Convince có thể dùng, nhưng persuade someone to approve nghe tự nhiên và trang trọng hơn trong bối cảnh công việc."
+    },
+    {
+      "wrong": "If we will start with a pilot, the risk will be lower.",
+      "right": "If we start with a pilot, the risk will be lower.",
+      "vi": "Trong mệnh đề if chỉ điều kiện thực tế, không dùng will."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất trình bày kế hoạch",
+      "formal": "I would welcome the opportunity to walk you through the proposal.",
+      "casual": "Can I talk you through the plan?",
+      "vi": "Câu formal phù hợp với cấp trên hoặc cuộc họp chính thức; câu casual dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Phản hồi một lo ngại",
+      "formal": "I appreciate the concern and would like to address it directly.",
+      "casual": "I get the concern. Let me tackle that.",
+      "vi": "Câu formal lịch sự, thận trọng; câu casual tự nhiên trong trao đổi nội bộ thân mật."
+    },
+    {
+      "situation": "Đề xuất thử nghiệm",
+      "formal": "I recommend that we begin with a limited pilot before full implementation.",
+      "casual": "Why do we not test it with one team first?",
+      "vi": "Câu formal dùng trong đề xuất hoặc cuộc họp lãnh đạo; câu casual hợp với buổi trao đổi động não."
+    },
+    {
+      "situation": "Chốt sự ủng hộ",
+      "formal": "Would you be prepared to endorse the pilot, subject to these safeguards?",
+      "casual": "Are you on board if we put those safeguards in place?",
+      "vi": "Câu formal phù hợp khi cần một cam kết rõ ràng từ người có thẩm quyền; câu casual dùng khi quan hệ đồng nghiệp gần gũi hơn."
+    }
+  ],
+  "culture": [
+    "Trong các cuộc họp kiểu Mỹ hoặc Anh, người phản đối thường mong bạn thừa nhận rủi ro trước khi bảo vệ đề xuất. Việc nói rõ hạn chế không làm bạn yếu đi mà tăng độ đáng tin.",
+    "Người bản xứ thường ưu tiên câu hỏi hướng tới giải pháp như What would it take for you to support this? hơn là ép đối phương đồng ý ngay.",
+    "Sự im lặng ngắn sau một đề xuất quan trọng thường là lúc người nghe cân nhắc, không nhất thiết là dấu hiệu phản đối. Tránh nói liên tục để lấp khoảng trống đó."
+  ],
+  "listening": {
+    "title": "Tin nhắn của giám đốc dự án",
+    "passage": "Hello everyone. Before next week's steering meeting, I want to clarify our recommendation. We are not asking the company to adopt the new structure overnight. We are asking for a three-month pilot in the customer operations unit. The pilot will have clear measures for service quality and staff workload. If those measures worsen, we will pause and review the approach. Please send any concerns to me by Thursday so we can address them openly.",
+    "vi": "Chào mọi người. Trước cuộc họp ban chỉ đạo tuần tới, tôi muốn làm rõ khuyến nghị của chúng ta. Chúng ta không đề nghị công ty áp dụng cơ cấu mới ngay lập tức. Chúng ta đề nghị một thử nghiệm ba tháng ở bộ phận vận hành khách hàng. Thử nghiệm sẽ có các thước đo rõ ràng về chất lượng dịch vụ và khối lượng công việc của nhân viên. Nếu các thước đo đó xấu đi, chúng ta sẽ tạm dừng và xem xét lại cách tiếp cận. Hãy gửi mọi lo ngại cho tôi trước thứ Năm để chúng ta có thể giải quyết một cách cởi mở.",
+    "questions": [
+      {
+        "q": "What is being proposed?",
+        "choices": [
+          "An immediate company-wide reorganization",
+          "A three-month pilot in one unit",
+          "A reduction in customer service staff"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói rõ a three-month pilot in the customer operations unit."
+      },
+      {
+        "q": "Which areas will be measured during the pilot?",
+        "choices": [
+          "Service quality and staff workload",
+          "Revenue and office space",
+          "Training costs and hiring speed"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói nêu clear measures for service quality and staff workload."
+      },
+      {
+        "q": "What will happen if the measures worsen?",
+        "choices": [
+          "The pilot will be expanded",
+          "The team will pause and review the approach",
+          "The meeting will be cancelled"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói If those measures worsen, we will pause and review the approach."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Trưởng bộ phận đang phản đối đề xuất",
+      "b": "Người học, quản lý đề xuất thay đổi"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I have read your proposal, but I am not convinced that this reorganization is necessary.",
+        "vi": "Tôi đã đọc đề xuất của anh hoặc chị, nhưng tôi chưa bị thuyết phục rằng việc tái tổ chức này là cần thiết.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand the concern. May I explain why I believe the status quo is becoming costly?",
+        "vi": "Tôi hiểu lo ngại đó. Tôi có thể giải thích vì sao tôi cho rằng việc giữ nguyên hiện trạng đang trở nên tốn kém không?",
+        "hint": "Mở đầu bằng việc ghi nhận lo ngại, rồi xin phép trình bày."
+      },
+      {
+        "speaker": "a",
+        "en": "Go ahead, but please be specific. We cannot afford another abstract transformation project.",
+        "vi": "Cứ nói đi, nhưng hãy cụ thể. Chúng ta không thể chịu thêm một dự án chuyển đổi mơ hồ nữa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "At the moment, decisions that involve several teams take too long. Ownership is unclear, and people spend time escalating issues instead of resolving them.",
+        "vi": "Hiện tại, các quyết định liên quan đến nhiều nhóm mất quá nhiều thời gian. Quyền sở hữu không rõ ràng, và mọi người dành thời gian báo cáo leo thang vấn đề thay vì giải quyết chúng.",
+        "hint": "Dùng các câu ngắn nêu rõ vấn đề vận hành hiện tại."
+      },
+      {
+        "speaker": "a",
+        "en": "Slow decisions are frustrating, but restructuring could create even more confusion. How would you prevent that?",
+        "vi": "Quyết định chậm thì đúng là khó chịu, nhưng tái cấu trúc có thể còn gây rối hơn. Anh hoặc chị sẽ ngăn điều đó thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Rather than rolling this out all at once, I propose a phased approach. We would begin with two cross-functional teams, define decision rights clearly, and review the results before expanding.",
+        "vi": "Thay vì triển khai toàn bộ ngay một lúc, tôi đề xuất cách tiếp cận theo từng giai đoạn. Chúng ta sẽ bắt đầu với hai nhóm liên phòng ban, xác định rõ quyền ra quyết định, rồi đánh giá kết quả trước khi mở rộng.",
+        "hint": "Dùng Rather than để đưa ra phương án thay thế an toàn hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "A pilot sounds sensible, but it still takes people away from their core work. My team is already stretched.",
+        "vi": "Thử nghiệm nghe có vẻ hợp lý, nhưng nó vẫn kéo nhân sự khỏi công việc chính. Nhóm của tôi đã quá tải rồi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a fair point. I am not asking for additional meetings or a separate project team. The pilot would replace some existing approval steps, so the time commitment should be manageable.",
+        "vi": "Đó là một ý hợp lý. Tôi không yêu cầu thêm các cuộc họp hay một nhóm dự án riêng. Thử nghiệm sẽ thay thế một số bước phê duyệt hiện tại, vì vậy thời gian cần bỏ ra sẽ ở mức có thể quản lý được.",
+        "hint": "Thừa nhận điểm đúng trước, rồi giải thích cách giảm gánh nặng."
+      },
+      {
+        "speaker": "a",
+        "en": "What evidence do you have that faster decisions will outweigh the disruption?",
+        "vi": "Anh hoặc chị có bằng chứng nào cho thấy quyết định nhanh hơn sẽ lớn hơn sự gián đoạn gây ra không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The case for change is not just speed. Clearer accountability should reduce duplicated work, improve resource allocation, and give clients one consistent point of contact.",
+        "vi": "Lý do cần thay đổi không chỉ là tốc độ. Trách nhiệm rõ ràng hơn sẽ giảm công việc trùng lặp, cải thiện phân bổ nguồn lực và cho khách hàng một đầu mối liên hệ nhất quán.",
+        "hint": "Dùng not just để bổ sung các lợi ích chiến lược."
+      },
+      {
+        "speaker": "a",
+        "en": "I can see the upside, but I worry that senior specialists will lose influence under the new model.",
+        "vi": "Tôi có thể thấy mặt tích cực, nhưng tôi lo các chuyên gia cấp cao sẽ mất ảnh hưởng trong mô hình mới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate the concern, but I would argue that their influence would become more visible, not less. They would set standards and coach teams, rather than being pulled into every routine approval.",
+        "vi": "Tôi ghi nhận lo ngại đó, nhưng tôi cho rằng ảnh hưởng của họ sẽ rõ nét hơn chứ không giảm đi. Họ sẽ đặt ra tiêu chuẩn và hướng dẫn các nhóm, thay vì bị kéo vào mọi phê duyệt thường ngày.",
+        "hint": "Phản biện mềm bằng I would argue that, không nói You are wrong."
+      },
+      {
+        "speaker": "a",
+        "en": "That depends on whether managers actually respect those standards. What safeguards would be in place?",
+        "vi": "Điều đó phụ thuộc vào việc các quản lý có thực sự tôn trọng những tiêu chuẩn đó không. Sẽ có biện pháp bảo đảm nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We would publish a decision framework, appoint an executive sponsor, and hold fortnightly reviews during the pilot. If a team bypasses a standard, the issue would be addressed immediately.",
+        "vi": "Chúng ta sẽ công bố khung ra quyết định, chỉ định một lãnh đạo bảo trợ và tổ chức đánh giá hai tuần một lần trong thời gian thử nghiệm. Nếu một nhóm bỏ qua tiêu chuẩn, vấn đề sẽ được xử lý ngay lập tức.",
+        "hint": "Nêu ba biện pháp cụ thể để tạo cảm giác kiểm soát được rủi ro."
+      },
+      {
+        "speaker": "a",
+        "en": "I would also need a contingency plan. If delivery slips, I cannot simply tell my clients that we are experimenting.",
+        "vi": "Tôi cũng cần một phương án dự phòng. Nếu tiến độ bàn giao chậm lại, tôi không thể đơn giản nói với khách hàng rằng chúng ta đang thử nghiệm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. We will set clear success measures and stop conditions before the pilot begins. If client delivery, quality, or staff workload deteriorates, we will pause, adjust the model, and revert where necessary.",
+        "vi": "Đồng ý. Chúng ta sẽ đặt ra các thước đo thành công và điều kiện dừng rõ ràng trước khi thử nghiệm bắt đầu. Nếu việc giao hàng cho khách, chất lượng hoặc khối lượng công việc của nhân viên xấu đi, chúng ta sẽ tạm dừng, điều chỉnh mô hình và quay lại khi cần thiết.",
+        "hint": "Dùng điều kiện cụ thể để chứng tỏ bạn đã chuẩn bị cho tình huống xấu."
+      },
+      {
+        "speaker": "a",
+        "en": "If those safeguards are written into the plan and my team helps shape the decision framework, I could support a limited pilot.",
+        "vi": "Nếu các biện pháp bảo đảm đó được ghi vào kế hoạch và nhóm của tôi cùng xây dựng khung ra quyết định, tôi có thể ủng hộ một thử nghiệm giới hạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is exactly the partnership I was hoping for. I will revise the plan with your team this week and bring the pilot proposal back for approval next Monday.",
+        "vi": "Đó chính xác là sự hợp tác mà tôi mong muốn. Tôi sẽ chỉnh sửa kế hoạch cùng nhóm của anh hoặc chị trong tuần này và đưa đề xuất thử nghiệm trở lại để phê duyệt vào thứ Hai tới.",
+        "hint": "Chốt bằng bước tiếp theo rõ ràng và ghi nhận sự hợp tác của đối phương."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a department head at a growing technology company. You are practical, skeptical, and responsible for a busy client-facing team. You oppose a proposed reorganization because you fear disruption, unclear accountability, and pressure on your staff, but you are willing to listen to a well-reasoned, evidence-based plan.",
+    "opener": "I have reviewed the proposal, and I am concerned that the disruption may outweigh the benefits. Why should I support it?",
+    "goal": "Người học thuyết phục trưởng bộ phận đồng ý với một thử nghiệm thay đổi có giới hạn, kèm biện pháp bảo đảm và kế hoạch dự phòng."
+  },
+  "drills": [
+    {
+      "vi": "Chúng ta cần giành được sự đồng thuận từ các trưởng bộ phận trước khi triển khai.",
+      "en": "We need to secure buy-in from the department heads before we roll this out.",
+      "alts": [
+        "We need support from the department heads before implementation."
+      ]
+    },
+    {
+      "vi": "Thay vì thay đổi toàn bộ cùng lúc, chúng ta có thể bắt đầu bằng một thử nghiệm.",
+      "en": "Rather than changing everything at once, we could start with a pilot.",
+      "alts": [
+        "We could begin with a pilot instead of a full rollout."
+      ]
+    },
+    {
+      "vi": "Tôi ghi nhận lo ngại đó, nhưng tôi cho rằng hiện trạng cũng có rủi ro.",
+      "en": "I appreciate the concern, but I would argue that the status quo carries risks too.",
+      "alts": [
+        "I understand the concern, but keeping things as they are also has risks."
+      ]
+    },
+    {
+      "vi": "Cách tiếp cận theo từng giai đoạn sẽ giúp giảm thiểu sự gián đoạn vận hành.",
+      "en": "A phased approach will help mitigate operational disruption.",
+      "alts": [
+        "A gradual rollout should reduce disruption to operations."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần làm rõ việc phân bổ nguồn lực giữa các nhóm.",
+      "en": "We need to clarify resource allocation across the teams.",
+      "alts": [
+        "Resource allocation between the teams needs to be clearer."
+      ]
+    },
+    {
+      "vi": "Cần có điều gì để anh hoặc chị cảm thấy yên tâm ủng hộ đề xuất này?",
+      "en": "What would it take for you to feel comfortable supporting this proposal?",
+      "alts": [
+        "What would you need in order to support this?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta thống nhất các biện pháp bảo đảm, anh hoặc chị có ủng hộ thử nghiệm không?",
+      "en": "If we agree on the safeguards, would you be prepared to endorse a pilot?",
+      "alts": [
+        "If the safeguards are in place, would you support a pilot?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần vai người học trong hội thoại và thay đổi ít nhất hai câu theo cách diễn đạt của riêng bạn.",
+    "Viết một đề xuất ngắn gồm ba lợi ích, hai rủi ro và một phương án dự phòng cho một thay đổi ở nơi làm việc.",
+    "Luyện nói năm mẫu câu trong phần patterns với tình huống thay đổi công cụ làm việc hoặc thay đổi quy trình phê duyệt."
+  ]
+}

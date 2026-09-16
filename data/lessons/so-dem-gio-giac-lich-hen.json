@@ -1,272 +1,346 @@
 {
   "id": "so-dem-gio-giac-lich-hen",
   "title": "Số đếm, giờ giấc và lịch hẹn",
-  "topic": "Số đếm, giờ giấc và hẹn gặp",
+  "topic": "Hẹn đi xem phim",
   "level": "A1",
-  "summary": "Người học nhận lời rủ đi xem phim và thống nhất thời gian, ngày gặp, giá vé. Bài học luyện nói số đếm, giờ và tiền bằng các câu ngắn, tự nhiên.",
+  "summary": "Bạn học cách hỏi giờ, chọn ngày gặp và nói giá vé khi hẹn một người bạn đi xem phim.",
   "goals": [
-    "Hỏi và trả lời về thời gian hẹn gặp.",
-    "Nói giờ, ngày trong tuần và giá tiền đơn giản.",
-    "Dùng câu ngắn để rủ bạn đi chơi và chốt lịch hẹn."
+    "Nói giờ gặp bằng tiếng Anh",
+    "Dùng ngày trong tuần để hẹn gặp",
+    "Hỏi và nói giá tiền đơn giản"
   ],
   "vocab": [
     {
-      "en": "one",
-      "ipa": "/wʌn/",
-      "vi": "một",
-      "example": "I need one movie ticket."
-    },
-    {
-      "en": "two",
-      "ipa": "/tuː/",
-      "vi": "hai",
-      "example": "We need two movie tickets."
-    },
-    {
-      "en": "three",
-      "ipa": "/θriː/",
-      "vi": "ba",
-      "example": "Meet me at three o'clock."
-    },
-    {
-      "en": "fifteen",
-      "ipa": "/ˌfɪfˈtiːn/",
-      "vi": "mười lăm",
-      "example": "The movie starts at four fifteen."
+      "en": "Friday",
+      "ipa": "/ˈfraɪdeɪ/",
+      "vi": "thứ Sáu",
+      "example": "Are you free on Friday?"
     },
     {
       "en": "Saturday",
       "ipa": "/ˈsætərdeɪ/",
       "vi": "thứ Bảy",
-      "example": "Saturday is good for me."
-    },
-    {
-      "en": "o'clock",
-      "ipa": "/əˈklɑːk/",
-      "vi": "giờ đúng",
-      "example": "See you at six o'clock."
-    },
-    {
-      "en": "ticket",
-      "ipa": "/ˈtɪkɪt/",
-      "vi": "vé",
-      "example": "One ticket costs ten dollars."
-    },
-    {
-      "en": "dollar",
-      "ipa": "/ˈdɑːlər/",
-      "vi": "đô la",
-      "example": "The tickets are ten dollars."
+      "example": "Saturday is better for me."
     },
     {
       "en": "free",
       "ipa": "/friː/",
       "vi": "rảnh",
-      "example": "Are you free this evening?"
+      "example": "I am free after work."
     },
     {
       "en": "meet",
       "ipa": "/miːt/",
       "vi": "gặp",
-      "example": "We meet near the park."
+      "example": "Can we meet at seven?"
+    },
+    {
+      "en": "movie",
+      "ipa": "/ˈmuːvi/",
+      "vi": "phim",
+      "example": "Let us see a movie."
+    },
+    {
+      "en": "start",
+      "ipa": "/stɑːrt/",
+      "vi": "bắt đầu",
+      "example": "The movie starts at seven thirty."
+    },
+    {
+      "en": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "vi": "vé",
+      "example": "The tickets cost six dollars."
+    },
+    {
+      "en": "dollar",
+      "ipa": "/ˈdɑːlər/",
+      "vi": "đô la",
+      "example": "It costs eight dollars."
+    },
+    {
+      "en": "cheap",
+      "ipa": "/tʃiːp/",
+      "vi": "rẻ",
+      "example": "Saturday tickets are cheaper."
+    },
+    {
+      "en": "seven thirty",
+      "ipa": "/ˈsevən ˈθɜːrti/",
+      "vi": "bảy giờ ba mươi",
+      "example": "It starts at seven thirty."
     }
   ],
   "patterns": [
     {
-      "en": "Are you free on Saturday?",
-      "vi": "Bạn có rảnh vào thứ Bảy không?",
-      "note": "Dùng để hỏi lịch rảnh của bạn bè."
+      "en": "Are you free on ___?",
+      "vi": "Bạn rảnh vào ___ không?",
+      "note": "Dùng để rủ hoặc hỏi lịch của bạn bè."
     },
     {
-      "en": "Let's meet at three o'clock.",
-      "vi": "Hãy gặp nhau lúc ba giờ.",
-      "note": "Let's dùng để đề xuất một kế hoạch chung."
+      "en": "What time does it start?",
+      "vi": "Nó bắt đầu lúc mấy giờ?",
+      "note": "Dùng để hỏi giờ bắt đầu của phim, lớp học hoặc sự kiện."
     },
     {
-      "en": "What time does the movie start?",
-      "vi": "Bộ phim bắt đầu lúc mấy giờ?",
-      "note": "Dùng does trong câu hỏi hiện tại đơn."
+      "en": "Can we meet at ___?",
+      "vi": "Chúng ta có thể gặp lúc ___ không?",
+      "note": "Cách thân thiện để đề nghị giờ gặp."
     },
     {
-      "en": "It starts at four fifteen.",
-      "vi": "Nó bắt đầu lúc bốn giờ mười lăm.",
-      "note": "Khi nói giờ hơn phút, đọc giờ rồi đọc phút."
+      "en": "Tickets cost ___ dollars each.",
+      "vi": "Vé giá ___ đô la mỗi vé.",
+      "note": "Dùng each để nhấn mạnh giá cho một người hoặc một vé."
     },
     {
-      "en": "How much are the tickets?",
-      "vi": "Vé giá bao nhiêu?",
-      "note": "Dùng are vì tickets là danh từ số nhiều."
+      "en": "Let us meet ___ at ___.",
+      "vi": "Chúng ta gặp nhau vào ___ lúc ___.",
+      "note": "Dùng để chốt ngày và giờ hẹn."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /θ/ trong three",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/.",
+      "focus": "âm /θ/ trong thirty",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Không đọc thành âm /t/ như turty.",
       "words": [
         "three",
+        "thirty",
         "Thursday"
       ]
     },
     {
-      "focus": "trọng âm trong fifteen",
-      "tip": "Nhấn mạnh âm thứ hai: fif TEEN, không nhấn mạnh âm đầu.",
+      "focus": "âm cuối /t/",
+      "tip": "Phát âm nhẹ âm /t/ cuối trong meet và ticket; không bỏ hẳn âm cuối.",
       "words": [
-        "fifteen",
-        "sixteen"
+        "meet",
+        "ticket",
+        "start"
       ]
     },
     {
-      "focus": "âm /t/ cuối từ",
-      "tip": "Chạm đầu lưỡi ở lợi trên để kết thúc âm /t/, không thêm âm ơ ở cuối.",
+      "focus": "trọng âm trong Saturday",
+      "tip": "Nhấn âm đầu: SAT-ur-day, không nhấn vào âm cuối.",
       "words": [
-        "meet",
-        "ticket"
+        "Saturday",
+        "seven",
+        "dollar"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "What time the movie start?",
-      "right": "What time does the movie start?",
+      "wrong": "What time it starts?",
+      "right": "What time does it start?",
       "vi": "Câu hỏi hiện tại đơn cần does trước chủ ngữ."
     },
     {
-      "wrong": "How much is the tickets?",
-      "right": "How much are the tickets?",
-      "vi": "Tickets là số nhiều nên dùng are."
+      "wrong": "Can we meet in seven?",
+      "right": "Can we meet at seven?",
+      "vi": "Dùng at với một giờ cụ thể."
     },
     {
-      "wrong": "We meet at Saturday.",
-      "right": "We meet on Saturday.",
-      "vi": "Dùng on trước ngày trong tuần."
+      "wrong": "The ticket is six dollar.",
+      "right": "The ticket is six dollars.",
+      "vi": "Số tiền lớn hơn một dùng dollars số nhiều."
     },
     {
-      "wrong": "The movie starts four fifteen.",
-      "right": "The movie starts at four fifteen.",
-      "vi": "Dùng at trước mốc giờ."
+      "wrong": "I am free in Friday.",
+      "right": "I am free on Friday.",
+      "vi": "Dùng on với ngày trong tuần."
     }
   ],
+  "variations": [
+    {
+      "situation": "Hỏi một người có rảnh không",
+      "formal": "Are you available on Friday afternoon?",
+      "casual": "Are you free on Friday?",
+      "vi": "Câu formal hợp với đồng nghiệp hoặc người chưa thân; câu casual dùng với bạn bè."
+    },
+    {
+      "situation": "Đề nghị giờ gặp",
+      "formal": "Would seven o'clock work for you?",
+      "casual": "Can we meet at seven?",
+      "vi": "Câu formal lịch sự hơn khi chưa quen; câu casual tự nhiên giữa bạn bè."
+    },
+    {
+      "situation": "Hỏi giá vé",
+      "formal": "Could you tell me how much the tickets cost?",
+      "casual": "How much are the tickets?",
+      "vi": "Câu formal dùng với nhân viên rạp; câu casual dùng khi hỏi bạn bè."
+    },
+    {
+      "situation": "Chốt lịch hẹn",
+      "formal": "I will see you on Saturday at seven.",
+      "casual": "See you Saturday at seven.",
+      "vi": "Câu formal đầy đủ và lịch sự hơn; câu casual rất thường dùng khi nhắn tin hoặc nói với bạn thân."
+    }
+  ],
+  "culture": [
+    "Người bản xứ thường chốt lại cả ngày lẫn giờ, ví dụ Saturday at seven, để tránh hiểu nhầm.",
+    "Nếu không đi được, họ thường nói thẳng nhưng nhẹ nhàng, như Sorry, I am busy then, thay vì nhận lời mơ hồ.",
+    "Khi hẹn bạn bè, đến muộn vài phút có thể được chấp nhận, nhưng nên nhắn trước nếu bạn sẽ trễ."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về lịch xem phim",
+    "passage": "Hi Mai, this is Ben. I am at the City Movie Theater. The movie on Monday starts at six o'clock. Tickets are five dollars today. I have two tickets, so you do not need to buy one. Please meet me at the front door at five forty-five. See you soon.",
+    "vi": "Chào Mai, Ben đây. Tôi đang ở rạp phim City Movie Theater. Bộ phim vào thứ Hai bắt đầu lúc sáu giờ. Vé hôm nay giá năm đô la. Tôi có hai vé, nên bạn không cần mua vé. Hãy gặp tôi ở cửa trước lúc năm giờ bốn mươi lăm. Hẹn gặp bạn sớm.",
+    "questions": [
+      {
+        "q": "What day is the movie?",
+        "choices": [
+          "Monday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Monday vì đoạn nghe nói the movie on Monday."
+      },
+      {
+        "q": "How much are the tickets today?",
+        "choices": [
+          "Five dollars",
+          "Six dollars",
+          "Eight dollars"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Five dollars vì Ben nói Tickets are five dollars today."
+      },
+      {
+        "q": "Where should Mai meet Ben?",
+        "choices": [
+          "At the front door",
+          "At the ticket desk",
+          "At the bus stop"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là At the front door vì Ben nói Please meet me at the front door."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Người bạn đang rủ đi chơi",
+      "a": "Người bạn đang rủ người học đi chơi",
       "b": "Người học"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Hi, are you free Saturday?",
-        "vi": "Chào, bạn có rảnh thứ Bảy không?",
+        "en": "Hi, are you free this Friday?",
+        "vi": "Chào, bạn rảnh thứ Sáu này không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, I am free Saturday.",
-        "vi": "Có, tôi rảnh thứ Bảy.",
+        "en": "Yes, I am free after work.",
+        "vi": "Có, tôi rảnh sau giờ làm.",
         "hint": "Dùng I am free để nói bạn rảnh."
       },
       {
         "speaker": "a",
-        "en": "Great. Meet at three o'clock?",
-        "vi": "Tuyệt. Gặp lúc ba giờ nhé?",
+        "en": "Great. Let us see a movie.",
+        "vi": "Tuyệt. Chúng ta đi xem phim nhé.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Three is good for me.",
-        "vi": "Ba giờ phù hợp với tôi.",
-        "hint": "Good for me nghĩa là phù hợp với tôi."
+        "en": "Sounds good. What time does it start?",
+        "vi": "Nghe hay đấy. Phim bắt đầu lúc mấy giờ?",
+        "hint": "Dùng does trong câu hỏi về giờ bắt đầu."
       },
       {
         "speaker": "a",
-        "en": "Let's meet near the park.",
-        "vi": "Hãy gặp nhau gần công viên.",
+        "en": "It starts at seven thirty.",
+        "vi": "Phim bắt đầu lúc bảy giờ ba mươi.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "What time does the movie start?",
-        "vi": "Bộ phim bắt đầu lúc mấy giờ?",
-        "hint": "Dùng does trong câu hỏi hiện tại đơn."
+        "en": "Can we meet at seven?",
+        "vi": "Chúng ta có thể gặp lúc bảy giờ không?",
+        "hint": "Dùng at trước giờ cụ thể."
       },
       {
         "speaker": "a",
-        "en": "It starts at four fifteen.",
-        "vi": "Nó bắt đầu lúc bốn giờ mười lăm.",
+        "en": "Sure. Tickets cost eight dollars each.",
+        "vi": "Được chứ. Vé giá tám đô la mỗi vé.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "How much are the tickets?",
-        "vi": "Vé giá bao nhiêu?",
-        "hint": "Tickets là số nhiều, dùng are."
+        "en": "Is Saturday cheaper for tickets?",
+        "vi": "Vé vào thứ Bảy có rẻ hơn không?",
+        "hint": "Cheaper nghĩa là rẻ hơn."
       },
       {
         "speaker": "a",
-        "en": "They are ten dollars each.",
-        "vi": "Mỗi vé là mười đô la.",
+        "en": "Yes, Saturday tickets cost six dollars.",
+        "vi": "Có, vé thứ Bảy giá sáu đô la.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Perfect. See you Saturday at three.",
-        "vi": "Hoàn hảo. Hẹn gặp bạn thứ Bảy lúc ba giờ.",
-        "hint": "See you dùng để chào và xác nhận cuộc hẹn."
+        "en": "Great. Let us meet Saturday at seven.",
+        "vi": "Tuyệt. Chúng ta gặp nhau thứ Bảy lúc bảy giờ nhé.",
+        "hint": "Chốt lịch bằng ngày trước, giờ sau."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly friend at a cafe near the park in Ho Chi Minh City. You invite the learner to see a movie and make plans in a relaxed, helpful way.",
-    "opener": "Hi, are you free Saturday?",
-    "goal": "Người học nhận lời rủ đi chơi, hỏi giờ phim bắt đầu và xác nhận giá vé."
+    "persona": "You are a friendly friend in a small town. You want to invite the learner to see a movie and make a clear plan for the day, time, and ticket price.",
+    "opener": "Hi, are you free this Friday?",
+    "goal": "Người học chốt được một ngày, giờ gặp và giá vé để đi xem phim."
   },
   "drills": [
     {
-      "vi": "Bạn có rảnh vào thứ Bảy không?",
-      "en": "Are you free on Saturday?",
+      "vi": "Bạn rảnh vào thứ Sáu không?",
+      "en": "Are you free on Friday?",
       "alts": [
-        "Are you free Saturday?"
+        "Are you free this Friday?"
       ]
     },
     {
-      "vi": "Hãy gặp nhau lúc ba giờ.",
-      "en": "Let's meet at three o'clock.",
+      "vi": "Tôi rảnh sau giờ làm.",
+      "en": "I am free after work.",
+      "alts": []
+    },
+    {
+      "vi": "Phim bắt đầu lúc bảy giờ ba mươi.",
+      "en": "The movie starts at seven thirty.",
       "alts": [
-        "Meet me at three o'clock."
+        "It starts at seven thirty."
       ]
     },
     {
-      "vi": "Bộ phim bắt đầu lúc bốn giờ mười lăm.",
-      "en": "The movie starts at four fifteen.",
+      "vi": "Chúng ta có thể gặp lúc bảy giờ không?",
+      "en": "Can we meet at seven?",
+      "alts": []
+    },
+    {
+      "vi": "Vé giá tám đô la mỗi vé.",
+      "en": "Tickets cost eight dollars each.",
       "alts": [
-        "It starts at four fifteen."
+        "The tickets are eight dollars each."
       ]
     },
     {
-      "vi": "Chúng ta cần hai vé xem phim.",
-      "en": "We need two movie tickets.",
+      "vi": "Vé thứ Bảy giá sáu đô la.",
+      "en": "Saturday tickets cost six dollars.",
       "alts": [
-        "I need two movie tickets."
+        "Tickets cost six dollars on Saturday."
       ]
     },
     {
-      "vi": "Mỗi vé giá mười đô la.",
-      "en": "Tickets cost ten dollars each.",
+      "vi": "Chúng ta gặp nhau thứ Bảy lúc bảy giờ nhé.",
+      "en": "Let us meet Saturday at seven.",
       "alts": [
-        "They are ten dollars each."
-      ]
-    },
-    {
-      "vi": "Hẹn gặp bạn thứ Bảy lúc ba giờ.",
-      "en": "See you Saturday at three o'clock.",
-      "alts": [
-        "See you at three on Saturday."
+        "We can meet Saturday at seven."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại, chú ý nói rõ three và fifteen.",
-    "Tự đổi giờ hẹn thành sáu giờ và đổi giá vé thành năm đô la.",
-    "Viết ba câu hỏi bạn bè về ngày và giờ rảnh."
+    "Ghi âm lại hội thoại và chú ý nói rõ seven thirty.",
+    "Tự tạo ba lịch hẹn khác, dùng Friday, Saturday và Sunday.",
+    "Nói giá của ba món đồ bằng dollars."
   ]
 }

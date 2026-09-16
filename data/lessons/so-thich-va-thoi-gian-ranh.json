@@ -1,0 +1,344 @@
+{
+  "id": "so-thich-va-thoi-gian-ranh",
+  "title": "Sở thích và thời gian rảnh",
+  "topic": "Sở thích và thời gian rảnh",
+  "level": "A1",
+  "summary": "Bạn làm quen với một người bạn mới và trò chuyện ngắn về sở thích. Bạn sẽ nói mình thích gì và thường làm gì lúc rảnh.",
+  "goals": [
+    "Hỏi người khác về sở thích",
+    "Nói về hoạt động mình thích",
+    "Nói về hoạt động sau giờ làm hoặc trước khi ngủ"
+  ],
+  "vocab": [
+    {
+      "en": "free time",
+      "ipa": "/ˌfriː ˈtaɪm/",
+      "vi": "thời gian rảnh",
+      "example": "What do you do in your free time?"
+    },
+    {
+      "en": "hobby",
+      "ipa": "/ˈhɑːbi/",
+      "vi": "sở thích",
+      "example": "My hobby is reading books."
+    },
+    {
+      "en": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "vi": "âm nhạc",
+      "example": "I like music after work."
+    },
+    {
+      "en": "movie",
+      "ipa": "/ˈmuːvi/",
+      "vi": "phim",
+      "example": "We watch movies on Friday."
+    },
+    {
+      "en": "read",
+      "ipa": "/riːd/",
+      "vi": "đọc",
+      "example": "I read before bed."
+    },
+    {
+      "en": "book",
+      "ipa": "/bʊk/",
+      "vi": "sách",
+      "example": "This book is very good."
+    },
+    {
+      "en": "play badminton",
+      "ipa": "/pleɪ ˈbædmɪntən/",
+      "vi": "chơi cầu lông",
+      "example": "I play badminton on Sundays."
+    },
+    {
+      "en": "after work",
+      "ipa": "/ˈæftər wɜːrk/",
+      "vi": "sau giờ làm",
+      "example": "I walk home after work."
+    },
+    {
+      "en": "every day",
+      "ipa": "/ˈevri deɪ/",
+      "vi": "mỗi ngày",
+      "example": "I listen to music every day."
+    },
+    {
+      "en": "before bed",
+      "ipa": "/bɪˈfɔːr bed/",
+      "vi": "trước khi đi ngủ",
+      "example": "I read a book before bed."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What do you like doing?",
+      "vi": "Bạn thích làm gì?",
+      "note": "Dùng để hỏi sở thích một cách thân thiện."
+    },
+    {
+      "en": "I like ___.",
+      "vi": "Tôi thích ___.",
+      "note": "Điền một sở thích hoặc hoạt động vào chỗ trống."
+    },
+    {
+      "en": "Do you ___ every day?",
+      "vi": "Bạn có ___ mỗi ngày không?",
+      "note": "Dùng do ở đầu câu hỏi hiện tại đơn."
+    },
+    {
+      "en": "I ___ after work.",
+      "vi": "Tôi ___ sau giờ làm.",
+      "note": "Dùng để nói thói quen hằng ngày."
+    },
+    {
+      "en": "We can ___ sometime.",
+      "vi": "Chúng ta có thể ___ lúc nào đó.",
+      "note": "Lời gợi ý nhẹ nhàng để cùng làm một hoạt động."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /iː/",
+      "tip": "Kéo dài âm i trong free, read và movie; đừng đọc ngắn thành âm i tiếng Việt.",
+      "words": [
+        "free",
+        "read",
+        "movie"
+      ]
+    },
+    {
+      "focus": "âm cuối /z/",
+      "tip": "Trong movies và hobbies, phát nhẹ âm z ở cuối, không bỏ mất âm cuối.",
+      "words": [
+        "movies",
+        "hobbies",
+        "plays"
+      ]
+    },
+    {
+      "focus": "trọng âm trong badminton",
+      "tip": "Nhấn ở âm đầu BAD; các âm sau đọc nhanh và nhẹ hơn.",
+      "words": [
+        "badminton",
+        "after",
+        "every"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I very like music.",
+      "right": "I really like music.",
+      "vi": "Không đặt very trực tiếp trước like. Dùng really để nhấn mạnh mức độ thích."
+    },
+    {
+      "wrong": "I like listen to music.",
+      "right": "I like listening to music.",
+      "vi": "Sau like có thể dùng động từ thêm ing khi nói thích làm một hoạt động."
+    },
+    {
+      "wrong": "I play badminton in free time.",
+      "right": "I play badminton in my free time.",
+      "vi": "Cần dùng my trước free time khi nói thời gian rảnh của mình."
+    },
+    {
+      "wrong": "I read book every day.",
+      "right": "I read books every day.",
+      "vi": "Khi nói chung về sách, dùng danh từ số nhiều books."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi về sở thích",
+      "formal": "What do you enjoy doing in your free time?",
+      "casual": "What do you like doing?",
+      "vi": "Câu formal phù hợp khi mới gặp người lạ hoặc trong bối cảnh lịch sự; câu casual tự nhiên hơn khi trò chuyện với bạn bè."
+    },
+    {
+      "situation": "Nói mình thích nghe nhạc",
+      "formal": "I enjoy listening to music in my free time.",
+      "casual": "I like music.",
+      "vi": "Câu formal đầy đủ và lịch sự hơn; câu casual ngắn gọn, phù hợp trong cuộc nói chuyện thân mật."
+    },
+    {
+      "situation": "Rủ ai đó chơi cầu lông",
+      "formal": "Would you like to play badminton sometime?",
+      "casual": "Do you want to play badminton sometime?",
+      "vi": "Dùng formal với người mới quen hoặc người cần giữ lịch sự; dùng casual với bạn bè hay đồng nghiệp thân."
+    },
+    {
+      "situation": "Từ chối lời rủ",
+      "formal": "Thank you, but I have plans tonight.",
+      "casual": "Sorry, I am busy tonight.",
+      "vi": "Câu formal mở đầu bằng lời cảm ơn nên mềm mại hơn; câu casual phù hợp khi nói với bạn bè."
+    }
+  ],
+  "culture": [
+    "Khi mới quen, người bản xứ thường bắt đầu bằng câu hỏi nhẹ về sở thích, phim ảnh hoặc hoạt động cuối tuần; đây là cách bắt chuyện bình thường.",
+    "Bạn có thể nói thẳng rằng mình không thích một hoạt động, ví dụ I do not really like movies. Cách nói này thường không bị xem là bất lịch sự.",
+    "Câu We can play badminton sometime thường là lời gợi ý thân thiện. Nếu thật sự muốn hẹn, người ta thường nói rõ ngày hoặc giờ sau đó."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ câu lạc bộ cộng đồng",
+    "passage": "Hi, I am Leo from the community center. I go there after work on Tuesdays and Thursdays. On Tuesdays, I play badminton with two friends. On Thursdays, I read books in the small library. I like music too, so I listen to songs on my walk home. If you are free this week, come and join us.",
+    "vi": "Chào, tôi là Leo từ trung tâm cộng đồng. Tôi đến đó sau giờ làm vào thứ Ba và thứ Năm. Vào thứ Ba, tôi chơi cầu lông với hai người bạn. Vào thứ Năm, tôi đọc sách ở thư viện nhỏ. Tôi cũng thích âm nhạc nên nghe nhạc khi đi bộ về nhà. Nếu bạn rảnh tuần này, hãy đến tham gia cùng chúng tôi.",
+    "questions": [
+      {
+        "q": "What does Leo do on Tuesdays?",
+        "choices": [
+          "He reads books.",
+          "He plays badminton.",
+          "He listens to music."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì Leo nói: On Tuesdays, I play badminton with two friends."
+      },
+      {
+        "q": "Where does Leo read books?",
+        "choices": [
+          "At home",
+          "In a small library",
+          "At work"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe có câu: I read books in the small library."
+      },
+      {
+        "q": "When does Leo go to the community center?",
+        "choices": [
+          "Before bed",
+          "After work",
+          "Every morning"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì Leo nói: I go there after work."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Mia, người bạn mới quen",
+      "b": "Bạn, người mới gặp Mia"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, I am Mia. Nice meeting you.",
+        "vi": "Chào, tôi là Mia. Rất vui được gặp bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi Mia, I am Nam.",
+        "vi": "Chào Mia, tôi là Nam.",
+        "hint": ""
+      },
+      {
+        "speaker": "a",
+        "en": "What do you like doing?",
+        "vi": "Bạn thích làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I like music and movies.",
+        "vi": "Tôi thích âm nhạc và phim.",
+        "hint": "Dùng I like rồi thêm sở thích."
+      },
+      {
+        "speaker": "a",
+        "en": "I like movies too. Any hobbies?",
+        "vi": "Tôi cũng thích phim. Bạn có sở thích nào không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I play badminton after work.",
+        "vi": "Tôi chơi cầu lông sau giờ làm.",
+        "hint": "Dùng play với môn thể thao."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds fun. I read books.",
+        "vi": "Nghe vui đấy. Tôi đọc sách.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Do you read every day?",
+        "vi": "Bạn có đọc mỗi ngày không?",
+        "hint": "Đặt Do you ở đầu câu hỏi."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, I read before bed.",
+        "vi": "Có, tôi đọc trước khi đi ngủ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Nice. We can play badminton sometime.",
+        "vi": "Hay đấy. Chúng ta có thể chơi cầu lông lúc nào đó.",
+        "hint": "We can dùng để gợi ý cùng làm việc gì."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly new friend at a community center. You meet the learner after a short class, chat warmly about hobbies and free time, and use simple questions and short answers.",
+    "opener": "Hi, I am Mia. Nice meeting you.",
+    "goal": "Người học hỏi và trả lời về sở thích, sau đó đưa ra một gợi ý gặp nhau thân thiện."
+  },
+  "drills": [
+    {
+      "vi": "Bạn thích làm gì?",
+      "en": "What do you like doing?",
+      "alts": [
+        "What do you like to do?"
+      ]
+    },
+    {
+      "vi": "Tôi thích âm nhạc.",
+      "en": "I like music.",
+      "alts": [
+        "I really like music."
+      ]
+    },
+    {
+      "vi": "Tôi chơi cầu lông sau giờ làm.",
+      "en": "I play badminton after work.",
+      "alts": []
+    },
+    {
+      "vi": "Bạn có đọc mỗi ngày không?",
+      "en": "Do you read every day?",
+      "alts": []
+    },
+    {
+      "vi": "Tôi đọc sách trước khi đi ngủ.",
+      "en": "I read books before bed.",
+      "alts": [
+        "I read a book before bed."
+      ]
+    },
+    {
+      "vi": "Bạn có sở thích nào không?",
+      "en": "Do you have any hobbies?",
+      "alts": [
+        "Any hobbies?"
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể xem phim lúc nào đó.",
+      "en": "We can watch a movie sometime.",
+      "alts": []
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và tự nghe lại một lần.",
+    "Nói ba câu về sở thích của bạn bằng mẫu I like.",
+    "Viết hai câu về việc bạn làm sau giờ làm hoặc trước khi ngủ."
+  ]
+}

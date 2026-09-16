@@ -1,0 +1,352 @@
+{
+  "id": "goi-taxi-ngan-gon",
+  "title": "Gọi taxi và nói điểm đến",
+  "topic": "Đi taxi",
+  "level": "A1",
+  "summary": "Bạn gọi taxi, nói điểm đến, hỏi thời gian và giá cước. Cuối bài, bạn xuống xe lịch sự.",
+  "goals": [
+    "Nói nơi bạn muốn đến",
+    "Hỏi địa chỉ, thời gian và giá cước",
+    "Yêu cầu tài xế dừng ở vị trí phù hợp"
+  ],
+  "vocab": [
+    {
+      "en": "taxi",
+      "ipa": "/ˈtæk.si/",
+      "vi": "xe taxi",
+      "example": "The taxi is outside."
+    },
+    {
+      "en": "driver",
+      "ipa": "/ˈdraɪ.vər/",
+      "vi": "tài xế",
+      "example": "The driver is friendly."
+    },
+    {
+      "en": "downtown",
+      "ipa": "/ˌdaʊnˈtaʊn/",
+      "vi": "trung tâm thành phố",
+      "example": "I need to go downtown."
+    },
+    {
+      "en": "hotel",
+      "ipa": "/hoʊˈtel/",
+      "vi": "khách sạn",
+      "example": "My hotel is near here."
+    },
+    {
+      "en": "address",
+      "ipa": "/əˈdres/",
+      "vi": "địa chỉ",
+      "example": "Do you have the address?"
+    },
+    {
+      "en": "near",
+      "ipa": "/nɪr/",
+      "vi": "gần",
+      "example": "The park is near my hotel."
+    },
+    {
+      "en": "fare",
+      "ipa": "/fer/",
+      "vi": "giá cước taxi",
+      "example": "How much is the fare?"
+    },
+    {
+      "en": "traffic",
+      "ipa": "/ˈtræf.ɪk/",
+      "vi": "giao thông đông, kẹt xe",
+      "example": "There is traffic today."
+    },
+    {
+      "en": "entrance",
+      "ipa": "/ˈen.trəns/",
+      "vi": "lối vào",
+      "example": "Please stop near the entrance."
+    },
+    {
+      "en": "stop",
+      "ipa": "/stɑːp/",
+      "vi": "dừng lại",
+      "example": "Please stop here."
+    },
+    {
+      "en": "destination",
+      "ipa": "/ˌdes.təˈneɪ.ʃən/",
+      "vi": "điểm đến",
+      "example": "My destination is City Hotel."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you take me to ___, please?",
+      "vi": "Bạn có thể chở tôi đến ___ không?",
+      "note": "Cách hỏi lịch sự với tài xế."
+    },
+    {
+      "en": "I need to go to ___.",
+      "vi": "Tôi cần đến ___.",
+      "note": "Mẫu ngắn, tự nhiên để nói điểm đến."
+    },
+    {
+      "en": "Do you have the address?",
+      "vi": "Bạn có địa chỉ không?",
+      "note": "Tài xế có thể hỏi câu này để xác nhận nơi đến."
+    },
+    {
+      "en": "Is it far from here?",
+      "vi": "Chỗ đó có xa từ đây không?",
+      "note": "Dùng để hỏi khoảng cách hoặc thời gian đi."
+    },
+    {
+      "en": "How much is the fare?",
+      "vi": "Giá cước là bao nhiêu?",
+      "note": "Dùng khi muốn biết giá chuyến đi."
+    },
+    {
+      "en": "Please stop near ___.",
+      "vi": "Vui lòng dừng gần ___.",
+      "note": "Dùng khi gần tới nơi."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /æ/",
+      "tip": "Mở miệng rộng hơn âm e, phát âm ngắn và thấp; tránh đọc taxi, traffic thành âm e.",
+      "words": [
+        "taxi",
+        "traffic"
+      ]
+    },
+    {
+      "focus": "âm cuối /p/",
+      "tip": "Khép hai môi ở cuối từ rồi dừng hơi, không bỏ mất âm cuối.",
+      "words": [
+        "stop",
+        "map"
+      ]
+    },
+    {
+      "focus": "trọng âm",
+      "tip": "Nhấn rõ âm thứ hai trong hotel và address; không đọc đều tất cả các âm.",
+      "words": [
+        "hotel",
+        "address"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Can you take me the airport?",
+      "right": "Can you take me to the airport?",
+      "vi": "Sau take someone cần có to trước địa điểm."
+    },
+    {
+      "wrong": "I want go downtown.",
+      "right": "I want to go downtown.",
+      "vi": "Sau want phải dùng to cộng động từ."
+    },
+    {
+      "wrong": "How much the fare is?",
+      "right": "How much is the fare?",
+      "vi": "Câu hỏi với how much cần đảo động từ is lên trước chủ ngữ."
+    },
+    {
+      "wrong": "Please stop the entrance.",
+      "right": "Please stop near the entrance.",
+      "vi": "Khi nói vị trí dừng, dùng near hoặc at trước địa điểm."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhờ tài xế chở đến một nơi",
+      "formal": "Could you take me to City Hotel, please?",
+      "casual": "Can you take me to City Hotel?",
+      "vi": "Câu formal phù hợp với tài xế hoặc người lạ; câu casual dùng với người quen và vẫn lịch sự trong tình huống thân mật."
+    },
+    {
+      "situation": "Yêu cầu đón tại vị trí hiện tại",
+      "formal": "Please pick me up here.",
+      "casual": "Pick me up here.",
+      "vi": "Thêm please khi nói với tài xế hoặc người lạ; câu casual ngắn hơn, hợp với bạn bè hay đồng nghiệp thân."
+    },
+    {
+      "situation": "Hỏi giá chuyến đi",
+      "formal": "Could you tell me the fare?",
+      "casual": "How much is it?",
+      "vi": "Câu formal lịch sự hơn khi mới gặp tài xế; câu casual dùng khi ngữ cảnh đã rõ đang nói về giá cước."
+    },
+    {
+      "situation": "Yêu cầu dừng xe",
+      "formal": "Please stop near the entrance.",
+      "casual": "Stop here, please.",
+      "vi": "Câu formal phù hợp khi muốn chỉ vị trí cụ thể với tài xế; câu casual dùng khi đã tới đúng chỗ và vị trí rất rõ."
+    }
+  ],
+  "culture": [
+    "Ở nhiều nơi nói tiếng Anh, bạn thường nói ngay tên khách sạn hoặc địa chỉ sau lời chào. Nói thẳng và rõ ràng được xem là bình thường.",
+    "Tài xế có thể ít nói trong chuyến đi; im lặng không có nghĩa là họ khó chịu. Bạn chỉ cần nói rõ nếu muốn đổi đường hoặc dừng xe.",
+    "Tiền boa cho taxi khác nhau theo quốc gia và loại dịch vụ. Nếu không chắc, bạn có thể kiểm tra quy định địa phương hoặc hỏi giá cước trước."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ tài xế taxi",
+    "passage": "Hello, this is your taxi driver. I am waiting at the train station. I am near the main entrance, beside a small coffee shop. My car is white. We are going to Green Park Hotel. The ride usually takes fifteen minutes. There is traffic on King Street today, so I use another road. Please call me if you cannot find the car.",
+    "vi": "Xin chào, tôi là tài xế taxi của bạn. Tôi đang chờ ở ga tàu. Tôi ở gần lối vào chính, cạnh một quán cà phê nhỏ. Xe của tôi màu trắng. Chúng ta sẽ đi đến khách sạn Green Park. Chuyến đi thường mất mười lăm phút. Hôm nay có kẹt xe trên phố King, nên tôi sẽ đi đường khác. Hãy gọi cho tôi nếu bạn không tìm thấy xe.",
+    "questions": [
+      {
+        "q": "Where is the driver waiting?",
+        "choices": [
+          "At Green Park Hotel",
+          "At the train station",
+          "On King Street"
+        ],
+        "answer": 1,
+        "vi": "Ngay đầu bài nghe, tài xế nói đang chờ ở ga tàu."
+      },
+      {
+        "q": "What color is the car?",
+        "choices": [
+          "Black",
+          "Blue",
+          "White"
+        ],
+        "answer": 2,
+        "vi": "Tài xế nói rõ xe của mình màu trắng."
+      },
+      {
+        "q": "Why does the driver use another road?",
+        "choices": [
+          "There is traffic on King Street.",
+          "The car is too small.",
+          "The hotel is closed."
+        ],
+        "answer": 0,
+        "vi": "Bài nghe nói hôm nay có kẹt xe trên phố King nên tài xế đi đường khác."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Tài xế taxi",
+      "b": "Khách đi taxi"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, this is your taxi driver.",
+        "vi": "Xin chào, tôi là tài xế taxi của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi. I need to go downtown.",
+        "vi": "Chào. Tôi cần đến trung tâm thành phố.",
+        "hint": "Dùng I need to go to để nói điểm đến."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. Do you have an address?",
+        "vi": "Được. Bạn có địa chỉ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. City Hotel, near the park.",
+        "vi": "Có. Khách sạn City, gần công viên.",
+        "hint": "Nói tên nơi đến rồi thêm near để chỉ vị trí gần đó."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Please get in the car.",
+        "vi": "Tốt. Mời bạn lên xe.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. Is it far from here?",
+        "vi": "Cảm ơn. Từ đây có xa không?",
+        "hint": "Is it far from here? dùng để hỏi có xa không."
+      },
+      {
+        "speaker": "a",
+        "en": "No. It takes about ten minutes.",
+        "vi": "Không. Mất khoảng mười phút.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Okay. How much is the fare?",
+        "vi": "Được. Giá cước là bao nhiêu?",
+        "hint": "Dùng fare khi hỏi giá đi taxi."
+      },
+      {
+        "speaker": "a",
+        "en": "Here we are. Eight dollars, please.",
+        "vi": "Chúng ta tới rồi. Tám đô la, xin mời.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. Have a good day.",
+        "vi": "Cảm ơn. Chúc bạn một ngày tốt lành.",
+        "hint": "Đây là câu chào lịch sự khi kết thúc chuyến đi."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly taxi driver in Da Nang. You speak slowly, confirm the destination, and give clear, helpful answers.",
+    "opener": "Hello, this is your taxi driver. Where do you need to go?",
+    "goal": "Người học nói điểm đến, hỏi thời gian hoặc giá cước, rồi kết thúc chuyến xe lịch sự."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần đến khách sạn City.",
+      "en": "I need to go to City Hotel.",
+      "alts": [
+        "I need a taxi to City Hotel."
+      ]
+    },
+    {
+      "vi": "Bạn có địa chỉ không?",
+      "en": "Do you have the address?",
+      "alts": []
+    },
+    {
+      "vi": "Khách sạn ở gần công viên.",
+      "en": "The hotel is near the park.",
+      "alts": []
+    },
+    {
+      "vi": "Chỗ đó có xa từ đây không?",
+      "en": "Is it far from here?",
+      "alts": []
+    },
+    {
+      "vi": "Mất khoảng mười phút.",
+      "en": "It takes about ten minutes.",
+      "alts": [
+        "It is about ten minutes."
+      ]
+    },
+    {
+      "vi": "Giá cước là bao nhiêu?",
+      "en": "How much is the fare?",
+      "alts": [
+        "How much is it?"
+      ]
+    },
+    {
+      "vi": "Vui lòng dừng gần lối vào.",
+      "en": "Please stop near the entrance.",
+      "alts": [
+        "Please stop here."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý âm /æ/ trong taxi và traffic.",
+    "Tự nói ba điểm đến khác nhau với mẫu I need to go to ___.",
+    "Luyện hỏi giá cước và yêu cầu dừng xe bằng hai mẫu câu trong bài."
+  ]
+}

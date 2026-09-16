@@ -1,0 +1,378 @@
+{
+  "id": "ke-chuyen-thuyet-phuc",
+  "title": "Kể chuyện để thuyết phục người nghe",
+  "topic": "Thuyết phục bằng câu chuyện cá nhân",
+  "level": "B2",
+  "summary": "Bạn trình bày trước một nhóm khán giả nhỏ để xin ủng hộ dự án khu vườn cộng đồng. Bạn dùng một câu chuyện cụ thể, phản hồi băn khoăn và đề xuất một bước đi thực tế.",
+  "goals": [
+    "Kể một câu chuyện ngắn có mở đầu, vấn đề và kết quả",
+    "Dùng chi tiết cảm xúc để làm lập luận thuyết phục hơn",
+    "Phản hồi ý kiến phản đối và đề xuất một thỏa hiệp hợp lý"
+  ],
+  "vocab": [
+    {
+      "en": "make a case",
+      "ipa": "/meɪk ə keɪs/",
+      "vi": "đưa ra lập luận thuyết phục",
+      "example": "I would like to make a case for funding the garden."
+    },
+    {
+      "en": "turning point",
+      "ipa": "/ˈtɜːrnɪŋ pɔɪnt/",
+      "vi": "bước ngoặt",
+      "example": "That conversation was the turning point for our neighborhood."
+    },
+    {
+      "en": "struggle with",
+      "ipa": "/ˈstrʌɡəl wɪð/",
+      "vi": "vật lộn với, gặp khó khăn về",
+      "example": "Many families struggle with the cost of fresh food."
+    },
+    {
+      "en": "take ownership",
+      "ipa": "/teɪk ˈoʊnərʃɪp/",
+      "vi": "chủ động chịu trách nhiệm, coi là việc của mình",
+      "example": "The teenagers took ownership of the project."
+    },
+    {
+      "en": "ripple effect",
+      "ipa": "/ˈrɪpəl ɪˌfekt/",
+      "vi": "hiệu ứng lan tỏa",
+      "example": "One small project can have a ripple effect."
+    },
+    {
+      "en": "back something up",
+      "ipa": "/bæk ˈsʌmθɪŋ ʌp/",
+      "vi": "ủng hộ bằng bằng chứng hoặc hành động",
+      "example": "We can back that claim up with survey results."
+    },
+    {
+      "en": "meet someone halfway",
+      "ipa": "/miːt ˈsʌmwʌn ˌhɑːfˈweɪ/",
+      "vi": "thỏa hiệp, mỗi bên nhượng bộ một phần",
+      "example": "We can meet you halfway and start with a pilot project."
+    },
+    {
+      "en": "a long shot",
+      "ipa": "/ə lɔːŋ ʃɑːt/",
+      "vi": "việc khó thành công, cơ hội mong manh",
+      "example": "At first, the idea seemed like a long shot."
+    },
+    {
+      "en": "come to life",
+      "ipa": "/kʌm tə laɪf/",
+      "vi": "trở nên sống động, thành hiện thực",
+      "example": "The empty lot came to life during the summer."
+    },
+    {
+      "en": "follow through",
+      "ipa": "/ˈfɑːloʊ θruː/",
+      "vi": "làm đến cùng điều đã hứa",
+      "example": "We need volunteers who will follow through."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Let me tell you about a time when ___.",
+      "vi": "Để tôi kể bạn nghe về một lần mà ___.",
+      "note": "Dùng để mở một câu chuyện cá nhân, tạo sự chú ý trước khi nêu lập luận."
+    },
+    {
+      "en": "What changed my mind was ___.",
+      "vi": "Điều khiến tôi thay đổi suy nghĩ là ___.",
+      "note": "Dùng để nêu bước ngoặt hoặc bài học của câu chuyện."
+    },
+    {
+      "en": "It may seem like ___, but the bigger issue is ___.",
+      "vi": "Có thể ___ có vẻ như vậy, nhưng vấn đề lớn hơn là ___.",
+      "note": "Dùng để công nhận một ý kiến rồi chuyển sang luận điểm chính."
+    },
+    {
+      "en": "If we ___, we could ___.",
+      "vi": "Nếu chúng ta ___, chúng ta có thể ___.",
+      "note": "Câu điều kiện dùng để đề xuất kết quả khả thi."
+    },
+    {
+      "en": "Would you be willing to ___ if we ___?",
+      "vi": "Bạn có sẵn lòng ___ nếu chúng ta ___ không?",
+      "note": "Mẫu thương lượng lịch sự, giúp biến đề xuất thành cam kết chung."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong think và through",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Đừng đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "think",
+        "through",
+        "something"
+      ]
+    },
+    {
+      "focus": "nối âm trong could have và would you",
+      "tip": "Nói liền các từ trong cụm thay vì ngắt từng từ. Âm cuối thường nối sang nguyên âm đầu từ sau.",
+      "words": [
+        "could have",
+        "would you",
+        "follow through"
+      ]
+    },
+    {
+      "focus": "trọng âm của từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm tiết chính để người nghe dễ theo dõi ý quan trọng.",
+      "words": [
+        "persuasive",
+        "community",
+        "ownership"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want to persuade you support this project.",
+      "right": "I want to persuade you to support this project.",
+      "vi": "Sau persuade dùng tân ngữ rồi đến to cộng động từ."
+    },
+    {
+      "wrong": "This story proves the garden is very meaningful.",
+      "right": "This story shows why the garden matters.",
+      "vi": "Trong nói chuyện thuyết phục, matters tự nhiên và bớt tuyệt đối hơn proves."
+    },
+    {
+      "wrong": "We discussed about the problem last week.",
+      "right": "We discussed the problem last week.",
+      "vi": "Discuss là ngoại động từ nên không dùng about sau nó."
+    },
+    {
+      "wrong": "If we will start small, people will trust us.",
+      "right": "If we start small, people will trust us.",
+      "vi": "Trong mệnh đề if chỉ điều kiện thực tế, thường dùng hiện tại đơn thay vì will."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở đầu một câu chuyện để thuyết phục",
+      "formal": "I would like to share a brief example that illustrates why this matters.",
+      "casual": "Let me tell you what happened to my neighbor.",
+      "vi": "Câu formal phù hợp khi thuyết trình với hội đồng hoặc cấp trên; câu casual tự nhiên hơn trong cuộc họp nhóm nhỏ."
+    },
+    {
+      "situation": "Công nhận ý kiến phản đối",
+      "formal": "That is a valid concern, and I appreciate you raising it.",
+      "casual": "That is a fair point. I get why you are worried.",
+      "vi": "Câu formal dùng trong môi trường chuyên nghiệp hoặc trang trọng; câu casual dùng với đồng nghiệp, bạn bè hoặc nhóm cộng đồng thân thiện."
+    },
+    {
+      "situation": "Đề xuất thỏa hiệp",
+      "formal": "Would you consider approving a limited pilot phase?",
+      "casual": "How about we try it on a small scale first?",
+      "vi": "Câu formal phù hợp khi xin quyết định chính thức; câu casual phù hợp khi cùng nhau động não trong nhóm."
+    },
+    {
+      "situation": "Kêu gọi hành động",
+      "formal": "I would welcome your support for the proposal.",
+      "casual": "I hope you will get behind this idea.",
+      "vi": "Câu formal lịch sự và có khoảng cách hơn; câu casual ấm áp, trực tiếp hơn khi đã có sự thân quen."
+    }
+  ],
+  "culture": [
+    "Trong thảo luận nhóm ở các nước nói tiếng Anh, người nghe thường ngắt lời lịch sự để hỏi bằng chứng hoặc nêu băn khoăn. Đây thường là dấu hiệu họ đang cân nhắc nghiêm túc, không hẳn là phản đối cá nhân.",
+    "Một câu chuyện cá nhân thường hiệu quả hơn khi đi kèm một yêu cầu cụ thể và bằng chứng ngắn gọn. Chỉ kể chuyện cảm động mà không nói rõ mình muốn người nghe làm gì có thể bị xem là thiếu thực tế.",
+    "Người nói thường công nhận lo ngại trước khi phản biện, chẳng hạn bằng That is a fair concern. Cách này giúp bất đồng bớt căng thẳng hơn là bác bỏ ngay lập tức."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về dự án vườn cộng đồng",
+    "passage": "Hello everyone. I visited the community garden on Saturday and spoke with several volunteers. The most useful part was not the vegetables, although people enjoyed taking them home. It was the weekly workshop, where neighbors learned simple recipes and met people they had never spoken to before. We are asking for support to keep the workshop running through the winter. In return, we will share a short update with donors at the end of every month.",
+    "vi": "Chào mọi người. Tôi đã đến thăm khu vườn cộng đồng vào thứ Bảy và nói chuyện với vài tình nguyện viên. Phần hữu ích nhất không phải là rau củ, dù mọi người thích mang chúng về nhà. Đó là buổi hướng dẫn hằng tuần, nơi hàng xóm học các công thức đơn giản và gặp những người trước đây họ chưa từng trò chuyện. Chúng tôi đang xin hỗ trợ để duy trì buổi hướng dẫn suốt mùa đông. Đổi lại, chúng tôi sẽ gửi cập nhật ngắn cho các nhà tài trợ vào cuối mỗi tháng.",
+    "questions": [
+      {
+        "q": "What did the speaker say was the most useful part of the garden?",
+        "choices": [
+          "Taking vegetables home",
+          "The weekly workshop",
+          "Visiting on Saturday"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The weekly workshop vì người nói nêu rõ phần hữu ích nhất là buổi hướng dẫn hằng tuần."
+      },
+      {
+        "q": "Why is the group asking for support?",
+        "choices": [
+          "To buy a new piece of land",
+          "To keep the workshop running through winter",
+          "To hire more full-time workers"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là To keep the workshop running through winter, được nói trực tiếp ở gần cuối đoạn."
+      },
+      {
+        "q": "What will donors receive?",
+        "choices": [
+          "A short monthly update",
+          "Free meals every week",
+          "A gardening tool"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là A short monthly update vì người nói hứa gửi một cập nhật ngắn vào cuối mỗi tháng."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhóm khán giả nhỏ đang cân nhắc có nên ủng hộ dự án khu vườn cộng đồng hay không",
+      "b": "Người trình bày muốn thuyết phục nhóm ủng hộ dự án"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for coming. We have ten minutes. Why should we support this garden project?",
+        "vi": "Cảm ơn bạn đã đến. Chúng ta có mười phút. Vì sao chúng tôi nên ủng hộ dự án khu vườn này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Let me tell you about a family on my street.",
+        "vi": "Để tôi kể bạn nghe về một gia đình trên phố của tôi.",
+        "hint": "Mở đầu bằng mẫu Let me tell you about để kéo người nghe vào câu chuyện."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. What happened?",
+        "vi": "Được. Chuyện gì đã xảy ra?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Last winter, I met Linh, a single mother with two children. She was working two jobs and still struggled with the cost of fresh food.",
+        "vi": "Mùa đông năm ngoái, tôi gặp Linh, một bà mẹ đơn thân có hai con. Cô ấy làm hai việc mà vẫn chật vật với chi phí thực phẩm tươi.",
+        "hint": "Dùng still struggled with để nhấn mạnh khó khăn kéo dài dù đã rất cố gắng."
+      },
+      {
+        "speaker": "a",
+        "en": "That is difficult, but how would a garden solve it?",
+        "vi": "Điều đó thật khó khăn, nhưng một khu vườn sẽ giải quyết được thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "At first, Linh thought the idea was a long shot too. Then she joined a small growing group at the library and brought home herbs and vegetables each week.",
+        "vi": "Ban đầu, Linh cũng nghĩ ý tưởng này khó thành công. Rồi cô ấy tham gia một nhóm trồng cây nhỏ ở thư viện và mỗi tuần mang rau thơm cùng rau củ về nhà.",
+        "hint": "Dùng At first để kể giai đoạn đầu, rồi Then để chuyển sang thay đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "So she received free food. Is that the whole benefit?",
+        "vi": "Vậy là cô ấy nhận được thực phẩm miễn phí. Đó có phải toàn bộ lợi ích không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No. What changed my mind was seeing her children help plant seeds. They began asking where food came from, and Linh started sharing meals with her neighbors.",
+        "vi": "Không. Điều khiến tôi thay đổi suy nghĩ là thấy các con cô ấy cùng gieo hạt. Các em bắt đầu hỏi thức ăn đến từ đâu, và Linh bắt đầu chia sẻ bữa ăn với hàng xóm.",
+        "hint": "Dùng What changed my mind was để nêu khoảnh khắc bước ngoặt."
+      },
+      {
+        "speaker": "a",
+        "en": "I can see the human side, but we still need to justify the cost.",
+        "vi": "Tôi thấy được khía cạnh con người, nhưng chúng ta vẫn cần biện minh cho chi phí.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Absolutely. It may seem like we are paying for plants, but the bigger issue is whether people have a place to learn, connect, and take ownership of their neighborhood.",
+        "vi": "Chắc chắn rồi. Có thể trông như chúng ta đang trả tiền cho cây trồng, nhưng vấn đề lớn hơn là liệu mọi người có một nơi để học hỏi, kết nối và chủ động với khu phố của mình hay không.",
+        "hint": "Công nhận lo ngại bằng Absolutely, rồi dùng It may seem like để chuyển sang vấn đề lớn hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "What evidence do you have that people will actually use it?",
+        "vi": "Bạn có bằng chứng gì rằng mọi người sẽ thực sự sử dụng nó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We asked local residents, and forty people said they would volunteer. More importantly, Linh has already offered to run a weekend cooking session, so we have someone ready to follow through.",
+        "vi": "Chúng tôi đã hỏi cư dân địa phương, và bốn mươi người nói họ sẽ tình nguyện. Quan trọng hơn, Linh đã đề nghị tổ chức một buổi nấu ăn cuối tuần, nên chúng ta có người sẵn sàng làm đến cùng.",
+        "hint": "Dùng More importantly để đưa bằng chứng mạnh hơn sau dữ kiện đầu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "My concern is that enthusiasm may fade after a few months.",
+        "vi": "Điều tôi lo là sự hào hứng có thể phai dần sau vài tháng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a fair concern. If we start with a six-month pilot and review attendance every month, we could keep the risk low while giving the project a real chance to come to life.",
+        "vi": "Đó là một lo ngại hợp lý. Nếu chúng ta bắt đầu bằng chương trình thử nghiệm sáu tháng và xem lại số người tham gia mỗi tháng, chúng ta có thể giảm rủi ro mà vẫn cho dự án cơ hội thật sự thành hiện thực.",
+        "hint": "Dùng That is a fair concern để phản hồi mềm mại, sau đó đề xuất bằng If we start."
+      },
+      {
+        "speaker": "a",
+        "en": "A pilot sounds reasonable. What are you asking from us today?",
+        "vi": "Một chương trình thử nghiệm nghe hợp lý. Hôm nay bạn muốn chúng tôi làm gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Would you be willing to approve the pilot budget and help us recruit two mentors? If we meet you halfway with clear monthly reports, I believe this small garden can create a ripple effect across the neighborhood.",
+        "vi": "Bạn có sẵn lòng phê duyệt ngân sách thử nghiệm và giúp chúng tôi tuyển hai người hướng dẫn không? Nếu chúng tôi thỏa hiệp bằng các báo cáo hằng tháng rõ ràng, tôi tin khu vườn nhỏ này có thể tạo hiệu ứng lan tỏa khắp khu phố.",
+        "hint": "Kết thúc bằng một yêu cầu cụ thể và điều kiện trao đổi rõ ràng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a small audience at a neighborhood meeting in a community center. You are interested but practical, and you ask thoughtful questions before deciding whether to support a community garden pilot.",
+    "opener": "Thanks for coming. We have ten minutes. Why should we support this garden project?",
+    "goal": "Người học kể một câu chuyện thuyết phục, xử lý ít nhất một băn khoăn về chi phí hoặc tính bền vững, rồi đưa ra đề nghị cụ thể."
+  },
+  "drills": [
+    {
+      "vi": "Để tôi kể bạn nghe về một lần tôi thấy dự án này thay đổi một gia đình.",
+      "en": "Let me tell you about a time when I saw this project change a family.",
+      "alts": []
+    },
+    {
+      "vi": "Điều khiến tôi thay đổi suy nghĩ là cách bọn trẻ tham gia.",
+      "en": "What changed my mind was the way the children got involved.",
+      "alts": []
+    },
+    {
+      "vi": "Nhiều gia đình chật vật với chi phí thực phẩm tươi.",
+      "en": "Many families struggle with the cost of fresh food.",
+      "alts": [
+        "A lot of families struggle to afford fresh food."
+      ]
+    },
+    {
+      "vi": "Có thể nó trông như một khoản chi nhỏ, nhưng vấn đề lớn hơn là sự kết nối cộng đồng.",
+      "en": "It may seem like a small expense, but the bigger issue is community connection.",
+      "alts": []
+    },
+    {
+      "vi": "Nếu chúng ta bắt đầu bằng một chương trình thử nghiệm, chúng ta có thể giảm rủi ro.",
+      "en": "If we start with a pilot project, we could keep the risk low.",
+      "alts": [
+        "If we begin with a pilot, we can reduce the risk."
+      ]
+    },
+    {
+      "vi": "Bạn có sẵn lòng ủng hộ dự án nếu chúng tôi gửi báo cáo hằng tháng không?",
+      "en": "Would you be willing to support the project if we provided monthly reports?",
+      "alts": []
+    },
+    {
+      "vi": "Chúng ta có thể thỏa hiệp và xem lại kết quả sau sáu tháng.",
+      "en": "We can meet halfway and review the results after six months.",
+      "alts": [
+        "We could meet halfway and review the results in six months."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm một câu chuyện dài khoảng một phút để thuyết phục người nghe ủng hộ một ý tưởng của bạn.",
+    "Viết ba câu dùng các mẫu What changed my mind was, It may seem like, và Would you be willing to.",
+    "Luyện trả lời một ý kiến phản đối bằng câu That is a fair concern, rồi đưa ra một giải pháp thực tế."
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": "qua-cua-hai-quan",
+  "title": "Qua cửa hải quan và nhập cảnh",
+  "topic": "Hải quan và nhập cảnh",
+  "level": "A2",
+  "summary": "Bạn luyện trả lời các câu hỏi cơ bản của nhân viên xuất nhập cảnh khi đến sân bay quốc tế. Bạn sẽ nói về mục đích chuyến đi, thời gian lưu trú, nơi ở và đồ cần khai báo.",
+  "goals": [
+    "Xuất trình hộ chiếu và thẻ nhập cảnh lịch sự.",
+    "Trả lời ngắn gọn về mục đích và thời gian chuyến đi.",
+    "Nói rõ bạn có hoặc không có đồ cần khai báo."
+  ],
+  "vocab": [
+    {
+      "en": "passport",
+      "ipa": "/ˈpæs.pɔːrt/",
+      "vi": "hộ chiếu",
+      "example": "Here is my passport."
+    },
+    {
+      "en": "arrival card",
+      "ipa": "/əˈraɪ.vəl kɑːrd/",
+      "vi": "thẻ nhập cảnh",
+      "example": "I completed my arrival card on the plane."
+    },
+    {
+      "en": "purpose of your visit",
+      "ipa": "/ˈpɜːr.pəs əv jʊr ˈvɪz.ɪt/",
+      "vi": "mục đích chuyến thăm",
+      "example": "The purpose of my visit is a holiday."
+    },
+    {
+      "en": "holiday",
+      "ipa": "/ˈhɑː.lə.deɪ/",
+      "vi": "kỳ nghỉ, chuyến du lịch",
+      "example": "I am here for a short holiday."
+    },
+    {
+      "en": "stay",
+      "ipa": "/steɪ/",
+      "vi": "ở lại, lưu trú",
+      "example": "I will stay for seven days."
+    },
+    {
+      "en": "return ticket",
+      "ipa": "/rɪˈtɜːrn ˈtɪk.ɪt/",
+      "vi": "vé khứ hồi",
+      "example": "My return ticket is in my bag."
+    },
+    {
+      "en": "declare",
+      "ipa": "/dɪˈkler/",
+      "vi": "khai báo với hải quan",
+      "example": "I have nothing to declare."
+    },
+    {
+      "en": "personal items",
+      "ipa": "/ˈpɜːr.sə.nəl ˈaɪ.təmz/",
+      "vi": "đồ dùng cá nhân",
+      "example": "These are only personal items."
+    },
+    {
+      "en": "customs",
+      "ipa": "/ˈkʌs.təmz/",
+      "vi": "hải quan",
+      "example": "Please follow the signs for customs."
+    },
+    {
+      "en": "immigration officer",
+      "ipa": "/ˌɪm.ɪˈɡreɪ.ʃən ˈɔː.fɪ.sər/",
+      "vi": "nhân viên xuất nhập cảnh",
+      "example": "The immigration officer checked my passport."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "May I see your ___, please?",
+      "vi": "Tôi có thể xem ___ của bạn được không?",
+      "note": "Mẫu lịch sự mà nhân viên thường dùng khi yêu cầu giấy tờ."
+    },
+    {
+      "en": "I am here for ___.",
+      "vi": "Tôi đến đây để ___.",
+      "note": "Dùng để nói ngắn gọn về mục đích chuyến đi."
+    },
+    {
+      "en": "I will stay for ___ days.",
+      "vi": "Tôi sẽ ở lại ___ ngày.",
+      "note": "Dùng for trước khoảng thời gian."
+    },
+    {
+      "en": "I will stay at ___.",
+      "vi": "Tôi sẽ ở tại ___.",
+      "note": "Dùng at trước tên khách sạn hoặc địa điểm lưu trú."
+    },
+    {
+      "en": "I have nothing to declare.",
+      "vi": "Tôi không có gì cần khai báo.",
+      "note": "Câu trả lời chuẩn khi không mang hàng hóa cần khai báo."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /st/",
+      "tip": "Phát đủ cả /s/ và /t/, không bỏ âm /t/ ở cuối từ.",
+      "words": [
+        "passport",
+        "customs",
+        "first"
+      ]
+    },
+    {
+      "focus": "Trọng âm từ declare",
+      "tip": "Nhấn mạnh âm thứ hai: de-CLAIR, không đọc đều cả hai âm.",
+      "words": [
+        "declare",
+        "arrival",
+        "return"
+      ]
+    },
+    {
+      "focus": "Âm /r/",
+      "tip": "Cong nhẹ đầu lưỡi vào trong, không rung lưỡi như âm r tiếng Việt.",
+      "words": [
+        "arrival",
+        "return",
+        "passport"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I come here for holiday.",
+      "right": "I am here for a holiday.",
+      "vi": "Khi nói mục đích chuyến đi hiện tại, dùng I am here for và thêm a trước holiday."
+    },
+    {
+      "wrong": "I stay seven days.",
+      "right": "I will stay for seven days.",
+      "vi": "Nói kế hoạch lưu trú cần will và for trước số ngày."
+    },
+    {
+      "wrong": "I stay in Riverside Hotel.",
+      "right": "I will stay at the Riverside Hotel.",
+      "vi": "Dùng at với tên khách sạn và thường có the trước tên khách sạn."
+    },
+    {
+      "wrong": "Here your passport.",
+      "right": "Here is my passport.",
+      "vi": "Câu tiếng Anh cần động từ is và phải dùng my passport khi nói hộ chiếu của mình."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đưa hộ chiếu cho nhân viên",
+      "formal": "Certainly. Here is my passport.",
+      "casual": "Here you go.",
+      "vi": "Dùng câu formal khi làm việc với nhân viên xuất nhập cảnh; câu casual phù hợp hơn khi đưa đồ cho bạn bè hoặc đồng nghiệp thân."
+    },
+    {
+      "situation": "Nói mục đích chuyến đi",
+      "formal": "I am visiting for a holiday.",
+      "casual": "I am here on vacation.",
+      "vi": "Câu formal phù hợp khi trả lời viên chức; câu casual dùng trong trò chuyện thân mật về chuyến đi."
+    },
+    {
+      "situation": "Nói thời gian lưu trú",
+      "formal": "I will be staying for seven days.",
+      "casual": "I am here for a week.",
+      "vi": "Câu formal rõ ràng hơn khi trả lời tại quầy; câu casual tự nhiên khi nói chuyện với người quen."
+    },
+    {
+      "situation": "Nói về đồ khai báo",
+      "formal": "No, I have nothing to declare.",
+      "casual": "No, just my clothes.",
+      "vi": "Với hải quan, dùng câu formal đầy đủ và rõ ràng; câu casual chỉ phù hợp khi giải thích với người quen."
+    }
+  ],
+  "culture": [
+    "Ở nhiều sân bay nói tiếng Anh, nhân viên thường hỏi ngắn, trực tiếp và ít bắt chuyện. Hãy trả lời đúng câu hỏi, ngắn gọn và bình tĩnh.",
+    "Không nên pha trò, tranh luận hoặc tự kể quá nhiều thông tin ở quầy nhập cảnh. Chỉ giải thích thêm khi nhân viên hỏi.",
+    "Nhân viên có thể nhìn màn hình hoặc gõ máy tính mà không giao tiếp bằng mắt liên tục. Điều này thường là quy trình làm việc, không phải thái độ thiếu thân thiện."
+  ],
+  "listening": {
+    "title": "Thông báo tại khu nhập cảnh",
+    "passage": "Attention passengers arriving from international flights. Before you join the immigration line, please complete your arrival card. Keep your passport and hotel address ready. At the customs desk, tell the officer if you are carrying food, large amounts of cash, or business gifts. If you have nothing to declare, follow the green signs. Please do not take photos in this area.",
+    "vi": "Xin chú ý các hành khách đến từ chuyến bay quốc tế. Trước khi xếp hàng vào khu nhập cảnh, vui lòng hoàn thành thẻ nhập cảnh. Hãy chuẩn bị sẵn hộ chiếu và địa chỉ khách sạn. Tại quầy hải quan, hãy báo cho nhân viên nếu bạn mang thực phẩm, số tiền mặt lớn hoặc quà tặng phục vụ công việc. Nếu bạn không có gì cần khai báo, hãy đi theo biển chỉ dẫn màu xanh lá. Vui lòng không chụp ảnh trong khu vực này.",
+    "questions": [
+      {
+        "q": "What should passengers complete before joining the line?",
+        "choices": [
+          "Their arrival card",
+          "Their hotel booking",
+          "Their return ticket"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là thẻ nhập cảnh vì bài nghe nói: complete your arrival card before you join the immigration line."
+      },
+      {
+        "q": "What should passengers keep ready?",
+        "choices": [
+          "A passport and hotel address",
+          "Food and business gifts",
+          "A camera and phone"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là hộ chiếu và địa chỉ khách sạn, được nói ngay sau câu về thẻ nhập cảnh."
+      },
+      {
+        "q": "Which signs should passengers follow with nothing to declare?",
+        "choices": [
+          "The blue signs",
+          "The green signs",
+          "The red signs"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là biển màu xanh lá vì bài nghe nói: If you have nothing to declare, follow the green signs."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên xuất nhập cảnh",
+      "b": "Hành khách nhập cảnh"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good afternoon. May I see your passport, please?",
+        "vi": "Chào buổi chiều. Tôi có thể xem hộ chiếu của bạn được không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Certainly. Here is my passport and arrival card.",
+        "vi": "Vâng. Đây là hộ chiếu và thẻ nhập cảnh của tôi.",
+        "hint": "Dùng Certainly để trả lời lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "What is the purpose of your visit today?",
+        "vi": "Mục đích chuyến đi của bạn hôm nay là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am here for a short holiday.",
+        "vi": "Tôi đến đây cho một kỳ nghỉ ngắn.",
+        "hint": "Dùng I am here for để nêu mục đích."
+      },
+      {
+        "speaker": "a",
+        "en": "How long are you planning to stay?",
+        "vi": "Bạn dự định ở lại bao lâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will stay for seven days.",
+        "vi": "Tôi sẽ ở lại bảy ngày.",
+        "hint": "Nhớ dùng for trước khoảng thời gian."
+      },
+      {
+        "speaker": "a",
+        "en": "Where will you stay during your trip?",
+        "vi": "Bạn sẽ ở đâu trong chuyến đi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will stay at the Riverside Hotel downtown.",
+        "vi": "Tôi sẽ ở tại khách sạn Riverside ở trung tâm thành phố.",
+        "hint": "Dùng stay at trước tên khách sạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Do you have anything to declare today?",
+        "vi": "Hôm nay bạn có gì cần khai báo không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No, I only have clothes and personal items.",
+        "vi": "Không, tôi chỉ có quần áo và đồ dùng cá nhân.",
+        "hint": "Bắt đầu bằng No, rồi nói ngắn gọn đồ bạn mang theo."
+      },
+      {
+        "speaker": "a",
+        "en": "Everything looks fine. Welcome, and enjoy your holiday.",
+        "vi": "Mọi thứ đều ổn. Chào mừng bạn, và chúc bạn có kỳ nghỉ vui vẻ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am happy to be here.",
+        "vi": "Cảm ơn. Tôi rất vui khi được ở đây.",
+        "hint": "Kết thúc bằng lời cảm ơn ngắn gọn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, polite immigration officer at an international airport. Ask brief entry questions, check the traveler's documents, and clearly finish the entry process.",
+    "opener": "Good afternoon. May I see your passport, please?",
+    "goal": "Người học trả lời đủ về mục đích chuyến đi, thời gian ở, nơi lưu trú và việc khai báo hải quan."
+  },
+  "drills": [
+    {
+      "vi": "Cho tôi xem hộ chiếu của bạn được không?",
+      "en": "May I see your passport, please?",
+      "alts": [
+        "Could I see your passport, please?"
+      ]
+    },
+    {
+      "vi": "Tôi đến đây cho một kỳ nghỉ ngắn.",
+      "en": "I am here for a short holiday.",
+      "alts": [
+        "I am visiting for a short holiday."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ ở lại bảy ngày.",
+      "en": "I will stay for seven days.",
+      "alts": [
+        "I am staying for seven days."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ ở tại khách sạn Riverside.",
+      "en": "I will stay at the Riverside Hotel.",
+      "alts": [
+        "I am staying at the Riverside Hotel."
+      ]
+    },
+    {
+      "vi": "Không, tôi không có gì cần khai báo.",
+      "en": "No, I have nothing to declare.",
+      "alts": [
+        "No, I only have personal items."
+      ]
+    },
+    {
+      "vi": "Đây là thẻ nhập cảnh của tôi.",
+      "en": "Here is my arrival card.",
+      "alts": [
+        "This is my arrival card."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai hành khách trong toàn bộ hội thoại.",
+    "Tự trả lời bốn câu hỏi nhập cảnh với thông tin chuyến đi của bạn.",
+    "Đặt ba câu dùng mẫu I will stay for ___ days."
+  ]
+}

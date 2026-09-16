@@ -1,0 +1,398 @@
+{
+  "id": "tranh-luan-dao-duc-cong-nghe",
+  "title": "Tranh luận về đạo đức công nghệ và quyền riêng tư",
+  "topic": "Đạo đức công nghệ và quyền riêng tư",
+  "level": "C1",
+  "summary": "Bạn tham gia một buổi tham vấn công khai với chuyên gia chính sách về việc dùng công nghệ giám sát. Bạn nêu quan ngại về quyền riêng tư và cùng xây dựng các điều kiện bảo vệ người dân.",
+  "goals": [
+    "Trình bày quan điểm tinh tế về quyền riêng tư và an toàn công cộng.",
+    "Phản biện lịch sự, thừa nhận lập luận đối phương và đề xuất điều kiện cụ thể.",
+    "Dùng collocation tự nhiên để nói về dữ liệu, giám sát và trách nhiệm giải trình."
+  ],
+  "vocab": [
+    {
+      "en": "privacy",
+      "ipa": "/ˈpraɪvəsi/",
+      "vi": "quyền riêng tư",
+      "example": "Privacy should not be treated as an afterthought."
+    },
+    {
+      "en": "informed consent",
+      "ipa": "/ɪnˈfɔːrmd kənˈsent/",
+      "vi": "sự đồng thuận dựa trên thông tin đầy đủ",
+      "example": "People should give informed consent before their data is collected."
+    },
+    {
+      "en": "data retention",
+      "ipa": "/ˈdeɪtə rɪˈtenʃən/",
+      "vi": "việc lưu giữ dữ liệu",
+      "example": "The policy sets a strict limit on data retention."
+    },
+    {
+      "en": "surveillance",
+      "ipa": "/sərˈveɪləns/",
+      "vi": "sự giám sát",
+      "example": "Surveillance can improve safety, but it also creates risks."
+    },
+    {
+      "en": "safeguard",
+      "ipa": "/ˈseɪfɡɑːrd/",
+      "vi": "biện pháp bảo vệ",
+      "example": "Independent audits are an essential safeguard."
+    },
+    {
+      "en": "proportional",
+      "ipa": "/prəˈpɔːrʃənəl/",
+      "vi": "tương xứng, vừa mức",
+      "example": "Any restriction on privacy must be proportionate to the risk."
+    },
+    {
+      "en": "oversight",
+      "ipa": "/ˈoʊvərsaɪt/",
+      "vi": "sự giám sát, kiểm soát độc lập",
+      "example": "The system needs meaningful public oversight."
+    },
+    {
+      "en": "opt out",
+      "ipa": "/ɑːpt aʊt/",
+      "vi": "từ chối tham gia hoặc cho phép sử dụng dữ liệu",
+      "example": "Users should be able to opt out where possible."
+    },
+    {
+      "en": "accountable",
+      "ipa": "/əˈkaʊntəbəl/",
+      "vi": "chịu trách nhiệm giải trình",
+      "example": "Companies must be accountable for how they use personal data."
+    },
+    {
+      "en": "unintended consequences",
+      "ipa": "/ˌʌnɪnˈtendɪd ˈkɑːnsɪkwensɪz/",
+      "vi": "những hệ quả không lường trước",
+      "example": "We should consider the unintended consequences before deploying the tool."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I see the rationale, but I am concerned that ___.",
+      "vi": "Tôi hiểu lý do, nhưng tôi lo rằng ___.",
+      "note": "Mẫu phản biện lịch sự, phù hợp khi trao đổi chuyên nghiệp."
+    },
+    {
+      "en": "The real question is whether ___ is proportionate.",
+      "vi": "Câu hỏi thực sự là liệu ___ có tương xứng hay không.",
+      "note": "Dùng để chuyển trọng tâm sang tính cần thiết và mức độ can thiệp."
+    },
+    {
+      "en": "We need to strike a balance between ___ and ___.",
+      "vi": "Chúng ta cần cân bằng giữa ___ và ___.",
+      "note": "Collocation tự nhiên khi bàn về hai giá trị xung đột."
+    },
+    {
+      "en": "Under what conditions would you accept ___?",
+      "vi": "Trong những điều kiện nào bạn sẽ chấp nhận ___?",
+      "note": "Dùng để tìm điểm chung thay vì chỉ đồng ý hoặc phản đối."
+    },
+    {
+      "en": "I am not convinced that ___ is sufficient.",
+      "vi": "Tôi chưa bị thuyết phục rằng ___ là đủ.",
+      "note": "Cách nói phản đối có sắc thái, bớt gay gắt hơn phủ định trực tiếp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong ethics",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "ethics",
+        "ethical",
+        "authentication"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong surveillance",
+      "tip": "Nhấn âm thứ hai. Đọc rõ âm cuối /ləns/, tránh tách từ thành nhiều âm rời.",
+      "words": [
+        "surveillance",
+        "transparent",
+        "proportional"
+      ]
+    },
+    {
+      "focus": "Âm cuối /t/ và /d/",
+      "tip": "Phát âm nhẹ phụ âm cuối để phân biệt consent với concern, và safeguard với safer.",
+      "words": [
+        "consent",
+        "retained",
+        "safeguard"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Technology has many ethics problems.",
+      "right": "Technology raises many ethical concerns.",
+      "vi": "Ethical concerns là collocation tự nhiên hơn khi nói về các vấn đề đạo đức."
+    },
+    {
+      "wrong": "People data must be protect.",
+      "right": "People's data must be protected.",
+      "vi": "Cần dùng sở hữu cách People's và bị động must be protected."
+    },
+    {
+      "wrong": "We need more transparence from the company.",
+      "right": "We need more transparency from the company.",
+      "vi": "Danh từ đúng là transparency, không phải transparence."
+    },
+    {
+      "wrong": "The company should be responsible about data misuse.",
+      "right": "The company should be responsible for data misuse.",
+      "vi": "Responsible đi với giới từ for."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu quan ngại về quyền riêng tư",
+      "formal": "I appreciate the objective, but I have serious reservations about the privacy implications.",
+      "casual": "I get the goal, but the privacy side makes me uneasy.",
+      "vi": "Câu formal phù hợp trong cuộc họp, tham vấn hoặc khi nói với cấp trên. Câu casual dùng với đồng nghiệp thân hoặc bạn bè."
+    },
+    {
+      "situation": "Yêu cầu làm rõ cách dùng dữ liệu",
+      "formal": "Could you clarify who will have access to the data and for what purpose?",
+      "casual": "Who gets to see the data, and what are they using it for?",
+      "vi": "Câu formal lịch sự và có cấu trúc rõ ràng. Câu casual trực tiếp hơn, phù hợp trao đổi nội bộ không quá trang trọng."
+    },
+    {
+      "situation": "Không đồng ý với một biện pháp bảo vệ",
+      "formal": "I am not convinced that this safeguard goes far enough.",
+      "casual": "I do not think that safeguard is enough.",
+      "vi": "Câu formal tạo khoảng cách chuyên nghiệp và sắc thái thận trọng. Câu casual vẫn lịch sự nhưng thẳng hơn."
+    },
+    {
+      "situation": "Đề xuất điểm cân bằng",
+      "formal": "We should seek a proportionate balance between security needs and civil liberties.",
+      "casual": "We need to balance safety with people’s freedoms.",
+      "vi": "Câu formal phù hợp trong báo cáo hoặc tranh luận chính sách. Câu casual dễ dùng trong thảo luận thường ngày."
+    }
+  ],
+  "culture": [
+    "Trong thảo luận chính sách bằng tiếng Anh, người bản xứ thường phản biện ý tưởng thay vì công kích con người. Mở đầu bằng việc thừa nhận một điểm hợp lý giúp bất đồng bớt đối đầu.",
+    "Ở môi trường chuyên nghiệp, việc hỏi trực tiếp ai chịu trách nhiệm, ai được truy cập dữ liệu và cơ chế khiếu nại là bình thường. Đó được xem là yêu cầu minh bạch, không phải thiếu tôn trọng.",
+    "Người nói thường tránh kết luận tuyệt đối như completely unacceptable nếu chưa cần thiết. Các cách nói như I have reservations hoặc I am not convinced giữ cánh cửa đối thoại mở."
+  ],
+  "listening": {
+    "title": "Thông báo tại buổi tham vấn cộng đồng",
+    "passage": "Thank you for attending this public consultation. Our city is considering smart cameras in transit stations to improve safety. The proposal would limit recordings to security incidents and require independent audits every six months. Before any system is introduced, residents will be able to comment on the rules and ask how their data is protected. We want technology that serves the public without treating privacy as an afterthought.",
+    "vi": "Cảm ơn bạn đã tham dự buổi tham vấn công khai này. Thành phố của chúng ta đang cân nhắc dùng camera thông minh tại các nhà ga để cải thiện an toàn. Đề xuất sẽ giới hạn việc ghi hình vào các sự cố an ninh và yêu cầu kiểm tra độc lập mỗi sáu tháng. Trước khi bất kỳ hệ thống nào được đưa vào sử dụng, người dân sẽ có thể góp ý về các quy định và hỏi dữ liệu của họ được bảo vệ như thế nào. Chúng tôi muốn công nghệ phục vụ công chúng mà không coi quyền riêng tư là điều chỉ được tính đến sau cùng.",
+    "questions": [
+      {
+        "q": "Where would the proposed cameras be used?",
+        "choices": [
+          "In transit stations",
+          "In private homes",
+          "In schools"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là In transit stations vì bài nghe nói rõ smart cameras in transit stations."
+      },
+      {
+        "q": "What would be required every six months?",
+        "choices": [
+          "A public vote",
+          "An independent audit",
+          "A software update"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là An independent audit vì bài nghe nêu require independent audits every six months."
+      },
+      {
+        "q": "What can residents do before the system is introduced?",
+        "choices": [
+          "Sell their data",
+          "Comment on the rules",
+          "Choose the camera provider"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Comment on the rules vì bài nghe nói residents will be able to comment on the rules."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Chuyên gia chính sách công nghệ",
+      "b": "Người dân quan tâm đến quyền riêng tư"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thank you for joining the consultation. Do you oppose the proposed smart camera system?",
+        "vi": "Cảm ơn bạn đã tham gia buổi tham vấn. Bạn có phản đối hệ thống camera thông minh được đề xuất không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I do not oppose it outright, but I worry about privacy.",
+        "vi": "Tôi không phản đối hoàn toàn, nhưng tôi lo về quyền riêng tư.",
+        "hint": "Outright nghĩa là hoàn toàn, dứt khoát."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a fair concern. Which risk troubles you most?",
+        "vi": "Đó là một mối lo chính đáng. Rủi ro nào làm bạn băn khoăn nhất?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am worried about function creep. Data collected for safety could later be used for unrelated purposes.",
+        "vi": "Tôi lo về việc mở rộng mục đích sử dụng. Dữ liệu thu thập vì an toàn sau này có thể bị dùng cho những mục đích không liên quan.",
+        "hint": "Dùng could để nêu rủi ro có thể xảy ra, không khẳng định chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "I see the rationale. The proposal limits the system to serious security incidents.",
+        "vi": "Tôi hiểu lý do của bạn. Đề xuất giới hạn hệ thống vào các sự cố an ninh nghiêm trọng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am not convinced that a promise of limited use is sufficient. Who decides what counts as a serious incident?",
+        "vi": "Tôi chưa bị thuyết phục rằng lời hứa sử dụng có giới hạn là đủ. Ai quyết định điều gì được xem là sự cố nghiêm trọng?",
+        "hint": "Dùng I am not convinced that để phản đối lịch sự nhưng rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "Then the rules should define that threshold precisely and prohibit secondary uses without public approval.",
+        "vi": "Vậy thì quy định cần xác định chính xác ngưỡng đó và cấm sử dụng cho mục đích thứ cấp nếu không có sự chấp thuận của công chúng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I could support that, provided there is independent oversight and a strict data retention limit.",
+        "vi": "Tôi có thể ủng hộ điều đó, miễn là có giám sát độc lập và giới hạn nghiêm ngặt về thời gian lưu giữ dữ liệu.",
+        "hint": "Provided there is nghĩa là miễn là có điều kiện đó."
+      },
+      {
+        "speaker": "a",
+        "en": "What would meaningful oversight look like from your perspective?",
+        "vi": "Theo bạn, sự giám sát có ý nghĩa thực chất sẽ trông như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "An external board should audit the system, investigate complaints, and publish regular reports in plain language.",
+        "vi": "Một hội đồng bên ngoài nên kiểm tra hệ thống, điều tra khiếu nại và công bố báo cáo định kỳ bằng ngôn ngữ dễ hiểu.",
+        "hint": "Liệt kê ba động từ song song: audit, investigate, publish."
+      },
+      {
+        "speaker": "a",
+        "en": "Public reporting makes sense, although we would need to avoid exposing sensitive security details.",
+        "vi": "Báo cáo công khai là hợp lý, mặc dù chúng ta cần tránh tiết lộ chi tiết an ninh nhạy cảm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree. Transparency does not mean publishing everything. It means explaining what is collected, why it is needed, and who can access it.",
+        "vi": "Tôi đồng ý. Minh bạch không có nghĩa là công bố mọi thứ. Nó có nghĩa là giải thích dữ liệu nào được thu thập, vì sao cần thiết và ai có thể truy cập.",
+        "hint": "Cấu trúc what, why, who giúp diễn đạt rõ ba khía cạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a useful distinction. How should we keep the technology provider accountable?",
+        "vi": "Đó là một sự phân biệt hữu ích. Chúng ta nên buộc nhà cung cấp công nghệ chịu trách nhiệm giải trình như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The contract should ban the provider from selling or reusing the data, and violations should carry meaningful penalties.",
+        "vi": "Hợp đồng nên cấm nhà cung cấp bán hoặc tái sử dụng dữ liệu, và các vi phạm cần chịu chế tài đủ sức răn đe.",
+        "hint": "Ban someone from doing something là cấm ai làm việc gì."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose the police request access during an urgent investigation. Would you allow an exception?",
+        "vi": "Giả sử cảnh sát yêu cầu truy cập trong một cuộc điều tra khẩn cấp. Bạn có cho phép một ngoại lệ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Only in narrowly defined emergencies, with judicial authorization and a record that can later be reviewed. Otherwise, exceptions may become the rule.",
+        "vi": "Chỉ trong các tình huống khẩn cấp được xác định chặt chẽ, có sự cho phép của tòa án và có hồ sơ để xem xét sau đó. Nếu không, ngoại lệ có thể trở thành thông lệ.",
+        "hint": "Narrowly defined nhấn mạnh phạm vi rất hẹp, không mơ hồ."
+      },
+      {
+        "speaker": "a",
+        "en": "So we agree that safety measures can be justified only when they are necessary, proportionate, transparent, and independently reviewed.",
+        "vi": "Vậy chúng ta thống nhất rằng các biện pháp an toàn chỉ có thể được biện minh khi chúng cần thiết, tương xứng, minh bạch và được kiểm tra độc lập.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. If those safeguards are built in from the start, the system can serve the public without treating privacy as an afterthought.",
+        "vi": "Đúng vậy. Nếu các biện pháp bảo vệ đó được thiết kế ngay từ đầu, hệ thống có thể phục vụ công chúng mà không xem quyền riêng tư là thứ bị tính đến sau cùng.",
+        "hint": "Built in from the start diễn tả việc tích hợp bảo vệ ngay từ giai đoạn thiết kế."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior technology policy specialist at a public consultation in Ho Chi Minh City. You are calm, rigorous, and open to respectful disagreement. You ask probing questions and explain trade-offs in clear, natural English.",
+    "opener": "Thank you for joining the consultation. Do you oppose the proposed smart camera system?",
+    "goal": "Người học nêu quan ngại về quyền riêng tư, đề xuất biện pháp bảo vệ và đạt được một lập trường cân bằng với chuyên gia."
+  },
+  "drills": [
+    {
+      "vi": "Tôi hiểu lý do, nhưng tôi lo rằng dữ liệu có thể bị sử dụng sai mục đích.",
+      "en": "I see the rationale, but I am concerned that the data could be misused.",
+      "alts": [
+        "I understand the reasoning, but I worry that the data could be used improperly."
+      ]
+    },
+    {
+      "vi": "Câu hỏi thực sự là liệu việc giám sát này có tương xứng hay không.",
+      "en": "The real question is whether this surveillance is proportionate.",
+      "alts": [
+        "What matters is whether this level of surveillance is justified."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần cân bằng giữa an toàn công cộng và quyền riêng tư cá nhân.",
+      "en": "We need to strike a balance between public safety and individual privacy.",
+      "alts": [
+        "We need to balance public safety with individual privacy."
+      ]
+    },
+    {
+      "vi": "Trong những điều kiện nào bạn sẽ chấp nhận hệ thống này?",
+      "en": "Under what conditions would you accept this system?",
+      "alts": [
+        "What safeguards would make this system acceptable to you?"
+      ]
+    },
+    {
+      "vi": "Tôi chưa bị thuyết phục rằng sự đồng thuận của người dùng là đủ.",
+      "en": "I am not convinced that user consent is sufficient.",
+      "alts": [
+        "I do not think user consent alone is enough."
+      ]
+    },
+    {
+      "vi": "Công ty phải chịu trách nhiệm giải trình về việc lưu giữ dữ liệu.",
+      "en": "The company must be accountable for its data retention practices.",
+      "alts": [
+        "The company should be held accountable for how long it retains data."
+      ]
+    },
+    {
+      "vi": "Các cuộc kiểm tra độc lập là một biện pháp bảo vệ thiết yếu.",
+      "en": "Independent audits are an essential safeguard.",
+      "alts": [
+        "External audits provide an essential safeguard."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần người học trong hội thoại, chú ý dùng giọng điệu lịch sự khi phản biện.",
+    "Viết một đoạn từ 120 đến 150 từ nêu điều kiện để bạn chấp nhận một hệ thống giám sát công cộng.",
+    "Đặt ba câu với proportional, oversight và accountable."
+  ]
+}

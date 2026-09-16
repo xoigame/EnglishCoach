@@ -1,44 +1,38 @@
 {
   "id": "mua-sam-o-sieu-thi",
-  "title": "Mua sắm ở siêu thị",
+  "title": "Mua sắm ở siêu thị và cửa hàng tiện lợi",
   "topic": "Thanh toán tại quầy thu ngân",
   "level": "A1",
-  "summary": "Bạn mua vài món ở siêu thị hoặc cửa hàng tiện lợi và thanh toán tại quầy. Bạn học cách hỏi túi, trả bằng thẻ và xin hóa đơn.",
+  "summary": "Bạn mua vài món đồ và thanh toán tại quầy thu ngân. Bạn sẽ hỏi về túi, cách trả bằng thẻ và hóa đơn.",
   "goals": [
-    "Chào hỏi và trả lời nhân viên thu ngân",
-    "Hỏi về túi đựng hàng",
-    "Thanh toán bằng thẻ và xin hóa đơn"
+    "Chào hỏi và thanh toán tại quầy thu ngân",
+    "Hỏi xin túi và hóa đơn",
+    "Nói cách thanh toán bằng thẻ"
   ],
   "vocab": [
     {
-      "en": "item",
-      "ipa": "/ˈaɪtəm/",
-      "vi": "món hàng",
-      "example": "These items are mine."
+      "en": "cashier",
+      "ipa": "/kæˈʃɪr/",
+      "vi": "nhân viên thu ngân",
+      "example": "The cashier is very friendly."
+    },
+    {
+      "en": "checkout",
+      "ipa": "/ˈtʃekaʊt/",
+      "vi": "quầy thanh toán",
+      "example": "The checkout is near the door."
     },
     {
       "en": "bag",
       "ipa": "/bæɡ/",
-      "vi": "túi đựng hàng",
-      "example": "I need one bag, please."
+      "vi": "túi",
+      "example": "I need a small bag."
     },
     {
       "en": "total",
       "ipa": "/ˈtoʊtəl/",
       "vi": "tổng tiền",
-      "example": "What is the total?"
-    },
-    {
-      "en": "card",
-      "ipa": "/kɑːrd/",
-      "vi": "thẻ",
-      "example": "I pay by card."
-    },
-    {
-      "en": "cash",
-      "ipa": "/kæʃ/",
-      "vi": "tiền mặt",
-      "example": "I have cash today."
+      "example": "Your total is ten dollars."
     },
     {
       "en": "receipt",
@@ -47,61 +41,67 @@
       "example": "Can I get a receipt?"
     },
     {
+      "en": "cash",
+      "ipa": "/kæʃ/",
+      "vi": "tiền mặt",
+      "example": "I pay with cash today."
+    },
+    {
+      "en": "card",
+      "ipa": "/kɑːrd/",
+      "vi": "thẻ thanh toán",
+      "example": "I pay by card."
+    },
+    {
       "en": "tap",
       "ipa": "/tæp/",
-      "vi": "chạm thẻ vào máy",
+      "vi": "chạm thẻ hoặc điện thoại để thanh toán",
       "example": "Please tap your card here."
     },
     {
-      "en": "price",
-      "ipa": "/praɪs/",
-      "vi": "giá tiền",
-      "example": "The price is good."
+      "en": "item",
+      "ipa": "/ˈaɪtəm/",
+      "vi": "món hàng",
+      "example": "These items are on sale."
     },
     {
       "en": "change",
       "ipa": "/tʃeɪndʒ/",
       "vi": "tiền thối lại",
       "example": "Here is your change."
-    },
-    {
-      "en": "checkout",
-      "ipa": "/ˈtʃekaʊt/",
-      "vi": "quầy thanh toán",
-      "example": "The checkout is over there."
     }
   ],
   "patterns": [
     {
       "en": "Did you find everything?",
-      "vi": "Bạn đã tìm được mọi thứ chưa?",
-      "note": "Nhân viên thường hỏi câu này khi bạn đến quầy thanh toán."
+      "vi": "Bạn đã tìm được mọi thứ cần mua chưa?",
+      "note": "Nhân viên thường dùng câu này để hỏi khách khi thanh toán."
     },
     {
-      "en": "Would you like a bag?",
-      "vi": "Bạn có muốn một cái túi không?",
-      "note": "Dùng để mời hoặc hỏi nhu cầu của khách."
+      "en": "Do you need a bag?",
+      "vi": "Bạn có cần túi không?",
+      "note": "Dùng để hỏi nhu cầu hiện tại."
+    },
+    {
+      "en": "Your total is ___.",
+      "vi": "Tổng tiền của bạn là ___.",
+      "note": "Dùng khi thông báo số tiền cần thanh toán."
     },
     {
       "en": "Can I pay by card?",
       "vi": "Tôi có thể trả bằng thẻ không?",
-      "note": "Dùng by card, không dùng with card trong mẫu câu này."
+      "note": "Dùng để hỏi về cách thanh toán."
     },
     {
       "en": "Can I get a receipt?",
       "vi": "Tôi có thể lấy hóa đơn không?",
-      "note": "Dùng get để xin hoặc nhận một thứ."
-    },
-    {
-      "en": "Here is your receipt.",
-      "vi": "Đây là hóa đơn của bạn.",
-      "note": "Câu nhân viên dùng khi đưa đồ cho khách."
+      "note": "Get ở đây có nghĩa là nhận hoặc lấy."
     }
   ],
   "pronunciation": [
     {
       "focus": "âm /æ/",
-      "tip": "Mở miệng rộng, phát âm ngắn; không đọc thành âm e.",
+      "tip": "Mở miệng rộng, phát âm ngắn và thấp; tránh đọc thành âm e.",
       "words": [
         "bag",
         "cash",
@@ -109,18 +109,17 @@
       ]
     },
     {
-      "focus": "âm /r/",
-      "tip": "Cuộn nhẹ đầu lưỡi vào trong, không rung như âm r tiếng Việt.",
+      "focus": "trọng âm trong receipt",
+      "tip": "Nhấn mạnh âm thứ hai, đọc gần như ri SEET; không nhấn âm đầu.",
       "words": [
-        "receipt",
-        "card",
-        "price"
+        "receipt"
       ]
     },
     {
-      "focus": "trọng âm trong receipt",
-      "tip": "Nhấn mạnh âm thứ hai: ri SEET.",
+      "focus": "âm cuối /d/ và /t/",
+      "tip": "Phát âm nhẹ phụ âm cuối để phân biệt card với car, và receipt với receive.",
       "words": [
+        "card",
         "receipt"
       ]
     }
@@ -129,66 +128,134 @@
     {
       "wrong": "I pay with card.",
       "right": "I pay by card.",
-      "vi": "Khi nói cách thanh toán, dùng pay by card."
+      "vi": "Khi nói phương thức thanh toán, dùng pay by card."
     },
     {
-      "wrong": "Can I take receipt?",
+      "wrong": "Can I have a bill?",
       "right": "Can I get a receipt?",
-      "vi": "Dùng get a receipt để xin hóa đơn tự nhiên hơn."
+      "vi": "Ở siêu thị, receipt là từ tự nhiên hơn để nói hóa đơn mua hàng."
     },
     {
-      "wrong": "How much total?",
-      "right": "What is the total?",
-      "vi": "Cần dùng động từ is trong câu hỏi này."
+      "wrong": "How much all?",
+      "right": "How much is the total?",
+      "vi": "Cần có is the total để câu đầy đủ và tự nhiên."
     },
     {
-      "wrong": "I need a bag one.",
-      "right": "I need one bag.",
-      "vi": "Số lượng đứng trước danh từ: one bag."
+      "wrong": "Give me one bag.",
+      "right": "Can I have a bag, please?",
+      "vi": "Thêm can I have và please để lịch sự với nhân viên."
     }
   ],
+  "variations": [
+    {
+      "situation": "Xin một chiếc túi",
+      "formal": "Could I have a bag, please?",
+      "casual": "Can I get a bag?",
+      "vi": "Câu formal phù hợp với người lạ hoặc nơi lịch sự; câu casual tự nhiên ở cửa hàng tiện lợi."
+    },
+    {
+      "situation": "Hỏi về hóa đơn",
+      "formal": "May I have a receipt, please?",
+      "casual": "Can I get a receipt?",
+      "vi": "May I have lịch sự hơn khi nói với nhân viên chưa quen; Can I get phổ biến trong giao tiếp hằng ngày."
+    },
+    {
+      "situation": "Hỏi cách trả tiền",
+      "formal": "Could I pay by card, please?",
+      "casual": "Can I pay by card?",
+      "vi": "Could I nghe mềm và trang trọng hơn; Can I là cách hỏi thân mật, thông dụng."
+    },
+    {
+      "situation": "Từ chối lấy túi",
+      "formal": "No, thank you. I do not need a bag.",
+      "casual": "No thanks, I am good.",
+      "vi": "Câu formal rõ ràng và lịch sự; câu casual dùng trong cửa hàng bình thường, nghĩa là không cần gì thêm."
+    }
+  ],
+  "culture": [
+    "Ở nhiều siêu thị nói tiếng Anh, nhân viên thường hỏi Did you find everything? Đây là lời xã giao thân thiện, không phải họ cần kiểm tra từng món bạn tìm.",
+    "Nếu không cần túi, bạn có thể từ chối ngắn gọn bằng No, thanks. Cách nói thẳng nhưng kèm thanks vẫn rất lịch sự.",
+    "Tiền tip thường không được mong đợi ở siêu thị hay cửa hàng tiện lợi. Bạn chỉ cần cảm ơn và chào lại nhân viên khi rời đi."
+  ],
+  "listening": {
+    "title": "Thông báo tại cửa hàng tiện lợi",
+    "passage": "Hello shoppers. Today, the bakery has fresh bread and small cakes. You can find cold drinks near the front door. Please take your items to the checkout when you are ready. We accept cash and cards. If you need a bag, please ask the cashier. Thank you for shopping with us today.",
+    "vi": "Xin chào quý khách. Hôm nay, quầy bánh có bánh mì tươi và bánh ngọt nhỏ. Bạn có thể tìm đồ uống lạnh gần cửa trước. Vui lòng mang hàng đến quầy thanh toán khi bạn sẵn sàng. Chúng tôi nhận tiền mặt và thẻ. Nếu cần túi, vui lòng hỏi nhân viên thu ngân. Cảm ơn bạn đã mua sắm tại cửa hàng hôm nay.",
+    "questions": [
+      {
+        "q": "Where are the cold drinks?",
+        "choices": [
+          "Near the front door",
+          "Near the bakery",
+          "At the checkout"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Near the front door vì bài nghe nói cold drinks are near the front door."
+      },
+      {
+        "q": "What payment methods does the store accept?",
+        "choices": [
+          "Cash only",
+          "Cards only",
+          "Cash and cards"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là Cash and cards vì bài nghe nói We accept cash and cards."
+      },
+      {
+        "q": "Who can you ask for a bag?",
+        "choices": [
+          "The cashier",
+          "A customer",
+          "The baker"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là The cashier vì bài nghe nói please ask the cashier."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Nhân viên thu ngân",
-      "b": "Khách hàng"
+      "b": "Khách hàng, tức người học"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Hi there. Did you find everything?",
-        "vi": "Chào bạn. Bạn đã tìm được mọi thứ chưa?",
+        "en": "Hi. Did you find everything?",
+        "vi": "Chào. Bạn đã tìm được mọi thứ chưa?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, just these items, please.",
-        "vi": "Rồi, chỉ những món này thôi ạ.",
-        "hint": "Dùng just để nói “chỉ”."
+        "en": "Yes, just these, please.",
+        "vi": "Vâng, chỉ những món này thôi ạ.",
+        "hint": "Just these nghĩa là chỉ những món này."
       },
       {
         "speaker": "a",
-        "en": "Would you like a bag?",
-        "vi": "Bạn có muốn một cái túi không?",
+        "en": "Do you need a bag?",
+        "vi": "Bạn có cần túi không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, one bag, please.",
-        "vi": "Vâng, một cái túi ạ.",
-        "hint": "Nói số lượng trước danh từ: one bag."
+        "en": "Yes, please. One small bag.",
+        "vi": "Có ạ. Một túi nhỏ.",
+        "hint": "One small bag là một túi nhỏ."
       },
       {
         "speaker": "a",
-        "en": "Your total is eight dollars.",
-        "vi": "Tổng tiền của bạn là tám đô la.",
+        "en": "Your total is twelve dollars.",
+        "vi": "Tổng tiền của bạn là mười hai đô la.",
         "hint": ""
       },
       {
         "speaker": "b",
         "en": "Can I pay by card?",
         "vi": "Tôi có thể trả bằng thẻ không?",
-        "hint": "Dùng pay by card."
+        "hint": "Dùng pay by card, không dùng pay with card."
       },
       {
         "speaker": "a",
@@ -198,79 +265,89 @@
       },
       {
         "speaker": "b",
-        "en": "Can I get a receipt?",
-        "vi": "Tôi có thể lấy hóa đơn không?",
-        "hint": "Dùng get a receipt để xin hóa đơn."
+        "en": "Okay. Do I get a receipt?",
+        "vi": "Được. Tôi có nhận hóa đơn không?",
+        "hint": "Do I get dùng để hỏi mình có được nhận thứ gì đó không."
       },
       {
         "speaker": "a",
-        "en": "Of course. Here is your receipt.",
-        "vi": "Tất nhiên. Đây là hóa đơn của bạn.",
+        "en": "Yes. Here is your receipt.",
+        "vi": "Có. Đây là hóa đơn của bạn.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Thank you. Have a nice day.",
+        "en": "Thank you. Have a good day.",
         "vi": "Cảm ơn. Chúc bạn một ngày tốt lành.",
-        "hint": "Đây là lời chào lịch sự khi kết thúc."
+        "hint": "Có thể đáp lại lời chào lịch sự khi rời quầy."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. You too. Take care.",
+        "vi": "Cảm ơn. Bạn cũng vậy nhé. Bảo trọng.",
+        "hint": ""
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly cashier at a busy convenience store. You greet customers warmly, scan their items, ask about bags, and help them pay.",
-    "opener": "Hi there. Did you find everything?",
-    "goal": "Người học mua hàng, trả bằng thẻ và xin hóa đơn."
+    "persona": "You are a friendly cashier at a neighborhood convenience store. You greet customers warmly, scan their items, offer a bag, say the total, and help them pay by card or cash.",
+    "opener": "Hi. Did you find everything?",
+    "goal": "Người học thanh toán vài món đồ, xin túi, trả bằng thẻ và hỏi hóa đơn."
   },
   "drills": [
     {
-      "vi": "Tôi cần một cái túi, làm ơn.",
-      "en": "I need one bag, please.",
+      "vi": "Tôi chỉ mua những món này thôi.",
+      "en": "Just these items, please.",
       "alts": [
-        "Can I have one bag, please?"
+        "Only these items, please."
       ]
     },
     {
-      "vi": "Tổng tiền là bao nhiêu?",
-      "en": "What is the total?",
+      "vi": "Bạn có cần túi không?",
+      "en": "Do you need a bag?",
       "alts": [
-        "How much is the total?"
+        "Would you like a bag?"
+      ]
+    },
+    {
+      "vi": "Tổng tiền là tám đô la.",
+      "en": "The total is eight dollars.",
+      "alts": [
+        "Your total is eight dollars."
       ]
     },
     {
       "vi": "Tôi có thể trả bằng thẻ không?",
       "en": "Can I pay by card?",
       "alts": [
-        "I want to pay by card."
+        "Can I use my card?"
       ]
     },
     {
-      "vi": "Vui lòng chạm thẻ của bạn vào đây.",
+      "vi": "Vui lòng chạm thẻ của bạn ở đây.",
       "en": "Please tap your card here.",
-      "alts": []
+      "alts": [
+        "Tap your card here, please."
+      ]
     },
     {
       "vi": "Tôi có thể lấy hóa đơn không?",
       "en": "Can I get a receipt?",
       "alts": [
-        "Can I have a receipt?"
+        "May I have a receipt?"
       ]
     },
     {
       "vi": "Đây là tiền thối lại của bạn.",
       "en": "Here is your change.",
-      "alts": []
-    },
-    {
-      "vi": "Bạn có muốn một cái túi không?",
-      "en": "Would you like a bag?",
       "alts": [
-        "Do you need a bag?"
+        "This is your change."
       ]
     }
   ],
   "homework": [
     "Ghi âm lại toàn bộ hội thoại và nghe lại.",
-    "Tự nói 3 câu: xin túi, trả bằng thẻ và xin hóa đơn.",
-    "Luyện phát âm các từ bag, card và receipt."
+    "Tập nói năm câu hỏi lịch sự tại quầy thu ngân.",
+    "Tự thay số tiền và loại túi trong hội thoại."
   ]
 }

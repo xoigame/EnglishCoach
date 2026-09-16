@@ -1,0 +1,374 @@
+{
+  "id": "bao-cao-su-co-cho-quan-ly",
+  "title": "Báo cáo sự cố và đề xuất cách xử lý",
+  "topic": "Báo cáo sự cố tại nơi làm việc",
+  "level": "B1",
+  "summary": "Người học báo cáo một lỗi giao hàng với quản lý trực tiếp. Sau đó, người học giải thích nguyên nhân, đề xuất giải pháp và xác nhận việc xử lý.",
+  "goals": [
+    "Báo cáo sự cố ngắn gọn, nêu rõ điều đã xảy ra.",
+    "Giải thích nguyên nhân và đề xuất một cách xử lý hợp lý.",
+    "Thống nhất việc cần làm tiếp theo với quản lý."
+  ],
+  "vocab": [
+    {
+      "en": "incident",
+      "ipa": "/ˈɪnsɪdənt/",
+      "vi": "sự cố",
+      "example": "I need to report an incident with yesterday's delivery."
+    },
+    {
+      "en": "wrong label",
+      "ipa": "/rɔːŋ ˈleɪbəl/",
+      "vi": "nhãn sai",
+      "example": "Several boxes had the wrong labels."
+    },
+    {
+      "en": "mix-up",
+      "ipa": "/ˈmɪks ʌp/",
+      "vi": "sự nhầm lẫn",
+      "example": "There was a mix-up between two similar orders."
+    },
+    {
+      "en": "unload",
+      "ipa": "/ʌnˈləʊd/",
+      "vi": "dỡ hàng",
+      "example": "The driver noticed the problem before unloading."
+    },
+    {
+      "en": "packing table",
+      "ipa": "/ˈpækɪŋ ˈteɪbəl/",
+      "vi": "bàn đóng gói",
+      "example": "Both orders were placed on the same packing table."
+    },
+    {
+      "en": "correct order",
+      "ipa": "/kəˈrekt ˈɔːdə(r)/",
+      "vi": "đơn hàng đúng",
+      "example": "The correct order is ready for delivery."
+    },
+    {
+      "en": "apologize",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "vi": "xin lỗi",
+      "example": "We should apologize to the customer directly."
+    },
+    {
+      "en": "arrange delivery",
+      "ipa": "/əˈreɪndʒ dɪˈlɪvəri/",
+      "vi": "sắp xếp giao hàng",
+      "example": "I arranged delivery for this afternoon."
+    },
+    {
+      "en": "prevent",
+      "ipa": "/prɪˈvent/",
+      "vi": "ngăn chặn",
+      "example": "We need to prevent the same error from happening again."
+    },
+    {
+      "en": "follow up",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "vi": "theo dõi và xử lý tiếp",
+      "example": "I will follow up after the replacement delivery."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I need to report an issue with ___.",
+      "vi": "Tôi cần báo cáo một vấn đề với ___.",
+      "note": "Dùng để mở đầu khi cần báo cáo sự cố một cách rõ ràng và chuyên nghiệp."
+    },
+    {
+      "en": "It looks like ___ happened because ___.",
+      "vi": "Có vẻ như ___ đã xảy ra vì ___.",
+      "note": "Dùng khi đưa ra nguyên nhân nhưng chưa muốn khẳng định tuyệt đối hoặc đổ lỗi."
+    },
+    {
+      "en": "Have you checked whether ___?",
+      "vi": "Bạn đã kiểm tra xem ___ chưa?",
+      "note": "Dùng khi hỏi việc kiểm tra hoặc xác nhận một thông tin."
+    },
+    {
+      "en": "I suggest ___ so that ___.",
+      "vi": "Tôi đề xuất ___ để ___.",
+      "note": "Sau suggest dùng động từ thêm ing, ví dụ: suggest delivering."
+    },
+    {
+      "en": "We could ___ to prevent this from happening again.",
+      "vi": "Chúng ta có thể ___ để ngăn việc này xảy ra lần nữa.",
+      "note": "Could giúp đề xuất nghe hợp tác và ít áp đặt hơn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm của từ nhiều âm tiết",
+      "tip": "Nhấn mạnh âm đầu trong incident, âm hai trong delivery và apologize; không đọc đều tất cả các âm.",
+      "words": [
+        "incident",
+        "delivery",
+        "apologize"
+      ]
+    },
+    {
+      "focus": "âm /r/",
+      "tip": "Cong nhẹ đầu lưỡi lên nhưng không chạm vòm miệng. Tránh đọc âm này thành /z/ hoặc /d/.",
+      "words": [
+        "wrong",
+        "correct",
+        "arrange"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối",
+      "tip": "Phát rõ phụ âm cuối để tránh mất nghĩa, đặc biệt là âm /z/, /t/ và /d/.",
+      "words": [
+        "labels",
+        "checked",
+        "prevent"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I report an incident yesterday.",
+      "right": "I reported an incident yesterday.",
+      "vi": "Có mốc thời gian quá khứ là yesterday nên dùng reported."
+    },
+    {
+      "wrong": "The driver noticed it before to unload.",
+      "right": "The driver noticed it before unloading.",
+      "vi": "Sau before, dùng danh từ hoặc động từ thêm ing."
+    },
+    {
+      "wrong": "We should to call the customer.",
+      "right": "We should call the customer.",
+      "vi": "Sau should dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "I suggest to deliver the correct order today.",
+      "right": "I suggest delivering the correct order today.",
+      "vi": "Sau suggest thường dùng động từ thêm ing, hoặc dùng mệnh đề that."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở đầu báo cáo sự cố",
+      "formal": "I need to report an issue with the delivery.",
+      "casual": "There is a problem with the delivery.",
+      "vi": "Câu formal phù hợp khi báo cáo với cấp trên hoặc khách hàng; câu casual dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Đề xuất giao hàng thay thế",
+      "formal": "I recommend arranging a replacement delivery this afternoon.",
+      "casual": "Let us send the right order this afternoon.",
+      "vi": "Câu formal phù hợp trong cuộc họp hoặc email; câu casual phù hợp khi trao đổi nhanh trong nhóm."
+    },
+    {
+      "situation": "Xin lỗi về lỗi đã xảy ra",
+      "formal": "I apologize for the error and the inconvenience it caused.",
+      "casual": "Sorry about the mix-up.",
+      "vi": "Câu formal nên dùng với khách hàng hoặc đối tác; câu casual chỉ phù hợp với đồng nghiệp quen biết."
+    },
+    {
+      "situation": "Yêu cầu cập nhật kết quả",
+      "formal": "Could you please confirm once the delivery has been completed?",
+      "casual": "Let me know when it gets there.",
+      "vi": "Câu formal dùng khi giao việc cho cấp dưới hoặc trao đổi với đối tác; câu casual dùng trong nhóm làm việc gần gũi."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm việc nói tiếng Anh, báo cáo sự cố thường đi thẳng vào sự việc, ảnh hưởng và giải pháp đề xuất thay vì kể dài dòng.",
+    "Khi chưa xác định chắc nguyên nhân, người bản xứ thường dùng cách nói mềm như It looks like hoặc I believe để tránh đổ lỗi vội vàng.",
+    "Quản lý thường đánh giá cao việc bạn chủ động nói rõ mình đã làm gì và khi nào sẽ cập nhật tiếp, thay vì chỉ nói rằng mình sẽ cố gắng."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ kho hàng",
+    "passage": "Hi Maya, this is Daniel from the warehouse. I am calling about the missing cartons for Greenfield Market. We found them in the loading area after the morning truck had left. I have arranged another driver to take them over before noon. Please let the customer know we are sorry, and tell me if they need anything else. We are also checking why the cartons were not scanned.",
+    "vi": "Chào Maya, tôi là Daniel từ kho hàng. Tôi gọi về các thùng hàng bị thiếu của Greenfield Market. Chúng tôi đã tìm thấy chúng ở khu vực chất hàng sau khi xe tải buổi sáng đã rời đi. Tôi đã sắp xếp một tài xế khác mang chúng đến trước buổi trưa. Hãy cho khách biết là chúng ta xin lỗi và báo tôi nếu họ cần thêm điều gì. Chúng tôi cũng đang kiểm tra vì sao các thùng hàng không được quét.",
+    "questions": [
+      {
+        "q": "What was the problem with the order?",
+        "choices": [
+          "The cartons were missing.",
+          "The labels were damaged.",
+          "The customer canceled the order."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì đoạn nghe nói rõ about the missing cartons."
+      },
+      {
+        "q": "Where were the cartons found?",
+        "choices": [
+          "At the customer site.",
+          "In the loading area.",
+          "On the morning truck."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì người nói nói We found them in the loading area."
+      },
+      {
+        "q": "What will the warehouse do next?",
+        "choices": [
+          "Send another driver before noon.",
+          "Wait for the next morning truck.",
+          "Ask the customer to collect the cartons."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì người nói đã arranged another driver to take them over before noon."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý trực tiếp",
+      "b": "Nhân viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. I heard there was an issue with yesterday's customer delivery.",
+        "vi": "Chào buổi sáng. Tôi nghe nói đã có sự cố với đơn giao cho khách hôm qua.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, the warehouse sent twenty boxes with the wrong product labels.",
+        "vi": "Vâng, kho đã gửi hai mươi thùng hàng có nhãn sản phẩm sai.",
+        "hint": "Nêu ngắn gọn sự cố trước, rồi mới giải thích chi tiết."
+      },
+      {
+        "speaker": "a",
+        "en": "Did the customer receive them, or did our driver notice before unloading?",
+        "vi": "Khách đã nhận chúng chưa, hay tài xế của chúng ta phát hiện trước khi dỡ hàng?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The driver noticed the labels at the site and returned all the boxes.",
+        "vi": "Tài xế đã nhận ra nhãn hàng tại địa điểm giao và đưa toàn bộ thùng hàng về.",
+        "hint": "Dùng quá khứ đơn để kể lại việc đã xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. What do you think caused the mix-up in the warehouse?",
+        "vi": "Tốt. Theo bạn, điều gì đã gây ra sự nhầm lẫn trong kho?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I believe two similar orders were placed on the same packing table.",
+        "vi": "Tôi cho rằng hai đơn hàng giống nhau đã được đặt trên cùng một bàn đóng gói.",
+        "hint": "I believe giúp nêu ý kiến một cách chuyên nghiệp, không quá chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Have you checked whether the correct order is ready?",
+        "vi": "Nghe hợp lý. Bạn đã kiểm tra xem đơn hàng đúng đã sẵn sàng chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I checked this morning, and the correct items are ready for delivery.",
+        "vi": "Tôi đã kiểm tra sáng nay, và hàng đúng đã sẵn sàng để giao.",
+        "hint": "Kết hợp quá khứ đơn cho việc đã kiểm tra và hiện tại cho tình trạng hiện nay."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. We need a clear plan before we contact the customer.",
+        "vi": "Tốt. Chúng ta cần một kế hoạch rõ ràng trước khi liên hệ khách hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I suggest delivering the correct order this afternoon and apologizing directly.",
+        "vi": "Tôi đề xuất giao đơn hàng đúng vào chiều nay và trực tiếp xin lỗi.",
+        "hint": "Sau I suggest, dùng delivering và apologizing, không dùng to deliver."
+      },
+      {
+        "speaker": "a",
+        "en": "That is reasonable, but how can we prevent this from happening again?",
+        "vi": "Điều đó hợp lý, nhưng chúng ta có thể ngăn việc này tái diễn bằng cách nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We could separate similar orders and require a second label check.",
+        "vi": "Chúng ta có thể tách các đơn tương tự và yêu cầu kiểm tra nhãn lần hai.",
+        "hint": "We could giúp đề xuất giải pháp với giọng điệu hợp tác."
+      },
+      {
+        "speaker": "a",
+        "en": "Good proposal. Have you arranged the replacement delivery and spoken to the customer?",
+        "vi": "Đề xuất tốt. Bạn đã sắp xếp giao hàng thay thế và nói chuyện với khách chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, the driver delivered it, and the customer accepted our apology.",
+        "vi": "Rồi, tài xế đã giao hàng và khách hàng đã chấp nhận lời xin lỗi của chúng ta.",
+        "hint": "Dùng quá khứ đơn để xác nhận sự việc đã được xử lý xong."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, practical direct manager at a busy distribution company. You are speaking with an employee in a private office after a delivery problem. Ask clear follow-up questions, request facts and a workable solution, and stay supportive but professional.",
+    "opener": "Good morning. I heard there was an issue with yesterday's customer delivery.",
+    "goal": "Người học báo cáo lỗi giao hàng, giải thích nguyên nhân, đề xuất cách xử lý và xác nhận kết quả với quản lý."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần báo cáo một sự cố với đơn giao hôm qua.",
+      "en": "I need to report an incident with yesterday's delivery.",
+      "alts": [
+        "I need to report an issue with yesterday's delivery."
+      ]
+    },
+    {
+      "vi": "Tài xế đã nhận ra nhãn sai trước khi dỡ hàng.",
+      "en": "The driver noticed the wrong labels before unloading.",
+      "alts": [
+        "Our driver found the wrong labels before unloading."
+      ]
+    },
+    {
+      "vi": "Tôi cho rằng hai đơn hàng đã bị nhầm lẫn.",
+      "en": "I believe two orders were mixed up.",
+      "alts": [
+        "It looks like there was a mix-up between two orders."
+      ]
+    },
+    {
+      "vi": "Bạn đã kiểm tra xem đơn hàng đúng đã sẵn sàng chưa?",
+      "en": "Have you checked whether the correct order is ready?",
+      "alts": [
+        "Did you check if the correct order is ready?"
+      ]
+    },
+    {
+      "vi": "Tôi đề xuất giao hàng đúng vào chiều nay.",
+      "en": "I suggest delivering the correct order this afternoon.",
+      "alts": [
+        "I recommend delivering the correct order this afternoon."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể kiểm tra nhãn lần hai để ngăn lỗi này tái diễn.",
+      "en": "We could check the labels a second time to prevent this from happening again.",
+      "alts": [
+        "We could require a second label check to avoid the same error."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ theo dõi sau khi đơn hàng thay thế được giao.",
+      "en": "I will follow up after the replacement order is delivered.",
+      "alts": [
+        "I will send an update after the replacement delivery."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai nhân viên trong hội thoại và tự kiểm tra các thì quá khứ.",
+    "Viết một báo cáo ngắn gồm sự cố, nguyên nhân và hai giải pháp.",
+    "Luyện nói ba câu đề xuất với I suggest và We could."
+  ]
+}

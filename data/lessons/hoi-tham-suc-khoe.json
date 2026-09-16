@@ -1,0 +1,350 @@
+{
+  "id": "hoi-tham-suc-khoe",
+  "title": "Hỏi thăm sức khỏe khi đồng nghiệp bị ốm",
+  "topic": "Hỏi thăm đồng nghiệp bị ốm",
+  "level": "A1",
+  "summary": "Bạn hỏi thăm một đồng nghiệp vừa quay lại làm việc sau khi bị ốm. Bạn thực hành hỏi tình trạng sức khỏe và kết thúc cuộc nói chuyện một cách thân thiện.",
+  "goals": [
+    "Hỏi đồng nghiệp cảm thấy thế nào sau khi bị ốm.",
+    "Nói ngắn gọn về tình trạng sức khỏe hiện tại.",
+    "Đề nghị đồng nghiệp nghỉ ngơi và chúc họ mau khỏe."
+  ],
+  "vocab": [
+    {
+      "en": "sick",
+      "ipa": "/sɪk/",
+      "vi": "bị ốm",
+      "example": "I feel sick today."
+    },
+    {
+      "en": "feel better",
+      "ipa": "/fiːl ˈbetər/",
+      "vi": "cảm thấy khỏe hơn",
+      "example": "I feel better now."
+    },
+    {
+      "en": "a cold",
+      "ipa": "/ə koʊld/",
+      "vi": "cảm lạnh",
+      "example": "I have a cold."
+    },
+    {
+      "en": "cough",
+      "ipa": "/kɔːf/",
+      "vi": "ho",
+      "example": "I still cough a little."
+    },
+    {
+      "en": "rest",
+      "ipa": "/rest/",
+      "vi": "nghỉ ngơi",
+      "example": "I rest after work."
+    },
+    {
+      "en": "tea",
+      "ipa": "/tiː/",
+      "vi": "trà",
+      "example": "I drink warm tea."
+    },
+    {
+      "en": "medicine",
+      "ipa": "/ˈmedɪsɪn/",
+      "vi": "thuốc",
+      "example": "I take medicine at home."
+    },
+    {
+      "en": "help",
+      "ipa": "/help/",
+      "vi": "giúp đỡ",
+      "example": "Do you need help today?"
+    },
+    {
+      "en": "take it easy",
+      "ipa": "/teɪk ɪt ˈiːzi/",
+      "vi": "nghỉ ngơi, đừng cố sức",
+      "example": "Please take it easy today."
+    },
+    {
+      "en": "back at work",
+      "ipa": "/bæk æt wɜːrk/",
+      "vi": "quay lại làm việc",
+      "example": "I am back at work today."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "How are you feeling today?",
+      "vi": "Hôm nay bạn cảm thấy thế nào?",
+      "note": "Dùng để hỏi thăm sức khỏe một cách tự nhiên."
+    },
+    {
+      "en": "I feel much better.",
+      "vi": "Tôi cảm thấy khỏe hơn nhiều.",
+      "note": "Dùng feel trước tính từ better, không dùng am better."
+    },
+    {
+      "en": "Are you still sick?",
+      "vi": "Bạn vẫn còn ốm à?",
+      "note": "Dùng are vì sick là tính từ."
+    },
+    {
+      "en": "Do you have a cold?",
+      "vi": "Bạn bị cảm à?",
+      "note": "Cần có a trước cold."
+    },
+    {
+      "en": "Please take it easy.",
+      "vi": "Bạn hãy nghỉ ngơi nhé.",
+      "note": "Lời khuyên nhẹ nhàng, thân thiện với đồng nghiệp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /k/",
+      "tip": "Phát rõ âm /k/ ngắn ở cuối từ, không bỏ mất âm cuối.",
+      "words": [
+        "sick",
+        "work",
+        "back"
+      ]
+    },
+    {
+      "focus": "âm /f/",
+      "tip": "Đặt răng trên chạm nhẹ môi dưới và thổi hơi; không đọc thành âm /p/.",
+      "words": [
+        "feel",
+        "coffee",
+        "fine"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong thanks",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra; không đọc thành /t/.",
+      "words": [
+        "thanks",
+        "think",
+        "three"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am very better.",
+      "right": "I feel much better.",
+      "vi": "Better là tính từ, thường dùng sau feel khi nói về sức khỏe."
+    },
+    {
+      "wrong": "I have cold.",
+      "right": "I have a cold.",
+      "vi": "Cold là danh từ đếm được trong nghĩa bị cảm, cần có a."
+    },
+    {
+      "wrong": "Do you still sick?",
+      "right": "Are you still sick?",
+      "vi": "Sick là tính từ nên dùng động từ to be là are."
+    },
+    {
+      "wrong": "Please take easy.",
+      "right": "Please take it easy.",
+      "vi": "Cụm cố định là take it easy, có từ it."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi tình trạng sức khỏe",
+      "formal": "How are you feeling today?",
+      "casual": "Feeling better?",
+      "vi": "Câu formal đầy đủ và lịch sự, phù hợp với cấp trên hoặc đồng nghiệp chưa thân. Câu casual ngắn, dùng với bạn bè hay đồng nghiệp thân."
+    },
+    {
+      "situation": "Đề nghị giúp đỡ",
+      "formal": "Please let me know if you need any help.",
+      "casual": "Tell me if you need help.",
+      "vi": "Câu formal mềm mại hơn, phù hợp ở nơi làm việc trang trọng. Câu casual thân mật và trực tiếp hơn."
+    },
+    {
+      "situation": "Khuyên nghỉ ngơi",
+      "formal": "Please take it easy today.",
+      "casual": "Get some rest.",
+      "vi": "Câu formal lịch sự, phù hợp khi quan tâm đồng nghiệp. Câu casual ngắn gọn, dùng với người thân quen."
+    },
+    {
+      "situation": "Chúc mau khỏe",
+      "formal": "I hope you feel better soon.",
+      "casual": "Feel better soon.",
+      "vi": "Câu formal đầy đủ và ấm áp hơn. Câu casual là lời chúc ngắn, thường dùng khi kết thúc cuộc trò chuyện."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm việc nói tiếng Anh, hỏi thăm ngắn như How are you feeling là thể hiện sự quan tâm; người được hỏi thường trả lời ngắn gọn, không cần kể chi tiết bệnh tình.",
+    "Khi đồng nghiệp bị ốm, lời khuyên ở nhà nghỉ nếu còn mệt thường là quan tâm đến sức khỏe và tránh lây bệnh, không phải muốn họ nghỉ việc.",
+    "Câu Please let me know if you need help rất phổ biến. Người nghe có thể đáp đơn giản là Thanks, I will mà không cần nhận giúp đỡ ngay."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ đồng nghiệp",
+    "passage": "Hi Linh, this is Maria from work. I hope you feel better today. Do not worry about the team meeting. I will send you the notes after lunch. Please stay home and rest if you still feel sick. We miss you at the office, but your health is important. Call me if you need anything.",
+    "vi": "Chào Linh, tôi là Maria ở chỗ làm. Tôi hy vọng hôm nay bạn thấy khỏe hơn. Đừng lo về cuộc họp nhóm. Tôi sẽ gửi ghi chú cho bạn sau bữa trưa. Nếu bạn vẫn còn ốm, hãy ở nhà và nghỉ ngơi. Chúng tôi nhớ bạn ở văn phòng, nhưng sức khỏe của bạn rất quan trọng. Hãy gọi cho tôi nếu bạn cần bất cứ điều gì.",
+    "questions": [
+      {
+        "q": "Who sends the notes?",
+        "choices": [
+          "Linh",
+          "Maria",
+          "The team leader"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Maria vì bài nghe nói: I will send you the notes."
+      },
+      {
+        "q": "When does Maria send the notes?",
+        "choices": [
+          "Before lunch",
+          "After lunch",
+          "Tomorrow"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là after lunch, xuất hiện trong câu I will send you the notes after lunch."
+      },
+      {
+        "q": "What does Maria say Linh should do if still sick?",
+        "choices": [
+          "Go to the meeting",
+          "Stay home and rest",
+          "Work at the office"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là stay home and rest, được nói trực tiếp trong bài nghe."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "AI: Đồng nghiệp vừa quay lại làm việc sau khi bị ốm",
+      "b": "Bạn: Đồng nghiệp hỏi thăm sức khỏe"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, I am back today.",
+        "vi": "Chào, hôm nay tôi quay lại làm việc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Welcome back. How are you?",
+        "vi": "Chào mừng bạn quay lại. Bạn thế nào rồi?",
+        "hint": "Có thể nói Welcome back để chào người vừa trở lại."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. I feel much better.",
+        "vi": "Cảm ơn. Tôi cảm thấy khỏe hơn nhiều.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Are you still sick today?",
+        "vi": "Hôm nay bạn vẫn còn ốm à?",
+        "hint": "Dùng Are you với tính từ sick."
+      },
+      {
+        "speaker": "a",
+        "en": "A little, but I feel better.",
+        "vi": "Một chút, nhưng tôi thấy khỏe hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Do you have a cold?",
+        "vi": "Bạn bị cảm à?",
+        "hint": "Nhớ dùng a trước cold."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, but I drink warm tea.",
+        "vi": "Có, nhưng tôi uống trà ấm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Please take it easy today.",
+        "vi": "Hôm nay bạn hãy nghỉ ngơi nhé.",
+        "hint": "Đây là lời khuyên thân thiện."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. I rest after work.",
+        "vi": "Cảm ơn. Tôi sẽ nghỉ sau giờ làm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Okay. Feel better soon.",
+        "vi": "Được rồi. Mau khỏe nhé.",
+        "hint": "Feel better soon là lời chúc ngắn, tự nhiên."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly coworker at a small office. You return to work after being sick. You speak slowly, answer simple health questions, and thank your coworker for their care.",
+    "opener": "Hi, I am back at work today.",
+    "goal": "Người học hỏi thăm sức khỏe, khuyên đồng nghiệp nghỉ ngơi và kết thúc thân thiện."
+  },
+  "drills": [
+    {
+      "vi": "Hôm nay bạn cảm thấy thế nào?",
+      "en": "How are you feeling today?",
+      "alts": [
+        "How do you feel today?"
+      ]
+    },
+    {
+      "vi": "Tôi cảm thấy khỏe hơn nhiều.",
+      "en": "I feel much better.",
+      "alts": [
+        "I feel better now."
+      ]
+    },
+    {
+      "vi": "Bạn vẫn còn ốm à?",
+      "en": "Are you still sick?",
+      "alts": [
+        "Are you still sick today?"
+      ]
+    },
+    {
+      "vi": "Bạn bị cảm à?",
+      "en": "Do you have a cold?",
+      "alts": [
+        "Do you still have a cold?"
+      ]
+    },
+    {
+      "vi": "Tôi uống trà ấm.",
+      "en": "I drink warm tea.",
+      "alts": [
+        "I drink tea."
+      ]
+    },
+    {
+      "vi": "Hãy nghỉ ngơi nhé.",
+      "en": "Please take it easy.",
+      "alts": [
+        "Please rest today."
+      ]
+    },
+    {
+      "vi": "Bạn có cần giúp đỡ không?",
+      "en": "Do you need help?",
+      "alts": [
+        "Do you need any help today?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý phát âm âm cuối trong sick, work và back.",
+    "Tự nói 3 câu hỏi thăm sức khỏe với How are you feeling, Are you still sick và Do you have a cold.",
+    "Viết một tin nhắn ngắn chúc đồng nghiệp mau khỏe bằng tiếng Anh."
+  ]
+}

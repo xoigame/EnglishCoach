@@ -1,0 +1,354 @@
+{
+  "id": "gui-buu-pham",
+  "title": "Gửi bưu phẩm ở bưu điện",
+  "topic": "Gửi bưu phẩm",
+  "level": "A2",
+  "summary": "Bạn gửi một gói quà sinh nhật đến Canada tại bưu điện. Bạn chọn cách giao hàng, điền mẫu đơn và thanh toán.",
+  "goals": [
+    "Biết nói nhu cầu gửi bưu phẩm đến một địa điểm.",
+    "Hỏi về hình thức giao hàng, giá tiền và theo dõi bưu phẩm.",
+    "Hoàn tất giao dịch lịch sự tại bưu điện."
+  ],
+  "vocab": [
+    {
+      "en": "package",
+      "ipa": "/ˈpækɪdʒ/",
+      "vi": "gói hàng, bưu phẩm",
+      "example": "I need to send this package to Canada."
+    },
+    {
+      "en": "postage",
+      "ipa": "/ˈpoʊstɪdʒ/",
+      "vi": "cước phí gửi thư, hàng",
+      "example": "How much is the postage?"
+    },
+    {
+      "en": "recipient",
+      "ipa": "/rɪˈsɪpiənt/",
+      "vi": "người nhận",
+      "example": "Please write the recipient's name here."
+    },
+    {
+      "en": "address",
+      "ipa": "/əˈdres/",
+      "vi": "địa chỉ",
+      "example": "Please check the address carefully."
+    },
+    {
+      "en": "customs form",
+      "ipa": "/ˈkʌstəmz fɔːrm/",
+      "vi": "mẫu khai hải quan",
+      "example": "Please fill out this customs form."
+    },
+    {
+      "en": "standard delivery",
+      "ipa": "/ˈstændərd dɪˈlɪvəri/",
+      "vi": "giao hàng tiêu chuẩn",
+      "example": "Standard delivery is fine for me."
+    },
+    {
+      "en": "express delivery",
+      "ipa": "/ɪkˈspres dɪˈlɪvəri/",
+      "vi": "giao hàng nhanh",
+      "example": "Express delivery arrives much sooner."
+    },
+    {
+      "en": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "vi": "biên lai",
+      "example": "Keep your receipt after payment."
+    },
+    {
+      "en": "tracking number",
+      "ipa": "/ˈtrækɪŋ ˈnʌmbər/",
+      "vi": "mã theo dõi bưu phẩm",
+      "example": "The tracking number is on the receipt."
+    },
+    {
+      "en": "collect",
+      "ipa": "/kəˈlekt/",
+      "vi": "đến nhận, lấy",
+      "example": "You can collect the package tomorrow."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I need to send ___ to ___.",
+      "vi": "Tôi cần gửi ___ đến ___.",
+      "note": "Dùng để nói rõ món hàng và nơi nhận."
+    },
+    {
+      "en": "Would you like standard or express delivery?",
+      "vi": "Bạn muốn giao hàng tiêu chuẩn hay giao hàng nhanh?",
+      "note": "Câu nhân viên thường dùng để hỏi lựa chọn giao hàng."
+    },
+    {
+      "en": "How much will it cost?",
+      "vi": "Chi phí sẽ là bao nhiêu?",
+      "note": "Dùng will vì bạn hỏi chi phí cho giao dịch sắp thực hiện."
+    },
+    {
+      "en": "Do I need to fill out a customs form?",
+      "vi": "Tôi có cần điền mẫu khai hải quan không?",
+      "note": "Do I need to + động từ dùng để hỏi về việc cần làm."
+    },
+    {
+      "en": "Can I track the package?",
+      "vi": "Tôi có thể theo dõi bưu phẩm không?",
+      "note": "Track là theo dõi hành trình của bưu phẩm."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm của address",
+      "tip": "Nhấn âm thứ hai: ə-DRESS, không nhấn âm đầu.",
+      "words": [
+        "address",
+        "express"
+      ]
+    },
+    {
+      "focus": "chữ p câm trong receipt",
+      "tip": "Không đọc chữ p. Đọc gần như ri-SEET và nhấn âm thứ hai.",
+      "words": [
+        "receipt"
+      ]
+    },
+    {
+      "focus": "âm cuối /dʒ/",
+      "tip": "Kết thúc rõ bằng âm /dʒ/, giống âm cuối trong từ judge.",
+      "words": [
+        "package",
+        "postage"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want send this package to Canada.",
+      "right": "I want to send this package to Canada.",
+      "vi": "Sau want cần có to trước động từ."
+    },
+    {
+      "wrong": "How much it costs?",
+      "right": "How much does it cost?",
+      "vi": "Câu hỏi hiện tại đơn cần trợ động từ does."
+    },
+    {
+      "wrong": "Can I tracking the package?",
+      "right": "Can I track the package?",
+      "vi": "Sau can dùng động từ nguyên mẫu track, không dùng tracking."
+    },
+    {
+      "wrong": "How long it takes?",
+      "right": "How long does it take?",
+      "vi": "Câu hỏi hiện tại đơn cần does trước chủ ngữ it."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nói muốn gửi bưu phẩm",
+      "formal": "I would like to send this package to Canada, please.",
+      "casual": "I need to send this package to Canada.",
+      "vi": "Câu formal lịch sự hơn khi nói với nhân viên bưu điện; câu casual trực tiếp nhưng vẫn phù hợp trong giao dịch thường ngày."
+    },
+    {
+      "situation": "Hỏi giá gửi hàng",
+      "formal": "Could you tell me how much it will cost, please?",
+      "casual": "How much will it cost?",
+      "vi": "Câu formal mềm hơn khi nói với người lạ hoặc ở nơi trang trọng; câu casual ngắn gọn, dùng được tại quầy dịch vụ thông thường."
+    },
+    {
+      "situation": "Chọn cách giao hàng",
+      "formal": "Could I have standard delivery, please?",
+      "casual": "Standard is fine.",
+      "vi": "Câu formal lịch sự và đầy đủ; câu casual phù hợp khi nhân viên vừa đưa ra hai lựa chọn rõ ràng."
+    },
+    {
+      "situation": "Hỏi mã theo dõi",
+      "formal": "Could you show me where the tracking number is?",
+      "casual": "Where is the tracking number?",
+      "vi": "Câu formal nhẹ nhàng hơn với nhân viên; câu casual ngắn, dùng khi bạn đang cầm biên lai và cần hỏi nhanh."
+    }
+  ],
+  "culture": [
+    "Nhân viên thường hỏi thẳng bưu phẩm chứa gì và gửi đi đâu. Đây là thủ tục bình thường, nhất là với hàng gửi quốc tế.",
+    "Ở nhiều bưu điện, bạn xếp hàng và chỉ đến quầy khi được gọi. Không cần cố bắt chuyện khi đang chờ.",
+    "Thông thường không cần boa cho nhân viên bưu điện. Hãy giữ biên lai để tra cứu hoặc khiếu nại nếu cần."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ bưu điện",
+    "passage": "Hello. This is a message from Green Street Post Office. Your package from Australia is ready for collection. Please bring photo identification and the card we left at your home. We are open until six this evening. If you cannot come today, we will keep the package for seven days.",
+    "vi": "Xin chào. Đây là tin nhắn từ Bưu điện Green Street. Bưu phẩm của bạn từ Úc đã sẵn sàng để nhận. Vui lòng mang theo giấy tờ nhận dạng có ảnh và thẻ chúng tôi đã để lại tại nhà bạn. Chúng tôi mở cửa đến sáu giờ tối nay. Nếu hôm nay bạn không thể đến, chúng tôi sẽ giữ bưu phẩm trong bảy ngày.",
+    "questions": [
+      {
+        "q": "Where is the package from?",
+        "choices": [
+          "Australia",
+          "Canada",
+          "The United States"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Australia vì bài nghe nói rõ: package from Australia."
+      },
+      {
+        "q": "What should the customer bring?",
+        "choices": [
+          "A passport and money",
+          "Photo identification and a card",
+          "A large box and a receipt"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là photo identification and a card vì người nghe được yêu cầu mang hai thứ này."
+      },
+      {
+        "q": "How long will the post office keep the package?",
+        "choices": [
+          "One day",
+          "Three days",
+          "Seven days"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là seven days vì cuối bài nghe nói sẽ giữ bưu phẩm trong bảy ngày."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên bưu điện (AI)",
+      "b": "Khách hàng gửi bưu phẩm (người học)"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. How can I help you today?",
+        "vi": "Chào buổi sáng. Hôm nay tôi có thể giúp gì cho bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I need to send this package to Canada.",
+        "vi": "Chào, tôi cần gửi gói hàng này đến Canada.",
+        "hint": "Dùng I need to + động từ để nói nhu cầu."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. Is it a gift or personal item?",
+        "vi": "Được chứ. Đây là quà hay đồ dùng cá nhân?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is a birthday gift for my sister.",
+        "vi": "Đây là quà sinh nhật cho chị gái tôi.",
+        "hint": "Gift là quà tặng; birthday gift là quà sinh nhật."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Would you like standard or express delivery?",
+        "vi": "Tuyệt. Bạn muốn giao hàng tiêu chuẩn hay giao hàng nhanh?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Standard delivery is fine. How much will it cost?",
+        "vi": "Giao hàng tiêu chuẩn là được. Chi phí sẽ là bao nhiêu?",
+        "hint": "Standard delivery là giao hàng tiêu chuẩn."
+      },
+      {
+        "speaker": "a",
+        "en": "It costs twelve dollars and arrives in about ten days.",
+        "vi": "Chi phí là mười hai đô la và hàng đến trong khoảng mười ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Okay. Do I need to fill out a form?",
+        "vi": "Được. Tôi có cần điền mẫu đơn không?",
+        "hint": "Do I need to + động từ dùng để hỏi có cần làm gì không."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, please fill out this customs form with the address.",
+        "vi": "Có, vui lòng điền địa chỉ vào mẫu khai hải quan này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here is the form. Can I track the package?",
+        "vi": "Đây là mẫu đơn. Tôi có thể theo dõi bưu phẩm không?",
+        "hint": "Track nghĩa là theo dõi hành trình bưu phẩm."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. The tracking number is on your receipt.",
+        "vi": "Có. Mã theo dõi nằm trên biên lai của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Can I pay by card today?",
+        "vi": "Tuyệt. Hôm nay tôi có thể thanh toán bằng thẻ không?",
+        "hint": "Can I pay by card? dùng khi muốn thanh toán bằng thẻ."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. Please tap your card here. Thank you.",
+        "vi": "Có. Vui lòng chạm thẻ của bạn ở đây. Cảm ơn bạn.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly postal clerk at a busy local post office. You help customers send packages, explain delivery choices, and take payment. Speak clearly, patiently, and naturally at A2 level.",
+    "opener": "Good morning. How can I help you today?",
+    "goal": "Người học gửi một bưu phẩm, chọn hình thức giao hàng và hỏi mã theo dõi."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần gửi gói hàng này đến Canada.",
+      "en": "I need to send this package to Canada.",
+      "alts": [
+        "I would like to send this package to Canada."
+      ]
+    },
+    {
+      "vi": "Đây là quà sinh nhật cho chị gái tôi.",
+      "en": "This is a birthday gift for my sister.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi muốn giao hàng tiêu chuẩn.",
+      "en": "I would like standard delivery, please.",
+      "alts": [
+        "Standard delivery is fine."
+      ]
+    },
+    {
+      "vi": "Chi phí sẽ là bao nhiêu?",
+      "en": "How much will it cost?",
+      "alts": []
+    },
+    {
+      "vi": "Tôi có cần điền mẫu khai hải quan không?",
+      "en": "Do I need to fill out a customs form?",
+      "alts": []
+    },
+    {
+      "vi": "Tôi có thể theo dõi bưu phẩm không?",
+      "en": "Can I track the package?",
+      "alts": []
+    },
+    {
+      "vi": "Mã theo dõi nằm trên biên lai.",
+      "en": "The tracking number is on the receipt.",
+      "alts": []
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý từ address, receipt, package.",
+    "Đặt ba câu hỏi với Do I need to và Can I.",
+    "Tập nói một đoạn ngắn gửi bưu phẩm đến một quốc gia khác."
+  ]
+}

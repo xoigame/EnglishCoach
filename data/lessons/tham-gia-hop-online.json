@@ -1,0 +1,379 @@
+{
+  "id": "tham-gia-hop-online",
+  "title": "Họp online: xin phát biểu và xử lý sự cố đường truyền",
+  "topic": "Họp trực tuyến",
+  "level": "B1",
+  "summary": "Bạn tham gia một cuộc họp dự án trực tuyến, xin góp ý về tiến độ và xử lý kết nối không ổn định. Bạn cũng đề xuất điều chỉnh thời hạn một cách lịch sự.",
+  "goals": [
+    "Xin phát biểu và nêu ý kiến trong cuộc họp trực tuyến.",
+    "Mô tả sự cố đường truyền và đề nghị người khác hỗ trợ.",
+    "Đề xuất thay đổi thời hạn kèm lý do rõ ràng."
+  ],
+  "vocab": [
+    {
+      "en": "chair",
+      "ipa": "/tʃer/",
+      "vi": "chủ tọa cuộc họp",
+      "example": "The chair asked everyone to share their opinion."
+    },
+    {
+      "en": "agenda",
+      "ipa": "/əˈdʒendə/",
+      "vi": "chương trình, nội dung cuộc họp",
+      "example": "The timeline is the first item on today's agenda."
+    },
+    {
+      "en": "add a point",
+      "ipa": "/æd ə pɔɪnt/",
+      "vi": "bổ sung một ý kiến",
+      "example": "Could I add a point before we move on?"
+    },
+    {
+      "en": "move forward",
+      "ipa": "/muːv ˈfɔːrwərd/",
+      "vi": "tiếp tục, chuyển sang phần tiếp theo",
+      "example": "Let us move forward with the next topic."
+    },
+    {
+      "en": "connection",
+      "ipa": "/kəˈnekʃən/",
+      "vi": "kết nối mạng",
+      "example": "My connection has been unstable this morning."
+    },
+    {
+      "en": "unstable",
+      "ipa": "/ʌnˈsteɪbəl/",
+      "vi": "không ổn định",
+      "example": "The video becomes unclear when the connection is unstable."
+    },
+    {
+      "en": "break up",
+      "ipa": "/breɪk ʌp/",
+      "vi": "bị ngắt quãng, chập chờn",
+      "example": "Your voice is breaking up a little."
+    },
+    {
+      "en": "turn off",
+      "ipa": "/tɜːrn ɔːf/",
+      "vi": "tắt",
+      "example": "I will turn off my camera to save bandwidth."
+    },
+    {
+      "en": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "vi": "làm rõ",
+      "example": "Could you clarify the new deadline for us?"
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "vi": "hạn chót",
+      "example": "We may need to move the deadline by one week."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could I add a point before we move on?",
+      "vi": "Tôi có thể bổ sung một ý trước khi chúng ta chuyển sang phần tiếp theo không?",
+      "note": "Cách lịch sự để xin phát biểu mà không cắt ngang cuộc họp quá đột ngột."
+    },
+    {
+      "en": "My connection is unstable, so I may miss parts of the discussion.",
+      "vi": "Kết nối của tôi không ổn định, nên tôi có thể bỏ lỡ một số phần thảo luận.",
+      "note": "Dùng so để nêu kết quả của sự cố đường truyền."
+    },
+    {
+      "en": "Could you repeat the last point, please?",
+      "vi": "Bạn có thể nhắc lại ý vừa rồi được không?",
+      "note": "Dùng khi nghe không rõ; repeat đã mang nghĩa lặp lại nên không cần thêm again."
+    },
+    {
+      "en": "As I was saying, the testing phase needs more time.",
+      "vi": "Như tôi đang nói, giai đoạn kiểm thử cần thêm thời gian.",
+      "note": "Dùng để quay lại ý đang nói sau khi bị gián đoạn."
+    },
+    {
+      "en": "I suggest moving the deadline by one week, because we need thorough testing.",
+      "vi": "Tôi đề nghị lùi hạn chót một tuần, vì chúng ta cần kiểm thử kỹ.",
+      "note": "Sau suggest dùng động từ thêm ing, không dùng suggest to move."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong connection",
+      "tip": "Nhấn mạnh âm thứ hai: con-NEC-tion. Tránh đọc đều từng âm như tiếng Việt.",
+      "words": [
+        "connection",
+        "discussion",
+        "suggestion"
+      ]
+    },
+    {
+      "focus": "Nối âm trong could you và would you",
+      "tip": "Âm d cuối từ trước nối với âm y ở từ sau, nghe gần như could-joo và would-joo.",
+      "words": [
+        "could you",
+        "would you",
+        "did you"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong thorough",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm t.",
+      "words": [
+        "thorough",
+        "think",
+        "thanks"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Can I say something?",
+      "right": "Could I add a point before we move on?",
+      "vi": "Can I say something không sai hoàn toàn nhưng khá trực tiếp; mẫu đúng tự nhiên và lịch sự hơn trong họp."
+    },
+    {
+      "wrong": "My internet is bad.",
+      "right": "My connection is unstable.",
+      "vi": "My internet is bad nghe không tự nhiên trong ngữ cảnh công việc; connection is unstable cụ thể và chuyên nghiệp hơn."
+    },
+    {
+      "wrong": "Please repeat again.",
+      "right": "Could you repeat the last point, please?",
+      "vi": "Repeat đã có nghĩa là nói lại, nên không cần dùng thêm again."
+    },
+    {
+      "wrong": "I lose my connection.",
+      "right": "I keep losing my connection.",
+      "vi": "Dùng keep losing khi sự cố xảy ra lặp đi lặp lại trong lúc họp."
+    },
+    {
+      "wrong": "My voice is break.",
+      "right": "My voice is breaking up.",
+      "vi": "Breaking up là cụm tự nhiên để nói âm thanh bị chập chờn, ngắt quãng."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xin phát biểu trong cuộc họp",
+      "formal": "Could I add a point before we move on?",
+      "casual": "Can I jump in for a second?",
+      "vi": "Dùng câu formal với khách hàng, cấp trên hoặc cuộc họp trang trọng; câu casual phù hợp với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Báo đường truyền có vấn đề",
+      "formal": "I am sorry, but my connection seems unstable.",
+      "casual": "Sorry, my internet is acting up.",
+      "vi": "Câu formal phù hợp khi muốn lịch sự và trung tính; câu casual dùng trong nhóm quen và không quá trang trọng."
+    },
+    {
+      "situation": "Đề nghị nhắc lại",
+      "formal": "Could you repeat the last point, please?",
+      "casual": "Sorry, can you say that again?",
+      "vi": "Câu formal phù hợp khi nói với người lạ hoặc cấp trên; câu casual tự nhiên hơn giữa đồng nghiệp thân."
+    },
+    {
+      "situation": "Đề xuất lùi hạn chót",
+      "formal": "I would recommend moving the deadline by one week.",
+      "casual": "I think we should push the deadline back a week.",
+      "vi": "Câu formal giảm mức độ áp đặt trong cuộc họp quan trọng; câu casual phù hợp với cuộc trao đổi nội bộ thân mật."
+    }
+  ],
+  "culture": [
+    "Trong họp trực tuyến bằng tiếng Anh, người nói thường báo rõ mục đích trước khi góp ý, chẳng hạn xin bổ sung một ý, thay vì nói thẳng vào vấn đề ngay.",
+    "Tắt camera khi mạng yếu thường được xem là cách hợp tác bình thường. Chỉ cần báo ngắn gọn, không cần xin lỗi quá lâu.",
+    "Khi không nghe rõ, việc yêu cầu nhắc lại là hoàn toàn bình thường. Người bản xứ thường nói thẳng nhưng lịch sự để tránh hiểu nhầm."
+  ],
+  "listening": {
+    "title": "Tin nhắn sau khi mất kết nối",
+    "passage": "Hello everyone. I am recording this message because I lost my connection during the planning meeting. I heard that we agreed to move the product launch to next Tuesday, but I want to confirm one detail. Will the design team have until Friday to finish the final changes? Please send me the updated schedule after the meeting, because I need to share it with my manager.",
+    "vi": "Chào mọi người. Tôi đang ghi âm tin nhắn này vì tôi bị mất kết nối trong cuộc họp lập kế hoạch. Tôi nghe rằng chúng ta đã đồng ý chuyển ngày ra mắt sản phẩm sang thứ Ba tuần tới, nhưng tôi muốn xác nhận một chi tiết. Nhóm thiết kế có thời hạn đến thứ Sáu để hoàn thành các thay đổi cuối cùng không? Xin hãy gửi cho tôi lịch trình đã cập nhật sau cuộc họp, vì tôi cần chia sẻ nó với quản lý của tôi.",
+    "questions": [
+      {
+        "q": "Why is the speaker recording this message?",
+        "choices": [
+          "The speaker joined the meeting late.",
+          "The speaker lost the connection.",
+          "The speaker changed the launch date."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói nói rõ rằng họ bị mất kết nối trong cuộc họp lập kế hoạch."
+      },
+      {
+        "q": "When is the product launch expected to happen?",
+        "choices": [
+          "Next Tuesday",
+          "This Friday",
+          "Next Monday"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì đoạn nghe nói ngày ra mắt được chuyển sang next Tuesday."
+      },
+      {
+        "q": "Why does the speaker need the updated schedule?",
+        "choices": [
+          "To send it to the design team",
+          "To share it with the manager",
+          "To cancel the meeting"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói cần chia sẻ lịch trình với quản lý của mình."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Chủ tọa cuộc họp",
+      "b": "Thành viên tham gia cuộc họp"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning, everyone. Before we begin, does anyone need to add something?",
+        "vi": "Chào buổi sáng mọi người. Trước khi bắt đầu, có ai cần bổ sung điều gì không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, could I briefly comment on the timeline before we move forward?",
+        "vi": "Vâng, tôi có thể nhận xét ngắn về tiến độ trước khi chúng ta chuyển sang phần tiếp theo không?",
+        "hint": "Mở đầu bằng Could I để xin phát biểu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. Please go ahead, but keep it short so we stay on schedule.",
+        "vi": "Tất nhiên. Bạn cứ nói, nhưng hãy nói ngắn gọn để chúng ta đúng giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. I think the launch date may be too ambitious for our team.",
+        "vi": "Cảm ơn. Tôi nghĩ ngày ra mắt có thể quá tham vọng đối với nhóm chúng ta.",
+        "hint": "May be giúp nêu ý kiến nhẹ nhàng, không khẳng định quá mạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand your concern. Could you explain which tasks might take longer?",
+        "vi": "Tôi hiểu lo ngại của bạn. Bạn có thể giải thích những nhiệm vụ nào có thể mất nhiều thời gian hơn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can, although my connection is unstable and I may miss parts.",
+        "vi": "Tôi có thể, mặc dù kết nối của tôi không ổn định và tôi có thể bỏ lỡ một số phần.",
+        "hint": "Dùng although để nêu sự đối lập hoặc trở ngại."
+      },
+      {
+        "speaker": "a",
+        "en": "We can hear you now. Would you like us to pause for a moment?",
+        "vi": "Bây giờ chúng tôi vẫn nghe được bạn. Bạn có muốn chúng tôi tạm dừng một lát không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please. I will turn off my camera to improve the connection.",
+        "vi": "Vâng, làm ơn. Tôi sẽ tắt camera để cải thiện kết nối.",
+        "hint": "Turn off my camera là cách nói tự nhiên khi muốn giảm tải đường truyền."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Let us know when you are ready to continue.",
+        "vi": "Điều đó hợp lý. Hãy cho chúng tôi biết khi bạn sẵn sàng tiếp tục.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am back now. As I was saying, the testing phase needs more time.",
+        "vi": "Bây giờ tôi đã quay lại. Như tôi đang nói, giai đoạn kiểm thử cần thêm thời gian.",
+        "hint": "As I was saying giúp quay lại ý trước khi bị gián đoạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks for clarifying. What would you suggest instead, given the current deadline?",
+        "vi": "Cảm ơn bạn đã làm rõ. Với hạn chót hiện tại, bạn đề xuất phương án nào thay thế?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I suggest moving the launch by one week, because we need thorough testing.",
+        "vi": "Tôi đề nghị lùi ngày ra mắt một tuần, vì chúng ta cần kiểm thử kỹ.",
+        "hint": "Sau suggest dùng moving, không dùng to move."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds reasonable. Does anyone disagree, or should we update the timeline today?",
+        "vi": "Nghe có vẻ hợp lý. Có ai không đồng ý không, hay chúng ta nên cập nhật tiến độ hôm nay?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree with updating it today, and I appreciate everyone's flexibility.",
+        "vi": "Tôi đồng ý cập nhật hôm nay, và tôi cảm kích sự linh hoạt của mọi người.",
+        "hint": "I appreciate là cách cảm ơn chuyên nghiệp ở cuối phần trao đổi."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm meeting chair leading a weekly online project meeting. You welcome contributions, manage time politely, and help participants when their connection becomes unstable.",
+    "opener": "Good morning, everyone. Before we begin, does anyone need to add something?",
+    "goal": "Người học xin phát biểu, báo sự cố kết nối và đề xuất điều chỉnh hạn chót."
+  },
+  "drills": [
+    {
+      "vi": "Tôi có thể bổ sung một ý trước khi chúng ta chuyển sang phần tiếp theo không?",
+      "en": "Could I add a point before we move on?",
+      "alts": [
+        "Could I briefly comment before we move forward?"
+      ]
+    },
+    {
+      "vi": "Kết nối của tôi không ổn định, nên tôi có thể bỏ lỡ một số phần thảo luận.",
+      "en": "My connection is unstable, so I may miss parts of the discussion.",
+      "alts": [
+        "My connection is unstable, so I might miss some details."
+      ]
+    },
+    {
+      "vi": "Bạn có thể nhắc lại ý vừa rồi được không?",
+      "en": "Could you repeat the last point, please?",
+      "alts": [
+        "Would you mind saying that again?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ tắt camera để cải thiện kết nối.",
+      "en": "I will turn off my camera to improve the connection.",
+      "alts": [
+        "I will switch off my camera to help the connection."
+      ]
+    },
+    {
+      "vi": "Như tôi đang nói, giai đoạn kiểm thử cần thêm thời gian.",
+      "en": "As I was saying, the testing phase needs more time.",
+      "alts": [
+        "As I mentioned earlier, testing will take longer."
+      ]
+    },
+    {
+      "vi": "Tôi đề nghị lùi hạn chót một tuần.",
+      "en": "I suggest moving the deadline by one week.",
+      "alts": [
+        "I would recommend pushing the deadline back by a week."
+      ]
+    },
+    {
+      "vi": "Chúng ta nên cập nhật tiến độ hôm nay.",
+      "en": "We should update the timeline today.",
+      "alts": [
+        "I think we should revise the schedule today."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý ngắt nghỉ tự nhiên khi xin phát biểu và báo sự cố.",
+    "Viết ba câu đề xuất thay đổi tiến độ bằng I suggest hoặc I would recommend.",
+    "Tự nói một tin nhắn thoại 45 giây: giải thích bạn mất kết nối và xin cập nhật sau cuộc họp."
+  ]
+}

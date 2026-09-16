@@ -1,0 +1,386 @@
+{
+  "id": "xin-loi-khach-hang-lon",
+  "title": "Xin lỗi khách hàng lớn sau một sự cố nghiêm trọng",
+  "topic": "Xử lý khủng hoảng với khách hàng doanh nghiệp",
+  "level": "B2",
+  "summary": "Bạn là quản lý tài khoản của một khách hàng lớn sau khi hệ thống gặp sự cố nghiêm trọng. Bạn cần xin lỗi, giải thích rõ ràng, lắng nghe yêu cầu và thương lượng một kế hoạch khắc phục đáng tin cậy.",
+  "goals": [
+    "Xin lỗi một cách chuyên nghiệp mà không né tránh trách nhiệm.",
+    "Giải thích nguyên nhân và tác động của sự cố bằng ngôn ngữ rõ ràng.",
+    "Thương lượng bồi thường, cam kết khắc phục và lấy lại niềm tin của khách hàng."
+  ],
+  "vocab": [
+    {
+      "en": "service outage",
+      "ipa": "/ˈsɜːrvɪs ˈaʊtɪdʒ/",
+      "vi": "sự cố ngừng dịch vụ",
+      "example": "The service outage affected our customers for several hours."
+    },
+    {
+      "en": "take full responsibility",
+      "ipa": "/teɪk fʊl rɪˌspɑːnsəˈbɪləti/",
+      "vi": "chịu hoàn toàn trách nhiệm",
+      "example": "We take full responsibility for the failure."
+    },
+    {
+      "en": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "vi": "nguyên nhân gốc rễ",
+      "example": "Our engineers have identified the root cause of the problem."
+    },
+    {
+      "en": "data breach",
+      "ipa": "/ˈdeɪtə briːtʃ/",
+      "vi": "vụ rò rỉ dữ liệu",
+      "example": "We found no evidence of a data breach."
+    },
+    {
+      "en": "compensation",
+      "ipa": "/ˌkɑːmpenˈseɪʃən/",
+      "vi": "khoản bồi thường",
+      "example": "We are prepared to discuss fair compensation."
+    },
+    {
+      "en": "service-level agreement",
+      "ipa": "/ˈsɜːrvɪs ˈlevəl əˌɡriːmənt/",
+      "vi": "thỏa thuận mức chất lượng dịch vụ",
+      "example": "The outage was a clear breach of our service-level agreement."
+    },
+    {
+      "en": "restore confidence",
+      "ipa": "/rɪˈstɔːr ˈkɑːnfɪdəns/",
+      "vi": "khôi phục niềm tin",
+      "example": "We know it will take actions, not promises, to restore your confidence."
+    },
+    {
+      "en": "contingency plan",
+      "ipa": "/kənˈtɪndʒənsi plæn/",
+      "vi": "kế hoạch dự phòng",
+      "example": "We have updated our contingency plan to prevent a repeat."
+    },
+    {
+      "en": "waive the fees",
+      "ipa": "/weɪv ðə fiːz/",
+      "vi": "miễn các khoản phí",
+      "example": "We will waive the fees for the affected period."
+    },
+    {
+      "en": "make things right",
+      "ipa": "/meɪk θɪŋz raɪt/",
+      "vi": "khắc phục cho thỏa đáng",
+      "example": "Please tell us what we can do to make things right."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I want to begin by apologizing for ___.",
+      "vi": "Tôi muốn bắt đầu bằng việc xin lỗi về ___.",
+      "note": "Mở đầu thẳng thắn, phù hợp khi cần thừa nhận một vấn đề nghiêm trọng."
+    },
+    {
+      "en": "We take full responsibility for ___, and we are not making excuses.",
+      "vi": "Chúng tôi hoàn toàn chịu trách nhiệm về ___, và không biện minh.",
+      "note": "Dùng để thể hiện trách nhiệm rõ ràng mà không đổ lỗi."
+    },
+    {
+      "en": "I understand why you feel ___, especially since ___.",
+      "vi": "Tôi hiểu vì sao ông/bà cảm thấy ___, đặc biệt vì ___.",
+      "note": "Thừa nhận cảm xúc và hậu quả của khách hàng trước khi giải thích."
+    },
+    {
+      "en": "What would it take for us to rebuild your trust?",
+      "vi": "Chúng tôi cần làm gì để lấy lại niềm tin của ông/bà?",
+      "note": "Mời khách hàng nêu điều kiện thay vì tự áp đặt giải pháp."
+    },
+    {
+      "en": "If we ___, would you be willing to ___?",
+      "vi": "Nếu chúng tôi ___, ông/bà có sẵn lòng ___ không?",
+      "note": "Cấu trúc thương lượng có điều kiện, lịch sự và thực tế."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong từ three, threat và thing",
+      "tip": "Đặt nhẹ đầu lưỡi giữa hai hàm răng, thổi hơi ra. Không đọc thành /t/ như tree hoặc /s/ như sing.",
+      "words": [
+        "three",
+        "threat",
+        "thing"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong compensation và contingency",
+      "tip": "Nhấn rõ âm chính: com-pen-SAY-tion và con-TIN-gen-cy. Tránh nhấn đều tất cả âm tiết.",
+      "words": [
+        "compensation",
+        "contingency",
+        "responsibility"
+      ]
+    },
+    {
+      "focus": "Nối âm trong take full responsibility",
+      "tip": "Nối cuối từ trước với đầu từ sau để câu trôi chảy: take-full và full-responsibility, nhưng vẫn giữ trọng âm ở responsibility.",
+      "words": [
+        "take full responsibility",
+        "root cause",
+        "restore confidence"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We are very sorry about this incident happened.",
+      "right": "We are very sorry that this incident happened.",
+      "vi": "Sau sorry about không dùng trực tiếp một mệnh đề. Dùng sorry that hoặc sorry about the incident."
+    },
+    {
+      "wrong": "We will compensate you back the money.",
+      "right": "We will compensate you for your losses.",
+      "vi": "Compensate không đi với back the money. Dùng compensate someone for something."
+    },
+    {
+      "wrong": "We take responsibility about the outage.",
+      "right": "We take responsibility for the outage.",
+      "vi": "Đi với responsibility là giới từ for, không phải about."
+    },
+    {
+      "wrong": "Please give us one more chance to trust us.",
+      "right": "Please give us one more chance to earn back your trust.",
+      "vi": "Không nói chance to trust us trong tình huống này. Cần diễn đạt rằng công ty sẽ giành lại niềm tin."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xin lỗi vì sự cố nghiêm trọng",
+      "formal": "I sincerely apologize for the disruption this incident has caused your organization.",
+      "casual": "I am really sorry this caused such a mess for your team.",
+      "vi": "Câu formal dùng với khách hàng doanh nghiệp hoặc người chưa thân; câu casual phù hợp với đồng nghiệp quen biết và không nên dùng cho khiếu nại chính thức."
+    },
+    {
+      "situation": "Thừa nhận trách nhiệm",
+      "formal": "We accept full responsibility for the failure and its impact.",
+      "casual": "This one is on us.",
+      "vi": "Câu formal phù hợp trong cuộc họp, email và phát biểu chính thức; câu casual chỉ dùng nội bộ hoặc với đối tác có quan hệ rất thân."
+    },
+    {
+      "situation": "Đề nghị bồi thường",
+      "formal": "We would like to discuss appropriate compensation for your documented losses.",
+      "casual": "Let us work out a fair way to make this right.",
+      "vi": "Câu formal rõ ràng và an toàn khi bàn về pháp lý hoặc hợp đồng; câu casual mềm hơn, phù hợp lúc mở đầu trao đổi không chính thức."
+    },
+    {
+      "situation": "Cam kết theo dõi",
+      "formal": "I will keep you updated at every stage of the recovery process.",
+      "casual": "I will keep you in the loop as we fix this.",
+      "vi": "Câu formal dùng với khách hàng lớn và văn bản công việc; keep you in the loop là thành ngữ thân mật hơn, phù hợp với đồng nghiệp hoặc khách quen."
+    }
+  ],
+  "culture": [
+    "Trong môi trường kinh doanh nói tiếng Anh, một lời xin lỗi hiệu quả thường đi kèm trách nhiệm, tác động cụ thể và bước xử lý tiếp theo. Chỉ nói sorry nhiều lần dễ bị xem là né tránh.",
+    "Khách hàng có thể nói rất thẳng như This is unacceptable hoặc Why should we trust you again. Đây thường là cách yêu cầu thông tin rõ ràng, không nhất thiết là công kích cá nhân.",
+    "Đừng hứa tuyệt đối như This will never happen again nếu bạn không thể chứng minh. Cách đáng tin hơn là thừa nhận giới hạn và nêu biện pháp giảm rủi ro cụ thể."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau sự cố dịch vụ",
+    "passage": "Hello, this is Maya from Northstar Systems. I am calling with an update after yesterday's outage. The service is now stable, and our security team found no sign that customer data was accessed. We know the delay in communication made a difficult situation worse. This afternoon, we will send affected clients a recovery plan, a direct support contact, and details of the service credits available to them.",
+    "vi": "Xin chào, tôi là Maya từ Northstar Systems. Tôi gọi để cập nhật sau sự cố ngừng dịch vụ hôm qua. Dịch vụ hiện đã ổn định và đội bảo mật của chúng tôi không tìm thấy dấu hiệu dữ liệu khách hàng bị truy cập. Chúng tôi biết việc chậm trễ trong liên lạc đã khiến một tình huống khó khăn trở nên tệ hơn. Chiều nay, chúng tôi sẽ gửi cho các khách hàng bị ảnh hưởng một kế hoạch phục hồi, đầu mối hỗ trợ trực tiếp và thông tin chi tiết về tín dụng dịch vụ mà họ có thể nhận.",
+    "questions": [
+      {
+        "q": "What did the security team find?",
+        "choices": [
+          "Customer data was accessed.",
+          "There was no sign that customer data was accessed.",
+          "The security review is not complete."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói: no sign that customer data was accessed."
+      },
+      {
+        "q": "What made the situation worse?",
+        "choices": [
+          "A delay in communication.",
+          "A lack of service credits.",
+          "A change in the recovery plan."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì Maya nói the delay in communication made a difficult situation worse."
+      },
+      {
+        "q": "What will affected clients receive this afternoon?",
+        "choices": [
+          "A new contract and a refund.",
+          "A recovery plan, a support contact, and service-credit details.",
+          "A report about a new software update."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì cuối đoạn nghe liệt kê recovery plan, direct support contact và details of the service credits."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Khách hàng lớn đang rất giận vì sự cố đã làm gián đoạn hoạt động kinh doanh.",
+      "b": "Quản lý tài khoản của nhà cung cấp dịch vụ, cần xin lỗi và thương lượng phương án khắc phục."
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I am glad you called, because this outage has been a disaster for us.",
+        "vi": "Tôi mừng là cô đã gọi, vì sự cố ngừng dịch vụ này là một thảm họa với chúng tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand. I want to begin by apologizing for the disruption and the pressure it has put on your team.",
+        "vi": "Tôi hiểu. Tôi muốn bắt đầu bằng việc xin lỗi vì sự gián đoạn và áp lực mà nó đã gây ra cho đội ngũ của ông/bà.",
+        "hint": "Mở đầu bằng lời xin lỗi cụ thể: disruption và pressure on your team."
+      },
+      {
+        "speaker": "a",
+        "en": "An apology is a start, but our operations were down for most of the day. We had customers waiting and no answers to give them.",
+        "vi": "Xin lỗi chỉ là bước đầu, nhưng hoạt động của chúng tôi bị ngừng gần như cả ngày. Khách hàng phải chờ và chúng tôi không có câu trả lời cho họ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You are right. We take full responsibility, and we are not making excuses. Our first priority was restoring the service safely.",
+        "vi": "Ông/bà nói đúng. Chúng tôi hoàn toàn chịu trách nhiệm và không biện minh. Ưu tiên đầu tiên của chúng tôi là khôi phục dịch vụ một cách an toàn.",
+        "hint": "Dùng take full responsibility để nhận trách nhiệm, rồi thêm not making excuses."
+      },
+      {
+        "speaker": "a",
+        "en": "Why did it take so long? Your status page said you were investigating, but nobody contacted us directly.",
+        "vi": "Tại sao lại mất lâu như vậy? Trang trạng thái của các cô nói đang điều tra, nhưng không ai liên hệ trực tiếp với chúng tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That communication gap was unacceptable. A failed software update triggered the outage, and our escalation process did not notify key accounts quickly enough.",
+        "vi": "Khoảng trống trong liên lạc đó là không thể chấp nhận được. Một bản cập nhật phần mềm lỗi đã gây ra sự cố, và quy trình chuyển cấp của chúng tôi đã không thông báo cho các tài khoản quan trọng đủ nhanh.",
+        "hint": "Kết hợp câu ngắn đánh giá lỗi với một câu giải thích nguyên nhân gốc rễ."
+      },
+      {
+        "speaker": "a",
+        "en": "So we were left in the dark while our own clients blamed us. Can you guarantee that our data was not exposed?",
+        "vi": "Vậy là chúng tôi bị bỏ trong tình trạng không biết gì, trong khi khách hàng của chúng tôi trách chúng tôi. Cô có thể đảm bảo dữ liệu của chúng tôi không bị lộ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. Our security review found no evidence of a data breach. I will send you the written report today, including the timeline and the corrective actions.",
+        "vi": "Có. Đánh giá bảo mật của chúng tôi không tìm thấy bằng chứng về rò rỉ dữ liệu. Hôm nay tôi sẽ gửi ông/bà báo cáo bằng văn bản, gồm dòng thời gian và các hành động khắc phục.",
+        "hint": "Dùng no evidence of a data breach để trả lời trực tiếp, sau đó đưa ra bằng chứng cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "That is reassuring, but the damage is not just technical. We lost sales, and this was a breach of the service-level agreement.",
+        "vi": "Điều đó phần nào khiến tôi yên tâm, nhưng thiệt hại không chỉ là kỹ thuật. Chúng tôi mất doanh số, và đây là vi phạm thỏa thuận mức chất lượng dịch vụ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree. We will waive this month's fees and provide service credits for the affected period. I would also like to discuss additional compensation based on your documented losses.",
+        "vi": "Tôi đồng ý. Chúng tôi sẽ miễn phí tháng này và cấp tín dụng dịch vụ cho thời gian bị ảnh hưởng. Tôi cũng muốn trao đổi về khoản bồi thường thêm dựa trên các thiệt hại đã được ông/bà ghi nhận.",
+        "hint": "Nêu đề xuất bồi thường rõ ràng: waive the fees, service credits, additional compensation."
+      },
+      {
+        "speaker": "a",
+        "en": "Service credits do not help much if we decide to move to another provider. Frankly, my board is asking whether we should leave.",
+        "vi": "Tín dụng dịch vụ không giúp ích nhiều nếu chúng tôi quyết định chuyển sang nhà cung cấp khác. Thẳng thắn mà nói, hội đồng quản trị của tôi đang hỏi liệu chúng tôi có nên rời đi không.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate your honesty. What would it take for us to rebuild your trust? Beyond compensation, I can offer a dedicated incident contact, monthly resilience reviews, and a tested contingency plan.",
+        "vi": "Tôi trân trọng sự thẳng thắn của ông/bà. Chúng tôi cần làm gì để xây dựng lại niềm tin của ông/bà? Ngoài bồi thường, tôi có thể đề xuất một đầu mối xử lý sự cố riêng, các buổi rà soát khả năng phục hồi hằng tháng và một kế hoạch dự phòng đã được kiểm thử.",
+        "hint": "Hỏi điều kiện của khách trước, rồi đề xuất ba biện pháp cụ thể để khôi phục niềm tin."
+      },
+      {
+        "speaker": "a",
+        "en": "I need a named senior contact, a clear recovery plan, and compensation that reflects the impact. I also need proof that this cannot happen again next month.",
+        "vi": "Tôi cần một đầu mối cấp cao có tên cụ thể, một kế hoạch phục hồi rõ ràng và khoản bồi thường phản ánh được tác động. Tôi cũng cần bằng chứng rằng việc này không thể lặp lại vào tháng sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is reasonable. By tomorrow morning, you will have a recovery plan with milestones, my director as your executive contact, and a proposal for compensation. We cannot promise zero risk, but we can show you the safeguards, testing, and response times we are putting in place.",
+        "vi": "Điều đó hợp lý. Trước sáng mai, ông/bà sẽ có kế hoạch phục hồi với các mốc tiến độ, giám đốc của tôi làm đầu mối điều hành, và đề xuất về bồi thường. Chúng tôi không thể hứa rủi ro bằng không, nhưng có thể cho ông/bà thấy các biện pháp bảo vệ, kiểm thử và thời gian phản hồi mà chúng tôi đang triển khai.",
+        "hint": "Tránh hứa hẹn tuyệt đối. Dùng We cannot promise zero risk, but we can... để vừa trung thực vừa thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. I am still upset, but that is the first concrete plan I have heard today. Send it by tomorrow morning, and I will recommend that we pause any decision to leave.",
+        "vi": "Được. Tôi vẫn rất bức xúc, nhưng đó là kế hoạch cụ thể đầu tiên tôi nghe được hôm nay. Hãy gửi nó trước sáng mai, và tôi sẽ đề nghị tạm dừng mọi quyết định rời đi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you for giving us the chance to make things right. I will personally confirm delivery of the plan tomorrow morning and stay accountable until every action is complete.",
+        "vi": "Cảm ơn ông/bà đã cho chúng tôi cơ hội khắc phục cho thỏa đáng. Tôi sẽ đích thân xác nhận việc gửi kế hoạch vào sáng mai và chịu trách nhiệm cho đến khi mọi hành động hoàn tất.",
+        "hint": "Kết thúc bằng cam kết cá nhân và thời điểm theo dõi rõ ràng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an angry enterprise customer speaking to an account manager after a serious service outage disrupted your business. You are direct, skeptical, and frustrated, but you will listen if the manager takes responsibility, gives clear evidence, and offers a practical recovery plan.",
+    "opener": "Your outage shut down our operations for most of the day. Why should we trust your company again?",
+    "goal": "Người học xin lỗi chuyên nghiệp, xử lý lo ngại về dữ liệu, và thương lượng một kế hoạch khắc phục đủ thuyết phục để khách hàng tạm dừng ý định rời đi."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn bắt đầu bằng việc xin lỗi vì sự gián đoạn.",
+      "en": "I want to begin by apologizing for the disruption.",
+      "alts": [
+        "I would like to begin by apologizing for the disruption."
+      ]
+    },
+    {
+      "vi": "Chúng tôi hoàn toàn chịu trách nhiệm về sự cố ngừng dịch vụ.",
+      "en": "We take full responsibility for the service outage.",
+      "alts": [
+        "We accept full responsibility for the outage."
+      ]
+    },
+    {
+      "vi": "Đánh giá bảo mật không tìm thấy bằng chứng về rò rỉ dữ liệu.",
+      "en": "The security review found no evidence of a data breach.",
+      "alts": [
+        "Our security review found no signs of a data breach."
+      ]
+    },
+    {
+      "vi": "Chúng tôi sẽ miễn phí cho thời gian bị ảnh hưởng.",
+      "en": "We will waive the fees for the affected period.",
+      "alts": [
+        "We will waive all fees for the affected period."
+      ]
+    },
+    {
+      "vi": "Chúng tôi cần làm gì để xây dựng lại niềm tin của ông/bà?",
+      "en": "What would it take for us to rebuild your trust?",
+      "alts": [
+        "What can we do to earn back your trust?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng tôi cung cấp kế hoạch phục hồi rõ ràng, ông/bà có sẵn lòng ở lại không?",
+      "en": "If we provide a clear recovery plan, would you be willing to stay?",
+      "alts": [
+        "Would you be willing to continue with us if we provide a clear recovery plan?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi không thể hứa rủi ro bằng không, nhưng chúng tôi có thể cho ông/bà thấy các biện pháp bảo vệ.",
+      "en": "We cannot promise zero risk, but we can show you the safeguards.",
+      "alts": [
+        "We cannot guarantee zero risk, but we can explain the safeguards we have put in place."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm hai lượt nói của bạn trong hội thoại và tự kiểm tra xem lời xin lỗi có cụ thể hay không.",
+    "Viết một email ngắn cho khách hàng, nêu lời xin lỗi, nguyên nhân gốc rễ và ba hành động khắc phục.",
+    "Đặt ba câu thương lượng với mẫu If we ..., would you be willing to ...?"
+  ]
+}

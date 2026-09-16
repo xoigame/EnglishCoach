@@ -1,0 +1,348 @@
+{
+  "id": "cam-on-xin-loi-lich-su",
+  "title": "Cảm ơn, xin lỗi và phép lịch sự cơ bản",
+  "topic": "Lịch sự trên phố",
+  "level": "A1",
+  "summary": "Bạn nói chuyện với một người lạ vừa va phải mình trên phố. Bạn học cách xin lỗi, cảm ơn và kết thúc cuộc trò chuyện một cách thân thiện.",
+  "goals": [
+    "Xin lỗi và hỏi thăm người khác sau một va chạm nhỏ.",
+    "Cảm ơn và đáp lại lời cảm ơn một cách tự nhiên.",
+    "Dùng Excuse me để gây chú ý lịch sự."
+  ],
+  "vocab": [
+    {
+      "en": "sorry",
+      "ipa": "/ˈsɑːri/",
+      "vi": "xin lỗi",
+      "example": "I am sorry about that."
+    },
+    {
+      "en": "excuse me",
+      "ipa": "/ɪkˈskjuːz miː/",
+      "vi": "xin lỗi, cho tôi xin phép",
+      "example": "Excuse me, your bag is open."
+    },
+    {
+      "en": "thank you",
+      "ipa": "/θæŋk juː/",
+      "vi": "cảm ơn",
+      "example": "Thank you for your help."
+    },
+    {
+      "en": "please",
+      "ipa": "/pliːz/",
+      "vi": "làm ơn",
+      "example": "Please take this bag."
+    },
+    {
+      "en": "you are welcome",
+      "ipa": "/jʊr ˈwelkəm/",
+      "vi": "không có gì",
+      "example": "You are welcome, my friend."
+    },
+    {
+      "en": "no problem",
+      "ipa": "/noʊ ˈprɑːbləm/",
+      "vi": "không sao đâu",
+      "example": "No problem. I am okay."
+    },
+    {
+      "en": "kind",
+      "ipa": "/kaɪnd/",
+      "vi": "tốt bụng",
+      "example": "That is very kind."
+    },
+    {
+      "en": "okay",
+      "ipa": "/oʊˈkeɪ/",
+      "vi": "ổn",
+      "example": "Are you okay now?"
+    },
+    {
+      "en": "hurt",
+      "ipa": "/hɜːrt/",
+      "vi": "bị đau",
+      "example": "Are you hurt at all?"
+    },
+    {
+      "en": "have a nice day",
+      "ipa": "/hæv ə naɪs deɪ/",
+      "vi": "chúc bạn một ngày tốt lành",
+      "example": "Have a nice day, please."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am sorry about that.",
+      "vi": "Tôi xin lỗi về việc đó.",
+      "note": "Dùng sau khi bạn gây ra một bất tiện nhỏ."
+    },
+    {
+      "en": "Are you okay?",
+      "vi": "Bạn có ổn không?",
+      "note": "Dùng để hỏi thăm nhanh sau va chạm hoặc khi ai đó có vẻ không ổn."
+    },
+    {
+      "en": "Thank you very much.",
+      "vi": "Cảm ơn bạn rất nhiều.",
+      "note": "Lịch sự và thân thiện hơn Thank you đơn lẻ."
+    },
+    {
+      "en": "That is very kind.",
+      "vi": "Bạn thật tốt bụng.",
+      "note": "Dùng để cảm ơn một hành động tử tế."
+    },
+    {
+      "en": "Excuse me, your ___ is open.",
+      "vi": "Xin lỗi, ___ của bạn đang mở.",
+      "note": "Dùng Excuse me trước khi báo cho người lạ một việc nhỏ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong thank",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra. Không đọc thành âm t hoặc s.",
+      "words": [
+        "thank",
+        "thanks",
+        "thank you"
+      ]
+    },
+    {
+      "focus": "âm /z/ cuối từ",
+      "tip": "Ở please và excuse, hãy rung cổ họng ở âm cuối. Đừng bỏ mất âm cuối.",
+      "words": [
+        "please",
+        "excuse"
+      ]
+    },
+    {
+      "focus": "trọng âm đầu",
+      "tip": "Nhấn mạnh âm đầu của từ sorry và welcome; âm sau đọc nhẹ hơn.",
+      "words": [
+        "sorry",
+        "welcome"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Thank you very muchs.",
+      "right": "Thank you very much.",
+      "vi": "Much không thêm s."
+    },
+    {
+      "wrong": "Sorry for bump you.",
+      "right": "Sorry for bumping into you.",
+      "vi": "Sau for dùng động từ thêm ing; dùng bump into someone khi va vào ai."
+    },
+    {
+      "wrong": "Excuse, your bag is open.",
+      "right": "Excuse me, your bag is open.",
+      "vi": "Cần có me sau Excuse khi gây chú ý lịch sự."
+    },
+    {
+      "wrong": "Thank you. I am welcome.",
+      "right": "Thank you. You are welcome.",
+      "vi": "Người nói lời cảm ơn nói Thank you; người đáp lại nói You are welcome."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xin lỗi sau khi va phải ai đó",
+      "formal": "I am very sorry. Are you okay?",
+      "casual": "Sorry. You okay?",
+      "vi": "Câu formal dùng với người lạ hoặc trong tình huống lịch sự. Câu casual chỉ hợp với bạn bè thân."
+    },
+    {
+      "situation": "Cảm ơn vì được giúp đỡ",
+      "formal": "Thank you very much for your help.",
+      "casual": "Thanks for your help.",
+      "vi": "Câu formal phù hợp với người lạ, cấp trên hoặc nơi trang trọng. Câu casual phù hợp với bạn bè và đồng nghiệp thân."
+    },
+    {
+      "situation": "Đáp lại lời cảm ơn",
+      "formal": "You are welcome.",
+      "casual": "No problem.",
+      "vi": "You are welcome lịch sự và dùng được với người lạ. No problem thân mật hơn, thường dùng với bạn bè hoặc trong việc nhỏ."
+    },
+    {
+      "situation": "Gây chú ý để nhờ giúp",
+      "formal": "Excuse me, could you help me, please?",
+      "casual": "Hey, can you help me?",
+      "vi": "Câu formal dùng với người lạ. Câu casual dùng với bạn bè; tránh mở đầu bằng Hey khi cần giữ phép lịch sự."
+    }
+  ],
+  "culture": [
+    "Ở Mỹ và Anh, mọi người thường nói sorry ngay cả khi va chạm rất nhẹ hoặc chưa rõ ai có lỗi.",
+    "Excuse me thường dùng trước khi đi qua, gây chú ý hoặc báo một điều cho người lạ; sorry thường dùng sau khi đã gây bất tiện.",
+    "Sau khi ai đó nói No problem hoặc You are welcome, bạn không cần xin lỗi hay cảm ơn lặp lại nhiều lần; một nụ cười và lời chào là đủ."
+  ],
+  "listening": {
+    "title": "Lời nhắc về phép lịch sự trên phố",
+    "passage": "Hello. This is a message about polite words on the street. When you bump into someone, say sorry. Then ask if the person is okay. If the person is fine, they may say no problem. You can smile and say have a nice day. These small words are kind and friendly.",
+    "vi": "Xin chào. Đây là một lời nhắn về những từ lịch sự trên phố. Khi bạn va vào ai đó, hãy nói xin lỗi. Sau đó hãy hỏi xem người đó có ổn không. Nếu người đó ổn, họ có thể nói không sao đâu. Bạn có thể mỉm cười và nói chúc bạn một ngày tốt lành. Những từ nhỏ này thể hiện sự tử tế và thân thiện.",
+    "questions": [
+      {
+        "q": "What should you say after a bump?",
+        "choices": [
+          "Sorry",
+          "Good night",
+          "Please sit"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Sorry vì đoạn nghe nói khi va vào ai đó, hãy nói sorry."
+      },
+      {
+        "q": "What can you ask the person?",
+        "choices": [
+          "Are you okay?",
+          "Where is the bus?",
+          "What is your name?"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Are you okay? vì đoạn nghe nói hãy hỏi xem người đó có ổn không."
+      },
+      {
+        "q": "How are the small words?",
+        "choices": [
+          "Long and hard",
+          "Kind and friendly",
+          "Old and strange"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Kind and friendly vì câu cuối nói những từ này tử tế và thân thiện."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người lạ vừa va phải bạn trên phố",
+      "b": "Bạn đang đi bộ trên phố"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Oh, sorry. Are you okay?",
+        "vi": "Ôi, xin lỗi. Bạn có ổn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am okay. Sorry about that.",
+        "vi": "Vâng, tôi ổn. Xin lỗi về việc đó.",
+        "hint": "Nói xin lỗi sau khi xác nhận bạn vẫn ổn."
+      },
+      {
+        "speaker": "a",
+        "en": "No problem. I am sorry too.",
+        "vi": "Không sao đâu. Tôi cũng xin lỗi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. That is very kind.",
+        "vi": "Cảm ơn bạn. Bạn thật tốt bụng.",
+        "hint": "Dùng That is very kind để cảm ơn sự tử tế."
+      },
+      {
+        "speaker": "a",
+        "en": "You are welcome. Are you hurt?",
+        "vi": "Không có gì. Bạn có bị đau không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No, I am fine. Are you?",
+        "vi": "Không, tôi ổn. Còn bạn thì sao?",
+        "hint": "I am fine là cách ngắn gọn để nói bạn ổn."
+      },
+      {
+        "speaker": "a",
+        "en": "I am fine. Thanks for asking.",
+        "vi": "Tôi ổn. Cảm ơn bạn đã hỏi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Excuse me, your bag is open.",
+        "vi": "Xin lỗi, túi của bạn đang mở.",
+        "hint": "Dùng Excuse me để báo lịch sự cho người lạ."
+      },
+      {
+        "speaker": "a",
+        "en": "Oh, thank you very much.",
+        "vi": "Ôi, cảm ơn bạn rất nhiều.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You are welcome. Have a nice day.",
+        "vi": "Không có gì. Chúc bạn một ngày tốt lành.",
+        "hint": "Dùng câu này để chào kết thúc thân thiện."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly stranger on a busy street. You have just bumped into the learner by accident. You are calm, polite, and helpful. Use short, natural A1 English sentences.",
+    "opener": "Oh, sorry. Are you okay?",
+    "goal": "Người học xin lỗi, cảm ơn, hỏi thăm và kết thúc tình huống lịch sự."
+  },
+  "drills": [
+    {
+      "vi": "Xin lỗi, bạn có ổn không?",
+      "en": "I am sorry. Are you okay?",
+      "alts": [
+        "Sorry. Are you okay?"
+      ]
+    },
+    {
+      "vi": "Không sao đâu.",
+      "en": "No problem.",
+      "alts": [
+        "It is okay."
+      ]
+    },
+    {
+      "vi": "Cảm ơn bạn rất nhiều.",
+      "en": "Thank you very much.",
+      "alts": [
+        "Thanks very much."
+      ]
+    },
+    {
+      "vi": "Không có gì.",
+      "en": "You are welcome.",
+      "alts": [
+        "No problem."
+      ]
+    },
+    {
+      "vi": "Bạn thật tốt bụng.",
+      "en": "That is very kind.",
+      "alts": [
+        "You are very kind."
+      ]
+    },
+    {
+      "vi": "Xin lỗi, túi của bạn đang mở.",
+      "en": "Excuse me, your bag is open.",
+      "alts": [
+        "Excuse me, your bag is not closed."
+      ]
+    },
+    {
+      "vi": "Chúc bạn một ngày tốt lành.",
+      "en": "Have a nice day.",
+      "alts": [
+        "Have a good day."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và nghe lại.",
+    "Đặt ba câu với mẫu Are you okay?",
+    "Luyện nói ba cách đáp lại lời cảm ơn."
+  ]
+}

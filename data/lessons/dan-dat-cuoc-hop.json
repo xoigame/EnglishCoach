@@ -1,0 +1,386 @@
+{
+  "id": "dan-dat-cuoc-hop",
+  "title": "Dẫn dắt cuộc họp và giữ đúng thời lượng",
+  "topic": "Điều phối cuộc họp đúng giờ",
+  "level": "B2",
+  "summary": "Bạn là người điều phối một cuộc họp lập kế hoạch ngắn. Bạn cần lịch sự ngắt lời một thành viên hay nói lan man, đưa nhóm trở lại trọng tâm và kết thúc đúng giờ.",
+  "goals": [
+    "Dẫn dắt cuộc họp bằng agenda và giới hạn thời gian rõ ràng.",
+    "Lịch sự chuyển một chủ đề ngoài lề sang phần thảo luận sau.",
+    "Tóm tắt quyết định, phân công việc và kết thúc cuộc họp đúng giờ."
+  ],
+  "vocab": [
+    {
+      "en": "agenda",
+      "ipa": "/əˈdʒendə/",
+      "vi": "chương trình, nội dung cuộc họp",
+      "example": "Let's start with today's agenda."
+    },
+    {
+      "en": "stay on track",
+      "ipa": "/steɪ ɑn træk/",
+      "vi": "bám sát trọng tâm, không lạc đề",
+      "example": "We need to stay on track if we want to finish on time."
+    },
+    {
+      "en": "timebox",
+      "ipa": "/ˈtaɪmbɑks/",
+      "vi": "ấn định thời lượng cố định cho một việc",
+      "example": "Let's timebox this discussion to five minutes."
+    },
+    {
+      "en": "wrap up",
+      "ipa": "/ræp ʌp/",
+      "vi": "kết thúc, tổng kết",
+      "example": "We need to wrap up in the next few minutes."
+    },
+    {
+      "en": "take something offline",
+      "ipa": "/teɪk ˈsʌmθɪŋ ˈɔflaɪn/",
+      "vi": "để một vấn đề thảo luận riêng sau cuộc họp",
+      "example": "Let's take that question offline and discuss it after the meeting."
+    },
+    {
+      "en": "parking lot",
+      "ipa": "/ˈpɑrkɪŋ lɑt/",
+      "vi": "danh sách các vấn đề ghi lại để xử lý sau",
+      "example": "I will add that idea to the parking lot."
+    },
+    {
+      "en": "action item",
+      "ipa": "/ˈækʃən ˈaɪtəm/",
+      "vi": "đầu việc cần thực hiện sau cuộc họp",
+      "example": "Please make sure every action item has an owner."
+    },
+    {
+      "en": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "vi": "ngắn gọn, súc tích",
+      "example": "Could you keep your update concise?"
+    },
+    {
+      "en": "digress",
+      "ipa": "/daɪˈɡres/",
+      "vi": "đi chệch chủ đề",
+      "example": "We are starting to digress from the main decision."
+    },
+    {
+      "en": "run over",
+      "ipa": "/rʌn ˈoʊvər/",
+      "vi": "kéo dài quá thời gian dự kiến",
+      "example": "I do not want this meeting to run over."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Let's start with ___.",
+      "vi": "Hãy bắt đầu với ___.",
+      "note": "Dùng để mở cuộc họp hoặc chuyển sang mục mới trong agenda."
+    },
+    {
+      "en": "Could you give us the short version?",
+      "vi": "Bạn có thể nói ngắn gọn ý chính được không?",
+      "note": "Cách ngắt lời mềm mại khi ai đó đang nói quá dài."
+    },
+    {
+      "en": "Let's park ___ and come back to it later.",
+      "vi": "Hãy tạm để ___ lại và quay lại sau.",
+      "note": "Dùng để chuyển chủ đề ngoài lề mà không phủ nhận ý kiến của người nói."
+    },
+    {
+      "en": "We have ___ minutes left, so let's ___.",
+      "vi": "Chúng ta còn ___ phút, vì vậy hãy ___.",
+      "note": "Nêu giới hạn thời gian rồi đề xuất hành động cụ thể."
+    },
+    {
+      "en": "Before we wrap up, can we confirm ___?",
+      "vi": "Trước khi kết thúc, chúng ta có thể xác nhận ___ không?",
+      "note": "Dùng để chốt quyết định, người phụ trách hoặc hạn hoàn thành."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong three, thank, thought",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra. Không đọc thành /t/ như tree hoặc tank.",
+      "words": [
+        "three",
+        "thank",
+        "thought"
+      ]
+    },
+    {
+      "focus": "Âm /w/ trong we, will, one",
+      "tip": "Chu môi tròn trước khi bật âm. Tránh đọc thành âm /v/, vì we và very là hai âm đầu khác nhau.",
+      "words": [
+        "we",
+        "will",
+        "one"
+      ]
+    },
+    {
+      "focus": "Nối âm trong keep us on track",
+      "tip": "Nói liền cụm thay vì tách từng từ: keep-us-on-track. Trọng âm chính rơi vào keep và track.",
+      "words": [
+        "keep us",
+        "on track",
+        "wrap up"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We have only left ten minutes.",
+      "right": "We only have ten minutes left.",
+      "vi": "Trong cấu trúc này, dùng have sau chủ ngữ và đặt left ở cuối câu."
+    },
+    {
+      "wrong": "Let's discuss about this later.",
+      "right": "Let's discuss this later.",
+      "vi": "Discuss là ngoại động từ, không dùng thêm about trước tân ngữ."
+    },
+    {
+      "wrong": "Please go to the point.",
+      "right": "Please get to the point.",
+      "vi": "Get to the point là cụm tự nhiên để yêu cầu đi vào ý chính."
+    },
+    {
+      "wrong": "We need finish on time.",
+      "right": "We need to finish on time.",
+      "vi": "Sau need phải dùng to cộng động từ nguyên mẫu."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Kéo người nói trở lại ý chính",
+      "formal": "Could we return to the main point for a moment?",
+      "casual": "Can we get back to the main point?",
+      "vi": "Câu formal phù hợp khi nói với cấp trên, khách hàng hoặc nhóm chưa thân; câu casual tự nhiên hơn với đồng nghiệp quen."
+    },
+    {
+      "situation": "Yêu cầu nói ngắn gọn",
+      "formal": "Could you keep your update brief, please?",
+      "casual": "Can you keep it brief?",
+      "vi": "Câu formal mềm hơn nhờ could và please; câu casual vẫn lịch sự nếu giọng điệu thân thiện."
+    },
+    {
+      "situation": "Hoãn chủ đề ngoài lề",
+      "formal": "I suggest we take that offline and address it separately.",
+      "casual": "Let's park that for later.",
+      "vi": "Câu formal phù hợp trong cuộc họp với khách hàng hoặc quản lý; câu casual thường dùng nội bộ với đồng nghiệp."
+    },
+    {
+      "situation": "Kết thúc cuộc họp",
+      "formal": "Before we conclude, let us confirm the next steps and owners.",
+      "casual": "Before we wrap up, let's confirm who is doing what.",
+      "vi": "Conclude và let us trang trọng hơn; wrap up và who is doing what gần gũi, tự nhiên trong nhóm quen."
+    }
+  ],
+  "culture": [
+    "Trong cuộc họp nói tiếng Anh, người điều phối thường ngắt lời khá trực tiếp nhưng dùng câu đệm lịch sự như I hear you hoặc To keep us on track. Điều này thường được xem là quản lý thời gian, không phải bất lịch sự.",
+    "Cụm take this offline thường không có nghĩa là né tránh vấn đề. Nó cho thấy vấn đề được ghi nhận nhưng không phù hợp để chiếm thời gian của cả nhóm lúc đó.",
+    "Nhiều nhóm kỳ vọng cuộc họp kết thúc bằng action items có người phụ trách rõ ràng. Chỉ nói sẽ xử lý sau thường bị xem là chưa đủ cụ thể."
+  ],
+  "listening": {
+    "title": "Tin nhắn trước cuộc họp sản phẩm",
+    "passage": "Hi everyone, a quick note before tomorrow's product meeting. We have forty minutes, and the aim is to choose a launch date, not solve every open question. I will give each update five minutes. If a topic needs more detail, I will add it to the follow-up list. Please send me any slides by nine in the morning. We will finish with owners and deadlines for the next steps.",
+    "vi": "Chào mọi người, đây là một lưu ý nhanh trước cuộc họp sản phẩm ngày mai. Chúng ta có bốn mươi phút và mục tiêu là chọn ngày ra mắt, chứ không phải giải quyết mọi câu hỏi còn mở. Tôi sẽ dành cho mỗi phần cập nhật năm phút. Nếu một chủ đề cần thêm chi tiết, tôi sẽ đưa nó vào danh sách theo dõi sau. Hãy gửi cho tôi các slide trước chín giờ sáng. Chúng ta sẽ kết thúc bằng người phụ trách và thời hạn cho các bước tiếp theo.",
+    "questions": [
+      {
+        "q": "What is the main aim of the meeting?",
+        "choices": [
+          "To review every open question",
+          "To choose a launch date",
+          "To train the support team"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói rõ mục tiêu là chọn một ngày ra mắt."
+      },
+      {
+        "q": "When should people send their slides?",
+        "choices": [
+          "By nine in the morning",
+          "After the meeting",
+          "By five in the afternoon"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói yêu cầu gửi slide trước chín giờ sáng."
+      },
+      {
+        "q": "What will happen to topics that need more detail?",
+        "choices": [
+          "They will be cancelled",
+          "They will be discussed for five minutes",
+          "They will go on the follow-up list"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì người nói sẽ thêm các chủ đề cần thêm chi tiết vào danh sách theo dõi sau."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Thành viên trong nhóm, nhiệt tình nhưng thường kể lan man và kéo sang các vấn đề liên quan.",
+      "b": "Người điều phối cuộc họp, cần giữ cuộc thảo luận tập trung và đúng giờ."
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Before we start, I have a quick thought about last week's launch. It may take a minute.",
+        "vi": "Trước khi bắt đầu, tôi có một ý nhanh về đợt ra mắt tuần trước. Có thể mất một phút.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. We have thirty minutes, so let's start with today's agenda.",
+        "vi": "Cảm ơn. Chúng ta có ba mươi phút, nên hãy bắt đầu với chương trình hôm nay.",
+        "hint": "Mở đầu bằng thời lượng còn có để đặt kỳ vọng cho cả nhóm."
+      },
+      {
+        "speaker": "a",
+        "en": "Right. The launch feedback was mixed, and that reminded me of a customer call that raised several other concerns.",
+        "vi": "Đúng. Phản hồi về đợt ra mắt khá trái chiều, và điều đó làm tôi nhớ đến một cuộc gọi khách hàng nêu ra vài mối lo khác.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I hear you. Could you give us the one point we need to decide today?",
+        "vi": "Tôi hiểu ý bạn. Bạn có thể cho chúng tôi một điểm cần quyết định hôm nay không?",
+        "hint": "Dùng I hear you để ghi nhận ý kiến trước khi kéo người nói về trọng tâm."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. We need to decide whether to move the release by one week. There are also a few staffing concerns behind it.",
+        "vi": "Được. Chúng ta cần quyết định có dời lịch phát hành một tuần hay không. Đằng sau đó cũng có vài vấn đề về nhân sự.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Let's park the staffing concerns for later and focus on the release date. What do you recommend?",
+        "vi": "Hãy tạm để các vấn đề nhân sự lại sau và tập trung vào ngày phát hành. Bạn đề xuất gì?",
+        "hint": "Dùng Let's park để hoãn một chủ đề mà vẫn tôn trọng người nói."
+      },
+      {
+        "speaker": "a",
+        "en": "I would move it by one week. It gives the team time to fix the payment issue, although I know that affects marketing.",
+        "vi": "Tôi sẽ dời một tuần. Điều đó cho nhóm thời gian sửa lỗi thanh toán, dù tôi biết nó ảnh hưởng đến bộ phận tiếp thị.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds workable. We have ten minutes left. Can you walk us through the two main risks?",
+        "vi": "Nghe có vẻ khả thi. Chúng ta còn mười phút. Bạn có thể trình bày hai rủi ro chính không?",
+        "hint": "Nêu thời gian còn lại rồi giới hạn rõ số ý người kia cần nói."
+      },
+      {
+        "speaker": "a",
+        "en": "First, marketing may need to change the campaign. Second, a delay could frustrate our early customers. Actually, there is a third issue with training.",
+        "vi": "Thứ nhất, bộ phận tiếp thị có thể phải thay đổi chiến dịch. Thứ hai, việc trì hoãn có thể làm các khách hàng đầu tiên thất vọng. Thực ra còn có vấn đề thứ ba về đào tạo.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "To keep us on track, I will capture training as a follow-up. Please cover the two risks in two minutes.",
+        "vi": "Để giữ đúng trọng tâm, tôi sẽ ghi vấn đề đào tạo thành việc cần theo dõi sau. Hãy trình bày hai rủi ro trong hai phút.",
+        "hint": "To keep us on track là lý do lịch sự trước khi ngắt lời và giới hạn thời gian."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair enough. Marketing can update the campaign by Friday, and we can email early customers with a clear reason for the delay.",
+        "vi": "Hợp lý. Bộ phận tiếp thị có thể cập nhật chiến dịch trước thứ Sáu, và chúng ta có thể gửi email giải thích rõ lý do trì hoãn cho khách hàng đầu tiên.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. It sounds as if we agree to move the release by one week. Does anyone see a reason not to?",
+        "vi": "Tốt. Có vẻ như chúng ta đồng ý dời lịch phát hành một tuần. Có ai thấy lý do nào để không làm vậy không?",
+        "hint": "Dùng It sounds as if để tóm tắt một sự đồng thuận nhưng vẫn mở cơ hội phản đối."
+      },
+      {
+        "speaker": "a",
+        "en": "No, I can support that. Before we close, I should mention a possible change to the onboarding flow, because it could affect support next month.",
+        "vi": "Không, tôi ủng hộ việc đó. Trước khi kết thúc, tôi nên đề cập một thay đổi có thể xảy ra ở quy trình hướng dẫn người dùng, vì nó có thể ảnh hưởng đến bộ phận hỗ trợ tháng tới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Is that something we need to decide now, or can it wait for a separate discussion?",
+        "vi": "Đó là điều chúng ta cần quyết định ngay bây giờ, hay có thể chờ một cuộc thảo luận riêng?",
+        "hint": "Câu hỏi lựa chọn giúp kiểm tra mức độ khẩn cấp mà không bác bỏ vấn đề."
+      },
+      {
+        "speaker": "a",
+        "en": "It can wait. I will send a short summary today and propose a time for a follow-up meeting.",
+        "vi": "Việc đó có thể chờ. Tôi sẽ gửi bản tóm tắt ngắn hôm nay và đề xuất thời gian cho một cuộc họp tiếp theo.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. The action items are to update the campaign, draft the customer email, and schedule the follow-up. Thanks, everyone. We are ending on time.",
+        "vi": "Hoàn hảo. Các đầu việc là cập nhật chiến dịch, soạn email cho khách hàng và lên lịch buổi theo dõi. Cảm ơn mọi người. Chúng ta kết thúc đúng giờ.",
+        "hint": "Kết thúc bằng cách nhắc lại đầu việc và xác nhận cuộc họp đã hoàn thành đúng thời lượng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an enthusiastic project team member in a weekly planning meeting. You are friendly and cooperative, but you often speak at length, add related topics, and need the meeting facilitator to redirect you politely.",
+    "opener": "Before we start, I have a quick thought about last week's launch. It may take a minute.",
+    "goal": "Người học điều phối được cuộc họp ngắn, xử lý ý kiến lan man, chốt quyết định và kết thúc đúng giờ."
+  },
+  "drills": [
+    {
+      "vi": "Hãy bắt đầu với chương trình hôm nay.",
+      "en": "Let's start with today's agenda.",
+      "alts": [
+        "Let's begin with today's agenda."
+      ]
+    },
+    {
+      "vi": "Bạn có thể nói phiên bản ngắn gọn không?",
+      "en": "Could you give us the short version?",
+      "alts": [
+        "Could you keep it concise?"
+      ]
+    },
+    {
+      "vi": "Hãy tạm để vấn đề này lại và quay lại sau.",
+      "en": "Let's park this issue and come back to it later.",
+      "alts": [
+        "Let's take this offline and discuss it later."
+      ]
+    },
+    {
+      "vi": "Chúng ta còn năm phút, vì vậy hãy chốt quyết định.",
+      "en": "We have five minutes left, so let's confirm the decision.",
+      "alts": [
+        "We only have five minutes left, so let's wrap this up."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ ghi ý đó thành việc cần theo dõi sau.",
+      "en": "I will capture that as a follow-up.",
+      "alts": [
+        "I will add that to the parking lot."
+      ]
+    },
+    {
+      "vi": "Trước khi kết thúc, chúng ta có thể xác nhận người phụ trách không?",
+      "en": "Before we wrap up, can we confirm the owners?",
+      "alts": [
+        "Before we close, can we confirm who owns each action item?"
+      ]
+    },
+    {
+      "vi": "Tôi không muốn cuộc họp này kéo dài quá giờ.",
+      "en": "I do not want this meeting to run over.",
+      "alts": [
+        "Let's make sure we finish on time."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại các câu dùng để lịch sự ngắt lời và tự nghe lại nhịp nói của mình.",
+    "Soạn một agenda gồm ba mục cho cuộc họp mười lăm phút bằng tiếng Anh.",
+    "Viết ba câu dùng các cụm park, follow-up và action item."
+  ]
+}

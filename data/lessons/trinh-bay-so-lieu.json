@@ -1,0 +1,386 @@
+{
+  "id": "trinh-bay-so-lieu",
+  "title": "Trình bày số liệu và biểu đồ thuyết phục",
+  "topic": "Thuyết trình số liệu kinh doanh",
+  "level": "B2",
+  "summary": "Bạn trình bày biểu đồ doanh số quý hai trước Giám đốc kinh doanh. Bạn cần giải thích xu hướng, xử lý điểm yếu trong số liệu và đề xuất bước tiếp theo.",
+  "goals": [
+    "Mô tả xu hướng và so sánh số liệu một cách tự nhiên.",
+    "Giải thích nguyên nhân đằng sau biểu đồ thay vì chỉ đọc số.",
+    "Đưa ra dự báo thận trọng và đề xuất hành động kinh doanh."
+  ],
+  "vocab": [
+    {
+      "en": "upward trend",
+      "ipa": "/ˈʌpwərd trend/",
+      "vi": "xu hướng tăng",
+      "example": "The chart shows a clear upward trend in revenue."
+    },
+    {
+      "en": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "vi": "sự giảm sút",
+      "example": "We saw a slight decline in repeat purchases."
+    },
+    {
+      "en": "peak",
+      "ipa": "/piːk/",
+      "vi": "mức cao nhất, đạt đỉnh",
+      "example": "Sales reached their peak in June."
+    },
+    {
+      "en": "figure",
+      "ipa": "/ˈfɪɡjər/",
+      "vi": "con số, số liệu",
+      "example": "Let me walk you through the key figures."
+    },
+    {
+      "en": "account for",
+      "ipa": "/əˈkaʊnt fər/",
+      "vi": "chiếm, giải thích nguyên nhân cho",
+      "example": "Enterprise orders accounted for most of the growth."
+    },
+    {
+      "en": "dip",
+      "ipa": "/dɪp/",
+      "vi": "sự giảm nhẹ, giảm tạm thời",
+      "example": "There was a small dip in May."
+    },
+    {
+      "en": "rebound",
+      "ipa": "/rɪˈbaʊnd/",
+      "vi": "phục hồi trở lại",
+      "example": "Demand began to rebound in the final week of the quarter."
+    },
+    {
+      "en": "projection",
+      "ipa": "/prəˈdʒekʃən/",
+      "vi": "dự báo",
+      "example": "Our projection is based on current order volume."
+    },
+    {
+      "en": "cautious",
+      "ipa": "/ˈkɔːʃəs/",
+      "vi": "thận trọng",
+      "example": "I would be cautious about making a firm promise."
+    },
+    {
+      "en": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "vi": "ý chính cần rút ra",
+      "example": "The main takeaway is that growth is becoming more stable."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The chart shows that ___, while ___.",
+      "vi": "Biểu đồ cho thấy ___, trong khi ___.",
+      "note": "Dùng để so sánh hai xu hướng hoặc hai nhóm số liệu."
+    },
+    {
+      "en": "What stands out is that ___.",
+      "vi": "Điểm nổi bật là ___.",
+      "note": "Dùng để hướng sự chú ý của người nghe vào phát hiện quan trọng."
+    },
+    {
+      "en": "This was mainly driven by ___.",
+      "vi": "Điều này chủ yếu được thúc đẩy bởi ___.",
+      "note": "Dùng khi giải thích nguyên nhân của biến động."
+    },
+    {
+      "en": "To put it in perspective, ___.",
+      "vi": "Để đặt điều này vào bối cảnh, ___.",
+      "note": "Dùng để so sánh với giai đoạn trước hoặc giúp con số dễ hiểu hơn."
+    },
+    {
+      "en": "Assuming ___ continues, we expect ___.",
+      "vi": "Nếu ___ tiếp tục, chúng tôi dự kiến ___.",
+      "note": "Dùng để đưa ra dự báo có điều kiện, tránh khẳng định quá chắc chắn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong tháng và tăng trưởng",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai răng và thổi hơi; không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "three",
+        "thousand",
+        "growth"
+      ]
+    },
+    {
+      "focus": "trọng âm của từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết để người nghe dễ nhận ra từ chuyên môn.",
+      "words": [
+        "projection",
+        "decline",
+        "account for"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm số liệu",
+      "tip": "Nối nhẹ các từ trong cụm để câu trôi chảy, ví dụ 'rose from' và 'in April'.",
+      "words": [
+        "rose from",
+        "went up",
+        "in April"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The sales increased fifteen percent.",
+      "right": "Sales increased by fifteen percent.",
+      "vi": "Khi nói mức tăng theo phần trăm, dùng increased by fifteen percent."
+    },
+    {
+      "wrong": "The revenue was increased from two million to three million.",
+      "right": "Revenue increased from two million to three million.",
+      "vi": "Revenue tự tăng, nên thường dùng chủ động increased, không dùng was increased."
+    },
+    {
+      "wrong": "There have a dip in May.",
+      "right": "There was a dip in May.",
+      "vi": "Dùng there was để nói có một sự giảm nhẹ trong quá khứ."
+    },
+    {
+      "wrong": "Compared with last quarter, it is more higher.",
+      "right": "Compared with last quarter, it is higher.",
+      "vi": "Không dùng more với tính từ so sánh hơn như higher."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mời người nghe xem biểu đồ",
+      "formal": "Let me walk you through the key figures on this chart.",
+      "casual": "Let me show you the main numbers here.",
+      "vi": "Câu formal phù hợp với cuộc họp có cấp trên hoặc khách hàng; câu casual dùng trong buổi trao đổi nội bộ thân mật."
+    },
+    {
+      "situation": "Nêu một điểm đáng chú ý",
+      "formal": "What stands out is the sharp increase in enterprise orders.",
+      "casual": "The big thing here is that enterprise orders jumped.",
+      "vi": "Câu formal phù hợp khi thuyết trình chính thức; câu casual tự nhiên hơn khi trao đổi với đồng nghiệp."
+    },
+    {
+      "situation": "Nói về dự báo chưa chắc chắn",
+      "formal": "Our current projection is subject to the contracts being signed.",
+      "casual": "Our forecast depends on those contracts coming through.",
+      "vi": "Câu formal cẩn trọng, phù hợp với báo cáo; câu casual dùng trong cuộc họp nhóm và nghe trực tiếp hơn."
+    },
+    {
+      "situation": "Không đồng ý với mục tiêu quá cao",
+      "formal": "I would advise against raising the official target at this stage.",
+      "casual": "I would not raise the target just yet.",
+      "vi": "Câu formal mềm nhưng rõ khi nói với cấp trên; câu casual phù hợp với đồng nghiệp ngang cấp."
+    }
+  ],
+  "culture": [
+    "Trong các cuộc họp kinh doanh bằng tiếng Anh, người nghe thường muốn biết ý nghĩa của số liệu và hành động tiếp theo, không chỉ nghe đọc từng con số trên biểu đồ.",
+    "Nêu thẳng một điểm xấu như sự giảm doanh số thường tạo độ tin cậy, miễn là bạn giải thích ngắn gọn nguyên nhân và kế hoạch xử lý.",
+    "Khi không chắc chắn, người bản xứ thường dùng các cụm thận trọng như likely, around, assuming hoặc based on current data thay vì khẳng định tuyệt đối."
+  ],
+  "listening": {
+    "title": "Cập nhật trước buổi họp doanh số",
+    "passage": "Hi team, a quick update before this afternoon's review. The new sales chart is ready. It shows that revenue rose by fifteen percent from April to June, mostly because existing customers renewed earlier than expected. There was a small drop in new leads last month, so please do not describe the results as perfect. Focus on the steady revenue growth, the reason behind it, and the follow-up plan for new leads.",
+    "vi": "Chào cả đội, cập nhật nhanh trước buổi đánh giá chiều nay. Biểu đồ doanh số mới đã sẵn sàng. Nó cho thấy doanh thu tăng 15 phần trăm từ tháng Tư đến tháng Sáu, chủ yếu vì khách hàng hiện tại gia hạn sớm hơn dự kiến. Có sự giảm nhẹ về khách hàng tiềm năng mới vào tháng trước, vì vậy đừng mô tả kết quả là hoàn hảo. Hãy tập trung vào tăng trưởng doanh thu ổn định, lý do đằng sau nó và kế hoạch theo dõi khách hàng tiềm năng mới.",
+    "questions": [
+      {
+        "q": "How much did revenue rise from April to June?",
+        "choices": [
+          "Ten percent",
+          "Fifteen percent",
+          "Twenty percent"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Fifteen percent vì bài nghe nói revenue rose by fifteen percent from April to June."
+      },
+      {
+        "q": "What mainly caused the revenue growth?",
+        "choices": [
+          "Earlier customer renewals",
+          "A new advertising campaign",
+          "Higher prices"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Earlier customer renewals vì bài nghe nói existing customers renewed earlier than expected."
+      },
+      {
+        "q": "What should the team avoid saying?",
+        "choices": [
+          "That revenue grew steadily",
+          "That the results were perfect",
+          "That new leads dropped slightly"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là That the results were perfect vì người nói dặn rõ do có sự giảm nhẹ về khách hàng tiềm năng mới."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Giám đốc kinh doanh",
+      "b": "Chuyên viên phân tích đang trình bày"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Before the meeting starts, are you ready to walk us through the second-quarter results?",
+        "vi": "Chào buổi sáng. Trước khi cuộc họp bắt đầu, bạn đã sẵn sàng trình bày kết quả quý hai chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. The main story is encouraging: revenue rose from two point four million to two point nine million during the quarter.",
+        "vi": "Rồi ạ. Điểm chính khá tích cực: doanh thu tăng từ 2,4 triệu lên 2,9 triệu trong quý.",
+        "hint": "Mở đầu bằng The main story is để nêu thông điệp chính."
+      },
+      {
+        "speaker": "a",
+        "en": "Good start. But the chart alone does not tell the whole story. What is driving that increase?",
+        "vi": "Khởi đầu tốt. Nhưng chỉ biểu đồ thôi chưa nói lên toàn bộ câu chuyện. Điều gì đang thúc đẩy mức tăng đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Growth was mainly driven by enterprise orders, which accounted for most of the gain. Smaller customers continued buying, but at a slower pace.",
+        "vi": "Tăng trưởng chủ yếu được thúc đẩy bởi các đơn hàng doanh nghiệp lớn, chiếm phần lớn mức tăng. Khách hàng nhỏ vẫn mua, nhưng với tốc độ chậm hơn.",
+        "hint": "Dùng was mainly driven by để giải thích nguyên nhân."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds positive. Still, I notice a dip in May. Should we be worried about it?",
+        "vi": "Nghe tích cực đấy. Tuy nhiên, tôi thấy có sự giảm nhẹ vào tháng Năm. Chúng ta có nên lo không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is worth watching, but I would not overreact. Several customers delayed renewals while they reviewed their budgets, and demand rebounded in June.",
+        "vi": "Điều đó đáng theo dõi, nhưng tôi sẽ không phản ứng quá mức. Một số khách hàng trì hoãn gia hạn trong lúc xem xét ngân sách, và nhu cầu đã phục hồi vào tháng Sáu.",
+        "hint": "Worth watching là cách nói tự nhiên: đáng theo dõi."
+      },
+      {
+        "speaker": "a",
+        "en": "If someone asks whether one strong month is hiding a weak quarter, how would you answer?",
+        "vi": "Nếu ai đó hỏi liệu một tháng tăng mạnh có đang che giấu một quý yếu không, bạn sẽ trả lời thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "To put it in perspective, June was not the only positive month. April also exceeded plan, so the overall upward trend is broader than a single spike.",
+        "vi": "Để đặt điều này vào bối cảnh, tháng Sáu không phải tháng tích cực duy nhất. Tháng Tư cũng vượt kế hoạch, nên xu hướng tăng chung rộng hơn một đợt tăng vọt đơn lẻ.",
+        "hint": "Dùng To put it in perspective để phản biện bằng bối cảnh rộng hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "That is clearer. Do not hide the May dip, though. People trust a presentation more when it addresses the uncomfortable figures directly.",
+        "vi": "Như vậy rõ hơn. Tuy nhiên, đừng che giấu mức giảm tháng Năm. Mọi người tin bài trình bày hơn khi nó trực tiếp đề cập đến những số liệu khó chịu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree. I will show the monthly bar chart beside the trend line, then explain the dip before moving to the recovery.",
+        "vi": "Tôi đồng ý. Tôi sẽ hiển thị biểu đồ cột theo tháng cạnh đường xu hướng, rồi giải thích sự giảm nhẹ trước khi chuyển sang phần phục hồi.",
+        "hint": "Dùng beside để nói hai biểu đồ được đặt cạnh nhau."
+      },
+      {
+        "speaker": "a",
+        "en": "Sensible. Now let us talk about the next quarter. What does your projection look like?",
+        "vi": "Hợp lý. Bây giờ hãy nói về quý tiếp theo. Dự báo của bạn thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Assuming the current pipeline continues, we expect revenue to grow by around eight percent. That is a cautious projection because two large contracts have not been signed yet.",
+        "vi": "Nếu nguồn khách hàng tiềm năng hiện tại tiếp tục, chúng tôi dự kiến doanh thu sẽ tăng khoảng 8 phần trăm. Đây là dự báo thận trọng vì hai hợp đồng lớn vẫn chưa được ký.",
+        "hint": "Dùng Assuming để nêu điều kiện cho dự báo."
+      },
+      {
+        "speaker": "a",
+        "en": "Could we present a higher target to motivate the team, or would that undermine our credibility?",
+        "vi": "Chúng ta có thể đưa ra mục tiêu cao hơn để tạo động lực cho đội ngũ không, hay điều đó sẽ làm giảm độ tin cậy?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would keep the official forecast at eight percent and present ten percent as a stretch goal. That gives the team something ambitious to aim for without overstating the evidence.",
+        "vi": "Tôi sẽ giữ dự báo chính thức ở mức 8 phần trăm và đưa 10 phần trăm như một mục tiêu thử thách. Cách đó cho đội ngũ một điều đầy tham vọng để hướng tới mà không phóng đại bằng chứng.",
+        "hint": "Keep the official forecast at là cách nói rõ ràng khi thương lượng mục tiêu."
+      },
+      {
+        "speaker": "a",
+        "en": "That works for me. End with the takeaway and the actions we need from the sales teams.",
+        "vi": "Tôi đồng ý. Hãy kết thúc bằng ý chính và những hành động chúng ta cần từ các đội kinh doanh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The takeaway is that growth is solid, but it depends heavily on enterprise renewals. I will recommend earlier follow-ups with key accounts and weekly checks on the two pending contracts. Thanks, I will revise the slides before the meeting.",
+        "vi": "Ý chính là tăng trưởng vững, nhưng phụ thuộc nhiều vào việc gia hạn của khách hàng doanh nghiệp. Tôi sẽ đề xuất theo dõi sớm hơn với các khách hàng chủ chốt và kiểm tra hằng tuần hai hợp đồng đang chờ. Cảm ơn, tôi sẽ chỉnh sửa slide trước cuộc họp.",
+        "hint": "Kết thúc bằng takeaway, sau đó nêu hành động cụ thể."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a business director in a quarterly sales review meeting at a growing software company. You are direct but supportive, and you ask practical questions about charts, evidence, forecasts, and next steps.",
+    "opener": "Good morning. Show me the key message from your sales chart first.",
+    "goal": "Người học trình bày xu hướng doanh số, giải thích một điểm giảm, bảo vệ dự báo và thống nhất hành động tiếp theo."
+  },
+  "drills": [
+    {
+      "vi": "Biểu đồ cho thấy doanh thu tăng đều trong quý này.",
+      "en": "The chart shows that revenue increased steadily this quarter.",
+      "alts": [
+        "Revenue rose steadily during the quarter."
+      ]
+    },
+    {
+      "vi": "Điểm nổi bật là đơn hàng doanh nghiệp tăng mạnh.",
+      "en": "What stands out is that enterprise orders increased sharply.",
+      "alts": [
+        "The most striking figure is the growth in enterprise orders."
+      ]
+    },
+    {
+      "vi": "Mức tăng này chủ yếu được thúc đẩy bởi khách hàng quay lại mua.",
+      "en": "This increase was mainly driven by returning customers.",
+      "alts": [
+        "Returning customers accounted for most of this increase."
+      ]
+    },
+    {
+      "vi": "Có một sự giảm nhẹ vào tháng Năm, nhưng doanh số đã phục hồi vào tháng Sáu.",
+      "en": "There was a small dip in May, but sales rebounded in June.",
+      "alts": [
+        "Sales dipped slightly in May and recovered in June."
+      ]
+    },
+    {
+      "vi": "Để đặt điều này vào bối cảnh, kết quả vẫn tốt hơn quý trước.",
+      "en": "To put it in perspective, the result is still better than last quarter.",
+      "alts": [
+        "Compared with last quarter, the overall result is stronger."
+      ]
+    },
+    {
+      "vi": "Nếu xu hướng hiện tại tiếp tục, chúng tôi dự kiến tăng trưởng khoảng 8 phần trăm.",
+      "en": "Assuming the current trend continues, we expect growth of around eight percent.",
+      "alts": [
+        "If the current trend continues, we expect to grow by around eight percent."
+      ]
+    },
+    {
+      "vi": "Tôi khuyên nên giữ dự báo chính thức ở mức thận trọng.",
+      "en": "I recommend keeping the official forecast cautious.",
+      "alts": [
+        "My recommendation is to keep a cautious official forecast."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trình bày một phút về một biểu đồ bất kỳ, dùng ít nhất ba mẫu câu trong bài.",
+    "Viết năm câu mô tả xu hướng tăng, giảm, đạt đỉnh và phục hồi.",
+    "Luyện trả lời câu hỏi: What is driving that increase? bằng hai lý do cụ thể."
+  ]
+}

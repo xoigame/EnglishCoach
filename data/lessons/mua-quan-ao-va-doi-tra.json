@@ -3,24 +3,48 @@
   "title": "Mua quần áo, thử đồ và đổi trả hàng",
   "topic": "Mua sắm quần áo",
   "level": "A2",
-  "summary": "Bạn đổi một chiếc quần jeans mua hôm qua vì bị chật, thử cỡ mới và mua thêm áo phông. Bạn luyện cách hỏi cỡ, phòng thử đồ và thanh toán.",
+  "summary": "Bạn đổi một chiếc quần jeans không vừa, thử cỡ khác và mua thêm áo len. Bài học luyện hỏi phòng thử đồ, cỡ quần áo và dùng tiền hoàn lại.",
   "goals": [
-    "Nói được quần áo bị chật hoặc vừa.",
-    "Hỏi đổi hàng sang cỡ khác.",
-    "Hỏi phòng thử đồ và thanh toán bằng thẻ."
+    "Hỏi thử quần áo và tìm cỡ phù hợp",
+    "Yêu cầu đổi hoặc trả hàng kèm hóa đơn",
+    "Hiểu và nói về tiền hoàn lại khi mua đồ khác"
   ],
   "vocab": [
     {
       "en": "receipt",
       "ipa": "/rɪˈsiːt/",
       "vi": "hóa đơn",
-      "example": "Do you have the receipt with you?"
+      "example": "Do you have the receipt?"
+    },
+    {
+      "en": "fitting room",
+      "ipa": "/ˈfɪtɪŋ ruːm/",
+      "vi": "phòng thử đồ",
+      "example": "The fitting rooms are behind you."
+    },
+    {
+      "en": "try on",
+      "ipa": "/traɪ ɑːn/",
+      "vi": "thử mặc",
+      "example": "May I try on this sweater?"
+    },
+    {
+      "en": "fit",
+      "ipa": "/fɪt/",
+      "vi": "vừa, hợp cỡ",
+      "example": "These jeans fit well."
+    },
+    {
+      "en": "size",
+      "ipa": "/saɪz/",
+      "vi": "cỡ, kích cỡ",
+      "example": "Do you have this in a smaller size?"
     },
     {
       "en": "exchange",
       "ipa": "/ɪksˈtʃeɪndʒ/",
       "vi": "đổi hàng",
-      "example": "Could I exchange these jeans for a large?"
+      "example": "Can I exchange these jeans?"
     },
     {
       "en": "return",
@@ -29,269 +53,309 @@
       "example": "I would like to return this shirt."
     },
     {
-      "en": "try on",
-      "ipa": "/traɪ ɑːn/",
-      "vi": "thử đồ",
-      "example": "Please try them on before you buy them."
+      "en": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "vi": "tiền hoàn lại",
+      "example": "Can I get a refund?"
     },
     {
-      "en": "changing room",
-      "ipa": "/ˈtʃeɪndʒɪŋ ruːm/",
-      "vi": "phòng thử đồ",
-      "example": "The changing rooms are at the back."
+      "en": "sweater",
+      "ipa": "/ˈswetər/",
+      "vi": "áo len",
+      "example": "I like this blue sweater."
     },
     {
-      "en": "size",
-      "ipa": "/saɪz/",
-      "vi": "cỡ, kích cỡ",
-      "example": "Do you have this in a larger size?"
-    },
-    {
-      "en": "tight",
-      "ipa": "/taɪt/",
-      "vi": "chật",
-      "example": "These jeans are too tight."
-    },
-    {
-      "en": "loose",
-      "ipa": "/luːs/",
-      "vi": "rộng, lỏng",
-      "example": "This jacket is too loose for me."
-    },
-    {
-      "en": "jeans",
-      "ipa": "/dʒiːnz/",
-      "vi": "quần jeans",
-      "example": "I bought these jeans yesterday."
-    },
-    {
-      "en": "pay by card",
-      "ipa": "/peɪ baɪ kɑːrd/",
-      "vi": "thanh toán bằng thẻ",
-      "example": "Can I pay by card?"
+      "en": "cashier",
+      "ipa": "/kæˈʃɪr/",
+      "vi": "thu ngân",
+      "example": "Please take your receipt to the cashier."
     }
   ],
   "patterns": [
     {
-      "en": "Could I exchange ___ for ___?",
-      "vi": "Tôi có thể đổi ___ sang ___ không?",
-      "note": "Dùng để hỏi đổi món hàng sang cỡ hoặc màu khác."
+      "en": "May I try on this ___?",
+      "vi": "Tôi có thể thử ___ này không?",
+      "note": "Dùng lịch sự khi xin thử quần áo."
     },
     {
-      "en": "Do you have this in a larger size?",
-      "vi": "Bạn có món này cỡ lớn hơn không?",
-      "note": "Có thể thay larger bằng smaller."
+      "en": "Do you have this in a ___ size?",
+      "vi": "Bạn có món này cỡ ___ không?",
+      "note": "Điền smaller, larger, medium hoặc số cỡ."
     },
     {
-      "en": "Where are the changing rooms?",
-      "vi": "Phòng thử đồ ở đâu?",
-      "note": "Dùng số nhiều là cách nói tự nhiên trong cửa hàng."
+      "en": "I would like to exchange this for ___.",
+      "vi": "Tôi muốn đổi món này lấy ___.",
+      "note": "Dùng khi muốn đổi sang cỡ, màu hoặc món khác."
     },
     {
-      "en": "I would like to try ___ on.",
-      "vi": "Tôi muốn thử ___.",
-      "note": "Với quần áo, dùng try on thay vì chỉ dùng try."
+      "en": "These ___ are too ___.",
+      "vi": "Những chiếc ___ này quá ___.",
+      "note": "Dùng số nhiều với jeans, shoes, pants; ví dụ too long hoặc too small."
     },
     {
-      "en": "Can I pay by card?",
-      "vi": "Tôi có thể thanh toán bằng thẻ không?",
-      "note": "Cách hỏi ngắn gọn, thông dụng khi thanh toán."
+      "en": "Can I use the refund for ___?",
+      "vi": "Tôi có thể dùng tiền hoàn lại để mua ___ không?",
+      "note": "Dùng khi trả hàng rồi mua món khác."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm câm trong receipt",
-      "tip": "Chữ p không đọc. Nhấn trọng âm ở âm tiết thứ hai: ri SEET.",
+      "focus": "âm câm /t/ trong receipt",
+      "tip": "Không đọc âm t ở đầu như re-ceipt. Nhấn trọng âm ở âm tiết hai.",
       "words": [
-        "receipt"
+        "receipt",
+        "return"
       ]
     },
     {
-      "focus": "âm cuối trong clothes",
-      "tip": "Đọc gần như klohdz, không đọc thành close. Chú ý âm z ở cuối.",
+      "focus": "phân biệt /f/ và /v/",
+      "tip": "Âm /f/ chỉ thổi hơi, còn /v/ có rung cổ họng. Tránh đọc fit thành vit.",
       "words": [
-        "clothes",
-        "these",
-        "jeans"
+        "fit",
+        "refund",
+        "five"
       ]
     },
     {
-      "focus": "âm /tʃ/ trong exchange và changing",
-      "tip": "Bắt đầu bằng âm ch ngắn, rồi nối ngay với phần còn lại của từ.",
+      "focus": "phụ âm cuối /z/",
+      "tip": "Phát âm rõ âm /z/ ở cuối, không bỏ mất âm này.",
       "words": [
-        "exchange",
-        "changing",
-        "cheap"
+        "jeans",
+        "size",
+        "rooms"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I want change this jeans.",
-      "right": "I want to exchange these jeans.",
-      "vi": "Sau want cần to. Jeans là danh từ số nhiều nên dùng these."
+      "wrong": "I want change these jeans.",
+      "right": "I would like to exchange these jeans.",
+      "vi": "Sau want cần có to, nhưng I would like lịch sự và tự nhiên hơn khi nói với nhân viên."
     },
     {
-      "wrong": "This jeans is too small.",
-      "right": "These jeans are too small.",
-      "vi": "Jeans luôn đi với these và are."
+      "wrong": "Where is fitting room?",
+      "right": "Where is the fitting room?",
+      "vi": "Cần dùng the khi hỏi về phòng thử đồ cụ thể trong cửa hàng."
     },
     {
-      "wrong": "Where is changing room?",
-      "right": "Where are the changing rooms?",
-      "vi": "Cần mạo từ hoặc dùng cách nói số nhiều tự nhiên hơn."
+      "wrong": "These jeans is too long.",
+      "right": "These jeans are too long.",
+      "vi": "Jeans luôn dùng như danh từ số nhiều nên đi với are."
     },
     {
-      "wrong": "Can I try it?",
-      "right": "Can I try it on?",
-      "vi": "Khi thử quần áo, dùng cụm try on."
-    },
-    {
-      "wrong": "I want return it.",
-      "right": "I want to return it.",
-      "vi": "Sau want phải có to."
+      "wrong": "Can I try this on it?",
+      "right": "Can I try this on?",
+      "vi": "Không dùng đồng thời this và it để chỉ cùng một món đồ."
     }
   ],
+  "variations": [
+    {
+      "situation": "Xin thử quần áo",
+      "formal": "May I try on this jacket, please?",
+      "casual": "Can I try this jacket on?",
+      "vi": "Câu formal phù hợp khi nói với nhân viên ở cửa hàng; câu casual dùng được khi nói thân mật hơn."
+    },
+    {
+      "situation": "Hỏi về đổi hàng",
+      "formal": "Could I exchange this item for another size, please?",
+      "casual": "Can I get this in a different size?",
+      "vi": "Câu formal nêu rõ yêu cầu đổi hàng; câu casual tự nhiên khi đang nói nhanh với nhân viên."
+    },
+    {
+      "situation": "Nói món đồ không vừa",
+      "formal": "This shirt does not fit me very well.",
+      "casual": "This shirt does not fit right.",
+      "vi": "Câu formal lịch sự và rõ ràng; câu casual thân mật, thường dùng trong trò chuyện hằng ngày."
+    },
+    {
+      "situation": "Từ chối sự giúp đỡ",
+      "formal": "Thank you, but I am just looking.",
+      "casual": "No thanks, I am just looking.",
+      "vi": "Câu formal nhẹ nhàng hơn với nhân viên hoặc ở nơi trang trọng; câu casual dùng trong cửa hàng bình thường."
+    }
+  ],
+  "culture": [
+    "Ở nhiều cửa hàng ở Mỹ và Anh, nhân viên thường chủ động hỏi bạn có cần giúp không. Bạn có thể trả lời lịch sự rằng mình chỉ đang xem đồ.",
+    "Khách thường mang hóa đơn và giữ nguyên nhãn mác khi muốn trả hàng. Chính sách đổi trả có thể khác nhau giữa các cửa hàng.",
+    "Nhân viên thường nói thẳng nếu một cỡ có vẻ không phù hợp và sẵn sàng gợi ý cỡ khác. Điều này thường là để hỗ trợ, không phải chê ngoại hình của khách."
+  ],
+  "listening": {
+    "title": "Thông báo về đổi trả hàng",
+    "passage": "Hello shoppers. You can try on up to five items in our fitting rooms. Please keep the tags on clothes you may want to return. Bring your receipt to the cashier within thirty days for a refund or exchange. Sale items can be exchanged, but they cannot be refunded. Ask any store assistant if you need another size or color.",
+    "vi": "Xin chào quý khách. Bạn có thể thử tối đa năm món đồ trong phòng thử đồ của chúng tôi. Hãy giữ nguyên nhãn mác trên quần áo mà bạn có thể muốn trả lại. Mang hóa đơn đến thu ngân trong vòng ba mươi ngày để nhận tiền hoàn lại hoặc đổi hàng. Đồ giảm giá có thể được đổi, nhưng không được hoàn tiền. Hãy hỏi bất kỳ nhân viên nào nếu bạn cần cỡ hoặc màu khác.",
+    "questions": [
+      {
+        "q": "What should customers bring for a refund or exchange?",
+        "choices": [
+          "A store bag",
+          "A receipt",
+          "A credit card"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là A receipt, vì đoạn nghe nói: Bring your receipt to the cashier."
+      },
+      {
+        "q": "How long do customers have to return clothes?",
+        "choices": [
+          "Seven days",
+          "Fourteen days",
+          "Thirty days"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là Thirty days, vì đoạn nghe có cụm within thirty days."
+      },
+      {
+        "q": "Which items cannot be refunded?",
+        "choices": [
+          "Sale items",
+          "Blue items",
+          "Small items"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Sale items, vì đoạn nghe nói sale items cannot be refunded."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Nhân viên cửa hàng thời trang",
-      "b": "Khách hàng"
+      "b": "Khách hàng, tức người học"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Hello. How can I help you today?",
-        "vi": "Chào bạn. Hôm nay tôi có thể giúp gì?",
+        "en": "Hello. What can I help you find today?",
+        "vi": "Xin chào. Hôm nay tôi có thể giúp bạn tìm gì?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Hi. I bought these jeans yesterday, but they are too tight.",
-        "vi": "Chào bạn. Tôi mua chiếc quần jeans này hôm qua, nhưng chúng quá chật.",
-        "hint": "Dùng these jeans và are vì jeans là danh từ số nhiều."
+        "en": "Hi. I bought these jeans yesterday, but they are too long.",
+        "vi": "Chào. Tôi đã mua chiếc quần jeans này hôm qua, nhưng chúng quá dài.",
+        "hint": "Dùng bought để nói việc đã mua hôm qua, và jeans đi với are."
       },
       {
         "speaker": "a",
-        "en": "No problem. Do you have the receipt with you?",
-        "vi": "Không vấn đề gì. Bạn có mang theo hóa đơn không?",
+        "en": "I can help with that. Do you have the receipt?",
+        "vi": "Tôi có thể giúp việc đó. Bạn có hóa đơn không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, here it is. Could I exchange them for a large?",
-        "vi": "Có, đây ạ. Tôi có thể đổi chúng sang cỡ lớn không?",
-        "hint": "Dùng exchange them for a large để nói đổi sang cỡ L."
+        "en": "Yes, here it is. Can I exchange them?",
+        "vi": "Có, đây ạ. Tôi có thể đổi chúng không?",
+        "hint": "Dùng them để chỉ chiếc quần jeans."
       },
       {
         "speaker": "a",
-        "en": "Sure. We have a large size. Please try them on.",
-        "vi": "Được chứ. Chúng tôi có cỡ lớn. Bạn hãy thử chúng nhé.",
+        "en": "Certainly. We have a shorter pair in the same color.",
+        "vi": "Chắc chắn rồi. Chúng tôi có một chiếc ngắn hơn cùng màu.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Thanks. Where are the changing rooms?",
-        "vi": "Cảm ơn. Phòng thử đồ ở đâu?",
-        "hint": "Hỏi tự nhiên bằng Where are the changing rooms?"
+        "en": "Great. May I try on the smaller pair?",
+        "vi": "Tuyệt. Tôi có thể thử chiếc cỡ nhỏ hơn không?",
+        "hint": "May I nghe lịch sự khi xin phép thử đồ."
       },
       {
         "speaker": "a",
-        "en": "They are at the back, next to the mirrors.",
-        "vi": "Chúng ở phía cuối cửa hàng, cạnh những chiếc gương.",
+        "en": "Of course. The fitting rooms are just behind you.",
+        "vi": "Tất nhiên. Phòng thử đồ ở ngay phía sau bạn.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The large fits well. I would also like this T-shirt.",
-        "vi": "Cỡ lớn vừa đẹp. Tôi cũng muốn lấy chiếc áo phông này.",
-        "hint": "Fits well nghĩa là vừa đẹp, vừa vặn."
+        "en": "Thank you. These jeans fit well, and I like this sweater.",
+        "vi": "Cảm ơn. Chiếc quần jeans này vừa, và tôi thích chiếc áo len này.",
+        "hint": "Fit well nghĩa là vừa và hợp cỡ."
       },
       {
         "speaker": "a",
-        "en": "Great choice. The T-shirt costs twenty dollars. Will you pay by card?",
-        "vi": "Lựa chọn hay đấy. Áo phông giá hai mươi đô la. Bạn sẽ thanh toán bằng thẻ chứ?",
+        "en": "The sweater is thirty dollars. Would you like to try it?",
+        "vi": "Chiếc áo len giá ba mươi đô la. Bạn có muốn thử nó không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, please. Here is my card.",
-        "vi": "Vâng. Đây là thẻ của tôi.",
-        "hint": "Here is my card là cách đưa thẻ lịch sự."
+        "en": "Yes, please. Can I use my refund for it?",
+        "vi": "Có, làm ơn. Tôi có thể dùng tiền hoàn lại để mua nó không?",
+        "hint": "Dùng refund để nói tiền nhận lại khi trả hàng."
       },
       {
         "speaker": "a",
-        "en": "Your payment went through. Here is your receipt and bag.",
-        "vi": "Thanh toán của bạn đã thành công. Đây là hóa đơn và túi đồ của bạn.",
+        "en": "Yes. I can apply the refund to the sweater.",
+        "vi": "Có. Tôi có thể trừ tiền hoàn lại vào giá áo len.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Thank you very much. Have a nice day.",
-        "vi": "Cảm ơn bạn rất nhiều. Chúc bạn một ngày tốt lành.",
-        "hint": ""
+        "en": "Perfect. I will take both. Thank you for your help.",
+        "vi": "Tuyệt. Tôi sẽ lấy cả hai. Cảm ơn bạn đã giúp đỡ.",
+        "hint": "Take both nghĩa là mua cả hai món."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly fashion-store assistant in a busy shopping mall. You help customers find clothes, use the changing rooms, and exchange or return items politely.",
-    "opener": "Hello. How can I help you today?",
-    "goal": "Người học đổi quần áo không vừa, thử cỡ khác và hoàn tất thanh toán."
+    "persona": "You are a friendly fashion store assistant in a busy clothing shop. You welcome customers, help with sizes, guide them to fitting rooms, and explain exchanges and refunds clearly.",
+    "opener": "Hello. What can I help you find today?",
+    "goal": "Người học đổi quần không vừa, thử cỡ khác và mua thêm một món đồ."
   },
   "drills": [
     {
-      "vi": "Tôi muốn đổi chiếc áo này.",
-      "en": "I would like to exchange this shirt.",
+      "vi": "Tôi muốn thử chiếc áo này.",
+      "en": "I would like to try on this shirt.",
       "alts": [
-        "Could I exchange this shirt?"
+        "May I try on this shirt?"
       ]
     },
     {
-      "vi": "Bạn có cỡ lớn hơn không?",
-      "en": "Do you have this in a larger size?",
+      "vi": "Bạn có món này cỡ nhỏ hơn không?",
+      "en": "Do you have this in a smaller size?",
       "alts": [
-        "Do you have a larger size?"
+        "Do you have a smaller size?"
       ]
     },
     {
-      "vi": "Chiếc quần jeans này quá chật.",
-      "en": "These jeans are too tight.",
+      "vi": "Bạn có thể chỉ cho tôi phòng thử đồ không?",
+      "en": "Could you show me the fitting room, please?",
       "alts": [
-        "These jeans feel too tight."
+        "Where is the fitting room?"
       ]
     },
     {
-      "vi": "Phòng thử đồ ở đâu?",
-      "en": "Where are the changing rooms?",
+      "vi": "Chiếc quần jeans này quá dài.",
+      "en": "These jeans are too long.",
       "alts": [
-        "Could you show me the changing rooms?"
+        "These jeans do not fit well."
       ]
     },
     {
-      "vi": "Tôi có thể thử chiếc váy này không?",
-      "en": "Can I try this dress on?",
+      "vi": "Tôi có thể đổi chúng sang cỡ nhỏ hơn không?",
+      "en": "Can I exchange them for a smaller size?",
       "alts": [
-        "I would like to try this dress on."
+        "I would like to exchange them for a smaller size."
       ]
     },
     {
-      "vi": "Tôi có thể thanh toán bằng thẻ không?",
-      "en": "Can I pay by card?",
+      "vi": "Đây là hóa đơn của tôi.",
+      "en": "Here is my receipt.",
       "alts": [
-        "Do you take cards?"
+        "I have the receipt here."
       ]
     },
     {
-      "vi": "Tôi mua món này hôm qua.",
-      "en": "I bought this item yesterday.",
+      "vi": "Tôi muốn dùng tiền hoàn lại để mua áo len.",
+      "en": "I would like to use the refund for the sweater.",
       "alts": [
-        "I bought it yesterday."
+        "Can I use my refund for the sweater?"
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại toàn bộ hội thoại và nghe lại.",
-    "Đặt ba câu với mẫu Could I exchange ___ for ___?",
-    "Luyện nói năm câu về quần áo bị chật, rộng hoặc vừa."
+    "Ghi âm lại hội thoại, chú ý phát âm rõ jeans, size và receipt.",
+    "Viết ba câu hỏi về cỡ quần áo bằng mẫu Do you have this in a size?",
+    "Tập đóng vai đổi một món đồ khác, ví dụ áo sơ mi hoặc giày."
   ]
 }

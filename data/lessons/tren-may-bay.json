@@ -1,0 +1,360 @@
+{
+  "id": "tren-may-bay",
+  "title": "Trên máy bay: đổi chỗ, gọi đồ, nhờ giúp",
+  "topic": "Giao tiếp với tiếp viên hàng không",
+  "level": "A2",
+  "summary": "Bạn trao đổi với tiếp viên để đổi sang ghế lối đi, gọi nước và nhờ cất hành lý. Bài học giúp bạn nói lịch sự trong các tình huống phổ biến trên máy bay.",
+  "goals": [
+    "Xin đổi sang ghế khác một cách lịch sự",
+    "Gọi đồ uống và xin chăn",
+    "Nhờ tiếp viên hỗ trợ hành lý"
+  ],
+  "vocab": [
+    {
+      "en": "aisle seat",
+      "ipa": "/aɪl siːt/",
+      "vi": "ghế cạnh lối đi",
+      "example": "Could I have an aisle seat, please?"
+    },
+    {
+      "en": "window seat",
+      "ipa": "/ˈwɪndoʊ siːt/",
+      "vi": "ghế cạnh cửa sổ",
+      "example": "Her window seat is by the wing."
+    },
+    {
+      "en": "overhead bin",
+      "ipa": "/ˈoʊvərhed bɪn/",
+      "vi": "ngăn để hành lý phía trên đầu",
+      "example": "Please put your bag in the overhead bin."
+    },
+    {
+      "en": "flight attendant",
+      "ipa": "/ˈflaɪt əˌtendənt/",
+      "vi": "tiếp viên hàng không",
+      "example": "The flight attendant brings us water."
+    },
+    {
+      "en": "blanket",
+      "ipa": "/ˈblæŋkɪt/",
+      "vi": "chăn",
+      "example": "This blanket is warm and clean."
+    },
+    {
+      "en": "still water",
+      "ipa": "/stɪl ˈwɔːtər/",
+      "vi": "nước lọc không ga",
+      "example": "Could I have still water, please?"
+    },
+    {
+      "en": "sparkling water",
+      "ipa": "/ˈspɑːrklɪŋ ˈwɔːtər/",
+      "vi": "nước có ga",
+      "example": "Sparkling water has small bubbles."
+    },
+    {
+      "en": "seat belt",
+      "ipa": "/ˈsiːt belt/",
+      "vi": "dây an toàn",
+      "example": "Please fasten your seat belt now."
+    },
+    {
+      "en": "takeoff",
+      "ipa": "/ˈteɪkɔːf/",
+      "vi": "việc máy bay cất cánh",
+      "example": "Takeoff will be in a few minutes."
+    },
+    {
+      "en": "call button",
+      "ipa": "/ˈkɔːl ˌbʌtən/",
+      "vi": "nút gọi tiếp viên",
+      "example": "Press the call button for help."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could I change my seat, please?",
+      "vi": "Tôi có thể đổi chỗ ngồi không?",
+      "note": "Dùng để xin đổi ghế một cách lịch sự."
+    },
+    {
+      "en": "Is an aisle seat available?",
+      "vi": "Có ghế cạnh lối đi nào trống không?",
+      "note": "Dùng available để hỏi thứ gì đó còn trống hoặc còn sẵn không."
+    },
+    {
+      "en": "Could I have some water, please?",
+      "vi": "Tôi có thể xin nước được không?",
+      "note": "Could I have nghe tự nhiên và lịch sự khi gọi đồ."
+    },
+    {
+      "en": "May I get a blanket, please?",
+      "vi": "Tôi có thể xin một cái chăn không?",
+      "note": "May I get cũng là cách lịch sự để yêu cầu một đồ vật."
+    },
+    {
+      "en": "Could you help me with my bag, please?",
+      "vi": "Bạn có thể giúp tôi với túi hành lý không?",
+      "note": "Dùng help me with để nhờ ai hỗ trợ một việc hoặc đồ vật."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "từ aisle có chữ s câm",
+      "tip": "Đọc là /aɪl/, gần như “ai-lờ” rất ngắn; không đọc chữ s ở giữa.",
+      "words": [
+        "aisle",
+        "aisle seat"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong thank",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/.",
+      "words": [
+        "thank",
+        "thanks"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /t/",
+      "tip": "Với seat, belt và blanket, chạm đầu lưỡi ở cuối từ thật nhẹ, không thêm âm “ơ”.",
+      "words": [
+        "seat",
+        "belt",
+        "blanket"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want change my seat.",
+      "right": "I want to change my seat.",
+      "vi": "Sau want cần có to trước động từ."
+    },
+    {
+      "wrong": "Give me water.",
+      "right": "Could I have some water, please?",
+      "vi": "Câu sai nghe ra lệnh; hãy dùng cách yêu cầu lịch sự với tiếp viên."
+    },
+    {
+      "wrong": "I sit at seat eighteen B.",
+      "right": "I am sitting in seat eighteen B.",
+      "vi": "Khi nói vị trí ghế, dùng in seat, không dùng at seat."
+    },
+    {
+      "wrong": "Could you help me put my bag?",
+      "right": "Could you help me put my bag in the overhead bin?",
+      "vi": "Cần nói rõ nơi muốn đặt hành lý."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xin đổi sang ghế lối đi",
+      "formal": "Could I change to an aisle seat, please?",
+      "casual": "Can I sit by the aisle?",
+      "vi": "Câu trang trọng phù hợp khi nói với tiếp viên hoặc người lạ; câu thân mật phù hợp khi hỏi bạn đi cùng."
+    },
+    {
+      "situation": "Xin nước uống",
+      "formal": "Could I have some still water, please?",
+      "casual": "Can I get some water?",
+      "vi": "Câu trang trọng nên dùng với tiếp viên; câu thân mật dùng khi nói với bạn bè hoặc đồng nghiệp thân."
+    },
+    {
+      "situation": "Nhờ giúp hành lý",
+      "formal": "Could you help me with this bag, please?",
+      "casual": "Can you give me a hand with this bag?",
+      "vi": "Câu trang trọng phù hợp với nhân viên; câu thân mật dùng với người quen, dù vẫn lịch sự."
+    },
+    {
+      "situation": "Gọi sự chú ý để nhờ giúp",
+      "formal": "Excuse me, could you help me, please?",
+      "casual": "Excuse me, can you help me?",
+      "vi": "Với tiếp viên hoặc người lạ, dùng could you nghe mềm và lịch sự hơn; với người thân quen, can you là đủ tự nhiên."
+    }
+  ],
+  "culture": [
+    "Trên máy bay, hành khách thường nói excuse me hoặc bấm nút gọi thay vì gọi lớn hoặc chạm vào tiếp viên.",
+    "Tiếp viên thường hỏi bạn muốn nước không ga hay nước có ga; bạn có thể trả lời ngắn gọn rồi thêm please.",
+    "Việc đổi ghế phụ thuộc vào ghế trống và quy định an toàn. Hãy đợi tiếp viên đồng ý rồi mới chuyển chỗ."
+  ],
+  "listening": {
+    "title": "Thông báo đồ uống trên máy bay",
+    "passage": "Good afternoon, everyone. We are ready to serve drinks now. Please keep your seat belt fastened while you are sitting down. If you would like water, juice, or coffee, press the call button or tell a flight attendant when we come by. We also have blankets for passengers who feel cold. Thank you for flying with us today.",
+    "vi": "Chào buổi chiều mọi người. Bây giờ chúng tôi đã sẵn sàng phục vụ đồ uống. Xin hãy thắt dây an toàn khi bạn đang ngồi. Nếu bạn muốn nước, nước trái cây hoặc cà phê, hãy bấm nút gọi hoặc báo cho tiếp viên khi chúng tôi đi qua. Chúng tôi cũng có chăn cho những hành khách thấy lạnh. Cảm ơn bạn đã bay cùng chúng tôi hôm nay.",
+    "questions": [
+      {
+        "q": "What is the crew ready to serve?",
+        "choices": [
+          "Drinks",
+          "Dinner",
+          "Tickets"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là đồ uống vì thông báo nói rằng phi hành đoàn sẵn sàng phục vụ đồ uống ngay bây giờ."
+      },
+      {
+        "q": "What can passengers press for help?",
+        "choices": [
+          "The seat belt",
+          "The call button",
+          "The window"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là nút gọi vì hành khách được hướng dẫn bấm nút này khi cần đồ uống hoặc hỗ trợ."
+      },
+      {
+        "q": "Who can ask for a blanket?",
+        "choices": [
+          "Passengers who feel cold",
+          "Passengers with coffee",
+          "Passengers near the door"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là hành khách thấy lạnh vì thông báo nói có chăn cho những người cảm thấy lạnh."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Tiếp viên hàng không",
+      "b": "Hành khách, tức người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, welcome aboard. How can I help you today?",
+        "vi": "Xin chào, chào mừng bạn lên máy bay. Hôm nay tôi có thể giúp gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, could I change my seat, please?",
+        "vi": "Chào, tôi có thể đổi chỗ ngồi không?",
+        "hint": "Dùng Could I để xin phép một cách lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. What seat are you sitting in now?",
+        "vi": "Được chứ. Hiện tại bạn đang ngồi ghế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am in seat eighteen B. Is an aisle seat free?",
+        "vi": "Tôi ngồi ghế 18B. Có ghế cạnh lối đi nào trống không?",
+        "hint": "Dùng in seat trước số ghế; aisle seat là ghế cạnh lối đi."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, seat nineteen C is free across the aisle.",
+        "vi": "Có, ghế 19C còn trống ở phía bên kia lối đi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Could I have some still water, please?",
+        "vi": "Tuyệt. Tôi có thể xin nước lọc không ga không?",
+        "hint": "Khi gọi đồ, dùng Could I have... please?."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. Would you also like a blanket?",
+        "vi": "Chắc chắn rồi. Bạn cũng muốn một cái chăn chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please. I feel a little cold today.",
+        "vi": "Có, làm ơn. Hôm nay tôi thấy hơi lạnh.",
+        "hint": "I feel a little cold nghĩa là tôi thấy hơi lạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "No problem. Is there anything else I can help with?",
+        "vi": "Không vấn đề gì. Còn điều gì khác tôi có thể giúp không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you help me with this bag, please?",
+        "vi": "Bạn có thể giúp tôi với túi này không?",
+        "hint": "Dùng help me with để nhờ giúp về một đồ vật."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I will place it in the overhead bin.",
+        "vi": "Tất nhiên. Tôi sẽ đặt nó vào ngăn hành lý phía trên đầu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am all set now.",
+        "vi": "Cảm ơn bạn. Giờ tôi ổn cả rồi.",
+        "hint": "All set nghĩa là đã xong và không cần giúp thêm."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly flight attendant on an international flight. You greet passengers, check available seats, offer drinks, and help with bags calmly and politely.",
+    "opener": "Hello, welcome aboard. How can I help you today?",
+    "goal": "Người học đổi sang ghế lối đi, gọi nước và nhờ tiếp viên hỗ trợ hành lý."
+  },
+  "drills": [
+    {
+      "vi": "Tôi có thể đổi chỗ ngồi không?",
+      "en": "Could I change my seat, please?",
+      "alts": [
+        "Can I change my seat, please?"
+      ]
+    },
+    {
+      "vi": "Có ghế cạnh lối đi nào trống không?",
+      "en": "Is an aisle seat available?",
+      "alts": [
+        "Is there a free aisle seat?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể xin nước lọc không ga không?",
+      "en": "Could I have some still water, please?",
+      "alts": [
+        "May I get some still water, please?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể xin một cái chăn không?",
+      "en": "May I get a blanket, please?",
+      "alts": [
+        "Could I have a blanket, please?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể giúp tôi với túi này không?",
+      "en": "Could you help me with this bag, please?",
+      "alts": [
+        "Can you give me a hand with this bag?"
+      ]
+    },
+    {
+      "vi": "Tôi đang ngồi ghế 18B.",
+      "en": "I am sitting in seat eighteen B.",
+      "alts": [
+        "I am in seat eighteen B."
+      ]
+    },
+    {
+      "vi": "Hãy đặt túi vào ngăn hành lý phía trên đầu.",
+      "en": "Please put the bag in the overhead bin.",
+      "alts": [
+        "Please place the bag in the overhead bin."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý đọc đúng aisle và thank.",
+    "Tự nói ba yêu cầu lịch sự với mẫu Could I have hoặc Could you help me with.",
+    "Tập nói tình huống bạn muốn đổi từ ghế cửa sổ sang ghế lối đi."
+  ]
+}

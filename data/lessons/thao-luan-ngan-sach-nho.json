@@ -1,0 +1,373 @@
+{
+  "id": "thao-luan-ngan-sach-nho",
+  "title": "Thảo luận ngân sách cho một hạng mục nhỏ",
+  "topic": "Ngân sách cho bữa trưa nhóm",
+  "level": "B1",
+  "summary": "Bạn trao đổi với kế toán công ty để chốt ngân sách cho một bữa trưa nhỏ của nhóm. Bạn sẽ nêu ý kiến, giải thích lý do và thống nhất các giấy tờ cần gửi.",
+  "goals": [
+    "Nêu ước tính chi phí và giới hạn ngân sách.",
+    "Đề xuất điều chỉnh ngân sách kèm lý do.",
+    "Hỏi về phê duyệt và các giấy tờ cần thiết."
+  ],
+  "vocab": [
+    {
+      "en": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "vi": "ngân sách",
+      "example": "Our budget is limited, so we need to choose carefully."
+    },
+    {
+      "en": "estimate",
+      "ipa": "/ˈestɪmeɪt/",
+      "vi": "ước tính",
+      "example": "The current estimate includes food and delivery."
+    },
+    {
+      "en": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "vi": "phân bổ",
+      "example": "We can allocate some money for drinks."
+    },
+    {
+      "en": "allowance",
+      "ipa": "/əˈlaʊəns/",
+      "vi": "khoản tiền cho phép; mức chi",
+      "example": "The plan includes a small allowance for drinks."
+    },
+    {
+      "en": "contingency",
+      "ipa": "/kənˈtɪndʒənsi/",
+      "vi": "khoản dự phòng",
+      "example": "I added a contingency in case prices change."
+    },
+    {
+      "en": "vendor quote",
+      "ipa": "/ˈvendər kwoʊt/",
+      "vi": "báo giá của nhà cung cấp",
+      "example": "Please attach the vendor quote to your request."
+    },
+    {
+      "en": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "vi": "hóa đơn, biên lai",
+      "example": "Keep every receipt after you make the purchase."
+    },
+    {
+      "en": "department limit",
+      "ipa": "/dɪˈpɑːrtmənt ˈlɪmɪt/",
+      "vi": "giới hạn chi tiêu của phòng ban",
+      "example": "The request is still below the department limit."
+    },
+    {
+      "en": "delivery fee",
+      "ipa": "/dɪˈlɪvəri fiː/",
+      "vi": "phí giao hàng",
+      "example": "The delivery fee was higher than we expected."
+    },
+    {
+      "en": "approve",
+      "ipa": "/əˈpruːv/",
+      "vi": "phê duyệt",
+      "example": "The accountant can approve the request this afternoon."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The current estimate is ___, including ___.",
+      "vi": "Ước tính hiện tại là ___, bao gồm ___.",
+      "note": "Dùng để nêu tổng chi phí và các khoản đã tính vào."
+    },
+    {
+      "en": "That seems reasonable, but I think we should ___.",
+      "vi": "Điều đó có vẻ hợp lý, nhưng tôi nghĩ chúng ta nên ___.",
+      "note": "Nêu ý kiến khác một cách mềm mại, chuyên nghiệp."
+    },
+    {
+      "en": "Could we ___ and add ___?",
+      "vi": "Chúng ta có thể ___ và thêm ___ không?",
+      "note": "Dùng khi đề xuất thay đổi hai phần của ngân sách."
+    },
+    {
+      "en": "I would like to ___ in case ___.",
+      "vi": "Tôi muốn ___ phòng khi ___.",
+      "note": "Dùng để giải thích lý do cần khoản dự phòng."
+    },
+    {
+      "en": "In that case, I can approve ___.",
+      "vi": "Trong trường hợp đó, tôi có thể phê duyệt ___.",
+      "note": "Dùng để phản hồi sau khi đã nghe lý do hợp lý."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm của budget và allocate",
+      "tip": "Nhấn âm đầu ở budget, nhưng nhấn âm đầu tiên trong ba âm tiết sau tiền tố ở allocate: AL-lo-cate.",
+      "words": [
+        "budget",
+        "allocate",
+        "allowance"
+      ]
+    },
+    {
+      "focus": "Âm /s/ câm trong receipt",
+      "tip": "Không đọc chữ p trong receipt; phát âm gần như ri-seat.",
+      "words": [
+        "receipt",
+        "receipts"
+      ]
+    },
+    {
+      "focus": "Cụm phụ âm cuối trong limit và estimate",
+      "tip": "Đọc rõ âm t và m ở cuối, tránh bỏ âm cuối như thói quen tiếng Việt.",
+      "words": [
+        "limit",
+        "estimate",
+        "department"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We have budget five hundred dollars.",
+      "right": "We have a budget of five hundred dollars.",
+      "vi": "Cần dùng mạo từ a và cấu trúc a budget of cộng số tiền."
+    },
+    {
+      "wrong": "I suggest to reduce the food order.",
+      "right": "I suggest reducing the food order.",
+      "vi": "Sau suggest thường dùng động từ thêm ing, không dùng to cộng động từ."
+    },
+    {
+      "wrong": "Could you approve for this budget?",
+      "right": "Could you approve this budget?",
+      "vi": "Approve là ngoại động từ, theo sau trực tiếp bởi đối tượng."
+    },
+    {
+      "wrong": "We need reserve money for unexpected cost.",
+      "right": "We need to set aside money for unexpected costs.",
+      "vi": "Sau need cần có to; set aside money là cách nói tự nhiên hơn khi để tiền dự phòng."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhờ xem xét yêu cầu ngân sách",
+      "formal": "Could you review the proposed budget when you have a moment?",
+      "casual": "Can you look over the budget?",
+      "vi": "Câu formal phù hợp khi gửi cho cấp trên hoặc kế toán chưa quen; câu casual dùng với đồng nghiệp thân."
+    },
+    {
+      "situation": "Đề xuất cắt giảm chi phí",
+      "formal": "Would it be possible to lower the food budget slightly?",
+      "casual": "Can we cut the food budget a little?",
+      "vi": "Câu formal mềm hơn, phù hợp trong cuộc họp chính thức; câu casual trực tiếp hơn khi trao đổi nội bộ."
+    },
+    {
+      "situation": "Đề xuất để tiền dự phòng",
+      "formal": "I recommend including a small contingency for unexpected costs.",
+      "casual": "Let us keep a little extra for surprises.",
+      "vi": "Câu formal dùng trong đề xuất hoặc email; câu casual hợp với cuộc nói chuyện nhanh cùng đồng nghiệp."
+    },
+    {
+      "situation": "Từ chối khoản chi vượt mức",
+      "formal": "I am afraid the current amount exceeds our department limit.",
+      "casual": "That is over our limit.",
+      "vi": "Câu formal lịch sự hơn khi từ chối yêu cầu; câu casual chỉ nên dùng với người quen trong nhóm."
+    }
+  ],
+  "culture": [
+    "Trong môi trường công sở nói tiếng Anh, người ta thường nêu lý do cụ thể, như báo giá hoặc thay đổi phí, thay vì chỉ nói cần thêm tiền.",
+    "Kế toán hoặc quản lý có thể hỏi thẳng vì sao cần khoản dự phòng. Đây thường là thủ tục bình thường, không phải dấu hiệu họ không tin bạn.",
+    "Khi chưa thể chấp thuận, họ thường dùng cách nói mềm như I am afraid hoặc That may be difficult, rồi đề xuất phương án thay thế."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về ngân sách đồ dùng văn phòng",
+    "passage": "Hi Minh, I have checked the budget request for the office supplies. The total is within our limit, but the printer paper price has changed. Please choose the cheaper option from the same vendor. Once I receive the updated quote and confirmation of the receipt policy, I will approve the purchase this afternoon.",
+    "vi": "Chào Minh, tôi đã kiểm tra yêu cầu ngân sách cho đồ dùng văn phòng. Tổng chi phí nằm trong giới hạn của chúng ta, nhưng giá giấy in đã thay đổi. Hãy chọn phương án rẻ hơn từ cùng nhà cung cấp. Khi tôi nhận được báo giá cập nhật và xác nhận về quy định hóa đơn, tôi sẽ phê duyệt việc mua hàng vào chiều nay.",
+    "questions": [
+      {
+        "q": "Why does Minh need to choose a cheaper option?",
+        "choices": [
+          "The printer paper price has changed.",
+          "The vendor is no longer available.",
+          "The office needs fewer supplies."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói rõ: the printer paper price has changed."
+      },
+      {
+        "q": "What document does the accountant want to receive?",
+        "choices": [
+          "An updated vendor quote.",
+          "A team lunch menu.",
+          "A new attendee list."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói yêu cầu the updated quote."
+      },
+      {
+        "q": "When will the accountant approve the purchase?",
+        "choices": [
+          "This afternoon.",
+          "Tomorrow morning.",
+          "Next week."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì cuối bài nghe có câu I will approve the purchase this afternoon."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Kế toán công ty",
+      "b": "Nhân viên đề xuất ngân sách"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning, I have reviewed your request for a small team lunch budget.",
+        "vi": "Chào buổi sáng, tôi đã xem yêu cầu ngân sách cho bữa trưa nhỏ của nhóm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. I would like to discuss the amount before we place orders.",
+        "vi": "Cảm ơn. Tôi muốn thảo luận số tiền trước khi chúng ta đặt hàng.",
+        "hint": "Dùng would like to để nói lịch sự về điều bạn muốn làm."
+      },
+      {
+        "speaker": "a",
+        "en": "The current estimate is four hundred dollars for twelve people, including delivery.",
+        "vi": "Ước tính hiện tại là bốn trăm đô la cho mười hai người, bao gồm giao hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That seems reasonable, but I think we should reserve some money for drinks.",
+        "vi": "Điều đó có vẻ hợp lý, nhưng tôi nghĩ chúng ta nên để dành một ít tiền cho đồ uống.",
+        "hint": "Mở đầu bằng That seems reasonable để nêu ý kiến khác một cách mềm mại."
+      },
+      {
+        "speaker": "a",
+        "en": "I agree, although the department limit is five hundred dollars for this event.",
+        "vi": "Tôi đồng ý, mặc dù giới hạn của phòng ban là năm trăm đô la cho sự kiện này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could we reduce the food order slightly and add a drink allowance?",
+        "vi": "Chúng ta có thể giảm nhẹ đơn đồ ăn và thêm khoản cho đồ uống không?",
+        "hint": "Dùng Could we để đề xuất thay đổi cùng nhau."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, if the menu stays simple, we can allocate forty dollars for drinks.",
+        "vi": "Được, nếu thực đơn đơn giản, chúng ta có thể phân bổ bốn mươi đô la cho đồ uống.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would also like a small contingency in case prices change.",
+        "vi": "Tôi cũng muốn có một khoản dự phòng nhỏ phòng khi giá thay đổi.",
+        "hint": "Contingency là khoản tiền dự phòng cho tình huống bất ngờ."
+      },
+      {
+        "speaker": "a",
+        "en": "That is sensible, but please explain why the contingency is necessary in your request.",
+        "vi": "Điều đó hợp lý, nhưng hãy giải thích vì sao khoản dự phòng cần thiết trong yêu cầu của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Last month, delivery fees increased unexpectedly, so our final bill was higher.",
+        "vi": "Tháng trước, phí giao hàng tăng bất ngờ, nên hóa đơn cuối cùng của chúng tôi cao hơn.",
+        "hint": "Dùng so để nêu kết quả của một lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "In that case, I can approve a contingency of twenty dollars with receipts.",
+        "vi": "Trong trường hợp đó, tôi có thể phê duyệt khoản dự phòng hai mươi đô la nếu có hóa đơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. What documents do you need before you can release the budget?",
+        "vi": "Tuyệt. Bạn cần những giấy tờ nào trước khi có thể giải ngân sách?",
+        "hint": "Hỏi What documents do you need để hỏi rõ yêu cầu hồ sơ."
+      },
+      {
+        "speaker": "a",
+        "en": "Please send the vendor quote, attendee list, and a brief reason for the lunch.",
+        "vi": "Hãy gửi báo giá nhà cung cấp, danh sách người tham dự và lý do ngắn gọn cho bữa trưa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will send everything today. Thank you for helping us finalize the budget.",
+        "vi": "Tôi sẽ gửi mọi thứ hôm nay. Cảm ơn bạn đã giúp chúng tôi chốt ngân sách.",
+        "hint": "Finalize the budget nghĩa là hoàn tất và chốt ngân sách."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a practical and friendly company accountant in a short budget meeting. You check spending limits, ask clear questions, and help the employee reach an approved plan.",
+    "opener": "Good morning, I have reviewed your request for a small team lunch budget.",
+    "goal": "Người học thảo luận, điều chỉnh và hoàn tất yêu cầu ngân sách nhỏ."
+  },
+  "drills": [
+    {
+      "vi": "Ước tính hiện tại là ba trăm đô la, bao gồm phí giao hàng.",
+      "en": "The current estimate is three hundred dollars, including the delivery fee.",
+      "alts": [
+        "Our current estimate is three hundred dollars with delivery included."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể giảm đơn đồ ăn và thêm tiền cho đồ uống không?",
+      "en": "Could we reduce the food order and add money for drinks?",
+      "alts": [
+        "Could we order less food and include a drink allowance?"
+      ]
+    },
+    {
+      "vi": "Tôi nghĩ chúng ta nên để dành một ít tiền cho chi phí bất ngờ.",
+      "en": "I think we should set aside some money for unexpected costs.",
+      "alts": [
+        "We should keep some money for unexpected expenses."
+      ]
+    },
+    {
+      "vi": "Tôi muốn thêm một khoản dự phòng phòng khi giá thay đổi.",
+      "en": "I would like to add a contingency in case prices change.",
+      "alts": [
+        "I would like a small contingency if the prices increase."
+      ]
+    },
+    {
+      "vi": "Bạn có thể gửi báo giá của nhà cung cấp trước hôm nay không?",
+      "en": "Could you send the vendor quote before the end of today?",
+      "alts": [
+        "Please send the vendor quote today if possible."
+      ]
+    },
+    {
+      "vi": "Giới hạn của phòng ban là năm trăm đô la cho sự kiện này.",
+      "en": "The department limit is five hundred dollars for this event.",
+      "alts": [
+        "We have a department limit of five hundred dollars."
+      ]
+    },
+    {
+      "vi": "Trong trường hợp đó, tôi có thể phê duyệt ngân sách với hóa đơn đầy đủ.",
+      "en": "In that case, I can approve the budget with all receipts.",
+      "alts": [
+        "I can approve it if you provide all the receipts."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý phát âm receipt và contingency.",
+    "Viết một yêu cầu ngân sách ngắn cho đồ dùng văn phòng, có ước tính và lý do.",
+    "Luyện nói ba cách đề xuất giảm chi phí một cách lịch sự."
+  ]
+}

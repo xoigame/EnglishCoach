@@ -1,0 +1,403 @@
+{
+  "id": "dieu-hanh-toa-dam",
+  "title": "Điều hành một buổi tọa đàm nhiều khách mời",
+  "topic": "Điều phối thảo luận nhiều khách mời",
+  "level": "C1",
+  "summary": "Bạn điều hành một buổi tọa đàm và cần giữ đúng thời lượng trong khi một khách mời có xu hướng trả lời rất dài. Bạn sẽ học cách chuyển chủ đề, mời người khác tham gia và ngắt lời một cách khéo léo.",
+  "goals": [
+    "Điều hướng phần trả lời dài mà vẫn giữ giọng điệu tôn trọng.",
+    "Chuyển lượt nói giữa nhiều khách mời một cách tự nhiên.",
+    "Tóm ý, quản lý thời gian và khép lại phần thảo luận chuyên nghiệp."
+  ],
+  "vocab": [
+    {
+      "en": "to keep us on time",
+      "ipa": "/tə kiːp ʌs ɑːn taɪm/",
+      "vi": "để giữ đúng thời lượng chương trình",
+      "example": "To keep us on time, I would like to move to our next question."
+    },
+    {
+      "en": "to bring someone in",
+      "ipa": "/tə brɪŋ ˈsʌmwʌn ɪn/",
+      "vi": "mời ai đó tham gia hoặc phát biểu trong cuộc thảo luận",
+      "example": "I would like to bring our other panelists in at this point."
+    },
+    {
+      "en": "to pick up on a point",
+      "ipa": "/tə pɪk ʌp ɑːn ə pɔɪnt/",
+      "vi": "quay lại hoặc phát triển một ý vừa được nêu",
+      "example": "Let me pick up on the point you made about public trust."
+    },
+    {
+      "en": "to park a question",
+      "ipa": "/tə pɑːrk ə ˈkwestʃən/",
+      "vi": "tạm gác một câu hỏi để quay lại sau",
+      "example": "I am going to park that question so we can hear from the others."
+    },
+    {
+      "en": "to keep it brief",
+      "ipa": "/tə kiːp ɪt briːf/",
+      "vi": "giữ phần nói ngắn gọn",
+      "example": "Could you keep it brief so that everyone has a chance to respond?"
+    },
+    {
+      "en": "to land the point",
+      "ipa": "/tə lænd ðə pɔɪnt/",
+      "vi": "chốt lại ý chính một cách rõ ràng",
+      "example": "Could you land the point in one final sentence?"
+    },
+    {
+      "en": "in the interest of time",
+      "ipa": "/ɪn ði ˈɪntrəst əv taɪm/",
+      "vi": "vì cần tiết kiệm thời gian",
+      "example": "In the interest of time, I am going to move us along."
+    },
+    {
+      "en": "a concise takeaway",
+      "ipa": "/ə kənˈsaɪs ˈteɪkəweɪ/",
+      "vi": "một thông điệp rút ra ngắn gọn, súc tích",
+      "example": "Please give us one concise takeaway for the audience."
+    },
+    {
+      "en": "to open the floor",
+      "ipa": "/tu ˈoʊpən ðə flɔːr/",
+      "vi": "mở phần thảo luận cho người khác phát biểu hoặc đặt câu hỏi",
+      "example": "I would now like to open the floor to the audience."
+    },
+    {
+      "en": "to strike a balance",
+      "ipa": "/tə straɪk ə ˈbæləns/",
+      "vi": "tạo sự cân bằng hợp lý",
+      "example": "The challenge is to strike a balance between speed and fairness."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "To keep us on time, could you ___?",
+      "vi": "Để giữ đúng thời lượng, anh/chị có thể ___ không?",
+      "note": "Dùng để giới hạn phần trả lời mà không nghe quá thẳng thừng."
+    },
+    {
+      "en": "I would like to bring ___ in here.",
+      "vi": "Tôi muốn mời ___ tham gia ở ý này.",
+      "note": "Cách chuyển lượt lịch sự, đặc biệt khi có nhiều khách mời."
+    },
+    {
+      "en": "Let me pause you there and pick up on ___.",
+      "vi": "Cho phép tôi tạm ngắt ở đây và quay lại ý ___.",
+      "note": "Dùng khi muốn đổi trọng tâm nhưng vẫn công nhận ý người nói."
+    },
+    {
+      "en": "I am going to park that for a moment and come back to it later.",
+      "vi": "Tôi sẽ tạm gác ý đó một lát và quay lại sau.",
+      "note": "Phù hợp khi ý kiến hay nhưng không đúng trọng tâm hoặc không đủ thời gian."
+    },
+    {
+      "en": "If you could leave us with one concise takeaway, that would be helpful.",
+      "vi": "Nếu anh/chị có thể để lại một thông điệp rút ra ngắn gọn thì sẽ rất hữu ích.",
+      "note": "Dùng để yêu cầu khách mời chốt ý ở cuối phần trao đổi."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong \"thought\", \"three\" và \"thank\"",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Tránh đọc thành /t/ như \"tought\" hoặc \"tank\".",
+      "words": [
+        "thought",
+        "three",
+        "thank"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong \"concise\" và \"panelist\"",
+      "tip": "Nhấn âm hai của concise và âm đầu của panelist: conCISE, PAnelist.",
+      "words": [
+        "concise",
+        "panelist",
+        "discussion"
+      ]
+    },
+    {
+      "focus": "Nối âm trong \"keep us on time\"",
+      "tip": "Nối tự nhiên \"keep us\" và \"us on\" để câu nghe liền mạch, không ngắt từng từ.",
+      "words": [
+        "keep us on time",
+        "bring us in",
+        "pick up on"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We do not have much times, so please finish.",
+      "right": "We do not have much time, so could you wrap that up?",
+      "vi": "Time là danh từ không đếm được. \"Wrap that up\" mềm và tự nhiên hơn \"finish\" khi điều phối."
+    },
+    {
+      "wrong": "I want invite the other guest to speak.",
+      "right": "I would like to invite the other guest to speak.",
+      "vi": "Sau want cần có to; trong tọa đàm trang trọng, \"I would like to\" phù hợp hơn."
+    },
+    {
+      "wrong": "Please be short.",
+      "right": "Could you keep that brief?",
+      "vi": "\"Please be short\" nghe cộc lốc và không tự nhiên. Hãy yêu cầu phần trả lời ngắn gọn thay vì nhận xét về con người."
+    },
+    {
+      "wrong": "Let us hear another guests.",
+      "right": "Let us hear from another guest.",
+      "vi": "Sau another dùng danh từ số ít. Collocation tự nhiên là \"hear from a guest\"."
+    },
+    {
+      "wrong": "I will cut you for one moment.",
+      "right": "I am going to cut in for a moment.",
+      "vi": "\"Cut in\" là ngắt lời để can thiệp vào cuộc nói chuyện; không dùng \"cut you\" trong ngữ cảnh này."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Ngắt lời khách mời đang nói quá dài",
+      "formal": "May I pause you there for a moment, so we can hear from the other panelists?",
+      "casual": "I am going to jump in there so we can get the others' views too.",
+      "vi": "Câu formal dùng trên sân khấu, với người lạ hoặc khách mời cấp cao. Câu casual phù hợp với đồng nghiệp thân trong buổi trao đổi nội bộ."
+    },
+    {
+      "situation": "Yêu cầu câu trả lời ngắn hơn",
+      "formal": "In the interest of time, could you keep that to one final thought?",
+      "casual": "Could you give us the short version?",
+      "vi": "Câu formal giảm cảm giác ra lệnh bằng cách nêu lý do thời gian. Câu casual chỉ dùng khi không khí thân mật và người nói quen nhau."
+    },
+    {
+      "situation": "Chuyển lượt cho một khách mời khác",
+      "formal": "I would like to invite Minh to respond to that point.",
+      "casual": "Minh, do you want to jump in?",
+      "vi": "Câu formal phù hợp với tọa đàm công khai hoặc hội nghị. Câu casual hợp với cuộc họp nhóm nhỏ, ít nghi thức."
+    },
+    {
+      "situation": "Tạm gác một ý để quay lại sau",
+      "formal": "Let us set that aside for the moment and return to it in the closing round.",
+      "casual": "Let us park that and circle back to it later.",
+      "vi": "Câu formal rõ cấu trúc chương trình. Câu casual tự nhiên trong môi trường làm việc thân mật, nhưng vẫn lịch sự."
+    }
+  ],
+  "culture": [
+    "Trong tọa đàm tiếng Anh, người điều hành thường ngắt lời lịch sự để bảo đảm công bằng về lượt nói. Việc này không nhất thiết bị xem là bất lịch sự nếu có lời ghi nhận hoặc lý do rõ ràng.",
+    "Người điều hành thường dùng tên riêng để mời người khác phát biểu, thay vì chỉ nói chung chung. Điều này tạo cảm giác chủ động và giúp chuyển lượt rõ ràng.",
+    "Khách mời bản ngữ thường chấp nhận việc bị nhắc về thời gian. Một câu như \"in the interest of time\" giúp lời ngắt trở thành trách nhiệm của chương trình, không phải phê bình cá nhân."
+  ],
+  "listening": {
+    "title": "Thông báo trước buổi tọa đàm",
+    "passage": "Good evening, everyone. Before we begin, a quick note on how tonight's conversation will run. Each panelist will have two minutes for an opening view, after which I will invite them to respond to one another. If a point needs more time, I may set it aside and return to it later. Please write audience questions on the cards provided; we will take several in the final fifteen minutes.",
+    "vi": "Chào buổi tối mọi người. Trước khi bắt đầu, xin thông báo nhanh về cách buổi trò chuyện tối nay sẽ diễn ra. Mỗi khách mời sẽ có hai phút để nêu quan điểm mở đầu, sau đó tôi sẽ mời họ phản hồi lẫn nhau. Nếu một ý cần thêm thời gian, tôi có thể tạm gác lại và quay lại sau. Xin hãy viết câu hỏi của khán giả lên các thẻ đã được phát; chúng ta sẽ chọn một số câu trong mười lăm phút cuối.",
+    "questions": [
+      {
+        "q": "What happens after the panelists give their opening views?",
+        "choices": [
+          "They respond to one another.",
+          "They answer audience cards immediately.",
+          "They take a break."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói sau phần mở đầu, người điều hành sẽ mời các khách mời phản hồi lẫn nhau."
+      },
+      {
+        "q": "What may the moderator do with a point that needs more time?",
+        "choices": [
+          "Cancel the discussion.",
+          "Set it aside and return to it later.",
+          "Give it to the audience."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người điều hành nói có thể tạm gác ý đó và quay lại sau."
+      },
+      {
+        "q": "How should audience members submit questions?",
+        "choices": [
+          "By speaking during the opening round.",
+          "By sending an email.",
+          "By writing on provided cards."
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì bài nghe yêu cầu khán giả viết câu hỏi lên các thẻ đã được phát."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Khách mời chuyên gia có nhiều ý kiến và thường trả lời dài.",
+      "b": "Người điều hành tọa đàm, cần quản lý thời lượng và chia lượt nói công bằng."
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thank you for having me. Before we begin, I should say that this issue is much more complicated than it first appears.",
+        "vi": "Cảm ơn vì đã mời tôi. Trước khi bắt đầu, tôi nên nói rằng vấn đề này phức tạp hơn nhiều so với vẻ bề ngoài.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Absolutely. Let us begin with your main view in one sentence.",
+        "vi": "Chắc chắn rồi. Hãy bắt đầu bằng quan điểm chính của anh/chị trong một câu.",
+        "hint": "Dùng \"in one sentence\" để đặt giới hạn rõ nhưng vẫn lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "My main view is that lasting change depends less on a single policy and more on whether institutions earn public trust over time.",
+        "vi": "Quan điểm chính của tôi là thay đổi bền vững ít phụ thuộc vào một chính sách đơn lẻ hơn là việc các tổ chức có giành được lòng tin của công chúng theo thời gian hay không.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a helpful starting point. Could you give us one practical example?",
+        "vi": "Đó là một điểm khởi đầu hữu ích. Anh/chị có thể cho chúng tôi một ví dụ thực tế không?",
+        "hint": "Mở đầu bằng lời ghi nhận rồi mới yêu cầu ví dụ."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. Take a city introducing new transport rules. The rules may be sensible on paper, but if residents feel they were designed behind closed doors, compliance drops. Then the conversation shifts from the policy itself to whether people feel heard, and that has consequences for every later decision.",
+        "vi": "Chắc chắn. Hãy lấy ví dụ một thành phố áp dụng quy định giao thông mới. Các quy định có thể hợp lý trên giấy tờ, nhưng nếu người dân cảm thấy chúng được thiết kế một cách thiếu minh bạch, mức độ tuân thủ sẽ giảm. Khi đó, trọng tâm chuyển từ chính sách sang việc người dân có cảm thấy được lắng nghe hay không, và điều này ảnh hưởng đến mọi quyết định sau đó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a useful frame. To keep us on time, could you land the point in one final sentence?",
+        "vi": "Đó là một cách nhìn hữu ích. Để giữ đúng thời lượng, anh/chị có thể chốt ý trong một câu cuối không?",
+        "hint": "Dùng \"land the point\" để yêu cầu khách mời tự chốt ý."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. Policy works best when people can see both the reasoning behind it and a genuine route for their concerns to shape the outcome.",
+        "vi": "Vâng. Chính sách hoạt động tốt nhất khi mọi người thấy được cả lý do phía sau nó lẫn một con đường thực sự để những quan ngại của họ có thể tác động đến kết quả.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I would like to bring our other panelists in here, because they have worked directly with local communities.",
+        "vi": "Cảm ơn anh/chị. Tôi muốn mời các khách mời khác tham gia ở ý này, vì họ đã làm việc trực tiếp với cộng đồng địa phương.",
+        "hint": "Dùng \"bring our other panelists in\" để chuyển lượt nói tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course, although I would add that local experience can sometimes be overvalued. It is vital, but it also needs to be connected to wider evidence, historical patterns, and the political realities that shape what is possible. Otherwise, we risk treating every case as entirely unique.",
+        "vi": "Tất nhiên, dù tôi muốn nói thêm rằng trải nghiệm địa phương đôi khi có thể được đánh giá quá cao. Nó rất quan trọng, nhưng cũng cần được kết nối với bằng chứng rộng hơn, các khuôn mẫu lịch sử và thực tế chính trị quyết định điều gì là khả thi. Nếu không, chúng ta có nguy cơ coi mọi trường hợp là hoàn toàn riêng biệt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Let me pause you there and pick up on that tension between local experience and wider evidence.",
+        "vi": "Cho phép tôi tạm ngắt ở đây và quay lại sự căng thẳng giữa trải nghiệm địa phương với bằng chứng rộng hơn.",
+        "hint": "\"Let me pause you there\" là cách ngắt lời mềm, không mang ý chê trách."
+      },
+      {
+        "speaker": "a",
+        "en": "It is a real tension. In practice, the strongest projects do not choose one over the other. They start with what communities know about their own lives, test those insights against reliable data, and then remain open to revising the plan when either source reveals a blind spot. That sounds straightforward, but it requires patience and humility from everyone involved.",
+        "vi": "Đó là một sự căng thẳng có thật. Trên thực tế, các dự án tốt nhất không chọn bên này thay vì bên kia. Chúng bắt đầu từ điều cộng đồng hiểu về chính cuộc sống của họ, kiểm chứng những hiểu biết ấy bằng dữ liệu đáng tin cậy, rồi sẵn sàng điều chỉnh kế hoạch khi một trong hai nguồn cho thấy điểm mù. Nghe có vẻ đơn giản, nhưng điều đó đòi hỏi sự kiên nhẫn và khiêm tốn từ mọi bên liên quan.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am going to park the question of implementation for a moment, because I want to hear a different perspective before we return to it.",
+        "vi": "Tôi sẽ tạm gác câu hỏi về triển khai một lát, vì tôi muốn nghe một góc nhìn khác trước khi quay lại vấn đề này.",
+        "hint": "Nêu rõ lý do tạm gác để khách mời không cảm thấy ý kiến của họ bị bỏ qua."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair enough. I only hope we do return to it, because implementation is where good intentions are most often tested. A proposal can be ambitious and well received in the room, yet still fail if the people expected to carry it out lack the authority, training, or time to make it real.",
+        "vi": "Hợp lý thôi. Tôi chỉ hy vọng chúng ta sẽ quay lại nó, vì triển khai là nơi những ý định tốt thường bị thử thách nhất. Một đề xuất có thể tham vọng và được đón nhận tích cực trong căn phòng này, nhưng vẫn thất bại nếu những người phải thực hiện nó thiếu thẩm quyền, đào tạo hoặc thời gian để biến nó thành hiện thực.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We will return to it in the closing round. For now, what is the one assumption leaders most need to challenge?",
+        "vi": "Chúng ta sẽ quay lại nó ở vòng kết. Còn bây giờ, một giả định mà các nhà lãnh đạo cần thách thức nhất là gì?",
+        "hint": "Báo trước thời điểm quay lại giúp việc chuyển chủ đề có chủ đích hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "They need to challenge the assumption that consultation is a box to tick. People notice when they are invited to comment after the key decisions have already been made. Meaningful consultation changes the process early enough for participants to influence priorities, trade-offs, and even the language used to describe the problem.",
+        "vi": "Họ cần thách thức giả định rằng tham vấn chỉ là một việc phải hoàn thành cho có. Mọi người nhận ra khi họ được mời góp ý sau khi các quyết định then chốt đã được đưa ra. Tham vấn có ý nghĩa sẽ thay đổi quy trình đủ sớm để người tham gia có thể tác động đến ưu tiên, sự đánh đổi và thậm chí cả ngôn ngữ dùng để mô tả vấn đề.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. Briefly, because we have one final audience question: what would success look like a year from now?",
+        "vi": "Cảm ơn anh/chị. Xin trả lời ngắn gọn, vì chúng ta còn một câu hỏi cuối từ khán giả: thành công sẽ trông như thế nào sau một năm nữa?",
+        "hint": "Đặt \"Briefly\" ở đầu và nêu lý do để giới hạn thời gian lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Success would mean that residents can point to a decision that changed because they participated, while public officials can explain not only what they decided but whose input shaped it. That is when trust stops being a slogan and becomes something visible in the way institutions behave.",
+        "vi": "Thành công sẽ là khi người dân có thể chỉ ra một quyết định đã thay đổi vì họ tham gia, còn quan chức có thể giải thích không chỉ họ đã quyết định điều gì mà còn ý kiến của ai đã định hình quyết định đó. Đó là lúc lòng tin không còn là một khẩu hiệu mà trở thành điều hữu hình trong cách các tổ chức hành xử.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is an excellent note to end on. Thank you to all our panelists, and thank you to the audience for your thoughtful questions.",
+        "vi": "Đó là một ý rất hay để kết thúc. Cảm ơn tất cả các khách mời và cảm ơn khán giả vì những câu hỏi sâu sắc.",
+        "hint": "Kết thúc bằng cách cảm ơn cả khách mời lẫn khán giả để khép lại trọn vẹn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an expert guest on a live public-policy panel. You are thoughtful, articulate, and inclined to give long, nuanced answers. The learner is the moderator and needs to keep the discussion moving while treating you respectfully.",
+    "opener": "Thank you for inviting me. I am glad we are discussing this, because the issue is often oversimplified.",
+    "goal": "Người học điều hành phần trao đổi với khách mời nói dài: yêu cầu câu trả lời ngắn, chuyển lượt cho khách khác, tạm gác một ý và kết thúc chuyên nghiệp."
+  },
+  "drills": [
+    {
+      "vi": "Để giữ đúng thời lượng, anh/chị có thể chốt ý trong một câu không?",
+      "en": "To keep us on time, could you land the point in one sentence?",
+      "alts": [
+        "Could you give us the main point in one sentence?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn mời một khách mời khác tham gia ở đây.",
+      "en": "I would like to bring another panelist in here.",
+      "alts": [
+        "Let us hear from another panelist."
+      ]
+    },
+    {
+      "vi": "Cho phép tôi tạm ngắt ở đây và quay lại ý về lòng tin của công chúng.",
+      "en": "Let me pause you there and pick up on the point about public trust.",
+      "alts": [
+        "Let me stop you there and return to public trust."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ tạm gác câu hỏi đó và quay lại sau.",
+      "en": "I am going to park that question and come back to it later.",
+      "alts": [
+        "Let us set that question aside for now."
+      ]
+    },
+    {
+      "vi": "Xin anh/chị giữ phần này ngắn gọn để mọi người đều có cơ hội trả lời.",
+      "en": "Could you keep that brief so everyone has a chance to respond?",
+      "alts": [
+        "Please keep your answer brief so we can hear from everyone."
+      ]
+    },
+    {
+      "vi": "Vì cần tiết kiệm thời gian, tôi sẽ chuyển sang câu hỏi tiếp theo.",
+      "en": "In the interest of time, I am going to move to the next question.",
+      "alts": [
+        "To keep us on schedule, let us move on."
+      ]
+    },
+    {
+      "vi": "Hãy để lại cho khán giả một thông điệp rút ra ngắn gọn.",
+      "en": "Please leave us with one concise takeaway for the audience.",
+      "alts": [
+        "Could you give the audience one concise takeaway?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm vai người điều hành trong toàn bộ hội thoại, chú ý giọng điệu lịch sự khi ngắt lời.",
+    "Viết ba cách khác nhau để yêu cầu một khách mời trả lời ngắn hơn.",
+    "Tự tạo một phần kết gồm hai câu: một câu tóm ý và một câu cảm ơn khách mời, khán giả."
+  ]
+}

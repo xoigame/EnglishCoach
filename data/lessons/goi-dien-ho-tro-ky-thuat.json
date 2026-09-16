@@ -1,0 +1,374 @@
+{
+  "id": "goi-dien-ho-tro-ky-thuat",
+  "title": "Gọi tổng đài hỗ trợ kỹ thuật",
+  "topic": "Hỗ trợ sự cố internet tại nhà",
+  "level": "B1",
+  "summary": "Bạn gọi tổng đài vì mạng internet tại nhà không hoạt động. Bạn mô tả sự cố, nêu các bước đã thử và nhận thông tin khắc phục.",
+  "goals": [
+    "Mô tả sự cố kỹ thuật rõ ràng bằng tiếng Anh.",
+    "Nói về những cách xử lý bạn đã thử.",
+    "Lịch sự yêu cầu cập nhật và hiểu hướng dẫn từ tổng đài."
+  ],
+  "vocab": [
+    {
+      "en": "technical support",
+      "ipa": "/ˈtek.nɪ.kəl səˈpɔːrt/",
+      "vi": "bộ phận hỗ trợ kỹ thuật",
+      "example": "Technical support is available every day until midnight."
+    },
+    {
+      "en": "router",
+      "ipa": "/ˈraʊ.tər/",
+      "vi": "bộ định tuyến, cục phát mạng",
+      "example": "The router is next to the television."
+    },
+    {
+      "en": "connection",
+      "ipa": "/kəˈnek.ʃən/",
+      "vi": "kết nối",
+      "example": "My connection keeps dropping out this morning."
+    },
+    {
+      "en": "restart",
+      "ipa": "/ˌriːˈstɑːrt/",
+      "vi": "khởi động lại",
+      "example": "Please restart the router and wait for two minutes."
+    },
+    {
+      "en": "unplug",
+      "ipa": "/ʌnˈplʌɡ/",
+      "vi": "rút phích cắm",
+      "example": "Unplug the router before you check the cables."
+    },
+    {
+      "en": "service outage",
+      "ipa": "/ˈsɜːr.vɪs ˈaʊ.t̬ɪdʒ/",
+      "vi": "sự cố gián đoạn dịch vụ",
+      "example": "There is a service outage in our neighborhood."
+    },
+    {
+      "en": "engineer",
+      "ipa": "/ˌen.dʒəˈnɪr/",
+      "vi": "kỹ sư kỹ thuật",
+      "example": "An engineer is working on the damaged cable."
+    },
+    {
+      "en": "update",
+      "ipa": "/ˈʌp.deɪt/",
+      "vi": "thông tin cập nhật",
+      "example": "Could you send me an update when the service returns?"
+    },
+    {
+      "en": "troubleshoot",
+      "ipa": "/ˈtrʌb.əl.ʃuːt/",
+      "vi": "tìm và xử lý lỗi",
+      "example": "The agent helped me troubleshoot the internet problem."
+    },
+    {
+      "en": "error message",
+      "ipa": "/ˈer.ər ˈmes.ɪdʒ/",
+      "vi": "thông báo lỗi",
+      "example": "I received an error message when I tried to connect."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "My ___ has stopped working since ___.",
+      "vi": "___ của tôi đã ngừng hoạt động từ ___.",
+      "note": "Dùng hiện tại hoàn thành để nói sự cố bắt đầu trong quá khứ và còn tiếp diễn."
+    },
+    {
+      "en": "I have already ___, but ___.",
+      "vi": "Tôi đã ___ rồi, nhưng ___.",
+      "note": "Dùng để nói bước xử lý đã thử trước khi gọi hỗ trợ."
+    },
+    {
+      "en": "Could you check whether ___?",
+      "vi": "Bạn có thể kiểm tra xem liệu ___ không?",
+      "note": "Cách yêu cầu lịch sự khi nói với nhân viên tổng đài."
+    },
+    {
+      "en": "There seems to be ___ in my area.",
+      "vi": "Có vẻ như có ___ ở khu vực của tôi.",
+      "note": "Dùng khi chưa chắc chắn hoàn toàn về nguyên nhân."
+    },
+    {
+      "en": "Could you send me an update when ___?",
+      "vi": "Bạn có thể gửi cho tôi thông tin cập nhật khi ___ không?",
+      "note": "Dùng để yêu cầu tổng đài liên hệ lại sau khi khắc phục."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /t/ và /d/",
+      "tip": "Phát rõ âm cuối, đặc biệt trong stopped và restarted; đừng bỏ hẳn âm cuối như thói quen tiếng Việt.",
+      "words": [
+        "stopped",
+        "restarted",
+        "connected"
+      ]
+    },
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết chính để người nghe nhận ra từ nhanh hơn.",
+      "words": [
+        "technical",
+        "connection",
+        "engineer"
+      ]
+    },
+    {
+      "focus": "nguyên âm trong router",
+      "tip": "Giọng Mỹ thường đọc router gần như rao tờ; hãy đọc liền hai âm tiết, không tách từng chữ cái.",
+      "words": [
+        "router",
+        "outage",
+        "troubleshoot"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My internet is not work.",
+      "right": "My internet is not working.",
+      "vi": "Sau be cần dùng động từ dạng ing khi mô tả sự cố đang diễn ra."
+    },
+    {
+      "wrong": "Please help me to check it?",
+      "right": "Could you help me check it, please?",
+      "vi": "Dùng Could you giúp câu hỏi lịch sự và tự nhiên hơn khi gọi tổng đài."
+    },
+    {
+      "wrong": "I restarted already router.",
+      "right": "I have already restarted the router.",
+      "vi": "Already thường đứng sau have và trước động từ chính trong thì hiện tại hoàn thành."
+    },
+    {
+      "wrong": "There have a service outage.",
+      "right": "There is a service outage.",
+      "vi": "Dùng there is để nói có một sự cố; không dùng have trong cấu trúc này."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Báo lỗi kết nối",
+      "formal": "I am experiencing an issue with my internet connection.",
+      "casual": "My internet is acting up.",
+      "vi": "Câu formal phù hợp khi nói với tổng đài hoặc nhân viên lạ; câu casual dùng với đồng nghiệp hay bạn bè."
+    },
+    {
+      "situation": "Yêu cầu nhân viên kiểm tra",
+      "formal": "Could you please check whether there is an outage in my area?",
+      "casual": "Can you check if there is an outage around here?",
+      "vi": "Câu formal lịch sự hơn khi gọi dịch vụ; câu casual phù hợp trong cuộc trò chuyện thân mật."
+    },
+    {
+      "situation": "Yêu cầu được cập nhật",
+      "formal": "Could you keep me informed when the issue is resolved?",
+      "casual": "Please let me know when it is fixed.",
+      "vi": "Câu formal phù hợp với tổng đài hoặc email công việc; câu casual ngắn gọn, dùng với người quen."
+    },
+    {
+      "situation": "Nói đã thử khởi động lại",
+      "formal": "I have already restarted the router twice.",
+      "casual": "I have rebooted it twice already.",
+      "vi": "Câu formal dùng từ router rõ ràng khi trao đổi với hỗ trợ kỹ thuật; câu casual phù hợp khi cả hai đều hiểu đang nói về thiết bị nào."
+    }
+  ],
+  "culture": [
+    "Tổng đài viên thường hỏi tên, địa chỉ hoặc thông tin tài khoản để xác minh trước khi kiểm tra lỗi. Đây là quy trình bảo mật bình thường, không phải dấu hiệu họ nghi ngờ bạn.",
+    "Người nói tiếng Anh thường mô tả ngắn gọn triệu chứng, thời điểm bắt đầu và bước đã thử. Việc nói quá dài trước khi nhân viên hỏi có thể làm cuộc gọi kém hiệu quả.",
+    "Nhân viên có thể nói cảm ơn vì bạn đã kiên nhẫn hoặc xin lỗi vì bất tiện, nhưng đó thường là cách giữ lịch sự chứ chưa chắc là nhận trách nhiệm trực tiếp."
+  ],
+  "listening": {
+    "title": "Tin nhắn cập nhật sự cố internet",
+    "passage": "Hello, this is Northline Internet with an update about the service interruption in your neighborhood. Our team found a damaged cable and has started repairs. You do not need to restart your router again. We expect most connections to return this afternoon. If your service is still unavailable tonight, please call technical support and mention the outage in your area. Thank you for your patience.",
+    "vi": "Xin chào, đây là Northline Internet với thông tin cập nhật về sự gián đoạn dịch vụ tại khu vực của bạn. Đội ngũ của chúng tôi đã tìm thấy một dây cáp bị hỏng và đã bắt đầu sửa chữa. Bạn không cần khởi động lại bộ định tuyến thêm lần nữa. Chúng tôi dự kiến phần lớn các kết nối sẽ hoạt động lại vào chiều nay. Nếu dịch vụ của bạn vẫn không dùng được vào tối nay, hãy gọi bộ phận hỗ trợ kỹ thuật và nhắc đến sự cố tại khu vực của bạn. Cảm ơn sự kiên nhẫn của bạn.",
+    "questions": [
+      {
+        "q": "What did the team find?",
+        "choices": [
+          "A damaged cable",
+          "A broken router",
+          "An account problem"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là A damaged cable vì bài nghe nói đội ngũ đã tìm thấy một dây cáp bị hỏng."
+      },
+      {
+        "q": "What should the listener avoid doing again?",
+        "choices": [
+          "Calling technical support",
+          "Restarting the router",
+          "Checking the connection"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Restarting the router vì bài nghe nói không cần khởi động lại bộ định tuyến thêm nữa."
+      },
+      {
+        "q": "When should the listener call technical support?",
+        "choices": [
+          "If service is unavailable tonight",
+          "Before repairs begin",
+          "As soon as the afternoon starts"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là If service is unavailable tonight vì bài nghe hướng dẫn gọi nếu dịch vụ vẫn không hoạt động vào tối nay."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên hỗ trợ kỹ thuật",
+      "b": "Khách hàng gọi báo lỗi internet"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thank you for calling BrightNet Technical Support. How may I assist you today?",
+        "vi": "Cảm ơn bạn đã gọi đến bộ phận hỗ trợ kỹ thuật BrightNet. Hôm nay tôi có thể hỗ trợ bạn thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, my home internet has stopped working since this morning, and I need help.",
+        "vi": "Chào, mạng internet tại nhà tôi đã không hoạt động từ sáng nay và tôi cần hỗ trợ.",
+        "hint": "Dùng has stopped working để nói sự cố vẫn đang tiếp diễn."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry to hear that. Are any lights on your router flashing red?",
+        "vi": "Tôi rất tiếc khi nghe điều đó. Có đèn nào trên bộ định tuyến của bạn nhấp nháy màu đỏ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, the internet light is red, but the power light seems normal.",
+        "vi": "Có, đèn internet màu đỏ, nhưng đèn nguồn có vẻ bình thường.",
+        "hint": "Dùng but để đối chiếu hai thông tin."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. Please unplug the router, wait thirty seconds, then plug it back in.",
+        "vi": "Cảm ơn. Hãy rút phích cắm bộ định tuyến, chờ ba mươi giây rồi cắm lại.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have already restarted it twice, so I do not think that will help.",
+        "vi": "Tôi đã khởi động lại nó hai lần rồi, nên tôi không nghĩ việc đó sẽ có ích.",
+        "hint": "Dùng have already restarted để nói việc bạn đã thử."
+      },
+      {
+        "speaker": "a",
+        "en": "Understood. Could you check whether the cable from the wall is firmly connected?",
+        "vi": "Tôi hiểu. Bạn có thể kiểm tra xem dây cáp từ tường có được kết nối chắc chắn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I checked it, and the cable is secure, although the connection still drops out.",
+        "vi": "Tôi đã kiểm tra, và dây cáp chắc chắn, mặc dù kết nối vẫn bị chập chờn.",
+        "hint": "Dùng although để thêm ý trái ngược."
+      },
+      {
+        "speaker": "a",
+        "en": "I can see a service issue near your address, which may be causing this problem.",
+        "vi": "Tôi thấy có sự cố dịch vụ gần địa chỉ của bạn, điều này có thể gây ra vấn đề này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That makes sense, because my neighbor has the same issue with her connection.",
+        "vi": "Điều đó hợp lý, vì hàng xóm của tôi cũng gặp vấn đề tương tự với kết nối của cô ấy.",
+        "hint": "Dùng because để nêu lý do hoặc bằng chứng."
+      },
+      {
+        "speaker": "a",
+        "en": "Our engineers are working on it now, and service should return within two hours.",
+        "vi": "Các kỹ sư của chúng tôi đang xử lý ngay bây giờ, và dịch vụ sẽ hoạt động lại trong vòng hai giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you send me an update when the problem has been fixed, please?",
+        "vi": "Bạn có thể gửi cho tôi thông tin cập nhật khi vấn đề đã được khắc phục không?",
+        "hint": "Could you giúp yêu cầu này lịch sự hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. I have added your number, and you will receive a text message.",
+        "vi": "Chắc chắn rồi. Tôi đã thêm số của bạn, và bạn sẽ nhận được tin nhắn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, thank you for explaining everything clearly. I will wait for the update.",
+        "vi": "Tuyệt, cảm ơn bạn đã giải thích mọi thứ rõ ràng. Tôi sẽ chờ thông tin cập nhật.",
+        "hint": "Kết thúc cuộc gọi lịch sự bằng lời cảm ơn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a patient technical support agent for a home internet provider, speaking by phone. Ask clear troubleshooting questions, explain each step calmly, and confirm the next action before ending the call.",
+    "opener": "Thank you for calling BrightNet Technical Support. How may I assist you today?",
+    "goal": "Người học báo lỗi internet, mô tả các bước đã thử và xin cập nhật về thời gian khắc phục."
+  },
+  "drills": [
+    {
+      "vi": "Mạng internet tại nhà tôi đã không hoạt động từ sáng nay.",
+      "en": "My home internet has stopped working since this morning.",
+      "alts": [
+        "My internet connection has been down since this morning."
+      ]
+    },
+    {
+      "vi": "Tôi đã khởi động lại bộ định tuyến rồi, nhưng kết nối vẫn chập chờn.",
+      "en": "I have already restarted the router, but the connection still drops out.",
+      "alts": [
+        "I restarted the router already, but it is still not working."
+      ]
+    },
+    {
+      "vi": "Bạn có thể kiểm tra xem có sự cố dịch vụ trong khu vực của tôi không?",
+      "en": "Could you check whether there is a service outage in my area?",
+      "alts": [
+        "Could you see if there is a service problem near my address?"
+      ]
+    },
+    {
+      "vi": "Hãy rút phích cắm bộ định tuyến và cắm lại sau ba mươi giây.",
+      "en": "Please unplug the router and plug it back in after thirty seconds.",
+      "alts": [
+        "Unplug the router, wait thirty seconds, then reconnect it."
+      ]
+    },
+    {
+      "vi": "Hàng xóm của tôi cũng có vấn đề tương tự.",
+      "en": "My neighbor has the same issue as well.",
+      "alts": [
+        "My neighbor is having the same problem."
+      ]
+    },
+    {
+      "vi": "Bạn có thể gửi cho tôi thông tin cập nhật khi sự cố được khắc phục không?",
+      "en": "Could you send me an update when the problem has been fixed?",
+      "alts": [
+        "Please let me know when the service is back."
+      ]
+    },
+    {
+      "vi": "Tôi không nghĩ khởi động lại sẽ giúp ích trong trường hợp này.",
+      "en": "I do not think restarting it will help in this case.",
+      "alts": [
+        "I have tried restarting it, so I do not think that will solve the problem."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai khách hàng trong toàn bộ hội thoại và nghe lại để sửa âm cuối.",
+    "Đặt ba câu dùng mẫu I have already ___, but ___.",
+    "Tự tạo một cuộc gọi ngắn về lỗi không nhận được mã xác nhận hoặc lỗi ứng dụng."
+  ]
+}

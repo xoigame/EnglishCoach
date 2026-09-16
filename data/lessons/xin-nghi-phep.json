@@ -1,0 +1,374 @@
+{
+  "id": "xin-nghi-phep",
+  "title": "Xin nghỉ phép và bàn giao công việc",
+  "topic": "Nghỉ phép tại nơi làm việc",
+  "level": "B1",
+  "summary": "Người học trao đổi với quản lý trực tiếp để xin nghỉ phép vì việc gia đình. Họ trình bày kế hoạch bàn giao, sắp xếp người hỗ trợ và hoàn tất đơn nghỉ.",
+  "goals": [
+    "Xin nghỉ phép một cách lịch sự và nêu lý do phù hợp.",
+    "Trao đổi kế hoạch bàn giao công việc trước khi nghỉ.",
+    "Cam kết các bước tiếp theo và phản hồi ý kiến của quản lý."
+  ],
+  "vocab": [
+    {
+      "en": "take leave",
+      "ipa": "/teɪk liːv/",
+      "vi": "nghỉ phép",
+      "example": "I would like to take leave next week."
+    },
+    {
+      "en": "day off",
+      "ipa": "/deɪ ɔːf/",
+      "vi": "ngày nghỉ",
+      "example": "I need three days off for a family matter."
+    },
+    {
+      "en": "family matter",
+      "ipa": "/ˈfæməli ˈmætər/",
+      "vi": "việc gia đình",
+      "example": "She is dealing with an important family matter."
+    },
+    {
+      "en": "cover",
+      "ipa": "/ˈkʌvər/",
+      "vi": "đảm nhận thay công việc của ai đó",
+      "example": "Can Mai cover my client meeting on Thursday?"
+    },
+    {
+      "en": "client meeting",
+      "ipa": "/ˈklaɪənt ˈmiːtɪŋ/",
+      "vi": "cuộc họp với khách hàng",
+      "example": "The client meeting has been moved to Wednesday."
+    },
+    {
+      "en": "handover",
+      "ipa": "/ˈhændˌoʊvər/",
+      "vi": "việc bàn giao công việc; tài liệu bàn giao",
+      "example": "I will prepare a clear handover before I leave."
+    },
+    {
+      "en": "due",
+      "ipa": "/duː/",
+      "vi": "đến hạn phải hoàn thành",
+      "example": "The report is due on Friday afternoon."
+    },
+    {
+      "en": "leave request",
+      "ipa": "/liːv rɪˈkwest/",
+      "vi": "đơn xin nghỉ phép",
+      "example": "Please submit your leave request through the system."
+    },
+    {
+      "en": "team calendar",
+      "ipa": "/tiːm ˈkælɪndər/",
+      "vi": "lịch chung của nhóm",
+      "example": "I have updated the team calendar with my leave dates."
+    },
+    {
+      "en": "backup support",
+      "ipa": "/ˈbækʌp səˈpɔːrt/",
+      "vi": "người hoặc sự hỗ trợ dự phòng",
+      "example": "We will arrange backup support while you are away."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to take leave from ___ to ___, if possible.",
+      "vi": "Tôi muốn nghỉ phép từ ___ đến ___, nếu được.",
+      "note": "Dùng để nêu thời gian nghỉ một cách lịch sự."
+    },
+    {
+      "en": "I need ___ days off because ___.",
+      "vi": "Tôi cần nghỉ ___ ngày vì ___.",
+      "note": "Nêu lý do ngắn gọn, không cần chia sẻ chi tiết riêng tư."
+    },
+    {
+      "en": "I have already spoken with ___, and they can cover ___.",
+      "vi": "Tôi đã trao đổi với ___, và họ có thể đảm nhận ___.",
+      "note": "Dùng thì hiện tại hoàn thành để nói việc đã chuẩn bị."
+    },
+    {
+      "en": "I will make sure that ___ is completed before I leave.",
+      "vi": "Tôi sẽ bảo đảm rằng ___ được hoàn thành trước khi nghỉ.",
+      "note": "Thể hiện trách nhiệm với công việc còn lại."
+    },
+    {
+      "en": "Could you approve my leave request once I submit it?",
+      "vi": "Anh/chị có thể duyệt đơn nghỉ của tôi sau khi tôi nộp không?",
+      "note": "Cách hỏi lịch sự với quản lý trực tiếp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /iː/ và /ɪ/",
+      "tip": "Kéo dài âm /iː/ trong leave; âm /ɪ/ trong live ngắn và thả lỏng hơn.",
+      "words": [
+        "leave",
+        "meeting",
+        "finish"
+      ]
+    },
+    {
+      "focus": "trọng âm từ handover",
+      "tip": "Nhấn âm đầu: HAND over. Không nhấn đều cả ba phần.",
+      "words": [
+        "handover",
+        "calendar",
+        "family"
+      ]
+    },
+    {
+      "focus": "âm cuối /t/ và /d/",
+      "tip": "Phát âm nhẹ phụ âm cuối để phân biệt need với knee, và report với repo.",
+      "words": [
+        "need",
+        "report",
+        "submit"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want take leave next week.",
+      "right": "I would like to take leave next week.",
+      "vi": "Sau want cần có to, nhưng với quản lý nên dùng would like để lịch sự hơn."
+    },
+    {
+      "wrong": "I take three days off next week.",
+      "right": "I need to take three days off next week.",
+      "vi": "Khi nói kế hoạch tương lai, cần dùng need to hoặc will thay vì hiện tại đơn."
+    },
+    {
+      "wrong": "Mai will cover for my meeting.",
+      "right": "Mai will cover my meeting.",
+      "vi": "Cover có thể đi trực tiếp với công việc; không cần for trong câu này."
+    },
+    {
+      "wrong": "I will handover my work to Mai.",
+      "right": "I will hand over my work to Mai.",
+      "vi": "Hand over là động từ gồm hai từ. Handover là danh từ, như a handover note."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở lời về việc xin nghỉ phép",
+      "formal": "I would like to discuss a leave request for next week, if you have a moment.",
+      "casual": "Can we talk about me taking a few days off next week?",
+      "vi": "Câu formal phù hợp khi nói với cấp trên hoặc trong cuộc họp chính thức; câu casual phù hợp với quản lý thân thiện, nhưng vẫn lịch sự."
+    },
+    {
+      "situation": "Nêu lý do nghỉ",
+      "formal": "I need to take leave because of a personal family matter.",
+      "casual": "I have some family things to take care of.",
+      "vi": "Câu formal phù hợp cho email hoặc đơn nghỉ; câu casual tự nhiên khi trao đổi trực tiếp. Cả hai đều giữ riêng tư, không cần kể chi tiết."
+    },
+    {
+      "situation": "Nói về bàn giao công việc",
+      "formal": "I have prepared a handover document and arranged coverage for my urgent tasks.",
+      "casual": "I have written everything down, and Mai can cover the urgent stuff.",
+      "vi": "Câu formal phù hợp khi báo cáo với quản lý; câu casual dùng với đồng nghiệp thân. Tránh dùng urgent stuff trong email trang trọng."
+    },
+    {
+      "situation": "Cảm ơn quản lý",
+      "formal": "Thank you for your understanding and for approving my request.",
+      "casual": "Thanks, I really appreciate your help.",
+      "vi": "Câu formal phù hợp trong email sau khi được duyệt; câu casual phù hợp khi nói trực tiếp với quản lý có quan hệ gần gũi."
+    }
+  ],
+  "culture": [
+    "Ở môi trường nói tiếng Anh, nhân viên thường báo ngày nghỉ sớm, đồng thời chủ động đề xuất cách xử lý việc gấp. Chỉ xin nghỉ mà không nhắc đến bàn giao có thể bị xem là thiếu chuẩn bị.",
+    "Bạn có thể nói lý do chung như personal matter hoặc family matter. Quản lý tốt thường không ép bạn phải chia sẻ thông tin riêng tư.",
+    "Quản lý có thể hỏi thẳng về các việc đến hạn và người thay thế. Đây thường là trao đổi để cùng tìm giải pháp, không nhất thiết là dấu hiệu họ không muốn duyệt nghỉ."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về kế hoạch nghỉ phép",
+    "passage": "Hello team, I will be away from the office next Monday and Tuesday because I have a medical appointment and need some time to recover. Before I leave, I will finish the weekly update, move my calls to Wednesday, and send Lan the files she needs. If anything urgent comes up, please contact Minh, who will be covering my messages.",
+    "vi": "Chào cả nhóm, tôi sẽ vắng mặt ở văn phòng vào thứ Hai và thứ Ba tới vì tôi có lịch hẹn y tế và cần thời gian hồi phục. Trước khi nghỉ, tôi sẽ hoàn thành bản cập nhật hằng tuần, chuyển các cuộc gọi sang thứ Tư và gửi Lan những tệp cô ấy cần. Nếu có việc gấp phát sinh, hãy liên hệ Minh, người sẽ xử lý các tin nhắn của tôi.",
+    "questions": [
+      {
+        "q": "Why will the speaker be away from the office?",
+        "choices": [
+          "For a medical appointment",
+          "For a client meeting",
+          "For a training course"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói nói: because I have a medical appointment."
+      },
+      {
+        "q": "When will the speaker move the calls to?",
+        "choices": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì bài nghe nói: move my calls to Wednesday."
+      },
+      {
+        "q": "Who should the team contact about urgent messages?",
+        "choices": [
+          "Lan",
+          "Minh",
+          "The speaker"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì Minh will be covering my messages."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý trực tiếp",
+      "b": "Nhân viên xin nghỉ phép"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, do you have a few minutes to talk about your schedule this month?",
+        "vi": "Chào, bạn có vài phút để nói về lịch làm việc tháng này không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure, I wanted to ask about taking some leave next week, if possible.",
+        "vi": "Dạ được, tôi muốn hỏi về việc nghỉ phép vào tuần tới, nếu có thể.",
+        "hint": "Mở đầu nhẹ nhàng bằng I wanted to ask about."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. What dates are you considering, and how long would you be away?",
+        "vi": "Được chứ. Bạn đang tính nghỉ vào những ngày nào và nghỉ bao lâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I need three days off from Wednesday to Friday for a family matter.",
+        "vi": "Tôi cần nghỉ ba ngày, từ thứ Tư đến thứ Sáu, vì việc gia đình.",
+        "hint": "Dùng days off để nói số ngày nghỉ."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks for letting me know early. Is everything all right at home?",
+        "vi": "Cảm ơn bạn đã báo sớm. Mọi việc ở nhà đều ổn chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, it is manageable, but I need to help my parents with appointments.",
+        "vi": "Vâng, vẫn ổn ạ, nhưng tôi cần giúp bố mẹ đi các buổi hẹn.",
+        "hint": "Không cần kể quá chi tiết; nêu lý do vừa đủ."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand. Have you checked whether anyone can cover your client meetings?",
+        "vi": "Tôi hiểu. Bạn đã kiểm tra xem có ai có thể đảm nhận các cuộc họp với khách hàng chưa?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have spoken with Mai, and she can handle the meeting on Thursday.",
+        "vi": "Tôi đã nói chuyện với Mai, và cô ấy có thể xử lý cuộc họp vào thứ Năm.",
+        "hint": "Dùng I have spoken with để nói việc bạn đã chuẩn bị."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds helpful. What about the report due Friday and following up with the supplier?",
+        "vi": "Nghe ổn đấy. Còn báo cáo đến hạn thứ Sáu và việc theo dõi nhà cung cấp thì sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can finish the report Tuesday and send the supplier a detailed handover note.",
+        "vi": "Tôi có thể hoàn thành báo cáo vào thứ Ba và gửi nhà cung cấp ghi chú bàn giao chi tiết.",
+        "hint": "Dùng can để đưa ra kế hoạch khả thi."
+      },
+      {
+        "speaker": "a",
+        "en": "Good plan. Please also update the team calendar and copy me on the email.",
+        "vi": "Kế hoạch tốt. Bạn cũng hãy cập nhật lịch chung của nhóm và gửi kèm tôi trong email.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will do that today, then submit the leave request through the system.",
+        "vi": "Hôm nay tôi sẽ làm việc đó, rồi nộp đơn nghỉ phép qua hệ thống.",
+        "hint": "Dùng then để nối hai việc theo thứ tự."
+      },
+      {
+        "speaker": "a",
+        "en": "Once I receive it, I will approve the leave and arrange backup support.",
+        "vi": "Khi tôi nhận được đơn, tôi sẽ duyệt nghỉ phép và sắp xếp hỗ trợ dự phòng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you, I appreciate your support and will make sure the handover is clear.",
+        "vi": "Cảm ơn anh/chị, tôi rất trân trọng sự hỗ trợ và sẽ bảo đảm việc bàn giao rõ ràng.",
+        "hint": "Kết thúc bằng lời cảm ơn và một cam kết cụ thể."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a supportive direct manager at a marketing company. An employee wants to request leave, and you calmly ask about dates, urgent tasks, and a practical handover plan.",
+    "opener": "Hi, do you have a few minutes to talk about your schedule this month?",
+    "goal": "Người học xin nghỉ phép, giải thích lý do ngắn gọn và thống nhất kế hoạch bàn giao với quản lý."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn nghỉ phép từ thứ Tư đến thứ Sáu, nếu được.",
+      "en": "I would like to take leave from Wednesday to Friday, if possible.",
+      "alts": [
+        "I would like to request leave from Wednesday to Friday."
+      ]
+    },
+    {
+      "vi": "Tôi cần nghỉ hai ngày vì việc gia đình.",
+      "en": "I need two days off because of a family matter.",
+      "alts": [
+        "I need to take two days off for a family matter."
+      ]
+    },
+    {
+      "vi": "Báo cáo này đến hạn vào thứ Sáu.",
+      "en": "This report is due on Friday.",
+      "alts": [
+        "The report needs to be finished by Friday."
+      ]
+    },
+    {
+      "vi": "Tôi đã nói chuyện với Lan, và cô ấy có thể đảm nhận cuộc họp.",
+      "en": "I have spoken with Lan, and she can cover the meeting.",
+      "alts": [
+        "I have checked with Lan, and she can handle the meeting."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ hoàn thành các việc khẩn cấp trước khi nghỉ.",
+      "en": "I will finish the urgent tasks before I leave.",
+      "alts": [
+        "I will make sure the urgent tasks are completed before I leave."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ gửi một ghi chú bàn giao chi tiết cho nhóm.",
+      "en": "I will send the team a detailed handover note.",
+      "alts": [
+        "I will prepare a detailed handover for the team."
+      ]
+    },
+    {
+      "vi": "Anh/chị có thể duyệt đơn nghỉ của tôi sau khi tôi nộp không?",
+      "en": "Could you approve my leave request once I submit it?",
+      "alts": [
+        "Could you review my leave request after I submit it?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai nhân viên trong hội thoại và kiểm tra các âm cuối trong need, report, submit.",
+    "Viết một tin nhắn 4 đến 5 câu xin nghỉ phép, nêu ngày nghỉ và kế hoạch bàn giao.",
+    "Tự thay lý do, ngày nghỉ và tên đồng nghiệp trong ba câu drill để luyện phản xạ."
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "o-tiem-cat-toc",
+  "title": "Ở tiệm cắt tóc: mô tả kiểu tóc bạn muốn",
+  "topic": "Mô tả kiểu tóc ở tiệm cắt tóc",
+  "level": "A2",
+  "summary": "Bạn học cách nói kiểu tóc mong muốn với thợ cắt tóc. Bạn sẽ mô tả độ dài hai bên, phần tóc trên đầu và các yêu cầu thêm.",
+  "goals": [
+    "Gọi tên các phần tóc và mô tả độ dài mong muốn.",
+    "Nói rõ muốn cắt bao nhiêu và tránh cắt quá ngắn.",
+    "Xác nhận lại kiểu tóc trước khi thợ bắt đầu cắt."
+  ],
+  "vocab": [
+    {
+      "en": "haircut",
+      "ipa": "/ˈherkʌt/",
+      "vi": "việc cắt tóc; kiểu tóc mới",
+      "example": "I would like a haircut, please."
+    },
+    {
+      "en": "sides",
+      "ipa": "/saɪdz/",
+      "vi": "phần tóc hai bên",
+      "example": "Please keep the sides short."
+    },
+    {
+      "en": "back",
+      "ipa": "/bæk/",
+      "vi": "phần tóc phía sau gáy",
+      "example": "The back can be short, too."
+    },
+    {
+      "en": "top",
+      "ipa": "/tɑːp/",
+      "vi": "phần tóc trên đỉnh đầu",
+      "example": "Leave the top a little longer."
+    },
+    {
+      "en": "trim",
+      "ipa": "/trɪm/",
+      "vi": "tỉa, cắt gọn một ít",
+      "example": "Please trim my hair around the ears."
+    },
+    {
+      "en": "longer",
+      "ipa": "/ˈlɔːŋɡər/",
+      "vi": "dài hơn",
+      "example": "I want the top longer than the sides."
+    },
+    {
+      "en": "fringe",
+      "ipa": "/frɪndʒ/",
+      "vi": "tóc mái",
+      "example": "I do not want a fringe."
+    },
+    {
+      "en": "neat",
+      "ipa": "/niːt/",
+      "vi": "gọn gàng",
+      "example": "I want a neat haircut for work."
+    },
+    {
+      "en": "brush",
+      "ipa": "/brʌʃ/",
+      "vi": "chải tóc",
+      "example": "I brush my hair to the side."
+    },
+    {
+      "en": "hair product",
+      "ipa": "/her ˈprɑːdʌkt/",
+      "vi": "sản phẩm tạo kiểu tóc",
+      "example": "A little hair product is fine."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like a ___, please.",
+      "vi": "Tôi muốn ___, làm ơn.",
+      "note": "Dùng để mở đầu yêu cầu một cách lịch sự."
+    },
+    {
+      "en": "Please keep the ___ short.",
+      "vi": "Hãy giữ phần ___ ngắn.",
+      "note": "Dùng sides hoặc back để chỉ vị trí tóc."
+    },
+    {
+      "en": "Leave the ___ longer.",
+      "vi": "Để phần ___ dài hơn.",
+      "note": "Dùng khi muốn giữ lại độ dài ở một phần tóc."
+    },
+    {
+      "en": "Please take about ___ centimeters off.",
+      "vi": "Hãy cắt bớt khoảng ___ xăng-ti-mét.",
+      "note": "Dùng để nói độ dài tóc muốn cắt đi."
+    },
+    {
+      "en": "I usually brush my hair to the side.",
+      "vi": "Tôi thường chải tóc sang một bên.",
+      "note": "Giúp thợ hiểu cách bạn hay tạo kiểu tóc."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /ʃ/ trong short",
+      "tip": "Chu môi nhẹ, đẩy hơi như khi bảo ai đó im lặng; không đọc thành âm /s/.",
+      "words": [
+        "short",
+        "brush"
+      ]
+    },
+    {
+      "focus": "âm /dʒ/ cuối từ fringe",
+      "tip": "Kết thúc bằng âm bật nhẹ /dʒ/, không bỏ âm cuối hoặc đọc thành /s/.",
+      "words": [
+        "fringe"
+      ]
+    },
+    {
+      "focus": "âm /z/ cuối từ sides",
+      "tip": "Rung cổ họng ở âm cuối /z/; không đọc sides thành side.",
+      "words": [
+        "sides",
+        "longer"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Please cut short my hair.",
+      "right": "Please cut my hair short.",
+      "vi": "Trạng từ short đứng sau tân ngữ my hair trong câu này."
+    },
+    {
+      "wrong": "Keep long the top.",
+      "right": "Keep the top longer.",
+      "vi": "Cần đặt the top sau động từ keep và dùng longer để so sánh với hai bên."
+    },
+    {
+      "wrong": "I want cut two centimeters.",
+      "right": "I want to cut about two centimeters off.",
+      "vi": "Sau want cần có to, và dùng off để nói cắt bớt một phần tóc."
+    },
+    {
+      "wrong": "Do not cut too much short.",
+      "right": "Please do not cut it too short.",
+      "vi": "Dùng too short để nói không muốn tóc bị cắt quá ngắn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Yêu cầu cắt tóc",
+      "formal": "I would like a haircut, please.",
+      "casual": "Can I get a haircut?",
+      "vi": "Câu formal phù hợp khi gặp thợ lần đầu hoặc ở salon trang trọng. Câu casual tự nhiên hơn ở tiệm quen, nhưng vẫn lịch sự."
+    },
+    {
+      "situation": "Yêu cầu cắt ngắn phần hai bên",
+      "formal": "Could you keep the sides short, please?",
+      "casual": "Short sides, please.",
+      "vi": "Câu formal là yêu cầu đầy đủ và mềm hơn. Câu casual rất thường dùng khi trao đổi nhanh với thợ cắt tóc."
+    },
+    {
+      "situation": "Nói lượng tóc muốn cắt",
+      "formal": "Please take about two centimeters off.",
+      "casual": "About two centimeters off, please.",
+      "vi": "Câu formal có đủ chủ ngữ ngầm và động từ. Câu casual rút gọn, phù hợp khi thợ đã hỏi bạn muốn cắt bao nhiêu."
+    },
+    {
+      "situation": "Từ chối để tóc mái",
+      "formal": "I would prefer no fringe, thank you.",
+      "casual": "No fringe, please.",
+      "vi": "Câu formal nhẹ nhàng hơn khi nêu sở thích. Câu casual ngắn gọn và bình thường trong lúc trao đổi trực tiếp với thợ."
+    }
+  ],
+  "culture": [
+    "Ở các tiệm tóc nói tiếng Anh, thợ thường hỏi rất thẳng như “How much off?” hoặc “What are we doing today?”; đây là cách thân thiện để làm rõ yêu cầu, không phải thiếu lịch sự.",
+    "Mang theo ảnh kiểu tóc bạn thích là việc rất phổ biến. Ảnh giúp tránh hiểu khác nhau về các từ như short hoặc longer.",
+    "Bạn không bắt buộc phải nói chuyện liên tục trong lúc cắt tóc. Nếu muốn yên tĩnh, bạn có thể lịch sự nói rằng bạn muốn một buổi cắt tóc yên tĩnh."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ tiệm cắt tóc",
+    "passage": "Hi, this is May from City Cut Barbers. Your appointment is at three this afternoon. Please come ten minutes early, so we can talk about your haircut. If you want a big change, bring a photo of the style you like. We can wash your hair before the cut. Please tell your barber if you do not want the sides too short. See you soon.",
+    "vi": "Chào, tôi là May từ tiệm City Cut Barbers. Lịch hẹn của bạn là ba giờ chiều nay. Hãy đến sớm mười phút để chúng ta có thể trao đổi về kiểu tóc của bạn. Nếu bạn muốn thay đổi nhiều, hãy mang theo ảnh kiểu tóc bạn thích. Chúng tôi có thể gội đầu cho bạn trước khi cắt. Hãy nói với thợ cắt tóc nếu bạn không muốn phần hai bên quá ngắn. Hẹn gặp bạn sớm.",
+    "questions": [
+      {
+        "q": "What time is the appointment?",
+        "choices": [
+          "At two this afternoon",
+          "At three this afternoon",
+          "At ten this morning"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói rõ “Your appointment is at three this afternoon.”"
+      },
+      {
+        "q": "Why should the customer come early?",
+        "choices": [
+          "To pay for the haircut",
+          "To choose a hair product",
+          "To talk about the haircut"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì có câu “so we can talk about your haircut.”"
+      },
+      {
+        "q": "What should the customer bring for a big change?",
+        "choices": [
+          "A photo of a hairstyle",
+          "A new hair product",
+          "A hat"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì đoạn nghe nói “bring a photo of the style you like.”"
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Thợ cắt tóc",
+      "b": "Khách hàng, tức người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi. Please have a seat. What would you like today?",
+        "vi": "Chào bạn. Mời bạn ngồi. Hôm nay bạn muốn cắt thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I would like a haircut, please.",
+        "vi": "Chào, tôi muốn cắt tóc, làm ơn.",
+        "hint": "Dùng I would like để đưa ra yêu cầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. How would you like the sides and back?",
+        "vi": "Được chứ. Bạn muốn phần hai bên và phía sau thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Please keep them short, but not too short.",
+        "vi": "Hãy giữ chúng ngắn, nhưng đừng quá ngắn.",
+        "hint": "Dùng short, but not too short để nói rõ mức độ."
+      },
+      {
+        "speaker": "a",
+        "en": "No problem. What about the hair on top?",
+        "vi": "Không vấn đề gì. Còn phần tóc trên đỉnh đầu thì sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Leave it longer on top, please.",
+        "vi": "Hãy để phần trên dài hơn, làm ơn.",
+        "hint": "Leave it longer nghĩa là để nó dài hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Okay. How much would you like me to take off?",
+        "vi": "Được. Bạn muốn tôi cắt bớt bao nhiêu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "About two centimeters. I want it neat and easy to manage.",
+        "vi": "Khoảng hai xăng-ti-mét. Tôi muốn tóc gọn gàng và dễ chăm sóc.",
+        "hint": "Nói số lượng trước, rồi thêm mong muốn về kiểu tóc."
+      },
+      {
+        "speaker": "a",
+        "en": "Would you like a fringe, or brush it aside?",
+        "vi": "Bạn muốn để mái hay chải tóc sang một bên?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No fringe, please. I usually brush my hair to the side.",
+        "vi": "Không để mái, làm ơn. Tôi thường chải tóc sang một bên.",
+        "hint": "No fringe là cách ngắn gọn để từ chối để tóc mái."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Short sides and a longer top. Is that right?",
+        "vi": "Tuyệt. Hai bên ngắn và phần trên dài hơn. Đúng chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, that sounds perfect. A little product is fine, too.",
+        "vi": "Vâng, nghe hoàn hảo đấy. Dùng một ít sản phẩm tạo kiểu cũng được.",
+        "hint": "That sounds perfect dùng để xác nhận rằng mô tả là đúng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly barber in a busy neighborhood barbershop. You listen carefully, ask simple questions, and confirm the haircut before you begin.",
+    "opener": "Hi. Please have a seat. What would you like today?",
+    "goal": "Người học mô tả kiểu tóc mong muốn, nói độ dài cần cắt và xác nhận lại yêu cầu."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn cắt tóc, làm ơn.",
+      "en": "I would like a haircut, please.",
+      "alts": [
+        "Can I get a haircut, please?"
+      ]
+    },
+    {
+      "vi": "Hãy giữ phần hai bên ngắn.",
+      "en": "Please keep the sides short.",
+      "alts": [
+        "Keep the sides short, please."
+      ]
+    },
+    {
+      "vi": "Để phần tóc trên đỉnh đầu dài hơn.",
+      "en": "Leave the top longer.",
+      "alts": [
+        "Please leave the top a little longer."
+      ]
+    },
+    {
+      "vi": "Hãy cắt bớt khoảng hai xăng-ti-mét.",
+      "en": "Please take about two centimeters off.",
+      "alts": [
+        "Take off about two centimeters, please."
+      ]
+    },
+    {
+      "vi": "Tôi không muốn để tóc mái.",
+      "en": "I do not want a fringe.",
+      "alts": [
+        "No fringe, please."
+      ]
+    },
+    {
+      "vi": "Tôi thường chải tóc sang một bên.",
+      "en": "I usually brush my hair to the side.",
+      "alts": [
+        "I usually wear my hair to the side."
+      ]
+    },
+    {
+      "vi": "Tôi muốn tóc gọn gàng và dễ chăm sóc.",
+      "en": "I want it neat and easy to manage.",
+      "alts": [
+        "I would like a neat, easy haircut."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần của bạn trong hội thoại và tự nghe lại phát âm các từ short, sides, fringe.",
+    "Viết ba câu mô tả kiểu tóc bạn muốn bằng các mẫu câu trong bài.",
+    "Luyện đóng vai: thay đổi số xăng-ti-mét và cách bạn thường chải tóc."
+  ]
+}

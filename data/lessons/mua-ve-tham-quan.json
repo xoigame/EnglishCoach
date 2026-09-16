@@ -1,0 +1,378 @@
+{
+  "id": "mua-ve-tham-quan",
+  "title": "Mua vé tham quan và hỏi giờ mở cửa",
+  "topic": "Mua vé bảo tàng",
+  "level": "A2",
+  "summary": "Người học mua vé vào bảo tàng, hỏi giờ mở cửa và hỏi về tour tiếng Anh. Bài học giúp dùng các câu lịch sự, ngắn gọn trong tình huống thực tế.",
+  "goals": [
+    "Mua vé tham quan và nói số lượng vé cần mua",
+    "Hỏi giờ mở cửa, giờ đóng cửa và giờ vào cửa cuối cùng",
+    "Hỏi về tour có hướng dẫn bằng tiếng Anh"
+  ],
+  "vocab": [
+    {
+      "en": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "vi": "vé",
+      "example": "Can I buy two tickets for today?"
+    },
+    {
+      "en": "adult ticket",
+      "ipa": "/ˈædʌlt ˈtɪkɪt/",
+      "vi": "vé người lớn",
+      "example": "An adult ticket costs ten dollars."
+    },
+    {
+      "en": "ticket desk",
+      "ipa": "/ˈtɪkɪt desk/",
+      "vi": "quầy bán vé",
+      "example": "Please wait near the ticket desk."
+    },
+    {
+      "en": "opening hours",
+      "ipa": "/ˈoʊpənɪŋ ˈaʊərz/",
+      "vi": "giờ mở cửa",
+      "example": "What are the opening hours today?"
+    },
+    {
+      "en": "open",
+      "ipa": "/ˈoʊpən/",
+      "vi": "mở cửa",
+      "example": "The museum opens at nine o'clock."
+    },
+    {
+      "en": "close",
+      "ipa": "/kloʊz/",
+      "vi": "đóng cửa",
+      "example": "It closes at five o'clock."
+    },
+    {
+      "en": "last entry",
+      "ipa": "/læst ˈentri/",
+      "vi": "giờ vào cửa cuối cùng",
+      "example": "Last entry is at four thirty."
+    },
+    {
+      "en": "guided tour",
+      "ipa": "/ˈɡaɪdɪd tʊr/",
+      "vi": "tour có hướng dẫn",
+      "example": "The guided tour starts at eleven."
+    },
+    {
+      "en": "main entrance",
+      "ipa": "/meɪn ˈentrəns/",
+      "vi": "lối vào chính",
+      "example": "The main entrance is straight ahead."
+    },
+    {
+      "en": "valid",
+      "ipa": "/ˈvælɪd/",
+      "vi": "có hiệu lực",
+      "example": "Your ticket is valid all day."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like ___, please.",
+      "vi": "Tôi muốn ___, vui lòng.",
+      "note": "Cách nói lịch sự khi mua vé hoặc yêu cầu dịch vụ."
+    },
+    {
+      "en": "How much are ___?",
+      "vi": "___ giá bao nhiêu?",
+      "note": "Dùng are khi hỏi giá của nhiều vé."
+    },
+    {
+      "en": "What time does ___ open?",
+      "vi": "___ mở cửa lúc mấy giờ?",
+      "note": "Sau does, động từ open giữ nguyên mẫu."
+    },
+    {
+      "en": "What time does ___ close?",
+      "vi": "___ đóng cửa lúc mấy giờ?",
+      "note": "Dùng để hỏi giờ kết thúc hoạt động."
+    },
+    {
+      "en": "Can we ___ now and ___ later?",
+      "vi": "Chúng tôi có thể ___ bây giờ và ___ sau không?",
+      "note": "Mẫu hữu ích khi muốn mua vé trước hoặc vào cửa sau."
+    },
+    {
+      "en": "Is there a ___ in English?",
+      "vi": "Có ___ bằng tiếng Anh không?",
+      "note": "Dùng để hỏi về tour, bảng hướng dẫn hoặc chương trình."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /t/ cuối từ",
+      "tip": "Đừng bỏ âm cuối. Chạm đầu lưỡi vào lợi trên rồi dừng hơi ngắn ở cuối từ.",
+      "words": [
+        "ticket",
+        "adult",
+        "last"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong thirty",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; tránh đọc thành âm /t/.",
+      "words": [
+        "thirty",
+        "three",
+        "thank you"
+      ]
+    },
+    {
+      "focus": "âm /z/ trong close",
+      "tip": "Rung nhẹ cổ họng khi phát âm /z/; tránh đọc close thành âm /s/.",
+      "words": [
+        "close",
+        "closes",
+        "museum"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "What time the museum opens?",
+      "right": "What time does the museum open?",
+      "vi": "Câu hỏi hiện tại đơn cần does, và open trở về nguyên mẫu."
+    },
+    {
+      "wrong": "The museum open at nine.",
+      "right": "The museum opens at nine.",
+      "vi": "Chủ ngữ số ít the museum cần động từ opens."
+    },
+    {
+      "wrong": "I want buy two tickets.",
+      "right": "I would like to buy two tickets.",
+      "vi": "Sau want cần to; I would like lịch sự hơn khi nói với nhân viên."
+    },
+    {
+      "wrong": "How much are two ticket?",
+      "right": "How much are two tickets?",
+      "vi": "Hai vé phải dùng danh từ số nhiều tickets."
+    },
+    {
+      "wrong": "Can I enter in later?",
+      "right": "Can I enter later?",
+      "vi": "Enter đã có nghĩa là đi vào, không cần thêm in."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mua hai vé người lớn",
+      "formal": "I would like two adult tickets, please.",
+      "casual": "Can I get two adult tickets?",
+      "vi": "Câu formal phù hợp ở quầy bảo tàng hoặc nơi trang trọng. Câu casual vẫn lịch sự nhưng thân mật và trực tiếp hơn."
+    },
+    {
+      "situation": "Hỏi giờ mở cửa",
+      "formal": "Could you tell me what time the museum opens, please?",
+      "casual": "What time does the museum open?",
+      "vi": "Câu formal mềm mại hơn khi hỏi nhân viên lạ. Câu casual phù hợp khi cần hỏi nhanh tại quầy."
+    },
+    {
+      "situation": "Hỏi về tour tiếng Anh",
+      "formal": "Is there a guided tour in English today?",
+      "casual": "Do you have an English tour?",
+      "vi": "Câu formal rõ và lịch sự hơn. Câu casual tự nhiên khi nói với nhân viên hoặc bạn bè trong không khí thân mật."
+    },
+    {
+      "situation": "Từ chối mua thêm dịch vụ",
+      "formal": "No, thank you. We only need the tickets.",
+      "casual": "No thanks, just the tickets.",
+      "vi": "Dùng formal khi từ chối nhân viên tại nơi trang trọng. Câu casual ngắn gọn, hợp với tình huống thân mật hoặc quầy nhỏ."
+    }
+  ],
+  "culture": [
+    "Ở quầy vé tại Mỹ hoặc Anh, nhân viên thường hỏi ngay loại vé như người lớn, trẻ em hoặc sinh viên. Trả lời thẳng số lượng và loại vé là tự nhiên.",
+    "Giờ đóng cửa và giờ vào cửa cuối cùng có thể khác nhau. Nên hỏi cả last entry nếu bạn đến gần giờ đóng cửa.",
+    "Tiền tip thường không được mong đợi tại quầy bán vé bảo tàng. Một lời cảm ơn ngắn gọn là đủ."
+  ],
+  "listening": {
+    "title": "Thông báo tại bảo tàng",
+    "passage": "Good afternoon, visitors. The City Museum is open from nine until five today. Please remember that the ticket desk closes at four thirty. The special art show is on the second floor, and it is included with your ticket. Our English guided tour begins at two o'clock near the main entrance. If you need help, please speak to a museum volunteer.",
+    "vi": "Chào buổi chiều, quý khách. Bảo tàng Thành phố mở cửa từ chín giờ đến năm giờ hôm nay. Xin nhớ rằng quầy bán vé đóng lúc bốn giờ ba mươi. Triển lãm nghệ thuật đặc biệt ở tầng hai và đã bao gồm trong vé của bạn. Tour có hướng dẫn bằng tiếng Anh bắt đầu lúc hai giờ gần lối vào chính. Nếu cần trợ giúp, vui lòng nói chuyện với một tình nguyện viên của bảo tàng.",
+    "questions": [
+      {
+        "q": "When does the ticket desk close?",
+        "choices": [
+          "At four thirty",
+          "At five o'clock",
+          "At two o'clock"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là At four thirty vì bài nghe nói rõ the ticket desk closes at four thirty."
+      },
+      {
+        "q": "Where is the special art show?",
+        "choices": [
+          "Near the main entrance",
+          "On the second floor",
+          "At the ticket desk"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là On the second floor vì bài nghe nói the special art show is on the second floor."
+      },
+      {
+        "q": "What time does the English guided tour begin?",
+        "choices": [
+          "At nine o'clock",
+          "At two o'clock",
+          "At five o'clock"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là At two o'clock vì bài nghe nói our English guided tour begins at two o'clock."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên bán vé bảo tàng",
+      "b": "Khách tham quan"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Welcome to the City Museum ticket desk.",
+        "vi": "Chào buổi sáng. Chào mừng đến quầy vé của Bảo tàng Thành phố.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I would like two tickets for today, please.",
+        "vi": "Chào, tôi muốn mua hai vé cho hôm nay, vui lòng.",
+        "hint": "Dùng I would like để mua vé lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. Adult tickets are ten dollars each today.",
+        "vi": "Được chứ. Vé người lớn hôm nay là mười đô la mỗi vé.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What time does the museum open and close?",
+        "vi": "Bảo tàng mở cửa và đóng cửa lúc mấy giờ?",
+        "hint": "Sau does, dùng open và close ở dạng nguyên mẫu."
+      },
+      {
+        "speaker": "a",
+        "en": "We open at nine and close at five.",
+        "vi": "Chúng tôi mở cửa lúc chín giờ và đóng cửa lúc năm giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can we buy tickets now and enter later?",
+        "vi": "Chúng tôi có thể mua vé bây giờ và vào sau không?",
+        "hint": "Dùng enter trực tiếp, không thêm in."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, these tickets are valid all day today.",
+        "vi": "Có, những vé này có hiệu lực trong cả ngày hôm nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Is there a guided tour in English?",
+        "vi": "Tuyệt. Có tour có hướng dẫn bằng tiếng Anh không?",
+        "hint": "Dùng Is there a để hỏi về một dịch vụ."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, it starts at eleven near the main entrance.",
+        "vi": "Có, tour bắt đầu lúc mười một giờ gần lối vào chính.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. We would like to join that tour.",
+        "vi": "Hoàn hảo. Chúng tôi muốn tham gia tour đó.",
+        "hint": "Join a tour nghĩa là tham gia một tour."
+      },
+      {
+        "speaker": "a",
+        "en": "No problem. The tour is free with your tickets.",
+        "vi": "Không vấn đề gì. Tour miễn phí kèm theo vé của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here is my card. Can I pay now?",
+        "vi": "Đây là thẻ của tôi. Tôi có thể thanh toán bây giờ không?",
+        "hint": "Here is my card dùng khi đưa thẻ cho nhân viên."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Here are your tickets. Enjoy the museum.",
+        "vi": "Cảm ơn. Đây là vé của bạn. Chúc bạn tham quan bảo tàng vui vẻ.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly museum ticket seller at the City Museum. You speak clearly, answer questions about tickets and opening hours, and help visitors politely.",
+    "opener": "Good morning. Welcome to the City Museum ticket desk. How can I help you?",
+    "goal": "Người học mua vé, hỏi giờ mở cửa và hỏi về tour tiếng Anh."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn mua hai vé người lớn, vui lòng.",
+      "en": "I would like two adult tickets, please.",
+      "alts": [
+        "Can I get two adult tickets?"
+      ]
+    },
+    {
+      "vi": "Hai vé giá bao nhiêu?",
+      "en": "How much are two tickets?",
+      "alts": [
+        "What is the price for two tickets?"
+      ]
+    },
+    {
+      "vi": "Bảo tàng mở cửa lúc mấy giờ?",
+      "en": "What time does the museum open?",
+      "alts": [
+        "When does the museum open?"
+      ]
+    },
+    {
+      "vi": "Bảo tàng đóng cửa lúc mấy giờ?",
+      "en": "What time does the museum close?",
+      "alts": [
+        "When does the museum close?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi có thể mua vé bây giờ và vào sau không?",
+      "en": "Can we buy tickets now and enter later?",
+      "alts": [
+        "Can we get tickets now and come in later?"
+      ]
+    },
+    {
+      "vi": "Có tour có hướng dẫn bằng tiếng Anh không?",
+      "en": "Is there a guided tour in English?",
+      "alts": [
+        "Do you have an English guided tour?"
+      ]
+    },
+    {
+      "vi": "Vé này có hiệu lực cả ngày không?",
+      "en": "Is this ticket valid all day?",
+      "alts": [
+        "Can I use this ticket all day?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần lời của khách trong hội thoại và tự nghe lại.",
+    "Viết ba câu hỏi về giờ mở cửa của một địa điểm gần nhà.",
+    "Tập nói hai cách lịch sự để mua vé: I would like và Can I get."
+  ]
+}

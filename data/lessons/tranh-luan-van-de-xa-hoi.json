@@ -3,309 +3,389 @@
   "title": "Tranh luận về làm việc từ xa và cân bằng cuộc sống",
   "topic": "Làm việc từ xa và cân bằng cuộc sống",
   "level": "B2",
-  "summary": "Bạn tranh luận với một người bạn có quan điểm hoài nghi về làm việc từ xa. Cuối cuộc nói chuyện, hai người thống nhất một phương án thử nghiệm để bảo vệ cả hiệu quả công việc lẫn thời gian cá nhân.",
+  "summary": "Bạn trao đổi với một người bạn không đồng tình về lợi ích của làm việc từ xa. Hai người nêu lý lẽ, phản biện và đi đến một phương án dung hòa.",
   "goals": [
-    "Nêu và bảo vệ quan điểm về làm việc từ xa bằng lập luận có lý do",
-    "Phản biện lịch sự và thừa nhận một phần ý kiến đối phương",
-    "Thương lượng một giải pháp cân bằng giữa hiệu quả, kết nối nhóm và đời sống cá nhân"
+    "Trình bày và bảo vệ quan điểm về làm việc từ xa",
+    "Phản biện một cách lịch sự bằng lý do cụ thể",
+    "Thương lượng một giải pháp cân bằng giữa hiệu quả và đời sống cá nhân"
   ],
   "vocab": [
     {
       "en": "work-life balance",
       "ipa": "/ˌwɜːrk laɪf ˈbæləns/",
-      "vi": "cân bằng công việc và cuộc sống",
-      "example": "Working from home has improved my work-life balance."
-    },
-    {
-      "en": "commute",
-      "ipa": "/kəˈmjuːt/",
-      "vi": "việc đi lại hằng ngày giữa nhà và nơi làm việc",
-      "example": "I save nearly two hours a day by avoiding the commute."
-    },
-    {
-      "en": "boundary",
-      "ipa": "/ˈbaʊndəri/",
-      "vi": "ranh giới, giới hạn",
-      "example": "It is important to set clear boundaries after work."
+      "vi": "sự cân bằng giữa công việc và cuộc sống",
+      "example": "A healthy work-life balance helps people avoid burnout."
     },
     {
       "en": "burnout",
       "ipa": "/ˈbɜːrnaʊt/",
       "vi": "kiệt sức vì công việc",
-      "example": "Constant notifications can lead to burnout."
+      "example": "She took a few days off because she was close to burnout."
     },
     {
-      "en": "productivity",
-      "ipa": "/ˌproʊdʌkˈtɪvəti/",
-      "vi": "năng suất",
-      "example": "My productivity is higher when I can focus at home."
+      "en": "flexible schedule",
+      "ipa": "/ˈfleksəbəl ˈskedʒuːl/",
+      "vi": "lịch làm việc linh hoạt",
+      "example": "A flexible schedule lets me take my child to school."
+    },
+    {
+      "en": "draw the line",
+      "ipa": "/drɔː ðə laɪn/",
+      "vi": "đặt ra ranh giới; xác định giới hạn",
+      "example": "I have to draw the line and stop checking emails after dinner."
+    },
+    {
+      "en": "productive",
+      "ipa": "/prəˈdʌktɪv/",
+      "vi": "năng suất, hiệu quả",
+      "example": "I am more productive when I can work without constant interruptions."
     },
     {
       "en": "collaboration",
-      "ipa": "/kəˌlæbəˈreɪʃn/",
+      "ipa": "/kəˌlæbəˈreɪʃən/",
       "vi": "sự hợp tác",
-      "example": "Some projects need close collaboration between team members."
-    },
-    {
-      "en": "accountable",
-      "ipa": "/əˈkaʊntəbl/",
-      "vi": "có trách nhiệm, chịu trách nhiệm",
-      "example": "Everyone should be accountable for their results."
-    },
-    {
-      "en": "hybrid schedule",
-      "ipa": "/ˈhaɪbrɪd ˈskedʒuːl/",
-      "vi": "lịch làm việc kết hợp ở nhà và văn phòng",
-      "example": "A hybrid schedule gives people more flexibility."
-    },
-    {
-      "en": "blur the lines",
-      "ipa": "/blɜːr ðə laɪnz/",
-      "vi": "làm mờ ranh giới giữa hai việc hoặc hai vai trò",
-      "example": "Remote work can blur the lines between work and home life."
+      "example": "Good collaboration is harder when the whole team works remotely."
     },
     {
       "en": "face-to-face",
       "ipa": "/ˌfeɪs tə ˈfeɪs/",
-      "vi": "trực tiếp, gặp mặt trực tiếp",
-      "example": "We solve difficult problems faster in face-to-face meetings."
+      "vi": "trực tiếp, mặt đối mặt",
+      "example": "Some difficult conversations are better handled face-to-face."
+    },
+    {
+      "en": "feel isolated",
+      "ipa": "/fiːl ˈaɪsəleɪtɪd/",
+      "vi": "cảm thấy cô lập",
+      "example": "New employees may feel isolated when they work from home."
+    },
+    {
+      "en": "set boundaries",
+      "ipa": "/set ˈbaʊndəriz/",
+      "vi": "thiết lập ranh giới",
+      "example": "You need to set boundaries between your job and your personal time."
+    },
+    {
+      "en": "hybrid arrangement",
+      "ipa": "/ˈhaɪbrɪd əˈreɪndʒmənt/",
+      "vi": "mô hình kết hợp làm ở nhà và tại văn phòng",
+      "example": "Our hybrid arrangement allows us to work from home twice a week."
     }
   ],
   "patterns": [
     {
-      "en": "I see your point, but I would argue that ___.",
-      "vi": "Tôi hiểu ý bạn, nhưng tôi cho rằng ___.",
-      "note": "Dùng để phản biện lịch sự thay vì bác bỏ thẳng thừng."
+      "en": "I see your point, but I still think that ___.",
+      "vi": "Tôi hiểu ý bạn, nhưng tôi vẫn nghĩ rằng ___.",
+      "note": "Dùng để phản biện lịch sự mà không phủ nhận hoàn toàn ý kiến đối phương."
     },
     {
-      "en": "The main issue is that ___.",
-      "vi": "Vấn đề chính là ___.",
-      "note": "Dùng để nêu trọng tâm của lập luận."
+      "en": "The way I see it, ___ matters more than ___.",
+      "vi": "Theo tôi thấy, ___ quan trọng hơn ___.",
+      "note": "Dùng để so sánh hai ưu tiên trong tranh luận."
     },
     {
-      "en": "As long as ___, I think it can work.",
-      "vi": "Miễn là ___, tôi nghĩ điều đó có thể hiệu quả.",
-      "note": "As long as diễn tả điều kiện cần được đáp ứng."
+      "en": "One downside is that ___.",
+      "vi": "Một mặt hạn chế là ___.",
+      "note": "Dùng để nêu nhược điểm một cách rõ ràng và tự nhiên."
     },
     {
-      "en": "Would you be open to trying ___?",
-      "vi": "Bạn có sẵn sàng thử ___ không?",
-      "note": "Cách đề xuất phương án mềm mại khi thương lượng."
+      "en": "That may be true, especially when ___, but ___.",
+      "vi": "Điều đó có thể đúng, nhất là khi ___, nhưng ___.",
+      "note": "Mẫu nhượng bộ rồi phản biện, phù hợp trình độ B2."
     },
     {
-      "en": "We need to find a middle ground.",
-      "vi": "Chúng ta cần tìm một giải pháp dung hòa.",
-      "note": "Dùng khi hai bên có quan điểm khác nhau."
+      "en": "Would you be open to a compromise?",
+      "vi": "Bạn có sẵn sàng cân nhắc một phương án dung hòa không?",
+      "note": "Dùng khi muốn chuyển từ tranh luận sang thương lượng."
+    },
+    {
+      "en": "As long as ___, I would be happy with that.",
+      "vi": "Miễn là ___, tôi sẽ hài lòng với phương án đó.",
+      "note": "Dùng để nêu điều kiện chấp nhận một thỏa thuận."
     }
   ],
   "pronunciation": [
     {
-      "focus": "trọng âm trong productivity và collaboration",
-      "tip": "Nhấn rõ âm tiết chính, tránh đọc đều từng âm tiết: pro-duc-TI-vi-ty và col-la-bo-RA-tion.",
+      "focus": "âm cuối /t/ trong remote và productive",
+      "tip": "Phát âm âm /t/ gọn ở cuối từ, không thêm âm \"tơ\" phía sau.",
       "words": [
-        "productivity",
-        "collaboration",
-        "accountable"
-      ]
-    },
-    {
-      "focus": "âm cuối /t/ và /d/ trong các cụm từ",
-      "tip": "Phát âm nhẹ âm cuối để người nghe phân biệt work với word, và face-to-face với phrases khác.",
-      "words": [
-        "work-life",
         "remote",
-        "hybrid"
+        "productive",
+        "work-life"
       ]
     },
     {
-      "focus": "âm /θ/ trong the và with",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng, thổi hơi ra; không thay bằng âm /t/ hoặc /d/.",
+      "focus": "trọng âm trong collaboration và arrangement",
+      "tip": "Nhấn mạnh âm tiết được in đậm khi tự luyện: col-la-bo-RA-tion, hy-brid ar-RANGE-ment.",
       "words": [
-        "the",
-        "with",
-        "think"
+        "collaboration",
+        "arrangement",
+        "isolated"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /nd/ trong boundaries và downside",
+      "tip": "Nối nhanh hai âm cuối, không bỏ mất âm /d/; nói rõ \"boundaries\" thay vì chỉ nói gần giống \"bounaries\".",
+      "words": [
+        "boundaries",
+        "downside",
+        "weekend"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I work remote three days per week.",
-      "right": "I work remotely three days a week.",
-      "vi": "Dùng trạng từ remotely để bổ nghĩa cho động từ work; a week tự nhiên hơn per week trong giao tiếp."
+      "wrong": "I work at home since three years.",
+      "right": "I have been working from home for three years.",
+      "vi": "Dùng hiện tại hoàn thành tiếp diễn với khoảng thời gian kéo dài đến hiện tại; dùng for, không dùng since với số năm."
     },
     {
-      "wrong": "Working from home make me more productive.",
-      "right": "Working from home makes me more productive.",
-      "vi": "Cụm Working from home là chủ ngữ số ít nên động từ thêm s."
+      "wrong": "Working from home makes me more concentrate.",
+      "right": "Working from home helps me concentrate better.",
+      "vi": "Concentrate là động từ; sau make cần tính từ concentrated, nhưng cách nói tự nhiên hơn là help someone concentrate better."
     },
     {
-      "wrong": "I have more balance between work and life.",
-      "right": "I have a better work-life balance.",
-      "vi": "Work-life balance là cụm từ cố định và thường cần mạo từ a."
+      "wrong": "I do not have balance between work and life.",
+      "right": "I do not have a good work-life balance.",
+      "vi": "Cụm tự nhiên là work-life balance và cần mạo từ a good."
     },
     {
-      "wrong": "My boss does not agree for remote work.",
-      "right": "My boss does not agree with remote work.",
-      "vi": "Agree with dùng với ý kiến, chính sách hoặc người; không dùng agree for trong trường hợp này."
+      "wrong": "My boss does not allow me work remotely.",
+      "right": "My boss does not allow me to work remotely.",
+      "vi": "Sau allow + người cần có to trước động từ."
     }
   ],
+  "variations": [
+    {
+      "situation": "Nêu quan điểm trái chiều",
+      "formal": "I appreciate your perspective, but I have a slightly different view.",
+      "casual": "I get what you mean, but I see it differently.",
+      "vi": "Câu formal phù hợp trong cuộc họp hoặc khi nói với cấp trên; câu casual hợp với bạn bè, đồng nghiệp thân."
+    },
+    {
+      "situation": "Nêu lo ngại về hiệu quả làm việc",
+      "formal": "I am concerned that remote work may affect team collaboration.",
+      "casual": "I worry that working from home can make teamwork harder.",
+      "vi": "Câu formal khách quan và mềm hơn khi góp ý ở nơi làm việc; câu casual trực tiếp hơn trong trò chuyện thân mật."
+    },
+    {
+      "situation": "Đề xuất phương án dung hòa",
+      "formal": "Perhaps we could consider a hybrid arrangement as a compromise.",
+      "casual": "How about a hybrid setup instead?",
+      "vi": "Dùng formal khi đề xuất trong cuộc họp hoặc email; dùng casual khi bàn bạc nhanh với bạn bè hay nhóm thân."
+    },
+    {
+      "situation": "Đặt điều kiện đồng ý",
+      "formal": "I would support that proposal, provided that we maintain regular in-person meetings.",
+      "casual": "I am fine with that as long as we still meet in person regularly.",
+      "vi": "Câu formal phù hợp khi chốt một đề xuất công việc; câu casual tự nhiên hơn khi trao đổi với đồng nghiệp quen."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, việc không đồng ý thẳng nhưng có câu đệm như \"I see your point\" thường được xem là lịch sự và mang tính xây dựng, không phải né tránh.",
+    "Khi nói về cân bằng cuộc sống, nhiều người bản xứ xem việc không trả lời tin nhắn ngoài giờ là một ranh giới bình thường. Tuy nhiên, họ thường nói rõ kỳ vọng với quản lý và nhóm trước.",
+    "Trong tranh luận giữa bạn bè hoặc đồng nghiệp, người nói thường đưa ví dụ cá nhân rồi mời đối phương tìm điểm chung thay vì cố thắng cuộc tranh luận."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về lịch làm việc kết hợp",
+    "passage": "Hi team, this is Maya with a quick update on our work schedule. Starting next month, we will work from home on Mondays and Fridays. Tuesdays will be our main office day, so please use it for planning meetings and creative discussions. If you need a different arrangement because of childcare or a long commute, speak to your manager early. The goal is to give everyone more flexibility while keeping the team connected.",
+    "vi": "Chào cả nhóm, Maya đây, có một cập nhật nhanh về lịch làm việc. Bắt đầu từ tháng sau, chúng ta sẽ làm việc ở nhà vào thứ Hai và thứ Sáu. Thứ Ba sẽ là ngày chính đến văn phòng, vì vậy hãy dùng ngày đó cho các cuộc họp lập kế hoạch và thảo luận sáng tạo. Nếu bạn cần một sắp xếp khác vì việc chăm con hoặc quãng đường đi làm xa, hãy trao đổi sớm với quản lý. Mục tiêu là tạo thêm sự linh hoạt cho mọi người trong khi vẫn giữ đội ngũ gắn kết.",
+    "questions": [
+      {
+        "q": "Which days will the team work from home?",
+        "choices": [
+          "Monday and Friday",
+          "Tuesday and Thursday",
+          "Wednesday and Friday"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Monday and Friday vì Maya nói rõ đội sẽ làm việc ở nhà vào hai ngày này."
+      },
+      {
+        "q": "What should the team mainly do on Tuesday?",
+        "choices": [
+          "Take personal time off",
+          "Hold planning meetings and creative discussions",
+          "Work from home quietly"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Hold planning meetings and creative discussions vì thứ Ba là ngày chính đến văn phòng."
+      },
+      {
+        "q": "What should someone do if they need a different schedule?",
+        "choices": [
+          "Speak to their manager early",
+          "Wait until next month",
+          "Ask a colleague to change the policy"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Speak to their manager early vì đoạn nghe nói hãy trao đổi sớm với quản lý."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Người bạn hoài nghi về làm việc từ xa",
-      "b": "Người học ủng hộ làm việc từ xa"
+      "a": "Người bạn của bạn, thích làm việc tại văn phòng và nghi ngờ làm việc từ xa.",
+      "b": "Người học, ủng hộ làm việc từ xa vì muốn cân bằng cuộc sống tốt hơn."
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "I still think working from home is overrated. People get distracted too easily.",
-        "vi": "Tôi vẫn nghĩ làm việc ở nhà được đánh giá quá cao. Mọi người rất dễ xao nhãng.",
+        "en": "I heard you want to work from home more often. Do you really think it is a good idea?",
+        "vi": "Tớ nghe cậu muốn làm ở nhà thường xuyên hơn. Cậu thực sự nghĩ đó là ý hay à?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I see your point, but I am usually more productive at home.",
-        "vi": "Tôi hiểu ý bạn, nhưng tôi thường làm việc hiệu quả hơn ở nhà.",
-        "hint": "Dùng I see your point để phản biện lịch sự."
+        "en": "Yes, I do. It would give me more time for my family and myself.",
+        "vi": "Có chứ. Nó sẽ cho tớ thêm thời gian cho gia đình và bản thân.",
+        "hint": "Dùng would để nói về lợi ích giả định."
       },
       {
         "speaker": "a",
-        "en": "Really? I miss the energy of an office and quick chats with colleagues.",
-        "vi": "Thật à? Tôi nhớ không khí ở văn phòng và những cuộc trao đổi nhanh với đồng nghiệp.",
+        "en": "I get that, but I think people are more productive in the office.",
+        "vi": "Tớ hiểu, nhưng tớ nghĩ mọi người làm việc hiệu quả hơn ở văn phòng.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Those chats are useful, but my commute used to drain a lot of time and energy.",
-        "vi": "Những cuộc trao đổi đó hữu ích, nhưng việc đi lại trước đây làm tôi tốn rất nhiều thời gian và năng lượng.",
-        "hint": "Dùng used to để nói về thói quen hoặc tình trạng trong quá khứ."
+        "en": "I see your point, but I can focus better at home because the office is often noisy.",
+        "vi": "Tớ hiểu ý cậu, nhưng tớ có thể tập trung tốt hơn ở nhà vì văn phòng thường ồn.",
+        "hint": "Mở đầu bằng I see your point để phản biện nhẹ nhàng."
       },
       {
         "speaker": "a",
-        "en": "Fair enough, but remote work can blur the lines between work and home life.",
-        "vi": "Cũng có lý, nhưng làm việc từ xa có thể làm mờ ranh giới giữa công việc và cuộc sống ở nhà.",
+        "en": "Maybe, but working remotely can make people feel isolated. You miss those quick chats that solve problems fast.",
+        "vi": "Có thể, nhưng làm việc từ xa có thể khiến mọi người thấy cô lập. Cậu sẽ bỏ lỡ những cuộc trao đổi nhanh giúp giải quyết vấn đề sớm.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That happens if people do not set boundaries. I turn off work notifications after six.",
-        "vi": "Điều đó xảy ra nếu mọi người không đặt ra ranh giới. Tôi tắt thông báo công việc sau sáu giờ.",
-        "hint": "Set boundaries là cụm rất tự nhiên khi nói về cân bằng cuộc sống."
+        "en": "That may be true, especially for new employees. Still, regular video calls and team meetings can keep everyone connected.",
+        "vi": "Điều đó có thể đúng, nhất là với nhân viên mới. Tuy vậy, các cuộc gọi video và họp nhóm thường xuyên có thể giúp mọi người gắn kết.",
+        "hint": "Dùng That may be true để thừa nhận một phần ý kiến đối phương."
       },
       {
         "speaker": "a",
-        "en": "Not everyone can do that. Some managers expect replies late at night.",
-        "vi": "Không phải ai cũng làm được thế. Một số quản lý mong nhân viên trả lời vào tối muộn.",
+        "en": "I am not convinced. Face-to-face collaboration is easier when a project gets complicated, and messages can be misunderstood.",
+        "vi": "Tớ vẫn chưa bị thuyết phục. Hợp tác trực tiếp dễ hơn khi dự án trở nên phức tạp, và tin nhắn có thể bị hiểu sai.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The main issue is poor management, not remote work itself. Teams should agree on clear working hours.",
-        "vi": "Vấn đề chính là quản lý kém, chứ không phải bản thân việc làm từ xa. Các nhóm nên thống nhất giờ làm việc rõ ràng.",
-        "hint": "Dùng The main issue is để đưa ra ý chính mạnh mẽ."
+        "en": "The way I see it, the problem is not remote work itself. It is whether the team communicates clearly and has the right tools.",
+        "vi": "Theo tớ, vấn đề không nằm ở bản thân việc làm từ xa. Nó nằm ở việc nhóm có giao tiếp rõ ràng và có công cụ phù hợp hay không.",
+        "hint": "Dùng The way I see it để đưa ra góc nhìn riêng."
       },
       {
         "speaker": "a",
-        "en": "Maybe, but junior employees can learn a lot by watching experienced people work face-to-face.",
-        "vi": "Có thể, nhưng nhân viên mới có thể học được nhiều khi trực tiếp quan sát người có kinh nghiệm làm việc.",
+        "en": "Fair enough, but there is another issue. When your home becomes your office, it can be hard to switch off at the end of the day.",
+        "vi": "Cũng có lý, nhưng còn một vấn đề khác. Khi nhà cậu trở thành văn phòng, có thể khó ngắt khỏi công việc vào cuối ngày.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I agree that mentoring is easier in person. Still, regular video check-ins and shared documents can keep people connected.",
-        "vi": "Tôi đồng ý rằng hướng dẫn sẽ dễ hơn khi gặp trực tiếp. Tuy vậy, các buổi trao đổi video đều đặn và tài liệu dùng chung vẫn có thể giúp mọi người gắn kết.",
-        "hint": "Thừa nhận một phần ý kiến đối phương trước khi nêu ý khác."
+        "en": "I agree that burnout is a real risk. That is why I set boundaries, such as closing my laptop at six and not replying to non-urgent messages at night.",
+        "vi": "Tớ đồng ý rằng kiệt sức là một rủi ro thật sự. Đó là lý do tớ đặt ra ranh giới, như tắt máy tính lúc sáu giờ và không trả lời tin nhắn không khẩn cấp vào ban đêm.",
+        "hint": "Nêu ví dụ sau such as để làm lý lẽ thuyết phục hơn."
       },
       {
         "speaker": "a",
-        "en": "I am also concerned about accountability. It is harder to know whether everyone is pulling their weight.",
-        "vi": "Tôi cũng lo về trách nhiệm công việc. Khó biết hơn liệu mọi người có đang làm tròn phần việc của mình không.",
+        "en": "But not everyone is disciplined enough to do that. Some people end up working longer hours because they feel they have to prove they are not slacking off.",
+        "vi": "Nhưng không phải ai cũng đủ kỷ luật để làm vậy. Một số người cuối cùng làm nhiều giờ hơn vì họ cảm thấy phải chứng minh rằng mình không lười biếng.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I think results matter more than being seen at a desk. As long as goals are clear and progress is visible, people can be accountable anywhere.",
-        "vi": "Tôi nghĩ kết quả quan trọng hơn việc được nhìn thấy đang ngồi tại bàn làm việc. Miễn là mục tiêu rõ ràng và tiến độ được theo dõi, mọi người có thể chịu trách nhiệm ở bất cứ đâu.",
-        "hint": "Dùng As long as để nêu điều kiện cho quan điểm của bạn."
+        "en": "One downside is that remote workers can feel pressure to be available all the time. Managers should judge people by results, not by whether they are online every minute.",
+        "vi": "Một hạn chế là người làm từ xa có thể cảm thấy áp lực phải luôn sẵn sàng. Quản lý nên đánh giá mọi người bằng kết quả, không phải bằng việc họ có trực tuyến từng phút hay không.",
+        "hint": "Dùng One downside is that để mở đầu cho một nhược điểm."
       },
       {
         "speaker": "a",
-        "en": "That sounds reasonable, but I would not want a fully remote company. Relationships can suffer when every interaction is on a screen.",
-        "vi": "Nghe hợp lý, nhưng tôi sẽ không muốn một công ty hoàn toàn làm việc từ xa. Các mối quan hệ có thể bị ảnh hưởng khi mọi tương tác đều qua màn hình.",
+        "en": "I can agree with that. Still, I would not want a fully remote job. I value the routine of leaving home and seeing my colleagues in person.",
+        "vi": "Tớ có thể đồng ý điều đó. Dù vậy, tớ sẽ không muốn một công việc hoàn toàn từ xa. Tớ coi trọng thói quen rời nhà và gặp đồng nghiệp trực tiếp.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I am not asking for fully remote work either. Would you be open to a hybrid schedule, with two office days for collaboration and the rest for focused work?",
-        "vi": "Tôi cũng không đề xuất làm việc từ xa hoàn toàn. Bạn có sẵn sàng thử lịch kết hợp, với hai ngày ở văn phòng để hợp tác và thời gian còn lại để tập trung làm việc không?",
-        "hint": "Would you be open to là cách đề xuất giải pháp rất lịch sự."
+        "en": "I am not asking for fully remote work either. Would you be open to a hybrid arrangement, with two days at home and three days in the office?",
+        "vi": "Tớ cũng không đòi làm hoàn toàn từ xa. Cậu có sẵn sàng với mô hình kết hợp, hai ngày ở nhà và ba ngày ở văn phòng không?",
+        "hint": "Dùng Would you be open to để đề xuất thỏa hiệp lịch sự."
       },
       {
         "speaker": "a",
-        "en": "Yes, I could support that. The office days should be planned around team meetings, mentoring, and brainstorming.",
-        "vi": "Có, tôi có thể ủng hộ phương án đó. Các ngày ở văn phòng nên được sắp xếp xoay quanh họp nhóm, hướng dẫn và động não.",
+        "en": "That sounds reasonable, as long as the team chooses the same office days for planning and difficult discussions.",
+        "vi": "Nghe hợp lý đấy, miễn là cả nhóm chọn cùng ngày đến văn phòng để lập kế hoạch và thảo luận các vấn đề khó.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Exactly. We need to find a middle ground: flexibility for a better work-life balance, plus enough face-to-face time to keep the team strong.",
-        "vi": "Chính xác. Chúng ta cần tìm giải pháp dung hòa: sự linh hoạt để cân bằng cuộc sống tốt hơn, đồng thời có đủ thời gian gặp trực tiếp để giữ đội ngũ vững mạnh.",
-        "hint": "Kết luận bằng cụm find a middle ground để nhấn mạnh sự dung hòa."
+        "en": "Deal. A hybrid schedule gives us flexibility without losing the benefits of face-to-face collaboration. That feels like a fair balance.",
+        "vi": "Thống nhất nhé. Lịch kết hợp cho chúng ta sự linh hoạt mà không mất các lợi ích của hợp tác trực tiếp. Tớ thấy đó là sự cân bằng công bằng.",
+        "hint": "Kết thúc bằng cách tóm tắt lợi ích chung của thỏa thuận."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a thoughtful friend having coffee with the learner in Ho Chi Minh City. You are skeptical about remote work because you value teamwork, mentoring, and clear separation between work and personal life. Be friendly but challenge the learner's arguments and negotiate a practical compromise.",
-    "opener": "I keep hearing that remote work is the future, but I am not convinced. What do you think?",
-    "goal": "Người học bảo vệ lợi ích của làm việc từ xa, phản biện lịch sự và thống nhất một phương án làm việc kết hợp."
+    "persona": "You are a close friend having coffee with the learner after work. You prefer working in an office because you value routine, in-person collaboration, and clear separation between work and home. Be friendly but challenge the learner's support for remote work. Gradually negotiate a practical compromise.",
+    "opener": "I heard you are thinking about asking for more remote days. I am not sure that is good for work-life balance, though.",
+    "goal": "Bảo vệ quan điểm về làm việc từ xa, thừa nhận rủi ro và thống nhất một phương án làm việc kết hợp."
   },
   "drills": [
     {
-      "vi": "Tôi hiểu ý bạn, nhưng tôi cho rằng làm việc từ xa giúp tôi tập trung hơn.",
-      "en": "I see your point, but I would argue that remote work helps me focus better.",
+      "vi": "Tôi hiểu ý bạn, nhưng tôi tập trung tốt hơn ở nhà.",
+      "en": "I see your point, but I focus better at home.",
       "alts": [
-        "I understand your point, but remote work helps me concentrate more."
+        "I understand what you mean, but I can concentrate better at home."
       ]
     },
     {
-      "vi": "Vấn đề chính là nhân viên không có ranh giới rõ ràng.",
-      "en": "The main issue is that employees do not have clear boundaries.",
+      "vi": "Theo tôi thấy, kết quả quan trọng hơn số giờ trực tuyến.",
+      "en": "The way I see it, results matter more than hours online.",
       "alts": [
-        "The main problem is unclear boundaries."
+        "I think results are more important than being online all the time."
       ]
     },
     {
-      "vi": "Miễn là mục tiêu rõ ràng, làm việc tại nhà có thể hiệu quả.",
-      "en": "As long as goals are clear, working from home can be effective.",
+      "vi": "Một hạn chế là nhân viên mới có thể cảm thấy cô lập.",
+      "en": "One downside is that new employees may feel isolated.",
       "alts": [
-        "I think working from home works as long as the goals are clear."
+        "A drawback is that new employees can feel isolated."
       ]
     },
     {
-      "vi": "Bạn có sẵn sàng thử lịch làm việc kết hợp không?",
-      "en": "Would you be open to trying a hybrid schedule?",
+      "vi": "Điều đó có thể đúng, nhưng chúng ta có thể thiết lập ranh giới rõ ràng.",
+      "en": "That may be true, but we can set clear boundaries.",
       "alts": [
-        "Would you be willing to try a hybrid schedule?"
+        "I agree to some extent, but clear boundaries can help."
       ]
     },
     {
-      "vi": "Việc đi lại hằng ngày trước đây khiến tôi kiệt sức.",
-      "en": "My daily commute used to leave me exhausted.",
+      "vi": "Bạn có sẵn sàng cân nhắc một mô hình kết hợp không?",
+      "en": "Would you be open to a hybrid arrangement?",
       "alts": [
-        "My commute used to drain my energy."
+        "Could we consider a hybrid arrangement?"
       ]
     },
     {
-      "vi": "Chúng ta cần tìm một giải pháp dung hòa giữa linh hoạt và hợp tác.",
-      "en": "We need to find a middle ground between flexibility and collaboration.",
+      "vi": "Miễn là chúng ta có ngày họp trực tiếp, tôi sẽ hài lòng với điều đó.",
+      "en": "As long as we have days for face-to-face meetings, I would be happy with that.",
       "alts": [
-        "We should find a balance between flexibility and collaboration."
+        "I would be fine with that if we still met in person regularly."
+      ]
+    },
+    {
+      "vi": "Tôi phải ngừng kiểm tra email sau giờ ăn tối để tránh kiệt sức.",
+      "en": "I need to stop checking emails after dinner to avoid burnout.",
+      "alts": [
+        "I have to draw the line and stop checking emails after dinner."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại, sau đó chú ý ngắt giọng ở các cụm I see your point và As long as.",
-    "Viết một đoạn 100 đến 120 từ nêu quan điểm của bạn về lịch làm việc kết hợp.",
-    "Tự nói ba câu phản biện lịch sự, sử dụng các mẫu câu trong bài."
+    "Ghi âm lại hội thoại, sau đó tự đánh dấu hai câu bạn dùng để phản biện lịch sự.",
+    "Viết một đoạn 120 từ nêu quan điểm của bạn về mô hình làm việc kết hợp, dùng ít nhất bốn từ vựng của bài.",
+    "Luyện nói ba cách đặt ranh giới giữa công việc và thời gian cá nhân."
   ]
 }

@@ -1,0 +1,386 @@
+{
+  "id": "phan-bien-y-kien-sep",
+  "title": "Phản biện ý kiến cấp trên một cách khéo léo",
+  "topic": "Đề xuất phương án khác với cấp trên",
+  "level": "B2",
+  "summary": "Bạn cần nêu lo ngại về kế hoạch triển khai gấp của giám đốc, đồng thời đề xuất một phương án thí điểm khả thi. Mục tiêu là bảo vệ quan điểm mà vẫn giữ được thái độ hợp tác.",
+  "goals": [
+    "Nêu ý kiến khác với cấp trên một cách tôn trọng",
+    "Giải thích rủi ro và đánh đổi bằng câu phức",
+    "Đề xuất phương án dung hòa và thương lượng kế hoạch thực hiện"
+  ],
+  "vocab": [
+    {
+      "en": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "vi": "phản biện hoặc phản đối một đề xuất một cách có kiểm soát",
+      "example": "I do not want to push back without offering a solution."
+    },
+    {
+      "en": "raise a concern",
+      "ipa": "/reɪz ə kənˈsɜːrn/",
+      "vi": "nêu lên một mối lo ngại",
+      "example": "I would like to raise a concern about the timeline."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi giữa các lợi ích",
+      "example": "There is a trade-off between speed and quality."
+    },
+    {
+      "en": "roll out",
+      "ipa": "/rəʊl aʊt/",
+      "vi": "triển khai rộng rãi",
+      "example": "We plan to roll out the new process next month."
+    },
+    {
+      "en": "get someone on board",
+      "ipa": "/ɡet ˈsʌmwʌn ɒn bɔːrd/",
+      "vi": "thuyết phục ai đó ủng hộ hoặc tham gia",
+      "example": "We need to get the department heads on board."
+    },
+    {
+      "en": "buy-in",
+      "ipa": "/ˈbaɪ ɪn/",
+      "vi": "sự đồng thuận và ủng hộ",
+      "example": "The plan will need buy-in from the whole team."
+    },
+    {
+      "en": "backfire",
+      "ipa": "/ˌbækˈfaɪər/",
+      "vi": "phản tác dụng",
+      "example": "A rushed decision could backfire."
+    },
+    {
+      "en": "safeguard",
+      "ipa": "/ˈseɪfɡɑːrd/",
+      "vi": "biện pháp bảo vệ hoặc giảm rủi ro",
+      "example": "A pilot program is a useful safeguard."
+    },
+    {
+      "en": "revisit",
+      "ipa": "/ˌriːˈvɪzɪt/",
+      "vi": "xem xét lại",
+      "example": "We can revisit the plan after the trial."
+    },
+    {
+      "en": "meet halfway",
+      "ipa": "/miːt ˌhɑːfˈweɪ/",
+      "vi": "thỏa hiệp, gặp nhau ở điểm trung gian",
+      "example": "Could we meet halfway and test the idea first?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I see where you are coming from, but I have one concern.",
+      "vi": "Tôi hiểu quan điểm của anh/chị, nhưng tôi có một mối lo ngại.",
+      "note": "Mở đầu mềm mại trước khi phản biện."
+    },
+    {
+      "en": "My concern is that if we ___, we risk ___.",
+      "vi": "Lo ngại của tôi là nếu chúng ta ___, chúng ta có nguy cơ ___.",
+      "note": "Dùng để nêu rủi ro một cách rõ ràng và chuyên nghiệp."
+    },
+    {
+      "en": "Would you be open to ___?",
+      "vi": "Anh/chị có sẵn sàng cân nhắc ___ không?",
+      "note": "Cách đề xuất lịch sự, tránh tạo cảm giác ra lệnh."
+    },
+    {
+      "en": "Could we meet halfway by ___?",
+      "vi": "Chúng ta có thể dung hòa bằng cách ___ không?",
+      "note": "Dùng khi muốn đưa ra phương án thỏa hiệp."
+    },
+    {
+      "en": "While I agree that ___, I think we should ___.",
+      "vi": "Mặc dù tôi đồng ý rằng ___, tôi nghĩ chúng ta nên ___.",
+      "note": "Thừa nhận điểm hợp lý của cấp trên trước khi đề xuất hướng khác."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm của concern và proposal",
+      "tip": "Nhấn rõ âm thứ hai của concern và âm thứ hai của proposal; không đọc đều từng âm.",
+      "words": [
+        "concern",
+        "proposal",
+        "approval"
+      ]
+    },
+    {
+      "focus": "Âm cuối trong risk và backfire",
+      "tip": "Phát âm rõ âm cuối /sk/ trong risk và /r/ trong backfire để câu nói dứt khoát, không bị mất nghĩa.",
+      "words": [
+        "risk",
+        "backfire",
+        "process"
+      ]
+    },
+    {
+      "focus": "Nối âm trong would you be open to",
+      "tip": "Nối would và you tự nhiên, âm /d/ và /j/ thường nghe gần như /dʒ/.",
+      "words": [
+        "would you",
+        "could you",
+        "meet halfway"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I disagree with you.",
+      "right": "I see your point, but I have a concern.",
+      "vi": "Câu sai không hẳn sai ngữ pháp nhưng quá trực diện khi nói với cấp trên. Câu đúng giữ thái độ hợp tác hơn."
+    },
+    {
+      "wrong": "Although I agree, but we should wait.",
+      "right": "Although I agree, I think we should wait.",
+      "vi": "Không dùng but cùng although trong một mệnh đề."
+    },
+    {
+      "wrong": "We should make a pilot first.",
+      "right": "We should run a pilot first.",
+      "vi": "Với pilot, động từ tự nhiên là run, không phải make."
+    },
+    {
+      "wrong": "If we launch it now, it will confusing people.",
+      "right": "If we launch it now, it will confuse people.",
+      "vi": "Sau will dùng động từ nguyên mẫu: confuse, không dùng confusing."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở đầu khi có ý kiến khác với cấp trên",
+      "formal": "I see the value in that approach, but I would like to raise one concern.",
+      "casual": "I get your point, but I am a little worried about one thing.",
+      "vi": "Câu formal phù hợp với giám đốc hoặc cuộc họp trang trọng. Câu casual dùng với đồng nghiệp thân hoặc quản lý gần gũi."
+    },
+    {
+      "situation": "Đề xuất giải pháp thay thế",
+      "formal": "Would you be open to testing the process with a smaller group first?",
+      "casual": "How about trying it with one team first?",
+      "vi": "Câu formal nhẹ nhàng và tôn trọng quyền quyết định của cấp trên. Câu casual trực tiếp hơn, phù hợp trong trao đổi nội bộ thân mật."
+    },
+    {
+      "situation": "Nêu rủi ro của kế hoạch",
+      "formal": "My concern is that a company-wide launch may create avoidable confusion.",
+      "casual": "I think a full launch could get messy.",
+      "vi": "Câu formal phù hợp khi cần nêu rủi ro trước cấp trên. Câu casual chỉ nên dùng với đồng nghiệp vì get messy khá thân mật."
+    },
+    {
+      "situation": "Đề nghị thỏa hiệp",
+      "formal": "Could we meet halfway by announcing the decision now and piloting it for two weeks?",
+      "casual": "Can we split the difference and test it for two weeks first?",
+      "vi": "Câu formal an toàn trong cuộc họp với cấp trên. Câu casual tự nhiên với đồng nghiệp thân, nhưng split the difference có thể quá suồng sã trong tình huống rất trang trọng."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, phản biện cấp trên thường bắt đầu bằng việc công nhận điểm hợp lý của họ. Điều này không có nghĩa là bạn phải đồng ý hoàn toàn.",
+    "Cấp trên thường đánh giá cao người nêu vấn đề kèm giải pháp, người chịu trách nhiệm và mốc thời gian rõ ràng hơn là chỉ nói kế hoạch có rủi ro.",
+    "Một khoảng im lặng ngắn sau khi bạn nêu đề xuất là bình thường. Đừng vội nói thêm để lấp im lặng; hãy để người nghe cân nhắc."
+  ],
+  "listening": {
+    "title": "Tin nhắn của giám đốc về đợt thí điểm",
+    "passage": "Hi team, I want to clarify the plan for the new approval process. We are not delaying the change. Starting Monday, two departments will test it for two weeks while the rest of the company receives a short briefing. Each pilot team will report problems and suggestions every Friday. At the end of the trial, we will decide what to adjust before the company-wide launch. The goal is to move quickly without creating avoidable confusion.",
+    "vi": "Chào cả nhóm, tôi muốn làm rõ kế hoạch cho quy trình phê duyệt mới. Chúng ta không trì hoãn thay đổi này. Bắt đầu từ thứ Hai, hai phòng ban sẽ thử nghiệm trong hai tuần, trong khi phần còn lại của công ty nhận một buổi phổ biến ngắn. Mỗi nhóm thí điểm sẽ báo cáo vấn đề và đề xuất vào mỗi thứ Sáu. Cuối đợt thử nghiệm, chúng ta sẽ quyết định cần điều chỉnh gì trước khi triển khai trên toàn công ty. Mục tiêu là hành động nhanh mà không tạo ra sự bối rối có thể tránh được.",
+    "questions": [
+      {
+        "q": "What will two departments do starting Monday?",
+        "choices": [
+          "Test the new process",
+          "Train every employee",
+          "Choose a new manager"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Test the new process vì bài nghe nói hai phòng ban sẽ test it for two weeks bắt đầu từ thứ Hai."
+      },
+      {
+        "q": "When will pilot teams report problems and suggestions?",
+        "choices": [
+          "Every Monday",
+          "Every Friday",
+          "At the end of the month"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Every Friday vì bài nghe nói mỗi nhóm thí điểm sẽ báo cáo vào every Friday."
+      },
+      {
+        "q": "Why is the company using a pilot?",
+        "choices": [
+          "To avoid changing the process",
+          "To move quickly with less confusion",
+          "To reduce the number of departments"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là To move quickly with less confusion vì câu cuối nêu mục tiêu là hành động nhanh mà không tạo ra sự bối rối có thể tránh được."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Giám đốc đang bảo vệ kế hoạch triển khai nhanh",
+      "b": "Nhân viên đề xuất phương án khác một cách khéo léo"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I want the team to roll out the new approval process next Monday. It will show that we can move quickly.",
+        "vi": "Tôi muốn đội ngũ triển khai quy trình phê duyệt mới vào thứ Hai tới. Điều đó sẽ cho thấy chúng ta có thể hành động nhanh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I see the benefit, but I have one concern.",
+        "vi": "Tôi thấy lợi ích, nhưng tôi có một mối lo ngại.",
+        "hint": "Mở đầu bằng việc ghi nhận điểm tích cực trước khi nêu ý kiến khác."
+      },
+      {
+        "speaker": "a",
+        "en": "What is on your mind?",
+        "vi": "Bạn đang nghĩ gì vậy?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Some team leads have not seen the final process yet. A sudden launch could confuse people.",
+        "vi": "Một số trưởng nhóm vẫn chưa xem quy trình cuối cùng. Việc triển khai đột ngột có thể làm mọi người bối rối.",
+        "hint": "Dùng could để nêu rủi ro nhẹ nhàng, không khẳng định quá mạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "We cannot wait for every detail. The current process is slowing us down, and we need momentum.",
+        "vi": "Chúng ta không thể chờ mọi chi tiết hoàn hảo. Quy trình hiện tại đang làm chậm chúng ta, và chúng ta cần đà tiến.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I agree that speed matters. Still, would you be open to a short trial with two departments first?",
+        "vi": "Tôi đồng ý rằng tốc độ quan trọng. Tuy vậy, anh/chị có sẵn sàng cân nhắc thử nghiệm ngắn với hai phòng ban trước không?",
+        "hint": "Dùng would you be open to để đề xuất mà không tạo cảm giác áp đặt."
+      },
+      {
+        "speaker": "a",
+        "en": "A trial may make us look hesitant. I would rather set a clear direction and get everyone on board.",
+        "vi": "Một đợt thử nghiệm có thể khiến chúng ta trông do dự. Tôi muốn đưa ra một định hướng rõ ràng hơn và khiến mọi người cùng ủng hộ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand the need for a clear direction. My concern is that if we roll it out company-wide without training, the change could backfire and create more delays.",
+        "vi": "Tôi hiểu nhu cầu về một định hướng rõ ràng. Lo ngại của tôi là nếu chúng ta triển khai trên toàn công ty mà không đào tạo, thay đổi này có thể phản tác dụng và tạo thêm chậm trễ.",
+        "hint": "Kết hợp I understand với My concern is that để phản biện theo cấu trúc lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Training everyone first could take weeks. We have already spent too much time discussing this.",
+        "vi": "Đào tạo tất cả mọi người trước có thể mất nhiều tuần. Chúng ta đã dành quá nhiều thời gian để bàn về việc này rồi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could we meet halfway? We could announce the decision on Monday, then run a two-week pilot with the teams that handle the most approvals. That would give us real feedback without losing momentum.",
+        "vi": "Chúng ta có thể dung hòa không? Chúng ta có thể công bố quyết định vào thứ Hai, rồi thử nghiệm hai tuần với các nhóm xử lý nhiều phê duyệt nhất. Cách đó sẽ cho chúng ta phản hồi thực tế mà không làm mất đà tiến.",
+        "hint": "Đưa ra thỏa hiệp cụ thể gồm thời điểm, phạm vi và lợi ích."
+      },
+      {
+        "speaker": "a",
+        "en": "How would you prevent the pilot teams from treating it as optional?",
+        "vi": "Bạn sẽ ngăn các nhóm thí điểm coi việc này là tùy chọn như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We could set clear success measures, name a manager for each team, and share the results with everyone. If the pilot meets those measures, the full launch date is already scheduled.",
+        "vi": "Chúng ta có thể đặt các tiêu chí thành công rõ ràng, chỉ định một quản lý cho mỗi nhóm và chia sẻ kết quả với mọi người. Nếu đợt thí điểm đạt các tiêu chí đó, ngày triển khai toàn diện đã được lên lịch sẵn.",
+        "hint": "Dùng chuỗi động từ song song: set, name, and share để đề xuất nghe có tổ chức."
+      },
+      {
+        "speaker": "a",
+        "en": "That is more structured than I expected. But I do not want the pilot to become another excuse to delay.",
+        "vi": "Cách đó có cấu trúc hơn tôi nghĩ. Nhưng tôi không muốn đợt thí điểm trở thành một cái cớ khác để trì hoãn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Neither do I. I can prepare the training materials this week and bring you a short progress update every Friday. If we spot a serious issue, we can fix it before it affects the whole company.",
+        "vi": "Tôi cũng không muốn vậy. Tôi có thể chuẩn bị tài liệu đào tạo trong tuần này và báo cáo tiến độ ngắn cho anh/chị vào mỗi thứ Sáu. Nếu chúng ta phát hiện vấn đề nghiêm trọng, chúng ta có thể sửa trước khi nó ảnh hưởng đến toàn công ty.",
+        "hint": "Neither do I thể hiện đồng tình trước khi cam kết hành động cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "All right. Let us announce the direction on Monday and begin the pilot immediately after that. I want the final recommendation in two weeks.",
+        "vi": "Được. Hãy công bố định hướng vào thứ Hai và bắt đầu thí điểm ngay sau đó. Tôi muốn có đề xuất cuối cùng trong hai tuần nữa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I will send you the pilot plan by Thursday and make sure the teams understand that the full rollout is still the goal.",
+        "vi": "Cảm ơn anh/chị. Tôi sẽ gửi kế hoạch thí điểm trước thứ Năm và bảo đảm các nhóm hiểu rằng triển khai toàn diện vẫn là mục tiêu.",
+        "hint": "Kết thúc bằng việc xác nhận hành động và nhắc lại mục tiêu chung."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a decisive company director in a weekly management meeting. You strongly support a fast company-wide rollout because the current approval process is inefficient. You listen to practical arguments, challenge vague ideas, and accept a proposal only when it has clear safeguards, ownership, and a timeline.",
+    "opener": "I want to roll out the new approval process next Monday. Why should we wait?",
+    "goal": "Người học nêu rủi ro của việc triển khai gấp, đề xuất thí điểm có thời hạn và thuyết phục giám đốc chấp nhận phương án dung hòa."
+  },
+  "drills": [
+    {
+      "vi": "Tôi hiểu quan điểm của anh/chị, nhưng tôi có một mối lo ngại.",
+      "en": "I see where you are coming from, but I have one concern.",
+      "alts": [
+        "I understand your point, but I am concerned about the timeline."
+      ]
+    },
+    {
+      "vi": "Lo ngại của tôi là nếu chúng ta triển khai ngay, chúng ta có nguy cơ gây bối rối cho đội ngũ.",
+      "en": "My concern is that if we roll it out now, we risk confusing the team.",
+      "alts": [
+        "If we launch it immediately, the change could backfire."
+      ]
+    },
+    {
+      "vi": "Anh/chị có sẵn sàng cân nhắc một đợt thí điểm ngắn không?",
+      "en": "Would you be open to a short pilot?",
+      "alts": [
+        "Could we test the process with one department first?"
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể dung hòa bằng cách công bố quyết định vào thứ Hai không?",
+      "en": "Could we meet halfway by announcing the decision on Monday?",
+      "alts": [
+        "How about announcing the decision on Monday and starting a pilot afterward?"
+      ]
+    },
+    {
+      "vi": "Mặc dù tôi đồng ý rằng tốc độ quan trọng, tôi nghĩ chúng ta nên đào tạo các nhóm trước.",
+      "en": "While I agree that speed matters, I think we should train the teams first.",
+      "alts": [
+        "I agree that we need momentum, but training is an important safeguard."
+      ]
+    },
+    {
+      "vi": "Một quyết định vội vàng có thể phản tác dụng.",
+      "en": "A rushed decision could backfire.",
+      "alts": [
+        "Moving too quickly may create more delays."
+      ]
+    },
+    {
+      "vi": "Nếu đợt thí điểm thành công, chúng ta có thể triển khai trên toàn công ty.",
+      "en": "If the pilot succeeds, we can roll it out company-wide.",
+      "alts": [
+        "Once the trial meets the success measures, we can move to a full rollout."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại các lượt của vai người học và chú ý nhấn giọng lịch sự khi phản biện.",
+    "Viết ba cách khác nhau để đề xuất một đợt thí điểm với cấp trên.",
+    "Tự nói trong một phút về một kế hoạch bạn muốn thay đổi, gồm một rủi ro và một phương án dung hòa."
+  ]
+}

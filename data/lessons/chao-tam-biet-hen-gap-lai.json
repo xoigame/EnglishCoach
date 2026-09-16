@@ -1,0 +1,347 @@
+{
+  "id": "chao-tam-biet-hen-gap-lai",
+  "title": "Tạm biệt và hẹn gặp lại",
+  "topic": "Chào tạm biệt sau khi đi cà phê",
+  "level": "A1",
+  "summary": "Bạn vừa đi cà phê cùng một người bạn và chuẩn bị ra về. Học cách chào tạm biệt, hỏi thời gian rảnh và hẹn gặp lại.",
+  "goals": [
+    "Chào tạm biệt một cách tự nhiên với bạn bè",
+    "Hỏi người khác có rảnh vào thời điểm cụ thể không",
+    "Chốt giờ hẹn gặp lại đơn giản"
+  ],
+  "vocab": [
+    {
+      "en": "leave",
+      "ipa": "/liːv/",
+      "vi": "rời đi, ra về",
+      "example": "I need to leave now."
+    },
+    {
+      "en": "later",
+      "ipa": "/ˈleɪtər/",
+      "vi": "sau, lát nữa",
+      "example": "See you later."
+    },
+    {
+      "en": "tomorrow",
+      "ipa": "/təˈmɑːroʊ/",
+      "vi": "ngày mai",
+      "example": "Are you free tomorrow?"
+    },
+    {
+      "en": "free",
+      "ipa": "/friː/",
+      "vi": "rảnh",
+      "example": "I am free after work."
+    },
+    {
+      "en": "after work",
+      "ipa": "/ˈæftər wɜːrk/",
+      "vi": "sau giờ làm",
+      "example": "I am free after work."
+    },
+    {
+      "en": "meet",
+      "ipa": "/miːt/",
+      "vi": "gặp",
+      "example": "Let us meet here again."
+    },
+    {
+      "en": "again",
+      "ipa": "/əˈɡen/",
+      "vi": "lần nữa",
+      "example": "Let us meet again soon."
+    },
+    {
+      "en": "evening",
+      "ipa": "/ˈiːvnɪŋ/",
+      "vi": "buổi tối",
+      "example": "Are you free tomorrow evening?"
+    },
+    {
+      "en": "works for you",
+      "ipa": "/wɜːrks fɔːr juː/",
+      "vi": "phù hợp với bạn",
+      "example": "What time works for you?"
+    },
+    {
+      "en": "then",
+      "ipa": "/ðen/",
+      "vi": "lúc đó",
+      "example": "See you then."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "See you later.",
+      "vi": "Hẹn gặp lại sau nhé.",
+      "note": "Cách chào tạm biệt thân mật, dùng rất phổ biến với bạn bè."
+    },
+    {
+      "en": "I need to leave now.",
+      "vi": "Tôi cần về bây giờ.",
+      "note": "Dùng khi bạn muốn báo rằng mình sắp rời đi."
+    },
+    {
+      "en": "Are you free ___?",
+      "vi": "Bạn có rảnh vào ___ không?",
+      "note": "Điền thời gian, ví dụ: tomorrow evening."
+    },
+    {
+      "en": "Let us meet ___ .",
+      "vi": "Chúng ta gặp nhau ở ___ nhé.",
+      "note": "Dùng để đề nghị một cuộc hẹn đơn giản."
+    },
+    {
+      "en": "How about ___?",
+      "vi": "___ thì sao?",
+      "note": "Dùng để gợi ý giờ hoặc thời điểm."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "cụm phụ âm /fr/ trong free",
+      "tip": "Nối âm /f/ và /r/ liền nhau; không thêm âm đệm như “phờ-ri”.",
+      "words": [
+        "free",
+        "friend"
+      ]
+    },
+    {
+      "focus": "âm /ð/ trong then",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung giọng; không đọc thành /d/.",
+      "words": [
+        "then",
+        "there"
+      ]
+    },
+    {
+      "focus": "âm cuối /k/ trong work",
+      "tip": "Kết thúc rõ bằng /k/, không kéo thêm nguyên âm sau từ.",
+      "words": [
+        "work",
+        "works"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "See you in tomorrow.",
+      "right": "See you tomorrow.",
+      "vi": "Không dùng in trước tomorrow."
+    },
+    {
+      "wrong": "See you at later.",
+      "right": "See you later.",
+      "vi": "Later không đi với at trong câu chào tạm biệt này."
+    },
+    {
+      "wrong": "I am free in tomorrow evening.",
+      "right": "I am free tomorrow evening.",
+      "vi": "Không dùng in trước tomorrow evening."
+    },
+    {
+      "wrong": "Meet you later.",
+      "right": "See you later.",
+      "vi": "Khi tạm biệt, See you later tự nhiên hơn Meet you later."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Chào tạm biệt sau lần gặp đầu tiên",
+      "formal": "It was nice meeting you. Goodbye.",
+      "casual": "Nice seeing you. Bye.",
+      "vi": "Câu formal phù hợp với người mới gặp hoặc bối cảnh lịch sự; câu casual dùng với bạn bè."
+    },
+    {
+      "situation": "Hỏi về lịch rảnh để hẹn lại",
+      "formal": "Would tomorrow evening suit you?",
+      "casual": "Are you free tomorrow evening?",
+      "vi": "Câu formal lịch sự hơn khi nói với người lạ hoặc người lớn tuổi; câu casual phù hợp với bạn bè."
+    },
+    {
+      "situation": "Đề xuất giờ gặp",
+      "formal": "Shall we meet at six?",
+      "casual": "How about six?",
+      "vi": "Câu formal nhẹ nhàng và lịch sự; câu casual ngắn, tự nhiên giữa bạn bè."
+    },
+    {
+      "situation": "Chào khi đã chốt cuộc hẹn",
+      "formal": "See you tomorrow. Take care.",
+      "casual": "See you then. Bye.",
+      "vi": "Câu formal dùng khi muốn lịch sự và quan tâm hơn; câu casual dùng với người thân quen."
+    }
+  ],
+  "culture": [
+    "Người bản xứ thường nói lời tạm biệt ngắn vài lần khi cùng đi ra cửa, ví dụ Bye rồi See you tomorrow. Điều này hoàn toàn tự nhiên.",
+    "See you later đôi khi chỉ là lời chào thân mật, không nhất thiết là một lời hẹn cụ thể. Nếu thực sự muốn hẹn, hãy nói rõ ngày hoặc giờ.",
+    "Nếu không rảnh, người ta thường nói thẳng nhưng thân thiện và có thể đề xuất thời gian khác, thay vì trả lời mơ hồ."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau buổi cà phê",
+    "passage": "Hi Lan, it is Minh. I am home now. Thank you for coffee today. I really like the new cafe near your office. I am free tomorrow evening, so our plan is good for me. Let us meet there at six. Please send me a message if you are late. See you tomorrow.",
+    "vi": "Chào Lan, mình là Minh. Mình về nhà rồi. Cảm ơn bạn vì buổi cà phê hôm nay. Mình rất thích quán cà phê mới gần văn phòng của bạn. Tối mai mình rảnh, nên kế hoạch của chúng ta phù hợp với mình. Chúng ta gặp ở đó lúc sáu giờ nhé. Hãy nhắn cho mình nếu bạn đến muộn. Hẹn gặp bạn ngày mai.",
+    "questions": [
+      {
+        "q": "Who sends the voice message?",
+        "choices": [
+          "Lan",
+          "Minh",
+          "The cafe manager"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Minh vì đoạn nghe mở đầu bằng “it is Minh”."
+      },
+      {
+        "q": "When do they meet?",
+        "choices": [
+          "Tomorrow at six",
+          "Today after work",
+          "Friday morning"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là ngày mai lúc sáu giờ vì có câu “Let us meet there at six” sau khi Minh nói mình rảnh tối mai."
+      },
+      {
+        "q": "What should Lan do if she is late?",
+        "choices": [
+          "Call the cafe",
+          "Send a message",
+          "Go home"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là gửi tin nhắn vì Minh nói “Please send me a message if you are late”."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "AI: Người bạn vừa đi cà phê cùng",
+      "b": "Người học: Bạn vừa uống cà phê cùng bạn"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "This coffee is really nice.",
+        "vi": "Cà phê này thật ngon.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I like this place.",
+        "vi": "Ừ, tôi thích chỗ này.",
+        "hint": "Dùng I like để nói về điều bạn thích."
+      },
+      {
+        "speaker": "a",
+        "en": "I need to leave now.",
+        "vi": "Tôi cần về bây giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Okay, see you later.",
+        "vi": "Được, hẹn gặp lại sau nhé.",
+        "hint": "Câu tạm biệt thân mật, rất thông dụng."
+      },
+      {
+        "speaker": "a",
+        "en": "Are you free tomorrow evening?",
+        "vi": "Bạn có rảnh tối mai không?",
+        "hint": "Dùng Are you free để hỏi lịch rảnh."
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am free after work.",
+        "vi": "Có, tôi rảnh sau giờ làm.",
+        "hint": "After work nghĩa là sau giờ làm."
+      },
+      {
+        "speaker": "a",
+        "en": "Great, let's meet here again.",
+        "vi": "Tuyệt, chúng ta gặp lại ở đây nhé.",
+        "hint": "Let's dùng để rủ ai cùng làm việc gì."
+      },
+      {
+        "speaker": "b",
+        "en": "Sure, what time works for you?",
+        "vi": "Được, giờ nào phù hợp với bạn?",
+        "hint": "Works for you là phù hợp với bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "How about six tomorrow evening?",
+        "vi": "Sáu giờ tối mai thì sao?",
+        "hint": "How about dùng để đưa ra gợi ý."
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect, see you then. Bye.",
+        "vi": "Hoàn hảo, hẹn gặp lúc đó nhé. Tạm biệt.",
+        "hint": "See you then dùng khi hai người đã chốt thời gian."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly friend leaving a cafe after coffee. You are relaxed, warm, and ready to make a simple plan to meet again.",
+    "opener": "This coffee is really nice.",
+    "goal": "Người học chào tạm biệt, hỏi hoặc trả lời về thời gian rảnh, rồi chốt một giờ hẹn gặp lại."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần về bây giờ.",
+      "en": "I need to leave now.",
+      "alts": [
+        "I need to go now."
+      ]
+    },
+    {
+      "vi": "Hẹn gặp lại sau nhé.",
+      "en": "See you later.",
+      "alts": [
+        "See you soon."
+      ]
+    },
+    {
+      "vi": "Bạn có rảnh tối mai không?",
+      "en": "Are you free tomorrow evening?",
+      "alts": [
+        "Are you free tomorrow?"
+      ]
+    },
+    {
+      "vi": "Tôi rảnh sau giờ làm.",
+      "en": "I am free after work.",
+      "alts": [
+        "I am free this evening."
+      ]
+    },
+    {
+      "vi": "Chúng ta gặp lại ở đây nhé.",
+      "en": "Let us meet here again.",
+      "alts": [
+        "Let us meet again tomorrow."
+      ]
+    },
+    {
+      "vi": "Sáu giờ tối mai thì sao?",
+      "en": "How about six tomorrow evening?",
+      "alts": [
+        "How about six o'clock?"
+      ]
+    },
+    {
+      "vi": "Giờ nào phù hợp với bạn?",
+      "en": "What time works for you?",
+      "alts": [
+        "What time is good for you?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý âm /fr/ trong free.",
+    "Tự nói ba cách tạm biệt: See you later, See you tomorrow, và See you then.",
+    "Đặt ba câu hỏi với mẫu Are you free ___?"
+  ]
+}

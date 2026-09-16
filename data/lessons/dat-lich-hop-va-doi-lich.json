@@ -1,0 +1,374 @@
+{
+  "id": "dat-lich-hop-va-doi-lich",
+  "title": "Đặt lịch họp và xin đổi lịch",
+  "topic": "Sắp xếp và thay đổi lịch họp",
+  "level": "B1",
+  "summary": "Bạn liên hệ với trợ lý của đối tác để đặt lịch họp, sau đó xin đổi giờ vì lịch di chuyển thay đổi. Cuối cùng, hai bên chốt thời gian và địa điểm mới.",
+  "goals": [
+    "Đặt lịch họp bằng cách nêu thời gian mong muốn.",
+    "Lịch sự xin đổi lịch và giải thích lý do ngắn gọn.",
+    "Đề xuất phương án khác, xác nhận thời gian và địa điểm họp."
+  ],
+  "vocab": [
+    {
+      "en": "arrange a meeting",
+      "ipa": "/əˈreɪndʒ ə ˈmiːtɪŋ/",
+      "vi": "sắp xếp một cuộc họp",
+      "example": "I would like to arrange a meeting for Thursday afternoon."
+    },
+    {
+      "en": "availability",
+      "ipa": "/əˌveɪləˈbɪləti/",
+      "vi": "thời gian rảnh, khả năng có mặt",
+      "example": "Please check Daniel's availability before you suggest another time."
+    },
+    {
+      "en": "calendar invitation",
+      "ipa": "/ˈkælɪndər ˌɪnvɪˈteɪʃən/",
+      "vi": "lời mời trên lịch điện tử",
+      "example": "We sent a calendar invitation with the meeting details yesterday."
+    },
+    {
+      "en": "reschedule",
+      "ipa": "/ˌriːˈskedʒuːl/",
+      "vi": "đổi lịch, dời lịch",
+      "example": "Could we reschedule our meeting because my flight has been delayed?"
+    },
+    {
+      "en": "convenient",
+      "ipa": "/kənˈviːniənt/",
+      "vi": "thuận tiện, phù hợp",
+      "example": "Would Friday morning be convenient for everyone involved in this discussion?"
+    },
+    {
+      "en": "scheduling conflict",
+      "ipa": "/ˈskedʒuːlɪŋ ˈkɑːnflɪkt/",
+      "vi": "xung đột lịch trình",
+      "example": "I have a scheduling conflict because of another client call."
+    },
+    {
+      "en": "agenda",
+      "ipa": "/əˈdʒendə/",
+      "vi": "nội dung, chương trình cuộc họp",
+      "example": "The agenda includes project updates, budget questions, and next steps."
+    },
+    {
+      "en": "in person",
+      "ipa": "/ɪn ˈpɜːrsən/",
+      "vi": "trực tiếp, gặp mặt",
+      "example": "Would you prefer to meet in person or use a video link?"
+    },
+    {
+      "en": "confirm",
+      "ipa": "/kənˈfɜːrm/",
+      "vi": "xác nhận",
+      "example": "Please confirm the new time before I update the calendar."
+    },
+    {
+      "en": "video link",
+      "ipa": "/ˈvɪdioʊ lɪŋk/",
+      "vi": "đường dẫn họp trực tuyến",
+      "example": "I will add a video link to the invitation this afternoon."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could we schedule the meeting for ___?",
+      "vi": "Chúng ta có thể xếp cuộc họp vào ___ không?",
+      "note": "Dùng để đề nghị thời gian một cách lịch sự."
+    },
+    {
+      "en": "Would ___ work for you?",
+      "vi": "___ có phù hợp với bạn không?",
+      "note": "Cách tự nhiên, thân thiện để hỏi thời gian có ổn không."
+    },
+    {
+      "en": "I need to reschedule because ___.",
+      "vi": "Tôi cần đổi lịch vì ___.",
+      "note": "Nêu lý do ngắn gọn, không cần giải thích quá chi tiết."
+    },
+    {
+      "en": "Would it be possible to meet ___?",
+      "vi": "Có thể gặp ___ được không?",
+      "note": "Lịch sự hơn khi đề nghị thay đổi hình thức hoặc thời gian họp."
+    },
+    {
+      "en": "Could you confirm the revised meeting time?",
+      "vi": "Bạn có thể xác nhận thời gian họp đã điều chỉnh không?",
+      "note": "Dùng khi cần chốt lịch mới trước khi gửi lời mời lịch."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong Thursday",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi; tránh đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "Thursday",
+        "three",
+        "think"
+      ]
+    },
+    {
+      "focus": "trọng âm trong availability và convenient",
+      "tip": "Nhấn rõ âm chính: a-vail-a-BIL-i-ty và con-VEE-ni-ent; không đọc đều từng âm.",
+      "words": [
+        "availability",
+        "convenient",
+        "agenda"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối",
+      "tip": "Phát rõ âm cuối để người nghe phân biệt từ, nhất là /t/, /d/ và /k/.",
+      "words": [
+        "meet",
+        "send",
+        "link"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want change the meeting time.",
+      "right": "I need to change the meeting time.",
+      "vi": "Sau want cần có to. Trong tình huống công việc, I need to nghe tự nhiên và mềm hơn."
+    },
+    {
+      "wrong": "Can you arrange meeting with Daniel?",
+      "right": "Could you arrange a meeting with Daniel?",
+      "vi": "Cần mạo từ a trước meeting; Could you lịch sự hơn Can you."
+    },
+    {
+      "wrong": "I am available in Tuesday afternoon.",
+      "right": "I am available on Tuesday afternoon.",
+      "vi": "Dùng on với thứ và buổi trong ngày: on Tuesday afternoon."
+    },
+    {
+      "wrong": "I have another appointment in that time.",
+      "right": "I have another appointment at that time.",
+      "vi": "Dùng at that time để nói vào thời điểm đó."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề nghị đặt lịch họp",
+      "formal": "Would it be possible to schedule a meeting with Daniel next week?",
+      "casual": "Can we set up a meeting with Daniel next week?",
+      "vi": "Câu formal phù hợp với trợ lý, khách hàng hoặc cấp trên; câu casual hợp với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Xin đổi lịch vì có việc phát sinh",
+      "formal": "I am afraid I have a scheduling conflict. Could we reschedule?",
+      "casual": "Something came up. Can we move the meeting?",
+      "vi": "Câu formal mềm và chuyên nghiệp hơn; câu casual chỉ nên dùng khi quan hệ đã thân hoặc trong nhóm nội bộ."
+    },
+    {
+      "situation": "Hỏi một khung giờ có phù hợp không",
+      "formal": "Would Thursday afternoon be convenient for you?",
+      "casual": "Does Thursday afternoon work for you?",
+      "vi": "Cả hai đều lịch sự, nhưng convenient trang trọng hơn work for you trong trao đổi hằng ngày."
+    },
+    {
+      "situation": "Xác nhận lịch mới",
+      "formal": "Could you please confirm the revised meeting time?",
+      "casual": "Just confirming, are we still meeting at four?",
+      "vi": "Câu formal phù hợp trong thư hoặc khi làm việc với đối tác; câu casual tự nhiên khi nhắn nhanh cho đồng nghiệp."
+    }
+  ],
+  "culture": [
+    "Trong môi trường công việc nói tiếng Anh, nêu ngắn gọn rằng bạn có scheduling conflict thường đã đủ; bạn không cần kể chi tiết lý do cá nhân.",
+    "Khi xin đổi lịch, việc đề xuất ngay một hoặc hai thời gian thay thế được xem là chủ động và tôn trọng thời gian của đối phương.",
+    "Lời mời lịch điện tử thường được dùng để chốt cuộc họp. Nhiều người sẽ kiểm tra, chấp nhận lời mời và mong địa điểm hoặc đường dẫn họp có trong đó."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về lịch họp mới",
+    "passage": "Hello, this is Maya from Daniel Thompson's office. I am calling about your meeting next week. Daniel needs to travel on Tuesday, so we have moved the meeting to Thursday at four in the afternoon. We will meet in the small conference room on the third floor. Please reply before Wednesday if this new time creates any problem for you. Thank you.",
+    "vi": "Xin chào, đây là Maya từ văn phòng của Daniel Thompson. Tôi gọi về cuộc họp của bạn vào tuần tới. Daniel cần đi công tác vào thứ Ba, vì vậy chúng tôi đã chuyển cuộc họp sang thứ Năm lúc bốn giờ chiều. Chúng ta sẽ gặp tại phòng họp nhỏ ở tầng ba. Vui lòng trả lời trước thứ Tư nếu giờ mới này gây khó khăn cho bạn. Cảm ơn.",
+    "questions": [
+      {
+        "q": "Why was the meeting moved?",
+        "choices": [
+          "Daniel needs to travel on Tuesday.",
+          "The conference room is unavailable.",
+          "The caller has another appointment."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu vì bài nghe nói Daniel needs to travel on Tuesday."
+      },
+      {
+        "q": "When is the new meeting time?",
+        "choices": [
+          "Tuesday at four in the afternoon.",
+          "Thursday at four in the afternoon.",
+          "Thursday at eleven in the morning."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì bài nghe nói moved the meeting to Thursday at four in the afternoon."
+      },
+      {
+        "q": "Where will the meeting take place?",
+        "choices": [
+          "In Daniel's office.",
+          "In a small conference room.",
+          "At Riverside Station."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì bài nghe nói in the small conference room on the third floor."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Trợ lý của đối tác",
+      "b": "Người cần đặt lịch họp"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, this is Maya, Daniel Thompson's assistant. How may I help you today?",
+        "vi": "Xin chào, tôi là Maya, trợ lý của Daniel Thompson. Hôm nay tôi có thể giúp gì cho bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi Maya, I would like to arrange a meeting with Daniel next week.",
+        "vi": "Chào Maya, tôi muốn sắp xếp một cuộc họp với Daniel vào tuần tới.",
+        "hint": "Dùng I would like to để mở lời lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. He is available Tuesday afternoon or Thursday morning next week.",
+        "vi": "Được chứ. Anh ấy rảnh vào chiều thứ Ba hoặc sáng thứ Năm tuần tới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Tuesday afternoon would suit me well, preferably sometime after two o'clock.",
+        "vi": "Chiều thứ Ba hợp với tôi, tốt nhất là vào lúc nào đó sau hai giờ.",
+        "hint": "Preferably dùng để nói lựa chọn bạn mong muốn hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Daniel has a client call at two, but he is free at three thirty.",
+        "vi": "Daniel có cuộc gọi với khách hàng lúc hai giờ, nhưng anh ấy rảnh lúc ba giờ ba mươi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That works for me. Could you please send a calendar invitation?",
+        "vi": "Giờ đó phù hợp với tôi. Bạn có thể gửi lời mời trên lịch điện tử không?",
+        "hint": "That works for me nghĩa là giờ đó phù hợp với tôi."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I will include the video link and a brief meeting agenda.",
+        "vi": "Tất nhiên. Tôi sẽ kèm đường dẫn họp trực tuyến và nội dung họp ngắn gọn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Actually, I need to change the time because my train arrives late.",
+        "vi": "Thực ra, tôi cần đổi giờ vì tàu của tôi đến muộn.",
+        "hint": "Dùng Actually để chuyển sang thông tin thay đổi một cách tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand. Would Wednesday at eleven in the morning be more convenient?",
+        "vi": "Tôi hiểu. Thứ Tư lúc mười một giờ sáng có thuận tiện hơn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Unfortunately, I have already scheduled another appointment during that time.",
+        "vi": "Không may là tôi đã có một cuộc hẹn khác vào khoảng thời gian đó.",
+        "hint": "Unfortunately giúp từ chối lịch sự trước khi nêu lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "No problem. Daniel could meet on Thursday at four, if that helps.",
+        "vi": "Không vấn đề gì. Daniel có thể gặp vào thứ Năm lúc bốn giờ, nếu giờ đó phù hợp.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thursday at four is perfect. Would it be possible to meet in person?",
+        "vi": "Thứ Năm lúc bốn giờ là hoàn hảo. Có thể gặp trực tiếp được không?",
+        "hint": "Would it be possible to là cách đề nghị lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, the meeting will be held at our office near Riverside Station.",
+        "vi": "Được, cuộc họp sẽ được tổ chức tại văn phòng của chúng tôi gần ga Riverside.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, please send the address and invitation. I will see Daniel at four on Thursday.",
+        "vi": "Tuyệt vời, vui lòng gửi địa chỉ và lời mời. Tôi sẽ gặp Daniel lúc bốn giờ thứ Năm.",
+        "hint": "Kết thúc bằng cách nhắc lại lịch đã chốt để xác nhận."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are Maya, Daniel Thompson's organized and friendly assistant at a consulting firm. You help callers schedule meetings, check Daniel's availability, and offer practical alternatives when times need to change.",
+    "opener": "Hello, this is Maya, Daniel Thompson's assistant. How may I help you today?",
+    "goal": "Người học đặt lịch với Daniel, xin đổi lịch vì có việc phát sinh, rồi xác nhận lịch mới."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn sắp xếp một cuộc họp với Daniel vào tuần tới.",
+      "en": "I would like to arrange a meeting with Daniel next week.",
+      "alts": [
+        "I would like to set up a meeting with Daniel next week."
+      ]
+    },
+    {
+      "vi": "Chiều thứ Năm có phù hợp với bạn không?",
+      "en": "Would Thursday afternoon work for you?",
+      "alts": [
+        "Would Thursday afternoon be convenient for you?"
+      ]
+    },
+    {
+      "vi": "Tôi cần đổi lịch vì tôi có một cuộc hẹn khác.",
+      "en": "I need to reschedule because I have another appointment.",
+      "alts": [
+        "Could we reschedule because I have another appointment?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể kiểm tra thời gian rảnh của Daniel không?",
+      "en": "Could you check Daniel's availability?",
+      "alts": [
+        "Could you see when Daniel is available?"
+      ]
+    },
+    {
+      "vi": "Có thể gặp trực tiếp thay vì họp trực tuyến không?",
+      "en": "Would it be possible to meet in person instead of online?",
+      "alts": [
+        "Could we meet in person rather than use a video link?"
+      ]
+    },
+    {
+      "vi": "Vui lòng xác nhận thời gian họp đã điều chỉnh.",
+      "en": "Please confirm the revised meeting time.",
+      "alts": [
+        "Could you confirm the new meeting time?"
+      ]
+    },
+    {
+      "vi": "Tôi có xung đột lịch trình vào sáng thứ Ba.",
+      "en": "I have a scheduling conflict on Tuesday morning.",
+      "alts": [
+        "I am not available on Tuesday morning because of another meeting."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý phát âm Thursday, meet và confirm.",
+    "Viết một tin nhắn ngắn xin đổi lịch họp và đề xuất hai khung giờ thay thế.",
+    "Tự nói ba câu dùng các mẫu Would ___ work for you? và I need to reschedule because ___."
+  ]
+}

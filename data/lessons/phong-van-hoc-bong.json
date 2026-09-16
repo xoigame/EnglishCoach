@@ -1,0 +1,386 @@
+{
+  "id": "phong-van-hoc-bong",
+  "title": "Phỏng vấn học bổng du học",
+  "topic": "Phỏng vấn học bổng",
+  "level": "B2",
+  "summary": "Luyện trả lời phỏng vấn học bổng một cách thuyết phục, từ giới thiệu bản thân đến nêu kế hoạch tài chính và bảo vệ quan điểm. Bạn đóng vai ứng viên, còn AI là hội đồng xét học bổng.",
+  "goals": [
+    "Giới thiệu hồ sơ và mục tiêu học tập một cách tự nhiên, chuyên nghiệp.",
+    "Trình bày kinh nghiệm, khó khăn và tác động cộng đồng bằng ví dụ cụ thể.",
+    "Trả lời câu hỏi về tài chính, tranh luận về tiêu chí xét học bổng và khép lại buổi phỏng vấn lịch sự."
+  ],
+  "vocab": [
+    {
+      "en": "scholarship",
+      "ipa": "/ˈskɑːlərʃɪp/",
+      "vi": "học bổng",
+      "example": "This scholarship would make graduate study possible for me."
+    },
+    {
+      "en": "academic record",
+      "ipa": "/ˌækəˈdemɪk ˈrekərd/",
+      "vi": "thành tích học tập",
+      "example": "My academic record reflects consistent effort over four years."
+    },
+    {
+      "en": "financial need",
+      "ipa": "/faɪˈnænʃəl niːd/",
+      "vi": "nhu cầu hỗ trợ tài chính",
+      "example": "I can explain my financial need clearly and honestly."
+    },
+    {
+      "en": "community outreach",
+      "ipa": "/kəˈmjuːnəti ˈaʊtriːtʃ/",
+      "vi": "hoạt động kết nối, hỗ trợ cộng đồng",
+      "example": "I have volunteered in community outreach projects for local schools."
+    },
+    {
+      "en": "long term goal",
+      "ipa": "/ˌlɔːŋ ˈtɜːrm ɡoʊl/",
+      "vi": "mục tiêu dài hạn",
+      "example": "My long term goal is to improve waste management in my city."
+    },
+    {
+      "en": "resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "vi": "kiên cường, có khả năng vượt khó",
+      "example": "The experience made me more resilient and practical."
+    },
+    {
+      "en": "tuition",
+      "ipa": "/tuˈɪʃən/",
+      "vi": "học phí",
+      "example": "The award would help cover my tuition and living costs."
+    },
+    {
+      "en": "merit based",
+      "ipa": "/ˈmerɪt beɪst/",
+      "vi": "dựa trên năng lực, thành tích",
+      "example": "It is a merit based scholarship with a competitive selection process."
+    },
+    {
+      "en": "sustainable",
+      "ipa": "/səˈsteɪnəbəl/",
+      "vi": "bền vững",
+      "example": "I want to develop sustainable solutions for urban communities."
+    },
+    {
+      "en": "give back",
+      "ipa": "/ɡɪv bæk/",
+      "vi": "đóng góp, đáp lại cho cộng đồng",
+      "example": "After graduation, I hope to give back through education and research."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am applying for this scholarship because ___, but also because ___.",
+      "vi": "Tôi nộp đơn xin học bổng này vì ___, nhưng cũng vì ___.",
+      "note": "Dùng để kết hợp lý do thực tế như tài chính với động lực học thuật hoặc xã hội."
+    },
+    {
+      "en": "What draws me to this program is ___.",
+      "vi": "Điều thu hút tôi ở chương trình này là ___.",
+      "note": "Tự nhiên và thuyết phục hơn khi chỉ nói I like this program."
+    },
+    {
+      "en": "If I were awarded the scholarship, I would ___.",
+      "vi": "Nếu được trao học bổng, tôi sẽ ___.",
+      "note": "Dùng câu điều kiện loại hai để nói về khả năng giả định một cách trang trọng."
+    },
+    {
+      "en": "Although ___, I learned that ___.",
+      "vi": "Mặc dù ___, tôi đã học được rằng ___.",
+      "note": "Hữu ích khi kể về thất bại hoặc trở ngại theo hướng tích cực."
+    },
+    {
+      "en": "Would the committee be open to considering ___?",
+      "vi": "Hội đồng có sẵn sàng cân nhắc ___ không?",
+      "note": "Cách hỏi lịch sự khi muốn trao đổi về phương án hỗ trợ hoặc điều kiện học bổng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm và âm /ʃ/ trong scholarship",
+      "tip": "Nhấn âm đầu SCHOL. Âm cuối ship là /ʃɪp/, không đọc thành ship với âm /s/.",
+      "words": [
+        "scholarship",
+        "leadership",
+        "internship"
+      ]
+    },
+    {
+      "focus": "Âm /ʃ/ trong tuition",
+      "tip": "Tuition có ba âm tiết, nhấn âm thứ hai: tu I tion. Phần tion đọc gần như /ʃən/, không đọc từng chữ cái.",
+      "words": [
+        "tuition",
+        "application",
+        "education"
+      ]
+    },
+    {
+      "focus": "Âm /z/ và trọng âm trong resilient",
+      "tip": "Nhấn âm thứ hai: re ZIL ient. Giữ âm /z/ rung nhẹ, không thay bằng âm /s/.",
+      "words": [
+        "resilient",
+        "result",
+        "resume"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am apply for this scholarship because I need money.",
+      "right": "I am applying for this scholarship because I need financial support.",
+      "vi": "Sau am cần động từ thêm ing. Trong phỏng vấn, financial support lịch sự và chuyên nghiệp hơn need money."
+    },
+    {
+      "wrong": "I participated many community projects.",
+      "right": "I participated in many community projects.",
+      "vi": "Participate đi với giới từ in."
+    },
+    {
+      "wrong": "The scholarship can support for my tuition.",
+      "right": "The scholarship can help cover my tuition.",
+      "vi": "Support không dùng trực tiếp với for trong cấu trúc này. Help cover là cách nói tự nhiên về chi trả học phí."
+    },
+    {
+      "wrong": "If I will receive the scholarship, I will study harder.",
+      "right": "If I were awarded the scholarship, I would make the most of the opportunity.",
+      "vi": "Khi nói về khả năng giả định trong phỏng vấn, dùng If I were awarded, I would nghe chín chắn hơn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu lý do quan tâm đến chương trình",
+      "formal": "What draws me to this program is its strong focus on applied research.",
+      "casual": "I really like that this program focuses on practical research.",
+      "vi": "Câu formal phù hợp khi trả lời hội đồng hoặc viết thư động lực. Câu casual phù hợp khi nói với bạn bè hoặc trong buổi luyện phỏng vấn thân mật."
+    },
+    {
+      "situation": "Hỏi về khả năng hỗ trợ một phần",
+      "formal": "Would the committee be open to considering a partial award?",
+      "casual": "Is there any chance of getting some partial funding?",
+      "vi": "Câu formal dùng trực tiếp với hội đồng vì lịch sự và không gây áp lực. Câu casual chỉ nên dùng với bạn bè, cố vấn quen thuộc hoặc đồng nghiệp."
+    },
+    {
+      "situation": "Nói về kế hoạch đóng góp sau khi học",
+      "formal": "I hope to give back by sharing my research with local communities.",
+      "casual": "I want to bring what I learn back home and help out.",
+      "vi": "Câu formal phù hợp trong phỏng vấn học bổng. Câu casual tự nhiên trong cuộc trò chuyện không trang trọng, nhưng quá thân mật với hội đồng."
+    },
+    {
+      "situation": "Bày tỏ quan điểm không hoàn toàn đồng ý",
+      "formal": "I see the value of that view, but I would argue that merit goes beyond grades.",
+      "casual": "I get that, but I do not think grades tell the whole story.",
+      "vi": "Câu formal giúp phản biện tôn trọng trong phỏng vấn. Câu casual hợp khi thảo luận với bạn học hoặc người quen."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn ở nhiều môi trường nói tiếng Anh, ứng viên thường trả lời trực tiếp bằng một ý chính trước, rồi mới đưa ví dụ. Mở đầu quá dài hoặc vòng vo có thể làm câu trả lời kém thuyết phục.",
+    "Giao tiếp bằng mắt vừa phải, nét mặt bình tĩnh và khoảng dừng ngắn để suy nghĩ thường được xem là tự tin. Không cần nói liên tục để lấp im lặng.",
+    "Khi chưa biết câu trả lời, bạn có thể nói bạn cần một chút thời gian để suy nghĩ rồi trả lời. Cách này thường tốt hơn đoán vội hoặc trả lời quá chắc về điều mình không biết."
+  ],
+  "listening": {
+    "title": "Hướng dẫn trước buổi phỏng vấn học bổng",
+    "passage": "Hello applicants. Before your scholarship interview, please arrive a little early and bring a form of photo identification. You will meet a panel of two members for about fifteen minutes. We are interested in your future goals and community work, so please give specific examples. There is no written test today. If you need any support during the interview, tell the coordinator before it begins.",
+    "vi": "Xin chào các ứng viên. Trước buổi phỏng vấn học bổng, vui lòng đến sớm một chút và mang theo giấy tờ có ảnh nhận dạng. Bạn sẽ gặp một hội đồng gồm hai thành viên trong khoảng mười lăm phút. Chúng tôi quan tâm đến mục tiêu tương lai và hoạt động cộng đồng của bạn, vì vậy hãy đưa ra các ví dụ cụ thể. Hôm nay không có bài kiểm tra viết. Nếu bạn cần bất kỳ hỗ trợ nào trong buổi phỏng vấn, hãy báo cho điều phối viên trước khi buổi phỏng vấn bắt đầu.",
+    "questions": [
+      {
+        "q": "What is the panel especially interested in?",
+        "choices": [
+          "Travel plans and hobbies",
+          "Future goals and community work",
+          "Test scores only"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì bài nghe nói rõ hội đồng quan tâm đến future goals and community work."
+      },
+      {
+        "q": "What should applicants include in their answers?",
+        "choices": [
+          "Long quotations",
+          "Specific examples",
+          "A written essay"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì người nói yêu cầu applicants give specific examples."
+      },
+      {
+        "q": "What is not part of the process today?",
+        "choices": [
+          "A written test",
+          "Photo identification",
+          "A panel interview"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn thứ nhất vì bài nghe nói There is no written test today."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Hội đồng xét học bổng",
+      "b": "Ứng viên xin học bổng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Thank you for joining us today. Could you introduce yourself and tell us what you are studying?",
+        "vi": "Chào buổi sáng. Cảm ơn bạn đã tham gia hôm nay. Bạn có thể giới thiệu bản thân và cho biết bạn đang học ngành gì không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good morning, and thank you for having me. I am Lan Nguyen, a final year environmental science student with a strong interest in sustainable urban development.",
+        "vi": "Chào buổi sáng, và cảm ơn hội đồng đã dành thời gian cho tôi. Tôi là Lan Nguyen, sinh viên năm cuối ngành khoa học môi trường, rất quan tâm đến phát triển đô thị bền vững.",
+        "hint": "Nêu tên, năm học, ngành học và một mối quan tâm nổi bật."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you, Lan. Why are you applying for this scholarship?",
+        "vi": "Cảm ơn Lan. Vì sao bạn nộp đơn xin học bổng này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am applying because it would make graduate study financially possible, but also because the program matches my long term goal of improving waste management in Vietnamese cities.",
+        "vi": "Tôi nộp đơn vì học bổng sẽ giúp việc học sau đại học khả thi về mặt tài chính, nhưng cũng vì chương trình phù hợp với mục tiêu dài hạn của tôi là cải thiện quản lý rác thải tại các thành phố Việt Nam.",
+        "hint": "Dùng because để nối lý do tài chính với mục tiêu dài hạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Your academic record is strong. Tell us about a setback that taught you something important.",
+        "vi": "Thành tích học tập của bạn rất tốt. Hãy kể về một trở ngại đã dạy bạn điều quan trọng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "During my second year, I led a campus recycling project that initially failed because we had not consulted students. I took responsibility, gathered feedback, and redesigned the collection points. Participation nearly doubled the following semester.",
+        "vi": "Trong năm hai, tôi dẫn dắt một dự án tái chế trong trường nhưng ban đầu đã thất bại vì chúng tôi chưa tham khảo ý kiến sinh viên. Tôi nhận trách nhiệm, thu thập phản hồi và thiết kế lại các điểm thu gom. Số người tham gia gần như tăng gấp đôi vào học kỳ sau.",
+        "hint": "Kể theo trình tự: khó khăn, hành động bạn làm và kết quả."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a useful lesson. Some applicants say they want to give back. What would that look like in practical terms for you?",
+        "vi": "Đó là một bài học hữu ích. Một số ứng viên nói rằng họ muốn đóng góp lại cho cộng đồng. Với bạn, điều đó sẽ cụ thể là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If I were awarded the scholarship, I would return with stronger research skills and partner with local schools and neighborhood groups. I would start small, measure the results, and share a model that others could adapt instead of making promises I cannot keep.",
+        "vi": "Nếu được trao học bổng, tôi sẽ trở về với kỹ năng nghiên cứu tốt hơn và hợp tác với các trường học cùng nhóm cộng đồng địa phương. Tôi sẽ bắt đầu ở quy mô nhỏ, đo lường kết quả và chia sẻ một mô hình mà người khác có thể điều chỉnh, thay vì đưa ra những lời hứa tôi không thể thực hiện.",
+        "hint": "Dùng If I were awarded, I would để nêu kế hoạch giả định rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose you receive a partial award rather than full tuition. How would you handle the remaining cost?",
+        "vi": "Giả sử bạn nhận được học bổng một phần thay vì toàn bộ học phí. Bạn sẽ xử lý khoản chi phí còn lại như thế nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have already explored several options, including savings, a university assistantship, and part time research work within visa rules. I would be grateful for any support, but I would not take on work that undermined my studies.",
+        "vi": "Tôi đã tìm hiểu một số phương án, gồm tiền tiết kiệm, vị trí trợ lý tại trường và công việc nghiên cứu bán thời gian trong phạm vi quy định thị thực. Tôi sẽ trân trọng bất kỳ hỗ trợ nào, nhưng tôi sẽ không nhận công việc làm ảnh hưởng đến việc học.",
+        "hint": "Nêu vài phương án thực tế, rồi khẳng định việc học là ưu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds realistic. Our committee also values diverse perspectives. How might your background contribute to the cohort?",
+        "vi": "Điều đó nghe rất thực tế. Hội đồng cũng đánh giá cao các góc nhìn đa dạng. Hoàn cảnh của bạn có thể đóng góp gì cho nhóm học viên?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Growing up in a rapidly developing city, I have seen how environmental policies can affect people differently depending on income and location. I would bring that perspective to discussions and remain open to being challenged by classmates with other experiences.",
+        "vi": "Lớn lên tại một thành phố phát triển nhanh, tôi đã thấy chính sách môi trường có thể ảnh hưởng khác nhau đến mọi người tùy theo thu nhập và nơi ở. Tôi sẽ mang góc nhìn đó vào các cuộc thảo luận và vẫn cởi mở trước những thách thức từ các bạn học có trải nghiệm khác.",
+        "hint": "Dùng depending on để diễn đạt tác động khác nhau theo từng hoàn cảnh."
+      },
+      {
+        "speaker": "a",
+        "en": "One final question. Some people argue that scholarships should go only to applicants with the highest grades. Do you agree?",
+        "vi": "Một câu hỏi cuối. Có người cho rằng học bổng chỉ nên trao cho những ứng viên có điểm số cao nhất. Bạn có đồng ý không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Grades matter because they show discipline, but they are not the whole picture. I believe merit should include resilience, leadership, and the ability to turn knowledge into public benefit. Otherwise, we may overlook candidates who can create lasting change.",
+        "vi": "Điểm số quan trọng vì chúng cho thấy tính kỷ luật, nhưng đó không phải toàn bộ bức tranh. Tôi tin rằng năng lực cũng nên bao gồm sự kiên cường, khả năng lãnh đạo và năng lực biến kiến thức thành lợi ích công cộng. Nếu không, chúng ta có thể bỏ qua những ứng viên có thể tạo ra thay đổi lâu dài.",
+        "hint": "Nhượng bộ trước bằng Grades matter, rồi nêu quan điểm phản biện."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you, Lan. We have no further questions. Is there anything you would like to add before we close?",
+        "vi": "Cảm ơn Lan. Chúng tôi không còn câu hỏi nào thêm. Bạn có muốn bổ sung điều gì trước khi kết thúc không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Only that I would treat this opportunity as a responsibility, not just a reward. Whether the award is full or partial, I am prepared to work hard, learn from the cohort, and give back after graduation. Thank you for your time and consideration.",
+        "vi": "Tôi chỉ muốn nói rằng tôi sẽ xem cơ hội này là một trách nhiệm, chứ không chỉ là phần thưởng. Dù học bổng toàn phần hay một phần, tôi sẵn sàng nỗ lực, học hỏi từ nhóm học viên và đóng góp lại sau khi tốt nghiệp. Cảm ơn hội đồng đã dành thời gian và xem xét hồ sơ của tôi.",
+        "hint": "Kết thúc ngắn gọn: khẳng định cam kết, cảm ơn hội đồng và không lặp lại toàn bộ câu trả lời."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a fair but demanding member of a scholarship selection panel at an international university. You are conducting a formal online interview and ask follow-up questions about the applicant's goals, evidence, financial plan, and fit. Be warm, direct, and professional.",
+    "opener": "Good morning. Thank you for joining us today. Could you introduce yourself and tell us what you are studying?",
+    "goal": "Người học trả lời thuyết phục về hồ sơ, mục tiêu, khó khăn, kế hoạch tài chính và giá trị họ có thể đóng góp."
+  },
+  "drills": [
+    {
+      "vi": "Tôi nộp đơn xin học bổng này vì nó phù hợp với mục tiêu dài hạn của tôi.",
+      "en": "I am applying for this scholarship because it matches my long term goal.",
+      "alts": [
+        "This scholarship fits my long term goal."
+      ]
+    },
+    {
+      "vi": "Điều thu hút tôi ở chương trình này là cơ hội làm nghiên cứu thực tế.",
+      "en": "What draws me to this program is the opportunity to do practical research.",
+      "alts": [
+        "I am drawn to this program because of its practical research opportunities."
+      ]
+    },
+    {
+      "vi": "Nếu được trao học bổng, tôi sẽ tận dụng tối đa cơ hội này.",
+      "en": "If I were awarded the scholarship, I would make the most of this opportunity.",
+      "alts": [
+        "If I received the scholarship, I would use the opportunity responsibly."
+      ]
+    },
+    {
+      "vi": "Mặc dù dự án ban đầu thất bại, tôi đã học được cách lắng nghe phản hồi.",
+      "en": "Although the project initially failed, I learned how to listen to feedback.",
+      "alts": [
+        "The project failed at first, but it taught me to listen to feedback."
+      ]
+    },
+    {
+      "vi": "Tôi đã tham gia các dự án kết nối cộng đồng tại địa phương.",
+      "en": "I participated in local community outreach projects.",
+      "alts": [
+        "I took part in community outreach projects in my area."
+      ]
+    },
+    {
+      "vi": "Học bổng sẽ giúp chi trả học phí của tôi.",
+      "en": "The scholarship would help cover my tuition.",
+      "alts": [
+        "The award would help me pay for my tuition."
+      ]
+    },
+    {
+      "vi": "Hội đồng có sẵn sàng cân nhắc một khoản hỗ trợ một phần không?",
+      "en": "Would the committee be open to considering partial support?",
+      "alts": [
+        "Would it be possible for the committee to consider a partial award?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần trả lời cho bốn câu hỏi khó: lý do xin học bổng, thất bại, tài chính và tiêu chí xét chọn.",
+    "Viết một đoạn từ 120 đến 150 từ về mục tiêu dài hạn của bạn, dùng ít nhất ba từ vựng trong bài.",
+    "Tập trả lời câu hỏi về điểm số trong 45 giây, có dùng cấu trúc Grades matter, but."
+  ]
+}

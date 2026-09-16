@@ -1,0 +1,374 @@
+{
+  "id": "huong-dan-dong-nghiep-moi",
+  "title": "Hướng dẫn đồng nghiệp mới trong tuần đầu",
+  "topic": "Làm quen và nhận hướng dẫn công việc",
+  "level": "B1",
+  "summary": "Bạn vào vai một đồng nghiệp giàu kinh nghiệm, hướng dẫn nhân viên mới trong ngày đầu tiên. Bài học giúp người học chỉ dẫn công việc, giải thích lý do và phản hồi lịch sự.",
+  "goals": [
+    "Hướng dẫn nhân viên mới về nơi làm việc và quy trình hằng ngày",
+    "Giải thích cách theo dõi công việc, ưu tiên và thời hạn",
+    "Dùng câu hỏi lịch sự để hỗ trợ nhân viên mới trong tuần đầu"
+  ],
+  "vocab": [
+    {
+      "en": "onboarding",
+      "ipa": "/ˈɒn.bɔːr.dɪŋ/",
+      "vi": "quy trình tiếp nhận và hướng dẫn nhân viên mới",
+      "example": "The onboarding guide explains our basic procedures."
+    },
+    {
+      "en": "daily routine",
+      "ipa": "/ˈdeɪ.li ruːˈtiːn/",
+      "vi": "quy trình hoặc lịch làm việc hằng ngày",
+      "example": "I will explain our daily routine after the office tour."
+    },
+    {
+      "en": "locker",
+      "ipa": "/ˈlɒk.ər/",
+      "vi": "tủ có khóa để đồ cá nhân",
+      "example": "You can keep your bag in a locker near reception."
+    },
+    {
+      "en": "project board",
+      "ipa": "/ˈprɒdʒ.ekt bɔːrd/",
+      "vi": "bảng theo dõi công việc của dự án",
+      "example": "We update the project board before the morning meeting."
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈded.laɪn/",
+      "vi": "hạn chót",
+      "example": "Please tell me early if a deadline seems unrealistic."
+    },
+    {
+      "en": "priority",
+      "ipa": "/praɪˈɒr.ə.ti/",
+      "vi": "việc ưu tiên",
+      "example": "This customer request is our highest priority today."
+    },
+    {
+      "en": "shadow",
+      "ipa": "/ˈʃæd.oʊ/",
+      "vi": "theo dõi và quan sát người có kinh nghiệm làm việc để học hỏi",
+      "example": "You will shadow Daniel during two client calls tomorrow."
+    },
+    {
+      "en": "client call",
+      "ipa": "/ˈklaɪ.ənt kɔːl/",
+      "vi": "cuộc gọi với khách hàng",
+      "example": "She prepared carefully before her first client call."
+    },
+    {
+      "en": "brief",
+      "ipa": "/briːf/",
+      "vi": "ngắn gọn",
+      "example": "Please keep your question brief during the meeting."
+    },
+    {
+      "en": "feedback",
+      "ipa": "/ˈfiːd.bæk/",
+      "vi": "nhận xét, góp ý",
+      "example": "Your manager will give you feedback after the training task."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you show me how to ___?",
+      "vi": "Bạn có thể chỉ cho tôi cách ___ không?",
+      "note": "Dùng để nhờ hướng dẫn một thao tác hoặc quy trình cụ thể."
+    },
+    {
+      "en": "Where should I ___?",
+      "vi": "Tôi nên ___ ở đâu?",
+      "note": "Dùng should để hỏi lời khuyên lịch sự về nơi chốn hoặc cách làm."
+    },
+    {
+      "en": "I have ___, but I still have questions about ___.",
+      "vi": "Tôi đã ___, nhưng tôi vẫn có câu hỏi về ___.",
+      "note": "Thể hiện bạn đã chủ động tìm hiểu trước khi hỏi."
+    },
+    {
+      "en": "Should I ___, or should I ___?",
+      "vi": "Tôi nên ___, hay tôi nên ___?",
+      "note": "Dùng khi cần người khác giúp chọn cách xử lý phù hợp."
+    },
+    {
+      "en": "We use ___ because it helps us ___.",
+      "vi": "Chúng tôi dùng ___ vì nó giúp chúng tôi ___.",
+      "note": "Mẫu giải thích lý do và lợi ích của một công cụ hoặc quy trình."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /z/",
+      "tip": "Phát âm rung nhẹ ở cuối từ, không bỏ âm cuối như deadline hoặc task.",
+      "words": [
+        "deadlines",
+        "labels",
+        "calls"
+      ]
+    },
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm được đánh dấu để người nghe nhận ra từ nhanh hơn.",
+      "words": [
+        "onboarding",
+        "priority",
+        "feedback"
+      ]
+    },
+    {
+      "focus": "âm /ʃ/",
+      "tip": "Chu môi nhẹ và đẩy hơi liên tục, không đọc thành âm /s/.",
+      "words": [
+        "should",
+        "shadow",
+        "show"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Where I should put my bag?",
+      "right": "Where should I put my bag?",
+      "vi": "Trong câu hỏi với should, đưa should lên trước chủ ngữ."
+    },
+    {
+      "wrong": "I am new in this team.",
+      "right": "I am new to this team.",
+      "vi": "Nói new to a team, không dùng new in a team."
+    },
+    {
+      "wrong": "Please explain me the project board.",
+      "right": "Please explain the project board to me.",
+      "vi": "Explain không đi trực tiếp với tân ngữ chỉ người; cần thêm to me."
+    },
+    {
+      "wrong": "I will shadow with you tomorrow.",
+      "right": "I will shadow you tomorrow.",
+      "vi": "Shadow là động từ trực tiếp, không cần giới từ with."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhờ hướng dẫn về một quy trình",
+      "formal": "Could you walk me through the project board when you have a moment?",
+      "casual": "Can you show me the project board?",
+      "vi": "Câu formal phù hợp khi hỏi cấp trên hoặc người chưa thân; câu casual dùng với đồng nghiệp thân thiện cùng cấp."
+    },
+    {
+      "situation": "Hỏi thời điểm phù hợp để đặt câu hỏi",
+      "formal": "Would now be a convenient time to ask a question?",
+      "casual": "Is now a good time for a quick question?",
+      "vi": "Câu formal trang trọng hơn, hợp khi người kia bận hoặc là cấp trên; câu casual tự nhiên trong giao tiếp hằng ngày với đồng nghiệp."
+    },
+    {
+      "situation": "Xin nhận xét về công việc",
+      "formal": "I would appreciate your feedback on my first task.",
+      "casual": "Could you give me feedback on my first task?",
+      "vi": "Câu formal phù hợp trong email hoặc cuộc trao đổi với quản lý; câu casual hợp khi nói trực tiếp với đồng nghiệp."
+    },
+    {
+      "situation": "Xin phép tạm dừng để làm rõ",
+      "formal": "Could we clarify this point before we move on?",
+      "casual": "Can we clear this up before we continue?",
+      "vi": "Câu formal nghe điềm tĩnh trong họp hoặc khi nói với khách hàng; câu casual dùng trong trao đổi nội bộ thân mật hơn."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, nhân viên mới thường được khuyến khích đặt câu hỏi sớm. Bạn không cần phải im lặng cho đến khi tự giải quyết được mọi việc.",
+    "Người bản xứ thường nói rõ khi bận, ví dụ họ có thể đề nghị bạn quay lại sau. Đây thường là cách quản lý thời gian, không phải dấu hiệu thiếu thân thiện.",
+    "Khi nhờ hỗ trợ, hãy nêu ngắn gọn bạn đã thử hoặc đã đọc gì trước đó. Điều này thể hiện sự chủ động và giúp đồng nghiệp trả lời nhanh hơn."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ trưởng nhóm trong tuần đầu",
+    "passage": "Hi Linh, this is Maya from the operations team. For your first week, please join the morning check-in at nine each day. On Wednesday, you will sit with Daniel and watch how he handles customer requests. Do not worry about taking notes during every conversation. Focus on the main steps, then send me any questions before the end of the day. We will meet on Friday to discuss what you have learned.",
+    "vi": "Chào Linh, tôi là Maya từ nhóm vận hành. Trong tuần đầu tiên, hãy tham gia buổi cập nhật công việc buổi sáng lúc chín giờ mỗi ngày. Vào thứ Tư, bạn sẽ ngồi cùng Daniel và quan sát cách anh ấy xử lý các yêu cầu của khách hàng. Đừng lo phải ghi chép trong mọi cuộc trò chuyện. Hãy tập trung vào các bước chính, rồi gửi cho tôi mọi câu hỏi trước khi hết ngày. Chúng ta sẽ gặp nhau vào thứ Sáu để trao đổi về những điều bạn đã học được.",
+    "questions": [
+      {
+        "q": "What should Linh join every day during the first week?",
+        "choices": [
+          "A customer call",
+          "A morning check-in",
+          "A training class"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói Linh cần tham gia morning check-in at nine each day."
+      },
+      {
+        "q": "Who will Linh sit with on Wednesday?",
+        "choices": [
+          "Daniel",
+          "Maya",
+          "A customer"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì Maya nói Linh will sit with Daniel on Wednesday."
+      },
+      {
+        "q": "When will Maya and Linh meet to discuss the week?",
+        "choices": [
+          "On Wednesday",
+          "Before the end of each day",
+          "On Friday"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì đoạn nghe kết thúc bằng We will meet on Friday."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên mới, do AI đóng",
+      "b": "Đồng nghiệp giàu kinh nghiệm, do người học đóng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, I am Linh, and this is my first day on the team.",
+        "vi": "Chào, tôi là Linh, và hôm nay là ngày đầu tiên của tôi trong nhóm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Welcome, Linh. I will show you around and explain our daily routine.",
+        "vi": "Chào mừng, Linh. Tôi sẽ dẫn bạn đi tham quan và giải thích quy trình hằng ngày.",
+        "hint": "Mở đầu thân thiện bằng Welcome, rồi dùng I will để đề nghị giúp đỡ."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks. Where should I keep my bag, and where is the meeting room?",
+        "vi": "Cảm ơn. Tôi nên để túi ở đâu, và phòng họp ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You can use the lockers near reception. The meeting room is upstairs.",
+        "vi": "Bạn có thể dùng các tủ khóa gần quầy lễ tân. Phòng họp ở tầng trên.",
+        "hint": "Dùng You can để hướng dẫn nhẹ nhàng, không quá ra lệnh."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. I have read the onboarding guide, but I still have questions.",
+        "vi": "Tuyệt. Tôi đã đọc tài liệu hướng dẫn nhân viên mới, nhưng vẫn còn vài câu hỏi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is completely normal. What would you like me to explain first?",
+        "vi": "Điều đó hoàn toàn bình thường. Bạn muốn tôi giải thích điều gì trước?",
+        "hint": "What would you like me to... là cách hỏi lịch sự và hỗ trợ."
+      },
+      {
+        "speaker": "a",
+        "en": "Could you show me how the team tracks tasks and deadlines?",
+        "vi": "Bạn có thể chỉ tôi cách cả nhóm theo dõi công việc và thời hạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We use the project board because it helps everyone see priorities clearly.",
+        "vi": "Chúng tôi dùng bảng dự án vì nó giúp mọi người thấy rõ các việc ưu tiên.",
+        "hint": "Dùng because để giải thích lý do sử dụng một công cụ."
+      },
+      {
+        "speaker": "a",
+        "en": "I noticed several labels there. Which tasks should I handle this week?",
+        "vi": "Tôi thấy có vài nhãn ở đó. Tôi nên xử lý những việc nào trong tuần này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Start with the training tasks, then shadow me during client calls tomorrow.",
+        "vi": "Hãy bắt đầu với các việc đào tạo, sau đó theo dõi tôi trong các cuộc gọi khách hàng vào ngày mai.",
+        "hint": "Dùng Start with để nêu bước đầu tiên, rồi then để nói bước tiếp theo."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds helpful. Should I ask questions during calls or wait afterward?",
+        "vi": "Nghe hữu ích đấy. Tôi nên hỏi trong lúc gọi hay đợi sau đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Ask brief questions when needed, but save detailed feedback until after the call.",
+        "vi": "Hãy hỏi ngắn gọn khi cần, nhưng để phần góp ý chi tiết sau cuộc gọi.",
+        "hint": "Kết nối hai lời khuyên trái chiều bằng but."
+      },
+      {
+        "speaker": "a",
+        "en": "Understood. I also want to fit in without interrupting anyone's work.",
+        "vi": "Tôi hiểu rồi. Tôi cũng muốn hòa nhập mà không làm gián đoạn công việc của ai.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You are doing well already. Let us review your plan before lunch.",
+        "vi": "Bạn đang làm tốt rồi. Chúng ta hãy xem lại kế hoạch của bạn trước bữa trưa.",
+        "hint": "Dùng Let us để mời cùng làm một việc, nghe hợp tác và thân thiện."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a new employee in an office during your first week. You are polite, curious, and eager to learn, but you do not want to interrupt busy coworkers.",
+    "opener": "Hi, I am Linh, and this is my first day on the team.",
+    "goal": "Người học hướng dẫn bạn về quy trình, việc ưu tiên và cách đặt câu hỏi phù hợp trong tuần đầu."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có thể chỉ tôi cách cập nhật bảng dự án không?",
+      "en": "Could you show me how to update the project board?",
+      "alts": [
+        "Could you show me how the project board is updated?"
+      ]
+    },
+    {
+      "vi": "Tôi nên để đồ cá nhân ở đâu?",
+      "en": "Where should I keep my personal belongings?",
+      "alts": [
+        "Where should I put my things?"
+      ]
+    },
+    {
+      "vi": "Tôi đã đọc tài liệu, nhưng vẫn có câu hỏi về thời hạn.",
+      "en": "I have read the guide, but I still have questions about deadlines.",
+      "alts": [
+        "I read the guide, but I still have questions about the deadlines."
+      ]
+    },
+    {
+      "vi": "Tôi nên hỏi trong cuộc họp hay đợi đến sau đó?",
+      "en": "Should I ask during the meeting, or should I wait until afterward?",
+      "alts": [
+        "Should I ask questions in the meeting or wait until it ends?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi dùng bảng dự án vì nó giúp thấy rõ việc ưu tiên.",
+      "en": "We use the project board because it helps us see priorities clearly.",
+      "alts": [
+        "We use the project board because everyone can see the priorities."
+      ]
+    },
+    {
+      "vi": "Ngày mai tôi sẽ theo dõi bạn trong các cuộc gọi khách hàng.",
+      "en": "I will shadow you during client calls tomorrow.",
+      "alts": [
+        "Tomorrow, I will shadow you on client calls."
+      ]
+    },
+    {
+      "vi": "Bạn có thể cho tôi góp ý về nhiệm vụ đầu tiên không?",
+      "en": "Could you give me feedback on my first task?",
+      "alts": [
+        "Can you give me some feedback on my first task?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại, chú ý phát âm âm cuối trong deadlines, labels và calls.",
+    "Viết năm câu hướng dẫn nhân viên mới bằng các mẫu câu trong bài.",
+    "Tự đóng vai nhân viên mới và nêu ba câu hỏi bạn muốn hỏi trong tuần đầu."
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "giai-thich-quy-trinh",
+  "title": "Giải thích quy trình gửi yêu cầu",
+  "topic": "Giải thích quy trình theo từng bước",
+  "level": "B1",
+  "summary": "Bạn hướng dẫn một đồng nghiệp mới cách hoàn thành và gửi biểu mẫu yêu cầu nội bộ. Bài học giúp bạn giải thích thứ tự công việc, lý do và cách xử lý khi có thay đổi.",
+  "goals": [
+    "Giải thích một quy trình rõ ràng theo thứ tự từng bước.",
+    "Dùng liên từ để nêu lý do, điều kiện và bước tiếp theo.",
+    "Hướng dẫn đồng nghiệp bằng giọng tự nhiên, lịch sự trong công việc."
+  ],
+  "vocab": [
+    {
+      "en": "shared folder",
+      "ipa": "/ʃerd ˈfoʊldər/",
+      "vi": "thư mục dùng chung",
+      "example": "Open the shared folder before you start the request."
+    },
+    {
+      "en": "request form",
+      "ipa": "/rɪˈkwest fɔːrm/",
+      "vi": "biểu mẫu yêu cầu",
+      "example": "Choose the correct request form for your task."
+    },
+    {
+      "en": "fill out",
+      "ipa": "/fɪl aʊt/",
+      "vi": "điền vào biểu mẫu",
+      "example": "Please fill out every section of the form."
+    },
+    {
+      "en": "approval",
+      "ipa": "/əˈpruːvəl/",
+      "vi": "sự phê duyệt",
+      "example": "The request needs approval before we continue."
+    },
+    {
+      "en": "supporting file",
+      "ipa": "/səˈpɔːrtɪŋ faɪl/",
+      "vi": "tệp tài liệu hỗ trợ",
+      "example": "Attach a supporting file if you have one."
+    },
+    {
+      "en": "submit",
+      "ipa": "/səbˈmɪt/",
+      "vi": "nộp, gửi chính thức",
+      "example": "Submit the completed form to your manager."
+    },
+    {
+      "en": "resubmit",
+      "ipa": "/ˌriːsəbˈmɪt/",
+      "vi": "nộp lại",
+      "example": "You may need to resubmit the form after changes."
+    },
+    {
+      "en": "reference number",
+      "ipa": "/ˈrefərəns ˈnʌmbər/",
+      "vi": "mã tham chiếu",
+      "example": "Add the reference number near the top of the form."
+    },
+    {
+      "en": "urgent",
+      "ipa": "/ˈɜːrdʒənt/",
+      "vi": "khẩn cấp",
+      "example": "Explain why the request is urgent."
+    },
+    {
+      "en": "review",
+      "ipa": "/rɪˈvjuː/",
+      "vi": "xem xét, kiểm tra",
+      "example": "Your manager will review the request this afternoon."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "First, ..., then ...",
+      "vi": "Đầu tiên ..., sau đó ...",
+      "note": "Dùng để chỉ rõ thứ tự các bước."
+    },
+    {
+      "en": "Before you ..., make sure you ...",
+      "vi": "Trước khi ..., hãy đảm bảo rằng bạn ...",
+      "note": "Dùng để nhắc một việc cần kiểm tra trước."
+    },
+    {
+      "en": "After you have ..., ...",
+      "vi": "Sau khi bạn đã ..., ...",
+      "note": "Dùng hiện tại hoàn thành để nhấn mạnh bước trước đã hoàn tất."
+    },
+    {
+      "en": "You should ... because ...",
+      "vi": "Bạn nên ... vì ...",
+      "note": "Dùng khi hướng dẫn kèm lý do."
+    },
+    {
+      "en": "If ..., then ...",
+      "vi": "Nếu ..., thì ...",
+      "note": "Dùng để giải thích cách xử lý trong một tình huống cụ thể."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /r/ đầu từ",
+      "tip": "Cong nhẹ đầu lưỡi nhưng không chạm vòm miệng. Tránh đọc thành âm gần giống /z/ hoặc /d/.",
+      "words": [
+        "request",
+        "reference",
+        "review"
+      ]
+    },
+    {
+      "focus": "Phụ âm cuối /t/ và /d/",
+      "tip": "Phát âm rõ âm cuối, đặc biệt trước khi nối sang từ tiếp theo; đừng bỏ mất âm cuối.",
+      "words": [
+        "submit",
+        "urgent",
+        "approved"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong từ dài",
+      "tip": "Nhấn đúng âm chính để người nghe dễ hiểu, thay vì đọc các âm đều nhau.",
+      "words": [
+        "approval",
+        "supporting",
+        "resubmit"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "First, open the shared folder and choose correct request form.",
+      "right": "First, open the shared folder and choose the correct request form.",
+      "vi": "Danh từ đếm được số ít cần mạo từ; ở đây dùng the vì nói đến biểu mẫu cụ thể."
+    },
+    {
+      "wrong": "After check the details, send it to manager.",
+      "right": "After checking the details, send it to your manager.",
+      "vi": "Sau after dùng động từ thêm ing; cần có your trước manager."
+    },
+    {
+      "wrong": "You should to attach supporting files.",
+      "right": "You should attach any supporting files.",
+      "vi": "Sau should dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "If the manager ask for changes, I will resubmit it.",
+      "right": "If the manager asks for changes, I will resubmit it.",
+      "vi": "Ở mệnh đề if, manager là ngôi thứ ba số ít nên động từ thêm s."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhờ giải thích quy trình",
+      "formal": "Could you explain the approval process, please?",
+      "casual": "Can you show me how approval works?",
+      "vi": "Câu trang trọng phù hợp khi hỏi người lạ, cấp trên hoặc trong cuộc họp; câu thân mật phù hợp với đồng nghiệp quen."
+    },
+    {
+      "situation": "Hỏi về tài liệu cần đính kèm",
+      "formal": "Could you please let me know which documents I need to attach?",
+      "casual": "Which files should I attach?",
+      "vi": "Câu trang trọng mềm hơn khi hỏi người chưa quen; câu thân mật ngắn và tự nhiên khi làm việc cùng nhóm."
+    },
+    {
+      "situation": "Hướng dẫn gửi biểu mẫu",
+      "formal": "Please submit the completed form to your manager.",
+      "casual": "When you are done, just send it to your manager.",
+      "vi": "Câu trang trọng phù hợp trong hướng dẫn chính thức; câu thân mật nghe gần gũi hơn khi nói trực tiếp với đồng nghiệp."
+    },
+    {
+      "situation": "Nhắc kiểm tra biểu mẫu",
+      "formal": "Please ensure all fields are complete before submitting the form.",
+      "casual": "Make sure you fill in every field before you send it.",
+      "vi": "Câu trang trọng hợp với email hoặc quy định; câu thân mật hợp với lời nhắc trong lúc làm việc chung."
+    }
+  ],
+  "culture": [
+    "Trong môi trường công sở nói tiếng Anh, người mới thường chủ động hỏi rõ từng bước thay vì im lặng đoán cách làm.",
+    "Khi hướng dẫn, người bản xứ thường nêu ngắn gọn lý do của bước quan trọng để người nghe hiểu mục đích, không chỉ làm theo máy móc.",
+    "Một lời nhắc trực tiếp nhưng bình tĩnh thường không bị xem là thiếu lịch sự, nhất là khi mục tiêu là tránh chậm tiến độ chung."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về yêu cầu thiết bị",
+    "passage": "Hi, this is Maya from operations. To request new equipment, start by checking the stock list in the shared folder. If we do not already have the item, complete the equipment request form and explain why you need it. Then send it to your team lead. Once it is approved, the purchasing team will place the order and let you know the delivery date.",
+    "vi": "Chào, tôi là Maya từ bộ phận vận hành. Để yêu cầu thiết bị mới, trước tiên hãy kiểm tra danh sách hàng có sẵn trong thư mục dùng chung. Nếu chúng ta chưa có món đó, hãy hoàn thành biểu mẫu yêu cầu thiết bị và giải thích vì sao bạn cần nó. Sau đó gửi cho trưởng nhóm. Khi được phê duyệt, bộ phận mua hàng sẽ đặt hàng và cho bạn biết ngày giao hàng.",
+    "questions": [
+      {
+        "q": "What should the listener check first?",
+        "choices": [
+          "The stock list",
+          "The delivery date",
+          "The equipment request form"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn đầu tiên vì bài nghe nói bắt đầu bằng việc kiểm tra danh sách hàng có sẵn trong thư mục dùng chung."
+      },
+      {
+        "q": "What should the listener do if the item is unavailable?",
+        "choices": [
+          "Call the purchasing team",
+          "Complete a form and explain the need",
+          "Ask for a delivery date"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn thứ hai vì bài nghe hướng dẫn hoàn thành biểu mẫu và giải thích lý do cần món đồ."
+      },
+      {
+        "q": "Who will place the order after approval?",
+        "choices": [
+          "The team lead",
+          "The purchasing team",
+          "Maya from operations"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn thứ hai vì bài nghe nói bộ phận mua hàng sẽ đặt đơn sau khi yêu cầu được phê duyệt."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp mới, chưa quen quy trình",
+      "b": "Người học, đồng nghiệp có kinh nghiệm"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I am new to this process, so could you walk me through it?",
+        "vi": "Tôi mới làm quy trình này, nên bạn có thể hướng dẫn từng bước không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure, first open the shared folder and choose the correct request form.",
+        "vi": "Được, đầu tiên hãy mở thư mục dùng chung và chọn đúng biểu mẫu yêu cầu.",
+        "hint": "Mở đầu bằng First để nêu bước đầu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "Do I need to complete every section before I save the form?",
+        "vi": "Tôi có cần hoàn thành mọi mục trước khi lưu biểu mẫu không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, because missing details can delay approval and create extra work later.",
+        "vi": "Có, vì thông tin thiếu có thể làm chậm việc phê duyệt và tạo thêm việc sau này.",
+        "hint": "Dùng because để nêu lý do."
+      },
+      {
+        "speaker": "a",
+        "en": "Which details are most important when I am filling out the form?",
+        "vi": "Những thông tin nào quan trọng nhất khi tôi đang điền biểu mẫu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Include the request date, reference number, and a clear reason for it.",
+        "vi": "Hãy điền ngày yêu cầu, mã tham chiếu và lý do rõ ràng cho yêu cầu đó.",
+        "hint": "Dùng Include để hướng dẫn ngắn gọn, trực tiếp."
+      },
+      {
+        "speaker": "a",
+        "en": "What should I do after I have checked those details carefully?",
+        "vi": "Tôi nên làm gì sau khi đã kiểm tra kỹ các thông tin đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Then attach any supporting files and send the form to your manager.",
+        "vi": "Sau đó, đính kèm các tệp hỗ trợ và gửi biểu mẫu cho quản lý của bạn.",
+        "hint": "Dùng Then để chuyển sang bước tiếp theo."
+      },
+      {
+        "speaker": "a",
+        "en": "Should I tell the manager why the request is urgent?",
+        "vi": "Tôi có nên nói với quản lý vì sao yêu cầu này khẩn cấp không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, but keep it brief and explain how the timing affects the whole team.",
+        "vi": "Có, nhưng hãy nói ngắn gọn và giải thích thời điểm đó ảnh hưởng đến cả nhóm như thế nào.",
+        "hint": "Keep it brief nghĩa là giữ phần giải thích ngắn gọn."
+      },
+      {
+        "speaker": "a",
+        "en": "What happens if my manager asks for changes after reviewing it?",
+        "vi": "Điều gì xảy ra nếu quản lý yêu cầu chỉnh sửa sau khi xem xét nó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Update the form, save a new version, and resubmit it the same day.",
+        "vi": "Hãy cập nhật biểu mẫu, lưu phiên bản mới và nộp lại trong cùng ngày.",
+        "hint": "Dùng ba động từ liên tiếp để mô tả các bước cần làm."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense, but how will I know when the request is approved?",
+        "vi": "Tôi hiểu rồi, nhưng làm sao tôi biết khi nào yêu cầu được phê duyệt?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "You will receive an email, and then you can begin the next step.",
+        "vi": "Bạn sẽ nhận được email, rồi bạn có thể bắt đầu bước tiếp theo.",
+        "hint": "Dùng will để nói về việc sẽ xảy ra sau đó."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a new colleague at an office who is learning the internal request process. You are friendly, curious, and ask clear follow-up questions when something is unclear.",
+    "opener": "I am still learning the request process. Could you explain the first step?",
+    "goal": "Người học hướng dẫn bạn hoàn thành và gửi một biểu mẫu yêu cầu nội bộ theo đúng thứ tự."
+  },
+  "drills": [
+    {
+      "vi": "Đầu tiên, hãy mở thư mục dùng chung.",
+      "en": "First, open the shared folder.",
+      "alts": [
+        "First, you need to open the shared folder."
+      ]
+    },
+    {
+      "vi": "Trước khi gửi biểu mẫu, hãy đảm bảo bạn đã điền mọi mục.",
+      "en": "Before you submit the form, make sure you complete every section.",
+      "alts": [
+        "Make sure every section is complete before you submit the form."
+      ]
+    },
+    {
+      "vi": "Bạn nên đính kèm tệp hỗ trợ vì quản lý cần xem bằng chứng.",
+      "en": "You should attach supporting files because your manager needs to see the evidence.",
+      "alts": []
+    },
+    {
+      "vi": "Sau khi đã kiểm tra mã tham chiếu, hãy lưu biểu mẫu.",
+      "en": "After you have checked the reference number, save the form.",
+      "alts": [
+        "Save the form after checking the reference number."
+      ]
+    },
+    {
+      "vi": "Nếu quản lý yêu cầu thay đổi, hãy cập nhật và nộp lại biểu mẫu.",
+      "en": "If your manager asks for changes, update and resubmit the form.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi có cần giải thích vì sao yêu cầu này khẩn cấp không?",
+      "en": "Do I need to explain why this request is urgent?",
+      "alts": [
+        "Should I explain why this request is urgent?"
+      ]
+    },
+    {
+      "vi": "Bạn sẽ nhận được email khi yêu cầu được phê duyệt.",
+      "en": "You will receive an email when the request is approved.",
+      "alts": [
+        "You will get an email once the request is approved."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại, chú ý phát âm âm cuối trong submit và approved.",
+    "Viết hoặc nói lại quy trình gồm năm bước cho một biểu mẫu khác ở nơi làm việc.",
+    "Đặt ba câu dùng các mẫu Before you, After you have và If then."
+  ]
+}

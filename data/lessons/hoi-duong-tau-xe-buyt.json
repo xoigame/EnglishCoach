@@ -1,38 +1,62 @@
 {
   "id": "hoi-duong-tau-xe-buyt",
-  "title": "Đi tàu điện và xe buýt ở nước ngoài",
-  "topic": "Hỏi đường đi tàu điện và xe buýt",
+  "title": "Hỏi đường đi tàu điện và xe buýt",
+  "topic": "Đi tàu điện và xe buýt ở nước ngoài",
   "level": "A2",
-  "summary": "Người học hỏi nhân viên nhà ga cách đi tàu điện đến bảo tàng và bắt xe buýt chặng cuối. Bài học luyện hỏi tuyến, điểm xuống và cách thanh toán.",
+  "summary": "Bạn hỏi nhân viên nhà ga cách đến bảo tàng bằng tàu điện và xe buýt. Bạn cũng học cách hỏi về vé, sân ga và điểm chuyển tuyến.",
   "goals": [
-    "Hỏi cách đi đến một địa điểm bằng tàu điện",
-    "Hỏi điểm xuống, số tuyến xe buýt và vị trí trạm xe",
-    "Dùng các câu lịch sự cơ bản khi đi phương tiện công cộng"
+    "Hỏi tuyến tàu và sân ga phù hợp.",
+    "Hỏi vé có dùng được cho xe buýt không.",
+    "Hiểu hướng dẫn chuyển từ tàu sang xe buýt."
   ],
   "vocab": [
     {
       "en": "platform",
-      "ipa": "/ˈplætfɔːrm/",
-      "vi": "sân ga, ke ga",
-      "example": "The blue train leaves from platform three."
+      "ipa": "/ˈplæt.fɔːrm/",
+      "vi": "sân ga",
+      "example": "The train leaves from platform three."
     },
     {
-      "en": "train line",
-      "ipa": "/treɪn laɪn/",
+      "en": "line",
+      "ipa": "/laɪn/",
       "vi": "tuyến tàu",
-      "example": "Take the blue train line."
+      "example": "Take the Green Line to the museum."
+    },
+    {
+      "en": "day pass",
+      "ipa": "/ˈdeɪ pæs/",
+      "vi": "vé đi lại không giới hạn trong ngày",
+      "example": "A day pass is cheaper for several trips."
+    },
+    {
+      "en": "ticket machine",
+      "ipa": "/ˈtɪk.ɪt məˌʃiːn/",
+      "vi": "máy bán vé",
+      "example": "The ticket machine is near the entrance."
+    },
+    {
+      "en": "valid",
+      "ipa": "/ˈvæl.ɪd/",
+      "vi": "có hiệu lực, dùng được",
+      "example": "Your ticket is valid on buses today."
+    },
+    {
+      "en": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "vi": "đổi, chuyển tuyến",
+      "example": "Change trains at Central Square."
     },
     {
       "en": "get off",
       "ipa": "/ɡet ɔːf/",
-      "vi": "xuống xe, xuống tàu",
-      "example": "Get off at Central Station."
+      "vi": "xuống xe hoặc tàu",
+      "example": "Get off at the next stop."
     },
     {
-      "en": "stop",
-      "ipa": "/stɑːp/",
-      "vi": "trạm, điểm dừng",
-      "example": "The museum is four stops away."
+      "en": "toward",
+      "ipa": "/təˈwɔːrd/",
+      "vi": "hướng về phía",
+      "example": "Take a train toward Riverside."
     },
     {
       "en": "bus stop",
@@ -41,118 +65,162 @@
       "example": "The bus stop is outside the station."
     },
     {
-      "en": "main exit",
-      "ipa": "/meɪn ˈeɡzɪt/",
-      "vi": "lối ra chính",
-      "example": "Go out through the main exit."
-    },
-    {
-      "en": "tap",
-      "ipa": "/tæp/",
-      "vi": "chạm thẻ để thanh toán",
-      "example": "Tap your card at the gate."
-    },
-    {
       "en": "fare",
       "ipa": "/fer/",
       "vi": "giá vé",
-      "example": "The fare is three dollars."
-    },
-    {
-      "en": "entrance",
-      "ipa": "/ˈentrəns/",
-      "vi": "lối vào",
-      "example": "The bus stops near the entrance."
-    },
-    {
-      "en": "afterward",
-      "ipa": "/ˈæftərwərd/",
-      "vi": "sau đó",
-      "example": "I need a bus afterward."
+      "example": "The fare is five dollars."
     }
   ],
   "patterns": [
     {
-      "en": "How do I get to ___?",
-      "vi": "Tôi đi đến ___ bằng cách nào?",
-      "note": "Dùng để hỏi đường hoặc hỏi phương tiện phù hợp."
+      "en": "Which platform should I use?",
+      "vi": "Tôi nên dùng sân ga nào?",
+      "note": "Dùng để hỏi đúng sân ga trước khi lên tàu."
     },
     {
-      "en": "Does this train stop at ___?",
-      "vi": "Tàu này có dừng ở ___ không?",
-      "note": "Dùng stop at với tên ga hoặc địa điểm."
+      "en": "How often do the trains come?",
+      "vi": "Tàu đến bao lâu một chuyến?",
+      "note": "Dùng how often để hỏi tần suất."
     },
     {
-      "en": "Get off at ___.",
-      "vi": "Hãy xuống ở ___.",
-      "note": "Get off dùng khi xuống tàu, xe buýt hoặc taxi."
+      "en": "Is this ticket valid on buses?",
+      "vi": "Vé này có dùng được trên xe buýt không?",
+      "note": "Dùng valid để hỏi vé còn hiệu lực ở phương tiện khác."
     },
     {
-      "en": "Can I use my card to pay?",
-      "vi": "Tôi có thể dùng thẻ để thanh toán không?",
-      "note": "Câu hỏi đơn giản và lịch sự khi hỏi cách trả tiền."
+      "en": "Where can I change to the number ___ bus?",
+      "vi": "Tôi có thể chuyển sang xe buýt số ___ ở đâu?",
+      "note": "Dùng change to khi chuyển sang một tuyến khác."
     },
     {
-      "en": "Which bus goes to ___?",
-      "vi": "Xe buýt nào đi đến ___?",
-      "note": "Dùng which khi cần hỏi số hoặc tuyến xe cụ thể."
+      "en": "Get off at ___, then follow the signs.",
+      "vi": "Hãy xuống ở ___, rồi đi theo biển chỉ dẫn.",
+      "note": "Mẫu câu hướng dẫn đường đi rất thường gặp ở nhà ga."
     }
   ],
   "pronunciation": [
     {
-      "focus": "Âm cuối /s/ trong stops và bus",
-      "tip": "Phát âm rõ âm /s/ ở cuối, không bỏ mất âm cuối.",
-      "words": [
-        "stops",
-        "bus",
-        "exit"
-      ]
-    },
-    {
-      "focus": "Âm /θ/ trong three",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, không đọc thành /t/.",
+      "focus": "Âm /θ/ trong three và thirteen",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng, thổi hơi ra; không đọc thành âm /t/ như tree.",
       "words": [
         "three",
-        "third",
+        "thirteen",
         "thank"
       ]
     },
     {
-      "focus": "Trọng âm từ platform và entrance",
-      "tip": "Nhấn âm đầu: PLATFORM, ENTRANCE. Không nhấn đều các âm.",
+      "focus": "Cụm phụ âm /pl/ trong platform",
+      "tip": "Đọc nhanh âm /p/ rồi chuyển ngay sang /l/; không thêm âm đệm như pơ-latform.",
       "words": [
         "platform",
-        "entrance",
-        "afterward"
+        "please",
+        "plan"
+      ]
+    },
+    {
+      "focus": "Âm cuối /d/ trong valid",
+      "tip": "Chạm đầu lưỡi ở lợi trên để kết thúc âm /d/ rõ nhưng ngắn, không bỏ âm cuối.",
+      "words": [
+        "valid",
+        "card",
+        "road"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Where is the bus station to the museum?",
-      "right": "Where is the bus stop for the museum?",
-      "vi": "Bus stop là trạm dừng xe buýt; bus station thường là bến xe lớn."
+      "wrong": "Where I can buy a ticket?",
+      "right": "Where can I buy a ticket?",
+      "vi": "Câu hỏi hiện tại đơn cần đảo can lên trước chủ ngữ."
     },
     {
-      "wrong": "I get down at Central Station.",
-      "right": "I get off at Central Station.",
-      "vi": "Dùng get off khi xuống tàu hoặc xe buýt, không dùng get down."
+      "wrong": "Which platform I should use?",
+      "right": "Which platform should I use?",
+      "vi": "Sau từ hỏi, đặt should trước chủ ngữ I."
     },
     {
-      "wrong": "Which bus go to the museum?",
-      "right": "Which bus goes to the museum?",
-      "vi": "Chủ ngữ which bus là số ít nên động từ thêm s."
+      "wrong": "I want go to museum.",
+      "right": "I want to go to the museum.",
+      "vi": "Sau want cần có to, và dùng the khi nói về bảo tàng cụ thể."
     },
     {
-      "wrong": "This train stop at Central Station?",
-      "right": "Does this train stop at Central Station?",
-      "vi": "Câu hỏi hiện tại đơn cần trợ động từ does."
+      "wrong": "I go by bus number twelve.",
+      "right": "I take the number twelve bus.",
+      "vi": "Khi nói về tuyến xe cụ thể, take the number twelve bus tự nhiên hơn."
     }
   ],
+  "variations": [
+    {
+      "situation": "Hỏi tuyến tàu đến một địa điểm",
+      "formal": "Could you tell me which line goes to the museum, please?",
+      "casual": "Which line goes to the museum?",
+      "vi": "Dùng câu formal với nhân viên hoặc người lạ. Câu casual phù hợp khi hỏi bạn bè hay người quen."
+    },
+    {
+      "situation": "Hỏi loại vé phù hợp",
+      "formal": "Could you recommend the best ticket for today?",
+      "casual": "What ticket should I get?",
+      "vi": "Câu formal lịch sự hơn ở quầy vé. Câu casual ngắn gọn khi nói với bạn bè hoặc đồng nghiệp thân."
+    },
+    {
+      "situation": "Hỏi chỗ chuyển sang xe buýt",
+      "formal": "May I ask where I change for the airport bus?",
+      "casual": "Where do I change for the airport bus?",
+      "vi": "Dùng May I ask khi muốn lịch sự với người lạ. Câu casual trực tiếp nhưng vẫn tự nhiên với người quen."
+    },
+    {
+      "situation": "Yêu cầu nhắc lại hướng dẫn",
+      "formal": "Could you repeat that, please?",
+      "casual": "Sorry, can you say that again?",
+      "vi": "Cả hai đều lịch sự; câu formal phù hợp ở nơi trang trọng, còn câu casual thân thiện hơn trong tình huống gần gũi."
+    }
+  ],
+  "culture": [
+    "Ở nhiều nhà ga, hành khách xếp hàng và chờ người trên tàu xuống hết rồi mới bước lên. Chen vào trước thường bị xem là thiếu lịch sự.",
+    "Khi hỏi đường, người bản xứ thường dùng lời mở đầu ngắn như Excuse me và cảm ơn sau khi được giúp.",
+    "Ở nhiều thành phố, bạn phải bấm nút hoặc kéo dây báo trước khi muốn xuống xe buýt. Hãy nhìn biển hướng dẫn trên xe nếu không chắc."
+  ],
+  "listening": {
+    "title": "Thông báo tại nhà ga",
+    "passage": "Attention, passengers. The Blue Line train to Harbor Park is arriving on platform two. This train stops at Market Street and Central Square. For the airport bus, get off at Central Square and walk outside. Your day pass is valid on both the train and the bus. Please let passengers leave before you get on.",
+    "vi": "Chú ý, hành khách. Tàu tuyến Xanh đi đến Công viên Harbor đang đến sân ga số hai. Tàu này dừng ở Phố Chợ và Quảng trường Trung tâm. Để đi xe buýt ra sân bay, hãy xuống ở Quảng trường Trung tâm và đi ra ngoài. Vé ngày của bạn dùng được cho cả tàu và xe buýt. Vui lòng để hành khách xuống trước khi bạn lên tàu.",
+    "questions": [
+      {
+        "q": "Where is the Blue Line train going?",
+        "choices": [
+          "Harbor Park",
+          "Market Street",
+          "The airport"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Harbor Park vì thông báo nói tàu tuyến Xanh đi đến Harbor Park."
+      },
+      {
+        "q": "Where should passengers get off for the airport bus?",
+        "choices": [
+          "Platform two",
+          "Market Street",
+          "Central Square"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là Central Square vì thông báo nói hãy xuống ở Central Square để đi xe buýt sân bay."
+      },
+      {
+        "q": "What can passengers use the day pass on?",
+        "choices": [
+          "Only the train",
+          "Only the bus",
+          "The train and the bus"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là cả tàu và xe buýt vì thông báo nói vé ngày dùng được trên both the train and the bus."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Nhân viên nhà ga",
-      "b": "Hành khách"
+      "b": "Khách du lịch"
     },
     "userRole": "b",
     "turns": [
@@ -164,127 +232,131 @@
       },
       {
         "speaker": "b",
-        "en": "I need to go to the city museum.",
-        "vi": "Tôi cần đi đến bảo tàng thành phố.",
-        "hint": "Dùng I need to go to để nói nơi bạn cần đến."
+        "en": "I need to get to the City Museum.",
+        "vi": "Tôi cần đến Bảo tàng Thành phố.",
+        "hint": "Dùng I need to get to để nói nơi bạn cần đến."
       },
       {
         "speaker": "a",
-        "en": "Take the blue train from platform three.",
-        "vi": "Hãy đi tàu tuyến xanh từ sân ga số ba.",
+        "en": "The museum is on the Green Line.",
+        "vi": "Bảo tàng nằm trên tuyến Xanh.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Does this train stop near the museum?",
-        "vi": "Tàu này có dừng gần bảo tàng không?",
-        "hint": "Dùng Does this train stop để hỏi điểm dừng."
+        "en": "Great. Which platform should I use?",
+        "vi": "Tuyệt. Tôi nên dùng sân ga nào?",
+        "hint": "Hỏi sân ga bằng Which platform should I use?"
       },
       {
         "speaker": "a",
-        "en": "Yes, get off at Central Station after four stops.",
-        "vi": "Có, hãy xuống ở ga Central sau bốn trạm.",
+        "en": "Use platform three for trains toward Riverside.",
+        "vi": "Hãy dùng sân ga số ba cho các tàu hướng về Riverside.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Can I use my card to pay?",
-        "vi": "Tôi có thể dùng thẻ để thanh toán không?",
-        "hint": "Dùng Can I use my card để hỏi về thanh toán."
+        "en": "How often do the trains come?",
+        "vi": "Tàu đến bao lâu một chuyến?",
+        "hint": "How often dùng để hỏi tần suất."
       },
       {
         "speaker": "a",
-        "en": "Yes, tap your card at the gate.",
-        "vi": "Có, hãy chạm thẻ của bạn tại cổng soát vé.",
+        "en": "They come every ten minutes during the day.",
+        "vi": "Ban ngày, tàu đến mỗi mười phút.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Where can I catch a bus afterward?",
-        "vi": "Sau đó tôi có thể bắt xe buýt ở đâu?",
-        "hint": "Catch a bus nghĩa là bắt xe buýt."
+        "en": "Is this ticket also valid on buses?",
+        "vi": "Vé này cũng dùng được trên xe buýt không?",
+        "hint": "Dùng valid để hỏi vé có dùng được không."
       },
       {
         "speaker": "a",
-        "en": "The bus stop is outside the main exit.",
-        "vi": "Trạm xe buýt ở bên ngoài lối ra chính.",
+        "en": "Yes. You can use it on buses today.",
+        "vi": "Có. Hôm nay bạn có thể dùng nó trên xe buýt.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Which bus goes to the museum entrance?",
-        "vi": "Xe buýt nào đi đến lối vào bảo tàng?",
-        "hint": "Dùng Which bus goes to để hỏi tuyến xe."
+        "en": "Where can I change to the number twelve bus?",
+        "vi": "Tôi có thể chuyển sang xe buýt số mười hai ở đâu?",
+        "hint": "Dùng change to khi đổi sang một tuyến khác."
       },
       {
         "speaker": "a",
-        "en": "Take bus twelve. It stops right by the entrance.",
-        "vi": "Hãy đi xe buýt số mười hai. Nó dừng ngay cạnh lối vào.",
+        "en": "Get off at Central Square, then follow signs for buses.",
+        "vi": "Hãy xuống ở Quảng trường Trung tâm, rồi đi theo biển chỉ dẫn xe buýt.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Great, thank you. Now I know the way.",
-        "vi": "Tuyệt, cảm ơn bạn. Bây giờ tôi biết đường rồi.",
-        "hint": "Dùng Now I know the way để kết thúc cuộc trò chuyện tự nhiên."
+        "en": "Thanks. I understand now. Have a good day.",
+        "vi": "Cảm ơn. Giờ tôi hiểu rồi. Chúc bạn một ngày tốt lành.",
+        "hint": "Kết thúc lịch sự bằng Thanks và Have a good day."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly station employee at a busy city train station. You help travelers find train platforms, bus stops, ticket gates, and the correct routes. Speak clearly, patiently, and use simple everyday English.",
+    "persona": "You are a friendly station staff member at a busy city station. You speak clearly, give simple directions, and check that the traveler understands.",
     "opener": "Hello. Where would you like to go today?",
-    "goal": "Người học hỏi được tuyến tàu, ga cần xuống, cách thanh toán và xe buýt nối chuyến đến điểm đến."
+    "goal": "Người học hỏi đường đến một địa điểm, hỏi sân ga, hỏi về vé và hiểu cách chuyển sang xe buýt."
   },
   "drills": [
     {
-      "vi": "Tôi đi đến bảo tàng thành phố bằng cách nào?",
-      "en": "How do I get to the city museum?",
+      "vi": "Tôi cần đến Bảo tàng Thành phố.",
+      "en": "I need to get to the City Museum.",
       "alts": [
-        "How can I get to the city museum?"
+        "I need to go to the City Museum."
       ]
     },
     {
-      "vi": "Tàu này có dừng ở ga Central không?",
-      "en": "Does this train stop at Central Station?",
-      "alts": []
-    },
-    {
-      "vi": "Hãy xuống sau ba trạm.",
-      "en": "Get off after three stops.",
+      "vi": "Tôi nên dùng sân ga nào?",
+      "en": "Which platform should I use?",
       "alts": [
-        "Please get off after three stops."
+        "What platform do I need?"
       ]
     },
     {
-      "vi": "Tôi có thể dùng thẻ để thanh toán không?",
-      "en": "Can I use my card to pay?",
+      "vi": "Tàu đến bao lâu một chuyến?",
+      "en": "How often do the trains come?",
       "alts": [
-        "Can I pay with my card?"
+        "When is the next train?"
       ]
     },
     {
-      "vi": "Trạm xe buýt ở đâu?",
-      "en": "Where is the bus stop?",
+      "vi": "Tôi muốn mua vé ngày hôm nay.",
+      "en": "I would like a day pass for today.",
       "alts": [
-        "Where can I catch the bus?"
+        "Can I get a day pass for today?"
       ]
     },
     {
-      "vi": "Xe buýt nào đi đến lối ra chính?",
-      "en": "Which bus goes to the main exit?",
-      "alts": []
+      "vi": "Vé này có dùng được trên xe buýt không?",
+      "en": "Is this ticket valid on buses?",
+      "alts": [
+        "Can I use this ticket on buses?"
+      ]
     },
     {
-      "vi": "Chạm thẻ của bạn tại cổng.",
-      "en": "Tap your card at the gate.",
+      "vi": "Tôi chuyển sang xe buýt số mười hai ở đâu?",
+      "en": "Where can I change to the number twelve bus?",
       "alts": [
-        "Please tap your card at the gate."
+        "Where do I get the number twelve bus?"
+      ]
+    },
+    {
+      "vi": "Hãy xuống ở trạm tiếp theo.",
+      "en": "Get off at the next stop.",
+      "alts": [
+        "You need to get off at the next stop."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại, chú ý âm cuối trong stops và bus.",
-    "Viết ba câu hỏi về tàu điện hoặc xe buýt bằng các mẫu đã học.",
-    "Tự nói một đoạn ngắn hỏi đường từ ga tàu đến một địa điểm du lịch."
+    "Ghi âm lại hội thoại, chú ý phát âm platform, three và valid.",
+    "Tự thay Bảo tàng Thành phố bằng ba địa điểm bạn thường muốn đến.",
+    "Viết ba câu hỏi lịch sự cho nhân viên nhà ga."
   ]
 }

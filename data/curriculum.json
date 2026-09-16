@@ -1,5 +1,5 @@
 {
-  "title": "Lộ trình nghe nói tiếng Anh A1 → C1",
+  "title": "Lộ trình nghe nói tiếng Anh 100 bài, A1 → C1",
   "note": "Mỗi mục là một đề bài cho tools/gen-series.mjs. Thêm/sửa chủ đề ở đây rồi chạy lại, bài đã có sẽ được bỏ qua.",
   "units": [
     {
@@ -8,13 +8,25 @@
       "turns": 10,
       "topics": [
         { "id": "lam-quen-va-gioi-thieu", "topic": "Chào hỏi và giới thiệu bản thân", "partner": "Đồng nghiệp mới" },
-        { "id": "hoi-duong-va-chi-duong", "topic": "Hỏi đường và chỉ đường", "partner": "Người đi đường" },
+        { "id": "chao-tam-biet-hen-gap-lai", "topic": "Tạm biệt và hẹn gặp lại", "partner": "Người bạn vừa đi cà phê cùng" },
+        { "id": "cam-on-xin-loi-lich-su", "topic": "Cảm ơn, xin lỗi và phép lịch sự cơ bản", "partner": "Người lạ bạn vừa va phải trên phố" },
         { "id": "gia-dinh-va-ban-be", "topic": "Nói về gia đình và bạn bè", "partner": "Bạn học cùng lớp tiếng Anh" },
         { "id": "so-dem-gio-giac-lich-hen", "topic": "Số đếm, giờ giấc và hẹn gặp", "partner": "Người bạn đang rủ đi chơi", "notes": "Tập nói giờ, ngày trong tuần, giá tiền" },
+        { "id": "hoi-duong-va-chi-duong", "topic": "Hỏi đường và chỉ đường", "partner": "Người đi đường" },
         { "id": "mua-sam-o-sieu-thi", "topic": "Mua sắm ở siêu thị và cửa hàng tiện lợi", "partner": "Nhân viên thu ngân" },
+        { "id": "hoi-gia-va-tra-gia", "topic": "Hỏi giá và trả giá đơn giản ở chợ", "partner": "Người bán hàng ở chợ du lịch" },
         { "id": "goi-mon-o-nha-hang", "topic": "Gọi món ở nhà hàng", "partner": "Nhân viên phục vụ" },
+        { "id": "goi-do-uong-mang-di", "topic": "Mua đồ uống mang đi", "partner": "Nhân viên quầy nước" },
+        { "id": "di-cho-mua-thuc-pham", "topic": "Đi chợ mua thực phẩm tươi", "partner": "Người bán rau quả" },
         { "id": "noi-ve-thoi-tiet", "topic": "Nói về thời tiết và kế hoạch trong ngày", "partner": "Người hàng xóm" },
-        { "id": "mot-ngay-cua-toi", "topic": "Kể về một ngày bình thường của bạn", "partner": "Giáo viên tiếng Anh", "notes": "Nhấn mạnh thì hiện tại đơn và trạng từ tần suất" }
+        { "id": "mot-ngay-cua-toi", "topic": "Kể về một ngày bình thường của bạn", "partner": "Giáo viên tiếng Anh", "notes": "Nhấn mạnh thì hiện tại đơn và trạng từ tần suất" },
+        { "id": "so-thich-va-thoi-gian-ranh", "topic": "Sở thích và thời gian rảnh", "partner": "Người bạn mới quen" },
+        { "id": "mo-ta-nha-cua", "topic": "Mô tả nhà và phòng của bạn", "partner": "Bạn qua chơi lần đầu" },
+        { "id": "mau-sac-va-quan-ao", "topic": "Màu sắc và quần áo hằng ngày", "partner": "Nhân viên cửa hàng" },
+        { "id": "trong-lop-hoc", "topic": "Trong lớp học: hỏi lại và xin phép", "partner": "Giáo viên" },
+        { "id": "thu-cung-va-dong-vat", "topic": "Thú cưng và động vật", "partner": "Người hàng xóm dắt chó đi dạo" },
+        { "id": "hoi-tham-suc-khoe", "topic": "Hỏi thăm sức khoẻ khi ai đó bị ốm", "partner": "Đồng nghiệp vừa đi làm lại" },
+        { "id": "goi-taxi-ngan-gon", "topic": "Gọi taxi và nói điểm đến", "partner": "Tài xế taxi" }
       ]
     },
     {
@@ -24,13 +36,26 @@
       "topics": [
         { "id": "goi-do-o-quan-ca-phe", "topic": "Gọi đồ ở quán cà phê", "partner": "Nhân viên pha chế" },
         { "id": "dat-phong-khach-san", "topic": "Đặt phòng và nhận phòng khách sạn", "partner": "Lễ tân khách sạn" },
+        { "id": "hoi-wifi-va-tien-nghi", "topic": "Hỏi wifi, bữa sáng và tiện nghi khách sạn", "partner": "Lễ tân ca đêm" },
+        { "id": "tra-phong-va-thanh-toan", "topic": "Trả phòng và kiểm tra hoá đơn", "partner": "Lễ tân khách sạn" },
         { "id": "lam-thu-tuc-o-san-bay", "topic": "Làm thủ tục ở sân bay và qua cửa an ninh", "partner": "Nhân viên hàng không" },
+        { "id": "tren-may-bay", "topic": "Trên máy bay: đổi chỗ, gọi đồ, nhờ giúp", "partner": "Tiếp viên hàng không" },
+        { "id": "qua-cua-hai-quan", "topic": "Qua cửa hải quan và nhập cảnh", "partner": "Nhân viên xuất nhập cảnh" },
         { "id": "di-taxi-va-grab", "topic": "Đi taxi và gọi xe công nghệ", "partner": "Tài xế" },
+        { "id": "hoi-duong-tau-xe-buyt", "topic": "Đi tàu điện và xe buýt ở nước ngoài", "partner": "Nhân viên nhà ga" },
+        { "id": "thue-xe-may-xe-dap", "topic": "Thuê xe máy hoặc xe đạp", "partner": "Chủ tiệm cho thuê xe" },
+        { "id": "mua-ve-tham-quan", "topic": "Mua vé tham quan và hỏi giờ mở cửa", "partner": "Nhân viên bán vé bảo tàng" },
+        { "id": "dat-ban-nha-hang", "topic": "Đặt bàn nhà hàng và đổi giờ hẹn", "partner": "Nhân viên nhận đặt bàn" },
+        { "id": "dat-do-an-online", "topic": "Đặt đồ ăn online và báo giao hàng sai", "partner": "Tổng đài ứng dụng giao đồ ăn" },
+        { "id": "mua-quan-ao-va-doi-tra", "topic": "Mua quần áo, thử đồ và đổi trả hàng", "partner": "Nhân viên cửa hàng thời trang" },
+        { "id": "o-tiem-cat-toc", "topic": "Ở tiệm cắt tóc: mô tả kiểu tóc bạn muốn", "partner": "Thợ cắt tóc" },
+        { "id": "gui-buu-pham", "topic": "Gửi bưu phẩm ở bưu điện", "partner": "Nhân viên bưu điện" },
         { "id": "dat-lich-kham-benh", "topic": "Đặt lịch khám và mô tả triệu chứng đơn giản", "partner": "Lễ tân phòng khám" },
         { "id": "goi-dien-thoai-co-ban", "topic": "Gọi điện thoại: để lại lời nhắn và hẹn gọi lại", "partner": "Nhân viên tổng đài", "notes": "Nhấn mạnh cách đánh vần tên và đọc số điện thoại" },
-        { "id": "mua-quan-ao-va-doi-tra", "topic": "Mua quần áo, thử đồ và đổi trả hàng", "partner": "Nhân viên cửa hàng thời trang" },
         { "id": "ke-ve-cuoi-tuan", "topic": "Kể về cuối tuần vừa rồi", "partner": "Đồng nghiệp thân", "notes": "Nhấn mạnh thì quá khứ đơn và các động từ bất quy tắc" },
-        { "id": "hoi-duong-tau-xe-buyt", "topic": "Đi tàu điện và xe buýt ở nước ngoài", "partner": "Nhân viên nhà ga" }
+        { "id": "len-ke-hoach-di-choi", "topic": "Lên kế hoạch đi chơi với bạn", "partner": "Người bạn thân" },
+        { "id": "mo-ta-nguoi-va-tinh-cach", "topic": "Mô tả ngoại hình và tính cách một người", "partner": "Bạn đang tìm người quen trong đám đông" },
+        { "id": "noi-chuyen-voi-hang-xom", "topic": "Nói chuyện với hàng xóm mới chuyển đến", "partner": "Hàng xóm người nước ngoài" }
       ]
     },
     {
@@ -39,14 +64,27 @@
       "turns": 14,
       "topics": [
         { "id": "phong-van-xin-viec", "topic": "Phỏng vấn xin việc vòng đầu", "partner": "Nhà tuyển dụng" },
+        { "id": "noi-ve-muc-tieu-nghe-nghiep", "topic": "Nói về mục tiêu nghề nghiệp và lý do đổi việc", "partner": "Nhà tuyển dụng" },
         { "id": "hop-nhom-hang-tuan", "topic": "Họp nhóm hằng tuần: báo cáo tiến độ và vướng mắc", "partner": "Quản lý trực tiếp" },
         { "id": "small-talk-van-phong", "topic": "Small talk ở văn phòng và trong thang máy", "partner": "Đồng nghiệp phòng khác" },
+        { "id": "tham-gia-hop-online", "topic": "Họp online: xin phát biểu và xử lý sự cố đường truyền", "partner": "Chủ toạ cuộc họp" },
+        { "id": "dat-lich-hop-va-doi-lich", "topic": "Đặt lịch họp và xin đổi lịch", "partner": "Trợ lý của đối tác" },
+        { "id": "xin-nghi-phep", "topic": "Xin nghỉ phép và bàn giao công việc", "partner": "Quản lý trực tiếp" },
+        { "id": "huong-dan-dong-nghiep-moi", "topic": "Hướng dẫn đồng nghiệp mới trong tuần đầu", "partner": "Nhân viên mới" },
+        { "id": "giai-thich-quy-trinh", "topic": "Giải thích một quy trình theo từng bước", "partner": "Đồng nghiệp chưa quen việc" },
+        { "id": "trinh-bay-y-tuong-ngan", "topic": "Trình bày một ý tưởng trong 3 phút và trả lời câu hỏi", "partner": "Trưởng phòng sản phẩm" },
+        { "id": "trao-doi-qua-email", "topic": "Trao đổi email công việc rồi tóm tắt lại bằng lời", "partner": "Đồng nghiệp ở chi nhánh khác" },
+        { "id": "bao-cao-su-co-cho-quan-ly", "topic": "Báo cáo sự cố và đề xuất cách xử lý", "partner": "Quản lý trực tiếp" },
+        { "id": "xu-ly-hieu-lam", "topic": "Xử lý hiểu lầm trong giao tiếp công việc", "partner": "Đồng nghiệp đang hiểu sai ý bạn" },
         { "id": "phan-nan-va-khieu-nai", "topic": "Phàn nàn về dịch vụ và yêu cầu bồi thường", "partner": "Quản lý cửa hàng", "notes": "Dạy cách phàn nàn lịch sự nhưng dứt khoát" },
+        { "id": "goi-dien-ho-tro-ky-thuat", "topic": "Gọi tổng đài hỗ trợ kỹ thuật", "partner": "Nhân viên hỗ trợ kỹ thuật" },
         { "id": "lam-viec-voi-ngan-hang", "topic": "Mở tài khoản và xử lý vấn đề ở ngân hàng", "partner": "Nhân viên ngân hàng" },
+        { "id": "mua-bao-hiem-va-hoi-dieu-khoan", "topic": "Hỏi điều khoản bảo hiểm trước khi mua", "partner": "Nhân viên tư vấn bảo hiểm" },
         { "id": "thue-nha-va-ky-hop-dong", "topic": "Xem nhà, hỏi điều khoản và ký hợp đồng thuê", "partner": "Chủ nhà" },
         { "id": "su-co-chuyen-bay", "topic": "Xử lý sự cố: hoãn chuyến, thất lạc hành lý", "partner": "Nhân viên quầy hỗ trợ sân bay" },
         { "id": "mo-ta-trieu-chung-voi-bac-si", "topic": "Mô tả triệu chứng chi tiết với bác sĩ", "partner": "Bác sĩ" },
-        { "id": "trinh-bay-y-tuong-ngan", "topic": "Trình bày một ý tưởng trong 3 phút và trả lời câu hỏi", "partner": "Trưởng phòng sản phẩm" }
+        { "id": "o-hieu-thuoc", "topic": "Ở hiệu thuốc: hỏi liều dùng và tác dụng phụ", "partner": "Dược sĩ" },
+        { "id": "thao-luan-ngan-sach-nho", "topic": "Thảo luận ngân sách cho một hạng mục nhỏ", "partner": "Kế toán công ty" }
       ]
     },
     {
@@ -56,12 +94,24 @@
       "topics": [
         { "id": "thuong-luong-luong", "topic": "Thương lượng lương và phúc lợi", "partner": "Nhà tuyển dụng cấp cao" },
         { "id": "phong-van-ky-thuat", "topic": "Phỏng vấn kỹ thuật: giải thích giải pháp và đánh đổi", "partner": "Kỹ sư phỏng vấn" },
+        { "id": "phong-van-nguoi-khac", "topic": "Bạn là người phỏng vấn ứng viên", "partner": "Ứng viên đang hồi hộp" },
+        { "id": "phong-van-hoc-bong", "topic": "Phỏng vấn học bổng du học", "partner": "Hội đồng xét học bổng" },
         { "id": "quan-ly-deadline-tre", "topic": "Báo tin dự án trễ hạn và đề xuất phương án", "partner": "Khách hàng khó tính" },
         { "id": "phan-hoi-dong-nghiep", "topic": "Đưa và nhận phản hồi trong đánh giá hiệu suất", "partner": "Quản lý trực tiếp" },
+        { "id": "phan-bien-y-kien-sep", "topic": "Phản biện ý kiến cấp trên một cách khéo léo", "partner": "Giám đốc đang bảo vệ ý của mình" },
         { "id": "thuyet-phuc-khach-hang", "topic": "Thuyết phục khách hàng chọn giải pháp của bạn", "partner": "Khách hàng đang phân vân" },
+        { "id": "dam-phan-gia-nha-cung-cap", "topic": "Đàm phán giá với nhà cung cấp", "partner": "Đại diện nhà cung cấp" },
+        { "id": "xin-loi-khach-hang-lon", "topic": "Xin lỗi khách hàng lớn sau một sự cố nghiêm trọng", "partner": "Khách hàng đang giận" },
         { "id": "xu-ly-xung-dot-nhom", "topic": "Xử lý bất đồng trong nhóm một cách xây dựng", "partner": "Đồng nghiệp đang bực bội" },
+        { "id": "tu-choi-lich-su-va-dut-khoat", "topic": "Từ chối lịch sự mà vẫn dứt khoát", "partner": "Đồng nghiệp hay nhờ vả quá mức" },
+        { "id": "dan-dat-cuoc-hop", "topic": "Dẫn dắt cuộc họp và giữ đúng thời lượng", "partner": "Thành viên hay nói lan man" },
+        { "id": "trinh-bay-so-lieu", "topic": "Trình bày số liệu và biểu đồ cho người nghe", "partner": "Giám đốc kinh doanh" },
+        { "id": "thao-luan-uu-tien-san-pham", "topic": "Thảo luận thứ tự ưu tiên tính năng sản phẩm", "partner": "Quản lý sản phẩm" },
+        { "id": "giai-thich-ky-thuat-cho-nguoi-ngoai-nganh", "topic": "Giải thích vấn đề kỹ thuật cho người không chuyên", "partner": "Khách hàng không rành công nghệ" },
         { "id": "tranh-luan-van-de-xa-hoi", "topic": "Tranh luận về làm việc từ xa và cân bằng cuộc sống", "partner": "Người bạn có quan điểm trái ngược" },
-        { "id": "networking-su-kien", "topic": "Networking ở hội thảo: bắt chuyện và giữ liên lạc", "partner": "Chuyên gia bạn vừa gặp" }
+        { "id": "networking-su-kien", "topic": "Networking ở hội thảo: bắt chuyện và giữ liên lạc", "partner": "Chuyên gia bạn vừa gặp" },
+        { "id": "ke-chuyen-thuyet-phuc", "topic": "Kể một câu chuyện để thuyết phục người nghe", "partner": "Nhóm khán giả nhỏ" },
+        { "id": "noi-ve-that-bai-va-bai-hoc", "topic": "Nói về một thất bại và bài học rút ra", "partner": "Người phỏng vấn cấp cao" }
       ]
     },
     {
@@ -71,10 +121,20 @@
       "topics": [
         { "id": "thuyet-trinh-truoc-ban-lanh-dao", "topic": "Thuyết trình trước ban lãnh đạo và bảo vệ đề xuất", "partner": "Giám đốc điều hành" },
         { "id": "dam-phan-hop-dong", "topic": "Đàm phán điều khoản hợp đồng", "partner": "Đối tác đàm phán cứng rắn" },
+        { "id": "thuong-luong-da-ben", "topic": "Thương lượng khi có nhiều bên lợi ích khác nhau", "partner": "Đại diện ba bộ phận đang bất đồng" },
+        { "id": "goi-von-truoc-nha-dau-tu", "topic": "Gọi vốn và trả lời chất vấn của nhà đầu tư", "partner": "Nhà đầu tư hoài nghi" },
         { "id": "phong-van-cap-quan-ly", "topic": "Phỏng vấn vị trí quản lý: câu hỏi tình huống", "partner": "Giám đốc nhân sự" },
+        { "id": "phong-van-tuyen-dung-cap-cao", "topic": "Bạn phỏng vấn ứng viên cấp giám đốc", "partner": "Ứng viên nhiều kinh nghiệm" },
         { "id": "phong-van-podcast", "topic": "Trả lời phỏng vấn podcast về chuyên môn của bạn", "partner": "Người dẫn podcast" },
-        { "id": "mentoring-phan-hoi-kho", "topic": "Mentoring: đưa phản hồi khó nghe mà vẫn giữ động lực", "partner": "Nhân viên mới bạn đang kèm" },
-        { "id": "tranh-bien-hoc-thuat", "topic": "Tranh biện học thuật về tác động của AI tới việc làm", "partner": "Người phản biện" }
+        { "id": "dieu-hanh-toa-dam", "topic": "Điều hành một buổi toạ đàm nhiều khách mời", "partner": "Khách mời hay nói dài" },
+        { "id": "xu-ly-khung-hoang-truyen-thong", "topic": "Trả lời báo chí trong khủng hoảng truyền thông", "partner": "Phóng viên đang truy vấn" },
+        { "id": "mentoring-phan-hoi-kho", "topic": "Mentoring: đưa phản hồi khó nghe mà vẫn giữ động lực", "partner": "Nhân viên bạn đang kèm" },
+        { "id": "dan-dat-thay-doi-to-chuc", "topic": "Thuyết phục tổ chức chấp nhận một thay đổi lớn", "partner": "Trưởng bộ phận đang phản đối" },
+        { "id": "tranh-bien-hoc-thuat", "topic": "Tranh biện học thuật về tác động của AI tới việc làm", "partner": "Người phản biện" },
+        { "id": "tranh-luan-dao-duc-cong-nghe", "topic": "Tranh luận về đạo đức trong công nghệ và quyền riêng tư", "partner": "Chuyên gia chính sách" },
+        { "id": "phat-bieu-nhan-giai", "topic": "Phát biểu nhận giải và cảm ơn đúng mực", "partner": "Người dẫn chương trình" },
+        { "id": "hai-huoc-va-am-chi", "topic": "Hiểu và dùng hài hước, ẩn ý, nói giảm nói tránh", "partner": "Đồng nghiệp người Anh hay nói mỉa nhẹ" },
+        { "id": "tong-ket-du-an", "topic": "Tổng kết dự án và rút kinh nghiệm không đổ lỗi", "partner": "Cả nhóm vừa trải qua một dự án khó" }
       ]
     }
   ]

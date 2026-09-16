@@ -1,0 +1,386 @@
+{
+  "id": "mua-bao-hiem-va-hoi-dieu-khoan",
+  "title": "Hỏi điều khoản bảo hiểm trước khi mua",
+  "topic": "Tư vấn điều khoản bảo hiểm",
+  "level": "B1",
+  "summary": "Bạn trao đổi với nhân viên tư vấn để hiểu phạm vi chi trả, mức phí và các điều khoản quan trọng trước khi mua bảo hiểm.",
+  "goals": [
+    "Hỏi về phạm vi bảo hiểm và các trường hợp loại trừ",
+    "Hiểu và hỏi về phí bảo hiểm, mức khấu trừ và giới hạn chi trả",
+    "Diễn đạt ý kiến, lý do cần thông tin và quyết định trước khi mua"
+  ],
+  "vocab": [
+    {
+      "en": "coverage",
+      "ipa": "/ˈkʌvərɪdʒ/",
+      "vi": "phạm vi bảo hiểm chi trả",
+      "example": "Please check whether this coverage includes emergency treatment."
+    },
+    {
+      "en": "premium",
+      "ipa": "/ˈpriːmiəm/",
+      "vi": "phí bảo hiểm",
+      "example": "The monthly premium is affordable for my budget."
+    },
+    {
+      "en": "deductible",
+      "ipa": "/dɪˈdʌktəbəl/",
+      "vi": "mức tiền người mua tự trả trước khi bảo hiểm chi trả",
+      "example": "You must pay the deductible before the insurer pays the claim."
+    },
+    {
+      "en": "claim",
+      "ipa": "/kleɪm/",
+      "vi": "yêu cầu bồi thường bảo hiểm",
+      "example": "She submitted a claim after receiving treatment abroad."
+    },
+    {
+      "en": "exclusion",
+      "ipa": "/ɪkˈskluːʒən/",
+      "vi": "điều khoản loại trừ, trường hợp không được chi trả",
+      "example": "Routine dental care is listed as an exclusion."
+    },
+    {
+      "en": "pre-existing condition",
+      "ipa": "/ˌpriː ɪɡˈzɪstɪŋ kənˈdɪʃən/",
+      "vi": "bệnh hoặc tình trạng sức khỏe có từ trước",
+      "example": "Ask whether a pre-existing condition is covered by the plan."
+    },
+    {
+      "en": "annual limit",
+      "ipa": "/ˈænjuəl ˈlɪmɪt/",
+      "vi": "giới hạn chi trả tối đa trong một năm",
+      "example": "The annual limit is high enough for most emergencies."
+    },
+    {
+      "en": "reimburse",
+      "ipa": "/ˌriːɪmˈbɜːrs/",
+      "vi": "hoàn trả tiền",
+      "example": "The company will reimburse eligible medical expenses."
+    },
+    {
+      "en": "renew",
+      "ipa": "/rɪˈnuː/",
+      "vi": "gia hạn hoặc tái tục hợp đồng",
+      "example": "Your premium may change when you renew the policy."
+    },
+    {
+      "en": "policy summary",
+      "ipa": "/ˈpɑːləsi ˈsʌməri/",
+      "vi": "bản tóm tắt hợp đồng bảo hiểm",
+      "example": "Could you send me a policy summary before I decide?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you explain whether ___ is covered?",
+      "vi": "Bạn có thể giải thích liệu ___ có được chi trả không?",
+      "note": "Dùng để hỏi lịch sự về một quyền lợi hoặc tình huống cụ thể."
+    },
+    {
+      "en": "What exclusions should I know about before I buy?",
+      "vi": "Tôi cần biết những điều khoản loại trừ nào trước khi mua?",
+      "note": "Câu hỏi trực tiếp nhưng vẫn lịch sự, rất tự nhiên khi mua bảo hiểm."
+    },
+    {
+      "en": "How much is the monthly premium, and when do I pay it?",
+      "vi": "Phí bảo hiểm hằng tháng là bao nhiêu, và tôi trả khi nào?",
+      "note": "Dùng để hỏi cả số tiền lẫn thời điểm thanh toán."
+    },
+    {
+      "en": "I need to know ___ because ___.",
+      "vi": "Tôi cần biết ___ vì ___.",
+      "note": "Nêu lý do giúp câu hỏi rõ ràng và thuyết phục hơn ở trình độ B1."
+    },
+    {
+      "en": "That sounds reasonable, but I would like to check ___.",
+      "vi": "Nghe có vẻ hợp lý, nhưng tôi muốn kiểm tra ___.",
+      "note": "Dùng để thể hiện ý kiến tích cực rồi hỏi thêm một điểm còn băn khoăn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm của deductible",
+      "tip": "Nhấn mạnh âm tiết thứ hai: di-DUC-ti-bəl. Không đọc đều từng âm tiết.",
+      "words": [
+        "deductible",
+        "condition",
+        "reimburse"
+      ]
+    },
+    {
+      "focus": "Âm cuối /d/ và /t/",
+      "tip": "Phát rõ âm cuối nhẹ trong covered, limit và excluded để người nghe phân biệt các từ.",
+      "words": [
+        "covered",
+        "limit",
+        "excluded"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong monthly",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; tránh đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "monthly",
+        "three",
+        "think"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "How much is the insurance money every month?",
+      "right": "How much is the monthly premium?",
+      "vi": "Premium là từ tự nhiên và chính xác để nói phí bảo hiểm."
+    },
+    {
+      "wrong": "Does this plan cover for pre-existing conditions?",
+      "right": "Does this plan cover pre-existing conditions?",
+      "vi": "Sau cover không dùng for khi nói về nội dung được chi trả."
+    },
+    {
+      "wrong": "I must pay deductible before insurance pay.",
+      "right": "Do I need to pay the deductible before the insurance company pays?",
+      "vi": "Cần có the trước deductible và chia pays ở ngôi thứ ba số ít."
+    },
+    {
+      "wrong": "What things are not covered by insurance?",
+      "right": "What exclusions are listed in the policy?",
+      "vi": "Câu đúng dùng exclusion, thuật ngữ phổ biến trong điều khoản bảo hiểm."
+    },
+    {
+      "wrong": "If I have an accident, how can I make a compensation?",
+      "right": "If I have an accident, how can I make a claim?",
+      "vi": "Trong bảo hiểm, make a claim là cụm tự nhiên; không dùng make a compensation."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi phạm vi chi trả",
+      "formal": "Could you clarify whether emergency treatment abroad is included in the policy?",
+      "casual": "Does this cover emergencies abroad?",
+      "vi": "Câu formal phù hợp khi trao đổi với tư vấn viên hoặc trong email; câu casual phù hợp khi hỏi đồng nghiệp, bạn bè về gói họ từng mua."
+    },
+    {
+      "situation": "Hỏi điều khoản loại trừ",
+      "formal": "Could you let me know which exclusions apply to this plan?",
+      "casual": "What does this plan not cover?",
+      "vi": "Câu formal dùng từ exclusion mang tính chuyên môn; câu casual dễ dùng hơn trong trò chuyện thông thường."
+    },
+    {
+      "situation": "Yêu cầu tài liệu trước khi mua",
+      "formal": "I would appreciate a written policy summary before making my decision.",
+      "casual": "Can you send me the details before I decide?",
+      "vi": "Câu formal phù hợp với nhân viên công ty hoặc email; câu casual dùng khi đã nói chuyện thân thiện với tư vấn viên."
+    },
+    {
+      "situation": "Từ chối mua ngay",
+      "formal": "Thank you for the information. I would like some time to review it first.",
+      "casual": "Thanks, but I want to think about it first.",
+      "vi": "Cả hai đều là cách từ chối lịch sự. Câu formal mềm mại hơn trong môi trường chuyên nghiệp."
+    }
+  ],
+  "culture": [
+    "Khách nói tiếng Anh thường hỏi thẳng về phí, mức khấu trừ và điều khoản loại trừ; đây được xem là cẩn thận chứ không phải thiếu lịch sự.",
+    "Nhân viên tư vấn thường nói rõ rằng khách có thể mang tài liệu về xem trước. Bạn có thể nói cần thời gian suy nghĩ mà không cần xin lỗi quá nhiều.",
+    "Ở nhiều nơi, nhân viên bảo hiểm không nên hứa chắc một tình huống sẽ được chi trả. Họ thường nói cần kiểm tra hợp đồng hoặc yêu cầu bồi thường cụ thể."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ tư vấn viên bảo hiểm du lịch",
+    "passage": "Hi, this is Mia from SafeWay Insurance. I am following up on the travel medical plan you asked about yesterday. The plan includes emergency treatment and medical transport, but it does not cover routine dental care. You must pay a two hundred dollar deductible before we pay an approved claim. Please read the exclusions carefully, especially if you have a condition that began before your trip. Call me if you would like a written quote.",
+    "vi": "Chào, tôi là Mia từ SafeWay Insurance. Tôi gọi lại về gói bảo hiểm y tế du lịch mà bạn đã hỏi hôm qua. Gói này bao gồm điều trị cấp cứu và vận chuyển y tế, nhưng không chi trả chăm sóc răng miệng thông thường. Bạn phải trả mức khấu trừ hai trăm đô la trước khi chúng tôi chi trả một yêu cầu bồi thường đã được chấp thuận. Hãy đọc kỹ các điều khoản loại trừ, đặc biệt nếu bạn có tình trạng sức khỏe bắt đầu trước chuyến đi. Hãy gọi cho tôi nếu bạn muốn nhận báo giá bằng văn bản.",
+    "questions": [
+      {
+        "q": "What is included in the travel medical plan?",
+        "choices": [
+          "Routine dental care",
+          "Emergency treatment",
+          "A hotel upgrade"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Emergency treatment vì bài nghe nói rõ gói bảo hiểm bao gồm emergency treatment và medical transport."
+      },
+      {
+        "q": "What must the customer pay before an approved claim is paid?",
+        "choices": [
+          "A monthly hotel fee",
+          "A two hundred dollar deductible",
+          "A travel ticket"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là A two hundred dollar deductible. Bài nghe nói khách phải trả khoản này trước khi công ty chi trả yêu cầu bồi thường."
+      },
+      {
+        "q": "Who should pay special attention to the exclusions?",
+        "choices": [
+          "People with a condition before their trip",
+          "People staying at home",
+          "People buying dental products"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là People with a condition before their trip vì bài nghe nhắc đặc biệt đến tình trạng sức khỏe bắt đầu trước chuyến đi."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên tư vấn bảo hiểm",
+      "b": "Khách hàng đang cân nhắc mua bảo hiểm"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good afternoon. I can walk you through the policy before you decide today.",
+        "vi": "Chào buổi chiều. Tôi có thể hướng dẫn bạn về hợp đồng trước khi bạn quyết định hôm nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. I am comparing plans and want to understand what each one covers.",
+        "vi": "Cảm ơn. Tôi đang so sánh các gói và muốn hiểu mỗi gói chi trả những gì.",
+        "hint": "Dùng I am comparing để nói về việc bạn đang làm hiện tại."
+      },
+      {
+        "speaker": "a",
+        "en": "This plan covers hospital treatment, emergency care, and some outpatient visits.",
+        "vi": "Gói này chi trả điều trị tại bệnh viện, chăm sóc cấp cứu và một số lần khám ngoại trú.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Does it cover pre-existing conditions, or are those excluded from the policy?",
+        "vi": "Gói này có chi trả các bệnh có từ trước không, hay chúng bị loại trừ khỏi hợp đồng?",
+        "hint": "Dùng either or để hỏi hai khả năng."
+      },
+      {
+        "speaker": "a",
+        "en": "Pre-existing conditions are excluded during the first twelve months of coverage.",
+        "vi": "Các bệnh có từ trước bị loại trừ trong mười hai tháng đầu của phạm vi bảo hiểm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I see. Could you explain the deductible and when I would pay it?",
+        "vi": "Tôi hiểu rồi. Bạn có thể giải thích mức khấu trừ và khi nào tôi phải trả không?",
+        "hint": "Could you explain nghe lịch sự khi yêu cầu giải thích."
+      },
+      {
+        "speaker": "a",
+        "en": "You pay the deductible before we reimburse eligible medical expenses under a claim.",
+        "vi": "Bạn trả mức khấu trừ trước khi chúng tôi hoàn tiền cho các chi phí y tế hợp lệ trong yêu cầu bồi thường.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How much is the monthly premium, and could it increase when I renew?",
+        "vi": "Phí bảo hiểm hằng tháng là bao nhiêu, và liệu nó có thể tăng khi tôi gia hạn không?",
+        "hint": "Dùng could it increase để hỏi khả năng thay đổi trong tương lai."
+      },
+      {
+        "speaker": "a",
+        "en": "The premium is eighty dollars monthly, and it may change after annual review.",
+        "vi": "Phí là tám mươi đô la mỗi tháng, và có thể thay đổi sau khi xem xét hằng năm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds reasonable, but I need to know the annual coverage limit.",
+        "vi": "Nghe có vẻ hợp lý, nhưng tôi cần biết giới hạn chi trả hằng năm.",
+        "hint": "Mở đầu bằng nhận xét tích cực rồi nêu điều bạn vẫn cần biết."
+      },
+      {
+        "speaker": "a",
+        "en": "The annual limit is one hundred thousand dollars, including emergency treatment abroad.",
+        "vi": "Giới hạn hằng năm là một trăm nghìn đô la, bao gồm điều trị cấp cứu ở nước ngoài.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What should I do if I need to make a claim overseas?",
+        "vi": "Tôi nên làm gì nếu cần yêu cầu bồi thường ở nước ngoài?",
+        "hint": "Dùng What should I do if để hỏi cách xử lý một tình huống."
+      },
+      {
+        "speaker": "a",
+        "en": "Call our twenty four hour assistance line, keep receipts, and submit your claim online.",
+        "vi": "Hãy gọi đường dây hỗ trợ hai mươi bốn giờ, giữ hóa đơn và nộp yêu cầu bồi thường trực tuyến.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, that answers my questions. Please email the policy summary before I decide.",
+        "vi": "Tuyệt, điều đó đã trả lời các câu hỏi của tôi. Hãy gửi email bản tóm tắt hợp đồng trước khi tôi quyết định.",
+        "hint": "Dùng that answers my questions để khép lại lịch sự và yêu cầu bước tiếp theo."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly insurance adviser at a small insurance office. You explain policy terms clearly, answer questions patiently, and never pressure the customer to buy immediately.",
+    "opener": "Good afternoon. I can walk you through the policy before you decide today.",
+    "goal": "Người học hỏi đủ về quyền lợi, loại trừ, mức khấu trừ, phí và cách yêu cầu bồi thường trước khi quyết định mua."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có thể giải thích chính xác hợp đồng này chi trả những gì trước khi tôi mua không?",
+      "en": "Could you explain exactly what this policy covers before I buy it?",
+      "alts": [
+        "Could you tell me what this policy covers before I purchase it?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ trả bao nhiêu phí bảo hiểm hằng tháng cho gói này?",
+      "en": "How much will I pay as a monthly premium for this plan?",
+      "alts": [
+        "What is the monthly premium for this plan?"
+      ]
+    },
+    {
+      "vi": "Khi nào tôi cần trả mức khấu trừ theo hợp đồng này?",
+      "en": "When would I need to pay the deductible under this policy?",
+      "alts": [
+        "Do I pay the deductible before the insurer pays a claim?"
+      ]
+    },
+    {
+      "vi": "Các bệnh có từ trước có được chi trả trong năm đầu không?",
+      "en": "Are pre-existing conditions covered during the first year of this plan?",
+      "alts": [
+        "Does this plan cover pre-existing conditions in its first year?"
+      ]
+    },
+    {
+      "vi": "Tôi nên biết những điều khoản loại trừ nào trước khi mua bảo hiểm?",
+      "en": "What exclusions should I know about before buying this insurance policy?",
+      "alts": [
+        "Could you tell me which situations are excluded from coverage?"
+      ]
+    },
+    {
+      "vi": "Tôi cần hiểu giới hạn chi trả hằng năm khi đi du lịch nước ngoài.",
+      "en": "I need to understand the annual coverage limit when I travel abroad.",
+      "alts": [
+        "Could you explain the annual limit for overseas treatment?"
+      ]
+    },
+    {
+      "vi": "Nếu tôi yêu cầu bồi thường ở nước ngoài, tôi nên liên hệ với ai ngay?",
+      "en": "If I make a claim overseas, who should I contact immediately?",
+      "alts": [
+        "Who should I call if I need to make an overseas claim?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn có bản tóm tắt hợp đồng bằng văn bản trước khi quyết định.",
+      "en": "I would like a written policy summary before I make a decision.",
+      "alts": [
+        "Please send me the policy summary before I decide."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại, chú ý phát âm deductible, premium và claim.",
+    "Viết năm câu hỏi về một gói bảo hiểm bằng các mẫu câu trong bài.",
+    "Tự nói một phút về ba điều khoản bạn sẽ kiểm tra trước khi mua bảo hiểm."
+  ]
+}

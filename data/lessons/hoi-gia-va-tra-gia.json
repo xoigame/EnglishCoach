@@ -1,0 +1,343 @@
+{
+  "id": "hoi-gia-va-tra-gia",
+  "title": "Hỏi giá và trả giá đơn giản ở chợ",
+  "topic": "Hỏi giá và trả giá ở chợ",
+  "level": "A1",
+  "summary": "Bạn hỏi giá một chiếc khăn ở chợ du lịch, đề nghị giá thấp hơn và mua hàng. Bài học giúp bạn trả giá lịch sự bằng các câu ngắn, tự nhiên.",
+  "goals": [
+    "Hỏi giá một món đồ ở chợ",
+    "Đề nghị một mức giá thấp hơn lịch sự",
+    "Đồng ý mua và kết thúc cuộc trò chuyện"
+  ],
+  "vocab": [
+    {
+      "en": "scarf",
+      "ipa": "/skɑːrf/",
+      "vi": "khăn quàng",
+      "example": "This scarf is very soft."
+    },
+    {
+      "en": "price",
+      "ipa": "/praɪs/",
+      "vi": "giá",
+      "example": "The price is ten dollars."
+    },
+    {
+      "en": "dollar",
+      "ipa": "/ˈdɑːlər/",
+      "vi": "đô la",
+      "example": "It is nine dollars."
+    },
+    {
+      "en": "cheap",
+      "ipa": "/tʃiːp/",
+      "vi": "rẻ",
+      "example": "This bag is cheap."
+    },
+    {
+      "en": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "vi": "đắt",
+      "example": "That hat is expensive."
+    },
+    {
+      "en": "lower",
+      "ipa": "/ˈloʊər/",
+      "vi": "thấp hơn, giảm xuống",
+      "example": "Can you lower the price?"
+    },
+    {
+      "en": "deal",
+      "ipa": "/diːl/",
+      "vi": "mức giá thỏa thuận",
+      "example": "Nine dollars is a good deal."
+    },
+    {
+      "en": "take",
+      "ipa": "/teɪk/",
+      "vi": "lấy, mua",
+      "example": "I will take this scarf."
+    },
+    {
+      "en": "cash",
+      "ipa": "/kæʃ/",
+      "vi": "tiền mặt",
+      "example": "Do you take cash?"
+    },
+    {
+      "en": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "vi": "tiền thối lại",
+      "example": "Here is your change."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "How much is this ___?",
+      "vi": "Cái ___ này giá bao nhiêu?",
+      "note": "Dùng để hỏi giá một món đồ ở gần bạn."
+    },
+    {
+      "en": "Can you do ___ dollars?",
+      "vi": "Bạn có thể bán giá ___ đô la không?",
+      "note": "Cách trả giá ngắn, tự nhiên ở chợ."
+    },
+    {
+      "en": "How about ___ dollars?",
+      "vi": "___ đô la thì sao?",
+      "note": "Dùng khi đưa ra một mức giá khác."
+    },
+    {
+      "en": "That is too expensive for me.",
+      "vi": "Giá đó quá đắt với tôi.",
+      "note": "Nói rõ bạn thấy giá cao nhưng vẫn lịch sự."
+    },
+    {
+      "en": "I will take it, please.",
+      "vi": "Tôi sẽ lấy nó, làm ơn.",
+      "note": "Dùng khi bạn quyết định mua món đồ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "cụm phụ âm /sk/ và âm cuối /f/",
+      "tip": "Với scarf, nói liền /sk/ ở đầu và khép môi dưới chạm răng trên ở âm /f/ cuối; không thêm âm “ơ” sau từ.",
+      "words": [
+        "scarf",
+        "skin",
+        "soft"
+      ]
+    },
+    {
+      "focus": "âm cuối /s/",
+      "tip": "Với price và dollars, phát âm rõ âm cuối để người nghe phân biệt số ít và số nhiều.",
+      "words": [
+        "price",
+        "dollars",
+        "this"
+      ]
+    },
+    {
+      "focus": "trọng âm từ dài",
+      "tip": "Nhấn âm thứ hai trong expensive: ex-PEN-sive. Không đọc đều cả ba âm.",
+      "words": [
+        "expensive",
+        "eleven",
+        "around"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "How much this scarf?",
+      "right": "How much is this scarf?",
+      "vi": "Câu hỏi với this scarf cần động từ is."
+    },
+    {
+      "wrong": "How much is it cost?",
+      "right": "How much does it cost?",
+      "vi": "Không dùng is và does cùng kiểu này; chọn một cấu trúc hỏi giá đúng."
+    },
+    {
+      "wrong": "Can you cheaper?",
+      "right": "Can you make it cheaper?",
+      "vi": "Sau can you cần có động từ; dùng make it cheaper để xin giảm giá."
+    },
+    {
+      "wrong": "Give me nine dollars.",
+      "right": "Can you do nine dollars?",
+      "vi": "Give me nghe ra lệnh. Khi trả giá, hãy hỏi lịch sự bằng Can you do."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi giá một món đồ",
+      "formal": "Could you tell me the price, please?",
+      "casual": "How much is this?",
+      "vi": "Câu formal phù hợp khi nói với người lạ hoặc ở nơi lịch sự. Câu casual ngắn gọn, phù hợp với người bán thân thiện ở chợ."
+    },
+    {
+      "situation": "Đề nghị giá thấp hơn",
+      "formal": "Could you do ten dollars, please?",
+      "casual": "Can you do ten?",
+      "vi": "Câu formal lịch sự hơn khi mua từ người lạ. Câu casual hợp với người bán quen hoặc khi không khí trò chuyện thoải mái."
+    },
+    {
+      "situation": "Nói giá quá cao",
+      "formal": "That is a little expensive for me.",
+      "casual": "That is too much.",
+      "vi": "Câu formal mềm hơn, giúp giữ không khí lịch sự. Câu casual thẳng hơn, chỉ nên dùng khi nói chuyện thân mật."
+    },
+    {
+      "situation": "Đồng ý mua hàng",
+      "formal": "I will take this one, please.",
+      "casual": "Okay, I will take it.",
+      "vi": "Câu formal hợp khi nói với người bán lạ. Câu casual tự nhiên với người quen hoặc người bán đã trò chuyện thân thiện."
+    }
+  ],
+  "culture": [
+    "Ở chợ du lịch, trả giá thường được chấp nhận, nhưng ở siêu thị hoặc cửa hàng có nhãn giá cố định thì thường không mặc cả.",
+    "Người nói tiếng Anh thường mở đầu bằng lời chào ngắn và thêm please hoặc thank you khi trả giá để giữ không khí thân thiện.",
+    "Nếu không muốn mua, bạn có thể nói No, thank you và rời đi. Cách từ chối ngắn, rõ ràng này thường không bị xem là bất lịch sự."
+  ],
+  "listening": {
+    "title": "Tin nhắn của một khách ở chợ",
+    "passage": "Hi Mai. I am at the weekend market. I want a blue bag. The seller says it is twelve dollars. I ask for ten dollars, but she says no. Then I ask for eleven dollars. She says yes. The bag is nice and strong, so I buy it. Now I also want to look for a small hat.",
+    "vi": "Chào Mai. Tôi đang ở chợ cuối tuần. Tôi muốn mua một chiếc túi màu xanh. Người bán nói giá là mười hai đô la. Tôi trả giá mười đô la, nhưng cô ấy nói không. Sau đó tôi trả giá mười một đô la. Cô ấy đồng ý. Chiếc túi đẹp và chắc, nên tôi mua nó. Bây giờ tôi cũng muốn tìm một chiếc mũ nhỏ.",
+    "questions": [
+      {
+        "q": "What price does the seller say first?",
+        "choices": [
+          "Ten dollars",
+          "Eleven dollars",
+          "Twelve dollars"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là Twelve dollars vì người nói nói: The seller says it is twelve dollars."
+      },
+      {
+        "q": "What price does the seller accept?",
+        "choices": [
+          "Ten dollars",
+          "Eleven dollars",
+          "Twelve dollars"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Eleven dollars vì sau khi người nói hỏi giá mười một đô la, người bán nói yes."
+      },
+      {
+        "q": "What does the speaker want after the bag?",
+        "choices": [
+          "A small hat",
+          "A red scarf",
+          "A new shirt"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là A small hat vì cuối đoạn có câu: I also want to look for a small hat."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người bán hàng ở chợ du lịch",
+      "b": "Người học, là khách mua hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello. Please look around.",
+        "vi": "Xin chào. Mời bạn xem hàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How much is this scarf?",
+        "vi": "Chiếc khăn này giá bao nhiêu?",
+        "hint": "Dùng How much is this để hỏi giá."
+      },
+      {
+        "speaker": "a",
+        "en": "This scarf is ten dollars.",
+        "vi": "Chiếc khăn này giá mười đô la.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can you do eight dollars?",
+        "vi": "Bạn có thể bán giá tám đô la không?",
+        "hint": "Can you do dùng để đưa ra giá bạn muốn trả."
+      },
+      {
+        "speaker": "a",
+        "en": "Sorry, eight dollars is too low.",
+        "vi": "Xin lỗi, tám đô la thấp quá.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How about nine dollars, then?",
+        "vi": "Vậy chín đô la thì sao?",
+        "hint": "How about dùng để đề nghị một giá mới."
+      },
+      {
+        "speaker": "a",
+        "en": "Okay, nine dollars is fine.",
+        "vi": "Được, chín đô la được.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. I will take it, please.",
+        "vi": "Tuyệt. Tôi sẽ lấy nó, làm ơn.",
+        "hint": "I will take it nghĩa là bạn quyết định mua."
+      },
+      {
+        "speaker": "a",
+        "en": "Here you are. Thank you.",
+        "vi": "Của bạn đây. Cảm ơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. Have a nice day.",
+        "vi": "Cảm ơn. Chúc bạn một ngày vui vẻ.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly market seller at a tourist market. You sell scarves and small gifts. Start with a warm greeting, answer clearly, and bargain politely.",
+    "opener": "Hello. Please look around.",
+    "goal": "Người học hỏi giá, trả giá cho một món đồ và mua món đồ đó."
+  },
+  "drills": [
+    {
+      "vi": "Chiếc khăn này giá bao nhiêu?",
+      "en": "How much is this scarf?",
+      "alts": [
+        "How much does this scarf cost?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể bán giá tám đô la không?",
+      "en": "Can you do eight dollars?",
+      "alts": [
+        "Can you make it eight dollars?"
+      ]
+    },
+    {
+      "vi": "Chín đô la thì sao?",
+      "en": "How about nine dollars?",
+      "alts": [
+        "Can you do nine dollars?"
+      ]
+    },
+    {
+      "vi": "Giá đó quá đắt với tôi.",
+      "en": "That is too expensive for me.",
+      "alts": [
+        "It is too expensive for me."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ lấy nó, làm ơn.",
+      "en": "I will take it, please.",
+      "alts": [
+        "Okay, I will take it."
+      ]
+    },
+    {
+      "vi": "Bạn có nhận tiền mặt không?",
+      "en": "Do you take cash?",
+      "alts": [
+        "Can I pay in cash?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý nói rõ price, scarf và dollars.",
+    "Chọn ba món đồ ở nhà, tự hỏi giá và trả giá bằng tiếng Anh.",
+    "Tự nói một đoạn bốn câu: hỏi giá, chê đắt, đề nghị giá mới và đồng ý mua."
+  ]
+}

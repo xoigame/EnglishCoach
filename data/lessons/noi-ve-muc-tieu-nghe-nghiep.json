@@ -1,0 +1,380 @@
+{
+  "id": "noi-ve-muc-tieu-nghe-nghiep",
+  "title": "Nói về mục tiêu nghề nghiệp và lý do đổi việc",
+  "topic": "Phỏng vấn tuyển dụng",
+  "level": "B1",
+  "summary": "Bạn tham gia một buổi phỏng vấn và chia sẻ về công việc hiện tại, mục tiêu nghề nghiệp và lý do muốn chuyển việc. Bạn học cách trình bày tích cực, rõ ràng và chuyên nghiệp.",
+  "goals": [
+    "Nói về công việc hiện tại và kinh nghiệm liên quan.",
+    "Giải thích lý do đổi việc theo hướng tích cực.",
+    "Trình bày mục tiêu nghề nghiệp và mong muốn phát triển."
+  ],
+  "vocab": [
+    {
+      "en": "career goal",
+      "ipa": "/kəˈrɪr ɡoʊl/",
+      "vi": "mục tiêu nghề nghiệp",
+      "example": "My career goal is to lead a customer support team."
+    },
+    {
+      "en": "current role",
+      "ipa": "/ˈkɜːrənt roʊl/",
+      "vi": "vai trò, vị trí hiện tại",
+      "example": "In my current role, I answer customer questions every day."
+    },
+    {
+      "en": "professional growth",
+      "ipa": "/prəˈfeʃənəl ɡroʊθ/",
+      "vi": "sự phát triển nghề nghiệp",
+      "example": "I changed jobs because I wanted more professional growth."
+    },
+    {
+      "en": "responsibility",
+      "ipa": "/rɪˌspɑːnsəˈbɪləti/",
+      "vi": "trách nhiệm",
+      "example": "This position gives employees more responsibility."
+    },
+    {
+      "en": "take initiative",
+      "ipa": "/teɪk ɪˈnɪʃətɪv/",
+      "vi": "chủ động làm việc",
+      "example": "She took initiative and solved the problem before it became serious."
+    },
+    {
+      "en": "team leader",
+      "ipa": "/tiːm ˈliːdər/",
+      "vi": "trưởng nhóm",
+      "example": "A team leader supports people and helps them reach shared goals."
+    },
+    {
+      "en": "training program",
+      "ipa": "/ˈtreɪnɪŋ ˈproʊɡræm/",
+      "vi": "chương trình đào tạo",
+      "example": "The training program helped new staff feel confident."
+    },
+    {
+      "en": "appeal to",
+      "ipa": "/əˈpiːl tuː/",
+      "vi": "thu hút, hấp dẫn ai",
+      "example": "The chance to learn appeals to me."
+    },
+    {
+      "en": "career direction",
+      "ipa": "/kəˈrɪr dəˈrekʃən/",
+      "vi": "định hướng nghề nghiệp",
+      "example": "Working with clients helped me choose my career direction."
+    },
+    {
+      "en": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "vi": "phản hồi, nhận xét",
+      "example": "Regular feedback helps me improve my performance."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am looking for a role where I can ___.",
+      "vi": "Tôi đang tìm một vị trí nơi tôi có thể ___.",
+      "note": "Dùng để nói rõ năng lực hoặc trải nghiệm bạn muốn phát triển."
+    },
+    {
+      "en": "One reason I am considering a change is that ___.",
+      "vi": "Một lý do tôi đang cân nhắc thay đổi là ___.",
+      "note": "Mở đầu lịch sự, phù hợp khi giải thích lý do đổi việc."
+    },
+    {
+      "en": "I would like to ___ because ___.",
+      "vi": "Tôi muốn ___ vì ___.",
+      "note": "Dùng để nối mục tiêu với lý do cá nhân hoặc nghề nghiệp."
+    },
+    {
+      "en": "What appeals to me about this position is ___.",
+      "vi": "Điều thu hút tôi ở vị trí này là ___.",
+      "note": "Giúp nêu điểm bạn thích về công việc một cách tự nhiên."
+    },
+    {
+      "en": "This experience showed me that ___.",
+      "vi": "Trải nghiệm này cho tôi thấy rằng ___.",
+      "note": "Dùng khi rút ra điều mình nhận ra từ một trải nghiệm cụ thể."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /r/ đầu từ",
+      "tip": "Phát âm bằng cách cong nhẹ đầu lưỡi về sau, không rung lưỡi như âm r tiếng Việt.",
+      "words": [
+        "role",
+        "responsibility",
+        "career"
+      ]
+    },
+    {
+      "focus": "âm /θ/ cuối từ",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, tránh đọc thành âm t.",
+      "words": [
+        "growth",
+        "both",
+        "with"
+      ]
+    },
+    {
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm được đánh dấu để người nghe nhận ra từ, đặc biệt khi nói nhanh.",
+      "words": [
+        "professional",
+        "responsibility",
+        "initiative"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want change my job because I need more experience.",
+      "right": "I want to change jobs because I want more experience.",
+      "vi": "Sau động từ chỉ mong muốn cần có từ chỉ hướng đến hành động. Khi nói chung về việc chuyển công ty, danh từ số nhiều tự nhiên hơn."
+    },
+    {
+      "wrong": "I am interesting in a leadership role.",
+      "right": "I am interested in a leadership role.",
+      "vi": "Dùng dạng chỉ cảm xúc của người nói, không dùng dạng miêu tả thứ tạo ra cảm xúc."
+    },
+    {
+      "wrong": "I have worked here since three years.",
+      "right": "I have worked here for three years.",
+      "vi": "Dùng từ chỉ khoảng thời gian với số năm; từ còn lại dùng với một mốc thời gian cụ thể."
+    },
+    {
+      "wrong": "I want more responsible in my next job.",
+      "right": "I want more responsibility in my next job.",
+      "vi": "Sau động từ chỉ mong muốn cần một danh từ. Từ chỉ trách nhiệm là danh từ, còn từ kia là tính từ."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nói về mục tiêu trở thành người dẫn dắt",
+      "formal": "I am seeking a position that offers a clear path toward leadership.",
+      "casual": "I want a job where I can grow into a leader.",
+      "vi": "Câu trang trọng phù hợp trong phỏng vấn hoặc khi nói với cấp trên; câu thân mật phù hợp khi trao đổi với đồng nghiệp quen."
+    },
+    {
+      "situation": "Giải thích lý do muốn đổi việc",
+      "formal": "I am exploring new opportunities to take on broader responsibilities.",
+      "casual": "I am looking around because I want to do more.",
+      "vi": "Câu trang trọng nhấn vào định hướng tích cực trong phỏng vấn; câu thân mật dùng khi chia sẻ không chính thức với bạn bè."
+    },
+    {
+      "situation": "Hỏi về cơ hội phát triển",
+      "formal": "Could you tell me how employees typically develop in this role?",
+      "casual": "How can people grow in this job?",
+      "vi": "Câu trang trọng phù hợp khi hỏi nhà tuyển dụng; câu thân mật phù hợp khi hỏi đồng nghiệp về môi trường làm việc."
+    },
+    {
+      "situation": "Nói rằng bạn sẵn sàng cho bước tiếp theo",
+      "formal": "My current role has taught me a great deal, and I am ready for the next step.",
+      "casual": "I have learned a lot, and I am ready for something new.",
+      "vi": "Câu trang trọng tạo ấn tượng chuyên nghiệp khi phỏng vấn; câu thân mật tự nhiên hơn trong cuộc trò chuyện gần gũi."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn ở môi trường nói tiếng Anh, ứng viên thường nói tích cực về công ty cũ và tập trung vào điều mình muốn phát triển, thay vì phê bình quản lý hoặc đồng nghiệp quá nhiều.",
+    "Nhà tuyển dụng thường mong bạn dùng cách xưng rõ ràng để nêu đóng góp cá nhân, đồng thời ghi nhận sự hỗ trợ của cả nhóm khi phù hợp.",
+    "Sau khi trả lời, một khoảng im lặng ngắn thường là lúc nhà tuyển dụng ghi chú hoặc suy nghĩ; không cần vội vàng nói thêm để lấp khoảng trống."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại xác nhận phỏng vấn",
+    "passage": "Hello, this is Anna calling to confirm my interview tomorrow. I currently work as a customer support specialist, but I am looking for a role where I can lead small projects. I am not leaving because of a problem with my manager. I simply want to build new skills and take on more responsibility. I am excited to learn more about your team.",
+    "vi": "Xin chào, tôi là Anna gọi để xác nhận buổi phỏng vấn vào ngày mai. Hiện tại tôi làm chuyên viên hỗ trợ khách hàng, nhưng tôi đang tìm một vị trí nơi tôi có thể dẫn dắt các dự án nhỏ. Tôi không nghỉ việc vì có vấn đề với quản lý. Tôi chỉ muốn xây dựng kỹ năng mới và nhận thêm trách nhiệm. Tôi rất hào hứng được tìm hiểu thêm về đội ngũ của bạn.",
+    "questions": [
+      {
+        "q": "What is Anna's current job?",
+        "choices": [
+          "A sales assistant",
+          "A customer support specialist",
+          "A team leader"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai. Ngay đầu đoạn, Anna nói cô hiện làm chuyên viên hỗ trợ khách hàng."
+      },
+      {
+        "q": "Why is Anna looking for a new role?",
+        "choices": [
+          "She wants to lead small projects",
+          "She wants to leave her manager",
+          "She wants a shorter workday"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn thứ nhất. Ở phần giữa đoạn, cô nói muốn tìm vị trí có thể dẫn dắt các dự án nhỏ."
+      },
+      {
+        "q": "What does Anna say about her manager?",
+        "choices": [
+          "Her manager gave her a new project",
+          "Her manager is the reason she is leaving",
+          "Her manager is not the reason she is leaving"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn thứ ba. Anna khẳng định cô không rời đi vì vấn đề với quản lý, mà vì muốn học kỹ năng mới và có thêm trách nhiệm."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhà tuyển dụng",
+      "b": "Ứng viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for coming in today. Could you briefly introduce yourself and your current role?",
+        "vi": "Cảm ơn bạn đã đến hôm nay. Bạn có thể giới thiệu ngắn gọn về bản thân và vị trí hiện tại không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have worked in customer service for three years, mainly supporting online retail customers.",
+        "vi": "Tôi đã làm trong lĩnh vực dịch vụ khách hàng ba năm, chủ yếu hỗ trợ khách hàng mua sắm trực tuyến.",
+        "hint": "Dùng hiện tại hoàn thành để nói kinh nghiệm kéo dài đến hiện tại."
+      },
+      {
+        "speaker": "a",
+        "en": "What has motivated you to look for a new position at this point?",
+        "vi": "Điều gì khiến bạn tìm một vị trí mới vào thời điểm này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I enjoy helping customers, but I am ready for more responsibility and professional growth.",
+        "vi": "Tôi thích giúp khách hàng, nhưng tôi đã sẵn sàng cho nhiều trách nhiệm và sự phát triển nghề nghiệp hơn.",
+        "hint": "Nêu điểm tích cực của công việc cũ trước, rồi nói điều bạn muốn phát triển."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. What kind of career goal are you hoping to achieve next?",
+        "vi": "Điều đó hợp lý. Tiếp theo, bạn hy vọng đạt được mục tiêu nghề nghiệp nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would like to become a team leader and improve how customers experience our service.",
+        "vi": "Tôi muốn trở thành trưởng nhóm và cải thiện trải nghiệm của khách hàng với dịch vụ của chúng tôi.",
+        "hint": "Dùng mẫu nói về mong muốn, sau đó nối thêm mục tiêu cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "Why do you think this company would be a good place to develop those skills?",
+        "vi": "Vì sao bạn nghĩ công ty này sẽ là nơi tốt để phát triển những kỹ năng đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Your training program appeals to me, and your team seems open to new ideas.",
+        "vi": "Chương trình đào tạo của công ty thu hút tôi, và đội ngũ của công ty có vẻ cởi mở với các ý tưởng mới.",
+        "hint": "Nêu một điểm cụ thể của công ty để câu trả lời thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Can you describe a time when you took initiative beyond your usual duties?",
+        "vi": "Bạn có thể mô tả một lần bạn đã chủ động làm vượt ngoài nhiệm vụ thông thường không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Last year, I created a guide that helped new colleagues answer common questions faster.",
+        "vi": "Năm ngoái, tôi đã tạo một tài liệu hướng dẫn giúp đồng nghiệp mới trả lời các câu hỏi thường gặp nhanh hơn.",
+        "hint": "Mở đầu bằng thời gian, sau đó nêu hành động và kết quả."
+      },
+      {
+        "speaker": "a",
+        "en": "How did that experience influence the direction you want your career to take?",
+        "vi": "Trải nghiệm đó đã ảnh hưởng thế nào đến định hướng bạn muốn theo đuổi trong sự nghiệp?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It showed me that I enjoy coaching others and solving problems before they grow.",
+        "vi": "Điều đó cho tôi thấy rằng tôi thích hướng dẫn người khác và giải quyết vấn đề trước khi chúng trở nên lớn hơn.",
+        "hint": "Dùng mẫu nói về điều bạn nhận ra từ trải nghiệm."
+      },
+      {
+        "speaker": "a",
+        "en": "What would make you confident that moving here is the right decision for you?",
+        "vi": "Điều gì sẽ khiến bạn tin rằng chuyển đến đây là quyết định đúng cho bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A role with clear goals, feedback, and room to learn would motivate me long term.",
+        "vi": "Một vị trí có mục tiêu rõ ràng, phản hồi và cơ hội học hỏi sẽ tạo động lực cho tôi trong dài hạn.",
+        "hint": "Liệt kê hai hoặc ba yếu tố bạn cần ở công việc mới."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Your goals align well with this role, and we will contact you soon.",
+        "vi": "Cảm ơn bạn. Mục tiêu của bạn phù hợp với vị trí này, và chúng tôi sẽ sớm liên hệ lại.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly hiring manager at a growing technology company. You are conducting an interview in a calm, professional tone. Ask about the candidate's career goals, reasons for changing jobs, and relevant experience.",
+    "opener": "Thanks for joining us today. Could you tell me about your current role?",
+    "goal": "Người học giải thích tích cực lý do đổi việc, nêu mục tiêu trở thành trưởng nhóm và đưa ra một ví dụ về sự chủ động."
+  },
+  "drills": [
+    {
+      "vi": "Tôi đang tìm một vị trí nơi tôi có thể xây dựng kỹ năng lãnh đạo.",
+      "en": "I am looking for a role where I can build leadership skills.",
+      "alts": [
+        "I want a job where I can develop leadership skills."
+      ]
+    },
+    {
+      "vi": "Một lý do tôi đang cân nhắc thay đổi là tôi muốn nhiều trách nhiệm hơn.",
+      "en": "One reason I am considering a change is that I want more responsibility.",
+      "alts": [
+        "I am thinking about changing jobs because I want greater responsibility."
+      ]
+    },
+    {
+      "vi": "Điều thu hút tôi ở vị trí này là cơ hội dẫn dắt các dự án.",
+      "en": "What appeals to me about this position is the chance to lead projects.",
+      "alts": [
+        "The opportunity to lead projects is what interests me most."
+      ]
+    },
+    {
+      "vi": "Trải nghiệm này cho tôi thấy rằng tôi thích hướng dẫn đồng nghiệp mới.",
+      "en": "This experience showed me that I enjoy coaching new colleagues.",
+      "alts": [
+        "I learned that I enjoy helping new team members improve."
+      ]
+    },
+    {
+      "vi": "Tôi hy vọng phát triển thành một trưởng nhóm trong vài năm tới.",
+      "en": "I hope to develop into a team leader within the next few years.",
+      "alts": [
+        "My goal is to become a team leader in the future."
+      ]
+    },
+    {
+      "vi": "Tôi không rời đi vì có vấn đề với quản lý của mình.",
+      "en": "I am not leaving because of a problem with my manager.",
+      "alts": [
+        "My manager is supportive, but I am ready for a new challenge."
+      ]
+    },
+    {
+      "vi": "Phản hồi thường xuyên sẽ giúp tôi cải thiện hiệu quả công việc ở vị trí này.",
+      "en": "Regular feedback would help me improve my performance in this role.",
+      "alts": [
+        "I would value regular feedback so I can keep improving."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần trả lời về lý do đổi việc, dài khoảng bốn mươi giây.",
+    "Viết năm câu về mục tiêu nghề nghiệp của bạn bằng các mẫu câu đã học.",
+    "Chuẩn bị một ví dụ thật về lần bạn chủ động giải quyết vấn đề tại nơi làm việc."
+  ]
+}

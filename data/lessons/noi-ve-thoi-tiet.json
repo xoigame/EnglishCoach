@@ -3,48 +3,48 @@
   "title": "Nói về thời tiết và kế hoạch trong ngày",
   "topic": "Thời tiết và kế hoạch hằng ngày",
   "level": "A1",
-  "summary": "Bạn trò chuyện với người hàng xóm vào buổi sáng về thời tiết và những việc làm trong ngày.",
+  "summary": "Bạn gặp người hàng xóm vào buổi sáng và trò chuyện ngắn về thời tiết cùng kế hoạch trong ngày. Bạn sẽ luyện hỏi kế hoạch, nói việc mình làm và đề nghị giúp đỡ.",
   "goals": [
-    "Hỏi và trả lời đơn giản về thời tiết.",
-    "Nói về kế hoạch trong ngày bằng câu ngắn.",
-    "Đề nghị hoặc nhận lời giúp đỡ lịch sự."
+    "Nói thời tiết đơn giản bằng câu ngắn",
+    "Hỏi và trả lời về kế hoạch trong ngày",
+    "Đề nghị giúp đỡ một cách thân thiện"
   ],
   "vocab": [
     {
       "en": "sunny",
       "ipa": "/ˈsʌni/",
-      "vi": "nắng",
+      "vi": "có nắng",
       "example": "It is sunny today."
+    },
+    {
+      "en": "warm",
+      "ipa": "/wɔːrm/",
+      "vi": "ấm",
+      "example": "It is warm this morning."
     },
     {
       "en": "rainy",
       "ipa": "/ˈreɪni/",
       "vi": "có mưa",
-      "example": "It looks rainy this afternoon."
+      "example": "It is rainy today."
     },
     {
-      "en": "cloudy",
-      "ipa": "/ˈklaʊdi/",
-      "vi": "nhiều mây",
-      "example": "The sky is cloudy."
+      "en": "weather",
+      "ipa": "/ˈweðər/",
+      "vi": "thời tiết",
+      "example": "The weather is nice today."
     },
     {
-      "en": "hot",
-      "ipa": "/hɑːt/",
-      "vi": "nóng",
-      "example": "It is hot outside."
+      "en": "today",
+      "ipa": "/təˈdeɪ/",
+      "vi": "hôm nay",
+      "example": "I work at home today."
     },
     {
-      "en": "cool",
-      "ipa": "/kuːl/",
-      "vi": "mát",
-      "example": "The morning is cool."
-    },
-    {
-      "en": "umbrella",
-      "ipa": "/ʌmˈbrelə/",
-      "vi": "ô, dù",
-      "example": "I take my umbrella."
+      "en": "plan",
+      "ipa": "/plæn/",
+      "vi": "kế hoạch",
+      "example": "My plan is simple today."
     },
     {
       "en": "market",
@@ -53,102 +53,170 @@
       "example": "I go to the market."
     },
     {
-      "en": "work from home",
-      "ipa": "/wɜːrk frəm hoʊm/",
-      "vi": "làm việc ở nhà",
-      "example": "I work from home today."
+      "en": "walk",
+      "ipa": "/wɔːk/",
+      "vi": "đi bộ",
+      "example": "I walk there often."
     },
     {
-      "en": "later",
-      "ipa": "/ˈleɪtər/",
-      "vi": "sau, lát nữa",
-      "example": "I meet my friend later."
+      "en": "clean",
+      "ipa": "/kliːn/",
+      "vi": "dọn dẹp",
+      "example": "I clean my balcony today."
     },
     {
-      "en": "plan",
-      "ipa": "/plæn/",
-      "vi": "kế hoạch",
-      "example": "What is your plan today?"
+      "en": "help",
+      "ipa": "/help/",
+      "vi": "giúp đỡ",
+      "example": "Do you need help later?"
     }
   ],
   "patterns": [
     {
-      "en": "How is the weather today?",
-      "vi": "Thời tiết hôm nay thế nào?",
-      "note": "Dùng để bắt đầu nói chuyện về thời tiết."
+      "en": "It is ___ today.",
+      "vi": "Hôm nay trời ___.",
+      "note": "Dùng để nói thời tiết hiện tại."
     },
     {
-      "en": "It is sunny and cool.",
-      "vi": "Trời nắng và mát.",
-      "note": "Thay sunny và cool bằng các tính từ thời tiết khác."
+      "en": "Do you have plans today?",
+      "vi": "Hôm nay bạn có kế hoạch gì không?",
+      "note": "Câu hỏi thân thiện để bắt đầu trò chuyện."
     },
     {
-      "en": "What are your plans today?",
-      "vi": "Hôm nay bạn có kế hoạch gì?",
-      "note": "Câu hỏi thân mật về dự định trong ngày."
+      "en": "I go to the ___.",
+      "vi": "Tôi đi đến ___.",
+      "note": "Dùng để nói một việc thường làm hoặc kế hoạch đơn giản."
     },
     {
-      "en": "I work from home today.",
-      "vi": "Hôm nay tôi làm việc ở nhà.",
-      "note": "Dùng today để nói việc của hôm nay."
+      "en": "Do you need help?",
+      "vi": "Bạn có cần giúp không?",
+      "note": "Dùng khi muốn đề nghị giúp người khác."
     },
     {
-      "en": "Do you need an umbrella?",
-      "vi": "Bạn có cần ô không?",
-      "note": "Dùng để đề nghị giúp khi trời có thể mưa."
+      "en": "Have a good day.",
+      "vi": "Chúc bạn một ngày tốt lành.",
+      "note": "Lời chào tự nhiên khi kết thúc cuộc trò chuyện."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /r/ trong rainy và rain",
-      "tip": "Cong nhẹ đầu lưỡi, không rung lưỡi như âm r tiếng Việt.",
+      "focus": "âm /ð/ trong weather",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung giọng; không đọc thành âm /d/.",
       "words": [
+        "weather",
+        "this",
+        "there"
+      ]
+    },
+    {
+      "focus": "âm cuối /k/",
+      "tip": "Đọc rõ âm cuối /k/, không bỏ mất âm này.",
+      "words": [
+        "walk",
+        "work",
+        "market"
+      ]
+    },
+    {
+      "focus": "trọng âm từ hai âm tiết",
+      "tip": "Nhấn mạnh âm đầu để câu nghe tự nhiên hơn.",
+      "words": [
+        "sunny",
         "rainy",
-        "rain",
-        "umbrella"
-      ]
-    },
-    {
-      "focus": "âm cuối /t/",
-      "tip": "Phát âm nhẹ âm t ở cuối từ, không bỏ hẳn âm này.",
-      "words": [
-        "hot",
-        "market",
-        "it"
-      ]
-    },
-    {
-      "focus": "âm /aʊ/ trong cloudy",
-      "tip": "Bắt đầu bằng âm a rồi lướt nhanh sang u.",
-      "words": [
-        "cloudy",
-        "out",
-        "house"
+        "market"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Today is very sun.",
-      "right": "It is very sunny today.",
-      "vi": "Sun là danh từ; dùng sunny để miêu tả thời tiết."
+      "wrong": "The weather is sun.",
+      "right": "The weather is sunny.",
+      "vi": "Sun là danh từ mặt trời; sunny là tính từ để tả thời tiết."
     },
     {
-      "wrong": "How is weather today?",
-      "right": "How is the weather today?",
-      "vi": "Cần dùng the trước weather trong câu hỏi này."
-    },
-    {
-      "wrong": "I go to market today.",
+      "wrong": "I go market today.",
       "right": "I go to the market today.",
-      "vi": "Khi nói đến chợ cụ thể, thường dùng the market."
+      "vi": "Với địa điểm market, thường dùng go to the market."
     },
     {
-      "wrong": "It rain this afternoon.",
-      "right": "It is rainy this afternoon.",
-      "vi": "Dùng is rainy để miêu tả thời tiết bằng tính từ."
+      "wrong": "Do you have plan today?",
+      "right": "Do you have plans today?",
+      "vi": "Khi hỏi chung về hoạt động trong ngày, dùng plans ở số nhiều tự nhiên hơn."
+    },
+    {
+      "wrong": "It rain today.",
+      "right": "It is rainy today.",
+      "vi": "Để tả thời tiết bằng tính từ, dùng it is rainy."
     }
   ],
+  "variations": [
+    {
+      "situation": "Hỏi kế hoạch trong ngày",
+      "formal": "Do you have any plans for today?",
+      "casual": "Any plans today?",
+      "vi": "Câu formal dùng với người lạ hoặc hàng xóm chưa thân; câu casual dùng với bạn bè hay đồng nghiệp thân."
+    },
+    {
+      "situation": "Nói trời đẹp",
+      "formal": "The weather is lovely today.",
+      "casual": "Nice day, right?",
+      "vi": "Câu formal lịch sự và đầy đủ hơn; câu casual rất phổ biến khi chào người quen."
+    },
+    {
+      "situation": "Đề nghị giúp đỡ",
+      "formal": "Would you like some help?",
+      "casual": "Need a hand?",
+      "vi": "Câu formal phù hợp với người chưa quen hoặc lớn tuổi; câu casual chỉ dùng với người thân thiện, ngang hàng."
+    },
+    {
+      "situation": "Kết thúc trò chuyện",
+      "formal": "Have a pleasant day.",
+      "casual": "Have a good one.",
+      "vi": "Câu formal hợp với người lạ hoặc môi trường lịch sự; câu casual hợp với bạn bè, hàng xóm thân quen."
+    }
+  ],
+  "culture": [
+    "Ở các nước nói tiếng Anh, nói một câu ngắn về thời tiết là cách mở đầu rất phổ biến, kể cả khi không định nói chuyện lâu.",
+    "Người hàng xóm thường chỉ chào và nói chuyện vài phút ở hành lang hoặc trước cửa nhà; không cần mời vào nhà mới lịch sự.",
+    "Khi được đề nghị giúp, bạn có thể từ chối nhẹ nhàng bằng Thank you, but I am okay để vẫn giữ không khí thân thiện."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại buổi sáng",
+    "passage": "Hi Mai, it is Hoa from next door. The weather is rainy this morning, so I stay home today. I clean the kitchen and make lunch. In the afternoon, I walk to the small market if the rain stops. Do you need anything from the market? Please call me later. Have a good day.",
+    "vi": "Chào Mai, Hoa nhà bên đây. Sáng nay trời mưa nên hôm nay tôi ở nhà. Tôi dọn bếp và làm bữa trưa. Buổi chiều, tôi sẽ đi bộ đến chợ nhỏ nếu mưa tạnh. Bạn có cần gì từ chợ không? Hãy gọi cho tôi sau nhé. Chúc bạn một ngày tốt lành.",
+    "questions": [
+      {
+        "q": "What is the weather like this morning?",
+        "choices": [
+          "It is sunny.",
+          "It is rainy.",
+          "It is warm."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là It is rainy vì bài nghe nói rõ: The weather is rainy this morning."
+      },
+      {
+        "q": "What does Hoa clean today?",
+        "choices": [
+          "The kitchen",
+          "The balcony",
+          "The market"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là The kitchen vì Hoa nói: I clean the kitchen."
+      },
+      {
+        "q": "When does Hoa go to the market?",
+        "choices": [
+          "In the morning",
+          "In the afternoon",
+          "At night"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là In the afternoon vì bài nghe nói: In the afternoon, I walk to the small market."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Người hàng xóm",
@@ -158,115 +226,125 @@
     "turns": [
       {
         "speaker": "a",
-        "en": "Morning, Linh. Nice weather today.",
-        "vi": "Chào buổi sáng, Linh. Hôm nay thời tiết đẹp nhỉ.",
+        "en": "Good morning, Linh. It is warm today.",
+        "vi": "Chào buổi sáng, Linh. Hôm nay trời ấm.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Good morning. Yes, it is.",
-        "vi": "Chào buổi sáng. Vâng, đúng vậy.",
-        "hint": "Trả lời ngắn với Yes, it is."
+        "en": "Good morning. Yes, it is sunny.",
+        "vi": "Chào buổi sáng. Vâng, trời có nắng.",
+        "hint": "Dùng It is sunny để nói trời có nắng."
       },
       {
         "speaker": "a",
-        "en": "How is the weather today?",
-        "vi": "Thời tiết hôm nay thế nào?",
+        "en": "Do you have plans today?",
+        "vi": "Hôm nay bạn có kế hoạch gì không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "It is sunny and cool.",
-        "vi": "Trời nắng và mát.",
-        "hint": "Dùng It is rồi nói hai tính từ."
+        "en": "I go to the market.",
+        "vi": "Tôi đi chợ.",
+        "hint": "Nhớ dùng to the market."
       },
       {
         "speaker": "a",
-        "en": "What are your plans today?",
-        "vi": "Hôm nay bạn có kế hoạch gì?",
+        "en": "That sounds nice. Do you walk?",
+        "vi": "Nghe hay đấy. Bạn đi bộ à?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I work from home today.",
-        "vi": "Hôm nay tôi làm việc ở nhà.",
-        "hint": "work from home nghĩa là làm việc ở nhà."
+        "en": "Yes, I walk there often.",
+        "vi": "Vâng, tôi thường đi bộ đến đó.",
+        "hint": "There nghĩa là đến đó."
       },
       {
         "speaker": "a",
-        "en": "I walk to the market.",
-        "vi": "Tôi đi bộ ra chợ.",
+        "en": "Great. I clean my balcony today.",
+        "vi": "Tuyệt. Hôm nay tôi dọn ban công.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Do you need an umbrella?",
-        "vi": "Bạn có cần ô không?",
-        "hint": "Dùng Do you need để hỏi người khác có cần gì không."
+        "en": "Do you need help later?",
+        "vi": "Lát nữa bạn có cần giúp không?",
+        "hint": "Dùng Do you need help để đề nghị giúp."
       },
       {
         "speaker": "a",
-        "en": "No, it is sunny now.",
-        "vi": "Không, bây giờ trời đang nắng.",
+        "en": "Thank you, but I am okay.",
+        "vi": "Cảm ơn, nhưng tôi ổn.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "It looks rainy this afternoon.",
-        "vi": "Chiều nay có vẻ sẽ mưa.",
-        "hint": "It looks rainy diễn tả trời có vẻ mưa."
+        "en": "All right. Have a good day.",
+        "vi": "Được rồi. Chúc bạn một ngày tốt lành.",
+        "hint": "Dùng câu này để kết thúc thân thiện."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly neighbor outside an apartment building in the morning. You are relaxed, helpful, and chat about the weather and daily plans.",
-    "opener": "Morning! It is sunny today. What are your plans?",
-    "goal": "Người học hỏi về thời tiết, nói kế hoạch trong ngày và đề nghị mang ô."
+    "persona": "You are a friendly neighbor outside an apartment building in the morning. You speak slowly, use simple everyday English, and make small talk about the weather and daily plans.",
+    "opener": "Good morning. It is sunny today. Do you have plans today?",
+    "goal": "Người học nói được thời tiết, kế hoạch đơn giản và kết thúc cuộc trò chuyện lịch sự."
   },
   "drills": [
     {
-      "vi": "Hôm nay trời nắng.",
+      "vi": "Hôm nay trời có nắng.",
       "en": "It is sunny today.",
       "alts": [
-        "Today is sunny."
+        "The weather is sunny today."
       ]
     },
     {
-      "vi": "Bầu trời nhiều mây.",
-      "en": "The sky is cloudy.",
-      "alts": []
-    },
-    {
-      "vi": "Thời tiết hôm nay thế nào?",
-      "en": "How is the weather today?",
-      "alts": []
-    },
-    {
-      "vi": "Hôm nay tôi làm việc ở nhà.",
-      "en": "I work from home today.",
-      "alts": []
-    },
-    {
-      "vi": "Tôi đi bộ ra chợ.",
-      "en": "I walk to the market.",
+      "vi": "Hôm nay bạn có kế hoạch gì không?",
+      "en": "Do you have plans today?",
       "alts": [
-        "I go to the market on foot."
+        "What are your plans today?"
       ]
     },
     {
-      "vi": "Bạn có cần ô không?",
-      "en": "Do you need an umbrella?",
-      "alts": []
+      "vi": "Tôi đi chợ.",
+      "en": "I go to the market.",
+      "alts": [
+        "I go to the market today."
+      ]
     },
     {
-      "vi": "Chiều nay có vẻ sẽ mưa.",
-      "en": "It looks rainy this afternoon.",
-      "alts": []
+      "vi": "Hôm nay trời ấm.",
+      "en": "It is warm today.",
+      "alts": [
+        "The weather is warm today."
+      ]
+    },
+    {
+      "vi": "Tôi thường đi bộ đến đó.",
+      "en": "I walk there often.",
+      "alts": [
+        "I often walk there."
+      ]
+    },
+    {
+      "vi": "Bạn có cần giúp không?",
+      "en": "Do you need help?",
+      "alts": [
+        "Do you need help later?"
+      ]
+    },
+    {
+      "vi": "Chúc bạn một ngày tốt lành.",
+      "en": "Have a good day.",
+      "alts": [
+        "Have a nice day."
+      ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại và luyện nói rõ âm cuối trong hot và market.",
-    "Viết ba câu về thời tiết hôm nay.",
-    "Nói hai câu về kế hoạch của bạn hôm nay."
+    "Ghi âm hội thoại và chú ý đọc rõ âm cuối trong walk, work và market.",
+    "Viết ba câu về thời tiết hôm nay và kế hoạch của bạn.",
+    "Luyện hỏi một người quen: Do you have plans today?"
   ]
 }

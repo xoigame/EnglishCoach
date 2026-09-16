@@ -1,0 +1,374 @@
+{
+  "id": "o-hieu-thuoc",
+  "title": "Ở hiệu thuốc: hỏi liều dùng và tác dụng phụ",
+  "topic": "Hỏi cách dùng thuốc ho và tác dụng phụ",
+  "level": "B1",
+  "summary": "Người học mua thuốc ho tại hiệu thuốc, hỏi về liều dùng, cách uống và tác dụng phụ. Bài học cũng luyện cách cung cấp thông tin về thuốc đang dùng và biết khi nào cần gặp bác sĩ.",
+  "goals": [
+    "Hỏi liều dùng và thời điểm uống thuốc một cách tự nhiên",
+    "Hỏi về tác dụng phụ và cách xử lý khi có triệu chứng bất thường",
+    "Giải thích ngắn gọn về thuốc đang dùng và lý do cần thận trọng"
+  ],
+  "vocab": [
+    {
+      "en": "cough syrup",
+      "ipa": "/ˈkɔːf ˌsɪrəp/",
+      "vi": "si rô thuốc ho",
+      "example": "This cough syrup may help with a dry cough."
+    },
+    {
+      "en": "dose",
+      "ipa": "/doʊs/",
+      "vi": "liều dùng",
+      "example": "The usual dose is ten milliliters after meals."
+    },
+    {
+      "en": "decongestant",
+      "ipa": "/ˌdiːkənˈdʒestənt/",
+      "vi": "thuốc thông mũi",
+      "example": "Some decongestants can raise blood pressure."
+    },
+    {
+      "en": "side effect",
+      "ipa": "/ˈsaɪd ɪˌfekt/",
+      "vi": "tác dụng phụ",
+      "example": "Drowsiness is a possible side effect of this medicine."
+    },
+    {
+      "en": "drowsy",
+      "ipa": "/ˈdraʊzi/",
+      "vi": "buồn ngủ, lơ mơ",
+      "example": "Do not drive if the medicine makes you drowsy."
+    },
+    {
+      "en": "dizzy",
+      "ipa": "/ˈdɪzi/",
+      "vi": "chóng mặt",
+      "example": "Speak to a doctor if you feel very dizzy."
+    },
+    {
+      "en": "allergy",
+      "ipa": "/ˈælədʒi/",
+      "vi": "dị ứng",
+      "example": "Do you have any allergies to medicine?"
+    },
+    {
+      "en": "blood pressure medication",
+      "ipa": "/ˈblʌd ˌpreʃər ˌmedɪˈkeɪʃən/",
+      "vi": "thuốc huyết áp",
+      "example": "I take blood pressure medication every morning."
+    },
+    {
+      "en": "directions",
+      "ipa": "/dəˈrekʃənz/",
+      "vi": "hướng dẫn sử dụng",
+      "example": "Please follow the directions on the label."
+    },
+    {
+      "en": "take with food",
+      "ipa": "/teɪk wɪð fuːd/",
+      "vi": "uống cùng thức ăn",
+      "example": "You should take this medicine with food."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "How much should I take?",
+      "vi": "Tôi nên dùng bao nhiêu?",
+      "note": "Dùng để hỏi liều lượng, đặc biệt với thuốc nước."
+    },
+    {
+      "en": "Should I take this with food?",
+      "vi": "Tôi có nên uống thuốc này cùng thức ăn không?",
+      "note": "Có thể thay this bằng tên thuốc."
+    },
+    {
+      "en": "Could it cause any side effects?",
+      "vi": "Thuốc này có thể gây tác dụng phụ nào không?",
+      "note": "Could nghe lịch sự và thận trọng khi hỏi về khả năng xảy ra."
+    },
+    {
+      "en": "I am taking ___ . Is this safe for me?",
+      "vi": "Tôi đang dùng ___. Thuốc này có an toàn với tôi không?",
+      "note": "Nêu thuốc hoặc tình trạng sức khỏe quan trọng trước khi mua."
+    },
+    {
+      "en": "What should I do if ___ gets worse?",
+      "vi": "Tôi nên làm gì nếu ___ trở nên nặng hơn?",
+      "note": "Dùng gets worse với triệu chứng như cough, pain hoặc dizziness."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /ð/ trong with",
+      "tip": "Đặt đầu lưỡi rất nhẹ giữa hai hàm răng và rung dây thanh; không đọc thành âm /d/ hoặc /z/.",
+      "words": [
+        "with",
+        "the",
+        "this"
+      ]
+    },
+    {
+      "focus": "âm /z/ ở cuối dose và directions",
+      "tip": "Kéo dài âm rung /z/ ở cuối từ, tránh đọc thành /s/.",
+      "words": [
+        "dose",
+        "directions",
+        "dizzy"
+      ]
+    },
+    {
+      "focus": "trọng âm trong decongestant",
+      "tip": "Nhấn âm tiết thứ ba, đọc gần như dee-kuhn-JES-tuhnt.",
+      "words": [
+        "decongestant",
+        "medication",
+        "allergy"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "How many should I take?",
+      "right": "How much should I take?",
+      "vi": "Với thuốc nước và liều lượng, dùng how much thay vì how many."
+    },
+    {
+      "wrong": "Do I need take it with food?",
+      "right": "Do I need to take it with food?",
+      "vi": "Sau need phải có to trước động từ."
+    },
+    {
+      "wrong": "I take this medicine three times in day.",
+      "right": "I take this medicine three times a day.",
+      "vi": "Cụm đúng để chỉ tần suất là three times a day."
+    },
+    {
+      "wrong": "It makes me sleepy?",
+      "right": "Could it make me sleepy?",
+      "vi": "Khi hỏi khả năng xảy ra của tác dụng phụ, dùng could nghe tự nhiên và lịch sự hơn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi tần suất dùng thuốc",
+      "formal": "Could you explain how often I should take this medicine, please?",
+      "casual": "How often do I take this?",
+      "vi": "Câu formal phù hợp khi nói với dược sĩ hoặc nhân viên chưa quen; câu casual ngắn hơn nhưng vẫn ổn trong hiệu thuốc thân thiện."
+    },
+    {
+      "situation": "Hỏi về tác dụng phụ",
+      "formal": "Could you tell me whether this medicine has any common side effects?",
+      "casual": "Does this have any side effects?",
+      "vi": "Câu formal lịch sự hơn khi cần tư vấn kỹ; câu casual dùng khi chỉ cần hỏi nhanh."
+    },
+    {
+      "situation": "Nói về thuốc đang dùng",
+      "formal": "I am currently taking blood pressure medication. Is this suitable for me?",
+      "casual": "I take blood pressure pills. Is this okay for me?",
+      "vi": "Câu formal phù hợp với dược sĩ và nghe chuyên nghiệp hơn; câu casual hợp khi nói chuyện thân mật, nhưng vẫn cần nói rõ loại thuốc."
+    },
+    {
+      "situation": "Hỏi khi triệu chứng không cải thiện",
+      "formal": "What would you recommend if my symptoms do not improve?",
+      "casual": "What should I do if I do not get better?",
+      "vi": "Câu formal dùng khi xin lời khuyên chuyên môn; câu casual trực tiếp và tự nhiên hơn trong hội thoại thường ngày."
+    }
+  ],
+  "culture": [
+    "Ở các hiệu thuốc tại Mỹ hoặc Anh, dược sĩ thường hỏi thẳng về thuốc đang dùng, dị ứng và bệnh nền. Đây là bước an toàn bình thường, không phải tò mò riêng tư.",
+    "Khách hàng thường nói rõ ngay nếu họ phải lái xe, đang mang thai hoặc cần tỉnh táo khi làm việc, vì điều này ảnh hưởng đến lựa chọn thuốc.",
+    "Nếu dược sĩ khuyên gặp bác sĩ thay vì bán thuốc, họ thường nói rất trực tiếp. Bạn có thể lịch sự hỏi lý do hoặc hỏi lựa chọn tạm thời an toàn hơn."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ hiệu thuốc",
+    "passage": "Hello, this is a message from Greenway Pharmacy. Your new antibiotic is ready for collection after two this afternoon. Take one capsule with food twice a day, about twelve hours apart. Mild nausea can happen at first, but it usually passes. Please call the pharmacy if you get a rash, swelling, or trouble breathing. Do not stop early just because you feel better.",
+    "vi": "Xin chào, đây là tin nhắn từ hiệu thuốc Greenway. Thuốc kháng sinh mới của bạn sẽ sẵn sàng để nhận sau hai giờ chiều nay. Uống một viên nang cùng thức ăn, hai lần một ngày, cách nhau khoảng mười hai giờ. Lúc đầu có thể hơi buồn nôn, nhưng triệu chứng này thường sẽ qua. Hãy gọi cho hiệu thuốc nếu bạn bị phát ban, sưng, hoặc khó thở. Đừng ngừng thuốc sớm chỉ vì bạn thấy đỡ hơn.",
+    "questions": [
+      {
+        "q": "When will the antibiotic be ready for collection?",
+        "choices": [
+          "After two this afternoon",
+          "Tomorrow morning",
+          "Before noon today"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói thuốc sẽ sẵn sàng “after two this afternoon”."
+      },
+      {
+        "q": "How should the customer take the antibiotic?",
+        "choices": [
+          "Once a day without food",
+          "Twice a day with food",
+          "Three times a day before meals"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe hướng dẫn “with food twice a day”."
+      },
+      {
+        "q": "Which symptom means the customer should call the pharmacy?",
+        "choices": [
+          "A rash",
+          "A mild headache",
+          "Feeling better"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe yêu cầu gọi hiệu thuốc nếu bị “a rash, swelling, or trouble breathing”."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Dược sĩ",
+      "b": "Khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello. What can I help you find at the pharmacy today?",
+        "vi": "Chào bạn. Hôm nay tôi có thể giúp bạn tìm gì ở hiệu thuốc?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I need something for a bad cough that has kept me awake.",
+        "vi": "Chào, tôi cần thuốc cho cơn ho nặng khiến tôi không ngủ được.",
+        "hint": "Dùng has kept me awake để nói cơn ho đã làm bạn mất ngủ."
+      },
+      {
+        "speaker": "a",
+        "en": "I can help with that. Do you have a dry cough or mucus?",
+        "vi": "Tôi có thể giúp. Bạn ho khan hay có đờm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is mostly dry, and I have had it for three days.",
+        "vi": "Chủ yếu là ho khan, và tôi bị như vậy đã ba ngày.",
+        "hint": "Dùng hiện tại hoàn thành have had it for để nói tình trạng kéo dài."
+      },
+      {
+        "speaker": "a",
+        "en": "This cough syrup may help. Are you taking any medicines or do you have allergies?",
+        "vi": "Si rô ho này có thể giúp. Bạn có đang dùng thuốc nào hoặc bị dị ứng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I take blood pressure medicine every morning, but I do not have any allergies.",
+        "vi": "Tôi uống thuốc huyết áp mỗi sáng, nhưng tôi không bị dị ứng.",
+        "hint": "Nêu thuốc đang dùng trước để dược sĩ kiểm tra độ phù hợp."
+      },
+      {
+        "speaker": "a",
+        "en": "Then choose this syrup without a decongestant, because some types can raise blood pressure.",
+        "vi": "Vậy hãy chọn si rô không có thuốc thông mũi, vì một số loại có thể làm tăng huyết áp.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How much should I take, and should I take it with food?",
+        "vi": "Tôi nên dùng bao nhiêu, và có nên uống cùng thức ăn không?",
+        "hint": "Ghép hai câu hỏi bằng and để hỏi liều dùng và thời điểm uống."
+      },
+      {
+        "speaker": "a",
+        "en": "The usual dose is ten milliliters after meals, up to three times daily.",
+        "vi": "Liều thông thường là mười mi li lít sau bữa ăn, tối đa ba lần mỗi ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could it make me sleepy? I drive to work early every morning.",
+        "vi": "Thuốc này có thể làm tôi buồn ngủ không? Tôi lái xe đi làm sớm mỗi sáng.",
+        "hint": "Nêu lý do sau câu hỏi để dược sĩ hiểu vì sao bạn cần biết."
+      },
+      {
+        "speaker": "a",
+        "en": "It might cause drowsiness, so avoid driving until you know how it affects you.",
+        "vi": "Thuốc có thể gây buồn ngủ, vì vậy hãy tránh lái xe cho đến khi bạn biết nó ảnh hưởng đến mình thế nào.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What should I do if I feel dizzy or my cough gets worse?",
+        "vi": "Tôi nên làm gì nếu bị chóng mặt hoặc cơn ho nặng hơn?",
+        "hint": "Dùng What should I do if để hỏi cách xử lý tình huống bất thường."
+      },
+      {
+        "speaker": "a",
+        "en": "Stop taking it and speak to a doctor if symptoms become severe or persistent.",
+        "vi": "Ngừng dùng thuốc và nói chuyện với bác sĩ nếu triệu chứng trở nên nặng hoặc kéo dài.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. I will follow the directions and contact my doctor if the cough continues.",
+        "vi": "Cảm ơn. Tôi sẽ làm theo hướng dẫn và liên hệ bác sĩ nếu cơn ho tiếp tục.",
+        "hint": "Dùng will để cam kết hành động sau khi nhận hướng dẫn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly, careful pharmacist at a neighborhood pharmacy. You ask brief safety questions, explain dosage and side effects clearly, and recommend medical care when needed.",
+    "opener": "Hello. What can I help you find at the pharmacy today?",
+    "goal": "Người học mua thuốc ho, hỏi liều dùng và tác dụng phụ, đồng thời cung cấp thông tin về thuốc huyết áp đang dùng."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn loại thuốc cho cơn ho khan.",
+      "en": "I would like something for a dry cough.",
+      "alts": [
+        "I need something for a dry cough."
+      ]
+    },
+    {
+      "vi": "Tôi nên dùng bao nhiêu?",
+      "en": "How much should I take?",
+      "alts": [
+        "What is the usual dose?"
+      ]
+    },
+    {
+      "vi": "Tôi có nên uống thuốc này cùng thức ăn không?",
+      "en": "Should I take this with food?",
+      "alts": [
+        "Do I need to take this after meals?"
+      ]
+    },
+    {
+      "vi": "Thuốc này có thể làm tôi buồn ngủ không?",
+      "en": "Could this medicine make me drowsy?",
+      "alts": [
+        "Could it make me sleepy?"
+      ]
+    },
+    {
+      "vi": "Tôi uống thuốc huyết áp mỗi sáng.",
+      "en": "I take blood pressure medication every morning.",
+      "alts": [
+        "I am currently taking blood pressure medicine."
+      ]
+    },
+    {
+      "vi": "Tôi nên làm gì nếu bị chóng mặt?",
+      "en": "What should I do if I feel dizzy?",
+      "alts": [
+        "What should I do if the dizziness gets worse?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ nói chuyện với bác sĩ nếu triệu chứng nặng hơn.",
+      "en": "I will speak to a doctor if my symptoms get worse.",
+      "alts": [
+        "I will contact my doctor if the symptoms continue."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại, chú ý phát âm with, dose và directions.",
+    "Viết ba câu hỏi khác nhau về tác dụng phụ của một loại thuốc.",
+    "Tự đóng vai khách hàng và nói lại thông tin về thuốc bạn đang dùng trong 30 giây."
+  ]
+}

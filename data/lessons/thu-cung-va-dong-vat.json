@@ -1,0 +1,350 @@
+{
+  "id": "thu-cung-va-dong-vat",
+  "title": "Thú cưng và động vật",
+  "topic": "Nói chuyện về thú cưng với hàng xóm",
+  "level": "A1",
+  "summary": "Bạn gặp người hàng xóm đang dắt chó đi dạo và trò chuyện ngắn về thú cưng. Bạn học cách hỏi tên, tính thân thiện và sở thích của một con vật.",
+  "goals": [
+    "Chào hỏi và bắt đầu cuộc trò chuyện ngắn về thú cưng.",
+    "Hỏi tên và tính cách của một con chó.",
+    "Dùng hiện tại đơn để nói về sở thích của động vật."
+  ],
+  "vocab": [
+    {
+      "en": "pet",
+      "ipa": "/pet/",
+      "vi": "thú cưng",
+      "example": "Max is my pet."
+    },
+    {
+      "en": "dog",
+      "ipa": "/dɔːɡ/",
+      "vi": "con chó",
+      "example": "The dog is very friendly."
+    },
+    {
+      "en": "cat",
+      "ipa": "/kæt/",
+      "vi": "con mèo",
+      "example": "I have a small cat."
+    },
+    {
+      "en": "friendly",
+      "ipa": "/ˈfrendli/",
+      "vi": "thân thiện",
+      "example": "Is your dog friendly?"
+    },
+    {
+      "en": "walk",
+      "ipa": "/wɔːk/",
+      "vi": "đi dạo",
+      "example": "We walk every morning."
+    },
+    {
+      "en": "leash",
+      "ipa": "/liːʃ/",
+      "vi": "dây dắt chó",
+      "example": "The dog is on a leash."
+    },
+    {
+      "en": "excited",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "vi": "hào hứng, phấn khích",
+      "example": "Max gets excited near dogs."
+    },
+    {
+      "en": "people",
+      "ipa": "/ˈpiːpəl/",
+      "vi": "mọi người",
+      "example": "He likes new people."
+    },
+    {
+      "en": "far away",
+      "ipa": "/fɑːr əˈweɪ/",
+      "vi": "ở xa",
+      "example": "The cat stays far away."
+    },
+    {
+      "en": "name",
+      "ipa": "/neɪm/",
+      "vi": "tên",
+      "example": "What is the dog's name?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "This is my ___.",
+      "vi": "Đây là ___ của tôi.",
+      "note": "Dùng để giới thiệu thú cưng."
+    },
+    {
+      "en": "Is ___ friendly with people?",
+      "vi": "___ có thân thiện với mọi người không?",
+      "note": "Dùng để hỏi tính cách của thú cưng."
+    },
+    {
+      "en": "Does ___ like ___?",
+      "vi": "___ có thích ___ không?",
+      "note": "Sau does, động từ giữ nguyên mẫu."
+    },
+    {
+      "en": "I have a ___ cat.",
+      "vi": "Tôi có một con mèo ___.",
+      "note": "Có thể thay cat bằng dog hoặc pet."
+    },
+    {
+      "en": "___ gets excited near ___.",
+      "vi": "___ trở nên hào hứng khi ở gần ___.",
+      "note": "Dùng hiện tại đơn để nói về thói quen."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /æ/",
+      "tip": "Mở miệng rộng và thấp hơn âm e. Không đọc cat hoặc Max thành két.",
+      "words": [
+        "cat",
+        "Max",
+        "animal"
+      ]
+    },
+    {
+      "focus": "cụm âm cuối /ks/",
+      "tip": "Đọc đủ cả âm k và s ở cuối, không bỏ âm s.",
+      "words": [
+        "Max",
+        "walks",
+        "likes"
+      ]
+    },
+    {
+      "focus": "âm cuối /g/",
+      "tip": "Giữ rung nhẹ ở cổ họng và khép âm gọn, không thêm âm ơ phía sau.",
+      "words": [
+        "dog",
+        "big",
+        "long"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have dog.",
+      "right": "I have a dog.",
+      "vi": "Danh từ đếm được số ít như dog cần a hoặc an."
+    },
+    {
+      "wrong": "He very friendly.",
+      "right": "He is very friendly.",
+      "vi": "Câu có tính từ friendly cần động từ to be là is."
+    },
+    {
+      "wrong": "Does Max likes cats?",
+      "right": "Does Max like cats?",
+      "vi": "Sau does, dùng động từ nguyên mẫu like, không thêm s."
+    },
+    {
+      "wrong": "Max like cats.",
+      "right": "Max likes cats.",
+      "vi": "Với chủ ngữ số ít như Max, động từ hiện tại đơn thường thêm s."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Chào và hỏi về chú chó của người lạ",
+      "formal": "Good morning. Is this your dog?",
+      "casual": "Hi. Is that your dog?",
+      "vi": "Câu formal phù hợp khi mới gặp người lạ hoặc ở nơi trang trọng; câu casual tự nhiên hơn trong khu phố với người ngang hàng."
+    },
+    {
+      "situation": "Xin phép vuốt ve chó",
+      "formal": "Would it be okay to pet your dog?",
+      "casual": "Can I pet your dog?",
+      "vi": "Câu formal mềm mại hơn với chủ chó chưa quen; câu casual hợp khi người chủ đang thân thiện và tình huống thoải mái."
+    },
+    {
+      "situation": "Hỏi tên chú chó",
+      "formal": "May I ask your dog's name?",
+      "casual": "What is your dog's name?",
+      "vi": "Câu formal lịch sự hơn khi bắt chuyện lần đầu; câu casual dùng sau khi đã chào hỏi thân thiện."
+    },
+    {
+      "situation": "Từ chối chạm vào chó",
+      "formal": "I am sorry, I cannot pet him today.",
+      "casual": "Sorry, I cannot pet him today.",
+      "vi": "Câu formal có I am sorry đầy đủ, hợp với người lạ; câu casual rút gọn hơn khi nói nhanh với hàng xóm."
+    }
+  ],
+  "culture": [
+    "Nhiều người bản xứ thích được hỏi trước khi bạn vuốt ve hoặc cho chó của họ ăn, kể cả khi chú chó trông rất thân thiện.",
+    "Nếu chủ chó nói Please give us space, bạn nên mỉm cười, tránh sang một bên và không hỏi thêm. Đây là cách tôn trọng chó đang sợ hoặc đang được huấn luyện.",
+    "Người dắt chó thường bắt chuyện rất ngắn với hàng xóm. Một câu chào và một câu hỏi về chó là đủ tự nhiên."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ người hàng xóm",
+    "passage": "Hello. This is Anna from next door. I am taking Bella outside now. She is a small brown dog. She likes people but feels shy. Please do not pet her yet. Give her a little space, please. We will walk past your house. You may see us very soon. Thank you, and have a nice day.",
+    "vi": "Xin chào. Tôi là Anna, hàng xóm ở ngay bên cạnh. Bây giờ tôi đang đưa Bella ra ngoài. Nó là một chú chó nhỏ màu nâu. Nó thích mọi người nhưng đang cảm thấy nhút nhát. Xin đừng vuốt ve nó lúc này. Hãy cho nó một chút không gian nhé. Chúng tôi sẽ đi ngang qua nhà bạn. Có thể bạn sẽ sớm thấy chúng tôi. Cảm ơn, chúc bạn một ngày tốt lành.",
+    "questions": [
+      {
+        "q": "What color is Bella?",
+        "choices": [
+          "Brown",
+          "Black",
+          "White"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Brown vì bài nghe nói Bella is a small brown dog."
+      },
+      {
+        "q": "How does Bella feel today?",
+        "choices": [
+          "Excited",
+          "Shy",
+          "Hungry"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Shy vì bài nghe nói she feels shy."
+      },
+      {
+        "q": "What should you do?",
+        "choices": [
+          "Pet Bella now",
+          "Give Bella space",
+          "Feed Bella"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Give Bella space vì Anna nói Give her a little space, please."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người hàng xóm đang dắt chó đi dạo",
+      "b": "Bạn, người đang nói chuyện với hàng xóm"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi there. Nice morning for a walk.",
+        "vi": "Chào bạn. Buổi sáng đẹp để đi dạo nhỉ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi. Is that your dog?",
+        "vi": "Chào. Đó là chó của bạn à?",
+        "hint": "Dùng that để chỉ con chó ở gần người hàng xóm."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, his name is Max.",
+        "vi": "Đúng, nó tên là Max.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Is Max friendly with people?",
+        "vi": "Max có thân thiện với mọi người không?",
+        "hint": "Dùng friendly để hỏi con chó có thân thiện không."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, he loves new people.",
+        "vi": "Có, nó rất thích gặp người mới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Does he like other dogs?",
+        "vi": "Nó có thích những con chó khác không?",
+        "hint": "Sau does, dùng like không thêm s."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, but he gets excited.",
+        "vi": "Có, nhưng nó trở nên rất hào hứng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I have a small cat.",
+        "vi": "Tôi có một con mèo nhỏ.",
+        "hint": "Dùng a trước small cat."
+      },
+      {
+        "speaker": "a",
+        "en": "Max likes cats from far away.",
+        "vi": "Max thích mèo khi ở xa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good to know. Enjoy your walk.",
+        "vi": "Thật tốt khi biết điều đó. Chúc bạn đi dạo vui vẻ.",
+        "hint": "Good to know là cách đáp tự nhiên khi nhận được thông tin hữu ích."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly neighbor walking your dog, Max, on a quiet street. You speak slowly, smile, and use simple everyday English.",
+    "opener": "Hi there. Nice morning for a walk.",
+    "goal": "Người học hỏi về tên, tính thân thiện và sở thích của chú chó Max."
+  },
+  "drills": [
+    {
+      "vi": "Đây là thú cưng của tôi.",
+      "en": "This is my pet.",
+      "alts": [
+        "This is my animal."
+      ]
+    },
+    {
+      "vi": "Con chó của bạn có thân thiện không?",
+      "en": "Is your dog friendly?",
+      "alts": [
+        "Is your dog nice?"
+      ]
+    },
+    {
+      "vi": "Max có thích chó khác không?",
+      "en": "Does Max like other dogs?",
+      "alts": [
+        "Does Max like dogs?"
+      ]
+    },
+    {
+      "vi": "Con chó đang ở trên dây dắt.",
+      "en": "The dog is on a leash.",
+      "alts": [
+        "The dog has a leash."
+      ]
+    },
+    {
+      "vi": "Con mèo ở xa.",
+      "en": "The cat is far away.",
+      "alts": [
+        "The cat stays far away."
+      ]
+    },
+    {
+      "vi": "Max trở nên hào hứng gần chó.",
+      "en": "Max gets excited near dogs.",
+      "alts": [
+        "Max is excited near dogs."
+      ]
+    },
+    {
+      "vi": "Tôi có một con mèo nhỏ.",
+      "en": "I have a small cat.",
+      "alts": [
+        "I have a little cat."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý đọc đủ âm cuối trong Max, dog và likes.",
+    "Viết ba câu về thú cưng của bạn hoặc một con vật bạn thích.",
+    "Luyện nói hai lần câu hỏi Does your pet like other animals?"
+  ]
+}

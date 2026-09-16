@@ -1,50 +1,44 @@
 {
   "id": "hoi-duong-va-chi-duong",
   "title": "Hỏi đường và chỉ đường",
-  "topic": "Hỏi đường đến ngân hàng",
+  "topic": "Hỏi và chỉ đường",
   "level": "A1",
-  "summary": "Người học hỏi đường đến ngân hàng và nhận chỉ dẫn đơn giản từ một người đi đường thân thiện.",
+  "summary": "Bạn học cách hỏi đường đến một địa điểm quen thuộc và chỉ đường ngắn gọn bằng mốc dễ nhận biết. Tình huống là một người đi đường đang tìm ngân hàng gần nhất.",
   "goals": [
-    "Hỏi vị trí của một nơi quen thuộc",
-    "Hỏi khoảng cách và cách đi đến nơi đó",
-    "Dùng chỉ dẫn đơn giản như đi thẳng và rẽ trái"
+    "Hỏi vị trí của một địa điểm gần nhất",
+    "Chỉ đường bằng đi thẳng và rẽ trái hoặc phải",
+    "Dùng các mốc như công viên, dãy nhà và địa điểm bên cạnh"
   ],
   "vocab": [
+    {
+      "en": "excuse me",
+      "ipa": "/ɪkˈskjuːz miː/",
+      "vi": "xin lỗi, dùng để bắt đầu hỏi người lạ",
+      "example": "Excuse me. Can you help me?"
+    },
     {
       "en": "bank",
       "ipa": "/bæŋk/",
       "vi": "ngân hàng",
-      "example": "Where is the bank?"
-    },
-    {
-      "en": "park",
-      "ipa": "/pɑːrk/",
-      "vi": "công viên",
-      "example": "The bank is near the park."
+      "example": "Where is the nearest bank?"
     },
     {
       "en": "near",
       "ipa": "/nɪr/",
       "vi": "gần",
-      "example": "It is near the park."
+      "example": "Is it near the park?"
     },
     {
-      "en": "far",
-      "ipa": "/fɑːr/",
-      "vi": "xa",
-      "example": "Is it far from here?"
-    },
-    {
-      "en": "straight",
-      "ipa": "/streɪt/",
-      "vi": "thẳng",
-      "example": "Go straight for two blocks."
+      "en": "go straight",
+      "ipa": "/ɡoʊ streɪt/",
+      "vi": "đi thẳng",
+      "example": "Go straight for one block."
     },
     {
       "en": "block",
       "ipa": "/blɑːk/",
-      "vi": "dãy nhà, khu phố",
-      "example": "Walk two blocks."
+      "vi": "một dãy nhà hoặc một đoạn phố",
+      "example": "Walk one more block."
     },
     {
       "en": "turn left",
@@ -53,228 +47,294 @@
       "example": "Turn left at the park."
     },
     {
-      "en": "beside",
-      "ipa": "/bɪˈsaɪd/",
-      "vi": "bên cạnh",
-      "example": "It is beside the cafe."
+      "en": "turn right",
+      "ipa": "/tɜːrn raɪt/",
+      "vi": "rẽ phải",
+      "example": "Turn right at the light."
     },
     {
-      "en": "cafe",
-      "ipa": "/kæˈfeɪ/",
-      "vi": "quán cà phê",
-      "example": "The cafe is small."
+      "en": "next to",
+      "ipa": "/nekst tuː/",
+      "vi": "ở cạnh",
+      "example": "The bank is next to it."
+    },
+    {
+      "en": "across from",
+      "ipa": "/əˈkrɔːs frəm/",
+      "vi": "đối diện với",
+      "example": "The cafe is across from it."
+    },
+    {
+      "en": "close",
+      "ipa": "/kloʊs/",
+      "vi": "gần",
+      "example": "The bank is very close."
     }
   ],
   "patterns": [
     {
-      "en": "Where is the ___?",
-      "vi": "___ ở đâu?",
-      "note": "Dùng để hỏi vị trí một nơi."
+      "en": "Where is the nearest ___?",
+      "vi": "___ gần nhất ở đâu?",
+      "note": "Dùng để hỏi địa điểm gần bạn nhất."
     },
     {
-      "en": "Is it far from here?",
-      "vi": "Nó có xa chỗ này không?",
-      "note": "Dùng it để nói về địa điểm vừa nhắc đến."
+      "en": "Go straight for ___ block(s).",
+      "vi": "Đi thẳng ___ dãy nhà hoặc đoạn phố.",
+      "note": "Dùng for trước số dãy nhà hoặc đoạn phố."
     },
     {
-      "en": "How do I get there?",
-      "vi": "Tôi đến đó bằng cách nào?",
-      "note": "There thay cho địa điểm đã biết."
-    },
-    {
-      "en": "Go straight for ___ blocks.",
-      "vi": "Đi thẳng ___ dãy nhà.",
-      "note": "Dùng for trước số lượng dãy nhà."
-    },
-    {
-      "en": "Turn left at the ___.",
+      "en": "Turn left at ___.",
       "vi": "Rẽ trái ở ___.",
-      "note": "Dùng at để chỉ nơi cần rẽ."
+      "note": "Dùng at trước mốc để rẽ, như công viên hoặc đèn giao thông."
+    },
+    {
+      "en": "It is next to ___.",
+      "vi": "Nó ở cạnh ___.",
+      "note": "Dùng để nói hai địa điểm nằm sát nhau."
+    },
+    {
+      "en": "Is it near ___?",
+      "vi": "Nó có gần ___ không?",
+      "note": "Dùng để hỏi thêm về khoảng cách hoặc mốc gần đó."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /æ/",
-      "tip": "Mở miệng rộng hơn âm /e/ khi nói âm này; tránh đọc bank thành benk.",
+      "focus": "Âm cuối /k/",
+      "tip": "Phát âm rõ âm /k/ ở cuối từ, không bỏ mất âm cuối.",
       "words": [
         "bank",
-        "cafe",
-        "map"
+        "block",
+        "park"
       ]
     },
     {
-      "focus": "âm /r/",
-      "tip": "Cuộn nhẹ đầu lưỡi lên nhưng không chạm vòm miệng; đừng bỏ âm /r/ trong từ.",
+      "focus": "Trọng âm từ hai âm tiết",
+      "tip": "Nhấn âm thứ hai trong các từ này để người nghe dễ hiểu.",
       "words": [
-        "right",
-        "straight",
-        "far"
+        "excuse",
+        "across",
+        "around"
       ]
     },
     {
-      "focus": "âm cuối /k/",
-      "tip": "Khép âm /k/ gọn ở cuối từ, không thêm nguyên âm phía sau.",
+      "focus": "Âm /θ/",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, không đọc thành âm /t/.",
       "words": [
-        "bank",
-        "park",
-        "block"
+        "three",
+        "thank",
+        "north"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Where is bank?",
+      "wrong": "Where is nearest bank?",
+      "right": "Where is the nearest bank?",
+      "vi": "Cần dùng mạo từ the trước nearest bank."
+    },
+    {
+      "wrong": "Go straight one block.",
+      "right": "Go straight for one block.",
+      "vi": "Dùng for để nói đi thẳng trong một đoạn đường."
+    },
+    {
+      "wrong": "Turn to left at the park.",
+      "right": "Turn left at the park.",
+      "vi": "Sau turn dùng trực tiếp left hoặc right, không dùng to."
+    },
+    {
+      "wrong": "Where the bank is?",
       "right": "Where is the bank?",
-      "vi": "Danh từ đếm được số ít cần có mạo từ the khi nói về địa điểm cụ thể."
-    },
-    {
-      "wrong": "How do I get the bank?",
-      "right": "How do I get to the bank?",
-      "vi": "Dùng get to trước tên nơi chốn."
-    },
-    {
-      "wrong": "The bank is in the left.",
-      "right": "The bank is on the left.",
-      "vi": "Nói vị trí bên trái hoặc phải dùng on the left hoặc on the right."
-    },
-    {
-      "wrong": "I need go to the bank.",
-      "right": "I need to go to the bank.",
-      "vi": "Sau need cần có to trước động từ."
+      "vi": "Câu hỏi cần đảo động từ is lên trước chủ ngữ."
     }
   ],
+  "variations": [
+    {
+      "situation": "Bắt đầu hỏi một người lạ",
+      "formal": "Excuse me, could you help me, please?",
+      "casual": "Can you help me?",
+      "vi": "Câu trang trọng lịch sự hơn khi hỏi người lạ hoặc người lớn tuổi; câu thân mật dùng với bạn bè hay đồng nghiệp quen."
+    },
+    {
+      "situation": "Hỏi vị trí ngân hàng",
+      "formal": "Could you tell me where the bank is, please?",
+      "casual": "Where is the bank?",
+      "vi": "Câu trang trọng phù hợp với người lạ hoặc nhân viên; câu thân mật ngắn hơn khi đang nói chuyện gần gũi."
+    },
+    {
+      "situation": "Hỏi cách đến công viên",
+      "formal": "Could you tell me how to get to the park?",
+      "casual": "How do I get to the park?",
+      "vi": "Cả hai đều lịch sự, nhưng câu đầu mềm mại hơn khi nhờ người lạ chỉ đường."
+    },
+    {
+      "situation": "Chỉ chỗ rẽ",
+      "formal": "Please turn left at the park.",
+      "casual": "Turn left at the park.",
+      "vi": "Thêm please để lời chỉ dẫn nghe lịch sự hơn với người lạ hoặc trong tình huống trang trọng."
+    }
+  ],
+  "culture": [
+    "Khi hỏi người lạ, người bản xứ thường mở đầu bằng Excuse me. Hỏi ngay không có câu mở đầu có thể nghe hơi đột ngột.",
+    "Người chỉ đường thường dùng mốc dễ thấy như công viên, cửa hàng hoặc đèn giao thông thay vì nói chính xác số mét.",
+    "Nếu không biết đường, nhiều người sẽ nói thẳng là không chắc. Bạn chỉ cần đáp lại bằng lời cảm ơn và hỏi người khác hoặc xem bản đồ."
+  ],
+  "listening": {
+    "title": "Lời nhắn chỉ đường đến bưu điện",
+    "passage": "Hi, I am at the city library now. To find the post office, walk past the small park. Then turn right at the traffic light. The post office is next to a bakery. It is across from the bus stop. It takes about five minutes on foot. I am by the front door.",
+    "vi": "Chào, bây giờ tôi đang ở thư viện thành phố. Để tìm bưu điện, hãy đi qua công viên nhỏ. Sau đó rẽ phải ở đèn giao thông. Bưu điện ở cạnh một tiệm bánh. Nó đối diện trạm xe buýt. Đi bộ mất khoảng năm phút. Tôi đang ở cạnh cửa trước.",
+    "questions": [
+      {
+        "q": "What should you turn right at?",
+        "choices": [
+          "The traffic light",
+          "The bus stop",
+          "The bakery"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là đèn giao thông vì bài nghe bảo rẽ phải ở đèn giao thông."
+      },
+      {
+        "q": "What is next to the post office?",
+        "choices": [
+          "The park",
+          "The bus stop",
+          "A bakery"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là tiệm bánh vì bưu điện ở cạnh tiệm bánh."
+      },
+      {
+        "q": "Where is the speaker?",
+        "choices": [
+          "At the bus stop",
+          "By the front door",
+          "In the bakery"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là cạnh cửa trước vì người nói cho biết họ đang ở đó."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Người đi đường thân thiện",
-      "b": "Người học đang tìm ngân hàng"
+      "a": "Người đi đường do AI đóng",
+      "b": "Người học, người chỉ đường"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Excuse me, do you need help?",
-        "vi": "Xin lỗi, bạn có cần giúp không?",
+        "en": "Excuse me. Can you help me?",
+        "vi": "Xin lỗi, bạn có thể giúp tôi không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes. Where is the bank?",
-        "vi": "Có. Ngân hàng ở đâu?",
-        "hint": "Dùng Where is the để hỏi vị trí."
+        "en": "Yes, of course. What do you need?",
+        "vi": "Vâng, được chứ. Bạn cần gì?",
+        "hint": "Trả lời thân thiện rồi hỏi họ cần gì."
       },
       {
         "speaker": "a",
-        "en": "It is near the park.",
-        "vi": "Nó gần công viên.",
+        "en": "Where is the nearest bank?",
+        "vi": "Ngân hàng gần nhất ở đâu?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Is it far from here?",
-        "vi": "Nó có xa chỗ này không?",
-        "hint": "It thay cho bank."
+        "en": "Go straight for one block.",
+        "vi": "Đi thẳng một dãy nhà.",
+        "hint": "Dùng Go straight for để chỉ đi thẳng."
       },
       {
         "speaker": "a",
-        "en": "No, it is very close.",
-        "vi": "Không, nó rất gần.",
+        "en": "Is it near the park?",
+        "vi": "Nó có gần công viên không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "How do I get there?",
-        "vi": "Tôi đến đó bằng cách nào?",
-        "hint": "There thay cho địa điểm vừa nói."
+        "en": "Yes, it is next to it.",
+        "vi": "Có, nó ở cạnh công viên.",
+        "hint": "Dùng next to để nói hai nơi ở cạnh nhau."
       },
       {
         "speaker": "a",
-        "en": "Go straight for two blocks.",
-        "vi": "Đi thẳng qua hai dãy nhà.",
+        "en": "Do I turn left there?",
+        "vi": "Tôi rẽ trái ở đó phải không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Then what do I do?",
-        "vi": "Sau đó tôi làm gì?",
-        "hint": "Then nghĩa là sau đó."
+        "en": "Yes. Turn left at the park.",
+        "vi": "Đúng. Rẽ trái ở công viên.",
+        "hint": "Dùng Turn left at để chỉ chỗ rẽ."
       },
       {
         "speaker": "a",
-        "en": "Turn left at the park.",
-        "vi": "Rẽ trái ở công viên.",
+        "en": "Great. I can see it now.",
+        "vi": "Tuyệt. Bây giờ tôi thấy nó rồi.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Is the bank on the left?",
-        "vi": "Ngân hàng ở bên trái phải không?",
-        "hint": "Dùng on the left để hỏi vị trí bên trái."
-      },
-      {
-        "speaker": "a",
-        "en": "Yes, beside the small cafe.",
-        "vi": "Đúng, cạnh quán cà phê nhỏ.",
-        "hint": ""
-      },
-      {
-        "speaker": "b",
-        "en": "Great, thank you very much.",
-        "vi": "Tuyệt, cảm ơn bạn rất nhiều.",
-        "hint": "Thank you very much lịch sự hơn thank you."
+        "en": "Great. Have a nice day.",
+        "vi": "Tuyệt. Chúc bạn một ngày tốt lành.",
+        "hint": "Dùng Have a nice day để kết thúc thân thiện."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly pedestrian on a busy street near a park. You notice a visitor who looks lost. Offer help and give clear, simple directions to the bank.",
-    "opener": "Excuse me, do you need help?",
-    "goal": "Người học hỏi được đường đến ngân hàng, hỏi khoảng cách và nhắc lại hướng đi."
+    "persona": "You are a friendly pedestrian near a park in a city. You need to find the nearest bank. Ask short, clear questions and thank the other person.",
+    "opener": "Excuse me. Can you help me?",
+    "goal": "Người học chỉ cho người đi đường đến ngân hàng gần nhất và kết thúc cuộc nói chuyện lịch sự."
   },
   "drills": [
     {
-      "vi": "Ngân hàng ở đâu?",
-      "en": "Where is the bank?",
+      "vi": "Xin lỗi, bạn có thể giúp tôi không?",
+      "en": "Excuse me. Can you help me?",
       "alts": [
-        "Where is the nearest bank?"
+        "Excuse me. Could you help me, please?"
       ]
     },
     {
-      "vi": "Công viên có xa chỗ này không?",
-      "en": "Is the park far from here?",
+      "vi": "Ngân hàng gần nhất ở đâu?",
+      "en": "Where is the nearest bank?",
       "alts": []
     },
     {
-      "vi": "Tôi đến quán cà phê bằng cách nào?",
-      "en": "How do I get to the cafe?",
+      "vi": "Đi thẳng một dãy nhà.",
+      "en": "Go straight for one block.",
       "alts": []
     },
     {
-      "vi": "Đi thẳng qua hai dãy nhà.",
-      "en": "Go straight for two blocks.",
+      "vi": "Rẽ phải ở công viên.",
+      "en": "Turn right at the park.",
+      "alts": []
+    },
+    {
+      "vi": "Ngân hàng ở cạnh tiệm bánh.",
+      "en": "The bank is next to the bakery.",
+      "alts": []
+    },
+    {
+      "vi": "Quán cà phê ở đối diện trạm xe buýt.",
+      "en": "The cafe is across from the bus stop.",
+      "alts": []
+    },
+    {
+      "vi": "Nó có gần công viên không?",
+      "en": "Is it near the park?",
       "alts": [
-        "Walk straight for two blocks."
-      ]
-    },
-    {
-      "vi": "Rẽ trái ở công viên.",
-      "en": "Turn left at the park.",
-      "alts": []
-    },
-    {
-      "vi": "Ngân hàng ở bên phải.",
-      "en": "The bank is on the right.",
-      "alts": []
-    },
-    {
-      "vi": "Cảm ơn bạn rất nhiều.",
-      "en": "Thank you very much.",
-      "alts": [
-        "Thanks a lot."
+        "Is the bank near the park?"
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại toàn bộ hội thoại và nghe lại.",
-    "Đặt ba câu hỏi đường đến các địa điểm quen thuộc.",
-    "Luyện nói các câu chỉ đường với go straight và turn left."
+    "Ghi âm lại hội thoại và chú ý phát âm âm cuối trong bank, block, park.",
+    "Đặt ba câu hỏi với mẫu Where is the nearest ___?",
+    "Tự chỉ đường từ nhà đến một địa điểm gần nhà bằng ba câu ngắn."
   ]
 }

@@ -1,0 +1,391 @@
+{
+  "id": "dam-phan-gia-nha-cung-cap",
+  "title": "Đàm phán giá với nhà cung cấp",
+  "topic": "Thương lượng giá và điều khoản mua hàng",
+  "level": "B2",
+  "summary": "Bạn là đại diện bên mua đang thương lượng giá, số lượng, bao bì và điều khoản thanh toán với nhà cung cấp. Học cách nhượng bộ có điều kiện để chốt một thỏa thuận công bằng.",
+  "goals": [
+    "Hỏi báo giá và nêu rõ mức ngân sách một cách chuyên nghiệp",
+    "Đề xuất giảm giá, chiết khấu theo số lượng và nhượng bộ có điều kiện",
+    "Thống nhất giá, điều khoản thanh toán và bước tiếp theo để chốt đơn"
+  ],
+  "vocab": [
+    {
+      "en": "unit price",
+      "ipa": "/ˈjuːnɪt praɪs/",
+      "vi": "đơn giá",
+      "example": "The unit price is higher than we expected."
+    },
+    {
+      "en": "minimum order quantity",
+      "ipa": "/ˈmɪnɪməm ˈɔːrdər kwɑːntəti/",
+      "vi": "số lượng đặt hàng tối thiểu",
+      "example": "What is your minimum order quantity?"
+    },
+    {
+      "en": "volume discount",
+      "ipa": "/ˈvɑːljuːm ˈdɪskaʊnt/",
+      "vi": "chiết khấu theo số lượng",
+      "example": "Could you offer a volume discount for a larger order?"
+    },
+    {
+      "en": "competitive",
+      "ipa": "/kəmˈpetətɪv/",
+      "vi": "cạnh tranh, có tính cạnh tranh",
+      "example": "We need a more competitive price to move forward."
+    },
+    {
+      "en": "meet someone halfway",
+      "ipa": "/miːt ˈsʌmwʌn hæfˈweɪ/",
+      "vi": "nhượng bộ một phần, gặp nhau ở mức trung gian",
+      "example": "We can meet you halfway on the payment terms."
+    },
+    {
+      "en": "payment terms",
+      "ipa": "/ˈpeɪmənt tɜːrmz/",
+      "vi": "điều khoản thanh toán",
+      "example": "Our standard payment terms are thirty days."
+    },
+    {
+      "en": "upfront payment",
+      "ipa": "/ˈʌpfrʌnt ˈpeɪmənt/",
+      "vi": "khoản thanh toán trước",
+      "example": "We can accept a twenty percent upfront payment."
+    },
+    {
+      "en": "revised quote",
+      "ipa": "/rɪˈvaɪzd kwoʊt/",
+      "vi": "báo giá đã điều chỉnh",
+      "example": "Please send us a revised quote by Friday."
+    },
+    {
+      "en": "profit margin",
+      "ipa": "/ˈprɑːfɪt ˈmɑːrdʒɪn/",
+      "vi": "biên lợi nhuận",
+      "example": "At that price, our profit margin would be too thin."
+    },
+    {
+      "en": "commit to",
+      "ipa": "/kəˈmɪt tuː/",
+      "vi": "cam kết thực hiện",
+      "example": "If you commit to regular orders, we can review the price."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you bring the price closer to ___?",
+      "vi": "Bạn có thể đưa giá xuống gần mức ___ không?",
+      "note": "Cách đề nghị giảm giá lịch sự, cụ thể và có mục tiêu."
+    },
+    {
+      "en": "If we increase the order volume, could you offer ___?",
+      "vi": "Nếu chúng tôi tăng số lượng đặt hàng, bạn có thể đưa ra ___ không?",
+      "note": "Dùng để đổi số lượng lấy ưu đãi."
+    },
+    {
+      "en": "We would be prepared to ___ if you could ___.",
+      "vi": "Chúng tôi sẵn sàng ___ nếu bạn có thể ___.",
+      "note": "Mẫu nhượng bộ có điều kiện, rất hữu ích khi thương lượng."
+    },
+    {
+      "en": "That is workable, provided that ___.",
+      "vi": "Điều đó có thể chấp nhận được, miễn là ___.",
+      "note": "Dùng để đồng ý nhưng vẫn nêu điều kiện rõ ràng."
+    },
+    {
+      "en": "Could you put those terms in a revised quote?",
+      "vi": "Bạn có thể đưa các điều khoản đó vào báo giá điều chỉnh không?",
+      "note": "Dùng khi muốn xác nhận thỏa thuận bằng văn bản."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /t/ và /d/",
+      "tip": "Phát âm nhẹ âm cuối trong price, quote và discount; đừng bỏ hẳn âm cuối vì có thể làm người nghe khó phân biệt từ.",
+      "words": [
+        "quote",
+        "discount",
+        "commit"
+      ]
+    },
+    {
+      "focus": "trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết chính để lời nói rõ và chuyên nghiệp hơn.",
+      "words": [
+        "competitive",
+        "quantity",
+        "revision"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm nói nhanh",
+      "tip": "Nối nhẹ âm cuối với nguyên âm đầu từ sau, như could you và meet you, thay vì đọc tách từng từ.",
+      "words": [
+        "could you",
+        "meet you",
+        "would be"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Can you reduce more the price?",
+      "right": "Could you reduce the price further?",
+      "vi": "Further đứng sau động từ reduce; cách dùng could nghe lịch sự và tự nhiên hơn trong đàm phán."
+    },
+    {
+      "wrong": "Your price is too expensive.",
+      "right": "Your price is higher than our budget allows.",
+      "vi": "Too expensive khá trực diện; câu đúng mềm mại và chuyên nghiệp hơn."
+    },
+    {
+      "wrong": "If you give us discount, we will buy more.",
+      "right": "If you give us a discount, we will place a larger order.",
+      "vi": "Discount là danh từ đếm được nên cần a; place an order tự nhiên hơn buy trong ngữ cảnh mua hàng."
+    },
+    {
+      "wrong": "We can accept payment thirty days.",
+      "right": "We can accept payment terms of thirty days.",
+      "vi": "Cần nói rõ payment terms of thirty days hoặc payment within thirty days."
+    },
+    {
+      "wrong": "Please send me again the quotation.",
+      "right": "Please send us a revised quote.",
+      "vi": "Revised quote diễn đạt rõ rằng bạn muốn báo giá đã được cập nhật sau thương lượng."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu mức giá vượt ngân sách",
+      "formal": "The quoted price is slightly above our budget. Could we explore other options?",
+      "casual": "That is a bit over our budget. Is there any room to move?",
+      "vi": "Câu formal dùng trong email, cuộc họp đầu tiên hoặc với đối tác mới; câu casual hợp với đồng nghiệp hay đối tác đã có quan hệ gần gũi."
+    },
+    {
+      "situation": "Yêu cầu giảm giá",
+      "formal": "Would you be able to offer a more competitive rate for this volume?",
+      "casual": "Can you do any better on the price?",
+      "vi": "Câu formal giảm độ trực diện và phù hợp khi thương lượng chính thức; câu casual thân thiện hơn nhưng không nên dùng với người lạ trong email trang trọng."
+    },
+    {
+      "situation": "Đồng ý có điều kiện",
+      "formal": "We can accept this proposal, provided that the delivery schedule remains unchanged.",
+      "casual": "We can go with that as long as the delivery date stays the same.",
+      "vi": "Cả hai đều nêu điều kiện; formal phù hợp hợp đồng hoặc cuộc họp, casual phù hợp trao đổi nhanh với đối tác quen."
+    },
+    {
+      "situation": "Yêu cầu xác nhận bằng văn bản",
+      "formal": "Could you please send a revised quotation reflecting the agreed terms?",
+      "casual": "Could you send over an updated quote with those terms?",
+      "vi": "Formal dùng khi cần tài liệu chính thức hoặc viết cho đối tác mới; casual dùng khi đã trao đổi thường xuyên với cùng một đầu mối."
+    }
+  ],
+  "culture": [
+    "Trong đàm phán bằng tiếng Anh, nói thẳng giá cao hơn ngân sách thường được xem là bình thường nếu bạn nêu lý do và đề xuất phương án thay thế. Tránh chỉ nói không được mà không đưa hướng giải quyết.",
+    "Nhà cung cấp thường không giảm giá vô điều kiện. Bạn sẽ nghe các đề nghị đổi lại như số lượng lớn hơn, cam kết dài hạn, thanh toán sớm hoặc giới hạn ưu đãi trong vài đơn hàng đầu.",
+    "Im lặng ngắn sau một đề nghị giá không nhất thiết là khó chịu. Đừng vội lấp khoảng trống; hãy để đối tác có thời gian cân nhắc và phản hồi."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về báo giá điều chỉnh",
+    "passage": "Hello, this is Maya from Northstar Supplies. I have reviewed your request with our pricing team. We can offer custom packaging at eleven dollars and eighty cents per unit for an order of eight thousand units. We will need a twenty percent upfront payment before production. The remaining balance can be paid within forty-five days for your first three orders. I will email the revised quote this afternoon.",
+    "vi": "Xin chào, tôi là Maya từ Northstar Supplies. Tôi đã xem xét yêu cầu của bạn với nhóm định giá. Chúng tôi có thể cung cấp bao bì tùy chỉnh với giá mười một đô la tám mươi xu mỗi sản phẩm cho đơn hàng tám nghìn sản phẩm. Chúng tôi cần thanh toán trước hai mươi phần trăm trước khi sản xuất. Số dư còn lại có thể được thanh toán trong vòng bốn mươi lăm ngày cho ba đơn hàng đầu tiên của bạn. Tôi sẽ gửi email báo giá điều chỉnh vào chiều nay.",
+    "questions": [
+      {
+        "q": "What is included in the offered unit price?",
+        "choices": [
+          "Custom packaging",
+          "Free delivery",
+          "Extended warranty"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Custom packaging vì bài nghe nói rõ có thể cung cấp custom packaging ở mức giá đã nêu."
+      },
+      {
+        "q": "When must the upfront payment be made?",
+        "choices": [
+          "Before production",
+          "After delivery",
+          "At the end of the month"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Before production vì bài nghe nói cần thanh toán trước khi production bắt đầu."
+      },
+      {
+        "q": "How long do the special payment terms apply?",
+        "choices": [
+          "For the first three orders",
+          "For one year",
+          "For every future order"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là For the first three orders vì đoạn nghe nói rõ forty-five days for your first three orders."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Đại diện nhà cung cấp",
+      "b": "Đại diện bên mua"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Thanks for your interest in our products. What quantity are you considering?",
+        "vi": "Chào buổi sáng. Cảm ơn bạn đã quan tâm đến sản phẩm của chúng tôi. Bạn đang cân nhắc số lượng bao nhiêu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We are looking at an initial order of five thousand units. Could you share your best unit price?",
+        "vi": "Chúng tôi đang xem xét đơn hàng ban đầu gồm năm nghìn sản phẩm. Bạn có thể cho biết đơn giá tốt nhất không?",
+        "hint": "Dùng initial order để nói về đơn hàng đầu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "For five thousand units, our quoted price is twelve dollars and forty cents per unit. That includes standard packaging and quality checks.",
+        "vi": "Với năm nghìn sản phẩm, giá báo của chúng tôi là mười hai đô la bốn mươi xu mỗi sản phẩm. Giá này gồm bao bì tiêu chuẩn và kiểm tra chất lượng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. To be candid, that is a little above our budget. Could you bring the price closer to eleven dollars and fifty cents?",
+        "vi": "Cảm ơn bạn. Nói thẳng thì mức này hơi vượt ngân sách của chúng tôi. Bạn có thể đưa giá xuống gần mười một đô la năm mươi xu không?",
+        "hint": "To be candid giúp nêu ý kiến thẳng nhưng vẫn lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Eleven fifty would be difficult at that volume because material costs have risen. However, I could reduce it to twelve dollars if payment is made within thirty days.",
+        "vi": "Mười một đô la năm mươi sẽ khó ở số lượng đó vì chi phí nguyên liệu đã tăng. Tuy nhiên, tôi có thể giảm xuống mười hai đô la nếu thanh toán trong vòng ba mươi ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If we increase the order to eight thousand units, could you offer a volume discount and keep the same quality standard?",
+        "vi": "Nếu chúng tôi tăng đơn hàng lên tám nghìn sản phẩm, bạn có thể giảm giá theo số lượng mà vẫn giữ tiêu chuẩn chất lượng không?",
+        "hint": "Kết hợp đề nghị tăng số lượng với yêu cầu về chất lượng."
+      },
+      {
+        "speaker": "a",
+        "en": "At eight thousand units, I can offer eleven dollars and seventy-five cents per unit. That is our best price with standard packaging and thirty-day payment terms.",
+        "vi": "Với tám nghìn sản phẩm, tôi có thể đưa mức mười một đô la bảy mươi lăm xu mỗi sản phẩm. Đây là giá tốt nhất của chúng tôi với bao bì tiêu chuẩn và điều khoản thanh toán ba mươi ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is moving in the right direction. If we commit to a six-month forecast and pay every invoice on time, could you include custom packaging at that price?",
+        "vi": "Mức đó đang đi đúng hướng. Nếu chúng tôi cam kết kế hoạch dự báo sáu tháng và thanh toán mọi hóa đơn đúng hạn, bạn có thể bao gồm bao bì tùy chỉnh ở mức giá đó không?",
+        "hint": "Moving in the right direction ghi nhận thiện chí trước khi đưa ra yêu cầu tiếp."
+      },
+      {
+        "speaker": "a",
+        "en": "Custom packaging adds to our cost, so I cannot include it at eleven seventy-five. Still, I can meet you halfway: eleven dollars and eighty cents, custom packaging included, with payment in thirty days.",
+        "vi": "Bao bì tùy chỉnh làm tăng chi phí của chúng tôi nên tôi không thể bao gồm nó ở mức mười một đô la bảy mươi lăm xu. Tuy vậy, tôi có thể nhượng bộ một phần: mười một đô la tám mươi xu, gồm bao bì tùy chỉnh, thanh toán trong ba mươi ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We can work with eleven eighty, but our finance team needs forty-five days for a new supplier. Would you consider a twenty percent upfront payment and the balance in forty-five days?",
+        "vi": "Chúng tôi có thể chấp nhận mức mười một đô la tám mươi xu, nhưng bộ phận tài chính cần bốn mươi lăm ngày đối với nhà cung cấp mới. Bạn có cân nhắc thanh toán trước hai mươi phần trăm và phần còn lại trong bốn mươi lăm ngày không?",
+        "hint": "Dùng but để nêu điểm chưa phù hợp, rồi đưa ra phương án thay thế cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "I understand the concern. Those terms are workable, provided that the upfront payment is received before production starts and the forty-five-day term applies only to the first three orders.",
+        "vi": "Tôi hiểu băn khoăn đó. Các điều khoản này có thể chấp nhận được, miễn là khoản thanh toán trước được nhận trước khi sản xuất bắt đầu và thời hạn bốn mươi lăm ngày chỉ áp dụng cho ba đơn hàng đầu tiên.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds fair. After the first three orders, we can review the payment terms based on our payment history.",
+        "vi": "Điều đó nghe hợp lý. Sau ba đơn hàng đầu tiên, chúng ta có thể xem lại điều khoản thanh toán dựa trên lịch sử thanh toán của chúng tôi.",
+        "hint": "Based on dùng để nêu căn cứ cho một quyết định."
+      },
+      {
+        "speaker": "a",
+        "en": "Agreed. I will prepare a revised quote for eight thousand units at eleven dollars and eighty cents, including custom packaging and the agreed payment schedule.",
+        "vi": "Đồng ý. Tôi sẽ chuẩn bị báo giá điều chỉnh cho tám nghìn sản phẩm ở mức mười một đô la tám mươi xu, gồm bao bì tùy chỉnh và lịch thanh toán đã thống nhất.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you also confirm the lead time and send the quote today? We need internal approval before we issue the purchase order.",
+        "vi": "Bạn cũng có thể xác nhận thời gian giao hàng và gửi báo giá hôm nay không? Chúng tôi cần phê duyệt nội bộ trước khi phát hành đơn đặt hàng.",
+        "hint": "Lead time là thời gian từ đặt hàng đến khi hàng sẵn sàng hoặc được giao."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. The lead time is four weeks after we receive the upfront payment. I will send the revised quote this afternoon.",
+        "vi": "Chắc chắn rồi. Thời gian giao hàng là bốn tuần sau khi chúng tôi nhận khoản thanh toán trước. Tôi sẽ gửi báo giá điều chỉnh vào chiều nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. Assuming the quote reflects these terms, we are ready to move forward. Thank you for working with us.",
+        "vi": "Tuyệt vời. Miễn là báo giá thể hiện đúng các điều khoản này, chúng tôi sẵn sàng tiến hành. Cảm ơn bạn đã hợp tác với chúng tôi.",
+        "hint": "Assuming the quote reflects these terms là cách chốt có điều kiện rõ ràng và chuyên nghiệp."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a supplier sales representative at a manufacturing company. You are speaking with a potential business buyer by video call. You are friendly and professional, but you protect your company margins and negotiate realistic terms.",
+    "opener": "Good morning. Thank you for taking the time to speak with me. What quantity are you considering for your first order?",
+    "goal": "Người học thương lượng được giá, số lượng, bao bì và điều khoản thanh toán, sau đó yêu cầu báo giá điều chỉnh."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có thể đưa giá xuống gần mười một đô la năm mươi xu không?",
+      "en": "Could you bring the price closer to eleven dollars and fifty cents?",
+      "alts": [
+        "Could you reduce the price to around eleven dollars and fifty cents?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng tôi tăng số lượng đặt hàng, bạn có thể giảm giá theo số lượng không?",
+      "en": "If we increase the order volume, could you offer a volume discount?",
+      "alts": [
+        "Could you offer a volume discount for a larger order?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi sẵn sàng cam kết đơn hàng thường xuyên nếu bạn có thể bao gồm bao bì tùy chỉnh.",
+      "en": "We would be prepared to commit to regular orders if you could include custom packaging.",
+      "alts": [
+        "If you include custom packaging, we can commit to regular orders."
+      ]
+    },
+    {
+      "vi": "Điều đó có thể chấp nhận được, miễn là khoản thanh toán trước được nhận trước khi sản xuất bắt đầu.",
+      "en": "That is workable, provided that the upfront payment is received before production starts.",
+      "alts": [
+        "We can agree to that, provided that you receive the upfront payment before production starts."
+      ]
+    },
+    {
+      "vi": "Giá của bạn cao hơn mức ngân sách của chúng tôi.",
+      "en": "Your price is higher than our budget allows.",
+      "alts": [
+        "The quoted price is slightly above our budget."
+      ]
+    },
+    {
+      "vi": "Bạn có thể đưa các điều khoản đó vào báo giá điều chỉnh không?",
+      "en": "Could you put those terms in a revised quote?",
+      "alts": [
+        "Please include those terms in the revised quote."
+      ]
+    },
+    {
+      "vi": "Chúng tôi có thể xem lại điều khoản thanh toán sau ba đơn hàng đầu tiên.",
+      "en": "We can review the payment terms after the first three orders.",
+      "alts": [
+        "Let us revisit the payment terms after the first three orders."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại vai bên mua trong hội thoại và tự kiểm tra việc phát âm âm cuối của price, quote và discount.",
+    "Viết một email ngắn bằng tiếng Anh yêu cầu revised quote với giá, số lượng và điều khoản thanh toán đã thương lượng.",
+    "Tự thay đổi tình huống: yêu cầu giảm giá thêm nhưng đổi lại cam kết số lượng lớn hơn trong sáu tháng."
+  ]
+}

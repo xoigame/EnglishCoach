@@ -1,0 +1,365 @@
+{
+  "id": "mau-sac-va-quan-ao",
+  "title": "Chọn màu và cỡ quần áo",
+  "topic": "Màu sắc và quần áo hằng ngày",
+  "level": "A1",
+  "summary": "Người học mua một chiếc áo trong cửa hàng quần áo. Bạn sẽ hỏi màu, cỡ và xin thử áo.",
+  "goals": [
+    "Nói được màu sắc và cỡ quần áo cơ bản",
+    "Hỏi xin thử quần áo một cách tự nhiên",
+    "Mua một món đồ bằng câu ngắn, lịch sự"
+  ],
+  "vocab": [
+    {
+      "en": "shirt",
+      "ipa": "/ʃɜːrt/",
+      "vi": "áo sơ mi hoặc áo",
+      "example": "This shirt is blue."
+    },
+    {
+      "en": "pants",
+      "ipa": "/pænts/",
+      "vi": "quần dài",
+      "example": "These pants are black."
+    },
+    {
+      "en": "blue",
+      "ipa": "/bluː/",
+      "vi": "màu xanh dương",
+      "example": "I like this blue shirt."
+    },
+    {
+      "en": "black",
+      "ipa": "/blæk/",
+      "vi": "màu đen",
+      "example": "Black pants look good."
+    },
+    {
+      "en": "white",
+      "ipa": "/waɪt/",
+      "vi": "màu trắng",
+      "example": "This white shirt is clean."
+    },
+    {
+      "en": "size",
+      "ipa": "/saɪz/",
+      "vi": "cỡ, kích cỡ",
+      "example": "What size do you need?"
+    },
+    {
+      "en": "small",
+      "ipa": "/smɔːl/",
+      "vi": "cỡ nhỏ",
+      "example": "Small is too small."
+    },
+    {
+      "en": "medium",
+      "ipa": "/ˈmiːdiəm/",
+      "vi": "cỡ vừa",
+      "example": "I need a medium size."
+    },
+    {
+      "en": "large",
+      "ipa": "/lɑːrdʒ/",
+      "vi": "cỡ lớn",
+      "example": "Large is too big."
+    },
+    {
+      "en": "try on",
+      "ipa": "/traɪ ɑːn/",
+      "vi": "thử quần áo",
+      "example": "Can I try this on?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I need a ___.",
+      "vi": "Tôi cần một ___.",
+      "note": "Dùng để nói món đồ bạn muốn mua."
+    },
+    {
+      "en": "What color do you like?",
+      "vi": "Bạn thích màu nào?",
+      "note": "Dùng để hỏi màu yêu thích."
+    },
+    {
+      "en": "Do you have this in ___?",
+      "vi": "Bạn có món này màu hoặc cỡ ___ không?",
+      "note": "Điền màu hoặc kích cỡ vào chỗ trống."
+    },
+    {
+      "en": "Can I try it on?",
+      "vi": "Tôi có thể thử nó không?",
+      "note": "Dùng khi muốn thử quần áo."
+    },
+    {
+      "en": "I'll take this ___.",
+      "vi": "Tôi sẽ lấy cái ___ này.",
+      "note": "Dùng khi quyết định mua món đồ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /ʃ/ trong shirt",
+      "tip": "Chu môi nhẹ, đẩy hơi liên tục như âm xì. Không đọc thành âm s.",
+      "words": [
+        "shirt",
+        "shoes",
+        "shorts"
+      ]
+    },
+    {
+      "focus": "âm /uː/ trong blue",
+      "tip": "Kéo dài âm u một chút, môi tròn. Không đọc ngắn và cụt ở cuối.",
+      "words": [
+        "blue",
+        "shoes",
+        "too"
+      ]
+    },
+    {
+      "focus": "cụm âm cuối /nts/ trong pants",
+      "tip": "Đọc rõ phần t và s ở cuối, không bỏ mất âm cuối.",
+      "words": [
+        "pants",
+        "wants",
+        "plants"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I like color blue.",
+      "right": "I like the color blue.",
+      "vi": "Cần dùng the color trước tên màu nếu nói theo cấu trúc này."
+    },
+    {
+      "wrong": "This shirt very nice.",
+      "right": "This shirt is very nice.",
+      "vi": "Câu tiếng Anh cần động từ to be là is."
+    },
+    {
+      "wrong": "I need a shirt blue.",
+      "right": "I need a blue shirt.",
+      "vi": "Tính từ chỉ màu đứng trước danh từ."
+    },
+    {
+      "wrong": "Can I try it?",
+      "right": "Can I try it on?",
+      "vi": "Với quần áo, dùng try on để nói thử mặc."
+    },
+    {
+      "wrong": "What size you have?",
+      "right": "What sizes do you have?",
+      "vi": "Câu hỏi hiện tại đơn cần do, và sizes phù hợp khi hỏi các cỡ có sẵn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhờ nhân viên giúp đỡ",
+      "formal": "Excuse me, could you help me, please?",
+      "casual": "Can you help me?",
+      "vi": "Dùng câu formal với nhân viên lạ hoặc ở cửa hàng trang trọng. Câu casual phù hợp khi không khí thân thiện, gần gũi."
+    },
+    {
+      "situation": "Xin xem áo màu xanh",
+      "formal": "Could I see this in blue, please?",
+      "casual": "Can I see it in blue?",
+      "vi": "Câu formal mềm và lịch sự hơn với người lạ. Câu casual tự nhiên khi đang chỉ vào món đồ."
+    },
+    {
+      "situation": "Xin thử áo",
+      "formal": "Could I try this shirt on, please?",
+      "casual": "Can I try this on?",
+      "vi": "Câu formal phù hợp khi muốn nói rất lịch sự. Câu casual là cách nói phổ biến trong cửa hàng bình thường."
+    },
+    {
+      "situation": "Quyết định mua hàng",
+      "formal": "I'd like to buy this shirt, please.",
+      "casual": "I'll take this one.",
+      "vi": "Dùng câu formal khi thanh toán hoặc nói với nhân viên. Câu casual gọn, tự nhiên khi đã cầm món đồ trên tay."
+    }
+  ],
+  "culture": [
+    "Khi nhân viên hỏi có cần giúp không, khách nói Just looking để lịch sự từ chối và vẫn muốn tự xem hàng.",
+    "Ở nhiều cửa hàng phương Tây, giá niêm yết thường là giá cố định; mặc cả không phổ biến, trừ chợ hoặc cửa hàng đặc biệt.",
+    "Nhân viên thường chỉ vị trí phòng thử đồ và để khách tự xem. Khách có thể hỏi thẳng về màu, cỡ hoặc việc đổi trả hàng."
+  ],
+  "listening": {
+    "title": "Thông báo của cửa hàng",
+    "passage": "Hello, this is Sunny Clothes Shop. We have new shirts today. They come in blue, black, and white. Small, medium, and large sizes are ready. You can try them on near the back. Ask a store worker if you need help. We are open until six today.",
+    "vi": "Xin chào, đây là cửa hàng quần áo Sunny. Hôm nay chúng tôi có áo mới. Áo có màu xanh dương, đen và trắng. Cỡ nhỏ, vừa và lớn đều đã sẵn sàng. Bạn có thể thử áo ở gần phía sau cửa hàng. Hãy hỏi nhân viên nếu bạn cần giúp đỡ. Hôm nay chúng tôi mở cửa đến sáu giờ.",
+    "questions": [
+      {
+        "q": "What colors are the new shirts?",
+        "choices": [
+          "Blue and black",
+          "Blue, black, and white",
+          "White and green"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì thông báo liệt kê ba màu: xanh dương, đen và trắng."
+      },
+      {
+        "q": "Where can customers try them on?",
+        "choices": [
+          "Near the door",
+          "Near the back",
+          "Outside the shop"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì khách có thể thử áo ở gần phía sau cửa hàng."
+      },
+      {
+        "q": "What time does the shop close?",
+        "choices": [
+          "At five",
+          "At six",
+          "At seven"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì cửa hàng mở đến sáu giờ hôm nay."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên cửa hàng quần áo",
+      "b": "Khách mua quần áo"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, welcome in. Can I help?",
+        "vi": "Xin chào, mời bạn vào. Tôi có thể giúp gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I need a shirt.",
+        "vi": "Vâng, tôi cần một chiếc áo.",
+        "hint": "Dùng I need a rồi nói món đồ."
+      },
+      {
+        "speaker": "a",
+        "en": "What color do you like?",
+        "vi": "Bạn thích màu nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I like blue and black.",
+        "vi": "Tôi thích màu xanh dương và đen.",
+        "hint": "Dùng I like rồi nói màu."
+      },
+      {
+        "speaker": "a",
+        "en": "This blue shirt is nice.",
+        "vi": "Chiếc áo xanh này đẹp đấy.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It looks good. What sizes?",
+        "vi": "Nó trông đẹp. Có những cỡ nào?",
+        "hint": "Dùng What sizes để hỏi các cỡ có sẵn."
+      },
+      {
+        "speaker": "a",
+        "en": "We have small, medium, and large.",
+        "vi": "Chúng tôi có cỡ nhỏ, vừa và lớn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Medium, please. Can I try it on?",
+        "vi": "Cỡ vừa, làm ơn. Tôi có thể thử nó không?",
+        "hint": "Dùng try it on khi thử quần áo."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, the changing room is there.",
+        "vi": "Được, phòng thử đồ ở đằng kia.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, I'll take this blue shirt.",
+        "vi": "Tuyệt, tôi sẽ lấy chiếc áo xanh này.",
+        "hint": "I'll take dùng khi bạn quyết định mua."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure, it is twenty dollars.",
+        "vi": "Được, nó giá hai mươi đô la.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here you are. Thank you.",
+        "vi": "Của bạn đây. Cảm ơn.",
+        "hint": "Nói Here you are khi đưa tiền hoặc đồ cho ai đó."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly shop assistant in a small clothing store. You greet customers, answer simple questions about colors and sizes, and help them try on clothes.",
+    "opener": "Hello, welcome in. Can I help?",
+    "goal": "Người học chọn màu, hỏi cỡ, xin thử và mua một chiếc áo."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần một chiếc áo xanh.",
+      "en": "I need a blue shirt.",
+      "alts": [
+        "I need a shirt in blue."
+      ]
+    },
+    {
+      "vi": "Bạn thích màu nào?",
+      "en": "What color do you like?",
+      "alts": []
+    },
+    {
+      "vi": "Bạn có món này màu đen không?",
+      "en": "Do you have this in black?",
+      "alts": [
+        "Do you have this shirt in black?"
+      ]
+    },
+    {
+      "vi": "Tôi cần cỡ vừa.",
+      "en": "I need a medium size.",
+      "alts": [
+        "Medium, please."
+      ]
+    },
+    {
+      "vi": "Tôi có thể thử nó không?",
+      "en": "Can I try it on?",
+      "alts": [
+        "Can I try this shirt on?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ lấy chiếc quần này.",
+      "en": "I'll take these pants.",
+      "alts": [
+        "I would like these pants."
+      ]
+    },
+    {
+      "vi": "Chiếc áo trắng này đẹp.",
+      "en": "This white shirt is nice.",
+      "alts": [
+        "This white shirt looks good."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và tự nghe lại phát âm của shirt, blue, pants.",
+    "Nói ba câu về màu và cỡ quần áo bạn thường mặc.",
+    "Tập đóng vai mua một chiếc áo màu khác, dùng mẫu Can I try it on?"
+  ]
+}

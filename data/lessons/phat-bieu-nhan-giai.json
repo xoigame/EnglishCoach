@@ -1,0 +1,398 @@
+{
+  "id": "phat-bieu-nhan-giai",
+  "title": "Phát biểu nhận giải và cảm ơn đúng mực",
+  "topic": "Nhận giải và gửi lời cảm ơn",
+  "level": "C1",
+  "summary": "Bạn nhận một giải thưởng cộng đồng và phát biểu trên sân khấu cùng người dẫn chương trình. Bài học giúp bạn bày tỏ sự biết ơn chân thành, ghi nhận đóng góp của người khác và điều chỉnh giọng điệu phù hợp với một dịp trang trọng.",
+  "goals": [
+    "Phát biểu nhận giải với giọng điệu tự nhiên, khiêm tốn và trang trọng.",
+    "Dùng collocation nâng cao để cảm ơn, ghi nhận công lao và chia sẻ vinh dự.",
+    "Linh hoạt chuyển giữa lời cảm ơn chính thức trên sân khấu và cách nói thân mật với đồng nghiệp."
+  ],
+  "vocab": [
+    {
+      "en": "deeply honored",
+      "ipa": "/ˈdiːpli ˈɑːnərd/",
+      "vi": "vô cùng vinh dự",
+      "example": "I am deeply honored to receive this award."
+    },
+    {
+      "en": "acknowledge",
+      "ipa": "/əkˈnɑːlɪdʒ/",
+      "vi": "ghi nhận, bày tỏ sự trân trọng đối với đóng góp của ai",
+      "example": "I would like to acknowledge everyone who supported us."
+    },
+    {
+      "en": "share the credit",
+      "ipa": "/ʃer ðə ˈkredɪt/",
+      "vi": "chia sẻ công lao",
+      "example": "I want to share the credit with my entire team."
+    },
+    {
+      "en": "vote of confidence",
+      "ipa": "/ˌvoʊt əv ˈkɑːnfɪdəns/",
+      "vi": "sự tín nhiệm, niềm tin được trao",
+      "example": "This award is a meaningful vote of confidence in our work."
+    },
+    {
+      "en": "steadfast",
+      "ipa": "/ˈstedfæst/",
+      "vi": "kiên định, không thay đổi",
+      "example": "Her steadfast support kept us moving forward."
+    },
+    {
+      "en": "come to fruition",
+      "ipa": "/kʌm tə fruˈɪʃən/",
+      "vi": "trở thành hiện thực, đạt kết quả",
+      "example": "It has been rewarding to see this idea come to fruition."
+    },
+    {
+      "en": "take something for granted",
+      "ipa": "/teɪk ˈsʌmθɪŋ fər ˈɡræntɪd/",
+      "vi": "coi điều gì là hiển nhiên, không trân trọng đúng mức",
+      "example": "We do not take your trust for granted."
+    },
+    {
+      "en": "heartfelt",
+      "ipa": "/ˈhɑːrtfelt/",
+      "vi": "chân thành, xuất phát từ đáy lòng",
+      "example": "Please accept my heartfelt thanks."
+    },
+    {
+      "en": "dedicate",
+      "ipa": "/ˈdedɪkeɪt/",
+      "vi": "dành tặng, cống hiến",
+      "example": "I dedicate this award to our volunteers."
+    },
+    {
+      "en": "carry forward",
+      "ipa": "/ˈkeri ˈfɔːrwərd/",
+      "vi": "tiếp tục phát huy, đưa điều gì tiến về phía trước",
+      "example": "We will carry this momentum forward."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am deeply honored to receive this award.",
+      "vi": "Tôi vô cùng vinh dự khi nhận giải thưởng này.",
+      "note": "Mở đầu trang trọng, tự nhiên và phù hợp với phát biểu trên sân khấu."
+    },
+    {
+      "en": "I would like to acknowledge the people who made this possible.",
+      "vi": "Tôi muốn ghi nhận những người đã giúp điều này thành hiện thực.",
+      "note": "Dùng acknowledge khi cảm ơn những đóng góp cụ thể, trang trọng hơn thank."
+    },
+    {
+      "en": "This recognition belongs as much to my team as it does to me.",
+      "vi": "Sự ghi nhận này thuộc về đội ngũ của tôi nhiều như thuộc về tôi.",
+      "note": "Cách nói khiêm tốn để chia sẻ công lao mà không phủ nhận hoàn toàn thành tích của mình."
+    },
+    {
+      "en": "I do not take your trust for granted.",
+      "vi": "Tôi không xem sự tin tưởng của mọi người là điều hiển nhiên.",
+      "note": "Dùng để thể hiện bạn hiểu giá trị của sự tín nhiệm được trao."
+    },
+    {
+      "en": "I hope to carry this work forward with the same sense of purpose.",
+      "vi": "Tôi hy vọng sẽ tiếp tục công việc này với cùng tinh thần và mục đích.",
+      "note": "Câu kết trang trọng, hướng về tương lai thay vì chỉ dừng ở lời cảm ơn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong acknowledge và dedicate",
+      "tip": "Nhấn rõ âm thứ hai: aCKNOWledge và DEdicate. Tránh đọc đều tất cả các âm.",
+      "words": [
+        "acknowledge",
+        "dedicate",
+        "recognition"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong thank và throughout",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra. Không thay bằng âm /t/ hoặc /s/.",
+      "words": [
+        "thank",
+        "throughout",
+        "thoughtful"
+      ]
+    },
+    {
+      "focus": "nối âm trong cụm trang trọng",
+      "tip": "Nối nhẹ các từ để câu bớt rời rạc: honored to, like to acknowledge, part of this.",
+      "words": [
+        "honored to",
+        "like to acknowledge",
+        "part of this"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I very honor to receive this award.",
+      "right": "I am deeply honored to receive this award.",
+      "vi": "Honor là danh từ hoặc động từ; ở đây cần tính từ honored và động từ to be."
+    },
+    {
+      "wrong": "I would like to thanks everyone.",
+      "right": "I would like to thank everyone.",
+      "vi": "Sau to dùng động từ nguyên mẫu thank, không dùng thanks."
+    },
+    {
+      "wrong": "I dedicate this award for my team.",
+      "right": "I dedicate this award to my team.",
+      "vi": "Dùng dedicate something to someone, không dùng for trong cấu trúc này."
+    },
+    {
+      "wrong": "Thanks for all people helped me.",
+      "right": "Thank you to everyone who helped me.",
+      "vi": "Cần dùng everyone who để nối tự nhiên và đúng ngữ pháp."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nói rằng bạn rất vinh dự khi nhận giải",
+      "formal": "I am deeply honored to accept this recognition.",
+      "casual": "I am honestly so grateful for this.",
+      "vi": "Câu formal dùng trên sân khấu hoặc trước khách mời cấp cao; câu casual hợp khi cảm ơn đội nhóm thân quen sau sự kiện."
+    },
+    {
+      "situation": "Cảm ơn người đã hỗ trợ",
+      "formal": "I would like to acknowledge your invaluable support.",
+      "casual": "I really appreciate you having my back.",
+      "vi": "Câu formal phù hợp với bài phát biểu hoặc thư cảm ơn; câu casual dùng với đồng nghiệp, bạn bè đã hỗ trợ bạn sát cánh."
+    },
+    {
+      "situation": "Chia sẻ công lao",
+      "formal": "This recognition belongs as much to the team as it does to me.",
+      "casual": "I could not have done this without the team.",
+      "vi": "Câu formal có sắc thái trang trọng và cân bằng; câu casual tự nhiên trong cuộc trò chuyện nội bộ."
+    },
+    {
+      "situation": "Nói về việc tiếp tục nỗ lực",
+      "formal": "I look forward to carrying this work forward with renewed commitment.",
+      "casual": "We are going to keep the momentum going.",
+      "vi": "Câu formal hợp với phần kết bài phát biểu; câu casual phù hợp khi trao đổi với đồng đội sau buổi lễ."
+    }
+  ],
+  "culture": [
+    "Trong bài phát biểu nhận giải bằng tiếng Anh, người nói thường cảm ơn ngắn gọn rồi nhanh chóng ghi nhận đội ngũ hoặc cộng đồng. Một bài quá dài hoặc chỉ nói về bản thân có thể tạo cảm giác kém tinh tế.",
+    "Khiêm tốn không có nghĩa là phủ nhận giải thưởng bằng câu như I do not deserve this. Cách tự nhiên hơn là nhận vinh dự, rồi chia sẻ công lao với những người đã hỗ trợ.",
+    "Sau khi được giới thiệu hoặc khi khán giả vỗ tay, hãy dừng lại một nhịp, mỉm cười và nói Thank you. Khoảng dừng ngắn này là bình thường, không phải sự im lặng ngượng ngùng."
+  ],
+  "listening": {
+    "title": "Lời giới thiệu từ hội đồng xét giải",
+    "passage": "Good evening, everyone. Before we announce tonight's winner, here is a brief note from the selection committee. The Community Impact Award recognizes sustained work, not just one successful project. This year's recipient was chosen for bringing local schools, volunteers, and businesses together over several years. We hope this recognition encourages others to build partnerships that last. After the presentation, the recipient will have a few minutes to speak, followed by a group photograph.",
+    "vi": "Chào buổi tối mọi người. Trước khi công bố người chiến thắng tối nay, đây là một ghi chú ngắn từ hội đồng xét giải. Giải thưởng Tác động Cộng đồng ghi nhận những nỗ lực bền bỉ, chứ không chỉ một dự án thành công. Người nhận giải năm nay được chọn vì đã kết nối các trường học địa phương, tình nguyện viên và doanh nghiệp trong nhiều năm. Chúng tôi hy vọng sự ghi nhận này sẽ khuyến khích những người khác xây dựng các mối quan hệ hợp tác lâu dài. Sau phần trao giải, người nhận sẽ có vài phút để phát biểu, sau đó là chụp ảnh tập thể.",
+    "questions": [
+      {
+        "q": "What does the award recognize?",
+        "choices": [
+          "A single successful project",
+          "Sustained work over time",
+          "The largest local business"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói giải thưởng ghi nhận sustained work, not just one successful project."
+      },
+      {
+        "q": "Why was this year's recipient chosen?",
+        "choices": [
+          "For raising money quickly",
+          "For connecting different parts of the community",
+          "For organizing a group photograph"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nhận đã bringing local schools, volunteers, and businesses together."
+      },
+      {
+        "q": "What will happen after the recipient speaks?",
+        "choices": [
+          "There will be a group photograph",
+          "The committee will meet privately",
+          "A second winner will be announced"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nêu rõ sau bài phát biểu là a group photograph."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người dẫn chương trình lễ trao giải",
+      "b": "Người nhận giải thưởng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Ladies and gentlemen, please welcome the recipient of this year's Community Impact Award.",
+        "vi": "Kính thưa quý vị, xin chào đón người nhận Giải thưởng Tác động Cộng đồng năm nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I am deeply honored to receive this award.",
+        "vi": "Xin cảm ơn. Tôi vô cùng vinh dự khi nhận giải thưởng này.",
+        "hint": "Mở đầu ngắn gọn và trang trọng với deeply honored."
+      },
+      {
+        "speaker": "a",
+        "en": "Congratulations. What does this recognition mean to you?",
+        "vi": "Xin chúc mừng. Sự ghi nhận này có ý nghĩa thế nào với bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It means a great deal. More than anything, it is a vote of confidence in the work we have been doing.",
+        "vi": "Điều này có ý nghĩa rất lớn. Hơn hết, đây là sự tín nhiệm dành cho công việc mà chúng tôi vẫn đang làm.",
+        "hint": "Dùng a vote of confidence để nói về sự tín nhiệm được trao."
+      },
+      {
+        "speaker": "a",
+        "en": "Who would you like to acknowledge first?",
+        "vi": "Trước hết, bạn muốn ghi nhận ai?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "First, I would like to acknowledge my team. Their creativity, patience, and steadfast commitment made this possible.",
+        "vi": "Trước hết, tôi muốn ghi nhận đội ngũ của mình. Sự sáng tạo, kiên nhẫn và cam kết bền bỉ của họ đã làm nên điều này.",
+        "hint": "Liệt kê ba phẩm chất để câu cảm ơn nghe đầy đặn và tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "Your project faced some difficult moments. What kept you going?",
+        "vi": "Dự án của bạn đã trải qua vài giai đoạn khó khăn. Điều gì giúp bạn tiếp tục?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "There were times when the goal felt almost out of reach, but the people around me kept showing up and believing in the work.",
+        "vi": "Có những lúc mục tiêu dường như gần như ngoài tầm với, nhưng những người xung quanh tôi vẫn luôn có mặt và tin vào công việc này.",
+        "hint": "Dùng There were times when để kể về thử thách một cách chín chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "What would you say to the community members who placed their trust in you?",
+        "vi": "Bạn muốn nói gì với các thành viên cộng đồng đã đặt niềm tin vào bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I hope they know that we never took their trust for granted. We listened carefully, learned from setbacks, and kept improving.",
+        "vi": "Tôi hy vọng họ biết rằng chúng tôi chưa bao giờ coi sự tin tưởng đó là điều hiển nhiên. Chúng tôi đã lắng nghe kỹ, học từ những trở ngại và không ngừng cải thiện.",
+        "hint": "Never took their trust for granted thể hiện sự trân trọng sâu sắc."
+      },
+      {
+        "speaker": "a",
+        "en": "Many young volunteers are here tonight. Is there a lesson you would like to share with them?",
+        "vi": "Tối nay có nhiều tình nguyện viên trẻ ở đây. Bạn có bài học nào muốn chia sẻ với họ không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If I have learned anything, it is that meaningful change rarely happens overnight. It comes from small, thoughtful actions repeated over time.",
+        "vi": "Nếu tôi học được điều gì, đó là thay đổi có ý nghĩa hiếm khi xảy ra chỉ sau một đêm. Nó đến từ những hành động nhỏ, có suy nghĩ, được lặp lại theo thời gian.",
+        "hint": "Mẫu If I have learned anything, it is that giúp đưa ra thông điệp sâu sắc."
+      },
+      {
+        "speaker": "a",
+        "en": "Before we close, is there anyone else you would like to thank?",
+        "vi": "Trước khi kết thúc, còn ai bạn muốn cảm ơn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would also like to thank my family. Their patience and quiet encouragement gave me the space to see this work come to fruition.",
+        "vi": "Tôi cũng muốn cảm ơn gia đình mình. Sự kiên nhẫn và động viên thầm lặng của họ đã cho tôi không gian để chứng kiến công việc này thành hiện thực.",
+        "hint": "Quiet encouragement là cách nói tự nhiên về sự động viên âm thầm."
+      },
+      {
+        "speaker": "a",
+        "en": "Would you like to dedicate this award to anyone?",
+        "vi": "Bạn có muốn dành tặng giải thưởng này cho ai không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. I dedicate it to every volunteer who keeps showing up, even when no one is watching. Your efforts matter more than you may realize.",
+        "vi": "Có. Tôi dành tặng giải thưởng này cho mọi tình nguyện viên vẫn luôn có mặt, ngay cả khi không ai nhìn thấy. Những nỗ lực của các bạn có ý nghĩa nhiều hơn các bạn có thể nhận ra.",
+        "hint": "Dùng dedicate it to để dành tặng giải cho một nhóm người."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you for those generous words. Congratulations once again, and please join me in applauding our award recipient.",
+        "vi": "Cảm ơn bạn vì những lời chia sẻ đầy trân trọng. Một lần nữa xin chúc mừng, và xin mời quý vị cùng vỗ tay chúc mừng người nhận giải.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you once again. I will carry this work forward with gratitude, humility, and a renewed sense of purpose.",
+        "vi": "Một lần nữa xin cảm ơn. Tôi sẽ tiếp tục công việc này với lòng biết ơn, sự khiêm nhường và một ý thức về mục đích được làm mới.",
+        "hint": "Kết bằng ba danh từ gratitude, humility, purpose để tạo nhịp điệu trang trọng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a warm, polished host at a community awards ceremony. You are on stage in front of an audience, guiding the award recipient through a brief and respectful acceptance speech. Keep your tone encouraging, professional, and natural.",
+    "opener": "Ladies and gentlemen, please welcome the recipient of this year's Community Impact Award.",
+    "goal": "Người học phát biểu nhận giải, cảm ơn những người đóng góp và kết thúc bằng một thông điệp khiêm tốn, hướng về tương lai."
+  },
+  "drills": [
+    {
+      "vi": "Tôi vô cùng vinh dự khi nhận giải thưởng này.",
+      "en": "I am deeply honored to receive this award.",
+      "alts": [
+        "I am truly honored to accept this award."
+      ]
+    },
+    {
+      "vi": "Tôi muốn ghi nhận đội ngũ đã làm điều này thành hiện thực.",
+      "en": "I would like to acknowledge the team that made this possible.",
+      "alts": [
+        "I would like to recognize everyone who made this possible."
+      ]
+    },
+    {
+      "vi": "Tôi muốn chia sẻ công lao với các đồng nghiệp của mình.",
+      "en": "I want to share the credit with my colleagues.",
+      "alts": [
+        "This achievement belongs to my colleagues as much as it belongs to me."
+      ]
+    },
+    {
+      "vi": "Chúng tôi không coi sự tin tưởng của mọi người là điều hiển nhiên.",
+      "en": "We do not take your trust for granted.",
+      "alts": [
+        "We have never taken your support for granted."
+      ]
+    },
+    {
+      "vi": "Sự động viên bền bỉ của họ đã giúp ý tưởng này thành hiện thực.",
+      "en": "Their steadfast encouragement helped this idea come to fruition.",
+      "alts": [
+        "Their unwavering support helped bring this idea to life."
+      ]
+    },
+    {
+      "vi": "Tôi dành tặng giải thưởng này cho mọi tình nguyện viên.",
+      "en": "I dedicate this award to every volunteer.",
+      "alts": [
+        "This award is dedicated to every volunteer."
+      ]
+    },
+    {
+      "vi": "Tôi hy vọng sẽ tiếp tục công việc này với cùng tinh thần.",
+      "en": "I hope to carry this work forward with the same sense of purpose.",
+      "alts": [
+        "I hope to continue this work with the same commitment."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm bài phát biểu nhận giải dài từ 45 đến 60 giây, trong đó có ít nhất ba cụm từ trong phần từ vựng.",
+    "Viết hai phiên bản lời cảm ơn: một phiên bản dành cho sân khấu trang trọng và một phiên bản gửi cho đồng nghiệp thân thiết.",
+    "Luyện đọc các từ acknowledge, throughout và heartfelt, chú ý trọng âm, âm /θ/ và nối âm."
+  ]
+}

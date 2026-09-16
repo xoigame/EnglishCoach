@@ -1,0 +1,358 @@
+{
+  "id": "dat-do-an-online",
+  "title": "Đặt đồ ăn online và báo giao hàng sai",
+  "topic": "Báo đơn đồ ăn bị giao sai",
+  "level": "A2",
+  "summary": "Bạn liên hệ tổng đài ứng dụng giao đồ ăn vì nhận sai món. Bạn mô tả vấn đề, chọn cách xử lý và xác nhận thời gian giao lại.",
+  "goals": [
+    "Báo món ăn giao sai một cách rõ ràng",
+    "Nói món đã đặt và món đã nhận",
+    "Yêu cầu giao lại hoặc nhận tiền hoàn ứng dụng"
+  ],
+  "vocab": [
+    {
+      "en": "food order",
+      "ipa": "/fuːd ˈɔːrdər/",
+      "vi": "đơn đồ ăn",
+      "example": "My food order is wrong."
+    },
+    {
+      "en": "wrong",
+      "ipa": "/rɔːŋ/",
+      "vi": "sai, không đúng",
+      "example": "I got the wrong meal."
+    },
+    {
+      "en": "missing",
+      "ipa": "/ˈmɪsɪŋ/",
+      "vi": "bị thiếu",
+      "example": "My drink is missing."
+    },
+    {
+      "en": "meal",
+      "ipa": "/miːl/",
+      "vi": "suất ăn, bữa ăn",
+      "example": "Please send the right meal."
+    },
+    {
+      "en": "unopened",
+      "ipa": "/ʌnˈoʊpənd/",
+      "vi": "chưa mở",
+      "example": "The meal is unopened."
+    },
+    {
+      "en": "return",
+      "ipa": "/rɪˈtɜːrn/",
+      "vi": "trả lại",
+      "example": "Do I need to return the food?"
+    },
+    {
+      "en": "credit",
+      "ipa": "/ˈkredɪt/",
+      "vi": "tiền hoàn vào tài khoản ứng dụng",
+      "example": "We can give you app credit."
+    },
+    {
+      "en": "driver",
+      "ipa": "/ˈdraɪvər/",
+      "vi": "tài xế giao hàng",
+      "example": "I will contact the driver."
+    },
+    {
+      "en": "prepare",
+      "ipa": "/prɪˈper/",
+      "vi": "chuẩn bị món ăn",
+      "example": "The restaurant will prepare your meal."
+    },
+    {
+      "en": "arrive",
+      "ipa": "/əˈraɪv/",
+      "vi": "đến, giao tới",
+      "example": "Your new order will arrive soon."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "My order is wrong.",
+      "vi": "Đơn của tôi bị sai.",
+      "note": "Dùng để mở đầu khi món nhận được không đúng."
+    },
+    {
+      "en": "I ordered ___, but I got ___.",
+      "vi": "Tôi đã đặt ___, nhưng tôi nhận được ___.",
+      "note": "Dùng quá khứ đơn ordered và got để so sánh món đã đặt với món nhận được."
+    },
+    {
+      "en": "What is missing?",
+      "vi": "Món gì đang bị thiếu?",
+      "note": "Dùng khi hỏi món hoặc đồ uống chưa được giao."
+    },
+    {
+      "en": "Please send the right meal.",
+      "vi": "Vui lòng gửi đúng món cho tôi.",
+      "note": "Cách yêu cầu ngắn gọn, lịch sự."
+    },
+    {
+      "en": "Do I need to return it?",
+      "vi": "Tôi có cần trả lại nó không?",
+      "note": "Dùng để hỏi có phải đưa lại món giao nhầm hay không."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /ŋ/ trong wrong và missing",
+      "tip": "Kéo âm mũi ở cuối từ, không đọc thành âm n ngắn.",
+      "words": [
+        "wrong",
+        "missing",
+        "morning"
+      ]
+    },
+    {
+      "focus": "âm /r/ trong rice và return",
+      "tip": "Cong nhẹ đầu lưỡi, không rung như âm r tiếng Việt.",
+      "words": [
+        "rice",
+        "return",
+        "right"
+      ]
+    },
+    {
+      "focus": "âm /əˈraɪv/ trong arrive",
+      "tip": "Nhấn âm thứ hai, đọc nhẹ âm đầu là ə.",
+      "words": [
+        "arrive",
+        "around",
+        "again"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My order have wrong.",
+      "right": "My order is wrong.",
+      "vi": "Dùng is để mô tả tình trạng đơn hàng, không dùng have."
+    },
+    {
+      "wrong": "I order chicken noodles, but I receive rice.",
+      "right": "I ordered chicken noodles, but I got rice.",
+      "vi": "Sự việc đã xảy ra nên dùng quá khứ đơn ordered và got."
+    },
+    {
+      "wrong": "Please send me again the food.",
+      "right": "Please send the right meal again.",
+      "vi": "Đặt tân ngữ ngay sau send; nói rõ right meal tự nhiên hơn."
+    },
+    {
+      "wrong": "How long it takes?",
+      "right": "How long will it take?",
+      "vi": "Câu hỏi về thời gian sắp tới cần will trước chủ ngữ."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Báo đơn giao sai",
+      "formal": "I received the wrong order. Could you help me, please?",
+      "casual": "I got the wrong food.",
+      "vi": "Dùng câu formal khi nói với tổng đài hoặc nhà hàng; câu casual hợp với tài xế hoặc người quen."
+    },
+    {
+      "situation": "Yêu cầu giao lại món",
+      "formal": "Could you please send the correct meal?",
+      "casual": "Can you send the right food again?",
+      "vi": "Câu formal lịch sự hơn khi yêu cầu nhân viên hỗ trợ; câu casual dùng trong trao đổi nhanh."
+    },
+    {
+      "situation": "Hỏi thời gian giao lại",
+      "formal": "Could you tell me when the new order will arrive?",
+      "casual": "When will the new order get here?",
+      "vi": "Câu formal phù hợp với nhân viên; câu casual tự nhiên khi nhắn tin nhanh."
+    },
+    {
+      "situation": "Từ chối tiền hoàn ứng dụng và chọn giao lại",
+      "formal": "Thank you, but I would prefer a replacement meal.",
+      "casual": "Thanks, but please send the food again.",
+      "vi": "Dùng formal để lịch sự với tổng đài; casual trực tiếp hơn khi đã đang trao đổi với hỗ trợ."
+    }
+  ],
+  "culture": [
+    "Khách nói tiếng Anh thường nêu thẳng vấn đề ngay từ đầu, như My order is wrong, nhưng vẫn thêm please hoặc thank you để giữ lịch sự.",
+    "Nhiều ứng dụng có thể cho khách giữ món giao nhầm vì lý do an toàn thực phẩm; không cần ngạc nhiên nếu tổng đài bảo bạn không phải trả lại.",
+    "Tiền hoàn có thể được trả vào số dư trong ứng dụng thay vì tiền mặt. Nếu muốn giao lại món, hãy nói rõ replacement meal hoặc send the right meal."
+  ],
+  "listening": {
+    "title": "Tin nhắn hỗ trợ về đơn đồ ăn",
+    "passage": "Hello, this is QuickBite support. We checked your report about the missing soup. The restaurant cannot send the soup today because it is closed now. We added credit to your app account. You can use the credit on your next order. We are sorry for the problem, and thank you for telling us.",
+    "vi": "Xin chào, đây là bộ phận hỗ trợ QuickBite. Chúng tôi đã kiểm tra báo cáo của bạn về món súp bị thiếu. Nhà hàng không thể gửi súp hôm nay vì hiện đã đóng cửa. Chúng tôi đã thêm tiền hoàn vào tài khoản ứng dụng của bạn. Bạn có thể dùng khoản tiền này cho đơn tiếp theo. Chúng tôi xin lỗi về sự cố và cảm ơn bạn đã báo cho chúng tôi.",
+    "questions": [
+      {
+        "q": "What item was missing?",
+        "choices": [
+          "The soup",
+          "The rice",
+          "The drink"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là The soup vì đoạn nghe nói about the missing soup."
+      },
+      {
+        "q": "Why cannot the restaurant send the soup?",
+        "choices": [
+          "The driver is busy",
+          "The restaurant is closed",
+          "The soup is too expensive"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The restaurant is closed vì có câu the restaurant cannot send the soup today because it is closed now."
+      },
+      {
+        "q": "What did QuickBite add to the account?",
+        "choices": [
+          "A new meal",
+          "A free drink",
+          "App credit"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là App credit vì đoạn nghe nói We added credit to your app account."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Tổng đài ứng dụng giao đồ ăn",
+      "b": "Khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, you reached QuickBite support. How can I help?",
+        "vi": "Xin chào, bạn đã gọi đến bộ phận hỗ trợ QuickBite. Tôi có thể giúp gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, my food order is wrong.",
+        "vi": "Chào, đơn đồ ăn của tôi bị sai.",
+        "hint": "Dùng My order is wrong để báo vấn đề ngắn gọn."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry about that. What is missing?",
+        "vi": "Tôi rất tiếc về việc đó. Món gì đang bị thiếu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I ordered chicken noodles, but I got rice.",
+        "vi": "Tôi đã đặt mì gà, nhưng tôi nhận được cơm.",
+        "hint": "Dùng I ordered..., but I got... để đối chiếu hai món."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks for explaining. Is the rice meal unopened?",
+        "vi": "Cảm ơn bạn đã giải thích. Suất cơm vẫn chưa mở chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, it is unopened, and I did not eat it.",
+        "vi": "Vâng, nó chưa mở, và tôi chưa ăn nó.",
+        "hint": "Did not eat diễn tả việc chưa ăn trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "I can send the right meal or give credit.",
+        "vi": "Tôi có thể gửi đúng món hoặc hoàn tiền vào ứng dụng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Please send the right meal. How long will it take?",
+        "vi": "Vui lòng gửi đúng món. Sẽ mất bao lâu?",
+        "hint": "Dùng will it take để hỏi thời gian giao lại."
+      },
+      {
+        "speaker": "a",
+        "en": "The restaurant will prepare it now. It should arrive soon.",
+        "vi": "Nhà hàng sẽ chuẩn bị món ngay bây giờ. Món sẽ sớm đến.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Do I need to return the rice meal?",
+        "vi": "Tốt quá. Tôi có cần trả lại suất cơm không?",
+        "hint": "Dùng Do I need to... để hỏi mình có cần làm gì không."
+      },
+      {
+        "speaker": "a",
+        "en": "No, you can keep it. I will contact the driver.",
+        "vi": "Không, bạn có thể giữ nó. Tôi sẽ liên hệ tài xế.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you for your help. I will wait for it.",
+        "vi": "Cảm ơn bạn đã giúp. Tôi sẽ chờ món.",
+        "hint": "Kết thúc lịch sự bằng Thank you for your help."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly food delivery app support agent. You work in a customer support center and help customers solve wrong or missing food orders calmly and clearly.",
+    "opener": "Hello, you reached QuickBite support. How can I help?",
+    "goal": "Người học báo đơn bị giao sai, nói món đã đặt, và yêu cầu giao lại đúng món."
+  },
+  "drills": [
+    {
+      "vi": "Đơn đồ ăn của tôi bị sai.",
+      "en": "My food order is wrong.",
+      "alts": [
+        "My order is wrong."
+      ]
+    },
+    {
+      "vi": "Tôi đã đặt mì gà, nhưng tôi nhận được cơm.",
+      "en": "I ordered chicken noodles, but I got rice.",
+      "alts": []
+    },
+    {
+      "vi": "Đồ uống của tôi bị thiếu.",
+      "en": "My drink is missing.",
+      "alts": [
+        "The drink is missing from my order."
+      ]
+    },
+    {
+      "vi": "Vui lòng gửi đúng món cho tôi.",
+      "en": "Please send the right meal.",
+      "alts": [
+        "Please send my correct order."
+      ]
+    },
+    {
+      "vi": "Tôi có cần trả lại món này không?",
+      "en": "Do I need to return it?",
+      "alts": []
+    },
+    {
+      "vi": "Sẽ mất bao lâu để món đến?",
+      "en": "How long will it take to arrive?",
+      "alts": [
+        "How long will it take?"
+      ]
+    },
+    {
+      "vi": "Suất ăn vẫn chưa mở.",
+      "en": "The meal is unopened.",
+      "alts": [
+        "It is unopened."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý ordered, got và will.",
+    "Tự thay chicken noodles và rice bằng ba cặp món ăn khác.",
+    "Nói một tin nhắn ngắn báo thiếu đồ uống trong đơn hàng."
+  ]
+}

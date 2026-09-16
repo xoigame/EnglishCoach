@@ -1,0 +1,386 @@
+{
+  "id": "tu-choi-lich-su-va-dut-khoat",
+  "title": "Từ chối lịch sự mà vẫn dứt khoát",
+  "topic": "Đặt ranh giới khi đồng nghiệp nhờ vả quá mức",
+  "level": "B2",
+  "summary": "Bạn từ chối một đồng nghiệp thường xuyên nhờ xử lý việc gấp vào phút chót. Bạn giữ thái độ hợp tác nhưng nói rõ giới hạn và đề xuất hỗ trợ trong phạm vi phù hợp.",
+  "goals": [
+    "Từ chối một yêu cầu công việc một cách lịch sự nhưng rõ ràng.",
+    "Giải thích ngắn gọn lý do mà không biện minh quá mức.",
+    "Đề xuất phương án thay thế và giữ vững ranh giới khi bị thuyết phục thêm."
+  ],
+  "vocab": [
+    {
+      "en": "take on",
+      "ipa": "/teɪk ɑːn/",
+      "vi": "nhận thêm một nhiệm vụ hoặc trách nhiệm",
+      "example": "I cannot take on another task this afternoon."
+    },
+    {
+      "en": "squeeze something in",
+      "ipa": "/skwiːz ˈsʌmθɪŋ ɪn/",
+      "vi": "cố chen một việc vào lịch vốn đã kín",
+      "example": "I cannot squeeze another meeting in today."
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "vi": "hạn chót",
+      "example": "I have a deadline at five o'clock."
+    },
+    {
+      "en": "at short notice",
+      "ipa": "/æt ʃɔːrt ˈnoʊtɪs/",
+      "vi": "vào phút chót, với rất ít thời gian báo trước",
+      "example": "It is difficult to change priorities at short notice."
+    },
+    {
+      "en": "in a bind",
+      "ipa": "/ɪn ə baɪnd/",
+      "vi": "đang ở trong tình thế khó xử",
+      "example": "I know you are in a bind, but I cannot cover the call."
+    },
+    {
+      "en": "tied up",
+      "ipa": "/taɪd ʌp/",
+      "vi": "bận kín, không thể rảnh tay",
+      "example": "The rest of the team is tied up this afternoon."
+    },
+    {
+      "en": "reschedule",
+      "ipa": "/ˌriːˈskedʒuːl/",
+      "vi": "dời lịch, sắp xếp lại lịch",
+      "example": "Could you reschedule the client call?"
+    },
+    {
+      "en": "set a boundary",
+      "ipa": "/set ə ˈbaʊndəri/",
+      "vi": "đặt ra giới hạn rõ ràng",
+      "example": "It is important to set a boundary when your workload is full."
+    },
+    {
+      "en": "commit to",
+      "ipa": "/kəˈmɪt tuː/",
+      "vi": "cam kết nhận hoặc thực hiện việc gì",
+      "example": "I cannot commit to helping with the presentation."
+    },
+    {
+      "en": "handle",
+      "ipa": "/ˈhændl/",
+      "vi": "xử lý, đảm nhận",
+      "example": "Can you handle the call yourself this time?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I am sorry, but I cannot ___ today.",
+      "vi": "Tôi xin lỗi, nhưng hôm nay tôi không thể ___.",
+      "note": "Mở đầu lịch sự, sau đó từ chối trực tiếp."
+    },
+    {
+      "en": "I understand it is urgent, but ___.",
+      "vi": "Tôi hiểu việc này gấp, nhưng ___.",
+      "note": "Thể hiện sự thấu cảm mà không đồng ý với yêu cầu."
+    },
+    {
+      "en": "I need to be clear: I will not be able to ___.",
+      "vi": "Tôi cần nói rõ: tôi sẽ không thể ___.",
+      "note": "Dùng khi người kia tiếp tục gây áp lực."
+    },
+    {
+      "en": "Could you ___ instead?",
+      "vi": "Bạn có thể ___ thay vào đó không?",
+      "note": "Chuyển hướng sang một giải pháp khác."
+    },
+    {
+      "en": "I can ___, as long as ___.",
+      "vi": "Tôi có thể ___, miễn là ___.",
+      "note": "Đồng ý hỗ trợ một phần nhưng đặt điều kiện rõ ràng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong available",
+      "tip": "Nhấn mạnh âm thứ hai: a-VAIL-a-ble. Không đọc đều cả bốn âm tiết.",
+      "words": [
+        "available",
+        "priority",
+        "proposal"
+      ]
+    },
+    {
+      "focus": "Âm cuối trong cannot và commit",
+      "tip": "Phát rõ phụ âm cuối, đặc biệt là âm t trong cannot và commit, để câu nghe dứt khoát hơn.",
+      "words": [
+        "cannot",
+        "commit",
+        "short"
+      ]
+    },
+    {
+      "focus": "Nối âm trong I need to be clear",
+      "tip": "Nối nhẹ need to và be clear, nhưng vẫn nhấn rõ từ clear để thể hiện ranh giới.",
+      "words": [
+        "need to",
+        "be clear",
+        "tied up"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I cannot to take it on.",
+      "right": "I cannot take it on.",
+      "vi": "Sau cannot dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "I am not free to three.",
+      "right": "I am not available at three.",
+      "vi": "Dùng at với một thời điểm cụ thể; available phù hợp hơn trong ngữ cảnh công việc."
+    },
+    {
+      "wrong": "You find someone else.",
+      "right": "Could you ask someone else on the team?",
+      "vi": "Câu sai quá ra lệnh. Dùng Could you để lịch sự hơn."
+    },
+    {
+      "wrong": "I am very busy, so no.",
+      "right": "I am sorry, but I cannot help with this today because I already have a deadline.",
+      "vi": "Câu đúng vẫn rõ ràng nhưng có lời từ chối lịch sự và một lý do ngắn gọn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Từ chối nhận thêm việc",
+      "formal": "I am afraid I cannot take this on today, as I have a prior commitment.",
+      "casual": "Sorry, I cannot take this on today. I am already booked.",
+      "vi": "Câu formal dùng với cấp trên, khách hàng hoặc đồng nghiệp chưa thân. Câu casual phù hợp với đồng nghiệp thân trong môi trường làm việc gần gũi."
+    },
+    {
+      "situation": "Đề nghị phương án khác",
+      "formal": "Would it be possible to reschedule the call or assign it to another team member?",
+      "casual": "Can you move the call or ask someone else?",
+      "vi": "Câu formal mềm và trang trọng hơn, thích hợp khi bạn không có quyền quyết định. Câu casual ngắn, tự nhiên khi nói với đồng nghiệp ngang hàng."
+    },
+    {
+      "situation": "Khẳng định ranh giới",
+      "formal": "I need to be clear that I will not be able to cover the meeting.",
+      "casual": "I cannot cover the meeting, even for a few minutes.",
+      "vi": "Dùng formal khi cần giữ giọng điệu chuyên nghiệp trong cuộc họp hoặc email. Dùng casual khi người quen vẫn tiếp tục thương lượng sau khi bạn đã từ chối."
+    },
+    {
+      "situation": "Đồng ý hỗ trợ một phần",
+      "formal": "I can send you the notes, provided that you handle the call.",
+      "casual": "I can send the notes, but I cannot join the call.",
+      "vi": "Câu formal nêu điều kiện rõ và phù hợp với trao đổi công việc chính thức. Câu casual thân thiện hơn nhưng vẫn đặt giới hạn cụ thể."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm việc nói tiếng Anh, một lời từ chối ngắn kèm lý do chung như deadline hoặc prior commitment thường đã đủ. Giải thích quá dài có thể khiến người nghe nghĩ rằng bạn vẫn đang mở cửa để thương lượng.",
+    "Nói rõ I cannot hoặc I will not be able to thường không bị xem là thô lỗ nếu giọng điệu bình tĩnh và có lời thấu cảm trước đó. Sự mơ hồ như maybe thường khiến người kia tiếp tục hỏi.",
+    "Chỉ đề xuất giải pháp thay thế khi bạn thực sự muốn hoặc có thể hỗ trợ. Việc luôn đưa ra phương án cứu hộ dễ tạo thành thói quen nhờ vả quá mức."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về cuộc gọi khách hàng",
+    "passage": "Hi, I wanted to follow up on the report I asked you about. I have decided to present it myself because you said you were tied up with the proposal, which I completely understand. If you have time, could you send me the meeting notes by the end of the day? If not, that is fine. I will work with what I have.",
+    "vi": "Chào, tôi muốn hỏi thêm về bản báo cáo mà tôi đã nhờ bạn. Tôi đã quyết định tự trình bày nó vì bạn nói rằng bạn đang bận với bản đề xuất, và tôi hoàn toàn hiểu điều đó. Nếu bạn có thời gian, bạn có thể gửi ghi chú cuộc họp cho tôi trước cuối ngày không? Nếu không thì cũng không sao. Tôi sẽ làm việc với những gì mình có.",
+    "questions": [
+      {
+        "q": "Why will the speaker present the report alone?",
+        "choices": [
+          "The client canceled the call.",
+          "The listener is busy with a proposal.",
+          "The meeting notes are missing."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói nói rằng người nghe đang tied up with the proposal, tức bận với bản đề xuất."
+      },
+      {
+        "q": "What does the speaker ask for?",
+        "choices": [
+          "The meeting notes",
+          "A new proposal",
+          "A client phone number"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói hỏi liệu người nghe có thể send me the meeting notes hay không."
+      },
+      {
+        "q": "What will happen if the listener cannot send the notes?",
+        "choices": [
+          "The speaker will cancel the report.",
+          "The speaker will ask the client to wait.",
+          "The speaker will work with the available information."
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2 vì câu cuối là I will work with what I have, nghĩa là người nói sẽ dùng thông tin hiện có."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp thường nhờ người học xử lý việc gấp vào phút chót.",
+      "b": "Người học, đang cần bảo vệ thời gian và ưu tiên công việc của mình."
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hey, do you have a minute? I need a favor.",
+        "vi": "Này, bạn có một phút không? Tôi cần nhờ một việc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. What do you need?",
+        "vi": "Được. Bạn cần gì?",
+        "hint": "Mở đầu thân thiện, nhưng chưa cam kết giúp."
+      },
+      {
+        "speaker": "a",
+        "en": "Can you cover my client call at three? I have a lot on.",
+        "vi": "Bạn có thể thay tôi xử lý cuộc gọi với khách lúc ba giờ không? Tôi đang có quá nhiều việc.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I am sorry, but I cannot take it on today. I already have a deadline.",
+        "vi": "Tôi xin lỗi, nhưng hôm nay tôi không thể nhận việc đó. Tôi đã có một hạn chót rồi.",
+        "hint": "Dùng cannot take it on để từ chối nhận thêm việc."
+      },
+      {
+        "speaker": "a",
+        "en": "It should only take twenty minutes. Could you squeeze it in?",
+        "vi": "Chắc chỉ mất hai mươi phút thôi. Bạn có thể chen nó vào lịch được không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand it is urgent, but my schedule is full. I need to finish the proposal before five.",
+        "vi": "Tôi hiểu việc này gấp, nhưng lịch của tôi đã kín. Tôi cần hoàn thành đề xuất trước năm giờ.",
+        "hint": "Thừa nhận việc gấp, rồi nêu ưu tiên của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "You helped me last week. I am really in a bind this time.",
+        "vi": "Tuần trước bạn đã giúp tôi rồi mà. Lần này tôi thực sự đang khó xử.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I did help last week, but I cannot keep changing my priorities at short notice.",
+        "vi": "Đúng là tuần trước tôi đã giúp, nhưng tôi không thể cứ thay đổi ưu tiên công việc vào phút chót.",
+        "hint": "Cụm at short notice giúp nêu vấn đề một cách chuyên nghiệp."
+      },
+      {
+        "speaker": "a",
+        "en": "Okay, but what if you just join for the first ten minutes?",
+        "vi": "Được rồi, nhưng nếu bạn chỉ tham gia mười phút đầu thì sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No, I am not available at three. Could you move the call or ask someone else on the team?",
+        "vi": "Không, tôi không rảnh lúc ba giờ. Bạn có thể dời cuộc gọi hoặc hỏi người khác trong nhóm không?",
+        "hint": "Từ chối rõ ràng rồi đề xuất hai phương án thay thế."
+      },
+      {
+        "speaker": "a",
+        "en": "Everyone else is tied up. I really need you to make an exception.",
+        "vi": "Mọi người khác đều bận kín rồi. Tôi thực sự cần bạn ngoại lệ lần này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I hear you, but I need to be clear: I will not be able to cover the call.",
+        "vi": "Tôi hiểu ý bạn, nhưng tôi cần nói rõ: tôi sẽ không thể thay bạn xử lý cuộc gọi.",
+        "hint": "Cấu trúc I need to be clear giúp giữ ranh giới khi bị gây áp lực."
+      },
+      {
+        "speaker": "a",
+        "en": "Fine. Could you at least send me the notes from last week's call?",
+        "vi": "Được rồi. Ít nhất bạn có thể gửi tôi ghi chú từ cuộc gọi tuần trước không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I can send the notes, as long as you handle the call yourself.",
+        "vi": "Có, tôi có thể gửi ghi chú, miễn là bạn tự xử lý cuộc gọi.",
+        "hint": "Đồng ý giúp một phần với điều kiện rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "That would help. I will handle it and ask the client to move it if needed. Thanks for being honest.",
+        "vi": "Như vậy sẽ hữu ích. Tôi sẽ tự xử lý và xin khách dời lịch nếu cần. Cảm ơn bạn đã nói thẳng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks for understanding. I will send the notes now, and we can talk tomorrow about a better way to share these requests.",
+        "vi": "Cảm ơn bạn đã hiểu. Tôi sẽ gửi ghi chú ngay, và ngày mai chúng ta có thể nói về cách phân chia những yêu cầu này tốt hơn.",
+        "hint": "Kết thúc tích cực và hướng tới cách làm việc bền vững hơn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly but overly dependent colleague in a busy marketing office. You often ask the learner to take on your last-minute tasks. You are persistent and try to negotiate, but you eventually respect a clear, polite boundary.",
+    "opener": "Hey, do you have a minute? I need a favor.",
+    "goal": "Người học từ chối nhận thêm việc một cách lịch sự, giữ vững ranh giới và chỉ đề nghị hỗ trợ trong phạm vi họ thực sự có thể làm."
+  },
+  "drills": [
+    {
+      "vi": "Tôi xin lỗi, nhưng hôm nay tôi không thể nhận thêm việc này.",
+      "en": "I am sorry, but I cannot take this on today.",
+      "alts": [
+        "Sorry, I cannot take on another task today."
+      ]
+    },
+    {
+      "vi": "Tôi hiểu việc này gấp, nhưng lịch của tôi đã kín.",
+      "en": "I understand it is urgent, but my schedule is full.",
+      "alts": [
+        "I know it is urgent, but I am fully booked today."
+      ]
+    },
+    {
+      "vi": "Tôi không thể chen thêm một cuộc họp vào lịch hôm nay.",
+      "en": "I cannot squeeze another meeting in today.",
+      "alts": [
+        "I do not have room for another meeting today."
+      ]
+    },
+    {
+      "vi": "Tôi cần nói rõ là tôi sẽ không thể thay bạn xử lý cuộc gọi.",
+      "en": "I need to be clear: I will not be able to cover the call.",
+      "alts": [
+        "I need to be clear that I cannot cover the call."
+      ]
+    },
+    {
+      "vi": "Bạn có thể dời lịch cuộc gọi hoặc hỏi một người khác không?",
+      "en": "Could you reschedule the call or ask someone else?",
+      "alts": [
+        "Could you move the call or find another person to handle it?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể gửi ghi chú, miễn là bạn tự xử lý cuộc gọi.",
+      "en": "I can send the notes, as long as you handle the call yourself.",
+      "alts": [
+        "I can share the notes, but I cannot join the call."
+      ]
+    },
+    {
+      "vi": "Tôi không thể cứ thay đổi ưu tiên công việc vào phút chót.",
+      "en": "I cannot keep changing my priorities at short notice.",
+      "alts": [
+        "It is hard for me to change priorities at short notice."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần lời của vai b trong hội thoại và kiểm tra xem bạn có nhấn rõ câu từ chối hay không.",
+    "Viết ba cách từ chối cùng một yêu cầu: một cách thân mật, một cách trung tính và một cách trang trọng.",
+    "Tập nói lại ba câu với I understand it is urgent, but để câu nghe bình tĩnh và dứt khoát."
+  ]
+}

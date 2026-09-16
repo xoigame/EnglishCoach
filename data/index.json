@@ -1,28 +1,84 @@
 {
-  "generatedAt": "2026-09-16T04:09:04.383Z",
+  "generatedAt": "2026-09-16T06:31:41.924Z",
   "lessons": [
+    {
+      "id": "cam-on-xin-loi-lich-su",
+      "title": "Cảm ơn, xin lỗi và phép lịch sự cơ bản",
+      "topic": "Lịch sự trên phố",
+      "level": "A1",
+      "summary": "Bạn nói chuyện với một người lạ vừa va phải mình trên phố. Bạn học cách xin lỗi, cảm ơn và kết thúc cuộc trò chuyện một cách thân thiện.",
+      "turns": 10
+    },
+    {
+      "id": "mau-sac-va-quan-ao",
+      "title": "Chọn màu và cỡ quần áo",
+      "topic": "Màu sắc và quần áo hằng ngày",
+      "level": "A1",
+      "summary": "Người học mua một chiếc áo trong cửa hàng quần áo. Bạn sẽ hỏi màu, cỡ và xin thử áo.",
+      "turns": 12
+    },
+    {
+      "id": "di-cho-mua-thuc-pham",
+      "title": "Đi chợ mua thực phẩm tươi",
+      "topic": "Mua rau quả tươi",
+      "level": "A1",
+      "summary": "Bạn mua cà chua, cà rốt và rau chân vịt ở một quầy rau quả. Bạn hỏi số lượng, chọn đồ và thanh toán.",
+      "turns": 12
+    },
+    {
+      "id": "goi-do-uong-mang-di",
+      "title": "Gọi đồ uống mang đi",
+      "topic": "Mua đồ uống mang đi",
+      "level": "A1",
+      "summary": "Bạn gọi một ly trà đá mang đi tại quầy nước. Bạn chọn cỡ ly, nói không đường và thanh toán.",
+      "turns": 12
+    },
     {
       "id": "goi-mon-o-nha-hang",
       "title": "Gọi món ở nhà hàng",
       "topic": "Gọi món ăn và đồ uống",
       "level": "A1",
-      "summary": "Bạn gọi món ăn và đồ uống tại một nhà hàng bình dân. Bạn thực hành trả lời các câu hỏi cơ bản của nhân viên phục vụ.",
+      "summary": "Bạn gọi món tại một nhà hàng nhỏ. Bạn chọn món chính, đồ uống và kết thúc gọi món lịch sự.",
+      "turns": 10
+    },
+    {
+      "id": "goi-taxi-ngan-gon",
+      "title": "Gọi taxi và nói điểm đến",
+      "topic": "Đi taxi",
+      "level": "A1",
+      "summary": "Bạn gọi taxi, nói điểm đến, hỏi thời gian và giá cước. Cuối bài, bạn xuống xe lịch sự.",
       "turns": 10
     },
     {
       "id": "hoi-duong-va-chi-duong",
       "title": "Hỏi đường và chỉ đường",
-      "topic": "Hỏi đường đến ngân hàng",
+      "topic": "Hỏi và chỉ đường",
       "level": "A1",
-      "summary": "Người học hỏi đường đến ngân hàng và nhận chỉ dẫn đơn giản từ một người đi đường thân thiện.",
-      "turns": 12
+      "summary": "Bạn học cách hỏi đường đến một địa điểm quen thuộc và chỉ đường ngắn gọn bằng mốc dễ nhận biết. Tình huống là một người đi đường đang tìm ngân hàng gần nhất.",
+      "turns": 10
+    },
+    {
+      "id": "hoi-gia-va-tra-gia",
+      "title": "Hỏi giá và trả giá đơn giản ở chợ",
+      "topic": "Hỏi giá và trả giá ở chợ",
+      "level": "A1",
+      "summary": "Bạn hỏi giá một chiếc khăn ở chợ du lịch, đề nghị giá thấp hơn và mua hàng. Bài học giúp bạn trả giá lịch sự bằng các câu ngắn, tự nhiên.",
+      "turns": 10
+    },
+    {
+      "id": "hoi-tham-suc-khoe",
+      "title": "Hỏi thăm sức khỏe khi đồng nghiệp bị ốm",
+      "topic": "Hỏi thăm đồng nghiệp bị ốm",
+      "level": "A1",
+      "summary": "Bạn hỏi thăm một đồng nghiệp vừa quay lại làm việc sau khi bị ốm. Bạn thực hành hỏi tình trạng sức khỏe và kết thúc cuộc nói chuyện một cách thân thiện.",
+      "turns": 10
     },
     {
       "id": "mot-ngay-cua-toi",
-      "title": "Kể về một ngày bình thường của tôi",
-      "topic": "Sinh hoạt hằng ngày",
+      "title": "Kể về một ngày bình thường của bạn",
+      "topic": "Một ngày bình thường",
       "level": "A1",
-      "summary": "Người học kể ngắn gọn về thói quen trong một ngày bình thường. Bài tập tập trung vào thì hiện tại đơn và trạng từ tần suất.",
+      "summary": "Bạn tập kể về lịch sinh hoạt hằng ngày bằng thì hiện tại đơn. Bài học nhấn mạnh các trạng từ tần suất như usually, often và always.",
       "turns": 10
     },
     {
@@ -30,79 +86,127 @@
       "title": "Làm quen và giới thiệu bản thân",
       "topic": "Chào hỏi và giới thiệu",
       "level": "A1",
-      "summary": "Bạn gặp một đồng nghiệp mới vào ngày đầu đi làm. Bạn chào hỏi, giới thiệu tên và nói về nhóm làm việc của mình.",
+      "summary": "Bạn gặp một đồng nghiệp mới trong ngày đầu đi làm. Hai người chào hỏi, giới thiệu tên và nói về nhóm làm việc.",
       "turns": 10
     },
     {
+      "id": "mo-ta-nha-cua",
+      "title": "Mô tả nhà và phòng của bạn",
+      "topic": "Nhà và các phòng",
+      "level": "A1",
+      "summary": "Bạn đón một người bạn lần đầu đến chơi nhà. Bạn giới thiệu các phòng và mô tả ngắn về căn nhà của mình.",
+      "turns": 12
+    },
+    {
       "id": "mua-sam-o-sieu-thi",
-      "title": "Mua sắm ở siêu thị",
+      "title": "Mua sắm ở siêu thị và cửa hàng tiện lợi",
       "topic": "Thanh toán tại quầy thu ngân",
       "level": "A1",
-      "summary": "Bạn mua vài món ở siêu thị hoặc cửa hàng tiện lợi và thanh toán tại quầy. Bạn học cách hỏi túi, trả bằng thẻ và xin hóa đơn.",
-      "turns": 10
+      "summary": "Bạn mua vài món đồ và thanh toán tại quầy thu ngân. Bạn sẽ hỏi về túi, cách trả bằng thẻ và hóa đơn.",
+      "turns": 11
     },
     {
       "id": "gia-dinh-va-ban-be",
       "title": "Nói về gia đình và bạn bè",
       "topic": "Gia đình và bạn bè",
       "level": "A1",
-      "summary": "Người học trò chuyện với một bạn cùng lớp tiếng Anh sau giờ học. Hai bạn giới thiệu về anh chị em và hoạt động với bạn bè.",
-      "turns": 12
+      "summary": "Bạn làm quen với một bạn cùng lớp tiếng Anh và trò chuyện ngắn về gia đình, anh chị em và bạn bè.",
+      "turns": 10
     },
     {
       "id": "noi-ve-thoi-tiet",
       "title": "Nói về thời tiết và kế hoạch trong ngày",
       "topic": "Thời tiết và kế hoạch hằng ngày",
       "level": "A1",
-      "summary": "Bạn trò chuyện với người hàng xóm vào buổi sáng về thời tiết và những việc làm trong ngày.",
+      "summary": "Bạn gặp người hàng xóm vào buổi sáng và trò chuyện ngắn về thời tiết cùng kế hoạch trong ngày. Bạn sẽ luyện hỏi kế hoạch, nói việc mình làm và đề nghị giúp đỡ.",
       "turns": 10
     },
     {
       "id": "so-dem-gio-giac-lich-hen",
       "title": "Số đếm, giờ giấc và lịch hẹn",
-      "topic": "Số đếm, giờ giấc và hẹn gặp",
+      "topic": "Hẹn đi xem phim",
       "level": "A1",
-      "summary": "Người học nhận lời rủ đi xem phim và thống nhất thời gian, ngày gặp, giá vé. Bài học luyện nói số đếm, giờ và tiền bằng các câu ngắn, tự nhiên.",
+      "summary": "Bạn học cách hỏi giờ, chọn ngày gặp và nói giá vé khi hẹn một người bạn đi xem phim.",
       "turns": 10
+    },
+    {
+      "id": "so-thich-va-thoi-gian-ranh",
+      "title": "Sở thích và thời gian rảnh",
+      "topic": "Sở thích và thời gian rảnh",
+      "level": "A1",
+      "summary": "Bạn làm quen với một người bạn mới và trò chuyện ngắn về sở thích. Bạn sẽ nói mình thích gì và thường làm gì lúc rảnh.",
+      "turns": 10
+    },
+    {
+      "id": "chao-tam-biet-hen-gap-lai",
+      "title": "Tạm biệt và hẹn gặp lại",
+      "topic": "Chào tạm biệt sau khi đi cà phê",
+      "level": "A1",
+      "summary": "Bạn vừa đi cà phê cùng một người bạn và chuẩn bị ra về. Học cách chào tạm biệt, hỏi thời gian rảnh và hẹn gặp lại.",
+      "turns": 10
+    },
+    {
+      "id": "thu-cung-va-dong-vat",
+      "title": "Thú cưng và động vật",
+      "topic": "Nói chuyện về thú cưng với hàng xóm",
+      "level": "A1",
+      "summary": "Bạn gặp người hàng xóm đang dắt chó đi dạo và trò chuyện ngắn về thú cưng. Bạn học cách hỏi tên, tính thân thiện và sở thích của một con vật.",
+      "turns": 10
+    },
+    {
+      "id": "trong-lop-hoc",
+      "title": "Trong lớp học: Hỏi lại và xin phép",
+      "topic": "Trong lớp học",
+      "level": "A1",
+      "summary": "Người học hỏi lại khi chưa nghe rõ và xin phép làm vài việc đơn giản trong lớp. Bài luyện các câu ngắn, lịch sự với giáo viên.",
+      "turns": 10
+    },
+    {
+      "id": "dat-ban-nha-hang",
+      "title": "Đặt bàn nhà hàng và đổi giờ hẹn",
+      "topic": "Đặt bàn và thay đổi giờ dùng bữa",
+      "level": "A2",
+      "summary": "Bạn gọi đến nhà hàng để đặt bàn cho hai người. Sau đó, bạn lịch sự đổi giờ hẹn và yêu cầu chỗ ngồi gần cửa sổ.",
+      "turns": 12
+    },
+    {
+      "id": "dat-do-an-online",
+      "title": "Đặt đồ ăn online và báo giao hàng sai",
+      "topic": "Báo đơn đồ ăn bị giao sai",
+      "level": "A2",
+      "summary": "Bạn liên hệ tổng đài ứng dụng giao đồ ăn vì nhận sai món. Bạn mô tả vấn đề, chọn cách xử lý và xác nhận thời gian giao lại.",
+      "turns": 12
     },
     {
       "id": "dat-lich-kham-benh",
       "title": "Đặt lịch khám và mô tả triệu chứng",
-      "topic": "Đặt lịch khám bệnh",
+      "topic": "Khám bệnh tại phòng khám",
       "level": "A2",
-      "summary": "Bạn gọi đến phòng khám để đặt lịch và mô tả các triệu chứng đơn giản. Bạn sẽ chọn thời gian khám, cung cấp thông tin liên hệ và nhận xác nhận lịch hẹn.",
-      "turns": 13
+      "summary": "Người học gọi đến phòng khám để đặt lịch hẹn và mô tả các triệu chứng đơn giản. Bài học giúp xác nhận giờ hẹn và biết cần mang theo gì.",
+      "turns": 12
     },
     {
       "id": "dat-phong-khach-san",
       "title": "Đặt phòng và nhận phòng khách sạn",
       "topic": "Khách sạn",
       "level": "A2",
-      "summary": "Người học xác nhận đặt phòng và làm thủ tục nhận phòng tại khách sạn. Cuối tình huống, người học nhận thẻ phòng và hỏi mật khẩu Wi-Fi.",
-      "turns": 12
-    },
-    {
-      "id": "hoi-duong-tau-xe-buyt",
-      "title": "Đi tàu điện và xe buýt ở nước ngoài",
-      "topic": "Hỏi đường đi tàu điện và xe buýt",
-      "level": "A2",
-      "summary": "Người học hỏi nhân viên nhà ga cách đi tàu điện đến bảo tàng và bắt xe buýt chặng cuối. Bài học luyện hỏi tuyến, điểm xuống và cách thanh toán.",
-      "turns": 12
+      "summary": "Bạn thực hành nhận phòng tại khách sạn với một đặt phòng có sẵn. Bạn sẽ xác nhận thông tin, hỏi bữa sáng và nhận thẻ phòng.",
+      "turns": 13
     },
     {
       "id": "di-taxi-va-grab",
       "title": "Đi taxi và gọi xe công nghệ",
-      "topic": "Taxi và gọi xe công nghệ",
+      "topic": "Đi taxi và gọi xe",
       "level": "A2",
-      "summary": "Người học gặp tài xế Grab, xác nhận điểm đến và hỏi về tuyến đường, thời gian, thanh toán. Tình huống kết thúc khi xe đến nơi.",
-      "turns": 12
+      "summary": "Bạn đã đặt xe công nghệ và gặp tài xế để đi đến sân bay. Bạn luyện nói điểm đến, tuyến đường, điểm dừng và cách thanh toán.",
+      "turns": 14
     },
     {
       "id": "goi-dien-thoai-co-ban",
       "title": "Gọi điện thoại: Để lại lời nhắn và hẹn gọi lại",
-      "topic": "Gọi điện và để lại lời nhắn",
+      "topic": "Gọi điện thoại ở văn phòng",
       "level": "A2",
-      "summary": "Người học gọi đến phòng khám để gặp một người đang bận. Người học để lại lời nhắn, đánh vần tên và xác nhận số điện thoại để được gọi lại.",
+      "summary": "Bạn gọi đến một văn phòng để tìm Maya Parker. Cô ấy vắng mặt, nên bạn để lại lời nhắn, đánh vần tên và đọc số điện thoại để hẹn cô ấy gọi lại.",
       "turns": 13
     },
     {
@@ -110,15 +214,39 @@
       "title": "Gọi đồ ở quán cà phê",
       "topic": "Gọi đồ uống và đồ ăn nhẹ",
       "level": "A2",
-      "summary": "Bạn gọi một ly latte, chọn cỡ ly và loại sữa, rồi thanh toán tại quầy. Bạn cũng gọi thêm một chiếc bánh muffin.",
+      "summary": "Bạn gọi một ly cà phê và bánh tại quầy, chọn loại sữa, điều chỉnh độ ngọt và thanh toán bằng thẻ.",
       "turns": 12
+    },
+    {
+      "id": "gui-buu-pham",
+      "title": "Gửi bưu phẩm ở bưu điện",
+      "topic": "Gửi bưu phẩm",
+      "level": "A2",
+      "summary": "Bạn gửi một gói quà sinh nhật đến Canada tại bưu điện. Bạn chọn cách giao hàng, điền mẫu đơn và thanh toán.",
+      "turns": 13
+    },
+    {
+      "id": "hoi-duong-tau-xe-buyt",
+      "title": "Hỏi đường đi tàu điện và xe buýt",
+      "topic": "Đi tàu điện và xe buýt ở nước ngoài",
+      "level": "A2",
+      "summary": "Bạn hỏi nhân viên nhà ga cách đến bảo tàng bằng tàu điện và xe buýt. Bạn cũng học cách hỏi về vé, sân ga và điểm chuyển tuyến.",
+      "turns": 12
+    },
+    {
+      "id": "hoi-wifi-va-tien-nghi",
+      "title": "Hỏi Wi-Fi, bữa sáng và tiện nghi khách sạn",
+      "topic": "Khách sạn",
+      "level": "A2",
+      "summary": "Bạn là khách lưu trú và cần hỏi lễ tân ca đêm về Wi-Fi, bữa sáng và các tiện nghi trong phòng. Bạn sẽ luyện cách hỏi lịch sự, rõ ràng và tự nhiên.",
+      "turns": 13
     },
     {
       "id": "ke-ve-cuoi-tuan",
       "title": "Kể về cuối tuần vừa rồi",
       "topic": "Cuối tuần vừa rồi",
       "level": "A2",
-      "summary": "Bạn trò chuyện với một đồng nghiệp thân vào sáng thứ Hai về những hoạt động cuối tuần. Bài học nhấn mạnh thì quá khứ đơn và các động từ bất quy tắc thông dụng.",
+      "summary": "Bạn trò chuyện với một đồng nghiệp thân vào sáng thứ Hai về những việc đã làm cuối tuần. Bài học tập trung vào thì quá khứ đơn và các động từ bất quy tắc thông dụng.",
       "turns": 12
     },
     {
@@ -126,7 +254,23 @@
       "title": "Làm thủ tục ở sân bay và qua cửa an ninh",
       "topic": "Làm thủ tục chuyến bay",
       "level": "A2",
-      "summary": "Bạn làm thủ tục cho chuyến bay, ký gửi hành lý và hỏi đường đến cửa an ninh. Bạn cũng học cách hỏi về giờ lên máy bay.",
+      "summary": "Bạn làm thủ tục cho chuyến bay quốc tế, gửi hành lý và hỏi đường đến khu vực an ninh. Bạn luyện các câu lịch sự, ngắn gọn thường dùng tại sân bay.",
+      "turns": 12
+    },
+    {
+      "id": "len-ke-hoach-di-choi",
+      "title": "Lên kế hoạch đi chơi với bạn",
+      "topic": "Hẹn bạn đi chơi cuối tuần",
+      "level": "A2",
+      "summary": "Bạn và một người bạn thân cùng chọn hoạt động, giờ gặp và nơi ăn nhẹ vào cuối tuần. Bài học giúp người học rủ bạn, đề xuất ý tưởng và chốt kế hoạch đơn giản.",
+      "turns": 12
+    },
+    {
+      "id": "mo-ta-nguoi-va-tinh-cach",
+      "title": "Mô tả ngoại hình và tính cách trong đám đông",
+      "topic": "Tìm người quen trong đám đông",
+      "level": "A2",
+      "summary": "Bạn giúp một người đang tìm bạn Minh trong một buổi tiệc đông người. Bạn sẽ hỏi về ngoại hình, quần áo và tính cách để nhận ra anh ấy.",
       "turns": 12
     },
     {
@@ -134,15 +278,127 @@
       "title": "Mua quần áo, thử đồ và đổi trả hàng",
       "topic": "Mua sắm quần áo",
       "level": "A2",
-      "summary": "Bạn đổi một chiếc quần jeans mua hôm qua vì bị chật, thử cỡ mới và mua thêm áo phông. Bạn luyện cách hỏi cỡ, phòng thử đồ và thanh toán.",
+      "summary": "Bạn đổi một chiếc quần jeans không vừa, thử cỡ khác và mua thêm áo len. Bài học luyện hỏi phòng thử đồ, cỡ quần áo và dùng tiền hoàn lại.",
       "turns": 12
+    },
+    {
+      "id": "mua-ve-tham-quan",
+      "title": "Mua vé tham quan và hỏi giờ mở cửa",
+      "topic": "Mua vé bảo tàng",
+      "level": "A2",
+      "summary": "Người học mua vé vào bảo tàng, hỏi giờ mở cửa và hỏi về tour tiếng Anh. Bài học giúp dùng các câu lịch sự, ngắn gọn trong tình huống thực tế.",
+      "turns": 13
+    },
+    {
+      "id": "noi-chuyen-voi-hang-xom",
+      "title": "Nói chuyện với hàng xóm mới chuyển đến",
+      "topic": "Làm quen với hàng xóm mới",
+      "level": "A2",
+      "summary": "Bạn gặp một hàng xóm người nước ngoài vừa chuyển đến cạnh nhà. Bạn chào hỏi, giới thiệu bản thân, giúp họ tìm địa điểm gần đó và hẹn gặp cuối tuần.",
+      "turns": 12
+    },
+    {
+      "id": "o-tiem-cat-toc",
+      "title": "Ở tiệm cắt tóc: mô tả kiểu tóc bạn muốn",
+      "topic": "Mô tả kiểu tóc ở tiệm cắt tóc",
+      "level": "A2",
+      "summary": "Bạn học cách nói kiểu tóc mong muốn với thợ cắt tóc. Bạn sẽ mô tả độ dài hai bên, phần tóc trên đầu và các yêu cầu thêm.",
+      "turns": 12
+    },
+    {
+      "id": "qua-cua-hai-quan",
+      "title": "Qua cửa hải quan và nhập cảnh",
+      "topic": "Hải quan và nhập cảnh",
+      "level": "A2",
+      "summary": "Bạn luyện trả lời các câu hỏi cơ bản của nhân viên xuất nhập cảnh khi đến sân bay quốc tế. Bạn sẽ nói về mục đích chuyến đi, thời gian lưu trú, nơi ở và đồ cần khai báo.",
+      "turns": 12
+    },
+    {
+      "id": "thue-xe-may-xe-dap",
+      "title": "Thuê xe máy hoặc xe đạp",
+      "topic": "Thuê xe",
+      "level": "A2",
+      "summary": "Bạn thuê một chiếc xe máy tay ga trong một ngày tại cửa hàng cho thuê. Bạn hỏi về giá, bảo hiểm, cách thanh toán và giờ trả xe.",
+      "turns": 12
+    },
+    {
+      "id": "tra-phong-va-thanh-toan",
+      "title": "Trả phòng và kiểm tra hóa đơn",
+      "topic": "Trả phòng khách sạn",
+      "level": "A2",
+      "summary": "Bạn trả phòng tại quầy lễ tân, kiểm tra một khoản minibar không đúng và thanh toán bằng thẻ. Bạn cũng học cách xin biên lai lịch sự.",
+      "turns": 12
+    },
+    {
+      "id": "tren-may-bay",
+      "title": "Trên máy bay: đổi chỗ, gọi đồ, nhờ giúp",
+      "topic": "Giao tiếp với tiếp viên hàng không",
+      "level": "A2",
+      "summary": "Bạn trao đổi với tiếp viên để đổi sang ghế lối đi, gọi nước và nhờ cất hành lý. Bài học giúp bạn nói lịch sự trong các tình huống phổ biến trên máy bay.",
+      "turns": 12
+    },
+    {
+      "id": "bao-cao-su-co-cho-quan-ly",
+      "title": "Báo cáo sự cố và đề xuất cách xử lý",
+      "topic": "Báo cáo sự cố tại nơi làm việc",
+      "level": "B1",
+      "summary": "Người học báo cáo một lỗi giao hàng với quản lý trực tiếp. Sau đó, người học giải thích nguyên nhân, đề xuất giải pháp và xác nhận việc xử lý.",
+      "turns": 14
+    },
+    {
+      "id": "dat-lich-hop-va-doi-lich",
+      "title": "Đặt lịch họp và xin đổi lịch",
+      "topic": "Sắp xếp và thay đổi lịch họp",
+      "level": "B1",
+      "summary": "Bạn liên hệ với trợ lý của đối tác để đặt lịch họp, sau đó xin đổi giờ vì lịch di chuyển thay đổi. Cuối cùng, hai bên chốt thời gian và địa điểm mới.",
+      "turns": 14
+    },
+    {
+      "id": "giai-thich-quy-trinh",
+      "title": "Giải thích quy trình gửi yêu cầu",
+      "topic": "Giải thích quy trình theo từng bước",
+      "level": "B1",
+      "summary": "Bạn hướng dẫn một đồng nghiệp mới cách hoàn thành và gửi biểu mẫu yêu cầu nội bộ. Bài học giúp bạn giải thích thứ tự công việc, lý do và cách xử lý khi có thay đổi.",
+      "turns": 14
+    },
+    {
+      "id": "goi-dien-ho-tro-ky-thuat",
+      "title": "Gọi tổng đài hỗ trợ kỹ thuật",
+      "topic": "Hỗ trợ sự cố internet tại nhà",
+      "level": "B1",
+      "summary": "Bạn gọi tổng đài vì mạng internet tại nhà không hoạt động. Bạn mô tả sự cố, nêu các bước đã thử và nhận thông tin khắc phục.",
+      "turns": 14
+    },
+    {
+      "id": "mua-bao-hiem-va-hoi-dieu-khoan",
+      "title": "Hỏi điều khoản bảo hiểm trước khi mua",
+      "topic": "Tư vấn điều khoản bảo hiểm",
+      "level": "B1",
+      "summary": "Bạn trao đổi với nhân viên tư vấn để hiểu phạm vi chi trả, mức phí và các điều khoản quan trọng trước khi mua bảo hiểm.",
+      "turns": 14
     },
     {
       "id": "hop-nhom-hang-tuan",
       "title": "Họp nhóm hằng tuần: Báo cáo tiến độ và vướng mắc",
-      "topic": "Cập nhật tiến độ công việc và xin hỗ trợ",
+      "topic": "Báo cáo tiến độ trong cuộc họp nhóm",
       "level": "B1",
-      "summary": "Người học báo cáo tiến độ trong buổi họp nhóm hằng tuần với quản lý trực tiếp. Người học nêu vướng mắc, giải thích nguyên nhân và thống nhất kế hoạch hoàn thành.",
+      "summary": "Bạn báo cáo công việc đã hoàn thành, tiến độ hiện tại và các vướng mắc với quản lý trực tiếp. Cuối buổi, hai bên thống nhất bước hỗ trợ tiếp theo.",
+      "turns": 14
+    },
+    {
+      "id": "tham-gia-hop-online",
+      "title": "Họp online: xin phát biểu và xử lý sự cố đường truyền",
+      "topic": "Họp trực tuyến",
+      "level": "B1",
+      "summary": "Bạn tham gia một cuộc họp dự án trực tuyến, xin góp ý về tiến độ và xử lý kết nối không ổn định. Bạn cũng đề xuất điều chỉnh thời hạn một cách lịch sự.",
+      "turns": 14
+    },
+    {
+      "id": "huong-dan-dong-nghiep-moi",
+      "title": "Hướng dẫn đồng nghiệp mới trong tuần đầu",
+      "topic": "Làm quen và nhận hướng dẫn công việc",
+      "level": "B1",
+      "summary": "Bạn vào vai một đồng nghiệp giàu kinh nghiệm, hướng dẫn nhân viên mới trong ngày đầu tiên. Bài học giúp người học chỉ dẫn công việc, giải thích lý do và phản hồi lịch sự.",
       "turns": 14
     },
     {
@@ -150,79 +406,159 @@
       "title": "Mô tả triệu chứng chi tiết với bác sĩ",
       "topic": "Khám bệnh và mô tả triệu chứng",
       "level": "B1",
-      "summary": "Người học trao đổi với bác sĩ về đau đầu, sốt và các triệu chứng đi kèm. Bài học tập trung vào cách mô tả diễn biến, mức độ và tiền sử dị ứng.",
-      "turns": 15
+      "summary": "Bạn đi khám vì đau đầu kéo dài và trả lời các câu hỏi chi tiết của bác sĩ. Bài học giúp bạn nói rõ thời gian, mức độ, triệu chứng đi kèm và khi nào cần tái khám.",
+      "turns": 14
     },
     {
       "id": "lam-viec-voi-ngan-hang",
       "title": "Mở tài khoản và xử lý vấn đề ở ngân hàng",
-      "topic": "Giao dịch ngân hàng",
+      "topic": "Giao dịch tại ngân hàng",
       "level": "B1",
-      "summary": "Bạn đến ngân hàng để mở tài khoản nhận lương và nhờ xử lý lỗi đăng nhập ứng dụng. Cuối buổi, tài khoản được mở và quyền truy cập được khôi phục.",
+      "summary": "Bạn mở tài khoản thanh toán để nhận lương và xử lý sự khác nhau giữa tên trên giấy tờ. Cuối buổi, tài khoản được mở và thẻ ghi nợ được đặt.",
       "turns": 14
     },
     {
-      "id": "small-talk-van-phong",
-      "title": "Nói chuyện xã giao ở văn phòng và trong thang máy",
-      "topic": "Small talk nơi công sở",
+      "id": "noi-ve-muc-tieu-nghe-nghiep",
+      "title": "Nói về mục tiêu nghề nghiệp và lý do đổi việc",
+      "topic": "Phỏng vấn tuyển dụng",
       "level": "B1",
-      "summary": "Bạn gặp một đồng nghiệp phòng khác trong thang máy và bắt chuyện về công việc. Cuộc trò chuyện tự nhiên chuyển từ làm quen sang trao đổi ý kiến về một chiến dịch mới.",
+      "summary": "Bạn tham gia một buổi phỏng vấn và chia sẻ về công việc hiện tại, mục tiêu nghề nghiệp và lý do muốn chuyển việc. Bạn học cách trình bày tích cực, rõ ràng và chuyên nghiệp.",
+      "turns": 15
+    },
+    {
+      "id": "o-hieu-thuoc",
+      "title": "Ở hiệu thuốc: hỏi liều dùng và tác dụng phụ",
+      "topic": "Hỏi cách dùng thuốc ho và tác dụng phụ",
+      "level": "B1",
+      "summary": "Người học mua thuốc ho tại hiệu thuốc, hỏi về liều dùng, cách uống và tác dụng phụ. Bài học cũng luyện cách cung cấp thông tin về thuốc đang dùng và biết khi nào cần gặp bác sĩ.",
       "turns": 14
     },
     {
       "id": "phan-nan-va-khieu-nai",
       "title": "Phàn nàn về dịch vụ và yêu cầu bồi thường",
-      "topic": "Khiếu nại dịch vụ giao hàng",
+      "topic": "Khiếu nại tại cửa hàng",
       "level": "B1",
-      "summary": "Người học phàn nàn với quản lý cửa hàng về đơn hàng giao trễ và bị hư hỏng. Bài học tập trung vào cách nói lịch sự nhưng dứt khoát để yêu cầu hoàn tiền hoặc bồi thường.",
-      "turns": 15
+      "summary": "Bạn phàn nàn với quản lý về sản phẩm hỏng và giao hàng trễ. Bạn học cách yêu cầu hoàn tiền và bồi thường một cách lịch sự nhưng dứt khoát.",
+      "turns": 14
     },
     {
       "id": "phong-van-xin-viec",
       "title": "Phỏng vấn xin việc vòng đầu",
-      "topic": "Phỏng vấn tuyển dụng",
+      "topic": "Phỏng vấn xin việc",
       "level": "B1",
-      "summary": "Luyện trả lời những câu hỏi phổ biến trong vòng phỏng vấn đầu tiên cho vị trí chăm sóc khách hàng. Người học giới thiệu kinh nghiệm, nêu ví dụ xử lý tình huống và hỏi về công việc.",
+      "summary": "Bạn tham gia vòng phỏng vấn đầu tiên cho vị trí chăm sóc khách hàng tại một công ty phần mềm. Bạn giới thiệu bản thân, nêu kinh nghiệm và trả lời câu hỏi tình huống.",
+      "turns": 15
+    },
+    {
+      "id": "small-talk-van-phong",
+      "title": "Small talk ở văn phòng và trong thang máy",
+      "topic": "Trò chuyện ngắn với đồng nghiệp",
+      "level": "B1",
+      "summary": "Bạn gặp một đồng nghiệp từ phòng khác trong thang máy và bắt đầu trò chuyện tự nhiên. Cuộc nói chuyện đi từ chào hỏi đến chia sẻ công việc và hẹn uống cà phê.",
+      "turns": 14
+    },
+    {
+      "id": "thao-luan-ngan-sach-nho",
+      "title": "Thảo luận ngân sách cho một hạng mục nhỏ",
+      "topic": "Ngân sách cho bữa trưa nhóm",
+      "level": "B1",
+      "summary": "Bạn trao đổi với kế toán công ty để chốt ngân sách cho một bữa trưa nhỏ của nhóm. Bạn sẽ nêu ý kiến, giải thích lý do và thống nhất các giấy tờ cần gửi.",
+      "turns": 14
+    },
+    {
+      "id": "trao-doi-qua-email",
+      "title": "Trao đổi email công việc và tóm tắt bằng lời",
+      "topic": "Phối hợp email về lịch họp với khách hàng",
+      "level": "B1",
+      "summary": "Bạn trao đổi với đồng nghiệp ở chi nhánh khác về nội dung trả lời email của khách hàng. Cuối cuộc nói chuyện, bạn tóm tắt các điểm cần đưa vào email.",
       "turns": 14
     },
     {
       "id": "trinh-bay-y-tuong-ngan",
-      "title": "Trình bày ý tưởng trong 3 phút và trả lời câu hỏi",
-      "topic": "Thuyết trình ý tưởng sản phẩm ngắn",
+      "title": "Trình bày ý tưởng ngắn và trả lời câu hỏi",
+      "topic": "Trình bày ý tưởng sản phẩm",
       "level": "B1",
-      "summary": "Bạn trình bày một ý tưởng cải tiến ứng dụng học nói trong cuộc họp với Trưởng phòng sản phẩm. Sau phần trình bày, bạn trả lời các câu hỏi về lợi ích, số liệu và rủi ro.",
-      "turns": 15
+      "summary": "Bạn trình bày một ý tưởng sản phẩm trong ba phút trước trưởng phòng sản phẩm. Sau đó, bạn trả lời câu hỏi về lợi ích, bằng chứng, rủi ro và nguồn lực cần thiết.",
+      "turns": 14
     },
     {
       "id": "thue-nha-va-ky-hop-dong",
       "title": "Xem nhà, hỏi điều khoản và ký hợp đồng thuê",
-      "topic": "Thuê căn hộ",
+      "topic": "Thuê nhà",
       "level": "B1",
-      "summary": "Người học xem một căn hộ, hỏi về giá thuê, tiền cọc, sửa chữa và thời hạn báo trước. Cuối cùng, người học đồng ý các điều khoản và ký hợp đồng thuê.",
+      "summary": "Bạn xem một căn hộ, hỏi về tiền thuê, thời hạn hợp đồng, tiền đặt cọc và vật nuôi. Cuối buổi, bạn đồng ý các điều khoản và ký hợp đồng thuê.",
+      "turns": 16
+    },
+    {
+      "id": "xin-nghi-phep",
+      "title": "Xin nghỉ phép và bàn giao công việc",
+      "topic": "Nghỉ phép tại nơi làm việc",
+      "level": "B1",
+      "summary": "Người học trao đổi với quản lý trực tiếp để xin nghỉ phép vì việc gia đình. Họ trình bày kế hoạch bàn giao, sắp xếp người hỗ trợ và hoàn tất đơn nghỉ.",
+      "turns": 14
+    },
+    {
+      "id": "xu-ly-hieu-lam",
+      "title": "Xử lý hiểu lầm trong giao tiếp công việc",
+      "topic": "Làm rõ ý trong công việc",
+      "level": "B1",
+      "summary": "Bạn cần làm rõ với đồng nghiệp rằng chỉ buổi diễn tập nội bộ thay đổi, không phải buổi trình bày với khách hàng. Bài học giúp bạn giải thích ý định, kiểm tra lại thông tin và thống nhất cách xử lý.",
       "turns": 14
     },
     {
       "id": "su-co-chuyen-bay",
-      "title": "Xử lý sự cố chuyến bay và hành lý",
-      "topic": "Hoãn chuyến, thất lạc hành lý",
+      "title": "Xử lý hoãn chuyến và thất lạc hành lý",
+      "topic": "Sự cố tại sân bay",
       "level": "B1",
-      "summary": "Bạn trao đổi với nhân viên quầy hỗ trợ khi chuyến bay bị hoãn và hành lý chưa đến. Bạn sẽ xin đổi chuyến, hỏi hỗ trợ khách sạn và báo thất lạc hành lý.",
+      "summary": "Bạn làm việc với nhân viên quầy hỗ trợ khi lỡ chuyến nối vì bị hoãn và hành lý chưa đến. Bạn học cách yêu cầu hỗ trợ, hỏi bồi hoàn và xác nhận việc giao hành lý.",
       "turns": 14
     },
     {
       "id": "quan-ly-deadline-tre",
       "title": "Báo tin dự án trễ hạn và đề xuất phương án",
-      "topic": "Quản lý dự án trễ hạn",
+      "topic": "Quản lý trễ hạn dự án",
       "level": "B2",
-      "summary": "Bạn đóng vai quản lý dự án, thông báo dự án bị trễ hạn cho một khách hàng khó tính. Bạn cần giải thích nguyên nhân, thương lượng phạm vi bàn giao và chốt kế hoạch khắc phục.",
+      "summary": "Bạn là quản lý dự án cần thông báo với một khách hàng khó tính rằng dự án sẽ trễ hạn. Bạn giải thích nguyên nhân, thương lượng phương án bàn giao và chốt cam kết rõ ràng.",
+      "turns": 16
+    },
+    {
+      "id": "dan-dat-cuoc-hop",
+      "title": "Dẫn dắt cuộc họp và giữ đúng thời lượng",
+      "topic": "Điều phối cuộc họp đúng giờ",
+      "level": "B2",
+      "summary": "Bạn là người điều phối một cuộc họp lập kế hoạch ngắn. Bạn cần lịch sự ngắt lời một thành viên hay nói lan man, đưa nhóm trở lại trọng tâm và kết thúc đúng giờ.",
+      "turns": 16
+    },
+    {
+      "id": "dam-phan-gia-nha-cung-cap",
+      "title": "Đàm phán giá với nhà cung cấp",
+      "topic": "Thương lượng giá và điều khoản mua hàng",
+      "level": "B2",
+      "summary": "Bạn là đại diện bên mua đang thương lượng giá, số lượng, bao bì và điều khoản thanh toán với nhà cung cấp. Học cách nhượng bộ có điều kiện để chốt một thỏa thuận công bằng.",
       "turns": 16
     },
     {
       "id": "phan-hoi-dong-nghiep",
       "title": "Đưa và nhận phản hồi trong đánh giá hiệu suất",
-      "topic": "Phản hồi trong buổi đánh giá hiệu suất",
+      "topic": "Phản hồi trong đánh giá hiệu suất",
       "level": "B2",
-      "summary": "Người học trao đổi với quản lý trực tiếp trong buổi đánh giá hiệu suất. Họ tiếp nhận phản hồi, làm rõ điểm cần cải thiện và cùng thống nhất kế hoạch hành động.",
+      "summary": "Bạn tham gia buổi đánh giá hiệu suất với quản lý trực tiếp. Bạn học cách đón nhận phản hồi, nêu quan điểm, xin ví dụ cụ thể và thống nhất kế hoạch cải thiện.",
+      "turns": 16
+    },
+    {
+      "id": "giai-thich-ky-thuat-cho-nguoi-ngoai-nganh",
+      "title": "Giải thích vấn đề kỹ thuật cho người không chuyên",
+      "topic": "Hỗ trợ sự cố truy cập tệp",
+      "level": "B2",
+      "summary": "Người học đóng vai nhân viên hỗ trợ kỹ thuật, giải thích sự cố truy cập thư mục dùng chung cho một khách hàng không rành công nghệ. Bài học luyện cách giải thích rõ ràng, trấn an khách hàng và thống nhất phương án xử lý.",
+      "turns": 16
+    },
+    {
+      "id": "ke-chuyen-thuyet-phuc",
+      "title": "Kể chuyện để thuyết phục người nghe",
+      "topic": "Thuyết phục bằng câu chuyện cá nhân",
+      "level": "B2",
+      "summary": "Bạn trình bày trước một nhóm khán giả nhỏ để xin ủng hộ dự án khu vườn cộng đồng. Bạn dùng một câu chuyện cụ thể, phản hồi băn khoăn và đề xuất một bước đi thực tế.",
       "turns": 16
     },
     {
@@ -230,31 +566,71 @@
       "title": "Networking ở hội thảo: Bắt chuyện và giữ liên lạc",
       "topic": "Kết nối tại hội thảo",
       "level": "B2",
-      "summary": "Bạn gặp một chuyên gia tại khu vực giải lao của hội thảo, bắt chuyện về công việc và trao đổi một ý tưởng hợp tác. Cuối cuộc trò chuyện, hai bên thống nhất cách giữ liên lạc và bước tiếp theo.",
+      "summary": "Bạn gặp một chuyên gia trong giờ giải lao của hội thảo và bắt đầu cuộc trò chuyện tự nhiên. Bạn tìm điểm chung, trao đổi góc nhìn chuyên môn và hẹn giữ liên lạc sau sự kiện.",
+      "turns": 16
+    },
+    {
+      "id": "noi-ve-that-bai-va-bai-hoc",
+      "title": "Nói về một thất bại và bài học rút ra",
+      "topic": "Phỏng vấn về thất bại trong công việc",
+      "level": "B2",
+      "summary": "Bạn trả lời câu hỏi của một người phỏng vấn cấp cao về một dự án thất bại. Bạn cần nhận trách nhiệm, giải thích cách xử lý và nêu bài học rút ra.",
+      "turns": 16
+    },
+    {
+      "id": "phan-bien-y-kien-sep",
+      "title": "Phản biện ý kiến cấp trên một cách khéo léo",
+      "topic": "Đề xuất phương án khác với cấp trên",
+      "level": "B2",
+      "summary": "Bạn cần nêu lo ngại về kế hoạch triển khai gấp của giám đốc, đồng thời đề xuất một phương án thí điểm khả thi. Mục tiêu là bảo vệ quan điểm mà vẫn giữ được thái độ hợp tác.",
+      "turns": 16
+    },
+    {
+      "id": "phong-van-hoc-bong",
+      "title": "Phỏng vấn học bổng du học",
+      "topic": "Phỏng vấn học bổng",
+      "level": "B2",
+      "summary": "Luyện trả lời phỏng vấn học bổng một cách thuyết phục, từ giới thiệu bản thân đến nêu kế hoạch tài chính và bảo vệ quan điểm. Bạn đóng vai ứng viên, còn AI là hội đồng xét học bổng.",
       "turns": 16
     },
     {
       "id": "phong-van-ky-thuat",
-      "title": "Phỏng vấn kỹ thuật: giải thích giải pháp và đánh đổi",
+      "title": "Phỏng vấn kỹ thuật: Giải thích giải pháp và đánh đổi",
       "topic": "Trình bày giải pháp kỹ thuật",
       "level": "B2",
-      "summary": "Người học tham gia một buổi phỏng vấn kỹ thuật và giải thích cách thiết kế hệ thống theo dõi đơn hàng. Bài học tập trung vào việc nêu lựa chọn, phân tích đánh đổi và bảo vệ quyết định kỹ thuật.",
-      "turns": 18
+      "summary": "Bạn tham gia phỏng vấn cho vị trí kỹ sư phần mềm và giải thích cách thiết kế một hệ thống xử lý đơn hàng. Bạn cần nêu rõ lựa chọn, đánh đổi và cách giảm rủi ro.",
+      "turns": 16
+    },
+    {
+      "id": "phong-van-nguoi-khac",
+      "title": "Phỏng vấn ứng viên",
+      "topic": "Bạn là người phỏng vấn",
+      "level": "B2",
+      "summary": "Bạn đóng vai người phỏng vấn một ứng viên đang hơi hồi hộp. Bạn sẽ đặt câu hỏi, khai thác kinh nghiệm và kết thúc buổi phỏng vấn một cách chuyên nghiệp.",
+      "turns": 16
+    },
+    {
+      "id": "thao-luan-uu-tien-san-pham",
+      "title": "Thảo luận thứ tự ưu tiên tính năng sản phẩm",
+      "topic": "Ưu tiên tính năng sản phẩm",
+      "level": "B2",
+      "summary": "Người học đóng vai trưởng nhóm hỗ trợ khách hàng, cùng quản lý sản phẩm quyết định thứ tự ưu tiên cho đợt phát hành sắp tới. Bài học tập trung vào cách nêu lý do, cân nhắc đánh đổi và đạt thỏa thuận thực tế.",
+      "turns": 16
     },
     {
       "id": "thuyet-phuc-khach-hang",
       "title": "Thuyết phục khách hàng chọn giải pháp của bạn",
       "topic": "Tư vấn và thuyết phục khách hàng",
       "level": "B2",
-      "summary": "Bạn giới thiệu một giải pháp quản lý dự án cho khách hàng đang phân vân giữa việc đổi hệ thống và tiếp tục dùng công cụ cũ. Mục tiêu là xử lý băn khoăn về chi phí, triển khai và rủi ro để đi đến một bước tiếp theo rõ ràng.",
+      "summary": "Bạn đóng vai chuyên viên tư vấn, thuyết phục một khách hàng đang phân vân lựa chọn giải pháp quản lý công việc của công ty bạn. Bạn sẽ xử lý lo ngại về chi phí, rủi ro chuyển đổi và khả năng nhân viên sử dụng.",
       "turns": 16
     },
     {
       "id": "thuong-luong-luong",
       "title": "Thương lượng lương và phúc lợi",
-      "topic": "Đàm phán lương khi nhận việc",
+      "topic": "Đàm phán đãi ngộ khi nhận việc",
       "level": "B2",
-      "summary": "Bạn vừa nhận được đề nghị cho một vị trí mới và trao đổi với nhà tuyển dụng cấp cao về mức lương, thưởng và các phúc lợi. Bạn học cách nêu giá trị của mình, phản hồi một đề nghị và đi đến thỏa thuận chuyên nghiệp.",
+      "summary": "Bạn là ứng viên ở vòng tuyển dụng cuối và trao đổi với nhà tuyển dụng cấp cao về mức lương, thưởng và phúc lợi. Bạn sẽ học cách nêu kỳ vọng rõ ràng nhưng vẫn chuyên nghiệp.",
       "turns": 16
     },
     {
@@ -262,63 +638,167 @@
       "title": "Tranh luận về làm việc từ xa và cân bằng cuộc sống",
       "topic": "Làm việc từ xa và cân bằng cuộc sống",
       "level": "B2",
-      "summary": "Bạn tranh luận với một người bạn có quan điểm hoài nghi về làm việc từ xa. Cuối cuộc nói chuyện, hai người thống nhất một phương án thử nghiệm để bảo vệ cả hiệu quả công việc lẫn thời gian cá nhân.",
+      "summary": "Bạn trao đổi với một người bạn không đồng tình về lợi ích của làm việc từ xa. Hai người nêu lý lẽ, phản biện và đi đến một phương án dung hòa.",
+      "turns": 16
+    },
+    {
+      "id": "trinh-bay-so-lieu",
+      "title": "Trình bày số liệu và biểu đồ thuyết phục",
+      "topic": "Thuyết trình số liệu kinh doanh",
+      "level": "B2",
+      "summary": "Bạn trình bày biểu đồ doanh số quý hai trước Giám đốc kinh doanh. Bạn cần giải thích xu hướng, xử lý điểm yếu trong số liệu và đề xuất bước tiếp theo.",
+      "turns": 16
+    },
+    {
+      "id": "tu-choi-lich-su-va-dut-khoat",
+      "title": "Từ chối lịch sự mà vẫn dứt khoát",
+      "topic": "Đặt ranh giới khi đồng nghiệp nhờ vả quá mức",
+      "level": "B2",
+      "summary": "Bạn từ chối một đồng nghiệp thường xuyên nhờ xử lý việc gấp vào phút chót. Bạn giữ thái độ hợp tác nhưng nói rõ giới hạn và đề xuất hỗ trợ trong phạm vi phù hợp.",
+      "turns": 16
+    },
+    {
+      "id": "xin-loi-khach-hang-lon",
+      "title": "Xin lỗi khách hàng lớn sau một sự cố nghiêm trọng",
+      "topic": "Xử lý khủng hoảng với khách hàng doanh nghiệp",
+      "level": "B2",
+      "summary": "Bạn là quản lý tài khoản của một khách hàng lớn sau khi hệ thống gặp sự cố nghiêm trọng. Bạn cần xin lỗi, giải thích rõ ràng, lắng nghe yêu cầu và thương lượng một kế hoạch khắc phục đáng tin cậy.",
       "turns": 16
     },
     {
       "id": "xu-ly-xung-dot-nhom",
       "title": "Xử lý bất đồng trong nhóm một cách xây dựng",
-      "topic": "Giải quyết bất đồng trong nhóm",
+      "topic": "Xử lý bất đồng trong nhóm",
       "level": "B2",
-      "summary": "Bạn trao đổi với một đồng nghiệp đang bực bội vì cho rằng ý kiến của mình bị cả nhóm phớt lờ. Bạn thực hành lắng nghe, làm rõ vấn đề và thương lượng một hướng đi chung.",
+      "summary": "Bạn nói chuyện với một đồng nghiệp đang bực bội vì phần việc của họ bị thay đổi mà không được hỏi trước. Bạn sẽ thể hiện sự thấu cảm, tìm nguyên nhân và cùng họ thống nhất một giải pháp rõ ràng.",
       "turns": 16
+    },
+    {
+      "id": "dan-dat-thay-doi-to-chuc",
+      "title": "Dẫn dắt thay đổi trong tổ chức",
+      "topic": "Thuyết phục chấp nhận thay đổi lớn",
+      "level": "C1",
+      "summary": "Bạn đề xuất thay đổi lớn về cách các nhóm phối hợp và cần thuyết phục trưởng bộ phận đang lo ngại về rủi ro. Bài học giúp bạn trình bày lợi ích, thừa nhận phản đối và chốt một phương án thử nghiệm khả thi.",
+      "turns": 18
     },
     {
       "id": "dam-phan-hop-dong",
       "title": "Đàm phán điều khoản hợp đồng",
       "topic": "Đàm phán hợp đồng",
       "level": "C1",
-      "summary": "Bạn đại diện nhà cung cấp đang đàm phán hợp đồng dịch vụ với một đối tác cứng rắn. Bạn cần bảo vệ mức giá, điều khoản thanh toán và giới hạn trách nhiệm nhưng vẫn chốt được thỏa thuận.",
+      "summary": "Bạn đại diện nhà cung cấp đang thương lượng gia hạn hợp đồng với một đối tác mua hàng cứng rắn. Mục tiêu là bảo vệ các điều khoản quan trọng nhưng vẫn chốt được thỏa thuận cân bằng.",
+      "turns": 18
+    },
+    {
+      "id": "dieu-hanh-toa-dam",
+      "title": "Điều hành một buổi tọa đàm nhiều khách mời",
+      "topic": "Điều phối thảo luận nhiều khách mời",
+      "level": "C1",
+      "summary": "Bạn điều hành một buổi tọa đàm và cần giữ đúng thời lượng trong khi một khách mời có xu hướng trả lời rất dài. Bạn sẽ học cách chuyển chủ đề, mời người khác tham gia và ngắt lời một cách khéo léo.",
+      "turns": 18
+    },
+    {
+      "id": "goi-von-truoc-nha-dau-tu",
+      "title": "Gọi vốn và trả lời chất vấn của nhà đầu tư",
+      "topic": "Thuyết phục nhà đầu tư hoài nghi",
+      "level": "C1",
+      "summary": "Bạn đóng vai nhà sáng lập đang gọi vốn vòng hạt giống cho một nền tảng giúp cửa hàng độc lập dự báo thiếu hàng. Nhà đầu tư liên tục chất vấn về lợi thế cạnh tranh, khả năng giữ chân khách hàng, đơn vị kinh tế và kế hoạch sử dụng vốn.",
+      "turns": 18
+    },
+    {
+      "id": "hai-huoc-va-am-chi",
+      "title": "Hiểu hài hước, ẩn ý và nói giảm nói tránh",
+      "topic": "Mỉa nhẹ và hàm ý nơi công sở",
+      "level": "C1",
+      "summary": "Bạn trao đổi sau một buổi thuyết trình với một đồng nghiệp người Anh có kiểu hài hước khô và mỉa nhẹ. Bài học giúp bạn nhận ra nghĩa hàm ý, phản hồi tự nhiên và lựa chọn mức độ lịch sự phù hợp.",
       "turns": 18
     },
     {
       "id": "mentoring-phan-hoi-kho",
-      "title": "Kèm cặp: Góp ý khó nghe mà vẫn giữ động lực",
-      "topic": "Phản hồi trong kèm cặp",
+      "title": "Kèm cặp: Đưa phản hồi khó nghe mà vẫn giữ động lực",
+      "topic": "Phản hồi xây dựng trong kèm cặp",
       "level": "C1",
-      "summary": "Bạn vào vai người kèm cặp, cần góp ý thẳng thắn cho một nhân viên mới về phần trình bày chưa đạt yêu cầu. Mục tiêu là nêu rõ vấn đề, đưa hướng cải thiện cụ thể và giúp người nghe vẫn có động lực tiến bộ.",
+      "summary": "Bạn đóng vai người kèm cặp, trao đổi thẳng thắn với một nhân viên sau cuộc gọi khách hàng chưa thành công. Bạn học cách nêu tác động, chỉ ra hành vi cụ thể và cùng họ lập kế hoạch cải thiện.",
+      "turns": 18
+    },
+    {
+      "id": "phat-bieu-nhan-giai",
+      "title": "Phát biểu nhận giải và cảm ơn đúng mực",
+      "topic": "Nhận giải và gửi lời cảm ơn",
+      "level": "C1",
+      "summary": "Bạn nhận một giải thưởng cộng đồng và phát biểu trên sân khấu cùng người dẫn chương trình. Bài học giúp bạn bày tỏ sự biết ơn chân thành, ghi nhận đóng góp của người khác và điều chỉnh giọng điệu phù hợp với một dịp trang trọng.",
       "turns": 18
     },
     {
       "id": "phong-van-cap-quan-ly",
-      "title": "Phỏng vấn vị trí quản lý: Câu hỏi tình huống",
-      "topic": "Xử lý tình huống trong phỏng vấn quản lý",
+      "title": "Phỏng vấn quản lý: Câu hỏi tình huống",
+      "topic": "Phỏng vấn vị trí quản lý",
       "level": "C1",
-      "summary": "Người học vào vai ứng viên cho vị trí quản lý và trả lời các câu hỏi tình huống từ Giám đốc Nhân sự. Bài học tập trung vào cách thể hiện năng lực lãnh đạo, phán đoán và giao tiếp chuyên nghiệp.",
-      "turns": 19
+      "summary": "Luyện trả lời các câu hỏi tình huống thường gặp khi phỏng vấn vị trí quản lý. Người học thực hành xử lý xung đột, hiệu suất kém, bất đồng với các bên liên quan và thay đổi tổ chức.",
+      "turns": 23
+    },
+    {
+      "id": "phong-van-tuyen-dung-cap-cao",
+      "title": "Phỏng vấn ứng viên cấp giám đốc",
+      "topic": "Phỏng vấn tuyển dụng cấp cao",
+      "level": "C1",
+      "summary": "Bạn vào vai người phỏng vấn một ứng viên giàu kinh nghiệm cho vị trí giám đốc. Bạn sẽ khai thác thành tích, phong cách lãnh đạo, cách xử lý xung đột và động lực nghề nghiệp của ứng viên.",
+      "turns": 18
     },
     {
       "id": "thuyet-trinh-truoc-ban-lanh-dao",
       "title": "Thuyết trình trước ban lãnh đạo và bảo vệ đề xuất",
-      "topic": "Bảo vệ đề xuất kinh doanh",
+      "topic": "Bảo vệ đề xuất kinh doanh trước ban lãnh đạo",
       "level": "C1",
-      "summary": "Người học trình bày đề xuất chuyển đổi quy trình trước ban lãnh đạo và trả lời các câu hỏi khó từ Giám đốc điều hành. Bài học tập trung vào cách nêu lập luận, xử lý phản biện và chốt cam kết một cách thuyết phục.",
+      "summary": "Người học trình bày đề xuất triển khai chương trình giữ chân khách hàng trước giám đốc điều hành. Họ cần trả lời các câu hỏi khó, thừa nhận rủi ro và chốt hướng đi rõ ràng.",
+      "turns": 18
+    },
+    {
+      "id": "thuong-luong-da-ben",
+      "title": "Thương lượng đa bên với lợi ích xung đột",
+      "topic": "Dung hòa ưu tiên giữa nhiều bộ phận",
+      "level": "C1",
+      "summary": "Bạn dẫn dắt cuộc thương lượng về kế hoạch ra mắt sản phẩm giữa ba bộ phận có ưu tiên khác nhau. Bạn cần xác định giới hạn, đề xuất nhượng bộ và chốt một thỏa thuận khả thi.",
+      "turns": 18
+    },
+    {
+      "id": "tong-ket-du-an",
+      "title": "Tổng kết dự án và rút kinh nghiệm không đổ lỗi",
+      "topic": "Họp rút kinh nghiệm dự án",
+      "level": "C1",
+      "summary": "Bạn cùng nhóm nhìn lại một dự án khó vừa hoàn thành. Bạn học cách nêu vấn đề, tìm nguyên nhân gốc và thống nhất hành động cải thiện mà không quy trách nhiệm cá nhân.",
+      "turns": 18
+    },
+    {
+      "id": "xu-ly-khung-hoang-truyen-thong",
+      "title": "Trả lời báo chí trong khủng hoảng truyền thông",
+      "topic": "Trả lời báo chí khi xảy ra khủng hoảng",
+      "level": "C1",
+      "summary": "Bạn đóng vai người phát ngôn của công ty tại họp báo sau một sự cố bảo mật. Bạn cần trả lời thẳng thắn, tránh suy đoán và cho thấy công ty đang chịu trách nhiệm.",
       "turns": 18
     },
     {
       "id": "phong-van-podcast",
       "title": "Trả lời phỏng vấn podcast về chuyên môn của bạn",
-      "topic": "Chia sẻ chuyên môn trên podcast",
+      "topic": "Phỏng vấn podcast về chuyên môn",
       "level": "C1",
-      "summary": "Bạn tham gia một podcast với vai trò khách mời chuyên môn. Bạn giới thiệu lĩnh vực của mình, giải thích cách làm việc, xử lý câu hỏi khó và chốt lại bằng một thông điệp đáng nhớ.",
+      "summary": "Bạn là khách mời chuyên môn trong một podcast về công nghệ và sản phẩm. Bạn luyện cách trình bày quan điểm có sắc thái, giải thích đánh đổi và trả lời câu hỏi khó một cách tự nhiên.",
       "turns": 18
     },
     {
       "id": "tranh-bien-hoc-thuat",
-      "title": "Tranh biện học thuật: AI và việc làm",
-      "topic": "Tranh biện về AI và việc làm",
+      "title": "Tranh biện học thuật về AI và việc làm",
+      "topic": "Tác động của AI tới việc làm",
       "level": "C1",
-      "summary": "Người học bảo vệ quan điểm rằng trí tuệ nhân tạo có thể mang lại lợi ích cho việc làm nếu được quản trị tốt. AI đóng vai người phản biện, liên tục đặt câu hỏi sắc bén nhưng công bằng.",
+      "summary": "Bạn trình bày quan điểm về tác động của AI tới việc làm trong một buổi tranh biện đại học. Người phản biện liên tục chất vấn để bạn bảo vệ lập luận một cách cân bằng, có bằng chứng và thuyết phục.",
+      "turns": 18
+    },
+    {
+      "id": "tranh-luan-dao-duc-cong-nghe",
+      "title": "Tranh luận về đạo đức công nghệ và quyền riêng tư",
+      "topic": "Đạo đức công nghệ và quyền riêng tư",
+      "level": "C1",
+      "summary": "Bạn tham gia một buổi tham vấn công khai với chuyên gia chính sách về việc dùng công nghệ giám sát. Bạn nêu quan ngại về quyền riêng tư và cùng xây dựng các điều kiện bảo vệ người dân.",
       "turns": 18
     }
   ]

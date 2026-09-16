@@ -1,0 +1,355 @@
+{
+  "id": "mo-ta-nguoi-va-tinh-cach",
+  "title": "Mô tả ngoại hình và tính cách trong đám đông",
+  "topic": "Tìm người quen trong đám đông",
+  "level": "A2",
+  "summary": "Bạn giúp một người đang tìm bạn Minh trong một buổi tiệc đông người. Bạn sẽ hỏi về ngoại hình, quần áo và tính cách để nhận ra anh ấy.",
+  "goals": [
+    "Hỏi và mô tả ngoại hình cơ bản của một người.",
+    "Hỏi về quần áo và đặc điểm dễ nhận ra.",
+    "Dùng từ đơn giản để mô tả tính cách và kết thúc cuộc trò chuyện lịch sự."
+  ],
+  "vocab": [
+    {
+      "en": "crowd",
+      "ipa": "/kraʊd/",
+      "vi": "đám đông",
+      "example": "There are many people in the crowd."
+    },
+    {
+      "en": "tall",
+      "ipa": "/tɔːl/",
+      "vi": "cao",
+      "example": "He is tall and has short brown hair."
+    },
+    {
+      "en": "short hair",
+      "ipa": "/ʃɔːrt her/",
+      "vi": "tóc ngắn",
+      "example": "My brother has short hair."
+    },
+    {
+      "en": "wearing",
+      "ipa": "/ˈwerɪŋ/",
+      "vi": "đang mặc",
+      "example": "She is wearing a blue dress today."
+    },
+    {
+      "en": "glasses",
+      "ipa": "/ˈɡlæsɪz/",
+      "vi": "kính đeo mắt",
+      "example": "He is wearing glasses at the party."
+    },
+    {
+      "en": "jacket",
+      "ipa": "/ˈdʒækɪt/",
+      "vi": "áo khoác",
+      "example": "His gray jacket is easy to see."
+    },
+    {
+      "en": "backpack",
+      "ipa": "/ˈbækpæk/",
+      "vi": "ba lô",
+      "example": "She carries a small black backpack."
+    },
+    {
+      "en": "friendly",
+      "ipa": "/ˈfrendli/",
+      "vi": "thân thiện",
+      "example": "Minh is friendly and likes meeting new people."
+    },
+    {
+      "en": "quiet",
+      "ipa": "/ˈkwaɪət/",
+      "vi": "ít nói, trầm",
+      "example": "She is quiet but very kind."
+    },
+    {
+      "en": "stand out",
+      "ipa": "/stænd aʊt/",
+      "vi": "nổi bật, dễ nhận ra",
+      "example": "His red hat stands out in the crowd."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What does he or she look like?",
+      "vi": "Anh ấy hoặc cô ấy trông như thế nào?",
+      "note": "Dùng để hỏi ngoại hình chung của một người."
+    },
+    {
+      "en": "He or She is ... and has ...",
+      "vi": "Anh ấy hoặc cô ấy ... và có ...",
+      "note": "Dùng is cho chiều cao hoặc dáng người, has cho tóc và đặc điểm cơ thể."
+    },
+    {
+      "en": "What is he or she wearing?",
+      "vi": "Anh ấy hoặc cô ấy đang mặc gì?",
+      "note": "Dùng hiện tại tiếp diễn để hỏi quần áo đang mặc lúc này."
+    },
+    {
+      "en": "Does he or she have ...?",
+      "vi": "Anh ấy hoặc cô ấy có ... không?",
+      "note": "Dùng để hỏi kính, túi, mũ hoặc một đặc điểm dễ nhận ra."
+    },
+    {
+      "en": "He or She seems ...",
+      "vi": "Anh ấy hoặc cô ấy có vẻ ...",
+      "note": "Dùng khi nói cảm nhận về tính cách mà không khẳng định quá chắc chắn."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /s/ và /z/",
+      "tip": "Đừng bỏ âm cuối trong glasses và laughs. Phát nhẹ âm xì hoặc rung ở cuối từ.",
+      "words": [
+        "glasses",
+        "laughs",
+        "wears"
+      ]
+    },
+    {
+      "focus": "Âm /æ/",
+      "tip": "Mở miệng rộng hơn âm e khi đọc black, backpack và jacket.",
+      "words": [
+        "black",
+        "backpack",
+        "jacket"
+      ]
+    },
+    {
+      "focus": "Âm cuối /k/",
+      "tip": "Dừng hơi gọn ở cuối look và backpack, không thêm âm ơ phía sau.",
+      "words": [
+        "look",
+        "black",
+        "backpack"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She have long hair.",
+      "right": "She has long hair.",
+      "vi": "Với he, she và it, dùng has thay vì have."
+    },
+    {
+      "wrong": "He is wear a blue shirt.",
+      "right": "He is wearing a blue shirt.",
+      "vi": "Khi nói ai đó đang mặc gì, dùng is hoặc are cộng wearing."
+    },
+    {
+      "wrong": "What does he looks like?",
+      "right": "What does he look like?",
+      "vi": "Sau does, động từ giữ nguyên mẫu là look."
+    },
+    {
+      "wrong": "She is very kind person.",
+      "right": "She is a very kind person.",
+      "vi": "Danh từ đếm được số ít person cần mạo từ a."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi ngoại hình của một người",
+      "formal": "Could you describe him for me, please?",
+      "casual": "What does he look like?",
+      "vi": "Câu formal phù hợp với người lạ hoặc trong nơi trang trọng; câu casual dùng tự nhiên khi nói với bạn bè hay người cùng tuổi."
+    },
+    {
+      "situation": "Hỏi quần áo đang mặc",
+      "formal": "Could you tell me what she is wearing?",
+      "casual": "What is she wearing?",
+      "vi": "Câu formal lịch sự hơn khi nhờ người lạ giúp; câu casual ngắn gọn, phù hợp trong cuộc nói chuyện thân mật."
+    },
+    {
+      "situation": "Nói rằng bạn đã nhìn thấy người giống mô tả",
+      "formal": "I believe I saw someone like that near the food table.",
+      "casual": "I saw someone like that near the food table.",
+      "vi": "Dùng I believe khi bạn không hoàn toàn chắc chắn hoặc muốn nói thận trọng; dùng câu casual khi bạn khá chắc và nói chuyện bình thường."
+    },
+    {
+      "situation": "Cảm ơn sau khi được giúp đỡ",
+      "formal": "Thank you for your help. I really appreciate it.",
+      "casual": "Thanks, that really helps.",
+      "vi": "Câu formal hợp với người lạ hoặc lớn tuổi; câu casual hợp với bạn bè, đồng nghiệp thân hoặc tình huống thoải mái."
+    }
+  ],
+  "culture": [
+    "Khi tìm người trong đám đông, người bản xứ thường nêu đặc điểm dễ thấy như áo quần, tóc, kính hoặc vị trí, thay vì nhận xét thẳng về cân nặng hay nguồn gốc.",
+    "Nếu không chắc mình thấy đúng người, họ thường nói I think hoặc I believe để tránh khẳng định quá mạnh.",
+    "Một lời cảm ơn ngắn và câu đáp như No problem hoặc You are welcome thường khép lại tình huống một cách tự nhiên."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại ở lễ hội",
+    "passage": "Hi Mai, I am at the park festival, but I cannot see you yet. I am standing near the coffee truck, beside the big yellow sign. I am wearing a green shirt and black jeans. My hair is in a ponytail, and I am carrying a white bag. Please look for me there. I am with my quiet cousin, but she is very friendly.",
+    "vi": "Chào Mai, mình đang ở lễ hội trong công viên, nhưng chưa thấy bạn. Mình đang đứng gần xe bán cà phê, cạnh tấm biển vàng lớn. Mình mặc áo xanh lá và quần jean đen. Tóc mình buộc đuôi ngựa và mình mang một chiếc túi trắng. Hãy tìm mình ở đó nhé. Mình đi cùng cô em họ ít nói nhưng rất thân thiện.",
+    "questions": [
+      {
+        "q": "Where is the speaker standing?",
+        "choices": [
+          "Near the coffee truck",
+          "At the main gate",
+          "By the food table"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Near the coffee truck vì người nói nói rõ: I am standing near the coffee truck."
+      },
+      {
+        "q": "What is the speaker wearing?",
+        "choices": [
+          "A green shirt and black jeans",
+          "A blue dress and white shoes",
+          "A gray jacket and glasses"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là A green shirt and black jeans vì đoạn nghe nói: I am wearing a green shirt and black jeans."
+      },
+      {
+        "q": "Who is with the speaker?",
+        "choices": [
+          "A tall brother",
+          "A quiet cousin",
+          "A friendly teacher"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là A quiet cousin vì cuối đoạn nghe có câu: I am with my quiet cousin."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người đang tìm bạn Minh trong đám đông",
+      "b": "Người học đang giúp tìm Minh"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Excuse me, I am looking for someone in the crowd.",
+        "vi": "Xin lỗi, tôi đang tìm một người trong đám đông.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. What does the person look like?",
+        "vi": "Được chứ. Người đó trông như thế nào?",
+        "hint": "Mở đầu bằng Sure để thể hiện thái độ thân thiện."
+      },
+      {
+        "speaker": "a",
+        "en": "He is tall and has short brown hair.",
+        "vi": "Anh ấy cao và có tóc nâu ngắn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What is he wearing at the party today?",
+        "vi": "Hôm nay anh ấy đang mặc gì ở buổi tiệc?",
+        "hint": "Dùng is wearing để hỏi quần áo đang mặc lúc này."
+      },
+      {
+        "speaker": "a",
+        "en": "He is wearing a gray jacket and glasses.",
+        "vi": "Anh ấy đang mặc áo khoác xám và đeo kính.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Does he have anything else that stands out?",
+        "vi": "Anh ấy có điểm nào khác dễ nhận ra không?",
+        "hint": "Dùng Does he have để hỏi thêm một đặc điểm."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, he carries a small black backpack.",
+        "vi": "Có, anh ấy mang một chiếc ba lô nhỏ màu đen.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I saw a man like that near the food table.",
+        "vi": "Tôi thấy một người như vậy gần bàn đồ ăn.",
+        "hint": "Dùng I saw để nói về điều bạn đã thấy."
+      },
+      {
+        "speaker": "a",
+        "en": "That could be him. Is he smiling and talking?",
+        "vi": "Có thể là anh ấy. Anh ấy có đang cười và nói chuyện không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, he seems friendly and laughs a lot.",
+        "vi": "Có, anh ấy có vẻ thân thiện và cười nhiều.",
+        "hint": "Dùng seems để nói cảm nhận của bạn về tính cách."
+      },
+      {
+        "speaker": "a",
+        "en": "Great, that is my friend Minh. Thank you.",
+        "vi": "Tuyệt, đó là bạn tôi, Minh. Cảm ơn bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No problem. I hope you find him soon.",
+        "vi": "Không có gì. Tôi hy vọng bạn sẽ sớm tìm được anh ấy.",
+        "hint": "No problem là cách đáp thân mật sau lời cảm ơn."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are at a busy outdoor party, looking for your friend Minh. You are polite, a little worried, and willing to describe his appearance and personality. Ask the learner for help, answer their questions, and thank them when they identify him.",
+    "opener": "Excuse me, I am looking for someone in the crowd.",
+    "goal": "Người học hỏi đủ đặc điểm để giúp bạn nhận ra Minh, rồi kết thúc bằng một lời chúc lịch sự."
+  },
+  "drills": [
+    {
+      "vi": "Anh ấy cao và có tóc nâu ngắn.",
+      "en": "He is tall and has short brown hair.",
+      "alts": [
+        "He is tall with short brown hair."
+      ]
+    },
+    {
+      "vi": "Cô ấy đang đeo kính.",
+      "en": "She is wearing glasses.",
+      "alts": [
+        "She has glasses on."
+      ]
+    },
+    {
+      "vi": "Anh ấy đang mặc gì hôm nay?",
+      "en": "What is he wearing today?",
+      "alts": [
+        "What clothes is he wearing today?"
+      ]
+    },
+    {
+      "vi": "Anh ấy có mang ba lô đen không?",
+      "en": "Does he have a black backpack?",
+      "alts": [
+        "Is he carrying a black backpack?"
+      ]
+    },
+    {
+      "vi": "Cô ấy có vẻ thân thiện và ít nói.",
+      "en": "She seems friendly and quiet.",
+      "alts": [
+        "She is friendly but quiet."
+      ]
+    },
+    {
+      "vi": "Tôi thấy một người như vậy gần xe bán cà phê.",
+      "en": "I saw someone like that near the coffee truck.",
+      "alts": [
+        "I saw a person like that by the coffee truck."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý phát âm âm cuối trong glasses và laughs.",
+    "Mô tả một người bạn bằng ba câu về ngoại hình, quần áo và tính cách.",
+    "Tự đặt ba câu hỏi dùng What does ... look like?, What is ... wearing?, và Does ... have ...?"
+  ]
+}

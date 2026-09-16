@@ -1,0 +1,368 @@
+{
+  "id": "hoi-wifi-va-tien-nghi",
+  "title": "Hỏi Wi-Fi, bữa sáng và tiện nghi khách sạn",
+  "topic": "Khách sạn",
+  "level": "A2",
+  "summary": "Bạn là khách lưu trú và cần hỏi lễ tân ca đêm về Wi-Fi, bữa sáng và các tiện nghi trong phòng. Bạn sẽ luyện cách hỏi lịch sự, rõ ràng và tự nhiên.",
+  "goals": [
+    "Hỏi tên mạng và mật khẩu Wi-Fi.",
+    "Hỏi bữa sáng có bao gồm không, ở đâu và lúc mấy giờ.",
+    "Yêu cầu thêm khăn và hỏi về tiện nghi trong phòng."
+  ],
+  "vocab": [
+    {
+      "en": "Wi-Fi network",
+      "ipa": "/ˈwaɪ faɪ ˈnet.wɝːk/",
+      "vi": "mạng Wi-Fi",
+      "example": "The Wi-Fi network is free for guests."
+    },
+    {
+      "en": "password",
+      "ipa": "/ˈpæs.wɝːd/",
+      "vi": "mật khẩu",
+      "example": "The password is on your room key card."
+    },
+    {
+      "en": "included",
+      "ipa": "/ɪnˈkluː.dɪd/",
+      "vi": "được bao gồm",
+      "example": "Breakfast is included with your room."
+    },
+    {
+      "en": "breakfast",
+      "ipa": "/ˈbrek.fəst/",
+      "vi": "bữa sáng",
+      "example": "Breakfast starts at seven every morning."
+    },
+    {
+      "en": "lobby",
+      "ipa": "/ˈlɑː.bi/",
+      "vi": "sảnh khách sạn",
+      "example": "Please wait for me in the lobby."
+    },
+    {
+      "en": "first floor",
+      "ipa": "/ˌfɝːst ˈflɔːr/",
+      "vi": "tầng một",
+      "example": "The breakfast room is on the first floor."
+    },
+    {
+      "en": "hair dryer",
+      "ipa": "/ˈher ˌdraɪ.ɚ/",
+      "vi": "máy sấy tóc",
+      "example": "There is a hair dryer in the bathroom."
+    },
+    {
+      "en": "towel",
+      "ipa": "/ˈtaʊ.əl/",
+      "vi": "khăn tắm",
+      "example": "Could I have two clean towels, please?"
+    },
+    {
+      "en": "sink",
+      "ipa": "/sɪŋk/",
+      "vi": "bồn rửa",
+      "example": "The soap is next to the sink."
+    },
+    {
+      "en": "amenities",
+      "ipa": "/əˈmen.ə.tiz/",
+      "vi": "tiện nghi",
+      "example": "Please ask the front desk about room amenities."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What is the Wi-Fi password, please?",
+      "vi": "Mật khẩu Wi-Fi là gì ạ?",
+      "note": "Dùng để hỏi trực tiếp nhưng vẫn lịch sự."
+    },
+    {
+      "en": "Is breakfast included with my room?",
+      "vi": "Bữa sáng có bao gồm trong phòng của tôi không?",
+      "note": "Dùng khi muốn biết bữa sáng đã nằm trong giá phòng chưa."
+    },
+    {
+      "en": "Where is the ___?",
+      "vi": "___ ở đâu?",
+      "note": "Dùng để hỏi vị trí trong khách sạn."
+    },
+    {
+      "en": "Does the room have a ___?",
+      "vi": "Phòng có ___ không?",
+      "note": "Dùng để hỏi một tiện nghi cụ thể."
+    },
+    {
+      "en": "Could I get ___, please?",
+      "vi": "Tôi có thể xin ___ được không ạ?",
+      "note": "Cách lịch sự để yêu cầu đồ dùng như khăn hoặc nước."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /w/ trong Wi-Fi",
+      "tip": "Chu môi nhẹ và phát âm lướt từ môi, không đọc thành âm v hoặc qu.",
+      "words": [
+        "Wi-Fi",
+        "welcome",
+        "where"
+      ]
+    },
+    {
+      "focus": "Cụm âm cuối /st/ trong breakfast",
+      "tip": "Phát đủ âm t rất nhẹ ở cuối, không bỏ mất phần cuối của từ.",
+      "words": [
+        "breakfast",
+        "first",
+        "guest"
+      ]
+    },
+    {
+      "focus": "Âm cuối /z/ trong towels",
+      "tip": "Rung nhẹ cổ họng khi phát âm âm z ở cuối, không đọc thành âm s.",
+      "words": [
+        "towels",
+        "amenities",
+        "keys"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "What is Wi-Fi password?",
+      "right": "What is the Wi-Fi password?",
+      "vi": "Cần dùng mạo từ the trước cụm danh từ xác định này."
+    },
+    {
+      "wrong": "Breakfast is include?",
+      "right": "Is breakfast included with my room?",
+      "vi": "Sau động từ to be, dùng included chứ không dùng include."
+    },
+    {
+      "wrong": "There has a hair dryer in the room?",
+      "right": "Is there a hair dryer in the room?",
+      "vi": "Dùng Is there để hỏi có một đồ vật ở đâu đó hay không."
+    },
+    {
+      "wrong": "I need two towel.",
+      "right": "Could I get two extra towels, please?",
+      "vi": "Towel phải ở số nhiều sau two, và cách nói đúng lịch sự hơn khi yêu cầu lễ tân."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi mật khẩu Wi-Fi",
+      "formal": "Could you tell me the Wi-Fi password, please?",
+      "casual": "What is the Wi-Fi password?",
+      "vi": "Câu trang trọng phù hợp khi nói với lễ tân hoặc nhân viên khách sạn; câu thân mật dùng khi hỏi bạn bè hay đồng nghiệp."
+    },
+    {
+      "situation": "Hỏi giờ ăn sáng",
+      "formal": "Could you let me know when breakfast starts?",
+      "casual": "What time is breakfast?",
+      "vi": "Câu trang trọng nghe mềm mại hơn khi hỏi nhân viên; câu thân mật phù hợp trong tình huống gần gũi."
+    },
+    {
+      "situation": "Xin thêm khăn",
+      "formal": "Could I have two extra towels, please?",
+      "casual": "Can I get two more towels?",
+      "vi": "Câu trang trọng nên dùng với lễ tân; câu thân mật có thể dùng với người quen hoặc bạn cùng phòng."
+    },
+    {
+      "situation": "Hỏi về máy sấy tóc",
+      "formal": "Does the room come with a hair dryer?",
+      "casual": "Is there a hair dryer in the room?",
+      "vi": "Câu trang trọng phù hợp khi hỏi về tiện nghi của phòng; câu thân mật là cách hỏi đơn giản, tự nhiên."
+    }
+  ],
+  "culture": [
+    "Ở khách sạn tại các nước nói tiếng Anh, khách thường hỏi thẳng nhu cầu rồi thêm từ lịch sự; không cần mở đầu quá vòng vo.",
+    "Nhân viên có thể hỏi số phòng trước khi giao khăn hoặc kiểm tra tiện nghi. Đây là thủ tục bình thường, không phải vì họ nghi ngờ khách.",
+    "Vào ca đêm, lễ tân thường trả lời ngắn gọn và nói rõ họ sẽ mang đồ lên phòng hay hướng dẫn khách tự lấy ở đâu."
+  ],
+  "listening": {
+    "title": "Thông báo từ lễ tân ca đêm",
+    "passage": "Good evening, this is the night receptionist at Harbor Hotel. I am calling to let you know that the Wi-Fi is working again. The network name is Harbor Guest, and the password is on the card by your door. Breakfast is served in the garden room from seven to ten. If you need extra towels or a hair dryer, please call the front desk.",
+    "vi": "Chào buổi tối, đây là lễ tân ca đêm của khách sạn Harbor. Tôi gọi để báo rằng Wi-Fi đã hoạt động trở lại. Tên mạng là Harbor Guest và mật khẩu ở trên thẻ cạnh cửa phòng của bạn. Bữa sáng được phục vụ ở phòng vườn từ bảy giờ đến mười giờ. Nếu bạn cần thêm khăn hoặc máy sấy tóc, vui lòng gọi quầy lễ tân.",
+    "questions": [
+      {
+        "q": "Why is the receptionist calling?",
+        "choices": [
+          "The Wi-Fi is working again.",
+          "A room is not ready.",
+          "Breakfast is canceled."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng vì đầu đoạn nghe nói lễ tân gọi để báo mạng Wi-Fi đã hoạt động trở lại."
+      },
+      {
+        "q": "Where is breakfast served?",
+        "choices": [
+          "In the lobby.",
+          "In the garden room.",
+          "In each guest room."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng vì đoạn nghe nói bữa sáng được phục vụ ở phòng vườn."
+      },
+      {
+        "q": "How can guests ask for extra towels?",
+        "choices": [
+          "Call the front desk.",
+          "Go to the garden room.",
+          "Use the Wi-Fi card."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng vì cuối đoạn nghe hướng dẫn gọi quầy lễ tân khi cần thêm khăn hoặc máy sấy tóc."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Lễ tân ca đêm",
+      "b": "Khách lưu trú"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good evening. How can I help you tonight?",
+        "vi": "Chào buổi tối. Tôi có thể giúp gì cho bạn tối nay?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi. What is the Wi-Fi password, please?",
+        "vi": "Chào. Mật khẩu Wi-Fi là gì ạ?",
+        "hint": "Hỏi trực tiếp nhưng thêm please để lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "The Wi-Fi name and password are on this card.",
+        "vi": "Tên Wi-Fi và mật khẩu ở trên thẻ này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. Is breakfast included with my room?",
+        "vi": "Cảm ơn. Bữa sáng có bao gồm trong phòng của tôi không?",
+        "hint": "Dùng Is ... included with my room? để hỏi đã bao gồm chưa."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, breakfast is included and starts at seven.",
+        "vi": "Có, bữa sáng đã bao gồm và bắt đầu lúc bảy giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Where is the breakfast room in the morning?",
+        "vi": "Phòng ăn sáng ở đâu vào buổi sáng?",
+        "hint": "Bắt đầu bằng Where is ...? để hỏi vị trí."
+      },
+      {
+        "speaker": "a",
+        "en": "It is on the first floor, near the lobby.",
+        "vi": "Nó ở tầng một, gần sảnh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Does the room have a hair dryer?",
+        "vi": "Tuyệt. Phòng có máy sấy tóc không?",
+        "hint": "Dùng Does the room have ...? để hỏi tiện nghi."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, it is in the bathroom under the sink.",
+        "vi": "Có, nó ở trong phòng tắm, dưới bồn rửa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could I get two extra towels, please?",
+        "vi": "Tôi có thể xin thêm hai khăn tắm được không ạ?",
+        "hint": "Could I get ...? là cách yêu cầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I will bring them to your room.",
+        "vi": "Tất nhiên. Tôi sẽ mang chúng đến phòng của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. That is everything for tonight.",
+        "vi": "Cảm ơn. Tối nay tôi cần vậy thôi.",
+        "hint": "Câu này cho biết bạn không cần thêm hỗ trợ."
+      },
+      {
+        "speaker": "a",
+        "en": "You are welcome. Enjoy your stay and good night.",
+        "vi": "Không có gì. Chúc bạn nghỉ ngơi vui vẻ và chúc ngủ ngon.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly night-shift hotel receptionist at a busy hotel. You speak clearly, stay calm, and help guests with Wi-Fi, breakfast, and room amenities.",
+    "opener": "Good evening. Welcome to Harbor Hotel. How can I help you tonight?",
+    "goal": "Người học hỏi được mật khẩu Wi-Fi, thông tin bữa sáng và yêu cầu một tiện nghi trong phòng."
+  },
+  "drills": [
+    {
+      "vi": "Mật khẩu Wi-Fi là gì ạ?",
+      "en": "What is the Wi-Fi password, please?",
+      "alts": [
+        "Could you tell me the Wi-Fi password, please?"
+      ]
+    },
+    {
+      "vi": "Bữa sáng có bao gồm trong phòng của tôi không?",
+      "en": "Is breakfast included with my room?",
+      "alts": [
+        "Does my room include breakfast?"
+      ]
+    },
+    {
+      "vi": "Bữa sáng bắt đầu lúc mấy giờ?",
+      "en": "What time does breakfast start?",
+      "alts": [
+        "When does breakfast start?"
+      ]
+    },
+    {
+      "vi": "Phòng ăn sáng ở đâu?",
+      "en": "Where is the breakfast room?",
+      "alts": [
+        "Where can I have breakfast?"
+      ]
+    },
+    {
+      "vi": "Phòng có máy sấy tóc không?",
+      "en": "Does the room have a hair dryer?",
+      "alts": [
+        "Is there a hair dryer in the room?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể xin thêm hai khăn tắm được không ạ?",
+      "en": "Could I get two extra towels, please?",
+      "alts": [
+        "Could I have two more towels, please?"
+      ]
+    },
+    {
+      "vi": "Bồn rửa ở trong phòng tắm phải không?",
+      "en": "The sink is in the bathroom, right?",
+      "alts": [
+        "Is the sink in the bathroom?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, rồi tự nghe để kiểm tra phát âm các âm cuối.",
+    "Tự nói ba câu hỏi về tiện nghi khác trong phòng.",
+    "Luyện trả lời ngắn cho các câu hỏi về Wi-Fi và bữa sáng."
+  ]
+}

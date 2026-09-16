@@ -1,0 +1,367 @@
+{
+  "id": "trao-doi-qua-email",
+  "title": "Trao đổi email công việc và tóm tắt bằng lời",
+  "topic": "Phối hợp email về lịch họp với khách hàng",
+  "level": "B1",
+  "summary": "Bạn trao đổi với đồng nghiệp ở chi nhánh khác về nội dung trả lời email của khách hàng. Cuối cuộc nói chuyện, bạn tóm tắt các điểm cần đưa vào email.",
+  "goals": [
+    "Hỏi và xác nhận nội dung cần trả lời trong email công việc",
+    "Đề xuất thời gian họp mới và yêu cầu tài liệu lịch sự",
+    "Tóm tắt lại các hành động đã thống nhất bằng lời"
+  ],
+  "vocab": [
+    {
+      "en": "follow up",
+      "ipa": "/ˈfɑːloʊ ʌp/",
+      "vi": "theo dõi và liên hệ lại",
+      "example": "I will follow up with the client after they reply to our email."
+    },
+    {
+      "en": "reschedule",
+      "ipa": "/ˌriːˈskedʒuːl/",
+      "vi": "dời lịch, sắp xếp lại lịch",
+      "example": "We need to reschedule the client meeting for Thursday afternoon."
+    },
+    {
+      "en": "confirm",
+      "ipa": "/kənˈfɜːrm/",
+      "vi": "xác nhận",
+      "example": "Please confirm the new time before we send the invitation."
+    },
+    {
+      "en": "availability",
+      "ipa": "/əˌveɪləˈbɪləti/",
+      "vi": "thời gian có thể tham gia, sự rảnh lịch",
+      "example": "We need to check the manager's availability before confirming Thursday."
+    },
+    {
+      "en": "sales figures",
+      "ipa": "/seɪlz ˈfɪɡjərz/",
+      "vi": "số liệu doanh số",
+      "example": "Could you send the sales figures before Wednesday morning, please?"
+    },
+    {
+      "en": "beforehand",
+      "ipa": "/bɪˈfɔːr hænd/",
+      "vi": "trước đó, trước thời điểm cần thiết",
+      "example": "Please send the document beforehand so we can review it."
+    },
+    {
+      "en": "flexibility",
+      "ipa": "/ˌflɛksəˈbɪləti/",
+      "vi": "sự linh hoạt, thiện chí thay đổi",
+      "example": "We really appreciate your flexibility with the new meeting time today."
+    },
+    {
+      "en": "copy someone in",
+      "ipa": "/ˈkɑːpi ˈsʌmwʌn ɪn/",
+      "vi": "thêm ai đó vào email để họ cùng nhận được",
+      "example": "Please copy me in when you send the final email."
+    },
+    {
+      "en": "remotely",
+      "ipa": "/rɪˈmoʊtli/",
+      "vi": "từ xa, trực tuyến",
+      "example": "Our finance lead will join the meeting remotely from home tomorrow."
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈdɛdlaɪn/",
+      "vi": "hạn chót",
+      "example": "The deadline for sending their sales figures is Wednesday morning."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you reply and ask whether Thursday afternoon suits them?",
+      "vi": "Bạn có thể trả lời và hỏi liệu chiều thứ Năm có phù hợp với họ không?",
+      "note": "Dùng để nhờ đồng nghiệp thực hiện một việc cụ thể trong email."
+    },
+    {
+      "en": "Please confirm the new time before you send the invitation.",
+      "vi": "Hãy xác nhận thời gian mới trước khi bạn gửi lời mời.",
+      "note": "Mệnh lệnh lịch sự, phù hợp khi phối hợp với đồng nghiệp."
+    },
+    {
+      "en": "I will also mention that our finance lead will join remotely.",
+      "vi": "Tôi cũng sẽ đề cập rằng trưởng nhóm tài chính của chúng ta sẽ tham gia từ xa.",
+      "note": "Dùng để bổ sung một ý quan trọng vào email."
+    },
+    {
+      "en": "Let me summarize: we will propose a new time and request the figures.",
+      "vi": "Để tôi tóm tắt: chúng ta sẽ đề xuất thời gian mới và yêu cầu số liệu.",
+      "note": "Dùng khi chốt lại nội dung sau khi trao đổi."
+    },
+    {
+      "en": "We appreciate your flexibility and look forward to meeting you.",
+      "vi": "Chúng tôi cảm kích sự linh hoạt của bạn và mong được gặp bạn.",
+      "note": "Câu kết thân thiện, chuyên nghiệp khi bên kia đồng ý thay đổi kế hoạch."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong Thursday và three",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng, thổi hơi ra. Không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "Thursday",
+        "three",
+        "their"
+      ]
+    },
+    {
+      "focus": "âm cuối /d/",
+      "tip": "Khép lưỡi ở lợi trên để bật nhẹ âm /d/ cuối từ, không bỏ mất âm cuối.",
+      "words": [
+        "send",
+        "need",
+        "could"
+      ]
+    },
+    {
+      "focus": "trọng âm từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm tiết chính để người nghe nhận ra từ nhanh hơn.",
+      "words": [
+        "confirm",
+        "remotely",
+        "flexibility"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have sent you an email yesterday.",
+      "right": "I sent you an email yesterday.",
+      "vi": "Không dùng hiện tại hoàn thành với mốc thời gian quá khứ rõ ràng như yesterday."
+    },
+    {
+      "wrong": "Please reply me soon.",
+      "right": "Please reply to me soon.",
+      "vi": "Động từ reply thường đi với to trước người nhận phản hồi."
+    },
+    {
+      "wrong": "We will discuss about it in the email.",
+      "right": "We will discuss it in the email.",
+      "vi": "Discuss là ngoại động từ nên không dùng thêm about trước tân ngữ."
+    },
+    {
+      "wrong": "I look forward to meet you.",
+      "right": "I look forward to meeting you.",
+      "vi": "Sau look forward to dùng danh từ hoặc động từ thêm ing."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xác nhận thời gian họp mới",
+      "formal": "Could you please confirm whether Thursday afternoon would work for you?",
+      "casual": "Does Thursday afternoon work for you?",
+      "vi": "Câu trang trọng phù hợp khi viết cho khách hàng mới hoặc cấp trên; câu thân mật dùng với đồng nghiệp quen."
+    },
+    {
+      "situation": "Yêu cầu gửi số liệu",
+      "formal": "Would you mind sending the sales figures by Wednesday morning?",
+      "casual": "Can you send the sales figures by Wednesday?",
+      "vi": "Câu trang trọng làm yêu cầu nghe mềm hơn với đối tác; câu thân mật phù hợp khi trao đổi nội bộ nhanh."
+    },
+    {
+      "situation": "Thêm đồng nghiệp vào email",
+      "formal": "Please include me in the email thread once you have replied.",
+      "casual": "Copy me in when you reply.",
+      "vi": "Câu trang trọng đầy đủ hơn khi làm việc với người ít thân; câu ngắn gọn rất phổ biến giữa đồng nghiệp."
+    },
+    {
+      "situation": "Cảm ơn vì đã đổi lịch",
+      "formal": "Thank you for your flexibility. We look forward to meeting with you.",
+      "casual": "Thanks for being flexible. Talk soon.",
+      "vi": "Câu trang trọng phù hợp ở cuối email khách hàng; câu thân mật dùng với đồng nghiệp hoặc đối tác đã quen."
+    }
+  ],
+  "culture": [
+    "Trong email công việc bằng tiếng Anh, người viết thường nêu mục đích ngay ở đầu và kết thúc bằng hành động cụ thể cần người nhận làm.",
+    "Nêu hạn chót rõ ràng thường được xem là hiệu quả, không phải thiếu lịch sự, nhất là khi kèm lời cảm ơn hoặc cách hỏi mềm.",
+    "Việc thêm một người vào email giúp họ nắm bối cảnh, nhưng không nên thêm quá nhiều quản lý nếu họ không cần tham gia."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về email khách hàng",
+    "passage": "Hi team, I am calling to summarize an email from Greenfield Stores. They cannot join our Monday call because their regional manager will be visiting customers. They suggested Wednesday morning instead. Please reply today if that time works, and attach the updated product list. I will be away tomorrow, so copy Maya into the email. She can answer any questions while I am out.",
+    "vi": "Chào cả nhóm, tôi gọi để tóm tắt một email từ Greenfield Stores. Họ không thể tham gia cuộc gọi vào thứ Hai vì quản lý khu vực của họ sẽ đi gặp khách hàng. Thay vào đó, họ đề xuất sáng thứ Tư. Hãy trả lời hôm nay nếu thời gian đó phù hợp và đính kèm danh sách sản phẩm đã cập nhật. Ngày mai tôi sẽ vắng mặt, nên hãy thêm Maya vào email. Cô ấy có thể trả lời mọi câu hỏi khi tôi không có mặt.",
+    "questions": [
+      {
+        "q": "Why can Greenfield Stores not join the Monday call?",
+        "choices": [
+          "Their manager will be visiting customers.",
+          "They need to update the product list.",
+          "Their office will be closed."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì người nói giải thích quản lý khu vực sẽ đi gặp khách hàng."
+      },
+      {
+        "q": "What time did they suggest instead?",
+        "choices": [
+          "Monday afternoon",
+          "Wednesday morning",
+          "Friday morning"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì khách hàng đề xuất sáng thứ Tư."
+      },
+      {
+        "q": "What should the team attach to the reply?",
+        "choices": [
+          "A meeting invitation",
+          "A sales report",
+          "An updated product list"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn thứ ba vì người nói yêu cầu đính kèm danh sách sản phẩm đã cập nhật."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "AI: đồng nghiệp ở chi nhánh Bangkok",
+      "b": "Người học: đồng nghiệp ở chi nhánh Hà Nội"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "I just read your email about the client meeting next Tuesday.",
+        "vi": "Tôi vừa đọc email của bạn về cuộc họp với khách hàng vào thứ Ba tới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Did you see that they asked to move it later?",
+        "vi": "Tốt. Bạn có thấy họ đề nghị dời lịch muộn hơn không?",
+        "hint": "Dùng asked to để nói ai đó đề nghị làm gì."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, they prefer Thursday afternoon because their manager is travelling.",
+        "vi": "Có, họ muốn chiều thứ Năm vì quản lý của họ đang đi công tác.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That works for our team, but we should confirm the new time.",
+        "vi": "Thời gian đó phù hợp với nhóm chúng ta, nhưng chúng ta nên xác nhận lại.",
+        "hint": "Dùng works for để nói điều gì phù hợp với ai."
+      },
+      {
+        "speaker": "a",
+        "en": "I agree. Could you reply and ask whether three in the afternoon suits them?",
+        "vi": "Tôi đồng ý. Bạn có thể trả lời và hỏi xem ba giờ chiều có phù hợp với họ không?",
+        "hint": "Dùng whether để hỏi gián tiếp, lịch sự hơn."
+      },
+      {
+        "speaker": "b",
+        "en": "Sure. I will also mention that we need their sales figures beforehand.",
+        "vi": "Được. Tôi cũng sẽ đề cập rằng chúng ta cần số liệu doanh số của họ trước đó.",
+        "hint": "I will also mention that dùng để thêm một ý vào email."
+      },
+      {
+        "speaker": "a",
+        "en": "Please keep the tone friendly, since this is our first project together.",
+        "vi": "Hãy giữ giọng điệu thân thiện, vì đây là dự án đầu tiên của chúng ta cùng làm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will write that we appreciate their flexibility and look forward to meeting them.",
+        "vi": "Tôi sẽ viết rằng chúng ta cảm kích sự linh hoạt của họ và mong được gặp họ.",
+        "hint": "Sau look forward to, dùng động từ thêm ing."
+      },
+      {
+        "speaker": "a",
+        "en": "Good idea. After you send it, please copy me on the email.",
+        "vi": "Ý hay. Sau khi gửi, hãy thêm tôi vào email.",
+        "hint": "Copy me on the email nghĩa là cho tôi cùng nhận email đó."
+      },
+      {
+        "speaker": "b",
+        "en": "I will do that. Is there anything else we should include?",
+        "vi": "Tôi sẽ làm vậy. Còn điều gì khác chúng ta nên đưa vào không?",
+        "hint": "Dùng Is there anything else để hỏi còn thông tin nào cần bổ sung không."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, remind them that our finance lead will join us remotely.",
+        "vi": "Có, hãy nhắc họ rằng trưởng nhóm tài chính của chúng ta sẽ tham gia từ xa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Understood. Let me summarize: we will propose Thursday at three, request their figures, and mention the finance lead.",
+        "vi": "Tôi hiểu. Để tôi tóm tắt: chúng ta sẽ đề xuất thứ Năm lúc ba giờ, yêu cầu số liệu của họ và đề cập trưởng nhóm tài chính.",
+        "hint": "Dùng Let me summarize để chốt lại nhiều ý đã thống nhất."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly, and please say that we need the figures by Wednesday morning.",
+        "vi": "Chính xác, và hãy nói rằng chúng ta cần số liệu trước sáng thứ Tư.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I will send the email now, request the figures by Wednesday, and update you.",
+        "vi": "Tôi sẽ gửi email ngay, yêu cầu số liệu trước thứ Tư và cập nhật cho bạn.",
+        "hint": "Update you nghĩa là báo lại cho bạn khi có thông tin mới."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a collaborative colleague working at the Bangkok branch. You speak warmly, give clear email advice, and help your teammate agree on a concise verbal summary.",
+    "opener": "I just read your email about the client meeting next Tuesday.",
+    "goal": "Người học thống nhất nội dung email trả lời khách hàng và tóm tắt lại các việc cần làm."
+  },
+  "drills": [
+    {
+      "vi": "Tôi sẽ theo dõi với khách hàng sau khi họ trả lời email.",
+      "en": "I will follow up with the client after they reply to the email.",
+      "alts": [
+        "I will contact the client again after they reply."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần dời lịch cuộc họp sang chiều thứ Năm.",
+      "en": "We need to reschedule the meeting for Thursday afternoon.",
+      "alts": [
+        "Could we move the meeting to Thursday afternoon?"
+      ]
+    },
+    {
+      "vi": "Hãy xác nhận thời gian mới trước khi gửi lời mời.",
+      "en": "Please confirm the new time before sending the invitation.",
+      "alts": [
+        "Could you confirm the new time before you send the invitation?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể gửi số liệu doanh số trước sáng thứ Tư không?",
+      "en": "Could you send the sales figures by Wednesday morning?",
+      "alts": [
+        "Would you mind sending the sales figures before Wednesday morning?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ thêm Maya vào email khi tôi trả lời.",
+      "en": "I will copy Maya in when I reply to the email.",
+      "alts": [
+        "I will include Maya in the email thread."
+      ]
+    },
+    {
+      "vi": "Để tôi tóm tắt những điều chúng ta đã thống nhất.",
+      "en": "Let me summarize what we have agreed.",
+      "alts": [
+        "Here is a quick summary of our plan."
+      ]
+    }
+  ],
+  "homework": [
+    "Viết một email ngắn đề xuất dời lịch họp sang chiều thứ Năm.",
+    "Ghi âm phần tóm tắt cuối hội thoại, rồi kiểm tra cách phát âm Thursday, send và remotely.",
+    "Tự viết ba câu dùng các mẫu Could you, I will also mention that và Let me summarize."
+  ]
+}

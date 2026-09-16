@@ -1,0 +1,378 @@
+{
+  "id": "thao-luan-uu-tien-san-pham",
+  "title": "Thảo luận thứ tự ưu tiên tính năng sản phẩm",
+  "topic": "Ưu tiên tính năng sản phẩm",
+  "level": "B2",
+  "summary": "Người học đóng vai trưởng nhóm hỗ trợ khách hàng, cùng quản lý sản phẩm quyết định thứ tự ưu tiên cho đợt phát hành sắp tới. Bài học tập trung vào cách nêu lý do, cân nhắc đánh đổi và đạt thỏa thuận thực tế.",
+  "goals": [
+    "Nêu đề xuất ưu tiên tính năng kèm lý do rõ ràng.",
+    "Tranh luận lịch sự về giá trị, mức độ khẩn cấp và phạm vi công việc.",
+    "Đàm phán để chốt một kế hoạch phát hành khả thi."
+  ],
+  "vocab": [
+    {
+      "en": "prioritize",
+      "ipa": "/praɪˈɔːrətaɪz/",
+      "vi": "ưu tiên",
+      "example": "We need to prioritize the features that solve urgent customer problems."
+    },
+    {
+      "en": "backlog",
+      "ipa": "/ˈbæk.lɔːɡ/",
+      "vi": "danh sách công việc hoặc tính năng chờ xử lý",
+      "example": "Dark mode is still in the product backlog."
+    },
+    {
+      "en": "user feedback",
+      "ipa": "/ˈjuːzər ˈfiːdbæk/",
+      "vi": "phản hồi của người dùng",
+      "example": "User feedback suggests that the export feature would be useful."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa các lựa chọn",
+      "example": "The trade-off is speed now versus a more complete solution later."
+    },
+    {
+      "en": "quick win",
+      "ipa": "/ˌkwɪk ˈwɪn/",
+      "vi": "việc có thể đem lại kết quả tốt nhanh chóng",
+      "example": "Fixing password recovery would be a quick win for the support team."
+    },
+    {
+      "en": "scope",
+      "ipa": "/skoʊp/",
+      "vi": "phạm vi công việc",
+      "example": "Let us keep the scope small for the first release."
+    },
+    {
+      "en": "dependency",
+      "ipa": "/dɪˈpendənsi/",
+      "vi": "hạng mục hoặc điều kiện phụ thuộc",
+      "example": "The feature has a dependency on the new email service."
+    },
+    {
+      "en": "must-have",
+      "ipa": "/ˈmʌst hæv/",
+      "vi": "tính năng thiết yếu, bắt buộc phải có",
+      "example": "Password recovery is a must-have feature for the next release."
+    },
+    {
+      "en": "nice-to-have",
+      "ipa": "/ˌnaɪs tə ˈhæv/",
+      "vi": "tính năng có thì tốt nhưng chưa thiết yếu",
+      "example": "Dark mode is nice-to-have, but it is not urgent."
+    },
+    {
+      "en": "rollout",
+      "ipa": "/ˈroʊlaʊt/",
+      "vi": "quá trình đưa tính năng ra cho người dùng",
+      "example": "We will collect feedback after the rollout."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would prioritize ___ because ___.",
+      "vi": "Tôi sẽ ưu tiên ___ vì ___.",
+      "note": "Dùng để đưa ra đề xuất có lý do, thay vì chỉ nêu ý kiến ngắn."
+    },
+    {
+      "en": "The trade-off is ___ versus ___.",
+      "vi": "Sự đánh đổi là ___ so với ___.",
+      "note": "Dùng khi so sánh hai lợi ích hoặc hai rủi ro."
+    },
+    {
+      "en": "Could we ___ first, then ___?",
+      "vi": "Chúng ta có thể ___ trước, rồi ___ được không?",
+      "note": "Mẫu đề xuất phương án theo từng giai đoạn, mang sắc thái hợp tác."
+    },
+    {
+      "en": "If we ___, we can ___.",
+      "vi": "Nếu chúng ta ___, chúng ta có thể ___.",
+      "note": "Dùng câu điều kiện để giải thích hệ quả của một quyết định."
+    },
+    {
+      "en": "I am comfortable with ___, provided that ___.",
+      "vi": "Tôi đồng ý với ___, với điều kiện là ___.",
+      "note": "Dùng để chấp nhận một phương án nhưng nêu điều kiện rõ ràng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong từ prioritize",
+      "tip": "Nhấn mạnh âm thứ hai, không đọc đều từng âm. Âm đầu /praɪ/ ngắn, âm /ɔː/ ở giữa rõ hơn.",
+      "words": [
+        "prioritize",
+        "priority",
+        "prioritization"
+      ]
+    },
+    {
+      "focus": "âm /tʃ/ trong feature",
+      "tip": "Đọc /tʃ/ như âm ch trong tiếng Việt nhưng bật hơi rõ hơn; tránh đọc thành feature với âm t riêng lẻ.",
+      "words": [
+        "feature",
+        "future",
+        "customer"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối trong scope và feedback",
+      "tip": "Khép nhẹ môi hoặc lưỡi ở cuối từ để người nghe phân biệt scope với school và feedback với fee.",
+      "words": [
+        "scope",
+        "feedback",
+        "backlog"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We should prioritize for password reset.",
+      "right": "We should prioritize password reset.",
+      "vi": "Prioritize là ngoại động từ, không dùng for trước tên tính năng."
+    },
+    {
+      "wrong": "I agree with prioritize the dashboard.",
+      "right": "I agree with prioritizing the dashboard.",
+      "vi": "Sau agree with, dùng danh từ hoặc động từ thêm ing."
+    },
+    {
+      "wrong": "We do not have time enough to build both features.",
+      "right": "We do not have enough time to build both features.",
+      "vi": "Enough đứng trước danh từ time."
+    },
+    {
+      "wrong": "Dark mode is more low priority.",
+      "right": "Dark mode is a lower priority.",
+      "vi": "Dùng lower priority để so sánh mức độ ưu tiên."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề xuất tính năng nên làm trước",
+      "formal": "I recommend that we prioritize the password reset flow in the next release.",
+      "casual": "Let's do password reset first.",
+      "vi": "Câu formal phù hợp trong cuộc họp với cấp trên hoặc văn bản kế hoạch; câu casual hợp với đồng nghiệp thân trong trao đổi nhanh."
+    },
+    {
+      "situation": "Không đồng ý với mức độ ưu tiên của một tính năng",
+      "formal": "I see the value, but I would place it lower on the roadmap.",
+      "casual": "I am not sold on that yet.",
+      "vi": "Câu formal nêu bất đồng lịch sự trong họp chính thức; câu casual tự nhiên hơn khi nói với đồng nghiệp quen, nhưng không nên dùng với khách hàng hoặc cấp trên quá trang trọng."
+    },
+    {
+      "situation": "Đề nghị giảm phạm vi tính năng",
+      "formal": "To keep the scope manageable, could we limit the first release to the core use case?",
+      "casual": "Can we keep the first version simple?",
+      "vi": "Câu formal phù hợp khi cần nêu lý do chuyên môn; câu casual dùng trong buổi trao đổi nội bộ thân mật."
+    },
+    {
+      "situation": "Chấp nhận phương án có điều kiện",
+      "formal": "I can support that approach, provided that we postpone the calendar view.",
+      "casual": "I am okay with that if we push the calendar view back.",
+      "vi": "Câu formal rõ ràng và phù hợp khi chốt quyết định; câu casual mềm mại hơn trong trao đổi hằng ngày."
+    }
+  ],
+  "culture": [
+    "Trong cuộc họp sản phẩm bằng tiếng Anh, mọi người thường nêu đề xuất kèm lý do và sự đánh đổi ngay từ đầu. Chỉ nói “tôi thích tính năng này” thường chưa đủ thuyết phục.",
+    "Sự bất đồng thẳng nhưng lịch sự là bình thường. Các cách mở đầu như “I see the value, but...” giúp phản biện mà không tạo cảm giác công kích cá nhân.",
+    "Khi cả nhóm đã chốt, người nói thường nhắc lại quyết định, người chịu trách nhiệm và bước tiếp theo. Đừng coi im lặng là đồng ý; hãy xác nhận rõ bằng lời."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về kế hoạch phát hành",
+    "passage": "Hi team, I reviewed the customer interviews from this week. The most common complaint was not the design of the app. People were frustrated because they could not reset their passwords quickly. For the next release, I recommend putting password recovery first and basic data export second. The new calendar view can wait, since only a few customers mentioned it. Please send me any concerns before tomorrow afternoon, so we can finalize the plan.",
+    "vi": "Chào cả nhóm, tôi đã xem lại các cuộc phỏng vấn khách hàng trong tuần này. Phàn nàn phổ biến nhất không phải là thiết kế của ứng dụng. Mọi người thất vọng vì họ không thể đặt lại mật khẩu nhanh chóng. Với đợt phát hành tiếp theo, tôi đề xuất ưu tiên khôi phục mật khẩu trước và xuất dữ liệu cơ bản thứ hai. Chế độ xem lịch mới có thể chờ, vì chỉ có một vài khách hàng nhắc đến nó. Hãy gửi cho tôi mọi băn khoăn trước chiều mai để chúng ta có thể chốt kế hoạch.",
+    "questions": [
+      {
+        "q": "What was the most common customer complaint?",
+        "choices": [
+          "The app design",
+          "Slow password recovery",
+          "Missing calendar events"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói khách hàng thất vọng do không thể đặt lại mật khẩu nhanh chóng."
+      },
+      {
+        "q": "Which feature is recommended as the second priority?",
+        "choices": [
+          "Basic data export",
+          "A new calendar view",
+          "A design update"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói nêu “basic data export second”."
+      },
+      {
+        "q": "Why can the new calendar view wait?",
+        "choices": [
+          "It is too expensive",
+          "Only a few customers mentioned it",
+          "The team has already built it"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói chỉ có một vài khách hàng nhắc đến tính năng này."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Quản lý sản phẩm",
+      "b": "Trưởng nhóm hỗ trợ khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Before we lock the next release, I would like us to agree on which features matter most. What is your top priority?",
+        "vi": "Trước khi chốt đợt phát hành tiếp theo, tôi muốn chúng ta thống nhất những tính năng quan trọng nhất. Ưu tiên hàng đầu của bạn là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would start with password reset. Support tickets about login issues keep coming up.",
+        "vi": "Tôi sẽ bắt đầu với tính năng đặt lại mật khẩu. Các yêu cầu hỗ trợ về vấn đề đăng nhập liên tục xuất hiện.",
+        "hint": "Dùng I would start with để nêu lựa chọn đầu tiên."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. It solves a clear pain point, but we also have the dashboard redesign on the list. Which one would bring more value right now?",
+        "vi": "Điều đó hợp lý. Nó giải quyết một vấn đề rõ ràng, nhưng chúng ta cũng có việc thiết kế lại bảng điều khiển trong danh sách. Cái nào sẽ mang lại nhiều giá trị hơn lúc này?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The dashboard redesign could improve daily use, but password reset is the more urgent quick win.",
+        "vi": "Việc thiết kế lại bảng điều khiển có thể cải thiện trải nghiệm hằng ngày, nhưng đặt lại mật khẩu là kết quả nhanh cấp thiết hơn.",
+        "hint": "Dùng but để đối chiếu lợi ích dài hạn với mức độ khẩn cấp."
+      },
+      {
+        "speaker": "a",
+        "en": "I agree that it is urgent. The catch is that the reset flow depends on our new email service, which is not ready yet.",
+        "vi": "Tôi đồng ý rằng nó cấp thiết. Vấn đề là quy trình đặt lại mật khẩu phụ thuộc vào dịch vụ email mới của chúng ta, mà dịch vụ đó chưa sẵn sàng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could we launch a simpler version first, then add the new email service later?",
+        "vi": "Chúng ta có thể ra mắt một phiên bản đơn giản hơn trước, rồi thêm dịch vụ email mới sau được không?",
+        "hint": "Dùng Could we để đề xuất nhẹ nhàng một phương án theo hai giai đoạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Possibly. We need to weigh that against the risk of building it twice. What would you move down the list to make room?",
+        "vi": "Có thể. Chúng ta cần cân nhắc điều đó với rủi ro phải xây dựng hai lần. Bạn sẽ đẩy hạng mục nào xuống thấp hơn để nhường chỗ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would postpone dark mode. People have asked for it, but it will not unblock anyone or reduce support requests.",
+        "vi": "Tôi sẽ hoãn chế độ tối. Mọi người có yêu cầu nó, nhưng nó không giúp ai tháo gỡ vướng mắc hoặc giảm yêu cầu hỗ trợ.",
+        "hint": "Postpone nghĩa là hoãn; nêu thêm lý do để đề xuất thuyết phục hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Fair point. If we prioritize password reset and the dashboard, the team can finish only one other item. Would basic data export be more valuable than dark mode?",
+        "vi": "Ý hợp lý. Nếu ưu tiên đặt lại mật khẩu và bảng điều khiển, nhóm chỉ có thể hoàn thành thêm một hạng mục khác. Xuất dữ liệu cơ bản có giá trị hơn chế độ tối không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, especially for team leads who review data every week. Still, I would keep its scope small and avoid custom report formats for now.",
+        "vi": "Có, đặc biệt với các trưởng nhóm xem dữ liệu mỗi tuần. Tuy vậy, tôi sẽ giữ phạm vi nhỏ và tạm thời tránh các định dạng báo cáo tùy chỉnh.",
+        "hint": "Dùng especially for để chỉ nhóm người dùng hưởng lợi nhiều nhất."
+      },
+      {
+        "speaker": "a",
+        "en": "That is a sensible trade-off. So our order is password reset, dashboard redesign, then basic data export. Are you comfortable with that?",
+        "vi": "Đó là một sự đánh đổi hợp lý. Vậy thứ tự của chúng ta là đặt lại mật khẩu, thiết kế lại bảng điều khiển, rồi xuất dữ liệu cơ bản. Bạn đồng ý với việc đó chứ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, provided that we tell customers dark mode is still planned and collect feedback after the release.",
+        "vi": "Có, với điều kiện là chúng ta nói với khách hàng rằng chế độ tối vẫn được lên kế hoạch và thu thập phản hồi sau đợt phát hành.",
+        "hint": "Provided that có nghĩa là với điều kiện là."
+      },
+      {
+        "speaker": "a",
+        "en": "Absolutely. I will update the roadmap, explain the reasoning to support, and set a review meeting for two weeks after launch.",
+        "vi": "Chắc chắn rồi. Tôi sẽ cập nhật lộ trình, giải thích lý do cho bộ phận hỗ trợ và lên lịch họp đánh giá sau khi ra mắt hai tuần.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. That gives us a clear plan without promising more than the team can deliver.",
+        "vi": "Tuyệt. Như vậy chúng ta có một kế hoạch rõ ràng mà không hứa nhiều hơn khả năng đội ngũ có thể thực hiện.",
+        "hint": "Cụm without promising more than diễn đạt ý không cam kết quá mức."
+      },
+      {
+        "speaker": "a",
+        "en": "Perfect. We have a decision: three focused features now, dark mode next, and a feedback review after launch.",
+        "vi": "Hoàn hảo. Chúng ta đã có quyết định: ba tính năng trọng tâm ngay bây giờ, chế độ tối tiếp theo và đánh giá phản hồi sau khi ra mắt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. I will brief the support team so they can set the right expectations with customers.",
+        "vi": "Đồng ý. Tôi sẽ phổ biến cho nhóm hỗ trợ để họ có thể đặt kỳ vọng đúng với khách hàng.",
+        "hint": "Set the right expectations nghĩa là giúp người khác hiểu đúng điều có thể mong đợi."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a calm, practical product manager leading a weekly planning meeting at a software company. You listen to evidence, ask respectful but direct questions, and negotiate a realistic feature order with a customer support lead.",
+    "opener": "Before we lock the next release, I would like us to agree on which features matter most. What is your top priority?",
+    "goal": "Người học đề xuất thứ tự ưu tiên tính năng, bảo vệ lựa chọn của mình và cùng AI chốt kế hoạch phát hành."
+  },
+  "drills": [
+    {
+      "vi": "Tôi sẽ ưu tiên tính năng đặt lại mật khẩu vì nó giải quyết một vấn đề cấp thiết.",
+      "en": "I would prioritize password reset because it solves an urgent problem.",
+      "alts": [
+        "I would put password reset first because it is urgent."
+      ]
+    },
+    {
+      "vi": "Sự đánh đổi là ra mắt nhanh so với xây dựng một giải pháp hoàn chỉnh hơn.",
+      "en": "The trade-off is a quick launch versus a more complete solution.",
+      "alts": []
+    },
+    {
+      "vi": "Chúng ta có thể ra mắt phiên bản đơn giản trước, rồi cải thiện nó sau không?",
+      "en": "Could we launch a simpler version first, then improve it later?",
+      "alts": [
+        "Could we release a basic version first and add more later?"
+      ]
+    },
+    {
+      "vi": "Nếu chúng ta giữ phạm vi nhỏ, chúng ta có thể hoàn thành đúng hạn.",
+      "en": "If we keep the scope small, we can finish on time.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi đồng ý với kế hoạch này, với điều kiện là chúng ta thu thập phản hồi của người dùng.",
+      "en": "I am comfortable with this plan, provided that we collect user feedback.",
+      "alts": [
+        "I can support this plan if we collect user feedback."
+      ]
+    },
+    {
+      "vi": "Chế độ tối có thì tốt, nhưng chưa phải là tính năng thiết yếu.",
+      "en": "Dark mode is nice-to-have, but it is not a must-have.",
+      "alts": []
+    },
+    {
+      "vi": "Tính năng đó có một phụ thuộc vào dịch vụ email mới.",
+      "en": "That feature has a dependency on the new email service.",
+      "alts": []
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại, chú ý nhấn trọng âm trong prioritize và priority.",
+    "Viết một đoạn 80 đến 100 từ để đề xuất thứ tự ưu tiên cho ba tính năng của một ứng dụng.",
+    "Tập trả lời bằng tiếng Anh: bạn sẽ hoãn tính năng nào và vì sao?"
+  ]
+}

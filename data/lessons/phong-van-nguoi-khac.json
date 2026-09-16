@@ -1,0 +1,386 @@
+{
+  "id": "phong-van-nguoi-khac",
+  "title": "Phỏng vấn ứng viên",
+  "topic": "Bạn là người phỏng vấn",
+  "level": "B2",
+  "summary": "Bạn đóng vai người phỏng vấn một ứng viên đang hơi hồi hộp. Bạn sẽ đặt câu hỏi, khai thác kinh nghiệm và kết thúc buổi phỏng vấn một cách chuyên nghiệp.",
+  "goals": [
+    "Đặt câu hỏi phỏng vấn tự nhiên và lịch sự",
+    "Khai thác ví dụ cụ thể về kinh nghiệm, cách giải quyết vấn đề và hợp tác",
+    "Phản hồi, làm rõ và kết thúc buổi phỏng vấn chuyên nghiệp"
+  ],
+  "vocab": [
+    {
+      "en": "relevant experience",
+      "ipa": "/ˈreləvənt ɪkˈspɪriəns/",
+      "vi": "kinh nghiệm liên quan",
+      "example": "Could you tell me about your relevant experience?"
+    },
+    {
+      "en": "strength",
+      "ipa": "/streŋθ/",
+      "vi": "điểm mạnh",
+      "example": "One of my strengths is staying calm under pressure."
+    },
+    {
+      "en": "challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "vi": "thử thách",
+      "example": "Tell me about a challenge you faced at work."
+    },
+    {
+      "en": "stakeholder",
+      "ipa": "/ˈsteɪkhoʊldər/",
+      "vi": "bên liên quan, người có lợi ích trong dự án",
+      "example": "I kept the stakeholders informed throughout the project."
+    },
+    {
+      "en": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "vi": "hạn chót",
+      "example": "We met the deadline despite several unexpected changes."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa hai lựa chọn",
+      "example": "We had to make a trade-off between speed and cost."
+    },
+    {
+      "en": "take initiative",
+      "ipa": "/teɪk ɪˈnɪʃətɪv/",
+      "vi": "chủ động làm việc",
+      "example": "She took initiative when the team needed support."
+    },
+    {
+      "en": "follow up",
+      "ipa": "/ˈfɑːloʊ ʌp/",
+      "vi": "theo dõi, liên hệ lại",
+      "example": "I always follow up after an important meeting."
+    },
+    {
+      "en": "constructive feedback",
+      "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
+      "vi": "phản hồi mang tính xây dựng",
+      "example": "I welcome constructive feedback from my manager."
+    },
+    {
+      "en": "a good fit",
+      "ipa": "/ə ɡʊd fɪt/",
+      "vi": "phù hợp với vị trí hoặc tổ chức",
+      "example": "I believe I would be a good fit for this role."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you walk me through ___?",
+      "vi": "Bạn có thể trình bày chi tiết về ___ không?",
+      "note": "Dùng để yêu cầu ứng viên kể rõ quá trình, tự nhiên hơn hỏi chung chung."
+    },
+    {
+      "en": "What would you say is your biggest strength?",
+      "vi": "Bạn nghĩ điểm mạnh lớn nhất của bạn là gì?",
+      "note": "Cách hỏi mềm mại, phù hợp khi phỏng vấn."
+    },
+    {
+      "en": "Can you give me an example of a time when ___?",
+      "vi": "Bạn có thể cho tôi một ví dụ về lúc bạn ___ không?",
+      "note": "Dùng để yêu cầu minh chứng bằng tình huống thực tế."
+    },
+    {
+      "en": "How did you handle ___?",
+      "vi": "Bạn đã xử lý ___ như thế nào?",
+      "note": "Dùng để hỏi về cách ứng viên phản ứng trước vấn đề."
+    },
+    {
+      "en": "What questions do you have for us?",
+      "vi": "Bạn có câu hỏi nào dành cho chúng tôi không?",
+      "note": "Câu hỏi kết thúc phỏng vấn rất phổ biến."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong strength",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai răng và thổi hơi. Không đọc thành /s/ hoặc /t/.",
+      "words": [
+        "strength",
+        "three",
+        "thought"
+      ]
+    },
+    {
+      "focus": "trọng âm trong stakeholder và deadline",
+      "tip": "Nhấn mạnh âm đầu: STAKE-holder, DEAD-line. Không đọc đều tất cả âm.",
+      "words": [
+        "stakeholder",
+        "deadline",
+        "feedback"
+      ]
+    },
+    {
+      "focus": "nối âm trong could you và follow up",
+      "tip": "Nối nhẹ các từ liền nhau để câu nghe tự nhiên: could-you, follow-up.",
+      "words": [
+        "could you",
+        "follow up",
+        "good fit"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Can you introduce about yourself?",
+      "right": "Can you tell me about yourself?",
+      "vi": "Không dùng introduce about. Có thể nói introduce yourself hoặc tell me about yourself."
+    },
+    {
+      "wrong": "What is your strong point?",
+      "right": "What is your biggest strength?",
+      "vi": "Strong point hiểu được nhưng biggest strength tự nhiên hơn trong phỏng vấn."
+    },
+    {
+      "wrong": "How did you solved the problem?",
+      "right": "How did you solve the problem?",
+      "vi": "Sau did dùng động từ nguyên mẫu."
+    },
+    {
+      "wrong": "I am very suitable for this position.",
+      "right": "I believe I am a good fit for this position.",
+      "vi": "Suitable đúng ngữ pháp nhưng good fit tự nhiên và chuyên nghiệp hơn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mời ứng viên giới thiệu bản thân",
+      "formal": "Could you tell me a little about yourself?",
+      "casual": "So, tell me a bit about yourself.",
+      "vi": "Câu formal phù hợp với buổi phỏng vấn chính thức; câu casual chỉ hợp với không khí thân thiện, ít trang trọng."
+    },
+    {
+      "situation": "Hỏi ứng viên về kinh nghiệm",
+      "formal": "Could you walk me through your relevant experience?",
+      "casual": "Can you talk me through what you have done before?",
+      "vi": "Câu formal rõ ràng và chuyên nghiệp hơn khi phỏng vấn; câu casual phù hợp khi nói chuyện với đồng nghiệp quen biết."
+    },
+    {
+      "situation": "Yêu cầu ví dụ cụ thể",
+      "formal": "Can you give me an example of a time when you handled a difficult situation?",
+      "casual": "Do you have an example of handling something difficult?",
+      "vi": "Câu formal đầy đủ và lịch sự hơn; câu casual ngắn, dùng trong trao đổi nội bộ không quá nghi thức."
+    },
+    {
+      "situation": "Kết thúc buổi phỏng vấn",
+      "formal": "Thank you for your time. We will follow up by Friday.",
+      "casual": "Thanks for coming in. We will get back to you soon.",
+      "vi": "Câu formal phù hợp khi đại diện công ty thông báo quy trình; câu casual dùng khi văn hóa công ty thân mật hơn."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn ở môi trường nói tiếng Anh, người phỏng vấn thường hỏi ví dụ cụ thể thay vì chấp nhận câu trả lời chung chung. Ứng viên nên nêu tình huống, hành động và kết quả.",
+    "Một chút im lặng sau câu trả lời thường là bình thường. Không cần nói liên tục để lấp khoảng trống; hãy để người phỏng vấn ghi chú hoặc đặt câu hỏi tiếp theo.",
+    "Người phỏng vấn thường kết thúc bằng thời điểm sẽ liên hệ lại. Điều này không tự động có nghĩa là ứng viên đã được chọn; đó là cách kết thúc lịch sự và rõ ràng."
+  ],
+  "listening": {
+    "title": "Tin nhắn sau buổi phỏng vấn",
+    "passage": "Hello, this is Maya from BrightPath Services. Thank you for speaking with our team yesterday. We enjoyed learning about your experience improving customer support processes. The next step is a short meeting with the operations manager. Please prepare one example of a project where you worked with different teams and had to balance speed, cost, and customer needs. We will send the meeting time later today.",
+    "vi": "Xin chào, tôi là Maya từ BrightPath Services. Cảm ơn bạn đã nói chuyện với nhóm của chúng tôi hôm qua. Chúng tôi rất thích tìm hiểu về kinh nghiệm của bạn trong việc cải thiện quy trình hỗ trợ khách hàng. Bước tiếp theo là một cuộc gặp ngắn với quản lý vận hành. Hãy chuẩn bị một ví dụ về dự án mà bạn làm việc với các nhóm khác nhau và phải cân bằng tốc độ, chi phí và nhu cầu của khách hàng. Chúng tôi sẽ gửi thời gian họp vào cuối ngày hôm nay.",
+    "questions": [
+      {
+        "q": "Who will the candidate meet next?",
+        "choices": [
+          "The operations manager",
+          "A customer",
+          "The company owner"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì bài nghe nói bước tiếp theo là gặp quản lý vận hành."
+      },
+      {
+        "q": "What should the candidate prepare?",
+        "choices": [
+          "A salary proposal",
+          "An example of a cross-team project",
+          "A list of customer names"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì người gọi yêu cầu chuẩn bị một ví dụ về dự án làm việc với các nhóm khác nhau."
+      },
+      {
+        "q": "When will the meeting time be sent?",
+        "choices": [
+          "Later today",
+          "Tomorrow morning",
+          "Next week"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì cuối bài nghe nói thời gian họp sẽ được gửi vào cuối ngày hôm nay."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Ứng viên đang hơi hồi hộp",
+      "b": "Người phỏng vấn là người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Thank you for meeting with me. I am a little nervous, but I am very glad to be here.",
+        "vi": "Chào buổi sáng. Cảm ơn anh chị đã gặp tôi. Tôi hơi hồi hộp, nhưng tôi rất vui được có mặt ở đây.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good morning. Please make yourself comfortable. Could you tell me a little about yourself?",
+        "vi": "Chào buổi sáng. Bạn cứ tự nhiên nhé. Bạn có thể giới thiệu đôi chút về bản thân không?",
+        "hint": "Mở đầu thân thiện rồi dùng mẫu Could you tell me about yourself?"
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I have worked in customer support for four years, mainly with online retail clients. In my current role, I help customers solve delivery and payment issues.",
+        "vi": "Dĩ nhiên. Tôi đã làm hỗ trợ khách hàng bốn năm, chủ yếu với khách hàng bán lẻ trực tuyến. Ở vị trí hiện tại, tôi giúp khách hàng giải quyết vấn đề giao hàng và thanh toán.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. What made you interested in this role?",
+        "vi": "Cảm ơn bạn. Điều gì khiến bạn quan tâm đến vị trí này?",
+        "hint": "Dùng What made you interested in để hỏi động lực ứng tuyển."
+      },
+      {
+        "speaker": "a",
+        "en": "I was drawn to the role because it combines customer service with process improvement. I enjoy helping people, but I also like finding ways to prevent the same problem from happening again.",
+        "vi": "Tôi bị thu hút bởi vị trí này vì nó kết hợp dịch vụ khách hàng với cải tiến quy trình. Tôi thích giúp đỡ mọi người, nhưng tôi cũng thích tìm cách ngăn cùng một vấn đề tái diễn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That makes sense. What would you say is your biggest strength?",
+        "vi": "Điều đó hợp lý. Bạn nghĩ điểm mạnh lớn nhất của mình là gì?",
+        "hint": "Dùng What would you say để câu hỏi nghe mềm mại hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "I would say my biggest strength is staying calm under pressure. When a customer is upset, I listen first, acknowledge the issue, and then focus on what I can do to help.",
+        "vi": "Tôi cho rằng điểm mạnh lớn nhất của mình là giữ bình tĩnh khi chịu áp lực. Khi khách hàng bực bội, tôi lắng nghe trước, ghi nhận vấn đề, rồi tập trung vào điều tôi có thể làm để giúp họ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can you give me an example of a time when you had to deal with a difficult customer?",
+        "vi": "Bạn có thể cho tôi một ví dụ về lúc bạn phải xử lý một khách hàng khó tính không?",
+        "hint": "Dùng Can you give me an example of a time when để yêu cầu ví dụ thực tế."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. A customer had received the wrong order just before an important event. I apologized, arranged an express replacement, and kept her updated until it arrived. She later thanked me for not passing her from one person to another.",
+        "vi": "Chắc chắn rồi. Một khách hàng nhận sai đơn hàng ngay trước một sự kiện quan trọng. Tôi xin lỗi, sắp xếp giao thay thế khẩn cấp và cập nhật cho cô ấy cho đến khi hàng tới nơi. Sau đó cô ấy cảm ơn tôi vì đã không chuyển cô ấy từ người này sang người khác.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How did you make sure the replacement arrived on time?",
+        "vi": "Bạn đã làm thế nào để bảo đảm hàng thay thế đến đúng hạn?",
+        "hint": "Hỏi sâu hơn bằng How did you make sure...?"
+      },
+      {
+        "speaker": "a",
+        "en": "I contacted the warehouse directly, checked which items were available, and explained the urgency to the delivery partner. There was a trade-off because express shipping cost more, but the team agreed that protecting the customer relationship was worth it.",
+        "vi": "Tôi liên hệ trực tiếp với kho, kiểm tra mặt hàng nào còn sẵn và giải thích sự cấp bách với đối tác giao hàng. Có một sự đánh đổi vì giao nhanh tốn kém hơn, nhưng cả nhóm đồng ý rằng bảo vệ mối quan hệ với khách hàng là xứng đáng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I appreciate that example. This role involves working with several stakeholders. How do you handle disagreements within a team?",
+        "vi": "Tôi đánh giá cao ví dụ đó. Vị trí này cần làm việc với nhiều bên liên quan. Bạn xử lý bất đồng trong nhóm như thế nào?",
+        "hint": "Stakeholders là các bên liên quan như quản lý, khách hàng hoặc bộ phận khác."
+      },
+      {
+        "speaker": "a",
+        "en": "I try to separate the person from the problem. First, I ask questions to understand the other point of view. Then I bring the discussion back to our shared goal and suggest options, including the trade-offs involved. Even when we disagree, I want people to feel heard.",
+        "vi": "Tôi cố gắng tách con người ra khỏi vấn đề. Trước hết, tôi đặt câu hỏi để hiểu góc nhìn khác. Sau đó, tôi đưa cuộc trao đổi trở lại mục tiêu chung và đề xuất các lựa chọn, bao gồm những đánh đổi liên quan. Ngay cả khi bất đồng, tôi muốn mọi người cảm thấy được lắng nghe.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is a thoughtful approach. Do you have any questions for us before we wrap up?",
+        "vi": "Đó là một cách tiếp cận sâu sắc. Bạn có câu hỏi nào dành cho chúng tôi trước khi kết thúc không?",
+        "hint": "Đây là câu hỏi kết thúc phỏng vấn rất thông dụng."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, thank you. How would you describe success in this position during the first six months, and what kind of support would the new hire receive while learning the team processes?",
+        "vi": "Có, cảm ơn anh chị. Anh chị sẽ mô tả thành công ở vị trí này trong sáu tháng đầu như thế nào, và nhân viên mới sẽ nhận được loại hỗ trợ nào khi học các quy trình của nhóm?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We would expect the new hire to learn the core systems, build trust with key stakeholders, and take ownership of a small improvement project. Thank you for your time. We will follow up by Friday.",
+        "vi": "Chúng tôi kỳ vọng nhân viên mới học các hệ thống cốt lõi, xây dựng sự tin cậy với các bên liên quan chính và chủ động phụ trách một dự án cải tiến nhỏ. Cảm ơn bạn đã dành thời gian. Chúng tôi sẽ liên hệ lại trước thứ Sáu.",
+        "hint": "Kết thúc rõ ràng bằng lời cảm ơn và mốc liên hệ lại."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a nervous but capable job candidate in a face-to-face interview at a customer service company. You answer honestly, speak politely, and become more confident when the interviewer asks follow-up questions.",
+    "opener": "Good morning. Thank you for meeting with me. I am a little nervous, but I am very glad to be here.",
+    "goal": "Người học đặt câu hỏi phỏng vấn, khai thác ví dụ cụ thể và kết thúc buổi phỏng vấn chuyên nghiệp."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có thể trình bày chi tiết kinh nghiệm liên quan của mình không?",
+      "en": "Could you walk me through your relevant experience?",
+      "alts": [
+        "Could you tell me about your relevant experience?"
+      ]
+    },
+    {
+      "vi": "Bạn nghĩ điểm mạnh lớn nhất của mình là gì?",
+      "en": "What would you say is your biggest strength?",
+      "alts": [
+        "What is your biggest strength?"
+      ]
+    },
+    {
+      "vi": "Bạn có thể cho tôi một ví dụ về lúc bạn chủ động làm việc không?",
+      "en": "Can you give me an example of a time when you took initiative?",
+      "alts": [
+        "Could you give me an example of when you took initiative?"
+      ]
+    },
+    {
+      "vi": "Bạn đã xử lý hạn chót gấp như thế nào?",
+      "en": "How did you handle a tight deadline?",
+      "alts": [
+        "How did you manage a tight deadline?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi phải cân nhắc sự đánh đổi giữa chi phí và tốc độ.",
+      "en": "We had to consider the trade-off between cost and speed.",
+      "alts": [
+        "We had to make a trade-off between cost and speed."
+      ]
+    },
+    {
+      "vi": "Bạn làm thế nào để cập nhật thông tin cho các bên liên quan?",
+      "en": "How do you keep stakeholders informed?",
+      "alts": [
+        "How do you update the stakeholders?"
+      ]
+    },
+    {
+      "vi": "Bạn có câu hỏi nào dành cho chúng tôi không?",
+      "en": "What questions do you have for us?",
+      "alts": [
+        "Do you have any questions for us?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm tám câu hỏi phỏng vấn trong bài và chú ý ngữ điệu lịch sự.",
+    "Viết hai ví dụ theo mẫu Can you give me an example of a time when...?",
+    "Tập trả lời trong một phút về điểm mạnh và cách bạn xử lý một thử thách."
+  ]
+}

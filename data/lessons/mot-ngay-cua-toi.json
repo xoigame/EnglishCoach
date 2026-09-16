@@ -1,166 +1,216 @@
 {
   "id": "mot-ngay-cua-toi",
-  "title": "Kể về một ngày bình thường của tôi",
-  "topic": "Sinh hoạt hằng ngày",
+  "title": "Kể về một ngày bình thường của bạn",
+  "topic": "Một ngày bình thường",
   "level": "A1",
-  "summary": "Người học kể ngắn gọn về thói quen trong một ngày bình thường. Bài tập tập trung vào thì hiện tại đơn và trạng từ tần suất.",
+  "summary": "Bạn tập kể về lịch sinh hoạt hằng ngày bằng thì hiện tại đơn. Bài học nhấn mạnh các trạng từ tần suất như usually, often và always.",
   "goals": [
-    "Dùng thì hiện tại đơn để kể về thói quen hằng ngày.",
-    "Dùng các trạng từ tần suất như always, usually, often và sometimes.",
-    "Trả lời các câu hỏi ngắn về lịch sinh hoạt cá nhân."
+    "Dùng thì hiện tại đơn để nói về thói quen hằng ngày.",
+    "Nói được giờ giấc và các hoạt động quen thuộc.",
+    "Đặt trạng từ tần suất đúng vị trí trong câu."
   ],
   "vocab": [
     {
-      "en": "wake up",
-      "ipa": "/weɪk ʌp/",
-      "vi": "thức dậy",
-      "example": "I wake up at six."
-    },
-    {
-      "en": "early",
-      "ipa": "/ˈɜːrli/",
-      "vi": "sớm",
-      "example": "I wake up early daily."
+      "en": "get up",
+      "ipa": "/ɡet ʌp/",
+      "vi": "thức dậy, ra khỏi giường",
+      "example": "I get up at seven."
     },
     {
       "en": "breakfast",
       "ipa": "/ˈbrekfəst/",
       "vi": "bữa sáng",
-      "example": "I eat breakfast at seven."
+      "example": "Breakfast is ready at home."
     },
     {
       "en": "weekday",
       "ipa": "/ˈwiːkdeɪ/",
       "vi": "ngày trong tuần",
-      "example": "We work every weekday."
+      "example": "I work every weekday."
     },
     {
-      "en": "work from home",
-      "ipa": "/wɜːrk frəm hoʊm/",
-      "vi": "làm việc tại nhà",
-      "example": "I work from home."
+      "en": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "vi": "thường thường",
+      "example": "I usually eat at home."
     },
     {
-      "en": "after work",
-      "ipa": "/ˈæftər wɜːrk/",
-      "vi": "sau giờ làm",
-      "example": "I cook after work."
+      "en": "often",
+      "ipa": "/ˈɔːfən/",
+      "vi": "thường xuyên",
+      "example": "I often cook dinner."
     },
     {
-      "en": "cook dinner",
-      "ipa": "/kʊk ˈdɪnər/",
-      "vi": "nấu bữa tối",
-      "example": "We cook dinner together."
+      "en": "always",
+      "ipa": "/ˈɔːlweɪz/",
+      "vi": "luôn luôn",
+      "example": "I always sleep early."
+    },
+    {
+      "en": "dinner",
+      "ipa": "/ˈdɪnər/",
+      "vi": "bữa tối",
+      "example": "Dinner is ready at six."
     },
     {
       "en": "relax",
       "ipa": "/rɪˈlæks/",
       "vi": "thư giãn",
-      "example": "I relax after dinner."
+      "example": "I relax after work."
     },
     {
-      "en": "read",
-      "ipa": "/riːd/",
-      "vi": "đọc sách",
-      "example": "I read before I sleep."
+      "en": "before",
+      "ipa": "/bɪˈfɔːr/",
+      "vi": "trước",
+      "example": "I sleep before eleven."
     },
     {
       "en": "sleep",
       "ipa": "/sliːp/",
       "vi": "ngủ",
-      "example": "I sleep at ten."
-    },
-    {
-      "en": "usually",
-      "ipa": "/ˈjuːʒuəli/",
-      "vi": "thường",
-      "example": "I usually drink tea."
-    },
-    {
-      "en": "sometimes",
-      "ipa": "/ˈsʌmtaɪmz/",
-      "vi": "đôi khi",
-      "example": "Sometimes I read at night."
+      "example": "I sleep for eight hours."
     }
   ],
   "patterns": [
     {
-      "en": "I usually ___.",
-      "vi": "Tôi thường ___.",
-      "note": "Đặt usually trước động từ thường."
+      "en": "I get up at ___.",
+      "vi": "Tôi thức dậy lúc ___.",
+      "note": "Dùng at trước giờ cụ thể."
     },
     {
-      "en": "I always ___ at ___.",
-      "vi": "Tôi luôn ___ vào lúc ___.",
-      "note": "Dùng để nói một thói quen cố định."
+      "en": "I usually ___ in the morning.",
+      "vi": "Tôi thường ___ vào buổi sáng.",
+      "note": "Usually đứng trước động từ thường."
     },
     {
-      "en": "Do you ___ every weekday?",
-      "vi": "Bạn có ___ mỗi ngày trong tuần không?",
-      "note": "Dùng do để hỏi về thói quen."
+      "en": "I work on weekdays.",
+      "vi": "Tôi làm việc vào các ngày trong tuần.",
+      "note": "Dùng on với các ngày; weekdays không cần mạo từ."
     },
     {
       "en": "After work, I often ___.",
       "vi": "Sau giờ làm, tôi thường ___.",
-      "note": "Often đứng trước động từ thường."
+      "note": "Often thường đứng trước động từ chính."
     },
     {
-      "en": "At night, I sometimes ___.",
-      "vi": "Ban đêm, đôi khi tôi ___.",
-      "note": "Sometimes có thể đứng đầu hoặc trước động từ thường."
+      "en": "I always ___ before ___.",
+      "vi": "Tôi luôn ___ trước ___.",
+      "note": "Always đứng trước động từ thường."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm cuối /k/",
-      "tip": "Phát nhẹ âm /k/ ở cuối từ, không bỏ mất âm cuối.",
+      "focus": "phụ âm cuối",
+      "tip": "Phát âm nhẹ âm cuối, không bỏ hẳn. Hãy giữ môi hoặc lưỡi ở vị trí cuối câu rồi dừng.",
       "words": [
-        "wake",
+        "get",
         "work",
-        "cook"
+        "sleep"
       ]
     },
     {
-      "focus": "âm /r/",
-      "tip": "Cong nhẹ đầu lưỡi, không rung lưỡi như âm r tiếng Việt.",
+      "focus": "trọng âm từ breakfast",
+      "tip": "Nhấn mạnh âm đầu: BREAK-fast, không đọc đều cả hai âm.",
       "words": [
-        "read",
-        "relax",
-        "early"
+        "breakfast",
+        "weekday",
+        "dinner"
       ]
     },
     {
-      "focus": "âm /z/",
-      "tip": "Bật giọng ở âm /z/, không đọc thành /s/.",
+      "focus": "âm /z/ ở cuối always",
+      "tip": "Rung nhẹ cổ họng khi đọc âm cuối /z/, đừng đọc thành /s/.",
       "words": [
         "always",
-        "sometimes",
-        "is"
+        "usually",
+        "relax"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I am usually wake up early.",
-      "right": "I usually wake up early.",
-      "vi": "Không dùng am trước động từ thường khi nói thói quen."
+      "wrong": "I am usually eat breakfast.",
+      "right": "I usually eat breakfast.",
+      "vi": "Thì hiện tại đơn với động từ eat không dùng am."
     },
     {
-      "wrong": "I am work from home.",
-      "right": "I work from home.",
-      "vi": "Thì hiện tại đơn dùng work, không dùng am work."
+      "wrong": "I get up seven o'clock.",
+      "right": "I get up at seven o'clock.",
+      "vi": "Dùng at trước giờ cụ thể."
     },
     {
-      "wrong": "I cook dinner every days.",
-      "right": "I cook dinner every day.",
-      "vi": "Sau every dùng danh từ số ít."
+      "wrong": "I work in Mondays.",
+      "right": "I work on Mondays.",
+      "vi": "Dùng on với ngày trong tuần."
     },
     {
-      "wrong": "I usually eat breakfast on seven.",
-      "right": "I usually eat breakfast at seven.",
-      "vi": "Dùng at với giờ giấc."
+      "wrong": "I often am cook dinner.",
+      "right": "I often cook dinner.",
+      "vi": "Trạng từ tần suất đứng trước động từ chính, không dùng am ở đây."
     }
   ],
+  "variations": [
+    {
+      "situation": "Nói về bữa sáng",
+      "formal": "I generally have breakfast at home.",
+      "casual": "I usually eat breakfast at home.",
+      "vi": "Câu formal hợp khi trả lời trong phỏng vấn hoặc nói với người lạ; câu casual tự nhiên hơn khi trò chuyện với bạn bè."
+    },
+    {
+      "situation": "Nói về giờ bắt đầu làm việc",
+      "formal": "I typically start work at eight.",
+      "casual": "I usually start work at eight.",
+      "vi": "Typically nghe trung tính và hơi trang trọng hơn; usually là lựa chọn quen thuộc trong giao tiếp hằng ngày."
+    },
+    {
+      "situation": "Nói về việc nấu bữa tối",
+      "formal": "After work, I normally prepare dinner.",
+      "casual": "After work, I usually cook dinner.",
+      "vi": "Prepare dinner nghe lịch sự, trau chuốt hơn; cook dinner gần gũi và phổ biến khi nói với bạn bè hoặc đồng nghiệp thân."
+    }
+  ],
+  "culture": [
+    "Khi được hỏi về một ngày bình thường, người bản xứ thường chỉ nêu vài hoạt động chính, không cần kể đầy đủ từ sáng đến tối.",
+    "Trong trò chuyện thân mật, họ thường hỏi lại \"How about you?\" để thể hiện sự quan tâm và giữ cuộc trò chuyện tiếp tục.",
+    "Nói giờ gần đúng như \"around seven\" là hoàn toàn tự nhiên; không cần luôn đưa ra giờ chính xác."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về ngày trong tuần",
+    "passage": "Hi, this is Mai. On weekdays, I get up at six thirty and make coffee. I usually walk to work. I eat lunch with my friends at noon. After work, I often call my mother, then I cook dinner. I do not watch television every night. I usually read a book and go to bed before ten thirty.",
+    "vi": "Chào, tôi là Mai. Vào các ngày trong tuần, tôi thức dậy lúc sáu giờ rưỡi và pha cà phê. Tôi thường đi bộ đến chỗ làm. Tôi ăn trưa với bạn bè vào buổi trưa. Sau giờ làm, tôi thường gọi cho mẹ, rồi nấu bữa tối. Tôi không xem tivi mỗi tối. Tôi thường đọc sách và đi ngủ trước mười giờ rưỡi.",
+    "questions": [
+      {
+        "q": "What does Mai do after she gets up?",
+        "choices": [
+          "She makes coffee.",
+          "She calls her mother.",
+          "She reads a book."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì Mai nói: \"I get up at six thirty and make coffee.\""
+      },
+      {
+        "q": "Who does Mai eat lunch with?",
+        "choices": [
+          "Her friends.",
+          "Her mother.",
+          "Her coworkers."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe có câu: \"I eat lunch with my friends at noon.\""
+      },
+      {
+        "q": "What does Mai do before bed?",
+        "choices": [
+          "She watches television.",
+          "She reads a book.",
+          "She cooks dinner."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì Mai nói: \"I usually read a book and go to bed before ten thirty.\""
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Giáo viên tiếng Anh",
@@ -170,39 +220,39 @@
     "turns": [
       {
         "speaker": "a",
-        "en": "Hi! Tell me about your day.",
-        "vi": "Chào! Hãy kể cho tôi về một ngày của bạn.",
+        "en": "Hi! Tell me about today.",
+        "vi": "Chào! Hãy kể tôi nghe về hôm nay.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I usually wake up early.",
-        "vi": "Tôi thường thức dậy sớm.",
-        "hint": "Đặt usually trước wake up."
+        "en": "I get up at seven.",
+        "vi": "Tôi thức dậy lúc bảy giờ.",
+        "hint": "Dùng get up at cộng với giờ."
       },
       {
         "speaker": "a",
-        "en": "What do you do first?",
-        "vi": "Bạn làm gì đầu tiên?",
+        "en": "Great. What do you do?",
+        "vi": "Tốt lắm. Bạn làm gì?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I always eat breakfast at seven.",
-        "vi": "Tôi luôn ăn sáng lúc bảy giờ.",
-        "hint": "Dùng always trước eat."
+        "en": "I usually eat breakfast at home.",
+        "vi": "Tôi thường ăn sáng ở nhà.",
+        "hint": "Usually đứng trước eat."
       },
       {
         "speaker": "a",
-        "en": "Do you work every weekday?",
-        "vi": "Bạn có làm việc mỗi ngày trong tuần không?",
+        "en": "Do you work every day?",
+        "vi": "Bạn làm việc mỗi ngày à?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, I work from home.",
-        "vi": "Có, tôi làm việc tại nhà.",
-        "hint": "Dùng work from home."
+        "en": "Yes, I work on weekdays.",
+        "vi": "Có, tôi làm việc vào các ngày trong tuần.",
+        "hint": "Dùng on weekdays."
       },
       {
         "speaker": "a",
@@ -218,51 +268,40 @@
       },
       {
         "speaker": "a",
-        "en": "What do you usually do at night?",
-        "vi": "Bạn thường làm gì vào ban đêm?",
+        "en": "Nice. When do you sleep?",
+        "vi": "Hay đấy. Bạn ngủ khi nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I sometimes read, then sleep.",
-        "vi": "Đôi khi tôi đọc sách, rồi đi ngủ.",
-        "hint": "Sometimes đứng trước read."
+        "en": "I always sleep before eleven.",
+        "vi": "Tôi luôn ngủ trước mười một giờ.",
+        "hint": "Dùng always trước sleep."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly English teacher in a small online speaking class. You speak slowly, ask one simple question at a time, and warmly help the learner describe a normal day.",
+    "persona": "You are a friendly English teacher in a quiet classroom. You ask simple questions, speak slowly, and encourage the learner to describe a normal day.",
     "opener": "Hi! Tell me about your day.",
-    "goal": "Người học kể được giờ thức dậy, bữa sáng, công việc và hoạt động buổi tối bằng thì hiện tại đơn."
+    "goal": "Người học kể được giờ thức dậy, bữa sáng, công việc và hoạt động buổi tối, có dùng trạng từ tần suất."
   },
   "drills": [
     {
-      "vi": "Tôi thường dậy sớm.",
-      "en": "I usually wake up early.",
+      "vi": "Tôi thức dậy lúc sáu giờ.",
+      "en": "I get up at six.",
       "alts": [
-        "I often wake up early."
+        "I get up at six o'clock."
       ]
     },
     {
-      "vi": "Tôi luôn ăn sáng lúc bảy giờ.",
-      "en": "I always eat breakfast at seven.",
-      "alts": [
-        "I always have breakfast at seven."
-      ]
+      "vi": "Tôi thường ăn sáng ở nhà.",
+      "en": "I usually eat breakfast at home.",
+      "alts": []
     },
     {
-      "vi": "Bạn có làm việc mỗi ngày trong tuần không?",
-      "en": "Do you work every weekday?",
-      "alts": [
-        "Do you work on weekdays?"
-      ]
-    },
-    {
-      "vi": "Tôi làm việc tại nhà.",
-      "en": "I work from home.",
-      "alts": [
-        "I work at home."
-      ]
+      "vi": "Tôi làm việc vào các ngày trong tuần.",
+      "en": "I work on weekdays.",
+      "alts": []
     },
     {
       "vi": "Sau giờ làm, tôi thường nấu bữa tối.",
@@ -272,23 +311,21 @@
       ]
     },
     {
-      "vi": "Ban đêm, đôi khi tôi đọc sách.",
-      "en": "At night, I sometimes read.",
-      "alts": [
-        "Sometimes I read at night."
-      ]
+      "vi": "Tôi luôn thư giãn buổi tối.",
+      "en": "I always relax in the evening.",
+      "alts": []
     },
     {
-      "vi": "Tôi thư giãn sau bữa tối.",
-      "en": "I relax after dinner.",
+      "vi": "Tôi ngủ trước mười một giờ.",
+      "en": "I sleep before eleven.",
       "alts": [
-        "After dinner, I relax."
+        "I always sleep before eleven."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại và chú ý phát âm âm cuối trong wake, work và cook.",
-    "Viết năm câu về một ngày bình thường, dùng always, usually, often hoặc sometimes.",
-    "Tự trả lời bằng tiếng Anh: What do you usually do at night?"
+    "Ghi âm lại hội thoại và tự nghe lại một lần.",
+    "Viết năm câu về một ngày bình thường của bạn.",
+    "Đặt một câu với mỗi từ usually, often và always."
   ]
 }

@@ -1,312 +1,384 @@
 {
   "id": "trinh-bay-y-tuong-ngan",
-  "title": "Trình bày ý tưởng trong 3 phút và trả lời câu hỏi",
-  "topic": "Thuyết trình ý tưởng sản phẩm ngắn",
+  "title": "Trình bày ý tưởng ngắn và trả lời câu hỏi",
+  "topic": "Trình bày ý tưởng sản phẩm",
   "level": "B1",
-  "summary": "Bạn trình bày một ý tưởng cải tiến ứng dụng học nói trong cuộc họp với Trưởng phòng sản phẩm. Sau phần trình bày, bạn trả lời các câu hỏi về lợi ích, số liệu và rủi ro.",
+  "summary": "Bạn trình bày một ý tưởng sản phẩm trong ba phút trước trưởng phòng sản phẩm. Sau đó, bạn trả lời câu hỏi về lợi ích, bằng chứng, rủi ro và nguồn lực cần thiết.",
   "goals": [
-    "Trình bày một ý tưởng rõ ràng trong khoảng ba phút",
-    "Giải thích vấn đề, giải pháp và lý do thuyết phục",
-    "Trả lời câu hỏi về cách đo lường thành công và rủi ro"
+    "Trình bày ngắn gọn một ý tưởng và lý do ý tưởng đó quan trọng.",
+    "Trả lời câu hỏi về cách hoạt động, dữ liệu đo lường và rủi ro.",
+    "Đề xuất một thử nghiệm nhỏ với giọng điệu chuyên nghiệp."
   ],
   "vocab": [
     {
-      "en": "propose",
-      "ipa": "/prəˈpoʊz/",
+      "en": "proposal",
+      "ipa": "/prəˈpoʊzəl/",
       "vi": "đề xuất",
-      "example": "I would like to propose a new speaking feature."
+      "example": "My proposal focuses on helping customers complete their purchases."
     },
     {
-      "en": "feature",
-      "ipa": "/ˈfiːtʃər/",
-      "vi": "tính năng",
-      "example": "This feature helps users practice every day."
+      "en": "reminder",
+      "ipa": "/rɪˈmaɪndər/",
+      "vi": "lời nhắc",
+      "example": "The reminder would bring customers back to checkout."
     },
     {
-      "en": "feedback",
-      "ipa": "/ˈfiːdbæk/",
-      "vi": "phản hồi",
-      "example": "Users receive useful feedback after each roleplay."
+      "en": "abandoned checkout",
+      "ipa": "/əˈbændənd ˈtʃekaʊt/",
+      "vi": "quy trình thanh toán bị bỏ dở",
+      "example": "We want to recover more abandoned checkouts."
     },
     {
-      "en": "clarity",
-      "ipa": "/ˈklærəti/",
-      "vi": "sự rõ ràng",
-      "example": "The feedback focuses on clarity and grammar."
+      "en": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "vi": "bằng chứng, dữ liệu chứng minh",
+      "example": "The survey gives us evidence that customers need this feature."
     },
     {
-      "en": "priority",
-      "ipa": "/praɪˈɔːrəti/",
-      "vi": "ưu tiên",
-      "example": "We should choose two priorities for improvement."
+      "en": "measure",
+      "ipa": "/ˈmeʒər/",
+      "vi": "đo lường",
+      "example": "We should measure clicks and completed purchases."
     },
     {
-      "en": "survey",
-      "ipa": "/ˈsɜːrveɪ/",
-      "vi": "khảo sát",
-      "example": "Our survey showed that users wanted shorter lessons."
+      "en": "consent",
+      "ipa": "/kənˈsent/",
+      "vi": "sự đồng ý",
+      "example": "Users must give consent before receiving reminders."
     },
     {
-      "en": "completion rate",
-      "ipa": "/kəmˈpliːʃn reɪt/",
-      "vi": "tỷ lệ hoàn thành",
-      "example": "Completion rates can show whether the activity is engaging."
-    },
-    {
-      "en": "launch",
-      "ipa": "/lɔːntʃ/",
-      "vi": "ra mắt",
-      "example": "We plan to launch the pilot next month."
+      "en": "privacy concern",
+      "ipa": "/ˈpraɪvəsi kənˈsɜːrn/",
+      "vi": "lo ngại về quyền riêng tư",
+      "example": "Privacy concerns should be considered before the pilot."
     },
     {
       "en": "pilot",
       "ipa": "/ˈpaɪlət/",
-      "vi": "bản thử nghiệm quy mô nhỏ",
-      "example": "Let us test the idea with a small pilot first."
+      "vi": "thử nghiệm quy mô nhỏ",
+      "example": "Let us run a small pilot before a full launch."
     },
     {
-      "en": "technical limit",
-      "ipa": "/ˈteknɪkl ˈlɪmɪt/",
-      "vi": "giới hạn kỹ thuật",
-      "example": "Technical limits may affect the speed of feedback."
+      "en": "timeline",
+      "ipa": "/ˈtaɪmlaɪn/",
+      "vi": "mốc thời gian, tiến độ",
+      "example": "I will send a timeline for the pilot tomorrow."
+    },
+    {
+      "en": "success measure",
+      "ipa": "/səkˈses ˈmeʒər/",
+      "vi": "chỉ số thành công",
+      "example": "Recovered checkouts are one important success measure."
     }
   ],
   "patterns": [
     {
-      "en": "I would like to propose ___.",
-      "vi": "Tôi muốn đề xuất ___.",
-      "note": "Dùng để mở đầu phần trình bày một cách chuyên nghiệp."
+      "en": "I propose ___ because ___.",
+      "vi": "Tôi đề xuất ___ vì ___.",
+      "note": "Dùng để nêu ý tưởng và lý do ngay từ đầu."
     },
     {
-      "en": "The problem is that ___.",
-      "vi": "Vấn đề là ___.",
-      "note": "Nêu vấn đề trước khi đưa ra giải pháp."
+      "en": "One reason this matters is that ___.",
+      "vi": "Một lý do điều này quan trọng là ___.",
+      "note": "Giúp giải thích tác động của vấn đề."
     },
     {
-      "en": "We could ___, so that ___.",
-      "vi": "Chúng ta có thể ___, để ___.",
-      "note": "Nối giải pháp với lợi ích cụ thể."
+      "en": "It would ___, while ___.",
+      "vi": "Nó sẽ ___, đồng thời ___.",
+      "note": "Dùng would để nói tác động dự kiến của ý tưởng."
     },
     {
-      "en": "I would measure success by ___.",
-      "vi": "Tôi sẽ đo lường thành công bằng ___.",
-      "note": "Dùng khi trả lời câu hỏi về chỉ số đánh giá."
+      "en": "I would measure ___ to see whether ___.",
+      "vi": "Tôi sẽ đo lường ___ để xem liệu ___.",
+      "note": "Dùng khi trả lời câu hỏi về hiệu quả."
     },
     {
-      "en": "If ___, we could ___.",
-      "vi": "Nếu ___, chúng ta có thể ___.",
-      "note": "Dùng câu điều kiện để nói về rủi ro và phương án thay thế."
+      "en": "Could you explain how ___?",
+      "vi": "Bạn có thể giải thích cách ___ không?",
+      "note": "Cách hỏi làm rõ lịch sự trong cuộc họp."
+    },
+    {
+      "en": "To address that concern, we would ___.",
+      "vi": "Để giải quyết lo ngại đó, chúng tôi sẽ ___.",
+      "note": "Dùng để phản hồi câu hỏi về rủi ro hoặc phản đối."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /θ/",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra, không đọc thành âm /t/.",
+      "focus": "âm /θ/ trong three",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng, thổi hơi ra; không đọc thành âm t hoặc x.",
       "words": [
         "three",
         "think",
-        "month"
+        "through"
       ]
     },
     {
-      "focus": "phụ âm cuối /k/ và /t/",
-      "tip": "Phát âm rõ phụ âm cuối, không thêm nguyên âm phía sau.",
+      "focus": "trọng âm của từ dài",
+      "tip": "Nhấn rõ âm được đánh trọng âm, tránh đọc đều từng âm tiết.",
       "words": [
-        "feedback",
-        "instant",
-        "pilot"
+        "proposal",
+        "reminder",
+        "abandoned"
       ]
     },
     {
-      "focus": "trọng âm từ nhiều âm tiết",
-      "tip": "Nhấn đúng âm tiết được in hoa để lời nói tự nhiên hơn.",
+      "focus": "phụ âm cuối /z/ và /s/",
+      "tip": "Phát âm nhẹ phụ âm cuối để người nghe phân biệt số nhiều và ý nghĩa của từ.",
       "words": [
-        "proPOSE",
-        "priORity",
-        "comPLEtion"
+        "customers",
+        "concerns",
+        "risks"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I propose a feature help users speak better.",
-      "right": "I propose a feature that helps users speak better.",
-      "vi": "Cần dùng that để nối mệnh đề, và feature số ít đi với helps."
+      "wrong": "Let me present about my idea.",
+      "right": "Let me present my idea.",
+      "vi": "Present là động từ đi trực tiếp với tân ngữ, không dùng about sau present."
     },
     {
-      "wrong": "We can to launch a pilot next month.",
-      "right": "We can launch a pilot next month.",
-      "vi": "Sau can dùng động từ nguyên mẫu, không dùng to."
+      "wrong": "My idea is help customers finish orders.",
+      "right": "My idea is to help customers finish their orders.",
+      "vi": "Sau is cần to khi nói về mục đích hoặc kế hoạch."
     },
     {
-      "wrong": "This solution will make users more confident.",
-      "right": "This solution will make users feel more confident.",
-      "vi": "More confident là tính từ; thêm feel giúp câu tự nhiên và đúng ý hơn."
+      "wrong": "According to last month survey, customers need reminders.",
+      "right": "According to last month's survey, customers need reminders.",
+      "vi": "Dùng sở hữu cách last month's để chỉ khảo sát của tháng trước."
     },
     {
-      "wrong": "I suggest to add instant feedback.",
-      "right": "I suggest adding instant feedback.",
-      "vi": "Sau suggest thường dùng động từ thêm ing."
+      "wrong": "How do you think about this idea?",
+      "right": "What do you think about this idea?",
+      "vi": "Khi hỏi ý kiến, dùng What do you think about."
+    },
+    {
+      "wrong": "We will make a pilot.",
+      "right": "We will run a pilot.",
+      "vi": "Trong ngữ cảnh công việc, run a pilot tự nhiên hơn make a pilot."
     }
   ],
+  "variations": [
+    {
+      "situation": "Mở đầu phần trình bày ý tưởng",
+      "formal": "Thank you for the opportunity to present this idea.",
+      "casual": "Thanks for letting me share this idea.",
+      "vi": "Câu formal phù hợp khi trình bày trước cấp trên hoặc khách hàng; câu casual hợp với nhóm đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Phản hồi một câu hỏi khó",
+      "formal": "That is a useful question. My main concern would be privacy.",
+      "casual": "Good question. I would mainly worry about privacy.",
+      "vi": "Câu formal lịch sự và có khoảng cách hơn; câu casual phù hợp khi trao đổi nội bộ thoải mái."
+    },
+    {
+      "situation": "Xin nguồn lực để thử nghiệm",
+      "formal": "I would need approval to run a small pilot.",
+      "casual": "I need the green light for a small test.",
+      "vi": "Câu formal dùng trong cuộc họp hoặc email chính thức; câu casual dùng với đồng nghiệp đã quen và hiểu thành ngữ green light."
+    },
+    {
+      "situation": "Nêu ý kiến khác",
+      "formal": "I see your point, but I would take a different approach.",
+      "casual": "I get your point, but I would do it differently.",
+      "vi": "Cả hai đều phản đối nhẹ nhàng; câu formal phù hợp khi nói với người lạ hoặc cấp trên, câu casual thân mật hơn."
+    }
+  ],
+  "culture": [
+    "Trong các cuộc họp sản phẩm bằng tiếng Anh, người trình bày thường nêu vấn đề và lợi ích ngay đầu, thay vì mở đầu dài dòng.",
+    "Người quản lý có thể ngắt lời để hỏi về dữ liệu, rủi ro hoặc nguồn lực. Đây thường là dấu hiệu họ đang xem xét ý tưởng, không nhất thiết là phê bình cá nhân.",
+    "Nếu chưa biết câu trả lời, nói thẳng rằng bạn sẽ kiểm tra rồi phản hồi thường được đánh giá cao hơn việc đoán."
+  ],
+  "listening": {
+    "title": "Tin nhắn trước cuộc họp sản phẩm",
+    "passage": "Hi team. Before tomorrow's product meeting, I want to share a quick idea. We could add a saved list that lets customers return to products they liked. I believe it would make shopping easier and help people compare items later. I will show two simple designs, then ask for feedback about privacy and development time. My goal is not a final decision. I want agreement on a small test.",
+    "vi": "Chào cả nhóm. Trước cuộc họp sản phẩm ngày mai, tôi muốn chia sẻ nhanh một ý tưởng. Chúng ta có thể thêm danh sách đã lưu, cho phép khách hàng quay lại những sản phẩm họ thích. Tôi tin rằng điều đó sẽ giúp việc mua sắm dễ hơn và giúp mọi người so sánh sản phẩm sau này. Tôi sẽ trình bày hai thiết kế đơn giản, rồi xin phản hồi về quyền riêng tư và thời gian phát triển. Mục tiêu của tôi không phải là quyết định cuối cùng. Tôi muốn thống nhất về một thử nghiệm nhỏ.",
+    "questions": [
+      {
+        "q": "What feature does the speaker propose?",
+        "choices": [
+          "A saved list",
+          "A payment reminder",
+          "A delivery tracker"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là A saved list vì người nói nói rõ “add a saved list”."
+      },
+      {
+        "q": "What will the speaker show at the meeting?",
+        "choices": [
+          "Customer surveys",
+          "Two simple designs",
+          "A final budget"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Two simple designs vì đoạn nghe có câu “I will show two simple designs”."
+      },
+      {
+        "q": "What does the speaker want from the meeting?",
+        "choices": [
+          "Agreement on a small test",
+          "A final decision",
+          "More customer complaints"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Agreement on a small test vì người nói nhấn mạnh không cần quyết định cuối cùng mà muốn thống nhất về một thử nghiệm nhỏ."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Trưởng phòng sản phẩm",
-      "b": "Người trình bày ý tưởng"
+      "b": "Nhân viên trình bày ý tưởng"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Thanks for joining. Please present your idea in three minutes, then I will ask questions.",
-        "vi": "Cảm ơn bạn đã tham gia. Hãy trình bày ý tưởng trong ba phút, sau đó tôi sẽ đặt câu hỏi.",
+        "en": "Thanks for joining. Please give us a three-minute overview of your idea today.",
+        "vi": "Cảm ơn bạn đã tham gia. Hãy trình bày tổng quan ý tưởng của bạn trong ba phút hôm nay.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Sure. I would like to propose a feature that helps users practice speaking every day.",
-        "vi": "Được. Tôi muốn đề xuất một tính năng giúp người dùng luyện nói mỗi ngày.",
-        "hint": "Mở đầu bằng I would like to propose."
+        "en": "Thank you. I propose a reminder feature to help customers return to abandoned checkouts.",
+        "vi": "Cảm ơn. Tôi đề xuất một tính năng nhắc nhở để giúp khách hàng quay lại thanh toán bị bỏ dở.",
+        "hint": "Dùng propose trực tiếp với ý tưởng, không cần giới từ."
       },
       {
         "speaker": "a",
-        "en": "That sounds promising. Please explain the problem first, then tell me how your feature solves it.",
-        "vi": "Nghe có vẻ triển vọng. Hãy giải thích vấn đề trước, rồi cho tôi biết tính năng giải quyết nó thế nào.",
+        "en": "Interesting. What problem are you solving, and why does it matter now?",
+        "vi": "Thú vị đấy. Bạn đang giải quyết vấn đề gì, và vì sao nó quan trọng lúc này?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Many users feel nervous speaking English because they do not receive quick, useful feedback.",
-        "vi": "Nhiều người dùng thấy lo lắng khi nói tiếng Anh vì họ không nhận được phản hồi nhanh và hữu ích.",
-        "hint": "Dùng because để nêu lý do."
+        "en": "Many customers leave during payment because they get distracted or need more time.",
+        "vi": "Nhiều khách hàng rời đi trong lúc thanh toán vì họ bị phân tâm hoặc cần thêm thời gian.",
+        "hint": "Dùng because để giải thích lý do."
       },
       {
         "speaker": "a",
-        "en": "What is your solution, and why would people choose it instead of our current lessons?",
-        "vi": "Giải pháp của bạn là gì, và vì sao mọi người sẽ chọn nó thay cho các bài học hiện tại?",
+        "en": "How would the reminder work without making customers feel pressured or annoyed?",
+        "vi": "Lời nhắc sẽ hoạt động thế nào mà không khiến khách hàng cảm thấy bị thúc ép hoặc khó chịu?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The app would offer three-minute roleplays, followed by instant feedback on clarity, grammar, and confidence.",
-        "vi": "Ứng dụng sẽ cung cấp các hội thoại nhập vai ba phút, sau đó là phản hồi ngay về độ rõ ràng, ngữ pháp và sự tự tin.",
-        "hint": "Dùng would offer để mô tả tính năng đề xuất."
+        "en": "It would send one helpful reminder with a direct link back to checkout.",
+        "vi": "Nó sẽ gửi một lời nhắc hữu ích kèm liên kết trực tiếp quay lại trang thanh toán.",
+        "hint": "Dùng would để mô tả tác động dự kiến của tính năng."
       },
       {
         "speaker": "a",
-        "en": "How could we make the feedback helpful without overwhelming beginners or causing them to lose motivation?",
-        "vi": "Làm sao để phản hồi hữu ích mà không khiến người mới bắt đầu bị quá tải hoặc mất động lực?",
+        "en": "What evidence suggests this feature can increase completed purchases for our users?",
+        "vi": "Bằng chứng nào cho thấy tính năng này có thể tăng số giao dịch hoàn tất của người dùng?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "We could highlight one strength and two priorities, so learners know exactly what to improve.",
-        "vi": "Chúng ta có thể nêu bật một điểm mạnh và hai ưu tiên, để người học biết chính xác điều cần cải thiện.",
-        "hint": "Dùng We could..., so... để nêu giải pháp và lợi ích."
+        "en": "In last month's survey, customers asked for simpler ways to resume interrupted purchases.",
+        "vi": "Trong khảo sát tháng trước, khách hàng yêu cầu những cách đơn giản hơn để tiếp tục việc mua hàng bị gián đoạn.",
+        "hint": "Nhớ dùng last month's để nói “của tháng trước”."
       },
       {
         "speaker": "a",
-        "en": "What evidence suggests users would return often enough for this feature to be worth building?",
-        "vi": "Bằng chứng nào cho thấy người dùng sẽ quay lại đủ thường xuyên để tính năng này đáng được xây dựng?",
+        "en": "What would you measure first, and what result would show real value?",
+        "vi": "Bạn sẽ đo lường điều gì trước, và kết quả nào sẽ cho thấy giá trị thực sự?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "In our recent survey, busy learners requested short practice sessions they could finish during breaks.",
-        "vi": "Trong khảo sát gần đây, những người học bận rộn đã yêu cầu các buổi luyện tập ngắn mà họ có thể hoàn thành trong giờ nghỉ.",
-        "hint": "Dẫn chứng bằng In our recent survey."
+        "en": "I would track recovered checkouts, message clicks, and complaints for four weeks.",
+        "vi": "Tôi sẽ theo dõi các lượt thanh toán được khôi phục, lượt nhấp vào tin nhắn và khiếu nại trong bốn tuần.",
+        "hint": "Track nghĩa là theo dõi các chỉ số."
       },
       {
         "speaker": "a",
-        "en": "Good point. How would you measure success after launch, and what risks should we watch?",
-        "vi": "Ý hay. Bạn sẽ đo lường thành công sau khi ra mắt thế nào, và chúng ta nên theo dõi rủi ro nào?",
+        "en": "Could the messages create privacy concerns, especially for customers who share devices?",
+        "vi": "Các tin nhắn có thể tạo ra lo ngại về quyền riêng tư, đặc biệt với khách hàng dùng chung thiết bị không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I would track weekly speaking sessions and completion rates, while testing whether feedback feels supportive.",
-        "vi": "Tôi sẽ theo dõi số buổi luyện nói hằng tuần và tỷ lệ hoàn thành, đồng thời kiểm tra xem phản hồi có tạo cảm giác hỗ trợ không.",
-        "hint": "Dùng I would track để nói về chỉ số cần theo dõi."
+        "en": "We would only send reminders after consent, and users could stop them at any time.",
+        "vi": "Chúng tôi chỉ gửi lời nhắc sau khi có sự đồng ý, và người dùng có thể dừng chúng bất cứ lúc nào.",
+        "hint": "Dùng after consent để nêu điều kiện bảo vệ quyền riêng tư."
       },
       {
         "speaker": "a",
-        "en": "If technical limits delayed instant feedback, what smaller version could we release first?",
-        "vi": "Nếu giới hạn kỹ thuật làm chậm phản hồi tức thì, chúng ta có thể ra mắt phiên bản nhỏ hơn nào trước?",
+        "en": "I support a small pilot. Please send a plan with risks and a timeline.",
+        "vi": "Tôi ủng hộ một thử nghiệm nhỏ. Hãy gửi kế hoạch kèm rủi ro và tiến độ.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "We could begin with recorded prompts and simple pronunciation scores, then add personalized feedback later.",
-        "vi": "Chúng ta có thể bắt đầu với câu nhắc được ghi âm và điểm phát âm đơn giản, rồi thêm phản hồi cá nhân hóa sau.",
-        "hint": "Dùng We could begin with để đề xuất phương án thử nghiệm."
-      },
-      {
-        "speaker": "a",
-        "en": "Thanks. Your proposal is clear, practical, and well supported. Let us plan a small pilot next month.",
-        "vi": "Cảm ơn bạn. Đề xuất của bạn rõ ràng, thực tế và có cơ sở tốt. Chúng ta hãy lên kế hoạch thử nghiệm quy mô nhỏ vào tháng tới.",
-        "hint": ""
+        "en": "Thank you. I will share the plan tomorrow and include clear success measures.",
+        "vi": "Cảm ơn. Tôi sẽ gửi kế hoạch vào ngày mai và kèm các chỉ số thành công rõ ràng.",
+        "hint": "Dùng include cộng với danh từ, như include clear success measures."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a supportive product manager at an education technology company in Ho Chi Minh City. You are leading a product meeting and ask practical, thoughtful follow-up questions about the learner's idea.",
-    "opener": "Thanks for joining. Please present your idea in three minutes, then I will ask questions.",
-    "goal": "Người học trình bày một ý tưởng sản phẩm, đưa ra lý do và trả lời câu hỏi phản biện."
+    "persona": "You are a product manager in a friendly but focused team meeting. You have asked a team member to present an idea in three minutes. Listen carefully, ask clear follow-up questions about customer value, evidence, risks, and resources, then decide whether to approve a small pilot.",
+    "opener": "Thanks for joining. Please give us a three-minute overview of your idea today.",
+    "goal": "Người học trình bày ý tưởng sản phẩm, trả lời câu hỏi phản biện và xin phê duyệt thử nghiệm nhỏ."
   },
   "drills": [
     {
-      "vi": "Tôi muốn đề xuất một tính năng mới cho người học bận rộn.",
-      "en": "I would like to propose a new feature for busy learners.",
+      "vi": "Tôi đề xuất một tính năng nhắc nhở vì khách hàng thường bị phân tâm.",
+      "en": "I propose a reminder feature because customers often get distracted.",
       "alts": [
-        "I would like to propose a feature for busy learners."
+        "I suggest a reminder feature because customers often get distracted."
       ]
     },
     {
-      "vi": "Vấn đề là người dùng không nhận được phản hồi nhanh.",
-      "en": "The problem is that users do not receive quick feedback.",
+      "vi": "Một lý do điều này quan trọng là chúng tôi đang mất các giao dịch hoàn tất.",
+      "en": "One reason this matters is that we are losing completed purchases.",
       "alts": [
-        "The problem is that users do not get feedback quickly."
+        "This matters because we are losing completed purchases."
       ]
     },
     {
-      "vi": "Chúng ta có thể thêm các hội thoại nhập vai ngắn để người học luyện tập hằng ngày.",
-      "en": "We could add short roleplays so that learners can practice every day.",
+      "vi": "Nó sẽ giúp quay lại thanh toán dễ hơn, đồng thời cho người dùng quyền kiểm soát.",
+      "en": "It would make returning to checkout easier, while giving users control.",
       "alts": [
-        "We could offer short roleplays to help learners practice daily."
+        "It would help customers return to checkout and keep users in control."
       ]
     },
     {
-      "vi": "Tôi sẽ đo lường thành công bằng tỷ lệ hoàn thành.",
-      "en": "I would measure success by completion rates.",
+      "vi": "Tôi sẽ đo lượt nhấp tin nhắn để xem liệu khách hàng có quay lại không.",
+      "en": "I would measure message clicks to see whether customers return.",
       "alts": [
-        "I would track completion rates to measure success."
+        "I would track message clicks to see if customers come back."
       ]
     },
     {
-      "vi": "Khảo sát cho thấy người học muốn các buổi luyện tập ngắn.",
-      "en": "The survey showed that learners wanted short practice sessions.",
+      "vi": "Để giải quyết lo ngại đó, chúng tôi sẽ xin sự đồng ý trước.",
+      "en": "To address that concern, we would ask for consent first.",
       "alts": [
-        "Our survey showed that learners wanted shorter practice sessions."
+        "We would ask for consent first to address that concern."
       ]
     },
     {
-      "vi": "Nếu phản hồi tức thì quá khó, chúng ta có thể ra mắt một bản thử nghiệm nhỏ.",
-      "en": "If instant feedback is too difficult, we could launch a small pilot.",
+      "vi": "Bạn có thể giải thích thử nghiệm nhỏ sẽ hoạt động thế nào không?",
+      "en": "Could you explain how the small pilot would work?",
       "alts": [
-        "If instant feedback is difficult to build, we could start with a small pilot."
+        "Could you explain how you would run the pilot?"
       ]
     },
     {
-      "vi": "Sau đó, chúng ta có thể thêm phản hồi cá nhân hóa.",
-      "en": "Then we could add personalized feedback.",
+      "vi": "Chúng tôi cần được phê duyệt để thực hiện một thử nghiệm nhỏ.",
+      "en": "We need approval to run a small pilot.",
       "alts": [
-        "We could add personalized feedback later."
+        "We need approval for a small pilot."
       ]
     }
   ],
   "homework": [
-    "Ghi âm phần trình bày ý tưởng dài khoảng ba phút của bạn.",
-    "Viết ba câu trả lời cho các câu hỏi về số liệu, rủi ro và bản thử nghiệm.",
-    "Dùng ít nhất năm từ vựng của bài để mô tả một ý tưởng khác."
+    "Ghi âm phần trình bày ý tưởng trong ba phút, sau đó tự nghe lại.",
+    "Viết ba câu dùng mẫu I would measure để nêu chỉ số thành công.",
+    "Tập trả lời miệng một câu hỏi về rủi ro quyền riêng tư."
   ]
 }

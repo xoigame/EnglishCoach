@@ -1,0 +1,374 @@
+{
+  "id": "xu-ly-hieu-lam",
+  "title": "Xử lý hiểu lầm trong giao tiếp công việc",
+  "topic": "Làm rõ ý trong công việc",
+  "level": "B1",
+  "summary": "Bạn cần làm rõ với đồng nghiệp rằng chỉ buổi diễn tập nội bộ thay đổi, không phải buổi trình bày với khách hàng. Bài học giúp bạn giải thích ý định, kiểm tra lại thông tin và thống nhất cách xử lý.",
+  "goals": [
+    "Nói rằng có thể đã xảy ra hiểu lầm một cách lịch sự",
+    "Giải thích rõ điều mình thực sự muốn nói",
+    "Đề nghị đồng nghiệp sửa thông tin đã truyền đạt"
+  ],
+  "vocab": [
+    {
+      "en": "misunderstanding",
+      "ipa": "/ˌmɪsʌndərˈstændɪŋ/",
+      "vi": "sự hiểu lầm",
+      "example": "I think there has been a misunderstanding about the schedule."
+    },
+    {
+      "en": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "vi": "làm rõ",
+      "example": "Could you clarify what you meant in your message?"
+    },
+    {
+      "en": "postpone",
+      "ipa": "/pəˈspoʊn/",
+      "vi": "hoãn lại",
+      "example": "We do not need to postpone the client demo."
+    },
+    {
+      "en": "reschedule",
+      "ipa": "/ˌriːˈskedʒuːl/",
+      "vi": "đổi lịch",
+      "example": "We need to reschedule the internal practice session."
+    },
+    {
+      "en": "rehearsal",
+      "ipa": "/rɪˈhɜːrsəl/",
+      "vi": "buổi diễn tập",
+      "example": "The rehearsal will move to Friday afternoon."
+    },
+    {
+      "en": "unchanged",
+      "ipa": "/ʌnˈtʃeɪndʒd/",
+      "vi": "không thay đổi",
+      "example": "The client meeting is unchanged."
+    },
+    {
+      "en": "refer to",
+      "ipa": "/rɪˈfɜːr tuː/",
+      "vi": "đề cập đến, ám chỉ",
+      "example": "I was referring to the rehearsal, not the presentation."
+    },
+    {
+      "en": "availability",
+      "ipa": "/əˌveɪləˈbɪləti/",
+      "vi": "sự có mặt, thời gian rảnh",
+      "example": "The client has limited availability this week."
+    },
+    {
+      "en": "correction",
+      "ipa": "/kəˈrekʃən/",
+      "vi": "lời đính chính, sự sửa lại",
+      "example": "Please send a correction to the design team."
+    },
+    {
+      "en": "confirm",
+      "ipa": "/kənˈfɜːrm/",
+      "vi": "xác nhận",
+      "example": "I will confirm the new rehearsal time this afternoon."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I think there may have been a misunderstanding.",
+      "vi": "Tôi nghĩ có thể đã có một hiểu lầm.",
+      "note": "Dùng để mở đầu nhẹ nhàng thay vì nói thẳng rằng người kia sai."
+    },
+    {
+      "en": "What I meant was that only the rehearsal would move.",
+      "vi": "Ý tôi là chỉ buổi diễn tập sẽ đổi lịch.",
+      "note": "Dùng để nêu chính xác ý định ban đầu."
+    },
+    {
+      "en": "I can see why that sounded confusing.",
+      "vi": "Tôi hiểu vì sao điều đó nghe dễ gây nhầm lẫn.",
+      "note": "Thể hiện sự cảm thông, giúp cuộc nói chuyện bớt căng thẳng."
+    },
+    {
+      "en": "Could you clarify what you meant in your message?",
+      "vi": "Bạn có thể làm rõ ý bạn trong tin nhắn không?",
+      "note": "Cách hỏi lịch sự khi chưa chắc mình hiểu đúng."
+    },
+    {
+      "en": "Just to be clear, the client demo is unchanged.",
+      "vi": "Để nói rõ, buổi trình bày với khách hàng không thay đổi.",
+      "note": "Dùng để chốt lại thông tin quan trọng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong Thursday",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi; tránh đọc thành âm /t/.",
+      "words": [
+        "Thursday",
+        "thought",
+        "thanks"
+      ]
+    },
+    {
+      "focus": "âm /w/ trong why",
+      "tip": "Chu môi tròn rồi phát âm nhanh; tránh thay bằng âm /v/ như trong tiếng Việt.",
+      "words": [
+        "why",
+        "would",
+        "was"
+      ]
+    },
+    {
+      "focus": "trọng âm trong rehearsal và clarify",
+      "tip": "Nhấn rõ âm thứ hai: re-HEAR-sal và CLA-ri-fy.",
+      "words": [
+        "rehearsal",
+        "clarify",
+        "availability"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I thought you want delay the demo.",
+      "right": "I thought you wanted to delay the demo.",
+      "vi": "Sau thought thường lùi thì thành wanted, và sau want cần có to."
+    },
+    {
+      "wrong": "Please clarify me.",
+      "right": "Please clarify that for me.",
+      "vi": "Clarify cần đi với nội dung cần làm rõ; không dùng trực tiếp với người."
+    },
+    {
+      "wrong": "I misunderstood you mean the rehearsal.",
+      "right": "I misunderstood what you meant about the rehearsal.",
+      "vi": "Dùng what you meant để nói rõ phần mình đã hiểu sai."
+    },
+    {
+      "wrong": "I did not mean postponing the client meeting.",
+      "right": "I did not mean to postpone the client meeting.",
+      "vi": "Cấu trúc tự nhiên là mean to do something khi nói về ý định."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở đầu khi phát hiện hiểu lầm",
+      "formal": "I think there may have been a misunderstanding.",
+      "casual": "I think we got our wires crossed.",
+      "vi": "Câu formal phù hợp với cấp trên, khách hàng hoặc email công việc; câu casual dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Yêu cầu người kia giải thích",
+      "formal": "Could you clarify what you meant in your message?",
+      "casual": "What did you mean in your message?",
+      "vi": "Câu formal lịch sự và ít gây cảm giác chất vấn; câu casual phù hợp khi hai người có quan hệ gần gũi."
+    },
+    {
+      "situation": "Nêu lại ý định ban đầu",
+      "formal": "To clarify, I was referring to the rehearsal, not the client demo.",
+      "casual": "I meant the rehearsal, not the client demo.",
+      "vi": "Câu formal phù hợp trong cuộc họp hoặc khi cần nói thật cẩn trọng; câu casual ngắn gọn cho trao đổi nhanh."
+    },
+    {
+      "situation": "Đề nghị sửa thông tin đã gửi",
+      "formal": "Would you mind sending a correction to the team?",
+      "casual": "Can you send the team a quick correction?",
+      "vi": "Câu formal mềm mại hơn khi nhờ người ít thân hoặc có vai trò cao hơn; câu casual dùng với đồng nghiệp cùng cấp."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, người ta thường nói thẳng rằng có hiểu lầm, nhưng kèm cụm giảm nhẹ như I think hoặc perhaps để tránh quy trách nhiệm.",
+    "Khi phát hiện đã chuyển tiếp thông tin sai, một lời đính chính ngắn gửi sớm thường được đánh giá cao hơn việc chờ đến cuộc họp tiếp theo.",
+    "Người bản xứ thường chốt lại bằng câu hỏi xác nhận như So, the client demo is still on Thursday, right? để cả hai cùng hiểu một thông tin."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại làm rõ lịch trình",
+    "passage": "Hi, this is Maya from the marketing team. I want to clear up a point from our meeting. The product launch is still scheduled for Monday morning. We are moving only the staff rehearsal to Friday afternoon because the meeting room is unavailable tomorrow. Please do not change the client invitations. If you have already updated anyone, send a short correction today. Thanks for helping us keep the plan clear.",
+    "vi": "Chào, tôi là Maya từ nhóm tiếp thị. Tôi muốn làm rõ một điểm từ cuộc họp của chúng ta. Buổi ra mắt sản phẩm vẫn được lên lịch vào sáng thứ Hai. Chúng ta chỉ dời buổi diễn tập của nhân viên sang chiều thứ Sáu vì phòng họp không có sẵn vào ngày mai. Xin đừng thay đổi thư mời gửi khách hàng. Nếu bạn đã cập nhật cho ai đó, hãy gửi một lời đính chính ngắn hôm nay. Cảm ơn bạn đã giúp chúng ta giữ kế hoạch rõ ràng.",
+    "questions": [
+      {
+        "q": "What is still scheduled for Monday morning?",
+        "choices": [
+          "The product launch",
+          "The staff rehearsal",
+          "A client meeting"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là The product launch vì bài nghe nói rõ rằng buổi ra mắt sản phẩm vẫn được lên lịch vào sáng thứ Hai."
+      },
+      {
+        "q": "Why is the staff rehearsal moving?",
+        "choices": [
+          "The team needs new slides",
+          "The meeting room is unavailable",
+          "The clients requested a change"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The meeting room is unavailable vì Maya nói phòng họp không có sẵn vào ngày mai."
+      },
+      {
+        "q": "What should listeners avoid changing?",
+        "choices": [
+          "The launch schedule",
+          "The client invitations",
+          "The rehearsal room"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The client invitations vì bài nghe có câu Please do not change the client invitations."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp đang hiểu sai rằng bạn muốn hoãn buổi trình bày với khách hàng",
+      "b": "Người học cần làm rõ ý mình và thống nhất cách sửa hiểu lầm"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hey, I thought you wanted to postpone the client demo until next week.",
+        "vi": "Này, tôi tưởng bạn muốn hoãn buổi trình bày với khách hàng đến tuần sau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Not exactly. I meant we should move the internal practice session.",
+        "vi": "Không hẳn. Ý tôi là chúng ta nên dời buổi diễn tập nội bộ.",
+        "hint": "Mở đầu bằng Not exactly để sửa nhẹ nhàng, rồi nói rõ điều bạn muốn dời."
+      },
+      {
+        "speaker": "a",
+        "en": "Oh, I understood that you wanted to delay the whole presentation.",
+        "vi": "Ồ, tôi đã hiểu là bạn muốn hoãn toàn bộ buổi trình bày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can see why that sounded confusing. Let me explain what I meant.",
+        "vi": "Tôi hiểu vì sao điều đó nghe dễ gây nhầm lẫn. Để tôi giải thích ý mình.",
+        "hint": "Dùng I can see why để thừa nhận sự nhầm lẫn mà không đổ lỗi."
+      },
+      {
+        "speaker": "a",
+        "en": "Please do, because I already told the design team about a delay.",
+        "vi": "Vâng, vì tôi đã nói với nhóm thiết kế rằng sẽ có sự trì hoãn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I only suggested rescheduling our rehearsal, since the slides still need checking.",
+        "vi": "Tôi chỉ đề nghị đổi lịch buổi diễn tập, vì các slide vẫn cần được kiểm tra.",
+        "hint": "Dùng only để nhấn mạnh rằng chỉ một việc nhỏ thay đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks for clarifying. Are you saying the client demo should stay on Thursday?",
+        "vi": "Cảm ơn bạn đã làm rõ. Ý bạn là buổi trình bày với khách hàng vẫn diễn ra vào thứ Năm phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, the client demo should stay on Thursday, as we promised them.",
+        "vi": "Đúng, buổi trình bày với khách hàng vẫn nên diễn ra vào thứ Năm, như chúng ta đã hứa với họ.",
+        "hint": "Dùng as we promised them để nêu lý do cho quyết định."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. I reacted quickly because the client has limited availability.",
+        "vi": "Điều đó hợp lý. Tôi phản ứng nhanh vì khách hàng có ít thời gian rảnh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand. In the future, I will use the word rehearsal instead.",
+        "vi": "Tôi hiểu. Trong tương lai, tôi sẽ dùng từ rehearsal thay vào đó.",
+        "hint": "Dùng In the future để đề xuất cách tránh hiểu lầm lần sau."
+      },
+      {
+        "speaker": "a",
+        "en": "That would help. Should I correct the message I sent to the design team?",
+        "vi": "Như vậy sẽ hữu ích. Tôi có nên sửa tin nhắn đã gửi cho nhóm thiết kế không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please tell them the demo is unchanged but rehearsal time moves.",
+        "vi": "Có, hãy nói với họ buổi trình bày không đổi nhưng giờ diễn tập sẽ đổi.",
+        "hint": "Dùng unchanged để nói một phần không thay đổi, rồi nêu phần thay đổi."
+      },
+      {
+        "speaker": "a",
+        "en": "I will send the correction now and confirm the rehearsal time this afternoon.",
+        "vi": "Tôi sẽ gửi lời đính chính ngay và xác nhận giờ diễn tập vào chiều nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, thanks for clearing that up. I appreciate you checking before changing anything.",
+        "vi": "Tuyệt, cảm ơn vì đã làm rõ việc đó. Tôi cảm kích vì bạn đã kiểm tra trước khi thay đổi gì.",
+        "hint": "Kết thúc tích cực bằng lời cảm ơn và ghi nhận sự hợp tác của đồng nghiệp."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a helpful colleague in a busy office. You misunderstood a scheduling message and thought the client presentation was being postponed. Stay professional, slightly concerned, and willing to clarify the situation.",
+    "opener": "I saw your message about moving the session. Does that mean the client demo is postponed?",
+    "goal": "Người học làm rõ rằng chỉ buổi diễn tập nội bộ đổi lịch, giữ nguyên lịch với khách hàng và thống nhất việc đính chính cho nhóm."
+  },
+  "drills": [
+    {
+      "vi": "Tôi nghĩ có thể đã có một hiểu lầm về lịch trình.",
+      "en": "I think there may have been a misunderstanding about the schedule.",
+      "alts": [
+        "I think we may have misunderstood each other about the schedule."
+      ]
+    },
+    {
+      "vi": "Ý tôi là chỉ buổi diễn tập sẽ đổi lịch.",
+      "en": "What I meant was that only the rehearsal would move.",
+      "alts": [
+        "I only meant to reschedule the rehearsal."
+      ]
+    },
+    {
+      "vi": "Bạn có thể làm rõ ý bạn trong tin nhắn không?",
+      "en": "Could you clarify what you meant in your message?",
+      "alts": [
+        "Could you explain what you meant in your message?"
+      ]
+    },
+    {
+      "vi": "Buổi trình bày với khách hàng không thay đổi.",
+      "en": "The client demo is unchanged.",
+      "alts": [
+        "The client demo will stay as planned."
+      ]
+    },
+    {
+      "vi": "Tôi đã hiểu là bạn muốn hoãn toàn bộ buổi trình bày.",
+      "en": "I understood that you wanted to delay the whole presentation.",
+      "alts": [
+        "I thought you wanted to postpone the entire presentation."
+      ]
+    },
+    {
+      "vi": "Hãy gửi một lời đính chính cho nhóm thiết kế.",
+      "en": "Please send a correction to the design team.",
+      "alts": [
+        "Please send the design team a short correction."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ xác nhận giờ diễn tập mới vào chiều nay.",
+      "en": "I will confirm the new rehearsal time this afternoon.",
+      "alts": [
+        "I will confirm the rehearsal time later this afternoon."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần người học trong hội thoại và tự nghe để kiểm tra phát âm.",
+    "Viết một tin nhắn ngắn bằng tiếng Anh để đính chính hiểu lầm về lịch họp.",
+    "Đặt ba câu dùng các mẫu I think there may have been và Just to be clear."
+  ]
+}

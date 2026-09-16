@@ -1,0 +1,391 @@
+{
+  "id": "giai-thich-ky-thuat-cho-nguoi-ngoai-nganh",
+  "title": "Giải thích vấn đề kỹ thuật cho người không chuyên",
+  "topic": "Hỗ trợ sự cố truy cập tệp",
+  "level": "B2",
+  "summary": "Người học đóng vai nhân viên hỗ trợ kỹ thuật, giải thích sự cố truy cập thư mục dùng chung cho một khách hàng không rành công nghệ. Bài học luyện cách giải thích rõ ràng, trấn an khách hàng và thống nhất phương án xử lý.",
+  "goals": [
+    "Giải thích nguyên nhân kỹ thuật bằng ngôn ngữ đơn giản, dễ hiểu.",
+    "Trấn an khách hàng về độ an toàn của dữ liệu và nêu các bước xử lý.",
+    "Đề xuất phương án hỗ trợ từ xa một cách lịch sự, chuyên nghiệp."
+  ],
+  "vocab": [
+    {
+      "en": "system update",
+      "ipa": "/ˈsɪstəm ʌpˌdeɪt/",
+      "vi": "bản cập nhật hệ thống",
+      "example": "The issue started after a system update."
+    },
+    {
+      "en": "secure connection",
+      "ipa": "/sɪˈkjʊr kəˈnekʃən/",
+      "vi": "kết nối bảo mật",
+      "example": "Your secure connection needs to be restored."
+    },
+    {
+      "en": "security certificate",
+      "ipa": "/sɪˈkjʊrəti sərˈtɪfɪkət/",
+      "vi": "chứng chỉ bảo mật, bằng chứng số xác thực trang web",
+      "example": "A security certificate warning appeared on the screen."
+    },
+    {
+      "en": "account permissions",
+      "ipa": "/əˈkaʊnt pərˈmɪʃənz/",
+      "vi": "quyền truy cập của tài khoản",
+      "example": "I will check your account permissions first."
+    },
+    {
+      "en": "shared folder",
+      "ipa": "/ʃerd ˈfoʊldər/",
+      "vi": "thư mục dùng chung",
+      "example": "The shared folder is still working normally."
+    },
+    {
+      "en": "temporary workaround",
+      "ipa": "/ˈtempəreri ˈwɜːrkəraʊnd/",
+      "vi": "giải pháp tạm thời",
+      "example": "I can offer a temporary workaround until we fix the connection."
+    },
+    {
+      "en": "browser cache",
+      "ipa": "/ˈbraʊzər kæʃ/",
+      "vi": "dữ liệu tạm được trình duyệt lưu lại",
+      "example": "Clearing the browser cache may remove the warning."
+    },
+    {
+      "en": "remote session",
+      "ipa": "/rɪˈmoʊt ˈseʃən/",
+      "vi": "phiên hỗ trợ từ xa",
+      "example": "We can use a remote session with your permission."
+    },
+    {
+      "en": "stored data",
+      "ipa": "/stɔːrd ˈdeɪtə/",
+      "vi": "dữ liệu đã được lưu",
+      "example": "The browser may be using outdated stored data."
+    },
+    {
+      "en": "get to the bottom of something",
+      "ipa": "/ɡet tə ðə ˈbɑːtəm əv ˈsʌmθɪŋ/",
+      "vi": "tìm ra nguyên nhân thực sự của vấn đề",
+      "example": "We will get to the bottom of this before your meeting."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you explain that in plain English?",
+      "vi": "Bạn có thể giải thích điều đó bằng ngôn ngữ đơn giản không?",
+      "note": "Dùng khi muốn người khác tránh thuật ngữ kỹ thuật."
+    },
+    {
+      "en": "The issue appears to be ___, rather than ___.",
+      "vi": "Vấn đề dường như là ___, chứ không phải ___.",
+      "note": "Mẫu phù hợp để phân biệt nguyên nhân với điều khách hàng đang lo."
+    },
+    {
+      "en": "Would it be possible to ___ without ___?",
+      "vi": "Liệu có thể ___ mà không ___ không?",
+      "note": "Cách hỏi lịch sự khi muốn thương lượng phương án ít rủi ro."
+    },
+    {
+      "en": "Before we proceed, I would like to make sure ___.",
+      "vi": "Trước khi tiếp tục, tôi muốn chắc rằng ___.",
+      "note": "Dùng để xác nhận điều kiện an toàn trước khi thực hiện thao tác."
+    },
+    {
+      "en": "We will get to the bottom of this.",
+      "vi": "Chúng ta sẽ tìm ra nguyên nhân thực sự của việc này.",
+      "note": "Thành ngữ thông dụng để trấn an rằng bạn sẽ điều tra kỹ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm trong security certificate",
+      "tip": "Nhấn mạnh âm thứ hai của security và âm thứ hai của certificate; không đọc đều từng âm.",
+      "words": [
+        "security",
+        "certificate",
+        "permissions"
+      ]
+    },
+    {
+      "focus": "âm cuối /s/ và /z/",
+      "tip": "Phát âm rõ phụ âm cuối để phân biệt access với accesses, files với file.",
+      "words": [
+        "access",
+        "files",
+        "permissions"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /kj/ trong secure",
+      "tip": "Nối nhanh âm /k/ với âm /j/ như trong từ you, không đọc thành hai âm tách rời.",
+      "words": [
+        "secure",
+        "security",
+        "connection"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I cannot access to the shared folder.",
+      "right": "I cannot access the shared folder.",
+      "vi": "Access là động từ trực tiếp, không dùng to phía sau."
+    },
+    {
+      "wrong": "Please explain me in simple words.",
+      "right": "Please explain it to me in simple terms.",
+      "vi": "Explain cần có tân ngữ và dùng to trước người nhận lời giải thích."
+    },
+    {
+      "wrong": "I am not understand technical things.",
+      "right": "I do not understand technical things.",
+      "vi": "Động từ understand cần do not ở hiện tại đơn, không đi trực tiếp sau am."
+    },
+    {
+      "wrong": "Do you can fix it remotely?",
+      "right": "Can you fix it remotely?",
+      "vi": "Không dùng do cùng với can."
+    },
+    {
+      "wrong": "The files are disappeared?",
+      "right": "Have the files disappeared?",
+      "vi": "Với hiện tại hoàn thành, dùng have cộng quá khứ phân từ; không dùng are."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Yêu cầu giải thích đơn giản",
+      "formal": "Could you walk me through that in non-technical terms, please?",
+      "casual": "Can you explain that without the tech talk?",
+      "vi": "Câu trang trọng phù hợp khi nói với bộ phận hỗ trợ hoặc người lạ; câu thân mật hợp với đồng nghiệp quen biết."
+    },
+    {
+      "situation": "Nêu tính cấp bách",
+      "formal": "I have a deadline this afternoon, so I would appreciate a prompt solution.",
+      "casual": "I am on a deadline. Can we sort this out today?",
+      "vi": "Câu trang trọng phù hợp trong email hoặc cuộc gọi công việc; câu thân mật tự nhiên hơn giữa các đồng nghiệp."
+    },
+    {
+      "situation": "Đề nghị hỗ trợ từ xa",
+      "formal": "Would it be possible to arrange a remote session at your earliest convenience?",
+      "casual": "Can you take a look remotely when you get a chance?",
+      "vi": "Câu trang trọng dùng với nhân viên hỗ trợ hoặc đối tác; câu thân mật dùng với người trong nhóm quen biết."
+    },
+    {
+      "situation": "Từ chối chia sẻ thông tin nhạy cảm",
+      "formal": "For security reasons, I would prefer not to share my password.",
+      "casual": "I am not comfortable sharing my password.",
+      "vi": "Cả hai đều lịch sự; câu đầu phù hợp môi trường chuyên nghiệp và nêu rõ lý do, câu sau trực tiếp hơn nhưng vẫn mềm mỏng."
+    }
+  ],
+  "culture": [
+    "Người nói tiếng Anh thường đánh giá cao việc thừa nhận thẳng rằng mình không rành công nghệ. Câu này giúp bên hỗ trợ điều chỉnh cách giải thích, không bị xem là kém hiểu biết.",
+    "Trong hỗ trợ kỹ thuật chuyên nghiệp, nhân viên thường nói rõ họ sẽ làm gì trước khi truy cập từ xa và xin phép người dùng. Bạn có thể hỏi lại hoặc từ chối nếu chưa thấy thoải mái.",
+    "Thay vì hứa chắc mọi thứ sẽ ổn, người bản xứ trong môi trường công việc thường dùng cách nói thận trọng như as far as I can tell hoặc it appears to be để tránh cam kết quá mức."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ bộ phận hỗ trợ kỹ thuật",
+    "passage": "Hi, this is Maya from technical support. I reviewed your request. The shared folder itself is working, so your files have not disappeared. The problem is with the secure connection on your laptop after its recent update. Please do not enter your password on any page that shows a certificate warning. I will send you the correct link and arrange a short remote session this afternoon.",
+    "vi": "Chào, tôi là Maya từ bộ phận hỗ trợ kỹ thuật. Tôi đã xem yêu cầu của bạn. Bản thân thư mục dùng chung vẫn hoạt động, nên các tệp của bạn không biến mất. Vấn đề nằm ở kết nối bảo mật trên máy tính xách tay của bạn sau bản cập nhật gần đây. Xin đừng nhập mật khẩu trên bất kỳ trang nào hiện cảnh báo chứng chỉ. Tôi sẽ gửi cho bạn liên kết đúng và sắp xếp một phiên hỗ trợ từ xa ngắn vào chiều nay.",
+    "questions": [
+      {
+        "q": "What is still working normally?",
+        "choices": [
+          "The shared folder",
+          "The laptop update",
+          "The certificate warning"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là thư mục dùng chung vì người nói nêu rõ nó vẫn đang hoạt động."
+      },
+      {
+        "q": "What should the listener avoid doing?",
+        "choices": [
+          "Updating the laptop",
+          "Entering a password on a warning page",
+          "Closing the shared folder"
+        ],
+        "answer": 1,
+        "vi": "Người nói dặn không nhập mật khẩu trên trang có cảnh báo chứng chỉ."
+      },
+      {
+        "q": "What will Maya do next?",
+        "choices": [
+          "Delete the old files",
+          "Send the correct link and arrange remote help",
+          "Replace the listener's laptop"
+        ],
+        "answer": 1,
+        "vi": "Cuối đoạn nghe, Maya nói sẽ gửi liên kết đúng và sắp xếp một phiên hỗ trợ từ xa ngắn."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Khách hàng không rành công nghệ",
+      "b": "Nhân viên hỗ trợ kỹ thuật"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, I cannot open our shared project folder. It keeps asking me to sign in.",
+        "vi": "Chào, tôi không mở được thư mục dự án dùng chung. Nó cứ yêu cầu tôi đăng nhập.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can help with that. When did the problem begin?",
+        "vi": "Tôi có thể giúp việc đó. Vấn đề bắt đầu từ khi nào?",
+        "hint": "Hỏi thời điểm xảy ra sự cố trước để tìm nguyên nhân."
+      },
+      {
+        "speaker": "a",
+        "en": "Yesterday, just after my computer installed an update. Have the files been damaged?",
+        "vi": "Hôm qua, ngay sau khi máy tính cài bản cập nhật. Các tệp có bị hỏng không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Probably not. First, I need to check whether the problem is with the connection or the folder itself.",
+        "vi": "Có lẽ là không. Trước hết, tôi cần kiểm tra xem vấn đề nằm ở kết nối hay chính thư mục đó.",
+        "hint": "Dùng whether ... or ... để nêu hai khả năng."
+      },
+      {
+        "speaker": "a",
+        "en": "So the files should still be there? I have a meeting this afternoon, and I am starting to worry.",
+        "vi": "Vậy các tệp vẫn nên ở đó chứ? Tôi có một cuộc họp chiều nay và tôi bắt đầu lo rồi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, as far as I can tell, the shared folder is working. The issue appears to be your secure connection, rather than the files.",
+        "vi": "Vâng, theo những gì tôi có thể thấy, thư mục dùng chung vẫn hoạt động. Vấn đề dường như là kết nối bảo mật của bạn, chứ không phải các tệp.",
+        "hint": "Dùng as far as I can tell để nói cẩn trọng khi chưa khẳng định tuyệt đối."
+      },
+      {
+        "speaker": "a",
+        "en": "I am not very technical. Could you explain what that means in plain English?",
+        "vi": "Tôi không rành kỹ thuật lắm. Bạn có thể giải thích điều đó bằng ngôn ngữ đơn giản không?",
+        "hint": "Plain English nghĩa là cách giải thích đơn giản, không nhiều thuật ngữ."
+      },
+      {
+        "speaker": "b",
+        "en": "Think of it as a key card for an office. The update changed a setting, so the app no longer recognizes your laptop. The folder is safe; your laptop just needs a new key card.",
+        "vi": "Hãy hình dung nó như thẻ ra vào văn phòng. Bản cập nhật đã thay đổi một cài đặt, nên ứng dụng không còn nhận ra máy tính của bạn. Thư mục vẫn an toàn; máy của bạn chỉ cần một chiếc thẻ mới.",
+        "hint": "Dùng phép so sánh quen thuộc để biến khái niệm kỹ thuật thành dễ hiểu."
+      },
+      {
+        "speaker": "a",
+        "en": "That makes sense. Would it be possible to fix the connection without disrupting my files?",
+        "vi": "Điều đó dễ hiểu hơn rồi. Liệu có thể sửa kết nối mà không ảnh hưởng đến các tệp của tôi không?",
+        "hint": "Would it be possible to ...? là cách hỏi lịch sự và chuyên nghiệp."
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. We will reconnect the app and check your account permissions. If that does not work, I can reset the connection without touching your files.",
+        "vi": "Có. Chúng tôi sẽ kết nối lại ứng dụng và kiểm tra quyền truy cập tài khoản của bạn. Nếu cách đó không hiệu quả, tôi có thể đặt lại kết nối mà không đụng đến các tệp của bạn.",
+        "hint": "If that does not work dùng để giới thiệu phương án dự phòng."
+      },
+      {
+        "speaker": "a",
+        "en": "I also tried the web portal, but I saw a security certificate warning. Does that mean the site is unsafe?",
+        "vi": "Tôi cũng đã thử cổng web, nhưng thấy cảnh báo chứng chỉ bảo mật. Điều đó có nghĩa là trang web không an toàn phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Not necessarily. Your browser may be using an outdated stored copy of the site's identity. We will verify the address first, then clear the browser cache if needed.",
+        "vi": "Chưa chắc. Trình duyệt của bạn có thể đang dùng một bản thông tin nhận dạng cũ của trang web đã được lưu lại. Chúng ta sẽ xác minh địa chỉ trước, rồi xóa dữ liệu tạm của trình duyệt nếu cần.",
+        "hint": "Not necessarily giúp trấn an mà vẫn không khẳng định quá sớm."
+      },
+      {
+        "speaker": "a",
+        "en": "Could you guide me through it, or would a remote session be quicker? I would rather not make the problem worse.",
+        "vi": "Bạn có thể hướng dẫn tôi từng bước, hay phiên hỗ trợ từ xa sẽ nhanh hơn? Tôi không muốn làm vấn đề tệ hơn.",
+        "hint": "I would rather not ... diễn đạt sự e ngại một cách lịch sự."
+      },
+      {
+        "speaker": "b",
+        "en": "A remote session would be quicker, with your permission. It should take about fifteen minutes. Before we proceed, please save your work and close any private documents.",
+        "vi": "Với sự cho phép của bạn, phiên hỗ trợ từ xa sẽ nhanh hơn. Việc này sẽ mất khoảng mười lăm phút. Trước khi tiếp tục, hãy lưu công việc và đóng mọi tài liệu riêng tư.",
+        "hint": "Nhắc xin phép trước khi hỗ trợ từ xa để tôn trọng quyền riêng tư."
+      },
+      {
+        "speaker": "a",
+        "en": "That is fine. Please schedule it before two o'clock, if you can, because my meeting starts then.",
+        "vi": "Được thôi. Nếu có thể, hãy sắp xếp trước hai giờ, vì cuộc họp của tôi bắt đầu lúc đó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Absolutely. I will send an appointment link for two o'clock and a short checklist. We will get to the bottom of this, and you should be able to reach the folder before your meeting.",
+        "vi": "Chắc chắn rồi. Tôi sẽ gửi liên kết đặt lịch lúc hai giờ và một danh sách kiểm tra ngắn. Chúng ta sẽ tìm ra nguyên nhân, và bạn sẽ có thể truy cập thư mục trước cuộc họp.",
+        "hint": "Kết thúc bằng việc xác nhận thời gian và kết quả dự kiến."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a customer at a busy office in Ho Chi Minh City. You are polite but anxious because you cannot access a shared project folder before an important meeting. You are not comfortable with technical jargon and want clear, practical reassurance.",
+    "opener": "Hi, I cannot open our shared project folder. It keeps asking me to sign in.",
+    "goal": "Người học giải thích nguyên nhân bằng ngôn ngữ đơn giản, trấn an khách hàng về dữ liệu và sắp xếp hỗ trợ từ xa an toàn."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có thể giải thích điều đó bằng ngôn ngữ đơn giản không?",
+      "en": "Could you explain that in plain English?",
+      "alts": [
+        "Could you put that in simple terms?"
+      ]
+    },
+    {
+      "vi": "Vấn đề dường như là kết nối bảo mật, chứ không phải các tệp.",
+      "en": "The issue appears to be the secure connection, rather than the files.",
+      "alts": [
+        "It seems to be a connection issue, not a file issue."
+      ]
+    },
+    {
+      "vi": "Tôi sẽ kiểm tra quyền truy cập tài khoản của bạn trước.",
+      "en": "I will check your account permissions first.",
+      "alts": [
+        "First, I will check whether your account has the right permissions."
+      ]
+    },
+    {
+      "vi": "Liệu có thể khôi phục kết nối mà không ảnh hưởng đến các tệp của tôi không?",
+      "en": "Would it be possible to restore the connection without affecting my files?",
+      "alts": [
+        "Can we fix the connection without changing my files?"
+      ]
+    },
+    {
+      "vi": "Trước khi tiếp tục, tôi muốn chắc rằng bạn đã lưu công việc.",
+      "en": "Before we proceed, I would like to make sure that you have saved your work.",
+      "alts": [
+        "Before we start, please make sure your work is saved."
+      ]
+    },
+    {
+      "vi": "Đừng nhập mật khẩu trên trang có cảnh báo chứng chỉ bảo mật.",
+      "en": "Do not enter your password on a page with a security certificate warning.",
+      "alts": [
+        "Please avoid entering your password if you see a certificate warning."
+      ]
+    },
+    {
+      "vi": "Chúng ta sẽ tìm ra nguyên nhân trước cuộc họp của bạn.",
+      "en": "We will get to the bottom of this before your meeting.",
+      "alts": [
+        "We will find the cause before your meeting."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm hai lượt giải thích nguyên nhân theo cách dùng phép so sánh dễ hiểu.",
+    "Viết ba câu trấn an khách hàng bằng các mẫu câu trong bài.",
+    "Luyện nói lại hội thoại, chú ý giải thích rõ ràng nhưng không hứa chắc khi chưa kiểm tra xong."
+  ]
+}

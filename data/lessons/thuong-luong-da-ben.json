@@ -1,0 +1,398 @@
+{
+  "id": "thuong-luong-da-ben",
+  "title": "Thương lượng đa bên với lợi ích xung đột",
+  "topic": "Dung hòa ưu tiên giữa nhiều bộ phận",
+  "level": "C1",
+  "summary": "Bạn dẫn dắt cuộc thương lượng về kế hoạch ra mắt sản phẩm giữa ba bộ phận có ưu tiên khác nhau. Bạn cần xác định giới hạn, đề xuất nhượng bộ và chốt một thỏa thuận khả thi.",
+  "goals": [
+    "Nêu và phản hồi các lợi ích xung đột bằng giọng điệu chuyên nghiệp.",
+    "Đề xuất phương án dung hòa bằng các collocation tự nhiên.",
+    "Chốt điều kiện, trách nhiệm và bước tiếp theo trong một thỏa thuận đa bên."
+  ],
+  "vocab": [
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi giữa hai lợi ích",
+      "example": "We need to be honest about the trade-offs involved."
+    },
+    {
+      "en": "align on priorities",
+      "ipa": "/əˈlaɪn ɒn praɪˈɒrətiz/",
+      "vi": "thống nhất về các ưu tiên",
+      "example": "Before we decide, we need to align on priorities."
+    },
+    {
+      "en": "non-negotiable",
+      "ipa": "/ˌnɒn nɪˈɡəʊʃiəbəl/",
+      "vi": "điều không thể thương lượng",
+      "example": "Data security is non-negotiable for the legal team."
+    },
+    {
+      "en": "make the case",
+      "ipa": "/meɪk ðə keɪs/",
+      "vi": "đưa ra lập luận thuyết phục",
+      "example": "I can make the case for additional support staff."
+    },
+    {
+      "en": "ring-fence",
+      "ipa": "/ˈrɪŋ fens/",
+      "vi": "khoanh vùng và bảo vệ, thường là ngân sách hoặc nguồn lực",
+      "example": "Finance asked us to ring-fence the pilot budget."
+    },
+    {
+      "en": "concession",
+      "ipa": "/kənˈseʃən/",
+      "vi": "sự nhượng bộ",
+      "example": "Delaying the extra features was a reasonable concession."
+    },
+    {
+      "en": "safeguard",
+      "ipa": "/ˈseɪfɡɑːd/",
+      "vi": "biện pháp bảo đảm, biện pháp bảo vệ",
+      "example": "We need safeguards before opening the pilot to more customers."
+    },
+    {
+      "en": "phased rollout",
+      "ipa": "/feɪzd ˈrəʊl aʊt/",
+      "vi": "triển khai theo từng giai đoạn",
+      "example": "A phased rollout would reduce the operational risk."
+    },
+    {
+      "en": "bottleneck",
+      "ipa": "/ˈbɒtlnek/",
+      "vi": "điểm nghẽn",
+      "example": "Training could become a bottleneck if we rush the launch."
+    },
+    {
+      "en": "middle ground",
+      "ipa": "/ˌmɪdl ˈɡraʊnd/",
+      "vi": "giải pháp dung hòa",
+      "example": "The pilot proposal gives us a useful middle ground."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could we separate the must-haves from the preferences?",
+      "vi": "Chúng ta có thể tách những điều bắt buộc khỏi những điều chỉ là ưu tiên không?",
+      "note": "Dùng để đưa cuộc thảo luận từ ý kiến chung sang tiêu chí cụ thể."
+    },
+    {
+      "en": "I can support that, provided that ___ .",
+      "vi": "Tôi có thể ủng hộ điều đó, với điều kiện là ___ .",
+      "note": "Cách chấp nhận có điều kiện, trang trọng và rõ ràng."
+    },
+    {
+      "en": "Would there be room to revisit ___?",
+      "vi": "Liệu có thể xem xét lại ___ không?",
+      "note": "Cách đề nghị thay đổi nhẹ nhàng hơn là nói trực tiếp rằng bạn phản đối."
+    },
+    {
+      "en": "That is a concession we can live with.",
+      "vi": "Đó là sự nhượng bộ mà chúng tôi có thể chấp nhận được.",
+      "note": "Dùng khi đồng ý một phần dù không phải phương án lý tưởng."
+    },
+    {
+      "en": "The proposal addresses the main concern, but it leaves one issue unresolved.",
+      "vi": "Đề xuất này xử lý được mối lo chính, nhưng vẫn còn một vấn đề chưa được giải quyết.",
+      "note": "Giúp phản hồi cân bằng: công nhận điểm tốt trước khi nêu điểm cần sửa."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong non-negotiable",
+      "tip": "Nhấn âm thứ tư, đọc gần như non ni GO shi ə bồ; không nhấn mạnh đều tất cả các âm.",
+      "words": [
+        "non-negotiable",
+        "negotiation",
+        "negotiable"
+      ]
+    },
+    {
+      "focus": "Âm cuối trong trade-offs và safeguards",
+      "tip": "Phát rõ cụm phụ âm cuối; đừng bỏ âm s hoặc f, nếu không số nhiều và nghĩa có thể không rõ.",
+      "words": [
+        "trade-offs",
+        "safeguards",
+        "costs"
+      ]
+    },
+    {
+      "focus": "Nối âm trong could we và would there",
+      "tip": "Nói liền nhẹ giữa các từ để câu nghe tự nhiên: could we và would there, không tách từng từ quá mạnh.",
+      "words": [
+        "could we",
+        "would there",
+        "fixed scope"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We need to discuss about the budget.",
+      "right": "We need to discuss the budget.",
+      "vi": "Discuss là động từ trực tiếp, không đi với about trong cấu trúc này."
+    },
+    {
+      "wrong": "I suggest to delay the launch.",
+      "right": "I suggest delaying the launch.",
+      "vi": "Sau suggest thường dùng danh từ hoặc động từ thêm ing, không dùng to cộng động từ."
+    },
+    {
+      "wrong": "Finance does not agree with this plan.",
+      "right": "Finance does not agree to this plan.",
+      "vi": "Agree with thường nói đồng tình với người hoặc ý kiến; agree to nhấn mạnh chấp thuận một đề xuất hoặc kế hoạch."
+    },
+    {
+      "wrong": "We need make a compromise.",
+      "right": "We need to reach a compromise.",
+      "vi": "Make a compromise không tự nhiên trong ngữ cảnh này; dùng reach a compromise hoặc make a concession."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Đề nghị xem xét lại một quyết định",
+      "formal": "Would there be room to revisit the timeline?",
+      "casual": "Can we take another look at the timeline?",
+      "vi": "Câu formal phù hợp với cấp trên, khách hàng hoặc cuộc họp chính thức; câu casual phù hợp với đồng nghiệp thân và nhóm nội bộ."
+    },
+    {
+      "situation": "Nêu sự không đồng tình có chừng mực",
+      "formal": "I see the rationale, but I have reservations about that approach.",
+      "casual": "I get the logic, but I am not sold on that approach.",
+      "vi": "Câu formal lịch sự và thận trọng khi phản hồi người ít quen hoặc có vị trí cao hơn; câu casual tự nhiên hơn giữa đồng nghiệp quen biết."
+    },
+    {
+      "situation": "Tạm hoãn quyết định để có thêm thông tin",
+      "formal": "Could we hold off on a final decision until we have the full picture?",
+      "casual": "Can we park this until we know more?",
+      "vi": "Câu formal dùng trong cuộc họp quan trọng hoặc với đối tác; câu casual dùng trong trao đổi nội bộ nhanh."
+    },
+    {
+      "situation": "Chấp nhận phương án kèm điều kiện",
+      "formal": "I can support that, provided that the safeguards remain in place.",
+      "casual": "I am good with that if the safeguards stay in place.",
+      "vi": "Câu formal thể hiện điều kiện rõ ràng trong thương lượng; câu casual phù hợp khi nhóm đã có quan hệ làm việc gần gũi."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm việc nói tiếng Anh, người tham gia thường nêu thẳng giới hạn của bộ phận mình nhưng sẽ kèm lý do và phương án thay thế. Sự thẳng thắn này thường được xem là hiệu quả, không phải thiếu tôn trọng.",
+    "Im lặng ngắn sau một đề xuất có thể là lúc người nghe cân nhắc, không nhất thiết là dấu hiệu phản đối. Đừng vội lấp khoảng im lặng bằng cách nhượng bộ thêm.",
+    "Người bản xứ thường dùng câu giảm nhẹ như I see the rationale trước khi phản đối. Việc công nhận điểm hợp lý của bên kia giúp bất đồng bớt đối đầu."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ giám đốc dự án",
+    "passage": "Hello everyone. I have spoken with the three department heads about the launch plan. Product can accept a phased release, but only if the core testing period stays intact. Finance will release the extra funding after we set a spending limit. Customer Success wants two weeks to prepare the support team. I will send a revised proposal this afternoon. Please review it before tomorrow's meeting.",
+    "vi": "Chào mọi người. Tôi đã trao đổi với trưởng ba bộ phận về kế hoạch ra mắt. Sản phẩm có thể chấp nhận phát hành theo giai đoạn, nhưng chỉ khi thời gian kiểm thử cốt lõi được giữ nguyên. Tài chính sẽ cấp thêm kinh phí sau khi chúng ta đặt mức giới hạn chi tiêu. Chăm sóc khách hàng muốn có hai tuần để chuẩn bị đội hỗ trợ. Chiều nay tôi sẽ gửi đề xuất đã chỉnh sửa. Xin hãy xem trước cuộc họp ngày mai.",
+    "questions": [
+      {
+        "q": "What must remain intact for Product?",
+        "choices": [
+          "The core testing period",
+          "The spending limit",
+          "The support schedule"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn đầu tiên vì bài nghe nói Product chỉ chấp nhận nếu core testing period stays intact."
+      },
+      {
+        "q": "What must happen before Finance releases extra funding?",
+        "choices": [
+          "A revised proposal must be sent",
+          "A spending limit must be set",
+          "New customers must join the pilot"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn thứ hai vì bài nghe nói Finance will release the extra funding after we set a spending limit."
+      },
+      {
+        "q": "When should listeners review the revised proposal?",
+        "choices": [
+          "Before tomorrow's meeting",
+          "During the support briefing",
+          "After the phased release"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn đầu tiên vì người nói yêu cầu review it before tomorrow's meeting."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "AI: đại diện đồng thời cho bộ phận Sản phẩm, Tài chính và Chăm sóc khách hàng.",
+      "b": "Người học: quản lý chương trình, điều phối cuộc thương lượng và chốt phương án."
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining. I am speaking for Product, Finance, and Customer Success. We need to settle the launch plan today.",
+        "vi": "Cảm ơn bạn đã tham gia. Tôi đại diện cho Sản phẩm, Tài chính và Chăm sóc khách hàng. Hôm nay chúng ta cần chốt kế hoạch ra mắt.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Understood. Could each team state its main concern?",
+        "vi": "Tôi hiểu. Mỗi bộ phận có thể nêu mối quan ngại chính của mình không?",
+        "hint": "Dùng main concern để hỏi trọng tâm thay vì hỏi chung chung."
+      },
+      {
+        "speaker": "a",
+        "en": "Product wants to protect the testing window. Finance wants to cap spending. Customer Success needs enough time to train the support team.",
+        "vi": "Sản phẩm muốn bảo vệ thời gian kiểm thử. Tài chính muốn giới hạn chi tiêu. Chăm sóc khách hàng cần đủ thời gian để đào tạo đội hỗ trợ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Those priorities clash, but they are all legitimate. What is non-negotiable for each team?",
+        "vi": "Các ưu tiên đó xung đột, nhưng đều chính đáng. Điều gì là không thể thương lượng với mỗi bộ phận?",
+        "hint": "Công nhận tính hợp lý của các bên trước khi đi vào giới hạn."
+      },
+      {
+        "speaker": "a",
+        "en": "For Product, cutting testing is off the table. Finance will not approve an open-ended budget. Customer Success cannot support a launch without a clear escalation process.",
+        "vi": "Với Sản phẩm, cắt giảm kiểm thử là điều không thể bàn. Tài chính sẽ không phê duyệt một ngân sách không có giới hạn. Chăm sóc khách hàng không thể ủng hộ việc ra mắt nếu không có quy trình xử lý sự cố rõ ràng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Let us separate the must-haves from the preferences. Could a phased rollout address some of the pressure?",
+        "vi": "Chúng ta hãy tách các yêu cầu bắt buộc khỏi những điều chỉ là ưu tiên. Liệu triển khai theo từng giai đoạn có thể giảm bớt áp lực không?",
+        "hint": "Must-haves là các yêu cầu bắt buộc; phased rollout là triển khai từng giai đoạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Product is open to that, provided the first phase is limited. Finance would consider it if costs are ring-fenced. Customer Success would need a smaller customer group and a fallback plan.",
+        "vi": "Sản phẩm sẵn sàng cân nhắc, với điều kiện giai đoạn đầu có phạm vi hạn chế. Tài chính sẽ xem xét nếu chi phí được khoanh vùng. Chăm sóc khách hàng cần một nhóm khách hàng nhỏ hơn và kế hoạch dự phòng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds workable. Product, what scope would keep the quality safeguards intact?",
+        "vi": "Nghe có vẻ khả thi. Sản phẩm, phạm vi nào sẽ giữ nguyên các biện pháp bảo đảm chất lượng?",
+        "hint": "Keep safeguards intact nghĩa là giữ nguyên các biện pháp bảo đảm."
+      },
+      {
+        "speaker": "a",
+        "en": "Product could release the core feature to a selected group in six weeks. However, they need two additional engineers for final testing and a firm decision on which features are deferred.",
+        "vi": "Sản phẩm có thể phát hành tính năng cốt lõi cho một nhóm được chọn sau sáu tuần. Tuy nhiên, họ cần thêm hai kỹ sư cho khâu kiểm thử cuối cùng và một quyết định dứt khoát về những tính năng nào sẽ bị hoãn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can make the case for moving the lower-priority features to the next release. Finance, would that make the staffing request easier to absorb?",
+        "vi": "Tôi có thể đưa ra lập luận để chuyển các tính năng ưu tiên thấp sang đợt phát hành tiếp theo. Tài chính, như vậy có khiến đề nghị bổ sung nhân sự dễ đáp ứng hơn không?",
+        "hint": "Make the case for là đưa ra lập luận thuyết phục cho một đề xuất."
+      },
+      {
+        "speaker": "a",
+        "en": "It would help, but Finance still needs a ceiling on the extra cost. They are willing to fund the engineers if Product commits to a fixed scope and Customer Success avoids adding new training materials midstream.",
+        "vi": "Điều đó sẽ hữu ích, nhưng Tài chính vẫn cần một mức trần cho chi phí bổ sung. Họ sẵn sàng cấp kinh phí cho các kỹ sư nếu Sản phẩm cam kết phạm vi cố định và Chăm sóc khách hàng không bổ sung tài liệu đào tạo mới giữa chừng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Fair enough. Customer Success, can you work within those constraints if we give you ownership of the escalation process?",
+        "vi": "Hợp lý. Chăm sóc khách hàng, các bạn có thể làm việc trong các ràng buộc đó nếu chúng tôi giao cho các bạn quyền phụ trách quy trình xử lý sự cố không?",
+        "hint": "Work within those constraints là làm việc trong các giới hạn đã nêu."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, with two safeguards. They want one week to brief the support team before the pilot, and they need Product to assign a technical contact during the first ten days.",
+        "vi": "Có, với hai biện pháp bảo đảm. Họ muốn có một tuần để phổ biến cho đội hỗ trợ trước thí điểm, và cần Sản phẩm chỉ định một đầu mối kỹ thuật trong mười ngày đầu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I can commit to both. In return, I would ask Customer Success to collect feedback in a single report rather than sending unplanned requests to Product.",
+        "vi": "Tôi có thể cam kết cả hai điều. Đổi lại, tôi đề nghị Chăm sóc khách hàng tổng hợp phản hồi trong một báo cáo duy nhất thay vì gửi các yêu cầu phát sinh tới Sản phẩm.",
+        "hint": "In return giúp nêu điều kiện trao đổi mà vẫn giữ giọng hợp tác."
+      },
+      {
+        "speaker": "a",
+        "en": "That is acceptable. Product appreciates the reduced noise, and Finance sees a clearer path to controlling costs. The remaining question is whether the pilot should include existing customers or only new ones.",
+        "vi": "Điều đó có thể chấp nhận được. Sản phẩm đánh giá cao việc giảm bớt các yêu cầu rời rạc, và Tài chính thấy con đường kiểm soát chi phí rõ ràng hơn. Câu hỏi còn lại là thí điểm nên bao gồm khách hàng hiện tại hay chỉ khách hàng mới.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Start with existing customers who have opted in. They know the product context, and we can set expectations without creating broad demand for immediate support.",
+        "vi": "Hãy bắt đầu với những khách hàng hiện tại đã tự nguyện đăng ký. Họ hiểu bối cảnh sản phẩm, và chúng ta có thể đặt kỳ vọng mà không tạo ra nhu cầu hỗ trợ ngay lập tức trên diện rộng.",
+        "hint": "Have opted in nghĩa là đã chủ động đồng ý tham gia."
+      },
+      {
+        "speaker": "a",
+        "en": "All three teams can support that. Product keeps the testing standard, Finance has a defined cost limit, and Customer Success gets a controlled pilot with clear ownership.",
+        "vi": "Cả ba bộ phận đều có thể ủng hộ phương án đó. Sản phẩm giữ được tiêu chuẩn kiểm thử, Tài chính có mức giới hạn chi phí xác định, và Chăm sóc khách hàng có một đợt thí điểm được kiểm soát với trách nhiệm rõ ràng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Excellent. We have a deal: a six-week pilot, fixed scope, two temporary engineers, and a one-week support briefing. I will circulate the written agreement today.",
+        "vi": "Tuyệt vời. Chúng ta đã có thỏa thuận: thí điểm sáu tuần, phạm vi cố định, hai kỹ sư tạm thời và một tuần phổ biến cho đội hỗ trợ. Hôm nay tôi sẽ gửi văn bản thỏa thuận cho mọi người.",
+        "hint": "Dùng We have a deal để chốt thỏa thuận một cách dứt khoát."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a composed spokesperson for Product, Finance, and Customer Success at a software company. You represent their competing interests clearly, remain constructive, and negotiate toward a practical launch agreement.",
+    "opener": "Thank you for making time. I speak for Product, Finance, and Customer Success, and we need to agree on a launch plan.",
+    "goal": "Người học xác định giới hạn của ba bên, đề xuất phương án thí điểm và chốt thỏa thuận có điều kiện."
+  },
+  "drills": [
+    {
+      "vi": "Chúng ta cần thống nhất về các ưu tiên trước khi quyết định.",
+      "en": "We need to align on priorities before we decide.",
+      "alts": [
+        "Before deciding, we need to align on priorities."
+      ]
+    },
+    {
+      "vi": "Cắt giảm thời gian kiểm thử là điều không thể thương lượng.",
+      "en": "Cutting the testing time is non-negotiable.",
+      "alts": [
+        "Reducing the testing window is off the table."
+      ]
+    },
+    {
+      "vi": "Liệu chúng ta có thể xem xét lại phạm vi của giai đoạn đầu không?",
+      "en": "Would there be room to revisit the scope of the first phase?",
+      "alts": [
+        "Could we take another look at the first-phase scope?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể ủng hộ đề xuất đó, với điều kiện ngân sách được khoanh vùng.",
+      "en": "I can support that proposal, provided that the budget is ring-fenced.",
+      "alts": [
+        "I can back the proposal if the budget is ring-fenced."
+      ]
+    },
+    {
+      "vi": "Chúng ta cần một sự nhượng bộ mà mọi bên đều có thể chấp nhận.",
+      "en": "We need a concession that all parties can live with.",
+      "alts": [
+        "We need to reach a compromise that works for everyone."
+      ]
+    },
+    {
+      "vi": "Triển khai theo từng giai đoạn có thể giảm rủi ro.",
+      "en": "A phased rollout could reduce the risk.",
+      "alts": [
+        "We could reduce the risk through a phased rollout."
+      ]
+    },
+    {
+      "vi": "Đề xuất này xử lý mối lo chính, nhưng vẫn còn một vấn đề chưa được giải quyết.",
+      "en": "The proposal addresses the main concern, but it leaves one issue unresolved.",
+      "alts": [
+        "It deals with the main concern, but one issue remains unresolved."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại các lượt của người học trong hội thoại và tự kiểm tra giọng điệu ở các câu nhượng bộ.",
+    "Viết một phương án thỏa thuận khác gồm ba điều kiện, sử dụng ít nhất bốn từ vựng của bài.",
+    "Luyện nói ba lần các mẫu câu với provided that và would there be room để nối âm tự nhiên."
+  ]
+}

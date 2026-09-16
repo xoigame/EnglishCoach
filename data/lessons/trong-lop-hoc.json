@@ -1,0 +1,351 @@
+{
+  "id": "trong-lop-hoc",
+  "title": "Trong lớp học: Hỏi lại và xin phép",
+  "topic": "Trong lớp học",
+  "level": "A1",
+  "summary": "Người học hỏi lại khi chưa nghe rõ và xin phép làm vài việc đơn giản trong lớp. Bài luyện các câu ngắn, lịch sự với giáo viên.",
+  "goals": [
+    "Hỏi lại trang sách hoặc yêu cầu giáo viên nhắc lại",
+    "Xin phép ngồi cùng bạn và dùng đồ dùng trong lớp",
+    "Nói khi chưa hiểu và khi đã hiểu bài"
+  ],
+  "vocab": [
+    {
+      "en": "page",
+      "ipa": "/peɪdʒ/",
+      "vi": "trang sách",
+      "example": "Which page is it?"
+    },
+    {
+      "en": "book",
+      "ipa": "/bʊk/",
+      "vi": "sách",
+      "example": "Open your book, please."
+    },
+    {
+      "en": "open",
+      "ipa": "/ˈəʊpən/",
+      "vi": "mở",
+      "example": "Please open your book."
+    },
+    {
+      "en": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "vi": "nhắc lại",
+      "example": "Could you repeat that, please?"
+    },
+    {
+      "en": "line",
+      "ipa": "/laɪn/",
+      "vi": "dòng",
+      "example": "Read the first line."
+    },
+    {
+      "en": "read",
+      "ipa": "/riːd/",
+      "vi": "đọc",
+      "example": "Please read this dialogue."
+    },
+    {
+      "en": "sit",
+      "ipa": "/sɪt/",
+      "vi": "ngồi",
+      "example": "Can I sit here?"
+    },
+    {
+      "en": "together",
+      "ipa": "/təˈɡeðər/",
+      "vi": "cùng nhau",
+      "example": "We sit together today."
+    },
+    {
+      "en": "pen",
+      "ipa": "/pen/",
+      "vi": "bút",
+      "example": "Can I use your pen?"
+    },
+    {
+      "en": "understand",
+      "ipa": "/ˌʌndərˈstænd/",
+      "vi": "hiểu",
+      "example": "I understand this word."
+    },
+    {
+      "en": "word",
+      "ipa": "/wɜːrd/",
+      "vi": "từ",
+      "example": "I do not understand this word."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you repeat that, please?",
+      "vi": "Cô hoặc thầy có thể nhắc lại được không ạ?",
+      "note": "Dùng khi em chưa nghe rõ. Thêm please để lịch sự."
+    },
+    {
+      "en": "Which page is it?",
+      "vi": "Trang nào ạ?",
+      "note": "Dùng để hỏi số trang cần mở."
+    },
+    {
+      "en": "Can I sit here?",
+      "vi": "Em có thể ngồi ở đây không ạ?",
+      "note": "Sau Can I dùng động từ nguyên mẫu, không thêm to."
+    },
+    {
+      "en": "Can I use your pen?",
+      "vi": "Em có thể dùng bút của cô hoặc thầy không ạ?",
+      "note": "Dùng use khi xin dùng đồ vật của người khác."
+    },
+    {
+      "en": "I do not understand this word.",
+      "vi": "Em không hiểu từ này.",
+      "note": "Dùng khi cần giáo viên giải thích một từ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /dʒ/ trong page",
+      "tip": "Khép miệng nhẹ rồi bật âm /dʒ/ ở cuối; đừng bỏ âm cuối thành pay.",
+      "words": [
+        "page"
+      ]
+    },
+    {
+      "focus": "Âm /ð/ trong together",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai răng và rung giọng. Không đọc thành âm d.",
+      "words": [
+        "together"
+      ]
+    },
+    {
+      "focus": "Nguyên âm dài /iː/ trong read",
+      "tip": "Kéo dài âm i một chút: read. Không đọc ngắn như âm i trong sit.",
+      "words": [
+        "read",
+        "repeat"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Which page it is?",
+      "right": "Which page is it?",
+      "vi": "Trong câu hỏi với be, đặt is trước chủ ngữ it."
+    },
+    {
+      "wrong": "Can I to sit here?",
+      "right": "Can I sit here?",
+      "vi": "Sau can dùng động từ nguyên mẫu, không dùng to."
+    },
+    {
+      "wrong": "Can I borrow you pen?",
+      "right": "Can I borrow your pen?",
+      "vi": "Trước danh từ pen cần tính từ sở hữu your, không dùng you."
+    },
+    {
+      "wrong": "Teacher, repeat again.",
+      "right": "Could you repeat that, please?",
+      "vi": "Câu đúng có chủ ngữ, lịch sự hơn và không cần dùng lại again."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Xin giáo viên nhắc lại",
+      "formal": "Could you repeat that, please?",
+      "casual": "Sorry, can you say that again?",
+      "vi": "Dùng câu formal khi nói với giáo viên hoặc người chưa quen. Câu casual hợp khi hỏi bạn cùng lớp."
+    },
+    {
+      "situation": "Xin phép ngồi ở một chỗ",
+      "formal": "May I sit here?",
+      "casual": "Can I sit here?",
+      "vi": "May I lịch sự và trang trọng hơn, phù hợp khi nói với giáo viên. Can I rất tự nhiên trong lớp học hằng ngày."
+    },
+    {
+      "situation": "Xin dùng bút của người khác",
+      "formal": "May I use your pen, please?",
+      "casual": "Can I use your pen?",
+      "vi": "Dùng câu formal với giáo viên hoặc người lạ. Câu casual phù hợp với bạn bè thân trong lớp."
+    },
+    {
+      "situation": "Hỏi lại số trang",
+      "formal": "Could you tell me the page, please?",
+      "casual": "Which page are we on?",
+      "vi": "Câu formal lịch sự hơn khi hỏi giáo viên. Câu casual tự nhiên khi hỏi nhanh bạn ngồi cạnh."
+    }
+  ],
+  "culture": [
+    "Trong lớp học nói tiếng Anh, học viên thường giơ tay hoặc nói Excuse me trước khi hỏi giáo viên, thay vì gọi to tên giáo viên.",
+    "Giáo viên thường đáp Sure, Of course hoặc Go ahead để cho phép. Đây đều là câu đồng ý thân thiện.",
+    "Can I được dùng rất phổ biến khi xin phép trong giao tiếp hằng ngày; May I lịch sự và trang trọng hơn nhưng không bắt buộc trong mọi tình huống."
+  ],
+  "listening": {
+    "title": "Thông báo đầu giờ của giáo viên",
+    "passage": "Hello class. Today we use page twelve. First, listen to the short story. Then read it with your partner. If you do not understand a word, raise your hand and ask me. You can use a dictionary after the story. Please do not talk during the listening part. At the end, you can ask questions. Thank you.",
+    "vi": "Chào cả lớp. Hôm nay chúng ta dùng trang mười hai. Trước hết, hãy nghe câu chuyện ngắn. Sau đó đọc cùng bạn của em. Nếu không hiểu một từ, hãy giơ tay và hỏi tôi. Em có thể dùng từ điển sau câu chuyện. Xin đừng nói chuyện trong phần nghe. Cuối buổi, em có thể đặt câu hỏi. Cảm ơn.",
+    "questions": [
+      {
+        "q": "What page does the class use?",
+        "choices": [
+          "Page ten",
+          "Page twelve",
+          "Page twenty"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Page twelve vì giáo viên nói: Today we use page twelve."
+      },
+      {
+        "q": "When can students use a dictionary?",
+        "choices": [
+          "Before the story",
+          "After the story",
+          "During the listening part"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là After the story vì đoạn nghe nói: You can use a dictionary after the story."
+      },
+      {
+        "q": "What should students not do during listening?",
+        "choices": [
+          "Read the story",
+          "Talk",
+          "Ask questions"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Talk vì giáo viên nói: Please do not talk during the listening part."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Giáo viên",
+      "b": "Học viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning, everyone. Please open your books.",
+        "vi": "Chào buổi sáng cả lớp. Hãy mở sách ra.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sorry, which page is it?",
+        "vi": "Xin lỗi, là trang nào ạ?",
+        "hint": "Dùng Which page để hỏi số trang."
+      },
+      {
+        "speaker": "a",
+        "en": "Page ten. We read this dialogue.",
+        "vi": "Trang mười. Chúng ta đọc đoạn hội thoại này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you repeat that, please?",
+        "vi": "Cô có thể nhắc lại được không ạ?",
+        "hint": "Dùng Could you và please để hỏi lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. Please read the first line.",
+        "vi": "Được chứ. Hãy đọc dòng đầu tiên.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can I read with Mai?",
+        "vi": "Em có thể đọc cùng Mai không ạ?",
+        "hint": "Sau Can I dùng động từ read, không thêm to."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, you can sit together.",
+        "vi": "Được, hai em có thể ngồi cùng nhau.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can I use your pen?",
+        "vi": "Em có thể dùng bút của cô không ạ?",
+        "hint": "Dùng use khi xin dùng một đồ vật."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. Here is a blue pen.",
+        "vi": "Được. Đây là một cây bút xanh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. I understand now.",
+        "vi": "Em cảm ơn. Bây giờ em hiểu rồi.",
+        "hint": "I understand now cho biết em đã hiểu."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly English teacher in a small classroom. You speak slowly, help a beginner, and ask simple questions.",
+    "opener": "Good morning. Please open your book.",
+    "goal": "Người học hỏi lại trang sách, xin phép ngồi cùng bạn và mượn bút."
+  },
+  "drills": [
+    {
+      "vi": "Cô có thể nhắc lại được không ạ?",
+      "en": "Could you repeat that, please?",
+      "alts": [
+        "Can you say that again, please?"
+      ]
+    },
+    {
+      "vi": "Là trang nào ạ?",
+      "en": "Which page is it?",
+      "alts": [
+        "What page is it?"
+      ]
+    },
+    {
+      "vi": "Cô có thể nói chậm hơn không ạ?",
+      "en": "Could you speak more slowly, please?",
+      "alts": [
+        "Can you say that more slowly, please?"
+      ]
+    },
+    {
+      "vi": "Em có thể ngồi ở đây không ạ?",
+      "en": "Can I sit here?",
+      "alts": [
+        "May I sit here?"
+      ]
+    },
+    {
+      "vi": "Em có thể ngồi với Mai không ạ?",
+      "en": "Can I sit with Mai?",
+      "alts": [
+        "Can I read with Mai?"
+      ]
+    },
+    {
+      "vi": "Em có thể dùng bút của cô không ạ?",
+      "en": "Can I use your pen?",
+      "alts": [
+        "May I use your pen, please?"
+      ]
+    },
+    {
+      "vi": "Em không hiểu từ này.",
+      "en": "I do not understand this word.",
+      "alts": [
+        "I do not understand this."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và tự nghe lại.",
+    "Viết ba câu hỏi lại và ba câu xin phép trong lớp học.",
+    "Luyện nói các câu với tốc độ chậm, chú ý âm cuối trong page và âm dài trong read."
+  ]
+}

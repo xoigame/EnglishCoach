@@ -1,0 +1,360 @@
+{
+  "id": "goi-do-uong-mang-di",
+  "title": "Gọi đồ uống mang đi",
+  "topic": "Mua đồ uống mang đi",
+  "level": "A1",
+  "summary": "Bạn gọi một ly trà đá mang đi tại quầy nước. Bạn chọn cỡ ly, nói không đường và thanh toán.",
+  "goals": [
+    "Gọi một đồ uống đơn giản tại quầy",
+    "Hỏi cỡ ly và chọn mang đi",
+    "Hỏi giá, thanh toán và yêu cầu ống hút"
+  ],
+  "vocab": [
+    {
+      "en": "drink",
+      "ipa": "/drɪŋk/",
+      "vi": "đồ uống",
+      "example": "What drink would you like?"
+    },
+    {
+      "en": "iced tea",
+      "ipa": "/aɪst tiː/",
+      "vi": "trà đá",
+      "example": "I would like iced tea."
+    },
+    {
+      "en": "coffee",
+      "ipa": "/ˈkɔːfi/",
+      "vi": "cà phê",
+      "example": "She has hot coffee."
+    },
+    {
+      "en": "small",
+      "ipa": "/smɔːl/",
+      "vi": "nhỏ",
+      "example": "A small coffee, please."
+    },
+    {
+      "en": "large",
+      "ipa": "/lɑːrdʒ/",
+      "vi": "lớn",
+      "example": "He wants a large drink."
+    },
+    {
+      "en": "to go",
+      "ipa": "/tə ɡoʊ/",
+      "vi": "mang đi",
+      "example": "I would like it to go."
+    },
+    {
+      "en": "for here",
+      "ipa": "/fɔːr hɪr/",
+      "vi": "dùng tại chỗ",
+      "example": "It is for here, please."
+    },
+    {
+      "en": "sugar",
+      "ipa": "/ˈʃʊɡər/",
+      "vi": "đường",
+      "example": "No sugar, please."
+    },
+    {
+      "en": "straw",
+      "ipa": "/strɔː/",
+      "vi": "ống hút",
+      "example": "Can I have a straw?"
+    },
+    {
+      "en": "price",
+      "ipa": "/praɪs/",
+      "vi": "giá",
+      "example": "What is the price?"
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like ___, please.",
+      "vi": "Tôi muốn ___, làm ơn.",
+      "note": "Cách gọi món lịch sự và tự nhiên."
+    },
+    {
+      "en": "What size would you like?",
+      "vi": "Bạn muốn cỡ nào?",
+      "note": "Dùng để hỏi cỡ nhỏ, vừa hoặc lớn."
+    },
+    {
+      "en": "Is that for here or to go?",
+      "vi": "Dùng tại chỗ hay mang đi?",
+      "note": "Nhân viên thường hỏi câu này sau khi bạn gọi món."
+    },
+    {
+      "en": "Can I have ___, please?",
+      "vi": "Tôi có thể lấy ___ được không?",
+      "note": "Dùng khi xin thêm ống hút, khăn giấy hoặc nước."
+    },
+    {
+      "en": "How much is it?",
+      "vi": "Nó giá bao nhiêu?",
+      "note": "Dùng để hỏi giá món đồ vừa gọi."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /t/ trong iced",
+      "tip": "Đọc iced là /aɪst/, có âm /t/ trước tea; không đọc thành ice tea.",
+      "words": [
+        "iced tea",
+        "hot",
+        "want"
+      ]
+    },
+    {
+      "focus": "Âm /ʃ/ trong sugar",
+      "tip": "Chu môi nhẹ và đẩy hơi ra như âm sh, không đọc thành âm x hoặc s.",
+      "words": [
+        "sugar",
+        "small",
+        "sure"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong three",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra; không đọc thành t.",
+      "words": [
+        "three",
+        "thank",
+        "thirty"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I would like iced tea small.",
+      "right": "I would like a small iced tea.",
+      "vi": "Cỡ ly đứng trước tên đồ uống; dùng a với một ly trà."
+    },
+    {
+      "wrong": "I take away, please.",
+      "right": "To go, please.",
+      "vi": "Trong quán ở Mỹ, to go là cách nói tự nhiên để yêu cầu mang đi."
+    },
+    {
+      "wrong": "How much it is?",
+      "right": "How much is it?",
+      "vi": "Trong câu hỏi, động từ is đứng trước chủ ngữ it."
+    },
+    {
+      "wrong": "I do not want sugars.",
+      "right": "No sugar, please.",
+      "vi": "Sugar thường là danh từ không đếm được; câu ngắn này tự nhiên khi gọi đồ uống."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Gọi đồ uống",
+      "formal": "I would like an iced tea, please.",
+      "casual": "Can I get an iced tea?",
+      "vi": "Câu formal phù hợp ở nơi lịch sự hoặc khi muốn giữ khoảng cách với nhân viên; câu casual rất thường dùng ở quán quen hoặc khi nói thoải mái."
+    },
+    {
+      "situation": "Yêu cầu mang đi",
+      "formal": "Could I have it to go, please?",
+      "casual": "To go, please.",
+      "vi": "Câu formal đầy đủ và lịch sự hơn; câu casual ngắn, tự nhiên khi nhân viên vừa hỏi dùng tại chỗ hay mang đi."
+    },
+    {
+      "situation": "Hỏi giá",
+      "formal": "Could you tell me the price, please?",
+      "casual": "How much is it?",
+      "vi": "Câu formal phù hợp khi cần hỏi lịch sự; câu casual là lựa chọn thông dụng ở quầy nước."
+    },
+    {
+      "situation": "Từ chối đường",
+      "formal": "No sugar for me, thank you.",
+      "casual": "No sugar, thanks.",
+      "vi": "Câu formal mềm hơn khi nói với người lạ; câu casual hợp với quán quen hoặc bối cảnh thoải mái."
+    }
+  ],
+  "culture": [
+    "Ở nhiều quán, nhân viên hỏi thẳng for here or to go ngay sau khi bạn gọi món. Trả lời ngắn To go, please là hoàn toàn bình thường.",
+    "Khách thường nói please khi gọi món và thank you khi nhận đồ uống; không cần nói câu dài.",
+    "Tiền tip ở quầy nước tùy nơi. Bạn có thể không tip, hoặc chọn một khoản nhỏ trên màn hình thanh toán nếu muốn."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ quán Green Cup",
+    "passage": "Hello, this is the Green Cup Cafe. Your drink is ready for pickup. It is a large hot coffee with milk and no sugar. Please come to the front counter. Your name is on the cup. We close at six today. Thank you, and have a nice day.",
+    "vi": "Xin chào, đây là quán Green Cup. Đồ uống của bạn đã sẵn sàng để nhận. Đó là một ly cà phê nóng cỡ lớn có sữa và không đường. Xin hãy đến quầy phía trước. Tên của bạn ở trên ly. Hôm nay quán đóng cửa lúc sáu giờ. Cảm ơn, và chúc bạn một ngày tốt lành.",
+    "questions": [
+      {
+        "q": "What drink is ready?",
+        "choices": [
+          "A small iced tea",
+          "A large hot coffee",
+          "A large iced tea"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là A large hot coffee vì bài nghe nói: It is a large hot coffee."
+      },
+      {
+        "q": "Where should the customer go?",
+        "choices": [
+          "The front counter",
+          "The back door",
+          "The parking area"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là The front counter vì bài nghe nói: Please come to the front counter."
+      },
+      {
+        "q": "What is on the cup?",
+        "choices": [
+          "The price",
+          "The customer name",
+          "The cafe number"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là The customer name vì bài nghe nói: Your name is on the cup."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên quầy nước",
+      "b": "Khách hàng là người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello! What would you like today?",
+        "vi": "Xin chào! Hôm nay bạn muốn uống gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I would like iced tea.",
+        "vi": "Chào, tôi muốn trà đá.",
+        "hint": "Dùng I would like để gọi món lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "What size would you like today?",
+        "vi": "Hôm nay bạn muốn cỡ nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A small iced tea, please.",
+        "vi": "Một trà đá cỡ nhỏ, làm ơn.",
+        "hint": "Đặt small trước iced tea."
+      },
+      {
+        "speaker": "a",
+        "en": "Is that for here or to go?",
+        "vi": "Dùng tại chỗ hay mang đi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "To go, please. No sugar.",
+        "vi": "Mang đi, làm ơn. Không đường.",
+        "hint": "To go nghĩa là mang đi."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Would you like a straw?",
+        "vi": "Được. Bạn có muốn ống hút không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, please. How much is it?",
+        "vi": "Có, làm ơn. Giá bao nhiêu?",
+        "hint": "Câu hỏi giá là How much is it?"
+      },
+      {
+        "speaker": "a",
+        "en": "That is three dollars, please.",
+        "vi": "Là ba đô la, làm ơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here you are. Thank you.",
+        "vi": "Của bạn đây. Cảm ơn.",
+        "hint": "Nói Here you are khi đưa tiền."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. Have a nice day.",
+        "vi": "Cảm ơn. Chúc bạn một ngày tốt lành.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. Goodbye.",
+        "vi": "Cảm ơn. Tạm biệt.",
+        "hint": ""
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly drink counter worker at a busy cafe. You speak slowly, offer simple choices, and help customers order drinks to go.",
+    "opener": "Hello! What would you like today?",
+    "goal": "Người học gọi một đồ uống mang đi, chọn cỡ ly, nói yêu cầu về đường và thanh toán."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn một trà đá, làm ơn.",
+      "en": "I would like an iced tea, please.",
+      "alts": [
+        "Can I get an iced tea, please?"
+      ]
+    },
+    {
+      "vi": "Bạn muốn cỡ nào?",
+      "en": "What size would you like?",
+      "alts": []
+    },
+    {
+      "vi": "Một cà phê cỡ lớn, làm ơn.",
+      "en": "A large coffee, please.",
+      "alts": [
+        "I would like a large coffee, please."
+      ]
+    },
+    {
+      "vi": "Mang đi, làm ơn.",
+      "en": "To go, please.",
+      "alts": [
+        "I would like it to go, please."
+      ]
+    },
+    {
+      "vi": "Không đường, làm ơn.",
+      "en": "No sugar, please.",
+      "alts": [
+        "No sugar for me, thank you."
+      ]
+    },
+    {
+      "vi": "Tôi có thể lấy một ống hút không?",
+      "en": "Can I have a straw, please?",
+      "alts": [
+        "Could I have a straw, please?"
+      ]
+    },
+    {
+      "vi": "Nó giá bao nhiêu?",
+      "en": "How much is it?",
+      "alts": [
+        "What is the price?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý âm cuối trong iced.",
+    "Đổi iced tea thành coffee và luyện lại toàn bộ hội thoại.",
+    "Tự nói ba câu về đồ uống bạn muốn gọi mang đi."
+  ]
+}

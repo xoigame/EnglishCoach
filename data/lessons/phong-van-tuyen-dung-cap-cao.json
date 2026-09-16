@@ -1,0 +1,403 @@
+{
+  "id": "phong-van-tuyen-dung-cap-cao",
+  "title": "Phỏng vấn ứng viên cấp giám đốc",
+  "topic": "Phỏng vấn tuyển dụng cấp cao",
+  "level": "C1",
+  "summary": "Bạn vào vai người phỏng vấn một ứng viên giàu kinh nghiệm cho vị trí giám đốc. Bạn sẽ khai thác thành tích, phong cách lãnh đạo, cách xử lý xung đột và động lực nghề nghiệp của ứng viên.",
+  "goals": [
+    "Đặt câu hỏi phỏng vấn cấp cao với giọng điệu chuyên nghiệp, tự nhiên.",
+    "Mô tả chiến lược, thành tích và quyết định lãnh đạo bằng tiếng Anh sắc thái.",
+    "Phân biệt cách diễn đạt trang trọng và thân mật trong môi trường tuyển dụng."
+  ],
+  "vocab": [
+    {
+      "en": "strategic mandate",
+      "ipa": "/strəˈtiːdʒɪk ˈmændeɪt/",
+      "vi": "nhiệm vụ hoặc định hướng chiến lược được giao",
+      "example": "My strategic mandate was to restore growth while improving profitability."
+    },
+    {
+      "en": "turnaround",
+      "ipa": "/ˈtɜːrnəraʊnd/",
+      "vi": "quá trình xoay chuyển một tình hình kinh doanh đang kém",
+      "example": "I led a turnaround of the regional business in eighteen months."
+    },
+    {
+      "en": "profit and loss responsibility",
+      "ipa": "/ˌprɑːfɪt ən ˈlɔːs rɪˌspɑːnsəˈbɪləti/",
+      "vi": "trách nhiệm về doanh thu, chi phí và lợi nhuận",
+      "example": "The role gave me full profit and loss responsibility for three markets."
+    },
+    {
+      "en": "stakeholder alignment",
+      "ipa": "/ˈsteɪkhoʊldər əˈlaɪnmənt/",
+      "vi": "sự thống nhất giữa các bên liên quan",
+      "example": "We achieved stakeholder alignment before committing resources."
+    },
+    {
+      "en": "operating cadence",
+      "ipa": "/ˈɑːpəreɪtɪŋ ˈkeɪdəns/",
+      "vi": "nhịp vận hành đều đặn qua các cuộc họp, chỉ số và quy trình",
+      "example": "I introduced an operating cadence with clear weekly decision points."
+    },
+    {
+      "en": "succession planning",
+      "ipa": "/səkˈseʃən ˈplænɪŋ/",
+      "vi": "quy hoạch và phát triển người kế nhiệm",
+      "example": "Succession planning was a priority because the team was growing quickly."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa hai lợi ích hoặc lựa chọn",
+      "example": "We made a deliberate trade-off between short-term margin and long-term retention."
+    },
+    {
+      "en": "due diligence",
+      "ipa": "/ˌduː ˈdɪlɪdʒəns/",
+      "vi": "quá trình thẩm định kỹ lưỡng trước khi ra quyết định",
+      "example": "We completed due diligence before approving the acquisition."
+    },
+    {
+      "en": "board-ready",
+      "ipa": "/ˈbɔːrd ˌredi/",
+      "vi": "đủ rõ ràng và chặt chẽ để trình bày trước hội đồng quản trị",
+      "example": "I made sure the recommendation was concise and board-ready."
+    },
+    {
+      "en": "cultural fit",
+      "ipa": "/ˈkʌltʃərəl fɪt/",
+      "vi": "mức độ phù hợp với văn hóa tổ chức",
+      "example": "For me, cultural fit means sharing the same standards, not thinking alike."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Could you walk me through how you ___?",
+      "vi": "Anh chị có thể trình bày cho tôi cách anh chị đã ___ không?",
+      "note": "Cách hỏi lịch sự, tự nhiên để yêu cầu ứng viên kể lại một trải nghiệm cụ thể."
+    },
+    {
+      "en": "What I learned from that experience was that ___.",
+      "vi": "Điều tôi rút ra từ trải nghiệm đó là ___.",
+      "note": "Dùng để chuyển từ kể thành tích sang nêu bài học lãnh đạo."
+    },
+    {
+      "en": "I would not frame it as ___; I would frame it as ___.",
+      "vi": "Tôi không nhìn nhận đó là ___; tôi nhìn nhận đó là ___.",
+      "note": "Mẫu phản hồi tinh tế để điều chỉnh một cách diễn giải mà không phản bác quá trực diện."
+    },
+    {
+      "en": "The key trade-off was between ___ and ___.",
+      "vi": "Sự đánh đổi then chốt là giữa ___ và ___.",
+      "note": "Phù hợp khi giải thích quyết định cấp quản lý."
+    },
+    {
+      "en": "How would you approach your first ninety days?",
+      "vi": "Anh chị sẽ tiếp cận chín mươi ngày đầu tiên như thế nào?",
+      "note": "Câu hỏi phổ biến ở vòng phỏng vấn cấp cao; dùng would để hỏi định hướng một cách chuyên nghiệp."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "trọng âm và nối âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm tiết chính, đặc biệt là MAN trong mandate và LIGN trong alignment; các âm còn lại đọc nhẹ hơn.",
+      "words": [
+        "strategic mandate",
+        "stakeholder alignment",
+        "succession planning"
+      ]
+    },
+    {
+      "focus": "âm /θ/ trong three và th trong thorough",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi; tránh đọc thành /t/ hoặc /s/.",
+      "words": [
+        "three",
+        "thorough",
+        "growth"
+      ]
+    },
+    {
+      "focus": "phân biệt /dʒ/ và /z/",
+      "tip": "Trong diligence, âm cuối của âm tiết đầu là /dʒ/, không đọc thành âm /z/.",
+      "words": [
+        "due diligence",
+        "strategic",
+        "regional"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I have ten years experience in director position.",
+      "right": "I have ten years of experience in director-level roles.",
+      "vi": "Cần dùng ten years of experience; director-level roles tự nhiên hơn director position."
+    },
+    {
+      "wrong": "I am responsible to the profit and loss.",
+      "right": "I was responsible for the profit and loss of the business.",
+      "vi": "Responsible đi với for, không đi với to trong nghĩa chịu trách nhiệm."
+    },
+    {
+      "wrong": "I managed a team very big.",
+      "right": "I managed a very large team.",
+      "vi": "Tính từ đứng trước danh từ; very big nghe kém tự nhiên trong phỏng vấn cấp cao."
+    },
+    {
+      "wrong": "I want this role because it is a good chance for me.",
+      "right": "I am interested in this role because it is an opportunity to create meaningful impact.",
+      "vi": "Want và good chance quá đơn giản; cách sửa thể hiện động lực chuyên nghiệp hơn."
+    },
+    {
+      "wrong": "My leadership is very strong.",
+      "right": "My leadership style is direct, collaborative, and accountable.",
+      "vi": "Nên mô tả phong cách lãnh đạo cụ thể thay vì tự đánh giá chung chung."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi ứng viên kể về một kinh nghiệm cụ thể",
+      "formal": "Could you walk me through a situation in which you had to make a difficult strategic decision?",
+      "casual": "Can you tell me about a tough call you had to make?",
+      "vi": "Câu formal phù hợp trong phỏng vấn chính thức hoặc với lãnh đạo cấp cao; câu casual hợp với buổi trao đổi thân mật hơn trong nội bộ."
+    },
+    {
+      "situation": "Hỏi lý do ứng tuyển",
+      "formal": "What attracted you to this opportunity at this stage of your career?",
+      "casual": "What made you interested in this job?",
+      "vi": "Câu formal tinh tế hơn và phù hợp với ứng viên cấp cao; câu casual dùng được khi quan hệ ít nghi thức hơn."
+    },
+    {
+      "situation": "Thể hiện không đồng tình với cách diễn giải",
+      "formal": "I would see that somewhat differently, based on the evidence available.",
+      "casual": "I see it a bit differently, to be honest.",
+      "vi": "Câu formal giảm độ đối đầu trong phòng họp hoặc phỏng vấn; câu casual chỉ nên dùng với đồng nghiệp thân hoặc không khí thoải mái."
+    },
+    {
+      "situation": "Kết thúc cuộc phỏng vấn",
+      "formal": "Thank you for your time. We will follow up once we have completed the process.",
+      "casual": "Thanks for coming in. We will get back to you soon.",
+      "vi": "Câu formal phù hợp khi chưa có kết quả chính thức; câu casual thân thiện hơn nhưng vẫn nên dùng đúng bối cảnh công ty."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn cấp cao ở môi trường nói tiếng Anh, ứng viên thường nói thẳng về thành tích nhưng phải gắn với đội ngũ và dữ liệu. Quá khiêm tốn hoặc chỉ nói chung chung có thể bị hiểu là thiếu ảnh hưởng thực tế.",
+    "Người phỏng vấn có thể ngắt lời để đi sâu vào một điểm. Đây thường là cách kiểm tra độ rõ ràng và tư duy, không nhất thiết là dấu hiệu thiếu lịch sự.",
+    "Khi chưa thể hứa kết quả, nhà tuyển dụng thường nói We will be in touch hoặc We will follow up. Đây là lời kết trung tính, không nên tự suy ra là đã đậu hay bị loại."
+  ],
+  "listening": {
+    "title": "Tin nhắn sau vòng phỏng vấn",
+    "passage": "Hello, this is Maya from Northbridge Partners. Thank you for speaking with our panel yesterday. The team appreciated the clarity of your turnaround example and your approach to stakeholder alignment. For the next conversation, please be ready to discuss how you would assess a new market before committing investment. We are especially interested in how you balance evidence, customer insight, and speed of execution.",
+    "vi": "Xin chào, tôi là Maya từ Northbridge Partners. Cảm ơn bạn đã trao đổi với hội đồng của chúng tôi hôm qua. Đội ngũ đánh giá cao sự rõ ràng trong ví dụ về việc xoay chuyển tình hình kinh doanh của bạn và cách bạn tạo sự thống nhất giữa các bên liên quan. Trong buổi trao đổi tiếp theo, hãy sẵn sàng thảo luận về cách bạn đánh giá một thị trường mới trước khi cam kết đầu tư. Chúng tôi đặc biệt quan tâm đến cách bạn cân bằng bằng chứng, hiểu biết về khách hàng và tốc độ thực thi.",
+    "questions": [
+      {
+        "q": "What did the panel appreciate about the candidate?",
+        "choices": [
+          "The candidate's salary expectations",
+          "The clarity of the turnaround example",
+          "The candidate's technical certificate"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì bài nghe nói rõ team appreciated the clarity of your turnaround example."
+      },
+      {
+        "q": "What should the candidate prepare for next?",
+        "choices": [
+          "A plan to assess a new market",
+          "A report on current employees",
+          "A proposal for changing the board"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì tin nhắn yêu cầu thảo luận cách đánh giá thị trường mới trước khi đầu tư."
+      },
+      {
+        "q": "Which balance is the company especially interested in?",
+        "choices": [
+          "Price, quality, and design",
+          "Evidence, customer insight, and speed of execution",
+          "Recruitment, training, and retention"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1; cụm này được nêu trực tiếp ở câu cuối của bài nghe."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Ứng viên cấp giám đốc nhiều kinh nghiệm",
+      "b": "Người phỏng vấn"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning. Thank you for taking the time to meet with me today.",
+        "vi": "Chào buổi sáng. Cảm ơn anh chị đã dành thời gian gặp tôi hôm nay.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good morning. To start, could you give me a brief overview of your leadership background?",
+        "vi": "Chào buổi sáng. Để bắt đầu, anh chị có thể tóm tắt ngắn gọn về kinh nghiệm lãnh đạo của mình không?",
+        "hint": "Dùng To start để mở đầu nhẹ nhàng, chuyên nghiệp."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. I have spent the past twelve years leading commercial and operational teams across Southeast Asia.",
+        "vi": "Chắc chắn rồi. Tôi đã dành mười hai năm qua để lãnh đạo các đội ngũ kinh doanh và vận hành trên khắp Đông Nam Á.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What attracted you to this director role?",
+        "vi": "Điều gì thu hút anh chị đến với vị trí giám đốc này?",
+        "hint": "Attracted you to là cách hỏi tự nhiên về động lực ứng tuyển."
+      },
+      {
+        "speaker": "a",
+        "en": "The scope is compelling. It combines growth, operational discipline, and the chance to build a stronger leadership bench.",
+        "vi": "Phạm vi công việc rất hấp dẫn. Nó kết hợp tăng trưởng, kỷ luật vận hành và cơ hội xây dựng đội ngũ lãnh đạo kế cận vững mạnh hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could you walk me through a turnaround you led?",
+        "vi": "Anh chị có thể trình bày một tình huống xoay chuyển khó khăn mà anh chị từng lãnh đạo không?",
+        "hint": "Walk me through yêu cầu kể theo trình tự, có bối cảnh và kết quả."
+      },
+      {
+        "speaker": "a",
+        "en": "At my previous company, a regional unit had missed its targets for three consecutive quarters. I reset the strategic mandate, simplified the sales model, and put a tighter operating cadence in place.",
+        "vi": "Tại công ty trước, một đơn vị khu vực đã không đạt chỉ tiêu trong ba quý liên tiếp. Tôi đã xác lập lại định hướng chiến lược, đơn giản hóa mô hình bán hàng và thiết lập nhịp vận hành chặt chẽ hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What was the most difficult decision you had to make?",
+        "vi": "Quyết định khó khăn nhất mà anh chị phải đưa ra là gì?",
+        "hint": "Dùng had to make để hỏi về một quyết định bắt buộc trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "We had to reduce the number of product lines, even though several teams were deeply attached to them. The key trade-off was between protecting short-term revenue and creating a business that could scale sustainably.",
+        "vi": "Chúng tôi phải cắt giảm số dòng sản phẩm, dù một số đội ngũ rất gắn bó với chúng. Sự đánh đổi then chốt là giữa bảo vệ doanh thu ngắn hạn và xây dựng một doanh nghiệp có thể mở rộng bền vững.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How did you bring people with you when there was resistance?",
+        "vi": "Anh chị đã làm thế nào để thuyết phục mọi người cùng thực hiện khi có sự phản kháng?",
+        "hint": "Bring people with you là cụm tự nhiên, nghĩa là tạo sự đồng thuận và cam kết."
+      },
+      {
+        "speaker": "a",
+        "en": "I was transparent about the facts and careful not to overpromise. I involved key leaders early, listened to the concerns behind the objections, and gave people a clear role in shaping the solution.",
+        "vi": "Tôi minh bạch về các dữ kiện và cẩn trọng không hứa hẹn quá mức. Tôi mời các lãnh đạo chủ chốt tham gia sớm, lắng nghe những lo ngại đằng sau sự phản đối và trao cho mọi người vai trò rõ ràng trong việc xây dựng giải pháp.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "How would your former colleagues describe your leadership style?",
+        "vi": "Các đồng nghiệp cũ sẽ mô tả phong cách lãnh đạo của anh chị như thế nào?",
+        "hint": "Former colleagues lịch sự và chuyên nghiệp hơn old colleagues."
+      },
+      {
+        "speaker": "a",
+        "en": "I believe they would say I am direct but fair. I set a high bar, make decisions when needed, and create enough psychological safety for people to challenge me respectfully.",
+        "vi": "Tôi tin rằng họ sẽ nói tôi thẳng thắn nhưng công bằng. Tôi đặt tiêu chuẩn cao, ra quyết định khi cần và tạo đủ sự an toàn tâm lý để mọi người có thể phản biện tôi một cách tôn trọng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "This role involves reporting to the board. How do you make a complex recommendation board-ready?",
+        "vi": "Vị trí này cần báo cáo cho hội đồng quản trị. Anh chị làm thế nào để một đề xuất phức tạp đủ sẵn sàng trình bày trước hội đồng?",
+        "hint": "Board-ready nghĩa là rõ ràng, súc tích và có căn cứ để trình hội đồng."
+      },
+      {
+        "speaker": "a",
+        "en": "I begin with the decision required, not the background. Then I present the evidence, the risks, the alternatives we considered, and my recommendation. My aim is to make the discussion focused without hiding the uncertainty.",
+        "vi": "Tôi bắt đầu từ quyết định cần được đưa ra, không phải bối cảnh. Sau đó tôi trình bày bằng chứng, rủi ro, các phương án đã cân nhắc và khuyến nghị của mình. Mục tiêu của tôi là giữ cuộc thảo luận tập trung mà không che giấu những điểm chưa chắc chắn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If you joined us, how would you approach your first ninety days?",
+        "vi": "Nếu gia nhập công ty chúng tôi, anh chị sẽ tiếp cận chín mươi ngày đầu tiên như thế nào?",
+        "hint": "Dùng giả định If you joined us để câu hỏi mềm hơn và trang trọng hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "I would spend the first month listening: meeting customers, frontline teams, and key partners. In the second month, I would test the assumptions behind the current plan. By the end of ninety days, I would align stakeholders around a small number of priorities, with clear owners and measures of success.",
+        "vi": "Tôi sẽ dành tháng đầu tiên để lắng nghe: gặp khách hàng, đội ngũ tuyến đầu và các đối tác chủ chốt. Trong tháng thứ hai, tôi sẽ kiểm chứng các giả định đằng sau kế hoạch hiện tại. Đến cuối chín mươi ngày, tôi sẽ tạo sự thống nhất giữa các bên liên quan quanh một số ít ưu tiên, với người phụ trách và thước đo thành công rõ ràng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. That gives me a clear sense of your approach. We will be in touch after the final interviews.",
+        "vi": "Cảm ơn anh chị. Điều đó giúp tôi hình dung rõ về cách tiếp cận của anh chị. Chúng tôi sẽ liên hệ sau khi hoàn tất các vòng phỏng vấn cuối cùng.",
+        "hint": "Kết thúc lịch sự bằng We will be in touch; không hứa hẹn kết quả nếu chưa có quyết định."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an experienced director-level candidate interviewing for a regional leadership role at an international company in Ho Chi Minh City. You are composed, candid, and commercially minded. Answer with concrete examples, thoughtful trade-offs, and a warm professional tone.",
+    "opener": "Good morning. Thank you for taking the time to meet with me today.",
+    "goal": "Người học thực hiện một cuộc phỏng vấn chuyên nghiệp, khai thác kinh nghiệm lãnh đạo, cách ra quyết định và kế hoạch chín mươi ngày đầu của ứng viên."
+  },
+  "drills": [
+    {
+      "vi": "Anh chị có thể trình bày cách anh chị đã xoay chuyển hoạt động kinh doanh đó không?",
+      "en": "Could you walk me through how you turned that business around?",
+      "alts": [
+        "Could you talk me through that turnaround?"
+      ]
+    },
+    {
+      "vi": "Tôi có trách nhiệm đầy đủ về doanh thu, chi phí và lợi nhuận của khu vực.",
+      "en": "I had full profit and loss responsibility for the region.",
+      "alts": [
+        "I was fully accountable for the region's financial performance."
+      ]
+    },
+    {
+      "vi": "Sự đánh đổi then chốt là giữa tốc độ và chất lượng.",
+      "en": "The key trade-off was between speed and quality.",
+      "alts": [
+        "We had to balance speed against quality."
+      ]
+    },
+    {
+      "vi": "Điều tôi rút ra từ trải nghiệm đó là phải tạo sự thống nhất sớm giữa các bên liên quan.",
+      "en": "What I learned from that experience was that stakeholder alignment needs to happen early.",
+      "alts": [
+        "That experience taught me to align stakeholders early."
+      ]
+    },
+    {
+      "vi": "Tôi không xem đó là sự phản kháng; tôi xem đó là phản hồi hữu ích.",
+      "en": "I would not frame it as resistance; I would frame it as useful feedback.",
+      "alts": [
+        "I saw it less as resistance and more as constructive feedback."
+      ]
+    },
+    {
+      "vi": "Anh chị sẽ tiếp cận chín mươi ngày đầu tiên như thế nào?",
+      "en": "How would you approach your first ninety days?",
+      "alts": [
+        "What would your priorities be in your first ninety days?"
+      ]
+    },
+    {
+      "vi": "Tôi muốn làm cho khuyến nghị ngắn gọn và đủ rõ để trình hội đồng quản trị.",
+      "en": "I want to make the recommendation concise and board-ready.",
+      "alts": [
+        "My goal is to present a clear, board-ready recommendation."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời cho ba câu hỏi: thành tích lớn nhất, cách xử lý phản kháng và kế hoạch chín mươi ngày đầu.",
+    "Viết một câu trả lời dài từ sáu đến tám câu về một turnaround hoặc dự án khó bạn từng thực hiện.",
+    "Chuyển ba câu trong phần variations từ trang trọng sang thân mật và đọc to cả hai phiên bản."
+  ]
+}

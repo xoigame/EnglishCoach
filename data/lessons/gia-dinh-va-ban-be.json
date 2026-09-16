@@ -3,127 +3,130 @@
   "title": "Nói về gia đình và bạn bè",
   "topic": "Gia đình và bạn bè",
   "level": "A1",
-  "summary": "Người học trò chuyện với một bạn cùng lớp tiếng Anh sau giờ học. Hai bạn giới thiệu về anh chị em và hoạt động với bạn bè.",
+  "summary": "Bạn làm quen với một bạn cùng lớp tiếng Anh và trò chuyện ngắn về gia đình, anh chị em và bạn bè.",
   "goals": [
-    "Hỏi và trả lời đơn giản về gia đình",
-    "Nói về anh chị em và bạn bè",
-    "Dùng thì hiện tại đơn trong hội thoại ngắn"
+    "Giới thiệu ngắn về gia đình của mình.",
+    "Hỏi và trả lời về anh chị em.",
+    "Nói một câu đơn giản về bạn bè và việc học cùng nhau."
   ],
   "vocab": [
     {
       "en": "family",
       "ipa": "/ˈfæməli/",
       "vi": "gia đình",
-      "example": "My family is very small."
+      "example": "I live with my family."
     },
     {
-      "en": "parents",
-      "ipa": "/ˈperənts/",
-      "vi": "bố mẹ",
-      "example": "My parents live in Hue."
+      "en": "parent",
+      "ipa": "/ˈperənt/",
+      "vi": "bố hoặc mẹ",
+      "example": "My parents are very kind."
+    },
+    {
+      "en": "mother",
+      "ipa": "/ˈmʌðər/",
+      "vi": "mẹ",
+      "example": "My mother cooks dinner."
+    },
+    {
+      "en": "father",
+      "ipa": "/ˈfɑːðər/",
+      "vi": "bố",
+      "example": "My father works every day."
     },
     {
       "en": "brother",
       "ipa": "/ˈbrʌðər/",
       "vi": "anh hoặc em trai",
-      "example": "My brother likes football."
+      "example": "My brother is younger."
     },
     {
       "en": "sister",
       "ipa": "/ˈsɪstər/",
       "vi": "chị hoặc em gái",
-      "example": "I have one sister."
+      "example": "My sister likes music."
     },
     {
       "en": "friend",
       "ipa": "/frend/",
       "vi": "bạn",
-      "example": "My friend is very funny."
+      "example": "My friend is very kind."
     },
     {
-      "en": "student",
-      "ipa": "/ˈstuːdənt/",
-      "vi": "học sinh, sinh viên",
-      "example": "She is a student."
+      "en": "classmate",
+      "ipa": "/ˈklæsmeɪt/",
+      "vi": "bạn cùng lớp",
+      "example": "Ben is my classmate."
     },
     {
       "en": "live",
       "ipa": "/lɪv/",
-      "vi": "sống, ở",
-      "example": "They live near our school."
+      "vi": "sống",
+      "example": "We live near the school."
     },
     {
-      "en": "nearby",
-      "ipa": "/ˌnɪrˈbaɪ/",
-      "vi": "ở gần",
-      "example": "My friend lives nearby."
-    },
-    {
-      "en": "together",
-      "ipa": "/təˈɡeðər/",
-      "vi": "cùng nhau",
-      "example": "We study together after class."
-    },
-    {
-      "en": "play football",
-      "ipa": "/pleɪ ˈfʊtbɔːl/",
-      "vi": "chơi bóng đá",
-      "example": "We play football on Sunday."
+      "en": "work",
+      "ipa": "/wɜːrk/",
+      "vi": "làm việc",
+      "example": "My father works at a bank."
     }
   ],
   "patterns": [
     {
-      "en": "I have one ___.",
-      "vi": "Tôi có một ___.",
-      "note": "Dùng để nói về số anh, chị, em."
+      "en": "This is my ___.",
+      "vi": "Đây là __ của tôi.",
+      "note": "Dùng để giới thiệu một người."
+    },
+    {
+      "en": "I have ___.",
+      "vi": "Tôi có ___.",
+      "note": "Dùng để nói về thành viên trong gia đình."
     },
     {
       "en": "Do you have any ___?",
       "vi": "Bạn có ___ nào không?",
-      "note": "Dùng any trong câu hỏi."
+      "note": "Dùng any khi hỏi về số lượng không xác định."
     },
     {
-      "en": "What does your ___ do?",
-      "vi": "___ của bạn làm gì?",
-      "note": "Hỏi nghề nghiệp hoặc vai trò của một người."
+      "en": "My ___ is older than me.",
+      "vi": "___ của tôi lớn tuổi hơn tôi.",
+      "note": "Dùng older và younger để so sánh tuổi."
     },
     {
-      "en": "My friend lives nearby.",
-      "vi": "Bạn tôi sống ở gần đây.",
-      "note": "Với chủ ngữ số ít, live thêm s thành lives."
+      "en": "My best friend is ___.",
+      "vi": "Bạn thân nhất của tôi là ___.",
+      "note": "Dùng để giới thiệu bạn thân."
     },
     {
-      "en": "We ___ after class.",
-      "vi": "Chúng tôi ___ sau giờ học.",
-      "note": "Dùng để nói hoạt động thường làm cùng nhau."
+      "en": "We study together after class.",
+      "vi": "Chúng tôi học cùng nhau sau giờ học.",
+      "note": "Dùng together để nói làm việc gì cùng nhau."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /ð/ trong brother",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung cổ họng. Không đọc thành âm /d/.",
+      "focus": "âm /ð/ trong mother, father, brother",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung giọng. Không đọc thành âm d hoặc th.",
       "words": [
-        "brother",
         "mother",
-        "father"
+        "father",
+        "brother"
       ]
     },
     {
-      "focus": "cụm phụ âm /fr/ trong friend",
-      "tip": "Đọc liền /f/ và /r/, không chèn nguyên âm ở giữa như \"fờ-ri-en\".",
+      "focus": "âm cuối /d/ trong friend",
+      "tip": "Khép lưỡi ở lợi trên để kết thúc bằng âm d nhẹ. Không bỏ mất âm cuối.",
       "words": [
         "friend",
-        "from",
-        "free"
+        "older"
       ]
     },
     {
-      "focus": "âm cuối /z/",
-      "tip": "Phát âm rõ âm rung /z/ ở cuối từ, không bỏ âm cuối.",
+      "focus": "âm /æ/ trong family và classmate",
+      "tip": "Mở miệng rộng, môi kéo ngang. Âm này ngắn hơn âm e trong tiếng Việt.",
       "words": [
-        "lives",
-        "friends",
-        "plays"
+        "family",
+        "classmate"
       ]
     }
   ],
@@ -131,156 +134,219 @@
     {
       "wrong": "My family have four people.",
       "right": "There are four people in my family.",
-      "vi": "Không dùng have để nói số người trong gia đình; dùng There are."
+      "vi": "Không dùng family have theo cách nói này; mẫu There are ... in my family tự nhiên hơn."
     },
     {
-      "wrong": "She is student.",
-      "right": "She is a student.",
-      "vi": "Danh từ đếm được số ít cần a hoặc an."
+      "wrong": "I have two brother.",
+      "right": "I have two brothers.",
+      "vi": "Sau số đếm lớn hơn một, danh từ phải ở dạng số nhiều."
     },
     {
-      "wrong": "He have one brother.",
-      "right": "He has one brother.",
-      "vi": "Với he, she, it, have đổi thành has."
+      "wrong": "My brother very funny.",
+      "right": "My brother is very funny.",
+      "vi": "Câu có tính từ cần động từ be."
     },
     {
-      "wrong": "My friend live near my house.",
-      "right": "My friend lives near my house.",
-      "vi": "Với chủ ngữ số ít, động từ hiện tại đơn thêm s."
+      "wrong": "I am live with my parents.",
+      "right": "I live with my parents.",
+      "vi": "Không dùng am trước động từ live ở hiện tại đơn."
+    },
+    {
+      "wrong": "She is my friend name is Hoa.",
+      "right": "Her name is Hoa. She is my friend.",
+      "vi": "Cần tách thành hai câu hoặc dùng her name để nói tên của cô ấy."
     }
   ],
+  "variations": [
+    {
+      "situation": "Giới thiệu bạn cùng lớp",
+      "formal": "Let me introduce my classmate, Mai.",
+      "casual": "This is Mai.",
+      "vi": "Câu formal phù hợp khi giới thiệu ở buổi gặp mặt hoặc lớp học trang trọng; câu casual dùng khi giới thiệu nhanh với bạn bè."
+    },
+    {
+      "situation": "Hỏi về gia đình",
+      "formal": "Could you tell me a little about your family, please?",
+      "casual": "Tell me about your family.",
+      "vi": "Câu formal lịch sự hơn khi mới quen hoặc nói với người lớn; câu casual hợp với bạn thân."
+    },
+    {
+      "situation": "Hỏi về anh chị em",
+      "formal": "Do you have any brothers or sisters?",
+      "casual": "Any brothers or sisters?",
+      "vi": "Câu formal là câu đầy đủ, phù hợp với người mới gặp; câu casual rút gọn, dùng trong cuộc trò chuyện thân mật."
+    },
+    {
+      "situation": "Kết thúc cuộc trò chuyện",
+      "formal": "It was nice talking with you.",
+      "casual": "Nice talking to you.",
+      "vi": "Câu formal lịch sự hơn với người mới quen hoặc giáo viên; câu casual dùng tự nhiên giữa bạn bè cùng lớp."
+    }
+  ],
+  "culture": [
+    "Trong giao tiếp tiếng Anh, dùng tên riêng ngay cả với bạn cùng lớp mới quen là điều bình thường.",
+    "Người bản xứ có thể hỏi chung về gia đình để bắt chuyện, nhưng thường không hỏi sâu về thu nhập, hôn nhân hoặc lý do không có con.",
+    "Từ friend không tự cho biết giới tính hay quan hệ tình cảm; thường chỉ đơn giản nghĩa là bạn."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại của Mai",
+    "passage": "Hi, I am Mai from your English class. I want to tell you about my family. I live with my parents and my little brother. My father works at a bank. My mother works at home. My brother is six years old. On Sunday, we visit my grandmother. She makes lunch for us. I like Sundays with my family.",
+    "vi": "Chào, mình là Mai ở lớp tiếng Anh của bạn. Mình muốn kể cho bạn về gia đình mình. Mình sống với bố mẹ và em trai nhỏ. Bố mình làm việc ở ngân hàng. Mẹ mình làm việc ở nhà. Em trai mình sáu tuổi. Vào Chủ nhật, chúng mình thăm bà. Bà làm bữa trưa cho chúng mình. Mình thích các ngày Chủ nhật cùng gia đình.",
+    "questions": [
+      {
+        "q": "Who lives with Mai?",
+        "choices": [
+          "Her grandmother and sister",
+          "Her parents and little brother",
+          "Her friends and teacher"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 2 vì Mai nói: I live with my parents and my little brother."
+      },
+      {
+        "q": "Where does Mai's father work?",
+        "choices": [
+          "At a bank",
+          "At a school",
+          "At home"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói: My father works at a bank."
+      },
+      {
+        "q": "What does Mai's family do on Sunday?",
+        "choices": [
+          "They study at school",
+          "They visit her grandmother",
+          "They play with friends"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 2 vì Mai nói: On Sunday, we visit my grandmother."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Bạn học cùng lớp tiếng Anh của người học",
-      "b": "Người học"
+      "a": "Ben, bạn học cùng lớp tiếng Anh",
+      "b": "Lan, người học"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Hi, I am Mai.",
-        "vi": "Chào, mình là Mai.",
+        "en": "Hi, I am Ben from class.",
+        "vi": "Chào, mình là Ben trong lớp.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Hi Mai, I am Nam.",
-        "vi": "Chào Mai, mình là Nam.",
+        "en": "Hi Ben, I am Lan.",
+        "vi": "Chào Ben, mình là Lan.",
         "hint": "Dùng I am để giới thiệu tên."
       },
       {
         "speaker": "a",
-        "en": "Do you have brothers or sisters?",
-        "vi": "Bạn có anh chị em không?",
+        "en": "Nice to meet you, Lan.",
+        "vi": "Rất vui được gặp bạn, Lan.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, I have one sister.",
-        "vi": "Có, mình có một em gái.",
-        "hint": "Dùng I have one để nói số lượng."
+        "en": "Nice to meet you too.",
+        "vi": "Mình cũng rất vui được gặp bạn.",
+        "hint": "Thêm too để nói bạn cũng có cảm giác như vậy."
       },
       {
         "speaker": "a",
-        "en": "What does your sister do?",
-        "vi": "Em gái bạn làm gì?",
+        "en": "Do you have a big family?",
+        "vi": "Bạn có gia đình đông người không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "She is a student.",
-        "vi": "Em ấy là học sinh.",
-        "hint": "Nhớ dùng a trước student."
+        "en": "No, I have one brother.",
+        "vi": "Không, mình có một em trai.",
+        "hint": "Dùng I have để nói về người thân."
       },
       {
         "speaker": "a",
-        "en": "Nice. Do you see friends often?",
-        "vi": "Hay đấy. Bạn có thường gặp bạn bè không?",
+        "en": "Is your brother older or younger?",
+        "vi": "Em trai bạn lớn hơn hay nhỏ hơn?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, my friend lives nearby.",
-        "vi": "Có, bạn mình sống ở gần đây.",
-        "hint": "Friend là số ít nên dùng lives."
+        "en": "I am older than my brother.",
+        "vi": "Mình lớn tuổi hơn em trai mình.",
+        "hint": "Dùng older than để so sánh tuổi."
       },
       {
         "speaker": "a",
-        "en": "What do you do together?",
-        "vi": "Hai bạn làm gì cùng nhau?",
+        "en": "My friend Tom studies with us.",
+        "vi": "Bạn mình là Tom học cùng chúng ta.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "We play football after class.",
-        "vi": "Chúng mình chơi bóng đá sau giờ học.",
-        "hint": "Dùng We để nói về hai người hoặc nhiều người."
-      },
-      {
-        "speaker": "a",
-        "en": "That sounds fun. See you.",
-        "vi": "Nghe vui đấy. Hẹn gặp lại.",
-        "hint": ""
-      },
-      {
-        "speaker": "b",
-        "en": "See you tomorrow, Mai.",
-        "vi": "Hẹn gặp lại ngày mai, Mai.",
-        "hint": ""
+        "en": "Great, let us study after class.",
+        "vi": "Tuyệt, chúng ta hãy học sau giờ học.",
+        "hint": "Dùng let us để đề xuất làm việc cùng nhau."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly English classmate at a small language school. You are chatting after class, asking simple questions about family and friends, and speaking slowly.",
-    "opener": "Hi, I am Mai.",
-    "goal": "Người học giới thiệu được gia đình và nói một hoạt động cùng bạn bè."
+    "persona": "You are a friendly English classmate at an evening language class. You speak slowly, ask simple questions about family and friends, and encourage the learner.",
+    "opener": "Hi, I am Ben from class.",
+    "goal": "Người học giới thiệu gia đình, nói về một người bạn và kết thúc bằng một lời đề xuất học cùng nhau."
   },
   "drills": [
     {
-      "vi": "Tôi có một em gái.",
-      "en": "I have one sister.",
+      "vi": "Đây là chị gái tôi.",
+      "en": "This is my sister.",
       "alts": [
-        "I have a sister."
+        "This is my older sister."
+      ]
+    },
+    {
+      "vi": "Tôi có một em trai.",
+      "en": "I have one younger brother.",
+      "alts": [
+        "I have a younger brother."
       ]
     },
     {
       "vi": "Bạn có anh chị em không?",
-      "en": "Do you have brothers or sisters?",
+      "en": "Do you have any brothers or sisters?",
       "alts": [
-        "Do you have any brothers or sisters?"
+        "Do you have brothers or sisters?"
       ]
     },
     {
-      "vi": "Anh trai bạn làm gì?",
-      "en": "What does your brother do?",
+      "vi": "Gia đình tôi sống gần trường.",
+      "en": "My family lives near the school.",
       "alts": []
     },
     {
-      "vi": "Anh ấy là học sinh.",
-      "en": "He is a student.",
+      "vi": "Bố tôi làm việc ở một ngân hàng.",
+      "en": "My father works at a bank.",
       "alts": []
     },
     {
-      "vi": "Bạn tôi sống ở gần đây.",
-      "en": "My friend lives nearby.",
+      "vi": "Bạn thân nhất của tôi là Hoa.",
+      "en": "My best friend is Hoa.",
       "alts": [
-        "My friend lives near my house."
+        "Hoa is my best friend."
       ]
     },
     {
       "vi": "Chúng tôi học cùng nhau sau giờ học.",
       "en": "We study together after class.",
       "alts": []
-    },
-    {
-      "vi": "Chúng tôi chơi bóng đá vào Chủ nhật.",
-      "en": "We play football on Sunday.",
-      "alts": []
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại và luyện nói không nhìn chữ.",
-    "Viết 3 câu về gia đình của bạn.",
-    "Viết 2 câu về một người bạn của bạn."
+    "Ghi âm lại hội thoại, chú ý âm cuối trong friend.",
+    "Viết năm câu giới thiệu gia đình của em.",
+    "Nói tên một người bạn và một hoạt động hai người thường làm cùng nhau."
   ]
 }

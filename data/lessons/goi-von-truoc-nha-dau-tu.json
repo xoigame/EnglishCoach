@@ -1,0 +1,397 @@
+{
+  "id": "goi-von-truoc-nha-dau-tu",
+  "title": "Gọi vốn và trả lời chất vấn của nhà đầu tư",
+  "topic": "Thuyết phục nhà đầu tư hoài nghi",
+  "level": "C1",
+  "summary": "Bạn đóng vai nhà sáng lập đang gọi vốn vòng hạt giống cho một nền tảng giúp cửa hàng độc lập dự báo thiếu hàng. Nhà đầu tư liên tục chất vấn về lợi thế cạnh tranh, khả năng giữ chân khách hàng, đơn vị kinh tế và kế hoạch sử dụng vốn.",
+  "goals": [
+    "Trình bày luận điểm đầu tư ngắn gọn, thuyết phục và có trọng tâm.",
+    "Trả lời câu hỏi khó về cạnh tranh, doanh thu, thị trường và rủi ro mà không né tránh.",
+    "Điều chỉnh giọng điệu chuyên nghiệp nhưng tự tin khi bất đồng hoặc thừa nhận điểm chưa chắc chắn."
+  ],
+  "vocab": [
+    {
+      "en": "investment case",
+      "ipa": "/ɪnˈvestmənt keɪs/",
+      "vi": "luận điểm cho thấy vì sao đáng đầu tư",
+      "example": "Our investment case rests on strong retention and a clear path to profitability."
+    },
+    {
+      "en": "crowded market",
+      "ipa": "/ˈkraʊdɪd ˈmɑːrkɪt/",
+      "vi": "thị trường có quá nhiều đối thủ",
+      "example": "It is a crowded market, but most competitors serve large chains rather than independent retailers."
+    },
+    {
+      "en": "switching cost",
+      "ipa": "/ˈswɪtʃɪŋ kɔːst/",
+      "vi": "chi phí hoặc trở ngại khi khách hàng đổi sang sản phẩm khác",
+      "example": "Once the system learns a store's buying patterns, the switching cost becomes meaningful."
+    },
+    {
+      "en": "retention rate",
+      "ipa": "/rɪˈtenʃən reɪt/",
+      "vi": "tỷ lệ giữ chân khách hàng",
+      "example": "Our retention rate improved after we simplified the onboarding process."
+    },
+    {
+      "en": "unit economics",
+      "ipa": "/ˈjuːnɪt ˌekəˈnɑːmɪks/",
+      "vi": "hiệu quả kinh tế tính trên mỗi khách hàng hoặc đơn vị bán",
+      "example": "The unit economics work because customers recover the subscription cost through lower waste."
+    },
+    {
+      "en": "customer acquisition cost",
+      "ipa": "/ˈkʌstəmər ˌækwɪˈzɪʃən kɔːst/",
+      "vi": "chi phí để có được một khách hàng mới",
+      "example": "Our customer acquisition cost has fallen as referrals have increased."
+    },
+    {
+      "en": "addressable market",
+      "ipa": "/əˈdresəbəl ˈmɑːrkɪt/",
+      "vi": "quy mô thị trường mà doanh nghiệp thực sự có thể phục vụ",
+      "example": "We defined the addressable market by focusing on retailers with multiple locations."
+    },
+    {
+      "en": "churn",
+      "ipa": "/tʃɜːrn/",
+      "vi": "việc khách hàng ngừng dùng hoặc hủy dịch vụ",
+      "example": "We track churn closely and call every customer who cancels."
+    },
+    {
+      "en": "runway",
+      "ipa": "/ˈrʌnweɪ/",
+      "vi": "thời gian doanh nghiệp còn đủ tiền để hoạt động",
+      "example": "This round would give us eighteen months of runway."
+    },
+    {
+      "en": "due diligence",
+      "ipa": "/ˌduː ˈdɪlɪdʒəns/",
+      "vi": "quá trình thẩm định kỹ trước khi đầu tư",
+      "example": "We are ready to share the data room during due diligence."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "The core of our investment case is that ___.",
+      "vi": "Cốt lõi của luận điểm đầu tư của chúng tôi là ___.",
+      "note": "Dùng để mở đầu câu trả lời một cách có cấu trúc và tự tin."
+    },
+    {
+      "en": "What differentiates us is not ___, but ___.",
+      "vi": "Điểm khác biệt của chúng tôi không phải là ___, mà là ___.",
+      "note": "Mẫu đối lập giúp làm rõ lợi thế cạnh tranh."
+    },
+    {
+      "en": "The data supports that view, although ___.",
+      "vi": "Dữ liệu ủng hộ nhận định đó, dù rằng ___.",
+      "note": "Thừa nhận giới hạn một cách đáng tin cậy thay vì khẳng định quá mức."
+    },
+    {
+      "en": "I would challenge the assumption that ___.",
+      "vi": "Tôi muốn chất vấn giả định rằng ___.",
+      "note": "Cách phản biện lịch sự, phù hợp với cuộc họp đầu tư trang trọng."
+    },
+    {
+      "en": "If we fail to hit that milestone, we will ___.",
+      "vi": "Nếu không đạt cột mốc đó, chúng tôi sẽ ___.",
+      "note": "Cho thấy bạn có phương án dự phòng và ý thức về rủi ro."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm chính, không đọc đều từng âm: ac-qui-SI-tion, e-co-NO-mics, di-li-GENCE.",
+      "words": [
+        "acquisition",
+        "economics",
+        "diligence"
+      ]
+    },
+    {
+      "focus": "Âm cuối /t/ và /d/ trong cụm từ",
+      "tip": "Phát rõ phụ âm cuối nhẹ để tránh lẫn nghĩa, đặc biệt trong rate, cost và market.",
+      "words": [
+        "retention rate",
+        "switching cost",
+        "crowded market"
+      ]
+    },
+    {
+      "focus": "Nối âm trong cụm nói nhanh",
+      "tip": "Nối phụ âm cuối với nguyên âm đầu ở cụm 'path to' và 'not only'. Giữ nhịp tự nhiên, không ngắt từng từ.",
+      "words": [
+        "path to profitability",
+        "not only a tool",
+        "risk is manageable"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We have many customers keep using our product.",
+      "right": "We have many customers who keep using our product.",
+      "vi": "Cần dùng mệnh đề quan hệ who để bổ nghĩa cho customers, hoặc nói ngắn gọn: Many customers keep using our product."
+    },
+    {
+      "wrong": "Our company has eighteen months runway.",
+      "right": "Our company has eighteen months of runway.",
+      "vi": "Cụm cố định là months of runway; không bỏ giới từ of."
+    },
+    {
+      "wrong": "The market is very potential.",
+      "right": "The market has strong potential.",
+      "vi": "Potential thường là danh từ trong ngữ cảnh này, không dùng sau very như tính từ."
+    },
+    {
+      "wrong": "We will use the money for expand the team.",
+      "right": "We will use the money to expand the team.",
+      "vi": "Sau use the money cần dùng to cộng động từ để diễn tả mục đích."
+    },
+    {
+      "wrong": "Our customer acquisition cost is cheaper than competitors.",
+      "right": "Our customer acquisition cost is lower than our competitors' cost.",
+      "vi": "Chi phí dùng lower, không dùng cheaper; cần nêu rõ đang so với chi phí của đối thủ."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nêu quan điểm phản biện về một giả định",
+      "formal": "I would challenge the assumption that referrals will scale without a dedicated channel strategy.",
+      "casual": "I am not convinced referrals will scale by themselves.",
+      "vi": "Câu formal phù hợp trong buổi gọi vốn hoặc họp với cấp trên; câu casual hợp với đồng nghiệp thân hoặc cuộc trao đổi nội bộ."
+    },
+    {
+      "situation": "Thừa nhận một điểm hợp lý của người đối diện",
+      "formal": "That is a fair concern, and we have built a contingency plan around it.",
+      "casual": "That is a fair point. We have a backup plan.",
+      "vi": "Câu formal trang trọng và đầy đủ hơn khi trả lời nhà đầu tư; câu casual ngắn gọn hơn trong cuộc họp đội nhóm."
+    },
+    {
+      "situation": "Yêu cầu thêm bằng chứng trước khi tiếp tục",
+      "formal": "Please send the underlying data before we proceed to due diligence.",
+      "casual": "Send me the data first, then we can take it from there.",
+      "vi": "Câu formal dùng với đối tác hoặc nhà sáng lập chưa thân; câu casual dùng khi đã có quan hệ làm việc gần gũi."
+    },
+    {
+      "situation": "Nói về rủi ro thực thi",
+      "formal": "The execution risk remains material, despite the encouraging early results.",
+      "casual": "The early signs are good, but execution is still the hard part.",
+      "vi": "Câu formal phù hợp với nhận xét trong hội đồng đầu tư; câu casual phù hợp khi thảo luận cởi mở trong nhóm."
+    }
+  ],
+  "culture": [
+    "Trong các buổi gọi vốn kiểu Mỹ hoặc Anh, nhà đầu tư thường hỏi rất trực diện về lỗ hổng của kế hoạch. Đây thường là cách kiểm tra tư duy, không nhất thiết là dấu hiệu họ không thích dự án.",
+    "Một câu trả lời đáng tin thường thừa nhận điều chưa biết, rồi nêu dữ liệu hiện có và bước kiểm chứng tiếp theo. Tự tin quá mức mà không có bằng chứng dễ làm giảm niềm tin.",
+    "Khi nhà đầu tư nói sẽ xem xét hoặc sẽ quyết định sau khi nhận tài liệu, điều đó chưa phải cam kết đầu tư. Người sáng lập nên xác nhận rõ tài liệu nào sẽ gửi và thời điểm gửi."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau buổi thuyết trình gọi vốn",
+    "passage": "Hello, this is Maya from Northbridge Ventures. Thank you for the presentation today. The team liked your clear understanding of retailer pain points, but we need more evidence that customers will renew after the first year. Please send your monthly retention data and a short note on how you will reduce sales costs. Once we review those materials, we can decide whether to schedule a partner meeting next week.",
+    "vi": "Xin chào, tôi là Maya từ Northbridge Ventures. Cảm ơn bạn về phần thuyết trình hôm nay. Nhóm chúng tôi thích việc bạn hiểu rõ những khó khăn của các nhà bán lẻ, nhưng chúng tôi cần thêm bằng chứng rằng khách hàng sẽ gia hạn sau năm đầu tiên. Hãy gửi dữ liệu giữ chân khách hàng theo tháng và một ghi chú ngắn về cách bạn sẽ giảm chi phí bán hàng. Sau khi xem các tài liệu đó, chúng tôi có thể quyết định liệu có lên lịch một cuộc họp với các đối tác vào tuần tới hay không.",
+    "questions": [
+      {
+        "q": "What did the investment team like about the presentation?",
+        "choices": [
+          "The founder's understanding of retailer problems",
+          "The company's low sales costs",
+          "The plan for a partner meeting"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu vì bài nghe nói nhóm thích việc bạn hiểu rõ khó khăn của các nhà bán lẻ."
+      },
+      {
+        "q": "What additional evidence does Maya request?",
+        "choices": [
+          "A list of new employees",
+          "Monthly retention data",
+          "A new product demonstration"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì Maya yêu cầu gửi dữ liệu giữ chân khách hàng theo tháng."
+      },
+      {
+        "q": "What may happen after the materials are reviewed?",
+        "choices": [
+          "The company will receive funding immediately",
+          "The team may schedule a partner meeting",
+          "The sales team will be replaced"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì bài nghe nói họ có thể quyết định lên lịch họp với các đối tác vào tuần tới."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhà đầu tư hoài nghi",
+      "b": "Nhà sáng lập đang gọi vốn"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thank you for the overview. Give me the one-sentence case for investing.",
+        "vi": "Cảm ơn phần tổng quan. Hãy cho tôi lý do đầu tư trong một câu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We help independent retailers prevent stock shortages before they lose a sale.",
+        "vi": "Chúng tôi giúp các nhà bán lẻ độc lập ngăn tình trạng thiếu hàng trước khi họ mất một đơn bán.",
+        "hint": "Nói ngắn, tập trung vào vấn đề khách hàng và giá trị tạo ra."
+      },
+      {
+        "speaker": "a",
+        "en": "That sounds useful, but it is a crowded market. Why would a retailer choose you?",
+        "vi": "Nghe có ích, nhưng đây là thị trường đông đối thủ. Vì sao một nhà bán lẻ lại chọn bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What differentiates us is not another dashboard, but recommendations that fit each store's actual buying patterns.",
+        "vi": "Điểm khác biệt của chúng tôi không phải là thêm một bảng điều khiển nữa, mà là các khuyến nghị phù hợp với mô hình mua hàng thực tế của từng cửa hàng.",
+        "hint": "Dùng mẫu What differentiates us is not..., but... để nêu điểm khác biệt."
+      },
+      {
+        "speaker": "a",
+        "en": "Recommendations are easy to promise. What evidence says customers will stay?",
+        "vi": "Khuyến nghị thì dễ hứa. Bằng chứng nào cho thấy khách hàng sẽ ở lại?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "In our pilot, store managers used the reorder alerts every week, and none of the twelve paying stores has cancelled so far.",
+        "vi": "Trong giai đoạn thử nghiệm, quản lý cửa hàng dùng cảnh báo đặt lại hàng mỗi tuần, và chưa có cửa hàng trả phí nào trong số mười hai cửa hàng hủy dịch vụ.",
+        "hint": "Dẫn chứng cụ thể rồi mới kết luận về khả năng giữ chân khách hàng."
+      },
+      {
+        "speaker": "a",
+        "en": "Twelve stores is a very small sample. How do you know the pilot is not flattering the product?",
+        "vi": "Mười hai cửa hàng là mẫu rất nhỏ. Làm sao bạn biết chương trình thử nghiệm không đang khiến sản phẩm trông tốt hơn thực tế?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It may be. The data supports early demand, although it is not enough to claim product-market fit. That is why our next milestone is fifty stores across three regions.",
+        "vi": "Có thể là vậy. Dữ liệu ủng hộ tín hiệu nhu cầu ban đầu, dù chưa đủ để khẳng định đã tìm được sự phù hợp sản phẩm-thị trường. Vì thế, cột mốc tiếp theo của chúng tôi là năm mươi cửa hàng ở ba khu vực.",
+        "hint": "Thừa nhận giới hạn trước, sau đó nêu cách bạn sẽ kiểm chứng tiếp."
+      },
+      {
+        "speaker": "a",
+        "en": "Let us talk about the economics. What does a customer cost you to acquire, and when do you earn that back?",
+        "vi": "Hãy nói về hiệu quả kinh tế. Bạn tốn bao nhiêu để có một khách hàng, và khi nào thu hồi được khoản đó?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Our customer acquisition cost is currently about two months of subscription revenue. We expect payback to improve as referrals replace more paid outreach.",
+        "vi": "Chi phí có một khách hàng hiện tương đương khoảng hai tháng doanh thu thuê bao. Chúng tôi kỳ vọng thời gian hoàn vốn sẽ cải thiện khi giới thiệu từ khách hàng thay thế nhiều hơn cho hoạt động tiếp cận trả phí.",
+        "hint": "Dùng customer acquisition cost và payback để trả lời trực tiếp về đơn vị kinh tế."
+      },
+      {
+        "speaker": "a",
+        "en": "You are assuming referrals will scale. I would challenge that assumption, especially outside your home city.",
+        "vi": "Bạn đang giả định giới thiệu truyền miệng sẽ mở rộng được. Tôi muốn chất vấn giả định đó, nhất là khi ra ngoài thành phố ban đầu của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is fair. We are not building the plan around referrals alone. We have signed distribution partnerships with two accounting firms that already advise our target retailers.",
+        "vi": "Nhận xét đó hợp lý. Chúng tôi không xây kế hoạch chỉ dựa vào giới thiệu truyền miệng. Chúng tôi đã ký hợp tác phân phối với hai công ty kế toán vốn đang tư vấn cho các nhà bán lẻ mục tiêu.",
+        "hint": "Cụm That is fair giúp đồng ý một phần mà vẫn giữ thế chủ động."
+      },
+      {
+        "speaker": "a",
+        "en": "Partnerships can look impressive on a slide. What happens if those firms do not send you qualified leads?",
+        "vi": "Hợp tác có thể trông ấn tượng trên slide. Điều gì xảy ra nếu các công ty đó không gửi cho bạn khách hàng tiềm năng chất lượng?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "If that channel underperforms for two consecutive months, we will shift budget back to direct sales and pause new hiring. The downside is contained because our platform costs are low.",
+        "vi": "Nếu kênh đó hoạt động kém trong hai tháng liên tiếp, chúng tôi sẽ chuyển ngân sách về lại bán hàng trực tiếp và tạm dừng tuyển mới. Rủi ro giảm giá trị được kiểm soát vì chi phí nền tảng của chúng tôi thấp.",
+        "hint": "Dùng câu điều kiện If... we will... để cho thấy phương án ứng phó rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "How much are you raising, and what will this round materially change by this time next year?",
+        "vi": "Bạn đang gọi bao nhiêu vốn, và vòng này sẽ tạo ra thay đổi thực chất nào vào cùng thời điểm năm sau?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We are raising one and a half million dollars for eighteen months of runway. By next year, we aim to reach fifty paying stores, prove repeatable acquisition, and be ready for a larger round on stronger terms.",
+        "vi": "Chúng tôi đang gọi một triệu rưỡi đô la để có mười tám tháng hoạt động. Đến năm sau, chúng tôi đặt mục tiêu đạt năm mươi cửa hàng trả phí, chứng minh việc thu hút khách hàng có thể lặp lại, và sẵn sàng cho vòng gọi vốn lớn hơn với điều khoản tốt hơn.",
+        "hint": "Trả lời theo cấu trúc số vốn, thời gian vận hành, rồi đến các cột mốc cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "I still see execution risk, but your answers are appropriately candid. Send the cohort data and partnership terms, and I will decide whether to move to due diligence.",
+        "vi": "Tôi vẫn thấy rủi ro thực thi, nhưng câu trả lời của bạn đủ thẳng thắn. Hãy gửi dữ liệu theo nhóm khách hàng và điều khoản hợp tác, rồi tôi sẽ quyết định có chuyển sang thẩm định hay không.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Absolutely. We will share the data room this afternoon, including the assumptions behind our forecast. I appreciate the direct questions.",
+        "vi": "Chắc chắn rồi. Chúng tôi sẽ chia sẻ kho dữ liệu chiều nay, bao gồm cả các giả định đằng sau dự báo. Tôi đánh giá cao những câu hỏi thẳng thắn của ông.",
+        "hint": "Kết thúc chuyên nghiệp: xác nhận hành động tiếp theo và cảm ơn vì phản biện."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a skeptical early-stage investor in a formal pitch meeting. You have heard many ambitious claims and want precise, evidence-based answers. Challenge the founder firmly but fairly, ask follow-up questions, and acknowledge a credible answer when you hear one.",
+    "opener": "Thank you for coming in. Before we discuss the deck, tell me why this business deserves my attention.",
+    "goal": "Người học thuyết phục nhà đầu tư chuyển sang giai đoạn thẩm định bằng cách trả lời rõ ràng các câu hỏi khó."
+  },
+  "drills": [
+    {
+      "vi": "Cốt lõi của luận điểm đầu tư của chúng tôi là khả năng giữ chân khách hàng mạnh.",
+      "en": "The core of our investment case is strong customer retention.",
+      "alts": [
+        "Our investment case rests on strong customer retention."
+      ]
+    },
+    {
+      "vi": "Điểm khác biệt của chúng tôi không phải là giá thấp hơn, mà là triển khai nhanh hơn.",
+      "en": "What differentiates us is not a lower price, but faster implementation.",
+      "alts": []
+    },
+    {
+      "vi": "Dữ liệu ủng hộ nhận định đó, dù mẫu hiện vẫn còn nhỏ.",
+      "en": "The data supports that view, although the sample is still small.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi muốn chất vấn giả định rằng giới thiệu truyền miệng sẽ tự mở rộng.",
+      "en": "I would challenge the assumption that referrals will scale on their own.",
+      "alts": [
+        "I would question the assumption that referrals will scale on their own."
+      ]
+    },
+    {
+      "vi": "Chi phí để có một khách hàng mới của chúng tôi thấp hơn chi phí của đối thủ.",
+      "en": "Our customer acquisition cost is lower than our competitors' cost.",
+      "alts": []
+    },
+    {
+      "vi": "Nếu không đạt cột mốc đó, chúng tôi sẽ tạm dừng tuyển dụng.",
+      "en": "If we fail to hit that milestone, we will pause hiring.",
+      "alts": [
+        "If we miss that milestone, we will pause hiring."
+      ]
+    },
+    {
+      "vi": "Vòng vốn này sẽ cho chúng tôi mười tám tháng để hoạt động.",
+      "en": "This round will give us eighteen months of runway.",
+      "alts": [
+        "This funding round gives us eighteen months of runway."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần trả lời cho ba câu hỏi khó nhất trong hội thoại và tự kiểm tra xem bạn đã nêu bằng chứng cụ thể chưa.",
+    "Viết một bài gọi vốn dài khoảng một phút, có dùng ít nhất năm từ vựng trong bài.",
+    "Luyện nói hai cách trả lời: một cách tự tin khi có dữ liệu và một cách thận trọng khi dữ liệu còn hạn chế."
+  ]
+}

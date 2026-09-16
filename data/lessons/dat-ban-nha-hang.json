@@ -1,0 +1,355 @@
+{
+  "id": "dat-ban-nha-hang",
+  "title": "Đặt bàn nhà hàng và đổi giờ hẹn",
+  "topic": "Đặt bàn và thay đổi giờ dùng bữa",
+  "level": "A2",
+  "summary": "Bạn gọi đến nhà hàng để đặt bàn cho hai người. Sau đó, bạn lịch sự đổi giờ hẹn và yêu cầu chỗ ngồi gần cửa sổ.",
+  "goals": [
+    "Đặt bàn theo ngày, giờ và số lượng khách",
+    "Hỏi và đổi giờ đặt bàn một cách lịch sự",
+    "Yêu cầu vị trí ngồi mong muốn"
+  ],
+  "vocab": [
+    {
+      "en": "book a table",
+      "ipa": "/bʊk ə ˈteɪbəl/",
+      "vi": "đặt bàn",
+      "example": "I would like to book a table for two."
+    },
+    {
+      "en": "available",
+      "ipa": "/əˈveɪləbəl/",
+      "vi": "còn trống, có sẵn",
+      "example": "Is a table at eight available?"
+    },
+    {
+      "en": "reservation",
+      "ipa": "/ˌrezərˈveɪʃən/",
+      "vi": "việc đặt chỗ",
+      "example": "Your reservation is under Minh Nguyen."
+    },
+    {
+      "en": "change the time",
+      "ipa": "/tʃeɪndʒ ðə taɪm/",
+      "vi": "đổi giờ",
+      "example": "Can I change the time of my booking?"
+    },
+    {
+      "en": "for two",
+      "ipa": "/fər tuː/",
+      "vi": "cho hai người",
+      "example": "We need a table for two."
+    },
+    {
+      "en": "near the window",
+      "ipa": "/nɪr ðə ˈwɪndoʊ/",
+      "vi": "gần cửa sổ",
+      "example": "Could we sit near the window?"
+    },
+    {
+      "en": "this Saturday",
+      "ipa": "/ðɪs ˈsætərdeɪ/",
+      "vi": "thứ Bảy này",
+      "example": "We would like to come this Saturday."
+    },
+    {
+      "en": "at seven",
+      "ipa": "/æt ˈsevən/",
+      "vi": "lúc bảy giờ",
+      "example": "Do you have a table at seven?"
+    },
+    {
+      "en": "actually",
+      "ipa": "/ˈæktʃuəli/",
+      "vi": "thật ra, thực ra",
+      "example": "Actually, can I come a little later?"
+    },
+    {
+      "en": "add to the booking",
+      "ipa": "/æd tə ðə ˈbʊkɪŋ/",
+      "vi": "thêm vào thông tin đặt bàn",
+      "example": "I will add your request to the booking."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to book a table for ___.",
+      "vi": "Tôi muốn đặt một bàn cho ___.",
+      "note": "Dùng khi bắt đầu đặt bàn; lịch sự và tự nhiên."
+    },
+    {
+      "en": "Do you have a table at ___?",
+      "vi": "Nhà hàng có bàn lúc ___ không?",
+      "note": "Dùng để hỏi giờ cụ thể còn chỗ hay không."
+    },
+    {
+      "en": "Can I change the time to ___?",
+      "vi": "Tôi có thể đổi giờ sang ___ không?",
+      "note": "Dùng để đổi giờ hẹn đã dự định hoặc đã đặt."
+    },
+    {
+      "en": "Could we sit near the window, please?",
+      "vi": "Chúng tôi có thể ngồi gần cửa sổ được không?",
+      "note": "Could we lịch sự hơn Can we khi yêu cầu vị trí ngồi."
+    },
+    {
+      "en": "I will add that to your booking.",
+      "vi": "Tôi sẽ thêm điều đó vào thông tin đặt bàn của bạn.",
+      "note": "Câu nhân viên thường dùng để xác nhận một yêu cầu thêm."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong this và three",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng, rồi thổi hơi; không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "this",
+        "three",
+        "thirty"
+      ]
+    },
+    {
+      "focus": "âm /v/ trong available",
+      "tip": "Đặt răng trên chạm nhẹ môi dưới và rung giọng; tránh đọc thành âm /b/.",
+      "words": [
+        "available",
+        "seven",
+        "reservation"
+      ]
+    },
+    {
+      "focus": "trọng âm trong reservation",
+      "tip": "Nhấn mạnh âm tiết cuối gần cuối: re-ser-VA-tion, không nhấn đều từng âm.",
+      "words": [
+        "reservation",
+        "available",
+        "actually"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want book a table for two.",
+      "right": "I want to book a table for two.",
+      "vi": "Sau want cần có to trước động từ."
+    },
+    {
+      "wrong": "I have a reservation in seven.",
+      "right": "I have a reservation at seven.",
+      "vi": "Dùng at với giờ cụ thể, không dùng in."
+    },
+    {
+      "wrong": "Can change the time to eight thirty?",
+      "right": "Can I change the time to eight thirty?",
+      "vi": "Cần có chủ ngữ I trong câu hỏi đầy đủ."
+    },
+    {
+      "wrong": "Do you have table near window?",
+      "right": "Do you have a table near the window?",
+      "vi": "Danh từ đếm được số ít cần a, và thường nói the window."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Bắt đầu đặt bàn",
+      "formal": "I would like to make a reservation for two, please.",
+      "casual": "Can I book a table for two?",
+      "vi": "Câu formal phù hợp với nhà hàng trang trọng hoặc khi gọi điện; câu casual vẫn lịch sự, phù hợp với quán ăn thân thiện."
+    },
+    {
+      "situation": "Hỏi giờ còn bàn",
+      "formal": "Could you tell me if eight o'clock is available?",
+      "casual": "Do you have a table at eight?",
+      "vi": "Câu formal mềm và lịch sự hơn khi nói với nhân viên; câu casual trực tiếp, tự nhiên trong tình huống thông thường."
+    },
+    {
+      "situation": "Đổi giờ hẹn",
+      "formal": "Could I move my reservation to eight thirty, please?",
+      "casual": "Can I change it to eight thirty?",
+      "vi": "Câu formal phù hợp khi bạn đã đặt chỗ ở nơi trang trọng; câu casual dùng khi ngữ cảnh đã rõ bạn đang nói về đặt bàn nào."
+    },
+    {
+      "situation": "Yêu cầu chỗ ngồi",
+      "formal": "Would it be possible to have a table near the window?",
+      "casual": "Can we sit near the window?",
+      "vi": "Câu formal dùng khi nêu yêu cầu với nhà hàng sang trọng; câu casual dùng ở quán quen hoặc nhà hàng bình thường."
+    }
+  ],
+  "culture": [
+    "Khi gọi đặt bàn, nhân viên thường hỏi tên, số khách, ngày và giờ. Bạn nên nói lại các thông tin này ở cuối cuộc gọi để tránh nhầm lẫn.",
+    "Yêu cầu bàn gần cửa sổ thường chỉ là yêu cầu ưu tiên, không phải lúc nào cũng được đảm bảo. Nhân viên có thể nói sẽ ghi chú thay vì hứa chắc chắn.",
+    "Ở nhiều nhà hàng phương Tây, nếu đến muộn hoặc muốn hủy, khách thường gọi báo sớm. Việc không đến mà không báo có thể bị xem là thiếu lịch sự."
+  ],
+  "listening": {
+    "title": "Tin nhắn xác nhận từ nhà hàng",
+    "passage": "Hello, this is Riverside Restaurant. We are calling about your dinner reservation for Sunday. Your table for four is booked for six thirty in the evening. We have noted that one guest does not eat meat. Please arrive ten minutes early. If you need to change the time, call us before five o'clock today. Thank you, and we look forward to seeing you.",
+    "vi": "Xin chào, đây là nhà hàng Riverside. Chúng tôi gọi về việc đặt bàn ăn tối của bạn vào Chủ nhật. Bàn cho bốn người của bạn được đặt lúc sáu giờ ba mươi tối. Chúng tôi đã ghi chú rằng một khách không ăn thịt. Vui lòng đến sớm mười phút. Nếu cần đổi giờ, hãy gọi cho chúng tôi trước năm giờ hôm nay. Cảm ơn bạn, và chúng tôi mong được gặp bạn.",
+    "questions": [
+      {
+        "q": "What day is the reservation for?",
+        "choices": [
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Sunday vì bài nghe nói dinner reservation for Sunday."
+      },
+      {
+        "q": "How many people is the table for?",
+        "choices": [
+          "Two people",
+          "Three people",
+          "Four people"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là Four people vì bài nghe nói Your table for four."
+      },
+      {
+        "q": "When should the guest call to change the time?",
+        "choices": [
+          "Before five o'clock today",
+          "After six thirty tonight",
+          "Ten minutes before dinner"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Before five o'clock today vì bài nghe nói call us before five o'clock today."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Nhân viên nhận đặt bàn tại nhà hàng",
+      "b": "Khách hàng gọi điện đặt bàn"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, Riverside Restaurant. How can I help you today?",
+        "vi": "Xin chào, nhà hàng Riverside. Hôm nay tôi có thể giúp gì cho bạn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I would like to book a table for two.",
+        "vi": "Chào, tôi muốn đặt một bàn cho hai người.",
+        "hint": "Dùng I would like to để mở đầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. What day would you like to come?",
+        "vi": "Được ạ. Bạn muốn đến vào ngày nào?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "This Saturday, please. Do you have a table at seven?",
+        "vi": "Thứ Bảy này ạ. Nhà hàng có bàn lúc bảy giờ không?",
+        "hint": "Dùng at trước giờ cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, we do. May I have your name, please?",
+        "vi": "Có ạ. Tôi xin tên của bạn được không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is Minh Nguyen.",
+        "vi": "Tên tôi là Minh Nguyen.",
+        "hint": "Bạn cũng có thể nói My name is Minh Nguyen."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you. I have a table for two at seven.",
+        "vi": "Cảm ơn bạn. Tôi đã có một bàn cho hai người lúc bảy giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Actually, can I change the time to eight thirty?",
+        "vi": "Thật ra, tôi có thể đổi giờ sang tám giờ ba mươi không?",
+        "hint": "Dùng Actually để báo rằng bạn muốn thay đổi thông tin."
+      },
+      {
+        "speaker": "a",
+        "en": "Let me check. Yes, eight thirty is available.",
+        "vi": "Để tôi kiểm tra. Vâng, tám giờ ba mươi còn chỗ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. Could we sit near the window, please?",
+        "vi": "Tuyệt quá. Chúng tôi có thể ngồi gần cửa sổ được không?",
+        "hint": "Could we nghe lịch sự khi yêu cầu chỗ ngồi."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. I will add that to your booking.",
+        "vi": "Tất nhiên rồi. Tôi sẽ thêm yêu cầu đó vào thông tin đặt bàn của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. See you this Saturday at eight thirty.",
+        "vi": "Cảm ơn bạn. Hẹn gặp bạn thứ Bảy này lúc tám giờ ba mươi.",
+        "hint": "Lặp lại ngày và giờ để xác nhận lần cuối."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly restaurant reservation assistant at Riverside Restaurant. You answer calls clearly, check table availability, confirm booking details, and help guests change their reservation time.",
+    "opener": "Hello, Riverside Restaurant. How can I help you today?",
+    "goal": "Người học đặt bàn cho hai người, đổi giờ hẹn và yêu cầu bàn gần cửa sổ."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn đặt một bàn cho hai người.",
+      "en": "I would like to book a table for two.",
+      "alts": [
+        "I want to book a table for two."
+      ]
+    },
+    {
+      "vi": "Nhà hàng có bàn lúc bảy giờ không?",
+      "en": "Do you have a table at seven?",
+      "alts": [
+        "Is a table at seven available?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể đổi giờ sang tám giờ ba mươi không?",
+      "en": "Can I change the time to eight thirty?",
+      "alts": [
+        "Could I change the time to eight thirty, please?"
+      ]
+    },
+    {
+      "vi": "Tám giờ ba mươi còn chỗ không?",
+      "en": "Is eight thirty available?",
+      "alts": [
+        "Do you have a table at eight thirty?"
+      ]
+    },
+    {
+      "vi": "Chúng tôi có thể ngồi gần cửa sổ được không?",
+      "en": "Could we sit near the window, please?",
+      "alts": [
+        "Can we have a table near the window?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ thêm điều đó vào thông tin đặt bàn của bạn.",
+      "en": "I will add that to your booking.",
+      "alts": [
+        "I will add your request to the reservation."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm phần khách hàng trong hội thoại, rồi tự nghe lại để kiểm tra ngày và giờ.",
+    "Viết một đoạn hội thoại ngắn để đổi bàn từ sáu giờ sang bảy giờ.",
+    "Luyện nói ba lần câu Could we sit near the window, please?"
+  ]
+}

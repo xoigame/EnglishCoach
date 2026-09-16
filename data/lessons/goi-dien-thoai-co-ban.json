@@ -1,300 +1,365 @@
 {
   "id": "goi-dien-thoai-co-ban",
   "title": "Gọi điện thoại: Để lại lời nhắn và hẹn gọi lại",
-  "topic": "Gọi điện và để lại lời nhắn",
+  "topic": "Gọi điện thoại ở văn phòng",
   "level": "A2",
-  "summary": "Người học gọi đến phòng khám để gặp một người đang bận. Người học để lại lời nhắn, đánh vần tên và xác nhận số điện thoại để được gọi lại.",
+  "summary": "Bạn gọi đến một văn phòng để tìm Maya Parker. Cô ấy vắng mặt, nên bạn để lại lời nhắn, đánh vần tên và đọc số điện thoại để hẹn cô ấy gọi lại.",
   "goals": [
-    "Xin nói chuyện với một người qua điện thoại một cách lịch sự",
-    "Để lại lời nhắn và yêu cầu gọi lại",
-    "Đánh vần tên và đọc số điện thoại rõ ràng"
+    "Xin gặp một người qua điện thoại một cách lịch sự.",
+    "Để lại lời nhắn ngắn gọn và yêu cầu gọi lại.",
+    "Đánh vần tên và đọc số điện thoại chậm, rõ ràng."
   ],
   "vocab": [
-    {
-      "en": "available",
-      "ipa": "/əˈveɪləbəl/",
-      "vi": "có thể nghe máy, đang rảnh",
-      "example": "Mister Long is not available right now."
-    },
     {
       "en": "leave a message",
       "ipa": "/liːv ə ˈmesɪdʒ/",
       "vi": "để lại lời nhắn",
-      "example": "Could I leave a message for her?"
+      "example": "Can I leave a message for Maya?"
     },
     {
       "en": "call back",
       "ipa": "/kɔːl bæk/",
       "vi": "gọi lại",
-      "example": "He will call you back this afternoon."
+      "example": "She will call you back this afternoon."
+    },
+    {
+      "en": "away from her desk",
+      "ipa": "/əˈweɪ frəm hɚ desk/",
+      "vi": "vắng mặt khỏi bàn làm việc",
+      "example": "Maya is away from her desk now."
     },
     {
       "en": "spell",
       "ipa": "/spel/",
       "vi": "đánh vần",
-      "example": "Could you spell your name slowly?"
-    },
-    {
-      "en": "last name",
-      "ipa": "/læst neɪm/",
-      "vi": "họ",
-      "example": "My last name is Nguyen."
+      "example": "Could you spell your last name slowly?"
     },
     {
       "en": "phone number",
-      "ipa": "/fəʊn ˈnʌmbər/",
+      "ipa": "/foʊn ˈnʌmbɚ/",
       "vi": "số điện thoại",
-      "example": "What phone number should I use?"
+      "example": "Please say your phone number slowly."
     },
     {
-      "en": "slowly",
-      "ipa": "/ˈsləʊli/",
-      "vi": "chậm rãi",
-      "example": "Please say the number slowly."
+      "en": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "vi": "lặp lại",
+      "example": "Let me repeat that number to you."
     },
     {
       "en": "confirm",
-      "ipa": "/kənˈfɜːm/",
+      "ipa": "/kənˈfɜːrm/",
       "vi": "xác nhận",
-      "example": "Let me confirm your phone number."
+      "example": "I want to confirm your number first."
     },
     {
-      "en": "right now",
-      "ipa": "/raɪt naʊ/",
-      "vi": "ngay bây giờ",
-      "example": "She is busy right now."
+      "en": "pass on",
+      "ipa": "/pæs ɑːn/",
+      "vi": "chuyển lại, nhắn lại",
+      "example": "I will pass your message on today."
     },
     {
-      "en": "before",
-      "ipa": "/bɪˈfɔːr/",
-      "vi": "trước",
-      "example": "Please call me before five."
+      "en": "meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "vi": "cuộc họp",
+      "example": "The meeting starts at ten tomorrow."
+    },
+    {
+      "en": "available",
+      "ipa": "/əˈveɪləbəl/",
+      "vi": "có thể nghe máy, có mặt",
+      "example": "She is not available right now."
     }
   ],
   "patterns": [
     {
       "en": "May I speak to ___, please?",
       "vi": "Tôi có thể nói chuyện với ___ được không?",
-      "note": "Cách lịch sự, tự nhiên khi gọi điện."
+      "note": "Dùng lịch sự khi gọi đến công ty hoặc nói với người lạ."
     },
     {
       "en": "Could I leave a message for ___?",
       "vi": "Tôi có thể để lại lời nhắn cho ___ không?",
-      "note": "Dùng khi người bạn muốn gặp không có mặt."
+      "note": "Dùng khi người bạn cần gặp không nghe máy."
     },
     {
-      "en": "My first name is spelled ___.",
-      "vi": "Tên của tôi được đánh vần là ___.",
-      "note": "Đọc từng chữ cái, có khoảng dừng ngắn giữa các chữ."
+      "en": "Please ask ___ to call me back.",
+      "vi": "Xin hãy nhắn ___ gọi lại cho tôi.",
+      "note": "Sau ask someone dùng to và động từ nguyên mẫu."
     },
     {
-      "en": "Could you spell your last name slowly?",
-      "vi": "Bạn có thể đánh vần họ chậm rãi không?",
-      "note": "Dùng để kiểm tra thông tin chính xác."
+      "en": "My name is ___. I spell it ___.",
+      "vi": "Tên tôi là ___. Tôi đánh vần là ___.",
+      "note": "Nói từng chữ cái chậm và ngắt nhẹ giữa các chữ."
     },
     {
-      "en": "Please call me back at ___.",
-      "vi": "Vui lòng gọi lại cho tôi theo số ___.",
-      "note": "Dùng at trước số điện thoại."
+      "en": "Let me confirm your phone number.",
+      "vi": "Để tôi xác nhận lại số điện thoại của bạn.",
+      "note": "Câu này thường được tổng đài viên dùng trước khi kết thúc cuộc gọi."
     }
   ],
   "pronunciation": [
     {
-      "focus": "Tên chữ cái G và J",
-      "tip": "G đọc là /dʒiː/, còn J đọc là /dʒeɪ/. Đọc chậm từng chữ cái khi đánh vần tên.",
-      "words": [
-        "G",
-        "J",
-        "Nguyen"
-      ]
-    },
-    {
-      "focus": "âm /θ/ trong three",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai răng và thổi hơi ra, không đọc thành âm /t/.",
+      "focus": "âm /θ/ trong số three",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Đừng đọc three thành tree.",
       "words": [
         "three",
-        "thirty",
-        "thank"
+        "thirteen",
+        "thirty"
       ]
     },
     {
-      "focus": "âm /v/ trong seven và leave",
-      "tip": "Đặt răng trên chạm nhẹ môi dưới rồi rung âm, không đọc thành /w/.",
+      "focus": "âm /z/ trong zero",
+      "tip": "Rung nhẹ cổ họng khi bắt đầu âm z. Đừng đọc zero giống sờ-rô hoặc dê-rô.",
       "words": [
-        "seven",
-        "leave",
-        "available"
+        "zero",
+        "zebra",
+        "busy"
+      ]
+    },
+    {
+      "focus": "đọc tên chữ cái khi đánh vần",
+      "tip": "Đọc từng chữ cái rõ ràng, không đọc liền thành một từ. Có thể ngắt nhẹ sau mỗi hai đến ba chữ cái.",
+      "words": [
+        "M",
+        "I",
+        "N",
+        "H"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I leave message for him.",
-      "right": "Could I leave a message for him?",
-      "vi": "Cần có mạo từ a trước message; dùng Could I giúp câu lịch sự hơn."
+      "wrong": "Can I speak Maya?",
+      "right": "Can I speak to Maya?",
+      "vi": "Speak cần đi với to khi nói muốn gặp ai đó qua điện thoại."
     },
     {
-      "wrong": "My name spell M A I.",
-      "right": "My first name is spelled M A I.",
-      "vi": "Dùng cấu trúc bị động is spelled để nói cách đánh vần."
+      "wrong": "Please tell Maya call me back.",
+      "right": "Please tell Maya to call me back.",
+      "vi": "Sau tell someone cần dùng to trước động từ call."
     },
     {
-      "wrong": "Please call me in 091 234 5678.",
-      "right": "Please call me at 091 234 5678.",
-      "vi": "Dùng at trước số điện thoại, không dùng in."
+      "wrong": "How spell your name?",
+      "right": "How do you spell your name?",
+      "vi": "Câu hỏi hiện tại đơn cần do."
     },
     {
-      "wrong": "Could you call back to me?",
-      "right": "Could you call me back?",
-      "vi": "Cụm tự nhiên là call someone back."
+      "wrong": "My number is nine one two three four five six seven eight.",
+      "right": "My number is zero nine one two three four five six seven eight.",
+      "vi": "Khi đọc số điện thoại, phải đọc đủ cả số zero ở đầu nếu số đó có trong số điện thoại."
     }
   ],
+  "variations": [
+    {
+      "situation": "Xin gặp một người qua điện thoại",
+      "formal": "May I speak to Maya Parker, please?",
+      "casual": "Is Maya there?",
+      "vi": "Câu formal dùng khi gọi đến công ty hoặc gặp người lạ. Câu casual dùng khi gọi cho bạn bè hay đồng nghiệp thân."
+    },
+    {
+      "situation": "Xin để lại lời nhắn",
+      "formal": "Could I leave a message for her, please?",
+      "casual": "Can I leave her a message?",
+      "vi": "Câu formal phù hợp với tổng đài viên. Câu casual phù hợp khi bạn gọi vào số của người quen."
+    },
+    {
+      "situation": "Yêu cầu gọi lại",
+      "formal": "Could you ask Maya to call me back, please?",
+      "casual": "Tell Maya to call me back, please.",
+      "vi": "Câu formal lịch sự hơn với nhân viên tiếp nhận. Câu casual chỉ phù hợp khi nói với người thân hoặc đồng nghiệp rất gần gũi."
+    },
+    {
+      "situation": "Xác nhận số điện thoại",
+      "formal": "Let me confirm your phone number.",
+      "casual": "So your number is zero nine one, right?",
+      "vi": "Câu formal thường do nhân viên tổng đài nói. Câu casual dùng khi kiểm tra nhanh số với người quen."
+    }
+  ],
+  "culture": [
+    "Khi gọi đến công ty ở các nước nói tiếng Anh, người nghe thường nói tên công ty trước. Bạn chỉ cần chào ngắn rồi nói ngay người mình muốn gặp.",
+    "Nhân viên thường lặp lại tên hoặc số điện thoại để xác nhận. Đây là thao tác bình thường, không phải vì họ nghi ngờ bạn; hãy nghe kỹ và sửa ngay nếu có sai.",
+    "Lời nhắn điện thoại thường ngắn: tên, số điện thoại, lý do gọi và yêu cầu gọi lại. Không cần giải thích quá dài."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ cửa hàng sửa chữa",
+    "passage": "Hello, this is Alex from Brightside Repairs. I called about your washing machine. Our technician can visit on Thursday morning, between nine and eleven. Please call us back before six today if this time does not work for you. When you call, say your name and give your phone number slowly. Thank you.",
+    "vi": "Xin chào, đây là Alex từ Brightside Repairs. Tôi đã gọi về chiếc máy giặt của bạn. Kỹ thuật viên của chúng tôi có thể đến vào sáng thứ Năm, từ chín đến mười một giờ. Xin hãy gọi lại cho chúng tôi trước sáu giờ hôm nay nếu thời gian này không phù hợp với bạn. Khi gọi, hãy nói tên và đọc số điện thoại của bạn chậm rãi. Cảm ơn.",
+    "questions": [
+      {
+        "q": "Who is calling?",
+        "choices": [
+          "A customer",
+          "Alex from Brightside Repairs",
+          "A washing machine technician"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là Alex from Brightside Repairs vì đoạn nghe mở đầu bằng câu này."
+      },
+      {
+        "q": "When can the technician visit?",
+        "choices": [
+          "Thursday morning",
+          "Thursday evening",
+          "Friday morning"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Thursday morning vì đoạn nghe nói kỹ thuật viên có thể đến vào sáng thứ Năm."
+      },
+      {
+        "q": "What should the listener do if the time does not work?",
+        "choices": [
+          "Call back before six today",
+          "Visit the repair shop",
+          "Send an email tomorrow"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là call back before six today vì đoạn nghe nói rõ hãy gọi lại trước sáu giờ hôm nay nếu thời gian không phù hợp."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Nhân viên tổng đài phòng khám",
-      "b": "Người gọi điện"
+      "a": "Nhân viên tổng đài tại văn phòng Green Leaf",
+      "b": "Người gọi, tức người học"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Good morning, you've reached Riverside Clinic. How may I help you today?",
-        "vi": "Chào buổi sáng, bạn đã gọi đến Phòng khám Riverside. Tôi có thể giúp gì cho bạn hôm nay?",
+        "en": "Good afternoon, Green Leaf Office. How may I help you?",
+        "vi": "Chào buổi chiều, văn phòng Green Leaf. Tôi có thể giúp gì cho bạn?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Hi, may I speak to Mister Long, please?",
-        "vi": "Chào, tôi có thể nói chuyện với ông Long được không?",
-        "hint": "Dùng May I speak to để hỏi lịch sự."
+        "en": "Hi, may I speak to Maya Parker, please?",
+        "vi": "Chào, tôi có thể nói chuyện với Maya Parker được không?",
+        "hint": "Dùng May I speak to để xin gặp ai đó lịch sự."
       },
       {
         "speaker": "a",
-        "en": "I am sorry, he is with a patient right now.",
-        "vi": "Tôi xin lỗi, hiện giờ ông ấy đang với một bệnh nhân.",
+        "en": "I am sorry, Maya is away from her desk right now.",
+        "vi": "Tôi xin lỗi, Maya hiện đang vắng khỏi bàn làm việc.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Could I leave a message for him, please?",
-        "vi": "Tôi có thể để lại lời nhắn cho ông ấy không?",
-        "hint": "Dùng leave a message khi người đó đang bận."
+        "en": "Could I leave a message for her, please?",
+        "vi": "Tôi có thể để lại lời nhắn cho cô ấy được không?",
+        "hint": "Could I nghe lịch sự và tự nhiên khi gọi đến công ty."
       },
       {
         "speaker": "a",
-        "en": "Certainly, may I have your full name, please?",
-        "vi": "Được chứ, tôi có thể xin họ tên đầy đủ của bạn không?",
+        "en": "Of course. Please give me your name and phone number.",
+        "vi": "Được chứ. Xin cho tôi tên và số điện thoại của bạn.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "My full name is Mai Nguyen. My first name is spelled M A I.",
-        "vi": "Họ tên đầy đủ của tôi là Mai Nguyen. Tên của tôi được đánh vần là M A I.",
-        "hint": "Đọc từng chữ cái rõ ràng, có dừng ngắn giữa các chữ."
+        "en": "My name is Minh Anh Nguyen. Minh is M, I, N, H.",
+        "vi": "Tên tôi là Minh Anh Nguyen. Minh được đánh vần là M, I, N, H.",
+        "hint": "Đọc từng chữ cái chậm, rõ và có ngắt nhẹ."
       },
       {
         "speaker": "a",
-        "en": "Thank you, could you spell your last name slowly?",
-        "vi": "Cảm ơn bạn, bạn có thể đánh vần họ chậm rãi không?",
+        "en": "Thank you. Please say your phone number slowly.",
+        "vi": "Cảm ơn. Xin hãy đọc số điện thoại của bạn chậm thôi.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Sure, Nguyen is spelled N G U Y E N.",
-        "vi": "Được, Nguyen được đánh vần là N G U Y E N.",
-        "hint": "Đọc từng chữ: N, G, U, Y, E, N."
+        "en": "It is zero nine one, two three four, five six seven, eight.",
+        "vi": "Số của tôi là 091 234 5678.",
+        "hint": "Đọc theo từng số và chia thành các nhóm nhỏ."
       },
       {
         "speaker": "a",
-        "en": "Great, what phone number should he use to call you?",
-        "vi": "Tốt, ông ấy nên dùng số điện thoại nào để gọi cho bạn?",
+        "en": "I heard zero nine one, two three four, five six seven, eight.",
+        "vi": "Tôi nghe là 091 234 5678.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "My number begins zero nine one, two three four. It ends five, six, seven, eight.",
-        "vi": "Số của tôi bắt đầu là không chín một, hai ba bốn. Số cuối là năm, sáu, bảy, tám.",
-        "hint": "Chia số thành hai nhóm để người nghe dễ ghi."
+        "en": "Yes, that is right. Please ask Maya to call me back.",
+        "vi": "Vâng, đúng rồi. Xin nhắn Maya gọi lại cho tôi.",
+        "hint": "Nhớ dùng ask Maya to call me back."
       },
       {
         "speaker": "a",
-        "en": "Let me confirm: zero nine one, two three four. The final four are five, six, seven, eight, correct?",
-        "vi": "Để tôi xác nhận: không chín một, hai ba bốn. Bốn số cuối là năm, sáu, bảy, tám, đúng không?",
+        "en": "Certainly. What message would you like to leave for Maya?",
+        "vi": "Chắc chắn rồi. Bạn muốn để lại lời nhắn gì cho Maya?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, that number is completely correct. Please ask him to call today.",
-        "vi": "Vâng, số đó hoàn toàn chính xác. Vui lòng nhắn ông ấy gọi hôm nay.",
-        "hint": "Dùng Please ask him to để nhờ chuyển lời."
+        "en": "Please tell her I called about tomorrow's meeting. Thank you.",
+        "vi": "Xin nói với cô ấy là tôi gọi về cuộc họp ngày mai. Cảm ơn.",
+        "hint": "I called about dùng để nói lý do bạn đã gọi."
       },
       {
         "speaker": "a",
-        "en": "I will give him your message. He will call you before five.",
-        "vi": "Tôi sẽ chuyển lời nhắn của bạn. Ông ấy sẽ gọi cho bạn trước năm giờ.",
+        "en": "I have that. Maya will call you back today. Goodbye.",
+        "vi": "Tôi đã ghi lại rồi. Maya sẽ gọi lại cho bạn hôm nay. Tạm biệt.",
         "hint": ""
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly telephone operator at Riverside Clinic in Hanoi. You answer calls clearly, take messages carefully, and confirm names and phone numbers slowly.",
-    "opener": "Good morning, you've reached Riverside Clinic. How may I help you today?",
-    "goal": "Người học để lại lời nhắn, đánh vần tên và số điện thoại, rồi hẹn được gọi lại."
+    "persona": "You are a friendly telephone operator at Green Leaf Office. You answer calls, take clear messages, and repeat names and phone numbers slowly.",
+    "opener": "Good afternoon, Green Leaf Office. How may I help you?",
+    "goal": "Người học xin gặp Maya, để lại lời nhắn, đánh vần tên và cho số điện thoại để hẹn gọi lại."
   },
   "drills": [
     {
-      "vi": "Tôi có thể nói chuyện với ông Long được không?",
-      "en": "May I speak to Mister Long, please?",
+      "vi": "Tôi có thể nói chuyện với Maya Parker được không?",
+      "en": "May I speak to Maya Parker, please?",
       "alts": [
-        "Could I speak to Mister Long, please?"
+        "Could I speak to Maya Parker, please?"
       ]
     },
     {
       "vi": "Tôi có thể để lại lời nhắn cho cô ấy không?",
-      "en": "Could I leave a message for her, please?",
+      "en": "Could I leave a message for her?",
       "alts": [
-        "May I leave a message for her?"
+        "Can I leave her a message?"
       ]
     },
     {
-      "vi": "Họ tên đầy đủ của tôi là Mai Nguyen.",
-      "en": "My full name is Mai Nguyen.",
+      "vi": "Tên tôi là Minh Anh Nguyen.",
+      "en": "My name is Minh Anh Nguyen.",
+      "alts": []
+    },
+    {
+      "vi": "Minh được đánh vần là M, I, N, H.",
+      "en": "Minh is M, I, N, H.",
       "alts": [
-        "My name is Mai Nguyen."
+        "I spell Minh M, I, N, H."
       ]
     },
     {
-      "vi": "Tên của tôi được đánh vần là M A I.",
-      "en": "My first name is spelled M A I.",
+      "vi": "Số điện thoại là 091 234 5678.",
+      "en": "Zero nine one, two three four, five six seven, eight.",
+      "alts": []
+    },
+    {
+      "vi": "Xin nhắn Maya gọi lại cho tôi.",
+      "en": "Please ask Maya to call me back.",
       "alts": [
-        "Mai is spelled M A I."
+        "Could you ask Maya to call me back?"
       ]
     },
     {
-      "vi": "Bạn có thể đánh vần họ chậm rãi không?",
-      "en": "Could you spell your last name slowly, please?",
+      "vi": "Cô ấy hiện đang vắng khỏi bàn làm việc.",
+      "en": "She is away from her desk right now.",
       "alts": [
-        "Please spell your last name slowly."
-      ]
-    },
-    {
-      "vi": "Số của tôi bắt đầu là không chín một, hai ba bốn.",
-      "en": "My number begins zero nine one, two three four.",
-      "alts": [
-        "The first six numbers are zero nine one, two three four."
-      ]
-    },
-    {
-      "vi": "Vui lòng gọi lại cho tôi trước năm giờ chiều nay.",
-      "en": "Please call me back before five this afternoon.",
-      "alts": [
-        "Could you call me back before five today?"
+        "She is not available right now."
       ]
     }
   ],
   "homework": [
-    "Ghi âm toàn bộ hội thoại, chú ý đọc rõ từng chữ cái trong tên.",
-    "Đọc một số điện thoại gồm mười chữ số thành hai nhóm ngắn.",
-    "Viết ba câu dùng mẫu Could I leave a message for ___?"
+    "Ghi âm đoạn đọc tên và số điện thoại của bạn hai lần, lần thứ hai đọc chậm hơn.",
+    "Tự thay Maya Parker bằng tên một người quen và luyện lại toàn bộ hội thoại.",
+    "Viết một lời nhắn điện thoại gồm tên, số điện thoại và lý do gọi."
   ]
 }

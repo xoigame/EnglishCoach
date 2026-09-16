@@ -3,18 +3,30 @@
   "title": "Đặt phòng và nhận phòng khách sạn",
   "topic": "Khách sạn",
   "level": "A2",
-  "summary": "Người học xác nhận đặt phòng và làm thủ tục nhận phòng tại khách sạn. Cuối tình huống, người học nhận thẻ phòng và hỏi mật khẩu Wi-Fi.",
+  "summary": "Bạn thực hành nhận phòng tại khách sạn với một đặt phòng có sẵn. Bạn sẽ xác nhận thông tin, hỏi bữa sáng và nhận thẻ phòng.",
   "goals": [
-    "Xác nhận thông tin đặt phòng bằng tên và số đêm ở",
-    "Yêu cầu và cung cấp giấy tờ khi nhận phòng",
-    "Hỏi thông tin cơ bản về bữa sáng, thẻ phòng và Wi-Fi"
+    "Nói rằng bạn có đặt phòng dưới tên của mình",
+    "Hỏi bữa sáng có bao gồm và được phục vụ ở đâu",
+    "Lịch sự yêu cầu thẻ phòng và mật khẩu internet"
   ],
   "vocab": [
     {
-      "en": "booking",
-      "ipa": "/ˈbʊkɪŋ/",
+      "en": "reservation",
+      "ipa": "/ˌrez.ərˈveɪ.ʃən/",
       "vi": "đặt phòng",
-      "example": "I have a booking under Nguyen."
+      "example": "I have a reservation under Nguyen."
+    },
+    {
+      "en": "booking confirmation",
+      "ipa": "/ˈbʊk.ɪŋ ˌkɒn.fəˈmeɪ.ʃən/",
+      "vi": "xác nhận đặt phòng",
+      "example": "Here is my booking confirmation."
+    },
+    {
+      "en": "double room",
+      "ipa": "/ˈdʌb.əl ruːm/",
+      "vi": "phòng đôi",
+      "example": "I booked a double room for two nights."
     },
     {
       "en": "check in",
@@ -23,115 +35,113 @@
       "example": "I would like to check in, please."
     },
     {
-      "en": "double room",
-      "ipa": "/ˈdʌbəl ruːm/",
-      "vi": "phòng giường đôi",
-      "example": "We booked a double room for two nights."
-    },
-    {
       "en": "passport",
-      "ipa": "/ˈpæspɔːrt/",
+      "ipa": "/ˈpɑːs.pɔːrt/",
       "vi": "hộ chiếu",
-      "example": "May I see your passport, please?"
-    },
-    {
-      "en": "room key",
-      "ipa": "/ruːm kiː/",
-      "vi": "chìa khóa hoặc thẻ phòng",
-      "example": "Here is your room key."
-    },
-    {
-      "en": "breakfast",
-      "ipa": "/ˈbrekfəst/",
-      "vi": "bữa sáng",
-      "example": "Breakfast is served from seven to ten."
+      "example": "Could I see your passport, please?"
     },
     {
       "en": "included",
-      "ipa": "/ɪnˈkluːdɪd/",
-      "vi": "đã bao gồm",
-      "example": "Breakfast is included in the price."
+      "ipa": "/ɪnˈkluː.dɪd/",
+      "vi": "được bao gồm",
+      "example": "Breakfast is included in the room rate."
     },
     {
-      "en": "Wi-Fi password",
-      "ipa": "/ˈwaɪ faɪ ˈpæswɜːrd/",
-      "vi": "mật khẩu Wi-Fi",
-      "example": "What is the Wi-Fi password?"
+      "en": "breakfast",
+      "ipa": "/ˈbrek.fəst/",
+      "vi": "bữa sáng",
+      "example": "What time is breakfast served?"
     },
     {
-      "en": "fourth floor",
-      "ipa": "/fɔːrθ flɔːr/",
-      "vi": "tầng bốn",
-      "example": "Your room is on the fourth floor."
+      "en": "lobby",
+      "ipa": "/ˈlɒb.i/",
+      "vi": "sảnh khách sạn",
+      "example": "Please wait for me in the lobby."
     },
     {
-      "en": "ready",
-      "ipa": "/ˈredi/",
-      "vi": "sẵn sàng",
-      "example": "Your room is ready now."
+      "en": "key card",
+      "ipa": "/ˈkiː kɑːrd/",
+      "vi": "thẻ mở cửa phòng",
+      "example": "Here is your key card."
+    },
+    {
+      "en": "password",
+      "ipa": "/ˈpæs.wɜːrd/",
+      "vi": "mật khẩu",
+      "example": "Could I have the internet password?"
     }
   ],
   "patterns": [
     {
-      "en": "I have a booking under ___.",
-      "vi": "Tôi có đặt phòng dưới tên ___.",
-      "note": "Dùng tên họ hoặc tên đã dùng để đặt phòng."
+      "en": "I have a reservation under [name].",
+      "vi": "Tôi có đặt phòng dưới tên [tên].",
+      "note": "Dùng để nói tên người đã đặt phòng."
     },
     {
-      "en": "Is the booking for ___ nights?",
-      "vi": "Đặt phòng cho ___ đêm phải không?",
-      "note": "Dùng để xác nhận số đêm lưu trú."
+      "en": "Could I see your [document], please?",
+      "vi": "Tôi có thể xem [giấy tờ] của bạn được không?",
+      "note": "Lễ tân thường dùng mẫu lịch sự này."
     },
     {
-      "en": "May I see your ___, please?",
-      "vi": "Tôi có thể xem ___ của bạn được không?",
-      "note": "Cách hỏi lịch sự, thường dùng ở quầy lễ tân."
+      "en": "Is [service] included in the room rate?",
+      "vi": "[Dịch vụ] có được bao gồm trong giá phòng không?",
+      "note": "Dùng để hỏi bữa sáng, internet hoặc dịch vụ khác."
     },
     {
-      "en": "Is ___ included in the price?",
-      "vi": "___ có được bao gồm trong giá không?",
-      "note": "Dùng để hỏi bữa sáng hoặc dịch vụ khác."
+      "en": "Could you tell me where [place] is?",
+      "vi": "Bạn có thể cho tôi biết [địa điểm] ở đâu không?",
+      "note": "Lịch sự khi hỏi vị trí."
     },
     {
-      "en": "Could you tell me the ___?",
-      "vi": "Bạn có thể cho tôi biết ___ không?",
-      "note": "Mẫu lịch sự để hỏi thông tin."
+      "en": "May I have [thing], please?",
+      "vi": "Tôi có thể xin [đồ vật] được không?",
+      "note": "Lịch sự hơn khi yêu cầu thẻ phòng hoặc mật khẩu."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /θ/ trong fourth",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/.",
+      "focus": "âm /r/",
+      "tip": "Cong nhẹ đầu lưỡi, không rung lưỡi như âm r tiếng Việt.",
       "words": [
-        "fourth",
-        "three",
-        "thank"
-      ]
-    },
-    {
-      "focus": "âm /æ/ trong passport và password",
-      "tip": "Mở miệng rộng, phát âm ngắn; tránh đọc thành âm /e/.",
-      "words": [
-        "passport",
-        "password",
+        "reservation",
+        "room",
         "breakfast"
       ]
     },
     {
-      "focus": "trọng âm trong included",
-      "tip": "Nhấn mạnh âm thứ hai: in-CLU-ded.",
+      "focus": "âm cuối /t/",
+      "tip": "Chạm đầu lưỡi vào lợi trên ở cuối từ; đừng bỏ âm cuối.",
       "words": [
-        "included",
-        "booking",
-        "receptionist"
+        "passport",
+        "breakfast",
+        "night"
+      ]
+    },
+    {
+      "focus": "trọng âm từ dài",
+      "tip": "Nhấn rõ âm có dấu nhấn, các âm còn lại đọc nhanh và nhẹ hơn.",
+      "words": [
+        "reservation",
+        "confirmation",
+        "included"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I have booking under Nguyen.",
-      "right": "I have a booking under Nguyen.",
-      "vi": "Danh từ đếm được số ít booking cần có mạo từ a."
+      "wrong": "I have reservation under Nguyen.",
+      "right": "I have a reservation under Nguyen.",
+      "vi": "Danh từ đếm được số ít reservation cần có mạo từ a."
+    },
+    {
+      "wrong": "I booked room double.",
+      "right": "I booked a double room.",
+      "vi": "Tính từ double đứng trước danh từ room."
+    },
+    {
+      "wrong": "Where breakfast served?",
+      "right": "Where is breakfast served?",
+      "vi": "Câu hỏi cần động từ to be là is."
     },
     {
       "wrong": "I want check in.",
@@ -139,156 +149,225 @@
       "vi": "Sau want cần có to; I would like lịch sự hơn khi nói với lễ tân."
     },
     {
-      "wrong": "Is breakfast include in the price?",
-      "right": "Is breakfast included in the price?",
-      "vi": "Dùng included vì bữa sáng là dịch vụ đã được bao gồm."
-    },
-    {
-      "wrong": "What is password Wi-Fi?",
-      "right": "What is the Wi-Fi password?",
-      "vi": "Cần dùng the và đặt Wi-Fi trước password."
+      "wrong": "Is breakfast include?",
+      "right": "Is breakfast included?",
+      "vi": "Sau is dùng included để diễn tả dịch vụ được bao gồm."
     }
   ],
+  "variations": [
+    {
+      "situation": "Nói bạn đến để nhận phòng",
+      "formal": "I would like to check in, please.",
+      "casual": "Hi, I am here to check in.",
+      "vi": "Câu trang trọng phù hợp với quầy lễ tân; câu thân mật hợp với nhà nghỉ nhỏ hoặc nơi bạn đã quen nhân viên."
+    },
+    {
+      "situation": "Nói về đặt phòng",
+      "formal": "I have a reservation under the name Nguyen.",
+      "casual": "I am Nguyen. I booked a room.",
+      "vi": "Câu trang trọng nêu đúng cụm lễ tân thường hỏi; câu thân mật chỉ phù hợp khi thông tin đặt phòng đơn giản."
+    },
+    {
+      "situation": "Hỏi về bữa sáng",
+      "formal": "Could you tell me where breakfast is served?",
+      "casual": "Where do you serve breakfast?",
+      "vi": "Câu trang trọng mềm mại hơn khi nói với nhân viên; câu thân mật trực tiếp hơn nhưng vẫn tự nhiên."
+    },
+    {
+      "situation": "Xin thẻ phòng",
+      "formal": "May I have my key card, please?",
+      "casual": "Can I get my key card?",
+      "vi": "Dùng may I trong khách sạn trang trọng; can I get phù hợp hơn ở nơi thân mật hoặc khi đã nói chuyện thoải mái."
+    }
+  ],
+  "culture": [
+    "Nhân viên thường hỏi hộ chiếu hoặc giấy tờ tùy thân khi nhận phòng. Đây là thủ tục bình thường, không có nghĩa là họ nghi ngờ bạn.",
+    "Khách nói please và thank you khá thường xuyên, kể cả với yêu cầu nhỏ như hỏi mật khẩu internet.",
+    "Ở nhiều khách sạn, lễ tân sẽ nói thẳng về giờ ăn sáng, tiền đặt cọc hoặc giờ trả phòng. Bạn có thể hỏi lại ngay nếu chưa rõ."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ khách sạn",
+    "passage": "Hello, this is the front desk at Riverside Hotel. Your room is ready now. It is a double room on the third floor. Breakfast is in the Garden Cafe from seven to ten each morning. Your key card is at the front desk. Please bring your passport when you come down. If you arrive after ten tonight, call us first. We look forward to seeing you.",
+    "vi": "Xin chào, đây là quầy lễ tân khách sạn Riverside. Phòng của bạn đã sẵn sàng. Đó là phòng đôi ở tầng ba. Bữa sáng ở quán Garden Cafe từ bảy giờ đến mười giờ mỗi sáng. Thẻ phòng của bạn ở quầy lễ tân. Vui lòng mang theo hộ chiếu khi bạn xuống. Nếu bạn đến sau mười giờ tối nay, hãy gọi cho chúng tôi trước. Chúng tôi mong được gặp bạn.",
+    "questions": [
+      {
+        "q": "Where is the guest's room?",
+        "choices": [
+          "On the first floor",
+          "On the third floor",
+          "Beside the lobby"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là tầng ba vì bài nghe nói: a double room on the third floor."
+      },
+      {
+        "q": "When is breakfast served?",
+        "choices": [
+          "From six to nine",
+          "From seven to ten",
+          "From eight to eleven"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là từ bảy đến mười vì bài nghe nói: from seven to ten each morning."
+      },
+      {
+        "q": "What should the guest bring downstairs?",
+        "choices": [
+          "A passport",
+          "A key card",
+          "A booking confirmation"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là hộ chiếu vì bài nghe nói: Please bring your passport when you come down."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Lễ tân khách sạn",
-      "b": "Khách lưu trú"
+      "b": "Khách có đặt phòng"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Good afternoon. Welcome to Riverside Hotel. How can I help you?",
-        "vi": "Chào buổi chiều. Chào mừng bạn đến khách sạn Riverside. Tôi có thể giúp gì?",
+        "en": "Good afternoon, welcome to Riverside Hotel. How can I help?",
+        "vi": "Chào buổi chiều, chào mừng bạn đến khách sạn Riverside. Tôi có thể giúp gì?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Hello. I have a booking under Nguyen.",
-        "vi": "Chào. Tôi có đặt phòng dưới tên Nguyen.",
-        "hint": "Dùng under rồi nói tên đã đặt phòng."
+        "en": "Hello, I have a reservation under Nguyen for tonight.",
+        "vi": "Xin chào, tôi có đặt phòng dưới tên Nguyen cho tối nay.",
+        "hint": "Dùng under rồi nói tên người đặt phòng."
       },
       {
         "speaker": "a",
-        "en": "Thank you. Is the booking for two nights?",
-        "vi": "Cảm ơn bạn. Đặt phòng cho hai đêm phải không?",
+        "en": "Certainly. Could I see your passport and booking confirmation, please?",
+        "vi": "Vâng. Tôi có thể xem hộ chiếu và xác nhận đặt phòng của bạn không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, from Friday to Sunday for two people.",
-        "vi": "Vâng, từ thứ Sáu đến Chủ nhật cho hai người.",
-        "hint": "Dùng from ... to ... để nói thời gian ở."
+        "en": "Sure, here they are. I booked a double room.",
+        "vi": "Được, đây ạ. Tôi đã đặt một phòng đôi.",
+        "hint": "Here they are dùng khi đưa nhiều giấy tờ."
       },
       {
         "speaker": "a",
-        "en": "Great. May I see your passport, please?",
-        "vi": "Tuyệt. Tôi có thể xem hộ chiếu của bạn được không?",
+        "en": "Thank you. You are staying for two nights, correct?",
+        "vi": "Cảm ơn bạn. Bạn ở hai đêm, đúng không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Sure. Here is my passport.",
-        "vi": "Được chứ. Đây là hộ chiếu của tôi.",
-        "hint": "Here is ... nghĩa là đây là ..."
-      },
-      {
-        "speaker": "a",
-        "en": "Thanks. Your double room is ready now.",
-        "vi": "Cảm ơn. Phòng đôi của bạn đã sẵn sàng rồi.",
-        "hint": ""
-      },
-      {
-        "speaker": "b",
-        "en": "Great. Is breakfast included in the price?",
-        "vi": "Tuyệt. Bữa sáng có được bao gồm trong giá không?",
-        "hint": "Dùng included để hỏi dịch vụ đã tính trong giá."
+        "en": "Yes, that is right. Is breakfast included in my room?",
+        "vi": "Vâng, đúng rồi. Bữa sáng có bao gồm trong phòng của tôi không?",
+        "hint": "Dùng Is breakfast included để hỏi dịch vụ có trong giá phòng."
       },
       {
         "speaker": "a",
         "en": "Yes, breakfast is included and starts at seven.",
-        "vi": "Có, bữa sáng đã bao gồm và bắt đầu lúc bảy giờ.",
+        "vi": "Có, bữa sáng được bao gồm và bắt đầu lúc bảy giờ.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Could you tell me the Wi-Fi password, please?",
-        "vi": "Bạn có thể cho tôi biết mật khẩu Wi-Fi không?",
-        "hint": "Could you tell me ... là cách hỏi lịch sự."
+        "en": "Thank you. Where is breakfast served in the morning?",
+        "vi": "Cảm ơn. Bữa sáng được phục vụ ở đâu vào buổi sáng?",
+        "hint": "Dùng Where is ... served để hỏi nơi phục vụ."
       },
       {
         "speaker": "a",
-        "en": "Certainly. It is printed on your room key.",
-        "vi": "Tất nhiên. Nó được in trên thẻ phòng của bạn.",
+        "en": "It is served on the first floor, beside the lobby.",
+        "vi": "Bữa sáng được phục vụ ở tầng một, cạnh sảnh.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Thank you. I am ready to go upstairs.",
-        "vi": "Cảm ơn. Tôi sẵn sàng lên phòng rồi.",
-        "hint": "Dùng ready to + động từ để nói đã sẵn sàng làm việc gì."
+        "en": "Great. Could I have the internet password too?",
+        "vi": "Tuyệt. Tôi có thể xin mật khẩu internet nữa không?",
+        "hint": "Could I have ... too? là cách xin thêm một thứ lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course. The password is Riverside Guest Twenty Six.",
+        "vi": "Tất nhiên. Mật khẩu là Riverside Guest Twenty Six.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you. May I have my key card now, please?",
+        "vi": "Cảm ơn. Bây giờ tôi có thể nhận thẻ phòng không?",
+        "hint": "May I have nghe trang trọng và lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly. Here is your key card. Enjoy your stay.",
+        "vi": "Chắc chắn rồi. Đây là thẻ phòng của bạn. Chúc bạn có kỳ nghỉ vui vẻ.",
+        "hint": ""
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly hotel receptionist at Riverside Hotel in Da Nang. You speak clearly, stay patient, and help guests check in with simple information.",
-    "opener": "Good afternoon. Welcome to Riverside Hotel. Do you have a booking?",
-    "goal": "Người học xác nhận đặt phòng, hoàn tất nhận phòng và hỏi thông tin cần thiết."
+    "persona": "You are a friendly hotel receptionist at Riverside Hotel. You welcome guests, confirm reservations, explain services, and help them check in politely.",
+    "opener": "Good afternoon, welcome to Riverside Hotel. How can I help?",
+    "goal": "Người học hoàn tất nhận phòng, hỏi về bữa sáng và nhận thẻ phòng."
   },
   "drills": [
     {
-      "vi": "Tôi có đặt phòng dưới tên Tran.",
-      "en": "I have a booking under Tran.",
+      "vi": "Tôi có đặt phòng dưới tên Lan.",
+      "en": "I have a reservation under Lan.",
       "alts": [
-        "There is a booking under Tran."
+        "The reservation is under Lan."
       ]
     },
     {
       "vi": "Tôi muốn nhận phòng, làm ơn.",
       "en": "I would like to check in, please.",
       "alts": [
-        "I am here to check in."
+        "Could I check in, please?"
       ]
     },
     {
-      "vi": "Đặt phòng là cho ba đêm.",
-      "en": "The booking is for three nights.",
+      "vi": "Tôi đã đặt một phòng đôi.",
+      "en": "I booked a double room.",
       "alts": [
-        "It is for three nights."
+        "I have booked a double room."
       ]
     },
     {
-      "vi": "Tôi có thể xem hộ chiếu của bạn không?",
-      "en": "May I see your passport, please?",
+      "vi": "Bữa sáng có bao gồm trong giá phòng không?",
+      "en": "Is breakfast included in the room rate?",
       "alts": [
-        "Could I see your passport, please?"
+        "Is breakfast included?"
       ]
     },
     {
-      "vi": "Bữa sáng có được bao gồm trong giá không?",
-      "en": "Is breakfast included in the price?",
+      "vi": "Bạn có thể cho tôi biết sảnh ở đâu không?",
+      "en": "Could you tell me where the lobby is?",
       "alts": [
-        "Is breakfast part of the price?"
+        "Where is the lobby, please?"
       ]
     },
     {
-      "vi": "Bạn có thể cho tôi biết mật khẩu Wi-Fi không?",
-      "en": "Could you tell me the Wi-Fi password, please?",
+      "vi": "Tôi có thể xem thẻ phòng của mình không?",
+      "en": "May I have my key card, please?",
       "alts": [
-        "What is the Wi-Fi password?"
+        "Could I have my key card, please?"
       ]
     },
     {
-      "vi": "Phòng của bạn ở tầng bốn.",
-      "en": "Your room is on the fourth floor.",
+      "vi": "Tôi có thể xin mật khẩu internet không?",
+      "en": "Could I have the internet password, please?",
       "alts": [
-        "The room is on the fourth floor."
+        "May I have the internet password, please?"
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại, chú ý âm /θ/ trong fourth.",
-    "Tự nói lại phần nhận phòng bằng tên và số đêm của bạn.",
-    "Đặt ba câu hỏi lịch sự với mẫu Could you tell me the ...?"
+    "Ghi âm lại hội thoại, chú ý âm cuối trong passport và breakfast.",
+    "Tự nói ba câu: xác nhận đặt phòng, hỏi bữa sáng và xin thẻ phòng.",
+    "Đổi tên khách, số đêm và loại phòng rồi luyện lại hội thoại."
   ]
 }

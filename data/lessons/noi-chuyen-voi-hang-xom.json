@@ -1,0 +1,368 @@
+{
+  "id": "noi-chuyen-voi-hang-xom",
+  "title": "Nói chuyện với hàng xóm mới chuyển đến",
+  "topic": "Làm quen với hàng xóm mới",
+  "level": "A2",
+  "summary": "Bạn gặp một hàng xóm người nước ngoài vừa chuyển đến cạnh nhà. Bạn chào hỏi, giới thiệu bản thân, giúp họ tìm địa điểm gần đó và hẹn gặp cuối tuần.",
+  "goals": [
+    "Chào hỏi và giới thiệu bản thân với hàng xóm mới.",
+    "Hỏi về thời điểm chuyển đến và thú cưng.",
+    "Đề nghị giúp đỡ và nhận lời mời thân thiện."
+  ],
+  "vocab": [
+    {
+      "en": "neighbor",
+      "ipa": "/ˈneɪbər/",
+      "vi": "hàng xóm",
+      "example": "My new neighbor moved in yesterday."
+    },
+    {
+      "en": "move in",
+      "ipa": "/muːv ɪn/",
+      "vi": "chuyển vào ở",
+      "example": "When did you move in?"
+    },
+    {
+      "en": "next door",
+      "ipa": "/nekst dɔːr/",
+      "vi": "ở ngay bên cạnh",
+      "example": "She lives next door."
+    },
+    {
+      "en": "neighborhood",
+      "ipa": "/ˈneɪbərhʊd/",
+      "vi": "khu phố, khu dân cư",
+      "example": "Welcome to the neighborhood."
+    },
+    {
+      "en": "friendly",
+      "ipa": "/ˈfrendli/",
+      "vi": "thân thiện",
+      "example": "Our neighbors are very friendly."
+    },
+    {
+      "en": "bark",
+      "ipa": "/bɑːrk/",
+      "vi": "sủa",
+      "example": "My dog barks at night sometimes."
+    },
+    {
+      "en": "grocery store",
+      "ipa": "/ˈɡroʊsəri stɔːr/",
+      "vi": "cửa hàng thực phẩm",
+      "example": "The grocery store is near the bank."
+    },
+    {
+      "en": "nearest",
+      "ipa": "/ˈnɪrəst/",
+      "vi": "gần nhất",
+      "example": "Where is the nearest bus stop?"
+    },
+    {
+      "en": "two blocks away",
+      "ipa": "/tuː blɑːks əˈweɪ/",
+      "vi": "cách hai dãy nhà",
+      "example": "The park is two blocks away."
+    },
+    {
+      "en": "let me know",
+      "ipa": "/let mi noʊ/",
+      "vi": "hãy cho tôi biết",
+      "example": "Let me know if you need help."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Welcome to the neighborhood.",
+      "vi": "Chào mừng bạn đến khu phố.",
+      "note": "Dùng để chào người mới chuyển đến."
+    },
+    {
+      "en": "When did you move in?",
+      "vi": "Bạn chuyển đến khi nào?",
+      "note": "Dùng quá khứ đơn để hỏi thời điểm đã chuyển đến."
+    },
+    {
+      "en": "Is your dog friendly with people?",
+      "vi": "Chó của bạn có thân thiện với mọi người không?",
+      "note": "Có thể thay dog bằng cat hoặc pet."
+    },
+    {
+      "en": "Please let me know if you need help.",
+      "vi": "Hãy cho tôi biết nếu bạn cần giúp đỡ.",
+      "note": "Cách đề nghị giúp đỡ lịch sự và tự nhiên."
+    },
+    {
+      "en": "Where is the nearest ___?",
+      "vi": "___ gần nhất ở đâu?",
+      "note": "Dùng để hỏi cửa hàng, trạm xe buýt, công viên hoặc hiệu thuốc."
+    },
+    {
+      "en": "Would you like ___ this weekend?",
+      "vi": "Bạn có muốn ___ vào cuối tuần này không?",
+      "note": "Cách mời thân thiện, lịch sự."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /d/ trong moved và friend",
+      "tip": "Phát âm nhẹ âm /d/ ở cuối từ, không bỏ hẳn âm cuối.",
+      "words": [
+        "moved",
+        "friend",
+        "need"
+      ]
+    },
+    {
+      "focus": "âm /b/ trong neighbor và bark",
+      "tip": "Khép hai môi rồi bật hơi nhẹ; đừng đọc thành âm /p/.",
+      "words": [
+        "neighbor",
+        "bark",
+        "blocks"
+      ]
+    },
+    {
+      "focus": "trọng âm trong neighborhood và grocery",
+      "tip": "Nhấn âm đầu: NEIGH-bor-hood và GRO-cery.",
+      "words": [
+        "neighborhood",
+        "grocery",
+        "friendly"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am move in yesterday.",
+      "right": "I moved in yesterday.",
+      "vi": "Dùng quá khứ đơn moved khi việc chuyển nhà đã xảy ra hôm qua."
+    },
+    {
+      "wrong": "Where is near grocery store?",
+      "right": "Where is the nearest grocery store?",
+      "vi": "Cần dùng the nearest để hỏi nơi gần nhất."
+    },
+    {
+      "wrong": "My dog is very friend.",
+      "right": "My dog is very friendly.",
+      "vi": "Friend là danh từ; friendly là tính từ."
+    },
+    {
+      "wrong": "Let me know me if you need help.",
+      "right": "Let me know if you need help.",
+      "vi": "Không dùng me sau let me know trong cấu trúc này."
+    },
+    {
+      "wrong": "Would you like go for coffee?",
+      "right": "Would you like to go for coffee?",
+      "vi": "Sau would like dùng to cộng động từ."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Chào người hàng xóm mới",
+      "formal": "Welcome to the neighborhood. Please let me know if you need anything.",
+      "casual": "Hi, welcome! Let me know if you need anything.",
+      "vi": "Câu formal phù hợp khi mới gặp hoặc muốn giữ khoảng cách lịch sự; câu casual hợp với hàng xóm cùng tuổi, thân thiện."
+    },
+    {
+      "situation": "Hỏi thời điểm chuyển đến",
+      "formal": "May I ask when you moved in?",
+      "casual": "When did you move in?",
+      "vi": "Câu formal mềm hơn khi nói với người lớn tuổi hoặc chưa quen; câu casual tự nhiên trong cuộc trò chuyện hàng xóm."
+    },
+    {
+      "situation": "Mời uống cà phê",
+      "formal": "Would you like to have coffee sometime this weekend?",
+      "casual": "Want to grab a coffee this weekend?",
+      "vi": "Câu formal lịch sự, an toàn với người mới quen; câu casual chỉ nên dùng khi không khí đã thoải mái."
+    },
+    {
+      "situation": "Đề nghị giúp đỡ",
+      "formal": "Please let me know if there is anything I can do.",
+      "casual": "Just let me know if you need a hand.",
+      "vi": "Câu formal phù hợp với người lạ; need a hand thân mật hơn và nghĩa là cần giúp đỡ."
+    }
+  ],
+  "culture": [
+    "Nhiều người bản xứ thường chào và nói vài câu ngắn khi gặp hàng xóm mới, nhưng không nhất thiết mời vào nhà ngay lần đầu.",
+    "Lời mời uống cà phê thường là cách làm quen nhẹ nhàng. Nếu chưa chắc thời gian, bạn có thể đáp rằng sẽ báo lại sau.",
+    "Khi đề nghị giúp, họ thường nói thẳng bạn cần giúp gì không. Bạn có thể từ chối lịch sự bằng cách cảm ơn và nói hiện tại mình ổn."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại từ hàng xóm mới",
+    "passage": "Hi Minh, this is Daniel from the blue house across the street. We met on Sunday. Thank you for telling me about the grocery store. I went there this morning and found everything I needed. My daughter starts school tomorrow, so we are still very busy. But we would love to join you for coffee next weekend. Please tell me what day is good for you.",
+    "vi": "Chào Minh, tôi là Daniel ở ngôi nhà màu xanh đối diện đường. Chúng ta đã gặp nhau vào Chủ nhật. Cảm ơn bạn đã chỉ cho tôi về cửa hàng thực phẩm. Tôi đã đến đó sáng nay và tìm được mọi thứ mình cần. Con gái tôi bắt đầu đi học vào ngày mai, nên chúng tôi vẫn rất bận. Nhưng chúng tôi rất muốn đi uống cà phê với bạn vào cuối tuần sau. Hãy cho tôi biết ngày nào phù hợp với bạn.",
+    "questions": [
+      {
+        "q": "Where does Daniel live?",
+        "choices": [
+          "Next door",
+          "Across the street",
+          "Near the grocery store"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 2 vì Daniel nói anh ấy ở ngôi nhà màu xanh đối diện đường."
+      },
+      {
+        "q": "Why is Daniel busy?",
+        "choices": [
+          "He is moving again",
+          "His daughter starts school",
+          "He works at the store"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là lựa chọn 2 vì anh ấy nói con gái bắt đầu đi học vào ngày mai."
+      },
+      {
+        "q": "What does Daniel want to do next weekend?",
+        "choices": [
+          "Go for coffee",
+          "Visit the school",
+          "Find a new store"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là lựa chọn 1 vì anh ấy nói gia đình rất muốn đi uống cà phê vào cuối tuần sau."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Hàng xóm người nước ngoài mới chuyển đến",
+      "b": "Người học, hàng xóm sống tại đây"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi there! I just moved in next door.",
+        "vi": "Chào bạn! Tôi vừa chuyển đến nhà bên cạnh.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, welcome to the neighborhood. I am Minh.",
+        "vi": "Chào, chào mừng bạn đến khu phố. Tôi là Minh.",
+        "hint": "Chào mừng trước, rồi giới thiệu tên của bạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Thanks, Minh. I am Sarah. Nice to meet you.",
+        "vi": "Cảm ơn, Minh. Tôi là Sarah. Rất vui được gặp bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Nice to meet you too. When did you move in?",
+        "vi": "Tôi cũng rất vui được gặp bạn. Bạn chuyển đến khi nào?",
+        "hint": "Dùng did để hỏi về thời điểm trong quá khứ."
+      },
+      {
+        "speaker": "a",
+        "en": "I moved in yesterday with my sister and dog.",
+        "vi": "Tôi chuyển đến hôm qua cùng chị gái và chú chó của tôi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That is exciting. Is your dog friendly with people?",
+        "vi": "Thật thú vị. Chó của bạn có thân thiện với mọi người không?",
+        "hint": "Dùng Is your dog để hỏi về thú cưng."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, he is very friendly, but he barks sometimes.",
+        "vi": "Có, nó rất thân thiện, nhưng đôi khi nó sủa.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "No problem. Please let me know if you need help.",
+        "vi": "Không sao đâu. Hãy cho tôi biết nếu bạn cần giúp đỡ.",
+        "hint": "Đây là cách đề nghị giúp đỡ tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "That is kind. Where is the nearest grocery store?",
+        "vi": "Bạn thật tốt. Cửa hàng thực phẩm gần nhất ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is two blocks away, next to the bank.",
+        "vi": "Nó cách hai dãy nhà, cạnh ngân hàng.",
+        "hint": "Dùng next to để nói vị trí ngay cạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "Great, thanks. Would you like coffee this weekend?",
+        "vi": "Tuyệt, cảm ơn. Bạn có muốn uống cà phê cuối tuần này không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Sure, that sounds nice. Saturday morning works for me.",
+        "vi": "Được chứ, nghe hay đấy. Sáng thứ Bảy hợp với tôi.",
+        "hint": "Dùng works for me để nói thời gian đó phù hợp."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly foreign neighbor who just moved into the house next door. You are standing outside your home in a quiet neighborhood, carrying a small box. You are warm, polite, and curious about the area.",
+    "opener": "Hi there! I just moved in next door.",
+    "goal": "Người học chào hỏi, giới thiệu bản thân, giúp hàng xóm tìm địa điểm gần đó và phản hồi một lời mời thân thiện."
+  },
+  "drills": [
+    {
+      "vi": "Chào mừng bạn đến khu phố.",
+      "en": "Welcome to the neighborhood.",
+      "alts": [
+        "Welcome to our neighborhood."
+      ]
+    },
+    {
+      "vi": "Bạn chuyển đến khi nào?",
+      "en": "When did you move in?",
+      "alts": []
+    },
+    {
+      "vi": "Chó của bạn có thân thiện với mọi người không?",
+      "en": "Is your dog friendly with people?",
+      "alts": [
+        "Is your pet friendly?"
+      ]
+    },
+    {
+      "vi": "Hãy cho tôi biết nếu bạn cần giúp đỡ.",
+      "en": "Please let me know if you need help.",
+      "alts": [
+        "Let me know if you need anything."
+      ]
+    },
+    {
+      "vi": "Cửa hàng thực phẩm gần nhất ở đâu?",
+      "en": "Where is the nearest grocery store?",
+      "alts": [
+        "Where is the nearest store?"
+      ]
+    },
+    {
+      "vi": "Nó cách hai dãy nhà, cạnh ngân hàng.",
+      "en": "It is two blocks away, next to the bank.",
+      "alts": []
+    },
+    {
+      "vi": "Bạn có muốn uống cà phê cuối tuần này không?",
+      "en": "Would you like coffee this weekend?",
+      "alts": [
+        "Would you like to have coffee this weekend?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý phát âm âm cuối trong moved và need.",
+    "Tự nói ba câu để chào và giới thiệu bản thân với hàng xóm mới.",
+    "Viết ba câu dùng mẫu Where is the nearest ___?"
+  ]
+}

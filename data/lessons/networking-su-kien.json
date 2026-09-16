@@ -3,309 +3,384 @@
   "title": "Networking ở hội thảo: Bắt chuyện và giữ liên lạc",
   "topic": "Kết nối tại hội thảo",
   "level": "B2",
-  "summary": "Bạn gặp một chuyên gia tại khu vực giải lao của hội thảo, bắt chuyện về công việc và trao đổi một ý tưởng hợp tác. Cuối cuộc trò chuyện, hai bên thống nhất cách giữ liên lạc và bước tiếp theo.",
+  "summary": "Bạn gặp một chuyên gia trong giờ giải lao của hội thảo và bắt đầu cuộc trò chuyện tự nhiên. Bạn tìm điểm chung, trao đổi góc nhìn chuyên môn và hẹn giữ liên lạc sau sự kiện.",
   "goals": [
-    "Tự nhiên mở đầu cuộc trò chuyện với người lạ tại sự kiện chuyên môn",
-    "Trình bày ngắn gọn công việc, quan điểm và đề xuất hợp tác",
-    "Trao đổi thông tin liên hệ và hẹn bước tiếp theo một cách chuyên nghiệp"
+    "Mở đầu cuộc trò chuyện với người lạ tại hội thảo một cách tự nhiên",
+    "Đặt câu hỏi sâu hơn để duy trì cuộc nói chuyện chuyên môn",
+    "Đề xuất và xác nhận cách giữ liên lạc lịch sự"
   ],
   "vocab": [
     {
       "en": "break the ice",
       "ipa": "/breɪk ði aɪs/",
-      "vi": "phá tan sự ngại ngùng ban đầu",
+      "vi": "phá băng, bắt đầu cuộc trò chuyện bớt ngượng ngùng",
       "example": "I usually ask about the keynote to break the ice."
     },
     {
       "en": "keynote",
       "ipa": "/ˈkiːnoʊt/",
-      "vi": "bài phát biểu chính tại sự kiện",
-      "example": "The keynote gave us a useful overview of current trends."
+      "vi": "bài phát biểu chính tại hội thảo",
+      "example": "The keynote gave me a new perspective on customer trust."
     },
     {
-      "en": "mutual connection",
-      "ipa": "/ˈmjuːtʃuəl kəˈnekʃən/",
-      "vi": "mối quan hệ chung, người quen chung",
-      "example": "It turns out we have a mutual connection in the industry."
+      "en": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "vi": "điều quan trọng rút ra được",
+      "example": "My main takeaway was that small tests can reveal a lot."
     },
     {
-      "en": "cross-functional",
-      "ipa": "/ˌkrɔːs ˈfʌŋkʃənəl/",
-      "vi": "liên phòng ban, liên chức năng",
-      "example": "We need a cross-functional team to deliver the project."
+      "en": "pick someone's brain",
+      "ipa": "/pɪk ˈsʌmwʌnz breɪn/",
+      "vi": "hỏi ai đó để học hỏi kinh nghiệm hoặc ý tưởng",
+      "example": "I was hoping to pick your brain about community building."
     },
     {
-      "en": "pain point",
-      "ipa": "/ˈpeɪn pɔɪnt/",
-      "vi": "điểm khó khăn, vấn đề gây phiền toái",
-      "example": "Slow approval processes are a major pain point for our clients."
-    },
-    {
-      "en": "thought leadership",
-      "ipa": "/ˈθɔːt ˌliːdərʃɪp/",
-      "vi": "vai trò dẫn dắt tư tưởng, chuyên môn có ảnh hưởng",
-      "example": "Her articles have strengthened the company's thought leadership."
+      "en": "in the same boat",
+      "ipa": "/ɪn ðə seɪm boʊt/",
+      "vi": "cùng hoàn cảnh hoặc cùng gặp một vấn đề",
+      "example": "Many small teams are in the same boat when budgets are tight."
     },
     {
       "en": "follow up",
       "ipa": "/ˈfɑːloʊ ʌp/",
-      "vi": "liên hệ lại, theo dõi sau cuộc gặp",
-      "example": "I will follow up with a short message tomorrow."
-    },
-    {
-      "en": "pick your brain",
-      "ipa": "/pɪk jʊr breɪn/",
-      "vi": "xin ý kiến hoặc kinh nghiệm của ai đó",
-      "example": "Could I pick your brain about scaling a small team?"
+      "vi": "liên hệ lại để tiếp tục trao đổi",
+      "example": "I will follow up next week with the article I mentioned."
     },
     {
       "en": "touch base",
       "ipa": "/tʌtʃ beɪs/",
-      "vi": "liên lạc ngắn để cập nhật",
-      "example": "Let us touch base next week after the conference."
+      "vi": "liên lạc ngắn để cập nhật tình hình",
+      "example": "Let us touch base after the conference."
     },
     {
-      "en": "win-win",
-      "ipa": "/ˌwɪn ˈwɪn/",
-      "vi": "cùng có lợi",
-      "example": "A pilot project could create a win-win for both teams."
+      "en": "mutual connection",
+      "ipa": "/ˈmjuːtʃuəl kəˈnekʃn/",
+      "vi": "người quen chung",
+      "example": "We discovered that we have a mutual connection in Singapore."
+    },
+    {
+      "en": "worth exploring",
+      "ipa": "/wɜːrθ ɪkˈsplɔːrɪŋ/",
+      "vi": "đáng để tìm hiểu thêm",
+      "example": "That partnership idea is worth exploring."
+    },
+    {
+      "en": "stay in touch",
+      "ipa": "/steɪ ɪn tʌtʃ/",
+      "vi": "giữ liên lạc",
+      "example": "It was great meeting you. Let us stay in touch."
     }
   ],
   "patterns": [
     {
-      "en": "I do not think we have met yet. I am ___.",
-      "vi": "Tôi nghĩ là chúng ta chưa gặp nhau. Tôi là ___.",
-      "note": "Cách mở lời lịch sự, tự nhiên tại sự kiện."
+      "en": "What did you make of the keynote?",
+      "vi": "Bạn thấy bài phát biểu chính thế nào?",
+      "note": "Cách tự nhiên để hỏi nhận xét, thân mật vừa phải nhưng vẫn chuyên nghiệp."
     },
     {
-      "en": "What brought you to this conference?",
-      "vi": "Điều gì khiến bạn đến hội thảo này?",
-      "note": "Câu hỏi mở giúp kéo dài cuộc trò chuyện."
+      "en": "I was hoping to pick your brain about ___.",
+      "vi": "Tôi hy vọng được hỏi anh/chị thêm về ___.",
+      "note": "Dùng khi muốn học hỏi kinh nghiệm; phù hợp sau khi đã mở đầu lịch sự."
     },
     {
-      "en": "One challenge we keep running into is ___.",
-      "vi": "Một thách thức chúng tôi liên tục gặp phải là ___.",
-      "note": "Dùng để nêu vấn đề công việc một cách tự nhiên."
+      "en": "From your perspective, how do you ___?",
+      "vi": "Theo góc nhìn của anh/chị, anh/chị làm thế nào để ___?",
+      "note": "Mời người đối thoại chia sẻ chuyên môn, tạo cảm giác được tôn trọng."
     },
     {
       "en": "Would you be open to ___?",
-      "vi": "Bạn có sẵn sàng cân nhắc ___ không?",
-      "note": "Mẫu đề xuất mềm, phù hợp khi thương lượng hoặc hợp tác."
+      "vi": "Anh/chị có sẵn lòng ___ không?",
+      "note": "Cách đề xuất nhẹ nhàng, không gây áp lực cho người lạ."
     },
     {
-      "en": "Let us touch base next week and see where it goes.",
-      "vi": "Hãy liên lạc vào tuần sau và xem mọi việc tiến triển thế nào.",
-      "note": "Dùng để chốt một bước tiếp theo mà không gây áp lực."
+      "en": "I will follow up with ___ so we can keep the conversation going.",
+      "vi": "Tôi sẽ liên hệ lại kèm ___ để chúng ta tiếp tục trao đổi.",
+      "note": "Nêu rõ giá trị bạn sẽ gửi thay vì chỉ nói chung chung là kết nối."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /θ/ trong thought",
-      "tip": "Đặt nhẹ đầu lưỡi giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/ hoặc /s/.",
+      "focus": "âm cuối /k/ và /p/",
+      "tip": "Phát âm âm cuối rõ nhưng không thêm nguyên âm phía sau. Tránh đọc keynote thành key-no-tờ hoặc follow up thành follow ấp-pờ.",
       "words": [
-        "thought",
-        "three",
-        "through"
+        "keynote",
+        "takeaway",
+        "follow up"
       ]
     },
     {
-      "focus": "trọng âm trong networking và conference",
-      "tip": "Nhấn âm đầu: NET-working, CON-ference; các âm còn lại đọc nhẹ hơn.",
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm chính để lời nói rõ và tự nhiên hơn: connection nhấn âm hai, perspective nhấn âm hai.",
       "words": [
-        "networking",
-        "conference",
-        "keynote"
+        "connection",
+        "perspective",
+        "professional"
       ]
     },
     {
-      "focus": "nối âm trong cụm follow up",
-      "tip": "Nối âm cuối /oʊ/ với nguyên âm đầu của up để cụm từ liền mạch, không ngắt quá rõ từng từ.",
+      "focus": "nối âm trong cụm từ thường gặp",
+      "tip": "Nối phụ âm cuối với nguyên âm đầu của từ sau: pick your brain và stay in touch sẽ nghe liền mạch hơn.",
       "words": [
-        "follow up",
-        "touch base",
-        "would you be open to"
+        "pick your brain",
+        "stay in touch",
+        "worth exploring"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Nice to meet you. I heard a lot about your company.",
-      "right": "Nice to meet you. I have heard a lot about your company.",
-      "vi": "Khi nói đã nghe nhiều điều trước thời điểm hiện tại, dùng hiện tại hoàn thành."
+      "wrong": "I am very interesting in your work.",
+      "right": "I am very interested in your work.",
+      "vi": "Interested mô tả cảm xúc của người nói; interesting mô tả sự vật hoặc công việc gây hứng thú."
     },
     {
-      "wrong": "What is your job in this conference?",
-      "right": "What brought you to this conference?",
-      "vi": "Không dùng job để hỏi lý do tham dự; mẫu đúng tự nhiên và mở rộng được câu chuyện."
+      "wrong": "Can I ask your name card?",
+      "right": "Could I have your business card?",
+      "vi": "Không dùng ask trực tiếp với tân ngữ này. Business card là cách gọi tự nhiên hơn name card trong ngữ cảnh quốc tế."
     },
     {
-      "wrong": "I will contact to you next week.",
-      "right": "I will contact you next week.",
-      "vi": "Contact là động từ trực tiếp, không đi với to."
+      "wrong": "I will contact with you after the conference.",
+      "right": "I will contact you after the conference.",
+      "vi": "Contact là ngoại động từ nên không dùng with sau nó."
     },
     {
-      "wrong": "Can we exchange our contacts?",
-      "right": "Could we exchange contact details?",
-      "vi": "Contact details tự nhiên hơn contacts khi xin thông tin liên lạc."
+      "wrong": "Let us keep contact.",
+      "right": "Let us stay in touch.",
+      "vi": "Keep contact không tự nhiên trong giao tiếp. Stay in touch là cụm thông dụng để nói giữ liên lạc."
     }
   ],
+  "variations": [
+    {
+      "situation": "Bắt chuyện sau bài phát biểu",
+      "formal": "I was interested in your comments during the discussion. May I ask what you thought of the keynote?",
+      "casual": "What did you think of the keynote?",
+      "vi": "Câu formal phù hợp khi bắt chuyện với diễn giả, khách mời cấp cao hoặc người chưa quen; câu casual dùng tốt với người cùng tham dự trong giờ giải lao."
+    },
+    {
+      "situation": "Xin kết nối",
+      "formal": "Would you be open to connecting on LinkedIn, if that is convenient for you?",
+      "casual": "Let us connect on LinkedIn.",
+      "vi": "Câu formal giảm áp lực cho người lạ hoặc cấp trên; câu casual phù hợp khi hai bên đã nói chuyện thoải mái và ngang vai vế."
+    },
+    {
+      "situation": "Đề nghị trao đổi thêm",
+      "formal": "If you have time in the coming weeks, I would appreciate the chance to continue this conversation.",
+      "casual": "We should continue this conversation sometime.",
+      "vi": "Câu formal lịch sự và không áp đặt lịch hẹn; câu casual tự nhiên với đồng nghiệp hoặc người đã tạo được thiện cảm."
+    },
+    {
+      "situation": "Kết thúc cuộc trò chuyện",
+      "formal": "It has been a pleasure speaking with you. I will follow up with the information I mentioned.",
+      "casual": "Great chatting with you. I will send that over next week.",
+      "vi": "Câu formal hợp với người mới gặp trong môi trường chuyên nghiệp; câu casual dùng khi không khí gần gũi hơn nhưng vẫn lịch sự."
+    }
+  ],
+  "culture": [
+    "Trong hội thảo ở các nước nói tiếng Anh, bắt chuyện ngắn với người đứng gần, chẳng hạn hỏi về bài phát biểu hoặc phiên họp, thường được xem là bình thường chứ không làm phiền.",
+    "Khi xin kết nối, hãy nói rõ lý do hoặc điều bạn sẽ chia sẻ sau đó. Một lời mời kết nối không có ngữ cảnh dễ bị quên hoặc bị bỏ qua.",
+    "Nếu người kia nói họ bận hoặc chỉ đáp ngắn, hãy kết thúc nhẹ nhàng thay vì cố kéo dài. Sự thẳng thắn lịch sự thường được đánh giá cao."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau hội thảo",
+    "passage": "Hi Minh, this is Daniel from the product workshop yesterday. It was great comparing notes with you after the session. I mentioned a guide on customer interviews, and I have just sent it to you on LinkedIn. Do not feel that you need to reply right away. If it is useful, perhaps we could touch base next month and talk about what your team discovered. Enjoy the rest of the conference.",
+    "vi": "Chào Minh, tôi là Daniel từ buổi hội thảo về sản phẩm hôm qua. Thật vui khi trao đổi ghi chú với bạn sau phiên họp. Tôi đã nhắc đến một tài liệu hướng dẫn phỏng vấn khách hàng và vừa gửi nó cho bạn trên LinkedIn. Bạn không cần phải trả lời ngay. Nếu tài liệu hữu ích, có lẽ chúng ta có thể liên lạc vào tháng sau và nói về những gì nhóm của bạn tìm ra. Chúc bạn tận hưởng phần còn lại của hội thảo.",
+    "questions": [
+      {
+        "q": "Where did Daniel send the guide?",
+        "choices": [
+          "By email",
+          "On LinkedIn",
+          "At the registration desk"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là On LinkedIn vì Daniel nói rằng anh ấy vừa gửi tài liệu cho Minh trên LinkedIn."
+      },
+      {
+        "q": "When does Daniel suggest talking again?",
+        "choices": [
+          "Later that day",
+          "Next month",
+          "Next year"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Next month vì Daniel đề nghị có thể liên lạc vào tháng sau."
+      },
+      {
+        "q": "What does Daniel say Minh does not need to do?",
+        "choices": [
+          "Reply immediately",
+          "Read the guide",
+          "Attend the conference"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Reply immediately vì Daniel nói Minh không cần trả lời ngay lập tức."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Chuyên gia vừa gặp tại hội thảo",
-      "b": "Người tham dự hội thảo"
+      "a": "Chuyên gia bạn vừa gặp",
+      "b": "Người học, người tham dự hội thảo"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Hi, I do not think we have met yet. I am Maya Chen from Horizon Labs.",
-        "vi": "Chào, tôi nghĩ là chúng ta chưa gặp nhau. Tôi là Maya Chen, đến từ Horizon Labs.",
+        "en": "Hi, I do not think we have met yet. I am Maya Chen. What did you make of the keynote?",
+        "vi": "Chào, hình như chúng ta chưa gặp nhau. Tôi là Maya Chen. Bạn thấy bài phát biểu chính thế nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Nice to meet you, Maya. I am Minh. I work in product strategy at a fintech company.",
-        "vi": "Rất vui được gặp bạn, Maya. Tôi là Minh. Tôi làm chiến lược sản phẩm tại một công ty công nghệ tài chính.",
-        "hint": "Giới thiệu tên, rồi dùng I work in để nói lĩnh vực của bạn."
+        "en": "Hi Maya, I am Minh. I liked it, especially the part about building trust with customers.",
+        "vi": "Chào Maya, tôi là Minh. Tôi thích bài đó, đặc biệt là phần nói về xây dựng niềm tin với khách hàng.",
+        "hint": "Dùng especially the part about để nêu phần bạn ấn tượng."
       },
       {
         "speaker": "a",
-        "en": "That is a fascinating space. What brought you to this conference?",
-        "vi": "Đó là một lĩnh vực rất thú vị. Điều gì khiến bạn đến hội thảo này?",
+        "en": "Same here. It was refreshing to hear someone admit that trust takes time, not just clever marketing.",
+        "vi": "Tôi cũng vậy. Thật mới mẻ khi nghe ai đó thừa nhận rằng niềm tin cần thời gian, chứ không chỉ cần tiếp thị khéo léo.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I came for the sessions on responsible artificial intelligence, but I am also hoping to meet people facing similar challenges.",
-        "vi": "Tôi đến vì các phiên thảo luận về trí tuệ nhân tạo có trách nhiệm, nhưng tôi cũng hy vọng gặp những người đang đối mặt với các thách thức tương tự.",
-        "hint": "Dùng but I am also hoping to để thêm mục đích thứ hai."
+        "en": "Exactly. My team is trying to improve customer retention, so that point really hit home for me.",
+        "vi": "Đúng vậy. Nhóm của tôi đang cố cải thiện việc giữ chân khách hàng, nên ý đó thực sự rất đúng với tình hình của tôi.",
+        "hint": "Hit home nghĩa là chạm đúng vào trải nghiệm hoặc vấn đề của mình."
       },
       {
         "speaker": "a",
-        "en": "You picked a good event for that. My team helps companies turn artificial intelligence ideas into practical tools without losing sight of risk and trust.",
-        "vi": "Bạn đã chọn đúng sự kiện cho việc đó. Nhóm của tôi giúp các công ty biến ý tưởng trí tuệ nhân tạo thành công cụ thực tế mà vẫn chú trọng đến rủi ro và sự tin cậy.",
+        "en": "What kind of work do you do?",
+        "vi": "Bạn làm công việc gì?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That sounds relevant. One challenge we keep running into is getting our legal, technical, and customer teams aligned.",
-        "vi": "Nghe rất liên quan. Một thách thức chúng tôi liên tục gặp phải là làm cho các nhóm pháp lý, kỹ thuật và chăm sóc khách hàng thống nhất với nhau.",
-        "hint": "Cụm keep running into diễn tả vấn đề lặp đi lặp lại."
+        "en": "I work for a growing software company in Ho Chi Minh City. We have a solid product, but turning first-time users into regular customers has been difficult.",
+        "vi": "Tôi làm cho một công ty phần mềm đang phát triển ở Thành phố Hồ Chí Minh. Chúng tôi có sản phẩm tốt, nhưng biến người dùng lần đầu thành khách hàng thường xuyên thì khó.",
+        "hint": "Dùng but để nối điểm mạnh với thách thức thực tế."
       },
       {
         "speaker": "a",
-        "en": "That is a classic cross-functional pain point. In my experience, alignment improves when every team agrees on one customer outcome instead of defending its own priorities.",
-        "vi": "Đó là một điểm khó khăn điển hình giữa các phòng ban. Theo kinh nghiệm của tôi, sự thống nhất sẽ tốt hơn khi mọi nhóm cùng đồng ý về một kết quả cho khách hàng thay vì bảo vệ ưu tiên riêng.",
+        "en": "That is a common challenge. In my experience, teams often focus on adding features when they should first find out where users lose confidence.",
+        "vi": "Đó là thách thức phổ biến. Theo kinh nghiệm của tôi, các nhóm thường tập trung thêm tính năng, trong khi trước hết họ nên tìm hiểu người dùng mất niềm tin ở đâu.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I agree in principle, although it can be difficult when compliance needs more evidence before a product team can move quickly.",
-        "vi": "Về nguyên tắc tôi đồng ý, dù việc đó có thể khó khi bộ phận tuân thủ cần thêm bằng chứng trước khi nhóm sản phẩm có thể hành động nhanh.",
-        "hint": "Dùng although để nêu ý đối lập một cách mềm mại."
+        "en": "That makes sense. I was hoping to pick your brain about how you identify those moments without overwhelming users with surveys.",
+        "vi": "Nghe hợp lý. Tôi hy vọng được hỏi chị thêm về cách chị xác định những thời điểm đó mà không làm người dùng ngập trong các khảo sát.",
+        "hint": "Pick your brain là cách lịch sự, thân thiện để xin học hỏi chuyên môn."
       },
       {
         "speaker": "a",
-        "en": "Absolutely. Speed should not come at the expense of good governance. Would you be open to testing a small pilot with clear review points, rather than trying to solve everything at once?",
-        "vi": "Chắc chắn rồi. Tốc độ không nên phải đánh đổi bằng quản trị tốt. Bạn có sẵn sàng thử một dự án thí điểm nhỏ với các mốc rà soát rõ ràng, thay vì cố giải quyết mọi thứ cùng lúc không?",
+        "en": "We combine short interviews with behavior data. If several users abandon the same step, we ask a few of them what they expected to happen there.",
+        "vi": "Chúng tôi kết hợp phỏng vấn ngắn với dữ liệu hành vi. Nếu nhiều người dùng bỏ ở cùng một bước, chúng tôi hỏi một vài người trong số họ đã kỳ vọng điều gì xảy ra ở đó.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, a pilot could be easier to sell internally. What would you need from us to decide whether it is a good fit?",
-        "vi": "Có, một dự án thí điểm có thể dễ thuyết phục nội bộ hơn. Bạn cần gì từ chúng tôi để quyết định xem nó có phù hợp hay không?",
-        "hint": "Good fit nghĩa là phù hợp để hợp tác hoặc áp dụng."
+        "en": "I can see why that works. We rely heavily on dashboards, although they rarely explain the reason behind a user's decision.",
+        "vi": "Tôi hiểu vì sao cách đó hiệu quả. Chúng tôi phụ thuộc nhiều vào bảng số liệu, mặc dù chúng hiếm khi giải thích lý do đằng sau quyết định của người dùng.",
+        "hint": "Dùng although để thêm ý đối lập tinh tế trong một câu."
       },
       {
         "speaker": "a",
-        "en": "A short overview of your customer journey, the main risk concerns, and one measurable goal would be enough for a first conversation. Then we could identify where a pilot would create the most value.",
-        "vi": "Một bản tổng quan ngắn về hành trình khách hàng, các mối lo về rủi ro chính và một mục tiêu đo lường được là đủ cho cuộc trao đổi đầu tiên. Sau đó, chúng ta có thể xác định dự án thí điểm sẽ tạo giá trị nhiều nhất ở đâu.",
+        "en": "Exactly. Data tells you what happened, while conversations help you understand why. The two approaches work best together.",
+        "vi": "Chính xác. Dữ liệu cho bạn biết điều gì đã xảy ra, còn trò chuyện giúp bạn hiểu tại sao. Hai cách này hiệu quả nhất khi kết hợp.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That is manageable. I would also like to pick your brain about how you persuaded stakeholders to support this kind of work.",
-        "vi": "Điều đó khả thi. Tôi cũng muốn xin ý kiến của bạn về cách bạn thuyết phục các bên liên quan ủng hộ loại công việc này.",
-        "hint": "Pick your brain là cách thân thiện để xin lời khuyên chuyên môn."
+        "en": "From your perspective, would it be worth starting with five customer interviews before we redesign the onboarding process?",
+        "vi": "Theo góc nhìn của chị, liệu có đáng để bắt đầu bằng năm cuộc phỏng vấn khách hàng trước khi chúng tôi thiết kế lại quy trình hướng dẫn người dùng không?",
+        "hint": "Would it be worth là cách hỏi ý kiến chuyên môn mà không đòi hỏi câu trả lời tuyệt đối."
       },
       {
         "speaker": "a",
-        "en": "I would be happy to. The key is usually to frame governance as an enabler of sustainable growth, not as a brake on innovation. That makes the conversation less defensive.",
-        "vi": "Tôi rất sẵn lòng. Điểm mấu chốt thường là xem quản trị như một yếu tố giúp tăng trưởng bền vững, chứ không phải lực cản đổi mới. Cách đó khiến cuộc trao đổi bớt phòng thủ hơn.",
+        "en": "Yes, provided you speak to a mix of new and long-term users. Five thoughtful interviews can uncover patterns that a large survey may miss.",
+        "vi": "Có, với điều kiện bạn nói chuyện với cả người dùng mới lẫn người dùng lâu năm. Năm cuộc phỏng vấn kỹ lưỡng có thể phát hiện những khuôn mẫu mà một khảo sát lớn bỏ sót.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That framing would help a lot. Could we exchange contact details so I can send you a brief outline after the conference?",
-        "vi": "Cách diễn đạt đó sẽ giúp ích rất nhiều. Chúng ta có thể trao đổi thông tin liên hệ để tôi gửi bạn một bản phác thảo ngắn sau hội thảo không?",
-        "hint": "Dùng Could we exchange contact details để xin thông tin liên hệ lịch sự."
+        "en": "That is really useful. Would you be open to connecting on LinkedIn? I would also love to send you a short summary of what we learn.",
+        "vi": "Điều đó thực sự hữu ích. Chị có sẵn lòng kết nối trên LinkedIn không? Tôi cũng rất muốn gửi chị một bản tóm tắt ngắn về những gì chúng tôi học được.",
+        "hint": "Đề nghị kết nối kèm giá trị cụ thể bạn sẽ chia sẻ để lời mời tự nhiên hơn."
       },
       {
         "speaker": "a",
-        "en": "Of course. Let us connect on LinkedIn as well. If you send the outline by Friday, I can review it and we can touch base for twenty minutes next week.",
-        "vi": "Tất nhiên. Chúng ta cũng hãy kết nối trên LinkedIn. Nếu bạn gửi bản phác thảo trước thứ Sáu, tôi có thể xem qua và chúng ta có thể liên lạc trong hai mươi phút vào tuần sau.",
+        "en": "Absolutely. Here, let me scan your code. I am curious to hear what your interviews reveal, especially if the findings challenge your dashboard data.",
+        "vi": "Tất nhiên rồi. Đây, để tôi quét mã của bạn. Tôi tò mò muốn nghe các cuộc phỏng vấn của bạn tiết lộ điều gì, nhất là nếu kết quả thách thức dữ liệu trên bảng số liệu.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Perfect. I will send it by Friday and follow up next week. It was great meeting you, Maya. Enjoy the rest of the conference.",
-        "vi": "Tuyệt vời. Tôi sẽ gửi trước thứ Sáu và liên hệ lại vào tuần sau. Rất vui được gặp bạn, Maya. Chúc bạn tận hưởng phần còn lại của hội thảo.",
-        "hint": "Kết thúc bằng lời cảm ơn và xác nhận rõ bước tiếp theo."
+        "en": "Thank you, Maya. I will follow up next week with our first takeaway. It was a pleasure meeting you, and I hope we can stay in touch.",
+        "vi": "Cảm ơn chị, Maya. Tôi sẽ liên hệ lại vào tuần sau với điều rút ra đầu tiên của chúng tôi. Rất vui được gặp chị, và tôi hy vọng chúng ta có thể giữ liên lạc.",
+        "hint": "Kết thúc bằng thời điểm liên hệ cụ thể và lời chào lịch sự."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are Maya Chen, an experienced artificial intelligence strategy consultant at a professional conference. You have just met the learner during a networking break. You are warm, curious, and practical, and you give thoughtful but concise answers while exploring whether there could be a useful professional connection.",
-    "opener": "Hi, I do not think we have met yet. I am Maya Chen from Horizon Labs. What brought you to the conference?",
-    "goal": "Người học bắt chuyện với chuyên gia, thảo luận một thách thức công việc, đề xuất bước tiếp theo và trao đổi thông tin liên hệ."
+    "persona": "You are a respected customer-experience consultant attending a business conference during a coffee break. You have just met the learner, are warm but professional, and enjoy discussing practical ideas. Ask thoughtful follow-up questions, share concise expertise, and agree on a realistic way to stay in touch before ending the conversation.",
+    "opener": "Hi, I do not think we have met yet. I am Maya Chen. What did you make of the keynote?",
+    "goal": "Người học bắt chuyện với chuyên gia, trao đổi một vấn đề công việc và đề xuất giữ liên lạc với lý do rõ ràng."
   },
   "drills": [
     {
-      "vi": "Tôi nghĩ là chúng ta chưa gặp nhau.",
-      "en": "I do not think we have met yet.",
+      "vi": "Bạn thấy bài phát biểu chính thế nào?",
+      "en": "What did you make of the keynote?",
       "alts": [
-        "I do not believe we have met before."
+        "What was your takeaway from the keynote?"
       ]
     },
     {
-      "vi": "Điều gì khiến bạn đến hội thảo này?",
-      "en": "What brought you to this conference?",
+      "vi": "Tôi hy vọng được hỏi anh chị thêm về việc giữ chân khách hàng.",
+      "en": "I was hoping to pick your brain about customer retention.",
       "alts": [
-        "What made you decide to attend this conference?"
+        "I would love to hear your thoughts on customer retention."
       ]
     },
     {
-      "vi": "Một thách thức chúng tôi liên tục gặp phải là phối hợp các nhóm.",
-      "en": "One challenge we keep running into is aligning our teams.",
+      "vi": "Theo góc nhìn của anh chị, nhóm nhỏ nên bắt đầu từ đâu?",
+      "en": "From your perspective, where should a small team start?",
       "alts": [
-        "We keep running into challenges when we try to align our teams."
+        "What would you recommend as a first step for a small team?"
       ]
     },
     {
-      "vi": "Bạn có sẵn sàng thử một dự án thí điểm nhỏ không?",
-      "en": "Would you be open to testing a small pilot?",
+      "vi": "Nhiều công ty nhỏ đang cùng gặp tình trạng này.",
+      "en": "Many small companies are in the same boat.",
       "alts": [
-        "Would you consider starting with a small pilot?"
+        "A lot of small companies face the same challenge."
       ]
     },
     {
-      "vi": "Tôi muốn xin ý kiến của bạn về việc thuyết phục các bên liên quan.",
-      "en": "I would like to pick your brain about persuading stakeholders.",
+      "vi": "Ý tưởng đó đáng để tìm hiểu thêm.",
+      "en": "That idea is worth exploring.",
       "alts": [
-        "Could I pick your brain about how to persuade stakeholders?"
+        "I think that idea is worth looking into."
       ]
     },
     {
-      "vi": "Hãy liên lạc vào tuần sau và xem mọi việc tiến triển thế nào.",
-      "en": "Let us touch base next week and see where it goes.",
+      "vi": "Anh chị có sẵn lòng kết nối trên LinkedIn không?",
+      "en": "Would you be open to connecting on LinkedIn?",
       "alts": [
-        "Let us follow up next week and see how things develop."
+        "Could we connect on LinkedIn?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ liên hệ lại với bản tóm tắt ngắn sau hội thảo.",
+      "en": "I will follow up with a short summary after the conference.",
+      "alts": [
+        "I will send you a short summary after the conference."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại hội thoại, chú ý nhấn âm trong networking, conference và keynote.",
-    "Viết một tin nhắn LinkedIn ngắn để cảm ơn chuyên gia và đề nghị một cuộc trao đổi hai mươi phút.",
-    "Tự tạo ba câu dùng các mẫu Would you be open to, One challenge we keep running into, và Let us touch base."
+    "Ghi âm lại tám lượt lời của người học trong hội thoại và tự nghe để kiểm tra âm cuối.",
+    "Viết một tin nhắn LinkedIn dài ba đến bốn câu để liên hệ lại với Maya sau hội thảo.",
+    "Tạo ba câu hỏi dùng mẫu From your perspective, how do you ...? về công việc của bạn."
   ]
 }

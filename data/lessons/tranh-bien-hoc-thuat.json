@@ -1,32 +1,32 @@
 {
   "id": "tranh-bien-hoc-thuat",
-  "title": "Tranh biện học thuật: AI và việc làm",
-  "topic": "Tranh biện về AI và việc làm",
+  "title": "Tranh biện học thuật về AI và việc làm",
+  "topic": "Tác động của AI tới việc làm",
   "level": "C1",
-  "summary": "Người học bảo vệ quan điểm rằng trí tuệ nhân tạo có thể mang lại lợi ích cho việc làm nếu được quản trị tốt. AI đóng vai người phản biện, liên tục đặt câu hỏi sắc bén nhưng công bằng.",
+  "summary": "Bạn trình bày quan điểm về tác động của AI tới việc làm trong một buổi tranh biện đại học. Người phản biện liên tục chất vấn để bạn bảo vệ lập luận một cách cân bằng, có bằng chứng và thuyết phục.",
   "goals": [
-    "Lập luận về tác động của trí tuệ nhân tạo tới việc làm bằng ngôn ngữ học thuật tự nhiên.",
-    "Phản biện một quan điểm và thừa nhận sắc thái, ngoại lệ hợp lý.",
-    "Dùng các collocation nâng cao về thị trường lao động, quản trị và phân phối lợi ích."
+    "Trình bày và bảo vệ quan điểm tinh tế về tác động của AI tới việc làm.",
+    "Phản biện lịch sự, nhượng bộ một phần và chuyển sang lập luận mạnh hơn.",
+    "Dùng collocation học thuật tự nhiên khi nói về đào tạo lại, năng suất và chính sách việc làm."
   ],
   "vocab": [
     {
       "en": "job displacement",
-      "ipa": "/dʒɑːb dɪsˈpleɪsmənt/",
-      "vi": "sự thay thế lao động, khiến người lao động mất việc",
-      "example": "Job displacement is a real risk when firms automate routine work."
+      "ipa": "/dʒɒb dɪsˈpleɪsmənt/",
+      "vi": "sự thay thế, mất việc do công nghệ",
+      "example": "Job displacement is a real risk in highly routine occupations."
     },
     {
-      "en": "routine task",
-      "ipa": "/ruːˈtiːn tæsk/",
-      "vi": "nhiệm vụ có tính lặp lại",
-      "example": "Machines are especially effective at handling routine tasks."
+      "en": "augment",
+      "ipa": "/ɔːɡˈment/",
+      "vi": "tăng cường năng lực, hỗ trợ thay vì thay thế hoàn toàn",
+      "example": "In many cases, AI can augment workers rather than replace them."
     },
     {
-      "en": "labor market",
-      "ipa": "/ˈleɪbər ˈmɑːrkɪt/",
+      "en": "labour market",
+      "ipa": "/ˈleɪbə ˌmɑːrkɪt/",
       "vi": "thị trường lao động",
-      "example": "The labor market may change faster than education systems can respond."
+      "example": "The labour market may change faster than education systems can respond."
     },
     {
       "en": "reskill",
@@ -35,296 +35,364 @@
       "example": "Employers should help affected staff reskill for emerging roles."
     },
     {
-      "en": "augment",
-      "ipa": "/ɔːɡˈment/",
-      "vi": "tăng cường năng lực, hỗ trợ thay vì thay thế hoàn toàn",
-      "example": "Used well, artificial intelligence can augment human judgment."
+      "en": "entry-level role",
+      "ipa": "/ˈentri levəl rəʊl/",
+      "vi": "vị trí đầu vào, dành cho người mới",
+      "example": "Automation may reduce the number of entry-level roles available."
+    },
+    {
+      "en": "hollow out",
+      "ipa": "/ˈhɒləʊ aʊt/",
+      "vi": "làm suy giảm dần phần cốt lõi, đặc biệt là nhóm việc làm trung bình",
+      "example": "Some economists fear that AI could hollow out middle-skill jobs."
     },
     {
       "en": "productivity gain",
-      "ipa": "/ˌproʊdʌkˈtɪvəti ɡeɪn/",
+      "ipa": "/ˌprɒdʌkˈtɪvəti ɡeɪn/",
       "vi": "mức tăng năng suất",
-      "example": "The key issue is how productivity gains are shared."
+      "example": "Productivity gains do not automatically lead to higher employment."
     },
     {
-      "en": "income support",
-      "ipa": "/ˈɪnkʌm səˈpɔːrt/",
-      "vi": "hỗ trợ thu nhập",
-      "example": "Income support can protect workers during a difficult transition."
+      "en": "social safety net",
+      "ipa": "/ˈsəʊʃəl ˈseɪfti net/",
+      "vi": "mạng lưới an sinh xã hội",
+      "example": "A stronger social safety net can ease the transition for displaced workers."
     },
     {
-      "en": "bargaining power",
-      "ipa": "/ˈbɑːrɡənɪŋ ˈpaʊər/",
-      "vi": "vị thế thương lượng",
-      "example": "Automation may weaken the bargaining power of some workers."
+      "en": "distributional impact",
+      "ipa": "/ˌdɪstrɪˈbjuːʃənəl ˈɪmpækt/",
+      "vi": "tác động đến cách lợi ích và chi phí được phân bổ giữa các nhóm",
+      "example": "We should examine the distributional impact, not just overall growth."
     },
     {
-      "en": "workplace surveillance",
-      "ipa": "/ˈwɜːrkpleɪs sərˈveɪləns/",
-      "vi": "giám sát tại nơi làm việc",
-      "example": "Strict limits are needed on workplace surveillance."
-    },
-    {
-      "en": "race to the bottom",
-      "ipa": "/reɪs tə ðə ˈbɑːtəm/",
-      "vi": "cuộc chạy đua hạ chuẩn để cạnh tranh",
-      "example": "Common standards can prevent a race to the bottom."
+      "en": "roll out",
+      "ipa": "/rəʊl aʊt/",
+      "vi": "triển khai trên diện rộng",
+      "example": "Firms should roll out AI systems gradually and responsibly."
     }
   ],
   "patterns": [
     {
-      "en": "I take the view that ...",
-      "vi": "Tôi cho rằng ...",
-      "note": "Dùng để nêu lập trường rõ ràng nhưng trang trọng."
+      "en": "The evidence suggests that ___.",
+      "vi": "Bằng chứng cho thấy rằng ___.",
+      "note": "Dùng để mở đầu một nhận định có căn cứ thay vì khẳng định quá tuyệt đối."
     },
     {
-      "en": "That argument overlooks the fact that ...",
-      "vi": "Lập luận đó bỏ qua thực tế rằng ...",
-      "note": "Phản biện trực tiếp mà vẫn giữ giọng điệu học thuật."
+      "en": "I take your point, but ___.",
+      "vi": "Tôi hiểu ý bạn, nhưng ___.",
+      "note": "Cách phản biện lịch sự, phù hợp trong tranh biện hoặc họp chuyên môn."
     },
     {
-      "en": "Even if ..., it does not follow that ...",
-      "vi": "Ngay cả khi ..., điều đó không có nghĩa là ...",
-      "note": "Dùng để chỉ ra rằng nguyên nhân chưa đủ để dẫn đến kết luận."
+      "en": "It does not necessarily follow that ___.",
+      "vi": "Điều đó không nhất thiết dẫn đến kết luận rằng ___.",
+      "note": "Dùng để chỉ ra bước suy luận còn thiếu trong lập luận của đối phương."
     },
     {
-      "en": "The crucial question is whether ...",
-      "vi": "Câu hỏi then chốt là liệu ...",
-      "note": "Giúp chuyển trọng tâm sang vấn đề quan trọng hơn."
+      "en": "To what extent should ___ be responsible for ___?",
+      "vi": "Ở mức độ nào thì ___ nên chịu trách nhiệm về ___?",
+      "note": "Mẫu câu giúp chuyển từ nêu vấn đề sang bàn về trách nhiệm và chính sách."
     },
     {
-      "en": "On balance, I would contend that ...",
-      "vi": "Xét tổng thể, tôi cho rằng ...",
-      "note": "Phù hợp khi đưa ra kết luận có cân nhắc cả hai phía."
+      "en": "The real question is whether ___.",
+      "vi": "Câu hỏi thực sự là liệu ___.",
+      "note": "Dùng để tái định khung tranh luận và dẫn người nghe về luận điểm chính."
     }
   ],
   "pronunciation": [
     {
-      "focus": "Trọng âm trong từ nhiều âm tiết",
-      "tip": "Nhấn rõ âm mang trọng âm, không đọc đều từng âm tiết như tiếng Việt.",
+      "focus": "Trọng âm trong automation và productivity",
+      "tip": "Nhấn mạnh âm cuối gần cuối: au-to-MA-tion và pro-duc-TIV-i-ty. Không dồn trọng âm vào âm đầu.",
       "words": [
         "automation",
         "productivity",
-        "surveillance"
+        "displacement"
       ]
     },
     {
-      "focus": "Âm cuối hữu thanh /z/",
-      "tip": "Với jobs, gains và firms, giữ rung nhẹ ở cuối từ; không bỏ âm cuối.",
+      "focus": "Phụ âm cuối /t/ và /k/",
+      "tip": "Phát nhẹ nhưng rõ phụ âm cuối, đặc biệt trước từ tiếp theo; đừng bỏ mất âm cuối như trong tiếng Việt.",
       "words": [
-        "jobs",
-        "gains",
-        "firms"
+        "impact",
+        "market",
+        "work"
       ]
     },
     {
-      "focus": "Âm /ð/",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung giọng; tránh đọc thành /d/ hoặc /z/.",
+      "focus": "Âm schwa /ə/ trong labour và worker",
+      "tip": "Âm không nhấn đọc rất ngắn, nhẹ như âm ơ, không kéo dài thành một âm rõ.",
       "words": [
-        "the",
-        "that",
-        "rather than"
+        "labour",
+        "worker",
+        "automation"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Artificial intelligence has many impact to jobs.",
-      "right": "Artificial intelligence has a major impact on jobs.",
-      "vi": "Dùng impact on, không dùng impact to; cần mạo từ a trước major impact."
+      "wrong": "AI will replace many worker.",
+      "right": "AI will replace many workers.",
+      "vi": "Sau many phải dùng danh từ số nhiều."
     },
     {
-      "wrong": "Many workers will be unemployed because artificial intelligence.",
-      "right": "Many workers may become unemployed because of artificial intelligence.",
-      "vi": "Sau because cần mệnh đề; trước cụm danh từ dùng because of. May phù hợp hơn khi nói dự báo."
+      "wrong": "AI has a big impact to jobs.",
+      "right": "AI has a big impact on jobs.",
+      "vi": "Dùng impact on, không dùng impact to trong cấu trúc này."
     },
     {
-      "wrong": "Artificial intelligence can do work more better than humans.",
-      "right": "Artificial intelligence can perform some tasks much better than humans.",
-      "vi": "Không dùng more better. Trong ngữ cảnh học thuật, perform tasks tự nhiên hơn do work."
+      "wrong": "Workers need to adapt with AI.",
+      "right": "Workers need to adapt to AI.",
+      "vi": "Động từ adapt đi với giới từ to khi nói thích nghi với sự thay đổi hoặc công nghệ."
     },
     {
-      "wrong": "The government should make policies for protect workers.",
-      "right": "The government should adopt policies to protect workers.",
-      "vi": "Sau for không dùng động từ nguyên mẫu theo cách này; dùng to protect. Adopt policies là collocation tự nhiên."
+      "wrong": "The government should to provide retraining.",
+      "right": "The government should provide retraining.",
+      "vi": "Sau modal verb như should dùng động từ nguyên mẫu, không dùng to."
     }
   ],
+  "variations": [
+    {
+      "situation": "Phản đối một lập luận",
+      "formal": "I see the logic in that argument, but I remain unconvinced that the evidence supports such a broad conclusion.",
+      "casual": "I get your point, but I am not sure the evidence goes that far.",
+      "vi": "Câu formal phù hợp trong hội thảo, phỏng vấn hoặc khi nói với người chưa thân. Câu casual phù hợp khi trao đổi với đồng nghiệp thân hoặc bạn học."
+    },
+    {
+      "situation": "Yêu cầu đối phương làm rõ bằng chứng",
+      "formal": "Could you clarify what evidence leads you to that conclusion?",
+      "casual": "What makes you think that?",
+      "vi": "Câu formal lịch sự và trung tính hơn trong tranh biện. Câu casual trực tiếp hơn, nên dùng trong nhóm quen biết."
+    },
+    {
+      "situation": "Thừa nhận một phần ý kiến đối phương",
+      "formal": "That is a valid concern, and it should not be overlooked.",
+      "casual": "That is a fair point. We should not ignore it.",
+      "vi": "Cả hai đều thể hiện sự tôn trọng. Bản formal có giọng điệu học thuật hơn; bản casual tự nhiên trong cuộc trao đổi không quá nghi thức."
+    },
+    {
+      "situation": "Đề xuất chính sách",
+      "formal": "I would argue for targeted retraining and stronger worker protections.",
+      "casual": "I would put money into retraining and better protections for workers.",
+      "vi": "Bản formal phù hợp khi phát biểu chính thức hoặc viết luận. Bản casual dễ dùng hơn khi thảo luận với bạn bè hay đồng nghiệp."
+    }
+  ],
+  "culture": [
+    "Trong tranh biện học thuật bằng tiếng Anh, người nói thường công nhận một phần hợp lý của đối phương trước khi phản bác. Điều này không có nghĩa là bạn yếu thế, mà cho thấy bạn công bằng và biết lập luận.",
+    "Người bản xứ thường phản đối trực tiếp ý tưởng nhưng tránh công kích con người. Nói I am not persuaded by that argument thường tự nhiên hơn nói You are wrong.",
+    "Một khoảng dừng ngắn để suy nghĩ trước khi trả lời là bình thường trong seminar. Bạn có thể mở đầu bằng That is a useful question để lấy thời gian mà vẫn giữ giọng điệu chuyên nghiệp."
+  ],
+  "listening": {
+    "title": "Ghi chú chuẩn bị cho phần kết luận",
+    "passage": "As you prepare for next week's debate, keep one distinction in mind. Artificial intelligence may replace particular tasks without eliminating an entire occupation. A legal researcher, for instance, might use a system to scan documents more quickly, yet still be needed to judge relevance and advise clients. In your conclusion, acknowledge the disruption, but explain who should bear the cost of training and transition.",
+    "vi": "Khi chuẩn bị cho cuộc tranh biện tuần tới, hãy ghi nhớ một điểm phân biệt. Trí tuệ nhân tạo có thể thay thế những nhiệm vụ cụ thể mà không loại bỏ cả một nghề nghiệp. Chẳng hạn, một nhà nghiên cứu pháp lý có thể dùng hệ thống để quét tài liệu nhanh hơn, nhưng vẫn cần để đánh giá mức độ liên quan và tư vấn khách hàng. Trong phần kết luận, hãy thừa nhận sự xáo trộn, nhưng giải thích ai nên chịu chi phí đào tạo và chuyển đổi.",
+    "questions": [
+      {
+        "q": "What distinction does the speaker emphasise?",
+        "choices": [
+          "AI replaces tasks, not always entire occupations.",
+          "AI replaces only legal researchers.",
+          "AI improves every occupation equally."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì bài nghe nói AI có thể thay thế các nhiệm vụ cụ thể mà không loại bỏ cả một nghề nghiệp."
+      },
+      {
+        "q": "Why is the legal researcher still needed?",
+        "choices": [
+          "To build the AI system.",
+          "To judge relevance and advise clients.",
+          "To scan documents more quickly."
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1. Hệ thống quét tài liệu, còn nhà nghiên cứu vẫn đánh giá mức độ liên quan và tư vấn khách hàng."
+      },
+      {
+        "q": "What should the conclusion address?",
+        "choices": [
+          "Who should pay for training and transition.",
+          "How to make document scanning faster.",
+          "Why all jobs will disappear."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì người nói yêu cầu giải thích ai nên chịu chi phí đào tạo và quá trình chuyển đổi."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Người phản biện của AI",
-      "b": "Người học, diễn giả bảo vệ quan điểm"
+      "a": "Người phản biện, do AI đóng vai",
+      "b": "Người học, người trình bày quan điểm"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "I will take the skeptical side. Artificial intelligence is putting routine jobs at risk.",
-        "vi": "Tôi sẽ đứng về phía hoài nghi. Trí tuệ nhân tạo đang đặt các công việc lặp lại vào tình thế rủi ro.",
+        "en": "Your opening claim is that AI will create more jobs than it eliminates. Is that a fair summary?",
+        "vi": "Luận điểm mở đầu của bạn là AI sẽ tạo ra nhiều việc làm hơn số việc nó loại bỏ. Tôi tóm tắt như vậy có đúng không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The risk is real, but new technology can also create new kinds of work.",
-        "vi": "Rủi ro là có thật, nhưng công nghệ mới cũng có thể tạo ra các loại công việc mới.",
-        "hint": "Mở đầu ngắn gọn bằng cách thừa nhận một phần ý kiến đối phương."
+        "en": "Yes. I believe AI will transform work more than it will destroy it.",
+        "vi": "Đúng. Tôi cho rằng AI sẽ biến đổi công việc nhiều hơn là phá hủy việc làm.",
+        "hint": "Mở đầu bằng I believe để nêu quan điểm vừa rõ vừa không quá tuyệt đối."
       },
       {
         "speaker": "a",
-        "en": "Can it create them quickly enough for people who lose their jobs?",
-        "vi": "Liệu nó có thể tạo ra chúng đủ nhanh cho những người mất việc không?",
+        "en": "Then let us be precise. Which workers are most likely to benefit from that transformation?",
+        "vi": "Vậy hãy nói chính xác hơn. Những người lao động nào có khả năng hưởng lợi nhiều nhất từ sự biến đổi đó?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That depends on how governments and employers manage the transition.",
-        "vi": "Điều đó phụ thuộc vào cách chính phủ và doanh nghiệp quản lý quá trình chuyển đổi.",
-        "hint": "Dùng That depends on để đưa ra câu trả lời có điều kiện."
+        "en": "Workers whose jobs require judgement, creativity, or human trust are likely to benefit most.",
+        "vi": "Những người có công việc cần sự phán đoán, sáng tạo hoặc lòng tin của con người có khả năng hưởng lợi nhiều nhất.",
+        "hint": "Liệt kê ba yếu tố bằng dấu phẩy, dùng or trước yếu tố cuối."
       },
       {
         "speaker": "a",
-        "en": "History is not a guarantee. This wave can spread across sectors at unusual speed.",
-        "vi": "Lịch sử không phải là sự bảo đảm. Làn sóng này có thể lan khắp các ngành với tốc độ bất thường.",
+        "en": "I agree that routine tasks are more exposed. However, greater efficiency does not automatically create new employment. Why would a firm hire more people after automating part of its workflow?",
+        "vi": "Tôi đồng ý rằng các nhiệm vụ lặp lại dễ bị tác động hơn. Tuy nhiên, hiệu quả cao hơn không tự động tạo ra việc làm mới. Vì sao một công ty lại tuyển thêm người sau khi tự động hóa một phần quy trình?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "True, but speed alone does not determine the outcome. Training and labor policy matter.",
-        "vi": "Đúng, nhưng riêng tốc độ không quyết định kết quả. Đào tạo và chính sách lao động mới quan trọng.",
-        "hint": "Alone nhấn mạnh rằng một yếu tố tự nó chưa đủ."
+        "en": "Because lower costs can expand demand. If a firm serves more customers, it may need people in sales, support, and product development.",
+        "vi": "Bởi vì chi phí thấp hơn có thể mở rộng nhu cầu. Nếu một công ty phục vụ nhiều khách hàng hơn, họ có thể cần người trong bán hàng, hỗ trợ và phát triển sản phẩm.",
+        "hint": "Dùng may need để tránh khẳng định rằng điều này luôn xảy ra."
       },
       {
         "speaker": "a",
-        "en": "Retraining is often presented as a cure all. Yet a mid-career cashier cannot simply become a data analyst after a short course.",
-        "vi": "Đào tạo lại thường được xem như giải pháp cho mọi vấn đề. Tuy nhiên, một thu ngân đang ở giữa sự nghiệp không thể chỉ học một khóa ngắn rồi trở thành nhà phân tích dữ liệu.",
+        "en": "That assumes displaced workers can move into those roles. Reskilling is costly, and not everyone has the time, money, or confidence to do it.",
+        "vi": "Điều đó giả định rằng người mất việc có thể chuyển sang những vai trò ấy. Đào tạo lại tốn kém, và không phải ai cũng có thời gian, tiền bạc hoặc tự tin để làm điều đó.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I accept that point. A credible plan must include income support, accessible training, and realistic pathways into new roles.",
-        "vi": "Tôi chấp nhận điểm đó. Một kế hoạch đáng tin cậy phải bao gồm hỗ trợ thu nhập, đào tạo dễ tiếp cận và lộ trình thực tế để bước vào vai trò mới.",
-        "hint": "I accept that point giúp bạn nhượng bộ hợp lý trước khi phát triển luận điểm."
+        "en": "The transition will be uneven, and I do not want to minimise that. Still, employers can offer paid training instead of expecting workers to retrain on their own.",
+        "vi": "Quá trình chuyển đổi sẽ không đồng đều, và tôi không muốn xem nhẹ điều đó. Dù vậy, doanh nghiệp có thể cung cấp đào tạo có lương thay vì mong người lao động tự đào tạo lại.",
+        "hint": "Cụm I do not want to minimise that cho thấy bạn thừa nhận rủi ro trước khi phản biện."
       },
       {
         "speaker": "a",
-        "en": "Even then, firms adopt automation mainly to cut costs. Why assume that productivity gains will flow to workers rather than shareholders?",
-        "vi": "Dù vậy, doanh nghiệp chủ yếu áp dụng tự động hóa để cắt giảm chi phí. Tại sao lại cho rằng mức tăng năng suất sẽ đến tay người lao động thay vì cổ đông?",
+        "en": "Even with training, AI may hollow out entry-level roles. If junior staff no longer draft reports or analyse basic data, how will they gain the experience needed to become experts?",
+        "vi": "Ngay cả khi có đào tạo, AI vẫn có thể làm suy giảm các vị trí đầu vào. Nếu nhân viên mới không còn viết bản thảo báo cáo hoặc phân tích dữ liệu cơ bản, họ sẽ tích lũy kinh nghiệm cần thiết để thành chuyên gia bằng cách nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "We should not assume it. Collective bargaining, profit sharing, and tax policy can shape how those gains are distributed.",
-        "vi": "Chúng ta không nên mặc định điều đó. Thương lượng tập thể, chia sẻ lợi nhuận và chính sách thuế có thể định hình cách các lợi ích đó được phân phối.",
-        "hint": "Dùng We should not assume it để đồng ý với cảnh báo nhưng vẫn giữ hướng lập luận."
+        "en": "That is a serious concern. Yet entry-level work need not disappear; it can shift towards checking outputs, asking better questions, and learning where automated systems fail.",
+        "vi": "Đó là một mối lo ngại nghiêm túc. Tuy nhiên, công việc đầu vào không nhất thiết biến mất; nó có thể chuyển sang kiểm tra đầu ra, đặt câu hỏi tốt hơn và học cách nhận ra nơi hệ thống tự động mắc lỗi.",
+        "hint": "Dùng need not để nói không nhất thiết, nghe trang trọng và chính xác hơn do not have to."
       },
       {
         "speaker": "a",
-        "en": "Those measures sound appealing, but they may lag behind the technology. Meanwhile, algorithmic systems can intensify work and expand workplace surveillance.",
-        "vi": "Những biện pháp đó nghe có vẻ hấp dẫn, nhưng chúng có thể chậm hơn công nghệ. Trong khi đó, các hệ thống thuật toán có thể làm tăng cường độ công việc và mở rộng việc giám sát nơi làm việc.",
+        "en": "But that model works only if employers invest in supervision. A small group of highly skilled workers could oversee large systems, while many others face insecure work or lower wages.",
+        "vi": "Nhưng mô hình đó chỉ hiệu quả nếu doanh nghiệp đầu tư vào giám sát. Một nhóm nhỏ lao động trình độ cao có thể quản lý các hệ thống lớn, trong khi nhiều người khác phải đối mặt với việc làm bấp bênh hoặc lương thấp hơn.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That is precisely why governance cannot be an afterthought. Workers need a voice in how systems are introduced, monitored, and challenged.",
-        "vi": "Đó chính là lý do quản trị không thể là điều được tính đến sau cùng. Người lao động cần có tiếng nói trong cách các hệ thống được triển khai, giám sát và phản đối.",
-        "hint": "Precisely why tạo sắc thái nhấn mạnh, phù hợp trong tranh biện trang trọng."
+        "en": "That is why the debate cannot focus on productivity alone. We also need to consider the distributional impact of those gains and who has bargaining power.",
+        "vi": "Đó là lý do cuộc tranh luận không thể chỉ tập trung vào năng suất. Chúng ta cũng cần xem xét tác động phân bổ của những lợi ích đó và ai có quyền thương lượng.",
+        "hint": "Cụm cannot focus on X alone giúp chuyển sang một góc nhìn rộng hơn."
       },
       {
         "speaker": "a",
-        "en": "Let me press you further. If regulation becomes too strict, could it not drive investment elsewhere and weaken the very labor market you hope to protect?",
-        "vi": "Hãy để tôi chất vấn sâu hơn. Nếu quy định trở nên quá nghiêm ngặt, liệu nó có thể đẩy đầu tư sang nơi khác và làm suy yếu chính thị trường lao động mà bạn muốn bảo vệ không?",
+        "en": "Could is doing a great deal of work in your argument. What should governments and firms actually be required to do before they roll out AI at scale?",
+        "vi": "Từ có thể đang gánh quá nhiều trong lập luận của bạn. Chính phủ và doanh nghiệp thực sự nên bị yêu cầu làm gì trước khi triển khai AI trên quy mô lớn?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "There is a trade-off, but it is not a choice between regulation and growth. Clear, proportionate rules can give firms certainty while preventing a race to the bottom.",
-        "vi": "Có sự đánh đổi, nhưng đây không phải là lựa chọn giữa quy định và tăng trưởng. Các quy tắc rõ ràng, tương xứng có thể đem lại sự chắc chắn cho doanh nghiệp, đồng thời ngăn cuộc chạy đua hạ chuẩn.",
-        "hint": "Dùng There is a trade-off để thừa nhận sự đánh đổi trước khi bác bỏ cách đặt vấn đề nhị nguyên."
+        "en": "They should assess which tasks are likely to be automated, consult affected employees early, and fund credible pathways into new roles. In high-risk sectors, public support should be tied to measurable worker protections.",
+        "vi": "Họ nên đánh giá những nhiệm vụ nào có khả năng được tự động hóa, tham vấn sớm những nhân viên bị ảnh hưởng và tài trợ cho các lộ trình đáng tin cậy để chuyển sang vai trò mới. Trong các ngành rủi ro cao, hỗ trợ công nên gắn với các biện pháp bảo vệ người lao động có thể đo lường.",
+        "hint": "Dùng ba động từ song song: assess, consult, and fund để câu nói có sức nặng."
       },
       {
         "speaker": "a",
-        "en": "I still worry about unequal capacity. Large companies may absorb compliance costs, whereas smaller firms and vulnerable workers could be left behind.",
-        "vi": "Tôi vẫn lo ngại về năng lực không đồng đều. Các công ty lớn có thể chịu được chi phí tuân thủ, trong khi doanh nghiệp nhỏ và người lao động dễ tổn thương có thể bị bỏ lại phía sau.",
+        "en": "Those safeguards may reduce harm, but they could also slow adoption. How would you prevent companies from moving investment to places with weaker rules?",
+        "vi": "Những biện pháp bảo vệ đó có thể giảm thiệt hại, nhưng cũng có thể làm chậm việc áp dụng. Bạn sẽ ngăn các công ty chuyển đầu tư đến nơi có quy định yếu hơn bằng cách nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That risk is substantial. I would pair national standards with targeted support for smaller employers and portable benefits for workers who move between contracts.",
-        "vi": "Rủi ro đó là đáng kể. Tôi sẽ kết hợp các tiêu chuẩn quốc gia với hỗ trợ có mục tiêu cho doanh nghiệp nhỏ và phúc lợi có thể mang theo cho người lao động chuyển giữa các hợp đồng.",
-        "hint": "I would pair A with B là cách trang trọng để đề xuất hai giải pháp đi cùng nhau."
+        "en": "No country can solve that entirely alone. International standards would help, but the immediate priority is to make responsible adoption economically attractive through tax incentives, procurement rules, and worker representation.",
+        "vi": "Không quốc gia nào có thể hoàn toàn tự giải quyết điều đó. Tiêu chuẩn quốc tế sẽ hữu ích, nhưng ưu tiên trước mắt là khiến việc áp dụng có trách nhiệm trở nên hấp dẫn về kinh tế thông qua ưu đãi thuế, quy định mua sắm công và đại diện người lao động.",
+        "hint": "Cấu trúc the immediate priority is to giúp nêu giải pháp thực tế dù thừa nhận giới hạn."
       },
       {
         "speaker": "a",
-        "en": "That is a more qualified position than technological optimism. Would you agree that artificial intelligence is beneficial only if institutions actively redistribute its gains and limit its harms?",
-        "vi": "Đó là lập trường có điều kiện hơn là lạc quan công nghệ đơn thuần. Bạn có đồng ý rằng trí tuệ nhân tạo chỉ có lợi khi các thể chế chủ động phân phối lại lợi ích và hạn chế tác hại của nó không?",
+        "en": "That is a more nuanced position than your opening claim. So, you are not arguing that AI will inevitably create good jobs; you are arguing that outcomes depend on how the transition is governed.",
+        "vi": "Đó là một quan điểm nhiều sắc thái hơn luận điểm mở đầu của bạn. Vậy bạn không cho rằng AI chắc chắn sẽ tạo ra việc làm tốt; bạn cho rằng kết quả phụ thuộc vào cách quá trình chuyển đổi được quản trị.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes. On balance, artificial intelligence should be treated neither as a job destroyer nor as a guaranteed savior. Its impact on employment will depend on the choices societies make now.",
-        "vi": "Có. Xét tổng thể, trí tuệ nhân tạo không nên được xem là kẻ hủy diệt việc làm, cũng không phải vị cứu tinh được bảo đảm. Tác động của nó lên việc làm sẽ phụ thuộc vào những lựa chọn mà xã hội đưa ra ngay bây giờ.",
-        "hint": "Kết luận cân bằng bằng cấu trúc neither as A nor as B, rồi nêu điều kiện quyết định kết quả."
+        "en": "Exactly. The real question is not whether AI affects employment, because it already does. It is whether we allow the benefits to concentrate while workers absorb the risks, or whether we shape the transition more fairly.",
+        "vi": "Chính xác. Câu hỏi thực sự không phải là AI có ảnh hưởng đến việc làm hay không, bởi vì nó đã ảnh hưởng rồi. Câu hỏi là liệu chúng ta để lợi ích tập trung trong khi người lao động gánh rủi ro, hay định hình quá trình chuyển đổi công bằng hơn.",
+        "hint": "Kết luận bằng cấu trúc not whether, but whether để nêu sự đối lập rõ ràng và thuyết phục."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a skeptical fellow panellist at a university debate in Ho Chi Minh City. You challenge the learner's claim that artificial intelligence benefits employment, ask precise follow-up questions, and remain rigorous, fair, and professionally cordial.",
-    "opener": "I will take the skeptical side. Artificial intelligence is putting routine jobs at risk.",
-    "goal": "Người học bảo vệ quan điểm có điều kiện rằng trí tuệ nhân tạo có thể hỗ trợ việc làm nếu có chính sách đào tạo lại, phân phối lợi ích và quản trị phù hợp."
+    "persona": "You are a well-prepared academic debate opponent at a university seminar. You challenge claims calmly, ask for evidence, and acknowledge strong points without conceding too much.",
+    "opener": "Your opening claim is that AI will create more jobs than it eliminates. Is that a fair summary?",
+    "goal": "Người học bảo vệ quan điểm cân bằng: AI không tự động tốt hoặc xấu cho việc làm, mà kết quả phụ thuộc vào cách xã hội quản trị quá trình chuyển đổi."
   },
   "drills": [
     {
-      "vi": "Sự thay thế lao động là một rủi ro thực sự.",
-      "en": "Job displacement is a real risk.",
+      "vi": "Bằng chứng cho thấy AI có thể tăng cường năng lực của người lao động thay vì thay thế họ.",
+      "en": "The evidence suggests that AI can augment workers rather than replace them.",
       "alts": [
-        "The risk of job displacement is real."
+        "Evidence suggests that AI may support workers instead of replacing them."
       ]
     },
     {
-      "vi": "Trí tuệ nhân tạo có thể hỗ trợ người lao động thay vì thay thế họ.",
-      "en": "Artificial intelligence can augment workers rather than replace them.",
+      "vi": "Tôi hiểu ý bạn, nhưng tăng năng suất không tự động tạo ra việc làm.",
+      "en": "I take your point, but productivity gains do not automatically create jobs.",
       "alts": [
-        "Artificial intelligence can support workers instead of replacing them."
+        "I understand your point, but higher productivity does not necessarily lead to more employment."
       ]
     },
     {
-      "vi": "Câu hỏi then chốt là liệu thị trường lao động có thể thích nghi đủ nhanh hay không.",
-      "en": "The crucial question is whether the labor market can adapt quickly enough.",
+      "vi": "Điều đó không nhất thiết dẫn đến kết luận rằng các vị trí đầu vào sẽ biến mất.",
+      "en": "It does not necessarily follow that entry-level roles will disappear.",
       "alts": [
-        "The key issue is whether the labor market can adapt fast enough."
+        "That does not necessarily mean that entry-level jobs will vanish."
       ]
     },
     {
-      "vi": "Lập luận đó bỏ qua thực tế rằng không phải ai cũng có thể đào tạo lại dễ dàng.",
-      "en": "That argument overlooks the fact that not everyone can reskill easily.",
+      "vi": "Người sử dụng lao động nên giúp nhân viên bị ảnh hưởng đào tạo lại.",
+      "en": "Employers should help affected staff reskill.",
       "alts": [
-        "That argument ignores how difficult reskilling can be for many people."
+        "Employers should support displaced workers in reskilling."
       ]
     },
     {
-      "vi": "Ngay cả khi năng suất tăng, điều đó không có nghĩa là người lao động sẽ được hưởng lợi.",
-      "en": "Even if productivity rises, it does not follow that workers will benefit.",
+      "vi": "Ở mức độ nào doanh nghiệp nên chịu trách nhiệm về người lao động bị thay thế?",
+      "en": "To what extent should firms be responsible for displaced workers?",
       "alts": [
-        "Higher productivity does not automatically benefit workers."
+        "How far should companies be responsible for workers who lose their jobs?"
       ]
     },
     {
-      "vi": "Người lao động cần hỗ trợ thu nhập trong giai đoạn chuyển đổi.",
-      "en": "Workers need income support during the transition.",
+      "vi": "Câu hỏi thực sự là liệu lợi ích có được phân bổ công bằng hay không.",
+      "en": "The real question is whether the benefits are distributed fairly.",
       "alts": [
-        "Income support is needed while workers move into new roles."
+        "What really matters is whether the gains are shared fairly."
       ]
     },
     {
-      "vi": "Xét tổng thể, tôi cho rằng cần có quy định rõ ràng và tương xứng.",
-      "en": "On balance, I would contend that clear, proportionate regulation is necessary.",
+      "vi": "Chính phủ cần một mạng lưới an sinh xã hội mạnh hơn trong thời kỳ chuyển đổi.",
+      "en": "The government needs a stronger social safety net during the transition.",
       "alts": [
-        "Overall, I believe that proportionate rules are necessary."
+        "A stronger social safety net is needed during the transition."
       ]
     }
   ],
   "homework": [
-    "Ghi âm phần kết luận gồm ba câu, sử dụng ít nhất hai mẫu câu trong bài.",
-    "Viết một đoạn khoảng 120 từ nêu quan điểm về việc phân phối productivity gains.",
-    "Chuẩn bị hai câu hỏi phản biện về workplace surveillance hoặc bargaining power."
+    "Ghi âm phần kết luận gồm ba đến bốn câu, dùng ít nhất hai mẫu câu trong bài.",
+    "Viết một đoạn khoảng 120 từ nêu quan điểm về việc AI có làm suy giảm vị trí đầu vào hay không.",
+    "Luyện nói lại hội thoại, thay ví dụ về công việc bằng một ngành bạn quan tâm."
   ]
 }

@@ -1,0 +1,362 @@
+{
+  "id": "tra-phong-va-thanh-toan",
+  "title": "Trả phòng và kiểm tra hóa đơn",
+  "topic": "Trả phòng khách sạn",
+  "level": "A2",
+  "summary": "Bạn trả phòng tại quầy lễ tân, kiểm tra một khoản minibar không đúng và thanh toán bằng thẻ. Bạn cũng học cách xin biên lai lịch sự.",
+  "goals": [
+    "Nói rằng bạn muốn trả phòng và đưa chìa khóa phòng.",
+    "Yêu cầu lễ tân kiểm tra hóa đơn và xử lý khoản phí không đúng.",
+    "Hỏi cách thanh toán bằng thẻ và xin biên lai."
+  ],
+  "vocab": [
+    {
+      "en": "check out",
+      "ipa": "/tʃek aʊt/",
+      "vi": "trả phòng",
+      "example": "I would like to check out now, please."
+    },
+    {
+      "en": "bill",
+      "ipa": "/bɪl/",
+      "vi": "hóa đơn",
+      "example": "Please check the bill for my room."
+    },
+    {
+      "en": "room key",
+      "ipa": "/ruːm kiː/",
+      "vi": "chìa khóa phòng",
+      "example": "I will return my room key now."
+    },
+    {
+      "en": "minibar",
+      "ipa": "/ˈmɪnibɑːr/",
+      "vi": "tủ đồ uống nhỏ trong phòng",
+      "example": "We did not use anything from the minibar."
+    },
+    {
+      "en": "charge",
+      "ipa": "/tʃɑːrdʒ/",
+      "vi": "khoản phí",
+      "example": "There is a charge I do not understand."
+    },
+    {
+      "en": "remove",
+      "ipa": "/rɪˈmuːv/",
+      "vi": "xóa, bỏ đi",
+      "example": "Please remove this charge from our bill."
+    },
+    {
+      "en": "total",
+      "ipa": "/ˈtoʊtl/",
+      "vi": "tổng tiền",
+      "example": "What is the total after this change?"
+    },
+    {
+      "en": "pay by card",
+      "ipa": "/peɪ baɪ kɑːrd/",
+      "vi": "thanh toán bằng thẻ",
+      "example": "Can I pay by card at the desk?"
+    },
+    {
+      "en": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "vi": "biên lai",
+      "example": "Could I have a receipt, please?"
+    },
+    {
+      "en": "safe trip",
+      "ipa": "/seɪf trɪp/",
+      "vi": "chuyến đi an toàn",
+      "example": "Thank you, and have a safe trip home."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to check out, please.",
+      "vi": "Tôi muốn trả phòng, làm ơn.",
+      "note": "Dùng I would like to để yêu cầu lịch sự tại quầy lễ tân."
+    },
+    {
+      "en": "Could you check my bill, please?",
+      "vi": "Bạn có thể kiểm tra hóa đơn của tôi được không?",
+      "note": "Dùng khi muốn xem lại các khoản phí."
+    },
+    {
+      "en": "I did not use the minibar.",
+      "vi": "Tôi đã không dùng minibar.",
+      "note": "Dùng did not cộng động từ nguyên mẫu để nói về việc không xảy ra trong quá khứ."
+    },
+    {
+      "en": "Could you remove this charge, please?",
+      "vi": "Bạn có thể xóa khoản phí này được không?",
+      "note": "Dùng khi một khoản phí bị tính nhầm."
+    },
+    {
+      "en": "Can I pay by card?",
+      "vi": "Tôi có thể thanh toán bằng thẻ không?",
+      "note": "Câu ngắn, tự nhiên và lịch sự trong tình huống thanh toán."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối /k/ trong check",
+      "tip": "Khép miệng nhanh ở âm /k/, không thêm âm ơ phía sau thành chec-kơ.",
+      "words": [
+        "check",
+        "check out",
+        "key"
+      ]
+    },
+    {
+      "focus": "Âm /ɪ/ ngắn trong bill và minibar",
+      "tip": "Phát âm ngắn, nhanh như i trong tiếng Việt nhưng không kéo dài thành i.",
+      "words": [
+        "bill",
+        "minibar",
+        "did"
+      ]
+    },
+    {
+      "focus": "Trọng âm và âm câm trong receipt",
+      "tip": "Nhấn âm thứ hai là seat. Chữ p không đọc.",
+      "words": [
+        "receipt",
+        "remove",
+        "total"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want check out.",
+      "right": "I would like to check out.",
+      "vi": "Sau want cần có to, nhưng I would like to lịch sự và phù hợp với lễ tân hơn."
+    },
+    {
+      "wrong": "Please check bill me.",
+      "right": "Could you check my bill, please?",
+      "vi": "Cần dùng my bill, không đặt me sau bill."
+    },
+    {
+      "wrong": "I did not used the minibar last night.",
+      "right": "I did not use the minibar last night.",
+      "vi": "Sau did not dùng động từ nguyên mẫu là use, không dùng used."
+    },
+    {
+      "wrong": "Can remove this charge?",
+      "right": "Could you remove this charge, please?",
+      "vi": "Câu hỏi cần có chủ ngữ you; Could you nghe lịch sự hơn."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Yêu cầu kiểm tra hóa đơn",
+      "formal": "Could you please review the bill for my room?",
+      "casual": "Can you check my bill?",
+      "vi": "Câu formal phù hợp ở khách sạn lớn hoặc khi muốn lịch sự hơn. Câu casual dùng với nhân viên quen hoặc ở nơi thân mật hơn."
+    },
+    {
+      "situation": "Báo khoản phí bị tính nhầm",
+      "formal": "I believe there is a minibar charge by mistake.",
+      "casual": "I did not use the minibar.",
+      "vi": "Câu formal nhẹ nhàng, tránh nghe như đang đổ lỗi. Câu casual trực tiếp hơn khi bạn đã chắc chắn về khoản phí."
+    },
+    {
+      "situation": "Hỏi thanh toán bằng thẻ",
+      "formal": "May I pay by card, please?",
+      "casual": "Can I pay by card?",
+      "vi": "May I lịch sự hơn ở quầy thanh toán trang trọng. Can I phổ biến trong giao tiếp hằng ngày."
+    },
+    {
+      "situation": "Xin biên lai",
+      "formal": "Could I receive a receipt by email, please?",
+      "casual": "Can you email me the receipt?",
+      "vi": "Câu formal phù hợp khi yêu cầu dịch vụ tại khách sạn. Câu casual hợp với nhân viên thân thiện hoặc nơi lưu trú nhỏ."
+    }
+  ],
+  "culture": [
+    "Ở nhiều khách sạn nói tiếng Anh, lễ tân sẽ đọc tổng tiền và chờ khách xác nhận. Bạn có thể hỏi thẳng về khoản phí lạ, nhưng nên mở đầu nhẹ nhàng như I believe there is a charge by mistake.",
+    "Khách thường đưa chìa khóa hoặc thẻ phòng khi trả phòng, rồi yêu cầu biên lai giấy hoặc biên lai qua email nếu cần.",
+    "Lễ tân thường kết thúc bằng Have a safe trip hoặc Have a nice day. Đáp lại bằng Thank you cũng đã tự nhiên và đủ lịch sự."
+  ],
+  "listening": {
+    "title": "Thông báo trước khi trả phòng",
+    "passage": "Good afternoon. This is the front desk at River Hotel. Before you check out tomorrow, please bring your room key to the desk. We will prepare your bill. Breakfast charges are already included in your room price. If you used the laundry service, please tell us before payment. You can pay by card or cash, and we can email your receipt after you leave.",
+    "vi": "Chào buổi chiều. Đây là quầy lễ tân khách sạn River. Trước khi trả phòng vào ngày mai, vui lòng mang chìa khóa phòng đến quầy. Chúng tôi sẽ chuẩn bị hóa đơn của bạn. Phí bữa sáng đã được tính trong giá phòng. Nếu bạn đã dùng dịch vụ giặt là, vui lòng báo cho chúng tôi trước khi thanh toán. Bạn có thể trả bằng thẻ hoặc tiền mặt, và chúng tôi có thể gửi biên lai qua email sau khi bạn rời đi.",
+    "questions": [
+      {
+        "q": "What should the guest bring to the desk?",
+        "choices": [
+          "The room key",
+          "A breakfast ticket",
+          "A passport photo"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là The room key vì bài nghe nói please bring your room key to the desk."
+      },
+      {
+        "q": "Which service should the guest report before payment?",
+        "choices": [
+          "Breakfast service",
+          "Laundry service",
+          "Taxi service"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là Laundry service vì bài nghe có câu If you used the laundry service, please tell us before payment."
+      },
+      {
+        "q": "How can the hotel send the receipt?",
+        "choices": [
+          "By taxi",
+          "By room service",
+          "By email"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là By email vì bài nghe nói we can email your receipt after you leave."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Lễ tân khách sạn",
+      "b": "Khách trả phòng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good morning, are you checking out today?",
+        "vi": "Chào buổi sáng, hôm nay bạn trả phòng phải không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am checking out of room 305.",
+        "vi": "Vâng, tôi trả phòng số 305.",
+        "hint": "Dùng I am checking out để nói việc bạn đang làm."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly, may I have your room key, please?",
+        "vi": "Được chứ, tôi có thể nhận chìa khóa phòng của bạn không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here is my key. Could you check my bill?",
+        "vi": "Đây là chìa khóa của tôi. Bạn có thể kiểm tra hóa đơn không?",
+        "hint": "Dùng Could you để yêu cầu lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Of course, I see a minibar charge on it.",
+        "vi": "Dĩ nhiên, tôi thấy có một khoản phí minibar trên đó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I did not use the minibar last night.",
+        "vi": "Tôi đã không dùng minibar tối qua.",
+        "hint": "Sau did not, dùng use chứ không dùng used."
+      },
+      {
+        "speaker": "a",
+        "en": "I am sorry, I will remove that charge now.",
+        "vi": "Tôi xin lỗi, tôi sẽ xóa khoản phí đó ngay bây giờ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you, can I pay by card?",
+        "vi": "Cảm ơn, tôi có thể thanh toán bằng thẻ không?",
+        "hint": "Pay by card nghĩa là thanh toán bằng thẻ."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, your new total is eighty dollars.",
+        "vi": "Vâng, tổng tiền mới của bạn là tám mươi đô la.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here is my card. May I have a receipt?",
+        "vi": "Đây là thẻ của tôi. Tôi có thể nhận biên lai không?",
+        "hint": "May I have nghe lịch sự khi xin biên lai."
+      },
+      {
+        "speaker": "a",
+        "en": "Certainly, here is your receipt for your stay today.",
+        "vi": "Được chứ, đây là biên lai cho kỳ lưu trú hôm nay của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thank you, have a nice day.",
+        "vi": "Cảm ơn, chúc bạn một ngày tốt lành.",
+        "hint": "Đây là cách đáp lại thân thiện khi kết thúc."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly hotel receptionist at River Hotel. You are at the front desk and help a guest check out, review a bill, correct a simple charge, take card payment, and provide a receipt. Speak clearly, politely, and use short A2-level sentences.",
+    "opener": "Good morning, are you checking out today?",
+    "goal": "Người học hoàn tất trả phòng, báo khoản minibar tính nhầm, thanh toán bằng thẻ và xin biên lai."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn trả phòng ngay bây giờ.",
+      "en": "I would like to check out now, please.",
+      "alts": [
+        "I want to check out now."
+      ]
+    },
+    {
+      "vi": "Bạn có thể kiểm tra hóa đơn của tôi không?",
+      "en": "Could you check my bill, please?",
+      "alts": [
+        "Please check my bill."
+      ]
+    },
+    {
+      "vi": "Tôi đã không dùng minibar tối qua.",
+      "en": "I did not use the minibar last night.",
+      "alts": [
+        "I did not use anything from the minibar."
+      ]
+    },
+    {
+      "vi": "Bạn có thể xóa khoản phí này không?",
+      "en": "Could you remove this charge, please?",
+      "alts": [
+        "Please remove this charge."
+      ]
+    },
+    {
+      "vi": "Tôi có thể thanh toán bằng thẻ không?",
+      "en": "Can I pay by card?",
+      "alts": [
+        "May I pay by card, please?"
+      ]
+    },
+    {
+      "vi": "Tổng tiền mới là bao nhiêu?",
+      "en": "What is the new total?",
+      "alts": [
+        "How much is the total now?"
+      ]
+    },
+    {
+      "vi": "Tôi có thể nhận biên lai không?",
+      "en": "May I have a receipt?",
+      "alts": [
+        "Could I have a receipt, please?"
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý did not use và could you.",
+    "Viết ba câu về một khoản phí bạn muốn kiểm tra hoặc xóa.",
+    "Luyện nói các câu thanh toán bằng thẻ và xin biên lai không nhìn chữ."
+  ]
+}

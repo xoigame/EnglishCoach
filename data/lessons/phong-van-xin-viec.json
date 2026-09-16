@@ -1,154 +1,227 @@
 {
   "id": "phong-van-xin-viec",
   "title": "Phỏng vấn xin việc vòng đầu",
-  "topic": "Phỏng vấn tuyển dụng",
+  "topic": "Phỏng vấn xin việc",
   "level": "B1",
-  "summary": "Luyện trả lời những câu hỏi phổ biến trong vòng phỏng vấn đầu tiên cho vị trí chăm sóc khách hàng. Người học giới thiệu kinh nghiệm, nêu ví dụ xử lý tình huống và hỏi về công việc.",
+  "summary": "Bạn tham gia vòng phỏng vấn đầu tiên cho vị trí chăm sóc khách hàng tại một công ty phần mềm. Bạn giới thiệu bản thân, nêu kinh nghiệm và trả lời câu hỏi tình huống.",
   "goals": [
-    "Tự tin giới thiệu bản thân và kinh nghiệm làm việc",
-    "Diễn đạt lý do ứng tuyển và cách xử lý khách hàng khó tính",
-    "Nói về kỹ năng, cách sắp xếp ưu tiên và đặt câu hỏi cuối buổi phỏng vấn"
+    "Giới thiệu kinh nghiệm làm việc một cách tự nhiên",
+    "Giải thích lý do ứng tuyển và cách xử lý vấn đề",
+    "Hỏi về quy trình hỗ trợ và các bước tiếp theo"
   ],
   "vocab": [
     {
-      "en": "apply for",
-      "ipa": "/əˈplaɪ fɔːr/",
-      "vi": "nộp đơn ứng tuyển",
-      "example": "I am applying for a customer support position."
+      "en": "customer success",
+      "ipa": "/ˈkʌstəmər səkˈses/",
+      "vi": "bộ phận giúp khách hàng đạt kết quả tốt khi dùng sản phẩm",
+      "example": "I am interested in working in customer success."
     },
     {
       "en": "position",
       "ipa": "/pəˈzɪʃən/",
       "vi": "vị trí công việc",
-      "example": "This position requires strong communication skills."
+      "example": "This position matches my experience."
     },
     {
-      "en": "experience",
-      "ipa": "/ɪkˈspɪriəns/",
-      "vi": "kinh nghiệm",
-      "example": "I have experience in customer service."
+      "en": "relevant experience",
+      "ipa": "/ˈreləvənt ɪkˈspɪriəns/",
+      "vi": "kinh nghiệm liên quan",
+      "example": "I have relevant experience in customer support."
     },
     {
-      "en": "customer support",
-      "ipa": "/ˈkʌstəmər səˈpɔːrt/",
-      "vi": "hỗ trợ khách hàng",
-      "example": "She works in customer support for an online store."
+      "en": "handle a problem",
+      "ipa": "/ˈhændəl ə ˈprɑːbləm/",
+      "vi": "xử lý một vấn đề",
+      "example": "I can stay calm when I handle a problem."
+    },
+    {
+      "en": "upset",
+      "ipa": "/ʌpˈset/",
+      "vi": "khó chịu, bực bội",
+      "example": "The customer was upset about the late delivery."
     },
     {
       "en": "replacement",
       "ipa": "/rɪˈpleɪsmənt/",
       "vi": "hàng hoặc sản phẩm thay thế",
-      "example": "We sent the customer a replacement the next day."
-    },
-    {
-      "en": "priority",
-      "ipa": "/praɪˈɔːrəti/",
-      "vi": "ưu tiên",
-      "example": "Urgent customer requests are my first priority."
-    },
-    {
-      "en": "organize",
-      "ipa": "/ˈɔːrɡənaɪz/",
-      "vi": "sắp xếp, tổ chức",
-      "example": "I organize my tasks at the beginning of each day."
+      "example": "We arranged a replacement for the customer."
     },
     {
       "en": "feedback",
       "ipa": "/ˈfiːdbæk/",
-      "vi": "phản hồi",
-      "example": "Customer feedback helps us improve our service."
+      "vi": "phản hồi, góp ý",
+      "example": "I give feedback in a respectful way."
     },
     {
-      "en": "strength",
-      "ipa": "/streŋθ/",
-      "vi": "điểm mạnh",
-      "example": "My biggest strength is staying calm under pressure."
+      "en": "colleague",
+      "ipa": "/ˈkɑːliːɡ/",
+      "vi": "đồng nghiệp",
+      "example": "I often ask a colleague for advice."
     },
     {
-      "en": "under pressure",
-      "ipa": "/ˈʌndər ˈpreʃər/",
-      "vi": "dưới áp lực",
-      "example": "I can make careful decisions under pressure."
+      "en": "strengthen",
+      "ipa": "/ˈstreŋθən/",
+      "vi": "củng cố, phát triển mạnh hơn",
+      "example": "I want to strengthen my communication skills."
+    },
+    {
+      "en": "next steps",
+      "ipa": "/nekst steps/",
+      "vi": "các bước tiếp theo",
+      "example": "Could you tell me about the next steps?"
     }
   ],
   "patterns": [
     {
-      "en": "I have experience in ___.",
-      "vi": "Tôi có kinh nghiệm trong lĩnh vực ___.",
-      "note": "Dùng để giới thiệu nền tảng làm việc ngắn gọn."
+      "en": "I am interested in this position because ___.",
+      "vi": "Tôi quan tâm đến vị trí này vì ___.",
+      "note": "Dùng để nêu lý do ứng tuyển rõ ràng và chuyên nghiệp."
     },
     {
-      "en": "What interested you in applying for this position?",
-      "vi": "Điều gì khiến bạn quan tâm đến việc ứng tuyển vị trí này?",
-      "note": "Câu hỏi phổ biến để hỏi động lực ứng tuyển."
+      "en": "At my last job, I ___.",
+      "vi": "Ở công việc trước, tôi đã ___.",
+      "note": "Dùng quá khứ đơn để kể một kinh nghiệm cụ thể."
     },
     {
-      "en": "Could you describe a time when ___?",
-      "vi": "Bạn có thể mô tả một lần khi ___ không?",
-      "note": "Dùng để yêu cầu ví dụ cụ thể từ kinh nghiệm thực tế."
+      "en": "I responded by ___, so ___.",
+      "vi": "Tôi đã phản hồi bằng cách ___, vì vậy ___.",
+      "note": "Mẫu hữu ích để nêu hành động và kết quả khi trả lời câu hỏi tình huống."
     },
     {
-      "en": "When ___ happened, I ___.",
-      "vi": "Khi ___ xảy ra, tôi đã ___.",
-      "note": "Dùng quá khứ đơn để kể cách bạn xử lý tình huống."
+      "en": "I would like to develop ___.",
+      "vi": "Tôi muốn phát triển ___.",
+      "note": "Lịch sự và phù hợp khi nói về mục tiêu nghề nghiệp."
     },
     {
-      "en": "I would say my strongest skill is ___.",
-      "vi": "Tôi cho rằng kỹ năng mạnh nhất của tôi là ___.",
-      "note": "Cách nêu điểm mạnh tự nhiên và không quá khoe khoang."
+      "en": "Could you explain ___?",
+      "vi": "Bạn có thể giải thích về ___ không?",
+      "note": "Dùng để hỏi nhà tuyển dụng một cách lịch sự."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm /v/",
-      "tip": "Đặt răng trên chạm nhẹ môi dưới và tạo rung nhẹ. Tránh đọc thành âm /w/ hoặc /b/.",
+      "focus": "âm /θ/ trong strengthen",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi ra; không đọc thành âm /t/ hoặc /s/.",
       "words": [
-        "very",
-        "service",
-        "feedback"
+        "three",
+        "thank",
+        "strengthen"
       ]
     },
     {
-      "focus": "âm cuối /t/ và /k/",
-      "tip": "Phát âm rõ phụ âm cuối, nhưng không thêm nguyên âm phía sau.",
+      "focus": "âm cuối /t/ và /d/",
+      "tip": "Phát âm nhẹ phụ âm cuối để người nghe phân biệt support với suppose, hoặc stayed với stay.",
       "words": [
-        "worked",
         "support",
-        "feedback"
+        "product",
+        "stayed"
       ]
     },
     {
       "focus": "trọng âm từ nhiều âm tiết",
-      "tip": "Nhấn rõ âm tiết được in đậm trong đầu khi luyện nói để câu nghe tự nhiên hơn.",
+      "tip": "Nhấn đúng âm chính để lời nói tự nhiên hơn; không nhấn đều mọi âm.",
       "words": [
-        "experience",
-        "replacement",
-        "organize"
+        "customer",
+        "colleague",
+        "experience"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "I have three years experience.",
-      "right": "I have three years of experience.",
-      "vi": "Cần dùng of sau số năm khi nói về kinh nghiệm."
+      "wrong": "I have three years experience in customer support.",
+      "right": "I have three years of experience in customer support.",
+      "vi": "Cần dùng of experience sau số năm kinh nghiệm."
     },
     {
-      "wrong": "I am very interested to this position.",
+      "wrong": "I am very interested on this position.",
       "right": "I am very interested in this position.",
-      "vi": "Tính từ interested đi với giới từ in."
+      "vi": "Dùng interested in, không dùng interested on."
     },
     {
-      "wrong": "Last year, I handle a difficult customer.",
-      "right": "Last year, I handled a difficult customer.",
-      "vi": "Có mốc thời gian quá khứ nên dùng handled."
+      "wrong": "I handled an upset customer yesterday, and I am apologize.",
+      "right": "I handled an upset customer yesterday, and I apologized.",
+      "vi": "Khi kể chuyện đã xảy ra, dùng quá khứ đơn cho cả hai hành động."
     },
     {
-      "wrong": "I can work under pressure good.",
-      "right": "I can work well under pressure.",
-      "vi": "Sau động từ work cần trạng từ well, không dùng tính từ good."
+      "wrong": "Could you explain me about the training?",
+      "right": "Could you explain the training to me?",
+      "vi": "Explain cần đi với tân ngữ trực tiếp, sau đó mới dùng to me nếu cần."
+    },
+    {
+      "wrong": "I look forward to hear from you.",
+      "right": "I look forward to hearing from you.",
+      "vi": "Sau look forward to, dùng động từ thêm ing."
     }
   ],
+  "variations": [
+    {
+      "situation": "Nêu lý do ứng tuyển",
+      "formal": "I am particularly interested in this position because it matches my experience and career goals.",
+      "casual": "I like this role because it feels like a good fit for me.",
+      "vi": "Câu trang trọng phù hợp khi phỏng vấn hoặc viết thư ứng tuyển; câu thân mật phù hợp khi trao đổi không chính thức với đồng nghiệp."
+    },
+    {
+      "situation": "Hỏi về bước tiếp theo",
+      "formal": "Could you tell me what the next steps in the hiring process are?",
+      "casual": "What happens next?",
+      "vi": "Câu trang trọng dùng với nhà tuyển dụng hoặc người lạ; câu thân mật chỉ nên dùng khi đã có không khí rất gần gũi."
+    },
+    {
+      "situation": "Nói về kinh nghiệm",
+      "formal": "I have gained valuable experience in handling customer concerns.",
+      "casual": "I have dealt with a lot of customer issues.",
+      "vi": "Câu trang trọng nghe chuyên nghiệp hơn trong phỏng vấn; câu thân mật tự nhiên khi trò chuyện với đồng nghiệp."
+    },
+    {
+      "situation": "Xin làm rõ câu hỏi",
+      "formal": "Could you please clarify what you mean by that?",
+      "casual": "Could you explain that a little more?",
+      "vi": "Cả hai đều lịch sự, nhưng câu đầu trang trọng hơn và hợp với phỏng vấn; câu sau mềm mại, tự nhiên hơn trong trao đổi hằng ngày."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn ở các nước nói tiếng Anh, ứng viên thường được kỳ vọng nêu ví dụ cụ thể thay vì chỉ nói mình chăm chỉ hoặc có trách nhiệm.",
+    "Nhà tuyển dụng có thể hỏi trực tiếp về điểm yếu, mức lương hoặc lý do nghỉ việc. Hãy trả lời bình tĩnh, ngắn gọn và hướng về điều bạn đã học được.",
+    "Cuối buổi, hỏi một hoặc hai câu về đội nhóm, đào tạo hay quy trình làm việc thường tạo ấn tượng tốt hơn là chỉ nói không có câu hỏi."
+  ],
+  "listening": {
+    "title": "Tin nhắn xác nhận phỏng vấn",
+    "passage": "Hello, this is Jordan from BrightPath Software. Thank you for applying for our customer success role. Your first interview will be online next Tuesday morning and should take about thirty minutes. Please prepare one example of helping a customer solve a problem. You do not need to make a presentation. We will send the meeting link this afternoon. Good luck, and we look forward to speaking with you.",
+    "vi": "Xin chào, tôi là Jordan từ công ty BrightPath Software. Cảm ơn bạn đã ứng tuyển vị trí chăm sóc khách hàng của chúng tôi. Buổi phỏng vấn đầu tiên của bạn sẽ diễn ra trực tuyến vào sáng thứ Ba tới và kéo dài khoảng ba mươi phút. Hãy chuẩn bị một ví dụ về việc giúp khách hàng giải quyết vấn đề. Bạn không cần chuẩn bị bài thuyết trình. Chúng tôi sẽ gửi đường dẫn cuộc họp vào chiều nay. Chúc bạn may mắn, chúng tôi mong được nói chuyện với bạn.",
+    "questions": [
+      {
+        "q": "When will the first interview take place?",
+        "choices": [
+          "Next Tuesday morning",
+          "This afternoon",
+          "Next Friday morning"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì bài nghe nói rõ buổi phỏng vấn diễn ra vào sáng thứ Ba tới."
+      },
+      {
+        "q": "What should the applicant prepare?",
+        "choices": [
+          "A presentation",
+          "An example of solving a customer problem",
+          "A list of references"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì người gọi yêu cầu chuẩn bị một ví dụ giúp khách hàng giải quyết vấn đề."
+      },
+      {
+        "q": "What will BrightPath Software send this afternoon?",
+        "choices": [
+          "The meeting link",
+          "A job offer",
+          "Training materials"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì bài nghe nói công ty sẽ gửi đường dẫn cuộc họp vào chiều nay."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Nhà tuyển dụng",
@@ -164,143 +237,149 @@
       },
       {
         "speaker": "b",
-        "en": "Good morning. I am Linh Nguyen, and I have worked in customer service for three years.",
-        "vi": "Chào buổi sáng. Tôi là Linh Nguyễn và tôi đã làm dịch vụ khách hàng được ba năm.",
+        "en": "Good morning. I am Minh, and I have worked in customer support for three years.",
+        "vi": "Chào buổi sáng. Tôi là Minh và tôi đã làm chăm sóc khách hàng được ba năm.",
         "hint": "Dùng hiện tại hoàn thành để nói kinh nghiệm kéo dài đến hiện tại."
       },
       {
         "speaker": "a",
-        "en": "Great, Linh. What interested you in applying for this customer support position?",
-        "vi": "Tốt lắm, Linh. Điều gì khiến bạn quan tâm đến việc ứng tuyển vị trí hỗ trợ khách hàng này?",
+        "en": "What interested you in this customer success position at our growing software company?",
+        "vi": "Điều gì khiến bạn quan tâm đến vị trí chăm sóc khách hàng tại công ty phần mềm đang phát triển của chúng tôi?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I enjoy solving problems, and your company seems focused on making customers feel valued.",
-        "vi": "Tôi thích giải quyết vấn đề và công ty của bạn có vẻ chú trọng khiến khách hàng cảm thấy được trân trọng.",
-        "hint": "Nêu một sở thích cá nhân rồi kết nối với điểm mạnh của công ty."
+        "en": "I enjoy solving problems, and I want to help customers get real value from products.",
+        "vi": "Tôi thích giải quyết vấn đề và muốn giúp khách hàng nhận được giá trị thực từ sản phẩm.",
+        "hint": "Nêu lý do cá nhân, rồi liên hệ với lợi ích cho khách hàng."
       },
       {
         "speaker": "a",
-        "en": "Could you describe a time when you handled a difficult customer successfully?",
-        "vi": "Bạn có thể mô tả một lần bạn xử lý thành công một khách hàng khó tính không?",
+        "en": "Tell me about a time you handled a difficult customer or unexpected problem.",
+        "vi": "Hãy kể về một lần bạn xử lý khách hàng khó tính hoặc một vấn đề bất ngờ.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Last year, a customer received the wrong order, so I listened and arranged a replacement.",
-        "vi": "Năm ngoái, một khách hàng nhận nhầm đơn hàng, nên tôi đã lắng nghe và sắp xếp sản phẩm thay thế.",
-        "hint": "Kể tình huống quá khứ theo trình tự: vấn đề, sau đó là hành động."
+        "en": "At my last job, a customer was upset because their delivery arrived late.",
+        "vi": "Ở công việc trước, một khách hàng đã khó chịu vì đơn giao hàng đến muộn.",
+        "hint": "Mở đầu bằng At my last job để kể ví dụ cụ thể."
       },
       {
         "speaker": "a",
-        "en": "How did you make sure the customer was satisfied after the replacement arrived?",
-        "vi": "Bạn đã làm thế nào để chắc chắn khách hàng hài lòng sau khi sản phẩm thay thế đến nơi?",
+        "en": "How did you respond, and what was the result of that conversation?",
+        "vi": "Bạn đã phản hồi thế nào, và kết quả của cuộc trao đổi đó là gì?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I called her the next day, apologized again, and confirmed that everything was correct.",
-        "vi": "Tôi gọi cho cô ấy vào ngày hôm sau, xin lỗi một lần nữa và xác nhận mọi thứ đều đúng.",
-        "hint": "Dùng các động từ quá khứ để liệt kê những việc bạn đã làm."
+        "en": "I listened carefully, apologized, and arranged a replacement, so the customer stayed with us.",
+        "vi": "Tôi lắng nghe kỹ, xin lỗi và sắp xếp một sản phẩm thay thế, vì vậy khách hàng vẫn tiếp tục với chúng tôi.",
+        "hint": "Kể theo thứ tự: hành động của bạn, rồi kết quả."
       },
       {
         "speaker": "a",
-        "en": "This role can be busy. How do you organize tasks when priorities change quickly?",
-        "vi": "Công việc này có thể bận rộn. Bạn sắp xếp công việc thế nào khi các ưu tiên thay đổi nhanh?",
+        "en": "This role requires teamwork. How do you share feedback when a colleague makes mistakes?",
+        "vi": "Vai trò này cần làm việc nhóm. Bạn góp ý thế nào khi đồng nghiệp mắc lỗi?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I list urgent requests first, update my manager, and stay calm under pressure.",
-        "vi": "Tôi liệt kê các yêu cầu khẩn cấp trước, cập nhật cho quản lý và giữ bình tĩnh dưới áp lực.",
-        "hint": "Dùng hiện tại đơn để mô tả thói quen làm việc của bạn."
+        "en": "I speak privately, explain the impact, and suggest a practical way to improve.",
+        "vi": "Tôi nói chuyện riêng, giải thích ảnh hưởng và đề xuất một cách thực tế để cải thiện.",
+        "hint": "Dùng ba động từ song song để câu trả lời rõ và tự tin."
       },
       {
         "speaker": "a",
-        "en": "What would you say is your strongest skill when working with a team?",
-        "vi": "Bạn sẽ nói kỹ năng mạnh nhất của mình khi làm việc nhóm là gì?",
+        "en": "Which skills would you like to develop during your first year with us?",
+        "vi": "Bạn muốn phát triển những kỹ năng nào trong năm đầu tiên làm việc với chúng tôi?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Before we finish, could you tell me how success is measured in this role?",
-        "vi": "Trước khi kết thúc, bạn có thể cho tôi biết thành công ở vị trí này được đánh giá như thế nào không?",
-        "hint": "Đây là cách lịch sự để đặt một câu hỏi cuối buổi phỏng vấn."
+        "en": "I would like to strengthen my communication skills and learn more about customer data.",
+        "vi": "Tôi muốn củng cố kỹ năng giao tiếp và tìm hiểu thêm về dữ liệu khách hàng.",
+        "hint": "Dùng I would like to để nói mục tiêu một cách chuyên nghiệp."
       },
       {
         "speaker": "a",
-        "en": "We measure it through customer feedback and response quality. We will contact you next week.",
-        "vi": "Chúng tôi đánh giá qua phản hồi của khách hàng và chất lượng phản hồi. Chúng tôi sẽ liên hệ bạn vào tuần tới.",
+        "en": "Before we finish, do you have any questions about the team or training?",
+        "vi": "Trước khi kết thúc, bạn có câu hỏi nào về đội nhóm hoặc việc đào tạo không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Thank you for explaining that. I appreciate your time and look forward to hearing from you.",
-        "vi": "Cảm ơn bạn đã giải thích. Tôi trân trọng thời gian của bạn và mong nhận được phản hồi từ bạn.",
-        "hint": "Dùng look forward to cộng với danh từ hoặc động từ thêm ing."
+        "en": "Yes. How are new employees supported during their first few months on the team?",
+        "vi": "Có. Nhân viên mới được hỗ trợ như thế nào trong vài tháng đầu làm việc cùng đội?",
+        "hint": "Đặt một câu hỏi thể hiện bạn quan tâm đến việc hòa nhập và phát triển."
+      },
+      {
+        "speaker": "a",
+        "en": "You will receive training and weekly support meetings. Thank you, Minh; we will contact you soon.",
+        "vi": "Bạn sẽ được đào tạo và có các buổi hỗ trợ hằng tuần. Cảm ơn Minh, chúng tôi sẽ sớm liên hệ với bạn.",
+        "hint": ""
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a friendly hiring manager conducting a first-round interview at a growing technology company in Ho Chi Minh City. You are professional, warm, and curious.",
-    "opener": "Good morning, thanks for meeting with me today. Could you briefly introduce yourself?",
-    "goal": "Người học trả lời câu hỏi phỏng vấn, nêu kinh nghiệm và đặt ít nhất một câu hỏi về vị trí."
+    "persona": "You are a friendly recruitment manager at a growing software company. You are conducting a first-round interview online, asking clear follow-up questions and keeping a professional, supportive tone.",
+    "opener": "Good morning, thanks for joining us today. Could you briefly introduce yourself?",
+    "goal": "Người học trả lời phỏng vấn vòng đầu, nêu kinh nghiệm, xử lý tình huống và hỏi về công việc."
   },
   "drills": [
     {
-      "vi": "Tôi có ba năm kinh nghiệm trong dịch vụ khách hàng.",
-      "en": "I have three years of experience in customer service.",
+      "vi": "Tôi quan tâm đến vị trí này vì tôi thích giúp khách hàng.",
+      "en": "I am interested in this position because I enjoy helping customers.",
       "alts": [
-        "I have worked in customer service for three years."
+        "I am interested in this role because I like helping customers."
       ]
     },
     {
-      "vi": "Tôi quan tâm đến việc ứng tuyển vị trí này vì tôi thích giải quyết vấn đề.",
-      "en": "I am interested in applying for this position because I enjoy solving problems.",
+      "vi": "Ở công việc trước, tôi đã xử lý nhiều vấn đề của khách hàng.",
+      "en": "At my last job, I handled many customer problems.",
       "alts": [
-        "I want to apply for this position because I like solving problems."
+        "In my previous job, I dealt with many customer issues."
       ]
     },
     {
-      "vi": "Khi khách hàng nhận sai đơn hàng, tôi đã sắp xếp sản phẩm thay thế.",
-      "en": "When the customer received the wrong order, I arranged a replacement.",
+      "vi": "Khách hàng khó chịu vì đơn hàng đến muộn.",
+      "en": "The customer was upset because the delivery arrived late.",
       "alts": [
-        "I arranged a replacement after the customer received the wrong order."
+        "The customer was unhappy because the order arrived late."
       ]
     },
     {
-      "vi": "Tôi luôn kiểm tra phản hồi của khách hàng.",
-      "en": "I always check customer feedback.",
+      "vi": "Tôi đã lắng nghe kỹ và sắp xếp một sản phẩm thay thế.",
+      "en": "I listened carefully and arranged a replacement.",
       "alts": [
-        "I regularly review feedback from customers."
+        "I listened to the customer and organized a replacement."
       ]
     },
     {
-      "vi": "Tôi sắp xếp các yêu cầu khẩn cấp trước.",
-      "en": "I organize urgent requests first.",
+      "vi": "Tôi muốn phát triển kỹ năng giao tiếp của mình.",
+      "en": "I would like to develop my communication skills.",
       "alts": [
-        "I put urgent requests first."
+        "I want to strengthen my communication skills."
       ]
     },
     {
-      "vi": "Tôi có thể giữ bình tĩnh dưới áp lực.",
-      "en": "I can stay calm under pressure.",
+      "vi": "Bạn có thể giải thích các bước tiếp theo không?",
+      "en": "Could you explain the next steps?",
       "alts": [
-        "I work well under pressure."
+        "Could you tell me about the next steps?"
       ]
     },
     {
-      "vi": "Điểm mạnh nhất của tôi là giao tiếp rõ ràng với nhóm.",
-      "en": "I would say my strongest skill is communicating clearly with the team.",
+      "vi": "Tôi góp ý riêng với đồng nghiệp một cách tôn trọng.",
+      "en": "I give feedback to colleagues privately and respectfully.",
       "alts": [
-        "My strongest skill is clear communication with the team."
+        "I speak to colleagues privately when I give feedback."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại toàn bộ hội thoại và tự kiểm tra âm cuối trong worked, support và feedback.",
-    "Chuẩn bị một câu chuyện 4 câu về lần bạn giải quyết vấn đề cho khách hàng.",
-    "Viết ba câu trả lời khác nhau cho câu hỏi về điểm mạnh của bạn."
+    "Ghi âm lại vai ứng viên trong toàn bộ hội thoại và tự nghe lại.",
+    "Viết hai câu trả lời khác cho câu hỏi về khách hàng khó tính.",
+    "Chuẩn bị ba câu hỏi lịch sự để hỏi nhà tuyển dụng ở cuối buổi phỏng vấn."
   ]
 }

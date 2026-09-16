@@ -1,0 +1,403 @@
+{
+  "id": "xu-ly-khung-hoang-truyen-thong",
+  "title": "Trả lời báo chí trong khủng hoảng truyền thông",
+  "topic": "Trả lời báo chí khi xảy ra khủng hoảng",
+  "level": "C1",
+  "summary": "Bạn đóng vai người phát ngôn của công ty tại họp báo sau một sự cố bảo mật. Bạn cần trả lời thẳng thắn, tránh suy đoán và cho thấy công ty đang chịu trách nhiệm.",
+  "goals": [
+    "Xác nhận thông tin đã được kiểm chứng mà không tiết lộ quá mức.",
+    "Thể hiện sự đồng cảm và xử lý các câu hỏi mang tính chất chỉ trích.",
+    "Dùng ngôn ngữ trang trọng để nói về điều tra, trách nhiệm và các bước tiếp theo."
+  ],
+  "vocab": [
+    {
+      "en": "data breach",
+      "ipa": "/ˈdeɪtə briːtʃ/",
+      "vi": "vụ rò rỉ hoặc xâm phạm dữ liệu",
+      "example": "The company is investigating a data breach."
+    },
+    {
+      "en": "unauthorized access",
+      "ipa": "/ʌnˈɔːθəraɪzd ˈækses/",
+      "vi": "sự truy cập không được phép",
+      "example": "We identified unauthorized access to part of the system."
+    },
+    {
+      "en": "initial assessment",
+      "ipa": "/ɪˈnɪʃəl əˈsesmənt/",
+      "vi": "đánh giá ban đầu",
+      "example": "Our initial assessment is still under review."
+    },
+    {
+      "en": "reporting threshold",
+      "ipa": "/rɪˈpɔːrtɪŋ ˈθreʃhoʊld/",
+      "vi": "ngưỡng phải báo cáo theo quy định",
+      "example": "The incident met the reporting threshold."
+    },
+    {
+      "en": "affected customers",
+      "ipa": "/əˈfektɪd ˈkʌstəmərz/",
+      "vi": "khách hàng bị ảnh hưởng",
+      "example": "We are contacting affected customers directly."
+    },
+    {
+      "en": "as a precaution",
+      "ipa": "/æz ə prɪˈkɔːʃən/",
+      "vi": "như một biện pháp phòng ngừa",
+      "example": "As a precaution, we reset relevant passwords."
+    },
+    {
+      "en": "rule out",
+      "ipa": "/ruːl aʊt/",
+      "vi": "loại trừ khả năng",
+      "example": "We cannot rule out further risk at this point."
+    },
+    {
+      "en": "assign blame",
+      "ipa": "/əˈsaɪn bleɪm/",
+      "vi": "quy trách nhiệm hoặc đổ lỗi",
+      "example": "It would be premature to assign blame."
+    },
+    {
+      "en": "hold accountable",
+      "ipa": "/hoʊld əˈkaʊntəbəl/",
+      "vi": "yêu cầu ai đó chịu trách nhiệm",
+      "example": "The board will hold those responsible accountable."
+    },
+    {
+      "en": "material information",
+      "ipa": "/məˈtɪriəl ˌɪnfərˈmeɪʃən/",
+      "vi": "thông tin quan trọng có thể ảnh hưởng đến quyết định của công chúng",
+      "example": "We will share material information as it becomes available."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "We can confirm that ...",
+      "vi": "Chúng tôi có thể xác nhận rằng ...",
+      "note": "Dùng để xác nhận điều đã kiểm chứng; trang trọng và an toàn hơn cách nói khẳng định quá mức."
+    },
+    {
+      "en": "At this stage, ...",
+      "vi": "Ở giai đoạn này, ...",
+      "note": "Dùng để giới hạn thông tin khi cuộc điều tra chưa hoàn tất."
+    },
+    {
+      "en": "We cannot rule out ...",
+      "vi": "Chúng tôi chưa thể loại trừ ...",
+      "note": "Nêu sự bất định một cách chuyên nghiệp, không suy đoán."
+    },
+    {
+      "en": "It would be premature to ...",
+      "vi": "Sẽ là quá sớm để ...",
+      "note": "Cách lịch sự để từ chối kết luận hoặc quy trách nhiệm khi chưa đủ bằng chứng."
+    },
+    {
+      "en": "Our immediate priority is ...",
+      "vi": "Ưu tiên trước mắt của chúng tôi là ...",
+      "note": "Chuyển trọng tâm sang hành động cụ thể mà tổ chức đang thực hiện."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm /θ/ trong threshold",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Không đọc thành âm /t/ hoặc /s/.",
+      "words": [
+        "threshold",
+        "three",
+        "thorough"
+      ]
+    },
+    {
+      "focus": "Cụm phụ âm cuối /ks/",
+      "tip": "Trong access, risks và facts, phát rõ âm /k/ rồi thêm /s/; tránh bỏ âm cuối.",
+      "words": [
+        "access",
+        "risks",
+        "facts"
+      ]
+    },
+    {
+      "focus": "Trọng âm từ dài",
+      "tip": "Nhấn đúng âm chính để lời nói nghe tự nhiên và có thẩm quyền.",
+      "words": [
+        "unauthorized",
+        "accountable",
+        "material"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We have no evidence payment card data have accessed.",
+      "right": "We have no evidence that payment card data was accessed.",
+      "vi": "Dùng mệnh đề that và thể bị động was accessed; data ở đây được xem là danh từ không đếm được."
+    },
+    {
+      "wrong": "We will contact to affected customers.",
+      "right": "We will contact affected customers.",
+      "vi": "Contact là động từ trực tiếp, không đi với to."
+    },
+    {
+      "wrong": "We cannot rule out that there is no risk.",
+      "right": "We cannot rule out further risk.",
+      "vi": "Câu sai có nghĩa phủ định kép, dễ gây hiểu nhầm; hãy nói rõ điều chưa thể loại trừ."
+    },
+    {
+      "wrong": "It is too early for assign blame.",
+      "right": "It is too early to assign blame.",
+      "vi": "Sau too early dùng to cộng động từ nguyên mẫu."
+    },
+    {
+      "wrong": "Our priority is protect customers accounts.",
+      "right": "Our priority is protecting customers' accounts.",
+      "vi": "Sau is dùng danh động từ tự nhiên hơn, và customers' cần dấu sở hữu."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Thừa nhận mối lo ngại của công chúng",
+      "formal": "I understand that concern, and we are taking it seriously.",
+      "casual": "I hear the concern, and we are on it.",
+      "vi": "Câu formal phù hợp với họp báo hoặc khách hàng không quen. Câu casual chỉ hợp khi cập nhật cho đồng nghiệp hoặc nhóm nội bộ thân thuộc."
+    },
+    {
+      "situation": "Từ chối suy đoán về nguyên nhân",
+      "formal": "We are not in a position to speculate before the review is complete.",
+      "casual": "I do not want to guess until we know more.",
+      "vi": "Câu formal tạo khoảng cách chuyên nghiệp khi trả lời báo chí. Câu casual tự nhiên hơn trong cuộc trao đổi nội bộ."
+    },
+    {
+      "situation": "Xin lỗi vì thông tin chậm",
+      "formal": "We regret that our communication did not reach everyone promptly.",
+      "casual": "We are sorry some people did not hear from us sooner.",
+      "vi": "Câu formal phù hợp với tuyên bố công khai. Câu casual phù hợp với cuộc trò chuyện trực tiếp, nhưng vẫn cần đi kèm hành động khắc phục."
+    },
+    {
+      "situation": "Cam kết cập nhật",
+      "formal": "We will provide further verified updates as the facts emerge.",
+      "casual": "We will share more once we have confirmed it.",
+      "vi": "Câu formal phù hợp với thông cáo hoặc họp báo. Câu casual hợp với tin nhắn cho đội nhóm hay khách hàng đã quen."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, một câu thừa nhận ngắn như I understand that concern thường được xem là đồng cảm, không nhất thiết là thừa nhận lỗi pháp lý.",
+    "Người phát ngôn thường tránh nói no comment. Thay vào đó, họ giải thích ngắn gọn điều chưa thể chia sẻ, lý do và thời điểm sẽ cập nhật.",
+    "Phóng viên có thể hỏi rất trực diện hoặc lặp lại câu hỏi. Giữ bình tĩnh, trả lời phần có thể xác nhận và chuyển sang hành động cụ thể thường hiệu quả hơn tranh cãi."
+  ],
+  "listening": {
+    "title": "Tin nhắn cập nhật về sự cố dịch vụ",
+    "passage": "Hello, this is Maya Chen from Northbridge Retail. I am calling with an update on last night's service disruption. Some customers received delayed order confirmations, but no payment details were exposed. Our team has restored the affected system and is reviewing the cause with an external specialist. If you placed an order yesterday, please check your email before contacting support. We will issue another update tomorrow morning.",
+    "vi": "Xin chào, tôi là Maya Chen từ Northbridge Retail. Tôi gọi để cập nhật về sự gián đoạn dịch vụ tối qua. Một số khách hàng nhận được xác nhận đơn hàng chậm, nhưng không có thông tin thanh toán nào bị lộ. Nhóm của chúng tôi đã khôi phục hệ thống bị ảnh hưởng và đang xem xét nguyên nhân cùng một chuyên gia bên ngoài. Nếu bạn đã đặt hàng hôm qua, hãy kiểm tra email trước khi liên hệ bộ phận hỗ trợ. Chúng tôi sẽ đưa ra bản cập nhật khác vào sáng mai.",
+    "questions": [
+      {
+        "q": "What was delayed for some customers?",
+        "choices": [
+          "Order confirmations",
+          "Payment refunds",
+          "Account passwords"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì bài nghe nói rõ some customers received delayed order confirmations."
+      },
+      {
+        "q": "What information was not exposed?",
+        "choices": [
+          "Email addresses",
+          "Payment details",
+          "Order histories"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn thứ hai vì bài nghe nêu but no payment details were exposed."
+      },
+      {
+        "q": "What should customers do before contacting support?",
+        "choices": [
+          "Check their email",
+          "Reset their password",
+          "Call the bank"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn đầu tiên vì bài nghe yêu cầu please check your email before contacting support."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Phóng viên đang chất vấn tại buổi họp báo",
+      "b": "Người phát ngôn công ty"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Good afternoon. Can you confirm that customers' personal details were exposed in yesterday's security incident?",
+        "vi": "Chào buổi chiều. Ông bà có thể xác nhận rằng thông tin cá nhân của khách hàng đã bị lộ trong sự cố bảo mật hôm qua không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We can confirm that we identified unauthorized access to a limited part of our customer database.",
+        "vi": "Chúng tôi có thể xác nhận rằng đã phát hiện truy cập trái phép vào một phần giới hạn của cơ sở dữ liệu khách hàng.",
+        "hint": "Mở đầu bằng We can confirm that để chỉ nói điều đã kiểm chứng."
+      },
+      {
+        "speaker": "a",
+        "en": "What kind of information was involved?",
+        "vi": "Loại thông tin nào đã liên quan đến sự cố?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "At this stage, the affected records may include names, email addresses, and order histories. We have no evidence that payment card data was accessed.",
+        "vi": "Ở giai đoạn này, các hồ sơ bị ảnh hưởng có thể gồm tên, địa chỉ email và lịch sử đơn hàng. Chúng tôi chưa có bằng chứng cho thấy dữ liệu thẻ thanh toán đã bị truy cập.",
+        "hint": "Dùng At this stage để nói rõ thông tin vẫn đang được xác minh."
+      },
+      {
+        "speaker": "a",
+        "en": "Critics say your company waited too long to tell the public. Why?",
+        "vi": "Những người chỉ trích nói rằng công ty đã chờ quá lâu mới thông báo cho công chúng. Tại sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I understand that concern. We informed regulators as soon as our initial assessment showed that the incident met the reporting threshold, and we are contacting affected customers directly today.",
+        "vi": "Tôi hiểu mối lo ngại đó. Chúng tôi đã thông báo cho cơ quan quản lý ngay khi đánh giá ban đầu cho thấy sự cố đạt ngưỡng phải báo cáo, và hôm nay chúng tôi đang liên hệ trực tiếp với các khách hàng bị ảnh hưởng.",
+        "hint": "Thừa nhận lo ngại trước, rồi nêu mốc hành động cụ thể."
+      },
+      {
+        "speaker": "a",
+        "en": "Are you saying that anyone's sensitive data could still be at risk?",
+        "vi": "Có phải ông bà đang nói rằng dữ liệu nhạy cảm của một số người vẫn có thể gặp rủi ro không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We cannot rule out every possibility while the investigation is ongoing. As a precaution, we have reset relevant passwords and increased monitoring for suspicious activity.",
+        "vi": "Chúng tôi chưa thể loại trừ mọi khả năng khi cuộc điều tra vẫn đang diễn ra. Như một biện pháp phòng ngừa, chúng tôi đã đặt lại các mật khẩu liên quan và tăng cường theo dõi hoạt động đáng ngờ.",
+        "hint": "Không đoán chắc. Dùng We cannot rule out để thừa nhận mức độ chưa chắc chắn."
+      },
+      {
+        "speaker": "a",
+        "en": "Did the breach result from a failure inside the company?",
+        "vi": "Vụ xâm phạm có bắt nguồn từ một thất bại bên trong công ty không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It would be premature to assign blame. An independent cybersecurity firm is reviewing our systems, and we will publish the key findings when that review is complete.",
+        "vi": "Sẽ là quá sớm để quy trách nhiệm. Một công ty an ninh mạng độc lập đang rà soát hệ thống của chúng tôi, và chúng tôi sẽ công bố những phát hiện chính khi việc rà soát hoàn tất.",
+        "hint": "Dùng It would be premature to để từ chối kết luận quá sớm mà vẫn giữ giọng điệu hợp tác."
+      },
+      {
+        "speaker": "a",
+        "en": "Can affected customers expect compensation?",
+        "vi": "Các khách hàng bị ảnh hưởng có thể kỳ vọng được bồi thường không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We are evaluating appropriate support, including credit monitoring services where needed. Our immediate priority is helping people protect their accounts.",
+        "vi": "Chúng tôi đang đánh giá các hình thức hỗ trợ phù hợp, bao gồm dịch vụ theo dõi tín dụng khi cần thiết. Ưu tiên trước mắt của chúng tôi là giúp mọi người bảo vệ tài khoản của họ.",
+        "hint": "Không hứa bồi thường khi chưa có quyết định; chuyển sang ưu tiên hỗ trợ ngay."
+      },
+      {
+        "speaker": "a",
+        "en": "Will senior executives be held accountable?",
+        "vi": "Các lãnh đạo cấp cao có bị yêu cầu chịu trách nhiệm không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Accountability matters. The board has requested a full review, and any necessary personnel or process changes will be made based on the evidence.",
+        "vi": "Trách nhiệm giải trình rất quan trọng. Hội đồng quản trị đã yêu cầu một cuộc rà soát toàn diện, và mọi thay đổi cần thiết về nhân sự hoặc quy trình sẽ được thực hiện dựa trên bằng chứng.",
+        "hint": "Dùng based on the evidence để cho thấy quyết định sẽ dựa trên sự thật, không phải áp lực."
+      },
+      {
+        "speaker": "a",
+        "en": "Some customers say they only learned about this through social media. What do you say to them?",
+        "vi": "Một số khách hàng nói rằng họ chỉ biết sự việc qua mạng xã hội. Ông bà muốn nói gì với họ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "They deserved clear, timely information, and I am sorry that our communication did not reach everyone quickly enough. We have opened a dedicated support line and will provide daily updates until there is nothing more material to report.",
+        "vi": "Họ xứng đáng nhận được thông tin rõ ràng và kịp thời, và tôi xin lỗi vì thông tin của chúng tôi đã không đến được với mọi người đủ nhanh. Chúng tôi đã mở một đường dây hỗ trợ riêng và sẽ cập nhật hằng ngày cho đến khi không còn thông tin quan trọng nào cần báo cáo.",
+        "hint": "Xin lỗi về trải nghiệm cụ thể, sau đó đưa ra biện pháp khắc phục rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "Finally, what should customers do right now?",
+        "vi": "Cuối cùng, khách hàng nên làm gì ngay bây giờ?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Check the email we send from our official domain, change your password if prompted, and use our support line if anything looks unusual. We will keep sharing verified information as the facts develop.",
+        "vi": "Hãy kiểm tra email chúng tôi gửi từ tên miền chính thức, đổi mật khẩu nếu được yêu cầu và dùng đường dây hỗ trợ của chúng tôi nếu có điều gì bất thường. Chúng tôi sẽ tiếp tục chia sẻ thông tin đã được xác minh khi sự việc có thêm diễn biến.",
+        "hint": "Kết thúc bằng ba hành động đơn giản và cam kết cập nhật thông tin đã xác minh."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an investigative reporter at a press conference following a company data breach. You are firm, skeptical, and professional, but you give the spokesperson a fair chance to answer each question.",
+    "opener": "Good afternoon. Can you confirm that customers' personal details were exposed in yesterday's security incident?",
+    "goal": "Người học trả lời báo chí bình tĩnh, thừa nhận điều đã biết, tránh suy đoán và nêu các bước bảo vệ khách hàng."
+  },
+  "drills": [
+    {
+      "vi": "Chúng tôi có thể xác nhận rằng đã phát hiện truy cập trái phép.",
+      "en": "We can confirm that we identified unauthorized access.",
+      "alts": [
+        "We can confirm that unauthorized access was identified."
+      ]
+    },
+    {
+      "vi": "Ở giai đoạn này, chúng tôi vẫn đang đánh giá phạm vi của sự cố.",
+      "en": "At this stage, we are still assessing the scope of the incident.",
+      "alts": [
+        "Our assessment of the incident is still ongoing."
+      ]
+    },
+    {
+      "vi": "Chúng tôi chưa thể loại trừ thêm rủi ro.",
+      "en": "We cannot rule out further risk.",
+      "alts": [
+        "We cannot rule out additional risk at this point."
+      ]
+    },
+    {
+      "vi": "Sẽ là quá sớm để quy trách nhiệm.",
+      "en": "It would be premature to assign blame.",
+      "alts": [
+        "It is too early to draw conclusions about responsibility."
+      ]
+    },
+    {
+      "vi": "Như một biện pháp phòng ngừa, chúng tôi đã đặt lại mật khẩu.",
+      "en": "As a precaution, we have reset the passwords.",
+      "alts": [
+        "We reset the passwords as a precaution."
+      ]
+    },
+    {
+      "vi": "Ưu tiên trước mắt của chúng tôi là bảo vệ tài khoản của khách hàng.",
+      "en": "Our immediate priority is protecting customers' accounts.",
+      "alts": [
+        "Protecting customers' accounts is our immediate priority."
+      ]
+    },
+    {
+      "vi": "Chúng tôi sẽ chia sẻ thông tin quan trọng khi thông tin đó được xác minh.",
+      "en": "We will share material information as it is verified.",
+      "alts": [
+        "We will provide verified updates as the facts develop."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm câu trả lời cho ba câu hỏi khó nhất trong hội thoại và tự kiểm tra giọng điệu bình tĩnh, không phòng thủ.",
+    "Viết một tuyên bố ngắn từ 80 đến 100 từ, dùng ít nhất bốn từ vựng của bài.",
+    "Luyện nói lại các câu có We cannot rule out và It would be premature to cho đến khi phát âm rõ âm cuối."
+  ]
+}

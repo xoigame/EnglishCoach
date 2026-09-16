@@ -1,0 +1,359 @@
+{
+  "id": "di-cho-mua-thuc-pham",
+  "title": "Đi chợ mua thực phẩm tươi",
+  "topic": "Mua rau quả tươi",
+  "level": "A1",
+  "summary": "Bạn mua cà chua, cà rốt và rau chân vịt ở một quầy rau quả. Bạn hỏi số lượng, chọn đồ và thanh toán.",
+  "goals": [
+    "Gọi tên một số loại rau quả tươi cơ bản.",
+    "Nói số lượng món cần mua.",
+    "Hiểu giá tổng và thanh toán lịch sự."
+  ],
+  "vocab": [
+    {
+      "en": "tomato",
+      "ipa": "/təˈmeɪtoʊ/",
+      "vi": "cà chua",
+      "example": "These tomatoes are very fresh."
+    },
+    {
+      "en": "carrot",
+      "ipa": "/ˈkærət/",
+      "vi": "cà rốt",
+      "example": "I need six carrots, please."
+    },
+    {
+      "en": "spinach",
+      "ipa": "/ˈspɪnɪtʃ/",
+      "vi": "rau chân vịt, rau bina",
+      "example": "The spinach is very fresh."
+    },
+    {
+      "en": "fresh",
+      "ipa": "/freʃ/",
+      "vi": "tươi",
+      "example": "These vegetables are fresh today."
+    },
+    {
+      "en": "bag",
+      "ipa": "/bæɡ/",
+      "vi": "túi",
+      "example": "Please put them in a bag."
+    },
+    {
+      "en": "how many",
+      "ipa": "/haʊ ˈmeni/",
+      "vi": "bao nhiêu, dùng với danh từ đếm được",
+      "example": "How many carrots do you need?"
+    },
+    {
+      "en": "total",
+      "ipa": "/ˈtoʊtəl/",
+      "vi": "tổng tiền",
+      "example": "Your total is seven dollars."
+    },
+    {
+      "en": "dollar",
+      "ipa": "/ˈdɑːlər/",
+      "vi": "đô la",
+      "example": "One bag costs five dollars."
+    },
+    {
+      "en": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "vi": "tiền thừa",
+      "example": "Here is your change."
+    },
+    {
+      "en": "vegetables",
+      "ipa": "/ˈvedʒtəbəlz/",
+      "vi": "rau củ",
+      "example": "Fresh vegetables are over there."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I need ___, please.",
+      "vi": "Tôi cần ___, làm ơn.",
+      "note": "Dùng để gọi món hoặc nói thứ bạn muốn mua."
+    },
+    {
+      "en": "How many ___ do you need?",
+      "vi": "Bạn cần bao nhiêu ___?",
+      "note": "Dùng với danh từ đếm được như tomatoes và carrots."
+    },
+    {
+      "en": "Do you have any ___?",
+      "vi": "Bạn có ___ không?",
+      "note": "Dùng để hỏi cửa hàng có mặt hàng đó không."
+    },
+    {
+      "en": "One ___ costs ___ dollars.",
+      "vi": "Một ___ giá ___ đô la.",
+      "note": "Dùng để nói giá một món hàng."
+    },
+    {
+      "en": "Your total is ___ dollars.",
+      "vi": "Tổng tiền của bạn là ___ đô la.",
+      "note": "Người bán thường dùng câu này khi tính tiền."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /z/ trong danh từ số nhiều",
+      "tip": "Đừng bỏ âm cuối. Kéo nhẹ âm /z/ ở cuối tomatoes, carrots và vegetables.",
+      "words": [
+        "tomatoes",
+        "carrots",
+        "vegetables"
+      ]
+    },
+    {
+      "focus": "âm /tʃ/",
+      "tip": "Khép môi nhẹ rồi bật hơi như âm ch trong tiếng Việt, nhưng rõ và gọn hơn.",
+      "words": [
+        "spinach",
+        "change"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /fr/",
+      "tip": "Đọc âm /f/ rồi chuyển ngay sang /r/, không thêm nguyên âm ở giữa.",
+      "words": [
+        "fresh",
+        "from"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I need four tomato, please.",
+      "right": "I need four tomatoes, please.",
+      "vi": "Sau số lượng lớn hơn một, tomato phải ở dạng số nhiều là tomatoes."
+    },
+    {
+      "wrong": "How much tomatoes do you need?",
+      "right": "How many tomatoes do you need?",
+      "vi": "Tomatoes là danh từ đếm được số nhiều, nên dùng how many."
+    },
+    {
+      "wrong": "Do you have spinach fresh?",
+      "right": "Do you have fresh spinach?",
+      "vi": "Tính từ fresh đứng trước danh từ spinach."
+    },
+    {
+      "wrong": "Your total are seven dollars.",
+      "right": "Your total is seven dollars.",
+      "vi": "Total là danh từ số ít, nên dùng is."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Gọi mua cà chua",
+      "formal": "I would like four tomatoes, please.",
+      "casual": "Four tomatoes, please.",
+      "vi": "Câu formal lịch sự hơn khi mua ở quầy lạ hoặc chợ đông người. Câu casual ngắn gọn, tự nhiên khi mua nhanh ở quầy quen."
+    },
+    {
+      "situation": "Hỏi giá món hàng",
+      "formal": "Could you tell me the price, please?",
+      "casual": "How much is it?",
+      "vi": "Câu formal phù hợp khi muốn hỏi nhẹ nhàng với người bán lạ. Câu casual dùng khi bạn đang chỉ vào món hàng và ngữ cảnh đã rõ."
+    },
+    {
+      "situation": "Hỏi quầy có rau chân vịt",
+      "formal": "Do you have fresh spinach, please?",
+      "casual": "Any fresh spinach?",
+      "vi": "Câu formal đầy đủ và lịch sự với người bán. Câu casual rất ngắn, phù hợp ở quầy quen hoặc chợ nhỏ."
+    },
+    {
+      "situation": "Từ chối mua thêm",
+      "formal": "No, thank you, that is all.",
+      "casual": "No thanks, that is all.",
+      "vi": "No, thank you lịch sự hơn với người lạ. No thanks thân mật hơn nhưng vẫn hoàn toàn tự nhiên."
+    }
+  ],
+  "culture": [
+    "Ở nhiều siêu thị tại các nước nói tiếng Anh, người mua tự cho rau quả vào túi, tự cân hoặc dán nhãn trước khi ra quầy thanh toán.",
+    "Khi người bán hỏi bạn có cần thêm gì không, bạn có thể nói thẳng No, thanks. Câu này không bị xem là lạnh lùng.",
+    "Thông thường bạn không cần boa riêng cho người bán rau quả hoặc nhân viên quầy thực phẩm."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ chợ Green Market",
+    "passage": "Hi Mai, I am at Green Market now. The apples look very fresh, and the carrots are good too. I need two bags of apples and one bag of carrots for dinner. The spinach is not fresh today, so I do not buy it. Please meet me near the bread shop in ten minutes.",
+    "vi": "Chào Mai, bây giờ tôi đang ở chợ Green Market. Táo trông rất tươi, và cà rốt cũng ngon. Tôi cần hai túi táo và một túi cà rốt cho bữa tối. Rau chân vịt hôm nay không tươi, nên tôi không mua. Hãy gặp tôi gần cửa hàng bánh mì sau mười phút nhé.",
+    "questions": [
+      {
+        "q": "Where is the speaker?",
+        "choices": [
+          "At Green Market",
+          "At the bread shop",
+          "At home"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là At Green Market vì ngay đầu đoạn, người nói cho biết đang ở chợ Green Market."
+      },
+      {
+        "q": "What does the speaker not buy?",
+        "choices": [
+          "Apples",
+          "Carrots",
+          "Spinach"
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là Spinach vì người nói nói rau chân vịt không tươi nên không mua."
+      },
+      {
+        "q": "Where should Mai meet the speaker?",
+        "choices": [
+          "Near the bread shop",
+          "Near the fruit stand",
+          "Near the bus stop"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là Near the bread shop vì cuối đoạn có yêu cầu gặp gần cửa hàng bánh mì."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người bán rau quả",
+      "b": "Người mua"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello, what can I get?",
+        "vi": "Chào bạn, bạn cần mua gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, I need fresh tomatoes.",
+        "vi": "Chào, tôi cần cà chua tươi.",
+        "hint": "Mở đầu bằng Hi, rồi dùng I need."
+      },
+      {
+        "speaker": "a",
+        "en": "How many tomatoes do you need?",
+        "vi": "Bạn cần bao nhiêu quả cà chua?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I need four tomatoes, please.",
+        "vi": "Tôi cần bốn quả cà chua, làm ơn.",
+        "hint": "Số lượng đứng trước tomatoes."
+      },
+      {
+        "speaker": "a",
+        "en": "Fresh carrots and spinach are here.",
+        "vi": "Cà rốt tươi và rau chân vịt ở đây.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, I need six carrots too.",
+        "vi": "Tuyệt, tôi cũng cần sáu củ cà rốt.",
+        "hint": "too nghĩa là cũng."
+      },
+      {
+        "speaker": "a",
+        "en": "Do you need any fresh spinach?",
+        "vi": "Bạn có cần rau chân vịt tươi không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I need one bag.",
+        "vi": "Có, tôi cần một túi.",
+        "hint": "one bag nghĩa là một túi."
+      },
+      {
+        "speaker": "a",
+        "en": "Your total is seven dollars, please.",
+        "vi": "Tổng tiền của bạn là bảy đô la.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here is seven dollars for you.",
+        "vi": "Đây là bảy đô la của bạn.",
+        "hint": "Dùng Here is khi đưa tiền."
+      },
+      {
+        "speaker": "a",
+        "en": "Your change is right here.",
+        "vi": "Tiền thừa của bạn ở đây.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks, have a nice day.",
+        "vi": "Cảm ơn, chúc bạn một ngày tốt lành.",
+        "hint": "Dùng câu này để chào kết thúc."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly fruit and vegetable seller at a busy local market. You help customers choose fresh produce and state prices clearly.",
+    "opener": "Hello, what fresh food do you need?",
+    "goal": "Người học mua rau quả tươi, nói số lượng và thanh toán."
+  },
+  "drills": [
+    {
+      "vi": "Tôi cần cà chua tươi.",
+      "en": "I need fresh tomatoes.",
+      "alts": [
+        "I need some fresh tomatoes."
+      ]
+    },
+    {
+      "vi": "Bạn cần bao nhiêu củ cà rốt?",
+      "en": "How many carrots do you need?",
+      "alts": []
+    },
+    {
+      "vi": "Tôi cần sáu củ cà rốt, làm ơn.",
+      "en": "I need six carrots, please.",
+      "alts": []
+    },
+    {
+      "vi": "Bạn có rau chân vịt tươi không?",
+      "en": "Do you have any fresh spinach?",
+      "alts": [
+        "Do you have fresh spinach?"
+      ]
+    },
+    {
+      "vi": "Tôi cần một túi.",
+      "en": "I need one bag.",
+      "alts": [
+        "One bag, please."
+      ]
+    },
+    {
+      "vi": "Một túi giá năm đô la.",
+      "en": "One bag costs five dollars.",
+      "alts": [
+        "One bag is five dollars."
+      ]
+    },
+    {
+      "vi": "Tổng tiền của bạn là bảy đô la.",
+      "en": "Your total is seven dollars.",
+      "alts": []
+    },
+    {
+      "vi": "Đây là tiền thừa của bạn.",
+      "en": "Here is your change.",
+      "alts": []
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và tự nghe lại.",
+    "Nói tên năm loại rau quả bạn thường mua.",
+    "Đặt ba câu với mẫu How many ___ do you need?"
+  ]
+}

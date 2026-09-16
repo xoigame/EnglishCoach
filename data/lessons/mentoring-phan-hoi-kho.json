@@ -1,330 +1,392 @@
 {
   "id": "mentoring-phan-hoi-kho",
-  "title": "Kèm cặp: Góp ý khó nghe mà vẫn giữ động lực",
-  "topic": "Phản hồi trong kèm cặp",
+  "title": "Kèm cặp: Đưa phản hồi khó nghe mà vẫn giữ động lực",
+  "topic": "Phản hồi xây dựng trong kèm cặp",
   "level": "C1",
-  "summary": "Bạn vào vai người kèm cặp, cần góp ý thẳng thắn cho một nhân viên mới về phần trình bày chưa đạt yêu cầu. Mục tiêu là nêu rõ vấn đề, đưa hướng cải thiện cụ thể và giúp người nghe vẫn có động lực tiến bộ.",
+  "summary": "Bạn đóng vai người kèm cặp, trao đổi thẳng thắn với một nhân viên sau cuộc gọi khách hàng chưa thành công. Bạn học cách nêu tác động, chỉ ra hành vi cụ thể và cùng họ lập kế hoạch cải thiện.",
   "goals": [
-    "Đưa phản hồi thẳng thắn nhưng tôn trọng và giàu tính xây dựng.",
-    "Dùng collocation tự nhiên để nói về điểm mạnh, điểm cần cải thiện và kế hoạch hành động.",
-    "Phản hồi tích cực khi nhận góp ý khó nghe và chốt bước tiếp theo rõ ràng."
+    "Đưa phản hồi trực diện nhưng tôn trọng và có cơ sở.",
+    "Phân biệt giữa ý định của người nói và tác động thực tế lên người nghe.",
+    "Kết thúc cuộc phản hồi bằng một cam kết hành động cụ thể."
   ],
   "vocab": [
     {
-      "en": "constructive feedback",
-      "ipa": "/kənˈstrʌktɪv ˈfiːdbæk/",
-      "vi": "phản hồi mang tính xây dựng",
-      "example": "I appreciate constructive feedback, even when it is difficult to hear."
+      "en": "to be candid",
+      "ipa": "/tə biː ˈkændɪd/",
+      "vi": "nói thẳng, nói thật một cách tôn trọng",
+      "example": "To be candid, the presentation did not address the client's main concern."
     },
     {
-      "en": "a blind spot",
-      "ipa": "/ə ˈblaɪnd spɒt/",
-      "vi": "điểm mù, điều bản thân chưa nhận ra",
-      "example": "You may have a blind spot when it comes to pacing your presentations."
+      "en": "to land well",
+      "ipa": "/tə lænd wel/",
+      "vi": "được đón nhận hoặc tạo tác động tốt",
+      "example": "I am not sure that message landed well with the client."
     },
     {
-      "en": "to fall short",
-      "ipa": "/tə fɔːl ʃɔːrt/",
-      "vi": "chưa đạt yêu cầu hoặc kỳ vọng",
-      "example": "The final section fell short of the standard we agreed on."
+      "en": "defensive",
+      "ipa": "/dɪˈfensɪv/",
+      "vi": "có thái độ phòng thủ, dễ biện minh khi bị góp ý",
+      "example": "Try not to sound defensive when someone challenges your decision."
     },
     {
-      "en": "to sugarcoat something",
-      "ipa": "/tə ˈʃʊɡərkoʊt ˈsʌmθɪŋ/",
-      "vi": "nói giảm nói tránh để làm nhẹ một điều khó nghe",
-      "example": "I do not want to sugarcoat it, because I know you can do better."
+      "en": "to acknowledge",
+      "ipa": "/tu əkˈnɑːlɪdʒ/",
+      "vi": "thừa nhận, ghi nhận",
+      "example": "She acknowledged the concern before explaining the next steps."
     },
     {
-      "en": "to come across as",
-      "ipa": "/tə kʌm əˈkrɔːs æz/",
-      "vi": "gây ấn tượng là, nghe có vẻ là",
-      "example": "Some of your points came across as rushed rather than confident."
+      "en": "to rebuild trust",
+      "ipa": "/tə ˌriːˈbɪld trʌst/",
+      "vi": "xây dựng lại niềm tin",
+      "example": "A clear follow-up plan will help us rebuild trust with the client."
     },
     {
-      "en": "actionable",
-      "ipa": "/ˈækʃənəbəl/",
-      "vi": "có thể thực hiện được, có bước làm cụ thể",
-      "example": "Could you give me one actionable step for improving the opening?"
+      "en": "blind spot",
+      "ipa": "/ˈblaɪnd spɑːt/",
+      "vi": "điểm mù, điều bản thân không nhận ra về mình",
+      "example": "We all have blind spots, especially under pressure."
     },
     {
       "en": "to take ownership",
       "ipa": "/tə teɪk ˈoʊnərʃɪp/",
-      "vi": "chủ động chịu trách nhiệm",
-      "example": "Taking ownership of the revision will show real maturity."
+      "vi": "chịu trách nhiệm chủ động về việc mình làm",
+      "example": "Taking ownership means naming the problem and proposing a remedy."
     },
     {
-      "en": "a steep learning curve",
-      "ipa": "/ə stiːp ˈlɜːrnɪŋ kɜːrv/",
-      "vi": "giai đoạn học hỏi nhiều và khó",
-      "example": "This role has a steep learning curve, especially in the first few months."
+      "en": "course-correct",
+      "ipa": "/ˈkɔːrs kəˌrekt/",
+      "vi": "điều chỉnh hướng đi để sửa sai kịp thời",
+      "example": "We can still course-correct before the next review."
     },
     {
-      "en": "to build on a strength",
-      "ipa": "/tə bɪld ɒn ə streŋθ/",
-      "vi": "phát huy một điểm mạnh",
-      "example": "Let us build on your strength in research and make the story clearer."
+      "en": "constructive",
+      "ipa": "/kənˈstrʌktɪv/",
+      "vi": "mang tính xây dựng",
+      "example": "Her feedback was direct but constructive."
     },
     {
-      "en": "to regain momentum",
-      "ipa": "/tə rɪˈɡeɪn moʊˈmentəm/",
-      "vi": "lấy lại đà, tiến độ hoặc tinh thần",
-      "example": "A focused revision plan will help you regain momentum quickly."
+      "en": "concrete next step",
+      "ipa": "/ˈkɑːnkriːt nekst step/",
+      "vi": "bước tiếp theo cụ thể",
+      "example": "Let us agree on one concrete next step before we finish."
     }
   ],
   "patterns": [
     {
-      "en": "I want to be candid with you about ___.",
-      "vi": "Tôi muốn thẳng thắn với bạn về ___.",
-      "note": "Mở đầu phản hồi khó nghe một cách tôn trọng, trang trọng vừa phải."
+      "en": "I want to be candid with you: ___",
+      "vi": "Tôi muốn nói thẳng với bạn rằng: ___.",
+      "note": "Mở đầu phản hồi khó nghe một cách rõ ràng nhưng không công kích."
     },
     {
-      "en": "What worked well was ___, but ___ fell short.",
-      "vi": "Điều đã làm tốt là ___, nhưng ___ chưa đạt yêu cầu.",
-      "note": "Cân bằng điểm mạnh với điểm cần cải thiện mà không khen lấy lệ."
+      "en": "The issue was not ___; it was ___.",
+      "vi": "Vấn đề không phải là ___; mà là ___.",
+      "note": "Giúp tách đúng trọng tâm thay vì phê bình chung chung."
     },
     {
-      "en": "The main issue was not ___; it was ___.",
-      "vi": "Vấn đề chính không phải là ___; mà là ___.",
-      "note": "Giúp xác định đúng trọng tâm thay vì góp ý chung chung."
+      "en": "I understand your intention. The impact, however, was ___.",
+      "vi": "Tôi hiểu ý định của bạn. Tuy nhiên, tác động thực tế là ___.",
+      "note": "Phân biệt ý định và tác động để góp ý công bằng."
     },
     {
-      "en": "How do you think you could approach ___ differently next time?",
-      "vi": "Theo bạn, lần sau bạn có thể tiếp cận ___ khác đi như thế nào?",
-      "note": "Dùng câu hỏi để người được kèm tự suy nghĩ và nhận trách nhiệm."
+      "en": "What I need to see next time is ___.",
+      "vi": "Điều tôi cần thấy ở lần tới là ___.",
+      "note": "Nêu kỳ vọng hành vi cụ thể, hướng về tương lai."
     },
     {
-      "en": "I am confident you can ___ if you focus on ___.",
-      "vi": "Tôi tin bạn có thể ___ nếu tập trung vào ___.",
-      "note": "Kết thúc phản hồi bằng niềm tin đi kèm một hướng cải thiện cụ thể."
+      "en": "How could you course-correct if that happens again?",
+      "vi": "Nếu điều đó xảy ra lần nữa, bạn có thể điều chỉnh thế nào?",
+      "note": "Câu hỏi coaching giúp nhân viên tự tìm giải pháp."
     }
   ],
   "pronunciation": [
     {
-      "focus": "trọng âm trong constructive và actionable",
-      "tip": "Nhấn mạnh âm thứ hai của constructive và âm đầu của actionable; không đọc đều từng âm.",
+      "focus": "trọng âm trong \"constructive\" và \"defensive\"",
+      "tip": "Nhấn âm thứ hai: con-STRUC-tive, de-FEN-sive. Tránh đọc đều tất cả các âm như tiếng Việt.",
       "words": [
         "constructive",
-        "actionable",
-        "momentum"
+        "defensive",
+        "acknowledge"
       ]
     },
     {
-      "focus": "cụm phụ âm cuối trong fall short và blind spot",
-      "tip": "Phát rõ âm cuối /l/, /t/ và /d/ để câu không bị thiếu nghĩa; tránh bỏ âm cuối như khi nói tiếng Việt.",
+      "focus": "cụm phụ âm cuối /st/ và /kt/",
+      "tip": "Phát âm rõ phụ âm cuối nhưng không thêm nguyên âm. Đừng đọc \"trust\" thành \"trớt\" hay \"impact\" thành \"im-pác-tờ\".",
       "words": [
-        "fall short",
-        "blind spot",
-        "build"
+        "trust",
+        "impact",
+        "next"
       ]
     },
     {
-      "focus": "âm /θ/ trong strength",
-      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Không thay /θ/ bằng /t/ hoặc /s/.",
+      "focus": "nối âm trong \"the impact, however\"",
+      "tip": "Nối nhẹ âm cuối của \"the\" sang nguyên âm đầu của \"impact\": \"thee-yim-pact\". Giữ nhịp ngắt ngắn trước \"however\".",
       "words": [
-        "strength",
-        "think",
-        "through"
+        "the impact",
+        "be candid",
+        "course-correct"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "Your presentation did not reach my expectation.",
-      "right": "Your presentation did not meet my expectations.",
-      "vi": "Dùng meet expectations tự nhiên hơn reach expectation; expectations thường ở số nhiều."
+      "wrong": "I give you a feedback about your call.",
+      "right": "I want to give you some feedback on your call.",
+      "vi": "Feedback không đếm được, không dùng a feedback. Dùng feedback on về một sự việc cụ thể."
     },
     {
-      "wrong": "I give you a feedback about your work.",
-      "right": "I want to give you some feedback on your work.",
-      "vi": "Feedback là danh từ không đếm được, không dùng a feedback; dùng feedback on something."
+      "wrong": "Your way of talking made the client unhappy.",
+      "right": "The way you responded may have made the client lose confidence.",
+      "vi": "Câu sai quá trực diện và mơ hồ. Câu đúng nêu hành vi và tác động chuyên nghiệp hơn."
     },
     {
-      "wrong": "You need improve your storytelling.",
-      "right": "You need to improve your storytelling.",
-      "vi": "Sau need phải có to trước động từ nguyên mẫu."
+      "wrong": "You should not be so defensive.",
+      "right": "You came across as defensive when the timeline was challenged.",
+      "vi": "Came across as mô tả ấn tượng người khác nhận được, ít quy chụp hơn should not be."
     },
     {
-      "wrong": "Do not be disappointed, you did many mistakes.",
-      "right": "Do not be discouraged; you made several mistakes, but they are fixable.",
-      "vi": "Make mistakes là collocation đúng. Discouraged phù hợp hơn disappointed khi nói về động lực làm việc."
+      "wrong": "I understand your feeling, but you are wrong.",
+      "right": "I understand why you responded that way. However, the impact was not what you intended.",
+      "vi": "Khi phản hồi, tránh phủ định cảm xúc hoặc phán xét đúng sai; hãy chuyển sang ý định và tác động."
     }
   ],
+  "variations": [
+    {
+      "situation": "Mở đầu một phản hồi khó nghe",
+      "formal": "I would like to offer some candid feedback on how that meeting came across.",
+      "casual": "Can I be straight with you about that meeting?",
+      "vi": "Câu formal phù hợp với cấp trên, nhân viên mới hoặc buổi đánh giá chính thức. Câu casual phù hợp với đồng nghiệp thân và cuộc trao đổi riêng tư."
+    },
+    {
+      "situation": "Nói nhân viên có vẻ phòng thủ",
+      "formal": "Your response may have come across as defensive when the timeline was challenged.",
+      "casual": "You got a bit defensive when she pushed back on the timeline.",
+      "vi": "Câu formal giảm mức quy kết bằng may have come across. Câu casual trực tiếp hơn, chỉ dùng khi đã có quan hệ tin cậy."
+    },
+    {
+      "situation": "Ghi nhận nỗ lực nhưng chỉ ra điểm cần cải thiện",
+      "formal": "I recognize the effort you put in; however, the client still needed clearer reassurance.",
+      "casual": "I know you put a lot into it, but the client still needed more reassurance.",
+      "vi": "Câu formal hợp trong phản hồi công việc hoặc đánh giá hiệu suất. Câu casual tự nhiên hơn khi coaching hằng ngày."
+    },
+    {
+      "situation": "Chốt hành động tiếp theo",
+      "formal": "Let us agree on a specific action you will take before the next client meeting.",
+      "casual": "Let us pin down what you will do differently next time.",
+      "vi": "Câu formal có sắc thái quản lý rõ ràng. Câu casual hợp với buổi kèm cặp thân mật, nhưng vẫn chuyên nghiệp."
+    }
+  ],
+  "culture": [
+    "Trong môi trường làm việc nói tiếng Anh, phản hồi thường được gắn với một hành vi và tác động cụ thể, thay vì nhận xét chung về tính cách như \"bạn thiếu chuyên nghiệp\".",
+    "Người bản xứ có thể mở đầu bằng lời ghi nhận, nhưng điều đó không có nghĩa phần góp ý sau sẽ nhẹ nhàng. Hãy chú ý nội dung cụ thể sau các cụm như \"I want to be candid\" hoặc \"however\".",
+    "Sau khi nghe phản hồi, im lặng ngắn để suy nghĩ thường được chấp nhận. Không cần vội giải thích hoặc tự bào chữa ngay; một câu như \"That is helpful to hear\" tạo ấn tượng chín chắn."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại sau buổi coaching",
+    "passage": "Hi Maya, I have been thinking about our coaching conversation. Your technical judgment was strong, but on the call you answered the client's concern before showing that you understood it. For our next meeting, start by naming the risk, then ask one clarifying question. That small pause will make your response feel more collaborative. Please send me your agenda tomorrow, and I will give you feedback before the meeting.",
+    "vi": "Chào Maya, tôi đã suy nghĩ về cuộc trao đổi kèm cặp của chúng ta. Khả năng phán đoán chuyên môn của bạn rất tốt, nhưng trong cuộc gọi bạn đã trả lời mối lo của khách hàng trước khi cho thấy rằng bạn hiểu nó. Trong cuộc họp tới, hãy bắt đầu bằng cách nêu tên rủi ro, rồi hỏi một câu làm rõ. Khoảng dừng nhỏ đó sẽ khiến phản hồi của bạn có tính hợp tác hơn. Hãy gửi tôi chương trình họp vào ngày mai, và tôi sẽ góp ý trước cuộc họp.",
+    "questions": [
+      {
+        "q": "What did Maya do too quickly during the client call?",
+        "choices": [
+          "She answered the concern before acknowledging it",
+          "She ended the meeting early",
+          "She changed the delivery date"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0, vì bài nghe nói cô ấy trả lời mối lo trước khi cho thấy mình hiểu nó."
+      },
+      {
+        "q": "What should Maya do after naming the risk?",
+        "choices": [
+          "Offer a discount",
+          "Ask one clarifying question",
+          "Send the agenda immediately"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1, vì bài nghe hướng dẫn \"then ask one clarifying question\"."
+      },
+      {
+        "q": "What does the mentor ask Maya to send tomorrow?",
+        "choices": [
+          "Her agenda",
+          "A client complaint",
+          "A revised contract"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0, vì cuối bài nghe có câu yêu cầu Maya gửi agenda vào ngày mai."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
-      "a": "Nhân viên mới đang được bạn kèm cặp",
-      "b": "Người kèm cặp, cũng là người học"
+      "a": "Nhân viên đang được bạn kèm cặp",
+      "b": "Người học, người kèm cặp nhân viên"
     },
     "userRole": "b",
     "turns": [
       {
         "speaker": "a",
-        "en": "Could I get your honest feedback on my client presentation? I know it was not my best work.",
-        "vi": "Em có thể xin phản hồi thẳng thắn của anh chị về bài thuyết trình với khách hàng không? Em biết đó chưa phải phần thể hiện tốt nhất của em.",
+        "en": "Thanks for making time. I wanted to debrief the client call, because I know it did not land well.",
+        "vi": "Cảm ơn anh chị đã dành thời gian. Tôi muốn nhìn lại cuộc gọi với khách hàng, vì tôi biết nó đã không được đón nhận tốt.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Of course. Before I share my view, how did you feel it went?",
-        "vi": "Tất nhiên. Trước khi tôi chia sẻ quan điểm, bạn thấy buổi đó diễn ra thế nào?",
+        "en": "Of course. Before I give you my view, how do you think it went?",
+        "vi": "Được chứ. Trước khi tôi đưa ra góc nhìn của mình, bạn nghĩ cuộc gọi đã diễn ra thế nào?",
         "hint": "Mở đầu bằng câu hỏi để nhân viên tự đánh giá trước."
       },
       {
         "speaker": "a",
-        "en": "I felt prepared at first, but I lost my thread halfway through. I could tell the client was not fully convinced.",
-        "vi": "Ban đầu em thấy mình chuẩn bị khá kỹ, nhưng giữa chừng em bị mất mạch trình bày. Em có thể thấy khách hàng chưa thực sự bị thuyết phục.",
+        "en": "I was prepared on the facts, but I think I became tense when she questioned our timeline.",
+        "vi": "Tôi đã chuẩn bị kỹ về dữ kiện, nhưng tôi nghĩ mình đã căng thẳng khi cô ấy chất vấn tiến độ của chúng ta.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That is a fair assessment. Your research was solid, and you handled the first questions well. I want to be candid with you, though: the recommendation itself fell short.",
-        "vi": "Đó là một đánh giá khá công bằng. Phần nghiên cứu của bạn chắc, và bạn xử lý các câu hỏi đầu tiên tốt. Tuy nhiên, tôi muốn thẳng thắn: chính đề xuất của bạn chưa đạt yêu cầu.",
-        "hint": "Khen đúng điểm mạnh trước, rồi dùng I want to be candid để chuyển sang góp ý khó nghe."
+        "en": "You had the facts at hand, but I want to be candid: you sounded defensive at that point.",
+        "vi": "Bạn nắm rõ dữ kiện, nhưng tôi muốn nói thẳng: ở thời điểm đó, bạn nghe có vẻ phòng thủ.",
+        "hint": "Dùng \"I want to be candid\" trước khi nêu góp ý khó nghe."
       },
       {
         "speaker": "a",
-        "en": "I see. Was the problem that I did not have enough data?",
-        "vi": "Em hiểu. Có phải vấn đề là em không có đủ dữ liệu không ạ?",
+        "en": "I did not realize that. Could you point to a moment when it came across that way?",
+        "vi": "Tôi đã không nhận ra điều đó. Anh chị có thể chỉ ra thời điểm mà tôi tạo ấn tượng như vậy không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Not exactly. The main issue was not the amount of data; it was the story you built around it. You gave the client facts, but not a clear reason to act now.",
-        "vi": "Không hẳn. Vấn đề chính không phải lượng dữ liệu; mà là câu chuyện bạn xây dựng quanh dữ liệu đó. Bạn đưa cho khách hàng các thông tin, nhưng chưa cho họ một lý do rõ ràng để hành động ngay.",
-        "hint": "Dùng cấu trúc The main issue was not..., it was... để chỉ chính xác vấn đề."
+        "en": "When she raised the delivery risk, you moved straight to defending the plan. You did not first acknowledge her concern.",
+        "vi": "Khi cô ấy nêu rủi ro giao hàng, bạn lập tức bảo vệ kế hoạch. Bạn đã không ghi nhận mối lo của cô ấy trước.",
+        "hint": "Nêu hành vi cụ thể, tránh nhận xét mơ hồ như \"Bạn giao tiếp không tốt\"."
       },
       {
         "speaker": "a",
-        "en": "That is difficult to hear, but it makes sense. I think I was so focused on being accurate that I forgot to make a case for the decision.",
-        "vi": "Điều đó khó nghe, nhưng hợp lý. Em nghĩ em quá tập trung vào độ chính xác nên quên mất việc xây dựng lập luận cho quyết định.",
+        "en": "That is fair. I was so focused on proving that we had done the work that I missed what she needed to hear.",
+        "vi": "Nhận xét đó công bằng. Tôi quá tập trung vào việc chứng minh rằng chúng ta đã làm việc cần làm nên đã bỏ lỡ điều cô ấy cần được nghe.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I appreciate how openly you are taking this. Accuracy is a real strength of yours, so let us build on it. Next time, lead with the decision you want the client to make, then use only the evidence that supports it.",
-        "vi": "Tôi đánh giá cao việc bạn đón nhận điều này cởi mở. Sự chính xác là một điểm mạnh thật sự của bạn, nên hãy phát huy nó. Lần sau, hãy mở đầu bằng quyết định bạn muốn khách hàng đưa ra, rồi chỉ dùng những bằng chứng hỗ trợ quyết định đó.",
-        "hint": "Ghi nhận thái độ tiếp nhận góp ý, rồi biến điểm yếu thành hướng phát huy điểm mạnh."
+        "en": "I understand the impulse. The issue was not your preparation; it was the impact. She may have felt that we were dismissing a legitimate risk.",
+        "vi": "Tôi hiểu phản xạ đó. Vấn đề không phải là sự chuẩn bị của bạn; mà là tác động. Cô ấy có thể cảm thấy chúng ta đang gạt đi một rủi ro chính đáng.",
+        "hint": "Dùng mẫu \"The issue was not...; it was...\" để chỉ đúng điểm cần cải thiện."
       },
       {
         "speaker": "a",
-        "en": "That sounds more actionable. I am still worried that I came across as unprepared when I paused for so long.",
-        "vi": "Nghe có vẻ cụ thể và có thể thực hiện hơn. Em vẫn lo rằng lúc em ngừng quá lâu, em đã tạo cảm giác thiếu chuẩn bị.",
+        "en": "I can see why. That is hard to hear, but it explains why she went quiet near the end of the call.",
+        "vi": "Tôi hiểu vì sao. Nghe thì khó chịu, nhưng điều đó giải thích tại sao cô ấy im lặng ở gần cuối cuộc gọi.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The pauses did make you seem less confident, but they were a symptom, not the root cause. You were trying to decide what mattered in real time because the structure was not doing that work for you.",
-        "vi": "Các khoảng dừng đúng là khiến bạn trông kém tự tin hơn, nhưng đó là biểu hiện chứ không phải nguyên nhân gốc. Bạn cố quyết định điều gì quan trọng ngay trong lúc nói vì cấu trúc bài trình bày chưa làm sẵn phần việc đó cho bạn.",
-        "hint": "Nói rõ tác động nhưng tách biểu hiện khỏi nguyên nhân gốc để góp ý sâu hơn."
+        "en": "I am telling you because I trust your ability to improve, not because I doubt your capability. You handle complex work well.",
+        "vi": "Tôi nói điều này vì tôi tin bạn có khả năng cải thiện, chứ không phải vì tôi nghi ngờ năng lực của bạn. Bạn xử lý công việc phức tạp rất tốt.",
+        "hint": "Sau phản hồi khó nghe, khẳng định điểm mạnh một cách chân thành và cụ thể."
       },
       {
         "speaker": "a",
-        "en": "So I need a stronger structure, not just more rehearsal.",
-        "vi": "Vậy là em cần cấu trúc vững hơn, chứ không chỉ cần luyện tập nhiều hơn.",
+        "en": "I appreciate that. What would a stronger response have sounded like in that moment?",
+        "vi": "Tôi trân trọng điều đó. Trong khoảnh khắc ấy, một phản hồi tốt hơn có thể nghe như thế nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Exactly. More rehearsal would help, but it would not solve everything. I would suggest a simple arc: the client problem, the cost of doing nothing, your recommendation, and the next step. How do you think you could approach the opening differently?",
-        "vi": "Chính xác. Luyện tập thêm sẽ có ích, nhưng không giải quyết được mọi thứ. Tôi gợi ý một mạch đơn giản: vấn đề của khách hàng, cái giá của việc không làm gì, đề xuất của bạn và bước tiếp theo. Theo bạn, bạn có thể mở đầu khác đi như thế nào?",
-        "hint": "Đưa khung cụ thể, rồi hỏi để nhân viên tự đề xuất cách làm."
+        "en": "Try this: \"You are right to flag that risk. Let me clarify what we know, what remains uncertain, and how we will manage it.\" That acknowledges her concern before you explain the plan.",
+        "vi": "Hãy thử câu này: \"Cô hoàn toàn có lý khi nêu rủi ro đó. Hãy để tôi làm rõ điều chúng tôi biết, điều còn chưa chắc chắn và cách chúng tôi sẽ xử lý nó.\" Câu này ghi nhận mối lo của cô ấy trước khi bạn giải thích kế hoạch.",
+        "hint": "Đưa một câu mẫu có thể dùng ngay, rồi giải thích tác dụng của nó."
       },
       {
         "speaker": "a",
-        "en": "I could start by naming the risk they are already facing, then say that our recommendation reduces that risk within the next quarter. That would give the data a purpose.",
-        "vi": "Em có thể bắt đầu bằng việc nêu rủi ro họ đang đối mặt, rồi nói đề xuất của chúng ta giảm rủi ro đó trong quý tới như thế nào. Như vậy dữ liệu sẽ có mục đích rõ ràng.",
+        "en": "So rather than defend the plan immediately, I should acknowledge the risk and show that we are taking ownership of it.",
+        "vi": "Vậy thay vì bảo vệ kế hoạch ngay lập tức, tôi nên ghi nhận rủi ro và cho thấy chúng ta đang chủ động chịu trách nhiệm về nó.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, that is much sharper. I also want to flag one habit early: when you are under pressure, you tend to qualify every point. It makes you sound careful, but too much hedging can weaken your message.",
-        "vi": "Đúng, như vậy sắc nét hơn nhiều. Tôi cũng muốn lưu ý sớm một thói quen: khi chịu áp lực, bạn có xu hướng dè dặt với mọi ý. Điều đó khiến bạn nghe cẩn thận, nhưng quá nhiều cách nói nước đôi có thể làm thông điệp yếu đi.",
-        "hint": "Flag one habit early là cách nêu một thói quen cần sửa mà không quy kết nặng nề."
+        "en": "Exactly. And I need to push you a little further: this was not a one-off. In two earlier meetings, you also rushed to solve the problem before checking whether the other person felt heard.",
+        "vi": "Chính xác. Và tôi cần nói thêm một chút: đây không phải lần duy nhất. Trong hai cuộc họp trước, bạn cũng vội giải quyết vấn đề trước khi kiểm tra xem người kia có cảm thấy được lắng nghe không.",
+        "hint": "Nói về khuynh hướng lặp lại bằng ví dụ, thay vì gán nhãn tính cách."
       },
       {
         "speaker": "a",
-        "en": "You mean phrases like maybe, perhaps, and I am not sure?",
-        "vi": "Ý anh chị là những cụm như maybe, perhaps và I am not sure phải không ạ?",
+        "en": "I see the pattern now. It is probably a blind spot when I feel pressure to have an answer right away.",
+        "vi": "Bây giờ tôi đã thấy khuynh hướng đó. Có lẽ đó là một điểm mù khi tôi cảm thấy áp lực phải có câu trả lời ngay lập tức.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes. Use them when the uncertainty is genuine, but do not hide behind them. You have done the analysis, so take ownership of the recommendation. You can still acknowledge risk without sounding hesitant.",
-        "vi": "Đúng. Hãy dùng chúng khi sự không chắc chắn là thật, nhưng đừng núp sau chúng. Bạn đã làm phân tích rồi, vì vậy hãy chủ động chịu trách nhiệm với đề xuất của mình. Bạn vẫn có thể thừa nhận rủi ro mà không nghe do dự.",
-        "hint": "Dùng take ownership để khuyến khích trách nhiệm; phân biệt thận trọng với thiếu tự tin."
+        "en": "That is a useful insight. Let us turn it into a concrete next step. How could you course-correct if you notice yourself doing it again?",
+        "vi": "Đó là một nhận ra hữu ích. Hãy biến nó thành một bước tiếp theo cụ thể. Nếu nhận thấy mình lặp lại điều đó, bạn có thể điều chỉnh thế nào?",
+        "hint": "Chuyển từ nhận xét sang kế hoạch bằng một câu hỏi coaching."
       },
       {
         "speaker": "a",
-        "en": "Thank you. I was expecting criticism, but this feels specific and manageable. I will rewrite the opening today and send you a revised outline before tomorrow morning.",
-        "vi": "Cảm ơn anh chị. Em đã nghĩ mình sẽ bị chỉ trích, nhưng phản hồi này cụ thể và có thể xử lý được. Hôm nay em sẽ viết lại phần mở đầu và gửi anh chị dàn ý chỉnh sửa trước sáng mai.",
+        "en": "I will pause, name the concern in my own words, and ask whether I have understood it correctly before offering a solution. I will also send the client a follow-up note today to acknowledge the risk and outline our mitigation plan.",
+        "vi": "Tôi sẽ dừng lại, diễn đạt mối lo bằng lời của mình và hỏi xem tôi đã hiểu đúng chưa trước khi đưa ra giải pháp. Tôi cũng sẽ gửi khách hàng một thư theo dõi hôm nay để ghi nhận rủi ro và phác thảo kế hoạch giảm thiểu của chúng ta.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "That is a strong plan. Send it to me by ten, and we will review it together for twenty minutes. This is a steep learning curve, but you have the judgment and work ethic to regain momentum quickly.",
-        "vi": "Đó là một kế hoạch tốt. Hãy gửi cho tôi trước mười giờ, và chúng ta sẽ cùng xem trong hai mươi phút. Vai trò này có đường cong học hỏi khá dốc, nhưng bạn có tư duy và tinh thần làm việc để lấy lại đà nhanh chóng.",
-        "hint": "Chốt thời hạn, hỗ trợ cụ thể và kết thúc bằng niềm tin thực tế."
+        "en": "That sounds solid. Send me the draft before it goes out, and we will review how the next call feels. This is a skill you can build, and I am here to help.",
+        "vi": "Nghe rất ổn. Hãy gửi tôi bản nháp trước khi gửi đi, rồi chúng ta sẽ xem cuộc gọi tiếp theo diễn ra thế nào. Đây là kỹ năng bạn có thể rèn luyện, và tôi ở đây để hỗ trợ bạn.",
+        "hint": "Kết thúc bằng hỗ trợ cụ thể và củng cố niềm tin vào khả năng tiến bộ."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a newly hired consultant in a meeting room after a client presentation. You are thoughtful, capable, and slightly disappointed with your performance. You want honest feedback, listen without becoming defensive, and agree on a practical revision plan with your mentor.",
-    "opener": "Could I get your honest feedback on my client presentation? I know it was not my best work.",
-    "goal": "Người học đưa phản hồi thẳng thắn, chỉ ra nguyên nhân gốc, đề xuất bước cải thiện và giúp nhân viên mới chốt kế hoạch hành động."
+    "persona": "You are a capable product specialist meeting with your mentor after a difficult client call. You are thoughtful and open to feedback, though you may initially feel embarrassed. Speak naturally, reflect on specific examples, and work with the mentor to create a practical improvement plan.",
+    "opener": "Thanks for meeting with me. I know the client call was not my best work, and I would like your honest feedback.",
+    "goal": "Người học đưa phản hồi thẳng thắn, chỉ ra tác động của hành vi và cùng nhân viên thống nhất kế hoạch cải thiện."
   },
   "drills": [
     {
-      "vi": "Tôi muốn thẳng thắn với bạn về phần đề xuất.",
-      "en": "I want to be candid with you about the recommendation.",
+      "vi": "Tôi muốn nói thẳng với bạn rằng phần giải thích đó nghe có vẻ phòng thủ.",
+      "en": "I want to be candid with you: that explanation came across as defensive.",
       "alts": [
-        "I would like to be candid with you about the recommendation."
+        "To be candid, that explanation sounded defensive."
       ]
     },
     {
-      "vi": "Phần nghiên cứu tốt, nhưng kết luận chưa đạt yêu cầu.",
-      "en": "The research was strong, but the conclusion fell short.",
+      "vi": "Vấn đề không phải là sự chuẩn bị của bạn; mà là tác động lên khách hàng.",
+      "en": "The issue was not your preparation; it was the impact on the client.",
+      "alts": []
+    },
+    {
+      "vi": "Tôi hiểu ý định của bạn, nhưng khách hàng có thể đã cảm thấy không được lắng nghe.",
+      "en": "I understand your intention, but the client may have felt unheard.",
       "alts": [
-        "What worked well was the research, but the conclusion fell short."
+        "I understand what you meant to do. However, the client may not have felt heard."
       ]
     },
     {
-      "vi": "Vấn đề chính không phải là dữ liệu, mà là thông điệp.",
-      "en": "The main issue was not the data; it was the message.",
+      "vi": "Lần tới tôi cần thấy bạn ghi nhận mối lo trước khi đưa ra giải pháp.",
+      "en": "What I need to see next time is for you to acknowledge the concern before offering a solution.",
+      "alts": []
+    },
+    {
+      "vi": "Nếu việc đó xảy ra lần nữa, bạn sẽ điều chỉnh như thế nào?",
+      "en": "How could you course-correct if that happens again?",
       "alts": [
-        "The problem was not the data itself, but the message behind it."
+        "What would you do differently if it came up again?"
       ]
     },
     {
-      "vi": "Theo bạn, lần sau bạn có thể mở đầu khác đi như thế nào?",
-      "en": "How do you think you could approach the opening differently next time?",
-      "alts": [
-        "What could you do differently in the opening next time?"
-      ]
+      "vi": "Chúng ta cần xây dựng lại niềm tin bằng một kế hoạch theo dõi rõ ràng.",
+      "en": "We need to rebuild trust with a clear follow-up plan.",
+      "alts": []
     },
     {
-      "vi": "Bạn cần chủ động chịu trách nhiệm với đề xuất của mình.",
-      "en": "You need to take ownership of your recommendation.",
+      "vi": "Tôi nhận ra đây là một điểm mù của mình khi chịu áp lực.",
+      "en": "I realize this is a blind spot for me when I am under pressure.",
       "alts": [
-        "I would encourage you to take ownership of your recommendation."
-      ]
-    },
-    {
-      "vi": "Tôi tin bạn có thể cải thiện nếu tập trung vào cấu trúc.",
-      "en": "I am confident you can improve if you focus on the structure.",
-      "alts": [
-        "I am confident you can make progress by focusing on the structure."
-      ]
-    },
-    {
-      "vi": "Phản hồi này khó nghe, nhưng cụ thể và có thể thực hiện được.",
-      "en": "This feedback is difficult to hear, but it is specific and actionable.",
-      "alts": [
-        "It is hard to hear, but the feedback is clear and actionable."
+        "I can see that this becomes a blind spot when I feel under pressure."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại phần phản hồi của vai người kèm cặp, chú ý giọng điệu bình tĩnh và tôn trọng.",
-    "Viết một phản hồi gồm 5 câu cho một đồng nghiệp có bài thuyết trình chưa thuyết phục, dùng ít nhất 3 từ vựng của bài.",
-    "Luyện nói 3 cách góp ý thay cho câu trực tiếp: Your presentation was bad."
+    "Ghi âm phần phản hồi từ lượt 4 đến lượt 18, rồi tự kiểm tra xem bạn đã nêu hành vi, tác động và bước tiếp theo chưa.",
+    "Viết một tin nhắn phản hồi 80 đến 100 từ cho nhân viên, dùng ít nhất ba từ trong phần từ vựng.",
+    "Tập nói ba cách ghi nhận mối lo của người khác trước khi đưa ra giải pháp."
   ]
 }

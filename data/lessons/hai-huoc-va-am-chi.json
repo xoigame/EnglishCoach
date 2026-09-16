@@ -1,0 +1,398 @@
+{
+  "id": "hai-huoc-va-am-chi",
+  "title": "Hiểu hài hước, ẩn ý và nói giảm nói tránh",
+  "topic": "Mỉa nhẹ và hàm ý nơi công sở",
+  "level": "C1",
+  "summary": "Bạn trao đổi sau một buổi thuyết trình với một đồng nghiệp người Anh có kiểu hài hước khô và mỉa nhẹ. Bài học giúp bạn nhận ra nghĩa hàm ý, phản hồi tự nhiên và lựa chọn mức độ lịch sự phù hợp.",
+  "goals": [
+    "Nhận ra khi một câu khen thực ra mang ý mỉa nhẹ hoặc dè dặt.",
+    "Dùng nói giảm nói tránh để góp ý mà không làm không khí căng thẳng.",
+    "Phân biệt cách nói trang trọng và thân mật khi bày tỏ nghi ngờ hoặc phê bình."
+  ],
+  "vocab": [
+    {
+      "en": "sarcastic",
+      "ipa": "/sɑːˈkæs.tɪk/",
+      "vi": "mỉa mai, nói ngược ý để châm biếm",
+      "example": "She was being sarcastic when she called the delay efficient."
+    },
+    {
+      "en": "understatement",
+      "ipa": "/ˈʌn.dəˌsteɪt.mənt/",
+      "vi": "cách nói nhẹ đi so với thực tế, thường để lịch sự hoặc tạo hài hước",
+      "example": "Calling the crisis a minor issue was quite an understatement."
+    },
+    {
+      "en": "euphemism",
+      "ipa": "/ˈjuː.fə.mɪ.zəm/",
+      "vi": "lối nói giảm, nói tránh để bớt trực diện",
+      "example": "Let us call it a learning opportunity is a common euphemism."
+    },
+    {
+      "en": "not exactly",
+      "ipa": "/nɒt ɪɡˈzækt.li/",
+      "vi": "không hẳn là, cách phủ định nhẹ và thường có hàm ý",
+      "example": "The audience did not exactly leap to their feet."
+    },
+    {
+      "en": "warm to something",
+      "ipa": "/ˈwɔːm tə ˈsʌm.θɪŋ/",
+      "vi": "dần có thiện cảm hoặc đón nhận điều gì",
+      "example": "The client did not immediately warm to the new concept."
+    },
+    {
+      "en": "read the room",
+      "ipa": "/riːd ðə ruːm/",
+      "vi": "quan sát không khí và phản ứng của mọi người để cư xử phù hợp",
+      "example": "Read the room before making a joke about the budget."
+    },
+    {
+      "en": "deadpan",
+      "ipa": "/ˈded.pæn/",
+      "vi": "tỉnh bơ, không đổi nét mặt khi nói đùa hoặc mỉa",
+      "example": "He delivered the joke in a completely deadpan voice."
+    },
+    {
+      "en": "a backhanded compliment",
+      "ipa": "/ə ˌbækˌhæn.dɪd ˈkɒm.plɪ.mənt/",
+      "vi": "lời khen nửa vời, khen mà ẩn ý chê",
+      "example": "That was a backhanded compliment, not genuine praise."
+    },
+    {
+      "en": "diplomatic",
+      "ipa": "/ˌdɪp.ləˈmæt.ɪk/",
+      "vi": "khéo léo, tế nhị để tránh gây xung đột",
+      "example": "Try to be diplomatic when you disagree with the proposal."
+    },
+    {
+      "en": "take something at face value",
+      "ipa": "/teɪk ˈsʌm.θɪŋ æt feɪs ˈvæl.juː/",
+      "vi": "hiểu một câu theo nghĩa đen, không nhận ra hàm ý",
+      "example": "Do not take his dry remarks at face value."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "That is one way of putting it.",
+      "vi": "Đó cũng là một cách để diễn đạt điều đó.",
+      "note": "Cách đáp dí dỏm, lịch sự khi bạn thấy lời người kia đúng một phần nhưng chưa nói hết hoặc nói quá nhẹ."
+    },
+    {
+      "en": "I would not go that far.",
+      "vi": "Tôi sẽ không nói đến mức đó đâu.",
+      "note": "Dùng để không đồng ý một cách mềm mỏng, bớt gay gắt hơn nói thẳng là sai."
+    },
+    {
+      "en": "It did not exactly go to plan.",
+      "vi": "Mọi thứ không hẳn diễn ra đúng kế hoạch.",
+      "note": "Not exactly làm câu phê bình nghe nhẹ hơn và có thể mang sắc thái hài hước."
+    },
+    {
+      "en": "We may want to revisit the timing.",
+      "vi": "Có lẽ chúng ta nên xem lại thời điểm hoặc lịch trình.",
+      "note": "Cách góp ý mang tính hợp tác, thường dùng trong họp thay vì chỉ trích trực tiếp."
+    },
+    {
+      "en": "I mean no offence, but ...",
+      "vi": "Tôi không có ý xúc phạm, nhưng ...",
+      "note": "Dùng thận trọng. Cụm này báo hiệu ý sau có thể nhạy cảm, nên cần nói thật khéo."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong thought và something",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi. Tránh đọc thành /t/ hoặc /s/.",
+      "words": [
+        "thought",
+        "something",
+        "through"
+      ]
+    },
+    {
+      "focus": "trọng âm trong sarcastic và sarcasm",
+      "tip": "Nhấn âm thứ hai trong sarcastic và âm đầu trong sarcasm. Không nhấn đều từng âm.",
+      "words": [
+        "sarcastic",
+        "sarcasm",
+        "diplomatic"
+      ]
+    },
+    {
+      "focus": "nối âm trong not exactly",
+      "tip": "Nối phụ âm cuối của not với nguyên âm đầu của exactly để câu nghe liền mạch: not exactly.",
+      "words": [
+        "not exactly",
+        "read the room",
+        "warm to it"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "That is very sarcasm.",
+      "right": "That is very sarcastic.",
+      "vi": "Sarcasm là danh từ, còn sarcastic là tính từ để mô tả câu nói hoặc người nói."
+    },
+    {
+      "wrong": "I am kidding you.",
+      "right": "I am joking. / I am teasing you.",
+      "vi": "I am kidding you không tự nhiên trong ngữ cảnh này. Dùng joking cho đùa nói chung, teasing khi trêu ai đó."
+    },
+    {
+      "wrong": "The client did not like very much it.",
+      "right": "The client did not like it very much.",
+      "vi": "Tân ngữ it đứng ngay sau like, rồi mới đến very much."
+    },
+    {
+      "wrong": "With all respects, I disagree.",
+      "right": "With all due respect, I disagree.",
+      "vi": "Cụm cố định là with all due respect. Tuy nhiên câu này vẫn có thể nghe đối đầu, nên dùng tiết chế."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nói kế hoạch có rủi ro hoặc chưa thuyết phục",
+      "formal": "I have a few reservations about this approach.",
+      "casual": "I am not sure this is going to fly.",
+      "vi": "Câu trang trọng phù hợp trong họp hoặc với cấp trên. Câu thân mật dùng với đồng nghiệp quen, mang sắc thái hoài nghi rõ hơn."
+    },
+    {
+      "situation": "Nói một nhận định quá đơn giản hoặc hơi thiếu cơ sở",
+      "formal": "That may be an oversimplification.",
+      "casual": "That is a bit of a stretch.",
+      "vi": "Câu trang trọng giúp phản biện ý kiến trong môi trường chuyên nghiệp. Câu thân mật có tính mỉa nhẹ, dùng với người đã quen cách nói của bạn."
+    },
+    {
+      "situation": "Từ chối một đề xuất không khả thi",
+      "formal": "I am afraid that may be difficult to accommodate.",
+      "casual": "I do not think that is going to work.",
+      "vi": "Câu trang trọng phù hợp khi từ chối khách hàng hoặc đối tác. Câu thân mật phù hợp trong nhóm làm việc nội bộ."
+    },
+    {
+      "situation": "Khen một phần trình bày tốt bằng sắc thái khác nhau",
+      "formal": "That was a remarkably effective presentation.",
+      "casual": "Not bad at all.",
+      "vi": "Câu trang trọng là lời khen rõ ràng, dùng trong phản hồi chuyên môn. Not bad at all thường là lời khen kiểu nói nhẹ trong giao tiếp thân mật."
+    }
+  ],
+  "culture": [
+    "Trong giao tiếp Anh, mỉa nhẹ kiểu tỉnh bơ thường dựa nhiều vào giọng nói và ngữ cảnh. Nếu chưa thân, đừng vội bắt chước vì dễ bị hiểu là lạnh lùng hoặc thiếu tôn trọng.",
+    "Các từ như interesting, brave, hoặc ambitious đôi khi là lời khen dè dặt chứ không phải tán thành hoàn toàn. Hãy nhìn phản ứng, ngữ điệu và bối cảnh trước khi kết luận.",
+    "Trong họp, người bản xứ thường phê bình ý tưởng thay vì công kích người đưa ra ý tưởng. Những câu gián tiếp như we may want to revisit giúp mọi người giữ thể diện."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại trước cuộc họp",
+    "passage": "Hi, this is Hannah from the design team. Just a quick note before tomorrow's meeting. The client has asked for a shorter demo, which is a polite way of saying that the last one felt rather long. Please keep the jokes light and avoid calling the old proposal a disaster. It was not a disaster, exactly. It simply gave us plenty to learn from.",
+    "vi": "Chào, tôi là Hannah từ nhóm thiết kế. Đây là một lời nhắn nhanh trước cuộc họp ngày mai. Khách hàng đã yêu cầu một phần minh họa ngắn hơn, đây là cách nói lịch sự rằng phần trước hơi dài. Hãy giữ các câu đùa ở mức nhẹ nhàng và tránh gọi đề xuất cũ là thảm họa. Nó không hẳn là thảm họa. Chỉ là nó cho chúng ta rất nhiều điều để rút kinh nghiệm.",
+    "questions": [
+      {
+        "q": "What does the client probably think about the previous demo?",
+        "choices": [
+          "It was too long.",
+          "It was too technical.",
+          "It was too expensive."
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì Hannah nói khách hàng muốn một demo ngắn hơn và giải thích rằng phần trước felt rather long."
+      },
+      {
+        "q": "What does Hannah ask the team to avoid?",
+        "choices": [
+          "Using slides",
+          "Making strong jokes about the old proposal",
+          "Answering client questions"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì đoạn nghe nói rõ: keep the jokes light and avoid calling the old proposal a disaster."
+      },
+      {
+        "q": "What does Hannah imply about the old proposal?",
+        "choices": [
+          "It was perfect.",
+          "It was a failure with no value.",
+          "It had problems but taught the team something."
+        ],
+        "answer": 2,
+        "vi": "Đáp án đúng là lựa chọn 2. Cụm not a disaster, exactly và gave us plenty to learn from cho thấy đề xuất có vấn đề nhưng vẫn đem lại bài học."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Đồng nghiệp người Anh, hài hước khô và đôi khi mỉa nhẹ",
+      "b": "Người học, vừa cùng đồng nghiệp thuyết trình cho khách hàng"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Well, that was memorable.",
+        "vi": "Chà, buổi đó thật đáng nhớ.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Is that a compliment?",
+        "vi": "Đó là lời khen à?",
+        "hint": "Hỏi ngắn để kiểm tra xem người kia có đang nói mỉa không."
+      },
+      {
+        "speaker": "a",
+        "en": "Let us call it a compliment with conditions attached.",
+        "vi": "Cứ coi đó là lời khen có kèm điều kiện đi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "So the presentation did not go well?",
+        "vi": "Vậy là bài thuyết trình không diễn ra tốt ạ?",
+        "hint": "Dùng did not go well để hỏi nhẹ nhàng."
+      },
+      {
+        "speaker": "a",
+        "en": "It had moments. The projector stopped, and the client looked unconvinced.",
+        "vi": "Nó cũng có vài khoảnh khắc. Máy chiếu ngừng hoạt động, và khách hàng trông không mấy bị thuyết phục.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Right. You are being sarcastic.",
+        "vi": "Rồi, anh đang mỉa mai đấy.",
+        "hint": "Be being sarcastic diễn tả hành vi mỉa mai đang xảy ra."
+      },
+      {
+        "speaker": "a",
+        "en": "A little. In Britain, interesting can sometimes mean I am not entirely sold.",
+        "vi": "Một chút thôi. Ở Anh, interesting đôi khi có nghĩa là tôi chưa hoàn toàn bị thuyết phục.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Then how would you say the client hated it?",
+        "vi": "Vậy nếu khách hàng ghét nó thì anh sẽ nói thế nào?",
+        "hint": "Hated là từ mạnh, tạo cơ hội học cách nói giảm nhẹ."
+      },
+      {
+        "speaker": "a",
+        "en": "I would not say hated. I might say they did not exactly warm to it.",
+        "vi": "Tôi sẽ không nói là ghét. Tôi có thể nói là họ không hẳn đón nhận nó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds much softer.",
+        "vi": "Nghe nhẹ nhàng hơn nhiều.",
+        "hint": "Softer ở đây nghĩa là bớt trực diện, không phải âm thanh nhỏ hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. Understatement lets you disagree without making the room awkward.",
+        "vi": "Chính xác. Cách nói nhẹ đi giúp bạn không đồng ý mà không làm cả phòng trở nên ngượng ngùng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Could I say, the timing was not ideal?",
+        "vi": "Tôi có thể nói là thời điểm không thật lý tưởng không?",
+        "hint": "Not ideal là cách phê bình nhẹ, phù hợp trong công việc."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, that works well. It criticises the schedule rather than blaming anyone. If you say the timing was a mess, it is clearer, but it also turns the temperature up.",
+        "vi": "Được, câu đó rất ổn. Nó phê bình lịch trình thay vì đổ lỗi cho ai. Nếu bạn nói thời điểm đó là một mớ hỗn độn, ý sẽ rõ hơn nhưng cũng làm không khí căng hơn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "What does turns the temperature up mean here?",
+        "vi": "Cụm turns the temperature up ở đây nghĩa là gì?",
+        "hint": "Đây là ẩn dụ về việc làm không khí cuộc nói chuyện căng thẳng hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "It means it makes the conversation more tense. In a meeting, I would say we may want to revisit the timing. It sounds cooperative, even when everyone knows the plan needs rescuing.",
+        "vi": "Nó nghĩa là làm cuộc nói chuyện căng thẳng hơn. Trong cuộc họp, tôi sẽ nói có lẽ chúng ta nên xem lại lịch trình. Câu này nghe hợp tác, kể cả khi ai cũng biết kế hoạch cần được cứu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "So I should listen for what people imply, not only for the literal words.",
+        "vi": "Vậy tôi nên lắng nghe điều người ta hàm ý, chứ không chỉ nghĩa đen của từ.",
+        "hint": "Imply là hàm ý; literal words là từ ngữ theo nghĩa đen."
+      },
+      {
+        "speaker": "a",
+        "en": "Precisely. Tone, pauses, and context do half the work. If I say bold choice after you delete the final slide, I probably do not mean bold in a flattering sense.",
+        "vi": "Chính xác. Giọng điệu, khoảng ngừng và ngữ cảnh làm một nửa công việc. Nếu tôi nói lựa chọn táo bạo sau khi bạn xóa trang chiếu cuối, có lẽ tôi không có ý khen táo bạo đâu.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Understood. Next time, I will read the room before I take the praise at face value.",
+        "vi": "Tôi hiểu rồi. Lần sau, tôi sẽ quan sát không khí trước khi hiểu lời khen theo nghĩa đen.",
+        "hint": "Take praise at face value là tin lời khen theo nghĩa đen mà không nhận ra ẩn ý."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a British colleague in a London office. You have just finished a client presentation with the learner. You use dry, light sarcasm, but you remain helpful, professional, and never cruel.",
+    "opener": "Well, that was memorable.",
+    "goal": "Người học nhận ra lời mỉa nhẹ, hỏi rõ hàm ý và dùng nói giảm nói tránh để góp ý về buổi thuyết trình."
+  },
+  "drills": [
+    {
+      "vi": "Đề xuất này có lẽ cần chỉnh chu thêm một chút trước khi gửi cho khách hàng.",
+      "en": "The proposal could do with a little polishing before we send it to the client.",
+      "alts": [
+        "It may need a little more work before it goes to the client."
+      ]
+    },
+    {
+      "vi": "Khách hàng có vẻ chưa hoàn toàn bị thuyết phục.",
+      "en": "The client did not seem wholly convinced.",
+      "alts": [
+        "The client was not entirely persuaded."
+      ]
+    },
+    {
+      "vi": "Đó là một thời hạn khá tham vọng.",
+      "en": "That is a rather ambitious deadline.",
+      "alts": [
+        "It is an optimistic timeline, to put it mildly."
+      ]
+    },
+    {
+      "vi": "Anh ấy không hẳn vui khi thấy số liệu đã được sửa lại.",
+      "en": "He was not best pleased to see the revised figures.",
+      "alts": [
+        "He did not exactly welcome the revised figures."
+      ]
+    },
+    {
+      "vi": "Phần hỏi đáp không hẳn là điểm mạnh của buổi thuyết trình.",
+      "en": "The Q and A was not exactly the strongest part of the presentation.",
+      "alts": [
+        "The Q and A could have been handled more smoothly."
+      ]
+    },
+    {
+      "vi": "Không biết cách diễn đạt đó có hơi thẳng thắn quá không?",
+      "en": "I wonder if that wording might be a little direct.",
+      "alts": [
+        "Perhaps we could soften the wording slightly."
+      ]
+    },
+    {
+      "vi": "Hay là ta tạm gác việc này lại và bàn riêng sau?",
+      "en": "Perhaps we could take this offline and pick it up later.",
+      "alts": [
+        "We may want to discuss this separately after the meeting."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm 4 câu góp ý cùng một vấn đề: một câu trực diện, một câu nói giảm, một câu trang trọng và một câu thân mật.",
+    "Xem một đoạn phỏng vấn tiếng Anh ngắn, ghi lại hai câu có thể chứa hàm ý rồi giải thích bằng tiếng Việt nghĩa thật theo ngữ cảnh.",
+    "Tự đặt ba tình huống công sở và dùng các cụm not exactly, read the room, và we may want to revisit."
+  ]
+}

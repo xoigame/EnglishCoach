@@ -1,0 +1,363 @@
+{
+  "id": "thue-xe-may-xe-dap",
+  "title": "Thuê xe máy hoặc xe đạp",
+  "topic": "Thuê xe",
+  "level": "A2",
+  "summary": "Bạn thuê một chiếc xe máy tay ga trong một ngày tại cửa hàng cho thuê. Bạn hỏi về giá, bảo hiểm, cách thanh toán và giờ trả xe.",
+  "goals": [
+    "Hỏi thuê xe máy hoặc xe đạp trong thời gian ngắn",
+    "Hỏi giá, đồ đi kèm và bảo hiểm",
+    "Thỏa thuận cách thanh toán và giờ trả xe"
+  ],
+  "vocab": [
+    {
+      "en": "rent",
+      "ipa": "/rent/",
+      "vi": "thuê",
+      "example": "I would like to rent a scooter for one day."
+    },
+    {
+      "en": "scooter",
+      "ipa": "/ˈskuːtər/",
+      "vi": "xe máy tay ga",
+      "example": "This scooter is easy to ride around town."
+    },
+    {
+      "en": "bicycle",
+      "ipa": "/ˈbaɪsɪkəl/",
+      "vi": "xe đạp",
+      "example": "The bicycle comes with a lock and basket."
+    },
+    {
+      "en": "helmet",
+      "ipa": "/ˈhelmɪt/",
+      "vi": "mũ bảo hiểm",
+      "example": "A helmet is included with every scooter rental."
+    },
+    {
+      "en": "insurance",
+      "ipa": "/ɪnˈʃʊrəns/",
+      "vi": "bảo hiểm",
+      "example": "Insurance costs two dollars for one day."
+    },
+    {
+      "en": "automatic",
+      "ipa": "/ˌɔːtəˈmætɪk/",
+      "vi": "tự động, xe số tự động",
+      "example": "We have automatic scooters for new riders."
+    },
+    {
+      "en": "fuel",
+      "ipa": "/ˈfjuːəl/",
+      "vi": "xăng",
+      "example": "Please return the scooter with enough fuel."
+    },
+    {
+      "en": "return",
+      "ipa": "/rɪˈtɜːrn/",
+      "vi": "trả lại",
+      "example": "Please return the bike before ten tomorrow morning."
+    },
+    {
+      "en": "passport",
+      "ipa": "/ˈpæspɔːrt/",
+      "vi": "hộ chiếu",
+      "example": "Please show your passport before renting a scooter."
+    },
+    {
+      "en": "driving license",
+      "ipa": "/ˈdraɪvɪŋ ˈlaɪsəns/",
+      "vi": "bằng lái xe",
+      "example": "You need a driving license for this scooter."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "I would like to rent a ___ for ___.",
+      "vi": "Tôi muốn thuê một chiếc ___ trong ___.",
+      "note": "Dùng để nói lịch sự khi bắt đầu hỏi thuê xe."
+    },
+    {
+      "en": "How long do you need it for?",
+      "vi": "Bạn cần thuê trong bao lâu?",
+      "note": "Câu nhân viên thường hỏi; bạn có thể trả lời “For one day.”"
+    },
+    {
+      "en": "Does the price include ___?",
+      "vi": "Giá có bao gồm ___ không?",
+      "note": "Dùng để hỏi mũ bảo hiểm, bảo hiểm hoặc khóa xe."
+    },
+    {
+      "en": "Can I pay by ___?",
+      "vi": "Tôi có thể trả bằng ___ không?",
+      "note": "Điền “card” hoặc “cash” vào chỗ trống."
+    },
+    {
+      "en": "What time should I return it?",
+      "vi": "Tôi nên trả xe lúc mấy giờ?",
+      "note": "Dùng khi bạn muốn xác nhận giờ trả xe chính xác."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /uː/ trong “scooter”",
+      "tip": "Kéo dài âm /uː/ và tròn môi; đừng đọc thành nhiều âm ngắn kiểu “su-cơ-tơ”.",
+      "words": [
+        "scooter",
+        "two",
+        "fuel"
+      ]
+    },
+    {
+      "focus": "âm cuối /t/",
+      "tip": "Chạm đầu lưỡi lên lợi trên ở cuối từ và dừng hơi; đừng thêm âm “tơ”.",
+      "words": [
+        "rent",
+        "helmet",
+        "return"
+      ]
+    },
+    {
+      "focus": "trọng âm trong “insurance”",
+      "tip": "Nhấn mạnh âm thứ hai: in-SHUR-ance. Âm /ʃ/ giống âm “sh” trong tiếng Anh.",
+      "words": [
+        "insurance",
+        "sure",
+        "shop"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I want rent a scooter.",
+      "right": "I want to rent a scooter.",
+      "vi": "Sau “want” cần có “to” trước động từ."
+    },
+    {
+      "wrong": "How much is for one day?",
+      "right": "How much is it for one day?",
+      "vi": "Cần có “it” để chỉ chiếc xe hoặc giá thuê."
+    },
+    {
+      "wrong": "Is include helmet?",
+      "right": "Does the price include a helmet?",
+      "vi": "Dùng “Does” khi hỏi về việc giá có bao gồm thứ gì không."
+    },
+    {
+      "wrong": "I return it tomorrow morning.",
+      "right": "I will return it tomorrow morning.",
+      "vi": "Dùng “will” khi cam kết hoặc nói về hành động trong tương lai."
+    },
+    {
+      "wrong": "Give me your helmet.",
+      "right": "Can I have a helmet, please?",
+      "vi": "Câu đúng lịch sự hơn và cần mạo từ “a”."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Hỏi giá thuê mỗi ngày",
+      "formal": "Could you tell me the daily rental price, please?",
+      "casual": "How much is it per day?",
+      "vi": "Câu formal phù hợp khi nói với nhân viên ở cửa hàng lớn hoặc nơi trang trọng; câu casual tự nhiên ở cửa hàng nhỏ."
+    },
+    {
+      "situation": "Đưa bằng lái xe",
+      "formal": "Would you like to see my driving license?",
+      "casual": "Here is my driving license for you.",
+      "vi": "Câu formal chủ động đề nghị cho nhân viên xem; câu casual dùng khi nhân viên đã yêu cầu giấy tờ."
+    },
+    {
+      "situation": "Hỏi phạm vi bảo hiểm",
+      "formal": "Could you explain what the insurance covers, please?",
+      "casual": "What does the insurance cover for me?",
+      "vi": "Câu formal mềm và lịch sự hơn khi hỏi điều khoản; câu casual trực tiếp, phù hợp trong cuộc nói chuyện thân thiện."
+    },
+    {
+      "situation": "Hỏi trả xe muộn hơn",
+      "formal": "May I return the scooter later tomorrow?",
+      "casual": "Can I bring it back later tomorrow?",
+      "vi": "“May I” lịch sự hơn khi xin ngoại lệ; “Can I” phổ biến trong giao tiếp thường ngày."
+    }
+  ],
+  "culture": [
+    "Ở nhiều cửa hàng cho thuê nhỏ, nhân viên có thể hỏi hộ chiếu và bằng lái xe rất trực tiếp. Đây là thủ tục bình thường, không phải thiếu lịch sự.",
+    "Hãy hỏi rõ “by what time” vì giá thuê một ngày có thể được tính theo 24 giờ hoặc theo giờ đóng cửa của cửa hàng.",
+    "Trước khi rời đi, khách thường chụp ảnh vết xước và kiểm tra phanh, đèn, xăng. Việc này giúp tránh hiểu lầm khi trả xe."
+  ],
+  "listening": {
+    "title": "Tin nhắn từ cửa hàng cho thuê xe",
+    "passage": "Hello, this is River Road Rentals. Your bicycle is ready at the front desk. It has a basket, a lock, and one helmet. Please check the brakes before you leave. Return the bike by six this evening. If you return it late, there is a small extra charge. Call us if you have any problem on the road.",
+    "vi": "Xin chào, đây là River Road Rentals. Xe đạp của bạn đã sẵn sàng ở quầy phía trước. Xe có một giỏ, một khóa và một mũ bảo hiểm. Hãy kiểm tra phanh trước khi rời đi. Hãy trả xe trước sáu giờ tối nay. Nếu trả muộn, sẽ có một khoản phụ phí nhỏ. Hãy gọi cho chúng tôi nếu bạn gặp bất kỳ vấn đề nào trên đường.",
+    "questions": [
+      {
+        "q": "What is ready at the front desk?",
+        "choices": [
+          "A bicycle",
+          "A scooter",
+          "A car"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là “A bicycle” vì bài nghe nói: “Your bicycle is ready at the front desk.”"
+      },
+      {
+        "q": "Which item can lock the bicycle?",
+        "choices": [
+          "A basket",
+          "A lock",
+          "A helmet"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là “A lock” vì bài nghe liệt kê xe có “a basket, a lock, and one helmet.”"
+      },
+      {
+        "q": "When should the customer return the bike?",
+        "choices": [
+          "By six this morning",
+          "By ten tomorrow morning",
+          "By six this evening"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là “By six this evening” vì bài nghe nói: “Return the bike by six this evening.”"
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Chủ tiệm cho thuê xe",
+      "b": "Khách thuê xe, người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hello. Would you like a bicycle or a scooter?",
+        "vi": "Xin chào. Bạn muốn thuê xe đạp hay xe máy tay ga?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would like to rent a scooter, please.",
+        "vi": "Tôi muốn thuê một chiếc xe máy tay ga, làm ơn.",
+        "hint": "Dùng “I would like to” để nói lịch sự."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure. How long do you need it for?",
+        "vi": "Được chứ. Bạn cần thuê trong bao lâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "For one day, until tomorrow morning.",
+        "vi": "Trong một ngày, đến sáng mai.",
+        "hint": "Bắt đầu bằng “For one day”."
+      },
+      {
+        "speaker": "a",
+        "en": "An automatic scooter costs eight dollars for one day.",
+        "vi": "Một chiếc xe tay ga tự động có giá tám đô la một ngày.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Does that price include a helmet and insurance?",
+        "vi": "Giá đó có gồm mũ bảo hiểm và bảo hiểm không?",
+        "hint": "Dùng mẫu “Does that price include...?”."
+      },
+      {
+        "speaker": "a",
+        "en": "The helmet is included, but insurance costs two dollars.",
+        "vi": "Mũ bảo hiểm đã bao gồm, nhưng bảo hiểm giá hai đô la.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Okay. Can I pay by card today?",
+        "vi": "Được. Hôm nay tôi có thể trả bằng thẻ không?",
+        "hint": "Dùng “pay by card” để nói trả bằng thẻ."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes. Please show me your passport and driving license.",
+        "vi": "Được. Vui lòng cho tôi xem hộ chiếu và bằng lái xe của bạn.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Here they are. What time should I return it?",
+        "vi": "Đây ạ. Tôi nên trả xe lúc mấy giờ?",
+        "hint": "“Here they are” dùng khi đưa nhiều giấy tờ."
+      },
+      {
+        "speaker": "a",
+        "en": "Please return it by ten tomorrow morning with fuel.",
+        "vi": "Vui lòng trả xe trước mười giờ sáng mai và có đủ xăng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great. I will take it. Thank you very much.",
+        "vi": "Tuyệt. Tôi sẽ thuê chiếc này. Cảm ơn bạn rất nhiều.",
+        "hint": "“I will take it” nghĩa là bạn đồng ý thuê món đó."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly rental shop owner near the beach in Da Nang. You speak clearly, ask simple questions, and help customers choose a bicycle or scooter.",
+    "opener": "Hello. Would you like a bicycle or a scooter?",
+    "goal": "Người học thuê xe, hỏi điều kiện thuê và chốt giờ trả xe."
+  },
+  "drills": [
+    {
+      "vi": "Tôi muốn thuê một chiếc xe máy tay ga trong một ngày.",
+      "en": "I would like to rent a scooter for one day.",
+      "alts": [
+        "I would like a scooter for one day."
+      ]
+    },
+    {
+      "vi": "Bạn cần thuê xe trong bao lâu?",
+      "en": "How long do you need it for?",
+      "alts": []
+    },
+    {
+      "vi": "Giá có bao gồm mũ bảo hiểm không?",
+      "en": "Does the price include a helmet?",
+      "alts": [
+        "Is a helmet included in the price?"
+      ]
+    },
+    {
+      "vi": "Bảo hiểm có giá hai đô la một ngày.",
+      "en": "Insurance costs two dollars for one day.",
+      "alts": [
+        "The insurance is two dollars per day."
+      ]
+    },
+    {
+      "vi": "Tôi có thể trả bằng thẻ không?",
+      "en": "Can I pay by card?",
+      "alts": [
+        "Can I use my card to pay?"
+      ]
+    },
+    {
+      "vi": "Vui lòng trả xe trước mười giờ sáng mai.",
+      "en": "Please return it by ten tomorrow morning.",
+      "alts": []
+    },
+    {
+      "vi": "Đây là hộ chiếu và bằng lái xe của tôi.",
+      "en": "Here are my passport and driving license.",
+      "alts": [
+        "Here is my passport and driving license."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại và chú ý âm cuối trong “rent” và “helmet”.",
+    "Tự nói một đoạn sáu câu để thuê xe đạp trong nửa ngày.",
+    "Đặt ba câu hỏi với mẫu “Does the price include...?”."
+  ]
+}

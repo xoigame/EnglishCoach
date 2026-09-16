@@ -1,0 +1,400 @@
+{
+  "id": "tong-ket-du-an",
+  "title": "Tổng kết dự án và rút kinh nghiệm không đổ lỗi",
+  "topic": "Họp rút kinh nghiệm dự án",
+  "level": "C1",
+  "summary": "Bạn cùng nhóm nhìn lại một dự án khó vừa hoàn thành. Bạn học cách nêu vấn đề, tìm nguyên nhân gốc và thống nhất hành động cải thiện mà không quy trách nhiệm cá nhân.",
+  "goals": [
+    "Dẫn dắt hoặc tham gia buổi tổng kết dự án với giọng điệu xây dựng.",
+    "Nêu nguyên nhân và rủi ro bằng ngôn ngữ không đổ lỗi.",
+    "Đề xuất hành động cụ thể và phân công trách nhiệm rõ ràng."
+  ],
+  "vocab": [
+    {
+      "en": "retrospective",
+      "ipa": "/ˌretrəˈspektɪv/",
+      "vi": "buổi nhìn lại, tổng kết để rút kinh nghiệm",
+      "example": "The retrospective helped us identify what to improve."
+    },
+    {
+      "en": "bottleneck",
+      "ipa": "/ˈbɒtlnek/",
+      "vi": "điểm nghẽn làm chậm tiến độ",
+      "example": "The approval process became a bottleneck."
+    },
+    {
+      "en": "scope creep",
+      "ipa": "/ˈskəʊp kriːp/",
+      "vi": "việc phạm vi công việc tăng dần không được kiểm soát",
+      "example": "Scope creep made the timeline difficult to manage."
+    },
+    {
+      "en": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "vi": "nguyên nhân gốc rễ",
+      "example": "We need to understand the root cause, not just the symptom."
+    },
+    {
+      "en": "decision owner",
+      "ipa": "/dɪˈsɪʒən ˈəʊnə(r)/",
+      "vi": "người chịu trách nhiệm ra quyết định",
+      "example": "Each major decision needs a clear decision owner."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi giữa các lựa chọn",
+      "example": "We had to make a trade-off between speed and quality."
+    },
+    {
+      "en": "surface a concern",
+      "ipa": "/ˈsɜːfɪs ə kənˈsɜːn/",
+      "vi": "nêu lên một mối lo ngại để cả nhóm xem xét",
+      "example": "Please surface concerns before they become bigger problems."
+    },
+    {
+      "en": "candid",
+      "ipa": "/ˈkændɪd/",
+      "vi": "thẳng thắn nhưng chân thành",
+      "example": "Thank you for being candid about the delay."
+    },
+    {
+      "en": "actionable",
+      "ipa": "/ˈækʃənəbl/",
+      "vi": "có thể thực hiện được, cụ thể thành hành động",
+      "example": "Let us make the feedback actionable."
+    },
+    {
+      "en": "accountability",
+      "ipa": "/əˌkaʊntəˈbɪləti/",
+      "vi": "trách nhiệm rõ ràng đối với công việc hoặc kết quả",
+      "example": "Clear accountability prevents important tasks from being missed."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "What worked well, and what would we change next time?",
+      "vi": "Điều gì đã làm tốt, và lần sau chúng ta sẽ thay đổi điều gì?",
+      "note": "Cách mở đầu cân bằng: ghi nhận điểm tích cực trước khi bàn về cải thiện."
+    },
+    {
+      "en": "One contributing factor was ___.",
+      "vi": "Một yếu tố góp phần là ___.",
+      "note": "Giảm sắc thái quy kết hơn cách nói trực tiếp về lỗi của một người."
+    },
+    {
+      "en": "Rather than ___, I think we should ___.",
+      "vi": "Thay vì ___, tôi nghĩ chúng ta nên ___.",
+      "note": "Dùng để chuyển từ phê bình sang đề xuất giải pháp."
+    },
+    {
+      "en": "Could we unpack ___ a little further?",
+      "vi": "Chúng ta có thể phân tích kỹ hơn về ___ không?",
+      "note": "Phù hợp khi muốn tìm nguyên nhân sâu hơn mà không chất vấn gay gắt."
+    },
+    {
+      "en": "To turn that into an action, we could ___.",
+      "vi": "Để biến điều đó thành hành động, chúng ta có thể ___.",
+      "note": "Dùng ở cuối phần thảo luận để chốt bước tiếp theo."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "Âm cuối của động từ ở quá khứ",
+      "tip": "Không đọc mọi đuôi ed giống nhau. Sau âm vô thanh thường là /t/, sau âm hữu thanh thường là /d/, còn sau /t/ hoặc /d/ là /ɪd/.",
+      "words": [
+        "worked",
+        "helped",
+        "raised",
+        "flagged",
+        "wanted"
+      ]
+    },
+    {
+      "focus": "Âm /θ/ trong thought",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và thổi hơi. Tránh đọc thành /t/ hoặc /s/.",
+      "words": [
+        "thought",
+        "third",
+        "through"
+      ]
+    },
+    {
+      "focus": "Trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn rõ âm được đánh dấu; không dàn đều tất cả các âm như tiếng Việt.",
+      "words": [
+        "retrospective",
+        "accountability",
+        "actionable"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We discussed about the delay.",
+      "right": "We discussed the delay.",
+      "vi": "Discuss đi trực tiếp với tân ngữ, không dùng thêm about."
+    },
+    {
+      "wrong": "The project was delay because the scope changed.",
+      "right": "The project was delayed because the scope changed.",
+      "vi": "Sau was cần tính từ hoặc phân từ quá khứ delayed, không dùng danh từ delay."
+    },
+    {
+      "wrong": "Who made this mistake?",
+      "right": "What in the process allowed this to happen?",
+      "vi": "Trong buổi rút kinh nghiệm, nên hỏi về quy trình để tránh tạo cảm giác đổ lỗi cá nhân."
+    },
+    {
+      "wrong": "We need to learn experience from this project.",
+      "right": "We need to learn from the experience of this project.",
+      "vi": "Learn không đi trực tiếp với experience theo nghĩa rút kinh nghiệm; cần dùng learn from."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mở đầu buổi tổng kết để khẳng định không đổ lỗi",
+      "formal": "The purpose of this review is to identify lessons and improve our process, not to assign blame.",
+      "casual": "Let us focus on what we can learn, not who messed up.",
+      "vi": "Câu trang trọng phù hợp với cuộc họp có quản lý hoặc nhiều phòng ban; câu thân mật hợp với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Nêu một vấn đề của dự án",
+      "formal": "One contributing factor appears to have been a lack of clarity around decision ownership.",
+      "casual": "It felt like nobody really owned the final call.",
+      "vi": "Câu trang trọng giảm tính quy kết và hợp khi báo cáo; câu thân mật tự nhiên trong trao đổi nội bộ."
+    },
+    {
+      "situation": "Phản hồi ý kiến của đồng nghiệp",
+      "formal": "Thank you for raising that. It is an important observation.",
+      "casual": "That is a fair point. I am glad you brought it up.",
+      "vi": "Câu trang trọng dùng với cấp trên hoặc đối tác; câu thân mật vẫn lịch sự nhưng gần gũi hơn."
+    },
+    {
+      "situation": "Chốt bước hành động",
+      "formal": "Could we agree on an owner and a deadline for that action?",
+      "casual": "Who can take this, and when can we get it done?",
+      "vi": "Câu trang trọng phù hợp khi điều phối cuộc họp chính thức; câu thân mật dùng trong nhóm quen biết và tốc độ trao đổi nhanh."
+    }
+  ],
+  "culture": [
+    "Trong môi trường nói tiếng Anh, một buổi tổng kết hiệu quả thường tách con người khỏi quy trình. Người tham gia hay dùng cách nói về hệ thống, điều kiện hoặc yếu tố góp phần thay vì chỉ thẳng tên người gây lỗi.",
+    "Sự thẳng thắn thường được đánh giá cao nếu đi kèm dữ kiện và đề xuất cải thiện. Mở đầu bằng việc ghi nhận nỗ lực giúp phản hồi tiêu cực dễ được đón nhận hơn.",
+    "Sau một câu hỏi về nguyên nhân hoặc cảm xúc, khoảng im lặng ngắn là bình thường. Đừng vội lấp đầy im lặng; người nghe có thể đang suy nghĩ trước khi trả lời."
+  ],
+  "listening": {
+    "title": "Tin nhắn sau buổi tổng kết dự án",
+    "passage": "Hi everyone, this is a quick follow-up to yesterday's project review. I have posted the action list in the shared workspace. Maya will own decisions that affect the launch plan, and the team leads will bring one current risk to our weekly review. Please add any scope changes to the log before discussing them in a meeting. The aim is not to slow us down. It is to make our trade-offs clear early enough to act on them.",
+    "vi": "Chào mọi người, đây là tin nhắn cập nhật nhanh sau buổi tổng kết dự án hôm qua. Tôi đã đăng danh sách hành động trong không gian làm việc chung. Maya sẽ phụ trách các quyết định ảnh hưởng đến kế hoạch ra mắt, còn các trưởng nhóm sẽ mang một rủi ro hiện tại đến buổi rà soát hằng tuần. Hãy thêm mọi thay đổi về phạm vi vào nhật ký trước khi thảo luận chúng trong cuộc họp. Mục tiêu không phải là làm chúng ta chậm lại, mà là làm rõ các đánh đổi đủ sớm để có thể hành động.",
+    "questions": [
+      {
+        "q": "Who will own decisions that affect the launch plan?",
+        "choices": [
+          "Maya",
+          "All team leads",
+          "The meeting facilitator"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là Maya vì bài nghe nói rõ Maya sẽ phụ trách các quyết định ảnh hưởng đến kế hoạch ra mắt."
+      },
+      {
+        "q": "When should scope changes be added to the log?",
+        "choices": [
+          "Before they are discussed in a meeting",
+          "After the weekly review",
+          "At the end of the project"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là trước khi được thảo luận trong cuộc họp. Bài nghe có câu yêu cầu thêm thay đổi phạm vi vào nhật ký trước khi bàn trong cuộc họp."
+      },
+      {
+        "q": "What is the purpose of the new process?",
+        "choices": [
+          "To make trade-offs clear early",
+          "To reduce the number of meetings",
+          "To postpone the launch"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là làm rõ các đánh đổi từ sớm. Người nói nhấn mạnh mục tiêu không phải làm chậm nhóm mà để hành động kịp thời."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Trưởng nhóm điều phối buổi tổng kết dự án",
+      "b": "Thành viên trong nhóm dự án"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for making time. This is a learning review, not a blame session.",
+        "vi": "Cảm ơn mọi người đã dành thời gian. Đây là buổi rút kinh nghiệm, không phải buổi đổ lỗi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Agreed. The project was tough, but we got it over the line.",
+        "vi": "Đồng ý. Dự án rất khó, nhưng chúng ta đã hoàn thành được nó.",
+        "hint": "Cụm này nghĩa là hoàn thành việc khó đúng lúc hoặc sát thời hạn."
+      },
+      {
+        "speaker": "a",
+        "en": "Exactly. What worked better than we expected?",
+        "vi": "Chính xác. Điều gì đã hiệu quả hơn chúng ta mong đợi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The handovers improved once we started having daily check-ins.",
+        "vi": "Việc bàn giao đã tốt hơn khi chúng ta bắt đầu họp cập nhật hằng ngày.",
+        "hint": "Dùng once để nói một thay đổi xảy ra sau khi một việc khác bắt đầu."
+      },
+      {
+        "speaker": "a",
+        "en": "Good point. Where did we lose momentum?",
+        "vi": "Ý hay. Chúng ta đã mất đà ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The approval process became a bottleneck, especially when the scope kept shifting.",
+        "vi": "Quy trình phê duyệt trở thành điểm nghẽn, đặc biệt khi phạm vi công việc liên tục thay đổi.",
+        "hint": "Bottleneck là điểm nghẽn; kept shifting nhấn mạnh sự thay đổi lặp lại."
+      },
+      {
+        "speaker": "a",
+        "en": "That is useful. Let us separate symptoms from root causes. What made those scope changes hard to manage?",
+        "vi": "Thông tin đó hữu ích. Hãy tách các dấu hiệu bề mặt khỏi nguyên nhân gốc. Điều gì khiến các thay đổi phạm vi đó khó quản lý?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We did not have a clear decision owner, so requests were discussed repeatedly without a firm call.",
+        "vi": "Chúng ta không có người chịu trách nhiệm ra quyết định rõ ràng, nên các yêu cầu bị bàn đi bàn lại mà không có quyết định dứt khoát.",
+        "hint": "Firm call là một quyết định dứt khoát; dùng bị động để tập trung vào quy trình."
+      },
+      {
+        "speaker": "a",
+        "en": "I hear that. Rather than pinning it on individuals, what system change would have helped?",
+        "vi": "Tôi hiểu. Thay vì quy trách nhiệm cho từng cá nhân, thay đổi nào trong hệ thống có thể đã giúp ích?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "A single owner for each decision, plus a written change log, would have made the trade-offs visible earlier.",
+        "vi": "Một người phụ trách cho mỗi quyết định, cùng với nhật ký thay đổi bằng văn bản, có lẽ đã giúp các đánh đổi trở nên rõ ràng sớm hơn.",
+        "hint": "Would have made dùng để nói về giải pháp hữu ích trong quá khứ nhưng đã không được thực hiện."
+      },
+      {
+        "speaker": "a",
+        "en": "Makes sense. Is there anything we should have raised sooner, even if it felt uncomfortable?",
+        "vi": "Hợp lý. Có điều gì chúng ta đáng lẽ nên nêu ra sớm hơn, dù cảm thấy không thoải mái không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes. We could see the launch date was at risk, but some of us hesitated to challenge that assumption in larger meetings.",
+        "vi": "Có. Chúng ta có thể thấy ngày ra mắt có rủi ro, nhưng một số người đã ngần ngại phản biện giả định đó trong các cuộc họp đông người.",
+        "hint": "At risk nghĩa là có nguy cơ; hesitate to diễn tả sự ngập ngừng làm một việc."
+      },
+      {
+        "speaker": "a",
+        "en": "Thank you for being candid. How can we make it safer to flag concerns next time?",
+        "vi": "Cảm ơn bạn đã thẳng thắn. Lần sau chúng ta có thể làm thế nào để mọi người thấy an toàn hơn khi nêu lo ngại?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We could explicitly invite dissent and agree that surfacing a risk is a contribution, not a complaint.",
+        "vi": "Chúng ta có thể chủ động mời các ý kiến bất đồng và thống nhất rằng nêu ra rủi ro là một đóng góp, không phải lời phàn nàn.",
+        "hint": "Explicitly invite dissent là chủ động khuyến khích ý kiến khác biệt một cách rõ ràng."
+      },
+      {
+        "speaker": "a",
+        "en": "I like that. Let us turn this into actions. What can we commit to before the next project starts?",
+        "vi": "Tôi thích ý đó. Hãy biến điều này thành hành động. Chúng ta có thể cam kết điều gì trước khi dự án tiếp theo bắt đầu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "We can define decision owners, hold a weekly risk review, and document every scope change with its impact on time and resources.",
+        "vi": "Chúng ta có thể xác định người phụ trách quyết định, tổ chức rà soát rủi ro hằng tuần và ghi lại mọi thay đổi phạm vi cùng tác động của nó đến thời gian và nguồn lực.",
+        "hint": "Liệt kê ba hành động song song để câu nói rõ ràng và thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "Good. I will capture those commitments and check in after two weeks. Is there anything else we should acknowledge?",
+        "vi": "Tốt. Tôi sẽ ghi lại các cam kết đó và kiểm tra lại sau hai tuần. Còn điều gì chúng ta nên ghi nhận không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Only that the team stayed constructive under pressure. We learned a lot, and I am confident we can apply it without dwelling on blame.",
+        "vi": "Chỉ là cả nhóm đã giữ tinh thần xây dựng dưới áp lực. Chúng ta học được nhiều điều, và tôi tin rằng có thể áp dụng chúng mà không sa đà vào việc đổ lỗi.",
+        "hint": "Stay constructive under pressure khen cách làm việc tích cực trong hoàn cảnh căng thẳng."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a project lead in a cross-functional team that has just completed a difficult project. You are facilitating a calm, constructive retrospective in a meeting room. You acknowledge effort, ask thoughtful follow-up questions, and keep the discussion focused on systems, learning, and practical next steps rather than blame.",
+    "opener": "Thanks for joining the retrospective. Let us start with what worked well.",
+    "goal": "Người học nêu một điểm làm tốt, một vấn đề, nguyên nhân gốc và một hành động cải thiện không mang tính đổ lỗi."
+  },
+  "drills": [
+    {
+      "vi": "Buổi tổng kết này nhằm rút kinh nghiệm, không phải đổ lỗi.",
+      "en": "This retrospective is about learning, not blame.",
+      "alts": [
+        "This review is for learning, not for blaming anyone."
+      ]
+    },
+    {
+      "vi": "Quy trình phê duyệt đã trở thành điểm nghẽn.",
+      "en": "The approval process became a bottleneck.",
+      "alts": [
+        "Approvals turned into a bottleneck."
+      ]
+    },
+    {
+      "vi": "Một yếu tố góp phần là chúng ta không có người ra quyết định rõ ràng.",
+      "en": "One contributing factor was that we did not have a clear decision owner.",
+      "alts": [
+        "The lack of a clear decision owner was one contributing factor."
+      ]
+    },
+    {
+      "vi": "Thay vì quy trách nhiệm cho cá nhân, chúng ta nên xem xét quy trình.",
+      "en": "Rather than pinning it on individuals, we should examine the process.",
+      "alts": [
+        "Instead of blaming individuals, we should look at the process."
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể phân tích kỹ hơn về việc phạm vi công việc thay đổi không?",
+      "en": "Could we unpack the scope changes a little further?",
+      "alts": [
+        "Can we look more closely at the scope changes?"
+      ]
+    },
+    {
+      "vi": "Để biến điều đó thành hành động, chúng ta có thể tổ chức rà soát rủi ro hằng tuần.",
+      "en": "To turn that into an action, we could hold a weekly risk review.",
+      "alts": [
+        "We could make that actionable by holding a weekly risk review."
+      ]
+    },
+    {
+      "vi": "Nêu ra rủi ro là một đóng góp, không phải lời phàn nàn.",
+      "en": "Surfacing a risk is a contribution, not a complaint.",
+      "alts": [
+        "Raising a risk is helpful, not negative."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại phần hội thoại, chú ý nói chậm và rõ các từ có trọng âm.",
+    "Viết một đoạn ngắn tổng kết một dự án hoặc bài tập nhóm theo hướng tập trung vào quy trình.",
+    "Chuẩn bị ba hành động cụ thể giúp nhóm làm việc hiệu quả hơn ở dự án sau."
+  ]
+}

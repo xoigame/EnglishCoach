@@ -1,0 +1,358 @@
+{
+  "id": "mo-ta-nha-cua",
+  "title": "Mô tả nhà và phòng của bạn",
+  "topic": "Nhà và các phòng",
+  "level": "A1",
+  "summary": "Bạn đón một người bạn lần đầu đến chơi nhà. Bạn giới thiệu các phòng và mô tả ngắn về căn nhà của mình.",
+  "goals": [
+    "Giới thiệu ngắn gọn về nhà của mình.",
+    "Nói vị trí của các phòng và đồ vật.",
+    "Trả lời câu hỏi đơn giản về phòng ngủ."
+  ],
+  "vocab": [
+    {
+      "en": "home",
+      "ipa": "/hoʊm/",
+      "vi": "nhà, tổ ấm",
+      "example": "My home is small but warm."
+    },
+    {
+      "en": "living room",
+      "ipa": "/ˈlɪvɪŋ ruːm/",
+      "vi": "phòng khách",
+      "example": "We sit in the living room."
+    },
+    {
+      "en": "bedroom",
+      "ipa": "/ˈbedruːm/",
+      "vi": "phòng ngủ",
+      "example": "My bedroom is upstairs."
+    },
+    {
+      "en": "kitchen",
+      "ipa": "/ˈkɪtʃən/",
+      "vi": "nhà bếp",
+      "example": "The kitchen is behind the living room."
+    },
+    {
+      "en": "bathroom",
+      "ipa": "/ˈbæθruːm/",
+      "vi": "phòng tắm, nhà vệ sinh",
+      "example": "The bathroom is next to it."
+    },
+    {
+      "en": "window",
+      "ipa": "/ˈwɪndoʊ/",
+      "vi": "cửa sổ",
+      "example": "There is a big window here."
+    },
+    {
+      "en": "desk",
+      "ipa": "/desk/",
+      "vi": "bàn học, bàn làm việc",
+      "example": "My desk is near the window."
+    },
+    {
+      "en": "bright",
+      "ipa": "/braɪt/",
+      "vi": "sáng, nhiều ánh sáng",
+      "example": "This room is bright in mornings."
+    },
+    {
+      "en": "tidy",
+      "ipa": "/ˈtaɪdi/",
+      "vi": "gọn gàng",
+      "example": "Her room is always tidy."
+    },
+    {
+      "en": "upstairs",
+      "ipa": "/ˌʌpˈsterz/",
+      "vi": "ở tầng trên",
+      "example": "The bedroom is upstairs."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "My home is ___.",
+      "vi": "Nhà của tôi ___.",
+      "note": "Dùng để nói về kích thước hoặc cảm giác chung của căn nhà."
+    },
+    {
+      "en": "The ___ is here.",
+      "vi": "___ ở đây.",
+      "note": "Dùng khi chỉ một căn phòng cho khách xem."
+    },
+    {
+      "en": "The ___ is next to the ___.",
+      "vi": "___ ở cạnh ___.",
+      "note": "Dùng để mô tả vị trí hai phòng."
+    },
+    {
+      "en": "My room has a ___.",
+      "vi": "Phòng của tôi có một ___.",
+      "note": "Với chủ ngữ số ít như my room, dùng has."
+    },
+    {
+      "en": "Is your room ___?",
+      "vi": "Phòng của bạn có ___ không?",
+      "note": "Dùng để hỏi đặc điểm như tidy hoặc bright."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm cuối /m/",
+      "tip": "Khép hai môi ở cuối từ, không thêm âm ơ sau đó.",
+      "words": [
+        "home",
+        "room",
+        "bathroom"
+      ]
+    },
+    {
+      "focus": "âm /ð/ trong the",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng và rung giọng; tránh đọc thành d.",
+      "words": [
+        "the kitchen",
+        "the bedroom",
+        "the bathroom"
+      ]
+    },
+    {
+      "focus": "cụm phụ âm /br/",
+      "tip": "Đọc âm b rồi chuyển ngay sang r, không chèn nguyên âm ở giữa.",
+      "words": [
+        "bright",
+        "bedroom"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My house have two bedrooms.",
+      "right": "My house has two bedrooms.",
+      "vi": "My house là chủ ngữ số ít nên dùng has, không dùng have."
+    },
+    {
+      "wrong": "There is two bathrooms.",
+      "right": "There are two bathrooms.",
+      "vi": "Với danh từ số nhiều two bathrooms, dùng there are."
+    },
+    {
+      "wrong": "My bedroom is in upstairs.",
+      "right": "My bedroom is upstairs.",
+      "vi": "Upstairs đã mang nghĩa ở tầng trên nên không dùng in trước từ này."
+    },
+    {
+      "wrong": "Kitchen is behind of living room.",
+      "right": "The kitchen is behind the living room.",
+      "vi": "Không dùng of sau behind; hai danh từ xác định cần có the."
+    },
+    {
+      "wrong": "I like very much my room.",
+      "right": "I like my room very much.",
+      "vi": "Very much thường đứng sau tân ngữ trong mẫu câu đơn giản này."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Mời một vị khách vào nhà",
+      "formal": "Please come in and have a seat.",
+      "casual": "Come in and sit down.",
+      "vi": "Câu trang trọng phù hợp với khách lạ hoặc người lớn tuổi; câu thân mật dùng với bạn bè."
+    },
+    {
+      "situation": "Hỏi vị trí phòng tắm",
+      "formal": "Where is the bathroom, please?",
+      "casual": "Where is the bathroom?",
+      "vi": "Thêm please khi hỏi người lạ hoặc trong hoàn cảnh lịch sự; với bạn bè, câu ngắn là tự nhiên."
+    },
+    {
+      "situation": "Khen căn nhà",
+      "formal": "Your home is very nice.",
+      "casual": "Your place is really nice.",
+      "vi": "Home nghe lịch sự và trung tính hơn; place thân mật, tự nhiên khi nói với bạn bè."
+    },
+    {
+      "situation": "Cảm ơn sau khi được mời đến nhà",
+      "formal": "Thank you for inviting me.",
+      "casual": "Thanks for having me.",
+      "vi": "Câu đầu phù hợp khi nói với người chưa thân hoặc chủ nhà lớn tuổi; câu sau thường dùng giữa bạn bè."
+    }
+  ],
+  "culture": [
+    "Khi đến nhà ai lần đầu, khách nói tiếng Anh thường khen một chi tiết cụ thể như cửa sổ, cây cảnh hoặc phòng khách ngay sau khi vào.",
+    "Chủ nhà thường mời đồ uống hoặc đồ ăn nhẹ. Nếu không muốn dùng, từ chối nhẹ nhàng kèm lời cảm ơn là hoàn toàn bình thường.",
+    "Dù chủ nhà bảo cứ tự nhiên, khách thường vẫn chờ được chỉ dẫn trước khi vào phòng riêng như phòng ngủ."
+  ],
+  "listening": {
+    "title": "Tin nhắn trước cửa nhà",
+    "passage": "Hi Minh, I am at your front door. I can see your small blue house. I like the plants by the window. When I come in, can you show me the kitchen first? I bring some fruit for us. Then we can sit in your living room and talk. See you in a minute.",
+    "vi": "Chào Minh, tôi đang ở trước cửa nhà bạn. Tôi có thể thấy ngôi nhà nhỏ màu xanh của bạn. Tôi thích những chậu cây cạnh cửa sổ. Khi vào trong, bạn có thể chỉ cho tôi nhà bếp trước không? Tôi mang một ít hoa quả cho chúng ta. Sau đó chúng ta có thể ngồi trong phòng khách của bạn và nói chuyện. Gặp bạn trong một phút nữa nhé.",
+    "questions": [
+      {
+        "q": "What color is Minh's house?",
+        "choices": [
+          "Blue",
+          "Green",
+          "White"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là màu xanh vì người nói mô tả ngôi nhà nhỏ màu xanh."
+      },
+      {
+        "q": "What does the visitor bring?",
+        "choices": [
+          "Flowers",
+          "Fruit",
+          "Coffee"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là hoa quả vì người nói nói đã mang hoa quả cho cả hai."
+      },
+      {
+        "q": "Where do they plan to talk?",
+        "choices": [
+          "In the bathroom",
+          "In the kitchen",
+          "In the living room"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là phòng khách vì người nói đề nghị ngồi ở phòng khách để nói chuyện."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người bạn đến chơi nhà lần đầu",
+      "b": "Người học, chủ nhà"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hi, thanks for having me over.",
+        "vi": "Chào, cảm ơn bạn đã mời tôi đến chơi.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Hi, come in. This is my home.",
+        "vi": "Chào, mời vào. Đây là nhà tôi.",
+        "hint": "Dùng come in để mời ai đó vào nhà."
+      },
+      {
+        "speaker": "a",
+        "en": "It feels warm and very bright.",
+        "vi": "Nó có cảm giác ấm cúng và rất sáng.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks. The living room is here.",
+        "vi": "Cảm ơn. Phòng khách ở đây.",
+        "hint": "Dùng The living room is here khi chỉ phòng."
+      },
+      {
+        "speaker": "a",
+        "en": "I like the big window.",
+        "vi": "Tôi thích cửa sổ lớn này.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, the kitchen gets morning sun.",
+        "vi": "Ừ, nhà bếp đón nắng buổi sáng.",
+        "hint": "Gets morning sun nghĩa là có ánh nắng buổi sáng chiếu vào."
+      },
+      {
+        "speaker": "a",
+        "en": "Where is your bedroom?",
+        "vi": "Phòng ngủ của bạn ở đâu?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "It is upstairs, beside the bathroom.",
+        "vi": "Nó ở tầng trên, cạnh phòng tắm.",
+        "hint": "Beside nghĩa là ở ngay cạnh."
+      },
+      {
+        "speaker": "a",
+        "en": "Is it a tidy room?",
+        "vi": "Đó có phải là một phòng gọn gàng không?",
+        "hint": "Dùng tidy để hỏi về sự gọn gàng."
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, it has a desk.",
+        "vi": "Có, nó có một cái bàn.",
+        "hint": "It là số ít nên dùng has."
+      },
+      {
+        "speaker": "a",
+        "en": "Your home is lovely. Thank you.",
+        "vi": "Nhà bạn thật đáng yêu. Cảm ơn nhé.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Thanks for coming. Please visit again.",
+        "vi": "Cảm ơn bạn đã đến. Hãy lại ghé chơi nhé.",
+        "hint": "Đây là cách thân thiện để kết thúc buổi thăm nhà."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly friend visiting the learner's home for the first time. You are at the front door, curious and polite. Ask simple questions about the home and its rooms, and respond warmly.",
+    "opener": "Hi, thanks for having me over.",
+    "goal": "Người học giới thiệu nhà, chỉ vị trí ít nhất hai phòng và mô tả một đặc điểm của phòng ngủ."
+  },
+  "drills": [
+    {
+      "vi": "Nhà tôi nhỏ nhưng ấm cúng.",
+      "en": "My home is small but warm.",
+      "alts": [
+        "My home is small and warm."
+      ]
+    },
+    {
+      "vi": "Phòng khách ở đây.",
+      "en": "The living room is here.",
+      "alts": []
+    },
+    {
+      "vi": "Nhà bếp ở cạnh phòng khách.",
+      "en": "The kitchen is next to the living room.",
+      "alts": [
+        "The kitchen is beside the living room."
+      ]
+    },
+    {
+      "vi": "Phòng ngủ của tôi ở tầng trên.",
+      "en": "My bedroom is upstairs.",
+      "alts": []
+    },
+    {
+      "vi": "Phòng tôi có một cái bàn.",
+      "en": "My room has a desk.",
+      "alts": [
+        "There is a desk in my room."
+      ]
+    },
+    {
+      "vi": "Cửa sổ lớn và sáng.",
+      "en": "The window is big and bright.",
+      "alts": []
+    },
+    {
+      "vi": "Phòng của bạn có gọn gàng không?",
+      "en": "Is your room tidy?",
+      "alts": []
+    }
+  ],
+  "homework": [
+    "Ghi âm lại hội thoại, chú ý âm cuối trong home và room.",
+    "Nói bốn câu mô tả nhà hoặc phòng của bạn.",
+    "Đặt ba câu với mẫu The ___ is next to the ___."
+  ]
+}

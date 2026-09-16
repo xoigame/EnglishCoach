@@ -1,0 +1,391 @@
+{
+  "id": "noi-ve-that-bai-va-bai-hoc",
+  "title": "Nói về một thất bại và bài học rút ra",
+  "topic": "Phỏng vấn về thất bại trong công việc",
+  "level": "B2",
+  "summary": "Bạn trả lời câu hỏi của một người phỏng vấn cấp cao về một dự án thất bại. Bạn cần nhận trách nhiệm, giải thích cách xử lý và nêu bài học rút ra.",
+  "goals": [
+    "Kể mạch lạc về một thất bại trong công việc bằng tiếng Anh.",
+    "Nhận trách nhiệm và phản hồi bình tĩnh trước câu hỏi phản biện.",
+    "Đề xuất cách khắc phục và nêu bài học có thể áp dụng trong tương lai."
+  ],
+  "vocab": [
+    {
+      "en": "setback",
+      "ipa": "/ˈsetbæk/",
+      "vi": "trở ngại, thất bại tạm thời",
+      "example": "The delayed launch was a setback, but it taught us a lot."
+    },
+    {
+      "en": "take ownership",
+      "ipa": "/teɪk ˈoʊnərʃɪp/",
+      "vi": "nhận trách nhiệm",
+      "example": "I took ownership of the mistake and explained our recovery plan."
+    },
+    {
+      "en": "rollout",
+      "ipa": "/ˈroʊlaʊt/",
+      "vi": "quá trình triển khai, ra mắt",
+      "example": "We changed the rollout after receiving early feedback."
+    },
+    {
+      "en": "overlook",
+      "ipa": "/ˌoʊvərˈlʊk/",
+      "vi": "bỏ sót, không chú ý đến",
+      "example": "I overlooked a major usability issue before the launch."
+    },
+    {
+      "en": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "vi": "phản đối hoặc đề nghị lùi lại một yêu cầu",
+      "example": "I should have pushed back on the unrealistic deadline."
+    },
+    {
+      "en": "root cause",
+      "ipa": "/ruːt kɔːz/",
+      "vi": "nguyên nhân gốc rễ",
+      "example": "We looked for the root cause instead of blaming individuals."
+    },
+    {
+      "en": "course-correct",
+      "ipa": "/ˈkɔːrs kəˌrekt/",
+      "vi": "điều chỉnh hướng đi khi phát hiện vấn đề",
+      "example": "We course-corrected by testing the new design with a smaller group."
+    },
+    {
+      "en": "damage control",
+      "ipa": "/ˈdæmɪdʒ kənˌtroʊl/",
+      "vi": "giảm thiểu hậu quả của sự cố",
+      "example": "Clear communication was essential for damage control."
+    },
+    {
+      "en": "trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "vi": "sự đánh đổi giữa các lựa chọn",
+      "example": "We discussed the trade-off between speed and quality."
+    },
+    {
+      "en": "come away with",
+      "ipa": "/kʌm əˈweɪ wɪð/",
+      "vi": "rút ra, thu nhận được sau một trải nghiệm",
+      "example": "I came away with a clearer approach to risk management."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "One setback that taught me a lot was when I ___.",
+      "vi": "Một thất bại đã dạy tôi nhiều điều là khi tôi ___.",
+      "note": "Dùng để mở đầu câu trả lời có cấu trúc trong phỏng vấn."
+    },
+    {
+      "en": "I take responsibility for ___ because ___.",
+      "vi": "Tôi nhận trách nhiệm về ___ vì ___.",
+      "note": "Nêu trách nhiệm nhưng vẫn giải thích nguyên nhân một cách chuyên nghiệp."
+    },
+    {
+      "en": "In hindsight, I should have ___.",
+      "vi": "Nhìn lại, lẽ ra tôi nên ___.",
+      "note": "Dùng với quá khứ để nói điều đáng lẽ cần làm."
+    },
+    {
+      "en": "Rather than ___, I decided to ___.",
+      "vi": "Thay vì ___, tôi đã quyết định ___.",
+      "note": "Dùng để đối chiếu hai cách xử lý."
+    },
+    {
+      "en": "I see your point, but the risk is that ___.",
+      "vi": "Tôi hiểu ý anh/chị, nhưng rủi ro là ___.",
+      "note": "Phản biện lịch sự khi trao đổi với cấp trên."
+    },
+    {
+      "en": "What I came away with was that ___.",
+      "vi": "Điều tôi rút ra là ___.",
+      "note": "Dùng để kết thúc bằng bài học rõ ràng."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm /θ/ trong thought và thing",
+      "tip": "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra. Không đọc thành /t/ hoặc /s/.",
+      "words": [
+        "thought",
+        "thing",
+        "through"
+      ]
+    },
+    {
+      "focus": "âm cuối /t/ trong setback và pushed",
+      "tip": "Phát âm nhẹ âm /t/ ở cuối để người nghe phân biệt với các từ không có âm cuối.",
+      "words": [
+        "setback",
+        "pushed",
+        "first"
+      ]
+    },
+    {
+      "focus": "trọng âm trong responsibility",
+      "tip": "Nhấn mạnh âm thứ tư: re-spon-si-BIL-i-ty. Không nhấn đều tất cả các âm.",
+      "words": [
+        "responsibility",
+        "usability",
+        "unrealistic"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I was failed the project.",
+      "right": "I failed to deliver the project successfully.",
+      "vi": "Không dùng bị động với fail theo cách này. Dùng fail to do something hoặc nói trực tiếp I failed."
+    },
+    {
+      "wrong": "We discussed about the risks.",
+      "right": "We discussed the risks.",
+      "vi": "Discuss là ngoại động từ, không dùng about ngay sau discuss."
+    },
+    {
+      "wrong": "I did a mistake by launching early.",
+      "right": "I made a mistake by launching early.",
+      "vi": "Đi với mistake là make, không phải do."
+    },
+    {
+      "wrong": "The deadline was tight, so I must launch early.",
+      "right": "The deadline was tight, so I felt I had to launch early.",
+      "vi": "Kể chuyện quá khứ cần dùng had to hoặc felt I had to thay vì must."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Nhận trách nhiệm về một sai sót",
+      "formal": "I take full responsibility for the decision and its outcome.",
+      "casual": "That one was on me.",
+      "vi": "Câu formal phù hợp trong phỏng vấn hoặc họp với cấp trên; câu casual chỉ dùng với đồng nghiệp thân quen."
+    },
+    {
+      "situation": "Phản biện một ý kiến",
+      "formal": "I understand your concern; however, the risk may outweigh the short-term benefit.",
+      "casual": "I see what you mean, but it could cause bigger problems later.",
+      "vi": "Câu formal phù hợp khi trao đổi với khách hàng hoặc quản lý; câu casual tự nhiên hơn trong cuộc họp nội bộ thân mật."
+    },
+    {
+      "situation": "Đề xuất cách triển khai an toàn hơn",
+      "formal": "I would recommend a phased rollout to reduce the risk.",
+      "casual": "Let us roll it out in stages so we can keep the risk down.",
+      "vi": "Câu formal phù hợp khi đưa khuyến nghị chính thức; câu casual dùng khi cùng đồng nghiệp bàn cách làm."
+    },
+    {
+      "situation": "Đề nghị xem xét lại thời hạn",
+      "formal": "Would it be possible to revisit the deadline in light of these risks?",
+      "casual": "Can we take another look at the deadline?",
+      "vi": "Câu formal dùng với cấp trên hoặc khách hàng; câu casual phù hợp với đồng nghiệp cùng nhóm."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kiểu Anh-Mỹ, thừa nhận phần trách nhiệm của mình thường tạo ấn tượng tốt hơn là giải thích dài để đổ lỗi cho hoàn cảnh hoặc đồng đội.",
+    "Người phỏng vấn có thể hỏi vặn để kiểm tra cách bạn suy nghĩ. Đây thường không phải là công kích cá nhân; hãy bình tĩnh nêu bằng chứng, đánh đổi và giải pháp.",
+    "Khi nói về thất bại, người bản xứ thường ưu tiên cấu trúc ngắn gọn: tình huống, hành động, kết quả, bài học. Chia sẻ quá nhiều chi tiết cảm xúc riêng tư có thể làm câu trả lời kém chuyên nghiệp."
+  ],
+  "listening": {
+    "title": "Tin nhắn cập nhật sau khi ra mắt thất bại",
+    "passage": "Hi, this is Maya from the product team. I wanted to update you after our review of the failed mobile launch. We found that users were confused by the sign-up screen, not by the payment system as we first thought. We have paused the campaign, simplified the screen, and will test it with a small group tomorrow. If the results are clear, we will relaunch next week with better support materials.",
+    "vi": "Chào, tôi là Maya từ nhóm sản phẩm. Tôi muốn cập nhật cho bạn sau khi chúng tôi xem xét việc ra mắt ứng dụng di động thất bại. Chúng tôi phát hiện người dùng bối rối vì màn hình đăng ký, chứ không phải hệ thống thanh toán như ban đầu chúng tôi nghĩ. Chúng tôi đã tạm dừng chiến dịch, đơn giản hóa màn hình và sẽ thử nghiệm với một nhóm nhỏ vào ngày mai. Nếu kết quả rõ ràng, chúng tôi sẽ ra mắt lại vào tuần sau với tài liệu hỗ trợ tốt hơn.",
+    "questions": [
+      {
+        "q": "What confused users?",
+        "choices": [
+          "The sign-up screen",
+          "The payment system",
+          "The support materials"
+        ],
+        "answer": 0,
+        "vi": "Đáp án là The sign-up screen vì bài nghe nói rõ người dùng bối rối bởi sign-up screen."
+      },
+      {
+        "q": "What has the team paused?",
+        "choices": [
+          "The user test",
+          "The campaign",
+          "The payment system"
+        ],
+        "answer": 1,
+        "vi": "Đáp án là The campaign vì người nói nói We have paused the campaign."
+      },
+      {
+        "q": "When will the team test the simplified screen?",
+        "choices": [
+          "Today",
+          "Next week",
+          "Tomorrow"
+        ],
+        "answer": 2,
+        "vi": "Đáp án là Tomorrow vì bài nghe nói will test it with a small group tomorrow."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người phỏng vấn cấp cao",
+      "b": "Ứng viên"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Thanks for joining us today. Could you tell me about a professional failure that changed the way you work?",
+        "vi": "Cảm ơn bạn đã tham gia hôm nay. Bạn có thể kể về một thất bại trong công việc đã thay đổi cách bạn làm việc không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Certainly. Last year, I led the launch of a customer portal, and we released it before it was ready.",
+        "vi": "Chắc chắn rồi. Năm ngoái, tôi phụ trách ra mắt một cổng thông tin khách hàng, và chúng tôi đã phát hành nó khi chưa sẵn sàng.",
+        "hint": "Mở đầu bằng Certainly để thể hiện sẵn sàng chia sẻ."
+      },
+      {
+        "speaker": "a",
+        "en": "What went wrong?",
+        "vi": "Điều gì đã xảy ra không ổn?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I focused too much on meeting the deadline and overlooked several usability issues.",
+        "vi": "Tôi quá tập trung vào việc kịp hạn chót và đã bỏ sót một số vấn đề về tính dễ sử dụng.",
+        "hint": "Dùng focused too much on để nói bạn đã đặt ưu tiên sai chỗ."
+      },
+      {
+        "speaker": "a",
+        "en": "How did you respond once you realized there was a problem?",
+        "vi": "Bạn đã phản ứng thế nào khi nhận ra có vấn đề?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "First, I took ownership of it. I told the client what had happened, apologized, and asked the team to identify the root cause.",
+        "vi": "Đầu tiên, tôi nhận trách nhiệm. Tôi nói với khách hàng chuyện đã xảy ra, xin lỗi và yêu cầu nhóm xác định nguyên nhân gốc rễ.",
+        "hint": "Liệt kê hành động theo thứ tự: took ownership, told, apologized, asked."
+      },
+      {
+        "speaker": "a",
+        "en": "Some people might say the team should have caught those issues. Why do you see it as your responsibility?",
+        "vi": "Một số người có thể nói rằng nhóm lẽ ra phải phát hiện các vấn đề đó. Vì sao bạn xem đó là trách nhiệm của mình?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "The team did raise concerns, but I did not create enough space to discuss them. As the project lead, I set the pace, so in hindsight, I should have pushed back on the deadline.",
+        "vi": "Nhóm thực sự đã nêu lo ngại, nhưng tôi không tạo đủ không gian để thảo luận. Là người dẫn dắt dự án, tôi quyết định nhịp độ, nên nhìn lại thì lẽ ra tôi nên phản đối hạn chót đó.",
+        "hint": "Dùng in hindsight để thừa nhận điều lẽ ra nên làm mà không đổ lỗi."
+      },
+      {
+        "speaker": "a",
+        "en": "How did you handle the conversation with the client after the launch failed?",
+        "vi": "Bạn đã xử lý cuộc trao đổi với khách hàng thế nào sau khi việc ra mắt thất bại?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I was transparent and focused on solutions. Rather than promising a quick fix we could not deliver, I proposed two options: a full delay or a phased rollout with weekly updates.",
+        "vi": "Tôi minh bạch và tập trung vào giải pháp. Thay vì hứa một cách sửa nhanh mà chúng tôi không thể thực hiện, tôi đề xuất hai lựa chọn: hoãn toàn bộ hoặc triển khai theo từng giai đoạn kèm cập nhật hằng tuần.",
+        "hint": "Dùng Rather than để đối chiếu cách làm thiếu thực tế với giải pháp tốt hơn."
+      },
+      {
+        "speaker": "a",
+        "en": "Which option did they choose, and how did you rebuild their trust?",
+        "vi": "Họ đã chọn phương án nào, và bạn đã xây dựng lại niềm tin của họ ra sao?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "They chose a phased rollout. I negotiated a short extension for the most critical features, and in exchange, we gave them a clear timeline, direct access to our support lead, and regular progress reports.",
+        "vi": "Họ chọn triển khai theo từng giai đoạn. Tôi thương lượng gia hạn ngắn cho các tính năng quan trọng nhất, và đổi lại, chúng tôi cung cấp lịch trình rõ ràng, quyền liên hệ trực tiếp với trưởng nhóm hỗ trợ và báo cáo tiến độ thường xuyên.",
+        "hint": "Dùng in exchange để diễn tả điều hai bên trao đổi khi thương lượng."
+      },
+      {
+        "speaker": "a",
+        "en": "Suppose your manager said that delaying the launch would cost too much. How would you make the case for waiting?",
+        "vi": "Giả sử quản lý của bạn nói rằng trì hoãn việc ra mắt sẽ tốn kém quá nhiều. Bạn sẽ lập luận thế nào để ủng hộ việc chờ đợi?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I would say that a rushed launch may look cheaper in the short term, but the long-term cost of lost trust, support requests, and rework can be much higher. I would present the trade-offs and recommend testing the critical journey first.",
+        "vi": "Tôi sẽ nói rằng ra mắt vội vàng có thể trông rẻ hơn trong ngắn hạn, nhưng chi phí dài hạn do mất niềm tin, các yêu cầu hỗ trợ và việc làm lại có thể cao hơn nhiều. Tôi sẽ trình bày các đánh đổi và đề xuất kiểm thử trước hành trình quan trọng nhất của người dùng.",
+        "hint": "Dùng may look ... but ... can be để lập luận cân bằng và thuyết phục."
+      },
+      {
+        "speaker": "a",
+        "en": "Looking back, what is the main lesson you would bring to this role?",
+        "vi": "Nhìn lại, bài học chính bạn sẽ mang đến vai trò này là gì?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "I learned that leadership is not about never being wrong. It is about surfacing risks early, listening when people push back, and course-correcting before a small issue becomes damage control. That is the approach I would bring to this role.",
+        "vi": "Tôi học được rằng lãnh đạo không phải là không bao giờ sai. Đó là việc đưa rủi ro ra sớm, lắng nghe khi người khác phản đối và điều chỉnh trước khi một vấn đề nhỏ trở thành việc giảm thiểu hậu quả. Đó là cách tiếp cận tôi sẽ mang đến vai trò này.",
+        "hint": "Kết thúc bằng bài học khái quát rồi nối trực tiếp với vị trí đang ứng tuyển."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a senior interviewer at a technology company in Ho Chi Minh City. You are calm, direct, and thoughtful. Ask the candidate to describe a work failure, challenge vague answers politely, and look for accountability, clear reasoning, and practical lessons.",
+    "opener": "Thanks for meeting with us. Tell me about a time when a project did not go as planned.",
+    "goal": "Người học kể về một thất bại, bảo vệ cách xử lý trước câu hỏi phản biện và nêu bài học cụ thể."
+  },
+  "drills": [
+    {
+      "vi": "Một thất bại đã dạy tôi nhiều điều là khi tôi ra mắt sản phẩm quá sớm.",
+      "en": "One setback that taught me a lot was when I launched the product too early.",
+      "alts": [
+        "A major setback for me was launching the product too early."
+      ]
+    },
+    {
+      "vi": "Tôi nhận trách nhiệm vì tôi đã bỏ sót các rủi ro quan trọng.",
+      "en": "I take responsibility because I overlooked important risks.",
+      "alts": [
+        "I take ownership of the mistake because I missed key risks."
+      ]
+    },
+    {
+      "vi": "Nhìn lại, lẽ ra tôi nên phản đối hạn chót đó.",
+      "en": "In hindsight, I should have pushed back on that deadline.",
+      "alts": [
+        "Looking back, I should have challenged that deadline."
+      ]
+    },
+    {
+      "vi": "Thay vì hứa một giải pháp nhanh, chúng tôi đề xuất triển khai theo từng giai đoạn.",
+      "en": "Rather than promise a quick fix, we proposed a phased rollout.",
+      "alts": [
+        "Instead of promising a quick fix, we suggested a phased rollout."
+      ]
+    },
+    {
+      "vi": "Tôi hiểu ý anh/chị, nhưng rủi ro là khách hàng sẽ mất niềm tin.",
+      "en": "I see your point, but the risk is that the client will lose trust.",
+      "alts": [
+        "I understand your concern, but we could lose the client's trust."
+      ]
+    },
+    {
+      "vi": "Chúng tôi đã tìm nguyên nhân gốc rễ thay vì đổ lỗi cho một người.",
+      "en": "We looked for the root cause rather than blaming one person.",
+      "alts": [
+        "Instead of blaming someone, we identified the root cause."
+      ]
+    },
+    {
+      "vi": "Điều tôi rút ra là cần phát hiện rủi ro sớm hơn.",
+      "en": "What I came away with was that we need to surface risks earlier.",
+      "alts": [
+        "The main lesson I learned was to raise risks earlier."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm câu trả lời dài khoảng một phút về một thất bại thật hoặc giả định của bạn.",
+    "Viết lại câu trả lời bằng các cụm take ownership, in hindsight, push back và trade-off.",
+    "Luyện trả lời hai câu phản biện: Why was it your responsibility? và Why not launch anyway?"
+  ]
+}

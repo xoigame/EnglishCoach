@@ -1,0 +1,367 @@
+{
+  "id": "len-ke-hoach-di-choi",
+  "title": "Lên kế hoạch đi chơi với bạn",
+  "topic": "Hẹn bạn đi chơi cuối tuần",
+  "level": "A2",
+  "summary": "Bạn và một người bạn thân cùng chọn hoạt động, giờ gặp và nơi ăn nhẹ vào cuối tuần. Bài học giúp người học rủ bạn, đề xuất ý tưởng và chốt kế hoạch đơn giản.",
+  "goals": [
+    "Hỏi bạn có rảnh vào một thời điểm cụ thể hay không",
+    "Rủ bạn đi xem phim và hỏi giờ chiếu",
+    "Đề xuất địa điểm gặp, ăn uống và chốt kế hoạch"
+  ],
+  "vocab": [
+    {
+      "en": "free",
+      "ipa": "/friː/",
+      "vi": "rảnh",
+      "example": "Are you free this Saturday afternoon?"
+    },
+    {
+      "en": "plan",
+      "ipa": "/plæn/",
+      "vi": "kế hoạch; lên kế hoạch",
+      "example": "We can plan something for Sunday."
+    },
+    {
+      "en": "hang out",
+      "ipa": "/hæŋ aʊt/",
+      "vi": "đi chơi, dành thời gian với nhau",
+      "example": "Do you want to hang out this weekend?"
+    },
+    {
+      "en": "movie",
+      "ipa": "/ˈmuːvi/",
+      "vi": "phim",
+      "example": "Let us see a movie after lunch."
+    },
+    {
+      "en": "showtime",
+      "ipa": "/ˈʃoʊtaɪm/",
+      "vi": "giờ chiếu",
+      "example": "What is the showtime for the comedy?"
+    },
+    {
+      "en": "mall",
+      "ipa": "/mɔːl/",
+      "vi": "trung tâm mua sắm",
+      "example": "The mall is close to my house."
+    },
+    {
+      "en": "entrance",
+      "ipa": "/ˈentrəns/",
+      "vi": "lối vào",
+      "example": "Meet me at the main entrance."
+    },
+    {
+      "en": "food court",
+      "ipa": "/ˈfuːd kɔːrt/",
+      "vi": "khu ẩm thực",
+      "example": "The food court has many cheap meals."
+    },
+    {
+      "en": "start",
+      "ipa": "/stɑːrt/",
+      "vi": "bắt đầu",
+      "example": "The movie starts at three thirty."
+    },
+    {
+      "en": "cash",
+      "ipa": "/kæʃ/",
+      "vi": "tiền mặt",
+      "example": "I will bring some cash with me."
+    }
+  ],
+  "patterns": [
+    {
+      "en": "Are you free this Saturday afternoon?",
+      "vi": "Bạn có rảnh chiều thứ Bảy này không?",
+      "note": "Dùng để hỏi trực tiếp nhưng thân thiện về thời gian rảnh."
+    },
+    {
+      "en": "Do you want to see a movie?",
+      "vi": "Bạn có muốn đi xem phim không?",
+      "note": "Sau \"want\" dùng \"to\" rồi đến động từ."
+    },
+    {
+      "en": "What time does the movie start?",
+      "vi": "Bộ phim bắt đầu lúc mấy giờ?",
+      "note": "Với \"does\", động từ chính giữ dạng nguyên mẫu: start."
+    },
+    {
+      "en": "Can we meet at the mall entrance?",
+      "vi": "Chúng ta có thể gặp nhau ở lối vào trung tâm mua sắm không?",
+      "note": "Dùng để đề xuất một nơi gặp."
+    },
+    {
+      "en": "Let us meet there at three fifteen.",
+      "vi": "Chúng ta gặp nhau ở đó lúc ba giờ mười lăm nhé.",
+      "note": "Dùng \"Let us\" để đưa ra kế hoạch chung; không thêm \"to\" sau đó."
+    },
+    {
+      "en": "Should we get something to eat first?",
+      "vi": "Chúng ta có nên ăn gì đó trước không?",
+      "note": "Dùng để gợi ý và hỏi ý kiến bạn bè."
+    }
+  ],
+  "pronunciation": [
+    {
+      "focus": "âm dài /iː/",
+      "tip": "Kéo dài âm /iː/ rõ hơn âm i ngắn; tránh đọc \"free\" giống \"fri\" quá ngắn.",
+      "words": [
+        "free",
+        "meet",
+        "three"
+      ]
+    },
+    {
+      "focus": "âm cuối /t/",
+      "tip": "Phát nhẹ âm /t/ ở cuối từ để người nghe phân biệt rõ, không bỏ mất âm cuối.",
+      "words": [
+        "start",
+        "court",
+        "first"
+      ]
+    },
+    {
+      "focus": "âm /æ/",
+      "tip": "Mở miệng rộng, hạ hàm thấp khi đọc /æ/; tránh đọc thành âm e.",
+      "words": [
+        "plan",
+        "cash",
+        "Saturday"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Do you free this Saturday?",
+      "right": "Are you free this Saturday?",
+      "vi": "Thiếu động từ \"are\" khi hỏi ai đó có rảnh không."
+    },
+    {
+      "wrong": "Do you want go to the mall?",
+      "right": "Do you want to go to the mall?",
+      "vi": "Sau \"want\" cần có \"to\" trước động từ."
+    },
+    {
+      "wrong": "What time the movie starts?",
+      "right": "What time does the movie start?",
+      "vi": "Câu hỏi hiện tại đơn cần \"does\"; động từ sau \"does\" là \"start\"."
+    },
+    {
+      "wrong": "Let us to meet at three.",
+      "right": "Let us meet at three.",
+      "vi": "Sau \"Let us\" dùng động từ nguyên mẫu, không dùng \"to\"."
+    }
+  ],
+  "variations": [
+    {
+      "situation": "Rủ ai đó đi xem phim",
+      "formal": "Would you like to see a movie this Saturday?",
+      "casual": "Do you want to see a movie Saturday?",
+      "vi": "Câu formal phù hợp với người mới quen hoặc khách mời; câu casual dùng tự nhiên với bạn bè thân."
+    },
+    {
+      "situation": "Gợi ý ăn trước khi đi chơi",
+      "formal": "Would you like to get something to eat first?",
+      "casual": "Want to grab a snack first?",
+      "vi": "Câu formal lịch sự và đầy đủ; câu casual thân mật, thường dùng khi nói nhanh với bạn bè."
+    },
+    {
+      "situation": "Chốt điểm hẹn",
+      "formal": "Could we meet at the main entrance at three fifteen?",
+      "casual": "Let us meet at the main entrance at three fifteen.",
+      "vi": "Câu formal nhẹ nhàng hỏi ý kiến đối phương; câu casual chủ động chốt kế hoạch với bạn thân."
+    },
+    {
+      "situation": "Đề nghị đổi giờ gặp",
+      "formal": "I am sorry, but could we meet a little later?",
+      "casual": "Three is too early. Can we meet later?",
+      "vi": "Câu formal phù hợp khi cần giữ lịch sự; câu casual thẳng thắn nhưng vẫn thân thiện với bạn bè."
+    }
+  ],
+  "culture": [
+    "Khi rủ đi chơi, người bản xứ thường đề xuất cụ thể hoạt động, thời gian và nơi gặp thay vì chỉ nói chung chung là đi chơi.",
+    "Nếu không tham gia được, họ thường nói rõ sớm và có thể đề xuất một thời điểm khác; cách nói thẳng như vậy thường không bị xem là thiếu lịch sự.",
+    "Với bạn bè, mỗi người thường tự trả phần của mình. Nếu muốn mời, hãy nói rõ như \"I will pay\" hoặc \"It is my treat\"."
+  ],
+  "listening": {
+    "title": "Tin nhắn thoại về kế hoạch Chủ nhật",
+    "passage": "Hi Linh, it is Mai. I am planning something for Sunday. The park has a small music show at four o'clock, and the weather looks good. We can meet at the coffee shop across from the park at three thirty. After the show, I would like to try the new pizza place nearby. Please call me tonight and tell me if you are free.",
+    "vi": "Chào Linh, Mai đây. Tớ đang lên kế hoạch cho Chủ nhật. Công viên có một buổi biểu diễn nhạc nhỏ lúc bốn giờ, và thời tiết có vẻ đẹp. Chúng ta có thể gặp nhau ở quán cà phê đối diện công viên lúc ba giờ rưỡi. Sau buổi biểu diễn, tớ muốn thử quán pizza mới ở gần đó. Hãy gọi cho tớ tối nay và cho tớ biết bạn có rảnh không nhé.",
+    "questions": [
+      {
+        "q": "Where is the music show?",
+        "choices": [
+          "At the coffee shop",
+          "At the park",
+          "At the pizza place"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là công viên vì Mai nói buổi biểu diễn nhạc nhỏ diễn ra ở đó."
+      },
+      {
+        "q": "What time will they meet?",
+        "choices": [
+          "Three thirty",
+          "Four o'clock",
+          "Tonight"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là ba giờ rưỡi vì Mai đề nghị gặp tại quán cà phê vào thời điểm này."
+      },
+      {
+        "q": "What does Mai want to do after the show?",
+        "choices": [
+          "Have pizza",
+          "Go home",
+          "Watch a movie"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là ăn pizza vì Mai muốn thử quán pizza mới sau buổi biểu diễn."
+      }
+    ]
+  },
+  "dialogue": {
+    "roles": {
+      "a": "Người bạn thân, do AI đóng",
+      "b": "Người học"
+    },
+    "userRole": "b",
+    "turns": [
+      {
+        "speaker": "a",
+        "en": "Hey, are you free this Saturday afternoon?",
+        "vi": "Này, chiều thứ Bảy này bạn có rảnh không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Yes, I am free after two o'clock.",
+        "vi": "Có, tôi rảnh sau hai giờ.",
+        "hint": "Dùng \"I am free after...\" để nói thời gian bạn rảnh."
+      },
+      {
+        "speaker": "a",
+        "en": "Great. Do you want to see a movie?",
+        "vi": "Tuyệt. Bạn có muốn đi xem phim không?",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "That sounds nice. What movie should we watch?",
+        "vi": "Nghe hay đấy. Chúng ta nên xem phim gì?",
+        "hint": "Dùng \"That sounds nice\" để đồng ý một cách tự nhiên."
+      },
+      {
+        "speaker": "a",
+        "en": "There is a new comedy at the mall.",
+        "vi": "Có một phim hài mới ở trung tâm mua sắm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Good idea. What time does it start?",
+        "vi": "Ý hay đấy. Nó bắt đầu lúc mấy giờ?",
+        "hint": "Hỏi giờ chiếu bằng \"What time does it start?\"."
+      },
+      {
+        "speaker": "a",
+        "en": "It starts at three thirty, near the food court.",
+        "vi": "Nó bắt đầu lúc ba giờ rưỡi, gần khu ẩm thực.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Can we meet at the mall entrance?",
+        "vi": "Chúng ta có thể gặp nhau ở lối vào trung tâm mua sắm không?",
+        "hint": "Dùng \"Can we meet at...\" để đề xuất điểm hẹn."
+      },
+      {
+        "speaker": "a",
+        "en": "Sure, let us meet there at three fifteen.",
+        "vi": "Được chứ, chúng ta gặp ở đó lúc ba giờ mười lăm.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Perfect. Should we get something to eat first?",
+        "vi": "Hoàn hảo. Chúng ta có nên ăn gì đó trước không?",
+        "hint": "Dùng \"Should we...\" để gợi ý một hoạt động chung."
+      },
+      {
+        "speaker": "a",
+        "en": "Yes, I had noodles there last week.",
+        "vi": "Có, tuần trước tôi đã ăn mì ở đó.",
+        "hint": ""
+      },
+      {
+        "speaker": "b",
+        "en": "Great, I will bring some cash. See you Saturday!",
+        "vi": "Tuyệt, tôi sẽ mang một ít tiền mặt. Hẹn gặp bạn thứ Bảy nhé!",
+        "hint": "Dùng \"I will bring...\" để nói việc bạn sẽ chuẩn bị."
+      }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a close, friendly friend in Hanoi. You are making simple weekend plans and speak naturally, warmly, and clearly.",
+    "opener": "Hey, are you free this Saturday afternoon?",
+    "goal": "Người học cùng bạn chọn hoạt động, giờ gặp và địa điểm gặp vào cuối tuần."
+  },
+  "drills": [
+    {
+      "vi": "Bạn có rảnh chiều thứ Bảy này không?",
+      "en": "Are you free this Saturday afternoon?",
+      "alts": [
+        "Are you free on Saturday afternoon?"
+      ]
+    },
+    {
+      "vi": "Bạn có muốn đi xem phim không?",
+      "en": "Do you want to see a movie?",
+      "alts": [
+        "Do you want to watch a movie?"
+      ]
+    },
+    {
+      "vi": "Bộ phim bắt đầu lúc mấy giờ?",
+      "en": "What time does the movie start?",
+      "alts": [
+        "When does the movie start?"
+      ]
+    },
+    {
+      "vi": "Chúng ta có thể gặp ở lối vào trung tâm mua sắm không?",
+      "en": "Can we meet at the mall entrance?",
+      "alts": [
+        "Can we meet at the main entrance?"
+      ]
+    },
+    {
+      "vi": "Chúng ta gặp ở đó lúc ba giờ mười lăm nhé.",
+      "en": "Let us meet there at three fifteen.",
+      "alts": [
+        "Let us meet at three fifteen."
+      ]
+    },
+    {
+      "vi": "Chúng ta có nên ăn gì đó trước không?",
+      "en": "Should we get something to eat first?",
+      "alts": [
+        "Should we have a snack first?"
+      ]
+    },
+    {
+      "vi": "Tôi sẽ mang một ít tiền mặt.",
+      "en": "I will bring some cash.",
+      "alts": [
+        "I will bring cash with me."
+      ]
+    }
+  ],
+  "homework": [
+    "Ghi âm lại toàn bộ hội thoại và tự nghe lại để kiểm tra phát âm âm cuối.",
+    "Viết một kế hoạch đi chơi khác, gồm hoạt động, giờ gặp và địa điểm gặp.",
+    "Luyện nói năm câu mời hoặc đề xuất với các mẫu câu trong bài."
+  ]
+}

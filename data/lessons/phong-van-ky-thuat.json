@@ -1,154 +1,222 @@
 {
   "id": "phong-van-ky-thuat",
-  "title": "Phỏng vấn kỹ thuật: giải thích giải pháp và đánh đổi",
+  "title": "Phỏng vấn kỹ thuật: Giải thích giải pháp và đánh đổi",
   "topic": "Trình bày giải pháp kỹ thuật",
   "level": "B2",
-  "summary": "Người học tham gia một buổi phỏng vấn kỹ thuật và giải thích cách thiết kế hệ thống theo dõi đơn hàng. Bài học tập trung vào việc nêu lựa chọn, phân tích đánh đổi và bảo vệ quyết định kỹ thuật.",
+  "summary": "Bạn tham gia phỏng vấn cho vị trí kỹ sư phần mềm và giải thích cách thiết kế một hệ thống xử lý đơn hàng. Bạn cần nêu rõ lựa chọn, đánh đổi và cách giảm rủi ro.",
   "goals": [
-    "Trình bày một giải pháp kỹ thuật rõ ràng, có cấu trúc.",
-    "Giải thích đánh đổi giữa tốc độ, độ tin cậy và độ phức tạp.",
-    "Trả lời câu hỏi phản biện và đề xuất cách giảm rủi ro."
+    "Trình bày một giải pháp kỹ thuật theo trình tự rõ ràng",
+    "So sánh các phương án và giải thích đánh đổi",
+    "Bảo vệ quan điểm một cách lịch sự khi được hỏi sâu"
   ],
   "vocab": [
     {
       "en": "trade-off",
-      "ipa": "/ˈtreɪd ɔːf/",
-      "vi": "sự đánh đổi giữa các lợi ích hoặc hạn chế",
-      "example": "The main trade-off was speed versus data accuracy."
+      "ipa": "/ˈtreɪd ɒf/",
+      "vi": "sự đánh đổi giữa các lợi ích",
+      "example": "The main trade-off is speed versus consistency."
     },
     {
       "en": "scalable",
       "ipa": "/ˈskeɪləbl/",
       "vi": "có thể mở rộng khi lượng người dùng hoặc dữ liệu tăng",
-      "example": "We needed a scalable design for future growth."
+      "example": "We need a scalable design for future growth."
     },
     {
       "en": "bottleneck",
-      "ipa": "/ˈbɑːtlnek/",
-      "vi": "điểm nghẽn làm chậm toàn bộ hệ thống",
-      "example": "The database became the main bottleneck during peak hours."
+      "ipa": "/ˈbɒtlnek/",
+      "vi": "điểm nghẽn làm chậm toàn hệ thống",
+      "example": "The database could become a bottleneck during peak traffic."
     },
     {
       "en": "cache",
       "ipa": "/kæʃ/",
-      "vi": "bộ nhớ đệm lưu dữ liệu tạm thời để truy xuất nhanh hơn",
-      "example": "We used a cache to reduce repeated database queries."
+      "vi": "bộ nhớ đệm lưu dữ liệu để truy xuất nhanh hơn",
+      "example": "We can use a cache for frequently requested product data."
     },
     {
       "en": "latency",
       "ipa": "/ˈleɪtənsi/",
-      "vi": "độ trễ, thời gian hệ thống phản hồi",
-      "example": "The change lowered latency for most users."
+      "vi": "độ trễ, thời gian chờ phản hồi",
+      "example": "This change should reduce latency for users."
     },
     {
-      "en": "queue",
-      "ipa": "/kjuː/",
-      "vi": "hàng đợi xử lý tác vụ",
-      "example": "The queue processed notifications in the background."
+      "en": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "vi": "đáng tin cậy, hoạt động ổn định",
+      "example": "The payment process needs to be reliable."
     },
     {
-      "en": "retry",
-      "ipa": "/ˌriːˈtraɪ/",
-      "vi": "thử lại sau khi một thao tác thất bại",
-      "example": "The worker will retry a failed task three times."
+      "en": "failure",
+      "ipa": "/ˈfeɪljər/",
+      "vi": "sự cố hoặc tình trạng một bộ phận không hoạt động",
+      "example": "We should plan for a server failure."
     },
     {
-      "en": "idempotent",
-      "ipa": "/ˌaɪdəmˈpoʊtənt/",
-      "vi": "có thể chạy lặp lại mà không làm thay đổi kết quả ngoài ý muốn",
-      "example": "Payment requests must be idempotent to avoid duplicate charges."
+      "en": "eventually consistent",
+      "ipa": "/ɪˈventʃuəli kənˈsɪstənt/",
+      "vi": "nhất quán sau một khoảng thời gian, không đồng bộ ngay lập tức",
+      "example": "The search results can be eventually consistent."
     },
     {
-      "en": "eventual consistency",
-      "ipa": "/ɪˈventʃuəl kənˈsɪstənsi/",
-      "vi": "tính nhất quán cuối cùng, dữ liệu có thể cập nhật chậm giữa các phần của hệ thống",
-      "example": "Eventual consistency was acceptable for order history."
+      "en": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "vi": "giảm nhẹ rủi ro hoặc tác động xấu",
+      "example": "Retries can mitigate temporary network problems."
     },
     {
-      "en": "graceful degradation",
-      "ipa": "/ˈɡreɪsfəl ˌdeɡrəˈdeɪʃən/",
-      "vi": "giảm bớt chức năng một cách có kiểm soát khi hệ thống gặp tải cao hoặc lỗi",
-      "example": "Graceful degradation kept the checkout service available."
+      "en": "edge case",
+      "ipa": "/ˈedʒ keɪs/",
+      "vi": "trường hợp hiếm gặp nhưng cần xử lý",
+      "example": "We should test the edge case where a payment is duplicated."
     }
   ],
   "patterns": [
     {
-      "en": "I chose ___ because it allowed us to ___.",
-      "vi": "Tôi chọn ___ vì nó cho phép chúng tôi ___.",
-      "note": "Dùng để nêu quyết định và lý do rõ ràng."
+      "en": "I would start by ___, because ___.",
+      "vi": "Tôi sẽ bắt đầu bằng ___, vì ___.",
+      "note": "Dùng để mở đầu lời giải thích có cấu trúc."
     },
     {
-      "en": "The main trade-off was ___, but we mitigated it by ___.",
-      "vi": "Đánh đổi chính là ___, nhưng chúng tôi giảm thiểu nó bằng cách ___.",
-      "note": "Rất phù hợp khi trả lời câu hỏi phản biện."
+      "en": "The main trade-off is ___ versus ___.",
+      "vi": "Đánh đổi chính là ___ so với ___.",
+      "note": "Nêu hai lợi ích đối lập một cách ngắn gọn."
     },
     {
-      "en": "Rather than ___, I would ___.",
-      "vi": "Thay vì ___, tôi sẽ ___.",
-      "note": "Dùng để so sánh hai phương án."
+      "en": "One option would be to ___, but it could ___.",
+      "vi": "Một phương án là ___, nhưng nó có thể ___.",
+      "note": "Dùng khi so sánh phương án và nêu nhược điểm."
     },
     {
-      "en": "If traffic spiked, I would ___ so that ___.",
-      "vi": "Nếu lưu lượng tăng đột biến, tôi sẽ ___ để ___.",
-      "note": "Dùng câu điều kiện loại hai cho tình huống giả định."
+      "en": "To mitigate that risk, I would ___.",
+      "vi": "Để giảm rủi ro đó, tôi sẽ ___.",
+      "note": "Phù hợp khi trả lời câu hỏi về lỗi và độ tin cậy."
     },
     {
-      "en": "One downside is ___; however, ___.",
-      "vi": "Một nhược điểm là ___; tuy nhiên, ___.",
-      "note": "Dùng để thừa nhận hạn chế rồi bảo vệ giải pháp."
+      "en": "If traffic increased significantly, I would reconsider ___.",
+      "vi": "Nếu lưu lượng tăng đáng kể, tôi sẽ xem xét lại ___.",
+      "note": "Thể hiện bạn biết điều chỉnh thiết kế theo quy mô."
     }
   ],
   "pronunciation": [
     {
-      "focus": "âm cuối /ʃ/ trong cache",
-      "tip": "Kết thúc bằng âm xát /ʃ/, như luồng hơi nhẹ; không đọc thành /kætʃ/ hoặc bỏ âm cuối.",
+      "focus": "âm cuối /ʃ/ và /tʃ/",
+      "tip": "Đừng đọc cache như “cát”. Kết thúc bằng âm gió /ʃ/, giống “cash”.",
       "words": [
         "cache",
-        "crash",
-        "refresh"
+        "scalable",
+        "approach"
       ]
     },
     {
-      "focus": "cụm âm đầu /tr/ trong trade-off",
-      "tip": "Phát âm /t/ rồi chuyển nhanh sang /r/; không đọc thành một âm /ch/.",
-      "words": [
-        "trade-off",
-        "traffic",
-        "retry"
-      ]
-    },
-    {
-      "focus": "trọng âm từ nhiều âm tiết",
-      "tip": "Nhấn âm đầu trong latency và scalable, nhưng nhấn âm ba trong idempotent.",
+      "focus": "trọng âm trong từ nhiều âm tiết",
+      "tip": "Nhấn đúng âm giúp câu nói rõ hơn: latency nhấn âm đầu, reliable nhấn âm hai.",
       "words": [
         "latency",
-        "scalable",
-        "idempotent"
+        "reliable",
+        "mitigate"
+      ]
+    },
+    {
+      "focus": "phụ âm cuối /k/ và /d/",
+      "tip": "Phát âm nhẹ phụ âm cuối để phân biệt risk với rich, và trade-off với tray-off.",
+      "words": [
+        "risk",
+        "trade-off",
+        "bottleneck"
       ]
     }
   ],
   "commonMistakes": [
     {
-      "wrong": "The system can handle more traffic easy.",
-      "right": "The system can handle more traffic easily.",
-      "vi": "Sau động từ handle cần trạng từ easily, không dùng tính từ easy."
+      "wrong": "I will explain about my solution.",
+      "right": "I will explain my solution.",
+      "vi": "Explain không cần about khi theo sau là nội dung cần giải thích."
     },
     {
-      "wrong": "Every request are saved in database.",
-      "right": "Every request is saved in the database.",
-      "vi": "Every request là chủ ngữ số ít nên dùng is; database cần mạo từ the trong ngữ cảnh cụ thể."
+      "wrong": "The system can handle many traffics.",
+      "right": "The system can handle a lot of traffic.",
+      "vi": "Traffic là danh từ không đếm được, không dùng traffics trong nghĩa lưu lượng truy cập."
     },
     {
-      "wrong": "We should to use a cache.",
-      "right": "We should use a cache.",
-      "vi": "Sau should dùng động từ nguyên mẫu, không dùng to."
+      "wrong": "It is more faster.",
+      "right": "It is faster.",
+      "vi": "Faster đã là dạng so sánh hơn, không thêm more."
     },
     {
-      "wrong": "The data will be consistency immediately.",
-      "right": "The data will be consistent immediately.",
-      "vi": "Consistency là danh từ; sau be cần tính từ consistent."
+      "wrong": "We need to discuss about the trade-offs.",
+      "right": "We need to discuss the trade-offs.",
+      "vi": "Discuss đi trực tiếp với tân ngữ, không dùng discuss about."
     }
   ],
+  "variations": [
+    {
+      "situation": "Bắt đầu trình bày giải pháp",
+      "formal": "I would begin by clarifying the key requirements and constraints.",
+      "casual": "First, I would figure out what we actually need.",
+      "vi": "Câu formal phù hợp khi phỏng vấn hoặc trình bày với cấp trên; câu casual hợp khi trao đổi nhanh với đồng nghiệp thân."
+    },
+    {
+      "situation": "Nêu ý kiến cá nhân",
+      "formal": "My recommendation would be to keep the initial design simple.",
+      "casual": "I would keep it simple at first.",
+      "vi": "Câu formal nghe thận trọng và phù hợp khi đưa khuyến nghị trong cuộc họp; câu casual trực tiếp, tự nhiên hơn trong nhóm quen."
+    },
+    {
+      "situation": "Phản biện một phương án",
+      "formal": "I see the benefit, although I am concerned about the operational cost.",
+      "casual": "I get the benefit, but I am worried it will be a pain to run.",
+      "vi": "Câu formal dùng khi phản biện người phỏng vấn hoặc quản lý; câu casual chỉ nên dùng với đồng nghiệp thân vì a pain to run khá khẩu ngữ."
+    },
+    {
+      "situation": "Thừa nhận chưa chắc chắn",
+      "formal": "I would need to validate that assumption with production data.",
+      "casual": "I would check that with real user data first.",
+      "vi": "Câu formal phù hợp trong phỏng vấn vì thể hiện sự cẩn trọng; câu casual dùng trong trao đổi nội bộ hằng ngày."
+    }
+  ],
+  "culture": [
+    "Trong phỏng vấn kỹ thuật bằng tiếng Anh, người phỏng vấn thường muốn nghe cách bạn suy nghĩ hơn là một đáp án duy nhất. Hãy nói rõ giả định và hỏi lại yêu cầu nếu thiếu thông tin.",
+    "Việc nói “I am not sure, but I would verify it by...” thường được đánh giá tích cực hơn là khẳng định quá chắc khi chưa có dữ liệu.",
+    "Người phỏng vấn có thể liên tục hỏi “why” hoặc nêu tình huống lỗi để kiểm tra lập luận. Đây thường là cách đào sâu vấn đề, không nhất thiết là dấu hiệu họ không đồng ý với bạn."
+  ],
+  "listening": {
+    "title": "Ghi chú sau buổi kiểm tra hệ thống",
+    "passage": "Before we release the new tracking page, I want to run one more test. The page loads quickly in normal conditions, but it becomes slow when many orders change at the same time. We do not need a major redesign yet. Instead, let us add monitoring, find the bottleneck, and test the cache carefully. If customers still see delayed updates, we can increase the number of message workers next week.",
+    "vi": "Trước khi phát hành trang theo dõi mới, tôi muốn chạy thêm một lần kiểm thử. Trang tải nhanh trong điều kiện bình thường, nhưng chậm khi nhiều đơn hàng cùng thay đổi trạng thái. Chúng ta chưa cần thiết kế lại lớn. Thay vào đó, hãy thêm công cụ theo dõi, tìm điểm nghẽn và kiểm thử bộ nhớ đệm cẩn thận. Nếu khách hàng vẫn thấy cập nhật chậm, tuần sau chúng ta có thể tăng số lượng tiến trình xử lý tin nhắn.",
+    "questions": [
+      {
+        "q": "When does the tracking page become slow?",
+        "choices": [
+          "When many orders change at once",
+          "When customers log out",
+          "When the cache is empty"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì đoạn nghe nói trang chậm “when many orders change at the same time”."
+      },
+      {
+        "q": "What will the team do before considering a major redesign?",
+        "choices": [
+          "Remove the tracking page",
+          "Add monitoring and test the cache",
+          "Hire more customer support staff"
+        ],
+        "answer": 1,
+        "vi": "Đáp án đúng là lựa chọn 1 vì người nói đề nghị thêm theo dõi, tìm điểm nghẽn và kiểm thử bộ nhớ đệm."
+      },
+      {
+        "q": "What may the team do next week if updates are still delayed?",
+        "choices": [
+          "Increase the number of message workers",
+          "Turn off the cache",
+          "Change the payment system"
+        ],
+        "answer": 0,
+        "vi": "Đáp án đúng là lựa chọn 0 vì đoạn nghe nói có thể tăng số lượng message workers vào tuần sau."
+      }
+    ]
+  },
   "dialogue": {
     "roles": {
       "a": "Kỹ sư phỏng vấn",
@@ -158,173 +226,153 @@
     "turns": [
       {
         "speaker": "a",
-        "en": "Let us discuss a system you designed recently. What did it do?",
-        "vi": "Hãy nói về một hệ thống bạn đã thiết kế gần đây. Nó làm gì?",
+        "en": "Thanks for joining us today. Let us start with a design question. How would you build an order tracking service for an online store?",
+        "vi": "Cảm ơn bạn đã tham gia hôm nay. Hãy bắt đầu với một câu hỏi thiết kế. Bạn sẽ xây dựng dịch vụ theo dõi đơn hàng cho cửa hàng trực tuyến như thế nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I designed an order tracking service for an online store. It showed customers the latest status of their orders.",
-        "vi": "Tôi thiết kế một dịch vụ theo dõi đơn hàng cho cửa hàng trực tuyến. Nó hiển thị cho khách hàng trạng thái mới nhất của đơn hàng.",
-        "hint": "Mở đầu bằng I designed và nói ngắn gọn chức năng chính."
+        "en": "I would start by clarifying the requirements. For example, I would ask how quickly customers need to see order updates.",
+        "vi": "Tôi sẽ bắt đầu bằng việc làm rõ yêu cầu. Ví dụ, tôi sẽ hỏi khách hàng cần thấy cập nhật đơn hàng nhanh đến mức nào.",
+        "hint": "Mở đầu bằng I would start by để thể hiện tư duy có trình tự."
       },
       {
         "speaker": "a",
-        "en": "What was your first major design decision?",
-        "vi": "Quyết định thiết kế quan trọng đầu tiên của bạn là gì?",
+        "en": "Good point. Assume customers expect updates within a few seconds, and the service must handle busy sales periods.",
+        "vi": "Ý hay. Giả sử khách hàng mong cập nhật trong vài giây và dịch vụ phải chịu được các giai đoạn bán hàng cao điểm.",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I chose a modular application with a relational database because it allowed us to deliver the first version quickly while keeping the data model reliable.",
-        "vi": "Tôi chọn một ứng dụng theo mô-đun với cơ sở dữ liệu quan hệ vì nó cho phép chúng tôi ra mắt phiên bản đầu nhanh chóng mà vẫn giữ mô hình dữ liệu đáng tin cậy.",
-        "hint": "Dùng mẫu I chose ... because it allowed us to ..."
+        "en": "In that case, I would store orders in a database and send each status change through a message queue. A separate service could process those messages and update the tracking page.",
+        "vi": "Trong trường hợp đó, tôi sẽ lưu đơn hàng trong cơ sở dữ liệu và gửi mỗi thay đổi trạng thái qua hàng đợi tin nhắn. Một dịch vụ riêng có thể xử lý các tin nhắn đó và cập nhật trang theo dõi.",
+        "hint": "Dùng could để mô tả một thành phần có thể đảm nhiệm việc gì."
       },
       {
         "speaker": "a",
-        "en": "That sounds reasonable. Where did you expect the first bottleneck to appear?",
-        "vi": "Nghe hợp lý. Bạn dự đoán điểm nghẽn đầu tiên sẽ xuất hiện ở đâu?",
+        "en": "Why use a message queue instead of updating everything in one request?",
+        "vi": "Tại sao dùng hàng đợi tin nhắn thay vì cập nhật mọi thứ trong một yêu cầu?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I expected the database to become the bottleneck because customers could refresh the same order page many times. Repeated reads would increase latency without adding much value.",
-        "vi": "Tôi dự đoán cơ sở dữ liệu sẽ trở thành điểm nghẽn vì khách hàng có thể tải lại cùng một trang đơn hàng nhiều lần. Các lần đọc lặp lại sẽ tăng độ trễ mà không tạo thêm nhiều giá trị.",
-        "hint": "Dùng because để giải thích nguyên nhân, rồi nêu hậu quả bằng would."
+        "en": "A queue keeps the order service responsive when there is a sudden spike in traffic. The trade-off is that updates may not appear immediately, so the tracking page would be eventually consistent.",
+        "vi": "Hàng đợi giúp dịch vụ đơn hàng vẫn phản hồi nhanh khi lưu lượng tăng đột ngột. Đánh đổi là cập nhật có thể không hiện ngay, vì vậy trang theo dõi sẽ nhất quán sau một khoảng thời gian.",
+        "hint": "Nêu lợi ích trước, rồi dùng The trade-off is để nói rõ mặt hạn chế."
       },
       {
         "speaker": "a",
-        "en": "How did you reduce those repeated reads?",
-        "vi": "Bạn đã giảm các lần đọc lặp lại đó như thế nào?",
+        "en": "What would you do if customers complained that their tracking information was too slow?",
+        "vi": "Bạn sẽ làm gì nếu khách hàng phàn nàn rằng thông tin theo dõi của họ quá chậm?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "We added a cache for recently viewed order summaries. The database remained the source of truth, and the cached data expired after a short period so customers would not see outdated information for long.",
-        "vi": "Chúng tôi thêm bộ nhớ đệm cho các bản tóm tắt đơn hàng được xem gần đây. Cơ sở dữ liệu vẫn là nguồn dữ liệu chính xác, và dữ liệu đệm hết hạn sau một khoảng ngắn để khách hàng không thấy thông tin cũ quá lâu.",
-        "hint": "Nêu biện pháp, sau đó nói cách kiểm soát rủi ro dữ liệu cũ."
+        "en": "First, I would measure where the delay occurs. If the database were the bottleneck, I might add a cache for common order details. If message processing were slow, I would add more workers.",
+        "vi": "Trước hết, tôi sẽ đo xem độ trễ xảy ra ở đâu. Nếu cơ sở dữ liệu là điểm nghẽn, tôi có thể thêm bộ nhớ đệm cho thông tin đơn hàng thường dùng. Nếu xử lý tin nhắn chậm, tôi sẽ thêm nhiều tiến trình xử lý hơn.",
+        "hint": "Dùng câu điều kiện If ... were để nói về một khả năng kỹ thuật."
       },
       {
         "speaker": "a",
-        "en": "Imagine that traffic suddenly increases tenfold during a sale. What would you change?",
-        "vi": "Hãy tưởng tượng lưu lượng tăng gấp mười lần trong đợt giảm giá. Bạn sẽ thay đổi gì?",
+        "en": "Adding a cache can make the system faster, but what new problem does it introduce?",
+        "vi": "Thêm bộ nhớ đệm có thể làm hệ thống nhanh hơn, nhưng nó gây ra vấn đề mới nào?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "If traffic spiked, I would move non-urgent work, such as sending notifications, into a queue so that the customer-facing service could stay responsive. I would also add rate limits to protect the database from sudden bursts.",
-        "vi": "Nếu lưu lượng tăng đột biến, tôi sẽ chuyển các việc không khẩn cấp, như gửi thông báo, vào hàng đợi để dịch vụ trực tiếp phục vụ khách hàng vẫn phản hồi tốt. Tôi cũng sẽ thêm giới hạn tốc độ để bảo vệ cơ sở dữ liệu khỏi các đợt tăng đột ngột.",
-        "hint": "Dùng If traffic spiked, I would ... so that ..."
+        "en": "The cache could contain stale data. To mitigate that risk, I would keep its lifetime short and remove cached data whenever an important order status changes. For critical events, I would show the latest confirmed status from the database.",
+        "vi": "Bộ nhớ đệm có thể chứa dữ liệu cũ. Để giảm rủi ro đó, tôi sẽ đặt thời gian lưu ngắn và xóa dữ liệu đệm khi trạng thái đơn hàng quan trọng thay đổi. Với sự kiện quan trọng, tôi sẽ hiển thị trạng thái được xác nhận mới nhất từ cơ sở dữ liệu.",
+        "hint": "Stale data là dữ liệu cũ; dùng To mitigate that risk để chuyển sang biện pháp xử lý."
       },
       {
         "speaker": "a",
-        "en": "A queue helps, but failures can still happen. How would you prevent a task from causing duplicate actions after a retry?",
-        "vi": "Hàng đợi có ích, nhưng lỗi vẫn có thể xảy ra. Bạn sẽ ngăn một tác vụ gây ra hành động trùng lặp sau khi thử lại như thế nào?",
+        "en": "Let us talk about reliability. What happens if the payment system sends the same event twice?",
+        "vi": "Hãy nói về độ tin cậy. Điều gì xảy ra nếu hệ thống thanh toán gửi cùng một sự kiện hai lần?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "I would make critical operations idempotent by assigning each request a unique key and recording the result before processing it again. For example, a payment request with the same key would return the original result instead of charging the customer twice.",
-        "vi": "Tôi sẽ làm cho các thao tác quan trọng có tính lặp an toàn bằng cách gán cho mỗi yêu cầu một khóa duy nhất và lưu kết quả trước khi xử lý lại. Ví dụ, một yêu cầu thanh toán có cùng khóa sẽ trả về kết quả ban đầu thay vì tính phí khách hàng hai lần.",
-        "hint": "Nêu cách làm trước, rồi dùng For example để minh họa."
+        "en": "I would make the event handler idempotent, meaning that processing the same event twice produces the same result as processing it once. I would also store an event identifier so the service can detect duplicates.",
+        "vi": "Tôi sẽ làm cho bộ xử lý sự kiện có tính lũy đẳng, nghĩa là xử lý cùng một sự kiện hai lần cho ra kết quả giống xử lý một lần. Tôi cũng sẽ lưu mã nhận diện sự kiện để dịch vụ phát hiện bản sao.",
+        "hint": "Sau meaning, giải thích thuật ngữ bằng một mệnh đề đơn giản."
       },
       {
         "speaker": "a",
-        "en": "What trade-off would that approach introduce?",
-        "vi": "Cách tiếp cận đó tạo ra đánh đổi gì?",
+        "en": "That is sensible. Would you choose this design for a small store that only gets a few orders per day?",
+        "vi": "Điều đó hợp lý. Bạn có chọn thiết kế này cho một cửa hàng nhỏ chỉ nhận vài đơn mỗi ngày không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "The main trade-off was extra storage and more complicated failure handling, but we mitigated it by keeping idempotency records only for a limited time. That cost was acceptable because duplicate payments would damage customer trust far more than a small increase in storage.",
-        "vi": "Đánh đổi chính là cần thêm dung lượng lưu trữ và xử lý lỗi phức tạp hơn, nhưng chúng tôi giảm thiểu bằng cách chỉ giữ bản ghi tính lặp an toàn trong một thời gian giới hạn. Chi phí đó có thể chấp nhận được vì thanh toán trùng lặp sẽ làm tổn hại lòng tin của khách hàng nhiều hơn rất nhiều so với việc tăng nhẹ dung lượng lưu trữ.",
-        "hint": "Dùng The main trade-off was ... but we mitigated it by ..."
+        "en": "Probably not at first. A simpler design with direct database updates would be easier to build and maintain. If traffic increased significantly, I would reconsider a queue and separate processing services rather than adding complexity too early.",
+        "vi": "Có lẽ ban đầu là không. Một thiết kế đơn giản hơn với cập nhật trực tiếp vào cơ sở dữ liệu sẽ dễ xây dựng và bảo trì hơn. Nếu lưu lượng tăng đáng kể, tôi sẽ xem xét lại hàng đợi và các dịch vụ xử lý riêng thay vì thêm độ phức tạp quá sớm.",
+        "hint": "Cụm rather than giúp đối chiếu lựa chọn hợp lý với lựa chọn kém phù hợp."
       },
       {
         "speaker": "a",
-        "en": "Would you accept eventual consistency anywhere in this system?",
-        "vi": "Bạn có chấp nhận tính nhất quán cuối cùng ở đâu đó trong hệ thống này không?",
+        "en": "I like that you matched the design to the scale. Do you have any final thoughts on how you would validate the solution?",
+        "vi": "Tôi thích việc bạn điều chỉnh thiết kế theo quy mô. Bạn có ý kiến cuối cùng nào về cách xác thực giải pháp không?",
         "hint": ""
       },
       {
         "speaker": "b",
-        "en": "Yes, for order history and analytics, I would accept eventual consistency because a delay of a few seconds would not affect the purchase itself. Rather than blocking the checkout flow while every downstream service updates, I would show the confirmed payment immediately and update secondary information in the background.",
-        "vi": "Có, với lịch sử đơn hàng và dữ liệu phân tích, tôi sẽ chấp nhận tính nhất quán cuối cùng vì độ trễ vài giây sẽ không ảnh hưởng đến chính việc mua hàng. Thay vì chặn luồng thanh toán trong khi mọi dịch vụ phía sau cập nhật, tôi sẽ hiển thị thanh toán đã xác nhận ngay lập tức và cập nhật thông tin phụ ở nền.",
-        "hint": "Dùng Rather than ... , I would ... để đối chiếu hai phương án."
-      },
-      {
-        "speaker": "a",
-        "en": "Good. What would you improve if you had another month?",
-        "vi": "Tốt. Nếu có thêm một tháng, bạn sẽ cải thiện điều gì?",
-        "hint": ""
-      },
-      {
-        "speaker": "b",
-        "en": "I would improve monitoring and graceful degradation. We could measure queue delays, cache failures, and database load more clearly, then temporarily disable non-essential features before the core checkout flow is affected. That would give the team better visibility and make incidents easier to manage.",
-        "vi": "Tôi sẽ cải thiện việc giám sát và cơ chế giảm chức năng có kiểm soát. Chúng tôi có thể đo độ trễ hàng đợi, lỗi bộ nhớ đệm và tải cơ sở dữ liệu rõ hơn, sau đó tạm thời tắt các tính năng không thiết yếu trước khi luồng thanh toán cốt lõi bị ảnh hưởng. Điều đó sẽ giúp nhóm quan sát tốt hơn và xử lý sự cố dễ hơn.",
-        "hint": "Kết thúc bằng tác động kinh doanh hoặc vận hành của đề xuất."
+        "en": "I would test normal flows, failures, and edge cases before launch. Then I would monitor latency, error rates, and customer feedback so we can improve the design based on real usage. Thank you for the discussion.",
+        "vi": "Tôi sẽ kiểm thử luồng bình thường, sự cố và các trường hợp biên trước khi ra mắt. Sau đó tôi sẽ theo dõi độ trễ, tỷ lệ lỗi và phản hồi khách hàng để cải thiện thiết kế dựa trên cách sử dụng thực tế. Cảm ơn vì buổi trao đổi.",
+        "hint": "Kết bài bằng kiểm thử trước, theo dõi sau, rồi cảm ơn lịch sự."
       }
     ]
   },
   "roleplay": {
-    "persona": "You are a senior engineering interviewer at a software company in Ho Chi Minh City. You are professional, curious, and fair. Ask follow-up questions about the candidate's technical choices, risks, and trade-offs.",
-    "opener": "Thank you for joining us today. Please walk me through a technical solution you designed and the decisions behind it.",
-    "goal": "Người học trình bày giải pháp, giải thích ít nhất hai đánh đổi và bảo vệ lựa chọn của mình trước câu hỏi phản biện."
+    "persona": "You are a senior software engineer conducting a technical interview at a growing e-commerce company. You are calm, curious, and constructive. Ask the candidate to explain their reasoning, challenge assumptions politely, and ask follow-up questions about reliability, scale, and trade-offs.",
+    "opener": "Thanks for joining us. Could you walk me through how you would design an order tracking service for an online store?",
+    "goal": "Người học giải thích một thiết kế, nêu ít nhất hai đánh đổi và đề xuất cách giảm một rủi ro kỹ thuật."
   },
   "drills": [
     {
-      "vi": "Tôi chọn bộ nhớ đệm vì nó giảm độ trễ.",
-      "en": "I chose a cache because it reduced latency.",
+      "vi": "Tôi sẽ bắt đầu bằng việc làm rõ yêu cầu.",
+      "en": "I would start by clarifying the requirements.",
       "alts": [
-        "I chose caching because it lowered latency."
+        "I would begin by clarifying the requirements."
       ]
     },
     {
-      "vi": "Điểm nghẽn chính là cơ sở dữ liệu.",
-      "en": "The main bottleneck was the database.",
+      "vi": "Đánh đổi chính là tốc độ so với tính nhất quán.",
+      "en": "The main trade-off is speed versus consistency.",
+      "alts": []
+    },
+    {
+      "vi": "Một phương án là dùng bộ nhớ đệm, nhưng nó có thể chứa dữ liệu cũ.",
+      "en": "One option would be to use a cache, but it could contain stale data.",
       "alts": [
-        "The database was the main bottleneck."
+        "We could use a cache, but it might contain stale data."
       ]
     },
     {
-      "vi": "Đánh đổi chính là độ phức tạp tăng lên.",
-      "en": "The main trade-off was increased complexity.",
-      "alts": [
-        "The main trade-off was that the system became more complex."
-      ]
+      "vi": "Để giảm rủi ro đó, tôi sẽ lưu mã nhận diện sự kiện.",
+      "en": "To mitigate that risk, I would store an event identifier.",
+      "alts": []
     },
     {
-      "vi": "Nếu lưu lượng tăng đột biến, tôi sẽ dùng hàng đợi.",
-      "en": "If traffic spiked, I would use a queue.",
-      "alts": [
-        "If traffic suddenly increased, I would move tasks into a queue."
-      ]
+      "vi": "Cơ sở dữ liệu có thể trở thành điểm nghẽn trong giờ cao điểm.",
+      "en": "The database could become a bottleneck during peak traffic.",
+      "alts": []
     },
     {
-      "vi": "Thay vì chặn thanh toán, tôi sẽ cập nhật dữ liệu ở nền.",
-      "en": "Rather than blocking payment, I would update the data in the background.",
-      "alts": [
-        "I would update the data in the background instead of blocking payment."
-      ]
+      "vi": "Nếu lưu lượng tăng đáng kể, tôi sẽ xem xét lại thiết kế này.",
+      "en": "If traffic increased significantly, I would reconsider this design.",
+      "alts": []
     },
     {
-      "vi": "Chúng tôi giảm thiểu rủi ro bằng cách thử lại tác vụ thất bại.",
-      "en": "We mitigated the risk by retrying failed tasks.",
+      "vi": "Chúng ta nên kiểm thử các sự cố và trường hợp biên.",
+      "en": "We should test failures and edge cases.",
       "alts": [
-        "We reduced the risk by retrying failed tasks."
-      ]
-    },
-    {
-      "vi": "Một nhược điểm là dữ liệu có thể cũ trong vài giây.",
-      "en": "One downside is that the data may be outdated for a few seconds.",
-      "alts": [
-        "A drawback is that the data may not be immediately consistent."
+        "We need to test failures and edge cases."
       ]
     }
   ],
   "homework": [
-    "Ghi âm lại phần trả lời về bộ nhớ đệm, hàng đợi và tính nhất quán cuối cùng.",
-    "Viết một câu trả lời dài từ 6 đến 8 câu về một hệ thống bạn từng xây dựng hoặc tưởng tượng.",
-    "Đặt ba câu theo mẫu The main trade-off was ..., but we mitigated it by ...."
+    "Ghi âm câu trả lời dài một phút cho câu hỏi thiết kế dịch vụ theo dõi đơn hàng.",
+    "Chọn một ứng dụng quen thuộc và nêu hai đánh đổi trong thiết kế của ứng dụng đó.",
+    "Đặt một câu với từng mẫu câu trong phần patterns."
   ]
 }
