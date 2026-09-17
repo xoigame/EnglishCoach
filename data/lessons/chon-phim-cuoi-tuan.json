@@ -1,0 +1,98 @@
+{
+  "id": "chon-phim-cuoi-tuan",
+  "title": "Thảo luận nên xem phim thể loại gì cuối tuần này",
+  "topic": "Chọn phim cùng bạn bè",
+  "level": "B1",
+  "summary": "Bạn thảo luận với người bạn thân để chọn thể loại phim phù hợp cho buổi xem phim cuối tuần này.",
+  "goals": [
+    "So sánh ưu nhược điểm của các thể loại phim khác nhau",
+    "Đưa ra và bảo vệ sở thích cá nhân về phim",
+    "Thoả hiệp để chọn ra một lựa chọn chung"
+  ],
+  "vocab": [
+    { "en": "thriller", "ipa": "/ˈθrɪlər/", "vi": "phim giật gân", "example": "I love a good thriller." },
+    { "en": "horror", "ipa": "/ˈhɔːrər/", "vi": "phim kinh dị", "example": "Horror movies scare me." },
+    { "en": "documentary", "ipa": "/ˌdɑːkjuˈmentri/", "vi": "phim tài liệu", "example": "That documentary was fascinating." },
+    { "en": "romantic", "ipa": "/roʊˈmæntɪk/", "vi": "lãng mạn", "example": "She prefers romantic comedies." },
+    { "en": "predictable", "ipa": "/prɪˈdɪktəbl/", "vi": "dễ đoán", "example": "The plot was quite predictable." },
+    { "en": "gripping", "ipa": "/ˈɡrɪpɪŋ/", "vi": "cuốn hút, hồi hộp", "example": "It was a gripping story." },
+    { "en": "mood", "ipa": "/muːd/", "vi": "tâm trạng", "example": "I am not in the mood for horror tonight." },
+    { "en": "compromise", "ipa": "/ˈkɑːmprəmaɪz/", "vi": "thoả hiệp", "example": "Let us compromise on the genre." },
+    { "en": "trailer", "ipa": "/ˈtreɪlər/", "vi": "đoạn giới thiệu phim", "example": "Have you seen the trailer?" },
+    { "en": "rating", "ipa": "/ˈreɪtɪŋ/", "vi": "đánh giá, xếp hạng", "example": "This movie has a high rating." }
+  ],
+  "patterns": [
+    { "en": "I am not really in the mood for ___.", "vi": "Tôi không thực sự có tâm trạng để xem ___.", "note": "Từ chối một thể loại phim một cách nhẹ nhàng." },
+    { "en": "How about we compromise on ___?", "vi": "Hay là mình thoả hiệp bằng cách ___?", "note": "Đề xuất một giải pháp trung hoà." },
+    { "en": "I heard it has a high rating.", "vi": "Tôi nghe nói nó được đánh giá cao.", "note": "Dùng thông tin để thuyết phục người khác." },
+    { "en": "The plot sounds a bit predictable.", "vi": "Cốt truyện nghe có vẻ hơi dễ đoán.", "note": "Nhận xét nhẹ nhàng về một bộ phim." },
+    { "en": "Let us watch the trailer first.", "vi": "Mình xem đoạn giới thiệu trước đã.", "note": "Đề nghị kiểm tra trước khi quyết định." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /θ/ trong thriller", "tip": "Đặt đầu lưỡi giữa hai răng và thổi hơi.", "words": ["thriller"] },
+    { "focus": "trọng âm trong documentary", "tip": "Nhấn vào âm tiết thứ ba: docu-MEN-tary.", "words": ["documentary"] },
+    { "focus": "âm /ɪŋ/ trong gripping", "tip": "Đưa lưỡi lên gần vòm mềm ở cuối từ.", "words": ["gripping"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I am not in mood for horror.", "right": "I am not in the mood for horror.", "vi": "Cần mạo từ the trước danh từ mood trong cụm cố định này." },
+    { "wrong": "How about we compromise the genre?", "right": "How about we compromise on the genre?", "vi": "Compromise cần giới từ on trước danh từ đi kèm." },
+    { "wrong": "It has high rating.", "right": "It has a high rating.", "vi": "Cần mạo từ a trước cụm tính từ danh từ high rating." },
+    { "wrong": "The plot sound predictable.", "right": "The plot sounds predictable.", "vi": "Chủ ngữ số ít plot cần động từ sounds." }
+  ],
+  "variations": [
+    { "situation": "Từ chối thể loại", "formal": "I am not particularly in the mood for horror tonight.", "casual": "I'm just not feeling horror tonight.", "vi": "Câu thân mật dùng feeling để diễn tả tâm trạng, rất tự nhiên." },
+    { "situation": "Đề xuất thoả hiệp", "formal": "Perhaps we could compromise on a thriller instead.", "casual": "How about we just go with a thriller?", "vi": "Câu thân mật đơn giản, trực tiếp đưa ra giải pháp." },
+    { "situation": "Thuyết phục bằng đánh giá", "formal": "I understand it has received excellent reviews.", "casual": "I heard it's getting really good reviews.", "vi": "Câu thân mật ngắn gọn, phù hợp trò chuyện hằng ngày." },
+    { "situation": "Đề nghị xem trailer", "formal": "Shall we watch the trailer before deciding?", "casual": "Let us check out the trailer first.", "vi": "Check out là cụm từ thân mật phổ biến cho việc xem thử." }
+  ],
+  "culture": [
+    "Thoả hiệp khi chọn phim cùng bạn bè là kỹ năng xã hội phổ biến, thường dùng câu how about we... để đưa ra giải pháp trung hoà.",
+    "Xem trailer trước khi quyết định xem phim là thói quen phổ biến để tránh chọn nhầm phim không hợp gu.",
+    "Nói I'm not in the mood for... là cách từ chối lịch sự và được chấp nhận rộng rãi mà không cần giải thích thêm."
+  ],
+  "listening": {
+    "title": "Chọn phim cho buổi tối cuối tuần",
+    "passage": "I really want to watch a horror movie tonight. Honestly, I am not in the mood for horror. I would rather watch something relaxing, like a romantic comedy. Those can be a bit predictable though. That is true, but they are fun. How about we compromise on a thriller instead? That sounds gripping without being too scary. I heard the new thriller has a high rating too. Let us watch the trailer first before we decide.",
+    "vi": "Tối nay tôi thực sự muốn xem phim kinh dị. Thật lòng, tôi không có tâm trạng để xem phim kinh dị. Tôi thà xem gì đó thư giãn hơn, như phim hài lãng mạn. Nhưng loại đó có thể hơi dễ đoán. Đúng vậy, nhưng chúng vui mà. Hay là mình thoả hiệp bằng phim giật gân thay vào đó? Nghe cuốn hút mà không quá đáng sợ. Tôi nghe nói phim giật gân mới cũng được đánh giá cao. Mình xem đoạn giới thiệu trước khi quyết định nhé.",
+    "questions": [
+      { "q": "What genre does the first speaker want to watch?", "choices": ["Horror", "Documentary", "Romantic comedy"], "answer": 0, "vi": "Đáp án đúng vì người nói đầu tiên muốn xem phim kinh dị." },
+      { "q": "What compromise do they agree on?", "choices": ["A thriller", "A documentary", "A cartoon"], "answer": 0, "vi": "Đáp án đúng vì họ thoả hiệp chọn phim giật gân." },
+      { "q": "What will they do before deciding?", "choices": ["Watch the trailer", "Call a friend", "Read a book"], "answer": 0, "vi": "Đáp án đúng vì họ sẽ xem đoạn giới thiệu trước." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn thân", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "I really want to watch a horror movie tonight.", "vi": "Tối nay tôi thực sự muốn xem phim kinh dị.", "hint": "" },
+      { "speaker": "b", "en": "I am not really in the mood for horror.", "vi": "Tôi không thực sự có tâm trạng để xem phim kinh dị.", "hint": "Dùng I am not really in the mood for." },
+      { "speaker": "a", "en": "What would you rather watch?", "vi": "Vậy bạn muốn xem gì hơn?", "hint": "" },
+      { "speaker": "b", "en": "Maybe a romantic comedy instead.", "vi": "Có lẽ phim hài lãng mạn thay vào đó.", "hint": "" },
+      { "speaker": "a", "en": "Those can be a bit predictable, though.", "vi": "Nhưng loại đó có thể hơi dễ đoán.", "hint": "Dùng a bit predictable." },
+      { "speaker": "b", "en": "How about we compromise on a thriller?", "vi": "Hay là mình thoả hiệp bằng phim giật gân?", "hint": "Dùng How about we compromise on." },
+      { "speaker": "a", "en": "That sounds gripping actually.", "vi": "Nghe cuốn hút thật đấy.", "hint": "" },
+      { "speaker": "b", "en": "I heard it has a high rating too.", "vi": "Tôi nghe nói nó cũng được đánh giá cao.", "hint": "Dùng I heard it has a high rating." },
+      { "speaker": "a", "en": "Let us watch the trailer first.", "vi": "Mình xem đoạn giới thiệu trước đã.", "hint": "" },
+      { "speaker": "b", "en": "Good idea, let us check it out.", "vi": "Ý hay, mình xem thử đi.", "hint": "Dùng let us check it out." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a close friend with a strong preference for horror movies, but open to compromise.",
+    "opener": "I really want to watch a horror movie tonight.",
+    "goal": "Người học từ chối thể loại không thích một cách lịch sự và đề xuất thoả hiệp hợp lý."
+  },
+  "drills": [
+    { "vi": "Tôi không thực sự có tâm trạng để xem phim kinh dị.", "en": "I am not really in the mood for horror.", "alts": [] },
+    { "vi": "Hay là mình thoả hiệp bằng phim giật gân?", "en": "How about we compromise on a thriller?", "alts": [] },
+    { "vi": "Cốt truyện nghe có vẻ hơi dễ đoán.", "en": "The plot sounds a bit predictable.", "alts": [] },
+    { "vi": "Tôi nghe nói nó được đánh giá cao.", "en": "I heard it has a high rating.", "alts": [] },
+    { "vi": "Mình xem đoạn giới thiệu trước đã.", "en": "Let us watch the trailer first.", "alts": [] },
+    { "vi": "Nghe cuốn hút mà không quá đáng sợ.", "en": "That sounds gripping without being too scary.", "alts": [] },
+    { "vi": "Tôi thà xem gì đó thư giãn hơn.", "en": "I would rather watch something relaxing.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn thảo luận chọn phim, chú ý trọng âm trong documentary.",
+    "Viết ba câu so sánh ưu nhược điểm của hai thể loại phim.",
+    "Luyện nói ba lần câu How about we compromise on a thriller?"
+  ]
+}

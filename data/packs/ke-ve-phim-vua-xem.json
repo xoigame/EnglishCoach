@@ -1,0 +1,96 @@
+{
+  "id": "ke-ve-phim-vua-xem",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Hỏi cuối tuần làm gì vui", "situation": "Đồng nghiệp hỏi bạn cuối tuần làm gì vui.",
+      "turns": [
+        { "speaker": "a", "en": "Did you do anything fun this weekend?", "vi": "Cuối tuần bạn có làm gì vui không?" },
+        { "speaker": "b", "en": "Yes, I watched a movie called The Great Escape.", "vi": "Có, tôi đã xem một bộ phim tên là The Great Escape." },
+        { "speaker": "a", "en": "How was it?", "vi": "Nó thế nào vậy?" },
+        { "speaker": "b", "en": "It was pretty good overall.", "vi": "Nhìn chung khá hay." },
+        { "speaker": "a", "en": "I might watch it too.", "vi": "Có lẽ tôi cũng sẽ xem." },
+        { "speaker": "b", "en": "You should, it is worth it.", "vi": "Bạn nên xem, đáng xem lắm." }
+      ]},
+    { "title": "Tóm tắt nội dung phim", "situation": "Bạn tóm tắt nội dung phim cho đồng nghiệp nghe.",
+      "turns": [
+        { "speaker": "a", "en": "What is it about?", "vi": "Nó nói về gì vậy?" },
+        { "speaker": "b", "en": "It is about friends planning a big trip.", "vi": "Nó nói về nhóm bạn lên kế hoạch chuyến đi lớn." },
+        { "speaker": "a", "en": "That sounds interesting.", "vi": "Nghe thú vị đấy." },
+        { "speaker": "b", "en": "Yes, the plot was quite good.", "vi": "Vâng, cốt truyện khá hay." },
+        { "speaker": "a", "en": "I like that kind of story.", "vi": "Tôi thích loại truyện đó." },
+        { "speaker": "b", "en": "You would enjoy this one.", "vi": "Bạn sẽ thích cái này đấy." }
+      ]},
+    { "title": "Nhận xét về cái kết phim", "situation": "Bạn nhận xét về cái kết của bộ phim.",
+      "turns": [
+        { "speaker": "a", "en": "How was the ending?", "vi": "Cái kết thế nào?" },
+        { "speaker": "b", "en": "The best part was the ending.", "vi": "Phần hay nhất là cái kết." },
+        { "speaker": "a", "en": "Really? What happened?", "vi": "Thật vậy sao? Chuyện gì đã xảy ra vậy?" },
+        { "speaker": "b", "en": "I do not want to spoil it.", "vi": "Tôi không muốn tiết lộ trước đâu." },
+        { "speaker": "a", "en": "Fair enough, I will watch it myself.", "vi": "Cũng hợp lý, tôi sẽ tự xem." },
+        { "speaker": "b", "en": "You will love the surprise.", "vi": "Bạn sẽ thích sự bất ngờ đó." }
+      ]},
+    { "title": "Nói về phần nhàm chán của phim", "situation": "Bạn nói về phần bạn thấy hơi nhàm chán trong phim.",
+      "turns": [
+        { "speaker": "a", "en": "Was every part good?", "vi": "Mọi phần đều hay chứ?" },
+        { "speaker": "b", "en": "The middle part was a bit boring.", "vi": "Phần giữa hơi nhàm chán." },
+        { "speaker": "a", "en": "That happens sometimes.", "vi": "Điều đó thỉnh thoảng xảy ra mà." },
+        { "speaker": "b", "en": "Yes, but the rest was great.", "vi": "Vâng, nhưng phần còn lại rất hay." },
+        { "speaker": "a", "en": "Good to know.", "vi": "Biết vậy tốt quá." },
+        { "speaker": "b", "en": "I still recommend it overall.", "vi": "Nhìn chung tôi vẫn giới thiệu nó." }
+      ]},
+    { "title": "Nói phim dựa trên chuyện có thật", "situation": "Bạn nói rằng bộ phim dựa trên một câu chuyện có thật.",
+      "turns": [
+        { "speaker": "a", "en": "Is the story real?", "vi": "Câu chuyện đó có thật không?" },
+        { "speaker": "b", "en": "It is based on a true story.", "vi": "Nó dựa trên một câu chuyện có thật." },
+        { "speaker": "a", "en": "Wow, that makes it more interesting.", "vi": "Ồ, vậy càng thú vị hơn." },
+        { "speaker": "b", "en": "Yes, I thought so too.", "vi": "Vâng, tôi cũng nghĩ vậy." },
+        { "speaker": "a", "en": "I want to watch it now.", "vi": "Giờ tôi muốn xem nó rồi." },
+        { "speaker": "b", "en": "You should, it is really good.", "vi": "Bạn nên xem, nó rất hay." }
+      ]},
+    { "title": "Giới thiệu phim cho đồng nghiệp", "situation": "Bạn giới thiệu bộ phim cho đồng nghiệp xem.",
+      "turns": [
+        { "speaker": "a", "en": "Would you recommend it?", "vi": "Bạn có giới thiệu nó không?" },
+        { "speaker": "b", "en": "Yes, I would recommend it.", "vi": "Có, tôi sẽ giới thiệu nó." },
+        { "speaker": "a", "en": "Why do you recommend it?", "vi": "Vì sao bạn giới thiệu nó vậy?" },
+        { "speaker": "b", "en": "The characters felt very real.", "vi": "Các nhân vật cảm thấy rất chân thực." },
+        { "speaker": "a", "en": "That is important to me too.", "vi": "Điều đó cũng quan trọng với tôi." },
+        { "speaker": "b", "en": "Then you will really enjoy it.", "vi": "Vậy bạn sẽ rất thích nó đấy." }
+      ]},
+    { "title": "So sánh với phim đã xem trước đó", "situation": "Bạn so sánh bộ phim vừa xem với một phim khác.",
+      "turns": [
+        { "speaker": "a", "en": "Is it similar to any other movie?", "vi": "Nó có giống phim nào khác không?" },
+        { "speaker": "b", "en": "A bit, but the plot was different.", "vi": "Hơi giống, nhưng cốt truyện khác." },
+        { "speaker": "a", "en": "Which one did you like more?", "vi": "Bạn thích cái nào hơn?" },
+        { "speaker": "b", "en": "Honestly, I liked this one more.", "vi": "Thật lòng, tôi thích cái này hơn." },
+        { "speaker": "a", "en": "That is a strong recommendation.", "vi": "Vậy là lời giới thiệu mạnh mẽ đấy." },
+        { "speaker": "b", "en": "I really mean it.", "vi": "Tôi nói thật lòng đấy." }
+      ]},
+    { "title": "Hỏi thể loại phim là gì", "situation": "Bạn hỏi bộ phim thuộc thể loại nào.",
+      "turns": [
+        { "speaker": "a", "en": "What genre is that movie?", "vi": "Bộ phim đó thuộc thể loại gì?" },
+        { "speaker": "b", "en": "It is a drama, mostly.", "vi": "Chủ yếu là phim tâm lý." },
+        { "speaker": "a", "en": "I enjoy dramas too.", "vi": "Tôi cũng thích phim tâm lý." },
+        { "speaker": "b", "en": "You should definitely watch it then.", "vi": "Vậy bạn chắc chắn nên xem nó." },
+        { "speaker": "a", "en": "I will add it to my list.", "vi": "Tôi sẽ thêm nó vào danh sách." },
+        { "speaker": "b", "en": "You will not regret it.", "vi": "Bạn sẽ không hối hận đâu." }
+      ]},
+    { "title": "Kể lại phần yêu thích nhất trong phim", "situation": "Bạn kể lại phần yêu thích nhất trong bộ phim.",
+      "turns": [
+        { "speaker": "a", "en": "What was your favorite part?", "vi": "Phần yêu thích nhất của bạn là gì?" },
+        { "speaker": "b", "en": "I really liked the middle scene.", "vi": "Tôi thực sự thích cảnh ở giữa phim." },
+        { "speaker": "a", "en": "What happened in that scene?", "vi": "Chuyện gì xảy ra trong cảnh đó vậy?" },
+        { "speaker": "b", "en": "The friends had a big argument.", "vi": "Nhóm bạn có một cuộc tranh cãi lớn." },
+        { "speaker": "a", "en": "That sounds intense.", "vi": "Nghe căng thẳng đấy." },
+        { "speaker": "b", "en": "It was, but very well done.", "vi": "Đúng vậy, nhưng được làm rất tốt." }
+      ]},
+    { "title": "Kể chi tiết trải nghiệm xem phim với nhiều nhận xét khác nhau", "situation": "Bạn kể chi tiết trải nghiệm xem phim với nhiều nhận xét khác nhau về các khía cạnh của bộ phim. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me everything about the movie you watched.", "vi": "Kể tôi nghe hết về bộ phim bạn đã xem đi." },
+        { "speaker": "b", "en": "Well, the plot was interesting, but the middle part was a bit boring.", "vi": "À, cốt truyện thú vị, nhưng phần giữa hơi nhàm chán." },
+        { "speaker": "a", "en": "What about the characters?", "vi": "Còn nhân vật thì sao?" },
+        { "speaker": "b", "en": "The characters felt very real, especially the main one.", "vi": "Các nhân vật cảm thấy rất chân thực, đặc biệt là nhân vật chính." },
+        { "speaker": "a", "en": "And the ending, was it good?", "vi": "Còn cái kết, có hay không?" },
+        { "speaker": "b", "en": "The best part was the ending, it was based on a true story too.", "vi": "Phần hay nhất là cái kết, nó còn dựa trên một câu chuyện có thật nữa." }
+      ]}
+  ]
+}

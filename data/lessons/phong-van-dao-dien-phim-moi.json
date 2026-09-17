@@ -1,0 +1,98 @@
+{
+  "id": "phong-van-dao-dien-phim-moi",
+  "title": "Trả lời phỏng vấn với tư cách đạo diễn về bộ phim mới",
+  "topic": "Phỏng vấn điện ảnh",
+  "level": "C1",
+  "summary": "Bạn đóng vai một đạo diễn trả lời phỏng vấn của người dẫn chương trình về ý tưởng, quá trình làm phim và những khó khăn khi thực hiện bộ phim mới.",
+  "goals": [
+    "Diễn giải ý tưởng và cảm hứng sáng tạo một cách sâu sắc",
+    "Nói về khó khăn trong quá trình sản xuất mà không đổ lỗi cho ai",
+    "Trả lời khéo léo câu hỏi so sánh với tác phẩm trước đó"
+  ],
+  "vocab": [
+    { "en": "vision", "ipa": "/ˈvɪʒn/", "vi": "tầm nhìn nghệ thuật", "example": "I had a clear vision for this film." },
+    { "en": "narrative", "ipa": "/ˈnærətɪv/", "vi": "mạch truyện", "example": "The narrative unfolds slowly." },
+    { "en": "collaboration", "ipa": "/kəˌlæbəˈreɪʃn/", "vi": "sự hợp tác", "example": "It was a true collaboration." },
+    { "en": "constraint", "ipa": "/kənˈstreɪnt/", "vi": "hạn chế, ràng buộc", "example": "We had budget constraints." },
+    { "en": "authentic", "ipa": "/ɔːˈθentɪk/", "vi": "chân thực", "example": "I wanted the story to feel authentic." },
+    { "en": "interpretation", "ipa": "/ɪnˌtɜːrprəˈteɪʃn/", "vi": "cách diễn giải", "example": "Everyone has their own interpretation." },
+    { "en": "ambitious", "ipa": "/æmˈbɪʃəs/", "vi": "tham vọng", "example": "It was an ambitious project." },
+    { "en": "draw inspiration", "ipa": "/drɔː ˌɪnspəˈreɪʃn/", "vi": "lấy cảm hứng", "example": "I drew inspiration from my childhood." },
+    { "en": "compare", "ipa": "/kəmˈper/", "vi": "so sánh", "example": "People compare it to my last film." },
+    { "en": "evolve", "ipa": "/ɪˈvɑːlv/", "vi": "phát triển, tiến hoá", "example": "My style has evolved over time." }
+  ],
+  "patterns": [
+    { "en": "I drew a lot of inspiration from ___.", "vi": "Tôi lấy rất nhiều cảm hứng từ ___.", "note": "Diễn giải nguồn cảm hứng sáng tạo." },
+    { "en": "It was certainly an ambitious project, but ___.", "vi": "Đó chắc chắn là một dự án tham vọng, nhưng ___.", "note": "Thừa nhận thử thách mà không than phiền." },
+    { "en": "I would rather not dwell on ___.", "vi": "Tôi không muốn đi sâu vào ___.", "note": "Từ chối khéo léo nói về khó khăn cụ thể." },
+    { "en": "Comparisons are natural, but ___.", "vi": "Việc so sánh là điều tự nhiên, nhưng ___.", "note": "Trả lời khéo léo câu hỏi so sánh với tác phẩm trước." },
+    { "en": "My style has evolved since then.", "vi": "Phong cách của tôi đã phát triển từ đó.", "note": "Nói về sự trưởng thành trong sự nghiệp." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong collaboration", "tip": "Nhấn vào âm tiết thứ tư: colla-bo-RA-tion.", "words": ["collaboration", "interpretation"] },
+    { "focus": "âm /ʒ/ trong vision", "tip": "Đưa lưỡi ra sau nhẹ, giống âm s trong pleasure.", "words": ["vision"] },
+    { "focus": "âm /θ/ trong authentic", "tip": "Đặt đầu lưỡi giữa hai răng và thổi hơi.", "words": ["authentic"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I draw inspiration from my childhood for this film.", "right": "I drew a lot of inspiration from my childhood for this film.", "vi": "Cần chia động từ ở quá khứ drew khi nói về quá trình làm phim đã hoàn tất." },
+    { "wrong": "It was ambitious project.", "right": "It was an ambitious project.", "vi": "Cần mạo từ an trước tính từ bắt đầu bằng nguyên âm ambitious." },
+    { "wrong": "I would rather not dwell that.", "right": "I would rather not dwell on that.", "vi": "Dwell cần giới từ on trước tân ngữ." },
+    { "wrong": "My style evolve since then.", "right": "My style has evolved since then.", "vi": "Cần cấu trúc hiện tại hoàn thành has evolved khi nói về quá trình diễn ra tới hiện tại." }
+  ],
+  "variations": [
+    { "situation": "Nói về cảm hứng", "formal": "I drew considerable inspiration from real events.", "casual": "This one was really inspired by real events.", "vi": "Câu thân mật đơn giản hơn, phù hợp phỏng vấn không quá trang trọng." },
+    { "situation": "Thừa nhận khó khăn", "formal": "We faced considerable constraints during production.", "casual": "We definitely had some tough limitations to work with.", "vi": "Câu thân mật dùng tough limitations, gần gũi hơn với khán giả." },
+    { "situation": "Né tránh chi tiết nhạy cảm", "formal": "I would rather not dwell on the specific challenges.", "casual": "I'd rather not get into the details of that.", "vi": "Câu thân mật ngắn gọn, vẫn giữ được sự khéo léo." },
+    { "situation": "So sánh với tác phẩm cũ", "formal": "Comparisons are natural, but my style has evolved.", "casual": "People will compare it, but I've grown a lot as a filmmaker.", "vi": "Câu thân mật nhấn mạnh sự trưởng thành cá nhân một cách tự nhiên." }
+  ],
+  "culture": [
+    "Đạo diễn phương Tây thường được huấn luyện để nói về quá trình sáng tạo một cách sâu sắc nhưng tránh chê bai ê-kíp hoặc nhà sản xuất công khai.",
+    "Câu I would rather not dwell on that là cách lịch sự để né tránh câu hỏi về tranh cãi hậu trường mà không tỏ ra né tránh hoàn toàn.",
+    "Khi bị so sánh với tác phẩm trước, thừa nhận sự trưởng thành cá nhân (my style has evolved) được xem là câu trả lời khiêm tốn và chuyên nghiệp."
+  ],
+  "listening": {
+    "title": "Phỏng vấn đạo diễn về bộ phim mới",
+    "passage": "Congratulations on the new film. Where did the idea come from? Thank you. I drew a lot of inspiration from my own childhood memories. It was certainly an ambitious project, given our limited budget. There have been reports of tension during filming. I would rather not dwell on that, honestly. Some critics are already comparing it to your first film. Comparisons are natural, but my style has evolved a lot since then. I wanted this story to feel more authentic and personal.",
+    "vi": "Chúc mừng bộ phim mới. Ý tưởng đến từ đâu vậy? Cảm ơn. Tôi lấy rất nhiều cảm hứng từ những ký ức thời thơ ấu của mình. Đó chắc chắn là một dự án tham vọng, với ngân sách hạn chế của chúng tôi. Có báo cáo về căng thẳng trong quá trình quay phim. Thật lòng, tôi không muốn đi sâu vào điều đó. Một số nhà phê bình đã so sánh nó với bộ phim đầu tay của bạn. Việc so sánh là điều tự nhiên, nhưng phong cách của tôi đã phát triển nhiều từ đó. Tôi muốn câu chuyện này cảm thấy chân thực và cá nhân hơn.",
+    "questions": [
+      { "q": "Where did the director draw inspiration from?", "choices": ["Childhood memories", "A famous novel", "A news report"], "answer": 0, "vi": "Đáp án đúng vì đạo diễn nói lấy cảm hứng từ ký ức thời thơ ấu." },
+      { "q": "How does the director respond to the tension question?", "choices": ["Avoids dwelling on it", "Explains it in detail", "Denies it angrily"], "answer": 0, "vi": "Đáp án đúng vì đạo diễn nói không muốn đi sâu vào điều đó." },
+      { "q": "How does the director respond to the comparison question?", "choices": ["Says their style has evolved", "Agrees the films are identical", "Refuses to answer"], "answer": 0, "vi": "Đáp án đúng vì đạo diễn nói phong cách đã phát triển từ đó." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người dẫn chương trình", "b": "Người học (đạo diễn)" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Congratulations on the new film. Where did the idea come from?", "vi": "Chúc mừng bộ phim mới. Ý tưởng đến từ đâu vậy?", "hint": "" },
+      { "speaker": "b", "en": "I drew a lot of inspiration from my childhood memories.", "vi": "Tôi lấy rất nhiều cảm hứng từ ký ức thời thơ ấu của mình.", "hint": "Dùng I drew a lot of inspiration from." },
+      { "speaker": "a", "en": "It sounds like a very personal project.", "vi": "Nghe có vẻ là một dự án rất cá nhân.", "hint": "" },
+      { "speaker": "b", "en": "It was certainly an ambitious project, given our budget.", "vi": "Đó chắc chắn là một dự án tham vọng, với ngân sách của chúng tôi.", "hint": "Dùng It was certainly an ambitious project." },
+      { "speaker": "a", "en": "There have been reports of tension during filming.", "vi": "Có báo cáo về căng thẳng trong quá trình quay phim.", "hint": "" },
+      { "speaker": "b", "en": "I would rather not dwell on that, honestly.", "vi": "Thật lòng, tôi không muốn đi sâu vào điều đó.", "hint": "Dùng I would rather not dwell on that." },
+      { "speaker": "a", "en": "Some critics compare it to your first film.", "vi": "Một số nhà phê bình so sánh nó với bộ phim đầu tay của bạn.", "hint": "" },
+      { "speaker": "b", "en": "Comparisons are natural, but my style has evolved.", "vi": "Việc so sánh là điều tự nhiên, nhưng phong cách của tôi đã phát triển.", "hint": "Dùng Comparisons are natural, but my style has evolved." },
+      { "speaker": "a", "en": "What do you want audiences to take away from it?", "vi": "Bạn muốn khán giả rút ra điều gì từ bộ phim này?", "hint": "" },
+      { "speaker": "b", "en": "I wanted this story to feel authentic and personal.", "vi": "Tôi muốn câu chuyện này cảm thấy chân thực và cá nhân.", "hint": "Dùng I wanted this story to feel authentic." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a thoughtful talk show host interviewing a film director about their new movie.",
+    "opener": "Congratulations on the new film. Where did the idea come from?",
+    "goal": "Người học diễn giải cảm hứng sáng tạo sâu sắc, né tránh khéo léo câu hỏi nhạy cảm và trả lời khôn ngoan về sự so sánh."
+  },
+  "drills": [
+    { "vi": "Tôi lấy rất nhiều cảm hứng từ ký ức thời thơ ấu.", "en": "I drew a lot of inspiration from my childhood memories.", "alts": [] },
+    { "vi": "Đó chắc chắn là một dự án tham vọng.", "en": "It was certainly an ambitious project.", "alts": [] },
+    { "vi": "Tôi không muốn đi sâu vào điều đó.", "en": "I would rather not dwell on that.", "alts": [] },
+    { "vi": "Việc so sánh là điều tự nhiên, nhưng phong cách tôi đã phát triển.", "en": "Comparisons are natural, but my style has evolved.", "alts": [] },
+    { "vi": "Tôi muốn câu chuyện này cảm thấy chân thực.", "en": "I wanted this story to feel authentic.", "alts": [] },
+    { "vi": "Đó là một sự hợp tác thực sự.", "en": "It was a true collaboration.", "alts": [] },
+    { "vi": "Chúng tôi gặp một số hạn chế về ngân sách.", "en": "We faced some budget constraints.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn trả lời phỏng vấn với tư cách đạo diễn, chú ý trọng âm trong collaboration.",
+    "Viết ba câu dùng cấu trúc I drew inspiration from ___.",
+    "Luyện nói ba lần câu Comparisons are natural, but my style has evolved."
+  ]
+}

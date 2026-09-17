@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-danh-gia-phim",
+  "title": "Tranh luận đánh giá một bộ phim mới ra mắt",
+  "topic": "Tranh luận về phim ảnh",
+  "level": "B2",
+  "summary": "Bạn tranh luận với một người bạn có gu phim khác về việc đánh giá một bộ phim mới ra mắt: khen chê diễn xuất, kịch bản và kỹ xảo.",
+  "goals": [
+    "Đưa ra đánh giá có lập luận về một bộ phim",
+    "Phản biện quan điểm trái ngược một cách thuyết phục",
+    "Phân biệt giữa sở thích cá nhân và chất lượng khách quan"
+  ],
+  "vocab": [
+    { "en": "acting", "ipa": "/ˈæktɪŋ/", "vi": "diễn xuất", "example": "The acting was outstanding." },
+    { "en": "screenplay", "ipa": "/ˈskriːnpleɪ/", "vi": "kịch bản phim", "example": "The screenplay felt weak." },
+    { "en": "special effects", "ipa": "/ˈspeʃl ɪˈfekts/", "vi": "kỹ xảo", "example": "The special effects were impressive." },
+    { "en": "overhyped", "ipa": "/ˈoʊvərhaɪpt/", "vi": "bị thổi phồng quá mức", "example": "I think this movie is overhyped." },
+    { "en": "underwhelming", "ipa": "/ˌʌndərˈwelmɪŋ/", "vi": "gây thất vọng nhẹ, không như kỳ vọng", "example": "The ending felt underwhelming." },
+    { "en": "pacing", "ipa": "/ˈpeɪsɪŋ/", "vi": "nhịp độ (phim)", "example": "The pacing was too slow." },
+    { "en": "subjective", "ipa": "/səbˈdʒektɪv/", "vi": "mang tính chủ quan", "example": "Taste in movies is subjective." },
+    { "en": "critically acclaimed", "ipa": "/ˈkrɪtɪkli əˈkleɪmd/", "vi": "được giới phê bình đánh giá cao", "example": "It is critically acclaimed." },
+    { "en": "flaw", "ipa": "/flɔː/", "vi": "khuyết điểm", "example": "Every movie has some flaws." },
+    { "en": "masterpiece", "ipa": "/ˈmæstərpiːs/", "vi": "kiệt tác", "example": "Some call it a masterpiece." }
+  ],
+  "patterns": [
+    { "en": "I think the movie is a bit overhyped.", "vi": "Tôi nghĩ bộ phim này hơi bị thổi phồng quá mức.", "note": "Nhận xét rằng một bộ phim được đánh giá quá cao so với thực tế." },
+    { "en": "That is a subjective opinion, though.", "vi": "Tuy nhiên đó là một ý kiến mang tính chủ quan đấy.", "note": "Chỉ ra rằng ý kiến chỉ là quan điểm cá nhân." },
+    { "en": "I will admit the ___ was a flaw.", "vi": "Tôi thừa nhận ___ là một khuyết điểm.", "note": "Thừa nhận một điểm yếu của bộ phim." },
+    { "en": "Critically, it has been praised for ___.", "vi": "Về mặt phê bình, nó được khen ngợi vì ___.", "note": "Đưa ra góc nhìn khách quan từ giới phê bình." },
+    { "en": "At the end of the day, it comes down to taste.", "vi": "Cuối cùng thì, mọi thứ đều tuỳ vào gu thẩm mỹ.", "note": "Kết luận rằng đánh giá phim phụ thuộc vào sở thích cá nhân." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong subjective", "tip": "Nhấn vào âm tiết thứ hai: sub-JEC-tive.", "words": ["subjective", "underwhelming"] },
+    { "focus": "âm /eɪ/ trong acclaimed", "tip": "Kéo dài nguyên âm đôi rõ ràng.", "words": ["acclaimed", "screenplay"] },
+    { "focus": "âm /f/ trong flaw", "tip": "Chạm nhẹ răng trên vào môi dưới rồi thổi hơi.", "words": ["flaw"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I think this movie overhyped.", "right": "I think this movie is overhyped.", "vi": "Cần động từ is trước tính từ overhyped." },
+    { "wrong": "That is subjective opinion.", "right": "That is a subjective opinion.", "vi": "Cần mạo từ a trước cụm danh từ subjective opinion." },
+    { "wrong": "It praised for the acting.", "right": "It has been praised for the acting.", "vi": "Cần cấu trúc bị động has been praised for." },
+    { "wrong": "It come down to taste.", "right": "It comes down to taste.", "vi": "Chủ ngữ số ít it cần động từ comes." }
+  ],
+  "variations": [
+    { "situation": "Nhận xét bị thổi phồng", "formal": "I believe the film has been somewhat overhyped.", "casual": "Honestly, I think it's a bit overrated.", "vi": "Overrated là từ thân mật rất phổ biến khi bàn luận về phim." },
+    { "situation": "Thừa nhận khuyết điểm", "formal": "I will admit the pacing was a flaw.", "casual": "Okay, the pacing was kind of slow, I'll give you that.", "vi": "I'll give you that là cách thừa nhận thân mật, thường dùng trong tranh luận vui." },
+    { "situation": "Đưa góc nhìn phê bình", "formal": "Critically, it has been praised for its cinematography.", "casual": "Critics really loved the visuals, though.", "vi": "Câu thân mật ngắn gọn, vẫn giữ được thông tin khách quan." },
+    { "situation": "Kết luận về gu thẩm mỹ", "formal": "At the end of the day, it comes down to personal taste.", "casual": "I guess it's just down to taste, really.", "vi": "Câu thân mật nhẹ nhàng, phù hợp để kết thúc tranh luận vui vẻ." }
+  ],
+  "culture": [
+    "Tranh luận đánh giá phim là chủ đề phổ biến trên mạng xã hội và trong các bài phê bình phim chuyên nghiệp.",
+    "Cụm it's just down to taste thể hiện sự tôn trọng ý kiến khác biệt, thường dùng để kết thúc tranh luận một cách hoà nhã.",
+    "Overrated và underrated là hai từ rất thông dụng khi bàn luận về phim, nhạc hoặc bất kỳ tác phẩm nghệ thuật nào."
+  ],
+  "listening": {
+    "title": "Tranh luận về một bộ phim mới",
+    "passage": "I think this movie is a bit overhyped. The special effects were impressive, but the screenplay felt weak in places. That is a subjective opinion, though, because I loved the storyline. I will admit the pacing was a flaw, it felt too slow in the middle. Critically, it has been praised for its acting and cinematography. At the end of the day, it really comes down to personal taste.",
+    "vi": "Tôi nghĩ bộ phim này hơi bị thổi phồng quá mức. Kỹ xảo ấn tượng, nhưng kịch bản lại có vẻ yếu ở một số chỗ. Tuy nhiên đó là ý kiến mang tính chủ quan, vì tôi lại thích cốt truyện. Tôi thừa nhận nhịp độ là một khuyết điểm, nó có vẻ quá chậm ở phần giữa. Về mặt phê bình, nó được khen ngợi vì diễn xuất và hình ảnh. Cuối cùng thì, mọi thứ thực sự tuỳ vào gu thẩm mỹ cá nhân.",
+    "questions": [
+      { "q": "What does the speaker think is impressive?", "choices": ["The special effects", "The screenplay", "The pacing"], "answer": 0, "vi": "Đáp án đúng vì người nói nói kỹ xảo ấn tượng." },
+      { "q": "What flaw does the speaker admit?", "choices": ["The pacing was too slow", "The acting was terrible", "The visuals were bad"], "answer": 0, "vi": "Đáp án đúng vì người nói thừa nhận nhịp độ quá chậm." },
+      { "q": "What is the speaker's final conclusion?", "choices": ["It comes down to personal taste", "The movie is perfect", "The movie should be banned"], "answer": 0, "vi": "Đáp án đúng vì người nói kết luận rằng mọi thứ tuỳ vào gu thẩm mỹ." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn có gu phim khác", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "I absolutely loved that new movie.", "vi": "Tôi cực kỳ thích bộ phim mới đó." },
+      { "speaker": "b", "en": "I think the movie is a bit overhyped.", "vi": "Tôi nghĩ bộ phim này hơi bị thổi phồng quá mức.", "hint": "Dùng I think the movie is a bit overhyped." },
+      { "speaker": "a", "en": "Really? The special effects were amazing.", "vi": "Thật vậy sao? Kỹ xảo tuyệt vời mà." },
+      { "speaker": "b", "en": "That is a subjective opinion, though.", "vi": "Tuy nhiên đó là một ý kiến mang tính chủ quan đấy.", "hint": "Dùng That is a subjective opinion, though." },
+      { "speaker": "a", "en": "What did you not like about it?", "vi": "Bạn không thích điều gì ở nó vậy?" },
+      { "speaker": "b", "en": "I will admit the pacing was a flaw.", "vi": "Tôi thừa nhận nhịp độ là một khuyết điểm.", "hint": "Dùng I will admit the pacing was a flaw." },
+      { "speaker": "a", "en": "Critics loved it, though.", "vi": "Nhưng giới phê bình lại thích nó." },
+      { "speaker": "b", "en": "Critically, it has been praised for the acting.", "vi": "Về mặt phê bình, nó được khen ngợi vì diễn xuất.", "hint": "Dùng Critically, it has been praised for." },
+      { "speaker": "a", "en": "So we just disagree, I guess.", "vi": "Vậy chắc là mình bất đồng thôi." },
+      { "speaker": "b", "en": "At the end of the day, it comes down to taste.", "vi": "Cuối cùng thì, mọi thứ tuỳ vào gu thẩm mỹ.", "hint": "Dùng At the end of the day, it comes down to taste." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friend who loved the new movie and enjoys friendly debate about films.",
+    "opener": "I absolutely loved that new movie.",
+    "goal": "Người học đưa ra đánh giá có lập luận, thừa nhận khuyết điểm hợp lý và kết luận bằng góc nhìn cân bằng."
+  },
+  "drills": [
+    { "vi": "Tôi nghĩ bộ phim này hơi bị thổi phồng quá mức.", "en": "I think the movie is a bit overhyped.", "alts": [] },
+    { "vi": "Tuy nhiên đó là một ý kiến mang tính chủ quan đấy.", "en": "That is a subjective opinion, though.", "alts": [] },
+    { "vi": "Tôi thừa nhận nhịp độ là một khuyết điểm.", "en": "I will admit the pacing was a flaw.", "alts": [] },
+    { "vi": "Về mặt phê bình, nó được khen ngợi vì diễn xuất.", "en": "Critically, it has been praised for the acting.", "alts": [] },
+    { "vi": "Cuối cùng thì, mọi thứ tuỳ vào gu thẩm mỹ.", "en": "At the end of the day, it comes down to taste.", "alts": [] },
+    { "vi": "Kỹ xảo thật ấn tượng.", "en": "The special effects were impressive.", "alts": [] },
+    { "vi": "Cái kết có vẻ hơi gây thất vọng.", "en": "The ending felt a bit underwhelming.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận đánh giá phim, chú ý trọng âm trong subjective.",
+    "Viết ba câu dùng cấu trúc I will admit ___ was a flaw, but ___.",
+    "Luyện nói ba lần câu At the end of the day, it comes down to taste."
+  ]
+}

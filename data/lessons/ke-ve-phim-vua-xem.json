@@ -1,0 +1,98 @@
+{
+  "id": "ke-ve-phim-vua-xem",
+  "title": "Kể về một bộ phim vừa xem",
+  "topic": "Giải trí và phim ảnh",
+  "level": "A2",
+  "summary": "Bạn kể cho đồng nghiệp nghe về một bộ phim bạn vừa xem cuối tuần, bao gồm nội dung và cảm nhận của bạn.",
+  "goals": [
+    "Kể tên và thể loại một bộ phim vừa xem",
+    "Tóm tắt ngắn gọn nội dung phim",
+    "Đưa ra nhận xét cá nhân về bộ phim"
+  ],
+  "vocab": [
+    { "en": "plot", "ipa": "/plɑːt/", "vi": "cốt truyện", "example": "The plot was very interesting." },
+    { "en": "character", "ipa": "/ˈkærəktər/", "vi": "nhân vật", "example": "I liked the main character." },
+    { "en": "ending", "ipa": "/ˈendɪŋ/", "vi": "cái kết", "example": "The ending was surprising." },
+    { "en": "boring", "ipa": "/ˈbɔːrɪŋ/", "vi": "nhàm chán", "example": "The middle part was a bit boring." },
+    { "en": "exciting", "ipa": "/ɪkˈsaɪtɪŋ/", "vi": "hồi hộp, hấp dẫn", "example": "The chase scene was exciting." },
+    { "en": "recommend", "ipa": "/ˌrekəˈmend/", "vi": "giới thiệu, đề xuất", "example": "I recommend this movie." },
+    { "en": "based on", "ipa": "/beɪst ɑːn/", "vi": "dựa trên", "example": "It is based on a true story." },
+    { "en": "sequel", "ipa": "/ˈsiːkwəl/", "vi": "phần tiếp theo", "example": "There will be a sequel next year." },
+    { "en": "review", "ipa": "/rɪˈvjuː/", "vi": "bài đánh giá", "example": "I read a good review about it." },
+    { "en": "genre", "ipa": "/ˈʒɑːnrə/", "vi": "thể loại", "example": "What genre is that movie?" }
+  ],
+  "patterns": [
+    { "en": "I watched a movie called ___.", "vi": "Tôi đã xem một bộ phim tên là ___.", "note": "Giới thiệu tên bộ phim vừa xem." },
+    { "en": "It is about ___.", "vi": "Nó nói về ___.", "note": "Tóm tắt nội dung phim." },
+    { "en": "The best part was ___.", "vi": "Phần hay nhất là ___.", "note": "Nhận xét về phần hay nhất." },
+    { "en": "I would recommend it because ___.", "vi": "Tôi sẽ giới thiệu nó vì ___.", "note": "Đưa ra lời giới thiệu kèm lý do." },
+    { "en": "It is based on a true story.", "vi": "Nó dựa trên một câu chuyện có thật.", "note": "Nói về nguồn gốc của phim." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /ʒ/ trong genre", "tip": "Đưa lưỡi ra sau nhẹ, phát âm giống âm s trong pleasure.", "words": ["genre"] },
+    { "focus": "trọng âm trong exciting và recommend", "tip": "Nhấn vào âm tiết thứ hai: ex-CIT-ing, re-com-MEND.", "words": ["exciting", "recommend"] },
+    { "focus": "âm /ɔː/ trong boring", "tip": "Kéo dài nguyên âm tròn môi rõ ràng.", "words": ["boring"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I watched a movie call Titanic.", "right": "I watched a movie called Titanic.", "vi": "Cần dùng called (quá khứ phân từ) để bổ nghĩa cho movie." },
+    { "wrong": "It is about a man who lose his memory.", "right": "It is about a man who loses his memory.", "vi": "Động từ chia theo chủ ngữ số ít a man, dùng loses." },
+    { "wrong": "I recommend it because is funny.", "right": "I recommend it because it is funny.", "vi": "Cần chủ ngữ it trong mệnh đề sau because." },
+    { "wrong": "It base on true story.", "right": "It is based on a true story.", "vi": "Cần động từ is và mạo từ a trước true story." }
+  ],
+  "variations": [
+    { "situation": "Giới thiệu phim", "formal": "I recently watched a film called Inception.", "casual": "I just watched this movie called Inception.", "vi": "Câu thân mật dùng just và this, tạo cảm giác gần gũi." },
+    { "situation": "Nhận xét tích cực", "formal": "I would highly recommend it.", "casual": "You should totally watch it.", "vi": "Totally là từ nhấn mạnh thân mật phổ biến giữa bạn bè." },
+    { "situation": "Nhận xét tiêu cực nhẹ nhàng", "formal": "The middle part was somewhat slow.", "casual": "It got a bit boring in the middle.", "vi": "Câu thân mật trực tiếp hơn nhưng vẫn nhẹ nhàng." },
+    { "situation": "Nói về cái kết", "formal": "The ending was quite unexpected.", "casual": "The ending totally caught me off guard.", "vi": "Caught me off guard là thành ngữ thân mật cho sự bất ngờ." }
+  ],
+  "culture": [
+    "Kể về phim vừa xem là chủ đề small talk phổ biến, đặc biệt vào đầu tuần sau khi mọi người nghỉ cuối tuần.",
+    "Người bản xứ thường tránh spoil (tiết lộ) cái kết khi kể phim cho người chưa xem, và sẽ nói trước Spoiler alert nếu cần.",
+    "Đọc review (bài đánh giá) trước khi xem phim là thói quen phổ biến để quyết định có nên xem hay không."
+  ],
+  "listening": {
+    "title": "Kể về bộ phim cuối tuần",
+    "passage": "This weekend, I watched a movie called The Great Escape. It is about a group of friends who plan a big trip together. The plot was interesting, but the middle part was a bit boring. The best part was the ending, it was quite surprising. It is based on a true story, which made it even more interesting. I would recommend it because the characters felt very real.",
+    "vi": "Cuối tuần này, tôi đã xem một bộ phim tên là The Great Escape. Nó nói về một nhóm bạn lên kế hoạch cho một chuyến đi lớn cùng nhau. Cốt truyện thú vị, nhưng phần giữa hơi nhàm chán. Phần hay nhất là cái kết, khá bất ngờ. Nó dựa trên một câu chuyện có thật, khiến nó càng thú vị hơn. Tôi sẽ giới thiệu nó vì các nhân vật rất chân thực.",
+    "questions": [
+      { "q": "What is the movie about?", "choices": ["Friends planning a trip together", "A detective solving a crime", "A family moving to a new city"], "answer": 0, "vi": "Đáp án đúng vì phim nói về nhóm bạn lên kế hoạch chuyến đi." },
+      { "q": "What did the speaker think of the middle part?", "choices": ["A bit boring", "Very exciting", "Too short"], "answer": 0, "vi": "Đáp án đúng vì người nói nói phần giữa hơi nhàm chán." },
+      { "q": "Why does the speaker recommend the movie?", "choices": ["The characters felt real", "It was very short", "It had no plot"], "answer": 0, "vi": "Đáp án đúng vì người nói nói các nhân vật rất chân thực." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Đồng nghiệp", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Did you do anything fun this weekend?", "vi": "Cuối tuần bạn có làm gì vui không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I watched a movie called The Great Escape.", "vi": "Có, tôi đã xem một bộ phim tên là The Great Escape.", "hint": "Dùng I watched a movie called." },
+      { "speaker": "a", "en": "What is it about?", "vi": "Nó nói về gì vậy?", "hint": "" },
+      { "speaker": "b", "en": "It is about friends planning a big trip.", "vi": "Nó nói về nhóm bạn lên kế hoạch chuyến đi lớn.", "hint": "Dùng It is about." },
+      { "speaker": "a", "en": "Was it good overall?", "vi": "Nhìn chung nó có hay không?", "hint": "" },
+      { "speaker": "b", "en": "The best part was the ending.", "vi": "Phần hay nhất là cái kết.", "hint": "Dùng The best part was." },
+      { "speaker": "a", "en": "Was any part boring?", "vi": "Có phần nào nhàm chán không?", "hint": "" },
+      { "speaker": "b", "en": "The middle part was a bit boring.", "vi": "Phần giữa hơi nhàm chán.", "hint": "Dùng a bit boring." },
+      { "speaker": "a", "en": "Would you recommend it?", "vi": "Bạn có giới thiệu nó không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I would recommend it.", "vi": "Có, tôi sẽ giới thiệu nó.", "hint": "Dùng I would recommend it." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a colleague curious about how the learner spent their weekend.",
+    "opener": "Did you do anything fun this weekend?",
+    "goal": "Người học kể được tên phim, tóm tắt nội dung và đưa ra nhận xét cá nhân."
+  },
+  "drills": [
+    { "vi": "Tôi đã xem một bộ phim tên là The Great Escape.", "en": "I watched a movie called The Great Escape.", "alts": [] },
+    { "vi": "Nó nói về nhóm bạn lên kế hoạch chuyến đi.", "en": "It is about friends planning a trip.", "alts": [] },
+    { "vi": "Phần hay nhất là cái kết.", "en": "The best part was the ending.", "alts": [] },
+    { "vi": "Tôi sẽ giới thiệu nó vì nó rất hay.", "en": "I would recommend it because it is great.", "alts": [] },
+    { "vi": "Nó dựa trên một câu chuyện có thật.", "en": "It is based on a true story.", "alts": [] },
+    { "vi": "Phần giữa hơi nhàm chán.", "en": "The middle part was a bit boring.", "alts": [] },
+    { "vi": "Cái kết khá bất ngờ.", "en": "The ending was quite surprising.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn kể về một bộ phim bạn vừa xem, chú ý trọng âm trong exciting.",
+    "Viết ba câu tóm tắt nội dung một bộ phim bạn thích.",
+    "Luyện nói ba lần câu I would recommend it because it is great."
+  ]
+}

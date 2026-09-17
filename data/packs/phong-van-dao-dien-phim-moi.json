@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-dao-dien-phim-moi",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Nói về nguồn cảm hứng", "situation": "Người dẫn chương trình hỏi đạo diễn về nguồn cảm hứng làm phim.",
+      "turns": [
+        { "speaker": "a", "en": "Congratulations on the new film. Where did the idea come from?", "vi": "Chúc mừng bộ phim mới. Ý tưởng đến từ đâu vậy?" },
+        { "speaker": "b", "en": "I drew a lot of inspiration from my childhood memories.", "vi": "Tôi lấy rất nhiều cảm hứng từ ký ức thời thơ ấu của mình." },
+        { "speaker": "a", "en": "That sounds very personal.", "vi": "Nghe rất cá nhân đấy." },
+        { "speaker": "b", "en": "It truly was, for me.", "vi": "Với tôi, quả thực là vậy." },
+        { "speaker": "a", "en": "Thank you for sharing that.", "vi": "Cảm ơn bạn đã chia sẻ điều đó." },
+        { "speaker": "b", "en": "It was important to be honest.", "vi": "Việc thành thật là điều quan trọng." }
+      ]},
+    { "title": "Nói về dự án tham vọng", "situation": "Đạo diễn nói về việc bộ phim là một dự án tham vọng.",
+      "turns": [
+        { "speaker": "a", "en": "This must have been a big project.", "vi": "Đây chắc hẳn là một dự án lớn." },
+        { "speaker": "b", "en": "It was certainly an ambitious project.", "vi": "Đó chắc chắn là một dự án tham vọng." },
+        { "speaker": "a", "en": "What made it so challenging?", "vi": "Điều gì khiến nó khó khăn như vậy?" },
+        { "speaker": "b", "en": "We had a limited budget.", "vi": "Chúng tôi có ngân sách hạn chế." },
+        { "speaker": "a", "en": "That is impressive given the results.", "vi": "Vậy ấn tượng đấy so với kết quả." },
+        { "speaker": "b", "en": "Thank you, the whole team worked hard.", "vi": "Cảm ơn, cả ê-kíp đã làm việc chăm chỉ." }
+      ]},
+    { "title": "Né tránh câu hỏi về căng thẳng hậu trường", "situation": "Đạo diễn né tránh khéo léo câu hỏi về căng thẳng khi quay phim.",
+      "turns": [
+        { "speaker": "a", "en": "There have been reports of tension during filming.", "vi": "Có báo cáo về căng thẳng trong quá trình quay phim." },
+        { "speaker": "b", "en": "I would rather not dwell on that, honestly.", "vi": "Thật lòng, tôi không muốn đi sâu vào điều đó." },
+        { "speaker": "a", "en": "Understood, let us move on.", "vi": "Tôi hiểu rồi, mình chuyển chủ đề nhé." },
+        { "speaker": "b", "en": "Thank you for respecting that.", "vi": "Cảm ơn bạn đã tôn trọng điều đó." },
+        { "speaker": "a", "en": "Of course, no problem.", "vi": "Đương nhiên, không sao cả." },
+        { "speaker": "b", "en": "I appreciate your understanding.", "vi": "Tôi cảm kích sự thông cảm của bạn." }
+      ]},
+    { "title": "Trả lời câu hỏi so sánh với phim trước", "situation": "Đạo diễn trả lời câu hỏi so sánh với bộ phim đầu tay.",
+      "turns": [
+        { "speaker": "a", "en": "Some critics compare it to your first film.", "vi": "Một số nhà phê bình so sánh nó với bộ phim đầu tay của bạn." },
+        { "speaker": "b", "en": "Comparisons are natural, but my style has evolved.", "vi": "Việc so sánh là điều tự nhiên, nhưng phong cách của tôi đã phát triển." },
+        { "speaker": "a", "en": "How has it evolved exactly?", "vi": "Chính xác nó đã phát triển thế nào?" },
+        { "speaker": "b", "en": "I have become more confident with pacing.", "vi": "Tôi đã tự tin hơn với nhịp độ phim." },
+        { "speaker": "a", "en": "That growth really shows.", "vi": "Sự phát triển đó thể hiện rõ đấy." },
+        { "speaker": "b", "en": "Thank you, that means a lot.", "vi": "Cảm ơn, điều đó có ý nghĩa nhiều với tôi." }
+      ]},
+    { "title": "Nói về mong muốn với khán giả", "situation": "Đạo diễn nói về điều mong muốn khán giả cảm nhận.",
+      "turns": [
+        { "speaker": "a", "en": "What do you want audiences to take away from it?", "vi": "Bạn muốn khán giả rút ra điều gì từ bộ phim này?" },
+        { "speaker": "b", "en": "I wanted this story to feel authentic and personal.", "vi": "Tôi muốn câu chuyện này cảm thấy chân thực và cá nhân." },
+        { "speaker": "a", "en": "Do you think you achieved that?", "vi": "Bạn có nghĩ mình đã đạt được điều đó không?" },
+        { "speaker": "b", "en": "I believe so, based on early reactions.", "vi": "Tôi tin là vậy, dựa trên phản ứng ban đầu." },
+        { "speaker": "a", "en": "That is wonderful to hear.", "vi": "Nghe thật tuyệt vời." },
+        { "speaker": "b", "en": "It means everything to me.", "vi": "Điều đó có ý nghĩa với tôi rất nhiều." }
+      ]},
+    { "title": "Nói về sự hợp tác với ê-kíp", "situation": "Đạo diễn nói về sự hợp tác quan trọng với ê-kíp.",
+      "turns": [
+        { "speaker": "a", "en": "How was working with your crew this time?", "vi": "Lần này làm việc với ê-kíp thế nào?" },
+        { "speaker": "b", "en": "It was a true collaboration from start to finish.", "vi": "Đó là một sự hợp tác thực sự từ đầu đến cuối." },
+        { "speaker": "a", "en": "That teamwork clearly shows on screen.", "vi": "Tinh thần đồng đội đó thể hiện rõ trên màn ảnh." },
+        { "speaker": "b", "en": "Thank you, I am proud of everyone involved.", "vi": "Cảm ơn, tôi tự hào về mọi người tham gia." },
+        { "speaker": "a", "en": "It really is a strong cast and crew.", "vi": "Đó thực sự là dàn diễn viên và ê-kíp mạnh." },
+        { "speaker": "b", "en": "I could not agree more.", "vi": "Tôi hoàn toàn đồng ý." }
+      ]},
+    { "title": "Nói về hạn chế ngân sách", "situation": "Đạo diễn nói về những hạn chế ngân sách đã gặp phải.",
+      "turns": [
+        { "speaker": "a", "en": "Did budget limit your creative choices?", "vi": "Ngân sách có giới hạn lựa chọn sáng tạo của bạn không?" },
+        { "speaker": "b", "en": "We faced some budget constraints, yes.", "vi": "Vâng, chúng tôi gặp một số hạn chế ngân sách." },
+        { "speaker": "a", "en": "How did you work around that?", "vi": "Bạn đã giải quyết điều đó thế nào?" },
+        { "speaker": "b", "en": "We focused on storytelling over spectacle.", "vi": "Chúng tôi tập trung vào kể chuyện thay vì hiệu ứng hoành tráng." },
+        { "speaker": "a", "en": "That choice paid off beautifully.", "vi": "Lựa chọn đó đã đền đáp xứng đáng." },
+        { "speaker": "b", "en": "Thank you, that means a lot.", "vi": "Cảm ơn, điều đó có ý nghĩa nhiều với tôi." }
+      ]},
+    { "title": "Nói về cách diễn giải của khán giả", "situation": "Đạo diễn nói về việc để khán giả tự diễn giải bộ phim.",
+      "turns": [
+        { "speaker": "a", "en": "The ending left a lot open to interpretation.", "vi": "Cái kết để lại nhiều điều cho khán giả tự diễn giải." },
+        { "speaker": "b", "en": "That was intentional, honestly.", "vi": "Thật lòng, đó là điều có chủ đích." },
+        { "speaker": "a", "en": "Why did you choose that approach?", "vi": "Vì sao bạn chọn cách tiếp cận đó?" },
+        { "speaker": "b", "en": "Everyone has their own interpretation of life.", "vi": "Ai cũng có cách diễn giải riêng về cuộc sống." },
+        { "speaker": "a", "en": "That is a thoughtful choice.", "vi": "Đó là lựa chọn chu đáo đấy." },
+        { "speaker": "b", "en": "I hope audiences appreciate it.", "vi": "Tôi mong khán giả sẽ đón nhận điều đó." }
+      ]},
+    { "title": "Kết thúc phỏng vấn với lời cảm ơn", "situation": "Đạo diễn kết thúc buổi phỏng vấn với lời cảm ơn khán giả.",
+      "turns": [
+        { "speaker": "a", "en": "Any final words before we close?", "vi": "Có lời nào cuối cùng trước khi kết thúc không?" },
+        { "speaker": "b", "en": "Just a heartfelt thank you to everyone who supported this film.", "vi": "Chỉ là lời cảm ơn chân thành đến tất cả những ai đã ủng hộ bộ phim này." },
+        { "speaker": "a", "en": "It has been a pleasure speaking with you.", "vi": "Thật là niềm vui được trò chuyện với bạn." },
+        { "speaker": "b", "en": "The pleasure was all mine.", "vi": "Đó là niềm vui của tôi." },
+        { "speaker": "a", "en": "We look forward to your next project.", "vi": "Chúng tôi mong chờ dự án tiếp theo của bạn." },
+        { "speaker": "b", "en": "Thank you, I cannot wait to share it.", "vi": "Cảm ơn, tôi không thể chờ để chia sẻ nó." }
+      ]},
+    { "title": "Phỏng vấn phức tạp với nhiều câu hỏi nhạy cảm liên tiếp về sáng tạo và hậu trường", "situation": "Người dẫn chương trình đặt liên tiếp nhiều câu hỏi nhạy cảm về cả quá trình sáng tạo và những vấn đề hậu trường. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Some say this film's vision was compromised by studio interference. Any truth to that?", "vi": "Có người nói tầm nhìn nghệ thuật của phim bị ảnh hưởng bởi sự can thiệp của hãng phim. Có đúng không vậy?" },
+        { "speaker": "b", "en": "I would rather not dwell on the specifics of that relationship.", "vi": "Tôi không muốn đi sâu vào chi tiết của mối quan hệ đó." },
+        { "speaker": "a", "en": "Fair enough. But did the constraints affect your original narrative?", "vi": "Cũng hợp lý. Nhưng những hạn chế đó có ảnh hưởng đến mạch truyện ban đầu của bạn không?" },
+        { "speaker": "b", "en": "Every ambitious project involves some compromise, and this was no exception.", "vi": "Mọi dự án tham vọng đều có sự thoả hiệp nào đó, và đây cũng không ngoại lệ." },
+        { "speaker": "a", "en": "And how do you respond to critics who say it lacks the authenticity of your debut?", "vi": "Còn bạn phản hồi thế nào với những nhà phê bình nói nó thiếu sự chân thực như tác phẩm đầu tay?" },
+        { "speaker": "b", "en": "Comparisons are natural, but I believe authenticity comes in many different forms as an artist evolves.", "vi": "Việc so sánh là điều tự nhiên, nhưng tôi tin sự chân thực đến dưới nhiều hình thức khác nhau khi một nghệ sĩ trưởng thành." }
+      ]}
+  ]
+}

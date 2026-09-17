@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:07:24.087Z",
+  "generatedAt": "2026-09-17T09:15:21.537Z",
   "lessons": [
     {
       "id": "cam-on-xin-loi-lich-su",
@@ -138,6 +138,14 @@
       "turns": 10
     },
     {
+      "id": "ru-ban-di-xem-phim",
+      "title": "Rủ bạn đi xem phim cuối tuần",
+      "topic": "Giải trí và phim ảnh",
+      "level": "A1",
+      "summary": "Bạn rủ người bạn thân đi xem phim vào cuối tuần, chọn phim và giờ chiếu phù hợp.",
+      "turns": 10
+    },
+    {
       "id": "so-dem-gio-giac-lich-hen",
       "title": "Số đếm, giờ giấc và lịch hẹn",
       "topic": "Hẹn đi xem phim",
@@ -264,6 +272,14 @@
       "level": "A2",
       "summary": "Bạn trò chuyện với một đồng nghiệp thân vào sáng thứ Hai về những việc đã làm cuối tuần. Bài học tập trung vào thì quá khứ đơn và các động từ bất quy tắc thông dụng.",
       "turns": 12
+    },
+    {
+      "id": "ke-ve-phim-vua-xem",
+      "title": "Kể về một bộ phim vừa xem",
+      "topic": "Giải trí và phim ảnh",
+      "level": "A2",
+      "summary": "Bạn kể cho đồng nghiệp nghe về một bộ phim bạn vừa xem cuối tuần, bao gồm nội dung và cảm nhận của bạn.",
+      "turns": 10
     },
     {
       "id": "lam-thu-tuc-o-san-bay",
@@ -512,6 +528,14 @@
       "level": "B1",
       "summary": "Bạn gặp một đồng nghiệp từ phòng khác trong thang máy và bắt đầu trò chuyện tự nhiên. Cuộc nói chuyện đi từ chào hỏi đến chia sẻ công việc và hẹn uống cà phê.",
       "turns": 14
+    },
+    {
+      "id": "chon-phim-cuoi-tuan",
+      "title": "Thảo luận nên xem phim thể loại gì cuối tuần này",
+      "topic": "Chọn phim cùng bạn bè",
+      "level": "B1",
+      "summary": "Bạn thảo luận với người bạn thân để chọn thể loại phim phù hợp cho buổi xem phim cuối tuần này.",
+      "turns": 10
     },
     {
       "id": "thao-luan-ngan-sach-nho",
@@ -770,6 +794,14 @@
       "turns": 16
     },
     {
+      "id": "tranh-luan-danh-gia-phim",
+      "title": "Tranh luận đánh giá một bộ phim mới ra mắt",
+      "topic": "Tranh luận về phim ảnh",
+      "level": "B2",
+      "summary": "Bạn tranh luận với một người bạn có gu phim khác về việc đánh giá một bộ phim mới ra mắt: khen chê diễn xuất, kịch bản và kỹ xảo.",
+      "turns": 10
+    },
+    {
       "id": "tranh-luan-doi-bong-yeu-thich",
       "title": "Tranh luận đội bóng nào hay hơn",
       "topic": "Tranh luận thể thao",
@@ -960,6 +992,14 @@
       "level": "C1",
       "summary": "Bạn là khách mời chuyên môn trong một podcast về công nghệ và sản phẩm. Bạn luyện cách trình bày quan điểm có sắc thái, giải thích đánh đổi và trả lời câu hỏi khó một cách tự nhiên.",
       "turns": 18
+    },
+    {
+      "id": "phong-van-dao-dien-phim-moi",
+      "title": "Trả lời phỏng vấn với tư cách đạo diễn về bộ phim mới",
+      "topic": "Phỏng vấn điện ảnh",
+      "level": "C1",
+      "summary": "Bạn đóng vai một đạo diễn trả lời phỏng vấn của người dẫn chương trình về ý tưởng, quá trình làm phim và những khó khăn khi thực hiện bộ phim mới.",
+      "turns": 10
     },
     {
       "id": "phong-van-van-dong-vien-chuyen-nghiep",

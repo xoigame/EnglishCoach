@@ -1,0 +1,98 @@
+{
+  "id": "ru-ban-di-xem-phim",
+  "title": "Rủ bạn đi xem phim cuối tuần",
+  "topic": "Giải trí và phim ảnh",
+  "level": "A1",
+  "summary": "Bạn rủ người bạn thân đi xem phim vào cuối tuần, chọn phim và giờ chiếu phù hợp.",
+  "goals": [
+    "Rủ bạn đi xem phim",
+    "Nói tên và thể loại phim yêu thích",
+    "Thoả thuận giờ chiếu phù hợp"
+  ],
+  "vocab": [
+    { "en": "movie", "ipa": "/ˈmuːvi/", "vi": "phim", "example": "Let us watch a movie." },
+    { "en": "cinema", "ipa": "/ˈsɪnəmə/", "vi": "rạp chiếu phim", "example": "The cinema is near my house." },
+    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "vi": "vé", "example": "I bought two tickets." },
+    { "en": "showtime", "ipa": "/ˈʃoʊtaɪm/", "vi": "giờ chiếu", "example": "What is the showtime?" },
+    { "en": "action", "ipa": "/ˈækʃn/", "vi": "hành động (thể loại phim)", "example": "I like action movies." },
+    { "en": "comedy", "ipa": "/ˈkɑːmədi/", "vi": "hài kịch", "example": "This is a funny comedy." },
+    { "en": "popcorn", "ipa": "/ˈpɑːpkɔːrn/", "vi": "bỏng ngô", "example": "I want some popcorn." },
+    { "en": "seat", "ipa": "/siːt/", "vi": "chỗ ngồi", "example": "We have good seats." },
+    { "en": "free", "ipa": "/friː/", "vi": "rảnh", "example": "Are you free tonight?" },
+    { "en": "together", "ipa": "/təˈɡeðər/", "vi": "cùng nhau", "example": "Let us go together." }
+  ],
+  "patterns": [
+    { "en": "Do you want to watch a movie?", "vi": "Bạn có muốn xem phim không?", "note": "Lời rủ đi xem phim." },
+    { "en": "What kind of movie do you like?", "vi": "Bạn thích thể loại phim nào?", "note": "Hỏi thể loại phim yêu thích." },
+    { "en": "What time is the showtime?", "vi": "Giờ chiếu là mấy giờ?", "note": "Hỏi giờ chiếu phim." },
+    { "en": "I will buy the tickets.", "vi": "Tôi sẽ mua vé.", "note": "Đề nghị mua vé." },
+    { "en": "Let us get some popcorn.", "vi": "Mình mua ít bỏng ngô nhé.", "note": "Đề nghị mua đồ ăn vặt." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /ʃ/ trong showtime và action", "tip": "Chu môi nhẹ, thổi hơi qua răng.", "words": ["showtime", "action"] },
+    { "focus": "âm /iː/ trong seat và free", "tip": "Kéo dài nguyên âm rõ ràng.", "words": ["seat", "free"] },
+    { "focus": "trọng âm trong popcorn", "tip": "Nhấn vào âm tiết đầu: POP-corn.", "words": ["popcorn"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Do you want watch a movie?", "right": "Do you want to watch a movie?", "vi": "Cần to trước watch sau want." },
+    { "wrong": "What kind movie do you like?", "right": "What kind of movie do you like?", "vi": "Cần giới từ of giữa kind và movie." },
+    { "wrong": "I will buy ticket.", "right": "I will buy the tickets.", "vi": "Cần mạo từ the và số nhiều tickets khi mua nhiều vé." },
+    { "wrong": "Are you free tonight for watch movie?", "right": "Are you free to watch a movie tonight?", "vi": "Cần to watch, không dùng for watch." }
+  ],
+  "variations": [
+    { "situation": "Rủ đi xem phim", "formal": "Would you like to watch a movie this weekend?", "casual": "Wanna watch a movie?", "vi": "Câu thân mật rất phổ biến giữa bạn bè thân thiết." },
+    { "situation": "Hỏi thể loại phim", "formal": "What kind of movies do you enjoy?", "casual": "What movies are you into?", "vi": "Câu thân mật tự nhiên hơn giữa bạn bè cùng tuổi." },
+    { "situation": "Đề nghị mua vé", "formal": "I would be happy to buy the tickets.", "casual": "I got the tickets.", "vi": "Câu thân mật ngắn gọn, thường dùng khi đã xong việc." },
+    { "situation": "Đề nghị đồ ăn vặt", "formal": "Shall we get some snacks?", "casual": "Let us grab some popcorn.", "vi": "Grab là từ thân mật phổ biến cho việc mua nhanh đồ ăn." }
+  ],
+  "culture": [
+    "Rủ bạn xem phim là hoạt động xã giao phổ biến ở các nước nói tiếng Anh, thường vào cuối tuần.",
+    "Đến rạp sớm để mua bỏng ngô và chọn chỗ ngồi tốt là thói quen phổ biến.",
+    "Cụm What are you into? là cách hỏi sở thích rất tự nhiên và thân thiện giữa bạn bè."
+  ],
+  "listening": {
+    "title": "Rủ bạn đi xem phim",
+    "passage": "Hi, are you free this weekend? I want to watch a movie. There is a new action movie at the cinema. The showtime is seven in the evening. I will buy the tickets, do not worry. We can get some popcorn too. Let us meet at six thirty at the cinema entrance.",
+    "vi": "Chào, cuối tuần này bạn rảnh không? Tôi muốn xem phim. Có một phim hành động mới ở rạp. Giờ chiếu là bảy giờ tối. Tôi sẽ mua vé, đừng lo. Mình có thể mua thêm bỏng ngô nữa. Mình gặp nhau lúc sáu giờ ba mươi ở cổng rạp nhé.",
+    "questions": [
+      { "q": "What kind of movie is it?", "choices": ["An action movie", "A comedy", "A cartoon"], "answer": 0, "vi": "Đáp án đúng vì người nói nói đó là phim hành động." },
+      { "q": "What time is the showtime?", "choices": ["Seven in the evening", "Seven in the morning", "Six in the evening"], "answer": 0, "vi": "Đáp án đúng vì giờ chiếu là bảy giờ tối." },
+      { "q": "Who will buy the tickets?", "choices": ["The speaker", "The friend", "Both of them"], "answer": 0, "vi": "Đáp án đúng vì người nói nói sẽ tự mua vé." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn thân", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Do you want to watch a movie this weekend?", "vi": "Cuối tuần này bạn có muốn xem phim không?", "hint": "" },
+      { "speaker": "b", "en": "Sure! What kind of movie do you like?", "vi": "Được đấy! Bạn thích thể loại phim nào?", "hint": "Dùng What kind of movie." },
+      { "speaker": "a", "en": "I like action movies.", "vi": "Tôi thích phim hành động.", "hint": "" },
+      { "speaker": "b", "en": "Me too! What time is the showtime?", "vi": "Tôi cũng vậy! Giờ chiếu là mấy giờ?", "hint": "Dùng What time is the showtime." },
+      { "speaker": "a", "en": "It is at seven in the evening.", "vi": "Là bảy giờ tối.", "hint": "" },
+      { "speaker": "b", "en": "Great, I will buy the tickets.", "vi": "Tuyệt, tôi sẽ mua vé.", "hint": "Dùng I will buy the tickets." },
+      { "speaker": "a", "en": "Let us get some popcorn too.", "vi": "Mình mua thêm bỏng ngô nữa nhé.", "hint": "" },
+      { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe được với tôi đấy.", "hint": "Dùng Sounds good to me." },
+      { "speaker": "a", "en": "Let us meet at six thirty.", "vi": "Mình gặp nhau lúc sáu giờ ba mươi nhé.", "hint": "" },
+      { "speaker": "b", "en": "Okay, see you then!", "vi": "Được, hẹn gặp lúc đó!", "hint": "Dùng See you then." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a close friend inviting the learner to watch a movie this weekend.",
+    "opener": "Do you want to watch a movie this weekend?",
+    "goal": "Người học đồng ý đi xem phim, nói thể loại yêu thích và thoả thuận giờ giấc."
+  },
+  "drills": [
+    { "vi": "Bạn có muốn xem phim không?", "en": "Do you want to watch a movie?", "alts": [] },
+    { "vi": "Bạn thích thể loại phim nào?", "en": "What kind of movie do you like?", "alts": [] },
+    { "vi": "Giờ chiếu là mấy giờ?", "en": "What time is the showtime?", "alts": [] },
+    { "vi": "Tôi sẽ mua vé.", "en": "I will buy the tickets.", "alts": [] },
+    { "vi": "Mình mua ít bỏng ngô nhé.", "en": "Let us get some popcorn.", "alts": [] },
+    { "vi": "Tôi thích phim hài.", "en": "I like comedy movies.", "alts": [] },
+    { "vi": "Mình gặp nhau lúc sáu giờ ba mươi nhé.", "en": "Let us meet at six thirty.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn rủ bạn đi xem phim, chú ý trọng âm trong popcorn.",
+    "Viết ba câu về thể loại phim bạn thích và vì sao.",
+    "Luyện nói ba lần câu What time is the showtime?"
+  ]
+}

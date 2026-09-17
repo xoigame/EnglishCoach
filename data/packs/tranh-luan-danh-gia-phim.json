@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-danh-gia-phim",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu tranh luận về bộ phim mới", "situation": "Hai người bắt đầu tranh luận về bộ phim mới ra mắt.",
+      "turns": [
+        { "speaker": "a", "en": "I absolutely loved that new movie.", "vi": "Tôi cực kỳ thích bộ phim mới đó." },
+        { "speaker": "b", "en": "I think the movie is a bit overhyped.", "vi": "Tôi nghĩ bộ phim này hơi bị thổi phồng quá mức." },
+        { "speaker": "a", "en": "Why do you say that?", "vi": "Vì sao bạn nói vậy?" },
+        { "speaker": "b", "en": "The screenplay felt weak to me.", "vi": "Với tôi, kịch bản có vẻ yếu." },
+        { "speaker": "a", "en": "Interesting, I did not notice that.", "vi": "Thú vị đấy, tôi không để ý điều đó." },
+        { "speaker": "b", "en": "Everyone sees things differently.", "vi": "Ai cũng nhìn nhận sự việc khác nhau." }
+      ]},
+    { "title": "Khen kỹ xảo phim", "situation": "Bạn khen kỹ xảo của bộ phim.",
+      "turns": [
+        { "speaker": "a", "en": "The special effects were amazing.", "vi": "Kỹ xảo tuyệt vời." },
+        { "speaker": "b", "en": "That is a subjective opinion, though.", "vi": "Tuy nhiên đó là một ý kiến mang tính chủ quan đấy." },
+        { "speaker": "a", "en": "Fair enough, but I really enjoyed them.", "vi": "Cũng hợp lý, nhưng tôi thực sự thích chúng." },
+        { "speaker": "b", "en": "I can respect that opinion.", "vi": "Tôi có thể tôn trọng ý kiến đó." },
+        { "speaker": "a", "en": "Thank you for understanding.", "vi": "Cảm ơn bạn đã thông cảm." },
+        { "speaker": "b", "en": "Of course, that is what debate is for.", "vi": "Đương nhiên, đó là mục đích của tranh luận mà." }
+      ]},
+    { "title": "Thừa nhận khuyết điểm của phim", "situation": "Bạn thừa nhận một khuyết điểm nhỏ của bộ phim.",
+      "turns": [
+        { "speaker": "a", "en": "What did you not like about it?", "vi": "Bạn không thích điều gì ở nó vậy?" },
+        { "speaker": "b", "en": "I will admit the pacing was a flaw.", "vi": "Tôi thừa nhận nhịp độ là một khuyết điểm." },
+        { "speaker": "a", "en": "I noticed that too, actually.", "vi": "Thực ra tôi cũng để ý điều đó." },
+        { "speaker": "b", "en": "It felt too slow in the middle.", "vi": "Nó có vẻ quá chậm ở phần giữa." },
+        { "speaker": "a", "en": "That is a valid criticism.", "vi": "Đó là lời phê bình hợp lý đấy." },
+        { "speaker": "b", "en": "Still, the ending made up for it.", "vi": "Dù vậy, cái kết đã bù đắp lại cho điều đó." }
+      ]},
+    { "title": "Đưa góc nhìn từ giới phê bình", "situation": "Bạn đưa góc nhìn từ giới phê bình chuyên môn.",
+      "turns": [
+        { "speaker": "a", "en": "Critics loved it, though.", "vi": "Nhưng giới phê bình lại thích nó." },
+        { "speaker": "b", "en": "Critically, it has been praised for the acting.", "vi": "Về mặt phê bình, nó được khen ngợi vì diễn xuất." },
+        { "speaker": "a", "en": "The lead actor was excellent.", "vi": "Diễn viên chính rất xuất sắc." },
+        { "speaker": "b", "en": "I agree with that completely.", "vi": "Tôi hoàn toàn đồng ý với điều đó." },
+        { "speaker": "a", "en": "So we agree on something.", "vi": "Vậy là mình đồng ý một điểm rồi." },
+        { "speaker": "b", "en": "Yes, that is a good start.", "vi": "Vâng, đó là khởi đầu tốt đấy." }
+      ]},
+    { "title": "Kết luận bằng quan điểm về gu thẩm mỹ", "situation": "Bạn kết luận cuộc tranh luận bằng quan điểm về gu thẩm mỹ.",
+      "turns": [
+        { "speaker": "a", "en": "So we just disagree, I guess.", "vi": "Vậy chắc là mình bất đồng thôi." },
+        { "speaker": "b", "en": "At the end of the day, it comes down to taste.", "vi": "Cuối cùng thì, mọi thứ tuỳ vào gu thẩm mỹ." },
+        { "speaker": "a", "en": "That is a fair way to put it.", "vi": "Đó là cách nói hợp lý đấy." },
+        { "speaker": "b", "en": "I enjoyed this discussion anyway.", "vi": "Dù sao tôi cũng thích cuộc thảo luận này." },
+        { "speaker": "a", "en": "Me too, honestly.", "vi": "Thật lòng, tôi cũng vậy." },
+        { "speaker": "b", "en": "Let us watch another movie together soon.", "vi": "Lúc nào mình cùng xem phim khác nhé." }
+      ]},
+    { "title": "Bàn về cái kết gây thất vọng", "situation": "Bạn bàn về việc cái kết phim gây thất vọng nhẹ.",
+      "turns": [
+        { "speaker": "a", "en": "The ending felt a bit underwhelming to me.", "vi": "Với tôi, cái kết có vẻ hơi gây thất vọng." },
+        { "speaker": "b", "en": "Really? I thought it was fitting.", "vi": "Thật vậy sao? Tôi nghĩ nó phù hợp mà." },
+        { "speaker": "a", "en": "I expected something more dramatic.", "vi": "Tôi mong đợi điều gì đó kịch tính hơn." },
+        { "speaker": "b", "en": "That is understandable, I guess.", "vi": "Tôi nghĩ vậy cũng dễ hiểu." },
+        { "speaker": "a", "en": "Maybe my expectations were too high.", "vi": "Có lẽ kỳ vọng của tôi quá cao." },
+        { "speaker": "b", "en": "That happens with hyped movies.", "vi": "Điều đó xảy ra với những phim được thổi phồng." }
+      ]},
+    { "title": "So sánh với một kiệt tác điện ảnh", "situation": "Bạn so sánh bộ phim với một kiệt tác điện ảnh kinh điển.",
+      "turns": [
+        { "speaker": "a", "en": "Some are calling it a masterpiece.", "vi": "Một số người gọi nó là kiệt tác." },
+        { "speaker": "b", "en": "That seems like a strong claim.", "vi": "Nghe có vẻ là tuyên bố mạnh mẽ đấy." },
+        { "speaker": "a", "en": "I would not go that far myself.", "vi": "Bản thân tôi sẽ không nói xa đến vậy." },
+        { "speaker": "b", "en": "I agree, it is good, not perfect.", "vi": "Tôi đồng ý, nó hay, nhưng chưa hoàn hảo." },
+        { "speaker": "a", "en": "Exactly my thoughts too.", "vi": "Chính xác cũng là suy nghĩ của tôi." },
+        { "speaker": "b", "en": "Glad we agree on that.", "vi": "Vui vì chúng ta đồng ý điều đó." }
+      ]},
+    { "title": "Bảo vệ quan điểm trước áp lực số đông", "situation": "Bạn bảo vệ quan điểm của mình dù nhiều người không đồng ý.",
+      "turns": [
+        { "speaker": "a", "en": "Everyone online loves this movie.", "vi": "Ai trên mạng cũng thích bộ phim này." },
+        { "speaker": "b", "en": "That does not change my opinion though.", "vi": "Nhưng điều đó không thay đổi ý kiến của tôi." },
+        { "speaker": "a", "en": "Fair enough, opinions can differ.", "vi": "Cũng hợp lý, ý kiến có thể khác nhau." },
+        { "speaker": "b", "en": "Exactly, that is normal.", "vi": "Chính xác, đó là điều bình thường." },
+        { "speaker": "a", "en": "I respect your honesty.", "vi": "Tôi tôn trọng sự thẳng thắn của bạn." },
+        { "speaker": "b", "en": "Thank you, I appreciate that.", "vi": "Cảm ơn, tôi cảm kích điều đó." }
+      ]},
+    { "title": "Đề xuất xem lại phim để đánh giá lại", "situation": "Bạn đề xuất xem lại phim để có đánh giá công bằng hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Maybe we should watch it again.", "vi": "Có lẽ mình nên xem lại nó." },
+        { "speaker": "b", "en": "That could change our opinions.", "vi": "Điều đó có thể thay đổi ý kiến của mình." },
+        { "speaker": "a", "en": "Sometimes a second viewing helps.", "vi": "Đôi khi xem lại lần hai giúp ích." },
+        { "speaker": "b", "en": "Let us try that this weekend.", "vi": "Cuối tuần này mình thử xem nhé." },
+        { "speaker": "a", "en": "Sounds like a good plan.", "vi": "Nghe như kế hoạch tốt đấy." },
+        { "speaker": "b", "en": "I am curious to see if my opinion changes.", "vi": "Tôi tò mò xem ý kiến mình có thay đổi không." }
+      ]},
+    { "title": "Tranh luận sâu và toàn diện về mọi khía cạnh của bộ phim", "situation": "Hai người tranh luận sâu và toàn diện về mọi khía cạnh của bộ phim: diễn xuất, kịch bản, kỹ xảo, và nhịp độ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Taking everything into account, I still think it is overhyped overall.", "vi": "Xét mọi thứ, tôi vẫn nghĩ nhìn chung nó bị thổi phồng quá mức." },
+        { "speaker": "b", "en": "I will admit the pacing was a flaw, but the acting was genuinely outstanding.", "vi": "Tôi thừa nhận nhịp độ là khuyết điểm, nhưng diễn xuất thực sự xuất sắc." },
+        { "speaker": "a", "en": "The screenplay had weak moments too, though the special effects were impressive.", "vi": "Kịch bản cũng có những đoạn yếu, dù kỹ xảo ấn tượng." },
+        { "speaker": "b", "en": "Critically, it has been praised for balancing all those elements well.", "vi": "Về mặt phê bình, nó được khen ngợi vì cân bằng tốt tất cả những yếu tố đó." },
+        { "speaker": "a", "en": "That is a fair point, but balance does not always mean excellence.", "vi": "Đó là điểm hợp lý, nhưng cân bằng không phải lúc nào cũng đồng nghĩa với xuất sắc." },
+        { "speaker": "b", "en": "True, at the end of the day, it really comes down to what each viewer values most.", "vi": "Đúng vậy, cuối cùng thì, mọi thứ thực sự tuỳ vào điều mỗi khán giả coi trọng nhất." }
+      ]}
+  ]
+}

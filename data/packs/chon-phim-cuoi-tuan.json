@@ -1,0 +1,96 @@
+{
+  "id": "chon-phim-cuoi-tuan",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Muốn xem phim kinh dị", "situation": "Bạn muốn xem phim kinh dị nhưng bạn mình không thích.",
+      "turns": [
+        { "speaker": "a", "en": "I really want to watch a horror movie tonight.", "vi": "Tối nay tôi thực sự muốn xem phim kinh dị." },
+        { "speaker": "b", "en": "I am not really in the mood for horror.", "vi": "Tôi không thực sự có tâm trạng để xem phim kinh dị." },
+        { "speaker": "a", "en": "That is okay, what do you prefer?", "vi": "Không sao, bạn thích gì hơn?" },
+        { "speaker": "b", "en": "Maybe something lighter.", "vi": "Có lẽ gì đó nhẹ nhàng hơn." },
+        { "speaker": "a", "en": "Let us think of options.", "vi": "Mình nghĩ ra vài lựa chọn nhé." },
+        { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe được với tôi đấy." }
+      ]},
+    { "title": "Đề xuất phim hài lãng mạn", "situation": "Bạn đề xuất xem phim hài lãng mạn thay vào đó.",
+      "turns": [
+        { "speaker": "a", "en": "How about a romantic comedy instead?", "vi": "Hay là phim hài lãng mạn thay vào đó thì sao?" },
+        { "speaker": "b", "en": "Those can be a bit predictable, though.", "vi": "Nhưng loại đó có thể hơi dễ đoán." },
+        { "speaker": "a", "en": "True, but they are fun.", "vi": "Đúng vậy, nhưng chúng vui mà." },
+        { "speaker": "b", "en": "That is a fair point.", "vi": "Đó là điểm hợp lý đấy." },
+        { "speaker": "a", "en": "So should we watch one?", "vi": "Vậy mình xem một phim nhé?" },
+        { "speaker": "b", "en": "Sure, let us do that.", "vi": "Được, mình làm vậy đi." }
+      ]},
+    { "title": "Đề xuất thoả hiệp bằng phim giật gân", "situation": "Bạn đề xuất thoả hiệp bằng cách chọn phim giật gân.",
+      "turns": [
+        { "speaker": "a", "en": "How about we compromise on a thriller?", "vi": "Hay là mình thoả hiệp bằng phim giật gân?" },
+        { "speaker": "b", "en": "That sounds gripping actually.", "vi": "Nghe cuốn hút thật đấy." },
+        { "speaker": "a", "en": "Not too scary, but still exciting.", "vi": "Không quá đáng sợ, nhưng vẫn hồi hộp." },
+        { "speaker": "b", "en": "That works for both of us.", "vi": "Vậy hợp với cả hai chúng ta." },
+        { "speaker": "a", "en": "Great, let us pick one.", "vi": "Tuyệt, mình chọn một phim nhé." },
+        { "speaker": "b", "en": "I am looking forward to it.", "vi": "Tôi mong chờ điều đó." }
+      ]},
+    { "title": "Nghe nói phim được đánh giá cao", "situation": "Bạn nghe nói một bộ phim được đánh giá cao.",
+      "turns": [
+        { "speaker": "a", "en": "I heard it has a high rating.", "vi": "Tôi nghe nói nó được đánh giá cao." },
+        { "speaker": "b", "en": "Really? Where did you hear that?", "vi": "Thật vậy sao? Bạn nghe ở đâu vậy?" },
+        { "speaker": "a", "en": "I read some reviews online.", "vi": "Tôi đọc vài bài đánh giá trên mạng." },
+        { "speaker": "b", "en": "That makes me more interested.", "vi": "Vậy khiến tôi hứng thú hơn." },
+        { "speaker": "a", "en": "Let us give it a try then.", "vi": "Vậy mình thử xem sao nhé." },
+        { "speaker": "b", "en": "Okay, I am convinced.", "vi": "Được, tôi bị thuyết phục rồi." }
+      ]},
+    { "title": "Xem trailer trước khi quyết định", "situation": "Bạn đề nghị xem trailer trước khi quyết định.",
+      "turns": [
+        { "speaker": "a", "en": "Let us watch the trailer first.", "vi": "Mình xem đoạn giới thiệu trước đã." },
+        { "speaker": "b", "en": "Good idea, let us check it out.", "vi": "Ý hay, mình xem thử đi." },
+        { "speaker": "a", "en": "It looks really gripping.", "vi": "Trông thật cuốn hút đấy." },
+        { "speaker": "b", "en": "I am convinced now.", "vi": "Giờ tôi đã bị thuyết phục rồi." },
+        { "speaker": "a", "en": "Let us buy the tickets then.", "vi": "Vậy mình mua vé đi." },
+        { "speaker": "b", "en": "Sounds like a plan.", "vi": "Nghe như một kế hoạch tốt đấy." }
+      ]},
+    { "title": "Không thích phim tài liệu", "situation": "Bạn nói không thích phim tài liệu tối nay.",
+      "turns": [
+        { "speaker": "a", "en": "What about a documentary?", "vi": "Còn phim tài liệu thì sao?" },
+        { "speaker": "b", "en": "I am not in the mood for that tonight.", "vi": "Tối nay tôi không có tâm trạng cho cái đó." },
+        { "speaker": "a", "en": "That is fine, any other ideas?", "vi": "Không sao, có ý tưởng nào khác không?" },
+        { "speaker": "b", "en": "Maybe something more relaxing.", "vi": "Có lẽ gì đó thư giãn hơn." },
+        { "speaker": "a", "en": "Let us find something together.", "vi": "Mình cùng tìm gì đó nhé." },
+        { "speaker": "b", "en": "Sounds good.", "vi": "Nghe được đấy." }
+      ]},
+    { "title": "Đồng ý sau khi nghe lý do thuyết phục", "situation": "Bạn đồng ý sau khi nghe lý do thuyết phục.",
+      "turns": [
+        { "speaker": "a", "en": "This movie has great reviews everywhere.", "vi": "Bộ phim này có đánh giá tốt ở khắp nơi." },
+        { "speaker": "b", "en": "That is convincing, honestly.", "vi": "Thật lòng, điều đó thuyết phục đấy." },
+        { "speaker": "a", "en": "So shall we watch it?", "vi": "Vậy mình xem nó nhé?" },
+        { "speaker": "b", "en": "Yes, let us go with that one.", "vi": "Được, mình chọn phim đó đi." },
+        { "speaker": "a", "en": "Great choice.", "vi": "Lựa chọn tuyệt vời." },
+        { "speaker": "b", "en": "I think so too.", "vi": "Tôi cũng nghĩ vậy." }
+      ]},
+    { "title": "Từ chối phim vì đã xem rồi", "situation": "Bạn từ chối một bộ phim vì đã xem rồi.",
+      "turns": [
+        { "speaker": "a", "en": "How about this action movie?", "vi": "Phim hành động này thì sao?" },
+        { "speaker": "b", "en": "I have actually already seen it.", "vi": "Thực ra tôi đã xem rồi." },
+        { "speaker": "a", "en": "Oh, was it good?", "vi": "Ồ, có hay không?" },
+        { "speaker": "b", "en": "It was decent, but predictable.", "vi": "Cũng được, nhưng dễ đoán." },
+        { "speaker": "a", "en": "Let us find something else then.", "vi": "Vậy mình tìm gì đó khác nhé." },
+        { "speaker": "b", "en": "Good idea.", "vi": "Ý hay đấy." }
+      ]},
+    { "title": "Cuối cùng chọn được phim ưng ý", "situation": "Cuối cùng bạn và bạn mình chọn được phim ưng ý cả hai.",
+      "turns": [
+        { "speaker": "a", "en": "I think we finally found the right one.", "vi": "Tôi nghĩ cuối cùng mình đã tìm được phim ưng ý rồi." },
+        { "speaker": "b", "en": "Yes, this looks perfect for tonight.", "vi": "Vâng, cái này trông hoàn hảo cho tối nay." },
+        { "speaker": "a", "en": "Let us get comfortable then.", "vi": "Vậy mình ngồi cho thoải mái nhé." },
+        { "speaker": "b", "en": "I will grab some snacks.", "vi": "Tôi sẽ lấy ít đồ ăn vặt." },
+        { "speaker": "a", "en": "Great, I will start the movie.", "vi": "Tuyệt, tôi sẽ bật phim." },
+        { "speaker": "b", "en": "I cannot wait.", "vi": "Tôi không chờ nổi nữa." }
+      ]},
+    { "title": "Thảo luận phức tạp để chọn phim hợp cho cả nhóm bạn với sở thích khác nhau", "situation": "Bạn thảo luận phức tạp để chọn một bộ phim hợp cho cả nhóm bạn có sở thích rất khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Everyone wants something different tonight, this is tricky.", "vi": "Tối nay ai cũng muốn xem gì đó khác nhau, khó thật đấy." },
+        { "speaker": "b", "en": "True, some want horror, others want comedy.", "vi": "Đúng vậy, người muốn phim kinh dị, người muốn phim hài." },
+        { "speaker": "a", "en": "How about we compromise on a thriller with some humor?", "vi": "Hay là mình thoả hiệp bằng phim giật gân có chút hài hước?" },
+        { "speaker": "b", "en": "That could actually satisfy both groups.", "vi": "Điều đó thực sự có thể làm hài lòng cả hai nhóm." },
+        { "speaker": "a", "en": "I heard this one has a high rating and fits that description.", "vi": "Tôi nghe nói phim này được đánh giá cao và đúng mô tả đó." },
+        { "speaker": "b", "en": "Let us watch the trailer together and vote.", "vi": "Mình cùng xem đoạn giới thiệu rồi bỏ phiếu nhé." }
+      ]}
+  ]
+}

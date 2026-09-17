@@ -1,0 +1,96 @@
+{
+  "id": "ru-ban-di-xem-phim",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Rủ đi xem phim cuối tuần", "situation": "Bạn rủ người bạn thân đi xem phim cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Do you want to watch a movie this weekend?", "vi": "Cuối tuần này bạn có muốn xem phim không?" },
+        { "speaker": "b", "en": "Sure! What kind of movie do you like?", "vi": "Được đấy! Bạn thích thể loại phim nào?" },
+        { "speaker": "a", "en": "I like action movies.", "vi": "Tôi thích phim hành động." },
+        { "speaker": "b", "en": "Me too! Let us watch one.", "vi": "Tôi cũng vậy! Mình xem một phim nhé." },
+        { "speaker": "a", "en": "Great, I am excited.", "vi": "Tuyệt, tôi rất hào hứng." },
+        { "speaker": "b", "en": "Me too!", "vi": "Tôi cũng vậy!" }
+      ]},
+    { "title": "Hỏi giờ chiếu phim", "situation": "Bạn hỏi giờ chiếu phim ở rạp.",
+      "turns": [
+        { "speaker": "a", "en": "What time is the showtime?", "vi": "Giờ chiếu là mấy giờ?" },
+        { "speaker": "b", "en": "It is at seven in the evening.", "vi": "Là bảy giờ tối." },
+        { "speaker": "a", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "b", "en": "Great, let us go then.", "vi": "Tuyệt, vậy mình đi thôi." },
+        { "speaker": "a", "en": "See you at the cinema.", "vi": "Gặp bạn ở rạp nhé." },
+        { "speaker": "b", "en": "See you there!", "vi": "Hẹn gặp ở đó!" }
+      ]},
+    { "title": "Đề nghị mua vé", "situation": "Bạn đề nghị mua vé xem phim.",
+      "turns": [
+        { "speaker": "a", "en": "I will buy the tickets.", "vi": "Tôi sẽ mua vé." },
+        { "speaker": "b", "en": "Thank you, that is kind of you.", "vi": "Cảm ơn, bạn tốt quá." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "I will buy the popcorn then.", "vi": "Vậy tôi sẽ mua bỏng ngô." },
+        { "speaker": "a", "en": "Sounds fair to me.", "vi": "Nghe công bằng với tôi đấy." },
+        { "speaker": "b", "en": "Let us go inside.", "vi": "Mình vào trong thôi." }
+      ]},
+    { "title": "Chọn chỗ ngồi", "situation": "Bạn chọn chỗ ngồi trong rạp chiếu phim.",
+      "turns": [
+        { "speaker": "a", "en": "Where do you want to sit?", "vi": "Bạn muốn ngồi đâu?" },
+        { "speaker": "b", "en": "Somewhere in the middle.", "vi": "Chỗ nào ở giữa." },
+        { "speaker": "a", "en": "These seats look good.", "vi": "Chỗ ngồi này trông tốt đấy." },
+        { "speaker": "b", "en": "Yes, let us sit here.", "vi": "Vâng, mình ngồi đây nhé." },
+        { "speaker": "a", "en": "The movie starts soon.", "vi": "Phim sắp bắt đầu rồi." },
+        { "speaker": "b", "en": "I cannot wait.", "vi": "Tôi không chờ nổi nữa." }
+      ]},
+    { "title": "Nói về phim hài yêu thích", "situation": "Bạn nói về việc thích phim hài.",
+      "turns": [
+        { "speaker": "a", "en": "I like comedy movies.", "vi": "Tôi thích phim hài." },
+        { "speaker": "b", "en": "Me too, they make me laugh.", "vi": "Tôi cũng vậy, chúng làm tôi cười." },
+        { "speaker": "a", "en": "There is a new comedy this week.", "vi": "Tuần này có phim hài mới." },
+        { "speaker": "b", "en": "Let us watch it together.", "vi": "Mình cùng xem nhé." },
+        { "speaker": "a", "en": "That sounds fun.", "vi": "Nghe vui đấy." },
+        { "speaker": "b", "en": "I am looking forward to it.", "vi": "Tôi mong chờ điều đó." }
+      ]},
+    { "title": "Hỏi bạn có rảnh tối nay không", "situation": "Bạn hỏi bạn mình có rảnh tối nay đi xem phim không.",
+      "turns": [
+        { "speaker": "a", "en": "Are you free tonight?", "vi": "Tối nay bạn có rảnh không?" },
+        { "speaker": "b", "en": "Yes, I am free.", "vi": "Có, tôi rảnh." },
+        { "speaker": "a", "en": "Do you want to watch a movie?", "vi": "Bạn có muốn xem phim không?" },
+        { "speaker": "b", "en": "Sure, that sounds fun.", "vi": "Được, nghe vui đấy." },
+        { "speaker": "a", "en": "Great, let us go together.", "vi": "Tuyệt, mình đi cùng nhau nhé." },
+        { "speaker": "b", "en": "I am excited already.", "vi": "Tôi đã thấy hào hứng rồi." }
+      ]},
+    { "title": "Mua bỏng ngô trước khi vào rạp", "situation": "Bạn mua bỏng ngô trước khi vào xem phim.",
+      "turns": [
+        { "speaker": "a", "en": "Let us get some popcorn.", "vi": "Mình mua ít bỏng ngô nhé." },
+        { "speaker": "b", "en": "Good idea, I am hungry.", "vi": "Ý hay, tôi đang đói." },
+        { "speaker": "a", "en": "What size do you want?", "vi": "Bạn muốn cỡ nào?" },
+        { "speaker": "b", "en": "A medium size, please.", "vi": "Cỡ vừa nhé." },
+        { "speaker": "a", "en": "Here you go.", "vi": "Của bạn đây." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Nói cảm nhận sau khi xem phim", "situation": "Bạn nói cảm nhận ngay sau khi xem xong phim.",
+      "turns": [
+        { "speaker": "a", "en": "Did you like the movie?", "vi": "Bạn có thích bộ phim không?" },
+        { "speaker": "b", "en": "Yes, it was very good.", "vi": "Có, nó rất hay." },
+        { "speaker": "a", "en": "I liked it too.", "vi": "Tôi cũng thích nó." },
+        { "speaker": "b", "en": "The action scenes were great.", "vi": "Các cảnh hành động rất hay." },
+        { "speaker": "a", "en": "I agree completely.", "vi": "Tôi hoàn toàn đồng ý." },
+        { "speaker": "b", "en": "Let us watch another one soon.", "vi": "Lúc nào mình xem phim khác nhé." }
+      ]},
+    { "title": "Hẹn gặp ở cổng rạp", "situation": "Bạn hẹn gặp bạn mình ở cổng rạp chiếu phim.",
+      "turns": [
+        { "speaker": "a", "en": "Let us meet at the cinema entrance.", "vi": "Mình gặp nhau ở cổng rạp nhé." },
+        { "speaker": "b", "en": "Okay, what time?", "vi": "Được, mấy giờ vậy?" },
+        { "speaker": "a", "en": "How about six thirty?", "vi": "Sáu giờ ba mươi thì sao?" },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "a", "en": "See you there.", "vi": "Gặp bạn ở đó nhé." },
+        { "speaker": "b", "en": "See you!", "vi": "Hẹn gặp!" }
+      ]},
+    { "title": "Lên kế hoạch xem phim và ăn tối cùng nhiều bạn", "situation": "Bạn lên kế hoạch chi tiết cho buổi xem phim và ăn tối cùng nhiều bạn bè. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Let us invite everyone to watch a movie tonight.", "vi": "Mình mời mọi người xem phim tối nay nhé." },
+        { "speaker": "b", "en": "Good idea, what time should we meet?", "vi": "Ý hay, mình nên gặp nhau lúc mấy giờ?" },
+        { "speaker": "a", "en": "How about six, and then dinner after the movie?", "vi": "Sáu giờ thì sao, rồi ăn tối sau khi xem phim?" },
+        { "speaker": "b", "en": "Sounds great, I will buy tickets for everyone.", "vi": "Nghe tuyệt, tôi sẽ mua vé cho mọi người." },
+        { "speaker": "a", "en": "I will book a table for dinner then.", "vi": "Vậy tôi sẽ đặt bàn ăn tối." },
+        { "speaker": "b", "en": "Perfect, this will be a fun night.", "vi": "Hoàn hảo, tối nay sẽ vui lắm đây." }
+      ]}
+  ]
+}
