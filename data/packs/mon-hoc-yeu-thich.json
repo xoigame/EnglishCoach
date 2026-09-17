@@ -1,0 +1,96 @@
+{
+  "id": "mon-hoc-yeu-thich",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Hỏi môn học yêu thích", "situation": "Bạn hỏi bạn cùng lớp về môn học yêu thích.",
+      "turns": [
+        { "speaker": "a", "en": "What is your favorite subject?", "vi": "Môn học yêu thích của bạn là gì?" },
+        { "speaker": "b", "en": "My favorite subject is science.", "vi": "Môn học yêu thích của tôi là khoa học." },
+        { "speaker": "a", "en": "Why do you like it?", "vi": "Vì sao bạn thích nó?" },
+        { "speaker": "b", "en": "I like it because we do experiments.", "vi": "Tôi thích nó vì chúng tôi làm thí nghiệm." },
+        { "speaker": "a", "en": "That sounds fun.", "vi": "Nghe vui đấy." },
+        { "speaker": "b", "en": "Yes, it really is.", "vi": "Vâng, đúng vậy." }
+      ]},
+    { "title": "Nói môn học khó", "situation": "Bạn nói về môn học mình thấy khó.",
+      "turns": [
+        { "speaker": "a", "en": "Is math easy for you?", "vi": "Toán có dễ với bạn không?" },
+        { "speaker": "b", "en": "Math is a bit difficult for me.", "vi": "Toán hơi khó với tôi." },
+        { "speaker": "a", "en": "I can help you if you want.", "vi": "Tôi có thể giúp bạn nếu bạn muốn." },
+        { "speaker": "b", "en": "That would be great, thank you.", "vi": "Vậy tuyệt quá, cảm ơn bạn." },
+        { "speaker": "a", "en": "No problem at all.", "vi": "Không sao đâu." },
+        { "speaker": "b", "en": "Let us study together.", "vi": "Mình cùng học nhé." }
+      ]},
+    { "title": "Khen giáo viên tốt bụng", "situation": "Bạn khen giáo viên của mình.",
+      "turns": [
+        { "speaker": "a", "en": "How is your teacher?", "vi": "Giáo viên của bạn thế nào?" },
+        { "speaker": "b", "en": "My teacher is very kind.", "vi": "Giáo viên của tôi rất tốt bụng." },
+        { "speaker": "a", "en": "That is wonderful.", "vi": "Vậy tuyệt vời quá." },
+        { "speaker": "b", "en": "Yes, she explains things clearly.", "vi": "Vâng, cô ấy giải thích rõ ràng." },
+        { "speaker": "a", "en": "I wish my teacher was like that.", "vi": "Ước gì giáo viên của tôi cũng vậy." },
+        { "speaker": "b", "en": "You are lucky to have good teachers too.", "vi": "Bạn cũng may mắn có giáo viên tốt mà." }
+      ]},
+    { "title": "Nói về bài tập về nhà", "situation": "Bạn nói về việc có nhiều bài tập về nhà.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have a lot of homework?", "vi": "Bạn có nhiều bài tập về nhà không?" },
+        { "speaker": "b", "en": "Yes, I have a lot of homework.", "vi": "Có, tôi có nhiều bài tập về nhà." },
+        { "speaker": "a", "en": "Which subject has the most?", "vi": "Môn nào có nhiều nhất vậy?" },
+        { "speaker": "b", "en": "Math has the most homework.", "vi": "Toán có nhiều bài tập nhất." },
+        { "speaker": "a", "en": "That sounds tiring.", "vi": "Nghe mệt đấy." },
+        { "speaker": "b", "en": "Yes, but I am trying hard.", "vi": "Vâng, nhưng tôi đang cố gắng." }
+      ]},
+    { "title": "Nói về điểm số tốt", "situation": "Bạn kể về việc được điểm tốt.",
+      "turns": [
+        { "speaker": "a", "en": "How was your test?", "vi": "Bài kiểm tra của bạn thế nào?" },
+        { "speaker": "b", "en": "I got a good grade.", "vi": "Tôi được điểm tốt." },
+        { "speaker": "a", "en": "Congratulations!", "vi": "Chúc mừng bạn!" },
+        { "speaker": "b", "en": "Thank you, I studied hard.", "vi": "Cảm ơn, tôi đã học chăm chỉ." },
+        { "speaker": "a", "en": "That is why you did well.", "vi": "Đó là lý do bạn làm tốt." },
+        { "speaker": "b", "en": "Yes, hard work pays off.", "vi": "Vâng, chăm chỉ sẽ được đền đáp." }
+      ]},
+    { "title": "Nói về môn mỹ thuật", "situation": "Bạn nói về sở thích môn mỹ thuật.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like art class?", "vi": "Bạn có thích lớp mỹ thuật không?" },
+        { "speaker": "b", "en": "Yes, art class is fun.", "vi": "Có, lớp mỹ thuật rất vui." },
+        { "speaker": "a", "en": "What do you like to draw?", "vi": "Bạn thích vẽ gì vậy?" },
+        { "speaker": "b", "en": "I like to draw animals.", "vi": "Tôi thích vẽ động vật." },
+        { "speaker": "a", "en": "That sounds creative.", "vi": "Nghe sáng tạo đấy." },
+        { "speaker": "b", "en": "Thank you, I enjoy it a lot.", "vi": "Cảm ơn, tôi thích nó lắm." }
+      ]},
+    { "title": "So sánh hai môn học", "situation": "Bạn so sánh việc thích môn nào hơn.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like history or science more?", "vi": "Bạn thích lịch sử hay khoa học hơn?" },
+        { "speaker": "b", "en": "I like science more.", "vi": "Tôi thích khoa học hơn." },
+        { "speaker": "a", "en": "Why is that?", "vi": "Vì sao vậy?" },
+        { "speaker": "b", "en": "It is more interesting to me.", "vi": "Nó thú vị hơn với tôi." },
+        { "speaker": "a", "en": "That makes sense.", "vi": "Vậy cũng hợp lý." },
+        { "speaker": "b", "en": "What about you?", "vi": "Còn bạn thì sao?" }
+      ]},
+    { "title": "Hỏi thăm sau kỳ thi", "situation": "Bạn hỏi thăm bạn mình sau kỳ thi.",
+      "turns": [
+        { "speaker": "a", "en": "How was your exam today?", "vi": "Bài thi hôm nay của bạn thế nào?" },
+        { "speaker": "b", "en": "It was okay, not too hard.", "vi": "Cũng được, không quá khó." },
+        { "speaker": "a", "en": "That is good to hear.", "vi": "Nghe vậy tốt quá." },
+        { "speaker": "b", "en": "Yes, I feel relieved.", "vi": "Vâng, tôi thấy nhẹ nhõm." },
+        { "speaker": "a", "en": "You should relax now.", "vi": "Giờ bạn nên thư giãn đi." },
+        { "speaker": "b", "en": "I will, thank you.", "vi": "Tôi sẽ thư giãn, cảm ơn bạn." }
+      ]},
+    { "title": "Rủ học cùng nhau cho môn khó", "situation": "Bạn rủ bạn mình học cùng cho môn học khó.",
+      "turns": [
+        { "speaker": "a", "en": "Let us study together for the test.", "vi": "Mình cùng học cho bài kiểm tra nhé." },
+        { "speaker": "b", "en": "Sure, that is a good idea.", "vi": "Được, ý hay đấy." },
+        { "speaker": "a", "en": "When are you free?", "vi": "Khi nào bạn rảnh vậy?" },
+        { "speaker": "b", "en": "I am free tomorrow afternoon.", "vi": "Chiều mai tôi rảnh." },
+        { "speaker": "a", "en": "Great, let us meet then.", "vi": "Tuyệt, vậy mình gặp lúc đó nhé." },
+        { "speaker": "b", "en": "See you tomorrow.", "vi": "Hẹn gặp mai." }
+      ]},
+    { "title": "Kể chi tiết về nhiều môn học khác nhau và cảm nhận riêng", "situation": "Bạn kể chi tiết về nhiều môn học khác nhau và cảm nhận riêng cho từng môn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Tell me about all your subjects this year.", "vi": "Kể tôi nghe về tất cả các môn học năm nay của bạn." },
+        { "speaker": "b", "en": "Well, science is my favorite because we do experiments.", "vi": "À, khoa học là môn yêu thích của tôi vì chúng tôi làm thí nghiệm." },
+        { "speaker": "a", "en": "What about math and history?", "vi": "Còn toán và lịch sử thì sao?" },
+        { "speaker": "b", "en": "Math is a bit difficult for me, but history is quite interesting.", "vi": "Toán hơi khó với tôi, nhưng lịch sử khá thú vị." },
+        { "speaker": "a", "en": "Which one has the most homework?", "vi": "Môn nào có nhiều bài tập nhất?" },
+        { "speaker": "b", "en": "Math has the most, but my teacher is very kind and helps a lot.", "vi": "Toán có nhiều nhất, nhưng giáo viên tôi rất tốt bụng và giúp đỡ nhiều." }
+      ]}
+  ]
+}

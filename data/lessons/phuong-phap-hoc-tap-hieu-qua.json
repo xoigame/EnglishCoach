@@ -1,0 +1,98 @@
+{
+  "id": "phuong-phap-hoc-tap-hieu-qua",
+  "title": "Thảo luận phương pháp học tập hiệu quả",
+  "topic": "Phương pháp học tập",
+  "level": "B1",
+  "summary": "Bạn thảo luận với bạn cùng lớp về các phương pháp học tập hiệu quả để chuẩn bị cho kỳ thi sắp tới.",
+  "goals": [
+    "Chia sẻ phương pháp học tập của bản thân",
+    "Đưa ra lời khuyên về cách học hiệu quả",
+    "So sánh hiệu quả giữa các phương pháp học khác nhau"
+  ],
+  "vocab": [
+    { "en": "review", "ipa": "/rɪˈvjuː/", "vi": "ôn tập", "example": "I review my notes every night." },
+    { "en": "flashcard", "ipa": "/ˈflæʃkɑːrd/", "vi": "thẻ ghi nhớ", "example": "I use flashcards to memorize words." },
+    { "en": "concentrate", "ipa": "/ˈkɑːnsntreɪt/", "vi": "tập trung", "example": "It is hard to concentrate at home." },
+    { "en": "memorize", "ipa": "/ˈmeməraɪz/", "vi": "ghi nhớ", "example": "I memorize new vocabulary daily." },
+    { "en": "schedule", "ipa": "/ˈskedʒuːl/", "vi": "lịch trình", "example": "I follow a study schedule." },
+    { "en": "practice test", "ipa": "/ˈpræktɪs test/", "vi": "đề thi thử", "example": "Practice tests really help." },
+    { "en": "distraction", "ipa": "/dɪˈstrækʃn/", "vi": "sự xao nhãng", "example": "My phone is a big distraction." },
+    { "en": "efficient", "ipa": "/ɪˈfɪʃnt/", "vi": "hiệu quả", "example": "This method is more efficient." },
+    { "en": "group study", "ipa": "/ɡruːp ˈstʌdi/", "vi": "học nhóm", "example": "Group study helps me stay motivated." },
+    { "en": "break", "ipa": "/breɪk/", "vi": "giải lao", "example": "Take a short break every hour." }
+  ],
+  "patterns": [
+    { "en": "I usually study by ___.", "vi": "Tôi thường học bằng cách ___.", "note": "Chia sẻ phương pháp học tập cá nhân." },
+    { "en": "Have you tried ___?", "vi": "Bạn đã thử ___ chưa?", "note": "Đưa ra gợi ý về phương pháp học." },
+    { "en": "I find it easier to ___ when I ___.", "vi": "Tôi thấy dễ ___ hơn khi tôi ___.", "note": "Giải thích điều kiện học tập hiệu quả." },
+    { "en": "That method works well for me because ___.", "vi": "Phương pháp đó hiệu quả với tôi vì ___.", "note": "Giải thích lý do một phương pháp hiệu quả." },
+    { "en": "I get distracted easily by ___.", "vi": "Tôi dễ bị xao nhãng bởi ___.", "note": "Nói về yếu tố gây xao nhãng khi học." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong efficient", "tip": "Nhấn vào âm tiết thứ hai: ef-FI-cient.", "words": ["efficient", "distraction"] },
+    { "focus": "âm /ʃ/ trong flashcard và efficient", "tip": "Chu môi nhẹ, thổi hơi qua răng.", "words": ["flashcard", "efficient"] },
+    { "focus": "âm /aɪ/ trong memorize", "tip": "Kéo dài nguyên âm đôi rõ ràng.", "words": ["memorize"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I usually study by make flashcards.", "right": "I usually study by making flashcards.", "vi": "Sau by dùng động từ thêm ing." },
+    { "wrong": "Have you try flashcards?", "right": "Have you tried flashcards?", "vi": "Sau have you dùng quá khứ phân từ tried." },
+    { "wrong": "I get distract easily by my phone.", "right": "I get distracted easily by my phone.", "vi": "Cần distracted (tính từ) sau get, không dùng distract." },
+    { "wrong": "That method work well for me.", "right": "That method works well for me.", "vi": "Chủ ngữ số ít method cần động từ works." }
+  ],
+  "variations": [
+    { "situation": "Chia sẻ phương pháp học", "formal": "I typically study by reviewing my notes daily.", "casual": "I usually just go over my notes every day.", "vi": "Go over là cách nói thân mật phổ biến của review." },
+    { "situation": "Gợi ý phương pháp", "formal": "Have you considered using flashcards?", "casual": "Have you tried flashcards?", "vi": "Câu thân mật ngắn gọn, phổ biến giữa bạn học." },
+    { "situation": "Nói về sự xao nhãng", "formal": "I am easily distracted by notifications.", "casual": "My phone keeps distracting me.", "vi": "Câu thân mật trực tiếp hơn, tự nhiên trong trò chuyện." },
+    { "situation": "Khen phương pháp hiệu quả", "formal": "This method has proven quite efficient for me.", "casual": "This way of studying really works for me.", "vi": "Câu thân mật đơn giản, dễ hiểu." }
+  ],
+  "culture": [
+    "Học nhóm (group study) là phương pháp phổ biến ở nhiều trường đại học phương Tây, giúp sinh viên giữ động lực và trao đổi kiến thức.",
+    "Kỹ thuật Pomodoro (học tập trung 25 phút, nghỉ 5 phút) được nhiều học sinh, sinh viên phương Tây áp dụng để tăng hiệu quả học tập.",
+    "Làm đề thi thử (practice test) trước kỳ thi thật được xem là một trong những phương pháp ôn tập hiệu quả nhất."
+  ],
+  "listening": {
+    "title": "Chia sẻ phương pháp học tập",
+    "passage": "I usually study by making flashcards for new vocabulary. Have you tried that method? I have not, but I use practice tests instead. Those are helpful too, especially before exams. I find it easier to concentrate when I study in a quiet library. I get distracted easily by my phone at home. That is common, many students face the same issue. Taking short breaks every hour also helps me stay efficient.",
+    "vi": "Tôi thường học bằng cách làm thẻ ghi nhớ cho từ vựng mới. Bạn đã thử phương pháp đó chưa? Tôi chưa, nhưng tôi dùng đề thi thử thay vào đó. Cái đó cũng hữu ích, đặc biệt trước kỳ thi. Tôi thấy dễ tập trung hơn khi học ở thư viện yên tĩnh. Tôi dễ bị xao nhãng bởi điện thoại ở nhà. Điều đó phổ biến mà, nhiều học sinh gặp vấn đề tương tự. Nghỉ giải lao ngắn mỗi giờ cũng giúp tôi hiệu quả hơn.",
+    "questions": [
+      { "q": "What method does the first speaker use?", "choices": ["Making flashcards", "Practice tests", "Group study"], "answer": 0, "vi": "Đáp án đúng vì người nói đầu tiên làm thẻ ghi nhớ." },
+      { "q": "Where does the speaker concentrate best?", "choices": ["In a quiet library", "At a noisy cafe", "On the bus"], "answer": 0, "vi": "Đáp án đúng vì người nói tập trung tốt hơn ở thư viện yên tĩnh." },
+      { "q": "What distracts the speaker at home?", "choices": ["Their phone", "Their family", "The television"], "answer": 0, "vi": "Đáp án đúng vì người nói nói bị xao nhãng bởi điện thoại." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Bạn cùng lớp", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "How do you usually study for exams?", "vi": "Bạn thường học thế nào cho kỳ thi?", "hint": "" },
+      { "speaker": "b", "en": "I usually study by making flashcards.", "vi": "Tôi thường học bằng cách làm thẻ ghi nhớ.", "hint": "Dùng I usually study by." },
+      { "speaker": "a", "en": "Have you tried practice tests too?", "vi": "Bạn đã thử đề thi thử chưa?", "hint": "" },
+      { "speaker": "b", "en": "Not yet, but I want to try that.", "vi": "Chưa, nhưng tôi muốn thử điều đó.", "hint": "" },
+      { "speaker": "a", "en": "Where do you usually study?", "vi": "Bạn thường học ở đâu vậy?", "hint": "" },
+      { "speaker": "b", "en": "I find it easier to concentrate in the library.", "vi": "Tôi thấy dễ tập trung hơn ở thư viện.", "hint": "Dùng I find it easier to concentrate." },
+      { "speaker": "a", "en": "What distracts you at home?", "vi": "Điều gì làm bạn xao nhãng ở nhà vậy?", "hint": "" },
+      { "speaker": "b", "en": "I get distracted easily by my phone.", "vi": "Tôi dễ bị xao nhãng bởi điện thoại.", "hint": "Dùng I get distracted easily by." },
+      { "speaker": "a", "en": "Taking breaks helps a lot too.", "vi": "Nghỉ giải lao cũng giúp ích nhiều đấy.", "hint": "" },
+      { "speaker": "b", "en": "That method works well for me too.", "vi": "Phương pháp đó cũng hiệu quả với tôi.", "hint": "Dùng That method works well for me." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a classmate discussing study methods before an upcoming exam.",
+    "opener": "How do you usually study for exams?",
+    "goal": "Người học chia sẻ phương pháp học tập cá nhân, gợi ý phương pháp khác và nói về yếu tố xao nhãng."
+  },
+  "drills": [
+    { "vi": "Tôi thường học bằng cách làm thẻ ghi nhớ.", "en": "I usually study by making flashcards.", "alts": [] },
+    { "vi": "Bạn đã thử đề thi thử chưa?", "en": "Have you tried practice tests?", "alts": [] },
+    { "vi": "Tôi thấy dễ tập trung hơn khi ở thư viện.", "en": "I find it easier to concentrate at the library.", "alts": [] },
+    { "vi": "Tôi dễ bị xao nhãng bởi điện thoại.", "en": "I get distracted easily by my phone.", "alts": [] },
+    { "vi": "Phương pháp đó hiệu quả với tôi.", "en": "That method works well for me.", "alts": [] },
+    { "vi": "Nghỉ giải lao ngắn mỗi giờ giúp ích nhiều.", "en": "Taking short breaks every hour helps a lot.", "alts": [] },
+    { "vi": "Học nhóm giúp tôi giữ động lực.", "en": "Group study helps me stay motivated.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn thảo luận phương pháp học tập, chú ý trọng âm trong efficient.",
+    "Viết ba câu mô tả phương pháp học tập hiệu quả nhất với bạn.",
+    "Luyện nói ba lần câu I find it easier to concentrate when I study in a quiet place."
+  ]
+}

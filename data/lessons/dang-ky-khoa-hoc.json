@@ -1,0 +1,98 @@
+{
+  "id": "dang-ky-khoa-hoc",
+  "title": "Hỏi thông tin và đăng ký khoá học thêm",
+  "topic": "Đăng ký học thêm",
+  "level": "A2",
+  "summary": "Bạn hỏi thông tin về một khoá học tiếng Anh tại trung tâm và đăng ký tham gia với sự tư vấn của nhân viên.",
+  "goals": [
+    "Hỏi thông tin về một khoá học",
+    "Hỏi về học phí và lịch học",
+    "Đăng ký tham gia khoá học"
+  ],
+  "vocab": [
+    { "en": "course", "ipa": "/kɔːrs/", "vi": "khoá học", "example": "I want to join this course." },
+    { "en": "register", "ipa": "/ˈredʒɪstər/", "vi": "đăng ký", "example": "How do I register for the class?" },
+    { "en": "schedule", "ipa": "/ˈskedʒuːl/", "vi": "lịch học", "example": "What is the class schedule?" },
+    { "en": "tuition", "ipa": "/tuˈɪʃn/", "vi": "học phí", "example": "The tuition is quite affordable." },
+    { "en": "level", "ipa": "/ˈlevl/", "vi": "trình độ", "example": "What level is this class for?" },
+    { "en": "beginner", "ipa": "/bɪˈɡɪnər/", "vi": "người mới bắt đầu", "example": "This class is for beginners." },
+    { "en": "enroll", "ipa": "/ɪnˈroʊl/", "vi": "ghi danh", "example": "I would like to enroll today." },
+    { "en": "duration", "ipa": "/dʊˈreɪʃn/", "vi": "thời lượng khoá học", "example": "What is the duration of the course?" },
+    { "en": "instructor", "ipa": "/ɪnˈstrʌktər", "vi": "giảng viên", "example": "Who is the instructor?" },
+    { "en": "discount", "ipa": "/ˈdɪskaʊnt/", "vi": "giảm giá", "example": "Is there a discount available?" }
+  ],
+  "patterns": [
+    { "en": "I would like some information about ___.", "vi": "Tôi muốn hỏi thông tin về ___.", "note": "Mở đầu để hỏi thông tin khoá học." },
+    { "en": "What is the schedule for this course?", "vi": "Lịch học của khoá này là gì?", "note": "Hỏi về lịch học." },
+    { "en": "How much is the tuition?", "vi": "Học phí là bao nhiêu?", "note": "Hỏi về học phí." },
+    { "en": "I would like to enroll in this class.", "vi": "Tôi muốn ghi danh vào lớp này.", "note": "Đăng ký tham gia khoá học." },
+    { "en": "Is there a discount for early registration?", "vi": "Có giảm giá cho đăng ký sớm không?", "note": "Hỏi về ưu đãi." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /dʒ/ trong register và schedule", "tip": "Bật hơi nhẹ, đầu lưỡi gần vòm miệng.", "words": ["register", "schedule"] },
+    { "focus": "trọng âm trong instructor", "tip": "Nhấn vào âm tiết thứ hai: in-STRUC-tor.", "words": ["instructor"] },
+    { "focus": "âm /ʊ/ trong tuition và duration", "tip": "Tròn môi nhẹ, âm ngắn.", "words": ["tuition", "duration"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I want information about the course.", "right": "I would like some information about the course.", "vi": "I would like lịch sự hơn I want khi hỏi thông tin." },
+    { "wrong": "How much is tuition?", "right": "How much is the tuition?", "vi": "Cần mạo từ the trước danh từ tuition trong ngữ cảnh cụ thể." },
+    { "wrong": "I want enroll in this class.", "right": "I would like to enroll in this class.", "vi": "Cần to trước enroll, và would like lịch sự hơn want." },
+    { "wrong": "Is there discount for early registration?", "right": "Is there a discount for early registration?", "vi": "Cần mạo từ a trước danh từ số ít discount." }
+  ],
+  "variations": [
+    { "situation": "Hỏi thông tin khoá học", "formal": "I would like some information about your English courses.", "casual": "Can you tell me about your English classes?", "vi": "Câu thân mật ngắn gọn, phù hợp khi hỏi trực tiếp." },
+    { "situation": "Hỏi học phí", "formal": "Could you tell me the tuition fee?", "casual": "How much does it cost?", "vi": "Câu thân mật đơn giản, phổ biến trong giao tiếp hằng ngày." },
+    { "situation": "Đăng ký", "formal": "I would like to enroll in this course.", "casual": "I want to sign up for this class.", "vi": "Sign up là cách nói thân mật phổ biến của enroll." },
+    { "situation": "Hỏi giảm giá", "formal": "Is there any discount available?", "casual": "Do you have any deals right now?", "vi": "Deals là từ thân mật phổ biến khi hỏi về khuyến mãi." }
+  ],
+  "culture": [
+    "Nhiều trung tâm tiếng Anh có ưu đãi giảm giá cho việc đăng ký sớm hoặc đăng ký theo nhóm bạn bè.",
+    "Hỏi rõ về trình độ lớp học trước khi đăng ký giúp tránh học nhầm lớp quá dễ hoặc quá khó.",
+    "Nhân viên tư vấn thường giới thiệu lớp học thử miễn phí (trial class) trước khi đăng ký chính thức."
+  ],
+  "listening": {
+    "title": "Đăng ký khoá học tiếng Anh",
+    "passage": "Hello, I would like some information about your English courses. We have classes for beginners and intermediate learners. What is the schedule for the beginner class? It meets on Tuesdays and Thursdays. How much is the tuition? It is two million dong for three months. Is there a discount for early registration? Yes, ten percent off if you register this week. I would like to enroll in this class then.",
+    "vi": "Xin chào, tôi muốn hỏi thông tin về các khoá học tiếng Anh. Chúng tôi có lớp cho người mới bắt đầu và trình độ trung cấp. Lịch học của lớp cơ bản là gì vậy? Lớp học vào thứ Ba và thứ Năm. Học phí là bao nhiêu? Là hai triệu đồng cho ba tháng. Có giảm giá cho đăng ký sớm không? Có, giảm mười phần trăm nếu đăng ký tuần này. Vậy tôi muốn ghi danh vào lớp này.",
+    "questions": [
+      { "q": "When does the beginner class meet?", "choices": ["Tuesdays and Thursdays", "Mondays and Fridays", "Every day"], "answer": 0, "vi": "Đáp án đúng vì lớp học vào thứ Ba và thứ Năm." },
+      { "q": "How much is the tuition?", "choices": ["Two million dong for three months", "One million dong for a year", "Five hundred thousand dong"], "answer": 0, "vi": "Đáp án đúng vì học phí là hai triệu đồng cho ba tháng." },
+      { "q": "What discount is available this week?", "choices": ["Ten percent off", "Fifty percent off", "No discount"], "answer": 0, "vi": "Đáp án đúng vì có giảm mười phần trăm nếu đăng ký tuần này." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Nhân viên tư vấn trung tâm", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "How can I help you today?", "vi": "Tôi có thể giúp gì cho bạn hôm nay?", "hint": "" },
+      { "speaker": "b", "en": "I would like some information about your English courses.", "vi": "Tôi muốn hỏi thông tin về các khoá học tiếng Anh.", "hint": "Dùng I would like some information about." },
+      { "speaker": "a", "en": "Sure, what level are you looking for?", "vi": "Được, bạn đang tìm trình độ nào ạ?", "hint": "" },
+      { "speaker": "b", "en": "I am a beginner.", "vi": "Tôi là người mới bắt đầu.", "hint": "" },
+      { "speaker": "a", "en": "We have a beginner class on Tuesdays.", "vi": "Chúng tôi có lớp cho người mới bắt đầu vào thứ Ba.", "hint": "" },
+      { "speaker": "b", "en": "What is the schedule for this course?", "vi": "Lịch học của khoá này là gì?", "hint": "Dùng What is the schedule for this course." },
+      { "speaker": "a", "en": "It meets twice a week, in the evening.", "vi": "Học hai lần một tuần, vào buổi tối.", "hint": "" },
+      { "speaker": "b", "en": "How much is the tuition?", "vi": "Học phí là bao nhiêu?", "hint": "Dùng How much is the tuition." },
+      { "speaker": "a", "en": "It is two million dong for three months.", "vi": "Là hai triệu đồng cho ba tháng.", "hint": "" },
+      { "speaker": "b", "en": "I would like to enroll in this class.", "vi": "Tôi muốn ghi danh vào lớp này.", "hint": "Dùng I would like to enroll in this class." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a helpful staff member at an English learning center.",
+    "opener": "How can I help you today?",
+    "goal": "Người học hỏi được thông tin khoá học, học phí, lịch học và hoàn tất đăng ký."
+  },
+  "drills": [
+    { "vi": "Tôi muốn hỏi thông tin về khoá học này.", "en": "I would like some information about this course.", "alts": [] },
+    { "vi": "Lịch học của khoá này là gì?", "en": "What is the schedule for this course?", "alts": [] },
+    { "vi": "Học phí là bao nhiêu?", "en": "How much is the tuition?", "alts": [] },
+    { "vi": "Tôi muốn ghi danh vào lớp này.", "en": "I would like to enroll in this class.", "alts": [] },
+    { "vi": "Có giảm giá cho đăng ký sớm không?", "en": "Is there a discount for early registration?", "alts": [] },
+    { "vi": "Khoá học này kéo dài bao lâu?", "en": "What is the duration of the course?", "alts": [] },
+    { "vi": "Giảng viên là ai vậy?", "en": "Who is the instructor?", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn hỏi thông tin đăng ký khoá học, chú ý trọng âm trong instructor.",
+    "Viết ba câu hỏi bạn muốn hỏi trước khi đăng ký một khoá học.",
+    "Luyện nói ba lần câu I would like to enroll in this class."
+  ]
+}

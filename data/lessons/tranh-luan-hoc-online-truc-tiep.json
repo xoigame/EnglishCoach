@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-hoc-online-truc-tiep",
+  "title": "Tranh luận giữa học online và học trực tiếp",
+  "topic": "Tranh luận về phương thức học tập",
+  "level": "B2",
+  "summary": "Bạn tranh luận với một người bạn có quan điểm trái ngược về việc học online hay học trực tiếp hiệu quả hơn.",
+  "goals": [
+    "Trình bày lập luận có dẫn chứng về ưu nhược điểm của mỗi hình thức học",
+    "Phản biện quan điểm trái ngược một cách tôn trọng",
+    "Đưa ra kết luận cân bằng, không cực đoan"
+  ],
+  "vocab": [
+    { "en": "flexibility", "ipa": "/ˌfleksəˈbɪləti/", "vi": "sự linh hoạt", "example": "Online classes offer more flexibility." },
+    { "en": "interaction", "ipa": "/ˌɪntərˈækʃn/", "vi": "sự tương tác", "example": "Face-to-face interaction matters a lot." },
+    { "en": "self-discipline", "ipa": "/self ˈdɪsəplɪn/", "vi": "tính tự giác", "example": "Online learning requires self-discipline." },
+    { "en": "engagement", "ipa": "/ɪnˈɡeɪdʒmənt/", "vi": "sự gắn kết, tham gia", "example": "Student engagement is often lower online." },
+    { "en": "accessible", "ipa": "/əkˈsesəbl/", "vi": "dễ tiếp cận", "example": "Online courses are more accessible." },
+    { "en": "hands-on", "ipa": "/hændz ɑːn/", "vi": "thực hành trực tiếp", "example": "Some subjects need hands-on practice." },
+    { "en": "isolated", "ipa": "/ˈaɪsəleɪtɪd/", "vi": "cô lập", "example": "Some students feel isolated online." },
+    { "en": "commute", "ipa": "/kəˈmjuːt/", "vi": "việc đi lại", "example": "Online classes save commute time." },
+    { "en": "hybrid", "ipa": "/ˈhaɪbrɪd/", "vi": "kết hợp (trực tuyến và trực tiếp)", "example": "A hybrid model might work best." },
+    { "en": "outcome", "ipa": "/ˈaʊtkʌm/", "vi": "kết quả", "example": "Learning outcomes vary by student." }
+  ],
+  "patterns": [
+    { "en": "I would argue that online learning offers more ___.", "vi": "Tôi cho rằng học online mang lại nhiều ___ hơn.", "note": "Trình bày lập luận ủng hộ học online." },
+    { "en": "However, it lacks the ___ of in-person classes.", "vi": "Tuy nhiên, nó thiếu ___ của lớp học trực tiếp.", "note": "Chỉ ra hạn chế của học online." },
+    { "en": "That really depends on the student's ___.", "vi": "Điều đó thực sự phụ thuộc vào ___ của học sinh.", "note": "Đưa quan điểm cân bằng dựa trên yếu tố cá nhân." },
+    { "en": "A hybrid approach might combine the best of both.", "vi": "Một cách tiếp cận kết hợp có thể tận dụng ưu điểm của cả hai.", "note": "Đề xuất giải pháp trung hoà." },
+    { "en": "I see your point, but consider ___.", "vi": "Tôi hiểu ý bạn, nhưng hãy xem xét ___.", "note": "Phản biện nhẹ nhàng, tôn trọng ý kiến đối phương." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong flexibility", "tip": "Nhấn vào âm tiết thứ tư: flexi-BIL-ity.", "words": ["flexibility", "accessible"] },
+    { "focus": "âm /aɪ/ trong isolated và hybrid", "tip": "Kéo dài nguyên âm đôi rõ ràng.", "words": ["isolated", "hybrid"] },
+    { "focus": "âm /dʒ/ trong engagement", "tip": "Bật hơi nhẹ, đầu lưỡi gần vòm miệng.", "words": ["engagement"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Online learning offer more flexibility.", "right": "Online learning offers more flexibility.", "vi": "Chủ ngữ số ít learning cần động từ offers." },
+    { "wrong": "It lack the interaction of classes.", "right": "It lacks the interaction of in-person classes.", "vi": "Chủ ngữ số ít it cần động từ lacks." },
+    { "wrong": "That depend on the student.", "right": "That really depends on the student.", "vi": "Chủ ngữ số ít that cần động từ depends." },
+    { "wrong": "A hybrid approach combine the best of both.", "right": "A hybrid approach might combine the best of both.", "vi": "Cần trợ động từ might trước combine để diễn tả khả năng." }
+  ],
+  "variations": [
+    { "situation": "Ủng hộ học online", "formal": "I would argue that online learning offers more flexibility.", "casual": "Honestly, online classes are just way more convenient.", "vi": "Câu thân mật dùng way more để nhấn mạnh, phổ biến trong trò chuyện." },
+    { "situation": "Chỉ ra hạn chế", "formal": "However, it lacks the interaction of in-person classes.", "casual": "But you don't really get that face-to-face vibe.", "vi": "Vibe là từ thân mật hiện đại, phổ biến trong giao tiếp trẻ." },
+    { "situation": "Đưa quan điểm cân bằng", "formal": "That really depends on the student's learning style.", "casual": "I guess it depends on how you learn best.", "vi": "Câu thân mật đơn giản, dễ hiểu trong hội thoại." },
+    { "situation": "Đề xuất giải pháp trung hoà", "formal": "A hybrid approach might combine the best of both.", "casual": "Maybe a mix of both is the way to go.", "vi": "The way to go là thành ngữ thân mật cho giải pháp tốt nhất." }
+  ],
+  "culture": [
+    "Sau đại dịch, mô hình học hybrid (kết hợp online và trực tiếp) trở nên phổ biến ở nhiều trường đại học phương Tây.",
+    "Tranh luận về hiệu quả học online thường xuất hiện trong các bài báo giáo dục và nghiên cứu học thuật.",
+    "Cụm it depends on the student thể hiện sự tôn trọng sự khác biệt cá nhân, được đánh giá cao trong tranh luận giáo dục."
+  ],
+  "listening": {
+    "title": "Tranh luận về học online và học trực tiếp",
+    "passage": "I would argue that online learning offers more flexibility for busy students. However, it lacks the interaction of in-person classes, which many students need. That really depends on the student's self-discipline, I think. Some students thrive with online freedom, while others feel isolated without face-to-face contact. A hybrid approach might combine the best of both worlds. I see your point, but consider that hands-on subjects like science still need physical labs.",
+    "vi": "Tôi cho rằng học online mang lại nhiều linh hoạt hơn cho học sinh bận rộn. Tuy nhiên, nó thiếu sự tương tác của lớp học trực tiếp, điều mà nhiều học sinh cần. Tôi nghĩ điều đó thực sự phụ thuộc vào tính tự giác của học sinh. Một số học sinh phát triển tốt với sự tự do của học online, trong khi số khác cảm thấy cô lập khi thiếu tiếp xúc trực tiếp. Một cách tiếp cận kết hợp có thể tận dụng ưu điểm của cả hai. Tôi hiểu ý bạn, nhưng hãy xem xét rằng các môn thực hành như khoa học vẫn cần phòng thí nghiệm vật lý.",
+    "questions": [
+      { "q": "What advantage of online learning does the speaker mention?", "choices": ["More flexibility", "Better grades", "No homework"], "answer": 0, "vi": "Đáp án đúng vì người nói nói online mang lại nhiều linh hoạt hơn." },
+      { "q": "What does online learning lack, according to the speaker?", "choices": ["In-person interaction", "Access to computers", "Enough homework"], "answer": 0, "vi": "Đáp án đúng vì người nói nói nó thiếu sự tương tác trực tiếp." },
+      { "q": "What solution does the speaker propose?", "choices": ["A hybrid approach", "Banning online learning", "Only online classes"], "answer": 0, "vi": "Đáp án đúng vì người nói đề xuất cách tiếp cận kết hợp." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn có quan điểm trái ngược", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "I think in-person classes are always better.", "vi": "Tôi nghĩ lớp học trực tiếp luôn tốt hơn." },
+      { "speaker": "b", "en": "I would argue that online learning offers more flexibility.", "vi": "Tôi cho rằng học online mang lại nhiều linh hoạt hơn.", "hint": "Dùng I would argue that." },
+      { "speaker": "a", "en": "But you miss real interaction with classmates.", "vi": "Nhưng bạn sẽ thiếu tương tác thực sự với bạn học." },
+      { "speaker": "b", "en": "However, it lacks the interaction of in-person classes, that is true.", "vi": "Tuy nhiên, đúng là nó thiếu sự tương tác của lớp học trực tiếp.", "hint": "Dùng However, it lacks the interaction of." },
+      { "speaker": "a", "en": "So which one do you actually prefer?", "vi": "Vậy bạn thực sự thích cái nào hơn?" },
+      { "speaker": "b", "en": "That really depends on the student's self-discipline.", "vi": "Điều đó thực sự phụ thuộc vào tính tự giác của học sinh.", "hint": "Dùng That really depends on." },
+      { "speaker": "a", "en": "I see your point, but hands-on subjects need labs.", "vi": "Tôi hiểu ý bạn, nhưng các môn thực hành cần phòng thí nghiệm." },
+      { "speaker": "b", "en": "I see your point, but consider a hybrid approach.", "vi": "Tôi hiểu ý bạn, nhưng hãy xem xét cách tiếp cận kết hợp.", "hint": "Dùng I see your point, but consider." },
+      { "speaker": "a", "en": "That could actually work well.", "vi": "Cách đó thực sự có thể hiệu quả đấy." },
+      { "speaker": "b", "en": "A hybrid approach might combine the best of both.", "vi": "Một cách tiếp cận kết hợp có thể tận dụng ưu điểm của cả hai.", "hint": "Dùng A hybrid approach might combine the best of both." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friend who strongly believes in-person classes are superior to online learning.",
+    "opener": "I think in-person classes are always better.",
+    "goal": "Người học trình bày lập luận cân bằng, thừa nhận hạn chế của học online và đề xuất giải pháp kết hợp."
+  },
+  "drills": [
+    { "vi": "Tôi cho rằng học online mang lại nhiều linh hoạt hơn.", "en": "I would argue that online learning offers more flexibility.", "alts": [] },
+    { "vi": "Tuy nhiên, nó thiếu sự tương tác của lớp học trực tiếp.", "en": "However, it lacks the interaction of in-person classes.", "alts": [] },
+    { "vi": "Điều đó thực sự phụ thuộc vào tính tự giác của học sinh.", "en": "That really depends on the student's self-discipline.", "alts": [] },
+    { "vi": "Một cách tiếp cận kết hợp có thể tận dụng ưu điểm của cả hai.", "en": "A hybrid approach might combine the best of both.", "alts": [] },
+    { "vi": "Tôi hiểu ý bạn, nhưng hãy xem xét điều này.", "en": "I see your point, but consider this.", "alts": [] },
+    { "vi": "Một số học sinh cảm thấy cô lập khi học online.", "en": "Some students feel isolated with online learning.", "alts": [] },
+    { "vi": "Các môn thực hành cần phòng thí nghiệm vật lý.", "en": "Hands-on subjects need physical labs.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận về học online và trực tiếp, chú ý trọng âm trong flexibility.",
+    "Viết ba câu dùng cấu trúc I see your point, but consider ___.",
+    "Luyện nói ba lần câu That really depends on the student's self-discipline."
+  ]
+}

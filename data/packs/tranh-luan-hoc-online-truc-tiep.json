@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-hoc-online-truc-tiep",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu tranh luận về online và trực tiếp", "situation": "Hai người bắt đầu tranh luận về học online và trực tiếp.",
+      "turns": [
+        { "speaker": "a", "en": "I think in-person classes are always better.", "vi": "Tôi nghĩ lớp học trực tiếp luôn tốt hơn." },
+        { "speaker": "b", "en": "I would argue that online learning offers more flexibility.", "vi": "Tôi cho rằng học online mang lại nhiều linh hoạt hơn." },
+        { "speaker": "a", "en": "That is true for busy people.", "vi": "Điều đó đúng với người bận rộn." },
+        { "speaker": "b", "en": "Exactly, it saves commute time too.", "vi": "Chính xác, nó còn tiết kiệm thời gian đi lại nữa." },
+        { "speaker": "a", "en": "That is a fair advantage.", "vi": "Đó là lợi thế hợp lý đấy." },
+        { "speaker": "b", "en": "I am glad you see that.", "vi": "Tôi vui vì bạn thấy điều đó." }
+      ]},
+    { "title": "Chỉ ra hạn chế của học online", "situation": "Bạn chỉ ra hạn chế của việc học online.",
+      "turns": [
+        { "speaker": "a", "en": "But you miss real interaction with classmates.", "vi": "Nhưng bạn sẽ thiếu tương tác thực sự với bạn học." },
+        { "speaker": "b", "en": "However, it lacks the interaction of in-person classes, that is true.", "vi": "Tuy nhiên, đúng là nó thiếu sự tương tác của lớp học trực tiếp." },
+        { "speaker": "a", "en": "Some students really need that connection.", "vi": "Một số học sinh thực sự cần sự kết nối đó." },
+        { "speaker": "b", "en": "I agree, it varies by person.", "vi": "Tôi đồng ý, nó tuỳ vào mỗi người." },
+        { "speaker": "a", "en": "That is a balanced view.", "vi": "Đó là góc nhìn cân bằng đấy." },
+        { "speaker": "b", "en": "I try to see both sides.", "vi": "Tôi cố nhìn cả hai mặt." }
+      ]},
+    { "title": "Nói về tính tự giác cần thiết", "situation": "Bạn nói về tính tự giác cần thiết khi học online.",
+      "turns": [
+        { "speaker": "a", "en": "Is online learning suitable for everyone?", "vi": "Học online có phù hợp với mọi người không?" },
+        { "speaker": "b", "en": "That really depends on the student's self-discipline.", "vi": "Điều đó thực sự phụ thuộc vào tính tự giác của học sinh." },
+        { "speaker": "a", "en": "Not everyone has that, honestly.", "vi": "Thật lòng, không phải ai cũng có điều đó." },
+        { "speaker": "b", "en": "That is a valid concern.", "vi": "Đó là mối lo ngại hợp lý đấy." },
+        { "speaker": "a", "en": "So it is not one-size-fits-all.", "vi": "Vậy nó không phù hợp với tất cả mọi người." },
+        { "speaker": "b", "en": "Exactly, context matters a lot.", "vi": "Chính xác, hoàn cảnh rất quan trọng." }
+      ]},
+    { "title": "Đề xuất giải pháp kết hợp", "situation": "Bạn đề xuất một giải pháp kết hợp cả hai hình thức.",
+      "turns": [
+        { "speaker": "a", "en": "So which one do you actually prefer?", "vi": "Vậy bạn thực sự thích cái nào hơn?" },
+        { "speaker": "b", "en": "A hybrid approach might combine the best of both.", "vi": "Một cách tiếp cận kết hợp có thể tận dụng ưu điểm của cả hai." },
+        { "speaker": "a", "en": "That sounds like a smart compromise.", "vi": "Nghe như một thỏa hiệp thông minh đấy." },
+        { "speaker": "b", "en": "Many schools are trying that now.", "vi": "Nhiều trường học đang thử điều đó bây giờ." },
+        { "speaker": "a", "en": "I hope it works well for them.", "vi": "Tôi mong nó hiệu quả với họ." },
+        { "speaker": "b", "en": "Time will tell, I suppose.", "vi": "Tôi nghĩ thời gian sẽ trả lời." }
+      ]},
+    { "title": "Nói về môn học cần thực hành", "situation": "Bạn nói về việc một số môn học cần thực hành trực tiếp.",
+      "turns": [
+        { "speaker": "a", "en": "Hands-on subjects need physical labs.", "vi": "Các môn thực hành cần phòng thí nghiệm vật lý." },
+        { "speaker": "b", "en": "That is a good point about science classes.", "vi": "Đó là điểm hay về các lớp khoa học đấy." },
+        { "speaker": "a", "en": "Online simulations are not quite the same.", "vi": "Mô phỏng trực tuyến không hoàn toàn giống vậy." },
+        { "speaker": "b", "en": "I had not thought about that difference.", "vi": "Tôi chưa từng nghĩ về sự khác biệt đó." },
+        { "speaker": "a", "en": "It really matters for certain subjects.", "vi": "Điều đó thực sự quan trọng với một số môn nhất định." },
+        { "speaker": "b", "en": "That changes my view a bit.", "vi": "Điều đó thay đổi quan điểm của tôi một chút." }
+      ]},
+    { "title": "Bàn về cảm giác cô lập khi học online", "situation": "Bạn bàn về cảm giác cô lập khi học online quá nhiều.",
+      "turns": [
+        { "speaker": "a", "en": "Some students feel isolated with online learning.", "vi": "Một số học sinh cảm thấy cô lập khi học online." },
+        { "speaker": "b", "en": "That is a real emotional concern.", "vi": "Đó là mối lo ngại về mặt cảm xúc thật sự." },
+        { "speaker": "a", "en": "Social connection matters for learning too.", "vi": "Kết nối xã hội cũng quan trọng với việc học." },
+        { "speaker": "b", "en": "I agree, it is not just about content.", "vi": "Tôi đồng ý, không chỉ là về nội dung học." },
+        { "speaker": "a", "en": "That is an important point to remember.", "vi": "Đó là điểm quan trọng cần nhớ đấy." },
+        { "speaker": "b", "en": "Definitely worth considering.", "vi": "Chắc chắn đáng để cân nhắc." }
+      ]},
+    { "title": "Phản biện nhẹ nhàng một lập luận", "situation": "Bạn phản biện nhẹ nhàng lập luận của đối phương.",
+      "turns": [
+        { "speaker": "a", "en": "Online classes are just more convenient overall.", "vi": "Nhìn chung lớp online tiện lợi hơn nhiều." },
+        { "speaker": "b", "en": "I see your point, but consider student engagement.", "vi": "Tôi hiểu ý bạn, nhưng hãy xem xét sự gắn kết của học sinh." },
+        { "speaker": "a", "en": "That is true, engagement can drop online.", "vi": "Đúng vậy, sự gắn kết có thể giảm khi học online." },
+        { "speaker": "b", "en": "Exactly, convenience is not everything.", "vi": "Chính xác, tiện lợi không phải là tất cả." },
+        { "speaker": "a", "en": "I appreciate that perspective.", "vi": "Tôi trân trọng góc nhìn đó." },
+        { "speaker": "b", "en": "Thank you for considering it.", "vi": "Cảm ơn bạn đã cân nhắc." }
+      ]},
+    { "title": "Đưa dẫn chứng thực tế", "situation": "Bạn đưa dẫn chứng thực tế về hiệu quả học tập.",
+      "turns": [
+        { "speaker": "a", "en": "Do you have any evidence for that claim?", "vi": "Bạn có bằng chứng nào cho tuyên bố đó không?" },
+        { "speaker": "b", "en": "Some studies show mixed learning outcomes online.", "vi": "Một số nghiên cứu cho thấy kết quả học tập online không đồng đều." },
+        { "speaker": "a", "en": "That is worth looking into further.", "vi": "Điều đó đáng để tìm hiểu thêm." },
+        { "speaker": "b", "en": "I can share the source later.", "vi": "Lát tôi có thể chia sẻ nguồn." },
+        { "speaker": "a", "en": "I would appreciate that.", "vi": "Tôi sẽ cảm kích điều đó." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Kết luận tranh luận với sự đồng thuận một phần", "situation": "Bạn kết luận cuộc tranh luận với sự đồng thuận một phần.",
+      "turns": [
+        { "speaker": "a", "en": "So we agree it depends on the subject and student.", "vi": "Vậy mình đồng ý là tuỳ vào môn học và học sinh." },
+        { "speaker": "b", "en": "Yes, neither option is perfect alone.", "vi": "Vâng, không có lựa chọn nào hoàn hảo một mình." },
+        { "speaker": "a", "en": "A flexible system seems best then.", "vi": "Vậy một hệ thống linh hoạt có vẻ tốt nhất." },
+        { "speaker": "b", "en": "I completely agree with that conclusion.", "vi": "Tôi hoàn toàn đồng ý với kết luận đó." },
+        { "speaker": "a", "en": "Great discussion today.", "vi": "Hôm nay là buổi thảo luận hay đấy." },
+        { "speaker": "b", "en": "I enjoyed it too.", "vi": "Tôi cũng thích nó." }
+      ]},
+    { "title": "Tranh luận phức tạp về chính sách giáo dục quốc gia liên quan đến cả hai hình thức học", "situation": "Hai người tranh luận phức tạp về chính sách giáo dục quốc gia liên quan đến việc cân bằng cả hai hình thức học tập. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "If the government mandates more online learning, we risk widening the gap for students without reliable internet.", "vi": "Nếu chính phủ bắt buộc học online nhiều hơn, mình có nguy cơ mở rộng khoảng cách cho học sinh không có internet ổn định." },
+        { "speaker": "b", "en": "That is a valid equity concern, but in-person-only policies limit access for rural students too.", "vi": "Đó là mối lo ngại công bằng chính đáng, nhưng chính sách chỉ học trực tiếp cũng hạn chế tiếp cận cho học sinh vùng nông thôn." },
+        { "speaker": "a", "en": "So perhaps the real issue is infrastructure investment, not the learning format itself.", "vi": "Vậy có lẽ vấn đề thực sự là đầu tư hạ tầng, không phải bản thân hình thức học." },
+        { "speaker": "b", "en": "Exactly, a hybrid approach only works if the infrastructure supports it equally for everyone.", "vi": "Chính xác, cách tiếp cận kết hợp chỉ hiệu quả nếu hạ tầng hỗ trợ công bằng cho tất cả mọi người." },
+        { "speaker": "a", "en": "That reframes the whole policy debate around equity rather than format preference.", "vi": "Điều đó định hình lại toàn bộ tranh luận chính sách xoay quanh sự công bằng thay vì ưu tiên hình thức." },
+        { "speaker": "b", "en": "I think that is the most productive way to move this conversation forward.", "vi": "Tôi nghĩ đó là cách hiệu quả nhất để đưa cuộc trò chuyện này tiến lên." }
+      ]}
+  ]
+}

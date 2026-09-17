@@ -1,0 +1,96 @@
+{
+  "id": "phuong-phap-hoc-tap-hieu-qua",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Hỏi cách học cho kỳ thi", "situation": "Bạn hỏi bạn cùng lớp cách học cho kỳ thi sắp tới.",
+      "turns": [
+        { "speaker": "a", "en": "How do you usually study for exams?", "vi": "Bạn thường học thế nào cho kỳ thi?" },
+        { "speaker": "b", "en": "I usually study by making flashcards.", "vi": "Tôi thường học bằng cách làm thẻ ghi nhớ." },
+        { "speaker": "a", "en": "Does that method work well?", "vi": "Phương pháp đó có hiệu quả không?" },
+        { "speaker": "b", "en": "Yes, it really helps me remember.", "vi": "Có, nó thực sự giúp tôi ghi nhớ." },
+        { "speaker": "a", "en": "I might try that too.", "vi": "Có lẽ tôi cũng sẽ thử." },
+        { "speaker": "b", "en": "You should, it is simple.", "vi": "Bạn nên thử, nó đơn giản mà." }
+      ]},
+    { "title": "Gợi ý làm đề thi thử", "situation": "Bạn gợi ý bạn mình làm đề thi thử.",
+      "turns": [
+        { "speaker": "a", "en": "Have you tried practice tests?", "vi": "Bạn đã thử đề thi thử chưa?" },
+        { "speaker": "b", "en": "Not yet, but I want to try that.", "vi": "Chưa, nhưng tôi muốn thử điều đó." },
+        { "speaker": "a", "en": "They really help before exams.", "vi": "Chúng thực sự giúp ích trước kỳ thi." },
+        { "speaker": "b", "en": "Where can I find some?", "vi": "Tôi tìm chúng ở đâu vậy?" },
+        { "speaker": "a", "en": "I can send you some links.", "vi": "Tôi có thể gửi bạn vài đường link." },
+        { "speaker": "b", "en": "Thank you, that would help a lot.", "vi": "Cảm ơn, vậy giúp ích nhiều lắm." }
+      ]},
+    { "title": "Nói về nơi học tập trung", "situation": "Bạn nói về nơi bạn tập trung học tốt nhất.",
+      "turns": [
+        { "speaker": "a", "en": "Where do you usually study?", "vi": "Bạn thường học ở đâu vậy?" },
+        { "speaker": "b", "en": "I find it easier to concentrate in the library.", "vi": "Tôi thấy dễ tập trung hơn ở thư viện." },
+        { "speaker": "a", "en": "Why is that?", "vi": "Vì sao vậy?" },
+        { "speaker": "b", "en": "It is quiet and has no distractions.", "vi": "Nó yên tĩnh và không có gì xao nhãng." },
+        { "speaker": "a", "en": "That makes sense.", "vi": "Vậy cũng hợp lý." },
+        { "speaker": "b", "en": "I get more done there.", "vi": "Ở đó tôi hoàn thành nhiều việc hơn." }
+      ]},
+    { "title": "Nói về sự xao nhãng vì điện thoại", "situation": "Bạn nói về việc bị xao nhãng khi học ở nhà.",
+      "turns": [
+        { "speaker": "a", "en": "What distracts you at home?", "vi": "Điều gì làm bạn xao nhãng ở nhà vậy?" },
+        { "speaker": "b", "en": "I get distracted easily by my phone.", "vi": "Tôi dễ bị xao nhãng bởi điện thoại." },
+        { "speaker": "a", "en": "Have you tried turning it off?", "vi": "Bạn đã thử tắt nó chưa?" },
+        { "speaker": "b", "en": "Not yet, but I should.", "vi": "Chưa, nhưng tôi nên làm vậy." },
+        { "speaker": "a", "en": "It really helps with focus.", "vi": "Nó thực sự giúp tập trung hơn." },
+        { "speaker": "b", "en": "I will try that tonight.", "vi": "Tối nay tôi sẽ thử." }
+      ]},
+    { "title": "Đề xuất nghỉ giải lao khi học", "situation": "Bạn đề xuất nghỉ giải lao trong lúc học.",
+      "turns": [
+        { "speaker": "a", "en": "Taking breaks helps a lot too.", "vi": "Nghỉ giải lao cũng giúp ích nhiều đấy." },
+        { "speaker": "b", "en": "That method works well for me too.", "vi": "Phương pháp đó cũng hiệu quả với tôi." },
+        { "speaker": "a", "en": "How often do you take a break?", "vi": "Bạn nghỉ bao lâu một lần vậy?" },
+        { "speaker": "b", "en": "Every hour, for about ten minutes.", "vi": "Mỗi giờ, khoảng mười phút." },
+        { "speaker": "a", "en": "That sounds like a good balance.", "vi": "Nghe như sự cân bằng tốt đấy." },
+        { "speaker": "b", "en": "It keeps my mind fresh.", "vi": "Nó giữ đầu óc tôi tỉnh táo." }
+      ]},
+    { "title": "Rủ học nhóm để giữ động lực", "situation": "Bạn rủ bạn mình học nhóm để giữ động lực.",
+      "turns": [
+        { "speaker": "a", "en": "Group study helps me stay motivated.", "vi": "Học nhóm giúp tôi giữ động lực." },
+        { "speaker": "b", "en": "That is a good idea, let us try it.", "vi": "Ý hay đấy, mình thử nhé." },
+        { "speaker": "a", "en": "When should we meet?", "vi": "Mình nên gặp khi nào vậy?" },
+        { "speaker": "b", "en": "How about this weekend?", "vi": "Cuối tuần này thì sao?" },
+        { "speaker": "a", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "b", "en": "Great, see you then.", "vi": "Tuyệt, hẹn gặp lúc đó." }
+      ]},
+    { "title": "So sánh hai phương pháp học", "situation": "Bạn so sánh hai phương pháp học khác nhau.",
+      "turns": [
+        { "speaker": "a", "en": "Do flashcards work better than notes for you?", "vi": "Thẻ ghi nhớ có hiệu quả hơn ghi chú với bạn không?" },
+        { "speaker": "b", "en": "Yes, flashcards are more efficient for me.", "vi": "Có, thẻ ghi nhớ hiệu quả hơn với tôi." },
+        { "speaker": "a", "en": "Why do you think that is?", "vi": "Bạn nghĩ vì sao vậy?" },
+        { "speaker": "b", "en": "I remember pictures better than text.", "vi": "Tôi nhớ hình ảnh tốt hơn chữ viết." },
+        { "speaker": "a", "en": "That makes sense for you then.", "vi": "Vậy hợp lý với bạn rồi." },
+        { "speaker": "b", "en": "Everyone learns differently, I guess.", "vi": "Tôi nghĩ mỗi người học một kiểu khác nhau." }
+      ]},
+    { "title": "Chia sẻ mẹo ghi nhớ từ vựng", "situation": "Bạn chia sẻ mẹo ghi nhớ từ vựng mới.",
+      "turns": [
+        { "speaker": "a", "en": "How do you memorize new vocabulary?", "vi": "Bạn ghi nhớ từ vựng mới thế nào?" },
+        { "speaker": "b", "en": "I memorize new vocabulary daily using an app.", "vi": "Tôi ghi nhớ từ vựng mới hàng ngày bằng một ứng dụng." },
+        { "speaker": "a", "en": "Which app do you use?", "vi": "Bạn dùng ứng dụng nào vậy?" },
+        { "speaker": "b", "en": "I will show you the name later.", "vi": "Lát tôi sẽ cho bạn biết tên nó." },
+        { "speaker": "a", "en": "I would love to try it.", "vi": "Tôi rất muốn thử nó." },
+        { "speaker": "b", "en": "It has really helped me a lot.", "vi": "Nó đã giúp ích tôi nhiều lắm." }
+      ]},
+    { "title": "Lên lịch trình học tập cụ thể", "situation": "Bạn lên lịch trình học tập cụ thể cho tuần này.",
+      "turns": [
+        { "speaker": "a", "en": "Do you follow a study schedule?", "vi": "Bạn có theo một lịch trình học tập không?" },
+        { "speaker": "b", "en": "Yes, I follow a study schedule every week.", "vi": "Có, mỗi tuần tôi theo một lịch trình học tập." },
+        { "speaker": "a", "en": "That sounds very organized.", "vi": "Nghe có tổ chức đấy." },
+        { "speaker": "b", "en": "It helps me stay on track.", "vi": "Nó giúp tôi giữ đúng tiến độ." },
+        { "speaker": "a", "en": "I should make one too.", "vi": "Tôi cũng nên làm một cái." },
+        { "speaker": "b", "en": "I can help you create one.", "vi": "Tôi có thể giúp bạn tạo một cái." }
+      ]},
+    { "title": "Thảo luận toàn diện nhiều phương pháp học tập khác nhau để chuẩn bị kỳ thi lớn", "situation": "Bạn thảo luận toàn diện nhiều phương pháp học tập khác nhau để chuẩn bị cho một kỳ thi lớn sắp tới. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "With the big exam coming up, we need a solid plan combining several methods.", "vi": "Với kỳ thi lớn sắp tới, mình cần một kế hoạch vững kết hợp nhiều phương pháp." },
+        { "speaker": "b", "en": "I usually study by making flashcards, but that alone might not be enough.", "vi": "Tôi thường học bằng cách làm thẻ ghi nhớ, nhưng chỉ vậy có thể chưa đủ." },
+        { "speaker": "a", "en": "We should add practice tests and maybe some group study sessions too.", "vi": "Mình nên thêm đề thi thử và có lẽ vài buổi học nhóm nữa." },
+        { "speaker": "b", "en": "That sounds efficient, but I get distracted easily in groups sometimes.", "vi": "Nghe hiệu quả đấy, nhưng đôi khi tôi dễ bị xao nhãng trong nhóm." },
+        { "speaker": "a", "en": "Maybe we do individual review first, then group study for practice tests only.", "vi": "Có lẽ mình tự ôn tập trước, rồi chỉ học nhóm cho phần đề thi thử." },
+        { "speaker": "b", "en": "That combination could really work well for both of us.", "vi": "Sự kết hợp đó thực sự có thể hiệu quả cho cả hai chúng ta." }
+      ]}
+  ]
+}

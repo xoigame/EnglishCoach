@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-chinh-sach-giao-duc",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Đặt vấn đề về cải cách thi cử", "situation": "Hai người bắt đầu bàn về cải cách thi cử mới.",
+      "turns": [
+        { "speaker": "a", "en": "The new testing reform should improve our schools significantly.", "vi": "Cải cách thi cử mới nên cải thiện đáng kể các trường học của chúng ta." },
+        { "speaker": "b", "en": "Reforming testing alone will not solve the deeper problem.", "vi": "Chỉ cải cách thi cử thôi sẽ không giải quyết được vấn đề sâu xa hơn." },
+        { "speaker": "a", "en": "What deeper problem do you mean?", "vi": "Bạn muốn nói vấn đề sâu xa hơn nào?" },
+        { "speaker": "b", "en": "The way we teach critical thinking, for one.", "vi": "Ví dụ như cách chúng ta dạy tư duy phản biện." },
+        { "speaker": "a", "en": "That is worth exploring further.", "vi": "Điều đó đáng để tìm hiểu thêm." },
+        { "speaker": "b", "en": "I believe it is the core issue.", "vi": "Tôi tin đó là vấn đề cốt lõi." }
+      ]},
+    { "title": "Xác định nguyên nhân gốc rễ", "situation": "Bạn xác định nguyên nhân gốc rễ của vấn đề giáo dục.",
+      "turns": [
+        { "speaker": "a", "en": "What do you think the deeper problem is?", "vi": "Bạn nghĩ vấn đề sâu xa hơn là gì?" },
+        { "speaker": "b", "en": "The root cause of this issue is an outdated curriculum.", "vi": "Nguyên nhân gốc rễ của vấn đề này là chương trình giảng dạy lỗi thời." },
+        { "speaker": "a", "en": "How would you update it?", "vi": "Bạn sẽ cập nhật nó thế nào?" },
+        { "speaker": "b", "en": "Focus more on practical skills.", "vi": "Tập trung nhiều hơn vào kỹ năng thực tiễn." },
+        { "speaker": "a", "en": "That sounds like a meaningful change.", "vi": "Nghe như một thay đổi có ý nghĩa đấy." },
+        { "speaker": "b", "en": "It would take time, but it is necessary.", "vi": "Sẽ mất thời gian, nhưng cần thiết." }
+      ]},
+    { "title": "Nhấn mạnh tầm quan trọng của việc triển khai", "situation": "Bạn nhấn mạnh rằng cải cách cần được triển khai đúng cách.",
+      "turns": [
+        { "speaker": "a", "en": "But the new tests do encourage critical thinking.", "vi": "Nhưng các bài thi mới có khuyến khích tư duy phản biện đấy." },
+        { "speaker": "b", "en": "Without proper implementation, that remains superficial.", "vi": "Nếu không triển khai đúng cách, điều đó vẫn chỉ mang tính hời hợt." },
+        { "speaker": "a", "en": "What would proper implementation look like?", "vi": "Việc triển khai đúng cách sẽ trông như thế nào?" },
+        { "speaker": "b", "en": "Better teacher training, for a start.", "vi": "Trước hết là đào tạo giáo viên tốt hơn." },
+        { "speaker": "a", "en": "That requires significant investment.", "vi": "Điều đó đòi hỏi đầu tư đáng kể." },
+        { "speaker": "b", "en": "Yes, but it is worth it long term.", "vi": "Vâng, nhưng đáng giá về lâu dài." }
+      ]},
+    { "title": "Bàn về chi phí cải cách", "situation": "Bạn bàn về chi phí của việc cải cách giáo dục.",
+      "turns": [
+        { "speaker": "a", "en": "Cost is also a major concern for this reform.", "vi": "Chi phí cũng là mối lo ngại lớn cho cải cách này." },
+        { "speaker": "b", "en": "That is a valid concern, but the data suggests it improves outcomes.", "vi": "Đó là mối lo ngại chính đáng, nhưng dữ liệu cho thấy nó cải thiện kết quả." },
+        { "speaker": "a", "en": "What does the data actually show?", "vi": "Dữ liệu thực sự cho thấy điều gì?" },
+        { "speaker": "b", "en": "Test scores improved in pilot programs.", "vi": "Điểm số bài thi đã cải thiện trong các chương trình thí điểm." },
+        { "speaker": "a", "en": "That is encouraging to hear.", "vi": "Nghe vậy khích lệ đấy." },
+        { "speaker": "b", "en": "It gives us a reason for optimism.", "vi": "Nó cho chúng ta lý do để lạc quan." }
+      ]},
+    { "title": "Bàn về sự công bằng giữa các trường", "situation": "Bạn bàn về tác động dài hạn đến sự công bằng.",
+      "turns": [
+        { "speaker": "a", "en": "What about equity between different schools?", "vi": "Còn về sự công bằng giữa các trường khác nhau thì sao?" },
+        { "speaker": "b", "en": "We must consider the long-term impact on equity too.", "vi": "Chúng ta cũng phải xem xét tác động dài hạn đến sự công bằng." },
+        { "speaker": "a", "en": "Rural schools may struggle more.", "vi": "Các trường nông thôn có thể gặp khó khăn hơn." },
+        { "speaker": "b", "en": "That is exactly my concern too.", "vi": "Đó chính xác cũng là mối lo ngại của tôi." },
+        { "speaker": "a", "en": "We need targeted support for them.", "vi": "Chúng ta cần hỗ trợ có mục tiêu cho họ." },
+        { "speaker": "b", "en": "I completely agree with that.", "vi": "Tôi hoàn toàn đồng ý với điều đó." }
+      ]},
+    { "title": "Bàn về học vẹt và tư duy phản biện", "situation": "Bạn bàn về việc chuyển từ học vẹt sang tư duy phản biện.",
+      "turns": [
+        { "speaker": "a", "en": "Rote learning does not build real skills.", "vi": "Học vẹt không xây dựng kỹ năng thực sự." },
+        { "speaker": "b", "en": "I agree, we need to teach more critical thinking.", "vi": "Tôi đồng ý, chúng ta cần dạy tư duy phản biện nhiều hơn." },
+        { "speaker": "a", "en": "How can teachers make that shift?", "vi": "Giáo viên có thể chuyển đổi điều đó thế nào?" },
+        { "speaker": "b", "en": "Through discussion-based lessons, perhaps.", "vi": "Có lẽ thông qua các bài học dựa trên thảo luận." },
+        { "speaker": "a", "en": "That would require new training.", "vi": "Điều đó sẽ cần đào tạo mới." },
+        { "speaker": "b", "en": "Yes, but it is a necessary investment.", "vi": "Vâng, nhưng đó là khoản đầu tư cần thiết." }
+      ]},
+    { "title": "Thảo luận về đánh giá học sinh công bằng hơn", "situation": "Bạn thảo luận về phương pháp đánh giá học sinh công bằng hơn.",
+      "turns": [
+        { "speaker": "a", "en": "We need better assessment methods overall.", "vi": "Nhìn chung chúng ta cần phương pháp đánh giá tốt hơn." },
+        { "speaker": "b", "en": "What kind of assessment do you have in mind?", "vi": "Bạn nghĩ đến loại đánh giá nào vậy?" },
+        { "speaker": "a", "en": "Project-based assessment, for example.", "vi": "Ví dụ như đánh giá dựa trên dự án." },
+        { "speaker": "b", "en": "That could reduce test anxiety too.", "vi": "Điều đó cũng có thể giảm lo âu khi thi cử." },
+        { "speaker": "a", "en": "Exactly, it measures real understanding.", "vi": "Chính xác, nó đo lường sự hiểu biết thực sự." },
+        { "speaker": "b", "en": "I would support that change.", "vi": "Tôi sẽ ủng hộ thay đổi đó." }
+      ]},
+    { "title": "Phản biện một chính sách được cho là thành công", "situation": "Bạn phản biện một chính sách được cho là đã thành công ở nơi khác.",
+      "turns": [
+        { "speaker": "a", "en": "This reform worked well in other countries.", "vi": "Cải cách này đã hiệu quả tốt ở các nước khác." },
+        { "speaker": "b", "en": "That is a valid concern, but context matters a lot.", "vi": "Đó là mối lo ngại chính đáng, nhưng bối cảnh rất quan trọng." },
+        { "speaker": "a", "en": "What context are you referring to?", "vi": "Bạn đang nhắc đến bối cảnh nào vậy?" },
+        { "speaker": "b", "en": "Resources and teacher training differ greatly.", "vi": "Nguồn lực và đào tạo giáo viên khác nhau rất nhiều." },
+        { "speaker": "a", "en": "That is a fair point to consider.", "vi": "Đó là điểm hợp lý cần cân nhắc đấy." },
+        { "speaker": "b", "en": "We should adapt, not just copy.", "vi": "Chúng ta nên điều chỉnh, không chỉ sao chép." }
+      ]},
+    { "title": "Kết luận với đề xuất cụ thể", "situation": "Bạn kết luận cuộc tranh luận với một đề xuất cụ thể.",
+      "turns": [
+        { "speaker": "a", "en": "So what would you actually propose?", "vi": "Vậy bạn thực sự đề xuất điều gì?" },
+        { "speaker": "b", "en": "A phased reform starting with teacher training.", "vi": "Một cải cách theo giai đoạn bắt đầu từ đào tạo giáo viên." },
+        { "speaker": "a", "en": "That seems like a practical starting point.", "vi": "Nghe như một điểm khởi đầu thực tế đấy." },
+        { "speaker": "b", "en": "Then we can adjust the curriculum gradually.", "vi": "Rồi mình có thể điều chỉnh chương trình dần dần." },
+        { "speaker": "a", "en": "I support that gradual approach.", "vi": "Tôi ủng hộ cách tiếp cận dần dần đó." },
+        { "speaker": "b", "en": "Thank you for this thoughtful discussion.", "vi": "Cảm ơn vì cuộc thảo luận chu đáo này." }
+      ]},
+    { "title": "Tranh luận phức tạp về cải cách giáo dục toàn diện với nhiều bên liên quan có lợi ích khác nhau", "situation": "Hai người tranh luận phức tạp về cải cách giáo dục toàn diện, cân nhắc lợi ích của nhiều bên liên quan khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Teachers, parents, and policymakers all want different things from this reform.", "vi": "Giáo viên, phụ huynh, và nhà hoạch định chính sách đều muốn những điều khác nhau từ cải cách này." },
+        { "speaker": "b", "en": "The root cause of the conflict is that each group defines success differently.", "vi": "Nguyên nhân gốc rễ của xung đột là mỗi nhóm định nghĩa thành công khác nhau." },
+        { "speaker": "a", "en": "Parents want higher test scores, teachers want manageable workloads.", "vi": "Phụ huynh muốn điểm thi cao hơn, giáo viên muốn khối lượng công việc quản lý được." },
+        { "speaker": "b", "en": "Without proper implementation that addresses both, any reform stays superficial for one group.", "vi": "Nếu không triển khai đúng cách giải quyết cả hai, bất kỳ cải cách nào cũng chỉ hời hợt với một nhóm." },
+        { "speaker": "a", "en": "So how do we reconcile these competing interests realistically?", "vi": "Vậy mình dung hoà những lợi ích cạnh tranh này một cách thực tế thế nào?" },
+        { "speaker": "b", "en": "We must consider the long-term impact on all stakeholders, not just the loudest voices in the room.", "vi": "Chúng ta phải xem xét tác động dài hạn đến tất cả các bên liên quan, không chỉ những tiếng nói lớn nhất trong phòng." }
+      ]}
+  ]
+}

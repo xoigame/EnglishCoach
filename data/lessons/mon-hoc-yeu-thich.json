@@ -1,0 +1,98 @@
+{
+  "id": "mon-hoc-yeu-thich",
+  "title": "Nói về môn học yêu thích ở trường",
+  "topic": "Giáo dục và trường học",
+  "level": "A1",
+  "summary": "Bạn nói chuyện với một bạn học cùng lớp về môn học yêu thích và lý do bạn thích môn đó.",
+  "goals": [
+    "Nói tên môn học yêu thích bằng tiếng Anh",
+    "Đưa ra lý do đơn giản vì sao thích môn đó",
+    "Hỏi người khác về môn học họ thích"
+  ],
+  "vocab": [
+    { "en": "subject", "ipa": "/ˈsʌbdʒɪkt/", "vi": "môn học", "example": "Math is my favorite subject." },
+    { "en": "math", "ipa": "/mæθ/", "vi": "toán học", "example": "I am good at math." },
+    { "en": "history", "ipa": "/ˈhɪstri/", "vi": "lịch sử", "example": "History is very interesting." },
+    { "en": "science", "ipa": "/ˈsaɪəns/", "vi": "khoa học", "example": "I like science class." },
+    { "en": "art", "ipa": "/ɑːrt/", "vi": "mỹ thuật", "example": "Art class is fun." },
+    { "en": "teacher", "ipa": "/ˈtiːtʃər/", "vi": "giáo viên", "example": "My teacher is very kind." },
+    { "en": "homework", "ipa": "/ˈhoʊmwɜːrk/", "vi": "bài tập về nhà", "example": "I have a lot of homework." },
+    { "en": "interesting", "ipa": "/ˈɪntrəstɪŋ/", "vi": "thú vị", "example": "This subject is interesting." },
+    { "en": "difficult", "ipa": "/ˈdɪfɪkəlt/", "vi": "khó", "example": "Math can be difficult sometimes." },
+    { "en": "grade", "ipa": "/ɡreɪd/", "vi": "điểm số", "example": "I got a good grade." }
+  ],
+  "patterns": [
+    { "en": "My favorite subject is ___.", "vi": "Môn học yêu thích của tôi là ___.", "note": "Nói tên môn học yêu thích." },
+    { "en": "I like it because ___.", "vi": "Tôi thích nó vì ___.", "note": "Đưa ra lý do thích môn học đó." },
+    { "en": "What is your favorite subject?", "vi": "Môn học yêu thích của bạn là gì?", "note": "Hỏi về môn học yêu thích." },
+    { "en": "I am good at ___.", "vi": "Tôi giỏi ___.", "note": "Nói về môn học mình giỏi." },
+    { "en": "___ is a bit difficult for me.", "vi": "___ hơi khó với tôi.", "note": "Nói về môn học mình thấy khó." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /θ/ trong math", "tip": "Đặt đầu lưỡi giữa hai răng và thổi hơi nhẹ.", "words": ["math"] },
+    { "focus": "âm /s/ trong science và subject", "tip": "Giữ hơi liên tục qua răng, không bật hơi mạnh.", "words": ["science", "subject"] },
+    { "focus": "trọng âm trong interesting", "tip": "Nhấn vào âm tiết đầu: IN-teresting.", "words": ["interesting"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "My favorite subject are math.", "right": "My favorite subject is math.", "vi": "Chủ ngữ số ít subject cần động từ is." },
+    { "wrong": "I like it because is fun.", "right": "I like it because it is fun.", "vi": "Cần chủ ngữ it trong mệnh đề sau because." },
+    { "wrong": "I am good in math.", "right": "I am good at math.", "vi": "Good đi với giới từ at, không dùng in." },
+    { "wrong": "Math is difficult for I.", "right": "Math is difficult for me.", "vi": "Sau giới từ for dùng tân ngữ me, không dùng I." }
+  ],
+  "variations": [
+    { "situation": "Nói môn yêu thích", "formal": "My favorite subject is science.", "casual": "I love science class.", "vi": "Câu thân mật ngắn gọn, hay dùng giữa bạn bè." },
+    { "situation": "Hỏi người khác", "formal": "What is your favorite subject?", "casual": "What subject do you like best?", "vi": "Cả hai đều tự nhiên, câu thân mật dùng best thay vì favorite." },
+    { "situation": "Nói về sự khó khăn", "formal": "I find this subject rather difficult.", "casual": "This subject is pretty hard for me.", "vi": "Pretty hard là cách nói thân mật phổ biến cho rather difficult." },
+    { "situation": "Khen giáo viên", "formal": "My teacher is very knowledgeable.", "casual": "My teacher is really cool.", "vi": "Cool là từ khen thân mật phổ biến giữa học sinh." }
+  ],
+  "culture": [
+    "Ở nhiều trường học phương Tây, học sinh được tự chọn một số môn học yêu thích ngoài các môn bắt buộc.",
+    "Hỏi về môn học yêu thích là câu hỏi làm quen phổ biến giữa học sinh mới gặp nhau.",
+    "Khen giáo viên bằng từ cool hoặc awesome là cách nói thân mật, tích cực và phổ biến trong môi trường học đường."
+  ],
+  "listening": {
+    "title": "Giới thiệu môn học yêu thích",
+    "passage": "Hi, I am Maria. My favorite subject is science. I like it because we do fun experiments in class. My teacher is very kind and explains things clearly. Math is a bit difficult for me, but I am trying hard. I usually get good grades in science and art.",
+    "vi": "Chào, tôi là Maria. Môn học yêu thích của tôi là khoa học. Tôi thích nó vì chúng tôi làm những thí nghiệm vui trong lớp. Giáo viên của tôi rất tốt bụng và giải thích rõ ràng. Toán hơi khó với tôi, nhưng tôi đang cố gắng. Tôi thường được điểm tốt ở môn khoa học và mỹ thuật.",
+    "questions": [
+      { "q": "What is Maria's favorite subject?", "choices": ["Science", "Math", "History"], "answer": 0, "vi": "Đáp án đúng vì Maria nói môn yêu thích là khoa học." },
+      { "q": "Why does Maria like it?", "choices": ["They do fun experiments", "It has no homework", "It is very easy"], "answer": 0, "vi": "Đáp án đúng vì Maria nói vì có thí nghiệm vui." },
+      { "q": "Which subject is difficult for Maria?", "choices": ["Math", "Science", "Art"], "answer": 0, "vi": "Đáp án đúng vì Maria nói toán hơi khó với cô ấy." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Bạn học cùng lớp", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "What is your favorite subject?", "vi": "Môn học yêu thích của bạn là gì?", "hint": "" },
+      { "speaker": "b", "en": "My favorite subject is science.", "vi": "Môn học yêu thích của tôi là khoa học.", "hint": "Dùng My favorite subject is." },
+      { "speaker": "a", "en": "Why do you like it?", "vi": "Vì sao bạn thích nó?", "hint": "" },
+      { "speaker": "b", "en": "I like it because we do experiments.", "vi": "Tôi thích nó vì chúng tôi làm thí nghiệm.", "hint": "Dùng I like it because." },
+      { "speaker": "a", "en": "That sounds fun. What about math?", "vi": "Nghe vui đấy. Còn môn toán thì sao?", "hint": "" },
+      { "speaker": "b", "en": "Math is a bit difficult for me.", "vi": "Toán hơi khó với tôi.", "hint": "Dùng a bit difficult." },
+      { "speaker": "a", "en": "I can help you with math.", "vi": "Tôi có thể giúp bạn học toán.", "hint": "" },
+      { "speaker": "b", "en": "Thank you, that would be great.", "vi": "Cảm ơn, vậy tuyệt quá.", "hint": "Dùng that would be great." },
+      { "speaker": "a", "en": "I am good at math.", "vi": "Tôi giỏi toán.", "hint": "" },
+      { "speaker": "b", "en": "Great, let us study together.", "vi": "Tuyệt, mình cùng học nhé.", "hint": "Dùng let us study together." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly classmate chatting about favorite school subjects.",
+    "opener": "What is your favorite subject?",
+    "goal": "Người học nói được môn học yêu thích, lý do thích và môn học thấy khó."
+  },
+  "drills": [
+    { "vi": "Môn học yêu thích của tôi là khoa học.", "en": "My favorite subject is science.", "alts": [] },
+    { "vi": "Tôi thích nó vì nó thú vị.", "en": "I like it because it is interesting.", "alts": [] },
+    { "vi": "Toán hơi khó với tôi.", "en": "Math is a bit difficult for me.", "alts": [] },
+    { "vi": "Môn học yêu thích của bạn là gì?", "en": "What is your favorite subject?", "alts": [] },
+    { "vi": "Tôi giỏi mỹ thuật.", "en": "I am good at art.", "alts": [] },
+    { "vi": "Giáo viên của tôi rất tốt bụng.", "en": "My teacher is very kind.", "alts": [] },
+    { "vi": "Tôi có nhiều bài tập về nhà.", "en": "I have a lot of homework.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn giới thiệu môn học yêu thích của bạn, chú ý âm /θ/ trong math.",
+    "Viết ba câu về lý do bạn thích một môn học.",
+    "Luyện nói ba lần câu What is your favorite subject?"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dang-ky-khoa-hoc",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Hỏi thông tin khoá học tiếng Anh", "situation": "Bạn hỏi thông tin về khoá học tiếng Anh tại trung tâm.",
+      "turns": [
+        { "speaker": "a", "en": "How can I help you today?", "vi": "Tôi có thể giúp gì cho bạn hôm nay?" },
+        { "speaker": "b", "en": "I would like some information about your English courses.", "vi": "Tôi muốn hỏi thông tin về các khoá học tiếng Anh." },
+        { "speaker": "a", "en": "Sure, what level are you looking for?", "vi": "Được, bạn đang tìm trình độ nào ạ?" },
+        { "speaker": "b", "en": "I am a beginner.", "vi": "Tôi là người mới bắt đầu." },
+        { "speaker": "a", "en": "We have a great class for you.", "vi": "Chúng tôi có lớp phù hợp cho bạn." },
+        { "speaker": "b", "en": "That sounds good.", "vi": "Nghe tốt đấy." }
+      ]},
+    { "title": "Hỏi lịch học", "situation": "Bạn hỏi lịch học của khoá học.",
+      "turns": [
+        { "speaker": "a", "en": "What is the schedule for this course?", "vi": "Lịch học của khoá này là gì?" },
+        { "speaker": "b", "en": "It meets on Tuesdays and Thursdays.", "vi": "Học vào thứ Ba và thứ Năm." },
+        { "speaker": "a", "en": "What time does it start?", "vi": "Mấy giờ thì bắt đầu vậy?" },
+        { "speaker": "b", "en": "It starts at six in the evening.", "vi": "Bắt đầu lúc sáu giờ tối." },
+        { "speaker": "a", "en": "That works well for me.", "vi": "Vậy hợp với tôi đấy." },
+        { "speaker": "b", "en": "Great, let me know if you want to register.", "vi": "Tuyệt, nếu muốn đăng ký cứ báo tôi nhé." }
+      ]},
+    { "title": "Hỏi học phí", "situation": "Bạn hỏi về học phí của khoá học.",
+      "turns": [
+        { "speaker": "a", "en": "How much is the tuition?", "vi": "Học phí là bao nhiêu?" },
+        { "speaker": "b", "en": "It is two million dong for three months.", "vi": "Là hai triệu đồng cho ba tháng." },
+        { "speaker": "a", "en": "Is that including materials?", "vi": "Vậy có bao gồm tài liệu không?" },
+        { "speaker": "b", "en": "Yes, it includes the textbook.", "vi": "Có, bao gồm cả sách giáo trình." },
+        { "speaker": "a", "en": "That sounds reasonable.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "b", "en": "I am glad you think so.", "vi": "Tôi vui vì bạn nghĩ vậy." }
+      ]},
+    { "title": "Hỏi về giảm giá đăng ký sớm", "situation": "Bạn hỏi về ưu đãi giảm giá khi đăng ký sớm.",
+      "turns": [
+        { "speaker": "a", "en": "Is there a discount for early registration?", "vi": "Có giảm giá cho đăng ký sớm không?" },
+        { "speaker": "b", "en": "Yes, ten percent off this week.", "vi": "Có, giảm mười phần trăm tuần này." },
+        { "speaker": "a", "en": "That is a great deal.", "vi": "Vậy ưu đãi tốt quá." },
+        { "speaker": "b", "en": "It is only valid this week though.", "vi": "Tuy nhiên chỉ có hiệu lực tuần này thôi." },
+        { "speaker": "a", "en": "I will register today then.", "vi": "Vậy hôm nay tôi sẽ đăng ký." },
+        { "speaker": "b", "en": "Great choice.", "vi": "Lựa chọn tuyệt vời." }
+      ]},
+    { "title": "Đăng ký khoá học", "situation": "Bạn hoàn tất việc đăng ký khoá học.",
+      "turns": [
+        { "speaker": "a", "en": "I would like to enroll in this class.", "vi": "Tôi muốn ghi danh vào lớp này." },
+        { "speaker": "b", "en": "Great, I just need your name and phone number.", "vi": "Tuyệt, tôi chỉ cần tên và số điện thoại của bạn." },
+        { "speaker": "a", "en": "Here you go.", "vi": "Của bạn đây." },
+        { "speaker": "b", "en": "Thank you, you are all set.", "vi": "Cảm ơn, vậy là bạn đã đăng ký xong rồi." },
+        { "speaker": "a", "en": "When does the class start?", "vi": "Lớp học bắt đầu khi nào vậy?" },
+        { "speaker": "b", "en": "It starts next Tuesday.", "vi": "Bắt đầu vào thứ Ba tới." }
+      ]},
+    { "title": "Hỏi về giảng viên", "situation": "Bạn hỏi về giảng viên phụ trách lớp học.",
+      "turns": [
+        { "speaker": "a", "en": "Who is the instructor for this class?", "vi": "Giảng viên phụ trách lớp này là ai vậy?" },
+        { "speaker": "b", "en": "Her name is Ms. Anna.", "vi": "Tên cô ấy là Anna." },
+        { "speaker": "a", "en": "Is she experienced?", "vi": "Cô ấy có kinh nghiệm không?" },
+        { "speaker": "b", "en": "Yes, she has taught for five years.", "vi": "Có, cô ấy đã dạy được năm năm." },
+        { "speaker": "a", "en": "That sounds reassuring.", "vi": "Nghe yên tâm đấy." },
+        { "speaker": "b", "en": "Students really like her.", "vi": "Học viên rất thích cô ấy." }
+      ]},
+    { "title": "Hỏi về thời lượng khoá học", "situation": "Bạn hỏi khoá học kéo dài bao lâu.",
+      "turns": [
+        { "speaker": "a", "en": "What is the duration of the course?", "vi": "Khoá học này kéo dài bao lâu?" },
+        { "speaker": "b", "en": "It lasts for three months.", "vi": "Kéo dài ba tháng." },
+        { "speaker": "a", "en": "How many classes per week?", "vi": "Mỗi tuần học mấy buổi?" },
+        { "speaker": "b", "en": "Two classes per week.", "vi": "Hai buổi mỗi tuần." },
+        { "speaker": "a", "en": "That seems manageable.", "vi": "Nghe khả thi đấy." },
+        { "speaker": "b", "en": "Yes, most students find it comfortable.", "vi": "Vâng, hầu hết học viên thấy thoải mái." }
+      ]},
+    { "title": "Đổi lịch học vì bận", "situation": "Bạn hỏi có thể đổi sang lớp học khác vì lịch bận.",
+      "turns": [
+        { "speaker": "a", "en": "Can I switch to a different class schedule?", "vi": "Tôi đổi sang lịch học khác được không?" },
+        { "speaker": "b", "en": "Sure, what day works better for you?", "vi": "Được, ngày nào hợp với bạn hơn?" },
+        { "speaker": "a", "en": "Weekends would be better.", "vi": "Cuối tuần sẽ tốt hơn." },
+        { "speaker": "b", "en": "We have a Saturday class available.", "vi": "Chúng tôi có lớp thứ Bảy đấy." },
+        { "speaker": "a", "en": "That works perfectly.", "vi": "Vậy hoàn hảo luôn." },
+        { "speaker": "b", "en": "I will update your registration.", "vi": "Tôi sẽ cập nhật đăng ký của bạn." }
+      ]},
+    { "title": "Hỏi về lớp học thử miễn phí", "situation": "Bạn hỏi về việc học thử miễn phí trước khi đăng ký chính thức.",
+      "turns": [
+        { "speaker": "a", "en": "Do you offer a free trial class?", "vi": "Có lớp học thử miễn phí không ạ?" },
+        { "speaker": "b", "en": "Yes, we do offer one.", "vi": "Có, chúng tôi có đấy." },
+        { "speaker": "a", "en": "That would help me decide.", "vi": "Vậy sẽ giúp tôi quyết định." },
+        { "speaker": "b", "en": "When would you like to try it?", "vi": "Bạn muốn thử vào lúc nào?" },
+        { "speaker": "a", "en": "This Thursday, if possible.", "vi": "Thứ Năm này nếu có thể." },
+        { "speaker": "b", "en": "I will book that for you.", "vi": "Tôi sẽ đặt lịch đó cho bạn." }
+      ]},
+    { "title": "Đăng ký khoá học phức tạp với nhiều yêu cầu và câu hỏi cùng lúc", "situation": "Bạn đăng ký khoá học phức tạp với nhiều yêu cầu và câu hỏi khác nhau cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I need a course that fits my work schedule, offers a discount, and has an experienced instructor.", "vi": "Tôi cần một khoá học phù hợp lịch làm việc, có giảm giá, và có giảng viên kinh nghiệm." },
+        { "speaker": "b", "en": "We have a weekend class with an instructor who has taught for five years.", "vi": "Chúng tôi có lớp cuối tuần với giảng viên đã dạy được năm năm." },
+        { "speaker": "a", "en": "What is the tuition, and is there still a discount available?", "vi": "Học phí là bao nhiêu, và còn giảm giá không?" },
+        { "speaker": "b", "en": "It is two million dong, with ten percent off if you register this week.", "vi": "Là hai triệu đồng, giảm mười phần trăm nếu đăng ký tuần này." },
+        { "speaker": "a", "en": "Could I also try a free trial class before committing?", "vi": "Tôi có thể học thử miễn phí trước khi cam kết không?" },
+        { "speaker": "b", "en": "Absolutely, I will arrange a trial class this Saturday for you.", "vi": "Chắc chắn rồi, tôi sẽ sắp xếp lớp học thử vào thứ Bảy này cho bạn." }
+      ]}
+  ]
+}

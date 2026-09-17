@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-chinh-sach-giao-duc",
+  "title": "Tranh luận về cải cách thi cử và chính sách giáo dục",
+  "topic": "Chính sách giáo dục",
+  "level": "C1",
+  "summary": "Bạn tranh luận với một chuyên gia chính sách giáo dục về việc cải cách hệ thống thi cử có thực sự cải thiện chất lượng giáo dục hay không.",
+  "goals": [
+    "Trình bày lập luận nhiều lớp về một vấn đề chính sách phức tạp",
+    "Phân biệt giữa cải cách hình thức và cải cách thực chất",
+    "Đưa ra ví dụ và số liệu để củng cố lập luận"
+  ],
+  "vocab": [
+    { "en": "standardized testing", "ipa": "/ˈstændərdaɪzd ˈtestɪŋ/", "vi": "thi cử chuẩn hoá", "example": "Standardized testing has its critics." },
+    { "en": "curriculum", "ipa": "/kəˈrɪkjələm/", "vi": "chương trình giảng dạy", "example": "The curriculum needs updating." },
+    { "en": "rote learning", "ipa": "/roʊt ˈlɜːrnɪŋ/", "vi": "học vẹt", "example": "Rote learning does not build real skills." },
+    { "en": "critical thinking", "ipa": "/ˈkrɪtɪkl ˈθɪŋkɪŋ/", "vi": "tư duy phản biện", "example": "We need to teach critical thinking." },
+    { "en": "equity", "ipa": "/ˈekwəti/", "vi": "sự công bằng", "example": "Equity in education matters greatly." },
+    { "en": "superficial", "ipa": "/ˌsuːpərˈfɪʃl/", "vi": "hời hợt, bề mặt", "example": "That reform seems superficial to me." },
+    { "en": "implementation", "ipa": "/ˌɪmplɪmenˈteɪʃn/", "vi": "sự triển khai", "example": "Implementation is the real challenge." },
+    { "en": "assessment", "ipa": "/əˈsesmənt/", "vi": "sự đánh giá", "example": "We need better assessment methods." },
+    { "en": "root cause", "ipa": "/ruːt kɔːz/", "vi": "nguyên nhân gốc rễ", "example": "The root cause is teacher training." },
+    { "en": "long-term impact", "ipa": "/lɔːŋ tɜːrm ˈɪmpækt/", "vi": "tác động dài hạn", "example": "We should consider the long-term impact." }
+  ],
+  "patterns": [
+    { "en": "Reforming ___ alone will not solve the deeper problem.", "vi": "Chỉ cải cách ___ thôi sẽ không giải quyết được vấn đề sâu xa hơn.", "note": "Chỉ ra rằng một cải cách bề mặt chưa đủ." },
+    { "en": "The root cause of this issue is ___.", "vi": "Nguyên nhân gốc rễ của vấn đề này là ___.", "note": "Xác định nguyên nhân cốt lõi thay vì triệu chứng." },
+    { "en": "Without proper implementation, ___ remains superficial.", "vi": "Nếu không được triển khai đúng cách, ___ vẫn chỉ mang tính hời hợt.", "note": "Nhấn mạnh tầm quan trọng của việc triển khai." },
+    { "en": "We must consider the long-term impact on ___.", "vi": "Chúng ta phải xem xét tác động dài hạn đến ___.", "note": "Kêu gọi cái nhìn dài hạn thay vì ngắn hạn." },
+    { "en": "That is a valid concern, but the data suggests ___.", "vi": "Đó là mối lo ngại chính đáng, nhưng dữ liệu cho thấy ___.", "note": "Công nhận ý kiến đối phương trước khi đưa dẫn chứng phản biện." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong curriculum", "tip": "Nhấn vào âm tiết thứ hai: cur-RIC-ulum.", "words": ["curriculum", "implementation"] },
+    { "focus": "âm /ʃ/ trong superficial", "tip": "Chu môi nhẹ, thổi hơi qua răng.", "words": ["superficial", "assessment"] },
+    { "focus": "âm /kw/ trong equity", "tip": "Phát âm liền hai âm k và w.", "words": ["equity"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Reforming testing alone will not solve deeper problem.", "right": "Reforming testing alone will not solve the deeper problem.", "vi": "Cần mạo từ the trước cụm danh từ deeper problem." },
+    { "wrong": "The root cause is teacher training is missing.", "right": "The root cause is a lack of teacher training.", "vi": "Cần cấu trúc rõ ràng a lack of thay vì hai mệnh đề ghép lại." },
+    { "wrong": "Without implementation proper, it remain superficial.", "right": "Without proper implementation, it remains superficial.", "vi": "Tính từ proper đứng trước danh từ, và chủ ngữ số ít cần remains." },
+    { "wrong": "We must consider long-term impact on students.", "right": "We must consider the long-term impact on students.", "vi": "Cần mạo từ the trước cụm danh từ long-term impact." }
+  ],
+  "variations": [
+    { "situation": "Chỉ ra cải cách hời hợt", "formal": "Reforming testing alone will not solve the deeper problem.", "casual": "Just changing the tests won't fix the real issue.", "vi": "Câu thân mật đơn giản hoá cấu trúc nhưng giữ nguyên ý nghĩa." },
+    { "situation": "Xác định nguyên nhân gốc rễ", "formal": "The root cause of this issue is inadequate teacher training.", "casual": "Honestly, it comes down to teachers not being trained well enough.", "vi": "Câu thân mật dùng comes down to, phổ biến trong tranh luận không chính thức." },
+    { "situation": "Nhấn mạnh việc triển khai", "formal": "Without proper implementation, the reform remains superficial.", "casual": "If it's not actually put into practice properly, it's just surface-level change.", "vi": "Surface-level là từ thân mật phổ biến cho superficial." },
+    { "situation": "Công nhận rồi phản biện", "formal": "That is a valid concern, but the data suggests otherwise.", "casual": "Fair point, but the numbers tell a different story.", "vi": "Câu thân mật ngắn gọn, vẫn giữ được tính thuyết phục." }
+  ],
+  "culture": [
+    "Tranh luận về cải cách giáo dục thường xuất hiện trong các phiên điều trần chính sách và hội thảo giáo dục ở nhiều nước.",
+    "Cụm surface-level change (thay đổi bề mặt) rất phổ biến để phê phán các cải cách chưa đi vào thực chất.",
+    "Dùng số liệu và nghiên cứu để bảo vệ lập luận về chính sách giáo dục được xem là cách tranh luận thuyết phục và đáng tin cậy."
+  ],
+  "listening": {
+    "title": "Tranh luận về cải cách thi cử",
+    "passage": "Reforming standardized testing alone will not solve the deeper problem in our education system. The root cause of low critical thinking skills is an outdated curriculum focused on rote learning. Without proper implementation, any reform remains superficial on paper only. We must consider the long-term impact on equity between students from different backgrounds. That is a valid concern about cost, but the data suggests better assessment methods improve outcomes significantly over time.",
+    "vi": "Chỉ cải cách thi cử chuẩn hoá thôi sẽ không giải quyết được vấn đề sâu xa hơn trong hệ thống giáo dục của chúng ta. Nguyên nhân gốc rễ của kỹ năng tư duy phản biện thấp là chương trình giảng dạy lỗi thời tập trung vào học vẹt. Nếu không được triển khai đúng cách, bất kỳ cải cách nào cũng chỉ mang tính hời hợt trên giấy tờ. Chúng ta phải xem xét tác động dài hạn đến sự công bằng giữa học sinh từ các hoàn cảnh khác nhau. Đó là mối lo ngại chính đáng về chi phí, nhưng dữ liệu cho thấy các phương pháp đánh giá tốt hơn cải thiện đáng kể kết quả theo thời gian.",
+    "questions": [
+      { "q": "What does the speaker say is the root cause of low critical thinking?", "choices": ["An outdated curriculum focused on rote learning", "Too many holidays", "Lack of technology"], "answer": 0, "vi": "Đáp án đúng vì người nói xác định nguyên nhân gốc rễ là chương trình lỗi thời tập trung học vẹt." },
+      { "q": "What happens without proper implementation, according to the speaker?", "choices": ["Reform remains superficial", "Reform becomes too expensive", "Reform happens instantly"], "answer": 0, "vi": "Đáp án đúng vì người nói nói cải cách sẽ chỉ mang tính hời hợt nếu không triển khai đúng." },
+      { "q": "What does the data suggest, according to the speaker?", "choices": ["Better assessment methods improve outcomes", "Standardized testing should be abolished", "Equity does not matter"], "answer": 0, "vi": "Đáp án đúng vì người nói nói dữ liệu cho thấy phương pháp đánh giá tốt hơn cải thiện kết quả." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Chuyên gia chính sách giáo dục", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "The new testing reform should improve our schools significantly.", "vi": "Cải cách thi cử mới nên cải thiện đáng kể các trường học của chúng ta." },
+      { "speaker": "b", "en": "Reforming testing alone will not solve the deeper problem.", "vi": "Chỉ cải cách thi cử thôi sẽ không giải quyết được vấn đề sâu xa hơn.", "hint": "Dùng Reforming testing alone will not solve the deeper problem." },
+      { "speaker": "a", "en": "What do you think the deeper problem is?", "vi": "Bạn nghĩ vấn đề sâu xa hơn là gì?" },
+      { "speaker": "b", "en": "The root cause of this issue is an outdated curriculum.", "vi": "Nguyên nhân gốc rễ của vấn đề này là chương trình giảng dạy lỗi thời.", "hint": "Dùng The root cause of this issue is." },
+      { "speaker": "a", "en": "But the new tests do encourage critical thinking.", "vi": "Nhưng các bài thi mới có khuyến khích tư duy phản biện đấy." },
+      { "speaker": "b", "en": "Without proper implementation, that remains superficial.", "vi": "Nếu không triển khai đúng cách, điều đó vẫn chỉ mang tính hời hợt.", "hint": "Dùng Without proper implementation, that remains superficial." },
+      { "speaker": "a", "en": "Cost is also a major concern for this reform.", "vi": "Chi phí cũng là mối lo ngại lớn cho cải cách này." },
+      { "speaker": "b", "en": "That is a valid concern, but the data suggests it improves outcomes.", "vi": "Đó là mối lo ngại chính đáng, nhưng dữ liệu cho thấy nó cải thiện kết quả.", "hint": "Dùng That is a valid concern, but the data suggests." },
+      { "speaker": "a", "en": "What about equity between different schools?", "vi": "Còn về sự công bằng giữa các trường khác nhau thì sao?" },
+      { "speaker": "b", "en": "We must consider the long-term impact on equity too.", "vi": "Chúng ta cũng phải xem xét tác động dài hạn đến sự công bằng.", "hint": "Dùng We must consider the long-term impact on." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are an education policy expert advocating for the new testing reform.",
+    "opener": "The new testing reform should improve our schools significantly.",
+    "goal": "Người học trình bày lập luận nhiều lớp, phân biệt cải cách hình thức với thực chất và đưa ra góc nhìn dài hạn."
+  },
+  "drills": [
+    { "vi": "Chỉ cải cách thi cử thôi sẽ không giải quyết được vấn đề sâu xa hơn.", "en": "Reforming testing alone will not solve the deeper problem.", "alts": [] },
+    { "vi": "Nguyên nhân gốc rễ của vấn đề này là chương trình lỗi thời.", "en": "The root cause of this issue is an outdated curriculum.", "alts": [] },
+    { "vi": "Nếu không triển khai đúng cách, nó vẫn chỉ mang tính hời hợt.", "en": "Without proper implementation, it remains superficial.", "alts": [] },
+    { "vi": "Chúng ta phải xem xét tác động dài hạn đến sự công bằng.", "en": "We must consider the long-term impact on equity.", "alts": [] },
+    { "vi": "Đó là mối lo ngại chính đáng, nhưng dữ liệu cho thấy khác.", "en": "That is a valid concern, but the data suggests otherwise.", "alts": [] },
+    { "vi": "Chúng ta cần dạy tư duy phản biện nhiều hơn.", "en": "We need to teach more critical thinking.", "alts": [] },
+    { "vi": "Học vẹt không xây dựng kỹ năng thực sự.", "en": "Rote learning does not build real skills.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận về cải cách giáo dục, chú ý trọng âm trong curriculum.",
+    "Viết ba câu dùng cấu trúc The root cause of ___ is ___.",
+    "Luyện nói ba lần câu Without proper implementation, it remains superficial."
+  ]
+}

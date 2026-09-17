@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:15:21.537Z",
+  "generatedAt": "2026-09-17T09:23:08.154Z",
   "lessons": [
     {
       "id": "cam-on-xin-loi-lich-su",
@@ -119,6 +119,14 @@
       "topic": "Gia đình và bạn bè",
       "level": "A1",
       "summary": "Bạn làm quen với một bạn cùng lớp tiếng Anh và trò chuyện ngắn về gia đình, anh chị em và bạn bè.",
+      "turns": 10
+    },
+    {
+      "id": "mon-hoc-yeu-thich",
+      "title": "Nói về môn học yêu thích ở trường",
+      "topic": "Giáo dục và trường học",
+      "level": "A1",
+      "summary": "Bạn nói chuyện với một bạn học cùng lớp về môn học yêu thích và lý do bạn thích môn đó.",
       "turns": 10
     },
     {
@@ -256,6 +264,14 @@
       "level": "A2",
       "summary": "Bạn hỏi nhân viên nhà ga cách đến bảo tàng bằng tàu điện và xe buýt. Bạn cũng học cách hỏi về vé, sân ga và điểm chuyển tuyến.",
       "turns": 12
+    },
+    {
+      "id": "dang-ky-khoa-hoc",
+      "title": "Hỏi thông tin và đăng ký khoá học thêm",
+      "topic": "Đăng ký học thêm",
+      "level": "A2",
+      "summary": "Bạn hỏi thông tin về một khoá học tiếng Anh tại trung tâm và đăng ký tham gia với sự tư vấn của nhân viên.",
+      "turns": 10
     },
     {
       "id": "hoi-wifi-va-tien-nghi",
@@ -546,6 +562,14 @@
       "turns": 14
     },
     {
+      "id": "phuong-phap-hoc-tap-hieu-qua",
+      "title": "Thảo luận phương pháp học tập hiệu quả",
+      "topic": "Phương pháp học tập",
+      "level": "B1",
+      "summary": "Bạn thảo luận với bạn cùng lớp về các phương pháp học tập hiệu quả để chuẩn bị cho kỳ thi sắp tới.",
+      "turns": 10
+    },
+    {
       "id": "thao-luan-thoi-gian-dung-mang-xa-hoi",
       "title": "Thảo luận về thời gian dùng mạng xã hội mỗi ngày",
       "topic": "Thói quen dùng mạng xã hội",
@@ -810,6 +834,14 @@
       "turns": 10
     },
     {
+      "id": "tranh-luan-hoc-online-truc-tiep",
+      "title": "Tranh luận giữa học online và học trực tiếp",
+      "topic": "Tranh luận về phương thức học tập",
+      "level": "B2",
+      "summary": "Bạn tranh luận với một người bạn có quan điểm trái ngược về việc học online hay học trực tiếp hiệu quả hơn.",
+      "turns": 10
+    },
+    {
       "id": "tranh-luan-anh-huong-mang-xa-hoi",
       "title": "Tranh luận về ảnh hưởng của mạng xã hội tới giới trẻ",
       "topic": "Tranh luận về mạng xã hội",
@@ -1016,6 +1048,14 @@
       "level": "C1",
       "summary": "Bạn trình bày quan điểm về tác động của AI tới việc làm trong một buổi tranh biện đại học. Người phản biện liên tục chất vấn để bạn bảo vệ lập luận một cách cân bằng, có bằng chứng và thuyết phục.",
       "turns": 18
+    },
+    {
+      "id": "tranh-luan-chinh-sach-giao-duc",
+      "title": "Tranh luận về cải cách thi cử và chính sách giáo dục",
+      "topic": "Chính sách giáo dục",
+      "level": "C1",
+      "summary": "Bạn tranh luận với một chuyên gia chính sách giáo dục về việc cải cách hệ thống thi cử có thực sự cải thiện chất lượng giáo dục hay không.",
+      "turns": 10
     },
     {
       "id": "tranh-luan-dao-duc-cong-nghe",
