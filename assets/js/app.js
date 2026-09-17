@@ -184,11 +184,11 @@ function wireGenerator() {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const plan = await res.json();
       const have = new Set(library.map(l => l.id));
-      box.innerHTML = plan.units.map(unit => `
-        <h4>${esc(unit.level)} · ${esc(unit.name)}</h4>
-        <ul class="roadmap-list">${unit.topics.map(t => have.has(t.id)
-          ? `<li>✅ <a href="#/lesson/${encodeURIComponent(t.id)}">${esc(t.topic)}</a></li>`
-          : `<li class="todo">⬜ ${esc(t.topic)} <code>--only ${esc(t.id)}</code></li>`).join('')}</ul>`).join('');
+      box.innerHTML = plan.themes.map(theme => `
+        <h4>${esc(theme.name)}</h4>
+        <ul class="roadmap-list">${theme.topics.map(t => have.has(t.id)
+          ? `<li>✅ <span class="badge">${esc(t.level)}</span> <a href="#/lesson/${encodeURIComponent(t.id)}">${esc(t.topic)}</a></li>`
+          : `<li class="todo">⬜ <span class="badge">${esc(t.level)}</span> ${esc(t.topic)} <code>--only ${esc(t.id)}</code></li>`).join('')}</ul>`).join('');
     } catch (err) {
       box.innerHTML = `<p class="msg bad">Không đọc được data/curriculum.json: ${esc(err.message)}</p>`;
     }

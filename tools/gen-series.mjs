@@ -44,15 +44,16 @@ Soạn hàng loạt giáo án theo data/curriculum.json.
 const curriculum = JSON.parse(await readFile(path.join(ROOT, 'data', 'curriculum.json'), 'utf8'));
 const onlyIds = values.only ? new Set(values.only.split(',').map(s => s.trim()).filter(Boolean)) : null;
 
-const all = curriculum.units.flatMap(unit =>
-  unit.topics.map(t => ({
+const turnsByLevel = curriculum.turnsByLevel || {};
+const all = curriculum.themes.flatMap(theme =>
+  theme.topics.map(t => ({
     id: t.id,
     topic: t.topic,
-    level: t.level || unit.level,
+    level: t.level,
     partner: t.partner || '',
-    turns: t.turns || unit.turns || 12,
+    turns: t.turns || turnsByLevel[t.level] || 12,
     notes: t.notes || '',
-    unit: unit.name,
+    unit: theme.name,
   })));
 
 const selected = all.filter(t =>
@@ -61,12 +62,12 @@ const selected = all.filter(t =>
 
 if (values.list) {
   let have = 0;
-  for (const unit of curriculum.units) {
-    console.log(`\n${unit.level} · ${unit.name}`);
-    for (const t of unit.topics) {
+  for (const theme of curriculum.themes) {
+    console.log(`\n${theme.name}`);
+    for (const t of theme.topics) {
       const ok = lessonExists(t.id);
       if (ok) have++;
-      console.log(`  ${ok ? '✅' : '⬜'} ${t.id}  —  ${t.topic}`);
+      console.log(`  ${ok ? '✅' : '⬜'} [${t.level}] ${t.id}  —  ${t.topic}`);
     }
   }
   console.log(`\n${have}/${all.length} bài đã soạn.`);

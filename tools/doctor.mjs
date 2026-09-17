@@ -60,10 +60,10 @@ head('Lộ trình');
 const curriculum = JSON.parse(await readFile(path.join(ROOT, 'data', 'curriculum.json'), 'utf8'));
 const planned = new Map();
 const dupes = [];
-for (const unit of curriculum.units) {
-  for (const t of unit.topics) {
+for (const theme of curriculum.themes) {
+  for (const t of theme.topics) {
     if (planned.has(t.id)) dupes.push(t.id);
-    planned.set(t.id, { ...t, level: t.level || unit.level });
+    planned.set(t.id, t);
   }
 }
 if (dupes.length) bad(`Trùng id trong curriculum.json: ${dupes.join(', ')}`);

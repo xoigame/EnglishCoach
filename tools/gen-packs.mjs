@@ -132,7 +132,7 @@ function extractObject(text) {
 const curriculum = JSON.parse(await readFile(path.join(ROOT, 'data', 'curriculum.json'), 'utf8'));
 const onlyIds = values.only ? new Set(values.only.split(',').map(s => s.trim()).filter(Boolean)) : null;
 
-const all = curriculum.units.flatMap(u => u.topics.map(t => ({ id: t.id, level: t.level || u.level })));
+const all = curriculum.themes.flatMap(th => th.topics.map(t => ({ id: t.id, level: t.level })));
 const selected = all.filter(t =>
   (!values.level || t.level === values.level.toUpperCase()) &&
   (!onlyIds || onlyIds.has(t.id)) &&
@@ -140,9 +140,9 @@ const selected = all.filter(t =>
 
 if (values.list) {
   let have = 0;
-  for (const unit of curriculum.units) {
-    console.log(`\n${unit.level} · ${unit.name}`);
-    for (const t of unit.topics) {
+  for (const theme of curriculum.themes) {
+    console.log(`\n${theme.name}`);
+    for (const t of theme.topics) {
       const ok = packExists(t.id);
       if (ok) have++;
       let n = '';

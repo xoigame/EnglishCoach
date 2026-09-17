@@ -39,13 +39,13 @@ Chạy `doctor` trước khi push — nó bắt được những thứ `validate
 
 ### Soạn cả lộ trình
 
-Danh sách chủ đề nằm ở [`data/curriculum.json`](data/curriculum.json) — **100 bài** chia theo 5 trình độ: A1 (20), A2 (22), B1 (22), B2 (20), C1 (16). Soạn mọi bài còn thiếu:
+Danh sách chủ đề nằm ở [`data/curriculum.json`](data/curriculum.json) — **115 bài**, nhóm theo **12 chủ đề thực tế** (nhà hàng, du lịch, công sở, phỏng vấn...), mỗi chủ đề trải đều các trình độ A1 → C1 bên trong (dùng `--level` để lọc riêng một trình độ xuyên suốt mọi chủ đề). Soạn mọi bài còn thiếu:
 
 ```bash
 node tools/gen-series.mjs --jobs 3
 ```
 
-Mỗi bài mất khoảng 2 phút, nên soạn lại toàn bộ 100 bài với 4 luồng hết chừng 50 phút.
+Mỗi bài mất khoảng 2 phút, nên soạn lại toàn bộ 115 bài với 4 luồng hết chừng 1 tiếng.
 
 | Tham số | Ý nghĩa |
 | --- | --- |
@@ -249,7 +249,7 @@ assets/js/
   roleplay.js               # hội thoại 1-1 (kịch bản + AI trực tiếp)
   store.js                  # tải giáo án, bản nháp, tiến độ, schema
   prompt.js                 # prompt sinh giáo án (web và CLI dùng chung)
-data/curriculum.json        # lộ trình 100 chủ đề A1 → C1
+data/curriculum.json        # lộ trình 115 bài, nhóm theo 12 chủ đề thực tế (mỗi chủ đề trải A1 → C1)
 data/index.json             # danh mục, sinh tự động
 data/lessons/*.json         # từng giáo án
 tools/gen-series.mjs        # soạn cả lộ trình
