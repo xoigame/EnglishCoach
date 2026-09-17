@@ -1,0 +1,98 @@
+{
+  "id": "binh-luan-tran-dau-the-thao",
+  "title": "Bình luận một trận đấu vừa xem tối qua",
+  "topic": "Bình luận thể thao",
+  "level": "B1",
+  "summary": "Bạn và một đồng nghiệp mê bóng đá bình luận về trận đấu tối qua: diễn biến, bàn thắng và cảm xúc sau trận.",
+  "goals": [
+    "Kể lại diễn biến chính của một trận đấu",
+    "Diễn tả cảm xúc về kết quả trận đấu",
+    "Đưa ra nhận xét về phong độ của cầu thủ hoặc đội bóng"
+  ],
+  "vocab": [
+    { "en": "match", "ipa": "/mætʃ/", "vi": "trận đấu", "example": "Did you watch the match last night?" },
+    { "en": "goal", "ipa": "/ɡoʊl/", "vi": "bàn thắng", "example": "He scored the winning goal." },
+    { "en": "referee", "ipa": "/ˌrefəˈriː/", "vi": "trọng tài", "example": "The referee made a strange decision." },
+    { "en": "performance", "ipa": "/pərˈfɔːrməns/", "vi": "phong độ, màn trình diễn", "example": "His performance was amazing." },
+    { "en": "draw", "ipa": "/drɔː/", "vi": "hoà (trận đấu)", "example": "The game ended in a draw." },
+    { "en": "injury", "ipa": "/ˈɪndʒəri/", "vi": "chấn thương", "example": "He left the field with an injury." },
+    { "en": "comeback", "ipa": "/ˈkʌmbæk/", "vi": "cuộc lội ngược dòng", "example": "That was an incredible comeback." },
+    { "en": "fan", "ipa": "/fæn/", "vi": "người hâm mộ", "example": "The fans were very loud." },
+    { "en": "highlight", "ipa": "/ˈhaɪlaɪt/", "vi": "cảnh quay nổi bật", "example": "Did you see the highlights?" },
+    { "en": "disappointing", "ipa": "/ˌdɪsəˈpɔɪntɪŋ/", "vi": "đáng thất vọng", "example": "The result was disappointing." }
+  ],
+  "patterns": [
+    { "en": "Did you watch the match last night?", "vi": "Tối qua bạn có xem trận đấu không?", "note": "Mở đầu cuộc bình luận về trận đấu." },
+    { "en": "The score was ___ to ___.", "vi": "Tỉ số là ___ - ___.", "note": "Nói kết quả trận đấu." },
+    { "en": "I could not believe when ___.", "vi": "Tôi không thể tin được khi ___.", "note": "Diễn tả cảm xúc bất ngờ." },
+    { "en": "His performance was ___.", "vi": "Phong độ của anh ấy ___.", "note": "Nhận xét về một cầu thủ." },
+    { "en": "That was such a disappointing ___.", "vi": "Đó là một ___ đáng thất vọng.", "note": "Diễn tả sự thất vọng về kết quả." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong performance", "tip": "Nhấn vào âm tiết thứ hai: per-FOR-mance.", "words": ["performance", "referee"] },
+    { "focus": "âm /dʒ/ trong injury", "tip": "Bật hơi nhẹ ở đầu lưỡi gần vòm miệng.", "words": ["injury", "goal"] },
+    { "focus": "âm cuối /ŋ/ trong disappointing", "tip": "Đưa lưỡi lên gần vòm mềm, không phát âm thành /n/.", "words": ["disappointing", "amazing"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Did you watched the match?", "right": "Did you watch the match?", "vi": "Sau did dùng động từ nguyên mẫu, không chia quá khứ." },
+    { "wrong": "The score was two-one.", "right": "The score was two to one.", "vi": "Dùng to giữa hai số khi đọc tỉ số." },
+    { "wrong": "His performance were amazing.", "right": "His performance was amazing.", "vi": "Performance là danh từ số ít, dùng was." },
+    { "wrong": "I can not believe when he score.", "right": "I could not believe when he scored.", "vi": "Dùng could not (quá khứ) và scored (quá khứ) cho phù hợp ngữ cảnh." }
+  ],
+  "variations": [
+    { "situation": "Hỏi đã xem chưa", "formal": "Did you happen to watch the match last night?", "casual": "Did you catch the game last night?", "vi": "Câu thân mật dùng catch thay vì watch, rất tự nhiên khi nói về thể thao." },
+    { "situation": "Khen cầu thủ", "formal": "His performance was truly impressive.", "casual": "He played really well.", "vi": "Câu thân mật đơn giản, dùng phổ biến giữa bạn bè." },
+    { "situation": "Diễn tả thất vọng", "formal": "The result was rather disappointing.", "casual": "That was such a letdown.", "vi": "Letdown là từ thân mật hơn cho sự thất vọng." },
+    { "situation": "Nói về lội ngược dòng", "formal": "It was an extraordinary comeback.", "casual": "What a comeback!", "vi": "Câu thân mật ngắn gọn, dùng để thể hiện sự phấn khích." }
+  ],
+  "culture": [
+    "Bình luận thể thao là chủ đề small talk rất phổ biến ở văn phòng, đặc biệt sau các trận đấu lớn.",
+    "Người bản xứ hay dùng cụm What a game! hoặc What a match! để thể hiện sự phấn khích về một trận hay.",
+    "Tranh luận về quyết định của trọng tài là chuyện bình thường và không được xem là tranh cãi nghiêm trọng."
+  ],
+  "listening": {
+    "title": "Bình luận sau trận đấu",
+    "passage": "Did you watch the match last night? It was incredible. The score was two to two, and our team scored the equalizer in the last minute. I could not believe it when he scored that goal. His performance this season has been amazing. Unfortunately, one player got an injury in the second half, so he might miss the next game. Still, that comeback was one of the best I have seen this year.",
+    "vi": "Tối qua bạn có xem trận đấu không? Thật khó tin. Tỉ số là hai đều, và đội chúng tôi ghi bàn gỡ hoà ở phút cuối. Tôi không thể tin được khi anh ấy ghi bàn đó. Phong độ của anh ấy mùa này thật tuyệt vời. Đáng tiếc là một cầu thủ bị chấn thương ở hiệp hai, nên có thể sẽ vắng mặt trận tới. Dù vậy, cuộc lội ngược dòng đó là một trong những màn hay nhất tôi từng thấy năm nay.",
+    "questions": [
+      { "q": "What was the final score?", "choices": ["Two to two", "Three to one", "One to zero"], "answer": 0, "vi": "Đáp án đúng vì người nói nói tỉ số là hai đều." },
+      { "q": "When did the team score the equalizer?", "choices": ["In the last minute", "In the first half", "Before the match started"], "answer": 0, "vi": "Đáp án đúng vì bàn gỡ hoà được ghi ở phút cuối." },
+      { "q": "What happened to a player in the second half?", "choices": ["He got injured", "He scored twice", "He was substituted early"], "answer": 0, "vi": "Đáp án đúng vì một cầu thủ bị chấn thương ở hiệp hai." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Đồng nghiệp mê bóng đá", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Did you watch the match last night?", "vi": "Tối qua bạn có xem trận đấu không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I did! It was such an exciting game.", "vi": "Có, tôi có xem! Đó là một trận đấu hấp dẫn.", "hint": "Dùng Yes, I did." },
+      { "speaker": "a", "en": "What was the final score?", "vi": "Tỉ số cuối cùng là bao nhiêu?", "hint": "" },
+      { "speaker": "b", "en": "The score was two to two.", "vi": "Tỉ số là hai đều.", "hint": "Dùng The score was." },
+      { "speaker": "a", "en": "I could not believe that last goal!", "vi": "Tôi không thể tin được bàn thắng cuối đó!", "hint": "" },
+      { "speaker": "b", "en": "Me neither. His performance was amazing.", "vi": "Tôi cũng vậy. Phong độ của anh ấy thật tuyệt vời.", "hint": "Dùng His performance was." },
+      { "speaker": "a", "en": "Did you hear about the injury in the second half?", "vi": "Bạn có nghe về chấn thương ở hiệp hai không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, that was disappointing news.", "vi": "Có, đó là tin đáng thất vọng.", "hint": "Dùng disappointing." },
+      { "speaker": "a", "en": "Still, that comeback was incredible.", "vi": "Dù vậy, cuộc lội ngược dòng đó thật khó tin.", "hint": "" },
+      { "speaker": "b", "en": "Absolutely, one of the best games this year.", "vi": "Chắc chắn rồi, một trong những trận hay nhất năm nay.", "hint": "Dùng Absolutely." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a colleague who loves football and wants to discuss last night's exciting match.",
+    "opener": "Did you watch the match last night?",
+    "goal": "Người học kể lại diễn biến trận đấu, nêu tỉ số và nhận xét về phong độ cầu thủ."
+  },
+  "drills": [
+    { "vi": "Tối qua bạn có xem trận đấu không?", "en": "Did you watch the match last night?", "alts": [] },
+    { "vi": "Tỉ số là hai đều.", "en": "The score was two to two.", "alts": [] },
+    { "vi": "Tôi không thể tin được khi anh ấy ghi bàn đó.", "en": "I could not believe when he scored that goal.", "alts": [] },
+    { "vi": "Phong độ của anh ấy thật tuyệt vời.", "en": "His performance was amazing.", "alts": [] },
+    { "vi": "Đó là một kết quả đáng thất vọng.", "en": "That was such a disappointing result.", "alts": [] },
+    { "vi": "Đó là một cuộc lội ngược dòng khó tin.", "en": "That was an incredible comeback.", "alts": [] },
+    { "vi": "Một cầu thủ bị chấn thương ở hiệp hai.", "en": "A player got injured in the second half.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn bình luận về một trận đấu bạn từng xem, chú ý trọng âm trong performance.",
+    "Viết ba câu nhận xét về phong độ của một cầu thủ hoặc đội bóng bạn thích.",
+    "Luyện nói ba lần câu I could not believe when he scored that goal."
+  ]
+}

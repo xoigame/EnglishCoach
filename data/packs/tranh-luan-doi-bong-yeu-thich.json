@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-doi-bong-yeu-thich",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu tranh luận về đội bóng", "situation": "Hai người bạn bắt đầu tranh luận về đội bóng nào hay hơn.",
+      "turns": [
+        { "speaker": "a", "en": "I really think my team has been better this season.", "vi": "Tôi thực sự nghĩ đội tôi hay hơn mùa này." },
+        { "speaker": "b", "en": "The statistics clearly show my team has scored more goals.", "vi": "Số liệu cho thấy rõ ràng đội tôi ghi nhiều bàn hơn." },
+        { "speaker": "a", "en": "That is true, but our defense is stronger.", "vi": "Đúng vậy, nhưng hàng thủ chúng tôi mạnh hơn." },
+        { "speaker": "b", "en": "That is a fair point.", "vi": "Đó là điểm hợp lý đấy." },
+        { "speaker": "a", "en": "Let us see what happens next match.", "vi": "Mình xem trận tới thế nào nhé." },
+        { "speaker": "b", "en": "I look forward to it.", "vi": "Tôi mong chờ điều đó." }
+      ]},
+    { "title": "Thừa nhận một điểm của đối phương", "situation": "Bạn thừa nhận một điểm mạnh của đội đối thủ.",
+      "turns": [
+        { "speaker": "a", "en": "Your goalkeeper has been excellent this year.", "vi": "Thủ môn của bạn xuất sắc năm nay đấy." },
+        { "speaker": "b", "en": "I will concede that point.", "vi": "Tôi thừa nhận điểm đó." },
+        { "speaker": "a", "en": "But overall, my squad is deeper.", "vi": "Nhưng nhìn chung, đội hình tôi sâu hơn." },
+        { "speaker": "b", "en": "That may be true as well.", "vi": "Điều đó cũng có thể đúng." },
+        { "speaker": "a", "en": "It should be a great match.", "vi": "Chắc sẽ là một trận hay đấy." },
+        { "speaker": "b", "en": "Definitely looking forward to it.", "vi": "Chắc chắn tôi mong chờ điều đó." }
+      ]},
+    { "title": "Chỉ ra sự thiên vị", "situation": "Bạn chỉ ra rằng đối phương có thể đang thiên vị.",
+      "turns": [
+        { "speaker": "a", "en": "You might be a bit biased as a fan.", "vi": "Có thể bạn hơi thiên vị vì là người hâm mộ." },
+        { "speaker": "b", "en": "Maybe, but the numbers still support me.", "vi": "Có thể, nhưng số liệu vẫn ủng hộ tôi." },
+        { "speaker": "a", "en": "Fair enough, numbers do not lie.", "vi": "Cũng hợp lý, số liệu không nói dối." },
+        { "speaker": "b", "en": "Exactly my point.", "vi": "Chính xác là ý tôi muốn nói." },
+        { "speaker": "a", "en": "Still, I trust my team more.", "vi": "Dù vậy, tôi vẫn tin đội mình hơn." },
+        { "speaker": "b", "en": "That is understandable too.", "vi": "Điều đó cũng dễ hiểu." }
+      ]},
+    { "title": "Tranh luận về cầu thủ được đánh giá cao", "situation": "Bạn tranh luận về việc một cầu thủ có bị đánh giá quá cao không.",
+      "turns": [
+        { "speaker": "a", "en": "Your star player has been overrated this year.", "vi": "Ngôi sao của đội bạn được đánh giá hơi cao năm nay." },
+        { "speaker": "b", "en": "I disagree, his performance has been consistent.", "vi": "Tôi không đồng ý, phong độ của anh ấy rất ổn định." },
+        { "speaker": "a", "en": "The statistics say otherwise.", "vi": "Số liệu lại nói khác đấy." },
+        { "speaker": "b", "en": "I have not seen those numbers.", "vi": "Tôi chưa thấy những con số đó." },
+        { "speaker": "a", "en": "I will send you the link later.", "vi": "Lát tôi gửi link cho bạn." },
+        { "speaker": "b", "en": "Sure, I would like to see it.", "vi": "Được, tôi muốn xem thử." }
+      ]},
+    { "title": "So sánh đội hình hai đội", "situation": "Bạn so sánh độ sâu đội hình của hai đội.",
+      "turns": [
+        { "speaker": "a", "en": "Our squad is deeper than yours this year.", "vi": "Đội hình chúng tôi sâu hơn đội bạn năm nay." },
+        { "speaker": "b", "en": "That is a fair point, you have more options.", "vi": "Đó là điểm hợp lý, bạn có nhiều lựa chọn hơn." },
+        { "speaker": "a", "en": "It really helps during injuries.", "vi": "Điều đó thực sự giúp ích khi có chấn thương." },
+        { "speaker": "b", "en": "I will concede that advantage.", "vi": "Tôi thừa nhận lợi thế đó." },
+        { "speaker": "a", "en": "Still, quality matters more than depth.", "vi": "Dù vậy, chất lượng quan trọng hơn độ sâu." },
+        { "speaker": "b", "en": "That is debatable, honestly.", "vi": "Thật lòng, điều đó còn tranh cãi được." }
+      ]},
+    { "title": "Bàn về sự kình địch giữa hai đội", "situation": "Bạn bàn về sự kình địch lâu năm giữa hai đội bóng.",
+      "turns": [
+        { "speaker": "a", "en": "This rivalry has been intense for years.", "vi": "Sự kình địch này đã căng thẳng suốt nhiều năm." },
+        { "speaker": "b", "en": "Absolutely, every match is exciting.", "vi": "Chắc chắn rồi, trận nào cũng hấp dẫn." },
+        { "speaker": "a", "en": "I remember the match last year clearly.", "vi": "Tôi vẫn nhớ rõ trận đấu năm ngoái." },
+        { "speaker": "b", "en": "That was an amazing game.", "vi": "Đó là một trận đấu tuyệt vời." },
+        { "speaker": "a", "en": "I hope this year is just as good.", "vi": "Mong năm nay cũng hay như vậy." },
+        { "speaker": "b", "en": "I am sure it will be.", "vi": "Tôi chắc chắn nó sẽ vậy." }
+      ]},
+    { "title": "Tranh luận về lợi thế sân nhà", "situation": "Bạn tranh luận về việc lợi thế sân nhà quan trọng thế nào.",
+      "turns": [
+        { "speaker": "a", "en": "Home advantage will help my team win.", "vi": "Lợi thế sân nhà sẽ giúp đội tôi thắng." },
+        { "speaker": "b", "en": "That is a fair point, but skill matters more.", "vi": "Đó là điểm hợp lý, nhưng kỹ năng quan trọng hơn." },
+        { "speaker": "a", "en": "The fans really lift the players.", "vi": "Người hâm mộ thực sự tiếp lửa cho cầu thủ." },
+        { "speaker": "b", "en": "I will concede that support matters.", "vi": "Tôi thừa nhận sự ủng hộ có vai trò." },
+        { "speaker": "a", "en": "So the edge goes to us this time.", "vi": "Vậy lần này lợi thế thuộc về chúng tôi." },
+        { "speaker": "b", "en": "We will see about that.", "vi": "Để xem điều đó có đúng không." }
+      ]},
+    { "title": "Đưa ra kết luận sau khi tranh luận", "situation": "Bạn kết luận cuộc tranh luận bằng quan điểm cá nhân.",
+      "turns": [
+        { "speaker": "a", "en": "In my opinion, the edge goes to my team.", "vi": "Theo tôi, lợi thế thuộc về đội tôi." },
+        { "speaker": "b", "en": "I respect your opinion, but I disagree.", "vi": "Tôi tôn trọng ý kiến của bạn, nhưng tôi không đồng ý." },
+        { "speaker": "a", "en": "That is fine, we can agree to disagree.", "vi": "Không sao, chúng ta có thể đồng ý là bất đồng." },
+        { "speaker": "b", "en": "Exactly, that is what makes it fun.", "vi": "Chính xác, đó là điều làm nó thú vị." },
+        { "speaker": "a", "en": "Let us watch the match together.", "vi": "Mình cùng xem trận đấu nhé." },
+        { "speaker": "b", "en": "Sounds like a great idea.", "vi": "Nghe là ý hay đấy." }
+      ]},
+    { "title": "Đề xuất xem trận đấu cùng nhau để phân xử", "situation": "Bạn đề xuất xem trận đấu cùng nhau để xem ai đúng.",
+      "turns": [
+        { "speaker": "a", "en": "Why don't we watch the next match together?", "vi": "Sao mình không cùng xem trận tới nhỉ?" },
+        { "speaker": "b", "en": "Good idea, then we will know for sure.", "vi": "Ý hay, vậy mình sẽ biết chắc chắn." },
+        { "speaker": "a", "en": "Loser buys the drinks.", "vi": "Người thua sẽ trả tiền nước." },
+        { "speaker": "b", "en": "Deal, I am confident though.", "vi": "Chốt, dù tôi khá tự tin đấy." },
+        { "speaker": "a", "en": "We will see about that.", "vi": "Để xem điều đó có đúng không." },
+        { "speaker": "b", "en": "May the best team win.", "vi": "Chúc đội xứng đáng nhất sẽ thắng." }
+      ]},
+    { "title": "Tranh luận phức tạp với nhiều lập luận và dẫn chứng số liệu chồng chéo", "situation": "Hai người tranh luận phức tạp với nhiều lập luận và dẫn chứng số liệu chồng chéo. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "The statistics clearly show we have the better attack and defense combined.", "vi": "Số liệu cho thấy rõ ràng chúng tôi có hàng công và hàng thủ tốt hơn khi kết hợp." },
+        { "speaker": "b", "en": "I will concede the attack, but your defense has conceded more against top teams.", "vi": "Tôi thừa nhận hàng công, nhưng hàng thủ của bạn để thủng lưới nhiều hơn trước các đội mạnh." },
+        { "speaker": "a", "en": "That is a fair point, however our squad depth compensates for that.", "vi": "Đó là điểm hợp lý, tuy nhiên độ sâu đội hình của chúng tôi bù đắp được điều đó." },
+        { "speaker": "b", "en": "You might be biased since you only look at overall numbers, not head-to-head results.", "vi": "Có thể bạn thiên vị vì chỉ nhìn số liệu tổng thể, không phải kết quả đối đầu trực tiếp." },
+        { "speaker": "a", "en": "That is true, our head-to-head record is actually worse.", "vi": "Đúng vậy, thành tích đối đầu trực tiếp của chúng tôi thực ra tệ hơn." },
+        { "speaker": "b", "en": "So considering everything, I would say the edge genuinely goes to my team.", "vi": "Vậy xét mọi thứ, tôi cho rằng lợi thế thực sự thuộc về đội tôi." }
+      ]}
+  ]
+}

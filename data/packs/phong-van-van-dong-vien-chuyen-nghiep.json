@@ -1,0 +1,96 @@
+{
+  "id": "phong-van-van-dong-vien-chuyen-nghiep",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Cảm xúc ngay sau chiến thắng", "situation": "Phóng viên hỏi cảm xúc của vận động viên ngay sau khi thắng.",
+      "turns": [
+        { "speaker": "a", "en": "Congratulations on the win. How does it feel?", "vi": "Chúc mừng chiến thắng. Cảm giác thế nào?" },
+        { "speaker": "b", "en": "Honestly, it still feels a bit surreal.", "vi": "Thật lòng, tôi vẫn thấy hơi như trong mơ." },
+        { "speaker": "a", "en": "You must be very proud.", "vi": "Chắc bạn tự hào lắm." },
+        { "speaker": "b", "en": "I am, but it was a team effort.", "vi": "Đúng vậy, nhưng đó là nỗ lực chung của cả đội." },
+        { "speaker": "a", "en": "Well deserved indeed.", "vi": "Thực sự xứng đáng." },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Ghi nhận công lao đồng đội", "situation": "Vận động viên ghi nhận công lao của đồng đội.",
+      "turns": [
+        { "speaker": "a", "en": "That last-minute goal was incredible.", "vi": "Bàn thắng phút cuối đó thật khó tin." },
+        { "speaker": "b", "en": "I want to give credit to my teammates.", "vi": "Tôi muốn ghi nhận công lao của đồng đội." },
+        { "speaker": "a", "en": "Who set up that final pass?", "vi": "Ai đã thực hiện đường chuyền cuối đó?" },
+        { "speaker": "b", "en": "Our midfielder made a brilliant pass.", "vi": "Tiền vệ của chúng tôi đã có một đường chuyền tuyệt vời." },
+        { "speaker": "a", "en": "Great teamwork out there.", "vi": "Tinh thần đồng đội tuyệt vời đấy." },
+        { "speaker": "b", "en": "That is what makes us strong.", "vi": "Đó là điều làm chúng tôi mạnh mẽ." }
+      ]},
+    { "title": "Né tránh câu hỏi về tương lai", "situation": "Phóng viên hỏi về đồn đoán chuyển nhượng.",
+      "turns": [
+        { "speaker": "a", "en": "There has been speculation about your future.", "vi": "Có đồn đoán về tương lai của bạn." },
+        { "speaker": "b", "en": "I would rather not speculate on that right now.", "vi": "Tôi không muốn suy đoán về điều đó lúc này." },
+        { "speaker": "a", "en": "Understood, no comment then.", "vi": "Tôi hiểu rồi, vậy không bình luận nhé." },
+        { "speaker": "b", "en": "I appreciate your understanding.", "vi": "Tôi cảm kích sự thông cảm của bạn." },
+        { "speaker": "a", "en": "Let us focus on tonight's win instead.", "vi": "Vậy mình tập trung vào chiến thắng tối nay nhé." },
+        { "speaker": "b", "en": "That sounds much better.", "vi": "Nghe hay hơn nhiều đấy." }
+      ]},
+    { "title": "Nói về áp lực trong trận đấu", "situation": "Vận động viên nói về áp lực đã trải qua trong trận.",
+      "turns": [
+        { "speaker": "a", "en": "There was a lot of pressure in the final minutes.", "vi": "Có rất nhiều áp lực ở những phút cuối." },
+        { "speaker": "b", "en": "We showed great resilience under that pressure.", "vi": "Chúng tôi đã thể hiện sự kiên cường dưới áp lực đó." },
+        { "speaker": "a", "en": "How did you stay calm?", "vi": "Bạn đã giữ bình tĩnh bằng cách nào?" },
+        { "speaker": "b", "en": "We trusted our training and each other.", "vi": "Chúng tôi tin vào quá trình luyện tập và tin tưởng lẫn nhau." },
+        { "speaker": "a", "en": "That composure really showed.", "vi": "Sự bình tĩnh đó thể hiện rất rõ." },
+        { "speaker": "b", "en": "Thank you, it means a lot.", "vi": "Cảm ơn, điều đó có ý nghĩa nhiều với tôi." }
+      ]},
+    { "title": "Bày tỏ lòng biết ơn người hâm mộ", "situation": "Vận động viên bày tỏ lòng biết ơn với người hâm mộ.",
+      "turns": [
+        { "speaker": "a", "en": "Any final words for the fans?", "vi": "Bạn có lời nào cho người hâm mộ không?" },
+        { "speaker": "b", "en": "I am truly humbled by their support tonight.", "vi": "Tôi thực sự cảm thấy khiêm tốn trước sự ủng hộ của họ tối nay." },
+        { "speaker": "a", "en": "They were incredibly loud out there.", "vi": "Họ hò hét dữ dội ngoài đó." },
+        { "speaker": "b", "en": "It gave us so much energy.", "vi": "Điều đó cho chúng tôi rất nhiều năng lượng." },
+        { "speaker": "a", "en": "A great night for everyone then.", "vi": "Vậy là một đêm tuyệt vời cho tất cả mọi người." },
+        { "speaker": "b", "en": "Absolutely, thank you all.", "vi": "Chắc chắn rồi, cảm ơn tất cả mọi người." }
+      ]},
+    { "title": "Nói về việc vượt qua chấn thương", "situation": "Vận động viên nói về việc đã vượt qua chấn thương trước đó.",
+      "turns": [
+        { "speaker": "a", "en": "That injury last season was a real setback.", "vi": "Chấn thương mùa trước thực sự là một trở ngại lớn." },
+        { "speaker": "b", "en": "It was tough, but it taught me patience.", "vi": "Nó khó khăn thật, nhưng dạy tôi sự kiên nhẫn." },
+        { "speaker": "a", "en": "How did you stay motivated?", "vi": "Bạn đã giữ động lực bằng cách nào?" },
+        { "speaker": "b", "en": "My team supported me through it all.", "vi": "Đội của tôi đã hỗ trợ tôi suốt quá trình đó." },
+        { "speaker": "a", "en": "That resilience clearly paid off tonight.", "vi": "Sự kiên cường đó rõ ràng đã được đền đáp tối nay." },
+        { "speaker": "b", "en": "It truly did, I am grateful.", "vi": "Đúng vậy, tôi rất biết ơn." }
+      ]},
+    { "title": "Trả lời câu hỏi về đối thủ", "situation": "Phóng viên hỏi nhận xét về đội đối thủ.",
+      "turns": [
+        { "speaker": "a", "en": "What did you think of the opposing team tonight?", "vi": "Bạn nghĩ gì về đội đối thủ tối nay?" },
+        { "speaker": "b", "en": "They played with a lot of heart.", "vi": "Họ đã thi đấu với rất nhiều nhiệt huyết." },
+        { "speaker": "a", "en": "It was a tough match then.", "vi": "Vậy là một trận đấu khó khăn." },
+        { "speaker": "b", "en": "Definitely, nothing was easy tonight.", "vi": "Chắc chắn rồi, không có gì dễ dàng tối nay cả." },
+        { "speaker": "a", "en": "Respect to both sides then.", "vi": "Vậy sự tôn trọng dành cho cả hai bên." },
+        { "speaker": "b", "en": "Absolutely, well fought.", "vi": "Chắc chắn rồi, một trận đấu đáng khen." }
+      ]},
+    { "title": "Nói về mục tiêu sắp tới", "situation": "Vận động viên nói về mục tiêu cho trận đấu tiếp theo.",
+      "turns": [
+        { "speaker": "a", "en": "What matters most right now?", "vi": "Điều gì quan trọng nhất lúc này?" },
+        { "speaker": "b", "en": "What matters most right now is preparing for the next match.", "vi": "Điều quan trọng nhất lúc này là chuẩn bị cho trận tiếp theo." },
+        { "speaker": "a", "en": "No time to celebrate long then?", "vi": "Vậy không có nhiều thời gian ăn mừng nhỉ?" },
+        { "speaker": "b", "en": "We will enjoy tonight, then refocus.", "vi": "Chúng tôi sẽ tận hưởng tối nay, rồi tập trung lại." },
+        { "speaker": "a", "en": "That is a professional mindset.", "vi": "Đó là tư duy chuyên nghiệp đấy." },
+        { "speaker": "b", "en": "It is how we stay consistent.", "vi": "Đó là cách chúng tôi duy trì sự ổn định." }
+      ]},
+    { "title": "Trả lời câu hỏi khiêu khích một cách khéo léo", "situation": "Phóng viên đặt một câu hỏi hơi khiêu khích, vận động viên trả lời khéo léo.",
+      "turns": [
+        { "speaker": "a", "en": "Some critics say your team got lucky tonight.", "vi": "Một số nhà phê bình nói đội bạn hơi may mắn tối nay." },
+        { "speaker": "b", "en": "I would rather not speculate on outside opinions.", "vi": "Tôi không muốn suy đoán về những ý kiến bên ngoài." },
+        { "speaker": "a", "en": "Fair enough. What is your take on the performance?", "vi": "Cũng hợp lý. Vậy bạn nhận xét thế nào về màn trình diễn?" },
+        { "speaker": "b", "en": "I am proud of how hard we worked tonight.", "vi": "Tôi tự hào về sự nỗ lực của chúng tôi tối nay." },
+        { "speaker": "a", "en": "That is a confident answer.", "vi": "Đó là câu trả lời tự tin đấy." },
+        { "speaker": "b", "en": "We earned this win, honestly.", "vi": "Thật lòng, chúng tôi đã giành chiến thắng này một cách xứng đáng." }
+      ]},
+    { "title": "Phỏng vấn phức tạp với nhiều câu hỏi nhạy cảm liên tiếp về đội và cá nhân", "situation": "Phóng viên đặt liên tiếp nhiều câu hỏi nhạy cảm về cả đội và cá nhân vận động viên. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "There are rumors about tension in the locker room, plus speculation about your transfer. Care to comment?", "vi": "Có tin đồn về căng thẳng trong phòng thay đồ, cộng với đồn đoán về chuyển nhượng của bạn. Bạn có bình luận gì không?" },
+        { "speaker": "b", "en": "I would rather not speculate on either of those right now.", "vi": "Tôi không muốn suy đoán về cả hai điều đó lúc này." },
+        { "speaker": "a", "en": "Understandable. But how would you describe team morale honestly?", "vi": "Cũng dễ hiểu. Nhưng thật lòng bạn mô tả tinh thần đội thế nào?" },
+        { "speaker": "b", "en": "Honestly, tonight's performance speaks for itself about our unity.", "vi": "Thật lòng, màn trình diễn tối nay đã tự nói lên sự đoàn kết của chúng tôi." },
+        { "speaker": "a", "en": "A diplomatic answer. Any final thoughts on your personal future?", "vi": "Một câu trả lời khéo léo. Còn suy nghĩ cuối cùng về tương lai cá nhân bạn?" },
+        { "speaker": "b", "en": "What matters most right now is this team and this moment, nothing else.", "vi": "Điều quan trọng nhất lúc này là đội bóng này và khoảnh khắc này, không gì khác." }
+      ]}
+  ]
+}

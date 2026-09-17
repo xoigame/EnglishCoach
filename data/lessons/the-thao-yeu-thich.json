@@ -1,0 +1,98 @@
+{
+  "id": "the-thao-yeu-thich",
+  "title": "Nói về môn thể thao yêu thích",
+  "topic": "Thể thao và sở thích vận động",
+  "level": "A1",
+  "summary": "Bạn nói chuyện với một đồng nghiệp mới quen về môn thể thao yêu thích, tần suất chơi và nơi bạn thường chơi.",
+  "goals": [
+    "Nói tên môn thể thao yêu thích bằng tiếng Anh",
+    "Nói tần suất chơi thể thao (mỗi tuần, mỗi ngày)",
+    "Hỏi người khác về môn thể thao họ thích"
+  ],
+  "vocab": [
+    { "en": "sport", "ipa": "/spɔːrt/", "vi": "môn thể thao", "example": "Football is my favorite sport." },
+    { "en": "play", "ipa": "/pleɪ/", "vi": "chơi", "example": "I play badminton on Sundays." },
+    { "en": "team", "ipa": "/tiːm/", "vi": "đội, nhóm", "example": "I am on a football team." },
+    { "en": "gym", "ipa": "/dʒɪm/", "vi": "phòng tập", "example": "I go to the gym every morning." },
+    { "en": "swim", "ipa": "/swɪm/", "vi": "bơi", "example": "I like to swim in summer." },
+    { "en": "run", "ipa": "/rʌn/", "vi": "chạy bộ", "example": "I run in the park." },
+    { "en": "watch", "ipa": "/wɑːtʃ/", "vi": "xem", "example": "I watch football on TV." },
+    { "en": "favorite", "ipa": "/ˈfeɪvərɪt/", "vi": "yêu thích nhất", "example": "What is your favorite sport?" },
+    { "en": "weekend", "ipa": "/ˈwiːkend/", "vi": "cuối tuần", "example": "I play tennis on the weekend." },
+    { "en": "healthy", "ipa": "/ˈhelθi/", "vi": "khoẻ mạnh", "example": "Sport keeps me healthy." }
+  ],
+  "patterns": [
+    { "en": "My favorite sport is ___.", "vi": "Môn thể thao yêu thích của tôi là ___.", "note": "Dùng để nói môn thể thao bạn thích nhất." },
+    { "en": "I play ___ every ___.", "vi": "Tôi chơi ___ mỗi ___.", "note": "Nói tần suất chơi thể thao." },
+    { "en": "What sport do you like?", "vi": "Bạn thích môn thể thao nào?", "note": "Câu hỏi thân thiện để bắt đầu chủ đề." },
+    { "en": "I am not good at ___.", "vi": "Tôi không giỏi ___.", "note": "Dùng để nói khiêm tốn về một môn thể thao." },
+    { "en": "Let us play ___ together.", "vi": "Mình cùng chơi ___ nhé.", "note": "Lời rủ chơi thể thao cùng nhau." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /r/ trong run và favorite", "tip": "Cong nhẹ đầu lưỡi ra sau, không chạm vào vòm miệng.", "words": ["run", "favorite", "sport"] },
+    { "focus": "âm /w/ trong swim và weekend", "tip": "Chu môi tròn nhẹ trước khi phát âm.", "words": ["swim", "weekend", "watch"] },
+    { "focus": "âm cuối /m/ trong swim và team", "tip": "Khép chặt hai môi ở cuối từ, không thêm nguyên âm phía sau.", "words": ["swim", "team", "gym"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I do football.", "right": "I play football.", "vi": "Dùng play với các môn có bóng, không dùng do." },
+    { "wrong": "My favorite sport are football.", "right": "My favorite sport is football.", "vi": "Chủ ngữ số ít dùng is, không dùng are." },
+    { "wrong": "I play swim.", "right": "I swim.", "vi": "Swim tự nó là động từ, không cần thêm play trước." },
+    { "wrong": "I play tennis in weekend.", "right": "I play tennis on the weekend.", "vi": "Dùng giới từ on trước weekend, không dùng in." }
+  ],
+  "variations": [
+    { "situation": "Nói về môn thích", "formal": "My favorite sport is football.", "casual": "I love football.", "vi": "Câu trang trọng dùng khi mới quen; câu thân mật dùng với bạn bè." },
+    { "situation": "Hỏi người khác", "formal": "What sport do you like to play?", "casual": "What sport are you into?", "vi": "Câu trang trọng lịch sự; câu thân mật tự nhiên giữa bạn bè cùng trang lứa." },
+    { "situation": "Rủ chơi cùng", "formal": "Would you like to play tennis with me?", "casual": "Want to play tennis?", "vi": "Câu trang trọng phù hợp khi chưa thân; câu thân mật dùng với bạn đã quen." },
+    { "situation": "Nói không giỏi", "formal": "I am not very skilled at swimming.", "casual": "I am not great at swimming.", "vi": "Cả hai đều lịch sự, câu thân mật ngắn gọn hơn." }
+  ],
+  "culture": [
+    "Người bản xứ thường hỏi về môn thể thao yêu thích như một cách bắt chuyện nhẹ nhàng, không cần bạn phải chơi giỏi.",
+    "Football (soccer) phổ biến ở Anh, trong khi basketball và baseball phổ biến hơn ở Mỹ.",
+    "Nói I am not good at nghe khiêm tốn và tự nhiên hơn là phủ nhận hoàn toàn I cannot play."
+  ],
+  "listening": {
+    "title": "Giới thiệu về sở thích thể thao",
+    "passage": "Hi, my name is Tom. My favorite sport is football. I play football every weekend with my friends. I also like to swim, but I am not very good at it. On Tuesdays, I go to the gym. I watch basketball on TV sometimes too. Sport keeps me healthy and happy.",
+    "vi": "Chào, tôi tên là Tom. Môn thể thao yêu thích của tôi là bóng đá. Tôi chơi bóng đá mỗi cuối tuần cùng bạn bè. Tôi cũng thích bơi, nhưng tôi không giỏi lắm. Vào thứ Ba, tôi đi phòng tập. Thỉnh thoảng tôi cũng xem bóng rổ trên tivi. Thể thao giúp tôi khoẻ mạnh và vui vẻ.",
+    "questions": [
+      { "q": "What is Tom's favorite sport?", "choices": ["Football", "Swimming", "Basketball"], "answer": 0, "vi": "Đáp án đúng là Football vì Tom nói đó là môn yêu thích nhất." },
+      { "q": "When does Tom go to the gym?", "choices": ["On Tuesdays", "On weekends", "Every day"], "answer": 0, "vi": "Đáp án đúng vì Tom nói anh ấy đi gym vào thứ Ba." },
+      { "q": "Is Tom good at swimming?", "choices": ["No, not very good", "Yes, very good", "He never swims"], "answer": 0, "vi": "Đáp án đúng vì Tom nói anh không giỏi bơi lắm." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Đồng nghiệp mới quen", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Hi! What sport do you like?", "vi": "Chào! Bạn thích môn thể thao nào?", "hint": "" },
+      { "speaker": "b", "en": "My favorite sport is football.", "vi": "Môn thể thao yêu thích của tôi là bóng đá.", "hint": "Dùng My favorite sport is." },
+      { "speaker": "a", "en": "Nice! Do you play often?", "vi": "Hay đấy! Bạn có chơi thường xuyên không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I play every weekend.", "vi": "Có, tôi chơi mỗi cuối tuần.", "hint": "Dùng every weekend." },
+      { "speaker": "a", "en": "That sounds fun. I like to swim.", "vi": "Nghe vui đấy. Tôi thích bơi.", "hint": "" },
+      { "speaker": "b", "en": "I like to swim too, but I am not good at it.", "vi": "Tôi cũng thích bơi, nhưng tôi không giỏi lắm.", "hint": "Dùng I am not good at." },
+      { "speaker": "a", "en": "Do you watch sports on TV?", "vi": "Bạn có xem thể thao trên tivi không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I watch basketball sometimes.", "vi": "Có, thỉnh thoảng tôi xem bóng rổ.", "hint": "Dùng I watch." },
+      { "speaker": "a", "en": "Let us play football together sometime.", "vi": "Lúc nào đó mình cùng chơi bóng đá nhé.", "hint": "" },
+      { "speaker": "b", "en": "Sounds good! I would love that.", "vi": "Nghe hay đấy! Tôi rất thích thế.", "hint": "Sounds good dùng để đồng ý thân thiện." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly new colleague chatting casually about sports during a break.",
+    "opener": "Hi! What sport do you like?",
+    "goal": "Người học nói được môn thể thao yêu thích, tần suất chơi và đồng ý rủ chơi cùng."
+  },
+  "drills": [
+    { "vi": "Môn thể thao yêu thích của tôi là bóng đá.", "en": "My favorite sport is football.", "alts": [] },
+    { "vi": "Tôi chơi cầu lông mỗi cuối tuần.", "en": "I play badminton every weekend.", "alts": [] },
+    { "vi": "Tôi không giỏi bơi lắm.", "en": "I am not good at swimming.", "alts": [] },
+    { "vi": "Bạn thích môn thể thao nào?", "en": "What sport do you like?", "alts": [] },
+    { "vi": "Tôi đi phòng tập mỗi buổi sáng.", "en": "I go to the gym every morning.", "alts": [] },
+    { "vi": "Mình cùng chơi quần vợt nhé.", "en": "Let us play tennis together.", "alts": [] },
+    { "vi": "Tôi xem bóng rổ trên tivi.", "en": "I watch basketball on TV.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm lại đoạn giới thiệu về môn thể thao yêu thích của bạn, chú ý âm /r/ trong favorite.",
+    "Tự nói năm câu về tần suất bạn chơi thể thao trong tuần.",
+    "Hỏi một người bạn What sport do you like? và ghi lại câu trả lời."
+  ]
+}

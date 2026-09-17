@@ -796,6 +796,150 @@
           "turns": 16
         }
       ]
+    },
+    {
+      "id": "the-thao",
+      "name": "Thể thao",
+      "topics": [
+        {
+          "id": "the-thao-yeu-thich",
+          "topic": "Nói về môn thể thao yêu thích",
+          "level": "A1",
+          "partner": "Đồng nghiệp mới quen"
+        },
+        {
+          "id": "ren-ban-di-choi-the-thao",
+          "topic": "Rủ bạn đi chơi thể thao cuối tuần",
+          "level": "A2",
+          "partner": "Người bạn thân"
+        },
+        {
+          "id": "binh-luan-tran-dau-the-thao",
+          "topic": "Bình luận một trận đấu vừa xem tối qua",
+          "level": "B1",
+          "partner": "Đồng nghiệp mê bóng đá"
+        },
+        {
+          "id": "tranh-luan-doi-bong-yeu-thich",
+          "topic": "Tranh luận đội bóng nào hay hơn",
+          "level": "B2",
+          "partner": "Người bạn ủng hộ đội đối thủ"
+        },
+        {
+          "id": "phong-van-van-dong-vien-chuyen-nghiep",
+          "topic": "Trả lời phỏng vấn với tư cách vận động viên chuyên nghiệp sau trận đấu",
+          "level": "C1",
+          "partner": "Phóng viên thể thao"
+        }
+      ]
+    },
+    {
+      "id": "cong-nghe-mang-xa-hoi",
+      "name": "Công nghệ & mạng xã hội",
+      "topics": [
+        {
+          "id": "dung-mang-xa-hoi-co-ban",
+          "topic": "Dùng mạng xã hội cơ bản: đăng ảnh, thả tim, bình luận",
+          "level": "A1",
+          "partner": "Bạn cùng lớp"
+        },
+        {
+          "id": "nho-ban-sua-loi-dien-thoai",
+          "topic": "Nhờ bạn giúp khắc phục lỗi điện thoại đơn giản",
+          "level": "A2",
+          "partner": "Người bạn giỏi công nghệ"
+        },
+        {
+          "id": "thao-luan-thoi-gian-dung-mang-xa-hoi",
+          "topic": "Thảo luận về thời gian dùng mạng xã hội mỗi ngày",
+          "level": "B1",
+          "partner": "Người bạn thân"
+        },
+        {
+          "id": "tranh-luan-anh-huong-mang-xa-hoi",
+          "topic": "Tranh luận về ảnh hưởng của mạng xã hội tới giới trẻ",
+          "level": "B2",
+          "partner": "Người bạn có quan điểm trái ngược"
+        },
+        {
+          "id": "tranh-luan-kiem-duyet-mang-xa-hoi",
+          "topic": "Tranh luận về kiểm duyệt nội dung và tự do ngôn luận trên mạng xã hội",
+          "level": "C1",
+          "partner": "Chuyên gia chính sách công nghệ"
+        }
+      ]
+    },
+    {
+      "id": "giai-tri-phim-anh",
+      "name": "Giải trí & phim ảnh",
+      "topics": [
+        {
+          "id": "ru-ban-di-xem-phim",
+          "topic": "Rủ bạn đi xem phim cuối tuần",
+          "level": "A1",
+          "partner": "Người bạn thân"
+        },
+        {
+          "id": "ke-ve-phim-vua-xem",
+          "topic": "Kể về một bộ phim vừa xem",
+          "level": "A2",
+          "partner": "Đồng nghiệp"
+        },
+        {
+          "id": "chon-phim-cuoi-tuan",
+          "topic": "Thảo luận nên xem phim thể loại gì cuối tuần này",
+          "level": "B1",
+          "partner": "Người bạn thân"
+        },
+        {
+          "id": "tranh-luan-danh-gia-phim",
+          "topic": "Tranh luận đánh giá một bộ phim mới ra mắt",
+          "level": "B2",
+          "partner": "Người bạn có gu phim khác"
+        },
+        {
+          "id": "phong-van-dao-dien-phim-moi",
+          "topic": "Trả lời phỏng vấn với tư cách đạo diễn về bộ phim mới",
+          "level": "C1",
+          "partner": "Người dẫn chương trình"
+        }
+      ]
+    },
+    {
+      "id": "giao-duc-hoc-tap",
+      "name": "Giáo dục & học tập",
+      "topics": [
+        {
+          "id": "mon-hoc-yeu-thich",
+          "topic": "Nói về môn học yêu thích ở trường",
+          "level": "A1",
+          "partner": "Bạn học cùng lớp"
+        },
+        {
+          "id": "dang-ky-khoa-hoc",
+          "topic": "Hỏi thông tin và đăng ký khoá học thêm",
+          "level": "A2",
+          "partner": "Nhân viên tư vấn trung tâm"
+        },
+        {
+          "id": "phuong-phap-hoc-tap-hieu-qua",
+          "topic": "Thảo luận phương pháp học tập hiệu quả",
+          "level": "B1",
+          "partner": "Bạn cùng lớp"
+        },
+        {
+          "id": "tranh-luan-hoc-online-truc-tiep",
+          "topic": "Tranh luận giữa học online và học trực tiếp",
+          "level": "B2",
+          "partner": "Người bạn có quan điểm trái ngược"
+        },
+        {
+          "id": "tranh-luan-chinh-sach-giao-duc",
+          "topic": "Tranh luận về cải cách thi cử và chính sách giáo dục",
+          "level": "C1",
+          "partner": "Chuyên gia chính sách giáo dục"
+        }
+      ]
     }
   ]
 }

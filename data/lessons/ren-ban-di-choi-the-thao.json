@@ -1,0 +1,98 @@
+{
+  "id": "ren-ban-di-choi-the-thao",
+  "title": "Rủ bạn đi chơi thể thao cuối tuần",
+  "topic": "Thể thao và hoạt động cuối tuần",
+  "level": "A2",
+  "summary": "Bạn rủ người bạn thân đi chơi thể thao vào cuối tuần, bàn về giờ giấc, địa điểm và những gì cần mang theo.",
+  "goals": [
+    "Rủ bạn đi chơi thể thao cùng",
+    "Thoả thuận giờ giấc và địa điểm",
+    "Hỏi và trả lời về dụng cụ cần mang theo"
+  ],
+  "vocab": [
+    { "en": "join", "ipa": "/dʒɔɪn/", "vi": "tham gia cùng", "example": "Do you want to join us?" },
+    { "en": "court", "ipa": "/kɔːrt/", "vi": "sân (cầu lông, quần vợt)", "example": "The badminton court is near my house." },
+    { "en": "field", "ipa": "/fiːld/", "vi": "sân bóng", "example": "We play football on that field." },
+    { "en": "equipment", "ipa": "/ɪˈkwɪpmənt/", "vi": "dụng cụ, trang thiết bị", "example": "Bring your own equipment." },
+    { "en": "racket", "ipa": "/ˈrækɪt/", "vi": "vợt", "example": "I need to borrow a racket." },
+    { "en": "book", "ipa": "/bʊk/", "vi": "đặt trước (sân, chỗ)", "example": "I already booked the court." },
+    { "en": "warm up", "ipa": "/wɔːrm ʌp/", "vi": "khởi động", "example": "Let us warm up before we start." },
+    { "en": "tired", "ipa": "/ˈtaɪərd/", "vi": "mệt", "example": "I was tired after the game." },
+    { "en": "score", "ipa": "/skɔːr/", "vi": "tỉ số, ghi điểm", "example": "What was the final score?" },
+    { "en": "rematch", "ipa": "/ˈriːmætʃ/", "vi": "đấu lại", "example": "Let us have a rematch next week." }
+  ],
+  "patterns": [
+    { "en": "Do you want to play ___ this weekend?", "vi": "Cuối tuần này bạn có muốn chơi ___ không?", "note": "Lời rủ chơi thể thao." },
+    { "en": "What time should we meet?", "vi": "Mình nên gặp nhau lúc mấy giờ?", "note": "Hỏi về giờ hẹn." },
+    { "en": "I already booked ___.", "vi": "Tôi đã đặt ___ rồi.", "note": "Thông báo đã chuẩn bị sẵn sân/chỗ." },
+    { "en": "Do I need to bring ___?", "vi": "Tôi có cần mang ___ không?", "note": "Hỏi về dụng cụ cần chuẩn bị." },
+    { "en": "Let us have a rematch next time.", "vi": "Lần sau mình đấu lại nhé.", "note": "Đề nghị chơi lại lần khác." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /kw/ trong equipment", "tip": "Phát âm liền hai âm k và w, không tách rời.", "words": ["equipment", "quick"] },
+    { "focus": "âm /r/ trong racket và rematch", "tip": "Cong lưỡi ra sau, không chạm vòm miệng.", "words": ["racket", "rematch", "court"] },
+    { "focus": "trọng âm trong equipment", "tip": "Nhấn vào âm tiết thứ hai: e-QUIP-ment.", "words": ["equipment"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Do you want to play badminton at this weekend?", "right": "Do you want to play badminton this weekend?", "vi": "Không dùng at trước this weekend." },
+    { "wrong": "I book already the court.", "right": "I already booked the court.", "vi": "Trạng từ already đứng trước động từ chia thì quá khứ." },
+    { "wrong": "Bring you racket.", "right": "Bring your racket.", "vi": "Cần tính từ sở hữu your, không dùng you." },
+    { "wrong": "What time we should meet?", "right": "What time should we meet?", "vi": "Trợ động từ should đứng trước chủ ngữ trong câu hỏi." }
+  ],
+  "variations": [
+    { "situation": "Rủ chơi", "formal": "Would you like to play tennis this weekend?", "casual": "Wanna play tennis this weekend?", "vi": "Câu trang trọng lịch sự hơn; câu thân mật rất phổ biến giữa bạn bè." },
+    { "situation": "Hỏi giờ giấc", "formal": "What time would be convenient for you?", "casual": "What time works for you?", "vi": "Cả hai đều lịch sự, câu thân mật ngắn gọn tự nhiên." },
+    { "situation": "Hỏi mang gì", "formal": "Should I bring any equipment?", "casual": "Do I need to bring anything?", "vi": "Câu thân mật chung chung hơn, phù hợp giữa bạn bè." },
+    { "situation": "Đề nghị đấu lại", "formal": "Perhaps we could play again another time.", "casual": "Let us have a rematch!", "vi": "Câu thân mật thể hiện sự hào hứng, hợp với bạn bè." }
+  ],
+  "culture": [
+    "Rủ bạn chơi thể thao cuối tuần là cách phổ biến để duy trì tình bạn ở các nước nói tiếng Anh.",
+    "Nhiều sân thể thao công cộng cần đặt trước (book), nên hỏi đã đặt sân chưa là điều bình thường.",
+    "Sau trận đấu thân thiện, nói Good game! là cách khen lịch sự dù thắng hay thua."
+  ],
+  "listening": {
+    "title": "Lời nhắn rủ chơi cầu lông",
+    "passage": "Hey, are you free this Saturday? I want to play badminton at the sports center. I already booked a court for ten in the morning. You do not need to bring a racket, I have an extra one. Just wear comfortable shoes. We can warm up first, then play a few games. After that, we could get some lunch together.",
+    "vi": "Này, thứ Bảy này bạn rảnh không? Tôi muốn chơi cầu lông ở trung tâm thể thao. Tôi đã đặt sân lúc mười giờ sáng rồi. Bạn không cần mang vợt, tôi có cái dư. Chỉ cần mang giày thoải mái thôi. Mình có thể khởi động trước, rồi chơi vài ván. Sau đó mình có thể đi ăn trưa cùng nhau.",
+    "questions": [
+      { "q": "What time is the court booked for?", "choices": ["Ten in the morning", "Ten at night", "Noon"], "answer": 0, "vi": "Đáp án đúng vì người nói đã đặt sân lúc mười giờ sáng." },
+      { "q": "Does the friend need to bring a racket?", "choices": ["No, there is an extra one", "Yes, definitely", "Only if they want"], "answer": 0, "vi": "Đáp án đúng vì người nói có vợt dư sẵn." },
+      { "q": "What will they do after playing?", "choices": ["Get lunch together", "Go home immediately", "Play more games"], "answer": 0, "vi": "Đáp án đúng vì người nói đề nghị đi ăn trưa cùng sau khi chơi." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn thân", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Do you want to play badminton this weekend?", "vi": "Cuối tuần này bạn có muốn chơi cầu lông không?", "hint": "" },
+      { "speaker": "b", "en": "Sure! What time should we meet?", "vi": "Được đấy! Mình nên gặp lúc mấy giờ?", "hint": "Dùng What time should we meet." },
+      { "speaker": "a", "en": "How about ten in the morning?", "vi": "Mười giờ sáng được không?", "hint": "" },
+      { "speaker": "b", "en": "That works for me. Where should we play?", "vi": "Vậy được với tôi. Mình chơi ở đâu?", "hint": "Dùng That works for me." },
+      { "speaker": "a", "en": "I already booked a court at the sports center.", "vi": "Tôi đã đặt sân ở trung tâm thể thao rồi.", "hint": "" },
+      { "speaker": "b", "en": "Great! Do I need to bring a racket?", "vi": "Tuyệt! Tôi có cần mang vợt không?", "hint": "Dùng Do I need to bring." },
+      { "speaker": "a", "en": "No, I have an extra one for you.", "vi": "Không, tôi có cái dư cho bạn.", "hint": "" },
+      { "speaker": "b", "en": "Perfect. I will wear comfortable shoes.", "vi": "Hoàn hảo. Tôi sẽ mang giày thoải mái.", "hint": "Dùng I will wear." },
+      { "speaker": "a", "en": "Let us warm up first before we play.", "vi": "Mình khởi động trước khi chơi nhé.", "hint": "" },
+      { "speaker": "b", "en": "Sounds good. See you on Saturday!", "vi": "Nghe hay đấy. Hẹn gặp bạn thứ Bảy!", "hint": "Dùng See you." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a close friend inviting the learner to play badminton this weekend.",
+    "opener": "Do you want to play badminton this weekend?",
+    "goal": "Người học đồng ý tham gia, thoả thuận giờ giấc và hỏi về dụng cụ cần mang."
+  },
+  "drills": [
+    { "vi": "Cuối tuần này bạn có muốn chơi bóng đá không?", "en": "Do you want to play football this weekend?", "alts": [] },
+    { "vi": "Mình nên gặp lúc mấy giờ?", "en": "What time should we meet?", "alts": [] },
+    { "vi": "Tôi đã đặt sân rồi.", "en": "I already booked the court.", "alts": [] },
+    { "vi": "Tôi có cần mang vợt không?", "en": "Do I need to bring a racket?", "alts": [] },
+    { "vi": "Mình khởi động trước nhé.", "en": "Let us warm up first.", "alts": [] },
+    { "vi": "Lần sau mình đấu lại nhé.", "en": "Let us have a rematch next time.", "alts": [] },
+    { "vi": "Vậy giờ đó được với tôi.", "en": "That time works for me.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm lại đoạn hội thoại rủ bạn chơi thể thao, chú ý trọng âm trong equipment.",
+    "Viết một tin nhắn ngắn rủ bạn chơi một môn thể thao bạn thích vào cuối tuần.",
+    "Luyện nói ba lần câu Do I need to bring anything?"
+  ]
+}

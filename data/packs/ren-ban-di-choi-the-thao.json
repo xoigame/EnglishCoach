@@ -1,0 +1,96 @@
+{
+  "id": "ren-ban-di-choi-the-thao",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Rủ chơi cầu lông cuối tuần", "situation": "Bạn rủ người bạn thân chơi cầu lông vào cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "Do you want to play badminton this weekend?", "vi": "Cuối tuần này bạn có muốn chơi cầu lông không?" },
+        { "speaker": "b", "en": "Sure! What time should we meet?", "vi": "Được đấy! Mình gặp lúc mấy giờ?" },
+        { "speaker": "a", "en": "How about ten in the morning?", "vi": "Mười giờ sáng được không?" },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "a", "en": "Great, see you then.", "vi": "Tuyệt, hẹn gặp lúc đó." },
+        { "speaker": "b", "en": "See you on Saturday!", "vi": "Hẹn gặp thứ Bảy!" }
+      ]},
+    { "title": "Hỏi về việc đặt sân", "situation": "Bạn hỏi bạn mình đã đặt sân chưa.",
+      "turns": [
+        { "speaker": "a", "en": "Did you book the court already?", "vi": "Bạn đã đặt sân chưa?" },
+        { "speaker": "b", "en": "Yes, I booked it for ten.", "vi": "Rồi, tôi đặt lúc mười giờ." },
+        { "speaker": "a", "en": "Perfect, thank you.", "vi": "Hoàn hảo, cảm ơn bạn." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." },
+        { "speaker": "a", "en": "Where is the court located?", "vi": "Sân ở đâu vậy?" },
+        { "speaker": "b", "en": "Near the sports center.", "vi": "Gần trung tâm thể thao." }
+      ]},
+    { "title": "Hỏi có cần mang vợt không", "situation": "Bạn hỏi có cần mang theo vợt không.",
+      "turns": [
+        { "speaker": "a", "en": "Do I need to bring a racket?", "vi": "Tôi có cần mang vợt không?" },
+        { "speaker": "b", "en": "No, I have an extra one.", "vi": "Không, tôi có cái dư." },
+        { "speaker": "a", "en": "Great, thank you.", "vi": "Tuyệt, cảm ơn bạn." },
+        { "speaker": "b", "en": "Just bring comfortable shoes.", "vi": "Chỉ cần mang giày thoải mái thôi." },
+        { "speaker": "a", "en": "Okay, I will.", "vi": "Được, tôi sẽ mang." },
+        { "speaker": "b", "en": "See you Saturday then.", "vi": "Vậy hẹn gặp thứ Bảy nhé." }
+      ]},
+    { "title": "Đề nghị khởi động trước", "situation": "Bạn đề nghị khởi động trước khi chơi.",
+      "turns": [
+        { "speaker": "a", "en": "Let us warm up first.", "vi": "Mình khởi động trước nhé." },
+        { "speaker": "b", "en": "Good idea, my legs feel stiff.", "vi": "Ý hay, chân tôi thấy cứng." },
+        { "speaker": "a", "en": "A few stretches will help.", "vi": "Vài động tác giãn cơ sẽ giúp ích." },
+        { "speaker": "b", "en": "Okay, let us start.", "vi": "Được, mình bắt đầu thôi." },
+        { "speaker": "a", "en": "Ready when you are.", "vi": "Bạn sẵn sàng thì tôi cũng vậy." },
+        { "speaker": "b", "en": "Let us go!", "vi": "Đi thôi!" }
+      ]},
+    { "title": "Sau trận chơi, đề nghị đấu lại", "situation": "Sau khi chơi xong, bạn đề nghị đấu lại lần khác.",
+      "turns": [
+        { "speaker": "a", "en": "Good game! That was fun.", "vi": "Trận hay đấy! Vui thật." },
+        { "speaker": "b", "en": "Yes, let us have a rematch next time.", "vi": "Vâng, lần sau mình đấu lại nhé." },
+        { "speaker": "a", "en": "I would like that.", "vi": "Tôi rất thích thế." },
+        { "speaker": "b", "en": "How about next Saturday?", "vi": "Thứ Bảy tới thì sao?" },
+        { "speaker": "a", "en": "Sounds good to me.", "vi": "Nghe được với tôi đấy." },
+        { "speaker": "b", "en": "See you then!", "vi": "Hẹn gặp lúc đó!" }
+      ]},
+    { "title": "Rủ đi tập gym cùng", "situation": "Bạn rủ bạn mình đi tập gym cùng thay vì chơi cầu lông.",
+      "turns": [
+        { "speaker": "a", "en": "Do you want to go to the gym instead?", "vi": "Bạn có muốn đi tập gym thay vào đó không?" },
+        { "speaker": "b", "en": "Sure, what time works for you?", "vi": "Được, giờ nào phù hợp với bạn?" },
+        { "speaker": "a", "en": "Maybe after work?", "vi": "Có lẽ sau giờ làm?" },
+        { "speaker": "b", "en": "That sounds good.", "vi": "Nghe hay đấy." },
+        { "speaker": "a", "en": "I will meet you there.", "vi": "Tôi sẽ gặp bạn ở đó." },
+        { "speaker": "b", "en": "Okay, see you later.", "vi": "Được, hẹn gặp sau." }
+      ]},
+    { "title": "Xin lỗi vì đến trễ", "situation": "Bạn xin lỗi vì đến trễ buổi chơi thể thao.",
+      "turns": [
+        { "speaker": "a", "en": "Sorry I am a bit late.", "vi": "Xin lỗi tôi hơi trễ." },
+        { "speaker": "b", "en": "No worries, we just started warming up.", "vi": "Không sao, chúng tôi vừa mới khởi động." },
+        { "speaker": "a", "en": "Great, let me join you.", "vi": "Tuyệt, để tôi tham gia cùng." },
+        { "speaker": "b", "en": "Sure, come on in.", "vi": "Được, mời vào." },
+        { "speaker": "a", "en": "Thanks for waiting.", "vi": "Cảm ơn bạn đã đợi." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Hỏi kết quả trận đấu của bạn", "situation": "Bạn hỏi thăm kết quả trận đấu của bạn mình sau khi thi đấu xong.",
+      "turns": [
+        { "speaker": "a", "en": "How was the match yesterday?", "vi": "Trận đấu hôm qua thế nào?" },
+        { "speaker": "b", "en": "We won, but it was close.", "vi": "Chúng tôi thắng, nhưng khá sít sao." },
+        { "speaker": "a", "en": "That is great news!", "vi": "Tin tốt quá!" },
+        { "speaker": "b", "en": "Thank you, I am proud of the team.", "vi": "Cảm ơn, tôi tự hào về đội." },
+        { "speaker": "a", "en": "You should celebrate.", "vi": "Bạn nên ăn mừng đi." },
+        { "speaker": "b", "en": "We will, this weekend.", "vi": "Chúng tôi sẽ ăn mừng vào cuối tuần này." }
+      ]},
+    { "title": "Đổi lịch chơi thể thao vì bận", "situation": "Bạn cần đổi lịch chơi thể thao vì có việc bận.",
+      "turns": [
+        { "speaker": "a", "en": "I am sorry, I cannot play this Saturday.", "vi": "Xin lỗi, thứ Bảy này tôi không chơi được." },
+        { "speaker": "b", "en": "That is okay, what happened?", "vi": "Không sao, có chuyện gì vậy?" },
+        { "speaker": "a", "en": "I have a family event.", "vi": "Tôi có việc gia đình." },
+        { "speaker": "b", "en": "No problem, how about Sunday instead?", "vi": "Không sao, vậy Chủ Nhật thay vào đó thì sao?" },
+        { "speaker": "a", "en": "That works better for me.", "vi": "Vậy hợp với tôi hơn." },
+        { "speaker": "b", "en": "Great, see you on Sunday.", "vi": "Tuyệt, hẹn gặp Chủ Nhật." }
+      ]},
+    { "title": "Lên kế hoạch chơi nhiều môn thể thao trong ngày với nhiều bạn", "situation": "Bạn lên kế hoạch phức tạp để chơi nhiều môn thể thao trong một ngày với nhóm bạn. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Let us plan a full sports day with everyone.", "vi": "Mình lên kế hoạch một ngày thể thao trọn vẹn với mọi người nhé." },
+        { "speaker": "b", "en": "Great idea, what should we play first?", "vi": "Ý hay, mình nên chơi gì trước?" },
+        { "speaker": "a", "en": "Football in the morning, then swimming after lunch.", "vi": "Bóng đá buổi sáng, rồi bơi sau bữa trưa." },
+        { "speaker": "b", "en": "Should we book the football field in advance?", "vi": "Mình có nên đặt sân bóng đá trước không?" },
+        { "speaker": "a", "en": "Yes, I will book it, and you can bring the equipment.", "vi": "Có, tôi sẽ đặt sân, còn bạn mang dụng cụ nhé." },
+        { "speaker": "b", "en": "Sounds like a perfect plan.", "vi": "Nghe như một kế hoạch hoàn hảo đấy." }
+      ]}
+  ]
+}

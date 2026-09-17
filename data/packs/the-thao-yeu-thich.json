@@ -1,0 +1,96 @@
+{
+  "id": "the-thao-yeu-thich",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Nói về môn thể thao yêu thích", "situation": "Bạn nói với đồng nghiệp về môn thể thao bạn thích nhất.",
+      "turns": [
+        { "speaker": "a", "en": "What sport do you like?", "vi": "Bạn thích môn thể thao nào?" },
+        { "speaker": "b", "en": "My favorite sport is football.", "vi": "Môn yêu thích của tôi là bóng đá." },
+        { "speaker": "a", "en": "Do you play often?", "vi": "Bạn có chơi thường xuyên không?" },
+        { "speaker": "b", "en": "Yes, every weekend.", "vi": "Có, mỗi cuối tuần." },
+        { "speaker": "a", "en": "That is great.", "vi": "Vậy tốt đấy." },
+        { "speaker": "b", "en": "Thank you, I enjoy it a lot.", "vi": "Cảm ơn, tôi thích nó lắm." }
+      ]},
+    { "title": "Hỏi về môn thể thao của bạn", "situation": "Bạn hỏi ngược lại người kia về sở thích thể thao.",
+      "turns": [
+        { "speaker": "a", "en": "I like basketball. What about you?", "vi": "Tôi thích bóng rổ. Còn bạn?" },
+        { "speaker": "b", "en": "I like swimming.", "vi": "Tôi thích bơi." },
+        { "speaker": "a", "en": "Do you swim every day?", "vi": "Bạn có bơi mỗi ngày không?" },
+        { "speaker": "b", "en": "No, only on Saturdays.", "vi": "Không, chỉ vào thứ Bảy." },
+        { "speaker": "a", "en": "That sounds nice.", "vi": "Nghe hay đấy." },
+        { "speaker": "b", "en": "Yes, it is very relaxing.", "vi": "Vâng, nó rất thư giãn." }
+      ]},
+    { "title": "Nói về việc đi phòng tập", "situation": "Bạn kể về thói quen đi phòng tập của mình.",
+      "turns": [
+        { "speaker": "a", "en": "Do you go to the gym?", "vi": "Bạn có đi phòng tập không?" },
+        { "speaker": "b", "en": "Yes, I go every morning.", "vi": "Có, tôi đi mỗi buổi sáng." },
+        { "speaker": "a", "en": "What time do you go?", "vi": "Bạn đi lúc mấy giờ?" },
+        { "speaker": "b", "en": "I go at six.", "vi": "Tôi đi lúc sáu giờ." },
+        { "speaker": "a", "en": "Wow, that is early.", "vi": "Ồ, sớm vậy." },
+        { "speaker": "b", "en": "Yes, but it keeps me healthy.", "vi": "Vâng, nhưng nó giúp tôi khoẻ mạnh." }
+      ]},
+    { "title": "Nói không giỏi một môn thể thao", "situation": "Bạn thừa nhận mình không giỏi một môn nào đó.",
+      "turns": [
+        { "speaker": "a", "en": "Do you play tennis?", "vi": "Bạn có chơi quần vợt không?" },
+        { "speaker": "b", "en": "I try, but I am not good at it.", "vi": "Tôi có thử, nhưng tôi không giỏi lắm." },
+        { "speaker": "a", "en": "That is okay, practice helps.", "vi": "Không sao, luyện tập sẽ giúp ích." },
+        { "speaker": "b", "en": "Yes, I want to get better.", "vi": "Vâng, tôi muốn giỏi hơn." },
+        { "speaker": "a", "en": "We can practice together.", "vi": "Chúng ta có thể tập cùng nhau." },
+        { "speaker": "b", "en": "That would be great.", "vi": "Vậy thì tuyệt quá." }
+      ]},
+    { "title": "Xem thể thao trên tivi", "situation": "Bạn nói về việc xem thể thao trên tivi.",
+      "turns": [
+        { "speaker": "a", "en": "Do you watch sports on TV?", "vi": "Bạn có xem thể thao trên tivi không?" },
+        { "speaker": "b", "en": "Yes, I watch basketball sometimes.", "vi": "Có, thỉnh thoảng tôi xem bóng rổ." },
+        { "speaker": "a", "en": "Who is your favorite team?", "vi": "Đội yêu thích của bạn là đội nào?" },
+        { "speaker": "b", "en": "I do not have one yet.", "vi": "Tôi chưa có đội nào cả." },
+        { "speaker": "a", "en": "You should choose one!", "vi": "Bạn nên chọn một đội đi!" },
+        { "speaker": "b", "en": "Maybe I will.", "vi": "Có lẽ tôi sẽ chọn." }
+      ]},
+    { "title": "Rủ chơi thể thao cùng lần đầu", "situation": "Đồng nghiệp rủ bạn chơi thể thao cùng lần đầu tiên.",
+      "turns": [
+        { "speaker": "a", "en": "Let us play football together sometime.", "vi": "Lúc nào đó mình cùng chơi bóng đá nhé." },
+        { "speaker": "b", "en": "Sure, I would love that.", "vi": "Được, tôi rất thích thế." },
+        { "speaker": "a", "en": "How about this weekend?", "vi": "Cuối tuần này thì sao?" },
+        { "speaker": "b", "en": "That works for me.", "vi": "Vậy được với tôi." },
+        { "speaker": "a", "en": "Great, see you then.", "vi": "Tuyệt, hẹn gặp lúc đó." },
+        { "speaker": "b", "en": "See you!", "vi": "Hẹn gặp!" }
+      ]},
+    { "title": "Nói về việc chạy bộ", "situation": "Bạn kể về thói quen chạy bộ trong công viên.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like running?", "vi": "Bạn có thích chạy bộ không?" },
+        { "speaker": "b", "en": "Yes, I run in the park.", "vi": "Có, tôi chạy trong công viên." },
+        { "speaker": "a", "en": "How far do you run?", "vi": "Bạn chạy bao xa vậy?" },
+        { "speaker": "b", "en": "About two kilometers.", "vi": "Khoảng hai ki-lô-mét." },
+        { "speaker": "a", "en": "That is a good start.", "vi": "Vậy là khởi đầu tốt đấy." },
+        { "speaker": "b", "en": "Thank you, I want to run more.", "vi": "Cảm ơn, tôi muốn chạy nhiều hơn." }
+      ]},
+    { "title": "So sánh hai môn thể thao", "situation": "Bạn so sánh việc thích môn nào hơn giữa hai môn.",
+      "turns": [
+        { "speaker": "a", "en": "Do you like football or basketball more?", "vi": "Bạn thích bóng đá hay bóng rổ hơn?" },
+        { "speaker": "b", "en": "I like football more.", "vi": "Tôi thích bóng đá hơn." },
+        { "speaker": "a", "en": "Why do you like it more?", "vi": "Vì sao bạn thích nó hơn?" },
+        { "speaker": "b", "en": "It is more exciting for me.", "vi": "Nó thú vị hơn với tôi." },
+        { "speaker": "a", "en": "That makes sense.", "vi": "Vậy cũng hợp lý." },
+        { "speaker": "b", "en": "Yes, I watch it every week.", "vi": "Vâng, tôi xem nó mỗi tuần." }
+      ]},
+    { "title": "Hỏi thăm sau khi chơi thể thao mệt", "situation": "Bạn hỏi thăm đồng nghiệp sau khi chơi thể thao xong.",
+      "turns": [
+        { "speaker": "a", "en": "How was your game yesterday?", "vi": "Trận đấu hôm qua của bạn thế nào?" },
+        { "speaker": "b", "en": "It was fun, but I am tired now.", "vi": "Vui lắm, nhưng giờ tôi mệt." },
+        { "speaker": "a", "en": "Did you win?", "vi": "Bạn có thắng không?" },
+        { "speaker": "b", "en": "Yes, we won!", "vi": "Có, chúng tôi thắng!" },
+        { "speaker": "a", "en": "Congratulations!", "vi": "Chúc mừng bạn!" },
+        { "speaker": "b", "en": "Thank you very much.", "vi": "Cảm ơn bạn nhiều." }
+      ]},
+    { "title": "Kể chi tiết một ngày chơi nhiều môn thể thao khác nhau", "situation": "Bạn kể chi tiết về một ngày cuối tuần chơi nhiều môn thể thao khác nhau. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What did you do last weekend?", "vi": "Cuối tuần trước bạn đã làm gì?" },
+        { "speaker": "b", "en": "In the morning, I played football with my friends.", "vi": "Buổi sáng, tôi chơi bóng đá với bạn bè." },
+        { "speaker": "a", "en": "And in the afternoon?", "vi": "Còn buổi chiều thì sao?" },
+        { "speaker": "b", "en": "I went swimming, but I was very tired.", "vi": "Tôi đi bơi, nhưng tôi rất mệt." },
+        { "speaker": "a", "en": "That is a busy day for sports!", "vi": "Vậy là một ngày bận rộn với thể thao đấy!" },
+        { "speaker": "b", "en": "Yes, but I watched basketball on TV in the evening too.", "vi": "Vâng, nhưng tối tôi còn xem bóng rổ trên tivi nữa." }
+      ]}
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:52:27.949Z",
+  "generatedAt": "2026-09-17T08:59:07.459Z",
   "lessons": [
     {
       "id": "cam-on-xin-loi-lich-su",
@@ -111,6 +111,14 @@
       "topic": "Gia đình và bạn bè",
       "level": "A1",
       "summary": "Bạn làm quen với một bạn cùng lớp tiếng Anh và trò chuyện ngắn về gia đình, anh chị em và bạn bè.",
+      "turns": 10
+    },
+    {
+      "id": "the-thao-yeu-thich",
+      "title": "Nói về môn thể thao yêu thích",
+      "topic": "Thể thao và sở thích vận động",
+      "level": "A1",
+      "summary": "Bạn nói chuyện với một đồng nghiệp mới quen về môn thể thao yêu thích, tần suất chơi và nơi bạn thường chơi.",
       "turns": 10
     },
     {
@@ -314,6 +322,14 @@
       "turns": 12
     },
     {
+      "id": "ren-ban-di-choi-the-thao",
+      "title": "Rủ bạn đi chơi thể thao cuối tuần",
+      "topic": "Thể thao và hoạt động cuối tuần",
+      "level": "A2",
+      "summary": "Bạn rủ người bạn thân đi chơi thể thao vào cuối tuần, bàn về giờ giấc, địa điểm và những gì cần mang theo.",
+      "turns": 10
+    },
+    {
       "id": "thue-xe-may-xe-dap",
       "title": "Thuê xe máy hoặc xe đạp",
       "topic": "Thuê xe",
@@ -344,6 +360,14 @@
       "level": "B1",
       "summary": "Người học báo cáo một lỗi giao hàng với quản lý trực tiếp. Sau đó, người học giải thích nguyên nhân, đề xuất giải pháp và xác nhận việc xử lý.",
       "turns": 14
+    },
+    {
+      "id": "binh-luan-tran-dau-the-thao",
+      "title": "Bình luận một trận đấu vừa xem tối qua",
+      "topic": "Bình luận thể thao",
+      "level": "B1",
+      "summary": "Bạn và một đồng nghiệp mê bóng đá bình luận về trận đấu tối qua: diễn biến, bàn thắng và cảm xúc sau trận.",
+      "turns": 10
     },
     {
       "id": "dat-lich-hop-va-doi-lich",
@@ -722,6 +746,14 @@
       "turns": 16
     },
     {
+      "id": "tranh-luan-doi-bong-yeu-thich",
+      "title": "Tranh luận đội bóng nào hay hơn",
+      "topic": "Tranh luận thể thao",
+      "level": "B2",
+      "summary": "Bạn tranh luận thân thiện với một người bạn ủng hộ đội đối thủ về việc đội bóng nào chơi hay hơn mùa này, dùng số liệu và lập luận để bảo vệ quan điểm.",
+      "turns": 10
+    },
+    {
       "id": "tranh-luan-van-de-xa-hoi",
       "title": "Tranh luận về làm việc từ xa và cân bằng cuộc sống",
       "topic": "Làm việc từ xa và cân bằng cuộc sống",
@@ -896,6 +928,14 @@
       "level": "C1",
       "summary": "Bạn là khách mời chuyên môn trong một podcast về công nghệ và sản phẩm. Bạn luyện cách trình bày quan điểm có sắc thái, giải thích đánh đổi và trả lời câu hỏi khó một cách tự nhiên.",
       "turns": 18
+    },
+    {
+      "id": "phong-van-van-dong-vien-chuyen-nghiep",
+      "title": "Trả lời phỏng vấn với tư cách vận động viên chuyên nghiệp",
+      "topic": "Phỏng vấn thể thao sau trận đấu",
+      "level": "C1",
+      "summary": "Bạn đóng vai một vận động viên chuyên nghiệp trả lời phỏng vấn của phóng viên thể thao ngay sau một trận đấu quan trọng, thể hiện sự khiêm tốn, cảm xúc chân thật và tinh thần đồng đội.",
+      "turns": 10
     },
     {
       "id": "tranh-bien-hoc-thuat",

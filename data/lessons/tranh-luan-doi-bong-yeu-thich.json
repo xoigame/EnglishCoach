@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-doi-bong-yeu-thich",
+  "title": "Tranh luận đội bóng nào hay hơn",
+  "topic": "Tranh luận thể thao",
+  "level": "B2",
+  "summary": "Bạn tranh luận thân thiện với một người bạn ủng hộ đội đối thủ về việc đội bóng nào chơi hay hơn mùa này, dùng số liệu và lập luận để bảo vệ quan điểm.",
+  "goals": [
+    "Đưa ra lập luận có dẫn chứng để bảo vệ quan điểm",
+    "Phản biện lập luận của người khác một cách tôn trọng",
+    "Thừa nhận điểm mạnh của đối phương mà không đổi quan điểm hoàn toàn"
+  ],
+  "vocab": [
+    { "en": "consistent", "ipa": "/kənˈsɪstənt/", "vi": "ổn định, nhất quán", "example": "Their form has been consistent all season." },
+    { "en": "overrated", "ipa": "/ˌoʊvərˈreɪtɪd/", "vi": "được đánh giá quá cao", "example": "I think that player is overrated." },
+    { "en": "underrated", "ipa": "/ˌʌndərˈreɪtɪd/", "vi": "bị đánh giá thấp hơn thực lực", "example": "Their defense is underrated." },
+    { "en": "statistics", "ipa": "/stəˈtɪstɪks/", "vi": "số liệu thống kê", "example": "The statistics support my point." },
+    { "en": "squad", "ipa": "/skwɑːd/", "vi": "đội hình, đội ngũ cầu thủ", "example": "Their squad is deeper this year." },
+    { "en": "rivalry", "ipa": "/ˈraɪvəlri/", "vi": "sự kình địch", "example": "This is a classic rivalry." },
+    { "en": "concede", "ipa": "/kənˈsiːd/", "vi": "thừa nhận (một điểm)", "example": "I will concede that point." },
+    { "en": "biased", "ipa": "/ˈbaɪəst/", "vi": "thiên vị", "example": "You are a bit biased as a fan." },
+    { "en": "edge", "ipa": "/edʒ/", "vi": "lợi thế nhỏ", "example": "They have the edge in attack." },
+    { "en": "argument", "ipa": "/ˈɑːrɡjumənt/", "vi": "lập luận", "example": "That is a fair argument." }
+  ],
+  "patterns": [
+    { "en": "The statistics clearly show that ___.", "vi": "Số liệu cho thấy rõ ràng rằng ___.", "note": "Đưa dẫn chứng để bảo vệ lập luận." },
+    { "en": "I will concede that ___, but ___.", "vi": "Tôi thừa nhận rằng ___, nhưng ___.", "note": "Thừa nhận một điểm rồi vẫn giữ quan điểm." },
+    { "en": "You might be a bit biased because ___.", "vi": "Có thể bạn hơi thiên vị vì ___.", "note": "Chỉ ra sự thiên vị một cách nhẹ nhàng." },
+    { "en": "That is a fair point, however ___.", "vi": "Đó là điểm hợp lý, tuy nhiên ___.", "note": "Công nhận ý kiến đối phương trước khi phản biện." },
+    { "en": "In my opinion, the edge goes to ___.", "vi": "Theo tôi, lợi thế thuộc về ___.", "note": "Kết luận quan điểm cá nhân." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong statistics", "tip": "Nhấn vào âm tiết thứ ba: sta-TIS-tics.", "words": ["statistics", "consistent"] },
+    { "focus": "âm /aɪ/ trong biased và rivalry", "tip": "Kéo dài âm đôi rõ ràng, không rút ngắn thành /ɪ/.", "words": ["biased", "rivalry"] },
+    { "focus": "âm /dʒ/ trong edge và concede", "tip": "Bật hơi nhẹ, đầu lưỡi chạm gần vòm miệng.", "words": ["edge", "concede"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "The statistic show that.", "right": "The statistics show that.", "vi": "Statistics luôn ở dạng số nhiều khi nói về dữ liệu chung." },
+    { "wrong": "I concede this point but I still think.", "right": "I will concede that point, but I still think.", "vi": "Dùng will concede để lịch sự hơn, và that thay vì this khi nhắc lại điều vừa nói." },
+    { "wrong": "You are biased because you a fan.", "right": "You are biased because you are a fan.", "vi": "Cần đủ động từ are trong mệnh đề vì." },
+    { "wrong": "The edge go to your team.", "right": "The edge goes to your team.", "vi": "Chủ ngữ số ít edge cần động từ goes." }
+  ],
+  "variations": [
+    { "situation": "Đưa dẫn chứng", "formal": "The statistics clearly support my argument.", "casual": "The numbers don't lie.", "vi": "Câu thân mật ngắn gọn, thường dùng khi tranh luận thể thao thân thiện." },
+    { "situation": "Thừa nhận điểm", "formal": "I will concede that your team has improved.", "casual": "Okay, I will give you that.", "vi": "Câu thân mật give you that rất tự nhiên khi thừa nhận một điểm nhỏ." },
+    { "situation": "Chỉ ra thiên vị", "formal": "You might be somewhat biased as a supporter.", "casual": "You're just saying that because you're a fan.", "vi": "Câu thân mật trực tiếp hơn, vẫn giữ tính vui vẻ." },
+    { "situation": "Kết luận", "formal": "In my opinion, the edge goes to my team.", "casual": "I still think my team is better.", "vi": "Câu thân mật đơn giản, phù hợp khi kết thúc tranh luận vui vẻ." }
+  ],
+  "culture": [
+    "Tranh luận về đội bóng yêu thích (banter) là một hình thức giao tiếp xã hội phổ biến và thường mang tính vui vẻ, không nên xem là xung đột thật sự.",
+    "Dùng số liệu (statistics) để bảo vệ quan điểm được xem là cách tranh luận thuyết phục và văn minh.",
+    "Kết thúc một cuộc tranh luận thể thao bằng câu đùa hoặc lời mời xem trận tiếp theo cùng nhau là cách giữ không khí thân thiện."
+  ],
+  "listening": {
+    "title": "Tranh luận về hai đội bóng",
+    "passage": "I really think our team has been more consistent this season. The statistics clearly show we have scored more goals and conceded fewer. I will concede that your goalkeeper has been excellent, but overall our squad is deeper. You might be a bit biased because you have supported them since childhood. Still, that is a fair point about their attack. In my opinion, the edge goes to my team this year, but let us watch the next match together and see.",
+    "vi": "Tôi thực sự nghĩ đội chúng tôi đã ổn định hơn mùa này. Số liệu cho thấy rõ ràng chúng tôi ghi nhiều bàn hơn và để thủng lưới ít hơn. Tôi thừa nhận thủ môn của bạn xuất sắc, nhưng nhìn chung đội hình chúng tôi sâu hơn. Có thể bạn hơi thiên vị vì đã ủng hộ họ từ nhỏ. Dù vậy, đó là điểm hợp lý về hàng công của họ. Theo tôi, lợi thế thuộc về đội tôi năm nay, nhưng mình cùng xem trận tiếp theo rồi xem sao nhé.",
+    "questions": [
+      { "q": "What does the speaker say about the statistics?", "choices": ["Their team scored more and conceded fewer", "Their team scored fewer goals", "There are no statistics available"], "answer": 0, "vi": "Đáp án đúng vì người nói dẫn số liệu về việc ghi nhiều bàn hơn và ít bị thủng lưới hơn." },
+      { "q": "What does the speaker concede?", "choices": ["The other team's goalkeeper is excellent", "Their own team is weaker", "The other team has scored more goals"], "answer": 0, "vi": "Đáp án đúng vì người nói thừa nhận thủ môn đội kia xuất sắc." },
+      { "q": "What does the speaker suggest at the end?", "choices": ["Watching the next match together", "Stopping the discussion", "Changing teams"], "answer": 0, "vi": "Đáp án đúng vì người nói đề nghị cùng xem trận tiếp theo." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn ủng hộ đội đối thủ", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "I really think my team has been better this season.", "vi": "Tôi thực sự nghĩ đội tôi hay hơn mùa này.", "hint": "" },
+      { "speaker": "b", "en": "The statistics clearly show my team has scored more goals.", "vi": "Số liệu cho thấy rõ ràng đội tôi ghi nhiều bàn hơn.", "hint": "Dùng The statistics clearly show." },
+      { "speaker": "a", "en": "That is true, but our defense is much stronger.", "vi": "Đúng vậy, nhưng hàng thủ chúng tôi mạnh hơn nhiều.", "hint": "" },
+      { "speaker": "b", "en": "I will concede that, but our squad is deeper overall.", "vi": "Tôi thừa nhận điều đó, nhưng nhìn chung đội hình chúng tôi sâu hơn.", "hint": "Dùng I will concede that." },
+      { "speaker": "a", "en": "You might be a bit biased as a fan.", "vi": "Có thể bạn hơi thiên vị vì là người hâm mộ.", "hint": "" },
+      { "speaker": "b", "en": "That is a fair point, but the numbers still support me.", "vi": "Đó là điểm hợp lý, nhưng số liệu vẫn ủng hộ tôi.", "hint": "Dùng That is a fair point." },
+      { "speaker": "a", "en": "Your star player has been overrated this year, honestly.", "vi": "Thật lòng mà nói, ngôi sao của đội bạn được đánh giá hơi cao năm nay.", "hint": "" },
+      { "speaker": "b", "en": "I disagree, his performance has been consistent.", "vi": "Tôi không đồng ý, phong độ của anh ấy rất ổn định.", "hint": "Dùng I disagree." },
+      { "speaker": "a", "en": "In my opinion, the edge goes to my team.", "vi": "Theo tôi, lợi thế thuộc về đội tôi.", "hint": "" },
+      { "speaker": "b", "en": "Let us just watch the next match and see.", "vi": "Mình cứ xem trận tiếp theo rồi xem sao nhé.", "hint": "Dùng Let us just watch." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly rival football fan who enjoys friendly banter and debate.",
+    "opener": "I really think my team has been better this season.",
+    "goal": "Người học đưa dẫn chứng bảo vệ quan điểm, thừa nhận một điểm của đối phương nhưng vẫn giữ lập trường."
+  },
+  "drills": [
+    { "vi": "Số liệu cho thấy rõ ràng đội tôi ghi nhiều bàn hơn.", "en": "The statistics clearly show my team has scored more goals.", "alts": [] },
+    { "vi": "Tôi thừa nhận điều đó, nhưng đội hình chúng tôi sâu hơn.", "en": "I will concede that, but our squad is deeper.", "alts": [] },
+    { "vi": "Có thể bạn hơi thiên vị vì là người hâm mộ.", "en": "You might be a bit biased as a fan.", "alts": [] },
+    { "vi": "Đó là điểm hợp lý, tuy nhiên số liệu vẫn ủng hộ tôi.", "en": "That is a fair point, however the numbers still support me.", "alts": [] },
+    { "vi": "Theo tôi, lợi thế thuộc về đội tôi.", "en": "In my opinion, the edge goes to my team.", "alts": [] },
+    { "vi": "Phong độ của anh ấy rất ổn định.", "en": "His performance has been consistent.", "alts": [] },
+    { "vi": "Tôi không đồng ý với điều đó.", "en": "I disagree with that.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận bảo vệ đội bóng bạn thích, chú ý trọng âm trong statistics.",
+    "Viết ba câu dùng cấu trúc I will concede that ___, but ___.",
+    "Luyện nói ba lần câu You might be a bit biased because you are a fan."
+  ]
+}

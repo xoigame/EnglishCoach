@@ -1,0 +1,96 @@
+{
+  "id": "binh-luan-tran-dau-the-thao",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Hỏi đã xem trận đấu chưa", "situation": "Bạn hỏi đồng nghiệp đã xem trận đấu tối qua chưa.",
+      "turns": [
+        { "speaker": "a", "en": "Did you watch the match last night?", "vi": "Tối qua bạn có xem trận đấu không?" },
+        { "speaker": "b", "en": "Yes, I did! It was exciting.", "vi": "Có, tôi có xem! Rất hấp dẫn." },
+        { "speaker": "a", "en": "What was the final score?", "vi": "Tỉ số cuối cùng là bao nhiêu?" },
+        { "speaker": "b", "en": "It was two to one.", "vi": "Là hai một." },
+        { "speaker": "a", "en": "That is a close game.", "vi": "Trận đấu sít sao đấy." },
+        { "speaker": "b", "en": "Yes, very close indeed.", "vi": "Vâng, quả thực rất sít sao." }
+      ]},
+    { "title": "Khen phong độ cầu thủ", "situation": "Bạn khen phong độ của một cầu thủ.",
+      "turns": [
+        { "speaker": "a", "en": "His performance was amazing tonight.", "vi": "Phong độ của anh ấy tối nay tuyệt vời." },
+        { "speaker": "b", "en": "I agree, he played really well.", "vi": "Tôi đồng ý, anh ấy chơi rất hay." },
+        { "speaker": "a", "en": "He scored twice too.", "vi": "Anh ấy còn ghi hai bàn nữa." },
+        { "speaker": "b", "en": "That is impressive.", "vi": "Vậy ấn tượng đấy." },
+        { "speaker": "a", "en": "He deserves the man of the match award.", "vi": "Anh ấy xứng đáng nhận danh hiệu cầu thủ xuất sắc nhất trận." },
+        { "speaker": "b", "en": "Definitely agreed.", "vi": "Chắc chắn đồng ý." }
+      ]},
+    { "title": "Bàn về bàn thắng bất ngờ", "situation": "Bạn bàn luận về một bàn thắng bất ngờ.",
+      "turns": [
+        { "speaker": "a", "en": "I could not believe that last goal!", "vi": "Tôi không thể tin được bàn thắng cuối đó!" },
+        { "speaker": "b", "en": "Me neither, it was incredible.", "vi": "Tôi cũng vậy, thật khó tin." },
+        { "speaker": "a", "en": "It came in the final minute.", "vi": "Bàn đó đến ở phút cuối." },
+        { "speaker": "b", "en": "That must have been intense.", "vi": "Chắc lúc đó căng thẳng lắm." },
+        { "speaker": "a", "en": "The whole stadium went wild.", "vi": "Cả sân vận động vỡ oà." },
+        { "speaker": "b", "en": "I can imagine that.", "vi": "Tôi có thể tưởng tượng điều đó." }
+      ]},
+    { "title": "Bàn về chấn thương của cầu thủ", "situation": "Bạn bàn về việc một cầu thủ bị chấn thương.",
+      "turns": [
+        { "speaker": "a", "en": "Did you hear about the injury in the second half?", "vi": "Bạn có nghe về chấn thương ở hiệp hai không?" },
+        { "speaker": "b", "en": "Yes, that was disappointing news.", "vi": "Có, đó là tin đáng thất vọng." },
+        { "speaker": "a", "en": "How serious is it?", "vi": "Nghiêm trọng đến mức nào vậy?" },
+        { "speaker": "b", "en": "I am not sure yet.", "vi": "Tôi chưa chắc nữa." },
+        { "speaker": "a", "en": "I hope he recovers soon.", "vi": "Mong anh ấy sớm hồi phục." },
+        { "speaker": "b", "en": "Same here.", "vi": "Tôi cũng vậy." }
+      ]},
+    { "title": "Bàn về quyết định của trọng tài", "situation": "Bạn bàn về một quyết định gây tranh cãi của trọng tài.",
+      "turns": [
+        { "speaker": "a", "en": "That referee decision was strange.", "vi": "Quyết định đó của trọng tài lạ thật." },
+        { "speaker": "b", "en": "I thought so too.", "vi": "Tôi cũng nghĩ vậy." },
+        { "speaker": "a", "en": "It could have changed the whole game.", "vi": "Nó có thể đã thay đổi cả trận đấu." },
+        { "speaker": "b", "en": "Luckily, it did not matter in the end.", "vi": "May mà cuối cùng nó không ảnh hưởng gì." },
+        { "speaker": "a", "en": "True, the result was fair.", "vi": "Đúng vậy, kết quả công bằng." },
+        { "speaker": "b", "en": "I agree completely.", "vi": "Tôi hoàn toàn đồng ý." }
+      ]},
+    { "title": "Diễn tả sự thất vọng về kết quả", "situation": "Bạn diễn tả sự thất vọng về kết quả trận đấu.",
+      "turns": [
+        { "speaker": "a", "en": "That was such a disappointing result.", "vi": "Đó là một kết quả đáng thất vọng." },
+        { "speaker": "b", "en": "I know, we deserved better.", "vi": "Tôi biết, chúng ta xứng đáng có kết quả tốt hơn." },
+        { "speaker": "a", "en": "What went wrong, do you think?", "vi": "Bạn nghĩ điều gì đã sai vậy?" },
+        { "speaker": "b", "en": "Our defense was too weak.", "vi": "Hàng thủ của chúng ta quá yếu." },
+        { "speaker": "a", "en": "Hopefully next game is better.", "vi": "Mong trận tới sẽ tốt hơn." },
+        { "speaker": "b", "en": "I hope so too.", "vi": "Tôi cũng mong vậy." }
+      ]},
+    { "title": "Nói về cuộc lội ngược dòng", "situation": "Bạn bàn về một cuộc lội ngược dòng ấn tượng.",
+      "turns": [
+        { "speaker": "a", "en": "That was an incredible comeback.", "vi": "Đó là một cuộc lội ngược dòng khó tin." },
+        { "speaker": "b", "en": "Absolutely, they were losing at half time.", "vi": "Chắc chắn rồi, họ đang thua lúc giữa hiệp." },
+        { "speaker": "a", "en": "And then they scored three goals.", "vi": "Rồi họ ghi ba bàn liên tiếp." },
+        { "speaker": "b", "en": "What a second half!", "vi": "Hiệp hai thật đỉnh!" },
+        { "speaker": "a", "en": "One of the best games this year.", "vi": "Một trong những trận hay nhất năm nay." },
+        { "speaker": "b", "en": "I completely agree.", "vi": "Tôi hoàn toàn đồng ý." }
+      ]},
+    { "title": "Xem lại các cảnh quay nổi bật", "situation": "Bạn rủ đồng nghiệp xem lại các cảnh quay nổi bật.",
+      "turns": [
+        { "speaker": "a", "en": "Did you see the highlights this morning?", "vi": "Sáng nay bạn có xem cảnh quay nổi bật chưa?" },
+        { "speaker": "b", "en": "Not yet, are they good?", "vi": "Chưa, có hay không?" },
+        { "speaker": "a", "en": "Yes, especially the final goal.", "vi": "Có, đặc biệt là bàn thắng cuối." },
+        { "speaker": "b", "en": "I will watch them at lunch.", "vi": "Tôi sẽ xem lúc ăn trưa." },
+        { "speaker": "a", "en": "You will not be disappointed.", "vi": "Bạn sẽ không thất vọng đâu." },
+        { "speaker": "b", "en": "Thanks for the recommendation.", "vi": "Cảm ơn bạn đã giới thiệu." }
+      ]},
+    { "title": "Bàn về không khí của người hâm mộ", "situation": "Bạn bàn về không khí sôi động của người hâm mộ trên sân.",
+      "turns": [
+        { "speaker": "a", "en": "The fans were so loud tonight.", "vi": "Tối nay người hâm mộ hò hét dữ dội." },
+        { "speaker": "b", "en": "Yes, the atmosphere was amazing.", "vi": "Vâng, không khí thật tuyệt vời." },
+        { "speaker": "a", "en": "It must have helped the players.", "vi": "Chắc điều đó đã giúp các cầu thủ." },
+        { "speaker": "b", "en": "Definitely, home support matters a lot.", "vi": "Chắc chắn rồi, sự ủng hộ tại nhà rất quan trọng." },
+        { "speaker": "a", "en": "I wish I was there.", "vi": "Ước gì tôi cũng ở đó." },
+        { "speaker": "b", "en": "Next time, let us go together.", "vi": "Lần sau mình cùng đi nhé." }
+      ]},
+    { "title": "Bình luận chi tiết cả trận đấu với nhiều diễn biến bất ngờ", "situation": "Bạn bình luận chi tiết một trận đấu có nhiều diễn biến bất ngờ liên tiếp. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "That match had everything: goals, an injury, and a controversial decision.", "vi": "Trận đấu đó có đủ mọi thứ: bàn thắng, chấn thương, và một quyết định gây tranh cãi." },
+        { "speaker": "b", "en": "I know, I could not believe when the referee gave that penalty.", "vi": "Tôi biết, tôi không thể tin được khi trọng tài cho quả phạt đền đó." },
+        { "speaker": "a", "en": "And then the injury completely changed their strategy.", "vi": "Rồi chấn thương đó đã thay đổi hoàn toàn chiến thuật của họ." },
+        { "speaker": "b", "en": "Still, that comeback in the final ten minutes was incredible.", "vi": "Dù vậy, cuộc lội ngược dòng trong mười phút cuối thật khó tin." },
+        { "speaker": "a", "en": "His performance under that pressure was outstanding.", "vi": "Phong độ của anh ấy dưới áp lực đó thật xuất sắc." },
+        { "speaker": "b", "en": "Definitely one of the best matches of the season.", "vi": "Chắc chắn là một trong những trận hay nhất mùa này." }
+      ]}
+  ]
+}

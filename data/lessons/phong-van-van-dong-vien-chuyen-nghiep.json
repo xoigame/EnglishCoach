@@ -1,0 +1,98 @@
+{
+  "id": "phong-van-van-dong-vien-chuyen-nghiep",
+  "title": "Trả lời phỏng vấn với tư cách vận động viên chuyên nghiệp",
+  "topic": "Phỏng vấn thể thao sau trận đấu",
+  "level": "C1",
+  "summary": "Bạn đóng vai một vận động viên chuyên nghiệp trả lời phỏng vấn của phóng viên thể thao ngay sau một trận đấu quan trọng, thể hiện sự khiêm tốn, cảm xúc chân thật và tinh thần đồng đội.",
+  "goals": [
+    "Diễn tả cảm xúc và trải nghiệm sau trận đấu một cách tinh tế",
+    "Ghi nhận công lao của đồng đội thay vì chỉ nói về bản thân",
+    "Trả lời khéo léo một câu hỏi nhạy cảm từ phóng viên"
+  ],
+  "vocab": [
+    { "en": "composure", "ipa": "/kəmˈpoʊʒər/", "vi": "sự bình tĩnh, tự chủ", "example": "She kept her composure under pressure." },
+    { "en": "credit", "ipa": "/ˈkredɪt/", "vi": "công lao, sự ghi nhận", "example": "I want to give credit to my teammates." },
+    { "en": "turning point", "ipa": "/ˈtɜːrnɪŋ pɔɪnt/", "vi": "bước ngoặt", "example": "That save was the turning point of the match." },
+    { "en": "pressure", "ipa": "/ˈpreʃər/", "vi": "áp lực", "example": "We felt a lot of pressure in the final." },
+    { "en": "resilience", "ipa": "/rɪˈzɪliəns/", "vi": "sự kiên cường", "example": "The team showed great resilience." },
+    { "en": "speculation", "ipa": "/ˌspekjuˈleɪʃn/", "vi": "sự đồn đoán", "example": "I will not comment on the speculation." },
+    { "en": "humbled", "ipa": "/ˈhʌmbld/", "vi": "cảm thấy khiêm tốn, cảm kích", "example": "I am truly humbled by the support." },
+    { "en": "focus", "ipa": "/ˈfoʊkəs/", "vi": "sự tập trung", "example": "My focus is on the next match." },
+    { "en": "setback", "ipa": "/ˈsetbæk/", "vi": "thất bại tạm thời, trở ngại", "example": "That injury was a real setback." },
+    { "en": "aftermath", "ipa": "/ˈæftərmæθ/", "vi": "hậu quả, thời điểm sau sự việc", "example": "In the aftermath of the loss, we regrouped." }
+  ],
+  "patterns": [
+    { "en": "I want to give credit to ___.", "vi": "Tôi muốn ghi nhận công lao của ___.", "note": "Dùng để tôn vinh đồng đội thay vì chỉ nói về bản thân." },
+    { "en": "Honestly, it was a real team effort.", "vi": "Thật lòng mà nói, đó là nỗ lực chung của cả đội.", "note": "Thể hiện tinh thần khiêm tốn." },
+    { "en": "I would rather not speculate on ___.", "vi": "Tôi không muốn suy đoán về ___.", "note": "Từ chối khéo léo trả lời câu hỏi nhạy cảm." },
+    { "en": "What matters most right now is ___.", "vi": "Điều quan trọng nhất lúc này là ___.", "note": "Chuyển hướng câu trả lời sang điều tích cực." },
+    { "en": "I am truly humbled by ___.", "vi": "Tôi thực sự cảm thấy khiêm tốn và cảm kích trước ___.", "note": "Diễn tả cảm xúc biết ơn một cách tinh tế." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong resilience", "tip": "Nhấn vào âm tiết thứ hai: re-SIL-ience.", "words": ["resilience", "speculation"] },
+    { "focus": "âm /ʒ/ trong composure", "tip": "Đưa lưỡi ra sau nhẹ, phát âm giống âm s trong pleasure.", "words": ["composure"] },
+    { "focus": "âm /h/ trong humbled và honestly", "tip": "Bật hơi nhẹ ở đầu từ, không bỏ qua âm h.", "words": ["humbled", "honestly"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I want give credit to my team.", "right": "I want to give credit to my team.", "vi": "Cần to trước động từ give sau want." },
+    { "wrong": "It was team effort real.", "right": "It was a real team effort.", "vi": "Tính từ real đứng trước danh từ team effort." },
+    { "wrong": "I would rather not to speculate.", "right": "I would rather not speculate.", "vi": "Sau would rather not dùng động từ nguyên mẫu, không có to." },
+    { "wrong": "I am humbled for the support.", "right": "I am humbled by the support.", "vi": "Dùng giới từ by, không dùng for, sau humbled." }
+  ],
+  "variations": [
+    { "situation": "Ghi nhận đồng đội", "formal": "I would like to give full credit to my teammates.", "casual": "Big shoutout to my team.", "vi": "Câu thân mật shoutout phổ biến trong phỏng vấn thể thao trẻ trung." },
+    { "situation": "Né tránh câu hỏi nhạy cảm", "formal": "I would rather not speculate on that at this time.", "casual": "I'm not really thinking about that right now.", "vi": "Câu thân mật nhẹ nhàng hơn nhưng vẫn né được câu hỏi." },
+    { "situation": "Diễn tả áp lực", "formal": "We certainly felt a great deal of pressure.", "casual": "Yeah, it was pretty intense out there.", "vi": "Câu thân mật ngắn gọn, hay dùng ngay sau trận đấu." },
+    { "situation": "Bày tỏ biết ơn", "formal": "I am truly humbled by the fans' support.", "casual": "I'm just really grateful for the fans.", "vi": "Cả hai đều chân thành, câu thân mật gần gũi hơn." }
+  ],
+  "culture": [
+    "Vận động viên phương Tây thường được huấn luyện để trả lời phỏng vấn một cách khiêm tốn, tránh khoe khoang dù vừa thắng lớn.",
+    "Câu I would rather not speculate là cách lịch sự phổ biến để từ chối bình luận về tin đồn hoặc chuyển nhượng.",
+    "Ghi nhận công lao của huấn luyện viên và đồng đội (give credit to) được xem là dấu hiệu của sự chuyên nghiệp và tinh thần đồng đội."
+  ],
+  "listening": {
+    "title": "Phỏng vấn sau trận chung kết",
+    "passage": "Congratulations on the win. How does it feel? Honestly, it still feels a bit surreal. It was a real team effort, and I want to give credit to my teammates and coaching staff. There was a lot of pressure in the final minutes, but we showed great resilience. There has been some speculation about my future, but I would rather not speculate on that right now. What matters most right now is celebrating this win with the team. I am truly humbled by the support from the fans tonight.",
+    "vi": "Chúc mừng chiến thắng. Cảm giác thế nào? Thật lòng, tôi vẫn thấy hơi như trong mơ. Đó là nỗ lực chung của cả đội, và tôi muốn ghi nhận công lao của đồng đội và ban huấn luyện. Có rất nhiều áp lực ở những phút cuối, nhưng chúng tôi đã thể hiện sự kiên cường. Có một số đồn đoán về tương lai của tôi, nhưng tôi không muốn suy đoán về điều đó lúc này. Điều quan trọng nhất bây giờ là ăn mừng chiến thắng này cùng đội. Tôi thực sự cảm thấy khiêm tốn trước sự ủng hộ của người hâm mộ tối nay.",
+    "questions": [
+      { "q": "Who does the athlete give credit to?", "choices": ["Teammates and coaching staff", "Only himself", "The referee"], "answer": 0, "vi": "Đáp án đúng vì vận động viên ghi nhận công lao của đồng đội và ban huấn luyện." },
+      { "q": "How does the athlete respond to the speculation question?", "choices": ["He avoids speculating on it", "He confirms the rumors", "He denies everything angrily"], "answer": 0, "vi": "Đáp án đúng vì anh ấy nói sẽ không suy đoán về điều đó." },
+      { "q": "What does the athlete say matters most right now?", "choices": ["Celebrating the win with the team", "Talking about his future", "Criticizing the opponent"], "answer": 0, "vi": "Đáp án đúng vì anh ấy nói điều quan trọng nhất là ăn mừng cùng đội." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Phóng viên thể thao", "b": "Người học (vận động viên)" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Congratulations on the win tonight. How does it feel?", "vi": "Chúc mừng chiến thắng tối nay. Cảm giác thế nào?", "hint": "" },
+      { "speaker": "b", "en": "Honestly, it still feels a bit surreal.", "vi": "Thật lòng, tôi vẫn thấy hơi như trong mơ.", "hint": "Dùng Honestly." },
+      { "speaker": "a", "en": "That last-minute goal was incredible. Talk us through it.", "vi": "Bàn thắng phút cuối đó thật khó tin. Kể chúng tôi nghe về nó đi.", "hint": "" },
+      { "speaker": "b", "en": "It was a real team effort. I want to give credit to my teammates.", "vi": "Đó là nỗ lực chung của cả đội. Tôi muốn ghi nhận công lao của đồng đội.", "hint": "Dùng I want to give credit to." },
+      { "speaker": "a", "en": "There has been speculation about you leaving the club. Any comment?", "vi": "Có đồn đoán về việc bạn rời câu lạc bộ. Bạn có bình luận gì không?", "hint": "" },
+      { "speaker": "b", "en": "I would rather not speculate on that right now.", "vi": "Tôi không muốn suy đoán về điều đó lúc này.", "hint": "Dùng I would rather not speculate." },
+      { "speaker": "a", "en": "Understood. What matters most to you right now?", "vi": "Tôi hiểu. Điều gì quan trọng nhất với bạn lúc này?", "hint": "" },
+      { "speaker": "b", "en": "What matters most right now is celebrating with the team.", "vi": "Điều quan trọng nhất lúc này là ăn mừng cùng đội.", "hint": "Dùng What matters most right now." },
+      { "speaker": "a", "en": "Any final words for the fans?", "vi": "Bạn có lời nào cho người hâm mộ không?", "hint": "" },
+      { "speaker": "b", "en": "I am truly humbled by their support tonight.", "vi": "Tôi thực sự cảm thấy khiêm tốn trước sự ủng hộ của họ tối nay.", "hint": "Dùng I am truly humbled by." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a sports journalist interviewing a professional athlete right after a big win.",
+    "opener": "Congratulations on the win tonight. How does it feel?",
+    "goal": "Người học thể hiện sự khiêm tốn, ghi nhận công lao đồng đội và né tránh khéo léo câu hỏi nhạy cảm về tương lai."
+  },
+  "drills": [
+    { "vi": "Thật lòng, tôi vẫn thấy hơi như trong mơ.", "en": "Honestly, it still feels a bit surreal.", "alts": [] },
+    { "vi": "Tôi muốn ghi nhận công lao của đồng đội.", "en": "I want to give credit to my teammates.", "alts": [] },
+    { "vi": "Tôi không muốn suy đoán về điều đó lúc này.", "en": "I would rather not speculate on that right now.", "alts": [] },
+    { "vi": "Điều quan trọng nhất lúc này là ăn mừng cùng đội.", "en": "What matters most right now is celebrating with the team.", "alts": [] },
+    { "vi": "Tôi thực sự cảm thấy khiêm tốn trước sự ủng hộ của họ.", "en": "I am truly humbled by their support.", "alts": [] },
+    { "vi": "Đó là một nỗ lực chung của cả đội.", "en": "It was a real team effort.", "alts": [] },
+    { "vi": "Chúng tôi đã thể hiện sự kiên cường.", "en": "We showed great resilience.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn trả lời phỏng vấn sau trận đấu, chú ý trọng âm trong resilience.",
+    "Viết ba câu dùng cấu trúc I would rather not speculate on ___.",
+    "Luyện nói ba lần câu I want to give credit to my teammates."
+  ]
+}
