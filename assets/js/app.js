@@ -17,8 +17,9 @@ const $ = sel => document.querySelector(sel);
 const $$ = sel => Array.from(document.querySelectorAll(sel));
 
 let library = [];
-let filter = { text: '', level: 'all' };
+let filter = { text: '', level: 'all', theme: 'all' };
 let current = null;   // { lesson, roleplay }
+let topicTheme = new Map();   // id bài học -> id chủ đề, đọc từ data/curriculum.json
 
 /* ------------------------------------------------------------- routing */
 
@@ -55,6 +56,7 @@ function renderLibrary() {
   const q = filter.text.trim().toLowerCase();
   const items = library.filter(l =>
     (filter.level === 'all' || l.level === filter.level) &&
+    (filter.theme === 'all' || topicTheme.get(l.id) === filter.theme) &&
     (!q || `${l.title} ${l.topic} ${l.summary || ''}`.toLowerCase().includes(q)));
 
   grid.innerHTML = items.map(l => {
@@ -80,6 +82,36 @@ function renderLibrary() {
 async function refreshLibrary() {
   library = await store.loadLibrary();
   renderLibrary();
+}
+
+/** Nạp danh sách chủ đề từ curriculum.json và vẽ hàng chip lọc theo chủ đề. */
+async function loadThemeCatalog() {
+  try {
+    const res = await fetch('data/curriculum.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const plan = await res.json();
+    topicTheme = new Map();
+    for (const theme of plan.themes) {
+      for (const t of theme.topics) topicTheme.set(t.id, theme.id);
+    }
+    const box = $('#themeChips');
+    box.innerHTML = ['<button class="chip active" data-theme="all">🏷️ Mọi chủ đề</button>']
+      .concat(plan.themes.map(theme =>
+        `<button class="chip" data-theme="${esc(theme.id)}">${esc(theme.name)}</button>`))
+      .join('');
+    wireThemeChips();
+  } catch {
+    // Không tải được danh mục chủ đề thì chỉ ẩn hàng chip, không chặn phần còn lại của app.
+    $('#themeChips').innerHTML = '';
+  }
+}
+
+function wireThemeChips() {
+  $$('#themeChips .chip').forEach(c => c.addEventListener('click', () => {
+    $$('#themeChips .chip').forEach(x => x.classList.toggle('active', x === c));
+    filter.theme = c.dataset.theme;
+    renderLibrary();
+  }));
 }
 
 /* -------------------------------------------------------------- lesson */
@@ -355,6 +387,6 @@ function wireShell() {
   wireGenerator();
   initPlayerBar();
   await wireSettings();
-  await refreshLibrary();
+  await Promise.all([refreshLibrary(), loadThemeCatalog()]);
   route();
 })();
