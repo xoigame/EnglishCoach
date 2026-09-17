@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T08:59:07.459Z",
+  "generatedAt": "2026-09-17T09:07:24.087Z",
   "lessons": [
     {
       "id": "cam-on-xin-loi-lich-su",
@@ -16,6 +16,14 @@
       "level": "A1",
       "summary": "Người học mua một chiếc áo trong cửa hàng quần áo. Bạn sẽ hỏi màu, cỡ và xin thử áo.",
       "turns": 12
+    },
+    {
+      "id": "dung-mang-xa-hoi-co-ban",
+      "title": "Dùng mạng xã hội cơ bản",
+      "topic": "Mạng xã hội hằng ngày",
+      "level": "A1",
+      "summary": "Bạn nói chuyện với một bạn cùng lớp về việc dùng mạng xã hội: đăng ảnh, thả tim và bình luận bài viết.",
+      "turns": 10
     },
     {
       "id": "di-cho-mua-thuc-pham",
@@ -298,6 +306,14 @@
       "turns": 13
     },
     {
+      "id": "nho-ban-sua-loi-dien-thoai",
+      "title": "Nhờ bạn giúp khắc phục lỗi điện thoại đơn giản",
+      "topic": "Sự cố công nghệ đơn giản",
+      "level": "A2",
+      "summary": "Bạn nhờ một người bạn giỏi công nghệ giúp khắc phục lỗi điện thoại đơn giản như pin nhanh hết hoặc ứng dụng bị treo.",
+      "turns": 10
+    },
+    {
       "id": "noi-chuyen-voi-hang-xom",
       "title": "Nói chuyện với hàng xóm mới chuyển đến",
       "topic": "Làm quen với hàng xóm mới",
@@ -504,6 +520,14 @@
       "level": "B1",
       "summary": "Bạn trao đổi với kế toán công ty để chốt ngân sách cho một bữa trưa nhỏ của nhóm. Bạn sẽ nêu ý kiến, giải thích lý do và thống nhất các giấy tờ cần gửi.",
       "turns": 14
+    },
+    {
+      "id": "thao-luan-thoi-gian-dung-mang-xa-hoi",
+      "title": "Thảo luận về thời gian dùng mạng xã hội mỗi ngày",
+      "topic": "Thói quen dùng mạng xã hội",
+      "level": "B1",
+      "summary": "Bạn thảo luận với người bạn thân về thời gian dùng mạng xã hội mỗi ngày và cách kiểm soát thời gian đó tốt hơn.",
+      "turns": 10
     },
     {
       "id": "trao-doi-qua-email",
@@ -754,6 +778,14 @@
       "turns": 10
     },
     {
+      "id": "tranh-luan-anh-huong-mang-xa-hoi",
+      "title": "Tranh luận về ảnh hưởng của mạng xã hội tới giới trẻ",
+      "topic": "Tranh luận về mạng xã hội",
+      "level": "B2",
+      "summary": "Bạn tranh luận với một người bạn có quan điểm trái ngược về việc mạng xã hội ảnh hưởng tích cực hay tiêu cực đến giới trẻ.",
+      "turns": 10
+    },
+    {
       "id": "tranh-luan-van-de-xa-hoi",
       "title": "Tranh luận về làm việc từ xa và cân bằng cuộc sống",
       "topic": "Làm việc từ xa và cân bằng cuộc sống",
@@ -952,6 +984,14 @@
       "level": "C1",
       "summary": "Bạn tham gia một buổi tham vấn công khai với chuyên gia chính sách về việc dùng công nghệ giám sát. Bạn nêu quan ngại về quyền riêng tư và cùng xây dựng các điều kiện bảo vệ người dân.",
       "turns": 18
+    },
+    {
+      "id": "tranh-luan-kiem-duyet-mang-xa-hoi",
+      "title": "Tranh luận về kiểm duyệt nội dung và tự do ngôn luận trên mạng xã hội",
+      "topic": "Kiểm duyệt và tự do ngôn luận trực tuyến",
+      "level": "C1",
+      "summary": "Bạn tranh luận với một chuyên gia chính sách công nghệ về việc kiểm duyệt nội dung trên mạng xã hội có xung đột với quyền tự do ngôn luận hay không.",
+      "turns": 10
     }
   ]
 }

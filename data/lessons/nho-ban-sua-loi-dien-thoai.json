@@ -1,0 +1,98 @@
+{
+  "id": "nho-ban-sua-loi-dien-thoai",
+  "title": "Nhờ bạn giúp khắc phục lỗi điện thoại đơn giản",
+  "topic": "Sự cố công nghệ đơn giản",
+  "level": "A2",
+  "summary": "Bạn nhờ một người bạn giỏi công nghệ giúp khắc phục lỗi điện thoại đơn giản như pin nhanh hết hoặc ứng dụng bị treo.",
+  "goals": [
+    "Mô tả một lỗi điện thoại đơn giản",
+    "Nhờ bạn giúp đỡ một cách lịch sự",
+    "Làm theo hướng dẫn từng bước bằng tiếng Anh"
+  ],
+  "vocab": [
+    { "en": "battery", "ipa": "/ˈbætəri/", "vi": "pin", "example": "My battery dies quickly." },
+    { "en": "screen", "ipa": "/skriːn/", "vi": "màn hình", "example": "My screen is frozen." },
+    { "en": "freeze", "ipa": "/friːz/", "vi": "bị đơ, đứng máy", "example": "The app keeps freezing." },
+    { "en": "restart", "ipa": "/riːˈstɑːrt/", "vi": "khởi động lại", "example": "Try to restart your phone." },
+    { "en": "update", "ipa": "/ˈʌpdeɪt/", "vi": "cập nhật", "example": "You need to update the app." },
+    { "en": "storage", "ipa": "/ˈstɔːrɪdʒ/", "vi": "bộ nhớ, dung lượng", "example": "My storage is almost full." },
+    { "en": "settings", "ipa": "/ˈsetɪŋz/", "vi": "cài đặt", "example": "Open the settings menu." },
+    { "en": "delete", "ipa": "/dɪˈliːt/", "vi": "xoá", "example": "You can delete old photos." },
+    { "en": "download", "ipa": "/ˈdaʊnloʊd/", "vi": "tải xuống", "example": "I need to download the app again." },
+    { "en": "fix", "ipa": "/fɪks/", "vi": "sửa, khắc phục", "example": "Can you help me fix this?" }
+  ],
+  "patterns": [
+    { "en": "My ___ is not working properly.", "vi": "___ của tôi hoạt động không bình thường.", "note": "Mô tả một lỗi điện thoại đơn giản." },
+    { "en": "Could you help me fix this?", "vi": "Bạn giúp tôi sửa cái này được không?", "note": "Nhờ giúp đỡ một cách lịch sự." },
+    { "en": "Have you tried to ___?", "vi": "Bạn đã thử ___ chưa?", "note": "Gợi ý một cách khắc phục." },
+    { "en": "First, ___. Then, ___.", "vi": "Đầu tiên, ___. Sau đó, ___.", "note": "Hướng dẫn từng bước." },
+    { "en": "That fixed it, thank you!", "vi": "Vậy là hết lỗi rồi, cảm ơn bạn!", "note": "Cảm ơn sau khi vấn đề được giải quyết." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /iː/ dài trong freeze và screen", "tip": "Kéo dài nguyên âm rõ ràng, không rút ngắn.", "words": ["freeze", "screen"] },
+    { "focus": "trọng âm trong battery", "tip": "Nhấn vào âm tiết đầu: BAT-tery.", "words": ["battery"] },
+    { "focus": "âm /dʒ/ trong storage", "tip": "Bật hơi nhẹ ở cuối từ, đầu lưỡi gần vòm miệng.", "words": ["storage"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "My phone is not work.", "right": "My phone is not working properly.", "vi": "Cần dùng động từ ing sau is not để diễn tả trạng thái hiện tại." },
+    { "wrong": "Could you help me fix?", "right": "Could you help me fix this?", "vi": "Cần tân ngữ this sau fix, không để trống." },
+    { "wrong": "Have you try to restart it?", "right": "Have you tried to restart it?", "vi": "Sau have you dùng động từ ở dạng quá khứ phân từ tried." },
+    { "wrong": "First open settings, then you delete photos.", "right": "First, open settings. Then, delete photos.", "vi": "Giữ cấu trúc song song, không cần thêm chủ ngữ you ở câu sau." }
+  ],
+  "variations": [
+    { "situation": "Nhờ giúp đỡ", "formal": "Could you please help me fix this issue?", "casual": "Can you help me with this?", "vi": "Câu thân mật ngắn gọn, phù hợp giữa bạn bè." },
+    { "situation": "Gợi ý cách khắc phục", "formal": "Have you tried restarting the device?", "casual": "Did you try turning it off and on?", "vi": "Câu thân mật là cách nói dân dã quen thuộc về việc khởi động lại." },
+    { "situation": "Cảm ơn sau khi sửa xong", "formal": "Thank you very much for your help.", "casual": "Thanks, you're a lifesaver!", "vi": "Lifesaver là cách khen thân mật, vui vẻ khi ai đó giúp giải quyết vấn đề." },
+    { "situation": "Mô tả lỗi", "formal": "My battery is draining very quickly.", "casual": "My battery dies so fast.", "vi": "Câu thân mật ngắn gọn, phổ biến trong giao tiếp hằng ngày." }
+  ],
+  "culture": [
+    "Nhờ bạn bè sửa lỗi công nghệ đơn giản là chuyện rất bình thường và không cần trả phí, chỉ cần cảm ơn chân thành.",
+    "Cụm turn it off and on again là lời khuyên phổ biến và thường mang tính hài hước trong văn hoá công nghệ phương Tây.",
+    "Khi ai đó giúp bạn sửa lỗi, khen bằng câu You're a lifesaver! thể hiện sự biết ơn vui vẻ, thân thiện."
+  ],
+  "listening": {
+    "title": "Nhờ bạn sửa điện thoại",
+    "passage": "My phone is not working properly. The screen keeps freezing and my battery is draining very quickly. Could you help me fix this? Have you tried restarting it? I tried that already, but it did not help. Let us check the storage first. It might be almost full. After that, we can update the apps. If that does not work, we can try deleting some old photos.",
+    "vi": "Điện thoại của tôi hoạt động không bình thường. Màn hình cứ bị đơ và pin thì hết rất nhanh. Bạn giúp tôi sửa được không? Bạn đã thử khởi động lại chưa? Tôi thử rồi, nhưng không hiệu quả. Mình kiểm tra bộ nhớ trước đã. Có thể nó gần đầy rồi. Sau đó, mình có thể cập nhật các ứng dụng. Nếu vẫn không được, mình có thể thử xoá vài ảnh cũ.",
+    "questions": [
+      { "q": "What two problems does the phone have?", "choices": ["Frozen screen and fast battery drain", "No signal and slow internet", "Broken camera and no sound"], "answer": 0, "vi": "Đáp án đúng vì người nói mô tả màn hình bị đơ và pin hết nhanh." },
+      { "q": "What should they check first?", "choices": ["The storage", "The camera", "The internet connection"], "answer": 0, "vi": "Đáp án đúng vì họ đề nghị kiểm tra bộ nhớ trước." },
+      { "q": "What is suggested if updating apps does not help?", "choices": ["Deleting old photos", "Buying a new phone", "Calling customer support"], "answer": 0, "vi": "Đáp án đúng vì họ đề nghị thử xoá ảnh cũ nếu vẫn chưa được." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn giỏi công nghệ", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "What is wrong with your phone?", "vi": "Điện thoại bạn bị làm sao vậy?", "hint": "" },
+      { "speaker": "b", "en": "My phone is not working properly.", "vi": "Điện thoại của tôi hoạt động không bình thường.", "hint": "Dùng My phone is not working properly." },
+      { "speaker": "a", "en": "What exactly is happening?", "vi": "Chính xác chuyện gì đang xảy ra vậy?", "hint": "" },
+      { "speaker": "b", "en": "The screen keeps freezing.", "vi": "Màn hình cứ bị đơ.", "hint": "Dùng keeps freezing." },
+      { "speaker": "a", "en": "Have you tried restarting it?", "vi": "Bạn đã thử khởi động lại chưa?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I tried that already.", "vi": "Rồi, tôi đã thử rồi.", "hint": "Dùng I tried that already." },
+      { "speaker": "a", "en": "Let us check the storage first.", "vi": "Mình kiểm tra bộ nhớ trước nhé.", "hint": "" },
+      { "speaker": "b", "en": "Okay, could you show me how?", "vi": "Được, bạn chỉ tôi cách được không?", "hint": "Dùng Could you show me how." },
+      { "speaker": "a", "en": "Sure, open the settings first.", "vi": "Được, đầu tiên mở phần cài đặt.", "hint": "" },
+      { "speaker": "b", "en": "That fixed it, thank you so much!", "vi": "Vậy là hết lỗi rồi, cảm ơn bạn nhiều!", "hint": "Dùng That fixed it." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a tech-savvy friend helping the learner fix a simple phone problem.",
+    "opener": "What is wrong with your phone?",
+    "goal": "Người học mô tả được lỗi điện thoại, nhờ giúp đỡ lịch sự và làm theo hướng dẫn từng bước."
+  },
+  "drills": [
+    { "vi": "Điện thoại của tôi hoạt động không bình thường.", "en": "My phone is not working properly.", "alts": [] },
+    { "vi": "Bạn giúp tôi sửa cái này được không?", "en": "Could you help me fix this?", "alts": [] },
+    { "vi": "Bạn đã thử khởi động lại chưa?", "en": "Have you tried restarting it?", "alts": [] },
+    { "vi": "Pin của tôi hết rất nhanh.", "en": "My battery is draining very quickly.", "alts": [] },
+    { "vi": "Mình kiểm tra bộ nhớ trước đã.", "en": "Let us check the storage first.", "alts": [] },
+    { "vi": "Vậy là hết lỗi rồi, cảm ơn bạn!", "en": "That fixed it, thank you!", "alts": [] },
+    { "vi": "Bạn cần cập nhật ứng dụng này.", "en": "You need to update this app.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn nhờ bạn sửa điện thoại, chú ý trọng âm trong battery.",
+    "Viết ba câu mô tả một lỗi công nghệ đơn giản bạn từng gặp.",
+    "Luyện nói ba lần câu Have you tried restarting it?"
+  ]
+}

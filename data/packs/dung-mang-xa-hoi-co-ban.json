@@ -1,0 +1,96 @@
+{
+  "id": "dung-mang-xa-hoi-co-ban",
+  "level": "A1",
+  "dialogues": [
+    { "title": "Hỏi có dùng mạng xã hội không", "situation": "Bạn hỏi bạn cùng lớp có dùng mạng xã hội không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you use social media?", "vi": "Bạn có dùng mạng xã hội không?" },
+        { "speaker": "b", "en": "Yes, I post a photo every week.", "vi": "Có, tôi đăng ảnh mỗi tuần." },
+        { "speaker": "a", "en": "What do you usually post?", "vi": "Bạn thường đăng gì vậy?" },
+        { "speaker": "b", "en": "I share photos of my food.", "vi": "Tôi chia sẻ ảnh đồ ăn." },
+        { "speaker": "a", "en": "That sounds fun.", "vi": "Nghe vui đấy." },
+        { "speaker": "b", "en": "Yes, I enjoy it a lot.", "vi": "Vâng, tôi thích nó lắm." }
+      ]},
+    { "title": "Khen bài đăng của bạn", "situation": "Bạn khen bài đăng gần đây của bạn mình.",
+      "turns": [
+        { "speaker": "a", "en": "I like your last post.", "vi": "Tôi thích bài đăng gần đây của bạn." },
+        { "speaker": "b", "en": "Thank you! I saw your comment.", "vi": "Cảm ơn! Tôi thấy bình luận của bạn." },
+        { "speaker": "a", "en": "The photo was very nice.", "vi": "Bức ảnh rất đẹp." },
+        { "speaker": "b", "en": "I took it at the park.", "vi": "Tôi chụp ở công viên." },
+        { "speaker": "a", "en": "I want to visit that park.", "vi": "Tôi muốn ghé thăm công viên đó." },
+        { "speaker": "b", "en": "We can go together.", "vi": "Chúng ta có thể đi cùng nhau." }
+      ]},
+    { "title": "Hỏi có theo dõi nhiều người không", "situation": "Bạn hỏi bạn mình có theo dõi nhiều tài khoản không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you follow many people?", "vi": "Bạn có theo dõi nhiều người không?" },
+        { "speaker": "b", "en": "Yes, I follow my friends and family.", "vi": "Có, tôi theo dõi bạn bè và gia đình." },
+        { "speaker": "a", "en": "Do you follow any singers?", "vi": "Bạn có theo dõi ca sĩ nào không?" },
+        { "speaker": "b", "en": "Yes, a few of them.", "vi": "Có, vài người." },
+        { "speaker": "a", "en": "That is cool.", "vi": "Vậy hay đấy." },
+        { "speaker": "b", "en": "I like their music videos.", "vi": "Tôi thích các video ca nhạc của họ." }
+      ]},
+    { "title": "Rủ theo dõi nhau", "situation": "Bạn rủ bạn mình theo dõi nhau trên mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "Let us follow each other.", "vi": "Mình theo dõi nhau nhé." },
+        { "speaker": "b", "en": "Sure, I will follow you now.", "vi": "Được, giờ tôi sẽ theo dõi bạn." },
+        { "speaker": "a", "en": "Thanks! I followed you back.", "vi": "Cảm ơn! Tôi theo dõi lại bạn rồi." },
+        { "speaker": "b", "en": "Great, now we can see each other's posts.", "vi": "Tuyệt, giờ mình có thể xem bài đăng của nhau." },
+        { "speaker": "a", "en": "I will like your next post.", "vi": "Tôi sẽ thả tim bài đăng tiếp theo của bạn." },
+        { "speaker": "b", "en": "Thank you in advance!", "vi": "Cảm ơn trước nhé!" }
+      ]},
+    { "title": "Nói về việc dùng ứng dụng mới", "situation": "Bạn kể về việc dùng một ứng dụng mạng xã hội mới.",
+      "turns": [
+        { "speaker": "a", "en": "I have a new account on this app.", "vi": "Tôi có tài khoản mới trên ứng dụng này." },
+        { "speaker": "b", "en": "Is it easy to use?", "vi": "Nó có dễ dùng không?" },
+        { "speaker": "a", "en": "Yes, very easy.", "vi": "Có, rất dễ." },
+        { "speaker": "b", "en": "I might download it too.", "vi": "Có lẽ tôi cũng tải nó." },
+        { "speaker": "a", "en": "You should! It is fun.", "vi": "Bạn nên thử! Nó vui lắm." },
+        { "speaker": "b", "en": "Okay, I will try it.", "vi": "Được, tôi sẽ thử nó." }
+      ]},
+    { "title": "Nhờ giúp tìm tài khoản", "situation": "Bạn nhờ bạn mình giúp tìm tài khoản của một người.",
+      "turns": [
+        { "speaker": "a", "en": "Can you help me find her account?", "vi": "Bạn giúp tôi tìm tài khoản của cô ấy được không?" },
+        { "speaker": "b", "en": "Sure, what is her name?", "vi": "Được, tên cô ấy là gì?" },
+        { "speaker": "a", "en": "Her name is Anna.", "vi": "Tên cô ấy là Anna." },
+        { "speaker": "b", "en": "I found her account.", "vi": "Tôi tìm thấy tài khoản của cô ấy rồi." },
+        { "speaker": "a", "en": "Thank you so much.", "vi": "Cảm ơn bạn nhiều." },
+        { "speaker": "b", "en": "You are welcome.", "vi": "Không có gì." }
+      ]},
+    { "title": "Nói về video vui đã xem", "situation": "Bạn kể về một video vui bạn vừa xem trên mạng.",
+      "turns": [
+        { "speaker": "a", "en": "I saw a funny video today.", "vi": "Hôm nay tôi xem một video vui." },
+        { "speaker": "b", "en": "Can you share it with me?", "vi": "Bạn chia sẻ nó cho tôi được không?" },
+        { "speaker": "a", "en": "Sure, I will send it now.", "vi": "Được, giờ tôi sẽ gửi nó." },
+        { "speaker": "b", "en": "Thank you, I love funny videos.", "vi": "Cảm ơn, tôi thích video vui." },
+        { "speaker": "a", "en": "Me too, they make me laugh.", "vi": "Tôi cũng vậy, chúng làm tôi cười." },
+        { "speaker": "b", "en": "This one looks great.", "vi": "Cái này trông hay đấy." }
+      ]},
+    { "title": "Nhắn tin cho bạn qua ứng dụng", "situation": "Bạn nhắn tin hỏi thăm bạn mình qua ứng dụng.",
+      "turns": [
+        { "speaker": "a", "en": "I sent you a message yesterday.", "vi": "Hôm qua tôi gửi tin nhắn cho bạn." },
+        { "speaker": "b", "en": "Sorry, I did not see it.", "vi": "Xin lỗi, tôi chưa thấy nó." },
+        { "speaker": "a", "en": "No problem, check it now.", "vi": "Không sao, giờ bạn kiểm tra thử nhé." },
+        { "speaker": "b", "en": "Okay, I found it.", "vi": "Được, tôi tìm thấy rồi." },
+        { "speaker": "a", "en": "What do you think?", "vi": "Bạn nghĩ sao?" },
+        { "speaker": "b", "en": "I think it is a great idea.", "vi": "Tôi nghĩ đó là ý hay." }
+      ]},
+    { "title": "Hỏi thăm bạn online mỗi tối", "situation": "Bạn hỏi bạn mình có thường online buổi tối không.",
+      "turns": [
+        { "speaker": "a", "en": "Are you online every evening?", "vi": "Bạn có online mỗi buổi tối không?" },
+        { "speaker": "b", "en": "Yes, I am usually online at eight.", "vi": "Có, tôi thường online lúc tám giờ." },
+        { "speaker": "a", "en": "Me too! Let us chat then.", "vi": "Tôi cũng vậy! Vậy lúc đó mình trò chuyện nhé." },
+        { "speaker": "b", "en": "Sounds good to me.", "vi": "Nghe được với tôi đấy." },
+        { "speaker": "a", "en": "See you online tonight.", "vi": "Tối nay gặp bạn trên mạng nhé." },
+        { "speaker": "b", "en": "See you then!", "vi": "Hẹn gặp!" }
+      ]},
+    { "title": "Quản lý nhiều hoạt động trên mạng xã hội trong ngày", "situation": "Bạn kể chi tiết về nhiều hoạt động khác nhau trên mạng xã hội trong một ngày. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "What did you do online today?", "vi": "Hôm nay bạn làm gì trên mạng vậy?" },
+        { "speaker": "b", "en": "I posted a photo, then I commented on your post.", "vi": "Tôi đăng một ảnh, rồi tôi bình luận vào bài của bạn." },
+        { "speaker": "a", "en": "Oh, I saw that! Thank you.", "vi": "Ồ, tôi thấy rồi! Cảm ơn bạn." },
+        { "speaker": "b", "en": "I also followed two new accounts.", "vi": "Tôi còn theo dõi hai tài khoản mới nữa." },
+        { "speaker": "a", "en": "Who did you follow?", "vi": "Bạn theo dõi ai vậy?" },
+        { "speaker": "b", "en": "Two singers I really like.", "vi": "Hai ca sĩ tôi rất thích." }
+      ]}
+  ]
+}

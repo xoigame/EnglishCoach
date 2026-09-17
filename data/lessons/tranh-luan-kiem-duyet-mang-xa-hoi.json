@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-kiem-duyet-mang-xa-hoi",
+  "title": "Tranh luận về kiểm duyệt nội dung và tự do ngôn luận trên mạng xã hội",
+  "topic": "Kiểm duyệt và tự do ngôn luận trực tuyến",
+  "level": "C1",
+  "summary": "Bạn tranh luận với một chuyên gia chính sách công nghệ về việc kiểm duyệt nội dung trên mạng xã hội có xung đột với quyền tự do ngôn luận hay không.",
+  "goals": [
+    "Trình bày lập luận nhiều lớp về một vấn đề chính sách phức tạp",
+    "Phân biệt giữa kiểm duyệt hợp lý và kiểm soát quá mức",
+    "Phản biện lập luận đối phương bằng ví dụ cụ thể và số liệu"
+  ],
+  "vocab": [
+    { "en": "censorship", "ipa": "/ˈsensərʃɪp/", "vi": "sự kiểm duyệt", "example": "Some call it censorship, others call it safety." },
+    { "en": "free speech", "ipa": "/friː spiːtʃ/", "vi": "tự do ngôn luận", "example": "Free speech is a fundamental right." },
+    { "en": "misinformation", "ipa": "/ˌmɪsɪnfərˈmeɪʃn/", "vi": "thông tin sai lệch", "example": "Platforms struggle to control misinformation." },
+    { "en": "moderation", "ipa": "/ˌmɑːdəˈreɪʃn/", "vi": "sự kiểm duyệt nội dung (trên nền tảng)", "example": "Content moderation is a difficult job." },
+    { "en": "accountable", "ipa": "/əˈkaʊntəbl/", "vi": "có trách nhiệm giải trình", "example": "Platforms should be held accountable." },
+    { "en": "slippery slope", "ipa": "/ˈslɪpəri sloʊp/", "vi": "nguy cơ trượt dài (từ việc nhỏ dẫn đến hậu quả lớn)", "example": "That is a slippery slope argument." },
+    { "en": "transparent", "ipa": "/trænsˈpærənt/", "vi": "minh bạch", "example": "The rules should be more transparent." },
+    { "en": "harmful content", "ipa": "/ˈhɑːrmfl ˈkɑːntent/", "vi": "nội dung có hại", "example": "They removed harmful content quickly." },
+    { "en": "regulation", "ipa": "/ˌreɡjuˈleɪʃn/", "vi": "sự điều tiết, quy định", "example": "We need clearer regulation." },
+    { "en": "nuanced", "ipa": "/ˈnuːɑːnst/", "vi": "tinh tế, có nhiều sắc thái", "example": "This issue requires a nuanced approach." }
+  ],
+  "patterns": [
+    { "en": "Some would argue that ___, while others believe ___.", "vi": "Một số người cho rằng ___, trong khi số khác tin rằng ___.", "note": "Trình bày hai luồng quan điểm trong một vấn đề phức tạp." },
+    { "en": "That is a slippery slope argument, though.", "vi": "Tuy nhiên đó là một lập luận trượt dài đấy.", "note": "Chỉ ra một lập luận có nguy cơ suy diễn quá xa." },
+    { "en": "The real issue is not ___, but rather ___.", "vi": "Vấn đề thực sự không phải là ___, mà là ___.", "note": "Định hình lại trọng tâm cuộc tranh luận." },
+    { "en": "Platforms should be held accountable for ___.", "vi": "Các nền tảng nên chịu trách nhiệm giải trình về ___.", "note": "Đưa ra lập luận về trách nhiệm của nền tảng." },
+    { "en": "This requires a more nuanced approach.", "vi": "Vấn đề này cần một cách tiếp cận tinh tế hơn.", "note": "Kêu gọi cách nhìn cân bằng, không cực đoan." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong censorship", "tip": "Nhấn vào âm tiết đầu: CEN-sorship.", "words": ["censorship"] },
+    { "focus": "âm /ʃ/ liên tiếp trong misinformation", "tip": "Tách rõ từng âm tiết, không nuốt âm.", "words": ["misinformation"] },
+    { "focus": "âm /nu/ trong nuanced", "tip": "Phát âm liền như nhu-anced, không tách rời.", "words": ["nuanced"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Some argue that, others believe.", "right": "Some would argue that ___, while others believe ___.", "vi": "Cần liên từ while để nối hai mệnh đề đối lập rõ ràng." },
+    { "wrong": "Platform should accountable for that.", "right": "Platforms should be held accountable for that.", "vi": "Cần cụm bị động be held accountable, không dùng accountable như động từ." },
+    { "wrong": "This issue need nuanced approach.", "right": "This issue requires a more nuanced approach.", "vi": "Chủ ngữ số ít issue cần động từ requires, và cần mạo từ a trước approach." },
+    { "wrong": "That is slippery slope argument.", "right": "That is a slippery slope argument.", "vi": "Cần mạo từ a trước cụm danh từ slippery slope argument." }
+  ],
+  "variations": [
+    { "situation": "Trình bày hai luồng quan điểm", "formal": "Some would argue that moderation protects users, while others see it as censorship.", "casual": "Some people think it protects users, others just call it censorship.", "vi": "Câu thân mật đơn giản hoá cấu trúc nhưng vẫn giữ ý nghĩa đối lập." },
+    { "situation": "Chỉ ra lập luận trượt dài", "formal": "That is a classic slippery slope argument.", "casual": "That's kind of a slippery slope, don't you think?", "vi": "Câu thân mật thêm câu hỏi tu từ, tạo cảm giác trò chuyện." },
+    { "situation": "Kêu gọi trách nhiệm", "formal": "Platforms should be held accountable for harmful content.", "casual": "Platforms need to take responsibility for this stuff.", "vi": "Câu thân mật dùng stuff thay cho harmful content, ít trang trọng hơn." },
+    { "situation": "Kêu gọi cách tiếp cận cân bằng", "formal": "This requires a more nuanced approach.", "casual": "It's not black and white, honestly.", "vi": "Not black and white là thành ngữ thân mật cho sự phức tạp, đa chiều." }
+  ],
+  "culture": [
+    "Tranh luận về kiểm duyệt mạng xã hội thường xuất hiện trên báo chí và trong các phiên điều trần của quốc hội ở nhiều nước phương Tây.",
+    "Thành ngữ slippery slope argument rất phổ biến trong tranh luận chính sách, chỉ việc lo ngại một quyết định nhỏ có thể dẫn đến hậu quả cực đoan.",
+    "Dùng cụm it's not black and white thể hiện sự tinh tế và tránh nhìn nhận vấn đề theo hướng cực đoan, được đánh giá cao trong tranh luận học thuật."
+  ],
+  "listening": {
+    "title": "Tranh luận về kiểm duyệt nội dung",
+    "passage": "Some would argue that content moderation protects vulnerable users from harmful content, while others see it as a form of censorship. The real issue is not whether platforms should moderate content, but rather how transparent that process is. If the rules are unclear, users cannot trust the system. Platforms should be held accountable for both removing harmful content and protecting free speech. That is a slippery slope argument, though, if we assume any moderation leads to full censorship. This issue truly requires a more nuanced approach than either side usually admits.",
+    "vi": "Một số người cho rằng kiểm duyệt nội dung bảo vệ những người dùng dễ bị tổn thương khỏi nội dung có hại, trong khi số khác coi đó là một hình thức kiểm duyệt tiêu cực. Vấn đề thực sự không phải là liệu các nền tảng có nên kiểm duyệt nội dung hay không, mà là quy trình đó minh bạch đến đâu. Nếu quy định không rõ ràng, người dùng không thể tin tưởng hệ thống. Các nền tảng nên chịu trách nhiệm giải trình cả việc gỡ bỏ nội dung có hại lẫn bảo vệ tự do ngôn luận. Tuy nhiên, đó là một lập luận trượt dài nếu ta cho rằng bất kỳ sự kiểm duyệt nào cũng dẫn đến kiểm duyệt toàn diện. Vấn đề này thực sự cần một cách tiếp cận tinh tế hơn những gì hai phía thường thừa nhận.",
+    "questions": [
+      { "q": "What does the speaker say the real issue is?", "choices": ["How transparent the moderation process is", "Whether the internet should exist", "How fast the internet is"], "answer": 0, "vi": "Đáp án đúng vì người nói xác định vấn đề thực sự là tính minh bạch của quy trình kiểm duyệt." },
+      { "q": "What should platforms be held accountable for, according to the speaker?", "choices": ["Removing harmful content and protecting free speech", "Only making profit", "Banning all users"], "answer": 0, "vi": "Đáp án đúng vì người nói nói các nền tảng nên chịu trách nhiệm cả hai việc đó." },
+      { "q": "What kind of argument does the speaker warn against?", "choices": ["A slippery slope argument", "A statistical argument", "A financial argument"], "answer": 0, "vi": "Đáp án đúng vì người nói cảnh báo về lập luận trượt dài." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Chuyên gia chính sách công nghệ", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Do you think content moderation is a form of censorship?", "vi": "Bạn có nghĩ kiểm duyệt nội dung là một hình thức kiểm duyệt tiêu cực không?" },
+      { "speaker": "b", "en": "Some would argue that it protects users, while others see it as censorship.", "vi": "Một số người cho rằng nó bảo vệ người dùng, trong khi số khác coi đó là kiểm duyệt.", "hint": "Dùng Some would argue that, while others." },
+      { "speaker": "a", "en": "So where do you personally stand?", "vi": "Vậy quan điểm cá nhân của bạn thế nào?" },
+      { "speaker": "b", "en": "The real issue is not moderation itself, but how transparent it is.", "vi": "Vấn đề thực sự không phải là việc kiểm duyệt, mà là mức độ minh bạch của nó.", "hint": "Dùng The real issue is not, but rather." },
+      { "speaker": "a", "en": "But could moderation lead to full censorship eventually?", "vi": "Nhưng liệu kiểm duyệt có thể dẫn đến kiểm duyệt toàn diện cuối cùng không?" },
+      { "speaker": "b", "en": "That is a slippery slope argument, though.", "vi": "Tuy nhiên đó là một lập luận trượt dài đấy.", "hint": "Dùng That is a slippery slope argument." },
+      { "speaker": "a", "en": "Fair enough. Who should be responsible then?", "vi": "Cũng hợp lý. Vậy ai nên chịu trách nhiệm?" },
+      { "speaker": "b", "en": "Platforms should be held accountable for both sides of this issue.", "vi": "Các nền tảng nên chịu trách nhiệm giải trình cả hai mặt của vấn đề này.", "hint": "Dùng Platforms should be held accountable for." },
+      { "speaker": "a", "en": "That sounds reasonable, but hard to enforce.", "vi": "Nghe hợp lý đấy, nhưng khó thực thi." },
+      { "speaker": "b", "en": "True, this issue requires a more nuanced approach.", "vi": "Đúng vậy, vấn đề này cần một cách tiếp cận tinh tế hơn.", "hint": "Dùng requires a more nuanced approach." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a technology policy expert engaging in a thoughtful debate about content moderation and free speech.",
+    "opener": "Do you think content moderation is a form of censorship?",
+    "goal": "Người học trình bày lập luận nhiều lớp, phân biệt kiểm duyệt hợp lý với kiểm soát quá mức, và giữ giọng điệu học thuật, cân bằng."
+  },
+  "drills": [
+    { "vi": "Một số người cho rằng nó bảo vệ người dùng, trong khi số khác coi đó là kiểm duyệt.", "en": "Some would argue that it protects users, while others see it as censorship.", "alts": [] },
+    { "vi": "Vấn đề thực sự không phải là việc kiểm duyệt, mà là mức độ minh bạch.", "en": "The real issue is not moderation, but rather how transparent it is.", "alts": [] },
+    { "vi": "Tuy nhiên đó là một lập luận trượt dài đấy.", "en": "That is a slippery slope argument, though.", "alts": [] },
+    { "vi": "Các nền tảng nên chịu trách nhiệm giải trình về điều đó.", "en": "Platforms should be held accountable for that.", "alts": [] },
+    { "vi": "Vấn đề này cần một cách tiếp cận tinh tế hơn.", "en": "This issue requires a more nuanced approach.", "alts": [] },
+    { "vi": "Quy định cần minh bạch hơn.", "en": "The regulation needs to be more transparent.", "alts": [] },
+    { "vi": "Đó là điểm hợp lý, tuy nhiên tôi vẫn còn hoài nghi.", "en": "That is a fair point, however I am still skeptical.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận về kiểm duyệt mạng xã hội, chú ý trọng âm trong censorship.",
+    "Viết ba câu dùng cấu trúc Some would argue that ___, while others believe ___.",
+    "Luyện nói ba lần câu This issue requires a more nuanced approach."
+  ]
+}

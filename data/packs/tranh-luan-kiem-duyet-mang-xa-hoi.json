@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-kiem-duyet-mang-xa-hoi",
+  "level": "C1",
+  "dialogues": [
+    { "title": "Đặt vấn đề về kiểm duyệt", "situation": "Hai người bắt đầu bàn về việc kiểm duyệt có phải là kiểm duyệt tiêu cực không.",
+      "turns": [
+        { "speaker": "a", "en": "Do you think content moderation is a form of censorship?", "vi": "Bạn có nghĩ kiểm duyệt nội dung là một hình thức kiểm duyệt tiêu cực không?" },
+        { "speaker": "b", "en": "Some would argue that it protects users, while others see it as censorship.", "vi": "Một số người cho rằng nó bảo vệ người dùng, trong khi số khác coi đó là kiểm duyệt." },
+        { "speaker": "a", "en": "That is a nuanced way to put it.", "vi": "Đó là cách diễn đạt tinh tế đấy." },
+        { "speaker": "b", "en": "It really is a complex issue.", "vi": "Đây thực sự là vấn đề phức tạp." },
+        { "speaker": "a", "en": "Let us explore both sides.", "vi": "Mình cùng tìm hiểu cả hai mặt nhé." },
+        { "speaker": "b", "en": "I would like that.", "vi": "Tôi rất muốn vậy." }
+      ]},
+    { "title": "Xác định vấn đề thực sự", "situation": "Bạn xác định lại trọng tâm thực sự của cuộc tranh luận.",
+      "turns": [
+        { "speaker": "a", "en": "So where do you personally stand on this?", "vi": "Vậy quan điểm cá nhân của bạn thế nào?" },
+        { "speaker": "b", "en": "The real issue is not moderation, but rather how transparent it is.", "vi": "Vấn đề thực sự không phải là việc kiểm duyệt, mà là mức độ minh bạch của nó." },
+        { "speaker": "a", "en": "That reframes the debate quite well.", "vi": "Điều đó định hình lại cuộc tranh luận khá tốt." },
+        { "speaker": "b", "en": "Transparency builds trust, in my view.", "vi": "Theo tôi, minh bạch xây dựng lòng tin." },
+        { "speaker": "a", "en": "I had not thought of it that way.", "vi": "Tôi chưa từng nghĩ theo hướng đó." },
+        { "speaker": "b", "en": "It changes the whole conversation.", "vi": "Nó thay đổi toàn bộ cuộc trò chuyện." }
+      ]},
+    { "title": "Cảnh báo về lập luận trượt dài", "situation": "Bạn cảnh báo đối phương về một lập luận có nguy cơ trượt dài.",
+      "turns": [
+        { "speaker": "a", "en": "But could moderation lead to full censorship eventually?", "vi": "Nhưng liệu kiểm duyệt có thể dẫn đến kiểm duyệt toàn diện cuối cùng không?" },
+        { "speaker": "b", "en": "That is a slippery slope argument, though.", "vi": "Tuy nhiên đó là một lập luận trượt dài đấy." },
+        { "speaker": "a", "en": "Fair point, I may have overstated it.", "vi": "Điểm hợp lý, có thể tôi đã nói quá lên." },
+        { "speaker": "b", "en": "It is easy to fall into that trap.", "vi": "Rất dễ rơi vào cái bẫy đó." },
+        { "speaker": "a", "en": "I will be more careful with that logic.", "vi": "Tôi sẽ cẩn thận hơn với lối lập luận đó." },
+        { "speaker": "b", "en": "That is a mature response.", "vi": "Đó là phản ứng trưởng thành đấy." }
+      ]},
+    { "title": "Nói về trách nhiệm giải trình của nền tảng", "situation": "Bạn nói về việc các nền tảng cần chịu trách nhiệm.",
+      "turns": [
+        { "speaker": "a", "en": "Who should be responsible for harmful content then?", "vi": "Vậy ai nên chịu trách nhiệm về nội dung có hại?" },
+        { "speaker": "b", "en": "Platforms should be held accountable for that.", "vi": "Các nền tảng nên chịu trách nhiệm giải trình về điều đó." },
+        { "speaker": "a", "en": "How could that be enforced?", "vi": "Điều đó có thể được thực thi thế nào?" },
+        { "speaker": "b", "en": "Through clearer regulation, perhaps.", "vi": "Có lẽ thông qua các quy định rõ ràng hơn." },
+        { "speaker": "a", "en": "That seems reasonable in theory.", "vi": "Về lý thuyết nghe hợp lý đấy." },
+        { "speaker": "b", "en": "The challenge is the implementation.", "vi": "Thách thức nằm ở việc triển khai." }
+      ]},
+    { "title": "Kêu gọi cách tiếp cận tinh tế", "situation": "Bạn kêu gọi một cách tiếp cận cân bằng, không cực đoan.",
+      "turns": [
+        { "speaker": "a", "en": "This issue requires a more nuanced approach.", "vi": "Vấn đề này cần một cách tiếp cận tinh tế hơn." },
+        { "speaker": "b", "en": "I completely agree with that.", "vi": "Tôi hoàn toàn đồng ý với điều đó." },
+        { "speaker": "a", "en": "Extremes rarely solve real problems.", "vi": "Sự cực đoan hiếm khi giải quyết được vấn đề thực sự." },
+        { "speaker": "b", "en": "Balance is difficult but necessary.", "vi": "Sự cân bằng khó nhưng cần thiết." },
+        { "speaker": "a", "en": "That should guide future policy.", "vi": "Điều đó nên định hướng chính sách tương lai." },
+        { "speaker": "b", "en": "I hope policymakers listen.", "vi": "Tôi mong các nhà hoạch định chính sách lắng nghe." }
+      ]},
+    { "title": "Bàn về thông tin sai lệch", "situation": "Bạn bàn về việc kiểm soát thông tin sai lệch trên mạng.",
+      "turns": [
+        { "speaker": "a", "en": "Misinformation spreads incredibly fast online.", "vi": "Thông tin sai lệch lan truyền cực nhanh trên mạng." },
+        { "speaker": "b", "en": "That is a genuine concern for everyone.", "vi": "Đó là mối lo ngại thực sự với tất cả mọi người." },
+        { "speaker": "a", "en": "Should platforms remove it immediately?", "vi": "Các nền tảng có nên gỡ bỏ nó ngay lập tức không?" },
+        { "speaker": "b", "en": "It depends on how harmful it is.", "vi": "Điều đó phụ thuộc vào mức độ gây hại của nó." },
+        { "speaker": "a", "en": "That distinction matters a lot.", "vi": "Sự phân biệt đó rất quan trọng." },
+        { "speaker": "b", "en": "Exactly, context is everything.", "vi": "Chính xác, bối cảnh là tất cả." }
+      ]},
+    { "title": "Thảo luận về quy định pháp lý", "situation": "Bạn thảo luận về vai trò của quy định pháp lý.",
+      "turns": [
+        { "speaker": "a", "en": "We need clearer regulation on this.", "vi": "Chúng ta cần quy định rõ ràng hơn về việc này." },
+        { "speaker": "b", "en": "Regulation can be slow to adapt though.", "vi": "Tuy nhiên quy định có thể chậm thích nghi." },
+        { "speaker": "a", "en": "That is true, technology moves faster.", "vi": "Đúng vậy, công nghệ phát triển nhanh hơn." },
+        { "speaker": "b", "en": "So flexibility should be built in.", "vi": "Vậy nên tính linh hoạt cần được tích hợp sẵn." },
+        { "speaker": "a", "en": "That is a smart way to design policy.", "vi": "Đó là cách thiết kế chính sách khôn ngoan đấy." },
+        { "speaker": "b", "en": "It requires ongoing collaboration.", "vi": "Nó cần sự hợp tác liên tục." }
+      ]},
+    { "title": "Đồng ý một phần rồi vẫn giữ lập trường", "situation": "Bạn đồng ý một phần nhưng vẫn giữ lập trường của mình.",
+      "turns": [
+        { "speaker": "a", "en": "That is a fair point, however I am still skeptical.", "vi": "Đó là điểm hợp lý, tuy nhiên tôi vẫn còn hoài nghi." },
+        { "speaker": "b", "en": "What makes you skeptical exactly?", "vi": "Chính xác điều gì khiến bạn hoài nghi vậy?" },
+        { "speaker": "a", "en": "Enforcement has been inconsistent so far.", "vi": "Việc thực thi cho tới nay chưa nhất quán." },
+        { "speaker": "b", "en": "That is a legitimate concern.", "vi": "Đó là mối lo ngại chính đáng đấy." },
+        { "speaker": "a", "en": "I hope that improves over time.", "vi": "Tôi mong điều đó sẽ cải thiện theo thời gian." },
+        { "speaker": "b", "en": "So do I, honestly.", "vi": "Thật lòng, tôi cũng vậy." }
+      ]},
+    { "title": "Kết luận cuộc tranh luận với sự tôn trọng", "situation": "Bạn kết luận cuộc tranh luận một cách tôn trọng dù còn bất đồng.",
+      "turns": [
+        { "speaker": "a", "en": "We clearly see this issue differently.", "vi": "Rõ ràng chúng ta thấy vấn đề này khác nhau." },
+        { "speaker": "b", "en": "That is fine, healthy debate is valuable.", "vi": "Không sao, tranh luận lành mạnh có giá trị." },
+        { "speaker": "a", "en": "I have learned a lot from this conversation.", "vi": "Tôi đã học được nhiều từ cuộc trò chuyện này." },
+        { "speaker": "b", "en": "Likewise, thank you for the discussion.", "vi": "Tương tự, cảm ơn bạn vì cuộc thảo luận." },
+        { "speaker": "a", "en": "Let us continue this another time.", "vi": "Mình tiếp tục việc này lần khác nhé." },
+        { "speaker": "b", "en": "I would welcome that.", "vi": "Tôi rất hoan nghênh điều đó." }
+      ]},
+    { "title": "Tranh luận phức tạp về cân bằng giữa tự do ngôn luận, an toàn người dùng, và lợi ích thương mại của nền tảng", "situation": "Hai người tranh luận phức tạp về việc cân bằng giữa tự do ngôn luận, an toàn người dùng, và lợi ích thương mại của các nền tảng công nghệ. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "Platforms claim to protect free speech, but their moderation often seems driven by commercial interests.", "vi": "Các nền tảng tuyên bố bảo vệ tự do ngôn luận, nhưng việc kiểm duyệt của họ thường có vẻ bị chi phối bởi lợi ích thương mại." },
+        { "speaker": "b", "en": "That is a fair point, however some moderation genuinely does protect vulnerable users.", "vi": "Đó là điểm hợp lý, tuy nhiên một số kiểm duyệt thực sự bảo vệ người dùng dễ bị tổn thương." },
+        { "speaker": "a", "en": "The real issue is not intent, but rather the lack of transparent criteria.", "vi": "Vấn đề thực sự không phải là ý định, mà là thiếu tiêu chí minh bạch." },
+        { "speaker": "b", "en": "Agreed, but demanding full transparency raises its own slippery slope risk of gaming the system.", "vi": "Đồng ý, nhưng yêu cầu minh bạch hoàn toàn cũng có nguy cơ trượt dài khi người ta lợi dụng hệ thống." },
+        { "speaker": "a", "en": "So platforms should be held accountable through independent audits rather than full public disclosure.", "vi": "Vậy các nền tảng nên chịu trách nhiệm giải trình thông qua kiểm toán độc lập thay vì công khai hoàn toàn." },
+        { "speaker": "b", "en": "That nuanced approach seems like the most realistic path forward.", "vi": "Cách tiếp cận tinh tế đó có vẻ là con đường thực tế nhất phía trước." }
+      ]}
+  ]
+}

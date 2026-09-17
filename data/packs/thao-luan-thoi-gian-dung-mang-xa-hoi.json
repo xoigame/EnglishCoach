@@ -1,0 +1,96 @@
+{
+  "id": "thao-luan-thoi-gian-dung-mang-xa-hoi",
+  "level": "B1",
+  "dialogues": [
+    { "title": "Hỏi thời gian màn hình", "situation": "Bạn hỏi bạn thân về thời gian nhìn màn hình mỗi ngày.",
+      "turns": [
+        { "speaker": "a", "en": "How much screen time do you have these days?", "vi": "Dạo này thời gian nhìn màn hình của bạn thế nào?" },
+        { "speaker": "b", "en": "Honestly, over six hours a day.", "vi": "Thật lòng, hơn sáu tiếng mỗi ngày." },
+        { "speaker": "a", "en": "That is a lot!", "vi": "Nhiều đấy!" },
+        { "speaker": "b", "en": "I know, I should reduce it.", "vi": "Tôi biết, tôi nên giảm bớt." },
+        { "speaker": "a", "en": "What do you usually do online?", "vi": "Bạn thường làm gì trên mạng vậy?" },
+        { "speaker": "b", "en": "Mostly scrolling through my feed.", "vi": "Chủ yếu là lướt bảng tin." }
+      ]},
+    { "title": "Nói về việc bị phân tâm", "situation": "Bạn nói về việc bị phân tâm vì thông báo.",
+      "turns": [
+        { "speaker": "a", "en": "Do notifications bother you a lot?", "vi": "Thông báo có làm phiền bạn nhiều không?" },
+        { "speaker": "b", "en": "Yes, I feel distracted all the time.", "vi": "Có, tôi lúc nào cũng thấy bị phân tâm." },
+        { "speaker": "a", "en": "Have you tried turning them off?", "vi": "Bạn đã thử tắt chúng chưa?" },
+        { "speaker": "b", "en": "Not yet, but I should.", "vi": "Chưa, nhưng tôi nên làm vậy." },
+        { "speaker": "a", "en": "It really helps with focus.", "vi": "Nó thực sự giúp tập trung hơn." },
+        { "speaker": "b", "en": "I will try that tonight.", "vi": "Tối nay tôi sẽ thử." }
+      ]},
+    { "title": "Đề xuất đặt giới hạn cùng nhau", "situation": "Bạn đề xuất cùng nhau đặt giới hạn dùng mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "Maybe we should set a limit together.", "vi": "Có lẽ mình cùng đặt giới hạn nhé." },
+        { "speaker": "b", "en": "That sounds like a good idea.", "vi": "Nghe là ý hay đấy." },
+        { "speaker": "a", "en": "How about two hours a day?", "vi": "Hai giờ mỗi ngày thì sao?" },
+        { "speaker": "b", "en": "That seems reasonable.", "vi": "Nghe hợp lý đấy." },
+        { "speaker": "a", "en": "Let us try it this week.", "vi": "Mình thử tuần này nhé." },
+        { "speaker": "b", "en": "I am in.", "vi": "Tôi tham gia." }
+      ]},
+    { "title": "Nói về việc ngắt kết nối cuối tuần", "situation": "Bạn nói về việc cố gắng ngắt kết nối vào cuối tuần.",
+      "turns": [
+        { "speaker": "a", "en": "I am trying to disconnect on weekends.", "vi": "Tôi đang cố ngắt kết nối vào cuối tuần." },
+        { "speaker": "b", "en": "I want to try that too.", "vi": "Tôi cũng muốn thử điều đó." },
+        { "speaker": "a", "en": "It feels great, honestly.", "vi": "Thật lòng, nó cảm thấy rất tuyệt." },
+        { "speaker": "b", "en": "How do you spend the time instead?", "vi": "Vậy bạn dành thời gian đó làm gì?" },
+        { "speaker": "a", "en": "I read books or go for walks.", "vi": "Tôi đọc sách hoặc đi dạo." },
+        { "speaker": "b", "en": "That sounds much healthier.", "vi": "Nghe lành mạnh hơn nhiều đấy." }
+      ]},
+    { "title": "Thừa nhận hơi nghiện điện thoại", "situation": "Bạn thừa nhận mình hơi nghiện việc dùng điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "I think I am a little addicted to my phone.", "vi": "Tôi nghĩ mình hơi nghiện điện thoại." },
+        { "speaker": "b", "en": "Me too, honestly.", "vi": "Thật lòng, tôi cũng vậy." },
+        { "speaker": "a", "en": "It has become a bad habit.", "vi": "Nó đã trở thành một thói quen xấu." },
+        { "speaker": "b", "en": "We should work on that together.", "vi": "Mình nên cùng nhau khắc phục điều đó." },
+        { "speaker": "a", "en": "Good idea, let us support each other.", "vi": "Ý hay, mình hỗ trợ nhau nhé." },
+        { "speaker": "b", "en": "Deal.", "vi": "Chốt vậy." }
+      ]},
+    { "title": "So sánh trước và sau khi giảm dùng điện thoại", "situation": "Bạn so sánh cảm giác trước và sau khi giảm thời gian dùng điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "I feel more productive without my phone.", "vi": "Tôi cảm thấy năng suất hơn khi không có điện thoại." },
+        { "speaker": "b", "en": "Really? How long did you try it?", "vi": "Thật vậy sao? Bạn thử điều đó bao lâu rồi?" },
+        { "speaker": "a", "en": "Just a few days so far.", "vi": "Mới vài ngày thôi." },
+        { "speaker": "b", "en": "That is impressive already.", "vi": "Vậy đã ấn tượng rồi đấy." },
+        { "speaker": "a", "en": "I get more work done now.", "vi": "Giờ tôi hoàn thành nhiều việc hơn." },
+        { "speaker": "b", "en": "I might try that too.", "vi": "Có lẽ tôi cũng sẽ thử." }
+      ]},
+    { "title": "Bàn về việc lãng phí thời gian", "situation": "Bạn bàn về việc lãng phí thời gian trên mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "I waste a lot of time online.", "vi": "Tôi lãng phí nhiều thời gian trên mạng." },
+        { "speaker": "b", "en": "What do you waste time on mostly?", "vi": "Bạn lãng phí thời gian chủ yếu vào việc gì?" },
+        { "speaker": "a", "en": "Watching random videos.", "vi": "Xem các video ngẫu nhiên." },
+        { "speaker": "b", "en": "That happens to me too.", "vi": "Điều đó cũng xảy ra với tôi." },
+        { "speaker": "a", "en": "We should find better habits.", "vi": "Mình nên tìm thói quen tốt hơn." },
+        { "speaker": "b", "en": "Agreed, starting today.", "vi": "Đồng ý, bắt đầu từ hôm nay." }
+      ]},
+    { "title": "Đề xuất ứng dụng theo dõi thời gian", "situation": "Bạn đề xuất dùng ứng dụng để theo dõi thời gian sử dụng.",
+      "turns": [
+        { "speaker": "a", "en": "There is an app that tracks screen time.", "vi": "Có một ứng dụng theo dõi thời gian nhìn màn hình đấy." },
+        { "speaker": "b", "en": "That could really help us.", "vi": "Điều đó có thể thực sự giúp ích cho mình." },
+        { "speaker": "a", "en": "It shows a report every week.", "vi": "Nó hiện báo cáo mỗi tuần." },
+        { "speaker": "b", "en": "Let us download it together.", "vi": "Mình cùng tải nó đi." },
+        { "speaker": "a", "en": "Good idea, I will send you the link.", "vi": "Ý hay, tôi sẽ gửi bạn link." },
+        { "speaker": "b", "en": "Thanks, looking forward to it.", "vi": "Cảm ơn, tôi mong chờ điều đó." }
+      ]},
+    { "title": "Chia sẻ kết quả sau một tuần thử giảm dùng", "situation": "Bạn chia sẻ kết quả sau một tuần thử giảm thời gian dùng mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "How was your week without much social media?", "vi": "Tuần vừa rồi ít dùng mạng xã hội của bạn thế nào?" },
+        { "speaker": "b", "en": "Honestly, much better than I expected.", "vi": "Thật lòng, tốt hơn tôi mong đợi nhiều." },
+        { "speaker": "a", "en": "Did you feel less distracted?", "vi": "Bạn có thấy bớt phân tâm không?" },
+        { "speaker": "b", "en": "Yes, definitely more focused.", "vi": "Có, chắc chắn tập trung hơn." },
+        { "speaker": "a", "en": "That is great progress.", "vi": "Vậy là tiến bộ tốt đấy." },
+        { "speaker": "b", "en": "I want to keep it up.", "vi": "Tôi muốn tiếp tục duy trì điều đó." }
+      ]},
+    { "title": "Thảo luận sâu về nguyên nhân và giải pháp cho thói quen dùng điện thoại quá nhiều", "situation": "Bạn thảo luận sâu về nguyên nhân và nhiều giải pháp khác nhau cho thói quen dùng điện thoại quá nhiều. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I think the real problem is boredom, not the phone itself.", "vi": "Tôi nghĩ vấn đề thực sự là sự buồn chán, không phải bản thân điện thoại." },
+        { "speaker": "b", "en": "That is an interesting point, I never thought of it that way.", "vi": "Đó là điểm thú vị, tôi chưa từng nghĩ theo hướng đó." },
+        { "speaker": "a", "en": "Whenever I feel bored, I automatically reach for my phone.", "vi": "Bất cứ khi nào cảm thấy chán, tôi tự động cầm điện thoại lên." },
+        { "speaker": "b", "en": "So maybe the solution is finding other habits for those moments.", "vi": "Vậy có lẽ giải pháp là tìm thói quen khác cho những lúc đó." },
+        { "speaker": "a", "en": "Exactly, like reading or going for a short walk instead.", "vi": "Chính xác, như đọc sách hoặc đi bộ ngắn thay vào đó." },
+        { "speaker": "b", "en": "Let us both try replacing that habit for one week and compare results.", "vi": "Mình cùng thử thay thế thói quen đó trong một tuần rồi so sánh kết quả nhé." }
+      ]}
+  ]
+}

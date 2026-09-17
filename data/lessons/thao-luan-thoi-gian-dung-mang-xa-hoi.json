@@ -1,0 +1,98 @@
+{
+  "id": "thao-luan-thoi-gian-dung-mang-xa-hoi",
+  "title": "Thảo luận về thời gian dùng mạng xã hội mỗi ngày",
+  "topic": "Thói quen dùng mạng xã hội",
+  "level": "B1",
+  "summary": "Bạn thảo luận với người bạn thân về thời gian dùng mạng xã hội mỗi ngày và cách kiểm soát thời gian đó tốt hơn.",
+  "goals": [
+    "Nói về thời lượng sử dụng mạng xã hội hằng ngày",
+    "Diễn tả cảm giác khi dùng mạng xã hội quá nhiều",
+    "Đề xuất cách giảm thời gian dùng điện thoại"
+  ],
+  "vocab": [
+    { "en": "screen time", "ipa": "/skriːn taɪm/", "vi": "thời gian nhìn màn hình", "example": "My screen time is too high." },
+    { "en": "scroll", "ipa": "/skroʊl/", "vi": "lướt (mạng xã hội)", "example": "I scroll through my feed every night." },
+    { "en": "notification", "ipa": "/ˌnoʊtɪfɪˈkeɪʃn/", "vi": "thông báo", "example": "I get too many notifications." },
+    { "en": "distracted", "ipa": "/dɪˈstræktɪd/", "vi": "bị phân tâm", "example": "I get distracted easily by my phone." },
+    { "en": "habit", "ipa": "/ˈhæbɪt/", "vi": "thói quen", "example": "Checking my phone is a bad habit." },
+    { "en": "limit", "ipa": "/ˈlɪmɪt/", "vi": "giới hạn", "example": "I set a daily limit for social media." },
+    { "en": "waste", "ipa": "/weɪst/", "vi": "lãng phí", "example": "I waste a lot of time online." },
+    { "en": "productive", "ipa": "/prəˈdʌktɪv/", "vi": "hiệu quả, năng suất", "example": "I feel more productive without my phone." },
+    { "en": "addicted", "ipa": "/əˈdɪktɪd/", "vi": "nghiện", "example": "I think I am a little addicted." },
+    { "en": "disconnect", "ipa": "/ˌdɪskəˈnekt/", "vi": "ngắt kết nối", "example": "I try to disconnect on weekends." }
+  ],
+  "patterns": [
+    { "en": "How much screen time do you have?", "vi": "Thời gian nhìn màn hình của bạn là bao nhiêu?", "note": "Hỏi về thời lượng sử dụng mạng xã hội." },
+    { "en": "I spend too much time ___.", "vi": "Tôi dành quá nhiều thời gian ___.", "note": "Diễn tả việc dùng mạng xã hội quá nhiều." },
+    { "en": "I feel distracted when ___.", "vi": "Tôi thấy bị phân tâm khi ___.", "note": "Diễn tả cảm giác bị phân tâm." },
+    { "en": "Maybe we should set a limit on ___.", "vi": "Có lẽ mình nên đặt giới hạn cho ___.", "note": "Đề xuất cách kiểm soát thời gian." },
+    { "en": "I am trying to disconnect more.", "vi": "Tôi đang cố gắng ngắt kết nối nhiều hơn.", "note": "Nói về việc cố gắng dùng mạng xã hội ít hơn." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong notification", "tip": "Nhấn vào âm tiết thứ tư: no-ti-fi-CA-tion.", "words": ["notification"] },
+    { "focus": "âm /ə/ trong addicted", "tip": "Âm tiết đầu đọc nhẹ, gần như lướt qua.", "words": ["addicted", "distracted"] },
+    { "focus": "âm /skr/ trong scroll", "tip": "Nối liền ba âm s, k, r mà không tách rời.", "words": ["scroll"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "How many screen time do you have?", "right": "How much screen time do you have?", "vi": "Screen time là danh từ không đếm được, dùng How much." },
+    { "wrong": "I spend too much time on scroll.", "right": "I spend too much time scrolling.", "vi": "Sau spend time dùng động từ thêm ing, không dùng on trước danh động từ." },
+    { "wrong": "I am addicted with my phone.", "right": "I am addicted to my phone.", "vi": "Addicted đi với giới từ to, không dùng with." },
+    { "wrong": "Maybe we should set limit on that.", "right": "Maybe we should set a limit on that.", "vi": "Cần mạo từ a trước danh từ số ít limit." }
+  ],
+  "variations": [
+    { "situation": "Hỏi thời gian dùng", "formal": "How much time do you spend on social media daily?", "casual": "How much time do you waste online?", "vi": "Câu thân mật dùng từ waste mang tính đùa vui, tự trào." },
+    { "situation": "Nói về sự phân tâm", "formal": "I often feel distracted by notifications.", "casual": "Notifications keep pulling me away.", "vi": "Câu thân mật sinh động hơn, hay dùng giữa bạn bè." },
+    { "situation": "Đề xuất giới hạn", "formal": "Perhaps we should set a daily limit.", "casual": "Maybe we should just limit our phone time.", "vi": "Câu thân mật đơn giản, trực tiếp." },
+    { "situation": "Nói về việc ngắt kết nối", "formal": "I am making an effort to disconnect more often.", "casual": "I'm trying to unplug more.", "vi": "Unplug là cách nói thân mật, hình ảnh cho việc ngắt kết nối." }
+  ],
+  "culture": [
+    "Nhiều điện thoại thông minh có tính năng báo cáo screen time để người dùng tự theo dõi thói quen của mình.",
+    "Từ digital detox (thải độc kỹ thuật số) rất phổ biến để chỉ việc tạm ngừng dùng mạng xã hội một thời gian.",
+    "Thừa nhận mình hơi nghiện điện thoại (a little addicted) một cách hài hước là chuyện bình thường trong trò chuyện thân mật."
+  ],
+  "listening": {
+    "title": "Trò chuyện về thói quen dùng điện thoại",
+    "passage": "Honestly, my screen time last week was over six hours a day. I spend too much time scrolling through my feed before bed. I get so many notifications that I feel distracted all the time. I think I am a little addicted to checking my phone. Maybe we should set a limit on social media apps. I read that some people disconnect completely on weekends, and they feel much more productive.",
+    "vi": "Thật lòng, thời gian nhìn màn hình của tôi tuần trước là hơn sáu tiếng mỗi ngày. Tôi dành quá nhiều thời gian lướt mạng trước khi ngủ. Tôi nhận quá nhiều thông báo nên lúc nào cũng thấy bị phân tâm. Tôi nghĩ mình hơi nghiện việc kiểm tra điện thoại. Có lẽ mình nên đặt giới hạn cho các ứng dụng mạng xã hội. Tôi đọc được là một số người ngắt kết nối hoàn toàn vào cuối tuần, và họ cảm thấy năng suất hơn nhiều.",
+    "questions": [
+      { "q": "How much was the speaker's screen time last week?", "choices": ["Over six hours a day", "About one hour a day", "Less than an hour"], "answer": 0, "vi": "Đáp án đúng vì người nói nói screen time hơn sáu tiếng mỗi ngày." },
+      { "q": "Why does the speaker feel distracted?", "choices": ["Too many notifications", "No internet connection", "Too many phone calls"], "answer": 0, "vi": "Đáp án đúng vì người nói nói nhận quá nhiều thông báo." },
+      { "q": "What do some people do on weekends according to the speaker?", "choices": ["Disconnect completely", "Use social media more", "Buy a new phone"], "answer": 0, "vi": "Đáp án đúng vì người nói nói một số người ngắt kết nối hoàn toàn vào cuối tuần." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn thân", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "How much screen time do you have these days?", "vi": "Dạo này thời gian nhìn màn hình của bạn thế nào?", "hint": "" },
+      { "speaker": "b", "en": "Honestly, over six hours a day.", "vi": "Thật lòng, hơn sáu tiếng mỗi ngày.", "hint": "Dùng Honestly." },
+      { "speaker": "a", "en": "That is a lot! What do you do online?", "vi": "Nhiều đấy! Bạn làm gì trên mạng vậy?", "hint": "" },
+      { "speaker": "b", "en": "I spend too much time scrolling.", "vi": "Tôi dành quá nhiều thời gian lướt mạng.", "hint": "Dùng I spend too much time scrolling." },
+      { "speaker": "a", "en": "Do notifications bother you a lot?", "vi": "Thông báo có làm phiền bạn nhiều không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I feel distracted all the time.", "vi": "Có, tôi lúc nào cũng thấy bị phân tâm.", "hint": "Dùng I feel distracted." },
+      { "speaker": "a", "en": "Maybe we should set a limit together.", "vi": "Có lẽ mình cùng đặt giới hạn nhé.", "hint": "" },
+      { "speaker": "b", "en": "That sounds like a good idea.", "vi": "Nghe là ý hay đấy.", "hint": "Dùng That sounds like a good idea." },
+      { "speaker": "a", "en": "I am trying to disconnect on weekends.", "vi": "Tôi đang cố ngắt kết nối vào cuối tuần.", "hint": "" },
+      { "speaker": "b", "en": "I want to try that too.", "vi": "Tôi cũng muốn thử điều đó.", "hint": "Dùng I want to try that too." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a close friend discussing your own struggles with too much screen time.",
+    "opener": "How much screen time do you have these days?",
+    "goal": "Người học chia sẻ thời gian dùng mạng xã hội, diễn tả cảm giác phân tâm và đề xuất cách kiểm soát."
+  },
+  "drills": [
+    { "vi": "Thời gian nhìn màn hình của bạn là bao nhiêu?", "en": "How much screen time do you have?", "alts": [] },
+    { "vi": "Tôi dành quá nhiều thời gian lướt mạng.", "en": "I spend too much time scrolling.", "alts": [] },
+    { "vi": "Tôi thấy bị phân tâm khi có thông báo.", "en": "I feel distracted when I get notifications.", "alts": [] },
+    { "vi": "Có lẽ mình nên đặt giới hạn cho việc đó.", "en": "Maybe we should set a limit on that.", "alts": [] },
+    { "vi": "Tôi đang cố ngắt kết nối nhiều hơn.", "en": "I am trying to disconnect more.", "alts": [] },
+    { "vi": "Tôi nghĩ mình hơi nghiện điện thoại.", "en": "I think I am a little addicted to my phone.", "alts": [] },
+    { "vi": "Tôi cảm thấy năng suất hơn không có điện thoại.", "en": "I feel more productive without my phone.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn thảo luận về thời gian dùng mạng xã hội của bạn, chú ý trọng âm trong notification.",
+    "Viết ba câu về cách bạn muốn giảm thời gian dùng điện thoại.",
+    "Luyện nói ba lần câu Maybe we should set a limit on that."
+  ]
+}

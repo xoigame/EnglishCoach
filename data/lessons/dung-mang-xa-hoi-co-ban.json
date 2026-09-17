@@ -1,0 +1,98 @@
+{
+  "id": "dung-mang-xa-hoi-co-ban",
+  "title": "Dùng mạng xã hội cơ bản",
+  "topic": "Mạng xã hội hằng ngày",
+  "level": "A1",
+  "summary": "Bạn nói chuyện với một bạn cùng lớp về việc dùng mạng xã hội: đăng ảnh, thả tim và bình luận bài viết.",
+  "goals": [
+    "Nói về việc đăng ảnh lên mạng xã hội",
+    "Diễn tả hành động thả tim và bình luận",
+    "Hỏi người khác có dùng mạng xã hội không"
+  ],
+  "vocab": [
+    { "en": "post", "ipa": "/poʊst/", "vi": "đăng bài", "example": "I post a photo every week." },
+    { "en": "photo", "ipa": "/ˈfoʊtoʊ/", "vi": "bức ảnh", "example": "This is a nice photo." },
+    { "en": "like", "ipa": "/laɪk/", "vi": "thả tim, thích", "example": "I like your post." },
+    { "en": "comment", "ipa": "/ˈkɑːment/", "vi": "bình luận", "example": "She wrote a nice comment." },
+    { "en": "share", "ipa": "/ʃer/", "vi": "chia sẻ", "example": "I share funny videos." },
+    { "en": "follow", "ipa": "/ˈfɑːloʊ/", "vi": "theo dõi (tài khoản)", "example": "I follow my friends online." },
+    { "en": "account", "ipa": "/əˈkaʊnt/", "vi": "tài khoản", "example": "I have a new account." },
+    { "en": "message", "ipa": "/ˈmesɪdʒ/", "vi": "tin nhắn", "example": "I send a message every day." },
+    { "en": "app", "ipa": "/æp/", "vi": "ứng dụng", "example": "This app is easy to use." },
+    { "en": "online", "ipa": "/ˌɑːnˈlaɪn/", "vi": "trực tuyến", "example": "I am online every evening." }
+  ],
+  "patterns": [
+    { "en": "I post a photo every ___.", "vi": "Tôi đăng ảnh mỗi ___.", "note": "Nói tần suất đăng bài." },
+    { "en": "I like your ___.", "vi": "Tôi thích ___ của bạn.", "note": "Dùng để khen bài đăng của người khác." },
+    { "en": "Do you use ___?", "vi": "Bạn có dùng ___ không?", "note": "Hỏi người khác có dùng ứng dụng nào không." },
+    { "en": "I follow ___ online.", "vi": "Tôi theo dõi ___ trên mạng.", "note": "Nói về việc theo dõi ai đó." },
+    { "en": "I will comment on your post.", "vi": "Tôi sẽ bình luận vào bài của bạn.", "note": "Diễn tả hành động bình luận." }
+  ],
+  "pronunciation": [
+    { "focus": "âm /ʃ/ trong share", "tip": "Chu môi nhẹ và thổi hơi qua răng.", "words": ["share", "message"] },
+    { "focus": "âm /f/ trong follow và photo", "tip": "Chạm nhẹ răng trên vào môi dưới rồi thổi hơi.", "words": ["follow", "photo"] },
+    { "focus": "trọng âm trong account", "tip": "Nhấn vào âm tiết thứ hai: ac-COUNT.", "words": ["account"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "I post photo every week.", "right": "I post a photo every week.", "vi": "Cần mạo từ a trước danh từ số ít photo." },
+    { "wrong": "I like you post.", "right": "I like your post.", "vi": "Dùng tính từ sở hữu your, không dùng you." },
+    { "wrong": "Do you using this app?", "right": "Do you use this app?", "vi": "Sau do dùng động từ nguyên mẫu use, không thêm ing." },
+    { "wrong": "I follow she online.", "right": "I follow her online.", "vi": "Sau động từ follow dùng tân ngữ her, không dùng she." }
+  ],
+  "variations": [
+    { "situation": "Khen bài đăng", "formal": "I really like your photo.", "casual": "Nice pic!", "vi": "Câu thân mật ngắn gọn, hay dùng khi bình luận nhanh." },
+    { "situation": "Hỏi có dùng ứng dụng không", "formal": "Do you use this application?", "casual": "Do you use this app?", "vi": "App là cách gọi thân mật phổ biến của application." },
+    { "situation": "Nói về việc theo dõi", "formal": "I follow several friends online.", "casual": "I follow a bunch of friends.", "vi": "A bunch of là cách nói thân mật cho several." },
+    { "situation": "Đề nghị nhắn tin", "formal": "I will send you a message later.", "casual": "I will text you later.", "vi": "Text là cách nói thân mật của send a message." }
+  ],
+  "culture": [
+    "Thả tim (like) và bình luận ngắn là cách thể hiện sự ủng hộ nhẹ nhàng, không cần viết dài.",
+    "Nhiều người trẻ dùng từ pic thay cho photo trong giao tiếp thân mật hằng ngày.",
+    "Việc theo dõi (follow) ai đó trên mạng xã hội không nhất thiết có nghĩa là bạn thân, chỉ là quan tâm nội dung của họ."
+  ],
+  "listening": {
+    "title": "Giới thiệu thói quen dùng mạng xã hội",
+    "passage": "Hi, I am Lisa. I post a photo every weekend. I like to share photos of my food and my dog. I follow my friends and my family online. When I see a nice photo, I like it and write a comment. I also use an app to send messages to my friends every day.",
+    "vi": "Chào, tôi là Lisa. Tôi đăng ảnh mỗi cuối tuần. Tôi thích chia sẻ ảnh đồ ăn và chú chó của mình. Tôi theo dõi bạn bè và gia đình trên mạng. Khi thấy một bức ảnh đẹp, tôi thả tim và viết bình luận. Tôi cũng dùng một ứng dụng để nhắn tin cho bạn bè mỗi ngày.",
+    "questions": [
+      { "q": "When does Lisa post a photo?", "choices": ["Every weekend", "Every day", "Once a year"], "answer": 0, "vi": "Đáp án đúng vì Lisa nói cô đăng ảnh mỗi cuối tuần." },
+      { "q": "What does Lisa share photos of?", "choices": ["Food and her dog", "Only her dog", "Her work"], "answer": 0, "vi": "Đáp án đúng vì Lisa nói cô chia sẻ ảnh đồ ăn và chú chó." },
+      { "q": "What does Lisa do when she sees a nice photo?", "choices": ["Like it and comment", "Ignore it", "Delete it"], "answer": 0, "vi": "Đáp án đúng vì Lisa nói cô thả tim và viết bình luận." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Bạn cùng lớp", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "Do you use social media?", "vi": "Bạn có dùng mạng xã hội không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I post a photo every week.", "vi": "Có, tôi đăng ảnh mỗi tuần.", "hint": "Dùng I post a photo." },
+      { "speaker": "a", "en": "What do you usually post?", "vi": "Bạn thường đăng gì vậy?", "hint": "" },
+      { "speaker": "b", "en": "I share photos of my food.", "vi": "Tôi chia sẻ ảnh đồ ăn.", "hint": "Dùng I share photos of." },
+      { "speaker": "a", "en": "I like your last post.", "vi": "Tôi thích bài đăng gần đây của bạn.", "hint": "" },
+      { "speaker": "b", "en": "Thank you! I saw your comment.", "vi": "Cảm ơn! Tôi thấy bình luận của bạn.", "hint": "Dùng I saw your comment." },
+      { "speaker": "a", "en": "Do you follow many people?", "vi": "Bạn có theo dõi nhiều người không?", "hint": "" },
+      { "speaker": "b", "en": "Yes, I follow my friends and family.", "vi": "Có, tôi theo dõi bạn bè và gia đình.", "hint": "Dùng I follow." },
+      { "speaker": "a", "en": "Let us follow each other.", "vi": "Mình theo dõi nhau nhé." },
+      { "speaker": "b", "en": "Sure, I will follow you now.", "vi": "Được, giờ tôi sẽ theo dõi bạn.", "hint": "Dùng I will follow you." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friendly classmate chatting about social media habits.",
+    "opener": "Do you use social media?",
+    "goal": "Người học nói được thói quen đăng bài, thả tim, bình luận và đồng ý theo dõi nhau."
+  },
+  "drills": [
+    { "vi": "Tôi đăng ảnh mỗi tuần.", "en": "I post a photo every week.", "alts": [] },
+    { "vi": "Tôi thích bài đăng của bạn.", "en": "I like your post.", "alts": [] },
+    { "vi": "Tôi sẽ bình luận vào bài của bạn.", "en": "I will comment on your post.", "alts": [] },
+    { "vi": "Bạn có dùng ứng dụng này không?", "en": "Do you use this app?", "alts": [] },
+    { "vi": "Tôi theo dõi bạn bè trên mạng.", "en": "I follow my friends online.", "alts": [] },
+    { "vi": "Tôi chia sẻ những video vui.", "en": "I share funny videos.", "alts": [] },
+    { "vi": "Mình theo dõi nhau nhé.", "en": "Let us follow each other.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn giới thiệu thói quen dùng mạng xã hội của bạn, chú ý âm /f/ trong follow.",
+    "Viết ba câu nói về nội dung bạn thường đăng lên mạng xã hội.",
+    "Luyện nói ba lần câu Do you use this app?"
+  ]
+}

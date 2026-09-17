@@ -1,0 +1,98 @@
+{
+  "id": "tranh-luan-anh-huong-mang-xa-hoi",
+  "title": "Tranh luận về ảnh hưởng của mạng xã hội tới giới trẻ",
+  "topic": "Tranh luận về mạng xã hội",
+  "level": "B2",
+  "summary": "Bạn tranh luận với một người bạn có quan điểm trái ngược về việc mạng xã hội ảnh hưởng tích cực hay tiêu cực đến giới trẻ.",
+  "goals": [
+    "Trình bày lập luận về tác động của mạng xã hội",
+    "Phản biện quan điểm trái ngược một cách tôn trọng",
+    "Đưa ra ví dụ cụ thể để minh hoạ lập luận"
+  ],
+  "vocab": [
+    { "en": "impact", "ipa": "/ˈɪmpækt/", "vi": "tác động", "example": "Social media has a big impact on teenagers." },
+    { "en": "self-esteem", "ipa": "/self ɪˈstiːm/", "vi": "lòng tự trọng", "example": "It can affect their self-esteem." },
+    { "en": "comparison", "ipa": "/kəmˈpærɪsn/", "vi": "sự so sánh", "example": "Constant comparison can be harmful." },
+    { "en": "connection", "ipa": "/kəˈnekʃn/", "vi": "sự kết nối", "example": "It helps people stay connected." },
+    { "en": "anxiety", "ipa": "/æŋˈzaɪəti/", "vi": "sự lo âu", "example": "Some studies link it to anxiety." },
+    { "en": "exaggerate", "ipa": "/ɪɡˈzædʒəreɪt/", "vi": "phóng đại", "example": "I think you are exaggerating the risks." },
+    { "en": "awareness", "ipa": "/əˈwernəs/", "vi": "nhận thức", "example": "It raises awareness about many issues." },
+    { "en": "moderation", "ipa": "/ˌmɑːdəˈreɪʃn/", "vi": "sự điều độ", "example": "Everything is fine in moderation." },
+    { "en": "peer pressure", "ipa": "/pɪr ˈpreʃər/", "vi": "áp lực bạn bè đồng trang lứa", "example": "Peer pressure online is real." },
+    { "en": "beneficial", "ipa": "/ˌbenɪˈfɪʃl/", "vi": "có lợi", "example": "It can be beneficial in many ways." }
+  ],
+  "patterns": [
+    { "en": "I believe social media has a negative impact on ___.", "vi": "Tôi tin rằng mạng xã hội có tác động tiêu cực đến ___.", "note": "Trình bày lập luận về tác động tiêu cực." },
+    { "en": "On the other hand, it can also ___.", "vi": "Mặt khác, nó cũng có thể ___.", "note": "Đưa ra góc nhìn cân bằng." },
+    { "en": "I think you are exaggerating ___.", "vi": "Tôi nghĩ bạn đang phóng đại ___.", "note": "Phản biện lập luận một cách nhẹ nhàng." },
+    { "en": "For example, ___.", "vi": "Ví dụ, ___.", "note": "Đưa ví dụ cụ thể để minh hoạ." },
+    { "en": "It really depends on how it is used.", "vi": "Điều đó thực sự phụ thuộc vào cách sử dụng.", "note": "Đưa ra quan điểm cân bằng, tránh cực đoan." }
+  ],
+  "pronunciation": [
+    { "focus": "trọng âm trong comparison", "tip": "Nhấn vào âm tiết thứ hai: com-PAR-ison.", "words": ["comparison", "moderation"] },
+    { "focus": "âm /z/ trong anxiety và exaggerate", "tip": "Rung dây thanh quản khi phát âm, không đọc thành /s/.", "words": ["anxiety", "exaggerate"] },
+    { "focus": "âm /ʃ/ trong beneficial", "tip": "Chu môi nhẹ, thổi hơi qua răng.", "words": ["beneficial", "self-esteem"] }
+  ],
+  "commonMistakes": [
+    { "wrong": "Social media have a negative impact.", "right": "Social media has a negative impact.", "vi": "Social media được coi là danh từ số ít trong tiếng Anh hiện đại, dùng has." },
+    { "wrong": "I think you exaggerate.", "right": "I think you are exaggerating.", "vi": "Cần dùng thì hiện tại tiếp diễn are exaggerating để nói về hành động đang diễn ra trong lời nói." },
+    { "wrong": "It depends how it use.", "right": "It depends on how it is used.", "vi": "Depend cần giới từ on, và cần bị động is used." },
+    { "wrong": "It can affect to their self-esteem.", "right": "It can affect their self-esteem.", "vi": "Affect là ngoại động từ, không cần giới từ to." }
+  ],
+  "variations": [
+    { "situation": "Đưa lập luận tiêu cực", "formal": "I believe it has a detrimental effect on teenagers.", "casual": "I think it's pretty bad for teenagers.", "vi": "Câu thân mật đơn giản hơn nhưng vẫn rõ ý." },
+    { "situation": "Phản biện nhẹ nhàng", "formal": "I think you might be exaggerating the risks.", "casual": "I think you're overreacting a bit.", "vi": "Overreacting mang tính thân mật, thường dùng giữa bạn bè." },
+    { "situation": "Đưa quan điểm cân bằng", "formal": "It really depends on how it is used.", "casual": "It's all about how you use it, really.", "vi": "Cả hai đều thể hiện quan điểm cân bằng, câu thân mật gần gũi hơn." },
+    { "situation": "Kết luận", "formal": "In moderation, it can be quite beneficial.", "casual": "Used in moderation, it's not so bad.", "vi": "Câu thân mật đơn giản, phù hợp để kết luận cuộc trò chuyện." }
+  ],
+  "culture": [
+    "Tranh luận về ảnh hưởng của mạng xã hội là chủ đề phổ biến trong các buổi thảo luận, báo chí và nghiên cứu ở phương Tây.",
+    "Cụm from social media detox đến digital wellbeing đều xuất hiện thường xuyên trong các cuộc trò chuyện về chủ đề này.",
+    "Khi tranh luận, dùng cụm it depends thể hiện sự cân nhắc và tránh phát biểu cực đoan, được đánh giá cao trong giao tiếp lịch sự."
+  ],
+  "listening": {
+    "title": "Quan điểm về mạng xã hội và giới trẻ",
+    "passage": "I believe social media has a negative impact on teenagers' self-esteem. Constant comparison with others online can lead to anxiety. On the other hand, it also helps people stay connected with friends and raises awareness about important issues. I think some people exaggerate the risks, but there are real concerns too. In my opinion, it really depends on how it is used. In moderation, and with the right awareness, it can actually be quite beneficial.",
+    "vi": "Tôi tin rằng mạng xã hội có tác động tiêu cực đến lòng tự trọng của thanh thiếu niên. Việc so sánh liên tục với người khác trên mạng có thể dẫn đến lo âu. Mặt khác, nó cũng giúp mọi người giữ kết nối với bạn bè và nâng cao nhận thức về những vấn đề quan trọng. Tôi nghĩ một số người phóng đại rủi ro, nhưng cũng có những lo ngại thật sự. Theo tôi, điều đó thực sự phụ thuộc vào cách sử dụng. Nếu điều độ, và có nhận thức đúng, nó thực ra có thể khá có lợi.",
+    "questions": [
+      { "q": "What does the speaker say can lead to anxiety?", "choices": ["Constant comparison online", "Lack of internet access", "Too much exercise"], "answer": 0, "vi": "Đáp án đúng vì người nói nói sự so sánh liên tục trên mạng có thể dẫn đến lo âu." },
+      { "q": "What positive point does the speaker mention?", "choices": ["It helps people stay connected", "It has no benefits at all", "It replaces real friendships"], "answer": 0, "vi": "Đáp án đúng vì người nói nói nó giúp mọi người giữ kết nối với bạn bè." },
+      { "q": "What is the speaker's final opinion?", "choices": ["It depends on how it is used", "It should be banned completely", "It has no effect on anyone"], "answer": 0, "vi": "Đáp án đúng vì người nói kết luận rằng điều đó phụ thuộc vào cách sử dụng." }
+    ]
+  },
+  "dialogue": {
+    "roles": { "a": "Người bạn có quan điểm trái ngược", "b": "Người học" },
+    "userRole": "b",
+    "turns": [
+      { "speaker": "a", "en": "I think social media is great for teenagers.", "vi": "Tôi nghĩ mạng xã hội rất tốt cho thanh thiếu niên." },
+      { "speaker": "b", "en": "I believe it has a negative impact on their self-esteem.", "vi": "Tôi tin rằng nó có tác động tiêu cực đến lòng tự trọng của họ.", "hint": "Dùng I believe it has a negative impact on." },
+      { "speaker": "a", "en": "Really? It helps them stay connected with friends.", "vi": "Thật vậy sao? Nó giúp họ giữ kết nối với bạn bè mà.", "hint": "" },
+      { "speaker": "b", "en": "On the other hand, constant comparison can cause anxiety.", "vi": "Mặt khác, việc so sánh liên tục có thể gây lo âu.", "hint": "Dùng On the other hand." },
+      { "speaker": "a", "en": "I think you are exaggerating the risks a bit.", "vi": "Tôi nghĩ bạn đang hơi phóng đại rủi ro.", "hint": "" },
+      { "speaker": "b", "en": "For example, many studies link it to lower self-esteem.", "vi": "Ví dụ, nhiều nghiên cứu liên hệ nó với lòng tự trọng thấp hơn.", "hint": "Dùng For example." },
+      { "speaker": "a", "en": "That is a fair point, I had not thought of that.", "vi": "Đó là điểm hợp lý, tôi chưa nghĩ đến điều đó.", "hint": "" },
+      { "speaker": "b", "en": "It really depends on how it is used.", "vi": "Điều đó thực sự phụ thuộc vào cách sử dụng.", "hint": "Dùng It really depends on how it is used." },
+      { "speaker": "a", "en": "So moderation is the key, then.", "vi": "Vậy điều độ là chìa khoá nhỉ.", "hint": "" },
+      { "speaker": "b", "en": "Exactly, in moderation it can be beneficial.", "vi": "Chính xác, nếu điều độ nó có thể có lợi.", "hint": "Dùng in moderation it can be beneficial." }
+    ]
+  },
+  "roleplay": {
+    "persona": "You are a friend who believes social media is mostly positive for teenagers.",
+    "opener": "I think social media is great for teenagers.",
+    "goal": "Người học trình bày lập luận cân bằng, đưa ví dụ cụ thể và phản biện tôn trọng."
+  },
+  "drills": [
+    { "vi": "Tôi tin rằng nó có tác động tiêu cực đến lòng tự trọng.", "en": "I believe it has a negative impact on self-esteem.", "alts": [] },
+    { "vi": "Mặt khác, nó cũng giúp mọi người kết nối.", "en": "On the other hand, it also helps people connect.", "alts": [] },
+    { "vi": "Tôi nghĩ bạn đang phóng đại rủi ro.", "en": "I think you are exaggerating the risks.", "alts": [] },
+    { "vi": "Ví dụ, nhiều nghiên cứu chỉ ra điều đó.", "en": "For example, many studies show that.", "alts": [] },
+    { "vi": "Điều đó thực sự phụ thuộc vào cách sử dụng.", "en": "It really depends on how it is used.", "alts": [] },
+    { "vi": "Nếu điều độ, nó có thể có lợi.", "en": "In moderation, it can be beneficial.", "alts": [] },
+    { "vi": "Đó là điểm hợp lý.", "en": "That is a fair point.", "alts": [] }
+  ],
+  "homework": [
+    "Ghi âm đoạn tranh luận về ảnh hưởng của mạng xã hội, chú ý trọng âm trong comparison.",
+    "Viết ba câu dùng cấu trúc On the other hand, ___.",
+    "Luyện nói ba lần câu It really depends on how it is used."
+  ]
+}

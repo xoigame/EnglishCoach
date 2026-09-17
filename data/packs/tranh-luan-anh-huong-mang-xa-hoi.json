@@ -1,0 +1,96 @@
+{
+  "id": "tranh-luan-anh-huong-mang-xa-hoi",
+  "level": "B2",
+  "dialogues": [
+    { "title": "Mở đầu tranh luận về tác động", "situation": "Hai người bắt đầu tranh luận về tác động của mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "I think social media is great for teenagers.", "vi": "Tôi nghĩ mạng xã hội rất tốt cho thanh thiếu niên." },
+        { "speaker": "b", "en": "I believe it has a negative impact on their self-esteem.", "vi": "Tôi tin rằng nó có tác động tiêu cực đến lòng tự trọng của họ." },
+        { "speaker": "a", "en": "Why do you think that?", "vi": "Vì sao bạn nghĩ vậy?" },
+        { "speaker": "b", "en": "Constant comparison can be harmful.", "vi": "Việc so sánh liên tục có thể gây hại." },
+        { "speaker": "a", "en": "That is a fair concern.", "vi": "Đó là mối lo ngại hợp lý đấy." },
+        { "speaker": "b", "en": "I am glad you see it too.", "vi": "Tôi vui vì bạn cũng thấy vậy." }
+      ]},
+    { "title": "Đưa góc nhìn tích cực", "situation": "Bạn đưa ra góc nhìn tích cực về mạng xã hội.",
+      "turns": [
+        { "speaker": "a", "en": "On the other hand, it helps people stay connected.", "vi": "Mặt khác, nó giúp mọi người giữ kết nối." },
+        { "speaker": "b", "en": "That is true for distant friends.", "vi": "Điều đó đúng với bạn bè ở xa." },
+        { "speaker": "a", "en": "It also raises awareness about issues.", "vi": "Nó còn nâng cao nhận thức về các vấn đề." },
+        { "speaker": "b", "en": "That is a valid point.", "vi": "Đó là điểm có giá trị đấy." },
+        { "speaker": "a", "en": "So it is not all negative.", "vi": "Vậy nó không hoàn toàn tiêu cực." },
+        { "speaker": "b", "en": "I agree with that much.", "vi": "Tôi đồng ý phần đó." }
+      ]},
+    { "title": "Phản biện nhẹ nhàng", "situation": "Bạn phản biện quan điểm của người kia một cách nhẹ nhàng.",
+      "turns": [
+        { "speaker": "a", "en": "I think you are exaggerating the risks a bit.", "vi": "Tôi nghĩ bạn đang hơi phóng đại rủi ro." },
+        { "speaker": "b", "en": "Maybe, but studies do support my point.", "vi": "Có thể, nhưng các nghiên cứu ủng hộ quan điểm của tôi." },
+        { "speaker": "a", "en": "Which studies are you referring to?", "vi": "Bạn đang nhắc đến nghiên cứu nào vậy?" },
+        { "speaker": "b", "en": "For example, several link it to anxiety.", "vi": "Ví dụ, nhiều nghiên cứu liên hệ nó với lo âu." },
+        { "speaker": "a", "en": "That is worth considering.", "vi": "Điều đó đáng để cân nhắc đấy." },
+        { "speaker": "b", "en": "I appreciate you keeping an open mind.", "vi": "Tôi đánh giá cao việc bạn giữ tâm thế cởi mở." }
+      ]},
+    { "title": "Đưa ví dụ cụ thể", "situation": "Bạn đưa ví dụ cụ thể để minh hoạ lập luận.",
+      "turns": [
+        { "speaker": "a", "en": "For example, my sister felt anxious after comparing herself online.", "vi": "Ví dụ, em gái tôi cảm thấy lo âu sau khi so sánh bản thân trên mạng." },
+        { "speaker": "b", "en": "That is a real concern, honestly.", "vi": "Thật lòng, đó là mối lo ngại thật sự." },
+        { "speaker": "a", "en": "It happens to a lot of young people.", "vi": "Điều đó xảy ra với nhiều người trẻ." },
+        { "speaker": "b", "en": "I had not considered that personal side.", "vi": "Tôi chưa từng nghĩ đến khía cạnh cá nhân đó." },
+        { "speaker": "a", "en": "It changed how I see the issue too.", "vi": "Nó cũng thay đổi cách tôi nhìn nhận vấn đề." },
+        { "speaker": "b", "en": "Thank you for sharing that.", "vi": "Cảm ơn bạn đã chia sẻ điều đó." }
+      ]},
+    { "title": "Kết luận với quan điểm cân bằng", "situation": "Bạn kết luận cuộc tranh luận với quan điểm cân bằng.",
+      "turns": [
+        { "speaker": "a", "en": "It really depends on how it is used.", "vi": "Điều đó thực sự phụ thuộc vào cách sử dụng." },
+        { "speaker": "b", "en": "I agree with that conclusion.", "vi": "Tôi đồng ý với kết luận đó." },
+        { "speaker": "a", "en": "In moderation, it can be beneficial.", "vi": "Nếu điều độ, nó có thể có lợi." },
+        { "speaker": "b", "en": "Moderation seems to be the key.", "vi": "Điều độ dường như là chìa khoá." },
+        { "speaker": "a", "en": "Exactly, balance matters most.", "vi": "Chính xác, sự cân bằng quan trọng nhất." },
+        { "speaker": "b", "en": "Well said.", "vi": "Nói hay đấy." }
+      ]},
+    { "title": "Bàn về áp lực bạn bè đồng trang lứa", "situation": "Bạn bàn về áp lực bạn bè đồng trang lứa trên mạng.",
+      "turns": [
+        { "speaker": "a", "en": "Peer pressure online is real, I think.", "vi": "Tôi nghĩ áp lực bạn bè đồng trang lứa trên mạng là có thật." },
+        { "speaker": "b", "en": "Can you give an example?", "vi": "Bạn cho ví dụ được không?" },
+        { "speaker": "a", "en": "Teenagers feel pressure to look perfect.", "vi": "Thanh thiếu niên cảm thấy áp lực phải trông hoàn hảo." },
+        { "speaker": "b", "en": "That is a serious issue, honestly.", "vi": "Thật lòng, đó là vấn đề nghiêm trọng." },
+        { "speaker": "a", "en": "Awareness could help reduce it.", "vi": "Sự nhận thức có thể giúp giảm bớt điều đó." },
+        { "speaker": "b", "en": "I hope schools address it more.", "vi": "Tôi mong các trường học chú trọng hơn về vấn đề này." }
+      ]},
+    { "title": "Thảo luận về việc nâng cao nhận thức", "situation": "Bạn thảo luận về vai trò tích cực của mạng xã hội trong việc nâng cao nhận thức.",
+      "turns": [
+        { "speaker": "a", "en": "Social media does raise awareness about many issues.", "vi": "Mạng xã hội thực sự nâng cao nhận thức về nhiều vấn đề." },
+        { "speaker": "b", "en": "That is one clear benefit.", "vi": "Đó là một lợi ích rõ ràng đấy." },
+        { "speaker": "a", "en": "For example, environmental campaigns spread quickly.", "vi": "Ví dụ, các chiến dịch môi trường lan truyền nhanh chóng." },
+        { "speaker": "b", "en": "I have seen that happen too.", "vi": "Tôi cũng thấy điều đó xảy ra." },
+        { "speaker": "a", "en": "It shows the positive side clearly.", "vi": "Nó cho thấy rõ mặt tích cực." },
+        { "speaker": "b", "en": "I agree, it is not all bad.", "vi": "Tôi đồng ý, nó không hoàn toàn tệ." }
+      ]},
+    { "title": "Đồng ý một phần rồi giữ quan điểm riêng", "situation": "Bạn đồng ý một phần với đối phương nhưng vẫn giữ quan điểm riêng.",
+      "turns": [
+        { "speaker": "a", "en": "That is a fair point, I had not thought of that.", "vi": "Đó là điểm hợp lý, tôi chưa nghĩ đến điều đó." },
+        { "speaker": "b", "en": "So do you agree with me now?", "vi": "Vậy giờ bạn đồng ý với tôi chưa?" },
+        { "speaker": "a", "en": "Partly, but I still see benefits too.", "vi": "Một phần thôi, nhưng tôi vẫn thấy có lợi ích nữa." },
+        { "speaker": "b", "en": "That is fair, both sides exist.", "vi": "Vậy hợp lý, cả hai mặt đều tồn tại." },
+        { "speaker": "a", "en": "Exactly, it is a complex topic.", "vi": "Chính xác, đây là chủ đề phức tạp." },
+        { "speaker": "b", "en": "I appreciate this discussion.", "vi": "Tôi trân trọng cuộc thảo luận này." }
+      ]},
+    { "title": "Đề xuất giải pháp cụ thể sau tranh luận", "situation": "Bạn đề xuất giải pháp cụ thể sau khi tranh luận xong.",
+      "turns": [
+        { "speaker": "a", "en": "So what should teenagers actually do?", "vi": "Vậy thanh thiếu niên nên làm gì thực sự?" },
+        { "speaker": "b", "en": "Maybe set time limits and stay aware.", "vi": "Có lẽ đặt giới hạn thời gian và giữ nhận thức." },
+        { "speaker": "a", "en": "That sounds like a practical solution.", "vi": "Nghe như một giải pháp thực tế đấy." },
+        { "speaker": "b", "en": "Parents could help guide that too.", "vi": "Phụ huynh cũng có thể giúp hướng dẫn điều đó." },
+        { "speaker": "a", "en": "That would make a real difference.", "vi": "Điều đó sẽ tạo ra khác biệt thực sự." },
+        { "speaker": "b", "en": "I think so too.", "vi": "Tôi cũng nghĩ vậy." }
+      ]},
+    { "title": "Tranh luận phức tạp với nhiều lớp lập luận về lợi ích và tác hại chồng chéo", "situation": "Hai người tranh luận phức tạp với nhiều lớp lập luận chồng chéo về lợi ích và tác hại của mạng xã hội. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "I believe the connection benefits outweigh the self-esteem risks for most teenagers.", "vi": "Tôi tin lợi ích kết nối vượt trội hơn rủi ro về lòng tự trọng đối với hầu hết thanh thiếu niên." },
+        { "speaker": "b", "en": "On the other hand, the studies on anxiety and comparison are quite alarming.", "vi": "Mặt khác, các nghiên cứu về lo âu và so sánh khá đáng báo động." },
+        { "speaker": "a", "en": "For example, though, awareness campaigns have also saved lives through early support.", "vi": "Tuy nhiên ví dụ, các chiến dịch nâng cao nhận thức cũng cứu được nhiều người nhờ hỗ trợ sớm." },
+        { "speaker": "b", "en": "That is a fair point, but it really depends on the platform and how it is designed.", "vi": "Đó là điểm hợp lý, nhưng thực sự phụ thuộc vào nền tảng và cách nó được thiết kế." },
+        { "speaker": "a", "en": "I think you are right that design plays a bigger role than I first admitted.", "vi": "Tôi nghĩ bạn đúng khi nói thiết kế đóng vai trò lớn hơn tôi thừa nhận ban đầu." },
+        { "speaker": "b", "en": "So maybe the real solution is better platform design, not just individual moderation.", "vi": "Vậy có lẽ giải pháp thực sự là thiết kế nền tảng tốt hơn, không chỉ là tự điều độ cá nhân." }
+      ]}
+  ]
+}

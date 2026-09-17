@@ -1,0 +1,96 @@
+{
+  "id": "nho-ban-sua-loi-dien-thoai",
+  "level": "A2",
+  "dialogues": [
+    { "title": "Nhờ giúp vì màn hình bị đơ", "situation": "Bạn nhờ bạn giúp vì màn hình điện thoại bị đơ.",
+      "turns": [
+        { "speaker": "a", "en": "My phone is not working properly.", "vi": "Điện thoại tôi hoạt động không bình thường." },
+        { "speaker": "b", "en": "What exactly is happening?", "vi": "Chính xác chuyện gì đang xảy ra vậy?" },
+        { "speaker": "a", "en": "The screen keeps freezing.", "vi": "Màn hình cứ bị đơ." },
+        { "speaker": "b", "en": "Have you tried restarting it?", "vi": "Bạn đã thử khởi động lại chưa?" },
+        { "speaker": "a", "en": "Not yet, let me try.", "vi": "Chưa, để tôi thử." },
+        { "speaker": "b", "en": "Let me know if it works.", "vi": "Nếu được thì báo tôi nhé." }
+      ]},
+    { "title": "Nhờ giúp vì pin hết nhanh", "situation": "Bạn than phiền về việc pin điện thoại hết quá nhanh.",
+      "turns": [
+        { "speaker": "a", "en": "My battery is draining very quickly.", "vi": "Pin của tôi hết rất nhanh." },
+        { "speaker": "b", "en": "That happens to old phones sometimes.", "vi": "Điều đó thỉnh thoảng xảy ra với điện thoại cũ." },
+        { "speaker": "a", "en": "Could you help me fix this?", "vi": "Bạn giúp tôi sửa cái này được không?" },
+        { "speaker": "b", "en": "Sure, let us check the settings.", "vi": "Được, mình kiểm tra cài đặt nhé." },
+        { "speaker": "a", "en": "Thank you for your help.", "vi": "Cảm ơn bạn đã giúp đỡ." },
+        { "speaker": "b", "en": "No problem at all.", "vi": "Không sao đâu." }
+      ]},
+    { "title": "Kiểm tra bộ nhớ đầy", "situation": "Bạn kiểm tra xem bộ nhớ điện thoại có đầy không.",
+      "turns": [
+        { "speaker": "a", "en": "Let us check the storage first.", "vi": "Mình kiểm tra bộ nhớ trước nhé." },
+        { "speaker": "b", "en": "Okay, how do I do that?", "vi": "Được, tôi làm thế nào vậy?" },
+        { "speaker": "a", "en": "Open the settings menu.", "vi": "Mở phần cài đặt." },
+        { "speaker": "b", "en": "It says my storage is almost full.", "vi": "Nó hiện bộ nhớ của tôi gần đầy rồi." },
+        { "speaker": "a", "en": "You can delete old photos.", "vi": "Bạn có thể xoá ảnh cũ." },
+        { "speaker": "b", "en": "Good idea, I will do that.", "vi": "Ý hay, tôi sẽ làm vậy." }
+      ]},
+    { "title": "Cập nhật ứng dụng bị lỗi", "situation": "Bạn giúp bạn mình cập nhật một ứng dụng bị lỗi.",
+      "turns": [
+        { "speaker": "a", "en": "This app keeps freezing.", "vi": "Ứng dụng này cứ bị đơ." },
+        { "speaker": "b", "en": "You need to update this app.", "vi": "Bạn cần cập nhật ứng dụng này." },
+        { "speaker": "a", "en": "How do I update it?", "vi": "Tôi cập nhật nó thế nào?" },
+        { "speaker": "b", "en": "Go to the app store and check.", "vi": "Vào cửa hàng ứng dụng và kiểm tra thử." },
+        { "speaker": "a", "en": "Okay, I found the update.", "vi": "Được, tôi tìm thấy bản cập nhật rồi." },
+        { "speaker": "b", "en": "Great, that should fix it.", "vi": "Tuyệt, vậy sẽ khắc phục được lỗi." }
+      ]},
+    { "title": "Tải lại ứng dụng bị mất", "situation": "Bạn giúp bạn mình tải lại một ứng dụng bị xoá nhầm.",
+      "turns": [
+        { "speaker": "a", "en": "I accidentally deleted an important app.", "vi": "Tôi lỡ xoá mất một ứng dụng quan trọng." },
+        { "speaker": "b", "en": "Do not worry, you can download it again.", "vi": "Đừng lo, bạn có thể tải lại được." },
+        { "speaker": "a", "en": "How do I do that?", "vi": "Tôi làm thế nào vậy?" },
+        { "speaker": "b", "en": "Search for it in the app store.", "vi": "Tìm nó trong cửa hàng ứng dụng." },
+        { "speaker": "a", "en": "Found it, thank you.", "vi": "Tìm thấy rồi, cảm ơn bạn." },
+        { "speaker": "b", "en": "No problem, glad I could help.", "vi": "Không sao, vui vì tôi giúp được." }
+      ]},
+    { "title": "Sửa lỗi thông báo không hiện", "situation": "Bạn giúp bạn mình sửa lỗi thông báo không hiện lên.",
+      "turns": [
+        { "speaker": "a", "en": "I am not getting any notifications.", "vi": "Tôi không nhận được thông báo nào cả." },
+        { "speaker": "b", "en": "Let us check the settings for that.", "vi": "Mình kiểm tra cài đặt cho việc đó nhé." },
+        { "speaker": "a", "en": "Okay, where do I look?", "vi": "Được, tôi xem ở đâu vậy?" },
+        { "speaker": "b", "en": "Under notifications in settings.", "vi": "Trong mục thông báo ở phần cài đặt." },
+        { "speaker": "a", "en": "I see, it was turned off.", "vi": "À, nó bị tắt rồi." },
+        { "speaker": "b", "en": "That fixed it, thank you!", "vi": "Vậy là hết lỗi rồi, cảm ơn bạn!" }
+      ]},
+    { "title": "Giúp bạn cài lại wifi", "situation": "Bạn giúp bạn mình kết nối lại wifi trên điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "My phone will not connect to wifi.", "vi": "Điện thoại tôi không kết nối được wifi." },
+        { "speaker": "b", "en": "Have you tried turning wifi off and on?", "vi": "Bạn đã thử tắt rồi bật lại wifi chưa?" },
+        { "speaker": "a", "en": "Not yet, let me try that.", "vi": "Chưa, để tôi thử xem." },
+        { "speaker": "b", "en": "Did it work?", "vi": "Có được không?" },
+        { "speaker": "a", "en": "Yes, it is connected now.", "vi": "Có, giờ đã kết nối rồi." },
+        { "speaker": "b", "en": "You're a lifesaver, thanks!", "vi": "Bạn cứu tinh thật đấy, cảm ơn!" }
+      ]},
+    { "title": "Khắc phục lỗi camera không mở", "situation": "Bạn giúp bạn mình khắc phục lỗi camera điện thoại không mở được.",
+      "turns": [
+        { "speaker": "a", "en": "My camera app will not open.", "vi": "Ứng dụng camera của tôi không mở được." },
+        { "speaker": "b", "en": "Try restarting your phone first.", "vi": "Thử khởi động lại điện thoại trước xem." },
+        { "speaker": "a", "en": "Okay, restarting now.", "vi": "Được, đang khởi động lại." },
+        { "speaker": "b", "en": "Does it work now?", "vi": "Giờ có được không?" },
+        { "speaker": "a", "en": "Yes! It opens fine now.", "vi": "Có! Giờ mở bình thường rồi." },
+        { "speaker": "b", "en": "Great, glad it worked.", "vi": "Tuyệt, vui vì nó hoạt động." }
+      ]},
+    { "title": "Cảm ơn sau khi được giúp sửa xong", "situation": "Bạn cảm ơn bạn mình sau khi được giúp sửa điện thoại.",
+      "turns": [
+        { "speaker": "a", "en": "Thank you for helping me today.", "vi": "Cảm ơn bạn đã giúp tôi hôm nay." },
+        { "speaker": "b", "en": "You are welcome, anytime.", "vi": "Không có gì, lúc nào cũng được." },
+        { "speaker": "a", "en": "My phone works perfectly now.", "vi": "Điện thoại tôi giờ hoạt động hoàn hảo." },
+        { "speaker": "b", "en": "I am glad I could help.", "vi": "Tôi vui vì đã giúp được." },
+        { "speaker": "a", "en": "I owe you one.", "vi": "Tôi nợ bạn một lần đấy." },
+        { "speaker": "b", "en": "Do not worry about it.", "vi": "Đừng lo về điều đó." }
+      ]},
+    { "title": "Khắc phục nhiều lỗi điện thoại cùng lúc", "situation": "Bạn nhờ bạn giúp khắc phục nhiều lỗi điện thoại xảy ra cùng lúc. Tình huống khó nhất trong bộ này.",
+      "turns": [
+        { "speaker": "a", "en": "My phone has several problems today.", "vi": "Hôm nay điện thoại tôi có mấy vấn đề." },
+        { "speaker": "b", "en": "What is happening exactly?", "vi": "Chính xác chuyện gì đang xảy ra vậy?" },
+        { "speaker": "a", "en": "The battery drains fast and the screen freezes sometimes.", "vi": "Pin hết nhanh và màn hình đôi khi bị đơ." },
+        { "speaker": "b", "en": "Let us check the storage and update the apps first.", "vi": "Mình kiểm tra bộ nhớ và cập nhật ứng dụng trước nhé." },
+        { "speaker": "a", "en": "Okay, I updated everything already.", "vi": "Được, tôi đã cập nhật hết rồi." },
+        { "speaker": "b", "en": "Now let us restart the phone and see if both problems are fixed.", "vi": "Giờ mình khởi động lại điện thoại xem cả hai vấn đề có hết không." }
+      ]}
+  ]
+}
